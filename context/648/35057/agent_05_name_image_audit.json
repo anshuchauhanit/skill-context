@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Portable Classrooms' directly matches the top primary keyword and buyer intent queries confirmed in Agent 3 alt_names, and aligns with IndiaMART taxonomy positioning within the Portable Cabin parent category.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a Western-style wood-clad portable classroom in a snow-covered outdoor setting, which does not represent the Indian primary segment of steel-framed PUF/sandwich panel portable classroom cabins — the visual language (wood siding, snow, bare deciduous trees) is entirely non-Indian and will not resonate with Indian buyers.",
+      "The image lacks any visible steel frame, PUF/sandwich panel cladding, or Indian construction context, making it actively misleading for the primary segment and likely to reduce buyer trust and click-through from Indian school/NGO buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A standalone steel-framed portable classroom cabin with light grey PUF sandwich panel walls and a corrugated metal roof, featuring two large white-framed windows and a single door with steps, placed on flat ground under bright Indian daylight with a clear blue sky background, front-facing three-quarter view, clean white or light neutral ground, no snow or trees, photorealistic product-style render, sharp focus, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
