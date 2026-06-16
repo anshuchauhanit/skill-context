@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Greenhouse Construction Services' directly matches the top primary keyword and is the standard buyer-facing search term confirmed across Agent 3 alt_names and market_context, where it is commercially synonymous with polyhouse/NVPH construction in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a genuine greenhouse structure under active construction with GI-pipe arched framework and partial polyfilm covering, which correctly represents the MCAT's core service.",
+      "However, the setting appears to be a Western/temperate farm context (dense green trees, red ladder, lawn tractor) rather than an Indian agricultural field, and the partially constructed state with construction equipment clutters the frame — a completed Indian NVPH polyhouse with visible UV-film covering and crop rows inside would be a significantly stronger, buyer-relevant thumbnail."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic aerial-perspective view of a completed multi-span naturally ventilated polyhouse (NVPH) on a flat Indian agricultural field under bright daylight. The structure has a white UV-stabilized polyethylene film covering stretched over galvanized iron pipe arches, with open roll-up side vents and ridge ventilation. Inside, rows of green vegetable plants (capsicum or cucumber) are visible through the transparent film. The foreground shows bare red-brown Indian soil. Clear blue sky background. Clean, professional composition with no people, no ladders, no construction clutter. Sharp focus, high contrast, commercial product-style lighting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
