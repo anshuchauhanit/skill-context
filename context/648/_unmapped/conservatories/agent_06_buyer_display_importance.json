@@ -1,0 +1,193 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Conservatories are custom architectural structures with high visual variation across roof styles, frame materials, glazing types, and finishes — buyers scan images first to confirm aesthetic fit with their property. A listing without a compelling photo cannot communicate the product's design quality, which is the primary purchase driver for residential and hospitality buyers."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Frame material, glazing type, and structure type are non-interchangeable shortlisting criteria — an aluminium lean-to with polycarbonate roofing is a fundamentally different product from a uPVC Victorian with double-glazed glass. Buyers eliminate listings that don't match their structural and material requirements before contacting any seller."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft price varies substantially with frame material, glazing type, and structure complexity — buyers use the listed rate as a primary budget-fit filter before engaging. Indian buyers across residential and hospitality segments are price-aggressive and compare per-sq-ft rates across sellers once spec tier is identified."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Large commercial or hospitality projects may be quoted per project (lump sum); prefabricated kit modules may be quoted per set. Per sq ft is the dominant and expected unit for residential and standard commercial installations.",
+      "reason": "Price cannot be compared across listings without knowing the unit — per sq ft vs per project vs per set creates real confusion. Per sq ft is the dominant trade norm but exceptions exist, making unit display necessary for accurate price comparison."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand with buyer recall exists in the Indian conservatory market — buyers search by structure type, material, and price rather than manufacturer name.",
+      "reason": "Conservatories are site-installed custom structures with significant post-sale dependency (installation quality, warranty, service); buyers evaluate the seller's fabrication capability, installation track record, and warranty terms during vendor selection, making company identity a meaningful but secondary signal."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Frame Material",
+        "reason": "Frame material (Aluminium vs uPVC vs Steel vs Wood) defines the product class — each is non-interchangeable in terms of structural performance, aesthetics, and cost, with aluminium commanding a significant price premium over uPVC and polycarbonate-roofed steel variants."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Glazing Type",
+        "reason": "Glazing type (Single vs Double vs Triple Glazed vs Polycarbonate vs Laminated) drives the largest per-sq-ft price delta within any given frame material tier — double-glazed insulated units can cost 2–3x more than single-glazed or polycarbonate alternatives and determine thermal and safety performance."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Up Area",
+      "Door Type",
+      "Finish Color",
+      "Frame Material",
+      "Glazing Type",
+      "Installation Location",
+      "Roof Material",
+      "Structure Type",
+      "Warranty",
+      "Window Opening Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roof Style / Roof Type",
+        "why_important": "The roof configuration (lean-to single slope, pitched gable, flat glass, lantern/orangery) is a primary structural and aesthetic differentiator that determines fabrication complexity and cost — buyers specify this before any other dimension.",
+        "source": "both",
+        "example_values": [
+          "Lean-to / Single Slope",
+          "Pitched / Gable",
+          "Flat Glass Roof",
+          "Lantern / Orangery Roof"
+        ]
+      },
+      {
+        "spec_name": "Thermal Performance / Energy Rating",
+        "why_important": "For buyers in hot or cold climates (and hospitality buyers requiring year-round comfort), the thermal insulation rating of the glazing system is a shortlisting criterion that determines HVAC load and running costs — not captured by Glazing Type alone.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "Single Skin (no insulation)",
+          "Low-E Coated Glass",
+          "Argon-Filled Double Glazed",
+          "Triple Glazed High Performance"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Frame material is the primary requirement dimension — it determines structural type, aesthetics, and price tier, giving sellers the context needed to confirm supply capability and quote accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Structure Type",
+        "why_important": "The conservatory style (lean-to, Victorian, Edwardian, glass room, orangery) defines the fabrication scope and complexity — sellers cannot determine fit or price without knowing the structural form the buyer requires.",
+        "source": "both",
+        "example_values": [
+          "Lean-to / Glass Room",
+          "Victorian / Edwardian",
+          "Orangery",
+          "Flat Roof Terrace Enclosure"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Lean-to / Glass Room",
+          "Victorian / Edwardian",
+          "Orangery",
+          "Flat Roof Terrace Enclosure"
+        ]
+      },
+      {
+        "spec_name": "Approximate Area (sq ft)",
+        "why_important": "Built-up area is the primary pricing variable for a per-sq-ft quoted product — without a size indication, sellers cannot provide a meaningful quote or confirm whether the project falls within their fabrication capacity.",
+        "source": "both",
+        "example_values": [
+          "Up to 100 sq ft",
+          "101–200 sq ft",
+          "201–500 sq ft",
+          "Above 500 sq ft"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Conservatories are custom-designed site-installed structures where the buyer's specific terrace geometry, wall attachment points, existing architecture, and aesthetic vision cannot be captured through spec dropdowns alone. An uploaded reference image — of the installation site, an inspiration photo, or an architect's sketch — allows sellers to assess feasibility, identify structural constraints, and provide an accurate quote without a site visit, significantly improving RFQ response quality."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Type",
+      "option_value": "Lean-to / Glass Room",
+      "id": "spec_1",
+      "prompt_for_generation": "A lean-to conservatory with a single-slope glass roof attached to the rear wall of a residential villa, aluminium white frame, clear tempered glass panels on three sides, clean modern design, natural daylight, exterior view, no people, no text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Victorian / Edwardian",
+      "id": "spec_2",
+      "prompt_for_generation": "A Victorian-style conservatory with a multi-faceted pitched glass roof and ornate aluminium frame detailing, attached to a large residential bungalow, white frame, full-height glass walls, garden setting, natural daylight, exterior view, no people, no text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Orangery",
+      "id": "spec_3",
+      "prompt_for_generation": "An orangery extension with a solid flat roof perimeter and central glass lantern skylight, brick or masonry dwarf walls with large glass panels above, attached to a residential property, warm interior lighting visible, exterior view, no people, no text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Flat Roof Terrace Enclosure",
+      "id": "spec_4",
+      "prompt_for_generation": "A flat-roof glass room enclosure on a rooftop terrace of a residential apartment or villa, aluminium frame with floor-to-ceiling glass walls and a flat tempered glass roof, modern minimalist design, city or garden background, natural daylight, exterior view, no people, no text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
