@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Houses' directly matches the top primary keyword and is the dominant buyer-facing term confirmed across alt_names, market_context, and Indian buyer intent queries.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a real prefabricated house with a red tiled roof and cream sandwich-panel walls, correctly representing the primary segment (steel-framed PUF/sandwich panel house), but the background shows a cluttered industrial/construction site with visible debris, pipes, and an AC unit, reducing professional appeal.",
+      "The image appears to be a real-world site photo rather than a clean product showcase; a purpose-shot or AI-generated image with a neutral background would better highlight the product's features and attract buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A photorealistic AI-generated image of a compact single-storey steel-framed prefabricated house with cream/off-white PUF sandwich panel walls and a red pre-painted galvanised steel sloped roof, featuring two windows with white frames, a central entrance door with a small concrete step, and a small covered porch. The structure is placed on a clean flat ground with a plain light-grey or soft white studio-style background, soft natural daylight from the front-left, sharp architectural detail on panel joints and roof ridge, square 1:1 composition with the full house centred and fully visible, no people, no clutter, no watermarks except IndiaMART AI label.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
