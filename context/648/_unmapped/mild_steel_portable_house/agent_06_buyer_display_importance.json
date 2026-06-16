@@ -1,0 +1,221 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — a security cabin, 1BHK residential unit, bunkhouse, and portable shop are all visually distinct products within this MCAT. Buyers use the image to identify the product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Size (L×W) and room configuration are non-negotiable shortlisting criteria — a 10×10 ft plain cabin and a 20×40 ft 1BHK are not substitutable. Buyers cannot evaluate a listing without these specs."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "This is a significant capital purchase and Indian B2B buyers compare prices aggressively across sellers. Price changes substantially with size and room configuration, so buyers discover and compare across spec tiers — making price a primary decision lever after size and configuration match."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Custom-dimension orders are quoted per sq ft; standard catalogue sizes (10ft–40ft) are quoted per piece. Both units appear in the market — unit must be shown alongside price to prevent comparison errors.",
+      "reason": "Per piece vs per sq ft is a documented market ambiguity for this MCAT. Price cannot be meaningfully compared across listings without knowing the unit, particularly when buyers receive both catalogue and custom quotes simultaneously."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the market is dominated by unorganised MSME fabricators and taxonomy siblings are material/type-based, not brand-based.",
+      "reason": "For bulk or institutional orders (labour colonies, government procurement), seller installation capability, AMC, and track record are evaluated during vendor selection. For smaller orders, company is less decisive than spec and price."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Size (L x W)",
+        "reason": "Defines the product class — a 6×4 ft security cabin and a 40×10 ft residential unit are non-interchangeable and carry a massive price delta; no buyer can substitute one size for another."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Panel Type",
+        "reason": "Defines the quality and cost tier within a given size — MS Sheet (basic) vs PUF Panel (insulated premium) vs ACP Panel (premium finish) carry significant price deltas and buyers with thermal comfort or finish requirements cannot accept lower-grade panels."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Features",
+      "Flooring",
+      "Frame Material",
+      "Insulation Material",
+      "Panel Type",
+      "Roof Material",
+      "Size (L x W)",
+      "Use"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Room Configuration",
+        "why_important": "Whether a unit is a plain cabin, single room with toilet, or 1BHK with kitchen is a primary buyer requirement that determines product type and price tier — absent from the seller spec list entirely.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "Plain Cabin",
+          "Room with Toilet",
+          "1 BHK",
+          "2 BHK"
+        ]
+      },
+      {
+        "spec_name": "Wall / Panel Thickness",
+        "why_important": "Panel thickness (e.g., 50mm, 75mm, 100mm) determines thermal performance and structural rigidity — a standard differentiator in the Indian prefab market that buyers use to compare insulation quality across sellers.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "50 mm",
+          "75 mm",
+          "100 mm",
+          "120 mm"
+        ]
+      },
+      {
+        "spec_name": "Height",
+        "why_important": "Floor-to-ceiling height is a standard structural dimension for portable structures that affects usability and ventilation — buyers and sellers both need this to confirm the unit meets site requirements.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "7 ft",
+          "8 ft",
+          "9 ft",
+          "10 ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Room Configuration",
+        "reason": "Defines what the buyer fundamentally needs — a plain cabin vs a 1BHK with bathroom and kitchen are different products at very different price points, and sellers must know this to determine fit and quote accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Room with Toilet",
+          "1 BHK",
+          "2 BHK",
+          "Office Room",
+          "Plain Cabin",
+          "Open Hall"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Primary dimensional spec that drives floor area and price — Length spans 10–40 ft with major price implications, giving sellers the most discriminating single dimension to assess fit and quote.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Panel Type",
+        "why_important": "Sellers need to know whether the buyer requires basic MS sheet panels, PUF-insulated panels, or ACP finish panels — this materially changes the price and determines whether the seller can supply the right product.",
+        "source": "both",
+        "example_values": [
+          "MS Sheet",
+          "PUF Panel",
+          "ACP Panel",
+          "GI Sheet"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Room Configuration",
+      "option_value": "Plain Cabin",
+      "id": "spec_1",
+      "prompt_for_generation": "Exterior view of a mild steel prefabricated portable cabin, single room, no bathroom, plain rectangular structure with one door and one window, grey MS sheet panels, white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Room Configuration",
+      "option_value": "Room with Toilet",
+      "id": "spec_2",
+      "prompt_for_generation": "Exterior view of a mild steel prefabricated portable cabin with a partitioned toilet section visible at one end, single main room plus attached toilet, door and small ventilation window on toilet side, grey MS sheet panels, white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Room Configuration",
+      "option_value": "1 BHK",
+      "id": "spec_3",
+      "prompt_for_generation": "Exterior view of a mild steel prefabricated portable house configured as 1BHK, showing bedroom, bathroom, and small kitchen section, multiple windows and doors, larger unit approximately 20x10 ft, grey MS sheet panels with PUF insulation, white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Room Configuration",
+      "option_value": "2 BHK",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior view of a mild steel prefabricated portable house configured as 2BHK, larger structure with two bedroom sections, bathroom, and kitchen, multiple windows and two entry doors, approximately 30x10 ft, grey MS sheet panels, white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Room Configuration",
+      "option_value": "Office Room",
+      "id": "spec_5",
+      "prompt_for_generation": "Exterior view of a mild steel prefabricated portable site office cabin, rectangular structure with large windows for natural light, single entry door with steps, approximately 20x10 ft, grey or white MS sheet panels, white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Room Configuration",
+      "option_value": "Open Hall",
+      "id": "spec_6",
+      "prompt_for_generation": "Exterior view of a mild steel prefabricated portable open hall unit, wide single-space structure with no internal partitions visible, large sliding or double door at front, minimal windows, approximately 20x10 ft, grey MS sheet panels, white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
