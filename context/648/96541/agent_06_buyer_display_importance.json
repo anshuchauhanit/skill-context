@@ -1,0 +1,399 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Small business owner / entrepreneur seeking a portable container shop (primary segment), or construction contractor needing a site office/labour camp.
+
+**Journey:**
+1. **Image first** — Container structures have massive visual variation: shop with glass frontage vs bare storage box vs office cabin vs food stall with canopy. The image immediately communicates what type of structure it is and whether it matches the buyer's use case. Wrong type = immediate skip.
+2. **Usage type + size** — After image confirms type, buyer checks if it fits their application (shop, office, storage) and whether the size (20ft vs 40ft vs custom) matches their space/budget.
+3. **Price** — Indian B2B buyers are price-aggressive. Container structures are custom-fabricated; price varies enormously with size, grade, and fit-out. Buyers compare prices after confirming type and size fit.
+4. **Specification details** — Interior finish, door type, insulation, mobility type confirm fit-out quality and suitability. Checked after price shortlisting.
+5. **Company** — Fabricator credibility, track record, and ability to deliver/install matters but is verified post-shortlist. No dominant brands with buyer recall.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is extreme; image is the primary type-identification signal.
+- **Specification:** High — size and usage type are non-negotiable shortlisting criteria; fit-out specs confirm quality.
+- **Price:** High — custom-fabricated product with wide price range; Indian buyers compare prices aggressively once type/size confirmed.
+- **Unit:** Low — always per piece for a complete container unit; no buyer confusion possible.
+- **Company:** Medium — fabricator track record and delivery capability matter, but no brand names with buyer recall; spec and price carry more weight.
+
+---
+
+## Step 3 — Decision Questions Per Dimension
+
+**Image:** Visual variation between container shop (glass frontage, canopy, branding), site office (plain steel, windows), storage (bare box), and residential unit is extreme. Buyers cannot identify product type from title alone. High.
+
+**Specification:** Container Size and Usage Type are primary shortlisting gates — a 20ft shop container cannot substitute for a 40ft labour camp. Interior finish and mobility type confirm fit-out quality. High.
+
+**Price:** Wide price range driven by size, grade (new vs refurbished), and fit-out complexity. Indian buyers compare prices across sellers once type/size confirmed. `spec-driven price` — price changes substantially with container size, grade, and fit-out specification. High.
+
+**Cross-dimension consistency check:**
+1. Buyers discover across spec tiers (size, grade, fit-out all affect price) → `spec-driven price` ✓ AND specification = High ✓
+2. Unit Low → price can be High independently ✓ (unit rule only constrains unit High → price ≥ Medium, not the reverse)
+3. Price is not project-based (per-piece transactions dominate) → unit show:false is valid on its own merits ✓
+4. Specification show:true → show_on_listing:true ✓
+
+**Unit:** Always per piece for a complete container unit. Sub-segment per sq ft (custom fit-out) and per month (rental) exist but are not the dominant listing unit. No buyer confusion about unit for a complete container structure. Low / show:false.
+
+**Company:** No dominant brands with buyer recall (market is fragmented fabricators). However, fabricator capability, delivery track record, and installation support matter — especially for construction contractors and government buyers. Medium.
+
+**Brand check:**
+1. Taxonomy siblings scan — no branded container MCATs visible (e.g., no "Akash Container" or "Saman Container" sibling). No brand-dominant sub-categories.
+2. Indian market — container fabrication is highly fragmented; buyers search by size/type/price, not manufacturer name. No Kirloskar/Havells equivalent exists.
+→ `brand_important: no`
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Container structures have extreme visual sub-type variation — a container shop with glass frontage and canopy looks nothing like a bare storage box or a site office cabin. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Container Size and Usage Type are non-interchangeable shortlisting criteria — a 20ft shop container cannot substitute for a 40ft labour camp. Interior finish and mobility type confirm fit-out quality and suitability for the buyer's application."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Price varies substantially with container size, grade (new vs refurbished), and fit-out complexity. Indian buyers compare prices aggressively across sellers once type and size are confirmed; listed price is the primary budget entry point for a custom-fabricated product."
+  },
+  {
+    "rank": 4,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "The container fabrication market in India is highly fragmented with no dominant brands carrying buyer recall; buyers search by size, type, and price rather than manufacturer name.",
+    "reason": "Fabricator delivery capability, installation track record, and post-sale support matter — especially for construction contractors and government buyers — but are evaluated after spec and price shortlisting, not before."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "Low",
+    "show": false,
+    "canonical_unit": "per piece",
+    "unit_note": "Per sq ft is used for custom fit-out contracts and per month for rentals, but the dominant B2B listing and transaction unit is per piece for a defined container size. No buyer confusion arises about unit for a complete container structure.",
+    "reason": "Unit is entirely implied — a complete container structure is always sold per piece. No buyer would question whether a 20ft container shop is priced per piece."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+**Hard eliminations:**
+- **Usage Type** — application/use-case tag (describes what the product is used FOR: Shop Use, Office Use, Storage Use). Discard.
+- **Treatments** — multi-value feature tag (Marine Paint, Anti Rust Coated, Insulated Walls, Fire Retardant) — these are features/treatments applied, not a single configurator dimension that drives price independently. Deprioritise.
+- **Features** — feature checklist (Electrical Fittings, AC, Shelving Racks) — additive options, not a single configurator. Discard.
+
+**Soft eliminations / deprioritise:**
+- **Roof Type** — consequence/derivative of usage type and fit-out level; Insulated Roof follows from Interior Finish = Insulated Panel. Deprioritise.
+- **Structure Material** — only 3 values (Corten Steel, MS Steel, GI Steel); Corten vs MS is a meaningful differentiator but secondary to size and grade. Deprioritise relative to top 2.
+
+**Remaining strong candidates:** Container Size, Container Grade, Door Type, Interior Finish, Mobility Type, Structure Material.
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Container Size (20ft / 40ft / 10ft / 30ft / Custom):**
+- Product class separator — a 10ft container and a 40ft container are not interchangeable. Non-substitutable across buyer requirements.
+- Price delta is the largest of any spec: a 40ft unit costs roughly 2–3× a 20ft unit. Rank 1.
+
+**Container Grade (New Container / Refurbished / Cargo Worthy / Used Container):**
+- Quality tier separator within any given size. New vs Used/Refurbished = significant price delta (new purpose-built vs modified used ISO container).
+- Buyers cannot substitute grades — a buyer requiring a new container for a permanent shop cannot use a used cargo-worthy container. Rank 2.
+
+**Door Type** and **Interior Finish** are meaningful but secondary — they configure the fit-out within a size+grade combination rather than defining the product class or quality tier at the top level.
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list (verbatim copy):**
+Container Grade, Container Size, Door Type, Features, Interior Finish, Mobility Type, Roof Type, Structure Material, Treatments, Usage Type
+
+**Step 3b — Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+- Wall Insulation Type (PUF / EPS / Rock wool) — Agent 3 explicitly mentions insulated wall panels as a key differentiator; thermal performance drives price and suitability for hot climates.
+- Container Height / Height Type (Standard 8'6" / High Cube 9'6") — Agent 3 mentions High Cube as a distinct product type; height affects usable interior volume and is non-interchangeable for certain applications.
+- Electrical Fittings — already captured under Features. Semantic equivalent present.
+- Flooring Type (Bamboo / Plywood / Steel / Chequered Plate) — relevant for shop/office fit-out but secondary to insulation and height.
+
+**Step 3c — Cross-reference:**
+- Wall Insulation Type: not present in seller spec list by name or semantic equivalent. "Treatments" includes "Insulated Walls" as one of four values — but this is a binary feature tag, not a spec capturing the insulation material type (PUF vs EPS vs Rock Wool). These are semantically distinct: Treatments captures whether insulation is applied; Wall Insulation Type captures what material is used. Not a duplicate. ✓ Include.
+- Container Height: not present in seller spec list. Container Size captures length (20ft, 40ft) but not height. Standard vs High Cube is a separate dimension. ✓ Include.
+
+**Missing important specs:**
+
+1. **Wall Insulation Type** — Agent 3 vision_output explicitly identifies PUF, EPS, and rock wool sandwich panels as key material differentiators; buyers in hot climates (site offices, shops) specify insulation type because it directly affects thermal comfort and price. Source: both. Example values: PUF (Polyurethane Foam), EPS (Expanded Polystyrene), Rock Wool, Bare Steel (uninsulated).
+
+2. **Container Height** — Agent 3 vision_output identifies High Cube (9'6") as a distinct product type; standard vs high cube is non-interchangeable for applications requiring standing headroom or stacking. Source: both. Example values: Standard (8'6"), High Cube (9'6"), Custom Height.
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → `partial`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Provided buyer specs:** Length, Width, Usage/Application
+
+**Length (20ft / 10ft / 40ft / 15ft / 30ft):**
+- Defines the primary size of the container — the single most important dimension for price and fit. Non-interchangeable. Sellers need this to determine if they can supply and at what price. Rank 1.
+- Not thumbnail eligible — numeric dimensional spec; no visual difference between "20ft" and "40ft" as thumbnail images.
+
+**Usage/Application (Mobile Shop / Storage Container / Office Cabin / Security Cabin):**
+- Routes the RFQ to sellers who specialise in the right fit-out type. A seller specialising in storage containers may not have the glass-frontage shop fit-out a retail buyer needs. Rank 2.
+- Thumbnail eligible — each usage type has a visually distinct appearance: a mobile shop looks completely different from a storage container or office cabin. Options: Mobile Shop, Storage Container, Office Cabin, Security Cabin.
+
+**Width** — deprioritised from top 2. Width is almost always 8ft (ISO standard) or 10ft for wider custom units; it is less buyer-differentiating than length and usage type. Sellers can infer standard width from length; non-standard widths are captured in custom enquiries.
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Length:** Not thumbnail eligible — numeric spec; no visual distinction between 20ft and 40ft as images.
+- **Usage/Application:** Thumbnail eligible — Mobile Shop (glass frontage, signage, canopy), Storage Container (plain steel box, padlock door), Office Cabin (windows, AC unit, steps), Security Cabin (small booth, guard window) are visually distinct.
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps:**
+
+**Container Grade (New / Refurbished / Used):**
+- Agent 3 vision_output: market context explicitly distinguishes new purpose-built containers from modified used ISO containers as serving overlapping but distinct buyer needs.
+- LLM world knowledge: Indian buyers frequently specify new vs used/refurbished because it affects price, longevity, and appearance — critical for a permanent shop vs temporary site use.
+- Not present in buyer spec list by name or semantic equivalent. ✓ Include.
+- More important than Width (not in top 2) but less important than Length (rank 1) and comparable to Usage/Application (rank 2). `would_be_rank: 2` — grade is as important as usage type for seller response accuracy; a seller who only supplies new containers cannot respond to a used-container enquiry.
+- Not thumbnail eligible — grade values (New, Refurbished, Used) are not visually distinguishable as thumbnail images in a meaningful way.
+
+**No other missing specs meet the importance threshold.** Wall Insulation Type and Container Height are seller-side configurators; buyers typically specify these through the usage/application context or post-connection. Width is in the buyer spec list already.
+
+### Phase 4 — Image Upload Assessment
+
+**Image upload recommended: false**
+
+Container structures are catalogue-configurable through size, usage type, and grade. Sellers can respond accurately and quote based on these text specs. Unlike spare parts or custom fabrication with complex geometry, container structures follow standard ISO frame dimensions with defined fit-out options. Buyers do not typically have a reference image that sellers need to match — they have a use case and a size requirement, both capturable in text specs.
+
+**Coverage verdict:** `partial` — 1 missing spec (Container Grade).
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs` rank 2: Usage/Application (`thumbnail_eligible: true`, options: Mobile Shop, Storage Container, Office Cabin, Security Cabin) → 4 prompts
+- `missing_important_specs`: Container Grade has `would_be_rank: 2` but `thumbnail_eligible: false` → no prompts
+
+Total: 4 prompts (spec_1 through spec_4).
+
+Primary segment: "Modified steel container structure used as a portable shop or commercial kiosk (container shop)"
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Container structures have extreme visual sub-type variation — a container shop with glass frontage and canopy looks nothing like a bare storage box or a site office cabin. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Container Size and Usage Type are non-interchangeable shortlisting criteria — a 20ft shop container cannot substitute for a 40ft labour camp. Interior finish and mobility type confirm fit-out quality and suitability for the buyer's application."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with container size, grade (new vs refurbished), and fit-out complexity. Indian buyers compare prices aggressively across sellers once type and size are confirmed; listed price is the primary budget entry point for a custom-fabricated product."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "The container fabrication market in India is highly fragmented with no dominant brands carrying buyer recall; buyers search by size, type, and price rather than manufacturer name.",
+      "reason": "Fabricator delivery capability, installation track record, and post-sale support matter — especially for construction contractors and government buyers — but are evaluated after spec and price shortlisting, not before."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Per sq ft is used for custom fit-out contracts and per month for rentals, but the dominant B2B listing and transaction unit is per piece for a defined container size. No buyer confusion arises about unit for a complete container structure.",
+      "reason": "Unit is entirely implied — a complete container structure is always sold per piece. No buyer would question whether a 20ft container shop is priced per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Container Size",
+        "reason": "Size is the primary product class separator — a 10ft and a 40ft container are non-interchangeable across buyer requirements, and the price delta between sizes is the largest of any spec in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Container Grade",
+        "reason": "New vs Refurbished vs Used Container defines the quality tier within any given size, with a significant price delta and non-substitutability — a buyer requiring a new container for a permanent shop cannot use a used cargo-worthy unit."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Container Grade",
+      "Container Size",
+      "Door Type",
+      "Features",
+      "Interior Finish",
+      "Mobility Type",
+      "Roof Type",
+      "Structure Material",
+      "Treatments",
+      "Usage Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall Insulation Type",
+        "why_important": "Buyers in hot climates specifying site offices or permanent shops require a specific insulation material (PUF vs EPS vs Rock Wool) because it directly determines thermal comfort and durability, and drives a meaningful price difference between options.",
+        "source": "both",
+        "example_values": [
+          "PUF (Polyurethane Foam)",
+          "EPS (Expanded Polystyrene)",
+          "Rock Wool",
+          "Uninsulated (Bare Steel)"
+        ]
+      },
+      {
+        "spec_name": "Container Height",
+        "why_important": "Standard (8'6\") and High Cube (9'6\") containers are non-interchangeable for applications requiring full standing headroom or multi-level stacking, and High Cube units command a price premium that buyers need to compare.",
+        "source": "both",
+        "example_values": [
+          "Standard (8'6\")",
+          "High Cube (9'6\")",
+          "Custom Height"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Length",
+        "reason": "Container length is the primary size and price determinant — sellers need this to confirm they can supply the required unit and to provide an accurate quote.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Usage/Application",
+        "reason": "Usage type routes the RFQ to sellers with the right fit-out capability — a seller specialising in storage containers may not stock the glass-frontage shop fit-out a retail buyer needs.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Mobile Shop",
+          "Storage Container",
+          "Office Cabin",
+          "Security Cabin"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Container Grade",
+        "why_important": "New vs Refurbished vs Used Container is a primary supply constraint — sellers who only fabricate new purpose-built units cannot fulfil a used/refurbished container enquiry, and the grade drives a large price difference that buyers need to compare.",
+        "source": "both",
+        "example_values": [
+          "New Container",
+          "Refurbished",
+          "Used / Cargo Worthy"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Usage/Application",
+      "option_value": "Mobile Shop",
+      "id": "spec_1",
+      "prompt_for_generation": "A 20ft modified steel container converted into a mobile retail shop, glass sliding door at front, small canopy overhang, painted exterior with signage space, parked on a paved surface, daylight, front-facing three-quarter view, no people, no branding text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage/Application",
+      "option_value": "Storage Container",
+      "id": "spec_2",
+      "prompt_for_generation": "A 20ft plain steel storage container with standard double swing cargo doors, bare corrugated steel exterior in grey or blue, padlock hasp visible, placed on open ground, daylight, front-facing three-quarter view, no people, no branding text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage/Application",
+      "option_value": "Office Cabin",
+      "id": "spec_3",
+      "prompt_for_generation": "A 20ft steel container converted into a site office cabin, two sliding windows on the long side, single entry door with steps, wall-mounted AC unit, painted light grey or cream exterior, placed on a construction site, daylight, front-facing three-quarter view, no people, no branding text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage/Application",
+      "option_value": "Security Cabin",
+      "id": "spec_4",
+      "prompt_for_generation": "A compact 10ft steel container converted into a security guard cabin, small sliding window at guard height, single door, ventilation louvers, painted green or grey exterior, placed at a gate entrance, daylight, front-facing three-quarter view, no people, no branding text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
