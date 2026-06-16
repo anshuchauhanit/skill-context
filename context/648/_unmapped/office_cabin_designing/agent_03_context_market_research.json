@@ -1,0 +1,319 @@
+{
+  "mcat_description": {
+    "short": "Office Cabin Designing is a B2B interior design and fit-out service for creating functional, aesthetically finished cabin spaces within corporate and commercial offices, covering partition systems, furniture, lighting, flooring, and turnkey execution.",
+    "long": "Office Cabin Designing encompasses the end-to-end planning, design, and installation of enclosed or semi-enclosed workspaces within office environments, including executive cabins, manager cabins, and private workstations. Service providers deliver turnkey solutions covering modular partition systems (glass, wood, PVC, gypsum), custom furniture, false ceilings, LED lighting, and flooring. The category also overlaps with prefabricated and modular office cabin structures — portable, steel or PUF-panel-based units used as site offices or standalone workspace units. Buyers range from corporate fit-out contractors and SME business owners to construction companies requiring temporary site office cabins.",
+    "product_types": [
+      "Executive office cabin interior design service",
+      "Manager cabin interior design service",
+      "Modular office cabin fit-out (glass partition + furniture)",
+      "Prefabricated site office cabin (steel/PUF panel)",
+      "Portable modular office cabin (container-based)",
+      "Turnkey office cabin renovation service",
+      "WFH / home office cabin design service",
+      "Corporate office cabin interior designing (full floor)",
+      "Small office cabin design (6x6 ft, 8x8 ft standard sizes)"
+    ],
+    "primary_applications": [
+      "Executive and manager cabin creation in corporate offices",
+      "Fit-out of private workspaces within open-plan offices",
+      "Temporary site office setup at construction and infrastructure projects",
+      "SME office space design and renovation",
+      "Work-from-home dedicated cabin setup",
+      "Conference room and meeting cabin design",
+      "Industrial plant and factory site office cabins"
+    ],
+    "buyer_segments": [
+      "Corporate companies and IT firms requiring executive cabin fit-outs",
+      "SME business owners setting up or renovating office spaces",
+      "Construction and infrastructure companies needing site office cabins",
+      "Interior design contractors and fit-out firms",
+      "Real estate developers fitting out commercial properties",
+      "Manufacturing plants requiring on-site manager cabins"
+    ]
+  },
+  "primary_segment": "Office cabin interior design and fit-out service for corporate and commercial spaces",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Interior design and fit-out service for office cabin spaces (partitions, furniture, lighting, flooring — turnkey service)",
+    "secondary_families": [
+      "Prefabricated/modular office cabin structure design and supply (portable steel/PUF panel site office units — structural product, not interior service)"
+    ],
+    "reason": "The MCAT name 'Office Cabin Designing' attracts both interior fit-out service buyers (corporate offices, SMEs) and prefabricated cabin structure buyers (construction site managers, infrastructure companies), who have incompatible buyer profiles, deliverables, and commercial contexts — the parent MCAT 'Office Cabin' already covers the structural product, making the 'Designing' child MCAT ambiguous between service and product."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "office cabin design",
+      "office cabin interior design",
+      "cabin interior designing",
+      "office cabin designing service",
+      "cabin design service",
+      "office cabin fit out",
+      "executive cabin design",
+      "manager cabin interior design",
+      "office cabin renovation",
+      "cabin interior design service"
+    ],
+    "technical_synonyms": [
+      "office cabin fit-out",
+      "modular office cabin interior",
+      "glass partition cabin design",
+      "office cabin space planning",
+      "turnkey cabin interior service",
+      "office partition design",
+      "cabin workstation design",
+      "office enclosure design"
+    ],
+    "trade_names": [
+      "cabin designing service",
+      "office cabin interior service",
+      "corporate cabin design",
+      "private cabin design service",
+      "contemporary office cabin interior"
+    ],
+    "hindi_terms": [
+      "office cabin design",
+      "cabin interior design",
+      "office ki design",
+      "cabin ka design"
+    ],
+    "buyer_intent_queries": [
+      "office cabin interior design service near me",
+      "small office cabin design with price",
+      "executive cabin interior design ideas",
+      "office cabin designing service in India",
+      "modular office cabin interior fit out",
+      "office cabin renovation service",
+      "cabin interior design for corporate office",
+      "office cabin design with glass partition"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Interior design and fit-out services in India are universally quoted per square foot of cabin area, reflecting the labour, material, and design cost per unit area — consistent across Bengaluru, Mumbai, Delhi, and other metros observed in market data.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Prefabricated/portable office cabin (structural product)",
+        "unit": "per piece",
+        "note": "Standalone prefab cabin units are quoted per piece or per sq ft of built area depending on supplier"
+      },
+      {
+        "sub_segment": "Interior design service (fit-out only)",
+        "unit": "per sq ft",
+        "note": "Turnkey interior design services quoted per sq ft of cabin area; some providers also quote per project"
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART Bengaluru cabin designing service listings",
+      "Wedge India prefab office cabins page",
+      "Pressmach prefabricated offices page",
+      "EPACK Prefab site office page"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Office Cabin Designing in the Indian B2B market spans two overlapping commercial forms: (1) interior design and fit-out services for enclosed cabin spaces within corporate offices — covering glass/wood/PVC partition systems, modular furniture, false ceilings, LED lighting, and flooring — and (2) prefabricated/modular office cabin structures used as portable site offices at construction, infrastructure, and industrial sites. The interior design service segment is dominant in metro markets (Bengaluru, Mumbai, Delhi, Noida) and is quoted per sq ft. The prefab structural segment is led by manufacturers using PUF panels, EPS panels, steel frames, and LGSF systems, with turnkey supply including fabrication, delivery, and installation. Key materials in the interior service segment include glass partitions, wooden/MDF panels, PVC laminates, gypsum false ceilings, and modular furniture. In the prefab structural segment, mild steel, PUF insulated panels, and galvanised steel sheets are standard. Buyers in the interior service segment are corporate companies, SMEs, and fit-out contractors; buyers in the prefab segment are construction companies, infrastructure project managers, and industrial plant operators. The MCAT name 'Designing' creates ambiguity — the parent MCAT 'Office Cabin' covers the structural product, but many prefab cabin suppliers also list here. Dominant keyword demand is for design/interior service intent. Pan-India service availability is common, with Bengaluru, Noida, Mumbai, and Delhi being the highest-density service markets.",
+  "buyer_attracting_attributes": [
+    "Cabin Size (sq ft)",
+    "Design Style (modern, contemporary, executive)",
+    "Partition Material (glass, wood, PVC, gypsum)",
+    "Furniture Inclusion (yes/no, type)",
+    "Flooring Type (carpet, vinyl, wooden, tile)",
+    "Lighting Design (LED, ambient, task lighting)",
+    "False Ceiling Type (gypsum, POP, grid)",
+    "Project Duration / Turnaround Time",
+    "Customisation Level (standard/semi-custom/fully custom)",
+    "Service Mode (turnkey / supply-only / design-only)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "164283",
+    "mcat_name": "Office Cabin Designing",
+    "mcat_level": "5",
+    "listing_count": "1221",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Office Cabin Designing",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "32980.0",
+      "name": "Office Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "32980.0"
+    ],
+    "siblings": [],
+    "direct_sibling_count": 0,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Office cabin designing is a B2B service/product category involving prefabricated structures and interior design. Buyers evaluate design specifications, materials, customization options, and installation timelines rather than regulatory compliance or brand dominance. Standard market research on design trends, material options, and vendor capabilities will inform listing audit signals."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions ('office cabin design', 'small office cabin design pictures') confirmed design/interior service intent as dominant buyer demand signal."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "alt_names.hindi_terms"
+        ],
+        "citation_note": "Internal KWs ('cabin interior designing services', 'office cabin interior designing service', 'khair cabins ghar', 'wfh office setup') confirmed service-intent buyer vocabulary and Hindi-language signal."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "No call data rows provided for this MCAT — unused."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path under 'Prefabricated Structures' and parent 'Office Cabin' used to assess vagueness — 'Designing' child MCAT sits ambiguously between structural product and interior service. Listing count 1221 treated as plausible; listing_count_suspect: false."
+      },
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "No product_page_url provided — page fetch not attempted. page_fetch_failed: true."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.wedge-india.com/product-page/prefab-office-cabins",
+        "title": "Durable Low Budget Prefab Office Cabins by Wedge India",
+        "source_domain": "wedge-india.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Used for prefab office cabin construction methods, materials (steel composite, MP1000 boards), and assembly process description."
+      },
+      {
+        "url": "https://www.pressmach.com/solution/prefabricated-offices",
+        "title": "Modular Offices | Prefabricated Office Building Manufacturer in India",
+        "source_domain": "pressmach.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for prefab office types (PUF panels, Plastocrete, steel), portability features, and product type taxonomy (site office, portable mobile office, container office)."
+      },
+      {
+        "url": "https://multidecor.in/prefabricated-site-offices/",
+        "title": "Prefabricated Site Offices | Multi India (P). Ltd",
+        "source_domain": "multidecor.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for modular design types (PUF insulated panels, EPS panels, LGSF), turnkey service scope (designing, fabrication, production, installation), and buyer segment (construction site managers)."
+      },
+      {
+        "url": "https://www.epackpolymers.com/prefabricated-site-office.html",
+        "title": "Prefabricated Modular Site Office Manufacturer in India | Epack Prefab",
+        "source_domain": "epackpolymers.com",
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "market_context"
+        ],
+        "citation_note": "Used for buyer segment confirmation (infrastructure projects, road construction, bridges, railways) and portability/customisation attributes."
+      },
+      {
+        "url": "https://www.nestin.co.in/nest-in-blog/mobinest/types-of-modular-buildings-in-india",
+        "title": "5 Types of Modular Buildings in India - Tata Steel Nest-In",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for modular building types in India and Tata Steel Nest-In as a recognised Indian brand in the modular/prefab office segment."
+      },
+      {
+        "url": "https://www.vivanenterprises.co.in/office-interiors.html",
+        "title": "Office Interiors - Office Interior Designing Service Manufacturer from Mumbai",
+        "source_domain": "vivanenterprises.co.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.primary_keywords",
+          "primary_segment"
+        ],
+        "citation_note": "Used to confirm interior design service product types (contemporary office cabin interior service, corporate interior designing, office cabin designing service, office renovation services) and service-segment vocabulary."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Office cabin designing is a B2B service/product category involving prefabricated structures and interior design. Buyers evaluate design specifications, materials, customization options, and installation timelines rather than regulatory compliance or brand dominance. Standard market research on design trends, material options, and vendor capabilities will inform listing audit signals."
+    }
+  }
+}
