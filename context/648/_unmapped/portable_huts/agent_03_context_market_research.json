@@ -1,0 +1,554 @@
+{
+  "mcat_description": {
+    "short": "Portable Huts are prefabricated, relocatable small structures built on steel or panel frames, sold as complete units or per sq ft, used as site offices, security cabins, labour accommodations, tea stalls, and eco-resort shelters.",
+    "long": "Portable Huts are factory-manufactured, modular shelter units designed for rapid on-site assembly and easy relocation without permanent civil foundation work. They are constructed using structural frames of mild steel or GI sections clad with insulated wall and roof panels — including PUF sandwich panels, Aerocon panels, GI colour-coated sheets, FRP panels, or cemented panels — and are supplied as complete turnkey units with doors, windows, and optional electrical fittings. In the Indian B2B market, they serve a wide range of applications from construction site labour camps and security guard posts to eco-tourism resort cottages, farm houses, and temporary commercial kiosks. Buyers typically specify material type, panel thickness, floor size (in sq ft), insulation grade, and intended use when enquiring.",
+    "product_types": [
+      "Steel/GI Panel Portable Hut",
+      "PUF Sandwich Panel Portable Hut",
+      "Aerocon Panel Portable Hut",
+      "FRP (Fibre Reinforced Plastic) Portable Hut",
+      "Cemented Panel Portable Hut",
+      "PVC Panel Portable Hut",
+      "Bamboo Portable Hut (Jhopri)",
+      "Wooden Portable Hut / Log Cabin",
+      "LGSF (Light Gauge Steel Frame) Portable Hut",
+      "Container-based Portable Hut",
+      "Frangible Hut (FRP, aviation/airfield use)",
+      "Solar-integrated Portable Hut",
+      "Grass/Thatch Roof Portable Hut (eco-resort)"
+    ],
+    "primary_applications": [
+      "Construction site labour accommodation and worker camps",
+      "Security guard cabins and watchman posts",
+      "Site offices and project management offices",
+      "Tea stalls and small commercial kiosks (Cha Tapri)",
+      "Eco-tourism resort cottages and farm stay huts",
+      "Military field operations and emergency relief shelters",
+      "Temporary residential accommodation (rooftop rooms, annexures)",
+      "Industrial plant site offices and inspection booths",
+      "Nurse retiring rooms and first-aid posts on construction sites",
+      "Portable classrooms and training rooms"
+    ],
+    "buyer_segments": [
+      "Construction contractors and project developers (labour camp procurement)",
+      "Industrial plant operators and EPC companies (site office and security cabin buyers)",
+      "Hospitality and eco-tourism resort developers (cottage and glamping pod buyers)",
+      "Government and defence procurement (emergency shelters, field operations)",
+      "Small business owners and kiosk operators (tea stalls, shops)",
+      "Real estate developers (temporary site infrastructure)",
+      "NGOs and disaster relief organisations (emergency housing)"
+    ]
+  },
+  "primary_segment": "Steel/panel-clad prefabricated portable hut for construction site labour accommodation, security cabins, and site offices",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Steel/panel-clad prefabricated portable hut for construction site, labour accommodation, and security use",
+    "secondary_families": [],
+    "reason": "All sub-types (steel, FRP, bamboo, eco-resort) share the same B2B buyer profile and working principle — prefabricated relocatable shelter — with no incompatible regulatory regimes; sibling 'Portable Toilets' is a distinct product carved out separately in taxonomy and does not create vagueness within the hut category itself."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "portable huts",
+      "prefabricated hut",
+      "readymade hut",
+      "portable cabin",
+      "porta hut",
+      "portable hut cabin",
+      "prefab hut",
+      "movable hut",
+      "portable house",
+      "portable shelter"
+    ],
+    "technical_synonyms": [
+      "porta cabin",
+      "portacabin",
+      "prefabricated shelter",
+      "relocatable cabin",
+      "modular hut",
+      "prefab cabin",
+      "liftable porta cabin",
+      "LGSF portable hut",
+      "sandwich panel hut",
+      "PUF panel cabin"
+    ],
+    "trade_names": [
+      "MobiNest (Tata Steel Nest-In)",
+      "Insta Cabin",
+      "Porta Hut",
+      "Gypsy Hut",
+      "Bunk House",
+      "Guard Hut",
+      "Labour Hut",
+      "Security Cabin",
+      "Site Office Cabin",
+      "Frangible Hut"
+    ],
+    "hindi_terms": [
+      "jhopri",
+      "jhopda",
+      "cha tapri",
+      "portable jhopri",
+      "readymade jhopri"
+    ],
+    "buyer_intent_queries": [
+      "portable hut for construction site",
+      "prefabricated hut for labour camp",
+      "readymade hut house price",
+      "portable security guard cabin",
+      "sandwich panel portable hut",
+      "portable hut for resort and eco-tourism",
+      "steel prefab hut for site office",
+      "portable hut with PUF insulation",
+      "bamboo hut for resort",
+      "portable hut manufacturer India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Custom-sized portable huts are predominantly quoted per sq ft in Indian B2B transactions, as floor area drives material and labour cost; standard catalogue units (small security cabins, guard huts) are also quoted per piece.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard security/guard huts (small, fixed size)",
+        "unit": "per piece",
+        "note": "Small fixed-dimension units (e.g. 4x4 ft, 6x6 ft) quoted as complete units"
+      },
+      {
+        "sub_segment": "Custom labour camps and site offices",
+        "unit": "per sq ft",
+        "note": "Larger custom builds quoted on floor area basis"
+      },
+      {
+        "sub_segment": "Eco-resort/farm cottages",
+        "unit": "per sq ft or per piece",
+        "note": "Both units observed; per piece for standard cottage modules"
+      }
+    ],
+    "sources_checked": [
+      "EPACK Prefab manufacturer site",
+      "Supersun Prefab manufacturer site",
+      "Mitaso manufacturer site",
+      "EcoPrefab manufacturer site",
+      "IndiaMART MCAT page tile observations"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, portable huts are a well-established segment of the prefabricated structures industry, with manufacturers concentrated in Delhi-NCR (Gurugram, Faridabad, Noida), Rajasthan (Jodhpur), Maharashtra, and Gujarat. The dominant commercial form is a steel-framed, insulated-panel portable cabin used for construction site labour accommodation, security guard posts, and site offices — corroborated by EPACK Prefab, EcoPrefab, Ercon Prefabs, and Supersun Prefab manufacturer sites. Panel material is the primary differentiator: PUF sandwich panels offer superior thermal insulation; GI colour-coated panels are the most economical; Aerocon and cemented panels offer fire resistance; FRP panels are used for lightweight and corrosion-resistant applications including frangible aviation huts. Tata Steel's Nest-In (MobiNest) is a notable branded entrant in the steel-based portable cabin segment, validating the category's commercial maturity. Structures are built as per IS standards per EPACK Prefab (single source — low confidence for specific IS standard number). The eco-tourism and resort cottage sub-segment (bamboo huts, wooden log cabins, glamping pods) is a growing niche driven by hospitality sector demand, corroborated by Loom Crafts and EcoPrefab manufacturer sites. Buyers in the industrial/construction segment prioritise relocatability, assembly speed, and insulation grade; hospitality buyers prioritise aesthetics, material (bamboo/wood), and customisation.",
+  "buyer_attracting_attributes": [
+    "Panel Material / Wall Type",
+    "Floor Size (sq ft / dimensions)",
+    "Insulation Type and Thickness",
+    "Roof Type and Material",
+    "Structural Frame Material",
+    "Portability / Relocatability",
+    "Usage / Application Type",
+    "Color and Finish",
+    "Door and Window Specifications",
+    "Certifications / IS Standard Compliance"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "164685",
+    "mcat_name": "Portable Huts",
+    "mcat_level": "4",
+    "listing_count": "254",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Portable Huts",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Portable huts are prefabricated structural products evaluated by buyers on material specs, durability, and customisation options — standard B2B market research on material standards, construction practices, and competitor offerings."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions ('hut' 1628, 'readymade hut house', 'hut price') used to identify buyer search vocabulary and confirm residential/eco-tourism intent cluster."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Top internal keywords ('portable huts' 24 PVs, 'frangible hut FRP', 'container huts', 'solar huts') used to identify product sub-types and on-platform search patterns."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Call rows revealed panel material variants (Aerocon, GI, Sandwich, Cemented), Cha Tapri use case, Bamboo Hut (Jhopri) as traditional variant, and Toilet Block/Portable Bathroom as adjacent sibling-contamination signals."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT sits under Prefabricated Structures parent; 27 siblings noted including Portable Toilets as a carved-out sibling relevant to vagueness assessment."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.epack.in/porta-cabin-manufacturer",
+        "title": "Porta Cabin Manufacturer | Custom Prefab Cabins – EPACK Prefab",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "market_context",
+          "unit_quoting_context",
+          "buyer_attracting_attributes",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for IS standards compliance claim, steel framework + sandwich panel construction confirmation, relocatability as key feature, and per-piece/per-sq-ft unit quoting evidence."
+      },
+      {
+        "url": "https://www.ecoprefab.in/portable-cabins.html",
+        "title": "Steel Modular Portable Cabin – EcoPrefab",
+        "source_domain": "ecoprefab.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.primary_applications",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for steel prefabricated hut definition, application list (labour housing, guard rooms, camp shelters, site offices), and product type range including PVC guard huts and bunk houses."
+      },
+      {
+        "url": "https://www.erconprefabs.com/prefabricated-shelters.html",
+        "title": "Prefabricated Shelters – Porta Hut Cabin Manufacturer from Jodhpur",
+        "source_domain": "erconprefabs.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for relocatable porta cabin confirmation (no civil work required), site office application in construction industry, and Jodhpur/Rajasthan as a manufacturing geography signal."
+      },
+      {
+        "url": "https://www.supersun.in/portable-cabin.html",
+        "title": "Portable Cabin Manufacturer India – Supersun Prefab",
+        "source_domain": "supersun.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Used for PUF sandwich panel insulation confirmation, product type range (bunk house, container office, cement board cabin, PVC cabin), and Delhi-NCR as manufacturing hub."
+      },
+      {
+        "url": "https://www.mitaso.net/porta-cabins.html",
+        "title": "Porta Cabins – PUF Panel Portable Hut Cabins Manufacturer from Faridabad",
+        "source_domain": "mitaso.net",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for product type range (PUF panel hut cabins, steel prefabricated office cabin, PVC security cabins) and per-piece unit quoting evidence."
+      },
+      {
+        "url": "https://www.loomcraftsprefab.com/",
+        "title": "Prefab Modular Homes India | Modular Villas & Cottages Manufacturer – Loom Crafts",
+        "source_domain": "loomcraftsprefab.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for eco-tourism/resort cottage sub-segment confirmation (glamping pods, eco-resort cabins), LGSF framing system, and hospitality buyer segment identification."
+      },
+      {
+        "url": "https://www.nestin.co.in/",
+        "title": "Prefabricated Housing & Prefab Construction Solutions – Tata Steel Nest-In",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "market_context",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for MobiNest trade name, Tata Steel Nest-In as branded entrant validating category commercial maturity, and steel-based portable cabin product range."
+      },
+      {
+        "url": "https://www.uniquetradingest.com/prefabricated-huts.htm",
+        "title": "Prefabricated Huts – Mild Steel Prefabricated Huts Manufacturers",
+        "source_domain": "uniquetradingest.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for steel sheet specification (0.50mm pre-painted), GI profile cement sheet with EPS core construction detail, and door/window spec details."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Portable huts are prefabricated structural products evaluated by buyers on material specs (steel/wood frame, insulation, dimensions), durability, and customisation options — not regulatory compliance or brand dominance. Standard B2B market research on material standards, construction practices, and competitor offerings will inform spec hierarchy and segment clarity."
+    }
+  }
+}
