@@ -1,0 +1,130 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types (compact 4×4 kiosk vs larger 6×6 double-guard cabin), colour finishes, window configurations, and cladding types. Buyers scan listing tiles to confirm visual fit and cabin type before reading any text — wrong appearance causes immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin size is a hard gate constraint (gate footprint determines which cabin fits). Sheet thickness and insulation type define the quality tier and price band. Listings without these specs cannot be shortlisted."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with cabin size and insulation tier — buyers compare prices only after confirming spec equivalence. Indian buyers are price-aggressive but final price is negotiated; listed price is a budget entry point."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional MS fabricators; buyers search by size and spec, not manufacturer name.",
+      "reason": "Fabricator credibility (delivery reliability, installation support, after-sales service) matters during vendor selection, but no recognised brands exist — company ranks after spec and price in the buyer journey."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "A minority of sellers quote custom or large cabins per sq ft of floor area, but per piece is the dominant and universally understood convention for complete prefabricated cabin units.",
+      "reason": "Unit is entirely implied — no buyer ever questions whether a complete prefabricated security cabin is sold per piece. Showing unit adds no information."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Size",
+        "reason": "Defines the product class — non-interchangeable across gate footprint constraints, with a very large price delta between the smallest (4×4 ft) and largest (10×8 ft) configurations."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation Type",
+        "reason": "Defines the quality and comfort tier — No Insulation vs PUF or Rockwool carries a significant price delta and determines suitability for climate-exposed or premium deployments."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cabin Color",
+      "Cabin Size",
+      "Door Type",
+      "Features",
+      "Flooring Type",
+      "Insulation Type",
+      "No. of Windows",
+      "Sheet Thickness",
+      "Structure Material",
+      "Usage Area"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Frame/Body Material",
+        "why_important": "MS vs GI (galvanised iron) is a primary material variant with different corrosion resistance, longevity, and price — buyers in coastal or high-humidity deployments specifically require GI, and the existing 'Structure Material' spec only captures Steel Frame vs MS Frame (effectively the same value).",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "MS Angle Iron",
+          "MS Square Pipe",
+          "GI (Galvanised Iron)",
+          "MS Channel"
+        ]
+      },
+      {
+        "spec_name": "Exterior Cladding Type",
+        "why_important": "MS corrugated sheet, colour-coated sheet, and ACP cladding are distinct product variants with meaningfully different aesthetics, durability, and price points — buyers for premium residential or commercial deployments specifically request ACP or colour-coated finishes.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "MS Corrugated Sheet",
+          "Colour-Coated Sheet",
+          "ACP Cladded",
+          "GI Sheet"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Length",
+        "reason": "Primary dimension defining the cabin size class — sellers need length to determine which standard configuration applies and to quote accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Cabin Width",
+        "reason": "Second dimension completing the floor footprint — together with length, fully defines the floor area and price tier for the seller's response.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Sellers cannot quote accurately without knowing whether the buyer needs an insulated cabin — insulation type changes material cost significantly and determines product eligibility for climate-exposed deployments.",
+        "source": "both",
+        "example_values": [
+          "No Insulation",
+          "Glass Wool",
+          "PUF",
+          "Rockwool"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": []
+}
