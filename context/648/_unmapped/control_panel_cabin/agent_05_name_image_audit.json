@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Control Panel Cabin' directly matches the top primary keyword in Agent 3 alt_names and aligns with market_context which confirms this as the dominant trade term used by Indian buyers and fabricators for prefabricated structures housing electrical control panels.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a prefabricated cabin structure on skids/rails — correctly representing the primary segment (prefabricated steel cabin for housing industrial control panels), not a wrong product.",
+      "However, the cabin appears in a bright red-and-white decorative colour scheme with large passenger-style windows, resembling a railway coach or security cabin rather than an industrial electrical control room cabin; no visible electrical/panel signage, industrial fittings, or site context that would signal its purpose to a B2B buyer."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic product image of a prefabricated mild steel industrial control panel cabin, rectangular modular structure approximately 3m x 2m x 2.5m, painted light grey with yellow safety stripe at base, mounted on a steel skid frame, featuring a single metal door with handle and latch, two small louvred ventilation openings, one wall-mounted split AC unit visible on exterior, set against a clean white studio background, front three-quarter view, even diffused lighting, sharp focus, professional industrial product photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
