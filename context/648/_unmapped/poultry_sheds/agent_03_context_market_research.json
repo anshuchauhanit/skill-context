@@ -1,0 +1,530 @@
+{
+  "mcat_description": {
+    "short": "Poultry sheds are prefabricated or site-fabricated agricultural structures designed for commercial housing of broiler, layer, or breeder birds, supplied as steel-frame, RCC, or pre-engineered building systems with open-sided, semi-EC, or fully environmentally controlled (EC) configurations.",
+    "long": "Poultry sheds in the Indian B2B market are purpose-built agricultural housing structures for commercial poultry farming, ranging from simple open-sided MS angle-frame sheds to fully automated Environmentally Controlled (EC) sheds with tunnel ventilation, evaporative cooling pads, and automated feeding and watering systems. They are supplied as prefabricated steel structures, pre-engineered buildings (PEB), RCC-frame constructions, or cement-pole sheds, and are customised to bird capacity (typically 5,000–30,000 birds per shed), shed dimensions, and farming type (broiler, layer, or breeder). The EC shed segment is the fastest-growing sub-type in India, driven by superior feed conversion ratios, lower bird mortality, and year-round climate independence compared to conventional open-sided houses. Buyers are commercial poultry farmers, contract farmers under integrator programmes, and poultry farm setup contractors seeking turnkey construction or structural supply.",
+    "product_types": [
+      "EC (Environmentally Controlled) Poultry Shed",
+      "Semi-EC Poultry Shed",
+      "Open-Sided Poultry Shed",
+      "Broiler Farm Shed",
+      "Layer Farm Shed",
+      "Breeder Farm Shed",
+      "Pullet Rearing Shed",
+      "Prefabricated Steel Structure Poultry Shed",
+      "Pre-Engineered Building (PEB) Poultry Shed",
+      "RCC Type Poultry Shed",
+      "Cement Pole Poultry Shed",
+      "MS Angle Frame Poultry Shed",
+      "GI Structure Poultry Shed",
+      "Fully Automatic Poultry Shed",
+      "Modular Poultry Shed"
+    ],
+    "primary_applications": [
+      "Commercial broiler chicken rearing (floor-based, 5,000–30,000 birds per shed)",
+      "Layer hen egg production (cage-based or cage-free)",
+      "Breeder flock housing for parent stock",
+      "Pullet rearing before transfer to layer sheds",
+      "Contract farming under poultry integrator programmes (ABIS, Suguna, Venky's)",
+      "Hatchery and chick brooding operations"
+    ],
+    "buyer_segments": [
+      "Commercial poultry farmers (broiler and layer) setting up new farms",
+      "Contract farmers under integrator programmes seeking EC shed upgrades",
+      "Poultry farm setup contractors and fabricators",
+      "Agricultural entrepreneurs investing in first-time poultry farm setup",
+      "Existing open-shed farmers upgrading to EC systems",
+      "Institutional buyers: poultry integrators procuring sheds for contract farmer network"
+    ]
+  },
+  "primary_segment": "EC (Environmentally Controlled) poultry shed for commercial broiler farming",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated/fabricated agricultural housing structure for commercial poultry (broiler/layer/breeder)",
+    "secondary_families": [],
+    "reason": "All sub-types — EC, open-sided, RCC, steel-frame, broiler, layer — are coherent variants of the same product concept (poultry housing structure) with the same buyer profile (commercial poultry farmer) and no incompatible regulatory regimes."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "poultry shed",
+      "poultry farm shed",
+      "EC poultry shed",
+      "broiler farm shed",
+      "layer poultry shed",
+      "chicken shed",
+      "poultry house",
+      "ec shed for poultry",
+      "poultry sheds building",
+      "hen farming shed"
+    ],
+    "technical_synonyms": [
+      "environmentally controlled poultry house",
+      "tunnel ventilated poultry shed",
+      "pre-engineered poultry building",
+      "prefabricated poultry house",
+      "controlled environment poultry house",
+      "light steel structure poultry farm",
+      "PEB poultry shed",
+      "MS angle frame poultry shed",
+      "RCC poultry shed",
+      "GI structure poultry shed"
+    ],
+    "trade_names": [
+      "EC shed",
+      "semi-EC shed",
+      "fully automatic poultry shed",
+      "modular broiler shed",
+      "prefab poultry shed",
+      "sandwich panel poultry shed",
+      "PUF panel poultry shed"
+    ],
+    "hindi_terms": [
+      "murgi palan shed",
+      "poultry farm shed",
+      "murgi ghar",
+      "broiler shed"
+    ],
+    "buyer_intent_queries": [
+      "EC poultry farm shed cost for 10000 birds",
+      "EC poultry farm shed cost for 20000 birds",
+      "fully automatic poultry farm shed construction India",
+      "prefabricated poultry shed manufacturer India",
+      "layer poultry farm shed design and construction",
+      "broiler poultry shed fabrication contractor",
+      "EC shed construction cost per square feet",
+      "poultry farm shed for 5000 birds",
+      "environmentally controlled poultry house India",
+      "poultry shed construction turnkey project"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian poultry shed fabricators and contractors quote construction and supply on a per-square-foot basis, consistent with Indian construction norms; bird capacity (number of birds) is used as a parallel sizing metric by buyers to specify shed area requirements.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Turnkey EC shed project",
+        "unit": "per project",
+        "note": "Full turnkey contracts (design + supply + installation) are quoted as lump-sum per project, sized by bird capacity."
+      },
+      {
+        "sub_segment": "Structural steel supply only",
+        "unit": "per kg or per sq ft",
+        "note": "When only structural steel components are supplied without installation, per-kg or per-sq-ft quoting is used."
+      },
+      {
+        "sub_segment": "Open-sided shed fabrication",
+        "unit": "per sq ft",
+        "note": "Standard fabrication contracts for open-sided or semi-EC sheds are quoted per square foot of covered area."
+      }
+    ],
+    "sources_checked": [
+      "rkengineeringandconstructions.in (per sq ft pricing observed)",
+      "rootspoultryindustries.com (bird capacity as sizing metric)",
+      "kishoreindustries.in (customised per-project quoting)",
+      "Google keyword data (cost for 5K/10K/20K/25K/30K birds — capacity-based buyer intent)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "The Indian poultry shed market is bifurcated between conventional open-sided sheds (lower investment, natural ventilation, suitable for smaller operations and moderate climates) and Environmentally Controlled (EC) sheds (higher investment, tunnel ventilation with exhaust fans and evaporative cooling pads, automated feeding/watering/lighting, suitable for large-scale commercial operations). EC sheds are the dominant and fastest-growing segment in India, driven by superior feed conversion ratios, lower bird mortality, and year-round climate independence; research confirms that while investment per bird is higher in EC housing, returns are significantly higher due to higher production standards. Structural systems used in India include MS angle-frame fabrication, GI (galvanised iron) structures, RCC (reinforced cement concrete) frame, cement-pole construction, and pre-engineered buildings (PEB) with sandwich/PUF panel cladding. Shed sizing in the Indian market is primarily expressed in bird capacity (5,000 to 30,000 birds per shed), with shed width for open-sided designs typically not exceeding 22–25 feet per TNAU agricultural guidelines to ensure adequate natural ventilation. Key Indian manufacturers and suppliers include Kishore Infratech (Hyderabad), Pressmach, Industrial Foams Pvt. Ltd., Tradewill Prefab, and Benir Built Infra; major integrators such as ABIS actively support contract farmers in EC shed adoption. The market is geographically concentrated in Andhra Pradesh, Telangana, Maharashtra, and Bihar (Sasaram region visible in keyword data), reflecting India's major poultry farming belts.",
+  "buyer_attracting_attributes": [
+    "Shed Type (EC / Semi-EC / Open-Sided)",
+    "Bird Capacity (number of birds per shed)",
+    "Shed Dimensions (Length × Width)",
+    "Structural Material (MS Angle / GI / RCC / PEB)",
+    "Roofing and Cladding Material (GI Sheet / Sandwich Panel / PUF Panel)",
+    "Ventilation System (Tunnel / Natural / Exhaust Fan + Cooling Pad)",
+    "Insulation Type (PUF / Fibre Glass / Sandwich Panel)",
+    "Automation Level (Manual / Semi-Automatic / Fully Automatic)",
+    "Foundation Type (Cement Pole / RCC Column / Steel Column)",
+    "Warranty / Design Life (years)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "145222",
+    "mcat_name": "Poultry Sheds",
+    "mcat_level": "4",
+    "listing_count": "1889",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Poultry Sheds",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "158662.0",
+      "name": "Prefabricated Shed",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "158662.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20781",
+        "mcat_name": "Prefabricated Shelters",
+        "listing_count": "4676",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "20782",
+        "mcat_name": "Portable Shelters",
+        "listing_count": "930",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21106",
+        "mcat_name": "Aircraft Hangars",
+        "listing_count": "407",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "26766",
+        "mcat_name": "Dome Shelters",
+        "listing_count": "395",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30719",
+        "mcat_name": "Industrial Sheds",
+        "listing_count": "36863",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30721",
+        "mcat_name": "Industrial Shelters",
+        "listing_count": "531",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33228",
+        "mcat_name": "Military Shelters",
+        "listing_count": "154",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33397",
+        "mcat_name": "Metal Shelters",
+        "listing_count": "228",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35070",
+        "mcat_name": "Portable Garage",
+        "listing_count": "1406",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42756",
+        "mcat_name": "Telecom Shelters",
+        "listing_count": "611",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "107235",
+        "mcat_name": "Folding Garage",
+        "listing_count": "20",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136750",
+        "mcat_name": "Prefabricated Factory Shed",
+        "listing_count": "15425",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "146519",
+        "mcat_name": "Cattle Sheds",
+        "listing_count": "1830",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158662",
+        "mcat_name": "Prefabricated Shed",
+        "listing_count": "4727",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164591",
+        "mcat_name": "Metal Sheds",
+        "listing_count": "1477",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164769",
+        "mcat_name": "Warehouse Sheds",
+        "listing_count": "6293",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166772",
+        "mcat_name": "Swimming Pool Tensile Cover",
+        "listing_count": "670",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "172388",
+        "mcat_name": "PEB Structures Fabrication",
+        "listing_count": "3547",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182931",
+        "mcat_name": "Auditorium Roofing Shed",
+        "listing_count": "504",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "187089",
+        "mcat_name": "Badminton Court Roofing Shed",
+        "listing_count": "1474",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "191761",
+        "mcat_name": "Swimming Pool Shed",
+        "listing_count": "280",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "220929",
+        "mcat_name": "Tin Shed",
+        "listing_count": "2737",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 22,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Poultry sheds are prefabricated agricultural structures evaluated on material specs, durability, and cost-effectiveness — standard B2B research into material standards, agricultural equipment suppliers, and poultry farming best practices."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "primary_segment",
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context"
+        ],
+        "citation_note": "EC poultry shed queries dominate by impressions and clicks; bird capacity (5K–30K) is the primary sizing dimension in buyer search vocabulary."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.hindi_terms"
+        ],
+        "citation_note": "Top internal keywords confirm EC shed, layer shed, and chicken shed as primary buyer search terms on-platform."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Call data confirmed structural sub-types: Angle Type, RCC Type, Cement Pole, EC Layer — enriched product_types list. No spec values available in call rows."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings_count"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "Listing count 1,889 treated as plausible for a major agricultural structure MCAT; page_fetch_failed so no tile-count cross-check possible."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "http://www.agritech.tnau.ac.in/expert_system/poultry/Poultry%20House%20Construction.html",
+        "title": "Poultry House Construction - TNAU Agritech Portal",
+        "source_domain": "agritech.tnau.ac.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed three primary house types (broiler, breeder, EC) and open-sided shed width norms (22–25 ft) for Indian tropical conditions."
+      },
+      {
+        "url": "https://www.pashudhanpraharee.com/poultry-production-in-environmentally-controlled-ec-house/",
+        "title": "Poultry Production in Environmentally Controlled (EC) House",
+        "source_domain": "pashudhanpraharee.com",
+        "derived_outputs": [
+          "primary_segment",
+          "market_context",
+          "mcat_description.long"
+        ],
+        "citation_note": "Confirmed EC housing delivers superior bird performance and higher returns despite higher per-bird investment; EC is the future trend in tropical India."
+      },
+      {
+        "url": "https://royalfarms.co.in/ec-sheds-poultry-farming/",
+        "title": "EC Sheds Poultry Farming – Benefits & Methods | Royal Farms",
+        "source_domain": "royalfarms.co.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed EC shed features: temperature/humidity/ventilation/lighting control, automated feeders and drinkers."
+      },
+      {
+        "url": "https://rootspoultryindustries.com/ec-poultry-farm-equipment/",
+        "title": "EC Poultry Farm Cost & Construction in India | Roots Poultry Industries",
+        "source_domain": "rootspoultryindustries.com",
+        "derived_outputs": [
+          "unit_quoting_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed EC farm cost depends on shed size, bird capacity, automation level, and equipment — key buyer decision dimensions."
+      },
+      {
+        "url": "https://kishoreindustries.in/ec-poultry-sheds-manufacturer-telangana/",
+        "title": "#1 EC Poultry Shed Manufacturer Fully Automatic in Hyderabad",
+        "source_domain": "kishoreindustries.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "market_context"
+        ],
+        "citation_note": "Confirmed pre-engineered building + EC shed manufacturing; breeder farm and pullet rearing as applications; Telangana geography signal."
+      },
+      {
+        "url": "https://www.ibgroup.co.in/blog/revolutionizing-poultry-farming:-the-advantage-of-abis%E2%80%99s-environment-controlled-poultry-sheds",
+        "title": "Revolutionizing Poultry Farming: The Advantage of ABIS's EC Sheds",
+        "source_domain": "ibgroup.co.in",
+        "derived_outputs": [
+          "primary_segment",
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Confirmed ABIS integrator programme supporting contract farmers in EC shed adoption; bird density of 1.5 birds/sq.ft; energy savings vs open house."
+      },
+      {
+        "url": "https://www.pressmach.com/solution/prefabricated-poultry-sheds",
+        "title": "Prefabricated Poultry Sheds Manufacturer - Pressmach",
+        "source_domain": "pressmach.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Confirmed broiler, layer, breeder farm applications; prefab steel components for quick assembly; cost-effectiveness for small-scale farmers."
+      },
+      {
+        "url": "https://benirbuiltinfra.com/poultry-shed/",
+        "title": "Poultry Shed – Benir",
+        "source_domain": "benirbuiltinfra.com",
+        "derived_outputs": [
+          "buyer_attracting_attributes",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Confirmed ventilation, misting, insulation panel features; tailored designs for broilers, layers, breeders; modular construction for phased expansion."
+      },
+      {
+        "url": "https://www.industrialfoams.com/pre-fabricated-structures/prefabricated-poultry-shed/",
+        "title": "Prefabricated Poultry Shed - Industrial Foams Pvt. Ltd.",
+        "source_domain": "industrialfoams.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed steel + aluminium + weather-resistant coatings; PUF insulation as a key material variant."
+      },
+      {
+        "url": "https://tradewillprefab.com/poultry-shed.php",
+        "title": "Prefab Poultry Shed Manufacturers In India",
+        "source_domain": "tradewillprefab.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Confirmed broiler, layer, free-range, and hatchery as primary applications of prefab poultry sheds in India."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Poultry sheds are prefabricated agricultural structures evaluated by buyers on material specs (steel gauge, roofing type, dimensions), durability, and cost-effectiveness — not regulatory compliance or brand dominance. Standard B2B research into material standards (BIS for steel components), agricultural equipment suppliers, and poultry farming best practices will surface authentic product variants and buyer intent signals."
+    }
+  }
+}
