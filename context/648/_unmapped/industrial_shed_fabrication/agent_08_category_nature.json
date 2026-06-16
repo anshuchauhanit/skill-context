@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": false,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": true,
+  "reason": [
+    "is_service: yes — Industrial Shed Fabrication is a turnkey construction service (design, fabrication, erection, cladding) delivered on-site by contractors; no physical product is shipped to the buyer. is_specific: no — while the name is unambiguous, the MCAT spans a wide range of structural systems (PEB, MS portal frame, tensile, polycarbonate, insulated panel), buyer segments (SME manufacturers, logistics, agri-storage, government), and project scales, making it a broad service umbrella rather than a tightly scoped offering; is_generic is also no because it is bounded to industrial shed construction and does not roll up unrelated categories.",
+    "is_vague: 0 signals fire — 'Industrial Shed Fabrication' resolves to one clear service concept (steel-framed roofed structures for industrial use); Agent 3 named a confident, unhedged primary_segment; all buyer_intent_queries cluster around the same procurement context (sourcing a shed contractor); and siblings (Roof Works, Roof Structural Fabrication Services, Roofing Sheet Fabrication) carve out component-level services with no incompatible buyer profile relative to this MCAT. is_thin: no — 13,470 listings confirmed, listing_count_suspect: false, and Agent 3 market context describes a large, active, geographically distributed market."
+  ]
+}
