@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'Agricultural Buildings' is accurate but generic; Agent 3 alt_names and market_context confirm that buyers search using more specific terms like 'prefab agricultural shed', 'PEB farm shed', or 'poultry shed', suggesting a more descriptive name would improve discoverability.",
+    "suggested_name": "Prefabricated Agricultural Buildings"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The current thumbnail shows an open-sided steel portal-frame farm shed on agricultural land with farm equipment visible in the background — correctly representing the primary segment of prefabricated steel structures for agricultural use.",
+      "However, the image appears to be a Western/international farm setting (flat open plains, non-Indian equipment), lacks enclosed walls or roofing sheets typical of Indian PEB poultry/dairy/grain storage sheds, and does not clearly communicate the enclosed, insulated shed form most relevant to Indian B2B buyers — a purpose-built enclosed PEB shed would better represent the primary segment."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic image of a large prefabricated steel PEB agricultural shed in rural India, with colour-coated corrugated metal roofing in green or blue, enclosed side walls with ventilation louvers, visible steel portal frame columns and rafters, set on a flat farm plot with green fields in the background under bright daylight. The shed is clearly enclosed and purpose-built for poultry or dairy farming use. Clean white gravel or concrete floor apron at entrance. No people. Square 1:1 composition, product centred, natural outdoor lighting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
