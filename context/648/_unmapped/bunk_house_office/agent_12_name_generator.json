@@ -1,0 +1,66 @@
+{
+  "enhanced_name_4w": "Portable Prefab Site Office",
+  "enhanced_name_5w": "Prefab Steel Site Office Cabin",
+  "enhanced_name_6w": "Portable Prefab Office Cabin Construction Site",
+  "enhanced_name_long": "Portable Prefabricated Steel Bunk House Office Cabin for Construction Sites, Industrial Projects and Remote Worksites",
+  "alt_names": {
+    "primary_keywords": [
+      "bunk house office",
+      "portable office cabin",
+      "prefabricated site office",
+      "site cabin",
+      "prefab office cabin",
+      "modular site office",
+      "industrial bunk office",
+      "office container cabin",
+      "portable site office cabin",
+      "construction site office cabin"
+    ],
+    "technical_synonyms": [
+      "prefabricated modular cabin",
+      "PUF panel site office",
+      "sandwich panel portable cabin",
+      "container-type bunk house office",
+      "GI portable cabin",
+      "FRP prefab cabin",
+      "porta cabin office",
+      "steel prefab site cabin",
+      "EPS insulated site cabin",
+      "double decker bunk house office"
+    ],
+    "trade_names": [
+      "Porta Cabin",
+      "Portacab",
+      "Site Container Office",
+      "Office Bunkhouse",
+      "Container Office Cabin",
+      "Prefab Site Cabin",
+      "Modular Bunkhouse Cabin"
+    ],
+    "hindi_terms": [
+      "portable office cabin",
+      "prefab cabin"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated bunk house office for construction site",
+      "modular site office cabin manufacturer India",
+      "steel bunk house office for industrial use",
+      "container type office cabin for project site",
+      "prefab manager room for construction site",
+      "portable office cabin with AC and toilet",
+      "double decker bunk house office cabin",
+      "easily assembled prefab site office cabin",
+      "portable office cabin for infrastructure project",
+      "bunk house office cabin for mining site"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Residential and leisure accommodation buyers (Log Homes, Container Homes, Prefabricated Guest House, Modular Cottages, Portable Resort, Prefabricated Beach House, Tree House, Bamboo Huts) — these buyers seek permanent or semi-permanent living/hospitality structures, not temporary industrial site offices; names implying home, guest house, resort, cottage, or leisure use are blocked.",
+    "General worker sleeping-quarters bunkhouse buyers (Bunkhouses, MS Bunkhouse) — these buyers seek dormitory-style accommodation cabins without the office/workspace function; names that drop the office/workspace context and imply pure sleeping accommodation are blocked to avoid overlap with sibling MCATs 23898 and 150851.",
+    "Security and guard post buyers (Guard Huts, PVC Guard Huts) — these buyers seek small single-post security enclosures; names implying guard hut, sentry post, or security cabin are blocked.",
+    "Wooden and log construction buyers (Log Homes, Log Cabin, Prefabricated Wooden House, Wooden House) — these buyers seek timber-frame or log-based structures; names implying wooden or log construction are blocked as they attract an incompatible material-segment buyer.",
+    "Prefab Steel Bunk House (sibling MCAT 133097) — exact trade name 'Prefab Steel Bunk House' is a live sibling name and is blocked from use as an enhanced name variant; it is retained only in trade_names alt_names bucket as a recognised trade term buyers search."
+  ],
+  "segment_contamination_disclaimer": null
+}
