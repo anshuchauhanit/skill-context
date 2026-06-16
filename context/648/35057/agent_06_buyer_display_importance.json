@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation between sub-types (single cabin vs multi-room block, container-based vs panel-based, different cladding finishes). Buyers scan images first to confirm this is a classroom-style structure and not a security cabin or office cabin — wrong product type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Floor area, student capacity, insulation type, and included amenities are primary shortlisting criteria. Listings without these specs cannot be evaluated for fit — a buyer cannot determine whether the structure meets their student count or thermal comfort requirement without them."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Per piece dominates for standard single-room cabin queries; per sq ft is used for custom-dimensioned or multi-room configurations. Both units are active in the market — price cannot be compared across listings without knowing which unit applies. Sellers must state the unit explicitly.",
+      "reason": "Per piece vs per sq ft is a genuine market ambiguity for this category. A buyer comparing two listings cannot determine relative value without knowing whether the price is for a complete cabin or per square foot of floor area."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with floor area, insulation grade, and amenity package — buyers must confirm spec equivalence before comparing prices. Indian institutional buyers are price-sensitive but final price is always negotiated; the listed price is a budget entry point, not a closing signal."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with strong buyer recall in portable classrooms — market is fragmented across regional fabricators; buyers search by spec, size, and price rather than manufacturer name.",
+      "reason": "Installation capability, warranty terms, and track record with schools or government projects are evaluated during vendor selection. Post-sale dependency (installation, relocation, maintenance) makes company credentials a meaningful qualifier, though not a primary shortlisting signal."
+    }
+  ]
+}
