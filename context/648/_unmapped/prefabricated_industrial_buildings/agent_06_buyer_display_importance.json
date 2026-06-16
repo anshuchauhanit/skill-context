@@ -1,0 +1,234 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Buyers scan listing images to immediately identify building type (warehouse vs factory vs cold storage), structural form (clear-span PEB vs truss shed vs modular), and visual scale — wrong type or form is an instant skip. High visual variation across sub-types means image is the fastest qualification signal before any text is read."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Clear-span width, eave height, crane capacity, and service type (turnkey vs structure-only) are primary shortlisting gates — a buyer with a 30 ft eave height and 10-ton crane requirement cannot evaluate a listing that omits these. Specs drive the shortlist before price is considered."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Recognised national PEB brands — Kirby, Interarch, Everest Industries, Zamil Steel, EPACK, Tata BlueScope — are actively searched by name by institutional and EPC buyers who treat brand as a proxy for engineering capability, IS-code compliance, and post-erection service.",
+      "reason": "This is a high-value, site-engineered, turnkey capital purchase — institutional buyers (EPC contractors, logistics operators, government PSUs) evaluate manufacturer credentials, IS 800/IS 2062 compliance track record, and erection capability as part of vendor qualification, often before finalising price. Seller identity is a primary trust signal, not a post-shortlist check."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every PEB project is custom-engineered to site-specific load requirements (wind zone, seismic zone, crane loads, span), so no fixed list price exists — listed prices are indicative per-sq-ft rates used as budget entry points. Indian buyers are price-aggressive but final price is always negotiated after spec confirmation; price is a sanity-check signal, not a primary shortlisting lever."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Sellers quote in per sq ft (standard structures), per project lump sum (turnkey custom builds), or per MT (steel supply only) — these are not interchangeable and create real price comparison confusion. Per sq ft is the dominant buyer comparison unit; listings must show unit alongside any indicative price to prevent misreading.",
+      "reason": "Unit ambiguity is a genuine market problem in this category — per sq ft vs per project vs per MT represent fundamentally different commercial scopes, and a buyer comparing indicative prices without unit clarity will misread cost by an order of magnitude."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Built Type",
+        "reason": "Defines what the building IS — Factory, Warehouse, Cold Storage, Workshop, Shed are non-interchangeable use-case classes with fundamentally different structural, insulation, and compliance requirements, driving the largest price and design variation across the product range."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Crane Capacity",
+        "reason": "Crane provision (none vs 5T vs 10T vs 20T) drives primary frame sizing, column spacing, and haunch design — a building with a 20-ton overhead crane requires significantly heavier and more expensive primary steel than a no-crane warehouse of identical footprint, making this the dominant within-type price configurator."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Area",
+      "Built Type",
+      "Crane Capacity",
+      "Eave Height",
+      "Features",
+      "Insulation",
+      "Mezzanine Floor",
+      "Service Type",
+      "Sheet Material",
+      "Span Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Clear Span Width",
+        "why_important": "Clear-span width (e.g., 15 m, 24 m, 30 m, 40 m) is the primary structural design driver — it determines primary frame weight, column-free floor area, and cost per sq ft, and buyers specify it as a non-negotiable project requirement before any other dimension.",
+        "source": "both",
+        "example_values": [
+          "15 m",
+          "24 m",
+          "30 m",
+          "40 m"
+        ]
+      },
+      {
+        "spec_name": "Wind Zone / Seismic Zone Compliance",
+        "why_important": "Indian PEB structures must be designed to site-specific wind and seismic zone loads per IS 875 and IS 1893 — buyers in high-wind coastal zones or seismic zones III/IV require explicit compliance confirmation, and this materially affects steel tonnage and cost.",
+        "source": "both",
+        "example_values": [
+          "Wind Zone II",
+          "Wind Zone III",
+          "Wind Zone IV",
+          "Seismic Zone III",
+          "Seismic Zone IV"
+        ]
+      },
+      {
+        "spec_name": "Bay Length",
+        "why_important": "Bay length (spacing between primary frames, typically 6–9 m) determines purlin and secondary member sizing and directly affects total steel tonnage and cost — buyers with specific equipment layout or column-spacing requirements specify this as a project constraint.",
+        "source": "both",
+        "example_values": [
+          "6 m",
+          "7.5 m",
+          "9 m",
+          "12 m"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Application (Factory, Warehouse, Cold Storage, Rice Mill, etc.) immediately routes the RFQ to sellers with the right structural and compliance capability — a cold storage application requires insulated PUF panel construction that most standard PEB fabricators cannot supply, while a factory with heavy machinery requires crane provisions.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Factory",
+          "Storage",
+          "Industrial",
+          "Factory Canteen",
+          "Rice Mill",
+          "Manufacturing"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Building Height",
+        "reason": "Eave height (10 ft to 35 ft) determines primary frame design, crane compatibility, and structural steel tonnage — sellers need this to assess whether they can supply the required structure and to provide an accurate indicative price.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Clear Span Width",
+        "why_important": "Clear-span width is the single most important structural parameter sellers need to assess feasibility and price — it drives primary frame design, steel tonnage, and cost per sq ft, and cannot be inferred from total area or height alone.",
+        "source": "both",
+        "example_values": [
+          "15 m",
+          "24 m",
+          "30 m",
+          "40 m"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Crane Requirement",
+        "why_important": "Whether the buyer needs an overhead crane (and at what capacity) fundamentally changes the structural design and cost — sellers cannot quote accurately without knowing this, and buyers with crane requirements will receive irrelevant responses from sellers who only supply standard warehouse structures.",
+        "source": "both",
+        "example_values": [
+          "No Crane",
+          "Up to 5 Ton",
+          "Up to 10 Ton",
+          "Up to 20 Ton"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Factory",
+      "id": "spec_1",
+      "prompt_for_generation": "Pre-engineered steel industrial factory building, large clear-span structure with colour-coated metal roof and wall cladding, heavy-duty sliding entry doors, exterior view on a clear day, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Storage",
+      "id": "spec_2",
+      "prompt_for_generation": "Pre-engineered steel warehouse building for bulk storage, wide clear-span structure with Galvalume profiled metal roof, large roller shutter doors on the facade, exterior view, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Industrial",
+      "id": "spec_3",
+      "prompt_for_generation": "Pre-engineered steel industrial building with multi-bay structure, colour-coated roof sheeting, ridge ventilators visible on roofline, industrial setting with paved apron, exterior view, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Factory Canteen",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated steel building used as a factory canteen, smaller clear-span structure with colour-coated metal roof, windows along the side walls, clean exterior finish, industrial campus setting, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Rice Mill",
+      "id": "spec_5",
+      "prompt_for_generation": "Pre-engineered steel building for a rice mill, large industrial shed with high eave height, colour-coated profiled metal roof and walls, wide entry openings for material handling, rural industrial setting, exterior view, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Manufacturing",
+      "id": "spec_6",
+      "prompt_for_generation": "Pre-engineered steel manufacturing plant building, wide clear-span structure with overhead crane rail provisions visible on exterior columns, colour-coated metal roof with skylights, industrial estate setting, exterior view, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
