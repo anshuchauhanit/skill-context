@@ -1,0 +1,199 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — PEB portal frame, tin shed, multi-bay, cold storage, and dome structures are visually distinct product classes. Buyers use the listing image to identify shed type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Clear span width, eave height, shed type (PEB vs conventional), and crane provision are non-negotiable project parameters. A listing without these specs cannot be evaluated — buyers cannot determine structural fit without them."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — EPACK, Kirby, and Zamil are known names but buyers search by spec, location, and price, not manufacturer brand.",
+      "reason": "Post-sale dependency is total — the seller constructs the structure on-site. Buyers evaluate fabrication experience, IS-code compliance track record, and installation capability during vendor selection, making company identity a meaningful trust signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based per sq ft rate",
+      "reason": "Per sq ft rate is the universal comparison metric for Indian industrial shed buyers, but price is only compared after spec equivalence is confirmed. Final price is always negotiated per project scope; the listed rate is a budget entry point, not a firm quote."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Structural steel supply-only listings may quote per MT; roofing-only supply may quote per running metre or per sq ft. Per sq ft is dominant for complete shed supply and must be shown to prevent price comparison confusion across these sub-segments.",
+      "reason": "Price cannot be compared without unit — per sq ft, per MT, and lump sum all appear in this category. Unit must accompany price to prevent buyers from misreading or miscomparing listed rates across sellers."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Shed Type",
+        "reason": "PEB vs Conventional is the primary product class separator — non-interchangeable in structural performance, construction timeline, and cost, with PEB commanding a 15–25% price premium over conventional MS fabricated sheds for equivalent spans."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Width",
+        "reason": "Clear span width is the primary structural parameter driving steel tonnage and total project cost — a 20 ft span shed and a 100 ft span shed are non-interchangeable and differ by 3–5x in structural steel requirement and price."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built-Up Area",
+      "Center Height",
+      "Cladding Material",
+      "Crane Provision",
+      "Intended Use",
+      "Length",
+      "Roof Type",
+      "Shed Type",
+      "Side Height",
+      "Width"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roofing Sheet Thickness",
+        "why_important": "Buyers in coastal, high-wind, or heavy-rainfall zones specify 0.5 mm vs 0.6 mm roofing sheet thickness as a durability and structural compliance requirement, and it is a meaningful price differentiator between otherwise equivalent shed configurations.",
+        "source": "both",
+        "example_values": [
+          "0.45 mm",
+          "0.5 mm",
+          "0.6 mm",
+          "0.8 mm"
+        ]
+      },
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Cold storage, food processing, and temperature-sensitive manufacturing buyers require insulated shed configurations (PUF sandwich panel, rock wool) that cost 40–60% more than plain sheet sheds — sellers need this spec to determine product eligibility and quote accurately.",
+        "source": "both",
+        "example_values": [
+          "No Insulation",
+          "Rock Wool",
+          "PUF Sandwich Panel",
+          "Glass Wool"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Type",
+        "reason": "Structure type (PEB, Conventional, Dome, Hangar) is non-interchangeable — it immediately routes the RFQ to sellers who can actually supply the required construction method, eliminating mismatched responses.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "PEB",
+          "Conventional",
+          "MS Pipe Structure",
+          "Dome",
+          "Hangar"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Width",
+        "reason": "Clear span width determines structural feasibility and steel tonnage — sellers with a maximum span capability below the buyer's requirement cannot respond, making this the primary dimensional filter for accurate seller matching.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Clear Height (Eave Height)",
+        "why_important": "Eave height determines crane hook clearance, forklift stacking height, and mezzanine floor feasibility — sellers need this to confirm structural design capability and quote accurately, as standard designs top out at 20–25 ft while crane-bay sheds require 30–40 ft.",
+        "source": "both",
+        "example_values": [
+          "15 ft",
+          "20 ft",
+          "25 ft",
+          "30 ft",
+          "40 ft"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Type",
+      "option_value": "PEB",
+      "id": "spec_1",
+      "prompt_for_generation": "Pre-engineered steel industrial shed with portal frame construction, wide clear span, colour-coated roofing panels in blue and grey, eave height approximately 25 ft, set on a flat industrial plot, natural daylight, exterior view, no people, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Conventional",
+      "id": "spec_2",
+      "prompt_for_generation": "Conventional MS fabricated industrial shed with welded steel columns and rafters, corrugated GI sheet roofing, eave height approximately 18 ft, brick or block infill walls, set on an industrial plot, exterior view, natural daylight, no people, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "MS Pipe Structure",
+      "id": "spec_3",
+      "prompt_for_generation": "Industrial shed built with MS pipe frame structure, circular hollow section columns and rafters, corrugated sheet roofing, open sides or partial cladding, set on a flat plot, exterior view, natural daylight, no people, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Dome",
+      "id": "spec_4",
+      "prompt_for_generation": "Industrial dome structure with curved steel arch frame and colour-coated cladding panels forming a semi-circular roof profile, large clear span interior, set on an industrial site, exterior view, natural daylight, no people, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Hangar",
+      "id": "spec_5",
+      "prompt_for_generation": "Large industrial hangar structure with wide-span steel portal frame, tall eave height of approximately 40 ft, bifold or sliding large door opening at the front, colour-coated roofing and wall cladding, set on a flat industrial or airfield-adjacent plot, exterior view, natural daylight, no people, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
