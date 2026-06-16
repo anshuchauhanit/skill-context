@@ -1,0 +1,68 @@
+{
+  "enhanced_name_4w": "Portable Prefab Office Cabin",
+  "enhanced_name_5w": "Prefab Steel Site Office Cabin",
+  "enhanced_name_6w": "Modular Prefab Office Cabin for Sites",
+  "enhanced_name_long": "Prefabricated Portable Office Cabin with MS Frame and Insulated Panels for Construction Site and Project Use",
+  "alt_names": {
+    "primary_keywords": [
+      "office cabin",
+      "portable office cabin",
+      "readymade office cabin",
+      "prefabricated office cabin",
+      "modular office cabin",
+      "site office cabin",
+      "porta cabin office",
+      "MS office cabin",
+      "transportable office",
+      "prefab office cabin"
+    ],
+    "technical_synonyms": [
+      "relocatable office unit",
+      "prefabricated modular office",
+      "sandwich panel office cabin",
+      "PUF panel office cabin",
+      "steel modular office",
+      "portable site office",
+      "mobile office unit",
+      "modular portable cabin office",
+      "insulated panel office cabin",
+      "MS frame portable office"
+    ],
+    "trade_names": [
+      "porta cabin",
+      "portacabin",
+      "bunk house office",
+      "office block cabin",
+      "manager cabin",
+      "personal cabin",
+      "resi cum office cabin",
+      "site office block",
+      "project office cabin"
+    ],
+    "hindi_terms": [
+      "kabine",
+      "portable cabin",
+      "office ka cabin"
+    ],
+    "buyer_intent_queries": [
+      "readymade office cabin for construction site",
+      "portable office cabin with AC provision",
+      "prefabricated site office cabin 10x20",
+      "modular office cabin manufacturer India",
+      "steel portable office cabin for project site",
+      "office cabin with insulation and electrical fittings",
+      "portable office cabin for project site",
+      "small office cabin 10x10 readymade",
+      "UPVC office cabin manufacturer",
+      "MS frame prefab office cabin with PUF panels"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Security/guard function cabins (buyer segment: security deployment buyers seeking guard posts, not office workspace) — terms such as 'security cabin', 'guard cabin', 'guard room', 'frisking booth' are blocked; sibling MCATs Security Cabins (42755), Portable Security Cabins (135705), MS Security Cabins (150853), Prefabricated Security Cabin (181975), FRP Portable Security Cabin (145135) carve out this segment.",
+    "Container-converted office structures (buyer segment: buyers specifically seeking shipping-container-grade steel conversion units) — the term 'container office cabin' is excluded from enhanced names to avoid collision with sibling MCAT Office Container (96541); it is retained only in alt_names as a buyer search term where it reflects genuine buyer vocabulary without naming collision.",
+    "Wooden/log cabin buyers (buyer segment: buyers seeking timber-frame or log-construction cabins for aesthetic or eco purposes) — terms such as 'wooden cabin', 'log cabin', 'timber cabin' are blocked; sibling MCATs Wooden Cabins (43790), Portable Log Cabins (150362) carve out this segment.",
+    "Non-office portable structures (buyer segments: classroom, kitchen, pantry, dressing room, ATM, toll booth, smoking cabin buyers) — enhanced names and alt_names are scoped strictly to office/workspace function to avoid attracting buyers of sibling MCATs Portable Classrooms (35057), Portable Kitchen (135704), Portable Pantry (150362), Portable Dressing Room (149768), Portable ATM Cabin (188230), Toll Booth (135797), Smoking Cabin (111378)."
+  ],
+  "segment_contamination_disclaimer": null
+}
