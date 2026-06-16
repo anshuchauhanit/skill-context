@@ -1,0 +1,345 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Structural form (flat roof vs dome vs arch vs wire rope) is visually distinct and immediately communicates product type, scale, and installation quality. Buyers use the image to identify whether the structure matches their crop and site requirement before reading any text."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Structure design, net type, shading percentage, and frame material are primary shortlisting criteria — wrong spec means wrong crop outcome or subsidy ineligibility. Buyers cannot evaluate a net house listing without these dimensions."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "NHB/MIDH cost norms create a per-sq-mt benchmark that farmers actively compare across sellers. Price varies substantially with structure design, net type, and frame material — buyers discover across spec tiers, making price a primary comparison signal once structural type is identified."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq mt",
+      "unit_note": "Some sellers quote per acre or per structure — creates real price comparison confusion. Per sq mt is the standard unit aligned with NHB/MIDH government scheme cost norms and must be shown alongside price.",
+      "reason": "Price cannot be compared without unit — per sq mt vs per acre vs per structure are all used in the market. Unit ambiguity directly costs buyers money and prevents accurate comparison against government subsidy benchmarks."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in the Indian net house market — it is fragmented across regional fabricators and installers; buyers search by structure type and price, not manufacturer name.",
+      "reason": "Subsidy-model buyers evaluate whether the supplier is NHB/MIDH empanelled and has installation track record in their region. Company credentials matter for post-sale service and subsidy documentation but rank after spec and price shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Design",
+        "reason": "Flat roof, arch, dome, and box-type configurations are non-interchangeable — each requires different fabrication, material quantities, and wind-load engineering, driving significant price differences per sq mt."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Net Type",
+        "reason": "Shade net, insect net, hail net, and bird net serve entirely different crop protection functions and use different net materials at different price points — a buyer cannot substitute one for another."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Area",
+      "Cover Color",
+      "Included Components",
+      "Installation Type",
+      "Net Type",
+      "Shading Percentage",
+      "Span Width",
+      "Structure Design",
+      "Structure Material",
+      "Use"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Pipe Diameter / Frame Gauge",
+        "why_important": "GI pipe outer diameter (25mm / 32mm / 48mm) determines structural strength and wind-load resistance — buyers in high-wind zones and NHB/MIDH subsidy schemes specify minimum pipe diameter as a compliance criterion.",
+        "source": "both",
+        "example_values": [
+          "25 mm OD",
+          "32 mm OD",
+          "48 mm OD",
+          "60 mm OD"
+        ]
+      },
+      {
+        "spec_name": "Gutter / Ridge Height",
+        "why_important": "Internal working height determines crop suitability — tall crops like tomato and capsicum require a minimum gutter height of 3.5m, and buyers specify this before ordering to confirm the structure fits their cultivation plan.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "2.5 m",
+          "3 m",
+          "3.5 m",
+          "4 m"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Design",
+        "reason": "Structural form (flat, dome, arch, zigzag) determines fabrication complexity and material requirements — sellers need this to confirm they can supply the configuration and to price accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Flat",
+          "Dome",
+          "Flat / Arch",
+          "Box Type",
+          "T-Structure",
+          "Zigzag"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Material",
+        "reason": "GI pipe, wire-based, bamboo, and steel angle represent entirely different supply chains — sellers need this to confirm manufacturing capability and quote the correct material cost.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "GI Pipe",
+          "Wire Based",
+          "Bamboo",
+          "Steel Angle",
+          "Mild Steel",
+          "Square Pipe"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Net Type / Purpose",
+        "why_important": "The functional purpose of the net house (shade, insect exclusion, hail protection, bird exclusion) is the most fundamental buyer requirement — it determines net specification, mesh size, and shade percentage, and sellers cannot respond accurately without it.",
+        "source": "both",
+        "example_values": [
+          "Shade Net",
+          "Insect Net",
+          "Hail Net",
+          "Bird Net"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Shade Net",
+          "Insect Net",
+          "Hail Net",
+          "Bird Net"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Design",
+      "option_value": "Flat",
+      "id": "spec_1",
+      "prompt_for_generation": "Agricultural net house with flat roof design, GI pipe frame, green shade net covering, installed on open farm field, wide-angle view showing full structure, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design",
+      "option_value": "Dome",
+      "id": "spec_2",
+      "prompt_for_generation": "Agricultural net house with dome-shaped curved roof, GI pipe arch frame, green shade net covering, installed on farm land, full structure visible, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design",
+      "option_value": "Flat / Arch",
+      "id": "spec_3",
+      "prompt_for_generation": "Agricultural net house with flat-arch hybrid roof profile, GI pipe frame with gentle arch curvature, green shade net, installed on agricultural field, full exterior view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design",
+      "option_value": "Box Type",
+      "id": "spec_4",
+      "prompt_for_generation": "Agricultural net house with box-type rectangular structure, vertical side walls and flat roof, GI pipe frame, green shade net covering all sides and top, farm field setting, full exterior view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design",
+      "option_value": "T-Structure",
+      "id": "spec_5",
+      "prompt_for_generation": "Agricultural net house with T-shaped layout plan, two intersecting spans forming a T-configuration, GI pipe frame, green shade net, aerial or perspective view showing T-shape clearly, farm setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design",
+      "option_value": "Zigzag",
+      "id": "spec_6",
+      "prompt_for_generation": "Agricultural net house with zigzag sawtooth roof profile, multiple angled roof panels in alternating directions, GI pipe frame, green shade net, farm field setting, full exterior view showing roof pattern clearly, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Material",
+      "option_value": "GI Pipe",
+      "id": "spec_7",
+      "prompt_for_generation": "Agricultural net house frame made of hot-dip galvanised GI pipes, shiny silver metallic tubular structure visible, green shade net covering, farm field, close-up perspective showing pipe joints and fittings, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Material",
+      "option_value": "Wire Based",
+      "id": "spec_8",
+      "prompt_for_generation": "Agricultural net house with wire rope cable-purlin frame, tensioned galvanised wire cables forming the structural support, green shade net draped over wire grid, farm field, full structure view showing wire tension system, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Material",
+      "option_value": "Bamboo",
+      "id": "spec_9",
+      "prompt_for_generation": "Low-cost agricultural net house with bamboo pole frame, natural bamboo poles lashed together forming the structure, green shade net covering, rural farm setting, full exterior view showing bamboo construction clearly, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Material",
+      "option_value": "Steel Angle",
+      "id": "spec_10",
+      "prompt_for_generation": "Agricultural net house with steel angle iron frame, L-shaped steel angle sections forming the structural skeleton, green shade net covering, farm field, close-up view showing angle iron joints and bolted connections, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Material",
+      "option_value": "Mild Steel",
+      "id": "spec_11",
+      "prompt_for_generation": "Agricultural net house with mild steel round pipe frame, painted or primed steel tubular structure, green shade net covering, farm field setting, full exterior view showing steel pipe construction, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Material",
+      "option_value": "Square Pipe",
+      "id": "spec_12",
+      "prompt_for_generation": "Agricultural net house with square hollow section steel pipe frame, rectangular cross-section steel tubes forming the structure, green shade net covering, farm field, close-up view showing square pipe joints and bolted connections, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Net Type / Purpose",
+      "option_value": "Shade Net",
+      "id": "spec_13",
+      "prompt_for_generation": "Agricultural shade net house interior view, green HDPE shade net filtering sunlight creating dappled light pattern, vegetable crops growing inside, GI pipe frame visible, farm setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Net Type / Purpose",
+      "option_value": "Insect Net",
+      "id": "spec_14",
+      "prompt_for_generation": "Agricultural insect-proof net house with fine white mesh insect net covering all sides and roof, 40-50 mesh density visible as tight white netting, GI pipe frame, vegetable crops inside, farm field, exterior view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Net Type / Purpose",
+      "option_value": "Hail Net",
+      "id": "spec_15",
+      "prompt_for_generation": "Agricultural hail protection net house with heavy-duty anti-hail net stretched over flat or arch roof frame, thick woven net visible on top of structure protecting crops below, GI pipe frame, farm field, exterior view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Net Type / Purpose",
+      "option_value": "Bird Net",
+      "id": "spec_16",
+      "prompt_for_generation": "Agricultural bird exclusion net house with white or black bird netting covering the entire structure, wide-mesh bird net visible on roof and sides, GI pipe frame, fruit or vegetable crops inside, farm field, exterior view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
