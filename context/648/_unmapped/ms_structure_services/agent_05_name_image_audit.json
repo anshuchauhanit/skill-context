@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'MS Structure Services' is technically valid but undersells the scope — Agent 3 alt_names and market_context consistently use 'Fabrication and Erection Service' as the dominant buyer-facing framing; 'Services' alone is generic and does not signal the turnkey fabrication+erection nature that buyers search for.",
+    "suggested_name": "MS Structure Fabrication and Erection Services"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a man assembling or repairing small hand-held power tools/components at a workbench — this is an electronics/small appliance assembly scene, not MS structural fabrication or erection of industrial sheds or mezzanine floors.",
+      "The image contains zero visual signals of mild steel structural work (no steel sections, no welding, no shed framework, no erection activity), making it actively misleading for buyers seeking industrial shed or warehouse structure services."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product-style photograph of an industrial steel shed under construction: large portal frame structure with hot-rolled MS columns and roof trusses being erected by workers in safety helmets and vests, corrugated metal roofing sheets partially installed, clear blue sky background, wide-angle view showing full bay span, bright natural daylight, sharp focus on the steel framework, clean industrial setting, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
