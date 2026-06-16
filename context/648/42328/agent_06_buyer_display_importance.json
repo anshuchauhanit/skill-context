@@ -1,0 +1,292 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — conical, hypar, barrel vault, flat canopy, and umbrella structures are visually non-interchangeable. Buyers identify the required structure type from the image before reading any text; wrong shape or type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Fabric material (PVC vs PVDF vs PTFE) and structure type (car parking vs pool cover vs walkway) are primary shortlisting criteria — they determine suitability, lifespan, and price tier. Buyers discover across spec tiers during search, not just confirm a known spec."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft rate comparison is the dominant commercial behaviour among Indian construction buyers once structure type and fabric material match. Price changes substantially with fabric grade (PVC vs PVDF vs PTFE) and structure complexity, making it a primary shortlisting signal after spec confirmation."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Some sellers quote per piece for standard configurations or per project for large-span installations — per sq ft vs per piece creates real price comparison confusion and must be shown alongside price.",
+      "reason": "Price cannot be compared across listings without knowing the unit. Per sq ft is dominant but per piece and per project variants exist in the market, creating genuine buyer confusion if unit is not displayed."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "The Indian modular tensile structure market is highly fragmented across regional fabricators with no dominant brand that buyers search for by name — buyers search by structure type and fabric spec, not manufacturer name.",
+      "reason": "Installation track record, fabrication capability, and warranty are evaluated during vendor selection for a semi-permanent structure, but company identity is not a primary shortlisting gate — it is assessed after visual, spec, and price shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Fabric Material",
+        "reason": "Defines the product class — PVC, PVDF, PTFE, and HDPE are non-interchangeable materials with dramatically different price points, lifespans, and application suitability, making this the primary price-driving configurator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Type",
+        "reason": "Defines the application configuration (car parking vs pool cover vs walkway vs food court) — non-interchangeable across buyer requirements and drives significant price variation due to differing geometry, load requirements, and anchoring complexity."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Country Of Origin",
+      "Fabric Material",
+      "Fabric Thickness",
+      "Frame Material",
+      "Installation Service",
+      "Shape",
+      "Structure Type",
+      "UV Protection",
+      "Waterproof"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Coverage Area / Span",
+        "why_important": "Span width and total coverage area are primary cost drivers — larger spans require heavier structural frames and more complex engineering, directly affecting per-sq-ft pricing and seller capacity to supply.",
+        "source": "both",
+        "example_values": [
+          "Up to 500 sq ft",
+          "500–2000 sq ft",
+          "2000–5000 sq ft",
+          "Above 5000 sq ft"
+        ]
+      },
+      {
+        "spec_name": "Fabric Colour",
+        "why_important": "Buyers frequently specify colour as a visual and branding requirement (white, blue, green, beige are standard options), and sellers need this to confirm stock availability or fabrication lead time.",
+        "source": "both",
+        "example_values": [
+          "White",
+          "Blue",
+          "Green",
+          "Beige",
+          "Custom"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Design",
+        "reason": "Defines the geometric form of the structure — conical, dome, flat canopy, and pergola require different fabrication processes and materials, enabling sellers to immediately determine supply capability and price range.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Canopy",
+          "Pergola",
+          "Conical",
+          "Dome",
+          "Modular",
+          "Cottage Type"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Application",
+        "reason": "Defines the installation context (car parking, EV charging, restaurant terrace, stadium) which determines structural load requirements, span needs, and compliance considerations that sellers must assess before responding.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "EV Charging",
+          "Car Parking",
+          "Restaurant",
+          "Terrace",
+          "School",
+          "Stadium Seating"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Fabric Material",
+        "why_important": "Fabric material (PVC vs PVDF vs PTFE) is the single most important spec for sellers to determine price, fabrication process, and lifespan commitment — a buyer requesting PTFE for a permanent installation is a fundamentally different supply requirement from a PVC temporary shade.",
+        "source": "both",
+        "example_values": [
+          "PVC Coated",
+          "PVDF Coated",
+          "PTFE / Fibreglass",
+          "HDPE Shade Net"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Design",
+      "option_value": "Canopy",
+      "id": "spec_1",
+      "prompt_for_generation": "Flat tensile fabric canopy structure with PVC-coated white membrane stretched over mild steel frame, installed as entrance canopy over a commercial building entrance, outdoor daylight setting, clean architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design",
+      "option_value": "Pergola",
+      "id": "spec_2",
+      "prompt_for_generation": "Tensile fabric pergola structure with white PVC-coated membrane panels stretched between steel posts in a grid pattern, installed in an outdoor commercial courtyard, natural daylight, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design",
+      "option_value": "Conical",
+      "id": "spec_3",
+      "prompt_for_generation": "Conical tensile structure with single central pole and white PVC-coated fabric membrane forming a sharp cone shape, installed as outdoor shade canopy, clear blue sky background, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design",
+      "option_value": "Dome",
+      "id": "spec_4",
+      "prompt_for_generation": "Dome-shaped tensile structure with curved white PVC-coated fabric membrane over a circular steel frame, installed as outdoor shade shelter, daylight setting, clean architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design",
+      "option_value": "Modular",
+      "id": "spec_5",
+      "prompt_for_generation": "Modular tensile structure with multiple repeating white PVC-coated fabric bays stretched over a steel frame grid, covering a large outdoor area such as a car parking lot, aerial perspective, daylight, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design",
+      "option_value": "Cottage Type",
+      "id": "spec_6",
+      "prompt_for_generation": "Cottage-style tensile structure with pitched roof form using white PVC-coated fabric membrane over a steel frame, resembling a small shelter or gazebo, installed in a resort or garden setting, natural daylight, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "EV Charging",
+      "id": "spec_7",
+      "prompt_for_generation": "Modular tensile fabric canopy structure installed over an EV charging station in an open parking area, white PVC-coated membrane on steel frame, electric vehicle visible underneath, daylight setting, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Car Parking",
+      "id": "spec_8",
+      "prompt_for_generation": "Modular tensile structure covering a multi-car parking area, white PVC-coated fabric membrane stretched over steel frame columns, several cars parked underneath, outdoor daylight, wide-angle architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Restaurant",
+      "id": "spec_9",
+      "prompt_for_generation": "Tensile fabric canopy structure installed over an outdoor restaurant dining area, white PVC-coated membrane on steel frame, dining tables and chairs visible underneath, warm daylight setting, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Terrace",
+      "id": "spec_10",
+      "prompt_for_generation": "Modular tensile structure installed on a building rooftop terrace, white PVC-coated fabric membrane over steel frame providing shade cover, urban building context visible in background, daylight, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "School",
+      "id": "spec_11",
+      "prompt_for_generation": "Tensile fabric canopy structure installed as entrance or walkway cover at a school building, white PVC-coated membrane on steel frame, school building facade visible, children or school context implied, daylight, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Stadium Seating",
+      "id": "spec_12",
+      "prompt_for_generation": "Large-span modular tensile structure covering stadium seating area, white PVC-coated fabric membrane on steel frame spanning over tiered seating rows, stadium context clearly visible, daylight, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
