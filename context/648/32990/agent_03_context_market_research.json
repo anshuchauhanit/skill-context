@@ -1,0 +1,331 @@
+{
+  "mcat_description": {
+    "short": "Office Space on IndiaMART refers primarily to commercial real estate rental and coworking services — businesses listing private offices, coworking desks, managed offices, and commercial premises available for rent, lease, or sale across Indian cities.",
+    "long": "This MCAT covers the B2B commercial office space rental and coworking service market in India, where operators, property owners, and real estate agents list office premises for rent or lease to businesses of all sizes. Service types span traditional bare-shell or furnished commercial offices, coworking/flex desks, private managed offices, serviced offices with plug-and-play amenities, and virtual office addresses. A minority of listings (~25–30%) represent prefabricated or modular office cabin structures (steel, FRP, or wood) — manufactured products that belong in the Prefabricated Houses & Structures taxonomy. The dominant buyer is a business tenant — startup, SME, IT firm, or enterprise — seeking a ready-to-occupy workspace on flexible or long-term lease terms.",
+    "product_types": [
+      "Coworking Space / Shared Desk (hot desk, dedicated desk) — rent/lease service",
+      "Private Office Space — rent/lease service",
+      "Managed / Serviced Office — fully furnished, plug-and-play rent service",
+      "Commercial Office Space (bare shell) — rent/lease service",
+      "Commercial Office Space (furnished) — rent/lease service",
+      "Virtual Office Address Service",
+      "Office Space for Sale (commercial property transaction)",
+      "Corporate / IT Park Office Space — rent/lease service",
+      "Prefabricated / Modular Office Cabin (steel, FRP, wood) — manufactured product, minority contamination (~25–30% of listings)"
+    ],
+    "primary_applications": [
+      "Startup and SME workspace setup without long-term lease commitment",
+      "Corporate satellite office or branch office establishment",
+      "IT/ITES and tech company office leasing in tech hubs",
+      "Freelancer and remote worker daily/monthly desk rental",
+      "Pharma and healthcare company office space rental",
+      "Product activation and corporate event space rental",
+      "Business address registration (virtual office)",
+      "Temporary project-based office for consulting or professional services teams"
+    ],
+    "buyer_segments": [
+      "Startups and early-stage companies seeking plug-and-play coworking desks",
+      "SMEs and mid-market firms looking for private managed offices",
+      "Large enterprises and IT/ITES companies leasing floor space in Grade A buildings",
+      "Freelancers and independent professionals renting hot desks",
+      "BFSI and professional services firms requiring private, secure office environments",
+      "Pharma and healthcare companies seeking compliant office premises",
+      "Real estate investors and property owners listing commercial assets",
+      "Facility managers and construction firms seeking prefabricated office cabins (minority)"
+    ]
+  },
+  "primary_segment": "Commercial office space rental and coworking service for businesses (rent/lease of physical office premises)",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Commercial office space rental and coworking service — rent/lease of physical office premises to business tenants",
+    "secondary_families": [
+      "Prefabricated / modular office cabin or portable office structure (manufactured product — steel, FRP, wood; sold per unit or per sq ft fabrication cost)"
+    ],
+    "reason": "The name 'Office Space' attracts two incompatible families: (1) a B2B real estate rental/coworking service (dominant, ~65–70% of listings, H1 confirmed, service-intent keywords dominant) and (2) a prefabricated/modular office cabin product (minority, ~25–30% of listings, with its own taxonomy home under Prefabricated Houses & Structures); these differ in buyer profile (business tenant vs. facility/construction buyer), transaction type (rent/lease vs. product purchase), and regulatory context (real estate lease law vs. manufacturing/construction)."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "office space for rent",
+      "coworking space",
+      "commercial office space",
+      "office space on rent",
+      "coworking office space",
+      "managed office space",
+      "serviced office space",
+      "private office space",
+      "flexible office space",
+      "office space for lease"
+    ],
+    "technical_synonyms": [
+      "flex space",
+      "flexible workspace",
+      "serviced office",
+      "managed workspace",
+      "plug-and-play office",
+      "Grade A office space",
+      "bare shell office",
+      "built-to-suit office",
+      "business centre",
+      "virtual office"
+    ],
+    "trade_names": [
+      "Awfis",
+      "WeWork India",
+      "Smartworks",
+      "Innov8",
+      "91springboard",
+      "Regus India",
+      "myHQ",
+      "CoWrks",
+      "BHIVE Workspaces",
+      "Incuspaze"
+    ],
+    "hindi_terms": [
+      "ऑफिस स्पेस",
+      "किराये पर ऑफिस",
+      "व्यावसायिक कार्यालय स्थान",
+      "कोवर्किंग स्पेस"
+    ],
+    "buyer_intent_queries": [
+      "office space for rent near me",
+      "coworking space for rent in Delhi",
+      "commercial office space on rent in Mumbai",
+      "furnished office space for lease Bangalore",
+      "private office space for startup",
+      "managed office space for IT company",
+      "coworking space with meeting room",
+      "office space for rent per seat per month",
+      "pharma office space for rent",
+      "virtual office space service India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft per month (traditional commercial) / per seat per month (coworking/flex)",
+    "unit_reasoning": "Indian commercial office space is quoted per sq ft per month for traditional/bare-shell offices and per seat per month for coworking and managed flex spaces — both are standard Indian real estate transaction units confirmed across Regus, Statista/Colliers, and IndiaMART listing tiles.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Traditional / bare-shell commercial office",
+        "unit": "per sq ft per month",
+        "note": "Standard Indian commercial real estate lease unit; also used for furnished offices"
+      },
+      {
+        "sub_segment": "Coworking / flex desk",
+        "unit": "per seat per month",
+        "note": "Dominant unit for coworking operators; some also quote per day per person for hot desks"
+      },
+      {
+        "sub_segment": "Virtual office service",
+        "unit": "per month (flat fee)",
+        "note": "Address registration and mail handling service quoted as monthly subscription"
+      },
+      {
+        "sub_segment": "Prefabricated office cabin (minority product)",
+        "unit": "per sq ft (fabrication/construction cost)",
+        "note": "Manufactured product sub-segment; quoted as one-time fabrication cost per sq ft"
+      }
+    ],
+    "sources_checked": [
+      "Regus India (regus.com/en/in/office-space)",
+      "Statista / Colliers International (Bengaluru office rent data)",
+      "Mordor Intelligence (India Flexible Office Space Market)",
+      "IndiaMART MCAT page listing tiles (price units observed)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "India's commercial office space rental and coworking market is one of the fastest-growing B2B service sectors in the country. The flexible office space market is estimated at USD 5.99 billion in 2025 and is projected to reach USD 11.39 billion by 2030 at a 13.72% CAGR (Mordor Intelligence). Coworking operators leased a record ~125 lakh sq ft of premium office space in 2024, with coworking accounting for 20% of India's total gross office leasing activity — a world record (JLL via Allwork.Space, Coworking Europe). The market is segmented by office type into traditional office spaces, coworking spaces, serviced offices, business centres, and virtual offices; traditional office spaces dominated by volume in 2024 while coworking and flex spaces are the fastest-growing sub-segments (Spherical Insights). Enterprise clients accounted for 54.1% of flexible office demand in 2024, with IT/ITES commanding 43–44% of sector mix; BFSI is the fastest-growing end-use segment (Mordor Intelligence). Geographically, Bengaluru leads with ~25% share, followed by Mumbai, Delhi NCR, Hyderabad, and Pune; Tier-2 cities (Jaipur, Coimbatore, Lucknow, Indore) are the fastest-growing markets as 50% of India's registered startups are based outside metros (Mordor Intelligence, IMARC). Key Indian operators include Awfis, WeWork India (Embassy Group), Smartworks, Innov8, 91springboard, myHQ, CoWrks, BHIVE Workspaces, and Incuspaze. A minority contamination of prefabricated/modular office cabin listings (~25–30% of MCAT tiles) represents a manufactured product that belongs under Prefabricated Houses & Structures taxonomy.",
+  "buyer_attracting_attributes": [
+    "Location / City and Micro-market",
+    "Furnishing Status (Furnished / Unfurnished / Bare Shell)",
+    "Capacity (Number of Seats)",
+    "Transaction Type (Rent / Lease / Sale)",
+    "Property Type (Coworking / Private Office / Managed / Serviced)",
+    "Carpet Area / Super Built-Up Area (sq ft)",
+    "Amenities (Meeting Room, Conference Room, High-Speed Internet, Reception)",
+    "Lease Duration / Flexibility (Short-term / Long-term / Monthly)",
+    "Proximity to Metro / Transport Hub",
+    "Grade / Building Quality (Grade A / Grade B / IT Park)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": 32990,
+    "mcat_name": "Office Space",
+    "listing_count": 14773,
+    "direct_siblings": 1,
+    "full_path": "[withheld — known taxonomy errors]",
+    "parent": "[withheld]",
+    "note": "Taxonomy context passed through unchanged. listing_count (14,773) is plausible and consistent with page observations (1,000+ tiles visible). full_path and parent withheld by orchestrator due to known taxonomy errors."
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": false,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "b2b_service",
+        "generic_commodity"
+      ],
+      "do_research": true,
+      "reason": "MCAT name is ambiguous — could refer to commercial real estate rental service or prefabricated office structure. Agent 3 must determine scope from page content and external research."
+    },
+    "input_sources_used": [
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [
+          "H1 heading",
+          "listing tile distribution",
+          "property type specs",
+          "transaction type specs",
+          "related category links",
+          "best-sellers carousel (excluded from distribution count)",
+          "page title"
+        ],
+        "derived_outputs": [
+          "primary_segment",
+          "mcat_vagueness_signal",
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "unit_quoting_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "H1 'Coworking Space / Commercial Office Space' confirmed service identity. Full tile feed assessed for listing distribution (~65–70% service, ~25–30% prefab product). Related category links all service-oriented. listing_count 14,773 consistent with page observations."
+      },
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment confirmation"
+        ],
+        "citation_note": "Top Google queries ('office rent near me', 'office for rent in agra', 'bangalore office address') confirm service-intent buyer vocabulary. Used to populate buyer_intent_queries."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment confirmation"
+        ],
+        "citation_note": "Top internal terms ('office space for rent', 'coworking spaces', 'commercial office space', 'virtual offices space service') confirm service-dominant search intent. 'coworking space furniture' (4 PV, 2 clicks) noted as minor product contamination signal."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "mcat_vagueness_signal secondary_families confirmation"
+        ],
+        "citation_note": "Call rows confirmed service primary ('Office Space', 'Office Space (Commercial Property)', 'Corporate Space') and minority product sub-segment ('Office Space Fabrication', 'Moto Room (Large Container/Space)'). Furniture and textile rows treated as contamination. Specs not extracted."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "listing_count",
+          "direct_siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "listing_count (14,773) used for listing_count_suspect validation only — not used for primary_segment or product scope. full_path and parent withheld by orchestrator."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.mordorintelligence.com/industry-reports/india-flexible-office-space-market",
+        "title": "India Flexible Office Space Market Size, Growth & Industry Share 2030",
+        "source_domain": "mordorintelligence.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for market size (USD 5.99B in 2025), enterprise share (54.1%), IT/ITES sector share (43.2%), coworking type share (48.4%), and Bengaluru geographic lead (24.8%)."
+      },
+      {
+        "url": "https://allwork.space/2024/12/coworking-space-leasing-surged-44-in-india-in-2024/",
+        "title": "Coworking Space Leasing Surged 44% In India In 2024",
+        "source_domain": "allwork.space",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for record 125 lakh sq ft coworking leasing in 2024 and flex office stock reaching 70 million sq ft by H1 2024."
+      },
+      {
+        "url": "https://www.imarcgroup.com/india-co-working-office-space-market",
+        "title": "India Co-Working Office Space Market Size & Report 2033",
+        "source_domain": "imarcgroup.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for market segmentation (flexible managed office vs serviced office), Tier-2 city growth signal, and IT/ITES application segment confirmation."
+      },
+      {
+        "url": "https://coworkingeurope.net/2025/02/25/indias-coworking-market-surges-to-20-of-office-leasing-in-2024-setting-new-world-record/",
+        "title": "India's Coworking Market Surges to 20% of Office Leasing in 2024, Setting New World Record",
+        "source_domain": "coworkingeurope.net",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for JLL-sourced claim that coworking reached 20% of India's total gross office leasing in 2024."
+      },
+      {
+        "url": "https://www.sphericalinsights.com/reports/india-office-rental-market",
+        "title": "India Office Rental Market Size, Share, Trends, Growth, Outlooks",
+        "source_domain": "sphericalinsights.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for office type segmentation (traditional, coworking, serviced, business centres), traditional office dominance in 2024, and end-user industry segmentation (IT, BFSI, legal, healthcare, startups/SMEs)."
+      },
+      {
+        "url": "https://www.regus.com/en/in/office-space",
+        "title": "Office space for rent in India — Regus",
+        "source_domain": "regus.com",
+        "derived_outputs": [
+          "unit_quoting_context",
+          "alt_names.technical_synonyms",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for unit quoting confirmation (per day, per person, per month), service type vocabulary (serviced offices, coworking lounges, meeting rooms), and Indian city coverage patterns."
+      },
+      {
+        "url": "https://www.mordorintelligence.com/industry-reports/india-coworking-office-spaces-market",
+        "title": "India Co-working Office Space Market — Size, Companies & Industry Report",
+        "source_domain": "mordorintelligence.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for market size (USD 3.98B in 2025), enterprise adoption (51.2% of demand), IT sector lead (44.7%), Bengaluru geographic lead (28.1%), and startup ecosystem context."
+      },
+      {
+        "url": "https://www.business-standard.com/industry/news/market-size-for-flexible-office-spaces-in-india-to-double-by-2030-anarock-124031400478_1.html",
+        "title": "Market size for flexible office spaces in India to double by 2030: Anarock",
+        "source_domain": "business-standard.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for Anarock data: 54% of Indian companies opting for coworking to reduce expenses, flex market to grow from 55 MSF to 100–140 MSF by 2030."
+      }
+    ]
+  }
+}
