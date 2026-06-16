@@ -1,0 +1,222 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Heavy structural fabrications span visually distinct sub-types — trusses, crane girders, pipe racks, industrial frames — that buyers must identify before reading any text. Fabrication quality, weld finish, and surface treatment are also partially visible in photos, providing a secondary quality signal for project-critical procurement."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Fabrication type, material grade, and inspection standard are primary shortlisting gates — a buyer needing IS:2062 E350 bridge girders with ASME weld inspection cannot substitute a general platform fabricator. Without matching specs, no further evaluation occurs."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in heavy structural fabrications; buyers search by fabrication capability, certification, and track record rather than manufacturer name.",
+      "reason": "ISO 9001 certification, NDT/weld inspection capability, past project credentials, and service location (Pan India vs regional) are evaluated during vendor shortlisting — particularly for government/PSU and EPC buyers who require vendor qualification. Company identity is a trust and eligibility signal, not a brand preference."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-kg indicative rates vary substantially with material grade, fabrication complexity, and surface treatment — buyers use listed rates as budget entry points and comparison signals before negotiating project-specific quotes. Indian EPC buyers are price-aggressive but price is only comparable after spec and capability are confirmed."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per kg",
+      "unit_note": "Large turnkey packages may be quoted per MT (equivalent at scale); discrete machine base frames or equipment skids may be quoted per piece or per set — unit must be shown to prevent price comparison errors across these conventions.",
+      "reason": "Per-kg vs per-MT vs per-piece quoting conventions coexist in this category; a buyer comparing rates without knowing the unit cannot make a valid price comparison. Unit is a necessary qualifier for any price shown on the listing."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Fabrication Type",
+        "reason": "Defines the primary structural product class (bridge girder vs truss vs plant structure vs platform) — non-interchangeable across project requirements and the single largest driver of price, certification requirements, and fabricator capability."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Material",
+        "reason": "Material class (Mild Steel vs Stainless Steel vs Alloy Steel) drives a 3–10x per-kg price difference and determines project compliance eligibility — a buyer cannot substitute one material class for another."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Design Service",
+      "Fabrication Technique",
+      "Fabrication Type",
+      "Industry Type",
+      "Inspection Standard",
+      "Material",
+      "Max Thickness",
+      "Service Location",
+      "Service Mode",
+      "Surface Treatment"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Steel Grade",
+        "why_important": "IS:2062 E250 / E350 / E410 grades have different yield strengths and project eligibility requirements — buyers specify grade in their drawings and fabricators must confirm material sourcing capability and price accordingly; the existing 'Material' spec captures material type (MS, SS) but not the grade within structural steel.",
+        "source": "both",
+        "example_values": [
+          "IS 2062 E250",
+          "IS 2062 E350",
+          "IS 2062 E410",
+          "ASTM A572 Gr 50"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Routes the RFQ to fabricators with the right structural capability and certification — a bridge girder application requires certified weld inspection and higher-grade steel, while an industrial shed application does not, making this the primary seller-routing signal.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "PEB Components",
+          "Industrial Sheds",
+          "Plant Structures",
+          "Bridge Girders",
+          "Warehouse Frame",
+          "Conveyor Structure"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Material Grade",
+        "reason": "Non-interchangeable structural steel grades (E250 vs E350 vs E410 vs ASTM A36) determine fabricator material sourcing capability and project compliance — sellers need this to confirm they can supply the specified grade and price accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Service Mode",
+        "why_important": "A seller without erection capability cannot respond to a Supply & Erection or Turnkey RFQ — this spec fundamentally routes the buyer to fabricators who can deliver the complete scope, not just supply steel.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "Supply Only",
+          "Supply & Erection",
+          "Turnkey",
+          "Job Work / Fabrication Only"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Surface Treatment Required",
+        "why_important": "Galvanising requires a separate facility not available at all fabricators — sellers need to know if surface treatment is in scope to confirm capability and include it in their quote.",
+        "source": "both",
+        "example_values": [
+          "Hot-Dip Galvanised",
+          "Epoxy Painted",
+          "Primer Coated",
+          "Not Required"
+        ]
+      },
+      {
+        "spec_name": "Approximate Order Quantity",
+        "why_important": "Project scale (tonnage) determines whether a fabricator has the workshop capacity and financial capability to execute — small fabricators cannot handle large-tonnage orders, and large fabricators may decline small jobs.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "Less than 5 MT",
+          "5–50 MT",
+          "50–200 MT",
+          "Above 200 MT"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "PEB Components",
+      "id": "spec_1",
+      "prompt_for_generation": "Pre-engineered building steel components — fabricated rafters, purlins, and eave struts laid out in a fabrication workshop, hot-rolled structural steel sections with primer coat, clean industrial background, overhead lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Industrial Sheds",
+      "id": "spec_2",
+      "prompt_for_generation": "Heavy steel industrial shed frame under construction — welded portal frame columns and roof trusses erected on a factory site, structural steel painted red oxide primer, blue sky background, wide-angle view showing full frame height, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Plant Structures",
+      "id": "spec_3",
+      "prompt_for_generation": "Heavy structural steel plant framework inside an industrial facility — multi-level pipe rack structure with welded beams and columns, epoxy-painted grey finish, industrial plant background with equipment visible, professional engineering context, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Bridge Girders",
+      "id": "spec_4",
+      "prompt_for_generation": "Heavy fabricated steel plate girder for a bridge — large welded I-section girder with stiffener plates, hot-dip galvanised finish, positioned horizontally in a fabrication yard, clear daylight, close-up showing weld quality and plate thickness, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Warehouse Frame",
+      "id": "spec_5",
+      "prompt_for_generation": "Steel structural frame for a large warehouse — wide-span portal frame with welded columns and roof beams, primer-coated structural steel, partially clad warehouse building under construction, clear sky background, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Conveyor Structure",
+      "id": "spec_6",
+      "prompt_for_generation": "Heavy fabricated steel conveyor support structure — elevated truss-type conveyor gallery with walkway grating, hot-dip galvanised finish, industrial plant setting with conveyor belt visible, side-angle view showing structural depth and weld joints, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
