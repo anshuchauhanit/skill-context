@@ -1,0 +1,278 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Portable cabins have extreme visual sub-type variation — a 6×4 ft security booth, a 20×10 ft site office, a container-style cabin, and a double-storey accommodation block are visually distinct products. Buyers use the image to identify the correct product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Product type (security / office / accommodation / storage) and size (L×W) are non-interchangeable primary shortlisting criteria — a buyer cannot substitute one for another. Material and insulation type further determine thermal performance and durability, which are critical for long-term site deployment."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with product type, size, and material — a 6×4 ft MS security cabin and a 20×40 ft PUF-insulated accommodation block are orders of magnitude apart. Indian B2B buyers are price-aggressive and compare prices across sellers once spec equivalence is confirmed; listed price is a hard shortlisting gate."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Standard-size cabins are quoted per piece; large custom or multi-room builds are quoted per sq ft. Both units are active in the market — price cannot be compared without knowing which unit applies to a given listing.",
+      "reason": "Per piece vs per sq ft is a genuine market ambiguity confirmed across multiple manufacturer sites. A buyer comparing two listings without knowing the unit cannot determine which is cheaper; unit must be shown alongside price."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — siblings are material/type-based (MS Porta Cabin, FRP Cabin, GI Portable Cabin), not brand-based, and buyers search by product type and material rather than manufacturer name.",
+      "reason": "Manufacturer vs trader distinction matters for installation support, customisation capability, and warranty — institutional and government buyers evaluate this during vendor selection. However, company ranks last as specs and price drive initial shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Product Type",
+        "reason": "Defines what the cabin IS — security, site office, accommodation, storage, toilet block — with non-interchangeable structural layouts, fittings, and the largest price delta across values in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Size (L x W)",
+        "reason": "Physical footprint is non-interchangeable and price scales directly with area — a 6×4 ft security post and a 40×10 ft accommodation block cannot substitute for each other, making size the second-largest price driver after product type."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Features",
+      "Flooring",
+      "Height",
+      "Insulation Material",
+      "Interior Wall Panel",
+      "Material",
+      "Number of Doors",
+      "Product Type",
+      "Size (L x W)"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Panel Thickness",
+        "why_important": "Sandwich panel thickness (50mm / 75mm / 100mm) determines thermal insulation performance and structural rigidity — buyers in extreme climates specify this explicitly and it drives a meaningful price difference between otherwise identical cabins.",
+        "source": "both",
+        "example_values": [
+          "50 mm",
+          "75 mm",
+          "100 mm",
+          "120 mm"
+        ]
+      },
+      {
+        "spec_name": "Frame Material",
+        "why_important": "MS vs GI structural frame is a primary durability and corrosion-resistance differentiator — Agent 3 identifies this as a key buyer-facing attribute, and the existing 'Material' spec covers panel/cladding materials (ACP, FRP, PUF Panel), not the structural frame grade.",
+        "source": "both",
+        "example_values": [
+          "MS (Mild Steel)",
+          "GI (Galvanised Iron)",
+          "MS with GI coating",
+          "Heavy Duty MS"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "I am interested in",
+        "reason": "Routes the RFQ to sellers who manufacture the specific cabin type and material variant — a security cabin fabricator and a modular prefab accommodation supplier are different businesses, and this spec immediately determines seller fit.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Portable Security Cabins",
+          "FRP Portable Security Cabin",
+          "Mobile Containers",
+          "GI Portable Cabin",
+          "Prefabricated Cabin",
+          "Modular Portable Cabin"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Primary dimensional spec that determines cabin footprint and manufacturing feasibility — sellers need length (combined with width) to assess whether they can supply the required size and to provide an accurate price.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Product Type / Application",
+        "why_important": "Sellers need to know whether the buyer requires a site office, security cabin, accommodation block, storage unit, or toilet block — these are structurally distinct products that different manufacturers specialise in, and this is the single most important routing signal for accurate seller response.",
+        "source": "both",
+        "example_values": [
+          "Site Office",
+          "Security Cabin",
+          "Accommodation / Labour Camp",
+          "Storage Cabin"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Site Office",
+          "Security Cabin",
+          "Accommodation / Labour Camp",
+          "Storage Cabin"
+        ]
+      },
+      {
+        "spec_name": "Insulation Material / Panel Type",
+        "why_important": "PUF, EPS, rock wool, and FRP panels represent different thermal performance tiers and price points — sellers who specialise in PUF panel cabins may not supply FRP variants, making this a critical supplier-routing spec.",
+        "source": "both",
+        "example_values": [
+          "PUF Panel",
+          "EPS (Thermocol)",
+          "Rock Wool",
+          "FRP"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "I am interested in",
+      "option_value": "Portable Security Cabins",
+      "id": "spec_1",
+      "prompt_for_generation": "Small portable security guard cabin with MS steel frame and sandwich panel walls, single door, sliding window, painted grey-green, installed at a construction site gate, daytime, clear sky background, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "FRP Portable Security Cabin",
+      "id": "spec_2",
+      "prompt_for_generation": "Compact FRP (fibre-reinforced plastic) portable security cabin, smooth white exterior surface, single door, small window, lightweight construction visible, placed at an industrial facility entrance, daytime, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "Mobile Containers",
+      "id": "spec_3",
+      "prompt_for_generation": "Mobile container-style portable cabin, corrugated steel exterior in blue or grey, standard 20 ft container format, door and windows cut into side panel, placed on a construction site, daytime, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "GI Portable Cabin",
+      "id": "spec_4",
+      "prompt_for_generation": "Galvanised iron (GI) portable cabin with metallic silver-grey finish, rectangular structure with aluminium sliding windows and steel door, installed on a construction site as a site office, daytime, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "Prefabricated Cabin",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated portable cabin with insulated sandwich panel walls, MS steel frame, painted exterior in cream or light blue, multiple aluminium windows, single entry door, installed as a site office on a construction project, daytime, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "Modular Portable Cabin",
+      "id": "spec_6",
+      "prompt_for_generation": "Modular portable cabin system with multiple connected units forming a larger structure, insulated panel construction, uniform exterior finish in white or light grey, multiple doors and windows, installed as a multi-room site facility, aerial perspective, daytime, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Product Type / Application",
+      "option_value": "Site Office",
+      "id": "spec_7",
+      "prompt_for_generation": "Portable site office cabin with MS frame and PUF insulated sandwich panels, multiple aluminium sliding windows, single steel door, interior visible with desk and chair through window, installed on an active construction site, daytime, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Product Type / Application",
+      "option_value": "Security Cabin",
+      "id": "spec_8",
+      "prompt_for_generation": "Small portable security guard cabin approximately 6x4 ft, MS steel frame, single door, sliding window on front panel, painted in grey-green or blue, placed at a factory or construction site entrance gate, guard visible inside, daytime, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Product Type / Application",
+      "option_value": "Accommodation / Labour Camp",
+      "id": "spec_9",
+      "prompt_for_generation": "Portable labour accommodation cabin with MS frame and insulated sandwich panels, multiple windows along the length, two entry doors, bunk bed configuration visible through open door, installed in a row as a labour camp on a construction site, daytime, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Product Type / Application",
+      "option_value": "Storage Cabin",
+      "id": "spec_10",
+      "prompt_for_generation": "Portable storage cabin with heavy-duty MS steel frame, solid panel walls with no windows, large double-leaf steel door for equipment access, installed on a construction or industrial site, materials and tools visible inside through open door, daytime, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
