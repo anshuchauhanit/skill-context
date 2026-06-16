@@ -1,0 +1,196 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Significant visual variation across sub-types — single isolation cabin, multi-bed ward block, and container-based mobile hospital are visually distinct configurations. Buyers use the image to identify the correct product type before reading any specification; wrong configuration = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Bed capacity, negative pressure provision, insulation type, and HVAC configuration are non-negotiable clinical shortlisting criteria. Without matching specs, institutional buyers cannot evaluate compliance or fit for their facility requirements."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional prefab manufacturers; buyers search by spec, certification, and track record rather than manufacturer name.",
+      "reason": "Government and institutional buyers run vendor qualification checks on ISO certification, NABH-compliant construction experience, and past government supply track record. Supplier credentials are evaluated during shortlisting but specs carry equal or greater weight at initial engagement."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with bed count, built type, HVAC configuration, and negative pressure provision — buyers discover and compare across spec tiers during search. Listed price is a budget entry point; final price is always project-negotiated, particularly for government tender procurement."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Custom panel-build configurations may be quoted per sq ft, but complete ready-to-deploy ward units are universally quoted per piece. Unit is implied by the product for finished ward structures.",
+      "reason": "Per piece is the dominant and universally understood unit for complete prefabricated isolation ward units. No buyer questions whether a finished ward structure is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Number Of Beds",
+        "reason": "Bed count defines the entire structural scale of the ward — a 1-bed isolation cabin and a 30-bed ward are non-interchangeable products with the largest single price delta in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Built Type",
+        "reason": "Construction methodology (Container vs Panel Build vs Modular) is non-interchangeable — each represents a different structural system, deployment context, and price tier that buyers cannot substitute for one another."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Facility",
+      "Flooring Type",
+      "HVAC Provision",
+      "Insulation Type",
+      "Negative Pressure",
+      "Number Of Beds",
+      "Panel Thickness",
+      "Wall Panel Type",
+      "Ward Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Fire Rating",
+        "why_important": "Healthcare facility compliance (NABH, National Building Code) requires specific fire resistance ratings for patient ward structures — buyers in government procurement specify this as a mandatory eligibility criterion.",
+        "source": "both",
+        "example_values": [
+          "Non-Fire Rated",
+          "FR Grade",
+          "A2 Non-Combustible",
+          "1 Hour Fire Rated"
+        ]
+      },
+      {
+        "spec_name": "Panel Facing Material",
+        "why_important": "The facing material of sandwich panels (GI, MS, Stainless Steel, FRP) determines antimicrobial surface performance, durability in clinical environments, and cost — a primary differentiator for hospital-grade vs standard isolation wards.",
+        "source": "both",
+        "example_values": [
+          "GI Steel",
+          "MS Steel",
+          "Stainless Steel",
+          "FRP"
+        ]
+      },
+      {
+        "spec_name": "Certification",
+        "why_important": "Institutional and government buyers require ISO 9001 certification and NABH-compliant construction credentials as a vendor qualification gate before shortlisting suppliers.",
+        "source": "both",
+        "example_values": [
+          "ISO 9001",
+          "NABH Compliant",
+          "WHO-GMP",
+          "CE Marked"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Bed Capacity",
+        "reason": "Bed count directly communicates the scale of the buyer's requirement — sellers immediately determine whether they can supply the requested ward size and quote accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Panel Material",
+        "reason": "Panel material (PUF vs Rockwool vs Cement) defines the structural and thermal specification tier — sellers need this to confirm product eligibility for the buyer's clinical and compliance requirements.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Ward Type / Clinical Application",
+        "why_important": "Sellers need to know the clinical application (ICU, COVID ward, quarantine, isolation, screening) to confirm the required HVAC configuration, negative pressure provision, and compliance standard — without this, sellers cannot determine fit or price accurately.",
+        "source": "both",
+        "example_values": [
+          "ICU Ward",
+          "COVID / Quarantine Ward",
+          "Isolation Ward",
+          "Screening Ward"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "ICU Ward",
+          "COVID / Quarantine Ward",
+          "Isolation Ward",
+          "Screening Ward"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Ward Type / Clinical Application",
+      "option_value": "ICU Ward",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated modular ICU ward interior, multiple patient beds with medical equipment rails and IV stands, clean white antimicrobial wall panels, integrated medical gas outlets visible on wall, bright clinical lighting, no people, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Ward Type / Clinical Application",
+      "option_value": "COVID / Quarantine Ward",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated modular COVID quarantine ward exterior view, multi-bed panel-build structure with clearly marked isolation zone, negative pressure exhaust vents visible on roof, clean white panels, hospital campus setting, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Ward Type / Clinical Application",
+      "option_value": "Isolation Ward",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated single-room isolation ward unit, compact panel-build cabin with anteroom entry, sealed door with observation window, HVAC unit mounted on exterior wall, white exterior finish, hospital grounds setting, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Ward Type / Clinical Application",
+      "option_value": "Screening Ward",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated modular screening ward exterior, open-plan structure with multiple screening bays visible through large windows, separate entry and exit pathways marked, white sandwich panel construction, hospital entrance area setting, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
