@@ -1,0 +1,1018 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "152411216",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Glass House Extensions",
+      "description": "we “Sahi Metal &amp; Decorators” are the leading, Manufacturer, Supplier, and Service Provider of an extensive array of Glass Door, Glass Window, Decorative Grill, Gypsum False Ceiling, Glass Walkway, Spider Glass Glazing, Aluminum Partition, etc ",
+      "specs": {
+        "raw": "Built Type:Prefab, Flooring:WOODEN, Material:GLASS, Roof Type:GLASS/PUFF, Service Location/City:Delhi NCR, Surface Treatment:Paint Coated, Usage/Application:RESIDENCIAL/HOTEL/COMMERCIAL /FARM HOUSE"
+      },
+      "image_url": "http://5.imimg.com/data5/EN/LK/OT/ANDROID-30167118/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/glass-house extensions-22330273830.html",
+      "image_file": "152411216.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a glass-enclosed terrace room extension under construction with white aluminium frames and gabled glass roof on a wooden deck."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title directly names the product type 'Glass House Extensions' matching the MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs confirm prefab glass house extension with glass/PUF roof for residential/hotel/commercial use."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic company profile listing multiple unrelated products without describing the glass house extension specifically."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Glass prefab terrace room extension with glass/PUF roof is the primary product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Sahi Metal & Decorators' and specs contain 'Service Location/City: Delhi NCR'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Sahi Metal & Decorators' and specs field contains 'Service Location/City: Delhi NCR'."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; strong specs and clear product photo override thin description; P16 flagged for company name and city in listing fields.",
+      "source_url": "https://www.indiamart.com/proddetail/glass-house extensions-22330273830.html"
+    },
+    {
+      "item_id": "275940483",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Glass House",
+      "description": "We are engaged in offering Quality Service to our clients. Our range of all services is widely appreciated by our clients.<br />",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Flooring:Titles, Is It Transparent:Yes, Lifespan:Lifetime, Material:Mild Steel, Place Of Origin:Kolkata, Roof Type:Glass, Service Location/City:Pan India, Surface Treatment:Color Coated, Warranty:15 Years"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/5/421225004/ZP/PR/OL/29068314/modular-building-exterior.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-glass house-2854134148397.html",
+      "image_file": "275940483.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed dark-aluminium-framed glass terrace room extension on a rooftop of a brick residential building with interior lighting visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names 'Prefabricated Glass House' consistent with the MCAT's primary product type."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs confirm prefab glass house with glass roof, mild steel frame, transparency, and 15-year warranty."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic boilerplate with no product-specific information about the glass house extension."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefabricated glass house with glass roof and steel frame is the primary product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Place Of Origin: Kolkata' indicating a specific city location."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Place Of Origin: Kolkata', a specific city name."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; strong specs and excellent product photo override thin description; P16 flagged for city name in specs.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-glass house-2854134148397.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "256220686",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Rooftop glass house",
+      "description": "Toughned glass roof and Euro series aluminum doors",
+      "specs": {
+        "raw": "Built Type:Modular, Flooring:Any, Roof Type:Any concrete roof, Usage/Application:Iron tube"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2023/8/338558894/EA/VL/JQ/1454934/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/rooftop-glass house-2852162168591.html",
+      "image_file": "256220686.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image is an extreme close-up at a tilted angle showing only dark metal frame sections and glass panels; overall structure form is not discernible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names 'Rooftop glass house' directly matching the primary segment of this MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs contain incoherent values ('Iron tube' as usage, 'Any concrete roof' as roof type) that provide little useful product information."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description mentions toughened glass roof and aluminium doors, consistent with a glass house extension."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Rooftop glass house is the primary product type for this MCAT; spec inconsistency does not change product identity."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs",
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title states 'Rooftop glass house' implying glass roof but specs list 'Roof Type: Any concrete roof'.",
+          "Description states 'Toughened glass roof' but specs list 'Roof Type: Any concrete roof'."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title states 'Rooftop glass house' implying glass roof but specs explicitly list 'Roof Type: Any concrete roof'."
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Description states 'Toughened glass roof' but specs list 'Roof Type: Any concrete roof'."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is an extreme close-up at a tilted angle showing only frame sections; overall structure is not identifiable."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad due to active title-specs and specs-description contradictions on roof type.",
+      "source_url": "https://www.indiamart.com/proddetail/rooftop-glass house-2852162168591.html"
+    },
+    {
+      "item_id": "291732804",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Steel Terrace Pergola in Delhi And NCR",
+      "description": "AL DESIGN N DESIGN HUB\nEstablished in the year 2008, We, AL DESIGN N DESIGN HUB We are the Manufacturer, Wholesale Supplier of ALL KIND OF STEEL FABRICATION WORKS, MS DUSTBINS WITH MS STAND POWDER COATED, SS Swing spine Dustbins with stand, We are the Distributor, Trader of Aluminum Composite Panel Works, Structural Glazing, Office Partition, Automatic Door Operators, Special Purpose Machine And Spare, Agricultural Process Equipment, Material Handling Equipment, Automotive Truck Fabrication, Indoor Glass, Indoor Door, Display Racks, Office Tables and Design and Development Engineering Products and Service Provider of Canceled False Ceiling Services, Industrial Fabrication Service and Rust Proof Painting Services. Under the supervision of Mr. Aamir, our firm is achieving heights of achievement. We also provide various amenities to the patrons to put their demands forward and get them solved timely and as per their requirements.\nWe are a professionally managed organization aiming towards creating our prominent presence in the fabrication industry. Our talented and creative site foreman and labor are well-versed in providing tailored fabrication concepts to each client focusing on their work, lifestyle, requirements, and budget. They are trained on various skills and aspects to find creative designing concepts through in-depth research and analytics of clients’ specifications & business models. Since our inception, we have delivered many turnkey projects in our business that exhibit our outstanding performance. To maximize clients’ satisfaction, we go the extra mile to provide incomparable customer services with a prompt response. At present, we are associated with leading clients of the industry who admire and recommend us to others requiring the same service.We are manufacturer of all kind of fabrication work.   And we are giving you a best design for your (Gardan commercial & building ,facades) for commercial project and giving you a best price. And if you want any another design so we also provide that.",
+      "specs": {
+        "raw": "Application:Terrace, Assembly Type:Welded, Beam Size:100 x 150 mm, Column Size:100 x 100 mm, Corrosion Protection:Red Oxide Primer, Finish:Paint Coated, Frame Design:Free Standing Pergola, Roof Type:Open Top, Span Capacity:3 to 5 m, Steel Grade:Mild Steel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/1/485158360/IU/IA/OO/21544734/terrace-pergola-seating.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-terrace pergola in delhi and ncr-2855713380648.html",
+      "image_file": "291732804.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows two open-top steel pergola frames on a rooftop with no glass walls or roof enclosure, which is not a glass house extension."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title explicitly names 'Steel Terrace Pergola' which is a different product from a glass house extension."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs explicitly state 'Frame Design: Free Standing Pergola' and 'Roof Type: Open Top', confirming this is a pergola, not a glass house extension."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description is a company profile for a fabrication business with no mention of glass house extensions."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is an open-top steel pergola with no glass enclosure or walls, which is a fundamentally different product from a glass house extension."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Title contains 'in Delhi And NCR' and description contains company name 'AL DESIGN N DESIGN HUB'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows open-top steel pergola frames with no glass enclosure — not a glass house extension."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly names 'Steel Terrace Pergola', a different product from a glass house extension."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state 'Frame Design: Free Standing Pergola' and 'Roof Type: Open Top', confirming a pergola product."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description is a fabrication company profile with no mention of glass house extensions and lists unrelated products."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Title contains 'in Delhi And NCR' and description contains company name 'AL DESIGN N DESIGN HUB'."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad; product is a steel pergola (open-top, no glass enclosure), fundamentally different from a glass house extension.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-terrace pergola in delhi and ncr-2855713380648.html"
+    },
+    {
+      "item_id": "278237203",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Glass House Manufacturer in Nepal",
+      "description": "Dreamworks Consultants Glass House, has the ability to design, engineer, and fabricate individually tailored projects with a diverse choice of styles, materials, and finishes as per customer required.<br />\n<p>Dreamworks Consultants Glass House, has the ability to design, engineer, and fabricate individually tailored projects with a diverse choice of styles, materials, and finishes as per customer required.</p>\n<p>Dreamworks Glasshouses creates beautiful bespoke glasshouses, Conservatories and Solarium for discerning gardeners in the Nepal.</p>\n<p>Our core ethos is to take our significant industry experience and deliver high quality standard commercial and residential glasshouse projects, cost efficiently and on time.</p>\n<p>We work closely with commercial growers and garden centers around the Nepal and manage full turnkey projects through to specialist advice on any aspect of your controlled environment including renovation.</p>\n<p>We will always be approachable and available at all times. We are very hands on and will be in control of your project from first on site meeting through to handing the keys over.</p>\n<p>Dreamworks Consultants offer a wide range of services from new build or renovation to a full maintenance service. We Incorporate leading glasshouse technologies into our projects and all commercial and residential glasshouse structures offer the very latest storm protection and are all designed and built to the relevant Indian and European standards.</p>",
+      "specs": {
+        "raw": "Built Type:Panel Build, Country of Origin:Made in India, Material:Steel, Service Location/City:Nepal"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/6/431149212/YK/OY/TK/1387940/glass-house-manufacturer-in-nepal.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/glass-house manufacturer in nepal-2854363820397.html",
+      "image_file": "278237203.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image is a 3D CAD render of an octagonal glass conservatory structure — not a real product photograph, limiting buyer-useful detail."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names 'Glass House' consistent with MCAT, though 'in Nepal' is a location qualifier."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm panel build steel construction consistent with glass house extension, though service location is Nepal."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description describes bespoke glasshouse and conservatory design/fabrication services consistent with the MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Glass house conservatory/solarium is a valid product type within the House Extensions MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Title contains 'in Nepal', specs contain 'Service Location/City: Nepal', and description contains company name 'Dreamworks Consultants'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a 3D CAD render of an octagonal glass conservatory, not a real product installation photograph."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Title contains 'in Nepal', specs contain 'Service Location/City: Nepal', and description contains company name 'Dreamworks Consultants'."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; product is a valid glass house but image is a CAD render and listing has location/business leakage.",
+      "source_url": "https://www.indiamart.com/proddetail/glass-house manufacturer in nepal-2854363820397.html"
+    },
+    {
+      "item_id": "291674056",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Glass House",
+      "description": "<p dir=\"ltr\"><b>Prefab Glass House by Space Prefab</b><br>\nEmbrace modern living with the <b>Prefab Glass House</b> from <b>Space Prefab</b>. Featuring expansive glass panels and a sleek design, this innovative home brings the outdoors in, offering panoramic views and abundant natural light. Durable, energy-efficient, and customizable, it&#8217;s the perfect choice for those seeking a contemporary, open-concept living space that blends seamlessly with nature.</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Is It Transparent:Yes, Material:Steel structure and glass Roof for clear views.Metal Fabrcation as per required for customers.Glass is laminated.Metal galvanized, Service Location/City:Pune, Surface Treatment:Color Coated"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2025/1/484851136/IM/RS/CD/193718309/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/glass-house-2855707505812.html",
+      "image_file": "291674056.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a high-end glass-roofed commercial dining interior with a visible 'www.dinzd.com' watermark, suggesting a stock reference image rather than the seller's own product."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Glass House' is extremely sparse with no qualifying attributes beyond the product name."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs describe a prefab steel-and-glass structure with laminated glass and galvanized metal, consistent with a glass house extension."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description describes a prefab glass house with glass panels, panoramic views, and energy efficiency, consistent with the MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefab glass house with steel structure and glass panels is a valid product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Space Prefab' and specs contain 'Service Location/City: Pune'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Glass House' with no material, size, application, or type specification."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a high-end commercial dining interior with visible 'www.dinzd.com' watermark — a stock/reference image, not the seller's own product."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Space Prefab' and specs contain 'Service Location/City: Pune'."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; thin title, stock/watermarked image, and location/business leakage present.",
+      "source_url": "https://www.indiamart.com/proddetail/glass-house-2855707505812.html"
+    },
+    {
+      "item_id": "294189897",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "GLASS HOUSE WITH ALL SERVICE",
+      "description": "Known for their high tensile strength and impact resistance, Toughened glasses that we offer are in high demand amongst corporate both in India and abroad. Offering better ROI along with safety and security, these toughened safety glasses find numerous applications in daily life. <br />",
+      "specs": {
+        "raw": "Built Type:Modular, Country of Origin:Made in India, Is It Transparent:yes, Material:PVC, Service Location/City:indian"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2025/3/494200932/WT/XG/NQ/61431759/prod-20250308-0907544566622668250422467-jpg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/glass-house with all service-2855959089991.html",
+      "image_file": "294189897.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a standalone glass-walled steel-frame structure under construction with flat metal roof and brick plinth, consistent with a glass house extension."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names 'GLASS HOUSE' but appends vague 'WITH ALL SERVICE' without any specification detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs list modular build type and PVC material with minimal other attributes; 'Service Location/City: indian' is malformed."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description describes toughened glass material properties generically without describing the glass house extension product."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Glass house structure with modular build type is a valid product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'GLASS HOUSE WITH ALL SERVICE' — 'WITH ALL SERVICE' is vague marketing language adding no specification."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only 5 fields with malformed location ('indian') and no roof type, size, or application detail."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; all text dimensions are thin and override to good requires strong text, which is absent.",
+      "source_url": "https://www.indiamart.com/proddetail/glass-house with all service-2855959089991.html"
+    },
+    {
+      "item_id": "297190123",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Terrace Glass House",
+      "description": "<p dir=\"ltr\">Glass home :<br>\nThis sleek and modern glass gazebo is the perfect<br>\noutdoor retreat. The minimalist design and clean lines<br>\ncreate a serene and inviting atmosphere, perfect for<br>\nrelaxation and entertaining. The floor-to-ceiling glass<br>\nwalls offer panoramic views of the surrounding<br>\nlandscape, blurring the lines between indoors and<br>\noutdoors. The comfortable seating areas, adorned with<br>\nsoft cushions and throws, invite you to relax and<br>\nunwind. Imagine enjoying a quiet evening in this<br>\ntranquil space, surrounded by the beauty of nature.</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Is It Transparent:Its trancprant use for outdoor home, Material:Steel, Surface Treatment:Galvanized"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2025/3/497716478/QP/GO/HL/193718309/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/terrace-glass house-2856259112512.html",
+      "image_file": "297190123.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image appears to be an AI-generated or stock lifestyle photo of a glass garden room extension, not a real installation photograph."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Terrace Glass House' directly names the primary segment product type for this MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab steel glass house for outdoor home use, though values are sparse and contain a misspelling."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description describes a glass gazebo with floor-to-ceiling glass walls and panoramic views, consistent with glass house extension product types."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Terrace glass house/glass gazebo is a valid product type within the House Extensions MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only 5 fields with a misspelled transparency value ('Its trancprant use for outdoor home') and no roof type, size, or frame detail."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image appears to be an AI-generated or stock lifestyle photo of a glass garden room, not a real product installation photograph."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; thin specs and AI-generated/stock image; override to good requires good_image which is absent.",
+      "source_url": "https://www.indiamart.com/proddetail/terrace-glass house-2856259112512.html"
+    },
+    {
+      "item_id": "322959459",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "24mm Modern Glass House Extension",
+      "description": "We are engaged in offering 24mm Modern Glass House Extension to our clients. Our range of Products is widely appreciated by our clients.",
+      "specs": {
+        "raw": "Build Type:Steel Structure, Design Type:Modern, Extension Type:House Extension, Service Duration:Up to 1 Month, Service Location:Within State, Service Mode:On Site, Service Provided:With Material, Thickness:24mm, Usage:Bedroom"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/2/587730078/PC/HT/JK/81932527/commercial-cast-iron-railing.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/24mm-modern glass house extension-2858836046130.html",
+      "image_file": "322959459.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image appears to be an AI-generated or stock photo of a glass conservatory with plants, not a real product installation photograph."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title explicitly names 'Glass House Extension' with 24mm thickness and modern design, directly matching the MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs explicitly state 'Extension Type: House Extension' with steel structure, 24mm thickness, and bedroom usage."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description names the product '24mm Modern Glass House Extension' but adds no specification or application detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "24mm glass house extension with steel structure is the primary product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image appears to be an AI-generated or stock photo of a glass conservatory with plants, not a real product installation photograph from the seller."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; strong title and specs but thin_image prevents override to good per override table.",
+      "source_url": "https://www.indiamart.com/proddetail/24mm-modern glass house extension-2858836046130.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show completed or near-completed glass house extensions installed on rooftops or terraces of existing residential buildings, with dark or white aluminium/steel frames and full glass walls and roof panels clearly visible. Images are taken from an exterior vantage point that captures the full structure in context — showing the relationship between the glass extension and the existing building. Interior lighting or ambient dusk lighting is present in the best examples, conveying the liveable quality of the space.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Good product images show the physical glass structure installed on-site — the visual form, frame material, glass transparency, and integration with the existing building are the primary buyer-useful signals.",
+      "No meaningful text is printed or labelled on the product itself; OCR would extract nothing useful from product images.",
+      "Buyers evaluate these products primarily on visual appearance, construction quality, and installed context — not on text labels."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good photos show completed glass house extensions installed on rooftops or terraces, with full structure visible from an exterior angle showing frame, glass walls, and integration with the existing building.",
+    "product_identity": [
+      "Aluminium or steel frame with full glass wall panels and glass/PUF roof",
+      "Structure installed on rooftop or terrace of an existing residential or commercial building"
+    ],
+    "acceptable_scenes": [
+      "Exterior view of completed glass extension on rooftop at dusk or daylight",
+      "Under-construction glass extension showing frame and glass panel assembly on terrace"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "152411216",
+        "reason": "Image shows a glass-enclosed terrace room extension under construction with white aluminium frames and gabled glass roof on a wooden deck.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "275940483",
+        "reason": "Image shows a completed dark-aluminium-framed glass terrace room extension on a rooftop of a brick residential building with interior lighting visible.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show glass house extension components or structures but from angles or at quality levels that prevent buyers from assessing the full product.",
+    "thinness_signals": [
+      "Extreme close-up or tilted angle showing only frame sections without revealing overall structure form",
+      "AI-generated or stock lifestyle images that do not represent the seller's actual product",
+      "3D CAD renders that show design intent but not real construction quality"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "256220686",
+        "reason": "Image is an extreme close-up at a tilted angle showing only dark metal frame sections and glass panels; overall structure form is not discernible."
+      },
+      {
+        "photo_url": null,
+        "item_id": "278237203",
+        "reason": "Image is a 3D CAD render of an octagonal glass conservatory structure — not a real product photograph, limiting buyer-useful detail."
+      },
+      {
+        "photo_url": null,
+        "item_id": "291674056",
+        "reason": "Image shows a high-end glass-roofed commercial dining interior with a visible 'www.dinzd.com' watermark, suggesting a stock reference image rather than the seller's own product."
+      },
+      {
+        "photo_url": null,
+        "item_id": "297190123",
+        "reason": "Image appears to be an AI-generated or stock lifestyle photo of a glass garden room extension, not a real installation photograph."
+      },
+      {
+        "photo_url": null,
+        "item_id": "322959459",
+        "reason": "Image appears to be an AI-generated or stock photo of a glass conservatory with plants, not a real product installation photograph from the seller."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "One irrelevant photo shows an open-top steel pergola with no glass enclosure — a fundamentally different product from a glass house extension.",
+    "failure_classes": [
+      {
+        "class": "open_top_pergola",
+        "description": "Image shows an open-top steel or metal pergola frame structure with no glass walls, no glass roof, and no enclosure — a pergola is a different product category from a glass house extension.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "291732804"
+          }
+        ],
+        "detection_signal": "Visible open-top frame structure with no glass panels on walls or roof; sky visible through the top of the structure.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name the product type explicitly as a glass house extension with qualifying attributes such as material, thickness, design type, or application context.",
+    "strong_positive_signals": [
+      "Explicit product type: 'Glass House Extension', 'Glass House', 'Prefabricated Glass House', 'Rooftop Glass House'",
+      "Qualifying attributes: material (aluminium, steel, glass), thickness (24mm), design type (modern), application (terrace, rooftop, residential)"
+    ],
+    "structural_patterns": [
+      "[Thickness/Size] [Design Type] Glass House Extension",
+      "Prefabricated/Prefab Glass House [Application]",
+      "[Application] Glass House",
+      "Glass House Extensions [optional qualifier]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "322959459",
+          "title": "24mm Modern Glass House Extension",
+          "reason": "Explicitly names product type 'Glass House Extension' with thickness specification (24mm) and design qualifier (Modern) — three buyer-relevant attributes in one title."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "152411216",
+          "title": "Glass House Extensions",
+          "reason": "Correctly names the product type matching the MCAT but lacks material, size, or application qualifiers."
+        },
+        {
+          "item_id": "275940483",
+          "title": "Prefabricated Glass House",
+          "reason": "Names product type with construction method (prefabricated) but lacks application context or material detail."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name the product type but lack any qualifying attributes that help buyers assess material, size, application, or design.",
+    "thinness_signals": [
+      "Title is only two words ('Glass House') with no material, size, application, or type qualifier",
+      "Title appends vague marketing language ('WITH ALL SERVICE') instead of product specifications"
+    ],
+    "examples": [
+      {
+        "item_id": "291674056",
+        "title": "Glass House",
+        "reason": "Only two words with no qualifying attributes — material, size, application, and design type are all absent."
+      },
+      {
+        "item_id": "294189897",
+        "title": "GLASS HOUSE WITH ALL SERVICE",
+        "reason": "'WITH ALL SERVICE' is vague marketing language that adds no specification value to the product name."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "One irrelevant title explicitly names a pergola — a different product — contaminating the MCAT with a wrong product type.",
+    "failure_classes": [
+      {
+        "class": "pergola_mislabelled",
+        "signal": "Title contains 'Pergola' — an open-top frame structure without glass enclosure, which is a different product from a glass house extension.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "291732804",
+            "title": "Steel Terrace Pergola in Delhi And NCR",
+            "reason": "Title explicitly names 'Steel Terrace Pergola' — an open-top structure without glass walls or roof, fundamentally different from a glass house extension.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — sourced from verified bad products where category.valid is false.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "open_top_steel_pergola",
+        "signal": "Title, specs, or image explicitly shows an open-top steel/metal pergola frame with no glass walls or roof enclosure.",
+        "examples": [
+          {
+            "item_id": "291732804",
+            "title": "Steel Terrace Pergola in Delhi And NCR",
+            "reason": "Product is an open-top steel pergola confirmed by title ('Pergola'), specs ('Frame Design: Free Standing Pergola', 'Roof Type: Open Top'), and image — not a glass house extension.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator. Images were analysed visually from provided base64 attachments."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "No sibling MCAT in the provided taxonomy list matches 'Steel Pergola' or 'Pergola' — correct_mcat_suggestion set to null for item 291732804."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (glass-enclosed terrace/rooftop room extension) and mcat_description used to ground all category belonging decisions; mcat_vagueness_signal.suspected_vague treated as false (coherent MCAT) per Agent 3 context."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 9,
+    "images_attached": 9,
+    "web_fetch_used": false
+  }
+}
