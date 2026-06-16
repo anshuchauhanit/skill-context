@@ -1,0 +1,452 @@
+{
+  "mcat_description": {
+    "short": "Modular toilets are factory-built, prefabricated sanitation units — typically constructed from FRP, GI steel, UPVC, or PUF-insulated panels — that are transported to site and installed without civil construction work. They are sold as standalone toilet cabins or toilet-cum-bathroom combo units, in single or multi-seater configurations.",
+    "long": "A modular toilet is a fully factory-manufactured, plug-and-play sanitation structure built from materials such as FRP (Fibre Reinforced Plastic), GI steel with PUF insulation, UPVC, or sandwich panels, and delivered ready-to-use to the installation site. Units come pre-fitted with WC (Indian or Western style), wash basin, cistern, overhead water tank provision, ventilation, and electrical connections, requiring only external water and power hookup. They are available as single-seater standalone cabins, toilet-cum-bathroom combos, multi-seater toilet blocks (2–10 seats), and trailer-mounted mobile toilet vans for events and disaster relief. The category is driven by Swachh Bharat Mission demand, construction site labour welfare mandates, and municipal public sanitation infrastructure requirements across India.",
+    "product_types": [
+      "FRP Portable Toilet Cabin (single seater)",
+      "GI Steel Modular Toilet Cabin",
+      "UPVC Modular Toilet",
+      "PUF Insulated Panel Toilet Cabin",
+      "Toilet-cum-Bathroom Combo Unit",
+      "Multi-Seater Toilet Block (2–10 seats)",
+      "Bio-Digester Toilet (DRDO-based biodigester system)",
+      "Handicap-Accessible Modular Toilet",
+      "Mobile Toilet Van (trailer-mounted)",
+      "Prefabricated Toilet Block for Schools/Community Use",
+      "Zero Discharge / Eco Toilet"
+    ],
+    "primary_applications": [
+      "Construction site labour welfare sanitation",
+      "Municipal and public sanitation infrastructure (Swachh Bharat Mission)",
+      "Labour camps and worker housing",
+      "Outdoor events, weddings, fairs, and exhibitions",
+      "Rural and remote area sanitation",
+      "Disaster relief and temporary camps",
+      "School and community toilet blocks",
+      "Industrial plant and factory site sanitation",
+      "Highway and roadside public toilets",
+      "Residential use where permanent construction is not feasible"
+    ],
+    "buyer_segments": [
+      "Construction contractors and project developers (labour welfare compliance)",
+      "Municipal corporations and urban local bodies (public sanitation)",
+      "Government agencies and PSUs (Swachh Bharat Mission procurement)",
+      "NGOs and social sector organisations (rural sanitation)",
+      "Event management companies (temporary sanitation rental/purchase)",
+      "Industrial plant operators and EPC contractors",
+      "Real estate developers (site office and labour camp sanitation)",
+      "Defence and railway establishments (field sanitation)"
+    ]
+  },
+  "primary_segment": "Prefabricated modular toilet cabin (FRP or GI steel construction, single or multi-seater) for construction sites, labour camps, and public sanitation infrastructure",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated modular toilet cabin (FRP/GI/UPVC/PUF) for construction sites, labour camps, and public sanitation",
+    "secondary_families": [],
+    "reason": "All sub-types — FRP, GI, UPVC, bio-toilet, toilet-bathroom combo, multi-seater block — share the same B2B infrastructure buyer profile, same off-site prefabrication working principle, and the same regulatory context; no sibling MCAT carves out an incompatible buyer or regulatory sub-type."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "modular toilet",
+      "portable toilet cabin",
+      "prefabricated toilet",
+      "readymade toilet",
+      "prefab toilet",
+      "mobile toilet",
+      "FRP toilet cabin",
+      "toilet cabin",
+      "portable restroom",
+      "readymade toilet cabin"
+    ],
+    "technical_synonyms": [
+      "prefabricated sanitation unit",
+      "FRP modular toilet",
+      "GI steel toilet cabin",
+      "PUF insulated toilet cabin",
+      "UPVC toilet module",
+      "plug-and-play toilet unit",
+      "bio-digester toilet",
+      "prefab toilet block",
+      "sandwich panel toilet cabin",
+      "zero discharge toilet"
+    ],
+    "trade_names": [
+      "Tata Nestin",
+      "Tata EzyNest",
+      "Sintex Sugam Toilet",
+      "E-Loos",
+      "Epsilon Prefab Toilet"
+    ],
+    "hindi_terms": [
+      "readymade shauchalay",
+      "portable shauchalay",
+      "prefab shauchalay",
+      "modular shauchalay"
+    ],
+    "buyer_intent_queries": [
+      "modular toilet for construction site",
+      "prefabricated toilet cabin price India",
+      "readymade toilet and bathroom combo",
+      "portable toilet with attached bathroom",
+      "FRP toilet cabin for labour camp",
+      "modular toilet block for school",
+      "bio toilet for construction site",
+      "portable toilet for outdoor events",
+      "UPVC modular toilet washroom",
+      "readymade toilet Indian style western style"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Indian B2B sellers universally quote modular toilets per piece (single cabin unit); multi-seater blocks are quoted per block or per set, but the base transaction unit across all manufacturer sites is per piece.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Single-seater toilet cabin",
+        "unit": "per piece",
+        "note": "Standard unit across FRP, GI, UPVC variants"
+      },
+      {
+        "sub_segment": "Multi-seater toilet block (2–10 seats)",
+        "unit": "per block / per set",
+        "note": "Quoted as a complete block unit; sometimes broken down per seat for large government tenders"
+      },
+      {
+        "sub_segment": "Mobile toilet van",
+        "unit": "per unit / per vehicle",
+        "note": "Trailer-mounted units quoted per vehicle"
+      }
+    ],
+    "sources_checked": [
+      "erconprefabs.com",
+      "pressmach.com",
+      "worldofportablecabins.com (Epsilon Prefab)",
+      "vikasfiber.com",
+      "robustenterprises.in",
+      "modconindustries.com"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, 'modular toilet' and 'portable toilet' are used interchangeably by buyers and sellers, with 'readymade toilet cabin' also widely used in procurement vocabulary. The dominant construction materials are FRP (Fibre Reinforced Plastic), GI steel with PUF insulation, and UPVC — each suited to different durability and budget requirements. FRP is the most widely manufactured material for single-seater portable units due to its light weight, corrosion resistance, and low cost; GI steel with PUF panels is preferred for semi-permanent and institutional installations requiring better insulation and longevity. The Swachh Bharat Mission has been a major demand driver, creating large-scale government procurement for community and school toilet blocks. Key buyer-side distinctions include: Indian-style WC vs Western commode, toilet-only vs toilet-cum-bathroom combo, single-seater vs multi-seater block, and with/without bio-digester (DRDO-based zero-discharge system). Tata Steel's 'Nestin' and 'EzyNest' brands are recognised trade names in the organised segment; Sintex's 'Sugam' toilet is another known branded product. Manufacturers are concentrated in Rajasthan (Jodhpur), Gujarat (Ahmedabad), NCR (Ghaziabad, Faridabad), Maharashtra (Pune), and Telangana (Hyderabad). BIS standards for sanitary appliances (IS 2556 series) apply to the WC and wash basin fittings within the unit; no single BIS standard governs the prefabricated cabin structure itself, though IS-grade steel materials are specified by buyers in government tenders. GEM (Government e-Marketplace) specifications are referenced by government buyers for handicap-accessible units.",
+  "buyer_attracting_attributes": [
+    "Material (FRP / GI Steel / UPVC / PUF Panel)",
+    "Toilet Style (Indian WC / Western Commode)",
+    "Configuration (Toilet Only / Toilet-cum-Bathroom)",
+    "Number of Seats / Compartments",
+    "Dimensions (L x W x H in feet)",
+    "Waste Disposal System (Septic Tank / Bio-Digester / Holding Tank)",
+    "Portability (Fixed / Portable / Trailer-Mounted)",
+    "Certifications (GEM Spec / IS Grade / DRDO Bio-Digester)",
+    "Accessories Included (Water Tank / Wash Basin / Exhaust Fan / LED Light)",
+    "Handicap Accessibility (Wide Door / Grab Bars / Ramp)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "224049",
+    "mcat_name": "Modular Toilet",
+    "mcat_level": "4",
+    "listing_count": "442",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Modular Toilet",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35424.0",
+      "name": "Portable Toilets",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35424.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "35424",
+        "mcat_name": "Portable Toilets",
+        "listing_count": "8053",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42586",
+        "mcat_name": "Toilet Cubicles",
+        "listing_count": "4466",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42587",
+        "mcat_name": "Toilet Partitions",
+        "listing_count": "1861",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "44109",
+        "mcat_name": "Mobile Toilet Van",
+        "listing_count": "2119",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45789",
+        "mcat_name": "Mobile Toilets",
+        "listing_count": "4607",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119106",
+        "mcat_name": "Bio Toilet",
+        "listing_count": "1455",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "126794",
+        "mcat_name": "FRP Modular Toilet",
+        "listing_count": "735",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133092",
+        "mcat_name": "Bunk House Portable Toilets",
+        "listing_count": "210",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145136",
+        "mcat_name": "FRP Portable Toilet",
+        "listing_count": "6032",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "156755",
+        "mcat_name": "Chemical Toilets",
+        "listing_count": "126",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182628",
+        "mcat_name": "Sintex Portable Toilets",
+        "listing_count": "361",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "189105",
+        "mcat_name": "MS Portable Toilets",
+        "listing_count": "2127",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "214584",
+        "mcat_name": "RCC Toilet",
+        "listing_count": "729",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "222823",
+        "mcat_name": "PVC Toilet",
+        "listing_count": "343",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 14,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Modular toilets are prefabricated sanitation infrastructure with BIS standards and state-level health/building code compliance; buyers evaluate by material, capacity, and regulatory certification rather than brand name."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Top keywords by Impressions used to identify buyer search vocabulary; 'Tata ezynest' and 'Tata nestin' signals extracted for trade_names."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Pageviews confirmed 'modular toilet' as dominant search term; Tata brand signals corroborated trade_names."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "26 call rows provided buyer vocabulary (readymade toilet, Indian/Western style, toilet-cum-bathroom, UPVC modular toilet, puff bathroom) and confirmed construction site and combo-unit demand patterns."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path and listing count (442) used as reference; no sibling MCAT carves out an incompatible sub-type, supporting suspected_vague: false."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.erconprefabs.com/portable-toilets-modular-toilets.html",
+        "title": "Portable Toilets & MODULAR TOILETS - Handicap Modular Toilet Manufacturer from Jodhpur",
+        "source_domain": "erconprefabs.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context",
+          "market_context"
+        ],
+        "citation_note": "Used for product variant confirmation (single/twin seater, Indian/Western WC, handicap), plug-and-play feature set, GEM specification reference, and per-piece unit quoting."
+      },
+      {
+        "url": "https://texoprefab.com/products/portable-solutions/modular-toilet/",
+        "title": "Modular Toilets in India | TEXO Prefab World",
+        "source_domain": "texoprefab.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "mcat_description.primary_applications",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for material confirmation (corrosion-resistant steel, PUF-insulated panels), application segments (urban infrastructure, hospitality, institutional), and feature set (concealed plumbing, anti-bacterial panels, bio-digester integration)."
+      },
+      {
+        "url": "https://www.pressmach.com/solution/portable-prefab-toilets",
+        "title": "Prefab Toilet | Modular & Portable Toilet Manufacturer in India - Pressmach",
+        "source_domain": "pressmach.com",
+        "derived_outputs": [
+          "mcat_description.short",
+          "mcat_description.buyer_segments",
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for primary_segment confirmation (construction sites, villages, remote areas), lifespan data (10–15 years for modular, 5–10 for portable), and buyer segment breadth."
+      },
+      {
+        "url": "https://www.worldofportablecabins.com/portable-toilets.html",
+        "title": "Portable Toilets - Sintex Portable toilet Manufacturer from Ahmedabad",
+        "source_domain": "worldofportablecabins.com",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "mcat_description.product_types",
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for Sintex Sugam trade name, bio-toilet (DRDO biodigester) variant confirmation, GI/ACP-finished cabin variant, and Epsilon Prefab as a prominent manufacturer."
+      },
+      {
+        "url": "https://www.loomcraftsprefab.com/bathpods",
+        "title": "Prefabricated Bathroom Pods | Loom Crafts | India",
+        "source_domain": "loomcraftsprefab.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used to confirm bathroom pod / prefab bathroom module as a distinct product type within the broader modular sanitation category, serving healthcare, housing, and hospitality buyers."
+      },
+      {
+        "url": "https://forum.susana.org/india/3918-standards-or-norms-for-design-of-community-and-public-toilet",
+        "title": "Standards or norms for design of Community and Public toilet - SuSanA Forum",
+        "source_domain": "forum.susana.org",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used to confirm BIS 1993 standards for community/public toilet design norms and Ministry of Urban Affairs guidelines as the regulatory reference framework."
+      },
+      {
+        "url": "https://www.modconindustries.com/portable-toilet.html",
+        "title": "Portable Toilet - Frp Portable Puf Toilet Manufacturer from New Delhi",
+        "source_domain": "modconindustries.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for PUF insulated panel variant confirmation, PVC toilet variant, mobile toilet van (trailer-mounted) product type, and multi-seater block (4, 8, 10 seats) configuration data."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "FSSAI",
+        "State Health Department"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Modular toilets are prefabricated sanitation infrastructure with BIS standards (IS:2379 for portable toilets, IS:3400 for septic tanks) and state-level health/building code compliance. Not brand-dominant; buyers evaluate by material, capacity, and regulatory certification rather than brand name."
+    }
+  }
+}
