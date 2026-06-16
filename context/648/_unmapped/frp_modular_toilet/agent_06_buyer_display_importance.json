@@ -1,0 +1,193 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — single cabin vs multi-seat block, Indian squat vs Western commode, mobile vs fixed, combined toilet+bathroom vs toilet-only. Buyers use the image to confirm product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "No. of Seats, Toilet Seat type, Wall Material, and Module Type are non-interchangeable shortlisting criteria — especially for government tender procurement where specs are mandated. Listings without these specs cannot be evaluated or compared."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "commodity price",
+      "reason": "Highly fragmented market with hundreds of regional manufacturers. Construction contractors and government buyers compare per-piece rates aggressively within their known spec tier. India price sensitivity is high and price is a primary decision lever once type and spec are confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Market is highly fragmented across regional FRP fabricators; Sintex is a recognised name but buyers do not search by brand — they search by spec, seat count, and price.",
+      "reason": "Institutional buyers (PWD, municipal corporations) evaluate manufacturer supply capacity, past government supply track record, and installation credentials during vendor selection — important but secondary to spec and price confirmation."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Multi-seat blocks may be quoted per block or per seat, and rental deployments quote per piece per day/month — but B2B sale listings universally quote per piece and no buyer questions this.",
+      "reason": "Unit is entirely implied for a discrete prefabricated cabin unit. No buyer ever questions whether an FRP modular toilet is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "No Of Seats",
+        "reason": "Defines the scale of the unit from single cabin to 10-seat block — non-interchangeable across procurement requirements and the largest price delta of any spec in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Toilet Seat",
+        "reason": "Indian squat pan vs Western commode vs Urinal Only are non-interchangeable functional configurations that serve different user populations and tender specifications, with meaningful price and fitment differences."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Built Type",
+      "Features",
+      "Flooring",
+      "Module Type",
+      "No Of Seats",
+      "Tank Capacity",
+      "Toilet Seat",
+      "Wall Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall Thickness",
+        "why_important": "Agent 3 market research explicitly identifies wall thickness as the primary quality differentiator in this category, ranging from 2mm economy to 8–30mm premium sandwich panel — buyers cannot compare durability or quality without this dimension, which is not captured by Wall Material alone.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "2 mm",
+          "4 mm",
+          "6 mm",
+          "8 mm"
+        ]
+      },
+      {
+        "spec_name": "Waste Management System",
+        "why_important": "Sellers need to know whether the buyer requires a bio-digester unit, septic tank connection, or chemical system to confirm infrastructure compatibility and supply the correct product variant — these are non-interchangeable and represent distinct product sub-types.",
+        "source": "both",
+        "example_values": [
+          "Bio-Digester",
+          "Septic Tank Connection",
+          "Chemical System",
+          "Open Drain"
+        ]
+      },
+      {
+        "spec_name": "Cabin Size",
+        "why_important": "Site space constraints make footprint dimensions a real buyer requirement — Agent 3 identifies standard sizes clustering at 3×3 ft, 4×4 ft, and 4×6 ft, and sellers need this to confirm the unit fits the allocated space and to price correctly.",
+        "source": "both",
+        "example_values": [
+          "3x3 ft",
+          "4x4 ft",
+          "4x6 ft",
+          "6x4 ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Seat Type",
+        "reason": "Indian squat pan, Western commode, and Anglo-Indian are non-interchangeable functional configurations — sellers need this to immediately confirm they supply the correct variant and to price accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Indian",
+          "Western",
+          "Anglo-Indian"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Width",
+        "reason": "Site space constraints make footprint width a real procurement requirement — sellers need this to confirm the unit fits the buyer's allocated space and to identify the correct size variant.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "No. of Seats",
+        "why_important": "Sellers cannot determine the scale of supply, product type (single cabin vs multi-seat block), or price without knowing seat count — this is the primary quantity and configuration signal in this category.",
+        "source": "both",
+        "example_values": [
+          "1 Seat",
+          "2 Seats",
+          "4 Seats",
+          "6 Seats"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Waste Management System",
+        "why_important": "Sellers need to know whether the buyer requires a bio-digester, septic tank connection, or chemical system to confirm infrastructure compatibility and supply the correct unit type — these are non-interchangeable product variants.",
+        "source": "both",
+        "example_values": [
+          "Bio-Digester",
+          "Septic Tank Connection",
+          "Chemical System",
+          "Open Drain"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Seat Type",
+      "option_value": "Indian",
+      "id": "spec_1",
+      "prompt_for_generation": "Interior view of a prefabricated FRP modular toilet cabin showing an Indian-style squat pan toilet at floor level, anti-skid FRP flooring, white fibreglass walls, clean and well-lit, straight-on camera angle, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Seat Type",
+      "option_value": "Western",
+      "id": "spec_2",
+      "prompt_for_generation": "Interior view of a prefabricated FRP modular toilet cabin showing a Western-style ceramic commode with seat and lid, white fibreglass walls, anti-skid flooring, clean and well-lit, straight-on camera angle, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Seat Type",
+      "option_value": "Anglo-Indian",
+      "id": "spec_3",
+      "prompt_for_generation": "Interior view of a prefabricated FRP modular toilet cabin showing an Anglo-Indian combination toilet with both squat footrests and a raised commode seat integrated, white fibreglass walls, anti-skid FRP flooring, clean and well-lit, straight-on camera angle, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
