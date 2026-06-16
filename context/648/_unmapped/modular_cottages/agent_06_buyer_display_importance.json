@@ -1,0 +1,371 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — A-frame, gable-roof resort cottage, glamping pod, and log cabin are visually distinct products that buyers identify by silhouette before reading any text. The product's primary appeal is aesthetic; buyers are purchasing a guest experience, and the cottage design IS the product differentiator."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Floor area, structure material, roof type, and room configuration are primary shortlisting criteria — buyers cannot evaluate project fit, cost, or regulatory compliance without these. Listings without specs cannot be shortlisted by resort developers or farmhouse operators."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian hospitality developers are cost-conscious and compare per-sq-ft rates across sellers, but price is only comparable after spec equivalence (material tier, floor area, furnishing level) is confirmed. Final price is always negotiated for custom or semi-custom projects; listed rate anchors the budget conversation."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standardised glamping pods and compact single-room units are often quoted per piece (lump sum per unit); custom resort and farm cottages are quoted per sq ft of built-up area. Both conventions coexist in the market — unit must be shown alongside price to prevent misreading.",
+      "reason": "Per sq ft vs per piece is a documented market ambiguity in Indian modular cottage pricing. Price cannot be compared across listings without knowing the unit — a per-piece quote for a 300 sq ft pod and a per-sq-ft quote for a 600 sq ft cottage are incomparable without unit clarity."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No established brand names with buyer recall exist in the Indian modular cottage market — buyers search by design type, material, and spec rather than manufacturer name; the market is fragmented across regional fabricators and turnkey contractors.",
+      "reason": "Post-sale dependency is high — buyers evaluate turnkey execution capability, installation track record, geographic service reach, and warranty support during vendor selection. Manufacturer status and project portfolio matter, but no dominant brand drives buyer preference."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Material",
+        "reason": "Defines the product class — MS, bamboo, LGSF, and wood are non-interchangeable structural systems with a 3–5x price delta between budget bamboo and premium LGSF, making it the single largest price driver in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Floor Area",
+        "reason": "Directly determines total project cost via per-sq-ft pricing — non-interchangeable across project requirements, and the primary scale variable that drives the overall contract value."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Cottage Type",
+      "Floor Area",
+      "Furnishing",
+      "Number Of Bedrooms",
+      "Roof Type",
+      "Service Location",
+      "Structure Material",
+      "Toilet Facility",
+      "Usage"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Thermal insulation specification (Rockwool, PIR, EPS, or none) is a primary quality and price tier separator for resort buyers in hill stations and coastal areas — PIR-insulated LGSF cottages command a significant premium over basic EPS or uninsulated structures.",
+        "source": "both",
+        "example_values": [
+          "Rockwool",
+          "PIR (Polyisocyanurate)",
+          "EPS (Expanded Polystyrene)",
+          "No Insulation"
+        ]
+      },
+      {
+        "spec_name": "Wall Panel Type",
+        "why_important": "Wall cladding system (sandwich panel, cement fibre board, FRP, or timber) determines durability, maintenance requirements, and aesthetic finish — a primary differentiator for resort developers evaluating long-term asset quality.",
+        "source": "both",
+        "example_values": [
+          "Sandwich Panel",
+          "Cement Fibre Board",
+          "FRP Panel",
+          "Timber Cladding"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Primary Material",
+        "reason": "Routes the RFQ to manufacturers who work with that structural system — a bamboo specialist cannot supply an LGSF cottage, and a steel-frame fabricator cannot supply a log cabin; material is the primary supplier-capability filter.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Steel",
+          "Wood",
+          "Insulated Panels",
+          "Bamboo",
+          "Fiber Cement",
+          "Concrete"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Configuration",
+        "reason": "Defines the spatial scope of the project — a single-room glamping pod and a 2BHK resort cottage are fundamentally different products requiring different design, material quantities, and manufacturing capability.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Duplex",
+          "Custom Layout",
+          "1 BHK",
+          "Single Room",
+          "2 BHK",
+          "Mezzanine"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roof Design / Cottage Style",
+        "why_important": "A-frame, gable-roof, flat-roof, and dome cottage styles are structurally distinct products — sellers specialise in specific roof forms, and buyers searching for an A-frame resort cottage cannot be served by a flat-roof portable cabin manufacturer.",
+        "source": "both",
+        "example_values": [
+          "A-Frame",
+          "Gable Roof",
+          "Flat Roof",
+          "Hip Roof",
+          "Dome"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "A-Frame",
+          "Gable Roof",
+          "Flat Roof",
+          "Hip Roof",
+          "Dome"
+        ]
+      },
+      {
+        "spec_name": "Furnishing Level",
+        "why_important": "Sellers need to know whether the buyer requires a bare structure, semi-furnished, or fully furnished turnkey cottage — the supply scope and project cost differ substantially, and not all manufacturers offer full interior fit-out.",
+        "source": "both",
+        "example_values": [
+          "Unfurnished",
+          "Semi-Furnished",
+          "Fully Furnished",
+          "Custom Furnishing"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Modular cottages have extreme design variation within the same spec combination — two wooden 1BHK cottages can look completely different in silhouette, facade treatment, and interior aesthetic. Resort developers and farmhouse owners typically have a specific design reference (competitor resort, Pinterest inspiration, architect sketch) they want to match. An uploaded reference image lets sellers identify whether their catalogue or custom design capability matches the buyer's vision, avoiding misaligned proposals."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Primary Material",
+      "option_value": "Steel",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated modular resort cottage with steel frame and metal panel cladding, A-frame or gable roof silhouette, set in a green hillside landscape, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Primary Material",
+      "option_value": "Wood",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated wooden modular cottage with pine log or engineered timber frame and wood plank cladding, gable roof, set in a forested hillside setting, exterior view, warm natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Primary Material",
+      "option_value": "Insulated Panels",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated modular resort cottage built with insulated sandwich panel walls and roof, clean modern exterior finish, gable roof, set in a resort landscape with greenery, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Primary Material",
+      "option_value": "Bamboo",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated eco-resort cottage with bamboo frame and bamboo panel walls, thatched or bamboo-slat roof, set in a tropical or farmhouse landscape, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Primary Material",
+      "option_value": "Fiber Cement",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated modular resort cottage with fiber cement board cladding, smooth textured exterior finish, gable roof, set in a hillside resort landscape, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Primary Material",
+      "option_value": "Concrete",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated modular resort cottage with precast concrete panels, contemporary minimalist exterior, flat or low-pitch roof, set in a resort or farmhouse landscape, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Configuration",
+      "option_value": "Duplex",
+      "id": "spec_7",
+      "prompt_for_generation": "Prefabricated modular duplex resort cottage with two floors, external staircase visible, gable roof, set in a hillside resort landscape, exterior view showing two-storey structure clearly, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Configuration",
+      "option_value": "Custom Layout",
+      "id": "spec_8",
+      "prompt_for_generation": "Prefabricated modular resort cottage with open-plan custom interior layout, large windows, multi-room configuration visible from exterior, set in a resort landscape, exterior view with interior glimpse through glass doors, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Configuration",
+      "option_value": "1 BHK",
+      "id": "spec_9",
+      "prompt_for_generation": "Prefabricated modular 1BHK resort cottage with one bedroom and living area, compact gable-roof structure, set in a hillside or farmhouse landscape, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Configuration",
+      "option_value": "Single Room",
+      "id": "spec_10",
+      "prompt_for_generation": "Prefabricated modular single-room glamping pod or compact cottage, small footprint, A-frame or barrel-vault silhouette, set in a resort or farmhouse landscape, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Configuration",
+      "option_value": "2 BHK",
+      "id": "spec_11",
+      "prompt_for_generation": "Prefabricated modular 2BHK resort cottage with two bedrooms, larger gable-roof structure, veranda or deck visible, set in a hillside resort landscape, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Configuration",
+      "option_value": "Mezzanine",
+      "id": "spec_12",
+      "prompt_for_generation": "Prefabricated modular resort cottage with mezzanine level, high-pitched A-frame or gable roof with visible upper sleeping loft, large windows, set in a hillside landscape, exterior view showing height and mezzanine structure, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Design / Cottage Style",
+      "option_value": "A-Frame",
+      "id": "spec_13",
+      "prompt_for_generation": "Prefabricated A-frame modular cottage with distinctive triangular alpine silhouette, steeply pitched roof reaching near ground level, large triangular glass facade, set in a hillside or forest resort landscape, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Design / Cottage Style",
+      "option_value": "Gable Roof",
+      "id": "spec_14",
+      "prompt_for_generation": "Prefabricated modular resort cottage with classic gable roof, symmetrical triangular roof ridge, rectangular plan, veranda at front, set in a resort or farmhouse landscape, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Design / Cottage Style",
+      "option_value": "Flat Roof",
+      "id": "spec_15",
+      "prompt_for_generation": "Prefabricated modular cottage with flat roof, contemporary minimalist design, rooftop deck or parapet visible, set in a resort or farmhouse landscape, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Design / Cottage Style",
+      "option_value": "Hip Roof",
+      "id": "spec_16",
+      "prompt_for_generation": "Prefabricated modular resort cottage with hip roof, all four sides sloping downward to eaves, compact and sturdy silhouette, set in a coastal or hillside resort landscape, exterior view, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Design / Cottage Style",
+      "option_value": "Dome",
+      "id": "spec_17",
+      "prompt_for_generation": "Prefabricated modular dome-shaped glamping cottage, hemispherical or geodesic dome structure, set in a resort or eco-tourism landscape, exterior view showing full dome silhouette, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
