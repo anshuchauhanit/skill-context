@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'MS Security Cabins' directly matches the dominant primary keyword ('ms security cabin') and technical synonym ('MS guard room') from Agent 3 alt_names, and aligns with market-standard naming used by fabricators across NCR, Maharashtra, and Gujarat.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail clearly shows a prefabricated portable security cabin with MS-frame construction, blue structural trim, aluminium sliding windows with grills, and a single door — accurately representing the primary segment.",
+      "Improvement is possible: the cabin appears to use ACP/colour-coated panel cladding rather than the dominant plain MS corrugated sheet finish, and the white background with slight shadow is acceptable but a cleaner isolated product shot with visible MS angle-iron frame details and standard grey/green industrial paint finish would better represent the core commercial product."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated mild steel portable security guard cabin, approximately 6x4 ft footprint, on a clean white background. The cabin has a grey-green industrial enamel painted MS angle-iron structural frame, MS corrugated sheet exterior cladding, a single MS door with locking handle on the left side, one aluminium sliding window with safety grill on the front face, a flat slightly overhanging roof with blue edge trim, and visible lifting hooks at the top corners. Isometric three-quarter front view, soft studio lighting, sharp product photography style, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
