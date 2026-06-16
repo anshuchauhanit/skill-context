@@ -1,0 +1,172 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual variation across container home types is extreme — luxury villa, basic labour accommodation, resort pod, and farmhouse unit are visually worlds apart. Buyers use the image to identify product type and finish level before reading any text; wrong visual = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Layout (1BHK/2BHK) and size (20ft/40ft) are the primary shortlisting criteria — non-interchangeable across buyer requirements. A listing without these specs cannot be evaluated for fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Container homes are large capital purchases where Indian buyers compare prices aggressively across sellers after confirming visual and configuration fit. Price varies substantially with layout, size, and finish tier — buyers discover across spec tiers, making this spec-driven rather than commodity pricing."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per unit",
+      "unit_note": "Standard 1BHK/2BHK configurations are quoted per unit (complete structure); custom or large-scale builds are quoted per sq ft of built-up area. Both conventions are confirmed in the Indian market — unit must be shown alongside price to prevent comparison errors.",
+      "reason": "Per unit vs per sq ft is a confirmed real ambiguity in the Indian container home market. Price cannot be meaningfully compared across listings without knowing the unit basis."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in the Indian container home market — buyers search by configuration and price, not manufacturer name; Karmod, Unostructures, and others are manufacturer names, not brands buyers actively seek by name.",
+      "reason": "Manufacturer track record, installation capability, warranty, and delivery scope are evaluated during final vendor selection. Post-sale dependency is high (installation is integral to the product), but company ranks below specs and price in initial shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Layout",
+        "reason": "Layout (1 Room / 1BHK / 2BHK) is the primary product class separator — a buyer needing 2BHK cannot substitute a 1 Room unit, and price scales non-linearly across layout tiers."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Material",
+        "reason": "Wall panel material defines the insulation and build quality tier (basic GI sheet vs PUF/Rockwool insulated panel), driving a significant price delta and determining climate suitability — non-interchangeable across project requirements."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Style",
+      "Built Type",
+      "Features",
+      "Flooring Material",
+      "Frame Material",
+      "Layout",
+      "Size (ft)",
+      "Wall Panel Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Interior Finish Level",
+        "why_important": "Buyers comparing a basic labour accommodation unit against a luxury container villa need a finish-tier signal — this dimension is explicitly identified as a key buyer decision factor in the Indian market and is not captured by any existing spec.",
+        "source": "both",
+        "example_values": [
+          "Basic",
+          "Standard",
+          "Premium",
+          "Luxury"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Length",
+        "reason": "Container length (20ft/40ft) directly determines the product tier and price — sellers can immediately identify whether they supply the required configuration and quote accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Toilet/Bathroom",
+        "reason": "Toilet/bathroom inclusion determines whether wet works fabrication is in scope — a significant cost and lead-time differentiator that sellers need to confirm fit and price before responding.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Layout / BHK Configuration",
+        "why_important": "Sellers need to know the room configuration (1BHK, 2BHK, open studio) to confirm they can supply the required layout and quote accurately — Length alone does not capture whether the buyer wants a single open space or a partitioned multi-room unit.",
+        "source": "both",
+        "example_values": [
+          "1 BHK",
+          "2 BHK",
+          "Open Hall / Studio",
+          "1 Room + Toilet"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "1 BHK",
+          "2 BHK",
+          "Open Hall / Studio",
+          "1 Room + Toilet"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Layout / BHK Configuration",
+      "option_value": "1 BHK",
+      "id": "spec_1",
+      "prompt_for_generation": "Interior view of a prefabricated mild steel container home configured as 1BHK — a compact separate bedroom with a small living area visible through an open doorway, clean white walls, vinyl flooring, natural light from a window, no people, realistic architectural render style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Layout / BHK Configuration",
+      "option_value": "2 BHK",
+      "id": "spec_2",
+      "prompt_for_generation": "Interior view of a prefabricated mild steel container home configured as 2BHK — two separate bedrooms visible with a connecting hallway, clean walls, laminate flooring, natural light, no people, realistic architectural render style showing dual-room layout clearly.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Layout / BHK Configuration",
+      "option_value": "Open Hall / Studio",
+      "id": "spec_3",
+      "prompt_for_generation": "Interior view of a prefabricated mild steel container home in open hall studio configuration — single undivided open space with combined living and sleeping area, no internal partition walls, large window, clean minimal interior, vinyl flooring, no people, realistic architectural render style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Layout / BHK Configuration",
+      "option_value": "1 Room + Toilet",
+      "id": "spec_4",
+      "prompt_for_generation": "Interior view of a prefabricated mild steel container home with 1 room plus attached toilet — a single room with a clearly visible attached bathroom door in the corner, compact layout, clean walls, basic flooring, no people, realistic architectural render style showing the toilet attachment clearly.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
