@@ -1,0 +1,458 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Construction contractor / project developer procuring portable site office containers for a new project site.
+
+**Journey:**
+1. **First scan (listing tile):** Looks at the image — what does the finished container look like? Is it an office cabin, storage unit, security cabin, or something else? Visual sub-type identification is immediate and critical. Wrong type = skip.
+2. **Opens listing:** Reads size/dimensions and material/construction type — these define whether the fabricator can deliver what the project needs. Checks service mode (fabrication + install vs fabrication only) — logistics matter for remote sites.
+3. **Shortlisting check:** Looks at price — this is a significant capital spend per unit, and Indian contractors compare quotes aggressively. Price is a hard shortlisting signal.
+4. **Unit confirmation:** Per piece vs per sq ft — must be clear alongside price to enable comparison. Custom-dimension buyers especially need this.
+5. **Company verification:** Who is the fabricator? Track record, location (can they deliver to my site?), installation capability. Not a brand-driven category but company credibility matters for a fabrication service.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is enormous (office cabin vs security cabin vs reefer vs truck body). Image is the fastest sub-type identifier.
+- **Specification:** High — size, material, insulation type, service mode are primary shortlisting gates. Without specs, buyer cannot evaluate fit.
+- **Price:** High — significant per-unit spend, Indian contractors compare quotes across fabricators. Price is a primary decision lever once type and spec match.
+- **Unit:** High — per piece vs per sq ft ambiguity is real in this market (confirmed by Agent 3 unit_quoting_context). Price cannot be compared without unit clarity.
+- **Company:** Medium — fabricator location, installation capability, and track record matter but specs and price carry equal or greater weight. No dominant brands.
+
+---
+
+## Step 3 — Decision Questions Per Dimension
+
+**Image:** High — massive visual variation across sub-types. A security cabin, reefer container, and double-storey office look completely different. Image is the primary sub-type filter.
+
+**Specification:** High — buyers arrive with a specific requirement (size, material, insulation). Specs are the shortlisting gate, not a post-interest confirmation.
+
+**Price:** High — custom fabrication with significant per-unit cost. Indian contractors are price-aggressive and compare across multiple fabricators. `price_display_type`: `"project-based custom fabrication price"` — every order is custom-quoted but indicative pricing drives initial engagement and shortlisting.
+
+**Cross-dimension consistency check:**
+- Buyers discover across spec tiers (size, material, insulation all affect price) → `spec-driven price` is more accurate than `project-based price`. Buyers DO compare across spec tiers. Correcting to `"spec-driven fabrication price"`.
+- Unit High → price must be at least Medium ✓ (price is High — consistent).
+- Not `project-based price` → unit show rule doesn't apply here ✓.
+- Specification show: true → `show_on_listing: true` ✓.
+
+**Unit:** High — Agent 3 explicitly confirms per piece vs per sq ft ambiguity in this market. Custom-dimension buyers need per sq ft; standard-size buyers expect per piece. Canonical unit: per piece (dominant), with per sq ft for custom builds.
+
+**Company:** Medium — fabricator's location (can they deliver/install at my site?), installation track record, and service capability matter. No dominant brands; Tata Steel Nest-In is notable but most market is unbranded regional fabricators → `brand_important: no`.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Sub-type visual variation is extreme — a security cabin, reefer container, double-storey office, and truck body are visually unrecognisable as the same category. Buyers use the image as the primary sub-type filter before reading any text; wrong type = immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Container size, material (MS/GI/FRP), insulation type, and service mode are primary shortlisting criteria — buyers arrive with defined project requirements and eliminate listings that don't match these specs before any further engagement."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven fabrication price",
+    "reason": "Indian contractors compare fabrication quotes aggressively across multiple suppliers; price varies substantially with container size, material grade, and insulation specification, making it a primary shortlisting signal once type and spec match is confirmed."
+  },
+  {
+    "rank": 4,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per piece",
+    "unit_note": "Per sq ft is used by fabricators for custom-dimensioned builds — both units appear in the Indian market and must be shown alongside price to prevent comparison errors. Standard-size cabins (10×8, 20×8, 40×8 ft) are always per piece.",
+    "reason": "Agent 3 confirms per piece vs per sq ft ambiguity is real in this market; price cannot be meaningfully compared across listings without knowing the unit basis, especially for buyers specifying non-standard dimensions."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant buyer-recall brand in this category — Tata Steel Nest-In is notable but most market is served by unbranded regional fabricators; buyers search by spec, size, and location rather than brand name.",
+    "reason": "Fabricator location (delivery/installation reach to project site), installation capability, and track record are evaluated during vendor selection — company credibility matters but ranks below spec and price in the buyer journey."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Application:** Use-case tag (describes what the product is used FOR). Discard.
+- **Door Type:** Fitout/finish detail — consequence of service type and buyer preference, not a primary price driver. Deprioritise.
+- **Flooring Type:** Fitout/finish detail — same reasoning as Door Type. Deprioritise.
+- **Window Type:** Fitout/finish detail. Deprioritise.
+
+**Remaining after elimination:** Container Size, Insulation Type, Material, Service Mode, Service Type, Wall Thickness.
+
+**Soft elimination — redundancy check:**
+- Wall Thickness and Insulation Type are partially correlated (PUF Panel 50mm vs glasswool 25mm), but they capture different physical dimensions (structural wall vs thermal performance). Keep both as candidates.
+- Service Mode and Service Type: Service Type defines WHAT is being built; Service Mode defines HOW the service is delivered. Not redundant — both are independent configurators.
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Candidates ranked by price delta and non-interchangeability:**
+
+1. **Container Size** — defines the physical scale of the build. A 10 ft cabin vs a 40 ft container is non-interchangeable for any project requirement. Size is the single largest driver of fabrication cost (material quantity, labour, transport). Rank 1.
+
+2. **Material** — MS vs GI vs FRP vs Corten Steel defines structural durability, weight, corrosion resistance, and cost tier. A buyer specifying GI for a coastal site cannot substitute MS. Large price delta between material grades. Rank 2.
+
+*(Service Type was a strong contender for Rank 2 — office container vs reefer vs truck body are non-interchangeable. However, Service Type is largely captured by the image and title; Material drives the price delta within a given service type more directly. Material wins Rank 2.)*
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list (verbatim copy):**
+Application, Container Size, Door Type, Flooring Type, Insulation Type, Material, Service Mode, Service Type, Wall Thickness, Window Type
+
+**Step 3b — Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+- Structural frame thickness / steel gauge (IS-grade specification)
+- Roof type (flat / sloped / curved)
+- Electrical fitout (basic wiring / full electrical / no electrical)
+- Delivery and installation scope (already partially covered by Service Mode)
+- Number of floors / storeys (single vs double-storey)
+- Certification / compliance (IS standard, fire rating)
+
+**Step 3b cross-reference against specs_in_seller_list:**
+- Structural frame / steel gauge → not present (Wall Thickness covers panel wall, not structural frame gauge — these are semantically distinct). Candidate gap confirmed.
+- Roof type → not present. Candidate gap confirmed.
+- Electrical fitout → not present. Candidate gap confirmed.
+- Number of floors → not present. Candidate gap confirmed.
+- Certification → not present. Candidate gap confirmed.
+- Delivery scope → Service Mode partially covers this. Not a gap.
+
+**Importance threshold filter (top 10 buyer-relevant specs):**
+- Electrical fitout: Yes — buyers for site offices need to know if electrical wiring, DB board, and lighting are included. Directly affects project readiness and cost. Include.
+- Number of floors: Yes — single vs double-storey is non-interchangeable for space-constrained sites. Include.
+- Roof type: Borderline — relevant for drainage and aesthetics but less frequently a primary buyer decision factor vs size/material/electrical. Exclude (peripheral).
+- Structural frame gauge: Technical spec relevant to structural engineers but most buyers specify by material grade, not gauge. Exclude (peripheral for most buyers).
+- Certification: Relevant for government/defence buyers but not a primary shortlisting spec for the dominant construction contractor segment. Exclude.
+
+**Final missing specs:** Electrical Fitout, Number of Floors/Storeys.
+
+**Mutual exclusion check:** Neither "Electrical Fitout" nor "Number of Floors" appears in specs_in_seller_list by name or semantic equivalent. ✓
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → `partial`.
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Number of Units, Service City, Type, Size.
+
+- **Number of Units:** Quantity field — helps sellers assess order scale but doesn't route the RFQ to the right product type. Not a spec that changes what the seller supplies.
+- **Service City:** Location field — important for logistics/installation reach but not a product specification.
+- **Type:** Dry Type / Open top / Refrigerated — this is a fundamental product type differentiator. A reefer fabricator and a dry container fabricator are different suppliers. This routes the RFQ correctly.
+- **Size:** 20 feet / 40 feet / 45 feet — directly determines fabrication scope and cost. Non-interchangeable.
+
+**Rank 1: Type** — routes the RFQ to the correct fabricator type (reefer vs dry vs open top); a reefer fabricator cannot substitute for a dry container fabricator.
+
+**Rank 2: Size** — determines fabrication scale and cost; sellers need this to assess whether they can supply and at what price.
+
+### Phase 2 — Thumbnail Eligibility
+
+**Type (Dry Type / Open top / Refrigerated):**
+- Dry Type: standard enclosed steel container — visually distinct.
+- Open top: container with open/removable roof — visually distinct.
+- Refrigerated: reefer container with insulated panels and cooling unit — visually distinct.
+- **Thumbnail eligible: true.** Each value has a recognisably different visual appearance.
+
+**Size (20 feet / 40 feet / 45 feet):**
+- Numeric dimensional spec — no meaningful visual difference between a 20 ft and 40 ft container thumbnail that a buyer could use to identify their requirement.
+- **Thumbnail eligible: false.**
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+
+Agent 3 identifies the primary segment as "Custom steel portable site office container fabrication for construction and industrial projects." The buyer_segments include construction contractors, mining operators, fleet owners (truck body), cold chain operators.
+
+Key requirement dimensions a seller needs to respond accurately:
+- **Service Type / Container Use** (office cabin vs storage vs security cabin vs toilet block vs accommodation): The current "Type" spec only covers Dry/Open top/Refrigerated — it misses the dominant site office / portable cabin segment entirely. A seller fabricating site office containers needs to know if the buyer wants an office, storage unit, or accommodation block. This is a critical routing gap.
+- **Material preference** (MS / GI / FRP): Affects fabricator capability and cost. Some fabricators specialise in FRP or GI; sellers need this to confirm fit.
+
+**Cross-reference against buyer_spec_list:**
+- Service Type / Container Use → not present in buyer_spec_list (Type covers Dry/Open top/Refrigerated only — does not cover office/storage/security/accommodation use types). Confirmed gap.
+- Material → not present. Confirmed gap.
+
+**Importance threshold:**
+- Service Type / Container Use: Critical — the dominant buyer segment (construction site office) is not captured by the current "Type" spec at all. A seller cannot determine if they can supply without knowing the intended use. `would_be_rank: 1` — more important than Type because it covers the primary segment that Type misses entirely. Thumbnail eligible: yes — office container, storage container, security cabin, accommodation unit are visually distinct.
+- Material: Important for fabricator routing but buyers often don't know or care about material grade upfront — they specify by use and size, then discuss material with the seller. Less critical as an RFQ spec. No `would_be_rank` (ranks below both current specs for RFQ purposes).
+
+**Mutual exclusion check:** "Service Type / Container Use" is not present in buyer_spec_list. ✓
+
+### Phase 4 — Image Upload Assessment
+
+**Image upload recommended: true.**
+
+Container fabrication is a custom fabrication service with high design variation. Buyers — especially those converting existing shipping containers or requesting non-standard layouts — often have a reference design, floor plan sketch, or existing container they want replicated. For custom-dimensioned builds with specific interior fitout requirements (partition layouts, electrical points, window positions), a reference image or sketch allows sellers to assess feasibility and provide an accurate quote without a lengthy back-and-forth. This is analogous to the custom fabrication / design-match scenario.
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+1. `top_rfq_specs` Rank 1: Type — `thumbnail_eligible: true`, options: [Dry Type, Open top, Refrigerated]
+2. `missing_important_specs`: Service Type / Container Use — `thumbnail_eligible: true`, `would_be_rank: 1`, options: [Office Container, Storage Container, Security Cabin, Accommodation Unit]
+
+Total prompts: 3 (Type) + 4 (Service Type / Container Use) = 7 prompts.
+
+All prompts represent `primary_segment`: Custom steel portable site office container fabrication for construction and industrial projects.
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Sub-type visual variation is extreme — a security cabin, reefer container, double-storey office unit, and truck body are visually unrecognisable as the same category. Buyers use the image as the primary sub-type filter before reading any text; wrong type = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Container size, material (MS/GI/FRP), insulation type, and service mode are primary shortlisting criteria — buyers arrive with defined project requirements and eliminate listings that do not match these specs before any further engagement."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven fabrication price",
+      "reason": "Indian contractors compare fabrication quotes aggressively across multiple suppliers; price varies substantially with container size, material grade, and insulation specification, making it a primary shortlisting signal once type and spec match is confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Per sq ft is used by fabricators for custom-dimensioned builds — both units appear in the Indian market and must be shown alongside price to prevent comparison errors. Standard-size cabins (10x8, 20x8, 40x8 ft) are always per piece.",
+      "reason": "Agent 3 confirms per piece vs per sq ft ambiguity is real in this market; price cannot be meaningfully compared across listings without knowing the unit basis, especially for buyers specifying non-standard dimensions."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant buyer-recall brand in this category — Tata Steel Nest-In is notable but most of the market is served by unbranded regional fabricators; buyers search by spec, size, and delivery location rather than brand name.",
+      "reason": "Fabricator location (delivery and installation reach to project site), installation capability, and track record are evaluated during vendor selection — company credibility matters but ranks below spec and price in the buyer journey."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Container Size",
+        "reason": "Size is the single largest driver of fabrication cost — a 10 ft cabin vs a 40 ft container is non-interchangeable for any project requirement and determines material quantity, labour, and transport cost entirely."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Material",
+        "reason": "MS vs GI vs FRP vs Corten Steel defines structural durability, corrosion resistance, and cost tier — a buyer specifying GI for a coastal site cannot substitute MS, and the price delta between material grades is substantial."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Container Size",
+      "Door Type",
+      "Flooring Type",
+      "Insulation Type",
+      "Material",
+      "Service Mode",
+      "Service Type",
+      "Wall Thickness",
+      "Window Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Electrical Fitout",
+        "why_important": "Site office buyers need to know whether electrical wiring, distribution board, lighting, and power points are included in the fabrication scope — this directly affects project readiness and total cost, and is a primary differentiator between basic and fully fitted containers.",
+        "source": "both",
+        "example_values": [
+          "Full Electrical (DB + wiring + lighting)",
+          "Basic Wiring Only",
+          "No Electrical",
+          "Solar Ready"
+        ]
+      },
+      {
+        "spec_name": "Number of Floors",
+        "why_important": "Single-storey vs double-storey container structures are non-interchangeable for space-constrained project sites — sellers need this to confirm structural fabrication capability and provide an accurate quote.",
+        "source": "both",
+        "example_values": [
+          "Single Storey",
+          "Double Storey",
+          "Triple Storey",
+          "Mezzanine"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Type",
+        "reason": "Dry Type / Open top / Refrigerated routes the RFQ to the correct fabricator type — a reefer container fabricator and a dry container fabricator have different capabilities and cannot substitute for each other.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Dry Type",
+          "Open top",
+          "Refrigerated"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Size",
+        "reason": "Container size (20 ft / 40 ft / 45 ft) directly determines fabrication scope, material quantity, and cost — sellers need this to assess whether they can supply and provide an indicative price.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Container Use / Service Type",
+        "why_important": "The dominant buyer segment — construction site office, portable cabin, security cabin, accommodation unit — is entirely absent from the current Type spec (which only covers Dry/Open top/Refrigerated); sellers fabricating site office containers cannot determine fit or quote accurately without knowing the intended use.",
+        "source": "both",
+        "example_values": [
+          "Office Container",
+          "Storage Container",
+          "Security Cabin",
+          "Accommodation Unit"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Office Container",
+          "Storage Container",
+          "Security Cabin",
+          "Accommodation Unit"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Container fabrication is a custom fabrication service where buyers frequently have a reference design, floor plan sketch, or existing container layout they want replicated — an uploaded image or sketch allows sellers to assess feasibility and provide an accurate quote for non-standard dimensions, specific interior partition layouts, or container conversion projects without extended back-and-forth."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Type",
+      "option_value": "Dry Type",
+      "id": "spec_1",
+      "prompt_for_generation": "Custom fabricated dry type steel container, enclosed rectangular box structure with corrugated steel walls and double swing doors at one end, placed on flat ground at a construction site, natural daylight, no branding, clean industrial setting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Type",
+      "option_value": "Open top",
+      "id": "spec_2",
+      "prompt_for_generation": "Steel open top container with no roof, corrugated steel walls on all four sides, open top clearly visible from a slight elevated angle, placed at an industrial yard, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Type",
+      "option_value": "Refrigerated",
+      "id": "spec_3",
+      "prompt_for_generation": "Refrigerated reefer container with white insulated panel walls, visible refrigeration unit mounted on the front end, closed doors, placed at a logistics yard, natural daylight, no branding, clean industrial setting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Container Use / Service Type",
+      "option_value": "Office Container",
+      "id": "spec_4",
+      "prompt_for_generation": "Custom fabricated portable site office container cabin, mild steel construction with glazed windows, personnel door, and air conditioner unit mounted on exterior wall, placed at a construction site with workers visible in background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Container Use / Service Type",
+      "option_value": "Storage Container",
+      "id": "spec_5",
+      "prompt_for_generation": "Custom fabricated steel storage container with large double swing doors fully open showing empty interior, corrugated steel walls, placed at an industrial or construction site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Container Use / Service Type",
+      "option_value": "Security Cabin",
+      "id": "spec_6",
+      "prompt_for_generation": "Small custom fabricated steel security guard cabin, compact single-person unit with sliding window panel at front, placed at a factory or construction site entrance gate, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Container Use / Service Type",
+      "option_value": "Accommodation Unit",
+      "id": "spec_7",
+      "prompt_for_generation": "Custom fabricated labour accommodation container unit, multiple windows along the side wall, personnel door, bunk bed visible through open door, placed at a construction labour camp site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
