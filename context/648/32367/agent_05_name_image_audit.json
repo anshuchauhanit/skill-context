@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Log Homes' directly matches the top primary keyword and is the standard trade term used by Indian manufacturers and buyers alike, as confirmed by Agent 3 alt_names and market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail clearly shows a horizontal stacked-log construction home with a wraparound wooden deck and green metal roof — accurately representing the product category and primary segment.",
+      "The image appears to be a Western/North American style log home set in a lush green landscape; an India-contextualised prefab timber cabin in a hill-station or eco-resort setting would better reflect the Indian market's primary_segment and buyer context."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic exterior view of a prefabricated log home timber cabin in an Indian hill-station setting — warm honey-toned horizontal stacked pine log walls, green corrugated metal roof with dormer windows, wide wooden wraparound veranda with simple railing, lush green forested hillside background with misty mountains, natural daylight, clean white gravel pathway in foreground, no people, square 1:1 composition, professional architectural photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
