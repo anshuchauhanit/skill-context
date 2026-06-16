@@ -1,0 +1,192 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across material types (MS, FRP, PUF panel, PVC) and size classes — buyers use the image to instantly assess build quality, material type, and aesthetic fit with their gate. A flimsy or mismatched-looking cabin is skipped immediately without reading further."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Material and size are non-interchangeable shortlisting criteria — a buyer with a fixed gate footprint and a specific material requirement cannot substitute alternatives. Listings without these specs cannot be evaluated."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with material type and size; Indian B2B buyers (RWAs, facility managers) compare prices aggressively across sellers once material and size match. Price is a primary shortlisting lever in this commoditised mid-market segment."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the market is fragmented across regional prefab manufacturers and buyers search by spec and price, not manufacturer name.",
+      "reason": "Buyers check whether the seller is a manufacturer or trader and whether they deliver to the required location; no branded sub-categories exist among siblings and no brand commands active buyer preference."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Custom or large-format orders may be quoted per sq ft, but per-piece dominates for the standard 4x4 to 8x8 ft security cabin segment. No buyer is confused about this unit.",
+      "reason": "Guard cabins are finished structures sold per piece — the unit is entirely implied and no buyer ever questions it."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Material (PVC Panel / MS / GI / FRP / ACP Panel) defines the structural type of the cabin — non-interchangeable across buyer requirements and the single largest driver of price variation."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Size",
+        "reason": "Size (4x4 ft to 8x8 ft) defines the floor footprint — non-interchangeable with gate dimensions and the second-largest price driver after material."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Door Position",
+      "Material",
+      "Mobility",
+      "Service Location",
+      "Size",
+      "Surface Finish",
+      "Use",
+      "Wall Panel Type",
+      "Window Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roof Type",
+        "why_important": "Flat, single-slope, and double-slope roofs differ in weather drainage and structural load — buyers deploying cabins in high-rainfall regions specify roof type, and sellers need it to confirm fabrication capability and quote accurately.",
+        "source": "both",
+        "example_values": [
+          "Flat Roof",
+          "Single Slope",
+          "Double Slope",
+          "Hip Roof"
+        ]
+      },
+      {
+        "spec_name": "Electrical Fittings",
+        "why_important": "Whether the cabin is supplied with pre-fitted electrical points (fan, light, switchboard) is a meaningful price differentiator and a common buyer requirement that sellers need to confirm at the listing stage.",
+        "source": "both",
+        "example_values": [
+          "With Electrical Fittings",
+          "Without Electrical Fittings",
+          "Basic (Light + Fan Point)",
+          "Full Electrical Package"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Material defines the structural type, durability, insulation level, and price tier — a seller manufacturing only MS cabins cannot supply an FRP requirement, making this the primary routing spec.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "MS (Mild Steel)",
+          "FRP",
+          "PUF Panel",
+          "PVC"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Size (LxW) ft",
+        "reason": "Gate footprint is fixed by the buyer's site — size is non-interchangeable and sellers need it to confirm stock availability or fabrication feasibility before responding.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roof Type",
+        "why_important": "Sellers need the roof type to confirm fabrication capability and quote accurately — flat vs sloped roofs differ in material, drainage design, and cost.",
+        "source": "both",
+        "example_values": [
+          "Flat Roof",
+          "Single Slope",
+          "Double Slope"
+        ]
+      },
+      {
+        "spec_name": "Electrical Fittings",
+        "why_important": "Sellers need to know whether electrical points are required to quote the correct configuration — pre-fitted electrical adds cost and requires different internal framing.",
+        "source": "both",
+        "example_values": [
+          "With Electrical Fittings",
+          "Without Electrical Fittings",
+          "Basic (Light + Fan Point)"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Material",
+      "option_value": "MS (Mild Steel)",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated mild steel security guard cabin, compact 6x6 ft size, metallic grey painted exterior with visible steel frame, sliding window, single door, placed at a gate entry point, natural daylight, clean white background, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "FRP",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated FRP (fibre reinforced plastic) security guard cabin, smooth off-white fibreglass exterior finish, compact size, sliding window, single door, standalone placement on flat ground, studio lighting, white background, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "PUF Panel",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated PUF sandwich panel insulated security guard cabin, light grey or cream coloured flat panel exterior, visible panel joints, compact size with sliding window and lockable door, standalone on flat ground, natural daylight, white background, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "PVC",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated PVC security guard cabin, bright white smooth plastic exterior panels, lightweight compact structure, sliding window, single door, standalone placement on flat ground, studio lighting, white background, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
