@@ -1,0 +1,51 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "ocr_showcase": false,
+      "reason": "Accommodation is a visual trust decision — buyers assess cleanliness, room quality, and property ambience entirely through photos. Absent or poor images cause immediate skip regardless of price or location."
+    },
+    {
+      "rank": 2,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Guest houses are overwhelmingly independent properties with no nationally recognised brand names; buyers choose by location, property name, and reviews rather than brand affinity.",
+      "reason": "For accommodation services, the seller IS the product — the property name, location, and operational reputation are what the buyer is purchasing. A buyer cannot separate the service from the provider."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": {
+        "primary_type": "spec-driven",
+        "secondary_modifier": "also-MOQ-sensitive",
+        "display_instruction": "show_price",
+        "determination_note": "Guest house rates vary substantially by room type (AC/non-AC, single/double/suite) and stay duration (daily vs monthly), meaning buyers cannot meaningfully compare prices without knowing the room configuration and stay length."
+      },
+      "reason": "Indian travellers and corporate bookers compare per-night rates aggressively across properties; price is a primary shortlisting signal once visual and location fit is confirmed, and India price sensitivity is high in this segment."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per day",
+      "unit_note": "Corporate and extended-stay bookings are often quoted per month; the contamination segment (prefab structures) uses per sq ft or per piece — unit must always be shown to prevent price misreading across these contexts.",
+      "reason": "Per day vs per month creates genuine price comparison confusion for corporate buyers evaluating extended stays; unit is a necessary qualifier for any price shown on this MCAT."
+    },
+    {
+      "rank": 5,
+      "dimension": "specification",
+      "level": "Medium",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Room type, AC/non-AC status, and amenities confirm fit after initial visual and price shortlisting — buyers arrive knowing their requirement and use specs to verify, not to discover options."
+    }
+  ]
+}
