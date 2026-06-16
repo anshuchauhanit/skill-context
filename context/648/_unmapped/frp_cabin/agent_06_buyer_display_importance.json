@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — roof style (pyramid vs flat vs gable), size class (compact guard cabin vs large site office), colour, and build quality are all visually communicated. Buyers use the image to confirm product type and visual fit before reading any text; wrong type or poor build appearance = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Size (L×W) and Wall Panel Type are primary shortlisting gates — a 4×4 ft single-skin guard cabin and a 10×10 ft PUF sandwich site office are non-interchangeable products at different price tiers. Buyers cannot evaluate or shortlist without these specs."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with size and wall panel type — buyers compare prices only after confirming spec equivalence. India price sensitivity is high but spec must be confirmed first; final price is often negotiated for custom dimensions."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "Medium",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Per piece is dominant for standard fixed-size cabins (4×4 ft to 10×10 ft); per sq ft is used for large custom-dimension office/site cabins (10×15 ft and above). Unit must be shown to prevent price misreading when sellers mix both quoting conventions.",
+      "reason": "Unit ambiguity is real — some sellers quote per sq ft for large cabins while others quote per piece for the same size range. Showing the unit prevents buyers from making incorrect price comparisons across listings."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant national brand with buyer recall exists in the Indian FRP cabin market; the market is fragmented across regional manufacturers and buyers search by spec and price, not manufacturer name.",
+      "reason": "Manufacturer location matters for delivery and installation logistics; customisation capability and track record are evaluated during vendor selection, but company is a qualifier after spec and price shortlisting, not a primary signal."
+    }
+  ]
+}
