@@ -1,0 +1,64 @@
+{
+  "enhanced_name_4w": "NVPH Agricultural Polyhouse Structure",
+  "enhanced_name_5w": "UV Film GI Polyhouse for Farming",
+  "enhanced_name_6w": "Subsidy Eligible NVPH Polyhouse for Crops",
+  "enhanced_name_long": "Naturally Ventilated Polyhouse with GI Tubular Frame and UV Film for Commercial Vegetable and Floriculture Farming",
+  "alt_names": {
+    "primary_keywords": [
+      "polyhouse",
+      "poly house",
+      "NVPH",
+      "polyhouse structure",
+      "polyhouse kit",
+      "polyhouse material",
+      "agricultural polyhouse",
+      "poly greenhouse",
+      "protected cultivation structure",
+      "greenhouse structure"
+    ],
+    "technical_synonyms": [
+      "Naturally Ventilated Poly House (NVPH)",
+      "Fan and Pad Greenhouse",
+      "Environmentally Controlled Greenhouse",
+      "UV stabilised polyethylene greenhouse",
+      "GI tubular frame greenhouse",
+      "Walk-in poly tunnel",
+      "Controlled Environment Agriculture (CEA) structure",
+      "Protected cultivation house",
+      "Open Ventilated Poly House (OVPH)"
+    ],
+    "trade_names": [
+      "NHB-approved polyhouse",
+      "MIDH polyhouse",
+      "NHM polyhouse",
+      "Agriplast NVPH",
+      "Ginegar polyhouse film",
+      "Jain Irrigation polyhouse",
+      "Netafim greenhouse"
+    ],
+    "hindi_terms": [
+      "पॉलीहाउस",
+      "पॉली हाउस",
+      "पॉलीग्रीनहाउस",
+      "संरक्षित खेती संरचना"
+    ],
+    "buyer_intent_queries": [
+      "polyhouse construction cost per acre India",
+      "NVPH polyhouse with NHB subsidy",
+      "polyhouse GI pipe structure price",
+      "buy polyhouse kit for vegetable farming",
+      "fan pad polyhouse for capsicum cultivation",
+      "polyhouse material supplier near me",
+      "low cost polyhouse for small farmers",
+      "polyhouse for floriculture gerbera rose",
+      "retractable polyhouse for protected farming"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Mini/hobby greenhouse buyers (home gardeners, balcony/indoor growers) — sibling 'Mini Greenhouse' (ID 116157) targets non-commercial personal-use buyers; names implying small-scale hobby or ornamental use are blocked",
+    "Used/second-hand structure buyers — buyer_intent_queries included 'second hand polyhouse for sale India' which targets a distinct used-goods buyer segment incompatible with new commercial structure buyers; terms such as used, second-hand, pre-owned, refurbished are blocked from enhanced names and alt_names",
+    "General non-agricultural greenhouse buyers (glass greenhouse, ornamental/display greenhouse) — siblings 'Greenhouse' (ID 29816) and 'Agricultural Greenhouses' (ID 21344) and 'Greenhouse Structure' (ID 158767) and 'Naturally Ventilated Greenhouse' (ID 166277) attract buyers of non-polyethylene-film structures; names that do not specify polyethylene film or agricultural/crop use context are avoided to prevent bleed into those sibling MCATs"
+  ],
+  "segment_contamination_disclaimer": null
+}
