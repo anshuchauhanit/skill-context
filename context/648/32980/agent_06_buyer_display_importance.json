@@ -1,0 +1,196 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual variation across sub-types is extreme — a container office, MS frame cabin, FRP cabin, and aluminium frame cabin are structurally and aesthetically distinct products. Buyers use the image to identify the product type and assess build quality before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin size and structure material are non-interchangeable shortlisting criteria — a 10x10 ft MS frame cabin cannot substitute for a 40x10 ft aluminium frame block. Listings without size and material specs cannot be evaluated by project procurement buyers."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "commodity price",
+      "reason": "Construction and infrastructure buyers are highly price-aggressive and compare per sq ft or per piece rates across multiple sellers within their known size and material tier. India price sensitivity is high; price is a primary decision lever once image and spec confirm fit."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Per sq ft dominates for custom-dimension orders; per piece is used for standard catalogue sizes (8x8, 10x10, 10x20 ft). Both units coexist in the market — price cannot be compared across listings without knowing the unit. Per sq ft is the canonical unit.",
+      "reason": "Per sq ft and per piece quoting coexist in this market, creating real price comparison confusion. A buyer comparing a per sq ft quote against a per piece quote cannot assess value without the unit being explicitly shown."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in the Indian portable office cabin market — it is fragmented across regional fabricators in Maharashtra, Karnataka, Gujarat, and Delhi-NCR; buyers search by spec and price, not manufacturer name.",
+      "reason": "Seller credibility, installation track record, delivery capability, and project supply history are evaluated during vendor selection, particularly for large infrastructure or government project orders, but these are secondary to spec and price confirmation."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Size",
+        "reason": "Floor area is the single largest price driver — an 8x10 ft cabin costs a fraction of a 40x10 ft site office block, and sizes are non-interchangeable across project footprint requirements."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Material",
+        "reason": "MS vs GI vs Aluminium frame defines the durability tier and project compliance eligibility; these are non-interchangeable and carry a significant price delta across material classes."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cabin Color",
+      "Cabin Size",
+      "Facilities",
+      "Flooring Type",
+      "Furnishing",
+      "No. of Workstations",
+      "Roof Type",
+      "Structure Material",
+      "Usage Type",
+      "Wall Panel"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Height",
+        "why_important": "Floor-to-ceiling height (typically 7–10 ft) determines headroom suitability for AC installation, multi-storey stacking, and compliance with site safety requirements — buyers specify this and sellers price accordingly.",
+        "source": "both",
+        "example_values": [
+          "7 ft",
+          "8 ft",
+          "9 ft",
+          "10 ft"
+        ]
+      },
+      {
+        "spec_name": "Number of Storeys",
+        "why_important": "Single-storey vs double-storey vs multi-storey is a structural distinction that fundamentally changes the product, manufacturing complexity, and price — a multi-storey portable office block is not interchangeable with a single-storey cabin.",
+        "source": "both",
+        "example_values": [
+          "Single Storey",
+          "Double Storey",
+          "Multi Storey"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Material type defines the product class — sellers who manufacture MS Steel cabins may not supply Container offices or FRP cabins, making this the primary routing signal for accurate seller response.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "GI",
+          "MS Steel",
+          "PUF Panel",
+          "Container",
+          "FRP"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Length is the primary dimensional spec that, combined with width, defines the cabin footprint and drives the price quote — sellers need this to confirm manufacturing feasibility and provide an accurate price.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Furnishing Level",
+        "why_important": "Sellers who supply only bare shell structures cannot fulfil a fully furnished cabin requirement — furnishing level is a critical routing signal that determines seller eligibility and drives a significant price delta.",
+        "source": "both",
+        "example_values": [
+          "Bare Shell",
+          "Semi Furnished",
+          "Fully Furnished"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Material",
+      "option_value": "GI",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated portable office cabin with galvanised iron (GI) frame and GI sheet wall panels, standard site office configuration, 10x20 ft size, light grey exterior finish, placed on flat ground, natural daylight, full front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "MS Steel",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated portable office cabin with mild steel (MS) frame and insulated sandwich panel walls, site office configuration, 10x20 ft size, beige or white exterior, aluminium sliding windows and door visible, placed on construction site ground, natural daylight, full front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "PUF Panel",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated portable office cabin constructed with PUF (polyurethane foam) sandwich panel walls and roof, MS steel frame, white or cream exterior finish, aluminium door and windows, site office use, placed on flat ground, natural daylight, full front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Container",
+      "id": "spec_4",
+      "prompt_for_generation": "Shipping container converted into a portable office cabin, corrugated steel container body with cut-out windows and door, blue or grey exterior, placed on construction site, natural daylight, full front-facing view showing container structure clearly, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "FRP",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated portable office cabin constructed with FRP (fibre reinforced plastic) panels, lightweight modular structure, white or off-white smooth exterior surface, aluminium door and windows, site office configuration, placed on flat ground, natural daylight, full front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
