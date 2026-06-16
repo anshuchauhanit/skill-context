@@ -1,0 +1,1129 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "233742850",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Concrete House",
+      "description": "&nbsp;we&nbsp;<b>&ldquo;Prime Engineering Inc.&rdquo;</b>&nbsp;are deeply engaged in&nbsp;<b>Manufacturing</b>&nbsp;and&nbsp;<b>Supplying</b>&nbsp;the finest quality range of&nbsp;<b>SS Railing And Gate, Aluminum Door And Window, Prefabricated Building,&nbsp;</b>etc.&nbsp;",
+      "specs": {
+        "raw": "Built Type:Modular, Color:Silver, Country of Origin:Made in India, Place Of Origin:Pan India, Product Material:Concrete, Weather Proof:Yes"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/10/356899823/JH/IY/ME/19242443/prefabricated-concrete-house.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-concrete house-2849914384997.html",
+      "image_file": "233742850.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Multi-storey exposed concrete panel building with visible panel joints and residential context is consistent with a prefabricated concrete house."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names the correct product type but provides no material grade, size, or use-case attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm concrete material and modular build type, consistent with precast concrete house."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic company profile mentioning prefabricated building among other products, not specific to this listing but not contradicting it."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated concrete building, matching the MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Prime Engineering Inc.'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Prefabricated Concrete House' only, missing material grade, size, storey count, or use-case attributes."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Prime Engineering Inc.'."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; photo shows a genuine multi-storey concrete panel structure; P12 and P16 are quality issues that do not override the good label.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-concrete house-2849914384997.html"
+    },
+    {
+      "item_id": "148566973",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "RCC ReadyMade Room",
+      "description": "All rcc material manufacture company",
+      "specs": {
+        "raw": "Built Type:Panel Build, Color:GREY, Material:RCC, Materials Used:RCC, Roof Type:AS CUSTOMER CHOICE, Usage/Application:RCC MATERIAL"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/4/505136873/XI/YG/IC/3189707/ready-made-room.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/rcc-readymade room-21945849555.html",
+      "image_file": "148566973.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Small precast RCC panel room with visible panel joints, RCC columns, and corrugated roof overhang, consistent with a prefabricated concrete room/house unit."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly identifies an RCC readymade room, which is a valid product type within the Prefabricated Concrete House MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm RCC panel build and grey colour but Usage/Application listed as 'RCC MATERIAL' is vague and unhelpful."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a single generic phrase about RCC material manufacturing, providing no product-specific information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "RCC ReadyMade Room is a valid product type within the Prefabricated Concrete House MCAT (Precast RCC Single Room / Labour Quarter)."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'RCC ReadyMade Room' only, missing size, floor area, or configuration detail."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Usage/Application listed as 'RCC MATERIAL' is not a valid use-case descriptor for a precast room product."
+        }
+      ],
+      "verification_note": "Pre-label overridden from bad to good; photo clearly shows a genuine precast RCC panel room unit; thin quality across text dimensions does not constitute a bad label.",
+      "source_url": "https://www.indiamart.com/proddetail/rcc-readymade room-21945849555.html"
+    },
+    {
+      "item_id": "186586756",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "RCC Precast Labour Quarter",
+      "description": "&nbsp;We''<b>Tirupati Precast</b>&rdquo; are a&nbsp;<b>Proprietorship</b>&nbsp;Firm, engaged as the foremost,&nbsp;<b>Manufacturer</b>&nbsp;And&nbsp;<b>Supplier</b>&nbsp;Of&nbsp;<b>Precast Compound Wall, Labour Quarter, Precast U Drain</b>.",
+      "specs": {
+        "raw": "Built Type:Prefab, Color:Grey, Flooring Type:Vitrified Tile, Material:RCC, Number Of Floors:G Plus 1, Shape:Rectangular, Thickness:50 mm, Toilet Facility:Common Toilet, Usage Application:Staff Quarter, Usage/Application:Labour, Wall Material:Brick"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/5/JE/BM/SE/153419021/a70f1233-abc5-438e-bf82-d5b12217fdaa.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/rcc-precast labour quarter-25747827662.html",
+      "image_file": "186586756.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Multi-unit precast RCC panel structure under construction with visible panel joints and RCC columns, consistent with a prefabricated concrete labour quarter."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly identifies RCC precast labour quarter, a valid product type within the MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm prefab RCC construction with 50mm panel thickness and labour/staff quarter use, consistent with MCAT."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a company profile listing product range including Labour Quarter, consistent with MCAT but not product-specific."
+        },
+        "category": {
+          "valid": true,
+          "reason": "RCC Precast Labour Quarter is a valid product type within the Prefabricated Concrete House MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Tirupati Precast'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Tirupati Precast'."
+        }
+      ],
+      "verification_note": "Pre-label overridden from bad to good; photo clearly shows a genuine precast RCC labour quarter under construction; P16 is a policy issue that does not override the good label.",
+      "source_url": "https://www.indiamart.com/proddetail/rcc-precast labour quarter-25747827662.html"
+    },
+    {
+      "item_id": "240411828",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Rcc Precast Room",
+      "description": "Established as a&nbsp;<b>Partnership</b>&nbsp;firm in the year&nbsp;<b>2022,</b>&nbsp;we&nbsp;<b>&ldquo;Baba Wall Company&rdquo;</b>&nbsp;are a leading&nbsp;<b>Manufacturer</b>&nbsp;and&nbsp;<b>Wholesaler</b>&nbsp;of a wide range of&nbsp;<b>RCC Pole, Road Divider, Kerb Stone,&nbsp;</b>etc.",
+      "specs": {
+        "raw": "Built Type:Modular, Roof Type:Teen shades"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2023/3/295563424/VO/VM/TA/59389255/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/rcc-precast room-2850581282730.html",
+      "image_file": "240411828.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Precast RCC panel room structure visible but no roof shown and image is taken from a distance, limiting detail of panel construction quality."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly identifies RCC precast room, a valid product type within the MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs provide only two attributes (modular build, tin shade roof), insufficient for a precast concrete house listing."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a company profile listing RCC infrastructure products (poles, road dividers, kerb stones), not specific to the precast room product."
+        },
+        "category": {
+          "valid": true,
+          "reason": "RCC Precast Room is a valid product type within the Prefabricated Concrete House MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Baba Wall Company'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only two fields (Built Type: Modular, Roof Type: Teen shades), missing material, dimensions, floor area, and use-case."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows the precast RCC room from a distance with no roof visible, obscuring panel construction detail and overall structure completeness."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Baba Wall Company'."
+        }
+      ],
+      "verification_note": "Pre-label overridden from bad to good; photo shows a genuine precast RCC panel room; thin quality across dimensions does not constitute a bad label in the absence of contradictions or category failure.",
+      "source_url": "https://www.indiamart.com/proddetail/rcc-precast room-2850581282730.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "283625058",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefabricated Concrete House",
+      "description": "<p dir=\"ltr\">we are a manufacturer of FRP, PVC, EPS mobile toilet&#160;<br>\nwe give the best quality of product to our clint.</p>",
+      "specs": {
+        "raw": "15x30:50k, Built Type:Panel Build, Country of Origin:Made in India, Material:Steel, Size:500 sq ft"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/10/356020545/QD/WE/EN/25170539/whatsapp-image-2023-10-27-at-11-31-31-am-2.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-concrete house-2854902606055.html",
+      "image_file": "283625058.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Single-storey precast concrete panel structure under assembly with visible panel joints and window openings, consistent with a prefabricated concrete house."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names the correct product type but provides no size, material, or configuration detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs list Panel Build type and 500 sq ft size; material listed as Steel conflicts with visible concrete panels in image."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly states the company manufactures FRP/PVC/EPS mobile toilets, which is a different product from a prefabricated concrete house."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image shows a genuine precast concrete panel house; the description mismatch is a listing quality problem, not a product identity failure."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_description",
+          "title_vs_description",
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a precast concrete panel house under construction but description states the company manufactures FRP/PVC/EPS mobile toilets.",
+          "Title states 'Prefabricated Concrete House' but description explicitly describes a mobile toilet manufacturing company.",
+          "Image shows concrete panel walls but specs list Material as Steel."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Image shows a precast concrete panel house under construction but description states the company manufactures FRP/PVC/EPS mobile toilets."
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title states 'Prefabricated Concrete House' but description explicitly describes a mobile toilet manufacturing company."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows concrete panel walls but specs list Material as Steel."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes FRP/PVC/EPS mobile toilet manufacturing, not a prefabricated concrete house product."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Prefabricated Concrete House' only, missing material grade, size, storey count, or use-case attributes."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad; description actively contradicts title and photo by describing a mobile toilet manufacturer; multiple cross-dimension contradictions confirmed.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-concrete house-2854902606055.html"
+    },
+    {
+      "item_id": "323190795",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefabricated Concrete House",
+      "description": "A prefabricated concrete house is a modern type of construction where structural components such as walls, slabs, columns, and roof panels are manufactured in a controlled factory environment using reinforced concrete, and then transported to the site for quick assembly. This method ensures high quality, precision, and consistency, as the materials are produced under strict supervision and standardized conditions. Prefabricated concrete houses are known for their strength, durability, and resistance to weather, fire, and pests, making them suitable for both urban and rural settings. The construction process is significantly faster than traditional building methods, reducing labor costs and project timelines. These houses can be designed in various sizes and layouts, offering flexibility to meet residential, commercial, or temporary housing needs. Additionally, they require less maintenance over time and provide good thermal insulation, making them an efficient and cost-effective solution for modern housing.",
+      "specs": {
+        "raw": "Built Type:Prefab, Floor Area:Above 1500 sq ft, Furnishing:Semi Furnished, House Type:Single Storey, Number Of Bedrooms:3 BHK, Service Location:Pan India, Structure Material:Precast Concrete, Use:Residential, Wall Panel Type:Precast Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/4/600705912/PQ/EW/LC/186650357/prefabricated-concrete-house.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-concrete house-2858859179773.html",
+      "image_file": "323190795.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a dark-coloured metal/steel panel portable cabin structure with smooth cladding, not a concrete panel house."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names the correct product type but provides no attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs explicitly state Precast Concrete structure material and Precast Panel wall type, fully consistent with MCAT."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description accurately describes precast RCC panel house construction method, materials, and applications consistent with MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title, specs, and description all confirm a precast concrete house; the photo appears to show a different product (metal cabin), which is a photo quality/mismatch issue."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs",
+          "photo_vs_description",
+          "photo_vs_title"
+        ],
+        "contradiction_reasons": [
+          "Image shows a dark metal/steel panel portable cabin but specs state Structure Material: Precast Concrete and Wall Panel Type: Precast Panel.",
+          "Image shows a metal panel cabin but description describes reinforced concrete panel construction with factory-cast walls and slabs.",
+          "Image shows a metal panel portable cabin but title states 'Prefabricated Concrete House'."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Metal House",
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Prefabricated Metal House",
+        "reason": "Image shows a metal/steel panel portable cabin structure that matches the Prefabricated Metal House sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a dark metal panel portable cabin but title states 'Prefabricated Concrete House'."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a metal/steel panel cabin but specs state Structure Material: Precast Concrete and Wall Panel Type: Precast Panel."
+        },
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Image shows a metal panel cabin but description describes reinforced concrete panel construction with factory-cast walls and slabs."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a dark-coloured metal/steel panel portable cabin structure, not a concrete panel house."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Prefabricated Concrete House' only, missing material grade, size, storey count, or use-case attributes."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad; photo shows a metal cabin contradicting concrete claims in title, specs, and description; sibling routing to Prefabricated Metal House flagged.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-concrete house-2858859179773.html"
+    },
+    {
+      "item_id": "323818115",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Rcc Precast House",
+      "description": "<p dir=\"ltr\">RCC boundary walls are&#160;durable, prefabricated Reinforced Cement Concrete structures used for secure, fast-installation, and cost-effective property demarcation, often replacing traditional brick walls. These modular walls typically feature 50mm&#8211;75mm thick, precast panels inserted between RCC columns (150mm x 150mm or 8x8 inches) at heights of 5&#8211;12 feet, commonly using M25/M30 grade concrete.</p>",
+      "specs": {
+        "raw": "Application Area:Hospital, Built Type:Prefab, Floor Area:300-600 sq ft, Furnishing:Unfurnished, House Type:Single Storey, Number Of Bedrooms:2 BHK, Panel Length:2 m, Panel Thickness:50 mm, Roof Type:Slope Roof, Service Location:Pan India, Structure Material:Precast Concrete, Use:Labour Camp, Wall Height:3.0 m (10 ft), Wall Length:15 m (50 ft), Wall Panel Type:Precast Panel, Wall Type:RCC Precast"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/3/590660896/CA/HN/DM/160637269/9ft-rcc-precast-cement-wall.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/rcc-precast house-2858921911762.html",
+      "image_file": "323818115.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Single-storey precast RCC panel structure with visible horizontal panel joints, RCC columns, and corrugated roof under construction, consistent with a prefabricated concrete house."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly identifies RCC precast house with material qualifier, though lacks size or use-case detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide comprehensive precast concrete house parameters including panel dimensions, floor area, and use case."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description focuses on RCC boundary wall construction details rather than the house unit itself, but uses the same precast RCC panel system consistent with the MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image and specs confirm a precast RCC panel structure consistent with the MCAT; description mismatch is a listing quality issue."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title states 'RCC Precast House' but description describes RCC boundary wall/compound wall construction for property demarcation, not a house unit."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title states 'RCC Precast House' but description describes RCC boundary wall construction for property demarcation, not a house unit."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad; title_vs_description contradiction confirmed — description is copy-pasted from a boundary wall listing; photo and specs confirm correct product but contradiction rule applies.",
+      "source_url": "https://www.indiamart.com/proddetail/rcc-precast house-2858921911762.html"
+    },
+    {
+      "item_id": "263569584",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Concrete House",
+      "description": "Established in the year&nbsp;<b>2004</b>, at&nbsp;<b>Gurgaon (Haryana, India)</b>, we&nbsp;<b>\"Signage Partner\"</b>, are the well-established organization engaged in&nbsp;<b>Manufacturing</b>&nbsp;and&nbsp;<b>Supplying</b>&nbsp;an exclusive assortment of display signage",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Flooring:depends, Length And Width:depends, Material:Wood, Place Of Origin:depends, Roof Type:depends, Size:depends, Usage/Application:depends"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2020/9/WC/PF/DL/2548855/puf-panel.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-concrete house-2852897058355.html",
+      "image_file": "263569584.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Small precast RCC panel structure with visible panel joints, RCC columns, and corrugated roof, consistent with a prefabricated concrete house/room unit."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names the correct product type but provides no attributes."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs list Material as 'Wood' which contradicts the concrete panel structure visible in the image and stated in the title."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly identifies the company as a display signage manufacturer, entirely unrelated to prefabricated concrete houses."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image shows a genuine precast concrete panel structure; the description mismatch is a listing quality/wrong-description problem, not a product identity failure."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_description",
+          "title_vs_description",
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Image shows a precast RCC panel structure but description identifies the seller as a display signage manufacturer.",
+          "Title states 'Prefabricated Concrete House' but description is for a signage company with no mention of construction products.",
+          "Specs mention prefab build type but description is entirely about display signage manufacturing."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Signage Partner' and location 'Gurgaon (Haryana, India)'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Image shows a precast RCC panel structure but description identifies the seller as a display signage manufacturer."
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title states 'Prefabricated Concrete House' but description is for a signage company with no mention of construction products."
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs mention prefab build type but description is entirely about display signage manufacturing."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs list Material as 'Wood', contradicting the concrete material implied by the MCAT and visible in the image."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes display signage manufacturing, entirely unrelated to prefabricated concrete houses."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Prefabricated Concrete House' only, missing material grade, size, storey count, or use-case attributes."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Multiple spec values listed as 'depends' and Material listed as 'Wood', making specs non-informative and contradictory."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Signage Partner' and location 'Gurgaon (Haryana, India)'."
+        }
+      ],
+      "verification_note": "Pre-label confirmed bad; description is from a signage company entirely unrelated to the product; multiple cross-dimension contradictions confirmed.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-concrete house-2852897058355.html"
+    },
+    {
+      "item_id": "264629442",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Concrete House",
+      "description": "It is used for&nbsp;single-level, mid-rise, and large-level parking structures. Foundations: Many buildings, such as residential homes, use precast concrete foundations. You'll also see it used for walls and floors.",
+      "specs": {
+        "raw": "Built Type:Modular, Frame Finishing:Hot Galvanized, Material:Wood, Shape:Tunnel, Surface Treatment:Color Coated, Technique:Forged, Type:Portable Cabin, Type Of Industrial Sheds:Heavy, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/6/425410251/QX/VL/KR/125349161/prefabricated-concrete-house.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-concrete house-2853003044173.html",
+      "image_file": "264629442.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Single-storey precast RCC panel house with visible horizontal panel joints, RCC columns, corrugated roof, and multiple window openings, consistent with a prefabricated concrete house."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names the correct product type but provides no material grade, size, or configuration attributes."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs list Material as Wood, Shape as Tunnel, Technique as Forged, and Type as Portable Cabin — all inconsistent with a precast concrete house; these appear to be specs from a different product category."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description mentions precast concrete foundations and walls but focuses on parking structures, providing generic and partially off-topic content."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image and title confirm a precast concrete house; specs appear to be from a different product and represent a listing data quality problem."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs",
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a precast concrete panel house but specs list Material as Wood, Shape as Tunnel, and Type as Portable Cabin.",
+          "Title states 'Prefabricated Concrete House' but specs list Material as Wood and Type as Portable Cabin, contradicting the concrete material claim."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a precast concrete panel house but specs list Material as Wood, Shape as Tunnel, and Type as Portable Cabin."
+        },
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title states 'Prefabricated Concrete House' but specs list Material as Wood and Type as Portable Cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs list Material as Wood, Shape as Tunnel, Technique as Forged, and Type as Portable Cabin, all inconsistent with a precast concrete house."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Prefabricated Concrete House' only, missing material grade, size, storey count, or use-case attributes."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain Material: Wood, Shape: Tunnel, Technique: Forged — values that are misleading and inconsistent with a precast concrete house product."
+        }
+      ],
+      "verification_note": "Pre-label confirmed bad; specs are clearly from a different product (portable cabin/industrial shed) and actively contradict the title and photo.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-concrete house-2853003044173.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images consistently show single-storey or multi-storey structures with exposed grey precast RCC panel walls featuring clearly visible horizontal panel joints and RCC columns at wall intersections. Structures are typically photographed in construction-site or installed outdoor contexts with corrugated metal or asbestos roofing common on single-storey units. Images are taken from an exterior angle showing at least two wall faces, with window openings and door frames visible.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Precast concrete house structures carry no meaningful printed text on their surfaces that OCR could extract — product identity is conveyed entirely through visual form (panel joints, columns, roof type, scale).",
+      "Verified good images show exterior building photographs where buyer-relevant information (construction method, size, configuration) is visible through structural appearance, not text labels."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good photos show exterior views of precast RCC panel structures with visible horizontal panel joints, RCC columns, and corrugated roofing in construction or installed contexts.",
+    "product_identity": [
+      "Horizontal precast RCC panel joints visible on exterior walls",
+      "RCC columns at wall intersections and corners",
+      "Corrugated metal or asbestos roof on single-storey units",
+      "Window openings with iron grilles and door frames"
+    ],
+    "acceptable_scenes": [
+      "Structure under construction on open site with construction materials visible",
+      "Completed installed structure in residential or industrial site context",
+      "Multi-storey concrete panel building in neighbourhood context"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "233742850",
+        "reason": "Multi-storey exposed concrete panel building with visible panel joints and residential context is consistent with a prefabricated concrete house.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "148566973",
+        "reason": "Small precast RCC panel room with visible panel joints, RCC columns, and corrugated roof overhang, consistent with a prefabricated concrete room/house unit.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "186586756",
+        "reason": "Multi-unit precast RCC panel structure under construction with visible panel joints and RCC columns, consistent with a prefabricated concrete labour quarter.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show the correct precast RCC panel product but from excessive distance or with key structural details (roof, panel joints) not fully visible.",
+    "thinness_signals": [
+      "Structure photographed from too far away, making panel joint detail indistinguishable",
+      "Roof structure absent from frame, preventing assessment of complete unit"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "240411828",
+        "reason": "Precast RCC panel room structure visible but no roof shown and image is taken from a distance, limiting detail of panel construction quality."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show metal/steel panel portable cabins or other non-concrete structures that do not represent the precast RCC panel construction method of this MCAT.",
+    "failure_classes": [
+      {
+        "class": "metal_panel_portable_cabin",
+        "description": "Image shows a smooth-clad metal or steel panel portable cabin structure, not a precast concrete panel house — no visible concrete panel joints or RCC columns.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "323190795"
+          }
+        ],
+        "detection_signal": "Smooth dark-coloured metal cladding with no horizontal concrete panel joints; modular container-style form factor with large glass sliding doors.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name the product type with material qualifier (RCC/Precast/Concrete) and at least one attribute such as use-case (Labour Quarter, Room) or construction type.",
+    "strong_positive_signals": [
+      "Material qualifier: 'RCC', 'Precast', 'Concrete' present in title",
+      "Product sub-type named: 'Labour Quarter', 'Room', 'House', 'Readymade Room'",
+      "Use-case or configuration attribute present"
+    ],
+    "structural_patterns": [
+      "[Material] [Build Method] [Product Type]",
+      "[Material] [Product Type] [Use Case]",
+      "Prefabricated [Material] [Product Type]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "186586756",
+          "title": "RCC Precast Labour Quarter",
+          "reason": "Names material (RCC), build method (Precast), and specific use-case product type (Labour Quarter) — three buyer-relevant attributes in one title."
+        },
+        {
+          "item_id": "148566973",
+          "title": "RCC ReadyMade Room",
+          "reason": "Names material (RCC), readymade/prefab nature, and product type (Room) — concise and specific with material qualifier."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "323818115",
+          "title": "Rcc Precast House",
+          "reason": "Names material (RCC) and build method (Precast) with product type, but lacks size, use-case, or configuration detail."
+        },
+        {
+          "item_id": "240411828",
+          "title": "Rcc Precast Room",
+          "reason": "Names material and build method with product sub-type, but lacks floor area, use-case, or panel specification."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name only the generic product category without any material qualifier, size, use-case, or configuration attribute.",
+    "thinness_signals": [
+      "Title reads only 'Prefabricated Concrete House' with no additional attributes",
+      "No material grade (RCC, M30, precast), size, storey count, or use-case specified"
+    ],
+    "examples": [
+      {
+        "item_id": "233742850",
+        "title": "Prefabricated Concrete House",
+        "reason": "Title names the product category only with no material qualifier, size, storey count, or use-case — buyer cannot distinguish this from any other listing."
+      },
+      {
+        "item_id": "283625058",
+        "title": "Prefabricated Concrete House",
+        "reason": "Title names the product category only with no attributes — identical to the thinnest possible title for this MCAT."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles contain tokens from unrelated product categories (signage, mobile toilets, parking structures) that contaminate the listing with wrong-category signals.",
+    "failure_classes": [
+      {
+        "class": "wrong_description_company_profile",
+        "signal": "Title is nominally correct but description contains company name and product range from a completely different industry (signage, mobile toilets), making the listing misleading.",
+        "failure_mode": "misleading",
+        "examples": [
+          {
+            "item_id": "263569584",
+            "title": "Prefabricated Concrete House",
+            "reason": "Title says concrete house but description is from a display signage company — the title token is correct but the listing is contaminated by wrong-company description.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "283625058",
+            "title": "Prefabricated Concrete House",
+            "reason": "Title says concrete house but description explicitly states FRP/PVC/EPS mobile toilet manufacturing — title token is correct but listing is contaminated.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "specs_from_wrong_product",
+        "signal": "Title claims concrete house but specs contain tokens from a different product (Material: Wood, Type: Portable Cabin, Shape: Tunnel) indicating specs were copy-pasted from a non-concrete product.",
+        "failure_mode": "misleading",
+        "examples": [
+          {
+            "item_id": "264629442",
+            "title": "Prefabricated Concrete House",
+            "reason": "Title claims concrete house but specs list Material: Wood, Shape: Tunnel, Type: Portable Cabin — specs are from a different product category.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere based on product identity mismatch confirmed in verified_bad_products.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "metal_steel_panel_portable_cabin",
+        "signal": "Image shows smooth metal/steel panel cladding with no concrete panel joints; specs or visual form factor indicate a portable cabin or metal prefab structure, not a concrete panel house.",
+        "examples": [
+          {
+            "item_id": "323190795",
+            "title": "Prefabricated Concrete House",
+            "reason": "Image shows a dark metal/steel panel portable cabin; despite concrete claims in title and specs, the photo confirms a metal structure.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Metal House"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Prefabricated Metal House",
+        "signal": "Image shows smooth metal/steel panel cladding with no visible concrete panel joints or RCC columns, indicating a metal prefab structure rather than a concrete panel house.",
+        "examples": [
+          {
+            "item_id": "323190795",
+            "title": "Prefabricated Concrete House",
+            "reason": "Photo shows a dark-coloured metal panel portable cabin structure; title and specs claim concrete but visual evidence indicates metal construction — routes to Prefabricated Metal House."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names drawn from taxonomy_context.siblings — 'Prefabricated Metal House' confirmed present in siblings list."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (RCC precast panel-based prefabricated residential house) and mcat_vagueness_signal (suspected_vague: false) used to ground all category belonging decisions under PATH A."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 9,
+    "images_attached": 9,
+    "web_fetch_used": false
+  }
+}
