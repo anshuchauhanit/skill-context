@@ -1,0 +1,61 @@
+{
+  "enhanced_name_4w": "Wooden Log Cabin Structures",
+  "enhanced_name_5w": "Prefab Log Cabin for Resorts",
+  "enhanced_name_6w": "Modular Wooden Log Cabin Resort Cottage",
+  "enhanced_name_long": "Prefabricated Modular Log Cabins for Eco-Resorts, Hill Stations, Farmhouses and Glamping",
+  "alt_names": {
+    "primary_keywords": [
+      "log cabin",
+      "wooden log cabin",
+      "prefab log cabin",
+      "log home",
+      "wooden cabin",
+      "modular log cabin",
+      "resort log cabin",
+      "eco resort cabin",
+      "hill station wooden cabin",
+      "log cabin house"
+    ],
+    "technical_synonyms": [
+      "timber log construction",
+      "modular log home",
+      "solid wood cabin",
+      "stacked log structure",
+      "KD log cabin",
+      "kiln-dried log cabin",
+      "interlocked log structure",
+      "engineered timber cabin"
+    ],
+    "trade_names": [
+      "log cottage",
+      "wooden resort cottage",
+      "eco cabin",
+      "forest cabin",
+      "chalet",
+      "wooden bungalow",
+      "resort cottage"
+    ],
+    "hindi_terms": [
+      "lakdi ka ghar",
+      "kath ghar"
+    ],
+    "buyer_intent_queries": [
+      "prefab log cabin for resort in India",
+      "wooden log cabin for hill station",
+      "modular log home manufacturer India",
+      "log cabin for farmhouse construction",
+      "eco resort wooden cabin supplier India",
+      "portable wooden cabin for glamping",
+      "log cabin design and installation India",
+      "wooden cabin for eco tourism project"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Non-log wooden house buyers (generic wooden house / prefabricated wooden house segment served by siblings 'Wooden House' ID 41490 and 'Prefabricated Wooden House' ID 88198) — Log Cabin names must retain the log/stacked-timber construction identity and not broaden to generic wooden housing.",
+    "Portable/relocatable non-log structure buyers (served by siblings 'Portable House' ID 88195 and 'Mild Steel Portable House' ID 315617) — names must not use 'portable house' or 'portable structure' without the log/wooden qualifier.",
+    "Modular cottage buyers without log construction identity (served by sibling 'Modular Cottages' ID 147433) — names must retain explicit log or timber construction signal to avoid attracting generic modular cottage buyers.",
+    "Log Homes full-residential-scale buyers (served by sibling 'Log Homes' ID 32367) — enhanced names must not replicate 'Log Homes' exactly; the cabin/cottage framing is preserved to maintain distinction."
+  ],
+  "segment_contamination_disclaimer": null
+}
