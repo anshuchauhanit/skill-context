@@ -1,0 +1,1169 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "75738301",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Guest House",
+      "description": "<b>Prefabricated Guest House</b> built off-site with precision engineering and delivered ready for installation, it's ideal for hosting family, friends, or generating income through short-term rentals like Airbnb.",
+      "specs": {
+        "raw": "Available Material:Insulated Panels, Brand:Shallom Prefab Systems, Built Type:Prefab, Color:White, Country of Origin:Made in India, Feature:Easily Assembled, Guest House Type:Cottage, House Style:Modular, Roof Type:Single/Double Slope, Structure Material:Steel, Thickness:75 mm, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/12/ZP/FD/YM/7307138/prefabricated-guest-house.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-11301466448.html",
+      "image_file": "75738301.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a furnished bedroom interior (bed, blue painted walls, window with curtains) — no prefabricated structure exterior or construction is visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title states 'Prefabricated Guest House' but omits material type, panel specification, size, or any differentiating attribute."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs confirm steel structure, insulated panels, 75mm thickness, modular build type, single/double slope roof — all consistent with prefabricated guest house."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms off-site prefabricated construction and accommodation use, though it is brief and consumer-oriented (Airbnb mention)."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a steel-frame insulated panel prefabricated guest house — correct product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows only a bedroom interior while title claims a prefabricated guest house structure.",
+          "Image shows a furnished room interior while specs describe a steel-frame insulated panel prefab structure."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a bedroom interior with a bed and painted walls; title claims a prefabricated guest house structure."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a furnished bedroom interior; specs describe steel-frame insulated panel prefab construction."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a bedroom interior, not a prefabricated structure — no prefab construction elements are visible."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Prefabricated Guest House' with no material, panel type, size, or structural specification."
+        }
+      ],
+      "verification_note": "Pre-label good retained as good because category is valid and specs are strong; however, photo shows interior bedroom not the prefab structure — P01, P02, P07 raised. Product remains good due to strong specs and valid category despite photo mismatch.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-11301466448.html"
+    },
+    {
+      "item_id": "285277992",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Guest House",
+      "description": "<p><b>GI Portable Cabins</b> are modular structures constructed using galvanized iron (GI) sheets. These cabins are known for their durability, resistance to weather conditions, and quick assembly. They are commonly used for various purposes, including site offices, temporary housing, security cabins, and more. Here's a detailed overview of GI portable cabins:</p>\n<b>Features of GI Portable Cabins</b><ol>\n<li>\n<p><b>Construction Materials</b>:</p>\n<ul>\n<li><b>Galvanized Iron (GI) Sheets</b>: GI sheets are used for the walls, roof, and sometimes the flooring of the cabin. The galvanization process involves coating the iron with zinc to prevent rust and corrosion.</li>\n<li><b>Structural Framework</b>: Typically includes steel or aluminum frames to support the GI sheets and provide additional stability.</li>\n<li><b>Insulation</b>: Depending on the design, insulation materials may be added to improve thermal comfort and energy efficiency.</li>\n</ul>\n</li>\n<li>\n<p><b>Design Elements</b>:</p>\n<ul>\n<li><b>Interior Layout</b>: Can be customized based on needs, including office spaces, storage areas, or living quarters. Common features include desks, chairs, shelving, and basic furnishings.</li>\n<li><b>Windows and Doors</b>: Equipped with windows and doors made of durable materials, often with security features. Windows may be fitted with screens or bars, and doors are usually lockable.</li>\n<li><b>Ventilation and Climate Control</b>: Includes ventilation systems to ensure airflow. Some models may have air conditioning or heating options to maintain a comfortable </li>\n</ul>\n</li>\n</ol>",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, door type:wooden, i deal in:new only, warranty:1 yera manufacturing, window typr:aluminum"
+      },
+      "image_url": "http://5.imimg.com/data5/IOS/Default/2024/10/455889112/WW/TC/DE/51018771/product-jpeg.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-2855067899488.html",
+      "image_file": "285277992.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a multi-room prefabricated structure with yellow/ochre exterior walls, multiple doors and windows, gabled roof, set in a mountain landscape — clearly a prefab guest house complex."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title states only 'Prefabricated Guest House' without material type, panel specification, or size."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab build type and new-only condition but lack material, panel type, dimensions, or structural details."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description details GI sheet construction, steel/aluminum frame, insulation options, windows, doors, and customisation — comprehensive for a GI prefab cabin."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a GI portable cabin prefabricated structure used for accommodation — valid prefabricated guest house."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Prefabricated Guest House' with no material, panel type, or size specification."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs list only built type and door/window types; no material, panel thickness, dimensions, or structural specs provided."
+        }
+      ],
+      "verification_note": "Good image of a multi-room prefab guest house complex; description is strong; thinness in title and specs noted but no active contradiction or category failure.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-2855067899488.html"
+    },
+    {
+      "item_id": "170369317",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Color Coated Prefabricated Guest House",
+      "description": "Our products and services are high in demand due to their premium quality and affordable prices. Furthermore, we ensure to timely deliver these products to our clients, through this we have gained a huge clients base in the market.",
+      "specs": {
+        "raw": "Built Type:Prefab, Color:White And Blue, Finish Type:Color Coated, Flooring:Tile, Material:FRP, Number Of Compartment:3 Compartment, Roof Type:Insulated, Thickness:50mm, Usage/Application:Outdoor Guest House"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2021/10/MU/HW/GR/140244683/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/color-coated  prefabricated guest house-24126083691.html",
+      "image_file": "170369317.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white and blue sandwich panel prefabricated building at a construction site with multiple windows and doors, clearly a prefab accommodation structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names 'Color Coated Prefabricated Guest House' — correct product type with a finish attribute, though material and size are absent."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs confirm FRP material, 50mm insulated roof, 3 compartments, tile flooring, prefab build — detailed and consistent with a prefabricated guest house."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic quality/delivery statement with no product-specific information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "FRP prefabricated guest house with insulated roof and multiple compartments is a valid product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — photo shows a clear prefab guest house structure, specs are strong, no contradictions or category failure observed.",
+      "source_url": "https://www.indiamart.com/proddetail/color-coated  prefabricated guest house-24126083691.html"
+    },
+    {
+      "item_id": "183874764",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Prefabricated Guest House",
+      "description": "We are offering a wide range of modular prefab site office with Light Weight Aerated Concrete Wall Panel solution. In an era where time is money, we provide a solution which is quick and easy to erect. We offer a complete turnkey solutions for prefab site office under one roof starting from designing, fabrication, production and till installation. While designing the prefab site office building we consider factors like natural daylight, proper ventilation for fresh air. Moreover these prefab site offices are constructed with insulated panels so these prefab site offices are best suited for adverse climatic conditions.\nThe layout and specification are finalized as per your requirement and needs. Therefore every project is customized and delivered in a systematic and professional manner keeping full focus on quality and timely delivery.\n\nFeatures\n• Custom Built & Pre-engineered construction with light weight panels.\n• Walls of different height, yet sturdy and strong construction\n• Light weight panels which is easy to lift and erect at any height on the roof too for extension purpose.\n• Large view glasses are possible to fix with the Insulated panel doors without any extra support.\n\nBenefits\n• The Prefab site offices are insulated resulting to higher energy savings and more comfort in adverse conditions due to insulation\n• Dry construction, Quick and easy to erect\n• Flexibility to choose various options on fascia of panels based upon the site conditions & requirements.\n• Flexibility of expansion and re-location\n• All weather proof construction",
+      "specs": {
+        "raw": "Built Type:Prefab, Color:any, House Style:any, Material:FRP, Roof Type:prefab, Usage/Application:houses"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/5/312111128/QD/SR/UH/3547875/prefabricated-houses.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-25476628388.html",
+      "image_file": "183874764.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a two-storey steel-frame prefabricated structure with insulated panel walls, corrugated roof, multiple room doors — a clear prefab accommodation building."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title states only 'Prefabricated Guest House' without material, panel type, or size."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm FRP material, prefab build type, and house application — minimal but not misleading."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description details insulated panel construction, turnkey delivery, customisation, weather-proofing, and relocation flexibility — comprehensive prefab structure information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "FRP insulated panel prefabricated structure for accommodation is a valid prefabricated guest house product type."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Prefabricated Guest House' with no material, panel type, or structural specification."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo clearly shows a prefab accommodation structure, description is strong, no contradictions or category failure; thin title noted.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-25476628388.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "135686202",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Designer Prefabricated Guest House",
+      "description": "As per the needs and requirements of our clients, we are involved in providing <b>Designer Prefabricated Guest House.<br /><br /></b><b><br />Also Available:-<br /></b> \n<ul>\n<li>Height 8 to 14 feet </li>\n<li>Length 11 to 50 Feet</li>\n<li>Price Range: Rs 400-800 Per Square Feet</li>\n</ul>",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Height:15 Feet, Materials used:Steel, Usage/Application:Construction, Use:House, Wall Thickness:50 mm, Weather Proof:Yes"
+      },
+      "image_url": "http://5.imimg.com/data5/ET/ML/ZN/SELLER-5117158/designer-prefabricated-guest-house.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/designer-prefabricated guest house-20657772412.html",
+      "image_file": "135686202.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a two-storey barn-style building with garage doors and gambrel roof — this appears to be a Western-style prefab garage/barn structure, not an Indian prefabricated guest house."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names 'Designer Prefabricated Guest House' — correct product category with a style qualifier."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm steel material, 50mm wall thickness, prefab build, weatherproof — consistent with prefab guest house."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is minimal, listing only height/length ranges and a price range with no structural or material detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Steel prefabricated guest house is a valid product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a barn-style building with garage doors inconsistent with a prefabricated guest house as described in the title.",
+          "Image shows a barn/garage structure while specs describe a steel prefab house with 50mm wall panels."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a barn-style building with garage doors; title claims a designer prefabricated guest house."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a barn/garage structure; specs describe a steel prefab house with 50mm wall panels."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a Western barn-style building with garage doors, not a prefabricated guest house structure."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — image shows a barn/garage structure inconsistent with a prefabricated guest house; P01, P02, P07 raised.",
+      "source_url": "https://www.indiamart.com/proddetail/designer-prefabricated guest house-20657772412.html"
+    },
+    {
+      "item_id": "163385686",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefabricated Guest House",
+      "description": "We \"Meridian Infra\" are the eminent organization involved in Manufacturing and Service Providing a wide gamut of Tensile Structures, Prefabricated Shed, Pre Engineered Warehouse Building, and more.",
+      "specs": {
+        "raw": "Built Type:Modular, Capacity:5-8 Guests, Country of Origin:Made in India, Floor Area:600-1000 sq ft, Flooring:Wooden Flooring, Guest House Type:Villa, Roof Type:Prefabricated, Service Location:Pan India, Service Mode:Offline, Structure Material:Steel, Usage/Application:Guest House, Wall Panel Type:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/5/EM/XI/LL/113814154/prefabricated-guest-house.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-23427720588.html",
+      "image_file": "163385686.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a dark-coloured modular container-style unit with large glass sliding doors, wooden deck, and outdoor furniture — a prefabricated accommodation structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title states only 'Prefabricated Guest House' without material, panel type, or size."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs confirm PUF panel walls, steel structure, 600–1000 sq ft floor area, 5–8 guest capacity, wooden flooring — detailed and relevant."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description names the company as 'Meridian Infra' and lists tensile structures, prefabricated sheds, and pre-engineered warehouse buildings — not a guest house description, actively contradicting the title."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Specs confirm a PUF panel steel modular guest house — valid product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description",
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title claims a prefabricated guest house while description lists tensile structures, sheds, and warehouse buildings as the company's products.",
+          "Specs describe a PUF panel guest house with 5–8 guest capacity while description mentions tensile structures and warehouses."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Meridian Infra' embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title claims prefabricated guest house; description lists tensile structures, prefabricated sheds, and pre-engineered warehouse buildings."
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs describe a PUF panel guest house with guest capacity; description mentions tensile structures and warehouses."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Meridian Infra' embedded in the product description."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — description actively contradicts title and specs by listing unrelated product categories; P05, P06, P16 raised.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-23427720588.html"
+    },
+    {
+      "item_id": "237584034",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefabricated Guest House",
+      "description": "We are provide best Prefabricated Farm house as per client requirment.We deal in customised Prefabricated Farm House as per the client's requirment.",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Material:Mild Steel, Place Of Origin:Pan India, Size:10X8"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/7/326303839/NN/KU/KH/79827059/5651b806-371f-43b2-a539-608458c9a756.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-2850298503348.html",
+      "image_file": "237584034.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white shipping container converted into a habitable unit with rooftop deck, ladder, windows, and door — a prefabricated portable accommodation structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title states only 'Prefabricated Guest House' without material, size, or structural specification."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm mild steel material, prefab build, and 10×8 size — minimal but not misleading."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description explicitly describes a 'Prefabricated Farm House' — a different product type from the 'Prefabricated Guest House' stated in the title."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Mild steel prefab portable structure for accommodation is a valid prefabricated guest house product type."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title states 'Prefabricated Guest House' while description explicitly describes a 'Prefabricated Farm House'."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title states 'Prefabricated Guest House'; description explicitly describes 'Prefabricated Farm House'."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — description actively contradicts title by naming a different product type (farm house vs. guest house); P05 raised.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-2850298503348.html"
+    },
+    {
+      "item_id": "246231784",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Guest House",
+      "description": "<table>\n<tr>\n<td>Use</td>\n<td>House, Kiosk, Toilet, Shop</td>\n</tr>\n...\n</table>\nProduct DescriptionAB Sea Container are leading Manufacturer and Exporter of Prefabricated Guest House.\n...\n<p>With ample years of experience in the Logistics industry, we are able to offer affordable and reliable Shipping containers & Modular Containers with logistics services. These include Office container, modular portable container, container homes, Toilet Container, Restaurant Container, Security Cabin, Powerpack Containers, Industrial Kitchen Containers, Storage containers, collapsible Containers, Cleanroom Container, Refrigerated Container (reefer Container), Porta Cabins, Bunkhouses, Portable Shelters, Site Offices, Container Hospital, Container Resorts and Swimming Pool Containers. Along with our products we also offer Shipping, Road Transportation, Container Leasing, Vehicle Maintenance & Repair, Warehousing, Prefabricated shelters and customisation of containers as per our customers requirement. Our years of experience have helped us in executing our services as per the needs of our clients. We are well acquainted with the ISO Guidelines & regulation of shipping Containers, warehousing and Road Logistics, helping us in carrying out our business in smooth manner. Further, to ensure our clients are relieved from all hassles in this sector we provide comprehensive, convenient and integrated 100% Turnkey Solutions.\nWe have delivered our products pan India over the years and for any shipping container & Modular Containers inquiries from <b>Delhi, Delhi NCR, , Mumbai, Chennai, Kolkata, Bangaluru, Ahmedabad, Hyderabad, Lucknow, Kanpur, Varanasi, Jaipur, Jodhpur, Ajmer, Bikaner, Kota, Bhiwadi, Udaipur, Bhilwara, Alwar, Agra, Meerut, Aligarh, Allahabad, Banaras, Mathura, Jhansi, Ghaziabad, Noida, Greater Noida, Gautam Budh Nagar, Dadri, Bareilly, Moradabad, Saharanpur, Uttar Pradesh, Punjab, Chandigarh, Jalandhar, Amritsar, Ludhiana, Bathinda, Pathankot, Patiala, Hoshiarpur, Himachal Pradesh, HP, UP, MP, Shimla, Dharamshala, Uttrakhand, Dehradun, Haridwar, Roorkee, Rudrapur, Rishikesh, Nainital, Udham Singh Nagar, Indore, Bhopal, Jabalpur, Gwalior, Ujja</b></p>",
+      "specs": {
+        "raw": "Built Type:Panel Build, Material:FRP"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/5/307825671/OS/GF/PE/126252788/prefabricated-cabin-1000x1000.webp",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-2851163278397.html",
+      "image_file": "246231784.webp",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white shipping container unit with open door, windows, and 'AB SEA CONTAINER' branding — a container-based prefabricated accommodation structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title states only 'Prefabricated Guest House' without material, size, or structural specification."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs list only built type (panel build) and material (FRP) — insufficient detail for a prefab guest house."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description is a company catalogue listing shipping containers, logistics services, reefer containers, and swimming pool containers — not a guest house product description."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Container-based prefabricated accommodation unit is a valid product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description",
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title claims a prefabricated guest house while description is a company catalogue covering shipping containers, logistics, reefer containers, and swimming pool containers.",
+          "Specs describe an FRP panel build while description covers a wide range of unrelated container and logistics products."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'AB Sea Container' company name and an extensive list of city names including Delhi, Mumbai, Chennai, Kolkata, Jaipur, and many others."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Container Homes",
+        "reason": "Image shows a shipping container converted to accommodation; description explicitly lists container homes and modular containers as primary products."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title claims prefabricated guest house; description is a company catalogue for shipping containers, logistics, and unrelated container products."
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs describe FRP panel build; description covers shipping containers, reefer containers, and logistics services."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'AB Sea Container' and an extensive list of city names (Delhi, Mumbai, Chennai, Kolkata, Jaipur, etc.)."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — description is a company catalogue with location leakage; container home routing signal present; P05, P06, P16 raised.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-guest house-2851163278397.html"
+    },
+    {
+      "item_id": "262307658",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated House Services",
+      "description": "Fabrication is the construction of items from different parts using at least one of a range of processes and materials such as metal, laminates, wood and other solid surface materials.",
+      "specs": {
+        "raw": "Built Type:Prefab, Material:PUF, Payment Mode:Offline/Online, Service Location:Pan India, Service Mode:Offline, Time Duration:As Par Client Requirement"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/12/369242886/AU/TJ/YR/47867249/prefabricated-house-services.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-house services-2852770865733.html",
+      "image_file": "262307658.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a well-finished prefabricated house with gabled roof, solar heater, garden, and covered porch — a complete prefab residential structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title states 'Prefabricated House Services' — a service offering, not a physical prefabricated guest house product."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs include 'Service Mode:Offline', 'Payment Mode:Offline/Online', and 'Time Duration:As Par Client Requirement' — these are service specs, not product specs for a physical structure."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic fabrication definition with no product-specific information."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title and specs explicitly describe a service offering ('Prefabricated House Services', 'Service Mode:Offline') — this is a construction service, not a physical prefabricated guest house product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs",
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a physical prefabricated house structure while title claims 'Prefabricated House Services'.",
+          "Image shows a physical prefab house while specs list service mode, payment mode, and time duration — service attributes.",
+          "Title claims a service ('Prefabricated House Services') while specs list PUF material — a physical product material."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "House Construction Services",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a physical prefab house structure; title claims 'Prefabricated House Services'."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a physical prefab house; specs list service mode, payment mode, and time duration."
+        },
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title claims a service ('Prefabricated House Services') while specs list PUF as a physical material."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title states 'Prefabricated House Services' — a service, not a physical prefabricated guest house product."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs include 'Service Mode:Offline' and 'Payment Mode:Offline/Online' — service attributes not consistent with a physical product MCAT."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — title and specs explicitly describe a service, not a physical product; correct MCAT is 'House Construction Services' from taxonomy siblings.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-house services-2852770865733.html"
+    },
+    {
+      "item_id": "273991791",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Frp Cabin house",
+      "description": "Escape into your personal haven with our Cozy Cabin from Airy Scapes! Built with durability and comfort in mind, it's the perfect retreat for any season. Weatherproof, insulated, and designed to blend beautifully with nature, our cabin invites you to relax and recharge in style and serenity.",
+      "specs": {
+        "raw": "Built Type:Panel Build, Capacity:custmise, Color:customizable color, Design Type:Customized, Floor Area:custmise, Guest House Type:Cottage, Material:FRP, Shape:Square, Size:3*3, Structure Material:frp, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/4/412408339/RY/WX/MM/9094325/img-2230.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/frp-cabin house-2853939279191.html",
+      "image_file": "273991791.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a small FRP cabin structure in the background but is dominated by people (teacher and children) in the foreground, obscuring the product and making structural details difficult to assess."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Frp Cabin house' names the material and product type but lacks size, panel specification, or application context."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm FRP panel build, cottage type, customisable size — relevant but minimal."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is consumer-lifestyle oriented ('personal haven', 'relax and recharge') with no structural or technical specification."
+        },
+        "category": {
+          "valid": true,
+          "reason": "FRP panel cabin for accommodation use is a valid prefabricated guest house product type."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is dominated by people (teacher and children) in the foreground; the FRP cabin structure is partially visible in the background with structural details obscured."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Frp Cabin house' — lacks panel specification, size, application context, and uses inconsistent capitalisation."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — thin image (people dominate foreground), thin title; no active contradiction or category failure but photo quality problem and title quality problem confirmed.",
+      "source_url": "https://www.indiamart.com/proddetail/frp-cabin house-2853939279191.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show prefabricated structures from an exterior angle, typically featuring sandwich panel or GI sheet walls with visible doors and windows, set in outdoor contexts such as construction sites, mountain landscapes, or open grounds. Multi-room configurations with a flat or gabled roof are common, and the full building footprint is visible. Images are taken from a medium distance to capture the complete structure.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Prefabricated guest house images show the exterior structure — walls, roof, doors, windows — where the product appearance itself communicates quality, size, and construction method.",
+      "No meaningful text is printed or labelled on the product surface that OCR could extract; branding watermarks (e.g., AB SEA CONTAINER) are incidental, not product information.",
+      "Buyer decisions are driven by visual assessment of the structure's form, material finish, and configuration, not by text readable from the image."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good images show complete prefabricated guest house structures from exterior angles with visible panel walls, doors, windows, and roof.",
+    "product_identity": [
+      "Sandwich panel or GI sheet exterior walls in white, blue, or ochre finish",
+      "Multiple doors and windows visible on the building facade",
+      "Complete structure footprint visible from medium distance"
+    ],
+    "acceptable_scenes": [
+      "Exterior shot at construction site or open ground",
+      "Structure set in natural landscape (mountain, forest backdrop)"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "285277992",
+        "reason": "Image shows a multi-room prefabricated structure with yellow/ochre exterior walls, multiple doors and windows, gabled roof, set in a mountain landscape — clearly a prefab guest house complex.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "170369317",
+        "reason": "Image shows a white and blue sandwich panel prefabricated building at a construction site with multiple windows and doors, clearly a prefab accommodation structure.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "183874764",
+        "reason": "Image shows a two-storey steel-frame prefabricated structure with insulated panel walls, corrugated roof, multiple room doors — a clear prefab accommodation building.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin images show the correct product type but with the structure obscured by foreground subjects or insufficient detail visible.",
+    "thinness_signals": [
+      "People or activity in the foreground dominate the frame, obscuring the structure",
+      "Structure visible only partially or from too far away to assess construction details"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "273991791",
+        "reason": "Image is dominated by people (teacher and children) in the foreground; the FRP cabin structure is partially visible in the background with structural details obscured."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant images show bedroom interiors, barn/garage structures, or shipping containers that do not represent a prefabricated guest house product.",
+    "failure_classes": [
+      {
+        "class": "interior_room_only",
+        "description": "Image shows only a furnished bedroom or room interior with no prefabricated structure exterior visible.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "75738301"
+          }
+        ],
+        "detection_signal": "Image shows painted walls, furniture, and flooring with no structural panels, frame, or exterior building elements.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "barn_garage_structure",
+        "description": "Image shows a Western-style barn or garage building with gambrel roof and garage doors, not a prefabricated guest house.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "135686202"
+          }
+        ],
+        "detection_signal": "Gambrel or barn-style roof with large garage doors visible — inconsistent with Indian prefab guest house construction.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name the material type, panel specification, and structural configuration alongside the product category.",
+    "strong_positive_signals": [
+      "Material type named (FRP, GI, MS, Steel, PUF Panel)",
+      "Structural or finish attribute included (Color Coated, Insulated, Modular)"
+    ],
+    "structural_patterns": [
+      "[Material] Prefabricated Guest House",
+      "[Finish/Style] Prefabricated Guest House",
+      "[Material] [Panel Type] Prefabricated Guest House"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "170369317",
+          "title": "Color Coated Prefabricated Guest House",
+          "reason": "Names finish type (color coated) and product category clearly — buyer can identify the surface treatment and product type immediately."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "285277992",
+          "title": "Prefabricated Guest House",
+          "reason": "Correct product category named but no material, panel type, or size differentiator included."
+        },
+        {
+          "item_id": "183874764",
+          "title": "Prefabricated Guest House",
+          "reason": "Correct product category named but no material, panel type, or size differentiator included."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name only the product category without any material, panel type, size, or structural attribute.",
+    "thinness_signals": [
+      "Title reads only 'Prefabricated Guest House' with no qualifying attribute",
+      "Material type (FRP, MS, GI, PUF) absent from title"
+    ],
+    "examples": [
+      {
+        "item_id": "75738301",
+        "title": "Prefabricated Guest House",
+        "reason": "Title names only the product category with no material, panel specification, or size."
+      },
+      {
+        "item_id": "285277992",
+        "title": "Prefabricated Guest House",
+        "reason": "Title names only the product category with no material, panel specification, or size."
+      },
+      {
+        "item_id": "183874764",
+        "title": "Prefabricated Guest House",
+        "reason": "Title names only the product category with no material, panel specification, or size."
+      },
+      {
+        "item_id": "273991791",
+        "title": "Frp Cabin house",
+        "reason": "Names material (FRP) and product type but lacks panel specification, size, and uses inconsistent capitalisation."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles contain service-indicating tokens or describe a different product type (farm house, services) that actively misrepresents the listing.",
+    "failure_classes": [
+      {
+        "class": "service_title",
+        "signal": "Token 'Services' present in title — indicates a construction/fabrication service, not a physical product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "262307658",
+            "title": "Prefabricated House Services",
+            "reason": "Title names a service offering, not a physical prefabricated guest house product.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "wrong_product_type_in_title",
+        "signal": "Description body names a different product type (e.g., 'Farm House') contradicting the title's 'Guest House' claim.",
+        "failure_mode": "misleading",
+        "examples": [
+          {
+            "item_id": "237584034",
+            "title": "Prefabricated Guest House",
+            "reason": "Title claims guest house but description explicitly describes a prefabricated farm house — title is misleading in context.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere based on product identity mismatch.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "construction_service",
+        "signal": "Title contains 'Services' and specs include 'Service Mode', 'Payment Mode', 'Time Duration' — indicating a construction service, not a physical product.",
+        "examples": [
+          {
+            "item_id": "262307658",
+            "title": "Prefabricated House Services",
+            "reason": "Title and specs explicitly describe a prefabricated house construction service, not a physical guest house product.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "House Construction Services"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Container Homes",
+        "signal": "Image shows a shipping container converted to accommodation; description explicitly lists container homes and modular containers as primary products.",
+        "examples": [
+          {
+            "item_id": "246231784",
+            "title": "Prefabricated Guest House",
+            "reason": "Product is a shipping container-based accommodation unit; description and image confirm container home identity rather than a panel-built prefab guest house."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from attached base64 files."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion 'House Construction Services' and sibling 'Container Homes' drawn from confirmed taxonomy siblings list."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (MS/steel-frame prefab portable guest house) and mcat_description used to ground all category belonging decisions; mcat_vagueness_signal.suspected_vague treated as false (coherent MCAT)."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
