@@ -1,0 +1,571 @@
+{
+  "mcat_description": {
+    "short": "Mobile containers are purpose-built or modified steel container structures — typically based on ISO 20ft or 40ft frames — sold as portable shops, offices, site cabins, storage units, or residential units that can be relocated by crane or truck.",
+    "long": "Mobile containers in the Indian B2B market are prefabricated steel structures built on ISO shipping container frames (predominantly 20ft × 8ft and 40ft × 8ft) that are fitted out for commercial, industrial, or residential use and designed for relocation. They are manufactured from mild steel or corten steel with insulated wall panels (PUF, EPS, or rock wool sandwich panels), pre-installed electrical wiring, windows, and doors, and are customised to buyer specifications for use as retail shops, food stalls, site offices, labour camps, guard cabins, or portable homes. Standard certifications include ISO/CSC plate and TPI inspection; surface treatment typically involves epoxy zinc-rich primer with synthetic enamel or PU topcoat. The Indian market is served by a mix of fabricators who modify used ISO containers and manufacturers who build purpose-built container-form structures from scratch.",
+    "product_types": [
+      "Container Shop (retail kiosk / commercial container)",
+      "Container Office / Site Office Container",
+      "Container Home / Residential Container (Container Makan)",
+      "Storage Container (portable godown / dry storage)",
+      "Labour Camp / Bunk House Container",
+      "Guard Cabin / Security Container",
+      "Container Restaurant / Food Court Container",
+      "Container Café / Coffee Shop Container",
+      "Mobile Toilet / Sanitation Container",
+      "Modular / Stackable Container Unit",
+      "High Cube Container Structure (9'6\" height)",
+      "Custom / Bespoke Container Structure"
+    ],
+    "primary_applications": [
+      "Portable retail shop or kirana store (container shop)",
+      "Food stall, café, or restaurant outlet",
+      "Construction site office or project site cabin",
+      "Labour accommodation and bunk house on project sites",
+      "Portable storage / godown for goods and equipment",
+      "Guard post / security cabin at industrial or residential premises",
+      "Temporary or semi-permanent residential dwelling",
+      "Mobile workstation or field office",
+      "Emergency or disaster relief shelter",
+      "Event kiosk or pop-up commercial space"
+    ],
+    "buyer_segments": [
+      "Small business owners and entrepreneurs setting up portable retail shops",
+      "Food and beverage operators (café, restaurant, food court stall owners)",
+      "Construction companies and project contractors needing site offices and labour camps",
+      "Industrial facilities requiring portable guard cabins or storage",
+      "Real estate developers and housing project operators",
+      "Government and PSU procurement for site infrastructure",
+      "Event management companies needing temporary commercial structures",
+      "Individuals seeking affordable portable housing (Container Ghar / Makan)"
+    ]
+  },
+  "primary_segment": "Modified steel container structure used as a portable shop or commercial kiosk (container shop)",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Purpose-built or modified steel container structure for commercial/office/residential use (container shop, site office, container home) — prefabricated structure buyer",
+    "secondary_families": [
+      "Bare ISO shipping container for logistics, freight, and cargo transport — logistics/freight buyer with no fit-out requirement",
+      "Pure portable storage container (unmodified dry container for on-site goods storage) — industrial storage buyer"
+    ],
+    "reason": "The name 'Mobile Containers' attracts both prefabricated structure buyers (who want fitted-out container shops, offices, homes) and logistics/freight buyers (who want bare ISO containers for cargo transport or raw storage) — these are fundamentally different buyers with incompatible product requirements, different supplier types, and different taxonomy destinations."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "container shop",
+      "mobile container",
+      "portable container",
+      "container office",
+      "container cabin",
+      "portable container shop",
+      "shipping container shop",
+      "container kiosk",
+      "container structure",
+      "prefab container"
+    ],
+    "technical_synonyms": [
+      "modified ISO container",
+      "prefabricated container structure",
+      "container-based prefab unit",
+      "intermodal container conversion",
+      "portable steel container cabin",
+      "container module",
+      "fitted container unit",
+      "container porta cabin"
+    ],
+    "trade_names": [
+      "container shop",
+      "container office",
+      "container home",
+      "bunk house container",
+      "site office container",
+      "container makan",
+      "portable container cabin",
+      "container café"
+    ],
+    "hindi_terms": [
+      "container dukan",
+      "kirana dukan container",
+      "container makan",
+      "portable ghar container",
+      "container ki dukan"
+    ],
+    "buyer_intent_queries": [
+      "container shop for sale in India",
+      "portable container shop price in India",
+      "20ft container shop for sale",
+      "mobile container office for construction site",
+      "container shop price in Hyderabad",
+      "small container for shop use",
+      "container restaurant for sale India",
+      "portable steel shop container price",
+      "container coffee shop 20x8",
+      "second hand container shop for sale"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Complete container units are transacted per piece in Indian B2B; custom fit-out or large project contracts may quote per sq ft, but the standard B2B listing and enquiry unit is per piece for a defined container size.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard container shop / office (20ft or 40ft complete unit)",
+        "unit": "per piece",
+        "note": "Most common transaction unit — buyer specifies size and fit-out, seller quotes per piece"
+      },
+      {
+        "sub_segment": "Custom-built or fit-out contract",
+        "unit": "per sq ft",
+        "note": "Used when buyer specifies custom dimensions or interior fit-out scope; observed in IndiaMART tile data"
+      },
+      {
+        "sub_segment": "Rental / lease",
+        "unit": "per month",
+        "note": "Container rental services quote per month for site office or storage use"
+      }
+    ],
+    "sources_checked": [
+      "Akash Engimech India Pvt Ltd (akasheng.com)",
+      "Saman Portable (samanportable.com)",
+      "Pressmach India (pressmach.com)",
+      "IndiaMART tile observations (structural signal only)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian market, 'Mobile Containers' commercially refers to prefabricated or modified steel container structures — predominantly based on 20ft × 8ft ISO frames — that are fitted out and sold for use as portable shops, offices, site cabins, storage units, or residential dwellings. The dominant buyer-facing product is the 'container shop' (also called container dukan or kirana container), driven by demand from small business owners and food & beverage operators seeking low-cost, relocatable commercial premises. Standard sizes in the Indian market are 20ft × 8ft × 8'6\" (standard height) and 40ft × 8ft × 8'6\"/9'6\" (high cube), with custom sizes from 4ft × 4ft up to 60ft × 15ft also available from Indian fabricators. Materials are predominantly mild steel (MS) or corten steel with PUF/EPS/rock wool insulated sandwich panel walls; surface treatment is typically epoxy zinc-rich primer with synthetic enamel or PU topcoat. Certifications relevant to the Indian market include ISO/CSC plate (for containers meeting international container standards) and TPI (Third Party Inspection). The Indian supplier base includes both fabricators who modify used ISO shipping containers and manufacturers who build purpose-built container-form structures from scratch — these two supply types serve overlapping but distinct buyer needs. Key manufacturing hubs include Delhi NCR, Ahmedabad, Thane/Mumbai, Chennai, and Bengaluru. The MCAT name creates a contamination risk: bare ISO shipping containers for logistics/freight (a different buyer and taxonomy destination) frequently appear alongside fitted container structures in search results and on-platform listings.",
+  "buyer_attracting_attributes": [
+    "Container Size / Dimensions (length × width × height in ft)",
+    "Usage Type (shop, office, home, storage, restaurant)",
+    "Material (mild steel, corten steel, GI sheet)",
+    "Wall Panel / Insulation Type (PUF, EPS, rock wool sandwich panel)",
+    "Built Type (new fabrication vs modified used container)",
+    "Mobility Type (crane-movable, truck-transportable)",
+    "Customisation Options (windows, doors, electrical wiring, AC provision)",
+    "Certification (ISO/CSC plate, TPI inspection)",
+    "Color / Surface Finish",
+    "Condition (new vs second-hand / used)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "96541",
+    "mcat_name": "Mobile Containers",
+    "mcat_level": "4",
+    "listing_count": "2044",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Mobile Containers",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35400.0",
+      "name": "Portable Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35400.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "32980",
+        "mcat_name": "Office Cabin",
+        "listing_count": "6818",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35057",
+        "mcat_name": "Portable Classrooms",
+        "listing_count": "736",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35400",
+        "mcat_name": "Portable Cabin",
+        "listing_count": "13877",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38456",
+        "mcat_name": "Telephone Booths",
+        "listing_count": "419",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42755",
+        "mcat_name": "Security Cabins",
+        "listing_count": "4207",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43789",
+        "mcat_name": "Wooden Cabins",
+        "listing_count": "665",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43790",
+        "mcat_name": "Mobile Cabins",
+        "listing_count": "613",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "56012",
+        "mcat_name": "Glass Cabin",
+        "listing_count": "1247",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96540",
+        "mcat_name": "Office Container",
+        "listing_count": "21197",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "111378",
+        "mcat_name": "Smoking Cabin",
+        "listing_count": "192",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119140",
+        "mcat_name": "Container Conversion Service",
+        "listing_count": "68",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121149",
+        "mcat_name": "FRP Cabin",
+        "listing_count": "1604",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135704",
+        "mcat_name": "Portable Kitchen",
+        "listing_count": "457",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135705",
+        "mcat_name": "Portable Security Cabins",
+        "listing_count": "6233",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135712",
+        "mcat_name": "Prefabricated Cabin",
+        "listing_count": "6259",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135797",
+        "mcat_name": "Toll Booth",
+        "listing_count": "853",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135966",
+        "mcat_name": "Eco Portable Cabins",
+        "listing_count": "436",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136204",
+        "mcat_name": "Prefabricated Accommodation",
+        "listing_count": "1321",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145135",
+        "mcat_name": "FRP Portable Security Cabin",
+        "listing_count": "1727",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149768",
+        "mcat_name": "Portable Dressing Room",
+        "listing_count": "358",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150360",
+        "mcat_name": "Portable Log Cabins",
+        "listing_count": "220",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150362",
+        "mcat_name": "Portable Pantry",
+        "listing_count": "142",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150852",
+        "mcat_name": "MS Porta Cabin",
+        "listing_count": "9337",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150853",
+        "mcat_name": "MS Security Cabins",
+        "listing_count": "1334",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154082",
+        "mcat_name": "Wooden Guard Room",
+        "listing_count": "111",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159318",
+        "mcat_name": "GRP Cabin",
+        "listing_count": "55",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "165827",
+        "mcat_name": "Modular Portable Cabin",
+        "listing_count": "3118",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167809",
+        "mcat_name": "PUF Cabin",
+        "listing_count": "1376",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181546",
+        "mcat_name": "PVC Portable Cabin",
+        "listing_count": "407",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181975",
+        "mcat_name": "Prefabricated Security Cabin",
+        "listing_count": "1156",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185338",
+        "mcat_name": "GI Portable Cabin",
+        "listing_count": "2393",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185339",
+        "mcat_name": "Aluminium Office Cabins",
+        "listing_count": "1740",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "188230",
+        "mcat_name": "Portable ATM Cabin",
+        "listing_count": "130",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "207959",
+        "mcat_name": "Frisking Booth",
+        "listing_count": "168",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Mobile containers are manufactured articles (prefabricated structures) evaluated by buyers on technical specs (dimensions, material, load capacity, customisation options) and supplier capability, not regulatory compliance or brand dominance."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions ('container shop', 'container shop price', 'mobile shipping container') confirmed container shop as dominant buyer intent cluster."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top internal keywords ('mobile containers', 'container shop', 'container restaurant', 'container coffee shop', 'kirana dukan container') confirmed commercial/retail use as primary buyer intent."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Call rows revealed buyer vocabulary: 'Container Makan', 'Portable Ghar', 'Container Saloon Shop', 'Kirana Dukan Container', 'Container 20x8' — used for hindi_terms and buyer_intent_queries."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path under 'Prefabricated Structures' anchors MCAT to fitted container structures, not bare logistics containers. 2044 listing count treated as plausible — not suspect."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.pressmach.com/solution/portable-houses",
+        "title": "Portable Container Home | Prefab Home Manufacturer in India - Pressmach",
+        "source_domain": "pressmach.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "market_context",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Used for Indian manufacturer perspective on container home types, materials (MS steel, PUF panels), and customisation; confirmed residential and project housing as applications."
+      },
+      {
+        "url": "https://www.akasheng.com/container-shop-2",
+        "title": "Container Shop | Akash Engimech India Pvt Ltd.",
+        "source_domain": "akasheng.com",
+        "derived_outputs": [
+          "primary_segment",
+          "mcat_description.product_types",
+          "market_context",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Confirmed 'container shop' as a primary commercial product type in Indian market; used for primary_segment determination."
+      },
+      {
+        "url": "https://www.samanportable.com/",
+        "title": "Portable Cabin & Container Offices in India | Saman Portable",
+        "source_domain": "samanportable.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Confirmed standard container office sizes (10ft, 20ft, 40ft, High Cube) as key buyer comparison dimensions in Indian market."
+      },
+      {
+        "url": "https://pelicancontainers.com/india",
+        "title": "Buy Shipping Containers in India: Price New & Used Containers",
+        "source_domain": "pelicancontainers.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed 20ft and 40ft as bestselling sizes in India; confirmed convertibility to home, office, garage, restaurant as primary use cases; confirmed new vs used as buyer decision dimension."
+      },
+      {
+        "url": "https://falconfreight.com/shipping-container-size-type-20ft-40ft/",
+        "title": "Shipping Container Size Type 20ft 40ft – Complete Guide",
+        "source_domain": "falconfreight.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed standard container types (dry, flat rack, open top, refrigerated) and ISO standard dimensions (20ft, 40ft, standard 8'6\" vs high cube 9'6\") for Indian market context."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Mobile containers are manufactured articles (prefabricated structures) evaluated by buyers on technical specs (dimensions, material, load capacity, customisation options) and supplier capability, not regulatory compliance or brand dominance. Standard B2B research into market variants, material standards, and customisation patterns will inform listing audit."
+    }
+  }
+}
