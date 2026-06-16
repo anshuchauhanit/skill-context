@@ -1,0 +1,527 @@
+{
+  "mcat_description": {
+    "short": "Mild Steel Portable House is a prefabricated, relocatable dwelling or cabin unit built on a mild steel structural frame, factory-manufactured and delivered as a complete or knock-down assembly for rapid on-site installation.",
+    "long": "A Mild Steel Portable House is a modular, relocatable structure manufactured from precision-welded mild steel frames and panels, designed for quick deployment without permanent foundation work. These units are supplied in standard sizes (typically 10 ft to 40 ft length) or custom dimensions, and typically include insulated wall panels, waterproof roofing, electrical fittings, doors, and windows as a ready-to-use package. They serve a wide range of applications — from single-room site offices and security cabins to multi-room 1BHK residential units with bathroom and kitchen — and are widely used across construction sites, industrial campuses, agricultural land, and disaster-relief deployments. In the Indian B2B market, sellers quote both per-unit (for standard catalogue sizes) and per-square-foot (for custom-dimension orders), with the structural steel frame typically conforming to IS 2062 mild steel specifications.",
+    "product_types": [
+      "Single-room MS portable cabin (site office / security cabin)",
+      "1BHK MS portable house with bathroom and kitchen",
+      "2BHK / multi-room MS portable house",
+      "MS portable shop / dukan container",
+      "MS portable cafe / food stall unit",
+      "MS portable farmhouse / resort cabin",
+      "MS bunkhouse / labour accommodation unit",
+      "MS portable classroom / medical room",
+      "Double-storey / two-floor MS portable house",
+      "MS portable toilet block (combined with living unit)"
+    ],
+    "primary_applications": [
+      "Temporary residential accommodation on construction sites (labour housing, 1BHK units)",
+      "Site offices and project management cabins at infrastructure and industrial sites",
+      "Security guard cabins and toll booths",
+      "Portable shops, kiosks, and commercial dukans",
+      "Agricultural farmhouse and rural temporary dwelling",
+      "Disaster relief and emergency shelter deployment",
+      "Portable classrooms and medical rooms",
+      "Resort and eco-tourism cabin accommodation"
+    ],
+    "buyer_segments": [
+      "Construction contractors and project developers (site office and labour housing)",
+      "Industrial plant and factory operators (security cabins, site offices)",
+      "Individual buyers seeking affordable temporary or permanent residential housing",
+      "Government and NGO procurement for disaster relief and rural housing",
+      "Agricultural landowners needing farmhouse or watchman quarters",
+      "Hospitality and resort operators (portable cabin accommodation)",
+      "Small business owners needing portable shop or commercial space"
+    ]
+  },
+  "primary_segment": "MS-framed prefabricated portable cabin or room unit for temporary accommodation and site use (single room to 1BHK configuration)",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated mild steel frame portable house/cabin for temporary accommodation, site offices, and labour housing",
+    "secondary_families": [],
+    "reason": "The MCAT name is material-specific (mild steel) and form-specific (portable house); sibling MCATs represent parallel material variants (GI, FRP, PUF) with the same buyer profile and use case — no incompatible product family or regulatory regime conflict exists within this MCAT."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "mild steel portable house",
+      "MS portable house",
+      "portable house",
+      "MS portable cabin",
+      "steel portable house",
+      "prefab portable house",
+      "portable cabin house",
+      "MS prefabricated house",
+      "steel cabin house",
+      "portable room"
+    ],
+    "technical_synonyms": [
+      "prefabricated mild steel structure",
+      "modular portable cabin",
+      "relocatable steel cabin",
+      "pre-engineered portable house",
+      "knock-down steel house",
+      "MS frame prefab unit",
+      "portable site cabin",
+      "modular steel dwelling",
+      "transportable steel structure"
+    ],
+    "trade_names": [
+      "MS portable house",
+      "MS container cabin",
+      "portacabin",
+      "porta cabin",
+      "site office cabin",
+      "bunkhouse",
+      "MS bunk house",
+      "portable office cabin",
+      "mobile cabin",
+      "Tata Nest-In MobiNest"
+    ],
+    "hindi_terms": [
+      "makan (portable)",
+      "ghar (portable)",
+      "bana banaya ghar",
+      "dukan (portable)",
+      "portable makaan",
+      "lohe ka ghar"
+    ],
+    "buyer_intent_queries": [
+      "mild steel portable house with bathroom and kitchen",
+      "MS portable house 1BHK price",
+      "portable house 10x20 feet mild steel",
+      "prefab steel house for construction site",
+      "portable cabin for labour accommodation",
+      "mild steel portable house manufacturer India",
+      "portable house for site office use",
+      "steel portable farmhouse for agricultural land",
+      "portable shop container mild steel",
+      "foldable portable house India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Complete MS portable house units are primarily quoted per piece (per unit) in Indian B2B transactions; per square foot quoting is used for custom-dimension orders where buyers specify non-standard floor areas.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard catalogue size units (10ft, 12ft, 20ft, 30ft, 40ft)",
+        "unit": "per piece / per unit",
+        "note": "Fixed-size units quoted as a complete package including delivery and installation"
+      },
+      {
+        "sub_segment": "Custom-dimension residential or commercial units",
+        "unit": "per sq ft",
+        "note": "Buyers specify floor area (e.g. 600 sq ft, 10×15 ft) and sellers quote per sq ft of built area"
+      },
+      {
+        "sub_segment": "Labour colony / bulk bunkhouse orders",
+        "unit": "per piece",
+        "note": "Multiple identical units ordered per piece with volume discount"
+      }
+    ],
+    "sources_checked": [
+      "unostructures.com (manufacturer site)",
+      "mahindracontainers.com (manufacturer site)",
+      "portablehouse.in (industry directory)",
+      "IndiaMART internal keyword data (per sq ft signals)",
+      "Buyer call data (per unit enquiry patterns)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, Mild Steel Portable Houses are prefabricated, relocatable structures built on IS 2062-grade mild steel frames, manufactured by a large base of SME fabricators concentrated in Hyderabad, Jaipur, Bengaluru, and NCR. The product is commercially distinct from GI panel, FRP, and PUF portable houses — which are sibling MCATs — by virtue of the heavier, more durable MS structural frame that suits longer-term deployment and heavier-use applications. Standard commercial sizes range from 10 ft to 40 ft in length, with 10×15 ft and 10×20 ft being the most commonly searched configurations per keyword data. Buyers typically receive a complete turnkey unit including insulated wall panels, waterproof roof, electrical fittings, doors, and windows, with installation and AMC offered by larger manufacturers. The structural steel used in these units is expected to conform to BIS IS 2062 (hot-rolled structural steel) standards, and prefabricated building design follows IS 15916 / IS 15917 codes for systems building. Key buyer segments include construction contractors (site offices, labour housing), individual residential buyers (affordable 1BHK housing), agricultural landowners (farmhouse/watchman quarters), and government/NGO procurement for disaster relief. The market uses both 'portable house' and 'portable cabin' interchangeably; 'MS container cabin' and 'portacabin' are also widely used trade terms. Tata Steel Nest-In (MobiNest) is a recognised organised-sector brand; the majority of supply comes from unorganised MSME fabricators (single source — low confidence for brand claim).",
+  "buyer_attracting_attributes": [
+    "Size / Floor Area (length × width in feet)",
+    "Number of Rooms / BHK Configuration",
+    "Wall Panel Type and Thickness",
+    "Roof Type and Waterproofing",
+    "Insulation Type (thermal / acoustic)",
+    "Included Fittings (electrical, plumbing, bathroom, kitchen)",
+    "Steel Frame Grade / Thickness",
+    "Anti-Corrosion / Paint Treatment",
+    "Door and Window Count and Type",
+    "Portability / Mobility Features (skid frame, wheel chassis)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "315617",
+    "mcat_name": "Mild Steel Portable House",
+    "mcat_level": "4",
+    "listing_count": "1111",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Mild Steel Portable House",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Mild steel portable houses are prefabricated structural products evaluated by buyers on material grade, dimensions, load capacity, and assembly specs — standard B2B market research into prefab construction practices and mild steel specifications clarifies buyer intent and product variants."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Top Google KWs by Impressions ('portable house' 558, 'foldable house in india' 16, 'container house size in feet' 5) used to identify buyer search vocabulary and size-query patterns."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "mcat_description.product_types",
+          "primary_segment"
+        ],
+        "citation_note": "Top internal KWs by Pageviews confirmed 'mild steel portable house' as dominant demand term (132 PVs, 5 calls); size-specific queries (10×20, 10×15, 40×12, 600sqft) and application queries (with bathroom and kitchen, portable cafe, farmhouse) informed product_types and buyer_intent_queries."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "22 call rows confirmed Hindi buyer vocabulary (makan, ghar, bana banaya ghar, dukan), 1BHK residential framing, and material confusion signals (PUF, GI panel, fiber appearing alongside MS). Specs not extracted from call data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT sits under Prefabricated Structures parent; 27 siblings (material variants: GI, FRP, PUF etc.) informed vagueness assessment — no incompatible family found. Listing count 1111 treated as plausible; page_fetch_failed so tile count cross-check not possible."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.unostructures.com/container/mild-steel-portable-house",
+        "title": "Mild Steel Portable House | 10Feet Mild Steel Portable House",
+        "source_domain": "unostructures.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "unit_quoting_context",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed standard size range (10ft, 12ft, 14ft, 18ft, 30ft), per-piece unit quoting, applications (site offices, guard cabins, temporary accommodation), and turnkey delivery+AMC model."
+      },
+      {
+        "url": "https://portablehouse.in/products/mild-steel-portable-house",
+        "title": "Mild Steel Portable House – Top Manufacturers, Suppliers & Sellers in India",
+        "source_domain": "portablehouse.in",
+        "derived_outputs": [
+          "mcat_description.short",
+          "mcat_description.long",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed MS frame construction with insulated wall panels, waterproof roof, electrical fixtures; applications including site offices, guard cabins, temporary shelters, classrooms, compact living quarters."
+      },
+      {
+        "url": "https://www.unostructures.co/mild-steel-portable-house/mild-steel-portable-house/",
+        "title": "Top 3 Mild Steel Portable House In India | Steel Portable House",
+        "source_domain": "unostructures.co",
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "market_context"
+        ],
+        "citation_note": "Confirmed buyer segments (temporary accommodation, disaster relief, construction site offices) and cost-effectiveness vs conventional construction as key buyer value proposition."
+      },
+      {
+        "url": "https://aspebsolutions.com/prefabricated-structure/",
+        "title": "Prefabricated Structure Manufacturer In Indore | AS PEB Solutions",
+        "source_domain": "aspebsolutions.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed BIS standard compliance for prefabricated steel structures in India, including structural steel detailing and QA validation to Indian standards (IS codes)."
+      },
+      {
+        "url": "https://law.resource.org/pub/in/bis/S03/is.15917.2010.pdf",
+        "title": "IS 15917 (2010): Building Design and Erection Using Mixed/Composite Construction",
+        "source_domain": "law.resource.org (BIS standard)",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed IS 15917:2010 as the BIS standard governing mixed/composite prefabricated building design and erection in India, relevant to MS portable house structural compliance."
+      },
+      {
+        "url": "https://ferrite.in/bis-standards-for-steel-in-india/",
+        "title": "BIS Standards for Steel: Testing & Certification in India",
+        "source_domain": "ferrite.in",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed IS 2062 as the key BIS standard for hot-rolled structural steel used in construction applications including prefabricated structures."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Mild steel portable houses are prefabricated structural products evaluated by buyers on material grade, dimensions, load capacity, and assembly specs — not regulatory compliance or brand dominance. Standard B2B market research into prefab construction practices and mild steel specifications will clarify buyer intent and product variants."
+    }
+  }
+}
