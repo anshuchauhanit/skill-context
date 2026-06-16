@@ -1,0 +1,62 @@
+{
+  "enhanced_name_4w": "MS Steel Labour Bunkhouse",
+  "enhanced_name_5w": "MS Prefab Labour Camp Bunkhouse",
+  "enhanced_name_6w": "MS Portable Bunkhouse for Labour Camps",
+  "enhanced_name_long": "Mild Steel Prefabricated Portable Bunkhouse for Construction Site Labour Accommodation and Worker Camps",
+  "alt_names": {
+    "primary_keywords": [
+      "MS bunkhouse",
+      "mild steel bunkhouse",
+      "MS portable bunkhouse",
+      "prefabricated bunkhouse",
+      "portable bunk house",
+      "MS portable cabin",
+      "prefab bunk house",
+      "steel bunkhouse",
+      "portable labour cabin",
+      "MS fabricated bunkhouse"
+    ],
+    "technical_synonyms": [
+      "mild steel prefabricated portable cabin",
+      "MS modular bunkhouse",
+      "lift-and-shift bunkhouse unit",
+      "MIG-welded portable steel cabin",
+      "prefab steel accommodation unit",
+      "MS porta cabin",
+      "steel frame modular cabin"
+    ],
+    "trade_names": [
+      "Industrial Bunk House",
+      "MS Fabricated Bunkhouse",
+      "Mobile Bunkhouse",
+      "Portable Bunkhouse Cabin",
+      "MS Structure House",
+      "Prefabricated Labour Camp Unit"
+    ],
+    "hindi_terms": [
+      "portable makaan",
+      "prefab kamra",
+      "steel cabin"
+    ],
+    "buyer_intent_queries": [
+      "MS bunkhouse for construction site labour accommodation",
+      "mild steel portable bunkhouse for labour camp",
+      "prefabricated bunkhouse for site office and workers",
+      "MS portable cabin for workers",
+      "steel bunkhouse for remote project site",
+      "portable cabin for staff accommodation at construction site",
+      "prefab steel cabin for labour colony",
+      "modular MS bunkhouse for industrial site",
+      "portable bunkhouse with toilet and kitchen block",
+      "MS bunkhouse for infrastructure project workers"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Residential/lifestyle housing buyers (Log Homes, Wooden House, Container Homes, Prefabricated Beach House, Prefabricated Guest House, Modular Cottages, Tree House, Portable Resort siblings) — these attract permanent or semi-permanent residential and hospitality buyers, not industrial labour camp procurement buyers; names implying home living, resort, cottage, or leisure use are blocked.",
+    "Guard/security cabin buyers (Guard Huts, PVC Guard Huts siblings) — single-occupant security post structures for a distinct buyer persona; names implying guard hut or security booth use are blocked.",
+    "Office-primary bunkhouse buyers (Bunk House Office sibling) — buyers seeking a combined office-dominant unit rather than accommodation-primary labour bunkhouse; names foregrounding 'office' as the primary function are blocked.",
+    "Material-generic bunkhouse buyers (Bunkhouses sibling, Prefab Steel Bunk House sibling) — the broader 'Bunkhouses' MCAT and 'Prefab Steel Bunk House' sibling cover material-agnostic or overlapping steel bunkhouse listings; the MS Bunkhouse MCAT is specifically mild-steel-framed and labour-camp-primary, so names that are exact matches to sibling names ('Prefab Steel Bunk House', 'Bunkhouses') are blocked by name collision rule."
+  ],
+  "segment_contamination_disclaimer": null
+}
