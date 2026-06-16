@@ -1,0 +1,591 @@
+{
+  "mcat_description": {
+    "short": "Prefabricated accommodation refers to factory-built, modular housing structures designed for temporary or semi-permanent use at construction sites, industrial projects, and remote locations, typically assembled from steel frames and insulated sandwich panels (PUF/EPS/Rockwool) and sold per unit or per sq ft.",
+    "long": "Prefabricated accommodation units are off-site manufactured, relocatable housing structures built using cold-formed or mild steel frames with insulated sandwich panel walls and roofs, designed to provide safe, hygienic, and functional living quarters for workers, staff, and labour at construction sites, mining areas, infrastructure projects, and industrial campuses across India. These structures are available as single-storey portable cabins, multi-storey labour colonies (G+1, G+2), and container-converted accommodation units, and can be customised with bunk beds, attached bathrooms, kitchens, electrical fittings, and sanitation systems. Built to IS-grade material standards and compliant with National Building Code (NBC) guidelines for prefabricated construction, they offer rapid installation (days to weeks), easy dismantling, and multi-site reusability — making them the preferred alternative to conventional brick-and-mortar worker housing for EPC contractors, infrastructure developers, and industrial operators. The dominant panel materials in the Indian market are PUF (polyurethane foam) sandwich panels and glass wool/EPS insulated panels, with mild steel or GI structural frames.",
+    "product_types": [
+      "PUF Panel Labour Accommodation Cabin",
+      "EPS/Rockwool Sandwich Panel Accommodation Cabin",
+      "Container Accommodation Unit (20ft / 40ft)",
+      "Multi-Storey Prefab Labour Colony (G+1, G+2)",
+      "Bunkhouse Cabin",
+      "Portable Staff Accommodation Cabin",
+      "Modular Labour Camp Complex (turnkey)",
+      "FRP Prefabricated Accommodation Cabin",
+      "Insulated Worker Dormitory Unit",
+      "Portable Changing Room / Locker Room Cabin"
+    ],
+    "primary_applications": [
+      "Worker and labour housing at construction and infrastructure project sites",
+      "Staff accommodation at industrial plants, factories, and manufacturing campuses",
+      "Labour camps for EPC, road, highway, and metro rail projects",
+      "Mining site worker quarters in remote locations",
+      "Temporary accommodation for defence and government project personnel",
+      "Disaster relief and emergency housing deployment",
+      "Farmhouse and remote site residential use"
+    ],
+    "buyer_segments": [
+      "EPC contractors and infrastructure project developers",
+      "Construction companies managing large labour forces",
+      "Industrial plant and factory operators requiring on-site staff housing",
+      "Mining and energy sector project managers",
+      "Government and PSU project authorities (NHAI, RVNL, NTPC, etc.)",
+      "Real estate developers needing temporary site offices and worker quarters",
+      "Defence and paramilitary procurement units"
+    ]
+  },
+  "primary_segment": "Prefabricated labour and worker accommodation cabin for construction sites and industrial projects",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated labour and worker accommodation cabin for construction sites and industrial projects",
+    "secondary_families": [],
+    "reason": "All product sub-types within this MCAT (PUF panel cabins, container units, bunkhouses, multi-storey colonies) share the same B2B buyer profile (contractors, industrial operators) and the same regulatory/standards context (IS-grade materials, NBC compliance), with no incompatible regulatory regime or buyer segment carve-out among taxonomy siblings."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated accommodation",
+      "labour accommodation cabin",
+      "staff accommodation cabin",
+      "worker accommodation prefab",
+      "prefab labour camp",
+      "container accommodation",
+      "portable labour cabin",
+      "bunkhouse cabin",
+      "prefab staff quarters",
+      "modular labour colony"
+    ],
+    "technical_synonyms": [
+      "modular accommodation unit",
+      "relocatable accommodation building",
+      "prefab labour hutment",
+      "insulated sandwich panel cabin",
+      "cold-formed steel modular housing",
+      "portable workmen accommodation",
+      "prefabricated dormitory unit",
+      "volumetric modular accommodation"
+    ],
+    "trade_names": [
+      "K-House (EPACK Prefab)",
+      "Portable Cabin",
+      "Porta Cabin",
+      "Bunkhouse",
+      "Labour Colony",
+      "Site Accommodation",
+      "Camp Cabin"
+    ],
+    "hindi_terms": [
+      "प्रीफैब्रिकेटेड आवास",
+      "लेबर कैंप केबिन",
+      "मजदूर आवास केबिन",
+      "पोर्टेबल केबिन"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated labour accommodation for construction site",
+      "portable cabin for labour camp near me",
+      "staff accommodation prefab cabin with bathroom",
+      "40ft container accommodation for workers",
+      "modular bunkhouse cabin for industrial site",
+      "prefab worker accommodation with electric connection",
+      "multi-storey prefab labour colony G+1",
+      "PUF panel labour accommodation cabin price",
+      "temporary housing for workers at project site",
+      "prefabricated staff accommodation with AC and meeting room"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Large labour camp and colony projects are quoted per sq ft of built-up area in Indian B2B transactions, reflecting the custom-dimensioned, project-specific nature of the order; single portable cabin orders are quoted per piece/unit.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Single portable cabin / container unit",
+        "unit": "per piece",
+        "note": "Fixed-size standard units (e.g. 20x10 ft, 30x10 ft) quoted per piece on IndiaMART listings"
+      },
+      {
+        "sub_segment": "Labour colony / multi-room camp complex",
+        "unit": "per sq ft",
+        "note": "Custom-designed multi-storey or large-footprint projects quoted per sq ft of total built-up area"
+      },
+      {
+        "sub_segment": "Turnkey labour camp project",
+        "unit": "per project",
+        "note": "Turnkey EPC-style contracts for complete camp setup quoted per project"
+      }
+    ],
+    "sources_checked": [
+      "EPACK Prefab (epack.in)",
+      "Pressmach Infrastructure (pressmach.com)",
+      "multidecor.in buyer guide",
+      "IndiaMART MCAT page listing tiles (structural observation only)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, prefabricated accommodation is primarily understood as factory-built, relocatable worker and labour housing structures used at construction sites, infrastructure projects, and industrial campuses — distinct from permanent prefab homes or luxury modular villas. The dominant construction method uses mild steel or GI structural frames with PUF (polyurethane foam) or EPS/Rockwool insulated sandwich panels, with 50mm panel thickness being a common specification. Leading Indian manufacturers include EPACK Prefab (K-House system), Pressmach Infrastructure, Epsilon Enterprise (Ahmedabad), and Hind Portable Cabin (Thane/Ahmedabad), with manufacturing hubs concentrated in Ahmedabad (Gujarat), Thane (Maharashtra), and Faridabad (Haryana). Structures are available as single-storey portable cabins, G+1 and G+2 multi-storey labour colonies, and container-converted accommodation units (20ft and 40ft), with customisation for bunk beds, attached bathrooms, kitchens, and electrical/sanitation fit-outs. The relevant Indian standards framework includes IS 15917:2010 (Building Design and Erection Using Prefabricated Systems — mixed/composite construction) and IS 15916:2010 (prefabricated concrete), with structural design governed by IS 1893 for seismic loads; the National Building Code (NBC) by BIS provides overarching guidelines for prefabricated construction in India. Buyers are predominantly EPC contractors, infrastructure developers, and industrial operators who prioritise rapid deployment (days to weeks), multi-site reusability, and compliance with worker welfare norms; government and PSU buyers additionally require fire safety and seismic resistance certifications.",
+  "buyer_attracting_attributes": [
+    "Wall Panel Material (PUF / EPS / Rockwool / GI)",
+    "Panel Thickness (insulation thickness in mm)",
+    "Floor Area / Size (L x W in ft)",
+    "Number of Floors (G / G+1 / G+2)",
+    "Number of Rooms / Capacity (persons)",
+    "Frame Material (Mild Steel / GI / Cold-Formed Steel)",
+    "Sanitation & Bathroom Fittings (attached / common)",
+    "Electrical Fittings (pre-installed / concealed wiring)",
+    "Portability / Relocatability (crane-liftable, demountable)",
+    "Fire Resistance & Seismic Rating"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "136204",
+    "mcat_name": "Prefabricated Accommodation",
+    "mcat_level": "4",
+    "listing_count": "1321",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Prefabricated Accommodation",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35400.0",
+      "name": "Portable Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35400.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "32980",
+        "mcat_name": "Office Cabin",
+        "listing_count": "6818",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35057",
+        "mcat_name": "Portable Classrooms",
+        "listing_count": "736",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35400",
+        "mcat_name": "Portable Cabin",
+        "listing_count": "13877",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38456",
+        "mcat_name": "Telephone Booths",
+        "listing_count": "419",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42755",
+        "mcat_name": "Security Cabins",
+        "listing_count": "4207",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43789",
+        "mcat_name": "Wooden Cabins",
+        "listing_count": "665",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43790",
+        "mcat_name": "Mobile Cabins",
+        "listing_count": "613",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "56012",
+        "mcat_name": "Glass Cabin",
+        "listing_count": "1247",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96540",
+        "mcat_name": "Office Container",
+        "listing_count": "21197",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96541",
+        "mcat_name": "Mobile Containers",
+        "listing_count": "2044",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "111378",
+        "mcat_name": "Smoking Cabin",
+        "listing_count": "192",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119140",
+        "mcat_name": "Container Conversion Service",
+        "listing_count": "68",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121149",
+        "mcat_name": "FRP Cabin",
+        "listing_count": "1604",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135704",
+        "mcat_name": "Portable Kitchen",
+        "listing_count": "457",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135705",
+        "mcat_name": "Portable Security Cabins",
+        "listing_count": "6233",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135712",
+        "mcat_name": "Prefabricated Cabin",
+        "listing_count": "6259",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135797",
+        "mcat_name": "Toll Booth",
+        "listing_count": "853",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135966",
+        "mcat_name": "Eco Portable Cabins",
+        "listing_count": "436",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145135",
+        "mcat_name": "FRP Portable Security Cabin",
+        "listing_count": "1727",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149768",
+        "mcat_name": "Portable Dressing Room",
+        "listing_count": "358",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150360",
+        "mcat_name": "Portable Log Cabins",
+        "listing_count": "220",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150362",
+        "mcat_name": "Portable Pantry",
+        "listing_count": "142",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150852",
+        "mcat_name": "MS Porta Cabin",
+        "listing_count": "9337",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150853",
+        "mcat_name": "MS Security Cabins",
+        "listing_count": "1334",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154082",
+        "mcat_name": "Wooden Guard Room",
+        "listing_count": "111",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159318",
+        "mcat_name": "GRP Cabin",
+        "listing_count": "55",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "165827",
+        "mcat_name": "Modular Portable Cabin",
+        "listing_count": "3118",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167809",
+        "mcat_name": "PUF Cabin",
+        "listing_count": "1376",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181546",
+        "mcat_name": "PVC Portable Cabin",
+        "listing_count": "407",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181975",
+        "mcat_name": "Prefabricated Security Cabin",
+        "listing_count": "1156",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185338",
+        "mcat_name": "GI Portable Cabin",
+        "listing_count": "2393",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185339",
+        "mcat_name": "Aluminium Office Cabins",
+        "listing_count": "1740",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "188230",
+        "mcat_name": "Portable ATM Cabin",
+        "listing_count": "130",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "207959",
+        "mcat_name": "Frisking Booth",
+        "listing_count": "168",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Prefabricated accommodation is a manufactured building structure with technical specs (dimensions, materials, assembly method, durability standards) but no mandatory regulatory certification or dominant brand anchoring. Agent 3 should research construction material standards (BIS, IS codes for structural integrity), modular construction practices, and typical buyer specifications (capacity, portability, customisation options)."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions ('staff accommodation' 50, 'labour accommodation' 12, '40ft container accommodation' 4) confirmed labour/worker accommodation as dominant buyer search intent."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Top internal KW 'prefabricated accommodation' (18 PVs); multi-floor and utility queries ('1st floor', 'electric connection', 'meeting room') signalled multi-storey and utility-fitted product types."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Call rows confirmed product vocabulary: 'Container Labour Accommodation', 'Bunk House Cabin', 'PUF Panel House', 'Staff Accommodation Container', 'Portable Changing Room', 'Farmhouse Container'. Specs not extracted (all spec fields were blank)."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path and listing count (1,321) used as reference. 34 siblings noted; no sibling triggers vagueness Trigger A or B. listing_count_suspect set to false."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.epack.in/prefabricated-labour-hutment",
+        "title": "Prefabricated Labour Hutment Manufacturer & Supplier | Worker & Staff Accommodation",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for product type confirmation (insulated panels + steel frames), application contexts (construction, mining, infrastructure), and portability/relocatability as a key buyer attribute."
+      },
+      {
+        "url": "https://www.epack.in/k-house",
+        "title": "K-House | Modular Prefabricated Houses & Labour Accommodation by EPACK Prefab",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "market_context",
+          "mcat_description.long"
+        ],
+        "citation_note": "Confirmed K-House as a named product system (cold-formed steel + insulated sandwich panels), IS standards compliance, and multi-use applications (site offices, labour accommodation, relief camps)."
+      },
+      {
+        "url": "https://www.pressmach.com/solution/workmen-accommodation",
+        "title": "Prefabricated Labour Quarters, Camp Manufacture in India - Pressmach",
+        "source_domain": "pressmach.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed lightweight steel frame construction, pan-India supply, and modular expandability as key product attributes; corroborated labour camp as primary segment."
+      },
+      {
+        "url": "https://www.hindportablecabin.in/labour-accommodation-cabin-8355011.html",
+        "title": "Labour Accommodation Cabin",
+        "source_domain": "hindportablecabin.in",
+        "derived_outputs": [
+          "buyer_attracting_attributes",
+          "mcat_description.long",
+          "market_context"
+        ],
+        "citation_note": "Used for 50mm PUF panel spec, seismic Grade 8 resistance, fire resistance, and pre-installed electrical fittings as buyer-relevant attributes."
+      },
+      {
+        "url": "https://multidecor.in/prefabricated-labour-camps-cost-in-india/",
+        "title": "Prefabricated Labour Camps Cost in India: Complete Buyer Guide",
+        "source_domain": "multidecor.in",
+        "derived_outputs": [
+          "unit_quoting_context",
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Confirmed per sq ft as dominant quoting unit; identified key cost variables (PUF panels, GI sheets, number of floors, sanitation fit-out) that map to buyer_attracting_attributes."
+      },
+      {
+        "url": "https://law.resource.org/pub/in/bis/S03/is.15917.2010.pdf",
+        "title": "IS 15917 (2010): Building Design and Erection Using Prefabricated Systems",
+        "source_domain": "law.resource.org (BIS publication)",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed IS 15917:2010 and IS 15916:2010 as the relevant BIS standards for prefabricated building design and erection in India; IS 1893 referenced for seismic design of prefab structures."
+      },
+      {
+        "url": "https://www.karmod.eu/blog/modular-buildings-india/",
+        "title": "India Modular Buildings and Prefabricated Building Solutions",
+        "source_domain": "karmod.eu",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Corroborated worker accommodation for manufacturing clusters, energy projects, and remote construction sites as primary applications; confirmed B2B decision-maker buyer profile."
+      },
+      {
+        "url": "https://www.fluidconstructions.com/building/building-code-regulations-india/",
+        "title": "Current Building Code and Regulations in India",
+        "source_domain": "fluidconstructions.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed National Building Code (NBC) by BIS as the overarching regulatory framework for prefabricated construction in India."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Prefabricated accommodation is a manufactured building structure with technical specs (dimensions, materials, assembly method, durability standards) but no mandatory regulatory certification or dominant brand anchoring. Agent 3 should research construction material standards (BIS, IS codes for structural integrity), modular construction practices, and typical buyer specifications (capacity, portability, customisation options)."
+    }
+  }
+}
