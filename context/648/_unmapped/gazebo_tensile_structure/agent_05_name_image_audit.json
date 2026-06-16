@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Gazebo Tensile Structure' directly matches the top primary keyword and is the dominant search term confirmed across alt_names, buyer_intent_queries, and market_context; no stronger or more precise naming convention was identified in the Indian B2B market for this category.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image correctly shows a conical/pyramid tensile gazebo structure with a white PVC membrane and steel frame — accurately representing the primary segment and product type.",
+      "However, the setting is an institutional/school courtyard with blue metal fencing and industrial buildings in the background, which does not reflect the primary commercial hospitality and leisure context (hotels, resorts, restaurants, gardens); a setting aligned with the primary segment would significantly improve buyer relevance and aspirational appeal."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A freestanding conical gazebo tensile structure with a crisp white PVC-coated polyester membrane canopy stretched over a powder-coated steel frame, installed in a lush hotel garden or resort poolside setting with green landscaping, warm ambient lighting, and outdoor furniture beneath the canopy. Clean square composition, bright natural daylight, soft shadows, photorealistic architectural product photography style, white or light sky background, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
