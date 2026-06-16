@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The term 'Control Pulpit' is the dominant B2B trade term confirmed across Agent 3 primary_keywords and market_context, and is the standard OSHA-recognised designation for a fixed operator station in crane and process plant environments.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows an elevated, enclosed industrial operator cabin with yellow steel cladding, large toughened glass visibility panels, and safety striping — accurately representing the primary segment of a prefabricated industrial control pulpit in a crane/plant environment.",
+      "Improvement is possible: the image is a real-world installation photograph with a cluttered industrial background and a crane/winch partially visible at the right edge, reducing visual clarity; a cleaner, isolated product shot or a rendered image with a neutral background would better serve as a category thumbnail."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a prefabricated industrial operator control pulpit cabin mounted on an elevated steel platform inside a large industrial facility. The cabin has a mild steel structural frame with yellow powder-coated exterior panels, large toughened glass windows on three sides for wide-angle visibility, and black-and-yellow safety striping along the roofline. Interior is dimly visible with operator console and seating. Clean white or light grey neutral background with soft industrial ambient lighting. No people. No text overlays. Sharp product focus, professional product photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
