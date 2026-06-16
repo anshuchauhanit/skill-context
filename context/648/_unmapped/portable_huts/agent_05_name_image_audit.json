@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Portable Huts' directly matches the top primary keyword and is the dominant buyer search term corroborated across alt_names, trade_names, and buyer_intent_queries in Agent 3 data.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a wooden-framed structure with wire mesh fencing panels and a timber deck — consistent with a livestock enclosure or animal kennel run, not a steel/panel-clad prefabricated portable hut for construction site labour accommodation, security cabins, or site offices (the primary segment).",
+      "The image actively misrepresents the MCAT's primary segment by displaying a product type (animal enclosure/kennel) that is not a portable hut variant, creating buyer confusion and wrong-product signals."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A standalone steel-framed prefabricated portable hut with GI colour-coated corrugated metal wall panels in light grey or cream, a sloped metal roof, a single white door, and one small window, placed on a flat white background, front-three-quarter view, clean product photography style, sharp edges, no people, no branding, soft studio lighting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
