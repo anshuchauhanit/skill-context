@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'Portable Resort' is understood in the Indian B2B market but is colloquial and vague; Agent 3 alt_names and market_context confirm that 'Prefabricated Resort Room' or 'Modular Resort Cabin' are more precise and searchable terms used by buyers and manufacturers.",
+    "suggested_name": "Prefabricated Resort Cabin"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a plain off-white corrugated steel portable cabin/site office unit with no hospitality or resort aesthetic — it reads as a construction site cabin or porta-cabin, not a prefabricated resort room or cottage unit as defined by the primary_segment.",
+      "The image lacks any hospitality cues (wood finish, scenic placement, resort-style windows/décor) that would signal the eco-tourism or resort deployment context central to this MCAT, making it misleading for resort developer buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated modular resort cottage unit placed in a lush green outdoor setting, featuring a warm wooden exterior finish with large glass windows, a small front deck with wooden railing, and a sloped roof. The structure is a single-room hospitality cabin approximately 20x12 ft, elevated slightly on a platform, surrounded by tropical or hill-station foliage. Clean white background on one side for product clarity. Soft natural daylight, photorealistic render, square 1:1 composition, product-catalogue style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
