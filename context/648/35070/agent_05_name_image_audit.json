@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Portable Garage' directly matches the top primary keyword and is the dominant buyer search term confirmed across alt_names and market_context; no more precise single-term name better covers the full product range in this MCAT.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a permanent-style prefabricated metal-panel shed/cabin with corrugated steel walls, a pitched metal roof, and a roll-up door — this represents a heavy modular garage cabin variant, not the primary segment (fabric-canopy steel-frame carport tent/canopy kit for single or double vehicle parking).",
+      "The image will mislead buyers seeking the dominant fabric-canopy carport product and fails to represent the MCAT's primary segment as identified by Agent 3."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A fabric-canopy portable car garage shelter with a powder-coated steel tube frame and a blue or grey UV-resistant waterproof polyethylene canopy cover, peak/A-frame roof style, sized for one or two cars, set on a clean white background, front-facing three-quarter view, bright studio lighting, showing zippered door panel partially open to reveal interior space, no people, photorealistic product shot.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
