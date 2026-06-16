@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Portable Toilets' directly matches the top primary keyword and is the universally recognised B2B trade term across IndiaMART listings, buyer intent queries, and market context; no more specific name is needed at this taxonomy level given the breadth of product types covered.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a compact plastic camping/travel portable toilet (HDPE moulded unit with a pull-drawer waste tank and lid), which is a consumer/recreational product — not the FRP prefabricated cabin unit that constitutes the primary segment for Indian B2B construction and outdoor use.",
+      "This image actively misrepresents the MCAT to B2B buyers: a construction contractor or municipal buyer searching for site-deployment toilet cabins would not recognise this as their product, and the instruction-label sticker visible on the lid further signals a retail/consumer item rather than a B2B cabin unit."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A standalone FRP prefabricated portable toilet cabin unit, light blue and white colour, single-seater, rectangular cabin shape with a hinged door slightly ajar showing interior squat-pan floor fitting, overhead water tank visible on roof, ventilation louver on upper side panel, anti-skid flooring visible at entrance, placed on a flat outdoor surface against a clean white studio background, front three-quarter view, bright even studio lighting, sharp product photography style, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
