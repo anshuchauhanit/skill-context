@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'FRP Modular Toilet' directly matches the dominant primary keyword and technical synonym set from Agent 3 alt_names, and aligns with the market context confirming this as the established category label used by manufacturers, buyers, and government procurement bodies.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail shows a multi-compartment FRP toilet block (2–3 seater unit with shared roof structure and steel legs), which represents a multi-unit block sub-type rather than the primary segment of a single-unit prefabricated FRP toilet cabin for construction sites and public sanitation.",
+      "The image carries visible Hindi text/seller branding on the cabin panel (red lettering), which constitutes a seller watermark obstruction that reduces thumbnail neutrality and usability as a category-level image."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A single-unit prefabricated FRP modular toilet cabin, off-white or light grey fibreglass body with green accent trim on roof edges, pitched roof, single door with latch, ventilation louvres on side panel, mounted on a mild steel base frame, photographed at a slight 3/4 angle on a clean white background, soft studio lighting, no text or branding, sharp product focus, square 1:1 crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
