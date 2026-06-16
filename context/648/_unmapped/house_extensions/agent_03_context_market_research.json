@@ -1,0 +1,516 @@
+{
+  "mcat_description": {
+    "short": "Prefabricated house extensions are factory-built or site-assembled structural additions to existing homes, typically supplied as glass-enclosed terrace rooms, rooftop prefab rooms, or modular upper-floor additions using aluminium/steel frames with tempered glass or PUF panel infill.",
+    "long": "House extensions in the Indian prefab market are predominantly glass-enclosed or modular room additions built on terraces, rooftops, or as lateral annexes to existing residential structures. The dominant commercial form is an aluminium-framed, tempered-glass enclosure installed on a terrace or balcony, functioning as a sunroom, home office, or leisure space. Secondary forms include PUF-panel or steel-frame prefab rooms added as upper-floor extensions, verandas, and modular 1–2 room additions. Structures are governed by BIS IS 13831 (Code of Practice for Prefabricated Buildings) and IS 14807 (Guidelines for Modular Construction Systems), and require local municipal building permission for permanent additions.",
+    "product_types": [
+      "Glass terrace room / glass house extension (aluminium frame + tempered glass)",
+      "Prefab rooftop room addition (PUF panel / steel frame)",
+      "Modular upper-floor extension (prefab concrete or steel module)",
+      "Veranda / covered patio extension (MS/SS frame with polycarbonate or glass roof)",
+      "Sunroom / conservatory extension",
+      "Prefab 1BHK / 2BHK rooftop addition",
+      "Pergola with glass enclosure",
+      "Prefab room addition for lateral house extension"
+    ],
+    "primary_applications": [
+      "Terrace enclosure for additional living space",
+      "Rooftop home office or study room",
+      "Sunroom / leisure lounge on terrace",
+      "Guest room addition without conventional construction",
+      "Farmhouse or weekend home extension",
+      "Veranda or covered outdoor dining area",
+      "Upper-floor room addition on existing RCC structure"
+    ],
+    "buyer_segments": [
+      "Urban homeowners seeking additional living space without full construction",
+      "Residential property developers adding premium amenities",
+      "Farmhouse and weekend home owners",
+      "Hospitality properties (hotels, resorts) adding premium glass dining/lounge spaces",
+      "Institutional buyers (offices, schools) needing quick room additions"
+    ]
+  },
+  "primary_segment": "Glass-enclosed terrace/rooftop room extension (aluminium frame with tempered glass)",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated glass-enclosed or modular room addition to an existing residential structure",
+    "secondary_families": [],
+    "reason": "All product types within this MCAT share the same buyer profile (residential/property owner), the same regulatory regime (IS 13831, local municipal permissions), and the same commercial channel — no incompatible product families are present despite the broad MCAT name."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "house extension",
+      "glass house extension",
+      "terrace glass house",
+      "glass room on terrace",
+      "prefab house extension",
+      "rooftop room addition",
+      "glass terrace room",
+      "sunroom extension",
+      "prefab terrace room",
+      "home extension"
+    ],
+    "technical_synonyms": [
+      "prefabricated room addition",
+      "modular house extension",
+      "aluminium glass enclosure",
+      "PUF panel rooftop room",
+      "conservatory extension",
+      "prefab upper floor addition",
+      "modular rooftop structure",
+      "tempered glass room enclosure"
+    ],
+    "trade_names": [
+      "Nestudio (Nest-In / Tata)",
+      "Loom Crafts prefab extension",
+      "Asian Prefab Infra",
+      "PST Infra modular extension",
+      "SRH Infratech glass extension"
+    ],
+    "hindi_terms": [
+      "chhat pe kamra",
+      "terrace room",
+      "ghar ka extension",
+      "prefab kamra"
+    ],
+    "buyer_intent_queries": [
+      "glass room on terrace India",
+      "prefab house extension for terrace",
+      "glass house extension for home",
+      "rooftop room addition prefab",
+      "sunroom on terrace India",
+      "terrace glass house price India",
+      "prefab room addition for existing house",
+      "aluminium glass terrace enclosure India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian B2B sellers of house extensions universally quote on a per square foot basis, reflecting the custom-dimensioned nature of each project and aligning with standard Indian construction industry pricing norms.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Turnkey prefab rooftop room (fixed module size)",
+        "unit": "per unit / per project",
+        "note": "Fixed-module suppliers like Nestudio may quote per unit or per project for standardised room sizes."
+      },
+      {
+        "sub_segment": "Glass terrace enclosure (custom dimensions)",
+        "unit": "per sq ft",
+        "note": "Custom glass enclosures are always quoted per sq ft of covered area."
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART listing tiles (multiple sellers)",
+      "Loom Crafts manufacturer site",
+      "Nestin.co.in (Nestudio product page)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian market, 'House Extensions' under prefabricated structures is commercially dominated by glass-enclosed terrace and rooftop room additions, with aluminium framing being the dominant structural material. Keyword and listing data confirm that buyers primarily search for 'glass house', 'terrace glass house', and 'glass room on terrace' — not the generic MCAT name. Secondary product types include PUF-panel prefab rooftop rooms and modular upper-floor additions. Relevant BIS standards include IS 13831 (Code of Practice for Prefabricated Buildings) and IS 14807 (Guidelines for Modular Construction Systems); IS 15916 and IS 15917 govern prefabricated concrete and mixed/composite construction respectively. Sellers are concentrated in NCR (Gurugram, Delhi), Chennai, Pune, and Ahmedabad. The market spans residential homeowners, farmhouse developers, and hospitality properties. Structures require local municipal building permission for permanent additions. The category is distinct from standalone prefabricated houses (a sibling MCAT) in that extensions are additions to existing structures, not independent buildings.",
+  "buyer_attracting_attributes": [
+    "Frame Material (aluminium / MS / SS)",
+    "Glass Type (tempered / laminated / double-glazed / low-E)",
+    "Covered Area (sq ft)",
+    "Built Type (prefab / modular / custom fabricated)",
+    "Roof Type (glass / polycarbonate / metal sheet)",
+    "Wall Panel Material (full glass / PUF panel / composite)",
+    "Weatherproofing / Monsoon Resistance",
+    "Thermal Insulation (single / double glazed)",
+    "Installation Time",
+    "Structural Load Compatibility (for rooftop placement on existing RCC)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "158049",
+    "mcat_name": "House Extensions",
+    "mcat_level": "4",
+    "listing_count": "1059",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > House Extensions",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "House extensions are prefab construction modules subject to building codes and material standards; standard B2B research into material grades, prefab construction standards, and regional building code variations is needed."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top Google KWs by Impressions ('glass room on terrace india', 'glass house', 'terrace glass house') confirmed glass-enclosed terrace room as dominant buyer search intent and primary segment."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top internal KWs by Pageviews ('house extensions', 'glass house', 'terrace glass house', 'sunroom') corroborated glass house / terrace room as dominant buyer vocabulary on-platform."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Call rows ('Terrace Extension', 'Glass House', 'Prefabricated House (Upper Floor/Extension)', 'Veranda (Shed Type)', 'Prefabricated Room (Ghar banane ke liye)') confirmed buyer vocabulary, product types, and Hindi term signal."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed prefab-only scope; listing count of 1059 treated as plausible; sibling count of 27 reviewed for vagueness trigger assessment."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.accio.com/plp/glass-room-on-terrace-india",
+        "title": "Glass Room on Terrace India: Modern Design & Features",
+        "source_domain": "accio.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "primary_segment"
+        ],
+        "citation_note": "Used for aluminium frame market dominance signal, product type variants (sunrooms, conservatories, canopies), and weatherproofing/thermal insulation as buyer attributes."
+      },
+      {
+        "url": "https://www.loomcraftsprefab.com/",
+        "title": "Prefab Modular Homes India | Modular Villas & Cottages Manufacturer – Loom Crafts",
+        "source_domain": "loomcraftsprefab.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for prefab modular construction product types, factory-build methodology, and unit quoting confirmation (per sq ft / per unit)."
+      },
+      {
+        "url": "https://www.nestin.co.in/nestudio",
+        "title": "Nestudio - Prefab Housing Solutions & Modular Homes Manufacturers",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "alt_names.trade_names",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for rooftop extension product type, PUF panel material signal, structural load compatibility attribute, and Nestudio as a recognised trade name."
+      },
+      {
+        "url": "https://www.prebuiltbygreenhomes.in/prefabricated-house.html",
+        "title": "Prefabricated House - Glass room with garden view Trader from New Delhi",
+        "source_domain": "prebuiltbygreenhomes.in",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for terrace room application context and customisable design signal."
+      },
+      {
+        "url": "https://www.bhadanisrecordedlectures.com/blog/oveview-of-all-is-code-related-to-construction-industry-of-india",
+        "title": "Overview of All IS Codes Related to Construction Industry of India",
+        "source_domain": "bhadanisrecordedlectures.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for IS 13831 and IS 14807 BIS standards applicable to prefabricated buildings and modular construction systems."
+      },
+      {
+        "url": "https://law.resource.org/pub/in/bis/S03/is.15917.2010.pdf",
+        "title": "IS 15917 (2010): Building Design and Erection Using Mixed/Composite Construction",
+        "source_domain": "law.resource.org",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for IS 15917 mixed/composite prefab construction standard reference and material types (concrete, ferrocement, steel, aluminium, timber)."
+      },
+      {
+        "url": "https://law.resource.org/pub/in/bis/S03/is.15916.2011.pdf",
+        "title": "IS 15916 (2011): Building Design and Erection Using Prefabricated Concrete",
+        "source_domain": "law.resource.org",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for IS 15916 prefabricated concrete construction standard reference."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "NBRM",
+        "Local Building Codes"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "House extensions are prefabricated construction modules subject to building codes and material standards (BIS for structural materials, local municipal regulations). No single dominant brand anchors buyer search; buyers prioritise material specs, dimensions, and compliance certification. Standard B2B research into material grades, prefab construction standards, and regional building code variations is needed."
+    }
+  }
+}
