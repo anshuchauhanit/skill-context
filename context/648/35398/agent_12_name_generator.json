@@ -1,0 +1,67 @@
+{
+  "enhanced_name_4w": "Relocatable Prefab Porta Cabins",
+  "enhanced_name_5w": "Steel Prefab Portable Site Cabins",
+  "enhanced_name_6w": "Relocatable Steel Prefab Cabin Office Units",
+  "enhanced_name_long": "Steel-Framed Relocatable Porta Cabins and Prefabricated Portable Buildings for Site Offices, Labour Accommodation, Security Cabins and Modular Workspaces",
+  "alt_names": {
+    "primary_keywords": [
+      "portable cabin",
+      "porta cabin",
+      "portable building",
+      "prefab cabin",
+      "portable site office",
+      "container cabin",
+      "modular cabin",
+      "portable shop",
+      "portable office",
+      "movable structure"
+    ],
+    "technical_synonyms": [
+      "prefabricated portable structure",
+      "modular portable building",
+      "demountable building",
+      "transportable building",
+      "relocatable building",
+      "knock-down building",
+      "prefab modular structure",
+      "off-site manufactured building"
+    ],
+    "trade_names": [
+      "Kota Cabin",
+      "Porta Cabin",
+      "PUF Cabin",
+      "PUF Panel Cabin",
+      "Container Office",
+      "FRP Cabin",
+      "GRC Panel Cabin"
+    ],
+    "hindi_terms": [
+      "portable cabin",
+      "portable shop",
+      "portable dukaan"
+    ],
+    "buyer_intent_queries": [
+      "portable cabin for construction site office",
+      "prefab office cabin price per sq ft",
+      "container cabin for site office",
+      "portable building for school classroom",
+      "modular portable cabin manufacturer India",
+      "portable shop cabin for retail",
+      "porta cabin for labour accommodation",
+      "steel portable cabin with insulation",
+      "portable building for disaster relief",
+      "ready-made room with toilet portable"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Permanent large-span industrial/warehouse building buyers (Prefabricated Industrial Buildings, Prefabricated Warehouse, Pre Engineered Building Structure, Pre Engineered Steel Building, Prefabricated Steel Buildings) — these buyers seek fixed, non-relocatable structures at industrial scale, not compact portable/relocatable cabins; names implying permanent industrial sheds or large-span steel buildings are blocked.",
+    "Agricultural structure buyers (Agricultural Greenhouses, Greenhouse, Polyhouse, Naturally Ventilated Greenhouse, Mini Greenhouse, Greenhouse Structure, Mist Chamber) — entirely different buyer persona (farmers, horticulturalists) with no overlap with portable cabin buyers; any greenhouse or polyhouse terminology is blocked.",
+    "Labour colony buyers served by the dedicated sibling MCAT 'Prefabricated Labor Colony' (ID 179245) — while portable buildings may include bunk houses, names that exclusively target large-scale prefabricated labour colony projects are blocked to avoid direct collision with that sibling.",
+    "Prefabricated school building buyers served by sibling MCAT 'Prefabricated School Building' (ID 154059) — names exclusively targeting permanent prefab school construction are blocked.",
+    "Prefabricated hospital/isolation ward buyers served by siblings 'Prefabricated Hospitals' (ID 159520) and 'Prefabricated Isolation Ward' (ID 444552) — names exclusively targeting permanent medical facility construction are blocked.",
+    "Tensile/membrane structure buyers (Tensile Structures, Modular Tensile Structure, Tensile Membrane Structures, Auditorium Tensile Structure, Gazebo Tensile Structure) — fabric/membrane canopy buyers with no overlap with steel-framed portable cabin buyers; tensile structure terminology is blocked.",
+    "RCC construction buyers (RCC Labour Quarter, ID 216129) — permanent reinforced concrete construction buyers are incompatible with portable/relocatable building buyers; RCC or permanent concrete terminology is blocked."
+  ],
+  "segment_contamination_disclaimer": null
+}
