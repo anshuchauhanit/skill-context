@@ -1,0 +1,575 @@
+{
+  "mcat_description": {
+    "short": "MS Structure Services covers end-to-end mild steel structural fabrication and erection services — designing, cutting, welding, and installing steel frameworks for industrial sheds, mezzanine floors, warehouses, canopies, and platforms as per client drawings and IS standards.",
+    "long": "MS Structure Services refers to turnkey mild steel structural fabrication and erection contracts where a service provider designs, fabricates, and installs load-bearing steel frameworks using IS:2062 E250/E350 grade hot-rolled sections — angles, channels, beams, columns, trusses, and purlins. The service spans the full project lifecycle: structural design and drawing, shop fabrication (cutting, bending, welding, bolting), surface treatment (primer/paint/galvanising), and on-site erection with alignment and load testing. Primary applications include industrial factory sheds, warehouse structures, mezzanine floors, canopies, staircase structures, pipe racks, and equipment support platforms. Compliance with IS:800 (Code of Practice for General Construction in Steel) governs structural design, while IS:2062 defines the material grade standard for the steel sections used.",
+    "product_types": [
+      "Industrial Shed Fabrication and Erection Service",
+      "Mezzanine Floor Fabrication Service",
+      "Warehouse Steel Structure Service",
+      "Factory Shed MS Structure Service",
+      "Canopy and Roofing Structure Service",
+      "Staircase and Handrail Fabrication Service",
+      "Portal Frame Structure Service",
+      "Truss Fabrication and Erection Service",
+      "Platform and Gantry Structure Service",
+      "Pipe Rack and Equipment Support Structure Service",
+      "PEB (Pre-Engineered Building) Structure Erection Service",
+      "MS Structural Repair and Modification Service"
+    ],
+    "primary_applications": [
+      "Industrial factory and manufacturing plant shed construction",
+      "Warehouse and godown steel framework erection",
+      "Mezzanine floor installation for additional storage or workspace",
+      "Commercial building steel framework",
+      "Rooftop solar panel mounting structure fabrication",
+      "Lift shaft and elevator MS structural support",
+      "Pharmaceutical and food plant hygienic load-bearing structures",
+      "Oil and gas plant equipment support structures",
+      "Agricultural storage shed construction",
+      "Event and exhibition temporary steel structure erection"
+    ],
+    "buyer_segments": [
+      "Industrial manufacturers and factory owners requiring shed or plant structures",
+      "Warehouse and logistics operators needing storage mezzanine floors",
+      "Real estate developers and construction contractors",
+      "SME fabricators and engineering contractors sub-contracting structural work",
+      "Institutional buyers (hospitals, schools) requiring structural steel frameworks",
+      "Power plant and oil & gas EPC contractors",
+      "Agricultural and cold storage facility operators"
+    ]
+  },
+  "primary_segment": "Industrial shed and mezzanine floor fabrication and erection service for manufacturing and warehouse buyers",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Mild steel structural fabrication and erection service (sheds, mezzanine floors, warehouses, platforms) governed by IS:800 and IS:2062",
+    "secondary_families": [],
+    "reason": "All sub-types share the same material (IS:2062 mild steel), same buyer profile (industrial/commercial project buyer), same regulatory regime (IS:800 structural design code), and same service delivery model (design-fabricate-erect); no sibling MCAT carves out an incompatible regulatory or buyer segment."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "ms structure services",
+      "mild steel structure fabrication",
+      "ms structural fabrication",
+      "steel structure fabrication service",
+      "ms shed fabrication",
+      "ms structure erection",
+      "mild steel fabrication service",
+      "ms structural work",
+      "steel structure erection service",
+      "ms structure contractor"
+    ],
+    "technical_synonyms": [
+      "structural steel fabrication service",
+      "IS:2062 structural fabrication",
+      "hot rolled section fabrication",
+      "mild steel frame erection",
+      "steel framework fabrication",
+      "portal frame fabrication",
+      "truss fabrication service",
+      "structural steelwork erection",
+      "MS section fabrication and installation"
+    ],
+    "trade_names": [
+      "PEB structure erection service",
+      "pre-engineered building erection",
+      "MS shed turnkey service",
+      "mezzanine floor fabrication",
+      "industrial shed fabrication service",
+      "C section structure service",
+      "GI metal structure service"
+    ],
+    "hindi_terms": [
+      "structure ka kaam",
+      "lohe ka dhanccha",
+      "MS dhanccha nirman",
+      "steel structure seva",
+      "mild steel nirman karya"
+    ],
+    "buyer_intent_queries": [
+      "ms structure fabrication and erection service near me",
+      "mild steel industrial shed fabrication contractor",
+      "mezzanine floor ms structure service",
+      "ms structure for warehouse fabrication",
+      "steel shed fabrication and installation service",
+      "ms structure for factory shed erection",
+      "ms structure for lift shaft fabrication",
+      "turnkey ms structure service for industrial plant",
+      "ms structure material and labour supply",
+      "ms structure design fabrication erection contractor India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per kg",
+    "unit_reasoning": "Heavy structural fabrication in India is predominantly quoted per kg of fabricated steel weight, reflecting the material-plus-labour cost model; mezzanine floors and platform structures are also quoted per sq ft of covered area depending on the sub-type.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Heavy structural fabrication (sheds, trusses, portal frames)",
+        "unit": "per kg",
+        "note": "Weight-based quoting is standard for heavy MS structural work in Indian B2B transactions"
+      },
+      {
+        "sub_segment": "Mezzanine floor and platform structures",
+        "unit": "per sq ft",
+        "note": "Area-based quoting observed on IndiaMART mezzanine listings; reflects floor area delivered"
+      },
+      {
+        "sub_segment": "Labour-only erection contracts",
+        "unit": "per project / lump sum",
+        "note": "Labour supply and erection-only contracts are quoted as lump sum or per project"
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART MS Structural Fabrication Services directory",
+      "IndiaMART Mezzanine Fabrication directory",
+      "JK Prefab Industrial Mezzanine Floor page",
+      "13sqft.com Mild Steel Mezzanine Floor listing"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "MS Structure Services in India refers to the end-to-end mild steel structural fabrication and erection market, where contractors design, fabricate, and install steel frameworks using IS:2062 E250/E350 grade hot-rolled sections governed by IS:800 structural design code. The market spans industrial sheds, warehouse structures, mezzanine floors, canopies, staircases, pipe racks, and equipment support platforms, with service providers offering turnkey solutions from design to on-site erection. Key buyer industries include manufacturing plants, warehouses and logistics, oil and gas, power plants, pharmaceutical facilities, and commercial construction. Fabrication processes involve cutting, bending, welding (MIG/TIG/arc), bolting, and surface treatment (primer painting, hot-dip galvanising); quality assurance includes NDT weld testing, alignment checks, and load testing per IS and ASTM standards. The Indian market distinguishes between light structure fabrication (canopies, staircases, gates) and heavy structural fabrication (industrial sheds, portal frames, gantries), with PEB (Pre-Engineered Building) erection services forming a growing sub-segment. Buyers typically quote requirements by span, bay size, height, load capacity, and steel grade; sellers respond with fabrication drawings and weight-based or area-based quotations.",
+  "buyer_attracting_attributes": [
+    "Steel Grade (IS:2062 E250/E350)",
+    "Span and Bay Size",
+    "Load Bearing Capacity",
+    "Structure Type (Shed / Mezzanine / Truss / Portal Frame)",
+    "Surface Finish (Primer Paint / Galvanised / Powder Coated)",
+    "Fabrication Standard (IS:800 / AISC / ASTM compliance)",
+    "Weld Quality (NDT / Ultrasonic tested)",
+    "Turnkey Scope (Design + Fabrication + Erection)",
+    "Delivery and Erection Timeline",
+    "Corrosion Protection (Fire Coat / Anti-rust treatment)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "168445",
+    "mcat_name": "MS Structure Services",
+    "mcat_level": "4",
+    "listing_count": "2407",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > MS Structure Services",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35592.0",
+      "name": "Prefabricated Structures",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35592.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20474",
+        "mcat_name": "Prefabricated Steel Buildings",
+        "listing_count": "8194",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21344",
+        "mcat_name": "Agricultural Greenhouses",
+        "listing_count": "2151",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21649",
+        "mcat_name": "Agricultural Buildings",
+        "listing_count": "128",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "29816",
+        "mcat_name": "Greenhouse",
+        "listing_count": "5282",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33188",
+        "mcat_name": "Modular Buildings",
+        "listing_count": "917",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35398",
+        "mcat_name": "Portable Buildings",
+        "listing_count": "1196",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35589",
+        "mcat_name": "Prefabricated Buildings",
+        "listing_count": "27038",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35592",
+        "mcat_name": "Prefabricated Structures",
+        "listing_count": "14394",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38214",
+        "mcat_name": "Storage Buildings",
+        "listing_count": "939",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "39565",
+        "mcat_name": "Temporary Buildings",
+        "listing_count": "149",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42328",
+        "mcat_name": "Modular Tensile Structure",
+        "listing_count": "2417",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "50762",
+        "mcat_name": "Tensile Structures",
+        "listing_count": "9089",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88197",
+        "mcat_name": "Prefabricated Metal Building",
+        "listing_count": "901",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116157",
+        "mcat_name": "Mini Greenhouse",
+        "listing_count": "1433",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121067",
+        "mcat_name": "Aluminium Structure",
+        "listing_count": "9342",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135787",
+        "mcat_name": "Tensile Membrane Structures",
+        "listing_count": "2683",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135861",
+        "mcat_name": "Auditorium Tensile Structure",
+        "listing_count": "598",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136011",
+        "mcat_name": "Gazebo Tensile Structure",
+        "listing_count": "1508",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "148110",
+        "mcat_name": "Pre Engineered Building Structure",
+        "listing_count": "9886",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149713",
+        "mcat_name": "Polyhouse",
+        "listing_count": "3245",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154059",
+        "mcat_name": "Prefabricated School Building",
+        "listing_count": "828",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158767",
+        "mcat_name": "Greenhouse Structure",
+        "listing_count": "813",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159520",
+        "mcat_name": "Prefabricated Hospitals",
+        "listing_count": "213",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "160350",
+        "mcat_name": "Mist Chamber",
+        "listing_count": "121",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166277",
+        "mcat_name": "Naturally Ventilated Greenhouse",
+        "listing_count": "1661",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166432",
+        "mcat_name": "Prefabricated Warehouse",
+        "listing_count": "5064",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168374",
+        "mcat_name": "Heavy Structural Fabrications",
+        "listing_count": "2495",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "178587",
+        "mcat_name": "Prefabricated Industrial Buildings",
+        "listing_count": "5964",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "179245",
+        "mcat_name": "Prefabricated Labor Colony",
+        "listing_count": "1480",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181553",
+        "mcat_name": "Pre Engineered Steel Building",
+        "listing_count": "1594",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "216129",
+        "mcat_name": "RCC Labour Quarter",
+        "listing_count": "549",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315645",
+        "mcat_name": "Prefabricated Walls",
+        "listing_count": "105",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "410918",
+        "mcat_name": "Light Gauge Framing System",
+        "listing_count": "350",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "444552",
+        "mcat_name": "Prefabricated Isolation Ward",
+        "listing_count": "218",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "MS (mild steel) structural services are engineered construction products subject to BIS IS:800 steel code compliance. Buyers evaluate grade, load capacity, and fabrication standards — not brand names. Research prioritised structural design standards, steel grades, and fabrication specifications."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Top keyword 'ms structure' (183 impressions, pos 4) confirmed as primary buyer search term; 'ms ceiling' and 'm s building' noted as low-volume peripheral signals."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Keywords 'ms structure for lift', 'mangalore tile structure ms design', 'events ms structure', 'ms structure material suppliers' confirmed diverse application contexts. 'iscon' and 'massage ring iscon mart' identified as noise/contamination — excluded."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Call rows confirmed: mezzanine floor, C section structure, fire coat painting, pipe bending service, and 'structure ka kaam' (Hindi buyer vocabulary). 'Structure Sensors [M.S. Class A]' flagged as contamination signal — sensor product, not structural service."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings_count"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Listing count 2407 treated as plausible for a broad fabrication service MCAT; listing_count_suspect set false. 34 siblings noted but none carve out an incompatible regulatory sub-segment."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://blog.tatanexarc.com/da/is-code-for-steel/",
+        "title": "IS code for steel in India – IS 800, IS 2062, IS 1786 explained",
+        "source_domain": "tatanexarc.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.long"
+        ],
+        "citation_note": "Confirmed IS:800 governs structural design (frames, trusses, beams, columns) and IS:2062 E250/E350 defines the material grade for hot-rolled structural steel sections used in MS fabrication."
+      },
+      {
+        "url": "https://dir.indiamart.com/impcat/ms-structural-fabrication-services.html",
+        "title": "MS Structural Fabrication Services in India",
+        "source_domain": "indiamart.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.technical_synonyms",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed service types (structural fabrication, PEB structure, industrial shed, roof structural, warehouse shed, bridge, heavy structure, tower, platform, pipeline) and structure types (beam, stair, mezzanine floor, portal frame, truss, purlin, gantry, column, tank support, pipe rack) — used for product_types enumeration only, not for primary_segment determination."
+      },
+      {
+        "url": "https://www.alliancefabtech.com/ms-structural-fabrication-service.html",
+        "title": "MS Structural Fabrication Service — Alliance Fabtech Pvt. Ltd., Mumbai",
+        "source_domain": "alliancefabtech.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Confirmed on-site fabrication and erection with welding, bolting, NDT testing, and compliance with IS, ASTM, AISC, ISO standards as standard service features."
+      },
+      {
+        "url": "https://dir.indiamart.com/impcat/ms-shed-fabrication.html",
+        "title": "MS Shed Fabrication, Mild Steel Shed Fabricators in India",
+        "source_domain": "indiamart.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed industrial shed fabrication as dominant application; IS:2062 material reference and turnkey design-to-installation scope confirmed."
+      },
+      {
+        "url": "https://dir.indiamart.com/impcat/mezzanine-fabrication.html",
+        "title": "Mezzanine Fabrication, Mezzanine Fabrication Service in India",
+        "source_domain": "indiamart.com",
+        "derived_outputs": [
+          "unit_quoting_context.sub_segment_units"
+        ],
+        "citation_note": "Confirmed per kg and per sq ft dual-unit quoting patterns for mezzanine floor fabrication in Indian B2B market."
+      },
+      {
+        "url": "https://www.jkprefab.com/industrial-mezzanine-floor.html",
+        "title": "Industrial Mezzanine Floor — JK Prefab Private Limited, Hyderabad",
+        "source_domain": "jkprefab.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed MS mezzanine floor as modular interlocking system for storage/office space — corroborates mezzanine as a key product type within MS Structure Services."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "AISC",
+        "IS:800"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "MS (mild steel) structural services are engineered construction products subject to BIS IS:800 steel code compliance. Buyers evaluate grade, load capacity, and fabrication standards — not brand names. Research should prioritise structural design standards, steel grades, and fabrication specifications."
+    }
+  }
+}
