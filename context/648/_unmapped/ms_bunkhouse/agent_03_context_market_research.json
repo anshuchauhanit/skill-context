@@ -1,0 +1,503 @@
+{
+  "mcat_description": {
+    "short": "MS Bunkhouse is a prefabricated mild steel portable cabin structure used as temporary accommodation for workers and staff at construction sites, industrial projects, and remote worksites. Sold as complete modular units, customisable in dimensions, with insulation, doors, windows, and basic electrical fittings included.",
+    "long": "An MS (Mild Steel) Bunkhouse is a factory-fabricated, relocatable accommodation unit constructed from a mild steel structural frame with steel sheet cladding, insulated wall and roof panels (glass wool or PUF), and fitted with aluminium sliding windows, steel or aluminium doors, false flooring, and concealed electrical wiring. Units are manufactured using MIG (CO2 argon shield gas) welding and finished with epoxy zinc phosphate primer and synthetic epoxy topcoats for corrosion and weather resistance. They are designed as lift-and-shift structures transportable by trailer, enabling rapid deployment and relocation across project sites without permanent foundation work. Buyers typically configure units as sleeping dormitories, site offices, mess units, toilet blocks, security cabins, or combined accommodation complexes for labour camps at construction, infrastructure, and industrial projects.",
+    "product_types": [
+      "Standard MS Portable Bunkhouse (rectangular, single-storey)",
+      "Modular MS Bunkhouse (multi-module, expandable)",
+      "Double-Decker MS Bunkhouse (two-storey stacked unit)",
+      "Container-Type MS Bunkhouse (shipping container frame base)",
+      "PUF-Insulated MS Bunkhouse",
+      "Glass Wool Insulated MS Bunkhouse",
+      "GI (Galvanised Iron) Bunkhouse",
+      "ACP-Clad Bunkhouse",
+      "MS Bunkhouse with Attached Toilet/Bathroom Block",
+      "MS Bunkhouse Site Office Combo Unit"
+    ],
+    "primary_applications": [
+      "Labour accommodation at construction and infrastructure project sites",
+      "Staff accommodation at remote industrial and mining worksites",
+      "Site office and supervisory accommodation at project camps",
+      "Mess units, kitchen blocks, and recreation rooms at labour colonies",
+      "Toilet and bathroom blocks at temporary worksites",
+      "Security guard cabins and toll booth structures",
+      "Disaster relief and emergency temporary shelter deployment",
+      "Warehouse and storage units at remote sites"
+    ],
+    "buyer_segments": [
+      "Construction contractors and civil engineering firms (primary — large-volume labour camp procurement)",
+      "Infrastructure project developers (roads, railways, power, oil & gas)",
+      "Industrial plant operators requiring on-site worker accommodation",
+      "Government and defence procurement for temporary housing",
+      "Event management and hospitality operators needing temporary structures",
+      "Rental/leasing companies for portable cabin fleet"
+    ]
+  },
+  "primary_segment": "Mild steel prefabricated portable cabin for construction site labour accommodation",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Mild steel prefabricated portable bunkhouse for worker/labour accommodation at construction and industrial sites",
+    "secondary_families": [],
+    "reason": "The 'MS' prefix anchors the material (mild steel) and 'Bunkhouse' anchors the accommodation function; no sibling MCAT carves out an incompatible sub-type, and all product variants share the same buyer profile (B2B project procurement) and regulatory context (non-medical, non-chemical prefabricated structure)."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "MS bunkhouse",
+      "mild steel bunkhouse",
+      "MS portable bunkhouse",
+      "prefabricated bunkhouse",
+      "portable bunk house",
+      "MS portable cabin",
+      "prefab bunk house",
+      "steel bunkhouse",
+      "portable labour cabin",
+      "MS fabricated bunkhouse"
+    ],
+    "technical_synonyms": [
+      "mild steel prefabricated portable cabin",
+      "MS modular bunkhouse",
+      "lift-and-shift bunkhouse unit",
+      "MIG-welded portable steel cabin",
+      "prefab steel accommodation unit",
+      "MS porta cabin",
+      "steel frame modular cabin",
+      "container-type bunkhouse"
+    ],
+    "trade_names": [
+      "MS Porta Cabin",
+      "Prefab Steel Bunk House",
+      "Industrial Bunk House",
+      "MS Fabricated Bunkhouse",
+      "Mobile Bunkhouse",
+      "Portable Bunkhouse Cabin",
+      "MS Structure House",
+      "Prefabricated Labour Camp Unit"
+    ],
+    "hindi_terms": [
+      "portable makaan",
+      "prefab kamra",
+      "steel cabin"
+    ],
+    "buyer_intent_queries": [
+      "MS bunkhouse for construction site labour accommodation",
+      "mild steel portable bunkhouse for labour camp",
+      "prefabricated bunkhouse for site office and workers",
+      "MS portable cabin 10x20 ft for workers",
+      "steel bunkhouse for remote project site",
+      "portable cabin for staff accommodation at construction site",
+      "MS bunkhouse 12x40 ft price India",
+      "prefab steel cabin for labour colony",
+      "modular MS bunkhouse for industrial site",
+      "portable bunkhouse with toilet and kitchen block"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Standard catalogue-size MS bunkhouses (e.g. 10×20 ft, 12×40 ft) are quoted and sold per piece as complete units; large custom or multi-module projects may be quoted per sq ft, but per piece dominates for discrete unit transactions in the Indian B2B market.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard single-module bunkhouse (fixed catalogue size)",
+        "unit": "per piece",
+        "note": "Most common transaction unit; buyers specify dimensions (e.g. 10×20 ft, 12×40 ft) and receive a complete unit quote."
+      },
+      {
+        "sub_segment": "Custom or large-area bunkhouse complex",
+        "unit": "per sq ft",
+        "note": "Used when buyer specifies total area requirement (e.g. 1200 sq ft) rather than a fixed module count; multiple manufacturers quote per sq ft for such orders."
+      }
+    ],
+    "sources_checked": [
+      "metatechportablecabin.com",
+      "kotharisportablecabins.com",
+      "birlacabins.in",
+      "amportablecabin.net",
+      "anportablescabins.com",
+      "bhawanitrans.com",
+      "Buyer call data (16 rows)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, 'MS Bunkhouse' is a well-established trade term for a mild steel prefabricated portable cabin used primarily as temporary worker accommodation at construction, infrastructure, and industrial project sites. The 'MS' prefix (Mild Steel) is a distinctly Indian trade qualifier distinguishing these units from GI (galvanised iron), FRP, ACP, or PUF-panel variants. Manufacturers are concentrated in Maharashtra (Thane, Mumbai, Raigad, Badlapur), Karnataka (Bengaluru), Gujarat (Vadodara), Uttar Pradesh (Greater Noida, Delhi NCR), Telangana (Hyderabad), and Odisha (Bhubaneswar), reflecting demand from construction activity across India. Units are fabricated using MIG (CO2 argon shield gas) welding, finished with epoxy zinc phosphate primer and synthetic epoxy topcoats, and insulated with glass wool (25 mm walls, 50 mm roof) or PUF panels. The product is designed as a lift-and-shift structure transportable by trailer, with size constrained by trailer dimensions. Buyers include construction contractors, infrastructure developers, industrial plant operators, and government/defence procurement agencies. The MCAT sits within the broader 'Prefabricated Structures' taxonomy alongside portable toilets, site offices, and greenhouses — all distinct product types sharing the same prefab construction method. No BIS/IS standard specific to MS bunkhouses was identified; quality is governed by material grades (IS 2062 mild steel) and paint/insulation specifications set by manufacturers and buyers contractually.",
+  "buyer_attracting_attributes": [
+    "Dimensions / Size (L×W×H in feet)",
+    "Insulation Type (PUF / Glass Wool / EPS)",
+    "Steel Grade / Wall Thickness",
+    "Number of Rooms / Capacity (persons)",
+    "Flooring Type (false floor / MS / FRP)",
+    "Door and Window Material (MS / Aluminium)",
+    "Paint / Coating System (epoxy / PU)",
+    "Electrical Fittings Included (wiring, sockets, lighting)",
+    "Portability / Relocatability (lift-and-shift / trailer-transportable)",
+    "Customisation Options (toilet block, kitchen, AC provision)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "150851",
+    "mcat_name": "MS Bunkhouse",
+    "mcat_level": "4",
+    "listing_count": "539",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > MS Bunkhouse",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "MS Bunkhouse is a prefabricated steel structure for temporary/portable accommodation. No pharmaceutical, chemical safety, or brand-dominant signals present. Standard B2B industrial product requiring market research to validate primary_segment, typical specs, and buyer quoting patterns."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "primary_segment",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Top keywords by Pageviews confirmed 'ms bunkhouse' and 'mild steel portable bunkhouse' as dominant buyer search terms; 'staff accommodation prefabricated bunkhouse' confirmed accommodation use case."
+      },
+      {
+        "source": "seller_buyer_call_data (16 rows)",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context.sub_segment_units"
+        ],
+        "citation_note": "Call rows confirmed buyer vocabulary (portable cabin, porta cabin, steel fabricated house, MS structure house), dimension-based enquiries (12×40 ft, 10×20 ft, 1200 sq ft), and application mix (site office, labour accommodation, toilet/bathroom/kitchen blocks). Specs not extracted from call data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT sits within Prefabricated Structures alongside portable toilets, greenhouses, and site offices — all distinct product types. Listing count of 539 treated as plausible; listing_count_suspect set false. 27 siblings reviewed for vagueness trigger — none carve out an incompatible sub-type of bunkhouse."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.metatechportablecabin.com/ms_bunk_houses.htm",
+        "title": "MS Bunk House and Prefabricated Bunkhouse — Metatech Portable Cabin",
+        "source_domain": "metatechportablecabin.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.product_types",
+          "market_context",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Used for confirmed application list (construction sites, labour camps, toll booths, warehouses, security cabins) and product type range (MS Portable Bunk House, Industrial Bunk House, Container Type Bunk House, Mobile Bunkhouse)."
+      },
+      {
+        "url": "https://www.kotharisportablecabins.com/ms-bunk-house-portable-cabin.html",
+        "title": "Bunk House — Kotharis Portable Cabins",
+        "source_domain": "kotharisportablecabins.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.short",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for MIG (CO2 argon shield gas) welding specification, lift-and-shift trailer-transportable design, and confirmation that size is constrained by trailer dimensions."
+      },
+      {
+        "url": "https://www.birlacabins.in/ms-portable-bunk-house.html",
+        "title": "MS Portable Bunk House — Birla Cabins",
+        "source_domain": "birlacabins.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for technical specs: epoxy zinc phosphate primer, synthetic epoxy topcoats, 25 mm glass wool wall insulation, 50 mm glass wool roof insulation, 4 mm tinted aluminium sliding windows, concealed copper wiring for 250V 50Hz single-phase supply."
+      },
+      {
+        "url": "https://www.bhawanitrans.com/bunk-house-cabin.html",
+        "title": "Bunk House Cabin — Bhawanitrans (New Delhi)",
+        "source_domain": "bhawanitrans.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for modular build type, false floor, PUF insulation, customised MS/aluminium doors and windows, on-site installation by professional team — corroborating construction site and labour camp primary applications."
+      },
+      {
+        "url": "https://www.amportablecabin.net/ms-portable-bunkhouse.html",
+        "title": "MS Portable Bunkhouse — AM Portable Cabin (Bengaluru)",
+        "source_domain": "amportablecabin.net",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for extended application list: family accommodation, single executive accommodation, complete site camp, recreation room, storage unit, kitchen, mess, dormitory, laboratory, toilet/bath — confirming breadth of buyer use cases."
+      },
+      {
+        "url": "https://www.portableofficecabins.in/ms-bunk-house-9016099.html",
+        "title": "MS Bunk House — Portable Office Cabins",
+        "source_domain": "portableofficecabins.in",
+        "derived_outputs": [
+          "mcat_description.short",
+          "primary_segment"
+        ],
+        "citation_note": "Used for confirmation that MS Bunkhouse is a mild steel construction with modular/prefabricated nature enabling quick on-site setup, corroborating primary segment as portable accommodation."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "MS Bunkhouse is a prefabricated steel structure for temporary/portable accommodation. No pharmaceutical, chemical safety, or brand-dominant signals present. Standard B2B industrial product requiring market research to validate primary_segment (labour camps vs. disaster relief vs. site offices), typical specs (dimensions, steel grade, assembly method), and buyer quoting patterns."
+    }
+  }
+}
