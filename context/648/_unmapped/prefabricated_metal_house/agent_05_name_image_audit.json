@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Metal House' directly matches the primary keyword set ('prefabricated metal house', 'metal house', 'steel house') and accurately describes the MS/GI-framed factory-fabricated residential structure that dominates this MCAT; market context confirms this is the standard trade descriptor used by major Indian manufacturers and buyers.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a large-span steel structure under construction with exposed red-painted heavy structural columns and open roof framing — this resembles an industrial/commercial pre-engineered building or barn, not a completed or near-complete MS/GI-framed prefabricated portable house for residential or site accommodation use as defined by the primary segment.",
+      "No enclosed wall panels, no residential or accommodation form factor, and no finished product cues are visible; the image is likely to confuse buyers seeking readymade/portable houses and may attract wrong-segment traffic (pre-engineered industrial buildings)."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A fully assembled single-storey prefabricated portable house with MS/GI steel frame, smooth white or light grey insulated metal sandwich panel walls, corrugated GI sheet sloped roof in grey or blue, one door and two windows with frames, placed on flat ground against a clean white studio background, front three-quarter view, bright even lighting, photorealistic product-catalogue style, no people, no construction clutter, sharp edges and clean finish visible.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
