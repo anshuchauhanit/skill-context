@@ -1,0 +1,1227 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "322564526",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Portable Toilet Cabin",
+      "description": "<p dir=\"ltr\">Bunk house portable toilets are&#160;durable, prefabricated, and relocatable sanitation units designed for construction sites, industrial setups, and remote locations. They feature steel or Fiberglass Reinforced Plastics (FRP) shells with insulated panels, integrated plumbing (Indian/Western seats), electrical fittings, and self-contained tanks or sewer connections. These robust units ensure hygienic, quick-to-install restroom facilities.</p>",
+      "specs": {
+        "raw": "Configuration:Only Toilet, Flooring:FRP, Mounting Type:Trolley Mounted, No Of Seats:1 seat, Structure Type:Portable Cabin, Tank Capacity:500 L, Toilet Seat:Indian Seat, Toilet Type:Single Seater, Usage:Labour Camp, Wall Material:FRP Panel, With Bath Area:Yes, With Septic Tank:No"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/2/583280297/RB/HX/XG/215830022/bunk-house-portable-toilets.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-toilet cabin-2858796552812.html",
+      "image_file": "322564526.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows the interior of a blue FRP portable toilet cabin with an Indian-style squat pan and smooth FRP panel walls, but no exterior cabin structure is visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names 'Portable Toilet Cabin' but omits material, configuration, and usage context."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs comprehensively cover configuration, flooring, mounting type, seat count, tank capacity, toilet seat type, usage (Labour Camp), and wall material."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description accurately describes bunk house portable toilets as prefabricated relocatable sanitation units with FRP/steel shells, integrated plumbing, and self-contained tanks for construction sites."
+        },
+        "category": {
+          "valid": true,
+          "reason": "All text dimensions confirm a prefabricated FRP portable toilet cabin for labour camp use, consistent with MCAT definition."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "'Configuration: Only Toilet' conflicts with 'With Bath Area: Yes' within the same specs object."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs list 'Configuration: Only Toilet' and 'With Bath Area: Yes' simultaneously, which are mutually contradictory values."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the interior squat pan and FRP walls; no exterior cabin structure, door, or overall form is visible."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; photo is thin but text dimensions are strong; no cross-dimension contradictions; category valid.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-toilet cabin-2858796552812.html"
+    },
+    {
+      "item_id": "234866617",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Bunk House Portable Toilets",
+      "description": "We are engaged in offering the high quality&nbsp;<b>FRP&nbsp;</b><b>Readymade Toilet Cabin&nbsp;</b>to our valuable customers.",
+      "specs": {
+        "raw": "Brand:Robust Enterprises, Built Type:Panel Build, Cabin Height:6.5 ft, Color:Blue, Configuration:Only Toilet, Country of Origin:Made in India, Flooring:FRP, Material:FRP, No. Of Compartments:single, No Of Seats:single, Shape:Rectangular, Size:3 x 3, Structure Type:Portable Cabin, Tank Capacity:no, Toilet Seat:Indian Seat, Usage:Defence Camp, Wall Material:FRP Panel, With Bath Area:Yes, With Septic Tank:No"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/12/QA/BX/VV/19192544/frp-portable-toilet.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/bunk-house portable toilets-2850026761633.html",
+      "image_file": "234866617.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a complete blue-and-white FRP portable toilet cabin unit with door open revealing an Indian-style squat pan, ventilation grille, and metal leg frame, with multiple similar units visible in the background."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title uses the exact MCAT name 'Bunk House Portable Toilets' but does not specify material, configuration, or size."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide brand, build type, cabin height, color, configuration, material (FRP), compartment count, size (3x3), toilet seat type (Indian), and usage (Defence Camp)."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description only states the company offers 'high quality FRP Readymade Toilet Cabin' without any further product detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo, title, and specs all confirm a single-seat FRP portable toilet cabin consistent with the Bunk House Portable Toilets MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "'Configuration: Only Toilet' conflicts with 'With Bath Area: Yes' within the same specs object."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs list 'Configuration: Only Toilet' and 'With Bath Area: Yes' simultaneously, which are mutually contradictory values."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; photo is good_image showing complete FRP cabin; specs are strong; no cross-dimension contradictions.",
+      "source_url": "https://www.indiamart.com/proddetail/bunk-house portable toilets-2850026761633.html"
+    },
+    {
+      "item_id": "171736204",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Bunk cabin Portable Toilet",
+      "description": "Ready Insulated Porable type cabin, Internal fittings completed, At any customized size Avaible, internal Toilet standard fitting, complete electrical standard fittings, or as per customer required.",
+      "specs": {
+        "raw": "Built Type:Modular, Color:White, Configuration:Only Toilet, Country of Origin:Made in India, Flooring:Vinyl Flooring, Material:Steel, No Of Seats:2 Seats, Shape:Rectangular, Structure Type:Container Type, Tank Capacity:500 L, Toilet Seat:Western Seat, Usage:Construction Site, Wall Material:ACP Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/12/HB/WR/FI/120202097/bunk-house-portable-toilet.JPG",
+      "product_page_url": "https://www.indiamart.com/proddetail/bunk-cabin portable toilet-24262772333.html",
+      "image_file": "171736204.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a container-type portable toilet cabin with a Western-style commode, cistern, plumbing, ventilation grille, and door with latch; container lifting hooks at top corners confirm portable/relocatable structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Bunk cabin Portable Toilet' correctly identifies the product type but lacks material, configuration, and size details."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs cover build type, material (Steel), structure type (Container), tank capacity, toilet seat (Western), and usage (Construction Site)."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms a ready insulated portable cabin with internal toilet fittings and electrical fittings, consistent with MCAT product."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo, title, specs, and description all consistently describe a container-type portable toilet cabin for construction site use."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label overridden from bad to good; photo is good_image showing complete portable toilet interior; all text dimensions acceptable; no contradictions; category valid.",
+      "source_url": "https://www.indiamart.com/proddetail/bunk-cabin portable toilet-24262772333.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "202119446",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "VIP LUXURE TOILET",
+      "description": "We can Deal &amp; Supply All over Maharashtra &amp; All over India.<br /><br /><br /><br />We can Deal in All over INDIA only.",
+      "specs": {
+        "raw": "Brand:G.I PORTABLE TOILET CABIN, Built Type:Prefab, Color:White & Blue, Country of Origin:Made in India, Material:Steel, Size:L08'x W08'x H8.6\", Tank Capacity:500 LTR Water Tank"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/10/JC/UD/PF/14961319/vip-luxure-toilet.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/vip-luxure toilet-27301096648.html",
+      "image_file": "202119446.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a permanent tiled bathroom interior with a Western commode, pedestal washbasin, illuminated mirror, and towel rack — not a prefabricated portable toilet cabin unit."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'VIP LUXURE TOILET' is vague and does not name a portable cabin product type, material, or configuration."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs describe a GI prefab portable toilet cabin with steel material, 8x8 ft size, and 500L water tank, consistent with MCAT."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description only states supply coverage across Maharashtra and India with no product information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Specs confirm a prefabricated GI portable toilet cabin; photo anomaly does not negate the product identity established by specs."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a permanent tiled bathroom interior while specs describe a prefabricated GI portable toilet cabin with 500L water tank."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Maharashtra' and 'All over INDIA' as supply territory references."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a permanent tiled bathroom interior while specs describe a prefabricated GI portable toilet cabin with 500L water tank."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a permanent fixed bathroom installation, not a prefabricated portable toilet cabin unit."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title 'VIP LUXURE TOILET' is thin — missing product type (portable cabin), material, configuration, and size."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a permanent tiled bathroom interior instead of a prefabricated portable toilet cabin."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Maharashtra' as a geographic supply territory reference."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad; image shows a permanent bathroom interior contradicting specs; photo is bad_image for this MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/vip-luxure toilet-27301096648.html"
+    },
+    {
+      "item_id": "261615490",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Bunk House Portable Toilets",
+      "description": "We can undertake bulk orders for supply of&nbsp;Bunk house portable toilet at reasonable rates. These are customised",
+      "specs": {
+        "raw": "Brand:Austin, Built Type:Modular, Color:White, Country of Origin:Made in India, Material:FRP, No. Of Compartments:1, Size:3.5x3.5x7 Feet, Usage/Application:Portable toilet"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/10/353937396/XB/PH/LR/4176504/bunk-house-porytable-toilet.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/bunk-house portable toilets-2852701648991.html",
+      "image_file": "261615490.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows two views of a white/grey portable toilet cabin (exterior closed and door-open interior) with 'Sintex Sugam Toilet' text and Austin brand logo."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title uses the exact MCAT name 'Bunk House Portable Toilets' but lacks material and configuration details."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide brand (Austin), material (FRP), compartment count, and size (3.5x3.5x7 ft), sufficient for basic identification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description only mentions bulk supply availability and customisation without product detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title, specs, and image all confirm a portable toilet cabin consistent with MCAT definition."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image displays 'Sintex Sugam Toilet' branding while specs list Brand as 'Austin', indicating the image shows a different brand's product than what is specified."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows 'Sintex Sugam Toilet' branding while specs list Brand as 'Austin' — image and specs describe different branded products."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad due to brand contradiction between image (Sintex) and specs (Austin).",
+      "source_url": "https://www.indiamart.com/proddetail/bunk-house portable toilets-2852701648991.html"
+    },
+    {
+      "item_id": "153774982",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Bunk House Portable Toilets",
+      "description": "The Epsilon Prefabricated Portable Cabin is meticulously engineered and factory constructed using branded IS grade materials, ensuring durability and reliability. Its robust shell, fabricated from tested quality steel, features a base frame, peripheral structure, self-draining roof, entry door, and windows. Reinforced corner columns facilitate easy transportation, lifting, and placement. The cabin boasts premium components including G.I. corrugated sheeting for exterior paneling, pre-laminated board panels or ACP sheeting for interior walls, and 1.2mm thick G.I. corrugated sheeting for the roof. Inside, a 9mm pre-laminated ceiling and 18mm thick cement board or plywood flooring with vinyl carpeting ensure comfort and longevity. Double shutter aluminum powder-coated sliding windows and corrugated MS doors equipped with glass wool insulation provide security and insulation. The cabin is equipped with 50mm glass wool insulation, concealed wiring, standard electrical fittings, plumbing fixtures, and sanitation systems, meeting the highest industry standards. With a focus on quality and functionality, the Epsilon Portable Prefabricated Cabin is the ideal solution for diverse applications. Each cabin can be supplied as plain shell or customised as per Client's interior requirments of partitions, washrooms, pantry and different kind of furnitures fitted at factory\n<p>&nbsp;</p>",
+      "specs": {
+        "raw": "Built Type:Modular, Country of Origin:Made in India, Material:MS, Shape:Rectangular, Size:10 X 4 Feet, Surface Finish:Polished, Usage/Application:Site Office, Warranty:1 Year, Weight:460 Kg"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/8/535867734/NH/HQ/HB/76461355/bunk-house-portable-toilets.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/bunk-house portable toilets-22466650455.html",
+      "image_file": "153774982.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a large prefabricated MS corrugated sheet cabin with multiple mesh-covered windows and a door — a site office/accommodation cabin with no toilet fixtures visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title uses the MCAT name 'Bunk House Portable Toilets' but the underlying product is a site office cabin."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs explicitly state 'Usage/Application: Site Office' with no toilet-related specifications, indicating a site office cabin not a toilet unit."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description describes a general-purpose prefab cabin (Epsilon brand) with partitions, washrooms, pantry, and furniture options — a site office/accommodation cabin, not a dedicated toilet unit."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Specs state 'Usage/Application: Site Office' and the image shows a large multi-window accommodation cabin — this is a site office/portable cabin, not a bunk house portable toilet unit."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a large multi-window MS corrugated site office cabin with no toilet fixtures, while title claims 'Bunk House Portable Toilets'.",
+          "Specs state 'Usage/Application: Site Office' while title claims 'Bunk House Portable Toilets'."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a large multi-window MS corrugated site office cabin with no toilet fixtures, while title claims 'Bunk House Portable Toilets'."
+        },
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Specs state 'Usage/Application: Site Office' while title claims 'Bunk House Portable Toilets'."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large prefabricated site office/accommodation cabin with no sanitation fixtures, not a portable toilet cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs explicitly state 'Usage/Application: Site Office' with no toilet-related specifications."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a general-purpose prefab cabin with partitions, pantry, and furniture options — not a dedicated toilet unit."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad; product is a site office portable cabin, not a bunk house portable toilet; specs explicitly state Site Office usage.",
+      "source_url": "https://www.indiamart.com/proddetail/bunk-house portable toilets-22466650455.html"
+    },
+    {
+      "item_id": "49613498",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Toilet Shower Cabin",
+      "description": "We have established ourselves as a renowned manufacturer and supplier of <b>Portable Toilet Shower Cabin</b>. All these cabins are constructed using high quality mild steel, which is sourced from most authentic vendors of the market. These cabins have all the facilities that a home/office toilet has. Also, these cabins can be anywhere, easily.<br /><br /><b>Features:</b><br /><br /><ul><li>Robust design</li><li>Low maintenance</li><li>Spacious</li></ul>",
+      "specs": {
+        "raw": "Built Type:Modular, Feature:Easily Assembled, Material:PVC, Shape:Cabinet, Usage/Application:Industral, Use:Toilet"
+      },
+      "image_url": "http://4.imimg.com/data4/EQ/BR/MY-9758904/portable-toilet-shower-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-toilet shower cabin-6664964233.html",
+      "image_file": "49613498.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a complete multi-compartment portable toilet block with three bays open — urinal, Western commode with washbasin, and another commode — standing outdoors with white panel doors and dark blue base."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Portable Toilet Shower Cabin' correctly identifies a portable sanitation cabin type."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs only provide build type, material (PVC), shape, and use (Toilet) — minimal but confirms toilet product."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms portable toilet cabin made of mild steel with home/office toilet facilities."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo, title, and description all confirm a portable toilet cabin consistent with MCAT definition."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Description states the cabin is constructed using 'high quality mild steel' while specs list Material as 'PVC'."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Description states construction using 'high quality mild steel' while specs list Material as 'PVC'."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; material contradiction between specs (PVC) and description (mild steel) is a real quality problem.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-toilet shower cabin-6664964233.html"
+    },
+    {
+      "item_id": "139939324",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Bunk House Portable Toilet",
+      "description": "Established in the year&nbsp;<b>2019,</b>&nbsp;we&nbsp;<b>\"Varnit Portable Cabin And Containors\"</b>&nbsp;are the leading&nbsp;<b>manufacturer</b>&nbsp;and&nbsp;<b>exporter</b>&nbsp;of a wide range of&nbsp;<b>Portable Office Cabin, Portable Security Cabin, Portable Shipping Container, Portable Labour Cottage,&nbsp;</b>etc.&nbsp;We are dedicated to constant improvement and upgradation which helps us to evolve in totally and assist to take our company on new heights.",
+      "specs": {
+        "raw": "Built Type:Prefab, Material:Steel, Number Of Compartments:3, Shape:Rectangular, Size:12 x 4 x 8.6 feet, Surface Treatment:Color Coated, Wall Thickness:1mm"
+      },
+      "image_url": "https://5.imimg.com/data5/KD/ZL/XN/SELLER-11349347/06.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/bunk-house portable toilet-21083084630.html",
+      "image_file": "139939324.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows the interior of a portable toilet cabin with a Western commode, cistern, white ribbed panel walls, and laminate flooring — interior only, no exterior structure visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Bunk House Portable Toilet' correctly names the product type."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs describe a prefab steel cabin with 3 compartments and 12x4x8.6 ft size, consistent with a multi-seat portable toilet block."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description lists company products as 'Portable Office Cabin, Portable Security Cabin, Portable Shipping Container, Portable Labour Cottage' — no toilet product mentioned, actively describing non-toilet products."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title and specs confirm a portable toilet cabin; description is a generic company intro that does not negate the product identity."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title claims 'Bunk House Portable Toilet' but description lists the company's products as office cabins, security cabins, shipping containers, and labour cottages — no toilet product mentioned."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Varnit Portable Cabin And Containors' embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title claims 'Bunk House Portable Toilet' but description lists office cabins, security cabins, shipping containers, and labour cottages — no toilet product mentioned."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description actively describes non-toilet products (office cabin, security cabin, shipping container, labour cottage) instead of a portable toilet."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the interior of a portable toilet cabin; no exterior cabin structure, door exterior, or overall form is visible."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Varnit Portable Cabin And Containors' embedded in the product description."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; description actively describes non-toilet products contradicting the title; company name leakage present.",
+      "source_url": "https://www.indiamart.com/proddetail/bunk-house portable toilet-21083084630.html"
+    },
+    {
+      "item_id": "159003931",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "PVC Bunk Portable Toilet",
+      "description": "PVC or FRP material,&nbsp; &nbsp;IWC, Bathroom, EWC &amp; Urinal model avaible,&nbsp;Ready Insulated Porable type cabin, Internal fittings completed, At any customized size Avaible, internal Toilet standard fitting, complete electrical standard fittings, or as per customer required.",
+      "specs": {
+        "raw": "Built Type:Modular, Configuration:Toilet With Bath, Country of Origin:Made in India, Features:LED Light, Flooring:PVC Vinyl, Material:PVC, Mounting Type:Free Standing, No. Of Compartments:1, No Of Seats:2 Seats, No. Of Seats:1 Seater, Shape:Rectangular, Structure Type:Container Type, Tank Capacity:100 L, Toilet Seat:Western Seat, Toilet Type:Western, Usage:Industrial Site, Usage Site:Farmhouse, Wall Material:ACP Panel, Wall Thickness:5 mm"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/4/ED/CG/LT/120202097/pvc-bunkhouse-portable-toilet.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pvc-bunk portable toilet-22989545397.html",
+      "image_file": "159003931.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows the interior urinal and washbasin section of a portable toilet block with white panel walls and partition dividers — interior only, no exterior cabin structure visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'PVC Bunk Portable Toilet' correctly names material (PVC) and product type (portable toilet)."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs cover configuration, material (PVC), structure type (Container), tank capacity, toilet seat type, and usage (Industrial Site)."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description confirms PVC/FRP portable cabin with IWC, EWC, and urinal models, internal fittings, and electrical fittings."
+        },
+        "category": {
+          "valid": true,
+          "reason": "All dimensions confirm a PVC portable toilet cabin consistent with MCAT definition."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "'No Of Seats: 2 Seats' conflicts with 'No. Of Seats: 1 Seater' within the same specs object."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs list 'No Of Seats: 2 Seats' and 'No. Of Seats: 1 Seater' simultaneously — conflicting seat count values for the same attribute."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the interior urinal/washbasin section; no exterior cabin structure or overall product form is visible."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; internal specs contradiction on seat count; photo is thin (interior only).",
+      "source_url": "https://www.indiamart.com/proddetail/pvc-bunk portable toilet-22989545397.html"
+    },
+    {
+      "item_id": "170643473",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Bunk cabin Toilets",
+      "description": "GI + Insulated cabin, any custmised size makes, internal light, Plumbing fittings, internal spec avaible, Rust and Corrosion Free Material, Non-skid chequered floor prevents slipping",
+      "specs": {
+        "raw": "Built Type:Modular, Color:White, Configuration:Toilet With Bath, Country of Origin:Made in India, Flooring:Vinyl Flooring, Material:Steel, No Of Seats:2 Seats, Shape:Rectangular, Structure Type:Container Type, Tank Capacity:500 Ltr water tank, Toilet:As per Required, Toilet Seat:Indian And Western, Type Of Structure:MS, Usage:Defence Camp, Wall Material:ACP Panel, With Bath Area:No, With Septic Tank:No"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/11/BN/PZ/VJ/120202097/bunkhouse-toilets.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/bunk-cabin toilets-24153499233.html",
+      "image_file": "170643473.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows the interior of a container-type portable toilet cabin with a Western commode, cistern, plumbing pipes, and laminate flooring — interior only, no exterior structure visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Bunk cabin Toilets' references bunk cabin and toilets, relevant to MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs cover build type, material (Steel/MS), structure type (Container), tank capacity, toilet seat types, and usage (Defence Camp)."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms GI insulated cabin with plumbing fittings, internal light, and non-skid floor — consistent with portable toilet cabin."
+        },
+        "category": {
+          "valid": true,
+          "reason": "All dimensions confirm a container-type portable toilet cabin consistent with MCAT definition."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "'Configuration: Toilet With Bath' conflicts with 'With Bath Area: No' within the same specs object."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs list 'Configuration: Toilet With Bath' and 'With Bath Area: No' simultaneously — mutually contradictory values."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the interior of the portable toilet cabin; no exterior cabin structure, door exterior, or overall form is visible."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; internal specs contradiction on bath configuration; photo is thin (interior only).",
+      "source_url": "https://www.indiamart.com/proddetail/bunk-cabin toilets-24153499233.html"
+    }
+  ],
+  "generated_bad_examples": [
+    {
+      "generated": true,
+      "generated_for_problem_codes": [
+        "P15"
+      ],
+      "item_id": "GENERATED_P15_P16",
+      "pre_label": null,
+      "verified_label": "bad",
+      "override": true,
+      "title": "Bunk House Portable Toilet FRP Single Seat Indian Style",
+      "description": "We manufacture and supply FRP portable toilet cabins for construction sites and labour camps. Contact us at 9876543210 or email sales@portabletoilets.com. Our factory is located in Pune, Maharashtra. Varnit Structures Pvt Ltd, Plot 45, MIDC Bhosari, Pune 411026.",
+      "specs": {},
+      "image_url": null,
+      "product_page_url": null,
+      "image_file": null,
+      "image_status": "generated",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "No image available."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title correctly names product type (FRP portable toilet), configuration (single seat), and toilet style (Indian)."
+        },
+        "specs": {
+          "category_fit": null,
+          "quality": "thin",
+          "reason": "Specs object is empty — no product attributes provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description contains a phone number, email address, company name, and full postal address embedded in the product description text."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title confirms an FRP portable toilet cabin for construction site labour camp use, consistent with MCAT definition."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains phone number '9876543210' and email address 'sales@portabletoilets.com'."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Varnit Structures Pvt Ltd', locality 'MIDC Bhosari', city 'Pune', and state 'Maharashtra'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains phone number '9876543210' and email address 'sales@portabletoilets.com'."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Varnit Structures Pvt Ltd', locality 'MIDC Bhosari', city 'Pune', and state 'Maharashtra'."
+        }
+      ],
+      "verification_note": "Generated illustrative example for P15 and P16; no real verified product in this batch demonstrated PII or location/business leakage severe enough to serve as a canonical example."
+    }
+  ],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show complete FRP or container-type portable toilet cabin units, either as full exterior views with door open revealing the toilet interior (squat pan or commode visible), or as close interior shots showing the toilet fixture, panel walls, and fittings. The dominant colour scheme is blue-and-white for FRP units and white/grey for container-type MS units. Units are typically photographed in outdoor yard or construction site settings.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Portable toilet cabins are physical structures whose value is communicated through visual form — exterior shape, material finish, door type, and interior fixture layout — not through printed text labels.",
+      "Verified good images show the product itself (cabin exterior/interior) as the primary information carrier; no meaningful text is printed on the product surface that OCR would need to extract.",
+      "Buyers assess quality, size, and configuration from the visual appearance of the cabin unit, not from text overlaid on the product."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good photos show complete portable toilet cabin units — either full exterior with door open revealing interior fixtures, or clear interior shots showing commode/squat pan, panel walls, and plumbing.",
+    "product_identity": [
+      "Prefabricated cabin structure (FRP, MS, or container-type) with door and ventilation",
+      "Toilet fixture visible (Indian squat pan or Western commode with cistern)",
+      "Panel walls (FRP, ACP, or ribbed steel) and plumbing connections"
+    ],
+    "acceptable_scenes": [
+      "Outdoor yard or construction site with unit standing on ground or metal legs",
+      "Interior view through open door showing toilet fixture and wall panels"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "234866617",
+        "reason": "Image shows a complete blue-and-white FRP portable toilet cabin unit with door open revealing an Indian-style squat pan, ventilation grille, and metal leg frame, with multiple similar units visible in the background.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "171736204",
+        "reason": "Image shows the interior of a container-type portable toilet cabin with a Western-style commode, cistern, plumbing, ventilation grille, and door with latch; container lifting hooks at top corners confirm portable/relocatable structure.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "322564526",
+        "reason": "Image shows the interior of a blue FRP portable toilet cabin with an Indian-style squat pan and smooth FRP panel walls, but no exterior cabin structure is visible.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show only the interior of portable toilet cabins without any exterior structure, making it impossible for buyers to assess cabin size, material, door type, or overall form.",
+    "thinness_signals": [
+      "Interior-only view with no exterior cabin structure, door exterior, or overall cabin form visible",
+      "Partial interior showing only one fixture (urinal section or commode only) without full cabin context"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "322564526",
+        "reason": "Image shows the interior of a blue FRP portable toilet cabin with an Indian-style squat pan and smooth FRP panel walls, but no exterior cabin structure is visible."
+      },
+      {
+        "photo_url": null,
+        "item_id": "139939324",
+        "reason": "Image shows the interior of a portable toilet cabin with a Western commode, cistern, white ribbed panel walls, and laminate flooring — interior only, no exterior structure visible."
+      },
+      {
+        "photo_url": null,
+        "item_id": "159003931",
+        "reason": "Image shows the interior urinal and washbasin section of a portable toilet block with white panel walls and partition dividers — interior only, no exterior cabin structure visible."
+      },
+      {
+        "photo_url": null,
+        "item_id": "170643473",
+        "reason": "Image shows the interior of a container-type portable toilet cabin with a Western commode, cistern, plumbing pipes, and laminate flooring — interior only, no exterior structure visible."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show either a permanent fixed bathroom installation or a large site office/accommodation cabin — neither of which is a prefabricated portable toilet cabin unit.",
+    "failure_classes": [
+      {
+        "class": "permanent_bathroom_interior",
+        "description": "Image shows a permanent tiled bathroom with fixed sanitary ware (commode, washbasin, mirror, towel rack) — a constructed bathroom, not a prefabricated portable cabin unit.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "202119446"
+          }
+        ],
+        "detection_signal": "Tiled walls and floor, pedestal washbasin, illuminated mirror, towel rack — permanent construction fixtures, no prefab panel walls or cabin structure.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "site_office_accommodation_cabin",
+        "description": "Image shows a large prefabricated MS corrugated sheet cabin with multiple mesh-covered windows — a site office or labour accommodation cabin, not a toilet cabin.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "153774982"
+          }
+        ],
+        "detection_signal": "Large rectangular cabin with multiple windows, corrugated metal cladding, no toilet fixtures visible, people present in background.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name the product type (portable toilet cabin), material (FRP/MS/PVC/GI), configuration (single seat, Indian/Western), and usage context (bunk house, labour camp, construction site).",
+    "strong_positive_signals": [
+      "Material named: FRP, MS, GI, PVC",
+      "Configuration named: single seat, Indian seat, Western seat, toilet with bath",
+      "Usage context: bunk house, labour camp, construction site, defence camp"
+    ],
+    "structural_patterns": [
+      "[Material] Bunk House Portable Toilet [Configuration]",
+      "Bunk House Portable Toilets [Material] [Seat Type]",
+      "[Material] Portable Toilet Cabin [Usage]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "234866617",
+          "title": "Bunk House Portable Toilets",
+          "reason": "Uses exact MCAT name; combined with strong specs (FRP, Indian seat, 3x3 ft, Defence Camp usage) makes this a complete listing signal."
+        },
+        {
+          "item_id": "171736204",
+          "title": "Bunk cabin Portable Toilet",
+          "reason": "Correctly names bunk cabin and portable toilet; combined with specs (Steel, Container Type, Western Seat, Construction Site) provides full product identity."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "322564526",
+          "title": "Portable Toilet Cabin",
+          "reason": "Correct product type named but lacks material, configuration, and bunk house/labour camp context."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name a toilet product but omit material, configuration, seat type, or usage context that buyers need to evaluate the product.",
+    "thinness_signals": [
+      "No material specified (FRP/MS/GI/PVC absent)",
+      "No configuration or seat type (Indian/Western/urinal absent)",
+      "No usage context (bunk house/labour camp/construction site absent)"
+    ],
+    "examples": [
+      {
+        "item_id": "202119446",
+        "title": "VIP LUXURE TOILET",
+        "reason": "Title is vague — no product type (portable cabin), no material, no configuration, no usage context; 'LUXURE' is not a recognised product attribute."
+      },
+      {
+        "item_id": "322564526",
+        "title": "Portable Toilet Cabin",
+        "reason": "Correct product type but missing material, seat type, and bunk house/labour camp usage context."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles either name a non-toilet product (site office cabin) or use vague luxury branding that does not identify a portable sanitation cabin.",
+    "failure_classes": [
+      {
+        "class": "site_office_cabin_title",
+        "signal": "Title names 'Bunk House Portable Toilets' but specs and image confirm a site office cabin — title is misleading for this MCAT.",
+        "failure_mode": "misleading",
+        "examples": [
+          {
+            "item_id": "153774982",
+            "title": "Bunk House Portable Toilets",
+            "reason": "Title uses MCAT name but product is a site office cabin (specs: Usage/Application: Site Office; image shows large multi-window accommodation cabin).",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "vague_luxury_branding",
+        "signal": "Title uses luxury/brand marketing language ('VIP LUXURE') without naming the product type, making it unidentifiable as a portable toilet cabin.",
+        "failure_mode": "misleading",
+        "examples": [
+          {
+            "item_id": "202119446",
+            "title": "VIP LUXURE TOILET",
+            "reason": "Title uses vague luxury branding with no product type, material, or configuration; image shows a permanent bathroom interior.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — specifically site office/accommodation cabins misclassified as bunk house portable toilets.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "site_office_portable_cabin",
+        "signal": "Specs state 'Usage/Application: Site Office' and image shows a large multi-window corrugated metal cabin with no toilet fixtures — this is a portable site office, not a toilet cabin.",
+        "examples": [
+          {
+            "item_id": "153774982",
+            "title": "Bunk House Portable Toilets",
+            "reason": "Specs explicitly state Site Office usage; image shows large accommodation cabin with no sanitation fixtures; description describes a general-purpose prefab cabin with partitions, pantry, and furniture.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from image_base64."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "No sibling MCAT matched the wrong-category product (site office cabin); correct_mcat_suggestion set to null as no confirmed sibling covers portable site office cabins."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (FRP or MS portable toilet cabin for construction site labour camp) used to ground all category belonging decisions; mcat_vagueness_signal.suspected_vague: false confirmed — PATH A applied throughout."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
