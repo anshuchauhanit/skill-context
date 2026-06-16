@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — site office, security cabin, accommodation block, container-style, and rooftop cabin are visually distinct. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin size, insulation type, wall panel material, and included facilities are primary shortlisting criteria that determine project fit and drive price substantially. Listings without these specs cannot be evaluated by procurement buyers."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian B2B buyers compare prices aggressively but only after spec equivalence is confirmed — size, insulation grade, and facilities create large price deltas. Listed price is a budget entry point; final price is negotiated."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Per piece is dominant for standard/catalogue sizes (security cabins, compact offices, ISO container-style). Per sq ft is used for custom-sized larger cabins (10x10 ft and above with variable dimensions). Both units are active in the market — price cannot be compared without knowing which unit applies. Listings must display unit alongside price.",
+      "reason": "Per piece vs per sq ft ambiguity is real and documented across sub-segments; a buyer comparing a per-piece quote against a per-sq-ft quote without unit clarity will misread the price. Unit must be shown alongside price to enable valid comparison."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional manufacturers in Delhi-NCR, Pune, Bengaluru, Ahmedabad, and Vadodara; buyers search by spec and price, not manufacturer name.",
+      "reason": "Manufacturer status, pan-India delivery capability, installation support, and ISO 9001 certification are evaluated during vendor selection but rank below spec and price in the initial shortlisting journey."
+    }
+  ]
+}
