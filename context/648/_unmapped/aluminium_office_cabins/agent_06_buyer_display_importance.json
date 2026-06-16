@@ -1,0 +1,250 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — an interior modular glass partition cabin and a portable standalone site office are unrecognisable as the same product category without an image. Buyers use the image as the primary type-identification signal before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin type, size, panel material, and insulation are non-negotiable shortlisting criteria — without these specs a listing cannot be evaluated for fit. Buyers discover and compare across size and material tiers on IndiaMART, making specs a primary decision gate, not merely a confirmation check."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian B2B buyers — construction procurement managers and facilities teams — compare per-sq-ft rates aggressively across sellers once spec type is confirmed. Price varies substantially with panel material, insulation type, and size, making it a primary shortlisting lever after spec match."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Fixed-dimension portable cabins are sometimes quoted per piece — buyers must see the unit to compare prices across listings. Per sq ft is dominant for custom and modular work; per piece applies to standard-size standalone portable cabins.",
+      "reason": "Per sq ft and per piece coexist in this market; a buyer cannot compare prices across listings without knowing which unit is being used. Unit ambiguity is a documented real-world confusion risk in the Indian aluminium cabin market."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the market is fragmented across regional aluminium fabricators and prefab cabin manufacturers; buyers search by spec, size, and price, not manufacturer name.",
+      "reason": "Buyers evaluate fabricator capability, installation track record, and service reach during vendor selection — company matters but only after spec and price shortlisting. No branded sibling MCATs or recognised national brands exist to elevate brand importance above company-level trust signals."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Size (L x W)",
+        "reason": "Cabin footprint is non-interchangeable across project requirements and is the primary price driver — total price scales directly with floor area at the per-sq-ft rate, making size the single largest determinant of order value."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Panel Material",
+        "reason": "ACP, Sandwich Panel, GI Sheet, and Cement Board are non-interchangeable across use cases and carry significant price differentials — ACP-clad premium cabins command substantially higher per-sq-ft rates than basic GI sheet variants."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Cabin Type",
+      "Feature",
+      "Flooring Type",
+      "Frame Material",
+      "Insulation Material",
+      "Panel Material",
+      "Size (L x W)"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Glass Thickness / Glazing Type",
+        "why_important": "Interior aluminium-glass cabin buyers specify glass thickness (3–6 mm, tinted or clear) as a primary quality and safety parameter — it directly affects structural integrity, privacy, and price, and is absent from the current spec list despite being the defining feature of the primary segment.",
+        "source": "both",
+        "example_values": [
+          "3 mm clear",
+          "4 mm tinted",
+          "5 mm toughened",
+          "6 mm toughened"
+        ]
+      },
+      {
+        "spec_name": "Finish Type",
+        "why_important": "Powder-coated, anodised, and colour-coated finishes are standard aluminium fabrication differentiators that affect durability, aesthetics, and price — buyers in corporate fit-out and real estate segments actively specify finish type as a quality signal.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "Powder Coated",
+          "Anodised",
+          "Colour Coated",
+          "Mill Finish"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Dimensions (ft)",
+        "reason": "Physical size is the primary requirement sellers need to determine material quantity, fabrication scope, and price — without dimensions, no accurate quote is possible.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Panel Material",
+        "reason": "Panel material defines the wall system and product type — sellers manufacturing glass-partition interior cabins cannot supply ACP-clad portable site offices, making this a critical routing spec.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Glass",
+          "ACP",
+          "Sheet Metal",
+          "Plywood",
+          "Toughened Glass"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Type / Use Case",
+        "why_important": "Site Office, Interior Office Cabin, and Security Cabin are fundamentally different products supplied by different seller types — a seller manufacturing portable site offices cannot supply an interior modular glass partition cabin, making use case the primary seller-routing signal.",
+        "source": "both",
+        "example_values": [
+          "Site Office",
+          "Interior Office Cabin",
+          "Security Cabin",
+          "Executive Cabin"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Site Office",
+          "Interior Office Cabin",
+          "Security Cabin",
+          "Executive Cabin"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Panel Material",
+      "option_value": "Glass",
+      "id": "spec_1",
+      "prompt_for_generation": "Modular aluminium office cabin with full-height clear glass panel walls and aluminium frame, interior workspace setting, clean white background, studio lighting, no branding, showing glass transparency and aluminium profile clearly.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Panel Material",
+      "option_value": "ACP",
+      "id": "spec_2",
+      "prompt_for_generation": "Modular aluminium office cabin with ACP (aluminium composite panel) cladded walls in silver-grey finish, aluminium frame visible at edges, clean white background, studio lighting, no branding, showing smooth flat ACP surface texture.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Panel Material",
+      "option_value": "Sheet Metal",
+      "id": "spec_3",
+      "prompt_for_generation": "Portable aluminium office cabin with corrugated or flat sheet metal wall panels, aluminium frame structure, neutral grey background, studio lighting, no branding, showing metallic sheet surface texture and panel joints clearly.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Panel Material",
+      "option_value": "Plywood",
+      "id": "spec_4",
+      "prompt_for_generation": "Modular aluminium office cabin with plywood wall panels set within aluminium frame sections, warm wood-grain plywood surface visible, white background, studio lighting, no branding, showing panel and frame junction detail.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Panel Material",
+      "option_value": "Toughened Glass",
+      "id": "spec_5",
+      "prompt_for_generation": "Modular aluminium office cabin with toughened safety glass panels and slim aluminium frame, interior office setting, clean white background, studio lighting, no branding, showing thick toughened glass with slight green tint and polished aluminium frame.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Cabin Type / Use Case",
+      "option_value": "Site Office",
+      "id": "spec_6",
+      "prompt_for_generation": "Standalone portable aluminium site office cabin on a construction site, rectangular prefabricated structure with aluminium cladding, door and window visible, outdoor setting with construction background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Cabin Type / Use Case",
+      "option_value": "Interior Office Cabin",
+      "id": "spec_7",
+      "prompt_for_generation": "Modular aluminium-and-glass interior office cabin installed within a commercial building, glass partition walls with aluminium frame, desk and chair visible inside, open-plan office context, professional lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Cabin Type / Use Case",
+      "option_value": "Security Cabin",
+      "id": "spec_8",
+      "prompt_for_generation": "Small aluminium security guard cabin at an industrial gate entrance, compact single-person structure with aluminium frame and glass window panel, outdoor setting, daytime, no branding, showing guard post scale and entry gate context.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Cabin Type / Use Case",
+      "option_value": "Executive Cabin",
+      "id": "spec_9",
+      "prompt_for_generation": "Premium modular aluminium executive office cabin with full-height toughened glass walls, powder-coated aluminium frame in dark finish, executive desk and chair visible inside, corporate office interior setting, professional lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
