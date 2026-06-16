@@ -1,0 +1,601 @@
+{
+  "mcat_description": {
+    "short": "Prefabricated aluminium structural frameworks and assemblies, including solar panel mounting structures, canopies, roofing trusses, space frames, and modular building frames, fabricated from extruded or rolled aluminium alloy sections and sold as complete structural systems or components.",
+    "long": "Aluminium structures encompass a wide range of prefabricated and custom-fabricated structural systems made from aluminium alloy extrusions, sections, and profiles — including solar panel mounting structures (monorail and multi-rail), canopy and pergola frames, roofing trusses, space frames, curtain wall sub-frames, and modular building skeletons. In the Indian B2B market, the dominant alloy grades are 6061 and 6063 (T5/T6 temper), which offer the optimal balance of extrudability, structural strength, and corrosion resistance for outdoor and construction applications. Fabricated structures are typically anodised or powder-coated for weather protection and are designed to comply with IS:875 wind load standards and the National Building Code of India. Buyers range from solar EPC contractors and rooftop solar installers to construction contractors, architects, and industrial shed fabricators.",
+    "product_types": [
+      "Solar Panel Mounting Structure (Monorail)",
+      "Solar Panel Mounting Structure (Multi-Rail / Dual Rail)",
+      "Ground-Mounted Solar Structure",
+      "Rooftop Solar Mounting Structure (RCC / Tin Shed / Trapezoidal Roof)",
+      "Aluminium Canopy Structure",
+      "Aluminium Pergola Structure",
+      "Aluminium Roofing Truss",
+      "Aluminium Space Frame",
+      "Aluminium Modular Building Frame",
+      "Aluminium Curtain Wall Sub-Frame",
+      "Aluminium Shed / Warehouse Structure",
+      "Aluminium Staircase / Walkway Structure",
+      "Aluminium Office Partition / Glass Structure Frame",
+      "Aluminium Fabricated Structural Components (custom)"
+    ],
+    "primary_applications": [
+      "Rooftop solar PV installation (residential and commercial)",
+      "Ground-mounted solar farm construction",
+      "Industrial shed and warehouse roofing",
+      "Commercial canopy and pergola construction",
+      "Modular prefabricated building construction",
+      "Curtain wall and facade framing",
+      "Office partition and glass structure framing",
+      "Staircase and mezzanine floor framing"
+    ],
+    "buyer_segments": [
+      "Solar EPC contractors and rooftop solar installers",
+      "Solar panel distributors and system integrators",
+      "Construction contractors and civil engineers",
+      "Architects and interior designers (canopy, pergola, facade)",
+      "Industrial shed fabricators",
+      "Real estate developers (modular/prefab buildings)",
+      "Government and institutional buyers (MNRE-linked solar projects)",
+      "Aluminium fabricators and job-work contractors"
+    ]
+  },
+  "primary_segment": "Aluminium solar panel mounting structure (monorail and multi-rail) for rooftop and ground-mounted solar installations",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Prefabricated aluminium structural frameworks for solar mounting and construction (canopies, trusses, modular frames)",
+    "secondary_families": [
+      "Aluminium furniture frames and sofa/chair structures (different buyer: furniture manufacturer; different regulatory context: furniture/consumer goods)",
+      "Aluminium formwork/shuttering systems for concrete construction (different buyer: civil contractor; different use: temporary concrete mould, not permanent structure)",
+      "Aluminium extrusion profiles/sections sold as raw material (different buyer: fabricator buying raw input, not a finished structural system)"
+    ],
+    "reason": "The name 'Aluminium Structure' is maximally generic and attracts incompatible product families — solar mounting systems, architectural canopies, furniture frames, formwork, and raw extrusion profiles — with different buyers, different regulatory contexts (MNRE/solar vs NBC/construction vs furniture), and different technical specifications; keyword data confirms solar monorail and general structural fabrication co-exist, while call data shows furniture-adjacent ('office structure glass') and solar sub-segments both present."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "aluminium structure",
+      "aluminum structure",
+      "aluminium solar structure",
+      "aluminium mounting structure",
+      "aluminium monorail structure",
+      "aluminium structural framework",
+      "aluminium prefabricated structure",
+      "aluminium canopy structure",
+      "aluminium roofing structure",
+      "aluminium space frame"
+    ],
+    "technical_synonyms": [
+      "aluminium alloy structural system",
+      "extruded aluminium structural frame",
+      "aluminium 6063 T6 structure",
+      "aluminium 6061 structural assembly",
+      "anodised aluminium structure",
+      "aluminium module mounting structure",
+      "aluminium rail mounting system",
+      "aluminium truss system",
+      "aluminium fabricated structure"
+    ],
+    "trade_names": [
+      "monorail solar structure",
+      "multi-rail solar structure",
+      "aluminium MMS (module mounting structure)",
+      "aluminium solar racking system",
+      "aluminium D-rail structure",
+      "aluminium mini-rail structure",
+      "aluminium solar ballast structure",
+      "aluminium pergola kit"
+    ],
+    "hindi_terms": [
+      "एल्युमिनियम संरचना",
+      "एल्युमिनियम स्ट्रक्चर",
+      "सोलर एल्युमिनियम स्ट्रक्चर",
+      "एल्युमिनियम मोनोरेल स्ट्रक्चर"
+    ],
+    "buyer_intent_queries": [
+      "aluminium monorail structure for solar panel",
+      "aluminium solar panel mounting structure price",
+      "aluminium structure for rooftop solar installation",
+      "prefabricated aluminium canopy structure supplier",
+      "aluminium 6063 T6 solar mounting structure India",
+      "aluminium structure for industrial shed roofing",
+      "buy aluminium module mounting structure online",
+      "aluminium structure manufacturer India",
+      "aluminium solar structure for RCC roof",
+      "aluminium truss structure for warehouse"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per kg",
+    "unit_reasoning": "Fabricated aluminium structures in India are predominantly quoted per kg for custom/fabricated orders, reflecting the raw material cost basis; solar mounting sub-segment also uses per watt (₹/W) for system-level quotes and per piece/set for standard monorail kits.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Solar panel mounting structure (monorail/multi-rail)",
+        "unit": "per watt / per piece / per set",
+        "note": "Solar EPC buyers quote per watt for system-level procurement; component buyers quote per piece or per metre for rails"
+      },
+      {
+        "sub_segment": "Custom fabricated aluminium structure (canopy, truss, frame)",
+        "unit": "per kg",
+        "note": "Custom fabrication is priced by weight of aluminium used; standard practice across Indian structural fabricators"
+      },
+      {
+        "sub_segment": "Aluminium extrusion rail (monorail section)",
+        "unit": "per metre / per piece",
+        "note": "Standard rail profiles sold by length; 1m and 2m lengths common in Indian solar market"
+      }
+    ],
+    "sources_checked": [
+      "VRM Structures India (vrmstructures.com)",
+      "Rikai Industries (rikaiindustries.com)",
+      "Delsin Power (delsinpower.in)",
+      "Jay Bhagwati Engineers (jaybhagwati.in)",
+      "IndiaMART Solar Panel Mounting Structure category"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, 'Aluminium Structure' is a broad umbrella term covering prefabricated and custom-fabricated structural systems made from aluminium alloy extrusions and sections. The solar panel mounting structure sub-segment — particularly aluminium monorail and multi-rail systems — is the most commercially active product type, driven by India's rapid rooftop solar expansion under MNRE schemes. The dominant alloy grade for structural and solar applications is Aluminium 6063 T6, valued for its extrudability, corrosion resistance, and structural strength; 6061 T6 is used for higher-load applications. BIS standards IS 736 (wrought aluminium sheets for general engineering) and IS 737 (high-strength structural aluminium sheets) govern material quality, with the 2023/2025 QCO making BIS certification mandatory for aluminium products sold in India. Solar mounting structures are additionally evaluated against MNRE guidelines and wind load compliance per IS:875. Key manufacturing hubs for aluminium solar structures include Rajkot (Gujarat), Chennai (Tamil Nadu), and Delhi NCR. The market spans residential rooftop solar (1–10 kW), commercial rooftop (10 kW–1 MW), and utility-scale ground-mounted systems. Non-solar aluminium structures (canopies, pergolas, modular frames, curtain wall sub-frames) serve construction, industrial, and architectural buyers and are typically custom-fabricated to project specifications.",
+  "buyer_attracting_attributes": [
+    "Aluminium Grade (6063 T6 / 6061 T6)",
+    "Structure Type (Monorail / Multi-Rail / Ground Mount / Canopy / Truss)",
+    "Wind Load Capacity (km/h)",
+    "Surface Treatment (Anodised / Powder Coated / Mill Finish)",
+    "Compatible Roof Type (RCC / Tin Shed / Trapezoidal / Ground)",
+    "Panel Orientation (Portrait / Landscape)",
+    "Tilt Angle (degrees, fixed or adjustable)",
+    "Rail Length / Profile Dimensions (mm)",
+    "Load Capacity (kg/m² or kW system size)",
+    "Certifications (BIS / MNRE / IS:875 compliance)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "121067",
+    "mcat_name": "Aluminium Structure",
+    "mcat_level": "4",
+    "listing_count": "9342",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Aluminium Structure",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35592.0",
+      "name": "Prefabricated Structures",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35592.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20474",
+        "mcat_name": "Prefabricated Steel Buildings",
+        "listing_count": "8194",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21344",
+        "mcat_name": "Agricultural Greenhouses",
+        "listing_count": "2151",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21649",
+        "mcat_name": "Agricultural Buildings",
+        "listing_count": "128",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "29816",
+        "mcat_name": "Greenhouse",
+        "listing_count": "5282",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33188",
+        "mcat_name": "Modular Buildings",
+        "listing_count": "917",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35398",
+        "mcat_name": "Portable Buildings",
+        "listing_count": "1196",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35589",
+        "mcat_name": "Prefabricated Buildings",
+        "listing_count": "27038",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35592",
+        "mcat_name": "Prefabricated Structures",
+        "listing_count": "14394",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38214",
+        "mcat_name": "Storage Buildings",
+        "listing_count": "939",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "39565",
+        "mcat_name": "Temporary Buildings",
+        "listing_count": "149",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42328",
+        "mcat_name": "Modular Tensile Structure",
+        "listing_count": "2417",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "50762",
+        "mcat_name": "Tensile Structures",
+        "listing_count": "9089",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88197",
+        "mcat_name": "Prefabricated Metal Building",
+        "listing_count": "901",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116157",
+        "mcat_name": "Mini Greenhouse",
+        "listing_count": "1433",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135787",
+        "mcat_name": "Tensile Membrane Structures",
+        "listing_count": "2683",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135861",
+        "mcat_name": "Auditorium Tensile Structure",
+        "listing_count": "598",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136011",
+        "mcat_name": "Gazebo Tensile Structure",
+        "listing_count": "1508",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "148110",
+        "mcat_name": "Pre Engineered Building Structure",
+        "listing_count": "9886",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149713",
+        "mcat_name": "Polyhouse",
+        "listing_count": "3245",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154059",
+        "mcat_name": "Prefabricated School Building",
+        "listing_count": "828",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158767",
+        "mcat_name": "Greenhouse Structure",
+        "listing_count": "813",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159520",
+        "mcat_name": "Prefabricated Hospitals",
+        "listing_count": "213",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "160350",
+        "mcat_name": "Mist Chamber",
+        "listing_count": "121",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166277",
+        "mcat_name": "Naturally Ventilated Greenhouse",
+        "listing_count": "1661",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166432",
+        "mcat_name": "Prefabricated Warehouse",
+        "listing_count": "5064",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168374",
+        "mcat_name": "Heavy Structural Fabrications",
+        "listing_count": "2495",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168445",
+        "mcat_name": "MS Structure Services",
+        "listing_count": "2407",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "178587",
+        "mcat_name": "Prefabricated Industrial Buildings",
+        "listing_count": "5964",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "179245",
+        "mcat_name": "Prefabricated Labor Colony",
+        "listing_count": "1480",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181553",
+        "mcat_name": "Pre Engineered Steel Building",
+        "listing_count": "1594",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "216129",
+        "mcat_name": "RCC Labour Quarter",
+        "listing_count": "549",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315645",
+        "mcat_name": "Prefabricated Walls",
+        "listing_count": "105",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "410918",
+        "mcat_name": "Light Gauge Framing System",
+        "listing_count": "350",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "444552",
+        "mcat_name": "Prefabricated Isolation Ward",
+        "listing_count": "218",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Aluminium structures are prefabricated building components evaluated by load-bearing capacity, alloy grade, and structural standards (IS:875 wind loads, IS:800 steel/aluminium design). No single dominant brand anchors buyer search; buyers specify by structural type (frames, trusses, canopies) and material grade. BIS compliance and technical datasheets are primary research sources."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Monorail solar structure keywords dominate impressions (36 for Hindi term, 10 for monorail solar structure), strongly signalling solar mounting as the highest-demand sub-segment."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "primary_segment"
+        ],
+        "citation_note": "'aluminium structure' (21 PV) is top internal keyword; 'aluminium monorail structure' also present, corroborating solar sub-segment signal."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Call rows confirm both solar mounting ('Mono Rail Aluminum Structure', 'Aluminum Solar Panel Mounting Structure') and general/architectural use ('Aluminium Office Structure Glass') — supporting vagueness signal."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "Taxonomy path under Prefabricated Structures confirms structural/construction context. Listing count 9342 is plausible for a broad MCAT; not flagged as suspect."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.vrmstructures.com/aluminum-module-mounting-structures.html",
+        "title": "Aluminum Module Mounting Structures - Mono Aluminum Rail 40mm, 60mm, 100mm Manufacturer from Chennai",
+        "source_domain": "vrmstructures.com",
+        "derived_outputs": [
+          "unit_quoting_context",
+          "buyer_attracting_attributes",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Confirmed aluminium 6063 T6 as dominant grade for solar mounting structures; confirmed wind load compliance and anodised surface treatment as key buyer attributes; confirmed per-metre/per-piece unit quoting for rails."
+      },
+      {
+        "url": "https://www.midclamp.in/monorail.html",
+        "title": "Monorail - Aluminium Rail For Solar Panels Manufacturer from Rajkot",
+        "source_domain": "midclamp.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Confirmed aluminium 6063 grade as standard for solar monorail; confirmed Rajkot (Gujarat) as a key manufacturing hub."
+      },
+      {
+        "url": "https://www.rikaiindustries.com/solar-aluminium-mono-rail.html",
+        "title": "Solar Aluminium Mono Rail - Aluminium Monorail Solar Structure Trader from Rajkot",
+        "source_domain": "rikaiindustries.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "market_context"
+        ],
+        "citation_note": "Confirmed monorail design for single-row solar panel configuration; confirmed residential and commercial solar as buyer segments."
+      },
+      {
+        "url": "https://www.jaybhagwati.in/solar-panel-aluminium-profile.html",
+        "title": "Solar Panel Aluminium Profile - Solar 100mm Mono Rail Aluminum Section Manufacturer from Rajkot",
+        "source_domain": "jaybhagwati.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed D-rail and monorail profile types; confirmed per-piece unit quoting for solar rail components; confirmed Rajkot as manufacturing hub."
+      },
+      {
+        "url": "https://www.elitasrcs.com/blog/how-to-get-bis-certification-for-aluminum-sheets-and-plates-is-736-and-is-737",
+        "title": "BIS Certification for Aluminum Sheets and Plates IS 736 and IS 737",
+        "source_domain": "elitasrcs.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed IS 736 (general engineering aluminium sheets) and IS 737 (high-strength structural aluminium) as the relevant BIS standards for structural aluminium products."
+      },
+      {
+        "url": "https://www.diligencecertification.com/bis-standards-for-aluminium/",
+        "title": "BIS Standards For Aluminium Alloy Under IS 1285:2002",
+        "source_domain": "diligencecertification.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed 2025 QCO making BIS certification mandatory for 17 aluminium product standards including IS 733, IS 1285, IS 16011; confirmed ISI mark requirement for Indian market."
+      },
+      {
+        "url": "https://mdfs.co.in/government-regulations-standards-for-aluminium-formwork-in-india/",
+        "title": "Government Regulations for Aluminium Formwork in India",
+        "source_domain": "mdfs.co.in",
+        "derived_outputs": [
+          "mcat_vagueness_signal",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Confirmed aluminium formwork as a distinct product family under different regulatory context (IS 14687:1999, NBC formwork code) — used to support vagueness signal for secondary family identification."
+      },
+      {
+        "url": "https://zedbox.co.in/monorail-aluminium-solar/index.html",
+        "title": "Monorail Aluminium Solar Mounting Structure",
+        "source_domain": "zedbox.co.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Confirmed flush/high-profile/low-profile monorail configuration types and customisable tilt angle as buyer-relevant attributes."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "IS:875",
+        "IS:800"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Aluminium structures are prefabricated building components evaluated by load-bearing capacity, alloy grade, and structural standards (IS:875 wind loads, IS:800 steel/aluminium design). No single dominant brand anchors buyer search; buyers specify by structural type (frames, trusses, canopies) and material grade. BIS compliance and technical datasheets are primary research sources."
+    }
+  }
+}
