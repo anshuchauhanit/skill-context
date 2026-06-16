@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Mini Greenhouse' directly matches the top primary keyword and is the dominant search term used by Indian buyers across buyer_intent_queries and primary_keywords in Agent 3 alt_names; market_context confirms this is the standard trade term for this B2B segment on IndiaMART.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a DIY wooden-frame cold frame/raised-bed greenhouse with a hinged polythene lid — a non-commercial, non-prefabricated structure built from rough timber and plastic sheeting, which does not represent the primary segment of prefabricated polycarbonate or polyfilm walk-in mini greenhouses sold on IndiaMART.",
+      "The image depicts a Western-style backyard cold frame that is inconsistent with the GI/MS or PVC framed, UV-stabilised polyfilm or polycarbonate walk-in units that dominate the Indian B2B market, and would mislead buyers seeking a readymade kit product."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated walk-in mini greenhouse approximately 8x10 ft, with a galvanised iron pipe frame and UV-stabilised transparent polyethylene film covering, featuring a zippered front door, visible ventilation window on the side, and green seedling trays inside. The structure stands on a flat terrace or garden ground under bright natural daylight. Clean white or light grey background with soft outdoor light. Front three-quarter view, sharp product focus, no people, no text overlays. Square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
