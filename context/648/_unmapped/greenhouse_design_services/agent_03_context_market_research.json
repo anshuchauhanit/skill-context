@@ -1,0 +1,317 @@
+{
+  "mcat_description": {
+    "short": "Greenhouse Design Services covers end-to-end design, engineering, and construction of agricultural greenhouse and polyhouse structures in India, delivered as a turnkey or consultancy service. Providers design structures using GI pipe frameworks with polyethylene film, polycarbonate sheet, or shade net cladding, tailored to the buyer's crop, land area, and agro-climatic zone.",
+    "long": "Greenhouse Design Services in India encompasses site assessment, structural engineering, material procurement, and on-site construction of protected cultivation structures — primarily polyhouses, shade net houses, and climate-controlled greenhouses — for commercial horticulture and floriculture. Service providers design structures compliant with BIS standards (IS 14462:1997, IS 14485:1998) and National Horticulture Board (NHB) norms, which mandate hot-dip galvanized pipe frameworks and UV-stabilized cladding films to qualify for government subsidy. The service spans multiple structure types — naturally ventilated polyhouses, fan-and-pad climate-controlled greenhouses, polycarbonate greenhouses, shade net houses, and walk-in tunnels — each suited to different agro-climatic zones, crops, and investment levels. Buyers typically engage service providers for a complete turnkey project from DPR preparation and subsidy documentation through structural erection, irrigation integration, and crop commissioning.",
+    "product_types": [
+      "Naturally Ventilated Polyhouse Design and Construction",
+      "Fan and Pad Climate-Controlled Greenhouse Design",
+      "Polycarbonate Greenhouse Design and Construction",
+      "Shade Net House Design and Construction",
+      "Walk-In Tunnel Greenhouse Design",
+      "Insect Net House Design and Construction",
+      "Hi-Tech Greenhouse Design (Automated Climate Control)",
+      "Hydroponic Greenhouse Design",
+      "Nursery Polyhouse Design",
+      "Greenhouse Consultancy and DPR Preparation Service",
+      "Turnkey Greenhouse Project Service"
+    ],
+    "primary_applications": [
+      "Commercial vegetable cultivation (off-season and year-round)",
+      "Floriculture — cut flowers (roses, gerbera, carnation, anthurium)",
+      "Nursery and seedling production",
+      "High-value fruit cultivation",
+      "Hydroponic and soilless farming setups",
+      "Research and demonstration farm greenhouses",
+      "Export-oriented horticulture production"
+    ],
+    "buyer_segments": [
+      "Commercial farmers and agri-entrepreneurs seeking NHB/state horticulture subsidy",
+      "Floriculture exporters requiring climate-controlled growing environments",
+      "Agri-startups and FPOs setting up protected cultivation units",
+      "Institutional buyers — agricultural universities, research stations, government farms",
+      "Corporate agribusiness firms establishing large-scale greenhouse farms",
+      "Individual farmers upgrading from open-field to protected cultivation"
+    ]
+  },
+  "primary_segment": "Naturally ventilated polyhouse design and construction service for commercial agriculture",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Turnkey agricultural greenhouse and polyhouse design, engineering, and construction service",
+    "secondary_families": [],
+    "reason": "All service sub-types (naturally ventilated, fan-and-pad, polycarbonate, shade net) share the same buyer profile (commercial farmer/agri-entrepreneur), the same regulatory context (NHB/BIS compliance), and the same transaction structure (project-based turnkey or consultancy) — no incompatible product families exist within this service MCAT."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "greenhouse design services",
+      "polyhouse construction services",
+      "polyhouse design services",
+      "greenhouse construction services",
+      "polyhouse building services",
+      "greenhouse setup services",
+      "polyhouse installation services",
+      "greenhouse project services",
+      "protected cultivation services",
+      "polyhouse turnkey services"
+    ],
+    "technical_synonyms": [
+      "protected cultivation structure design",
+      "controlled environment agriculture design",
+      "naturally ventilated polyhouse design",
+      "fan and pad greenhouse design",
+      "polycarbonate greenhouse construction",
+      "shade net house construction",
+      "NHB compliant polyhouse construction",
+      "hi-tech greenhouse design",
+      "walk-in tunnel greenhouse construction",
+      "greenhouse structural engineering"
+    ],
+    "trade_names": [
+      "polyhouse",
+      "hi-tech polyhouse",
+      "fan pad greenhouse",
+      "shade net house",
+      "insect net house",
+      "polycarbonate greenhouse",
+      "naturally ventilated greenhouse",
+      "climate controlled greenhouse",
+      "hydroponic greenhouse",
+      "walk-in tunnel"
+    ],
+    "hindi_terms": [
+      "पॉलीहाउस निर्माण सेवा",
+      "ग्रीनहाउस डिजाइन सेवा",
+      "पॉलीहाउस",
+      "संरक्षित खेती",
+      "पॉलीहाउस कंस्ट्रक्शन"
+    ],
+    "buyer_intent_queries": [
+      "greenhouse design and construction services in India",
+      "polyhouse construction company near me",
+      "turnkey polyhouse project with NHB subsidy",
+      "naturally ventilated polyhouse design for vegetables",
+      "fan and pad greenhouse construction cost India",
+      "polycarbonate greenhouse design and installation",
+      "polyhouse construction with drip irrigation setup",
+      "greenhouse design services for floriculture",
+      "NHB compliant polyhouse construction contractor",
+      "hi-tech greenhouse design for commercial farming"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq m (square meter)",
+    "unit_reasoning": "Greenhouse design and construction services in India are quoted on a per-square-meter basis for the covered area, consistent with construction service norms; some sellers also quote per sq ft, but sq meter is the dominant unit for commercial projects and NHB subsidy calculations.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Small hobby or terrace greenhouse",
+        "unit": "per project / lump sum",
+        "note": "Fixed-size small structures often quoted as a single project price"
+      },
+      {
+        "sub_segment": "Consultancy / DPR preparation",
+        "unit": "per project / lump sum",
+        "note": "Design-only or DPR services quoted as a fixed consultancy fee"
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART polyhouse construction services listing page (structural observation only)",
+      "InHydro commercial greenhouse manufacturer site",
+      "Farmatma polyhouse farming guide"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In India, 'Greenhouse Design Services' is commercially synonymous with polyhouse design and construction services — polyhouse (polyethylene-covered) being the dominant technology due to lower cost and wide availability. The market is structured around turnkey project delivery, where a single contractor handles site assessment, structural design, material supply, erection, and irrigation integration. NHB (National Horticulture Board) and state horticulture department subsidies are a major demand driver, making NHB compliance (hot-dip galvanized GI pipe, minimum 300 GSM; UV-stabilized 200-micron film) a critical buyer requirement. BIS standards IS 14462:1997 (layout and design recommendations) and IS 14485:1998 (heating, ventilating, and cooling) govern structural design, alongside IS 875 (1987) for load calculations. Structural designs vary by agro-climatic zone — Quonset, gothic arch, saw-tooth, and multi-span designs are common — and a single design cannot be adopted across all regions due to varying wind speeds (33–55 m/s across India). Key service providers include Agriplast Protected Cultivation, InHydro, Parasnath Polyagro, GM Greenhouses (Pune), Vasupujya Tradelink (Ahmedabad), and Hindustan Agri Business. The market spans commercial farmers, floriculture exporters, agri-startups, and institutional buyers across Maharashtra, Karnataka, Gujarat, Tamil Nadu, and Andhra Pradesh as primary hubs.",
+  "buyer_attracting_attributes": [
+    "Greenhouse Type (naturally ventilated / fan-and-pad / polycarbonate / shade net)",
+    "Structure Material and Grade (GI pipe thickness, hot-dip galvanization GSM)",
+    "Cladding Material (UV-stabilized polyfilm, polycarbonate sheet, shade net)",
+    "Covered Area / Project Size (sq m)",
+    "NHB / State Horticulture Subsidy Compliance",
+    "Climate Control System (ventilation type, fan-pad, fogging, heating)",
+    "Agro-Climatic Zone Suitability",
+    "Irrigation System Integration (drip, misting, hydroponics)",
+    "Turnkey vs Design-Only vs Consultancy Scope",
+    "Project Timeline and DPR Preparation Support"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "136549",
+    "mcat_name": "Greenhouse Design Services",
+    "mcat_level": "5",
+    "listing_count": "270",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Greenhouse Design Services",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "29816.0",
+      "name": "Greenhouse",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "29816.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "171807",
+        "mcat_name": "Greenhouse Construction Services",
+        "listing_count": "690",
+        "source_pmcat": "29816.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 1,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "do_research": true,
+      "reason": "Service-based MCAT for custom greenhouse design and construction. Buyers evaluate design capability, material specs (polycarbonate/glass/mesh), climate control systems, and project portfolio — not regulatory compliance or brand dominance. Standard B2B research into greenhouse construction standards (BIS, agricultural engineering practices) and equipment suppliers will inform spec patterns and buyer intent."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Two keywords ('green house service', 'greenhouse design services') confirmed MCAT name as primary search term; no dominant sub-type cluster identified."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "primary_segment"
+        ],
+        "citation_note": "Taxonomy path, listing count (270), and sibling count (1) used as reference signals for segment and vagueness assessment."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.farmatma.in/polyhouse-greenhouse-farming/",
+        "title": "Polyhouse Farming in India (2026): Cost, Subsidy & Profit Guide",
+        "source_domain": "farmatma.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context",
+          "unit_quoting_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for polyhouse technology dominance in India, NHB subsidy process, structural design norms, cladding materials, and project timeline."
+      },
+      {
+        "url": "https://inhydro.in/green-house-projects/",
+        "title": "Commercial Greenhouse Manufacturer & Construction Solutions in India",
+        "source_domain": "inhydro.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for NHB compliance norms (300 GSM GI pipe, 200-micron UV film), service types offered, and DPR preparation as a buyer requirement."
+      },
+      {
+        "url": "https://www.polyhouseindia.com/",
+        "title": "Greenhouse Design Services India | Greenhouse Consulting and Design Services",
+        "source_domain": "polyhouseindia.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for product type enumeration (naturally ventilated, shade net, insect net, hi-tech, polycarbonate, hydroponic polyhouses)."
+      },
+      {
+        "url": "https://www.protectedcultivation.com/",
+        "title": "Agriplast Protected Cultivation | India's Leading Polyhouse & Greenhouse Company",
+        "source_domain": "protectedcultivation.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for market context on leading Indian providers, Israeli technology adoption, and pan-India geographic reach (18+ states)."
+      },
+      {
+        "url": "https://agriarticles.com/wp-content/uploads/2022/09/E-02-05-15-57-61.pdf",
+        "title": "Design and Construction of Greenhouse in India",
+        "source_domain": "agriarticles.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for BIS standard IS 14485:1998 (heating/ventilating/cooling) and cladding material types."
+      },
+      {
+        "url": "https://www.researchgate.net/publication/343886607_Structural_analysis_of_common_existing_greenhouses_designs_in_different_agro_climatic_zones_of_India",
+        "title": "Structural analysis of common existing greenhouses designs in different agro climatic zones of India",
+        "source_domain": "researchgate.net",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for IS 875 load standards, IS 14462:1997, agro-climatic zone design variation, and wind speed range (33–55 m/s) across India."
+      },
+      {
+        "url": "https://vasupujyatl.com/polyhouse-construction/",
+        "title": "Polyhouse Construction | Vasupujya Tradelink Pvt Ltd",
+        "source_domain": "vasupujyatl.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for service category enumeration: greenhouse design service, greenhouse consultancy service, turnkey projects service."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Service-based MCAT for custom greenhouse design and construction. Buyers evaluate design capability, material specs (polycarbonate/glass/mesh), climate control systems, and project portfolio — not regulatory compliance or brand dominance. Standard B2B research into greenhouse construction standards (BIS, agricultural engineering practices) and equipment suppliers will inform spec patterns and buyer intent."
+    }
+  }
+}
