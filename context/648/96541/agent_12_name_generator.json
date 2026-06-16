@@ -1,0 +1,66 @@
+{
+  "enhanced_name_4w": "Portable Steel Container Shops",
+  "enhanced_name_5w": "Mobile Steel Container Shop Units",
+  "enhanced_name_6w": "Prefab Steel Container Shops and Offices",
+  "enhanced_name_long": "Prefabricated Mobile Steel Container Structures for Shops, Offices, Cafes, Labour Camps and Site Cabins",
+  "alt_names": {
+    "primary_keywords": [
+      "container shop",
+      "mobile container",
+      "portable container",
+      "container office",
+      "container cabin",
+      "portable container shop",
+      "container kiosk",
+      "container structure",
+      "prefab container",
+      "shipping container shop"
+    ],
+    "technical_synonyms": [
+      "modified ISO container",
+      "prefabricated container structure",
+      "container-based prefab unit",
+      "intermodal container conversion",
+      "portable steel container cabin",
+      "container module",
+      "fitted container unit",
+      "container porta cabin"
+    ],
+    "trade_names": [
+      "container shop",
+      "container home",
+      "bunk house container",
+      "site office container",
+      "container makan",
+      "portable container cabin",
+      "container cafe",
+      "container restaurant"
+    ],
+    "hindi_terms": [
+      "container dukan",
+      "kirana dukan container",
+      "container makan",
+      "portable ghar container",
+      "container ki dukan"
+    ],
+    "buyer_intent_queries": [
+      "container shop for sale in India",
+      "portable container shop price in India",
+      "20ft container shop for sale",
+      "mobile container office for construction site",
+      "small container for shop use",
+      "container restaurant for sale India",
+      "portable steel shop container price",
+      "container coffee shop 20x8",
+      "prefab container cabin for site office",
+      "mobile container structure for labour camp"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Bare ISO shipping containers used purely for freight/logistics transport — buyers seeking empty intermodal containers for cargo movement, not fitted-out structures for commercial or residential use; these belong in a logistics/freight taxonomy, not the portable cabin/structure category.",
+    "Second-hand or refurbished container buyers — the sibling 'Container Conversion Service' (ID 119140) and the broader market signal of 'second hand container shop for sale' queries indicate a used-goods buyer segment that is incompatible with new prefabricated container structure buyers; terms such as used, second-hand, pre-owned, and refurbished are blocked to avoid attracting this incompatible segment.",
+    "Office Cabin (ID 32980) and Mobile Cabins (ID 43790) sibling segments — non-container-frame portable cabin buyers (e.g., PUF cabin, MS porta cabin, FRP cabin buyers) represent a structurally different product and buyer; names must not collapse into generic 'cabin' terminology that would be indistinguishable from these siblings."
+  ],
+  "segment_contamination_disclaimer": null
+}
