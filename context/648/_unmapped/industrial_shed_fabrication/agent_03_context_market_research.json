@@ -1,0 +1,366 @@
+{
+  "mcat_description": {
+    "short": "Industrial Shed Fabrication is a construction service covering the design, supply, fabrication, and on-site erection of steel-framed roofed structures — including Pre-Engineered Buildings (PEB) and conventional MS portal frame sheds — for factories, warehouses, godowns, and workshops.",
+    "long": "Industrial shed fabrication in India encompasses the complete turnkey delivery of structural steel buildings, from structural design and engineering (per IS:800 for steel structures, IS:875 for wind/seismic loads) through factory fabrication of primary and secondary members to on-site erection and cladding. The two dominant construction systems are Pre-Engineered Buildings (PEB) — where columns, rafters, purlins, and wall panels are factory-prefabricated to precise specifications and bolted on-site — and conventional mild steel (MS) portal frame construction using hot-rolled IS:2062 sections welded or bolted on-site. Roofing and cladding options include colour-coated PPGI/PPGL sheets, GI corrugated sheets, PUF/EPS insulated sandwich panels, polycarbonate sheets, and FRP sheets, with accessories such as ridge ventilators, skylights, gutters, and louvers. Buyers are typically SME manufacturers, logistics operators, agri-storage developers, and industrial estate developers who evaluate span width, eave height, wind load compliance, insulation, and total project cost per sq ft.",
+    "product_types": [
+      "PEB (Pre-Engineered Building) Industrial Shed",
+      "Conventional MS Portal Frame Shed",
+      "Tin Shed (GI Sheet Roofing on MS Frame)",
+      "Polycarbonate Roofing Shed",
+      "Tensile Structure Shed",
+      "Insulated Sandwich Panel Shed (PUF/EPS)",
+      "Multi-Bay Industrial Shed",
+      "Mezzanine Floor Shed",
+      "Warehouse / Godown Shed",
+      "Factory / Manufacturing Plant Shed",
+      "Agricultural / Farm Storage Shed",
+      "Canopy / Lean-to Shed"
+    ],
+    "primary_applications": [
+      "Manufacturing plant and factory floor coverage",
+      "Warehouse and godown storage",
+      "Engineering workshop and fabrication unit",
+      "Logistics and distribution centre",
+      "Agricultural grain and equipment storage",
+      "Rice mill and agro-processing shed",
+      "Automobile service and repair workshop",
+      "Cold storage and food processing facility",
+      "Poultry farm and livestock shed",
+      "Sports hall and badminton court roofing"
+    ],
+    "buyer_segments": [
+      "SME manufacturers setting up or expanding factory space",
+      "Logistics and warehousing companies",
+      "Industrial estate and GIDC plot developers",
+      "Agri-processing and rice mill operators",
+      "Real estate developers building industrial parks",
+      "Government and PSU infrastructure projects",
+      "Contractors and civil engineers sourcing shed fabricators"
+    ]
+  },
+  "primary_segment": "Steel-framed industrial shed fabrication service (PEB and conventional MS construction) for factories, warehouses, and godowns",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Steel-framed industrial shed fabrication service (PEB and conventional MS) for factories, warehouses, and godowns",
+    "secondary_families": [],
+    "reason": "All sub-types — PEB, conventional MS, tin shed, polycarbonate shed — share the same buyer profile (industrial/commercial property developer), the same transaction type (construction service), and the same regulatory context (IS:800, IS:875, local municipal bylaws); no sibling MCAT carves out an incompatible buyer or regulatory regime."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "industrial shed fabrication",
+      "shed fabrication",
+      "factory shed fabrication",
+      "PEB shed",
+      "industrial shed construction",
+      "warehouse shed fabrication",
+      "tin shed fabrication",
+      "godown shed fabrication",
+      "prefabricated industrial shed",
+      "steel shed fabrication"
+    ],
+    "technical_synonyms": [
+      "Pre-Engineered Building (PEB)",
+      "Pre-Engineered Metal Building (PEMB)",
+      "portal frame shed",
+      "MS structural shed",
+      "prefab steel building",
+      "rigid frame steel structure",
+      "cold-formed steel shed",
+      "built-up section shed",
+      "hot-rolled structural shed"
+    ],
+    "trade_names": [
+      "PEB shed",
+      "EPACK shed",
+      "Kirby building",
+      "Zamil structure",
+      "Interarch building",
+      "Tata BlueScope shed",
+      "Everest roofing shed",
+      "JSW steel shed"
+    ],
+    "hindi_terms": [
+      "टीन शेड",
+      "औद्योगिक शेड",
+      "शेड निर्माण",
+      "फैक्ट्री शेड",
+      "गोदाम शेड"
+    ],
+    "buyer_intent_queries": [
+      "industrial shed fabrication service near me",
+      "PEB shed construction cost per sq ft",
+      "factory shed fabrication with side walls",
+      "warehouse shed fabrication turnkey",
+      "industrial shed fabrication rate per square feet",
+      "pre-engineered building shed erection service",
+      "godown shed fabrication work contractor",
+      "tin shed fabrication for factory",
+      "industrial shed construction with rooftop ventilators",
+      "shed fabrication for rice mill"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian B2B buyers and sellers consistently quote industrial shed fabrication in per sq ft terms, reflecting the project-area-based pricing norm for construction services in India — corroborated by Google KWs ('fabrication rate per sq ft', 'shed work rate per sq ft') and multiple IndiaMART listing tiles.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Turnkey large PEB project",
+        "unit": "per project (lump sum)",
+        "note": "Large industrial projects (>10,000 sq ft) may be quoted as a lump-sum turnkey contract, but per sq ft remains the comparison benchmark."
+      },
+      {
+        "sub_segment": "Roofing-only shed work",
+        "unit": "per sq ft (roofing area)",
+        "note": "Roofing-only or re-roofing contracts are quoted per sq ft of roof area covered."
+      }
+    ],
+    "sources_checked": [
+      "Google KW data (fabrication rate per sq ft, shed work rate per sq ft)",
+      "IndiaMART listing tiles (per sq ft pricing observed)",
+      "epack.in manufacturer site",
+      "metaltree.in PEB manufacturer site"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Industrial shed fabrication in India is a large, fragmented construction services market dominated by two structural systems: Pre-Engineered Buildings (PEB) — factory-prefabricated steel components bolted on-site — and conventional mild steel (MS) portal frame construction. PEB has become the preferred system for medium-to-large spans (above 15m) due to faster erection timelines (typically 16–22 weeks vs 30+ weeks for conventional builds) and lower material waste. Structural design compliance is governed by IS:800 (steel structure design), IS:875 (wind and seismic loads), and IS:1893 (earthquake zones), with material grades specified under IS:2062 (E250/E350 hot-rolled sections). Roofing materials range from colour-coated PPGI/PPGL sheets and GI corrugated sheets to PUF/EPS insulated sandwich panels and polycarbonate sheets; wall cladding options include insulated sandwich panels, GI sheets, and Aerocon panels. Key buyer-evaluated dimensions are clear span width (up to 60m column-free for PEB), eave height (6m–15m standard), wind load rating, insulation specification, and total cost per sq ft. Prominent Indian PEB manufacturers include EPACK Prefab, Metal Tree, Interarch, Kirby, Zamil, and Tata BlueScope Steel. The market serves SME manufacturers, logistics operators, agri-storage developers, and industrial estate developers across all Indian states, with strong demand clusters in Maharashtra (Pune, Chakan), Gujarat (Vadodara, Surat), Tamil Nadu (Chennai, Trichy), Haryana (Faridabad), and Uttar Pradesh (Ghaziabad, Varanasi). Buyers frequently search by location ('shed work near me', 'industrial shed fabrication in Varanasi') indicating a local-contractor procurement pattern for smaller projects alongside national PEB suppliers for larger ones.",
+  "buyer_attracting_attributes": [
+    "Clear Span Width",
+    "Eave Height",
+    "Roofing Material / Sheet Type",
+    "Structural System (PEB vs Conventional MS)",
+    "Steel Grade / IS Code Compliance",
+    "Wind Load Rating",
+    "Insulation Type",
+    "Bay Length",
+    "Wall Cladding Type",
+    "Erection / Delivery Timeline"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "171916",
+    "mcat_name": "Industrial Shed Fabrication",
+    "mcat_level": "5",
+    "listing_count": "13470",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Industrial Shed Fabrication",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "30719.0",
+      "name": "Industrial Sheds",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "30719.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "101729",
+        "mcat_name": "Roof Works",
+        "listing_count": "2569",
+        "source_pmcat": "30719.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "153401",
+        "mcat_name": "Roof Structural Fabrication Services",
+        "listing_count": "2947",
+        "source_pmcat": "30719.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "170769",
+        "mcat_name": "Roofing Sheet Fabrication",
+        "listing_count": "803",
+        "source_pmcat": "30719.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 3,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Industrial shed fabrication requires IS code standards, material grades, span/structural specs, and Indian market buyer vocabulary — standard B2B research approach."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Top KWs by Impressions ('fabrication rate per sq ft', 'shed work rate per sq ft', 'shed fabrication') used to confirm per-sq-ft unit norm and buyer search vocabulary."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "primary_segment"
+        ],
+        "citation_note": "'industrial shed fabrication' (245 PVs, 8 calls) confirmed as dominant buyer search term; 'tin shed fabrication', 'godown shed fabrication work' added to alt_names."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Call rows confirmed PEB, conventional MS, polycarbonate, tensile, tin shed, rice mill, warehouse sub-types and buyer vocabulary ('shed work', 'total solution with side walls', 'PEB erection')."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path and listing count (13,470) used as reference; no sibling carve-out detected that would trigger vagueness."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://blog.tatanexarc.com/da/is-code-for-steel/",
+        "title": "IS code for steel in India – IS 800, IS 2062, IS 1786 explained",
+        "source_domain": "tatanexarc.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for IS:800 (structural design), IS:2062 (material grades E250/E350), and IS:1786 standards applicable to industrial shed fabrication."
+      },
+      {
+        "url": "https://www.alliancesteelindia.com/peb-structures.html",
+        "title": "PEB Structures - Industrial PEB Structure Manufacturer from Vadodara",
+        "source_domain": "alliancesteelindia.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for PEB technical specifications: span up to 60m, eave height 6–15m, IS:800/IS:875 compliance, roofing/cladding material types, and structural component list."
+      },
+      {
+        "url": "https://www.metaltree.in/best-pre-engineered-building-designs-warehouses-industrial-sheds/",
+        "title": "Best Pre-Engineered Building Designs for Warehouses and Industrial Sheds",
+        "source_domain": "metaltree.in",
+        "derived_outputs": [
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for IS code compliance (IS:800, IS:875, IS:1893), PEB vs conventional construction timeline comparison (16–22 weeks vs 30+ weeks), and steel grade standards (IS:2062, ASTM A36)."
+      },
+      {
+        "url": "https://www.epack.in/industrial-shed",
+        "title": "Industrial Shed Manufacturer & Supplier | Prefabricated & PEB Industrial Shed Construction Company",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "market_context"
+        ],
+        "citation_note": "Used for product type taxonomy (PEB sheds, storage sheds, factory sheds, workshop sheds, multi-purpose sheds) and material specifications (PUF/EPS sandwich panels, PPGI roofing)."
+      },
+      {
+        "url": "https://jseprojects.com/peb-industrial-sheds/",
+        "title": "PEB Industrial Sheds | Pre engineered Industrial Buildings",
+        "source_domain": "jseprojects.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "market_context"
+        ],
+        "citation_note": "Used for PEB application types (manufacturing units, storage, workshops, processing plants) and off-site fabrication / on-site assembly process description."
+      },
+      {
+        "url": "https://divyakushconstructions.com/a-complete-guide-to-peb-shed-manufacturing-process-and-materials/",
+        "title": "A Complete Guide to PEB Shed Manufacturing: Process and Materials",
+        "source_domain": "divyakushconstructions.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for PEB lifespan (25–50 years), manufacturing timeline (4–8 weeks fabrication + 1–2 weeks assembly), and certification norms (ISO 9001, BIS, CE)."
+      },
+      {
+        "url": "https://faisalroofing.com/prefabricated-industrial-shed-manufacturers",
+        "title": "Prefabricated Industrial Shed Manufacturers",
+        "source_domain": "faisalroofing.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for application list (warehouse, factories, godowns, workshops, storage plants, poultry farms, gyms, hangars) and insulation material types (PUF sandwich panels, rock wool, polystyrene)."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "IS:800",
+        "IS:875",
+        "Local Building Codes"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Industrial shed fabrication is a B2B manufactured product with structural steel/material specifications and local building code compliance requirements. Buyers evaluate design standards (IS:800 steel code, IS:875 wind/seismic loads), material grades, span capacity, and customisation options — not brand names."
+    }
+  }
+}
