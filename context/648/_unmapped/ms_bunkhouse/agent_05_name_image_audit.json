@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "MS Bunkhouse is confirmed as the dominant trade term across primary_keywords, trade_names, and buyer_intent_queries in Agent 3 alt_names; market_context explicitly validates it as a well-established Indian B2B trade term for this product category.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows a full-size mild steel prefabricated portable cabin unit with corrugated steel cladding, two-tone paint (white upper / dark blue lower), and a barred window — accurately representing the primary segment of construction site labour accommodation.",
+      "Improvement is possible: the outdoor setting with trees and bare ground reduces visual clarity; a cleaner background with better lighting and a slightly wider angle showing a door entry point would better communicate the product's scale and portability for B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A mild steel prefabricated portable bunkhouse cabin, rectangular single-storey unit, corrugated MS sheet cladding in white and dark blue two-tone finish, aluminium sliding windows with grilles, steel entry door on the front face, placed on flat ground at a construction site, slight three-quarter front angle showing both the front and side walls, natural daylight, clean white-grey sky background, sharp product focus, photorealistic B2B product photography style, no people, no clutter.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
