@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 market_context confirms buyer vocabulary strongly favours 'PEB Structure' and 'PEB Shed' over the full form; 'Pre Engineered Building Structure' is accurate but verbose and less search-aligned than 'PEB Structure' which dominates buyer intent queries.",
+    "suggested_name": "PEB Structure"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows an interior view of a steel-framed industrial shed under construction — correctly representing the primary segment (single-storey clear-span steel frame warehouse/factory shed), so the product shown is not wrong.",
+      "However, an interior under-construction shot poorly communicates the complete PEB system to a buyer; an exterior view showing the full assembled structure with roof cladding, wall panels, and clear-span profile would be significantly more impactful and informative for a B2B buyer evaluating the product."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic exterior view of a large single-storey pre-engineered steel building (PEB) warehouse or factory shed on a clean white background. The structure features a symmetrical gable roof with grey/blue colour-coated profiled metal sheet cladding, tapered built-up I-section primary rigid frames visible at the gable end, C/Z purlin secondary members, and a wide clear-span bay with no intermediate columns. Large industrial sliding doors at the front, ventilators at the ridge, and natural daylight. Steel painted in standard industrial blue-grey. Sharp product-photography lighting, slight three-quarter perspective angle to show both the front facade and side elevation, no people, no clutter, photorealistic quality.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
