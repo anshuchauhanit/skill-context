@@ -1,0 +1,1069 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "250081135",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Highway Container Tyre Point",
+      "description": "Our Company&nbsp;provides container conversions cabin that is helpfull for roadside shops, for example above cabin is made for highway tyre points.This is made up with the high quality materials that will be run for a lots of years..",
+      "specs": {},
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/6/316831864/KZ/PU/DC/1652420/portable-tyre-point-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/highway-container tyre point-2851548213491.html",
+      "image_file": "250081135.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a converted ISO shipping container with CEAT branding, open-front retail configuration, interior fittings visible — a clear container retail conversion."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names the end-use application (tyre point) rather than the conversion service or container type."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "No specs provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description explicitly states 'container conversions cabin' for roadside shops, confirming the service identity."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Converted ISO shipping container used as a retail service unit — valid container conversion product type."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Highway Container Tyre Point' — names the end-use application only, missing conversion service identity, container size, and type."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs object is empty — no container size, conversion type, material, or application specified."
+        }
+      ],
+      "verification_note": "Valid container retail conversion (CEAT tyre point); title thinness and empty specs are quality gaps, not category failures.",
+      "source_url": "https://www.indiamart.com/proddetail/highway-container tyre point-2851548213491.html"
+    },
+    {
+      "item_id": "252965106",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Container Conversion Service",
+      "description": "We are engaged in offering a wide range of&nbsp;<b>A K Portable Cabins</b>&nbsp;our clients. Our range of all products is widely appreciated by our clients..",
+      "specs": {
+        "raw": "Built Type:Modular, Color:ALL, Material:ALL, Shape:Rectangular, Size:DEPEND ON DEMAND, Usage/Application:ALL"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/8/330864614/KP/YX/JG/192038115/container-conversion-service.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/container-conversion service-2851836610548.html",
+      "image_file": "252965106.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows converted container site cabins at distance on open ground; corrugated container profile visible but detail of fitout/conversion work is not discernible; Google Lens watermark overlay present."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title is the bare MCAT name with no conversion type, container size, or application specified."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "All spec values are generic placeholders ('ALL', 'DEPEND ON DEMAND') providing no actionable product information."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is boilerplate company text with no product-specific information about the conversion service."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image shows converted ISO container site cabins; title and description confirm container conversion service."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains business name 'A K Portable Cabins' embedded in product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Container Conversion Service' only — bare MCAT name with no conversion type, container size, or application detail."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "All spec values are generic placeholders: Color:ALL, Material:ALL, Size:DEPEND ON DEMAND, Usage/Application:ALL."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows container cabins from a distance with a Google Lens watermark overlay; conversion detail and fitout quality are not discernible."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains business name 'A K Portable Cabins' embedded in product description text."
+        }
+      ],
+      "verification_note": "Valid container conversion listing but all dimensions are thin; P16 business name leakage in description.",
+      "source_url": "https://www.indiamart.com/proddetail/container-conversion service-2851836610548.html"
+    },
+    {
+      "item_id": "310846281",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Container Conversion Service",
+      "description": "A Container Conversion Service transforms empty shipping containers into custom spaces like homes, offices, cafes, and retail shops, offering durable, cost-effective, and customizable solutions for businesses and individuals. Services include fitting doors, windows, insulation, electrical work, and internal structures to meet various client needs",
+      "specs": {
+        "raw": "Built Type:Modular, Customisation:Yes, Material:Mild Steel, Suitable For:Offices, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/10/549970574/TD/EE/HX/161490443/container-conversion-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/container-conversion service-2857624728312.html",
+      "image_file": "310846281.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a converted ISO shipping container with client branding being crane-lifted at night, demonstrating the delivery/installation phase of a container conversion service."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title is the bare MCAT name with no conversion type, container size, or application specified."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm office application, mild steel construction, and customisation availability — basic but useful parameters."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description accurately describes the container conversion service scope including conversion types (homes, offices, cafes, retail) and fitout elements (doors, windows, insulation, electrical)."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo, title, specs, and description all consistently describe a container conversion service for offices and other applications."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Container Conversion Service' only — bare MCAT name with no conversion type, container size, or application detail."
+        }
+      ],
+      "verification_note": "Strong description and good photo; title thinness is the only quality gap.",
+      "source_url": "https://www.indiamart.com/proddetail/container-conversion service-2857624728312.html"
+    },
+    {
+      "item_id": "160671694",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Portable Office Cabin",
+      "description": "We Omega Cabins are mfg and supplier of portable office cabin,site office cabin,security guard cabin, toilet cabin, bunk house cabin, and we are supplier of used cargo container throughout india.",
+      "specs": {
+        "raw": "Built Type:Prefab, Material:Steel, Shape:Rectangular, Size:Size 20'Lx10'Wx8.6'H, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/3/494930325/PD/MQ/UW/18198436/portable-office-container.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-23156321330.html",
+      "image_file": "160671694.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white-and-blue corrugated steel cabin unit with barred windows and door, consistent with a converted container cabin, photographed inside a workshop."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names a portable office cabin — a valid output of container conversion service — though it does not explicitly reference container conversion."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide 20ft x 10ft x 8.6ft dimensions consistent with a converted 20ft ISO container, with steel material and office application."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description lists multiple cabin types including container-based products and explicitly mentions supplying used cargo containers, confirming container conversion activity."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a 20ft steel portable office cabin consistent with a converted container; description confirms container supply activity."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Omega Cabins' embedded in product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Portable Cabin",
+        "reason": "Title 'Portable Office Cabin' matches the 'Portable Cabin' sibling MCAT; product could be listed under that category as a finished product rather than a conversion service."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Omega Cabins' embedded in product description text."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — all audit dimensions pass; product is a valid container-based portable office cabin with sibling routing signal to 'Portable Cabin'.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-23156321330.html"
+    },
+    {
+      "item_id": "253743584",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "15Feet Steel Portable Office Cabin",
+      "description": "<b>15-Feet Steel Portable Office Cabin</b> is a highly durable and versatile solution for creating mobile office spaces. Built with <b>high-quality steel</b> construction, this cabin offers exceptional <b>strength and longevity</b>. It is ideal for <b>construction sites</b>, <b>remote project locations</b>, or as a <b>temporary office</b> solution for businesses. The compact <b>15-foot</b> size ensures it can be used in tight spaces while still offering the essential features for day-to-day operations.",
+      "specs": {
+        "raw": "Brand:HPC, Built Type:Modular, Features:Portable, Material:Steel, Shape:Rectangular, Size:12x15x8 Feet (LXWXH), Surface Treatment:Paint Coated, Usage/Application:Construction Site"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/5/508597307/RU/GM/LL/90422608/modular-steel-portable-office-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/15feet-steel portable office cabin-2851914458333.html",
+      "image_file": "253743584.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white-and-blue corrugated steel portable cabin with barred windows and door, consistent with a converted container cabin, in a workshop/yard setting."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title specifies size (15ft) and material (steel) for a portable office cabin but does not reference container conversion."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide dimensions (12x15x8ft), steel material, and construction site application — useful but non-standard container dimensions raise ambiguity."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description details a 15-foot steel portable office cabin for construction sites with strength and portability features, though no ISO container reference is made."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image shows corrugated steel cabin consistent with container conversion; product is a valid portable office cabin output of container conversion service."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Portable Cabin",
+        "reason": "Title and description describe a finished portable office cabin product without referencing container conversion service, making it a candidate for the 'Portable Cabin' sibling MCAT."
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — all audit dimensions pass; sibling routing signal to 'Portable Cabin' noted.",
+      "source_url": "https://www.indiamart.com/proddetail/15feet-steel portable office cabin-2851914458333.html"
+    },
+    {
+      "item_id": "270297620",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Portable Office Cabin",
+      "description": "<table border=\"0\" width=\"256\">\n<tr height=\"45\">\n<td width=\"256\" height=\"45\">Walls – M.S corrugated sheet of 1.2mm thick<br />Roof - M.S sheet of 1.2mm thick<br />Floor - M.S framing with cross support block area&nbsp;</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Doors &amp; Vents</td>\n</tr>\n<tr height=\"30\">\n<td width=\"256\" height=\"30\">1 MS double door with canopy &amp; handles,<br /></td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Windows</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Windows size(3'X2')</td>\n</tr>\n<tr height=\"30\">\n<td width=\"256\" height=\"30\">Bulkheads above and safety grill outside 10mmX10mm</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Wiring &amp; Switches</td>\n</tr>\n<tr height=\"90\">\n<td width=\"256\" height=\"90\">LED lights -&nbsp;<br />External door light fitting -&nbsp;<br />Cabin Fan - 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />15 Amp. Point Modular Switch Socket –&nbsp;<br />Modular Switch Board as per drawing<br />6 Amp. Double Point Modular Switch Socket –&nbsp;</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Insulation &amp; Interiors</td>\n</tr>\n<tr height=\"30\">\n<td width=\"256\" height=\"30\">Wooden framing in the whole container<br />Glass wool insulation of 50mm</td>\n</tr>\n<tr height=\"60\">\n<td width=\"256\" height=\"60\">Walls- 8mm laminated ply board ,</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Wooden batern and beading to cover the joints</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Floor&nbsp;- 18mm wooden floor and 1.2mm vinyl carpet</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Exteriors</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">4 Hooks for lifting and shifting</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Paint 1 coat primer and 2 coat enamel paint</td>\n</tr>\n</table>",
+      "specs": {
+        "raw": "Built Type:Prefab, Cabin Size:12x10 ft, Design Type:Customized, Furnishing:Semi Furnished, Material:Steel, No. of Workstations:5 to 10, Size:20'x10', Structure Material:MS Frame, Usage/Application:Office, Usage Type:Project Office, Wall Panel:PVC Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/4/409867802/OV/OB/NP/11001000/1.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-2853569862097.html",
+      "image_file": "270297620.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white-and-green corrugated steel portable cabin on a construction site with concrete block foundation, consistent with a converted container cabin."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names a portable office cabin — a valid output of container conversion service — though it does not explicitly reference container conversion."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide office application, MS frame, and semi-furnished detail, but contain two conflicting size values (12x10ft vs 20'x10')."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description provides detailed construction specifications including MS corrugated walls, glass wool insulation, wooden framing, and electrical fittings consistent with a container conversion."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a portable office cabin with MS corrugated walls and container-consistent construction specifications."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs list two conflicting size values: 'Cabin Size:12x10 ft' and 'Size:20'x10'' for the same product."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Portable Cabin",
+        "reason": "Title 'Portable Office Cabin' and detailed prefab construction specs make this a candidate for the 'Portable Cabin' sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs list two conflicting size values: 'Cabin Size:12x10 ft' and 'Size:20'x10'' for the same product."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — strong description and good photo pass all audits; P11 internal specs size conflict noted.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-2853569862097.html"
+    },
+    {
+      "item_id": "324713713",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Portable office Cabin",
+      "description": "Portable office Cabin",
+      "specs": {
+        "raw": "Built Type:Prefabricated, Cabin Size:12x10 ft, Flooring:Cement Board, Height:8.5 ft, Insulation Material:Glass Wool, Material:MS (Mild Steel), Product Type:Site Office, Size (L x W):20 ft x 10 ft, Structure Material:MS Frame, Usage Type:Site Office, Wall Panel:MS Sheet"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/3/594694501/AM/LO/NW/265534617/portable-cabin.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-2859011471562.html",
+      "image_file": "324713713.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the fully fitted interior of a converted container office with workstation desks, wooden wall panels, overhead cabinets, and electrical fittings — excellent detail of conversion fitout."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names a portable office cabin but provides no size, material, or conversion type detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide detailed parameters including glass wool insulation, MS frame, 8.5ft height, and site office application, though two conflicting size values are present."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is identical to the title, providing no additional product information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Interior photo shows a fully fitted container office conversion; specs confirm site office application with MS frame and glass wool insulation."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs list two conflicting size values: 'Cabin Size:12x10 ft' and 'Size (L x W):20 ft x 10 ft' for the same product."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Portable Cabin",
+        "reason": "Title 'Portable office Cabin' and prefab specs make this a candidate for the 'Portable Cabin' sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs list two conflicting size values: 'Cabin Size:12x10 ft' and 'Size (L x W):20 ft x 10 ft' for the same product."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Portable office Cabin' only — bare product name with no size, material, conversion type, or application detail."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — strong specs and excellent interior photo pass all audits; P11 size conflict and P12 title thinness noted.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-2859011471562.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "291463992",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Container Conversion Service",
+      "description": "We Worldlink Shipping And Logistics are the leading Service Provider of a wide range of Fast Delivery Service,Air Freight Forwarding Service,Sea Freight Forwarders Services,Goods Warehousing Service Etc.",
+      "specs": {
+        "raw": "Built Type:Modular, Customisation:Yes, Material:GI, Suitable For:Offices, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/4/501019115/NB/VV/BV/207482267/container-conversion-service.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/container-conversion service-2855686499448.html",
+      "image_file": "291463992.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a converted ISO shipping container with APARNA branding, windows, door, and two-tone paint — a clear container office conversion photographed at close range."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title is the bare MCAT name with no conversion type, container size, or application specified."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm office application and GI material with customisation option, providing basic but useful product parameters."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description describes freight forwarding and logistics services (air freight, sea freight, warehousing) — entirely unrelated to container conversion, actively contradicting the MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo and specs confirm a converted container office unit; description is a copy-paste error from a logistics company but does not change the product identity."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_description",
+          "title_vs_description",
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Photo shows a converted container office cabin; description describes freight forwarding and logistics services.",
+          "Title claims 'Container Conversion Service'; description describes air freight, sea freight, and warehousing services.",
+          "Specs indicate office application; description describes freight forwarding services with no mention of conversion."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Worldlink Shipping And Logistics' embedded in product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Photo shows a converted container office cabin; description describes freight forwarding and logistics services (air freight, sea freight, warehousing)."
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title says 'Container Conversion Service'; description describes 'Fast Delivery Service, Air Freight Forwarding Service, Sea Freight Forwarders Services, Goods Warehousing Service'."
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs state 'Suitable For:Offices, Usage/Application:Office'; description describes freight forwarding services with no mention of office conversion."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes freight forwarding and logistics services — entirely unrelated to container conversion service."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Container Conversion Service' only — bare MCAT name with no conversion type, container size, or application detail."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Worldlink Shipping And Logistics' embedded in product description text."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — description is a copy-paste from a freight forwarding company, creating multiple active contradictions with photo, title, and specs.",
+      "source_url": "https://www.indiamart.com/proddetail/container-conversion service-2855686499448.html"
+    },
+    {
+      "item_id": "166404120",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Steel Office Cabin",
+      "description": "The Epsilon Prefabricated Portable Cabin is meticulously engineered and factory constructed using branded IS grade materials, ensuring durability and reliability. Its robust shell, fabricated from tested quality steel, features a base frame, peripheral structure, self-draining roof, entry door, and windows. Reinforced corner columns facilitate easy transportation, lifting, and placement. The cabin boasts premium components including G.I. corrugated sheeting for exterior paneling, pre-laminated board panels or ACP sheeting for interior walls, and 1.2mm thick G.I. corrugated sheeting for the roof. Inside, a 9mm pre-laminated ceiling and 18mm thick cement board or plywood flooring with vinyl carpeting ensure comfort and longevity. Double shutter aluminum powder-coated sliding windows and corrugated MS doors equipped with glass wool insulation provide security and insulation. The cabin is equipped with 50mm glass wool insulation, concealed wiring, standard electrical fittings, plumbing fixtures, and sanitation systems, meeting the highest industry standards. With a focus on quality and functionality, the Epsilon Portable Prefabricated Cabin is the ideal solution for diverse applications. Each cabin can be supplied as plain shell or customised as per Client's interior requirments of partitions, washrooms, pantry and different kind of furnitures fitted at factory",
+      "specs": {
+        "raw": "Built Type:Prefab, Cabin Color:White, Cabin Size:Custom Size, Country of Origin:Made in India, Facilities:Air Conditioner, Flooring:customised, Flooring Type:Laminate Floor, House Style:customised, Material:Steel, No. of Workstations:as per specs, Place Of Origin:Pan India, Roof Type:slanting, Size:customised, Structure Material:MS Frame, Usage/Application:for office and shelter, Usage Type:Manager Cabin, Wall Panel:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/5/305596389/WT/GY/JH/76461355/steel-office-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-office cabin-23729563933.html",
+      "image_file": "166404120.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a smooth-panel prefabricated cabin with slanted roof and EPSILON branding — not a converted ISO shipping container; no corrugated container profile visible."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names a steel office cabin but does not reference container conversion or ISO container base."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs detail PUF panel walls, slanting roof, MS frame structure — all characteristic of a prefabricated cabin, not a container conversion."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description details a prefabricated portable cabin with GI sheeting, PUF panels, and MS frame — no reference to ISO container base or container conversion."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a PUF-panel prefabricated cabin with slanting roof and MS frame — not a converted ISO shipping container; product identity mismatch."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Portable Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Photo shows a smooth-panel prefabricated cabin with slanted roof — not a converted ISO shipping container."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Steel Office Cabin' names a prefab cabin product, not a container conversion service."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs specify 'Wall Panel:PUF Panel' and 'Roof Type:slanting' — characteristic of prefabricated cabins, not ISO container conversions."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description details a prefabricated portable cabin with GI sheeting and PUF panels — no reference to ISO container base or container conversion."
+        }
+      ],
+      "verification_note": "PUF-panel prefab cabin with slanting roof — product identity is a prefabricated cabin, not a container conversion; correct MCAT is 'Portable Cabin'.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-office cabin-23729563933.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images consistently show converted ISO shipping containers with characteristic corrugated steel walls, cut-in barred windows, and a door, typically painted in a two-tone scheme (white/cream upper body with a blue or green lower band). Units are photographed in real-world contexts such as construction sites, fabrication yards, or during transport and crane installation. One strong example shows a fully fitted interior with U-shaped workstation desks, wooden wall panels, and overhead storage, demonstrating the conversion fitout quality buyers can expect.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Converted container cabins are physical structures where product identity is conveyed by form, construction, and fitout — not by text labels on the product.",
+      "Exterior images show corrugated steel walls, windows, and paint schemes; interior images show fitout quality — neither contains extractable spec text useful for OCR.",
+      "Brand and client logos visible on some units are incidental client branding applied post-conversion, not product specification information."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good photos show converted ISO container cabins with corrugated steel walls, cut-in windows, and two-tone paint, photographed at construction sites or yards, or showing fully fitted interiors.",
+    "product_identity": [
+      "Corrugated steel ISO container shell with characteristic ribbed profile",
+      "Cut-in windows (typically barred) and door openings with two-tone exterior paint"
+    ],
+    "acceptable_scenes": [
+      "Exterior shot at construction site or fabrication yard showing full unit",
+      "Interior shot showing fitted workstations, wall panels, and electrical fittings",
+      "Transport or installation shot showing crane-lift or site delivery"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "250081135",
+        "reason": "Image shows a converted ISO shipping container with CEAT branding, open-front retail configuration, interior fittings visible — a clear container retail conversion.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "310846281",
+        "reason": "Image shows a converted ISO shipping container with client branding being crane-lifted at night, demonstrating the delivery/installation phase of a container conversion service.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "324713713",
+        "reason": "Image shows the fully fitted interior of a converted container office with workstation desks, wooden wall panels, overhead cabinets, and electrical fittings — excellent detail of conversion fitout.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "160671694",
+        "reason": "Image shows a white-and-blue corrugated steel cabin unit with barred windows and door, consistent with a converted container cabin, photographed inside a workshop.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "270297620",
+        "reason": "Image shows a white-and-green corrugated steel portable cabin on a construction site with concrete block foundation, consistent with a converted container cabin.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show container cabins from excessive distance or with watermark overlays that obscure conversion detail.",
+    "thinness_signals": [
+      "Unit photographed from too far away — corrugated container profile visible but fitout detail, window quality, and door construction not discernible",
+      "Third-party watermark overlay (e.g. Google Lens prompt) partially obscures the product"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "252965106",
+        "reason": "Image shows converted container site cabins at distance on open ground; corrugated container profile visible but detail of fitout/conversion work is not discernible; Google Lens watermark overlay present."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show prefabricated panel cabins (not converted ISO containers) — a different product identity.",
+    "failure_classes": [
+      {
+        "class": "prefab_panel_cabin",
+        "description": "Image shows a smooth-panel prefabricated cabin with slanted roof and PUF/sandwich panel walls — not a converted ISO shipping container.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "166404120"
+          }
+        ],
+        "detection_signal": "Smooth flat wall panels (no corrugated ribbing), slanted or pitched roof, visible panel joints — absence of characteristic ISO container corrugated profile.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name the conversion type, container size, and application; acceptable titles name the output product (portable cabin) with size or material.",
+    "strong_positive_signals": [
+      "Explicit mention of 'container conversion' or 'container cabin'",
+      "Container size (20ft, 40ft) or application type (site office, retail unit, portable cabin)"
+    ],
+    "structural_patterns": [
+      "[Container Size] Container [Conversion Type] for [Application]",
+      "Container Conversion Service – [Application/Use Case]",
+      "[Size]ft [Material] Portable [Cabin Type] for [Application]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "250081135",
+          "title": "Highway Container Tyre Point",
+          "reason": "Uniquely identifies the conversion output (retail tyre service unit) and application context; description confirms container conversion identity making this a distinctive listing despite thin title."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "253743584",
+          "title": "15Feet Steel Portable Office Cabin",
+          "reason": "Specifies size (15ft), material (steel), and application (portable office cabin) — useful buyer signals even without explicit container conversion reference."
+        },
+        {
+          "item_id": "160671694",
+          "title": "Portable Office Cabin",
+          "reason": "Names the output product type correctly; specs confirm 20ft container dimensions making it a valid container conversion listing."
+        },
+        {
+          "item_id": "270297620",
+          "title": "Portable Office Cabin",
+          "reason": "Names the output product type correctly; strong description with MS corrugated wall specs confirms container conversion identity."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles use only the bare MCAT name or bare product name with no conversion type, container size, or application detail.",
+    "thinness_signals": [
+      "Title is identical to the MCAT name ('Container Conversion Service') with no differentiating attributes",
+      "Title names only the output product ('Portable office Cabin') with no size, material, or conversion type"
+    ],
+    "examples": [
+      {
+        "item_id": "252965106",
+        "title": "Container Conversion Service",
+        "reason": "Bare MCAT name — no conversion type, container size, application, or differentiating attribute."
+      },
+      {
+        "item_id": "310846281",
+        "title": "Container Conversion Service",
+        "reason": "Bare MCAT name — no conversion type, container size, application, or differentiating attribute."
+      },
+      {
+        "item_id": "324713713",
+        "title": "Portable office Cabin",
+        "reason": "Bare product name with no size, material, conversion type, or application detail."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles name prefabricated cabin products (not container conversions) or freight/logistics services.",
+    "failure_classes": [
+      {
+        "class": "prefab_cabin_product",
+        "signal": "Title names a 'Steel Office Cabin' or 'Prefabricated Cabin' without any container conversion reference — product is a PUF-panel prefab cabin.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "166404120",
+            "title": "Steel Office Cabin",
+            "reason": "Title names a prefabricated steel office cabin — product is a PUF-panel prefab cabin with slanting roof, not a container conversion.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "logistics_service_description",
+        "signal": "Description contains freight forwarding / logistics service language ('Air Freight Forwarding', 'Sea Freight Forwarders', 'Goods Warehousing') contradicting the container conversion title.",
+        "failure_mode": "misleading",
+        "examples": [
+          {
+            "item_id": "291463992",
+            "title": "Container Conversion Service",
+            "reason": "Title is correct but description is a copy-paste from a freight forwarding company — the listing as a whole is misleading despite the correct title.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily prefabricated panel cabins misplaced in Container Conversion Service.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "prefab_panel_cabin",
+        "signal": "Product uses PUF/sandwich panels, slanting/pitched roof, and MS frame construction — no ISO container shell; this is a prefabricated cabin, not a container conversion.",
+        "examples": [
+          {
+            "item_id": "166404120",
+            "title": "Steel Office Cabin",
+            "reason": "PUF panel walls, slanting roof, MS frame — prefabricated cabin product identity, not a container conversion.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Portable Cabin"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Portable Cabin",
+        "signal": "Listing describes a finished portable office cabin product (with size, material, and fitout specs) without referencing the container conversion service process — more naturally a product listing than a service listing.",
+        "examples": [
+          {
+            "item_id": "160671694",
+            "title": "Portable Office Cabin",
+            "reason": "Title and specs describe a finished 20ft portable office cabin; could be listed under 'Portable Cabin' as a product rather than under Container Conversion Service."
+          },
+          {
+            "item_id": "253743584",
+            "title": "15Feet Steel Portable Office Cabin",
+            "reason": "Title and description describe a finished portable cabin product for construction sites without referencing container conversion service."
+          },
+          {
+            "item_id": "270297620",
+            "title": "Portable Office Cabin",
+            "reason": "Title and detailed construction specs describe a finished portable office cabin; sibling 'Portable Cabin' is an equally valid home for this listing."
+          },
+          {
+            "item_id": "324713713",
+            "title": "Portable office Cabin",
+            "reason": "Title and specs describe a finished site office cabin; could be listed under 'Portable Cabin' as a product."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names ('Portable Cabin') drawn from taxonomy_context.siblings — confirmed present in the provided sibling list."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (container office/site cabin conversion) and mcat_description used to ground category belonging decisions; mcat_vagueness_signal.suspected_vague: false confirmed PATH A evaluation."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 9,
+    "images_attached": 9,
+    "web_fetch_used": false
+  }
+}
