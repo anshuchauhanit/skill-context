@@ -1,0 +1,194 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual variation across sub-types — single-storey portable cabin, G+1 multi-storey labour colony, container accommodation unit, and bunkhouse are structurally distinct products. Buyers use the image to identify the product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Number of storeys, room count, insulation material, and built type (panel vs container) are primary shortlisting gates. Without these specs, EPC contractors and project managers cannot evaluate whether the structure meets site welfare norms or project scale requirements."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "EPC contractors compare per-sq-ft and per-unit rates aggressively across multiple vendors. Price changes substantially with storey count, insulation grade, and fit-out level — buyers discover across spec tiers during search, making price a primary decision lever after spec match is confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Single portable cabin orders are quoted per piece; large labour colony and multi-storey projects are quoted per sq ft of built-up area; turnkey camp projects are quoted per project. Per sq ft is the dominant unit for the primary buyer segment. Unit must be shown alongside price to prevent comparison errors across these three quoting conventions.",
+      "reason": "Per sq ft vs per piece vs per project is a documented real-market ambiguity for this category. Price cannot be meaningfully compared across listings without knowing the unit — a per-sq-ft rate and a per-piece rate for the same structure look incomparable without this context."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional fabricators in Ahmedabad, Thane, and Faridabad; buyers search by spec and price, not manufacturer name.",
+      "reason": "Manufacturer status, installation capability, and past project references matter for large EPC orders and government/PSU procurement, but company ranks last because spec and price carry more weight in the initial shortlisting decision."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Number of Storeys",
+        "reason": "Single Storey vs G+1 defines the structural class of the accommodation — non-interchangeable across project requirements and drives the largest price delta in this category due to structural steel, staircase, and load-bearing design requirements."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation Material",
+        "reason": "EPS vs PUF Panel vs Rockwool vs Glasswool defines the thermal and fire-resistance performance tier — non-interchangeable across government/PSU compliance requirements, with significant price delta between EPS and PUF/Rockwool tiers."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Features",
+      "Flooring Type",
+      "Frame Material",
+      "Insulation Material",
+      "No. of Rooms",
+      "Number of Storeys",
+      "Product Type",
+      "Size (L x W)"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Panel Thickness",
+        "why_important": "Panel thickness (50mm / 75mm / 100mm) directly determines thermal performance and structural compliance — Agent 3 explicitly identifies 50mm as a common market specification, and buyers and project engineers specify thickness for welfare norm compliance and climate suitability.",
+        "source": "both",
+        "example_values": [
+          "50 mm",
+          "75 mm",
+          "100 mm",
+          "60 mm"
+        ]
+      },
+      {
+        "spec_name": "Capacity (Number of Persons)",
+        "why_important": "EPC contractors procuring for large labour forces need to specify how many workers the unit must accommodate — this determines whether a single cabin or a multi-unit colony is required and is the primary sizing signal for sellers to respond accurately.",
+        "source": "both",
+        "example_values": [
+          "10 Persons",
+          "20 Persons",
+          "50 Persons",
+          "100 Persons"
+        ]
+      },
+      {
+        "spec_name": "Certification / Compliance Standard",
+        "why_important": "Government, PSU, and defence buyers (NHAI, RVNL, NTPC) require fire safety and seismic resistance certifications — sellers need to declare IS 15917, NBC compliance, or fire-rated panel certification to qualify for these procurement tenders.",
+        "source": "both",
+        "example_values": [
+          "IS 15917 Compliant",
+          "NBC Compliant",
+          "Fire Rated",
+          "Seismic Zone Compliant"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Material captures both the structural system and construction method — Container vs PUF Panel vs Mild Steel are entirely different product lines with different supply chains, and sellers need this to determine which product applies and to price accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Length is the primary dimensional driver of material quantities and pricing — sellers need the length to determine if they can supply the required size and to calculate a per-unit or per-sq-ft price.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Number of Storeys",
+        "why_important": "Sellers cannot determine structural design, material quantities, or pricing without knowing whether the buyer needs a single-storey cabin or a G+1/G+2 multi-storey colony — this is the most fundamental structural decision in the category.",
+        "source": "both",
+        "example_values": [
+          "Single Storey",
+          "G+1",
+          "G+2"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Single Storey",
+          "G+1",
+          "G+2"
+        ]
+      },
+      {
+        "spec_name": "Number of Rooms",
+        "why_important": "Room count determines the internal layout and scale of the unit — sellers need this to confirm they can supply the required configuration and to price the partition, door, and fit-out components accurately.",
+        "source": "both",
+        "example_values": [
+          "1 Room",
+          "2 Rooms",
+          "3 Rooms",
+          "Open Hall"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Number of Storeys",
+      "option_value": "Single Storey",
+      "id": "spec_1",
+      "prompt_for_generation": "Single-storey prefabricated labour accommodation cabin at a construction site, flat roof, PUF sandwich panel walls in light grey, MS steel frame visible at corners, one door and two windows on the front facade, placed on levelled ground with a construction site background, natural daylight, front three-quarter view, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Storeys",
+      "option_value": "G+1",
+      "id": "spec_2",
+      "prompt_for_generation": "Two-storey (ground plus one floor) prefabricated labour accommodation building at a construction site, external metal staircase on the side, insulated sandwich panel walls in light blue-grey, multiple doors and windows on both floors, MS structural frame, placed on levelled ground with a construction site background, natural daylight, front three-quarter view, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Storeys",
+      "option_value": "G+2",
+      "id": "spec_3",
+      "prompt_for_generation": "Three-storey (ground plus two floors) prefabricated labour colony building at a construction site, external metal staircases on both ends, insulated sandwich panel walls in off-white, multiple doors and windows across all three floors, MS structural frame with visible cross-bracing, placed on levelled ground with a large construction site background, natural daylight, front three-quarter view, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
