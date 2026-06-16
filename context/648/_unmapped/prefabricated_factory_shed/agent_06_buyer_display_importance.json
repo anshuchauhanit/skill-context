@@ -1,0 +1,203 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Buyers arrive with a defined site footprint, span requirement, eave height, and crane/insulation need — specs are the primary shortlisting gate. A listing without clear span, eave height, structure type, and crane provision cannot be evaluated and will be skipped."
+    },
+    {
+      "rank": 2,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types (PEB gable vs single-slope vs multi-bay vs insulated panel shed) — buyers use the image to confirm the structural form and finish quality before reading specs. A photo of an actual erected shed signals execution capability, which is critical for a turnkey contract."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No single brand commands buyer recall across the Indian PEB market — buyers search by span, location, and execution track record, not manufacturer name; EPACK, Kirby, and Zamil are known to large EPC buyers but not to the SME majority.",
+      "reason": "This is a high-value turnkey contract — buyers evaluate manufacturer credentials, IS-code design compliance, erection experience, and post-erection warranty before committing. Seller identity is a primary trust signal, not a secondary qualifier."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft price varies substantially with span, eave height, crane provision, and insulation type — buyers use listed price as a budget entry point after spec confirmation, not as a primary comparison signal. Final price is always project-quoted; listed price is indicative."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Supply-only contracts are quoted per MT; large lump-sum EPC orders are quoted per project. Per sq ft is dominant for turnkey DFSE contracts and must be shown to prevent confusion with per-MT or per-project quotes.",
+      "reason": "Per sq ft vs per MT vs per project are genuinely different billing bases — a buyer comparing listings cannot interpret price without knowing the unit. Unit ambiguity directly causes misquotation and buyer drop-off."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Clear Span (Width)",
+        "reason": "Span is the primary structural determinant — a 12 m span shed and a 30 m span shed require entirely different primary frame designs, steel tonnage, and foundation loads, making them non-interchangeable and driving the largest single price delta in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation",
+        "reason": "Non-insulated vs PUF panel insulation defines a fundamentally different product tier — insulated sheds for temperature-controlled or pharma environments carry a significant cost premium and cannot be substituted with non-insulated structures for those applications."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Accessories",
+      "Clear Span (Width)",
+      "Color",
+      "Crane Provision",
+      "Eave Height",
+      "Insulation",
+      "Material",
+      "Roof Type",
+      "Structure Type",
+      "Wall Cladding"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Bay Spacing (Length)",
+        "why_important": "Bay spacing (the longitudinal dimension of the shed) combined with clear span defines the total covered area and steel tonnage — sellers need this to size secondary members, purlins, and girts and to produce an accurate per-sq-ft quote.",
+        "source": "both",
+        "example_values": [
+          "6 m",
+          "7.5 m",
+          "9 m",
+          "12 m"
+        ]
+      },
+      {
+        "spec_name": "Wind Zone / Seismic Zone",
+        "why_important": "IS:875 wind zone and IS:1893 seismic zone directly determine the design wind pressure and lateral load assumptions, which affect primary frame weight and cost — a Zone IV seismic design can add meaningful steel tonnage versus a Zone II design for the same span.",
+        "source": "both",
+        "example_values": [
+          "Wind Zone II",
+          "Wind Zone III",
+          "Wind Zone IV",
+          "Seismic Zone III"
+        ]
+      },
+      {
+        "spec_name": "Number of Bays",
+        "why_important": "The number of bays multiplied by bay spacing gives the shed length — without this, sellers cannot determine total covered area or steel quantity, making accurate quotation impossible.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "5 bays",
+          "8 bays",
+          "10 bays",
+          "15 bays"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Area",
+        "reason": "Total covered area is the single most important sizing input — it determines steel tonnage, project scope, and per-sq-ft quotation basis, allowing sellers to immediately assess whether the project is within their capacity and price range.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Width",
+        "reason": "Clear span (width) is the primary structural design driver — sellers need this to determine primary frame configuration, column sizing, and whether the span is within their fabrication capability.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Structure Type",
+        "why_important": "Pre-Engineered Building vs Conventional Steel Truss vs Pipe Shed defines the product tier, fabrication method, and cost band — sellers who only manufacture PEB cannot supply a conventional truss shed, making this a routing-critical requirement.",
+        "source": "both",
+        "example_values": [
+          "Pre-Engineered (PEB)",
+          "Conventional Steel Truss",
+          "Pipe Structure",
+          "LGSF"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Pre-Engineered (PEB)",
+          "Conventional Steel Truss",
+          "Pipe Structure"
+        ]
+      },
+      {
+        "spec_name": "Crane Provision Required",
+        "why_important": "A shed with EOT crane runway beams requires reinforced columns, crane girders, and a different primary frame design — sellers need this upfront to determine structural feasibility and quote accurately.",
+        "source": "both",
+        "example_values": [
+          "With Crane Provision",
+          "Without Crane Provision"
+        ]
+      },
+      {
+        "spec_name": "Insulation Required",
+        "why_important": "Insulated sheds (PUF panel, rockwool, glasswool) for temperature-controlled or pharma environments are a fundamentally different product from non-insulated sheds — sellers need this to confirm product fit and price the insulation system.",
+        "source": "both",
+        "example_values": [
+          "Non-Insulated",
+          "Rockwool",
+          "Glasswool",
+          "PUF Panel"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Type",
+      "option_value": "Pre-Engineered (PEB)",
+      "id": "spec_1",
+      "prompt_for_generation": "Exterior view of a completed Pre-Engineered Building (PEB) factory shed with tapered steel columns, gable roof, colour-coated Galvalume roofing sheets in blue and grey, industrial setting, natural daylight, no people, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Conventional Steel Truss",
+      "id": "spec_2",
+      "prompt_for_generation": "Exterior view of a conventional steel truss factory shed with hot-rolled I-section columns, triangular roof truss visible at gable end, GI sheet roofing, industrial compound setting, natural daylight, no people, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Pipe Structure",
+      "id": "spec_3",
+      "prompt_for_generation": "Exterior view of a pipe structure factory shed with MS circular hollow section pipe columns and pipe truss roof frame, corrugated GI sheet roofing, small industrial yard setting, natural daylight, no people, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
