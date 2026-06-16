@@ -1,0 +1,507 @@
+{
+  "mcat_description": {
+    "short": "Portable Garage is a relocatable, prefabricated vehicle shelter sold as a kit or modular unit, comprising a steel or aluminium frame with a fabric (polyethylene/PVC/polyester) or metal panel cover, designed for temporary or semi-permanent car parking and outdoor storage without permanent construction.",
+    "long": "Portable garages are self-assembly shelter structures built around a powder-coated steel or aluminium tube frame covered with UV-resistant, waterproof polyethylene, PVC, or polycarbonate panels, providing all-weather protection for cars, bikes, trucks, and equipment. They are sold as complete kits including frame components, canopy cover, zippered door panels, anchoring hardware, and assembly instructions, enabling installation without civil work or foundation. In the Indian market, the dominant commercial form is the fabric-canopy carport tent for single or double vehicle parking, while heavier-duty variants use metal/GI sheet panels or sandwich panels for semi-permanent installations. Buyers range from residential vehicle owners seeking cost-effective parking solutions to commercial establishments, construction sites, and industrial facilities requiring temporary covered storage.",
+    "product_types": [
+      "Fabric canopy portable garage (polyethylene/PVC cover, steel tube frame)",
+      "Foldable/telescopic portable garage (manual or motorised folding frame)",
+      "Metal panel portable garage (GI sheet or corrugated steel panel walls and roof)",
+      "Polycarbonate roof carport shelter",
+      "Aluminium frame portable carport",
+      "Prefabricated modular garage cabin (sandwich panel / PUF panel construction)",
+      "Tensile structure car parking shelter",
+      "Dome-top portable garage canopy",
+      "Peak/A-frame roof portable garage canopy",
+      "Barn-style portable garage shelter"
+    ],
+    "primary_applications": [
+      "Residential car and two-wheeler parking (no permanent garage available)",
+      "Temporary vehicle shelter at construction sites",
+      "Commercial vehicle and fleet parking",
+      "Outdoor equipment and machinery storage",
+      "Industrial workshop or storage shed",
+      "Event and exhibition temporary shelter",
+      "Boat, RV, and heavy vehicle storage"
+    ],
+    "buyer_segments": [
+      "Residential homeowners and apartment residents needing temporary car parking",
+      "Commercial establishments (offices, hotels, showrooms) requiring additional parking",
+      "Construction companies needing portable site shelters",
+      "Industrial buyers seeking temporary storage or workshop cover",
+      "Dealers and distributors of prefabricated structures",
+      "Government and institutional buyers for temporary covered parking"
+    ]
+  },
+  "primary_segment": "Fabric-canopy steel-frame portable car shelter (carport tent/canopy kit for single or double vehicle parking)",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Fabric-canopy steel-frame portable car shelter (carport tent/canopy kit for single or double vehicle parking)",
+    "secondary_families": [],
+    "reason": "All sub-types (fabric canopy, metal panel, foldable carport, modular cabin) share the same fundamental purpose — relocatable vehicle shelter — with the same buyer profile and no incompatible regulatory regimes; no sibling MCAT carves out an incompatible sub-type."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "portable garage",
+      "portable car garage",
+      "portable car shed",
+      "temporary garage",
+      "foldable car garage",
+      "folding car garage",
+      "portable car shelter",
+      "carport tent",
+      "car parking canopy",
+      "prefab garage"
+    ],
+    "technical_synonyms": [
+      "portable carport",
+      "prefabricated car shelter",
+      "modular carport",
+      "steel frame car canopy",
+      "tensile car parking structure",
+      "relocatable garage",
+      "demountable garage",
+      "portable vehicle shelter",
+      "canopy carport kit",
+      "temporary carport structure"
+    ],
+    "trade_names": [
+      "portable garage canopy",
+      "car parking shed",
+      "car shed tent",
+      "foldable carport",
+      "car canopy shelter",
+      "portable parking shed",
+      "car cover shed",
+      "portable garage tent",
+      "car port canopy",
+      "prefab car parking shed"
+    ],
+    "hindi_terms": [
+      "garaj",
+      "portable garaj",
+      "car shed",
+      "garaj bhai",
+      "car parking shed"
+    ],
+    "buyer_intent_queries": [
+      "portable garage for car parking",
+      "foldable car garage for home use",
+      "temporary car shed without construction",
+      "portable car shelter with steel frame",
+      "prefabricated garage for two cars",
+      "portable garage tent waterproof UV resistant",
+      "car parking canopy for residential use",
+      "portable shed for car and bike",
+      "folding garage for outdoor parking",
+      "portable car garage kit with cover"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece / per set",
+    "unit_reasoning": "Kit-form portable garages (fabric canopy type) are quoted per piece or per set in Indian B2B transactions; fabricated/modular structures are quoted per sq ft, but the dominant commercial form (canopy kit) transacts as a complete unit.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Fabric canopy / foldable carport kit",
+        "unit": "per piece / per set",
+        "note": "Sold as a complete kit; buyer purchases one unit covering one or two vehicles"
+      },
+      {
+        "sub_segment": "Fabricated metal panel / modular prefab garage",
+        "unit": "per sq ft",
+        "note": "Custom-fabricated structures quoted on area basis, consistent with Indian prefab shed market norms"
+      }
+    ],
+    "sources_checked": [
+      "canopiesandtarps.com",
+      "accio.com (foldable car shed India)",
+      "globalsources.com (portable garage shelter)",
+      "worldofportablecabins.com",
+      "IndiaMART MCAT page signals (structural only)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, 'Portable Garage' encompasses relocatable vehicle shelter structures ranging from lightweight fabric-canopy carport kits to heavier prefabricated metal panel or modular cabin structures. The dominant commercial form is a steel-tube-frame canopy covered with UV-resistant, waterproof polyethylene or PVC fabric, sold as a self-assembly kit for single or double car parking. Frame materials include galvanised steel tube, mild steel, and aluminium alloy; cover materials include polyethylene (PE), PVC, polycarbonate sheets, and GI corrugated panels. Key buyer vocabulary includes 'portable car shed', 'foldable car garage', 'carport tent', 'car parking canopy', and 'temporary garage'. The market is driven by rapid urbanisation, limited permanent parking infrastructure, and rising vehicle ownership in Indian cities. Fabricated/modular variants (metal panel, sandwich panel, PUF panel) are quoted per sq ft and target commercial or industrial buyers; kit-form canopy products are quoted per piece and target residential and small commercial buyers. Wrong-product contamination risk exists from toy/miniature garage models (observed in internal keyword data: 'toy simulation parking garage', 'diorama garage') and unrelated items ('garage oven') — these must be routed out. The term 'prefab parking garage' occasionally attracts multi-storey or permanent prefab parking structure enquiries, which belong in a different MCAT.",
+  "buyer_attracting_attributes": [
+    "Frame Material (steel / aluminium / GI)",
+    "Cover/Canopy Material (polyethylene / PVC / polycarbonate / metal panel)",
+    "Dimensions (Length × Width × Height)",
+    "UV Resistance",
+    "Waterproofing",
+    "Wind Load Rating",
+    "Number of Vehicles Accommodated",
+    "Assembly Type (self-assembly kit / fabricated / foldable)",
+    "Colour",
+    "Warranty / Lifespan"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "35070",
+    "mcat_name": "Portable Garage",
+    "mcat_level": "4",
+    "listing_count": "1406",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Portable Garage",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "158662.0",
+      "name": "Prefabricated Shed",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "158662.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20781",
+        "mcat_name": "Prefabricated Shelters",
+        "listing_count": "4676",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "20782",
+        "mcat_name": "Portable Shelters",
+        "listing_count": "930",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21106",
+        "mcat_name": "Aircraft Hangars",
+        "listing_count": "407",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "26766",
+        "mcat_name": "Dome Shelters",
+        "listing_count": "395",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30719",
+        "mcat_name": "Industrial Sheds",
+        "listing_count": "36863",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30721",
+        "mcat_name": "Industrial Shelters",
+        "listing_count": "531",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33228",
+        "mcat_name": "Military Shelters",
+        "listing_count": "154",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33397",
+        "mcat_name": "Metal Shelters",
+        "listing_count": "228",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42756",
+        "mcat_name": "Telecom Shelters",
+        "listing_count": "611",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "107235",
+        "mcat_name": "Folding Garage",
+        "listing_count": "20",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136750",
+        "mcat_name": "Prefabricated Factory Shed",
+        "listing_count": "15425",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145222",
+        "mcat_name": "Poultry Sheds",
+        "listing_count": "1889",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "146519",
+        "mcat_name": "Cattle Sheds",
+        "listing_count": "1830",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158662",
+        "mcat_name": "Prefabricated Shed",
+        "listing_count": "4727",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164591",
+        "mcat_name": "Metal Sheds",
+        "listing_count": "1477",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164769",
+        "mcat_name": "Warehouse Sheds",
+        "listing_count": "6293",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166772",
+        "mcat_name": "Swimming Pool Tensile Cover",
+        "listing_count": "670",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "172388",
+        "mcat_name": "PEB Structures Fabrication",
+        "listing_count": "3547",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182931",
+        "mcat_name": "Auditorium Roofing Shed",
+        "listing_count": "504",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "187089",
+        "mcat_name": "Badminton Court Roofing Shed",
+        "listing_count": "1474",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "191761",
+        "mcat_name": "Swimming Pool Shed",
+        "listing_count": "280",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "220929",
+        "mcat_name": "Tin Shed",
+        "listing_count": "2737",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 22,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Portable garages are prefabricated structures with material specs (steel frame, polycarbonate/metal panels, dimensions, load capacity) and assembly/installation patterns. Standard B2B research into material grades, construction standards, and market product variants will clarify buyer intent and spec hierarchy."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top Google KWs by Impressions ('portable car shed', 'portable car garage tent', 'foldable car garage') confirmed fabric-canopy carport as dominant buyer search intent."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.hindi_terms",
+          "market_context"
+        ],
+        "citation_note": "Internal KWs confirmed 'portable garage' and 'foldable car garage' as top on-platform terms; contamination signals ('toy simulation parking garage', 'diorama garage', 'garage oven') flagged in market_context."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Single call row confirmed 'Prefabricated Garage' as buyer vocabulary; no spec data available."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings_count"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path and listing count (1406) used as reference; no sibling carve-out detected that would trigger vagueness."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://canopiesandtarps.com/sl95333.html",
+        "title": "15' x 28' x 12' Portable Garage Canopy – Heavy Duty Steel Frame Shelter",
+        "source_domain": "canopiesandtarps.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context",
+          "market_context"
+        ],
+        "citation_note": "Used for frame specs (steel tube, powder-coat), cover material (rip-stop polyethylene, UV-resistant), and structural assembly details confirming dominant product form."
+      },
+      {
+        "url": "https://canopiesandtarps.com/sk12x24x8.html",
+        "title": "12' x 24' x 8' Portable Garage Canopy – Heavy Duty Steel Frame Shelter",
+        "source_domain": "canopiesandtarps.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Confirmed 1-5/8\" powder-coated steel frame, triple-layer polyethylene cover, and kit-form assembly as standard product attributes."
+      },
+      {
+        "url": "https://canopiesandtarps.com/95843.html",
+        "title": "16' x 40' x 16' Portable Garage Canopy – Heavy Duty Steel Frame Shelter",
+        "source_domain": "canopiesandtarps.com",
+        "derived_outputs": [
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed wind load rating and snow load as key buyer specs; per-piece kit transaction model."
+      },
+      {
+        "url": "https://www.accio.com/plp/foldable-car-shed-india",
+        "title": "Foldable Car Shed India: Best Portable Solutions",
+        "source_domain": "accio.com",
+        "derived_outputs": [
+          "market_context",
+          "primary_segment",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Confirmed Indian market context: urbanisation and vehicle ownership driving demand; foldable car sheds as primary solution for Indian buyers."
+      },
+      {
+        "url": "https://www.accio.com/plp/car-shed-portable",
+        "title": "Car Shed Portable: Durable & Easy-Setup Solutions for 2025",
+        "source_domain": "accio.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed product type range (fabric canopy, metal frame, polycarbonate roof) and market drivers (urbanisation, limited parking infrastructure)."
+      },
+      {
+        "url": "https://www.globalsources.com/manufacturers/portable-garage-shelter.html",
+        "title": "Wholesale Portable Garage Shelter Products",
+        "source_domain": "globalsources.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "buyer_attracting_attributes",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Confirmed application range (car parking, commercial, storage, warehouse) and feature vocabulary (UV resistant, waterproof, easily assembled)."
+      },
+      {
+        "url": "https://www.worldofportablecabins.com/prefabricated-garage-building.html",
+        "title": "Prefabricated Garage Building – World of Portable Cabins, Ahmedabad",
+        "source_domain": "worldofportablecabins.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Indian manufacturer source confirming prefabricated modular garage cabin as a product type; per sq ft pricing model for fabricated structures."
+      },
+      {
+        "url": "https://www.walmart.com/ip/Hoteel-Carport-10-x20-Heavy-Duty-Canopy-Portable-Garage-Metal-Steel-Frame-Polyester-Top-Carport-Shelter-Outdoor-Truck-Boat-Car-Port-Party-Storage-Car/2837916936",
+        "title": "Hoteel Carport 10'x20' Heavy Duty Canopy, Portable Garage Metal Steel Frame",
+        "source_domain": "walmart.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed per-piece/set transaction unit for kit-form carport; assembly features (push-button, numbered parts, no tools) as buyer-attracting attributes."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Portable garages are prefabricated structures with material specs (steel frame, polycarbonate/metal panels, dimensions, load capacity) and assembly/installation patterns. Standard B2B research into material grades, construction standards (BIS for structural steel if applicable), and market product variants will clarify buyer intent and spec hierarchy."
+    }
+  }
+}
