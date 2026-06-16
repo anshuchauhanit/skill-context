@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 market_context confirms 'guard room' and 'security cabin' carry significantly higher buyer search volume than 'guard huts'; alt_names primary_keywords list 'security cabin' and 'guard room' as dominant trade terms, making 'Guard Huts' a lower-recall name for this MCAT.",
+    "suggested_name": "Security Guard Cabin"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail shows a compact prefabricated portable security cabin with a lockable door, mesh-glazed window, and side window on a white background — correctly representing the primary segment of entry-point security guard cabins.",
+      "The unit depicted appears container-style (corrugated steel panels, navy blue exterior), which is a valid but niche sub-type; a more representative MS or FRP panel cabin in a neutral colour would better reflect the dominant market segment and improve buyer recognition."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A compact prefabricated mild steel security guard cabin, approximately 6x6 ft, with a white or light grey powder-coated exterior, a single lockable door with a mesh-glazed upper panel, two sliding windows on the side, mounted on a flat base, photographed in three-quarter view on a clean white background, professional product photography, sharp detail, even studio lighting, no text or watermarks on the product.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
