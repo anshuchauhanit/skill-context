@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "\"Net House\" is the dominant trade term confirmed across Agent 3 primary_keywords (\"net house\", \"shade net house\", \"agricultural net house\") and buyer_intent_queries; the name is universally recognised in the Indian protected cultivation market without ambiguity at this taxonomy level.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail correctly shows a dome/round-top GI pipe frame net house covered with green HDPE shade net with crops growing inside — accurately representing the primary segment of prefabricated agricultural shade net house structures.",
+      "Improvement is possible: the interior tunnel perspective obscures the full structural frame and exterior form factor; an exterior 3/4-angle shot showing the GI pipe skeleton, shade net covering, and surrounding farm context would communicate the product more completely to a buyer evaluating structure type and scale."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Exterior three-quarter angle view of a large prefabricated agricultural dome-type shade net house with visible galvanised iron (GI) pipe arched frame, covered with green UV-stabilised HDPE shade net, set on flat agricultural land under bright Indian daylight. The structure spans multiple bays with clearly visible GI pipe ribs and purlin connections. Lush green vegetable crops (capsicum or tomato) visible through the net sides. Clean white sky background, sharp product-focused composition, no people, no text overlays, photorealistic style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
