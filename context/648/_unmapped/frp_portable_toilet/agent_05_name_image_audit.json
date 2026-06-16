@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'FRP Portable Toilet' directly matches the top primary keyword and technical synonym in Agent 3 alt_names, and aligns with dominant market naming norms for this product category in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail shows a Western-style commode unit (WC pan with flush tank), whereas the primary_segment is explicitly an Indian-style squat pan cabin for construction site use — a direct segment mismatch.",
+      "The image is otherwise clear, well-lit, and shows the full FRP cabin with open door on a clean white background, so the structural quality is acceptable but the wrong product variant is depicted."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A single-unit FRP portable toilet cabin in bright blue colour, door open to reveal an Indian-style squat pan (orissa pan) with overhead flush water tank and tap fitting inside, arched door frame, ventilation grille at top, standing on a flat base, photographed straight-on against a clean white background, even studio lighting, sharp focus, no text or watermarks, square 1:1 crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
