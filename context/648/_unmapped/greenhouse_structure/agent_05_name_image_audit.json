@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Greenhouse Structure' aligns with primary_keywords ('greenhouse structure', 'polyhouse structure') and market_context confirming both terms are used interchangeably in Indian trade; the name is broad enough to encompass all product_types (NVPH, fan-and-pad, polycarbonate, shade net) without over-specifying.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a Western-style rigid aluminium/glass or polycarbonate multi-span greenhouse with gutter-connected roof panels and exhaust fans — this is a high-specification imported-style structure that does not represent the primary_segment (NVPH GI pipe frame with UV-stabilised polyethylene film), which dominates Indian agricultural protected cultivation.",
+      "The image depicts a landscaped, ornamental setting with manicured lawn and flowering plants, signalling a commercial/institutional Western greenhouse rather than the Indian farmer-facing polyhouse structure that constitutes the bulk of buyer demand and search intent on IndiaMART."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a Naturally Ventilated Polyhouse (NVPH) in an Indian agricultural field setting. The structure has a hot-dip galvanised GI pipe tubular steel frame with arched roof, covered with translucent UV-stabilised polyethylene film (white/milky tone). Side walls show roll-up shade net ventilation panels. The structure is large-span (multi-bay), set against a flat open farmland background with clear blue sky. Foreground shows bare or lightly tilled soil. Lighting is bright natural daylight. Clean white background strip at bottom. No people, no text overlays, no seller watermarks. Photographic quality, sharp focus, professional product-style composition. IndiaMART AI watermark in white text on dark semi-transparent pill, 10–12px, 60–70% opacity, bottom-right corner.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
