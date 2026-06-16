@@ -1,0 +1,1191 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [],
+  "verified_bad_products": [
+    {
+      "item_id": "127033436",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "8 Feet Portable Garage",
+      "description": "8 Feet Portable Garage",
+      "specs": {
+        "raw": "Cover Material:GI Sheet, Cover Thickness:400 mm, Frame Material:Mild Steel, Height:8 Feet, Installation Type:Portable, Type:Wall Attached, Vehicle Capacity:2 Car"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/4/599054668/AR/SV/XH/30395515/8-feet-portable-garage.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/8-feet portable garage-19790129248.html",
+      "image_file": "127033436.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large barn-style wooden shed with gable metal roof, open bay, windows, and side door on gravel — a garage/shed structure consistent with the MCAT."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Portable Garage) and height dimension but omits frame material, cover type, and vehicle capacity."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs specify GI Sheet cover, Mild Steel frame, 8 ft height, portable installation, and 2-car capacity — all consistent with a metal-panel portable garage."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description merely repeats the title with no additional product detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a portable garage structure for 2-car parking, consistent with MCAT product types including metal panel portable garage."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a wooden-panel barn-style structure with metal roof, but specs state GI Sheet cover and Mild Steel frame — materials visible in photo do not match stated specs."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Cover Thickness listed as 400 mm is physically implausible for a GI Sheet cover material (GI sheets are fractions of a mm thick), indicating a data entry error."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a wooden barn-style structure but specs state GI Sheet cover and Mild Steel frame — visible materials contradict stated materials."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Cover Thickness is listed as 400 mm, which is physically impossible for GI Sheet material (standard GI sheet thickness is 0.3–1.5 mm)."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad due to photo_vs_specs contradiction (wooden structure shown vs. GI Sheet/Mild Steel stated) and implausible cover thickness spec.",
+      "source_url": "https://www.indiamart.com/proddetail/8-feet portable garage-19790129248.html"
+    },
+    {
+      "item_id": "151937106",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Garage Shed .",
+      "description": "With our several years of successfully providing our clients superior quality products, we have gained proficiency in offering Garage Shed.",
+      "specs": {
+        "raw": "Brand:NK, Built Type:Modular, Location:India, Material:FRP, Roofing Type:As per rquest, Usage/Application:All"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/2/486090586/ZN/ZP/BA/70856523/garage-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/garage-shed .-22282862888.html",
+      "image_file": "151937106.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large open-sided metal gable-roof carport structure with red and grey corrugated metal panels, consistent with a metal panel portable garage."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads only 'Garage Shed .' with no material, size, frame type, or application detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide brand, modular build type, and FRP material, though roofing type and usage are left as 'as per request' and 'All'."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic marketing boilerplate with no product-specific attributes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a modular garage shed structure, consistent with MCAT product types."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a corrugated metal panel carport structure, but specs state Material: FRP — the visible material does not match the stated material."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a corrugated metal carport structure but specs state Material: FRP — visible material contradicts stated material."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Garage Shed .' with no material, size, frame type, or application — insufficient for buyer identification."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad due to photo_vs_specs contradiction (metal structure shown vs. FRP stated) and thin title.",
+      "source_url": "https://www.indiamart.com/proddetail/garage-shed .-22282862888.html"
+    },
+    {
+      "item_id": "280516712",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "42.52Sq Ft Garden Storage Shed",
+      "description": "We can undertake all kinds of export orders for supply of premium quality of Garden storage shed at reasonable price. ",
+      "specs": {
+        "raw": "Application:Garden Storage shed, Brand:GKW, Built Type:Modular, Color:White, Material:Mild Steel, Size:42.52 Square Feet, Surface Finish:Polished"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/8/443966922/AZ/RE/YG/222513055/166.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/42-52sq ft garden storage shed-2854591771462.html",
+      "image_file": "280516712.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a compact corrugated steel garden storage shed with gable roof, double swing doors, and ventilation louvres in a residential outdoor setting."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title specifies size (42.52 sq ft) and application (garden storage shed) but omits material and frame type."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs provide application, brand, mild steel material, size, color, and surface finish — comprehensive for a garden storage shed."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description mentions export orders and premium quality but provides no product-specific attributes."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a 42.52 sq ft garden storage shed for tools/equipment, too small for vehicle parking and lacking vehicle access features — identity mismatch with Portable Garage MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Metal Sheds",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a compact 42.52 sq ft garden storage shed with no vehicle access opening — not a portable garage for vehicle parking."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly names 'Garden Storage Shed' — a garden tool/equipment storage product, not a portable vehicle garage."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad — product is a garden storage shed (42.52 sq ft, no vehicle access), not a portable garage; correct MCAT is Metal Sheds.",
+      "source_url": "https://www.indiamart.com/proddetail/42-52sq ft garden storage shed-2854591771462.html"
+    },
+    {
+      "item_id": "47589059",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "20000Sq Feet Prefabricated IT Incubation House",
+      "description": "A 20,000 sq ft prefabricated IT Incubation House is a large, modular building designed to support startups, tech companies, and innovation hubs. This structure is optimized for the needs of tech entrepreneurs, providing office spaces, shared resources, and networking areas in a flexible, efficient, and cost-effective manner. Prefabricated buildings for such purposes are gaining popularity due to their rapid construction, scalability, and reduced operational costs.",
+      "specs": {
+        "raw": "Area Coverage:20000Sq Feet, Built Type:Modular, Feature:Eco Friendly, Material:Steel, Surface Treatment:Color Coated, Technique:Hot Rolled, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/4/500853340/HY/BN/BQ/37731/prefabricated-it-incubation-park.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/20000sq-feet prefabricated it incubation house-6374054148.html",
+      "image_file": "47589059.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Aerial image shows a large permanent prefabricated commercial building complex with green roof, landscaped grounds, and parking area — not a portable garage structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names a 20,000 sq ft prefabricated IT incubation house — a permanent commercial building, not a portable garage."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs describe a 20,000 sq ft modular steel building for house/commercial use — not consistent with portable garage product type."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly describes a 20,000 sq ft prefabricated IT incubation building for startups — not a portable garage."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a 20,000 sq ft permanent prefabricated IT incubation building — fundamentally different product type, scale, and buyer from a portable garage."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Shelters",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Aerial image shows a large permanent prefabricated commercial building complex — not a portable garage."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title names a 20,000 sq ft IT Incubation House — a permanent commercial building, not a portable garage."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe a 20,000 sq ft modular steel building for house/commercial use — not a portable garage."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes a prefabricated IT incubation building for startups and tech companies — not a portable garage."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is a large permanent prefabricated commercial building, not a portable garage; closest sibling is Prefabricated Shelters.",
+      "source_url": "https://www.indiamart.com/proddetail/20000sq-feet prefabricated it incubation house-6374054148.html"
+    },
+    {
+      "item_id": "54607582",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Bus Passenger Waiting Shelter",
+      "description": "By keeping track with the market developments, we are engaged in offering an extensive range of Bus Passenger Waiting Shelter. The given range of bus shelter is developed with the latest techniques & best material along with market norms. This FRP bus shelter is well inspected on each section for delivering its flawless range; clients can have the offered FRP bus shelter from us at suitable rates.\n\nFeatures:\n\nEasy to install\nFine finish\nElevated quality",
+      "specs": {
+        "raw": "Brand:PBH, Built Type:Modular, Country of Origin:Made in India, Features:Public / Advertising, Height:2.5 Mtr., Material:Steel, Position:As per Requirement, Size:Depend on requirement, Size/Dimension:6 x 2 Mtr, Thickness:As per Requirement, Usage/Application:Public Place"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/10/ZT/WJ/VM/7018070/bus-passenger-waiting-shelter.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/bus-passenger waiting shelter-7371844455.html",
+      "image_file": "54607582.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a roadside bus stop shelter with flat canopy roof, metal poles, and bench on a footpath — not a portable garage structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title explicitly names a bus passenger waiting shelter — a public transit infrastructure product, not a portable garage."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs describe a 6×2 m public place bus shelter with advertising features — not consistent with portable garage product type."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly describes an FRP bus passenger waiting shelter for public places — not a portable garage."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a bus passenger waiting shelter for public transit use — different product type, buyer, and application from a portable garage."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Shelters",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a roadside bus stop shelter with canopy and bench — not a portable vehicle garage."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly names 'Bus Passenger Waiting Shelter' — a public transit structure, not a portable garage."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe a 6×2 m public place bus shelter with advertising features — not a portable garage."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes an FRP bus passenger waiting shelter for public places — not a portable garage."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is a bus passenger waiting shelter, entirely wrong MCAT; closest sibling is Prefabricated Shelters.",
+      "source_url": "https://www.indiamart.com/proddetail/bus-passenger waiting shelter-7371844455.html"
+    },
+    {
+      "item_id": "276947208",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Industrial Shelter",
+      "description": "Our company has achieved widespread recognition in offering Prefabricated shelter  to the clients. Prefabricated shelter are available in various technical specifications in accordance with clients’ requirements. These products are made by professionals at well developed manufacturing unit by using premium quality components and contemporary technology in conformity with predefined guidelines of quality. ",
+      "specs": {
+        "raw": "Application:Security Cabin, Built Type:Panel Build, Frame Finishing:Hot Galvanized, Material:Steel, Shape:Tunnel, Size:Customised, Surface Treatment:Galvanised, Type:Prefabricated, Type Of Industrial Sheds:All, Wall Panel Type:GI Sheet Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/6/425641097/CA/XC/WP/2017476/prefabricated-shelters.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-industrial shelter-2854234820833.html",
+      "image_file": "276947208.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large prefabricated panel-wall modular cabin with multiple windows and corrugated roof on a construction site — an industrial shelter, not a portable vehicle garage."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names a prefabricated industrial shelter — an industrial/commercial structure, not a portable vehicle garage."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs describe a security cabin / industrial shelter with panel build and GI sheet panels — not consistent with portable garage for vehicle parking."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description describes a prefabricated shelter for industrial use with no vehicle parking or garage attributes."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a prefabricated industrial shelter/security cabin — different product type and buyer from a portable vehicle garage."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Industrial Shelters",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large prefabricated modular cabin/industrial shelter on a construction site — not a portable vehicle garage."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title names 'Prefabricated Industrial Shelter' — an industrial structure, not a portable garage."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs list Application as Security Cabin with GI Sheet panel build — not a portable garage for vehicle parking."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a prefabricated shelter for industrial clients with no vehicle parking attributes."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is a prefabricated industrial shelter/security cabin; correct MCAT is Industrial Shelters.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-industrial shelter-2854234820833.html"
+    },
+    {
+      "item_id": "302903036",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Industrial Shelter Service",
+      "description": "Prefabricated Industrial Shelter Service",
+      "specs": {
+        "raw": "Application:Industrial, Built Type:Prefabricated, Frame Material:Mild Steel, Roofing Material:PPGI Sheet, Size:10x20 ft, Wall Panel Type:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/3/595997861/OF/IO/IR/99249771/prefabricated-industrial-shelter-service.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-industrial shelter service-2856830403833.html",
+      "image_file": "302903036.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a fully glazed aluminium-framed prefabricated enclosure (security booth/guard cabin) in a parking lot — not a portable vehicle garage."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title names a prefabricated industrial shelter service — an industrial shelter (not a portable garage) and potentially a service rather than a product."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs describe a 10×20 ft industrial prefabricated shelter with PUF panel walls — not consistent with portable garage for vehicle parking."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description merely repeats the title with no product-specific detail."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a prefabricated industrial shelter — different product type, buyer, and application from a portable vehicle garage."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a fully glazed aluminium-framed enclosure, but specs state Mild Steel frame, PPGI Sheet roofing, and PUF Panel walls — materials visible in photo do not match stated specs."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Industrial Shelters",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a glazed aluminium-framed enclosure but specs state Mild Steel frame, PPGI Sheet roof, and PUF Panel walls — materials contradict."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a glazed security booth/guard cabin in a parking lot — not a portable vehicle garage."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title names 'Prefabricated Industrial Shelter Service' — an industrial shelter service, not a portable garage product."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe a 10×20 ft industrial prefabricated shelter with PUF panels — not a portable garage."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description repeats 'Prefabricated Industrial Shelter Service' — industrial shelter, not a portable garage."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is a prefabricated industrial shelter/security booth; correct MCAT is Industrial Shelters.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-industrial shelter service-2856830403833.html"
+    },
+    {
+      "item_id": "326542700",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Puf panel Goat shelter",
+      "description": "PUF panels are increasingly used in modern goat farming to create climate-controlled, hygienic, and durable shelters. They offer significant advantages over traditional tin or wooden sheds by maintaining a stable internal temperature, which reduces animal stress and improves growth rate",
+      "specs": {
+        "raw": "Application:Security Cabin, Built Type:Portable, Flooring:PVC Flooring, Frame Material:Mild Steel, Roofing Material:PPGI Sheet, Size:10x10 ft, Wall Panel Type:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/5/606371617/UN/KT/WJ/268353893/puf-panels-for-ro-shelters.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/puf-panel goat shelter-2859194370273.html",
+      "image_file": "326542700.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a prefabricated blue-framed PUF panel modular cabin with door and window — a portable cabin/container unit, not a vehicle garage."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names a PUF panel goat shelter — an animal husbandry structure, not a portable vehicle garage."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs describe a 10×10 ft portable security cabin with PUF panels — not consistent with portable garage for vehicle parking."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly describes a PUF panel shelter for goat farming — an animal husbandry product, not a portable garage."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a PUF panel goat shelter or security cabin — an animal husbandry or security structure, not a portable vehicle garage."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title names a goat shelter but specs list Application as Security Cabin — two incompatible stated applications for the same product."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Cattle Sheds",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title names 'Goat shelter' but specs list Application as 'Security Cabin' — incompatible stated applications."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a prefabricated PUF panel modular cabin — not a portable vehicle garage."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title names 'Puf panel Goat shelter' — an animal husbandry structure, not a portable garage."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe a portable security cabin with PUF panels — not a portable garage for vehicle parking."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes a PUF panel shelter for goat farming — not a portable garage."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is a goat shelter/security cabin; correct MCAT is Cattle Sheds.",
+      "source_url": "https://www.indiamart.com/proddetail/puf-panel goat shelter-2859194370273.html"
+    }
+  ],
+  "generated_bad_examples": [
+    {
+      "generated": true,
+      "generated_for_problem_codes": [
+        "P15",
+        "P16"
+      ],
+      "item_id": "GENERATED_P15_P16",
+      "pre_label": null,
+      "verified_label": "bad",
+      "override": true,
+      "title": "Portable Car Garage Canopy Steel Frame - Call 9876543210",
+      "description": "We Sharma Structures, Pune offer portable garage canopy with steel frame and PE cover for single car parking. Contact Rajesh Sharma at 9876543210 or visit our shop at MG Road, Pune for best rates.",
+      "specs": {},
+      "image_url": null,
+      "product_page_url": null,
+      "image_file": null,
+      "image_status": "generated",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "No image available."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Title embeds a phone number ('9876543210') directly in the listing title — a policy violation that contaminates the product title."
+        },
+        "specs": {
+          "category_fit": null,
+          "quality": "thin",
+          "reason": "Specs object is empty — no structured attributes provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description contains personal name ('Rajesh Sharma'), phone number ('9876543210'), and business location ('MG Road, Pune') — PII and location/business leakage."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is described as a portable car garage canopy with steel frame — consistent with Portable Garage MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains personal name 'Rajesh Sharma' and phone number '9876543210' — direct PII in listing content."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains business name 'Sharma Structures', city 'Pune', and locality 'MG Road, Pune' — business and location leakage in listing content."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains personal name 'Rajesh Sharma' and phone number '9876543210' embedded in listing text."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains business name 'Sharma Structures', city 'Pune', and locality 'MG Road, Pune' embedded in listing content."
+        }
+      ],
+      "verification_note": "Generated illustrative example for P15/P16 — no real verified product in this batch demonstrated PII or location/business leakage."
+    }
+  ],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "No verified good products were available in this batch; all 8 items were classified as bad due to category failures or photo-specs contradictions. Based on the two items closest to valid (127033436 and 151937106), good portable garage images should show a complete garage/carport structure from a 3/4-angle view with the vehicle entry opening clearly visible, frame and cover materials identifiable, and the structure photographed in an outdoor or parking context. Metal panel or fabric-canopy structures should show the full footprint including roof, walls, and door/opening.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Portable garage structures communicate product value through visible form — roof style, frame material, cover type, and vehicle entry opening are all visually apparent and cannot be extracted via OCR.",
+      "No text labels, spec plates, or printed information are visible on the product surfaces in any of the audited images — the structure itself is the information."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "No verified good products available in this batch — relevant photo examples cannot be sourced from verified good products.",
+    "product_identity": [
+      "Complete garage/carport structure with vehicle entry opening clearly visible",
+      "Frame material (steel tube, GI sheet, or aluminium) and cover type (fabric canopy, metal panel, or polycarbonate) identifiable",
+      "Roof style (gable, peak, flat, or dome) visible from a 3/4-angle outdoor shot"
+    ],
+    "acceptable_scenes": [
+      "Outdoor residential driveway or parking area with structure installed",
+      "Open ground or construction site showing the portable/relocatable nature of the structure"
+    ],
+    "examples": []
+  },
+  "thin_photos": {
+    "summary": "No thin_image quality photos were identified in the verified bad products — all bad product images were good_image quality but showed wrong-category products.",
+    "thinness_signals": [
+      "Structure photographed from too far away with frame joints and cover material not distinguishable",
+      "Only partial structure visible — roof or frame cropped out of frame"
+    ],
+    "examples": []
+  },
+  "irrelevant_photos": {
+    "summary": "All verified bad products showed actively wrong-category products — bus shelters, industrial cabins, large commercial buildings, garden storage sheds, and goat shelters — none of which are portable vehicle garages.",
+    "failure_classes": [
+      {
+        "class": "large_permanent_commercial_building",
+        "description": "Aerial or ground-level image of a large permanent prefabricated commercial or institutional building — wrong scale, wrong product type, wrong buyer.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "47589059"
+          }
+        ],
+        "detection_signal": "Aerial view, landscaped grounds, multiple windows, permanent foundation, building footprint exceeding 1,000 sq ft.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "bus_passenger_shelter",
+        "description": "Roadside bus stop canopy with poles and bench — a public transit infrastructure product, not a vehicle garage.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "54607582"
+          }
+        ],
+        "detection_signal": "Canopy on poles with bench, roadside installation, no enclosed walls, no vehicle access opening.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "prefabricated_industrial_shelter_or_cabin",
+        "description": "Prefabricated modular cabin or industrial shelter with panel walls, windows, and doors — designed for human occupancy or industrial use, not vehicle parking.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "276947208"
+          },
+          {
+            "photo_url": null,
+            "item_id": "302903036"
+          },
+          {
+            "photo_url": null,
+            "item_id": "326542700"
+          }
+        ],
+        "detection_signal": "Multiple windows, human-scale door, panel walls (PUF/GI), no vehicle-width opening, installed on construction site or open ground.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "garden_storage_shed",
+        "description": "Small compact metal storage shed for garden tools/equipment — too small for vehicle parking and lacking vehicle access opening.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "280516712"
+          }
+        ],
+        "detection_signal": "Compact footprint under 50 sq ft, double swing doors (not vehicle-width), residential garden context, no car-sized opening.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "No verified good products available — relevant title examples cannot be sourced; patterns are derived from the closest-to-valid items (127033436) and MCAT product type knowledge.",
+    "strong_positive_signals": [
+      "Explicit product type token: 'Portable Garage', 'Carport', 'Car Parking Canopy', 'Portable Car Shed'",
+      "Frame material token: 'Steel Frame', 'GI Frame', 'Aluminium Frame', 'MS Tube Frame'",
+      "Cover material token: 'PE Cover', 'PVC Cover', 'GI Sheet', 'Polycarbonate Roof'",
+      "Vehicle capacity or size: '1 Car', '2 Car', 'Single Vehicle', 'Double Carport'",
+      "Portability/installation token: 'Portable', 'Foldable', 'Relocatable', 'Self-Assembly'"
+    ],
+    "structural_patterns": [
+      "[Size/Capacity] [Cover Material] [Frame Material] Portable Garage",
+      "[Frame Material] Frame [Cover Type] Portable Car Parking Canopy",
+      "[Vehicle Capacity] Car Portable Garage [Key Feature]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "127033436",
+          "title": "8 Feet Portable Garage",
+          "reason": "Names product type (Portable Garage) and height dimension — closest to a valid portable garage title in this batch, though still missing cover material and vehicle capacity in the title itself."
+        }
+      ],
+      "acceptable": []
+    }
+  },
+  "thin_titles": {
+    "summary": "Two titles were identified as thin — missing key product attributes needed for buyer identification.",
+    "thinness_signals": [
+      "Title contains only generic product type with no material, size, frame type, or vehicle capacity",
+      "Title ends with punctuation artifact ('Garage Shed .') suggesting incomplete data entry"
+    ],
+    "examples": [
+      {
+        "item_id": "151937106",
+        "title": "Garage Shed .",
+        "reason": "Title reads only 'Garage Shed .' with no material, size, frame type, or application — insufficient for buyer identification."
+      },
+      {
+        "item_id": "302903036",
+        "title": "Prefabricated Industrial Shelter Service",
+        "reason": "Title names only a generic product type with 'Service' suffix — missing all product attributes and potentially a service listing rather than a product."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Six titles contain contaminating tokens that actively signal wrong-category products — bus shelters, industrial shelters, IT buildings, goat shelters, and garden storage sheds.",
+    "failure_classes": [
+      {
+        "class": "public_transit_shelter",
+        "signal": "Token 'Bus Passenger Waiting Shelter' or 'Bus Shelter' present in title — signals public transit infrastructure, not a vehicle garage.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "54607582",
+            "title": "Bus Passenger Waiting Shelter",
+            "reason": "Title explicitly names a bus passenger waiting shelter — a public transit product, not a portable garage.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "industrial_shelter",
+        "signal": "Token 'Industrial Shelter' present in title — signals industrial/commercial structure, not a portable vehicle garage.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "276947208",
+            "title": "Prefabricated Industrial Shelter",
+            "reason": "Title names a prefabricated industrial shelter — wrong product type for Portable Garage MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "302903036",
+            "title": "Prefabricated Industrial Shelter Service",
+            "reason": "Title names an industrial shelter service — wrong product type and potentially a service listing.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "large_commercial_building",
+        "signal": "Tokens 'IT Incubation House', 'Prefabricated House', or large sq ft area (e.g., '20000Sq Feet') present — signals permanent commercial building, not a portable garage.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "47589059",
+            "title": "20000Sq Feet Prefabricated IT Incubation House",
+            "reason": "Title names a 20,000 sq ft IT incubation house — a permanent commercial building, not a portable garage.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "animal_shelter",
+        "signal": "Token 'Goat shelter', 'Cattle Shed', or animal husbandry application present in title — signals agricultural/animal product, not a vehicle garage.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "326542700",
+            "title": "Puf panel Goat shelter",
+            "reason": "Title names a PUF panel goat shelter — an animal husbandry product, not a portable garage.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "garden_storage_shed",
+        "signal": "Token 'Garden Storage Shed' present in title — signals a small garden tool/equipment shed, not a vehicle garage.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "280516712",
+            "title": "42.52Sq Ft Garden Storage Shed",
+            "reason": "Title names a garden storage shed — too small for vehicle parking and wrong product type for Portable Garage MCAT.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — sourced from verified bad products where dimensions.category.valid is false.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "large_permanent_prefabricated_building",
+        "signal": "Title or description names an IT incubation house, commercial building, or structure with area coverage exceeding 5,000 sq ft — permanent commercial/institutional building, not a portable garage.",
+        "examples": [
+          {
+            "item_id": "47589059",
+            "title": "20000Sq Feet Prefabricated IT Incubation House",
+            "reason": "20,000 sq ft permanent prefabricated IT incubation building — wrong product type, wrong scale, wrong buyer.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Shelters"
+      },
+      {
+        "class": "bus_passenger_waiting_shelter",
+        "signal": "Title contains 'Bus Passenger Waiting Shelter', 'Bus Shelter', or specs list Usage/Application as 'Public Place' with advertising features — public transit infrastructure, not a vehicle garage.",
+        "examples": [
+          {
+            "item_id": "54607582",
+            "title": "Bus Passenger Waiting Shelter",
+            "reason": "FRP bus passenger waiting shelter for public transit — entirely wrong product type for Portable Garage MCAT.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Shelters"
+      },
+      {
+        "class": "prefabricated_industrial_shelter_or_security_cabin",
+        "signal": "Title contains 'Industrial Shelter', 'Security Cabin', or specs list Application as 'Security Cabin' or 'Industrial' with PUF/GI panel walls and human-occupancy features — industrial/security structure, not a vehicle garage.",
+        "examples": [
+          {
+            "item_id": "276947208",
+            "title": "Prefabricated Industrial Shelter",
+            "reason": "Prefabricated industrial shelter/security cabin with GI sheet panels — wrong product type for Portable Garage MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "302903036",
+            "title": "Prefabricated Industrial Shelter Service",
+            "reason": "Industrial prefabricated shelter service with PUF panels — wrong product type for Portable Garage MCAT.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Industrial Shelters"
+      },
+      {
+        "class": "animal_husbandry_shelter",
+        "signal": "Title contains 'Goat shelter', 'Cattle Shed', or description mentions animal farming, livestock, or goat/cattle husbandry — agricultural product, not a vehicle garage.",
+        "examples": [
+          {
+            "item_id": "326542700",
+            "title": "Puf panel Goat shelter",
+            "reason": "PUF panel goat shelter for animal farming — wrong product type for Portable Garage MCAT.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Cattle Sheds"
+      },
+      {
+        "class": "garden_storage_shed",
+        "signal": "Title contains 'Garden Storage Shed' or specs list Application as 'Garden Storage shed' with size under 100 sq ft and no vehicle access opening — small storage shed, not a vehicle garage.",
+        "examples": [
+          {
+            "item_id": "280516712",
+            "title": "42.52Sq Ft Garden Storage Shed",
+            "reason": "42.52 sq ft mild steel garden storage shed — too small for vehicle parking, wrong product type for Portable Garage MCAT.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Metal Sheds"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator. Three pre-labelled good products were overridden to bad based on photo_vs_specs contradictions (127033436, 151937106) and category failure (280516712). Five pre-labelled bad products were confirmed bad. No items were overridden from bad to good."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion values (Metal Sheds, Industrial Shelters, Prefabricated Shelters, Cattle Sheds) are all confirmed sibling names from the provided taxonomy_context.siblings list — none fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (fabric-canopy steel-frame portable car shelter) and mcat_description used to ground category belonging decisions; mcat_vagueness_signal not explicitly set to suspected_vague:true so PATH A applied throughout."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 8,
+    "images_attached": 8,
+    "web_fetch_used": false
+  }
+}
