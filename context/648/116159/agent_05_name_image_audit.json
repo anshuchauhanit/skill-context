@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 market_context confirms 'precast' dominates buyer search vocabulary over 'prefabricated' in India; primary_keywords list 'precast house' and 'RCC precast house' ahead of 'prefabricated concrete house', making the current name less discoverable for the dominant buyer query pattern.",
+    "suggested_name": "Precast Concrete House"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a contemporary architectural structure elevated on angled steel stilts with timber/metal cladding panels — this is a Western-style modular/steel-frame elevated dwelling, not an RCC precast panel-based house conforming to the Indian primary segment of affordable/rural housing.",
+      "The image conflicts directly with primary_segment (RCC precast panel-based prefabricated residential house for affordable/rural housing) and would mislead Indian B2B buyers — government contractors, PMAY agencies, and industrial labour accommodation buyers — who expect ground-level, concrete-panel construction, not an elevated architectural showcase."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A completed single-storey RCC precast concrete panel house in India, ground-level placement, light grey cement-finish exterior wall panels with visible panel joints, simple rectangular floor plan, flat or mild-sloped RCC roof slab, one door and two windows with standard frames, set on a flat rural or semi-urban plot with bare earth surroundings, soft natural daylight, clean white background or open sky backdrop, front-facing three-quarter view showing full structure, photorealistic product-catalogue style, no people, no branding, no watermarks except IndiaMART AI label.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
