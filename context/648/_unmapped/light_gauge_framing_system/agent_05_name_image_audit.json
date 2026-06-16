@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Light Gauge Framing System' directly maps to the dominant buyer-facing term 'LGSF' and aligns with primary_keywords ('light gauge steel framing system', 'light gauge steel frame') and technical_synonyms ('light steel framing') confirmed in Agent 3 alt_names; market_context confirms 'LGSF' and 'light gauge steel framing system' are the standard industry terms in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail shows a two-storey cold-formed galvanized steel structural frame under construction — correctly representing the primary_segment of a complete LGSF structural framing system for low-to-mid-rise buildings.",
+      "Improvement is possible: the image is a real-site construction photo with a busy background, low contrast, and no clean product isolation; an AI-generated or studio-quality render showing the steel stud-and-track framing system against a clean white or neutral background would better highlight the product's structural detail and improve click-through on IndiaMART."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a complete light gauge galvanized steel structural framing system for a two-storey prefabricated residential building, showing cold-formed C-stud wall panels, floor joists, and roof truss skeleton assembled on a concrete plinth, silver-grey galvanized steel finish, clean white studio background with soft diffused lighting, sharp detail on screw connections and track sections, no people, no clutter, professional product photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
