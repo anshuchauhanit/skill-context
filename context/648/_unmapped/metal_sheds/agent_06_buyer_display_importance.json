@@ -1,0 +1,454 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** SME factory owner, warehouse operator, or industrial developer. They need a custom-built metal shed and are comparing multiple fabricators/contractors on IndiaMART.
+
+**Journey sequence:**
+1. **Image first** — scans listing grid to confirm shed type (industrial vs agricultural vs parking canopy). Visual sub-type variation is high. Wrong type = immediate skip.
+2. **Specification** — checks built type (PEB vs prefab vs portable), dimensions/area, roof type, cladding. These are the shortlisting gates.
+3. **Price** — per sq ft rate is the primary comparison metric. Indian B2B buyers aggressively compare per-sq-ft rates across fabricators once type and basic specs match.
+4. **Unit** — per sq ft must be shown alongside price. Per sq ft vs per piece vs per kg creates real confusion in this category.
+5. **Company** — fabricator track record, project portfolio, installation capability. Evaluated after shortlisting, not before.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — significant visual variation across sub-types
+- **Specification:** High — built type, dimensions, roof type are non-negotiable shortlisting criteria
+- **Price:** High — per sq ft comparison is the dominant buyer behaviour in Indian construction market
+- **Unit:** High — per sq ft vs per piece vs per kg is a real ambiguity in this category
+- **Company:** Medium — track record matters but evaluated after spec/price shortlisting
+
+---
+
+## Step 3 — Apply Decision Questions
+
+**Image:** High. Industrial shed vs agricultural shed vs parking canopy vs rooftop shed are visually distinct. Buyers use the image to confirm product type before reading anything else.
+
+**Specification:** High. Built type (PEB vs prefab vs portable), roof shape, cladding type, and sheet thickness are primary shortlisting criteria. Buyers cannot evaluate a shed without these.
+
+**Price:** High. Per sq ft rate is the universal comparison metric in Indian construction. Buyers compare rates across multiple fabricators simultaneously. `price_display_type = "spec-driven price"` — price varies substantially with built type (PEB vs simple prefab), span, height, and sheet thickness. Buyers discover and compare across spec tiers.
+
+**Cross-dimension consistency check:**
+- Buyers arrive on IndiaMART to discover and compare across spec tiers (PEB vs prefab vs portable are not interchangeable) → `spec-driven price` is correct AND specification = High. ✓
+- Unit High → price must be at least Medium. Price is High here. ✓
+- Not project-based price (per sq ft is the dominant unit, not per project). ✓
+- Specification show: true → show_on_listing: true. ✓
+
+**Unit:** High. Per sq ft is dominant but per piece (portable sheds) and per kg (structural steel supply) are real sub-segment units. A buyer comparing a per-sq-ft quote with a per-piece quote cannot make a valid price comparison without knowing the unit. Must be shown.
+
+**Company:** Medium. Fabricator track record, installation capability, and project portfolio are evaluated during vendor selection — especially for large industrial/warehouse sheds. No dominant brand with buyer recall. Market is fragmented across regional fabricators.
+
+**Brand check:**
+1. Taxonomy siblings scan — no branded sub-categories visible (e.g., no "Tata Metal Sheds" sibling). No brand affinity signal.
+2. Indian market — metal shed fabrication is highly fragmented; buyers search by spec and price, not brand name. No established brand with buyer recall.
+→ `brand_important: no`
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "High visual variation across sub-types — industrial warehouse shed, agricultural farm shed, parking canopy, and rooftop enclosure are visually distinct. Buyers use the image to confirm product type before reading any text; wrong type = immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Built type (PEB vs prefab vs portable), roof shape, cladding configuration, and sheet thickness are primary shortlisting criteria. A listing without these specs cannot be evaluated by a buyer comparing fabricators."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Per sq ft rate is the universal comparison metric in the Indian construction market. Price varies substantially with built type, span, height, and sheet specification — buyers discover and compare across spec tiers, making price a primary decision lever once type is confirmed."
+  },
+  {
+    "rank": 4,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Sub-segment exceptions: portable/modular sheds quoted per piece; structural steel supply for large PEB orders quoted per kg. Unit must be shown to prevent price comparison errors across these sub-segments.",
+    "reason": "Per sq ft vs per piece vs per kg are all active in this category. A buyer comparing quotes across listings cannot interpret price without knowing the unit — confusion is a real and material risk."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "Metal shed fabrication is highly fragmented across regional contractors; no established brand with buyer recall exists — buyers search by spec and per-sq-ft rate, not manufacturer name.",
+    "reason": "Fabricator track record, installation capability, and project portfolio are evaluated during vendor selection for large industrial/warehouse sheds, but company identity does not drive initial engagement — spec and price shortlisting come first."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+**Hard eliminations:**
+- **Usage:** Application/use-case tag — describes what the shed is used FOR, not what it IS. Discard.
+- **Usage Area:** Indoor/Outdoor/Semi Outdoor — use-case tag, not a configurator. Discard.
+
+**Soft eliminations:**
+- **Surface Finish:** Painted/Color Coated/Galvanized/Powder Coated — consequence field partially correlated with Metal Type (Galvanized Steel → Galvanized finish). Deprioritise but retain as secondary differentiator.
+- **Ventilation:** Ridge Vent/Side Louvers/No Ventilation/Turbo Vent — add-on feature, not a primary price driver. Deprioritise.
+
+**Remaining after elimination:** Built Type, Metal Type, Roof Shape, Sheet Thickness, Side Cladding, Surface Finish (deprioritised), Ventilation (deprioritised)
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Built Type** (Portable / Site Built / PEB / Prefabricated / Modular):
+- Defines WHAT the product IS. PEB vs simple prefab vs portable are non-interchangeable — a buyer cannot substitute one for another. PEB commands a significant price premium over standard prefab due to computer-designed structural engineering. Rank 1.
+
+**Sheet Thickness** (0.35mm / 0.40mm / 0.45mm / 0.50mm / 0.60mm):
+- Defines the technical grade/quality tier within a built type. Thickness directly determines structural load capacity, wind resistance, and durability — and drives a meaningful per-sq-ft price delta. Buyers specify minimum thickness for compliance with wind/seismic zone requirements. Rank 2.
+
+*(Side Cladding was considered for Rank 2 — it defines enclosure level and affects price — but Sheet Thickness has a larger and more direct price delta and is a more universal differentiator across all sub-types.)*
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list:**
+Built Type, Metal Type, Roof Shape, Sheet Thickness, Side Cladding, Surface Finish, Usage, Usage Area, Ventilation
+
+**Step 3b/3c — Candidate gaps cross-referenced:**
+
+From Agent 3 `vision_output` and LLM world knowledge, key buyer decision dimensions for metal sheds include: covered area/span, eave height, roof sheet type/coating (GI vs Galvalume vs sandwich panel), insulation (glass wool/rock wool), and structural steel standard compliance.
+
+Cross-referencing against `specs_in_seller_list`:
+- **Covered Area / Span** — not present in any form. Buyers specify clear-span width as a primary structural requirement; sellers need this to determine frame design and cost. Not semantically equivalent to any existing spec.
+- **Roof Sheet Type / Coating** — "Metal Type" covers the base metal (GI vs MS vs aluminium) but does NOT capture the coating type (Galvalume vs plain GI vs colour-coated). Surface Finish captures painted/galvanized/powder coated but not the roofing sheet coating grade (Galvalume is a distinct product, not just a finish). These are semantically distinct — Galvalume is an alloy coating (zinc-aluminium), not a surface finish applied post-fabrication. Gap confirmed.
+- **Insulation** — not present. Glass wool / rock wool / no insulation is a major price and performance differentiator, especially for cold storage and industrial sheds in hot climates. Not semantically equivalent to any existing spec.
+- **Eave Height** — not present. Clear height determines usability for forklifts, overhead cranes, and mezzanine floors. A primary structural spec. Not semantically equivalent to any existing spec.
+
+**Importance threshold check:** All four candidates would rank in the top 10 buyer-relevant specs for metal sheds. Applying the "would a senior CM add this today?" test — Covered Area/Span and Insulation are the strongest gaps; Roof Sheet Coating and Eave Height are also strong. All four pass the threshold.
+
+**Missing important specs:**
+
+| Spec | Why important | Source | Example values |
+|---|---|---|---|
+| Clear Span / Width | Structural non-negotiability — a buyer's required span determines the entire frame design and cost; sellers cannot quote without it | both | 20 ft, 30 ft, 40 ft, 60 ft |
+| Insulation Type | Major price and performance differentiator — glass wool/rock wool insulation adds significant cost and is mandatory for cold storage and hot-climate industrial sheds | both | Glass Wool, Rock Wool, No Insulation, Sandwich Panel |
+| Roof Sheet Coating | Galvalume vs plain GI vs colour-coated roofing sheet is a primary durability and cost differentiator not captured by Metal Type or Surface Finish | both | Galvalume, GI (Plain), Colour Coated, Sandwich Panel |
+| Eave Height | Determines operational usability (forklift clearance, overhead crane, mezzanine) and is a primary structural spec buyers specify upfront | both | 12 ft, 15 ft, 20 ft, 25 ft |
+
+**Coverage verdict:** 4 missing specs → `significant_gaps`
+
+### Phase 4 — Coverage Verdict: `significant_gaps`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Area** (2000–10000 sq ft range):
+- Directly determines the scale of the project and the seller's fabrication/supply capacity. A seller with a 500 sq ft minimum order cannot serve a 10,000 sq ft buyer. Area is the primary project-sizing signal. Rank 1.
+
+**Application** (Godown / Manufacturing / Rice Mill / Warehouse / Factory / Poultry Farm):
+- Routes the RFQ to sellers who specialise in the right shed type. A poultry farm shed has different structural and ventilation requirements than a manufacturing factory. Sellers need this to determine fit and quote accurately. Rank 2.
+
+### Phase 2 — Thumbnail Eligibility
+
+**Area** (2000 / 3000 / 4000 / 5000 / 6000 / 10000 sq ft):
+- Numeric/dimensional spec. No meaningful visual difference between a 3000 sq ft shed and a 5000 sq ft shed in a thumbnail. `thumbnail_eligible: false`
+
+**Application** (Godown / Manufacturing / Rice Mill / Warehouse / Factory / Poultry Farm):
+- Each application maps to a visually distinct shed type and context. A poultry farm shed (open-sided, low eave, agricultural setting) is visually distinct from a manufacturing factory shed (enclosed, high eave, industrial setting) or a warehouse/godown (large-span, loading dock). `thumbnail_eligible: true`
+
+### Phase 3 — Missing Buyer Spec Audit
+
+From Agent 3 `vision_output` and LLM world knowledge, key buyer requirement dimensions for metal shed RFQs:
+
+**Height** is already in the buyer spec list — confirmed present. ✓
+
+**Built Type / Construction Type** (PEB vs Prefab vs Portable):
+- Cross-reference: not present in buyer spec list. A seller needs to know whether the buyer wants a PEB (engineered, bolted frame) or a standard prefab shed — these are fundamentally different products with different lead times, structural capabilities, and price points. Sellers cannot respond accurately without this. Source: both.
+- More important than Height (which is a dimensional detail within a type) → `would_be_rank: 2`
+- Thumbnail eligibility: PEB shed vs standard prefab shed vs portable shed are visually distinct structures. `thumbnail_eligible: true`; `thumbnail_options: ["PEB (Pre-Engineered Building)", "Prefabricated Shed", "Portable / Modular Shed"]`
+
+**Roof Type / Roofing Material:**
+- Cross-reference: not present in buyer spec list. GI sheet vs Galvalume vs sandwich panel roofing is a major cost and performance differentiator. Sellers need this to quote accurately. Source: both.
+- Less important than Built Type but more important than Height for accurate quoting → `would_be_rank: 3` (below both current ranked specs after Built Type insertion). Omit `would_be_rank` since it would rank below both currently ranked specs after the Built Type insertion — actually, after inserting Built Type at rank 2, the current rank 2 (Application) shifts to rank 3. Roof Type would be rank 4 — below both. Omit `would_be_rank`.
+
+**Coverage verdict:** 1 missing spec with `would_be_rank` ≤ 2 → `partial`
+
+### Phase 4 — Image Upload Assessment
+
+**Image upload recommended: false**
+
+The combination of Area + Application + Height + Built Type (if added) gives sellers sufficient context to respond with a quote or request a site visit. Metal sheds are custom-built to buyer-specified dimensions — the RFQ specs capture the dimensional and use-case requirements adequately. Unlike spare parts or custom fabrication with complex geometry, a metal shed's requirements are fully expressible in text specs.
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from `buyer_spec_audit`:**
+1. `top_rfq_specs` rank 2: Application (`thumbnail_eligible: true`, `thumbnail_options: ["Godown", "Manufacturing", "Rice Mill", "Warehouse", "Factory", "Poultry Farm"]`) — 6 prompts
+2. `missing_important_specs`: Built Type (`thumbnail_eligible: true`, `would_be_rank: 2`, `thumbnail_options: ["PEB (Pre-Engineered Building)", "Prefabricated Shed", "Portable / Modular Shed"]`) — 3 prompts
+
+Total: 9 prompts (spec_1 through spec_9)
+
+All prompts represent `primary_segment`: Prefabricated industrial/warehouse steel shed (MS frame with GI or Galvalume metal sheet roofing).
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — industrial warehouse shed, agricultural farm shed, parking canopy, and rooftop enclosure are visually distinct. Buyers use the image to confirm product type before reading any text; wrong type = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Built type (PEB vs prefab vs portable), roof shape, cladding configuration, and sheet thickness are primary shortlisting criteria. A listing without these specs cannot be evaluated by a buyer comparing fabricators."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq ft rate is the universal comparison metric in the Indian construction market. Price varies substantially with built type, span, height, and sheet specification — buyers discover and compare across spec tiers, making price a primary decision lever once type is confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Sub-segment exceptions: portable/modular sheds quoted per piece; structural steel supply for large PEB orders quoted per kg. Unit must be shown to prevent price comparison errors across these sub-segments.",
+      "reason": "Per sq ft vs per piece vs per kg are all active in this category. A buyer comparing quotes across listings cannot interpret price without knowing the unit — confusion is a real and material risk."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Metal shed fabrication is highly fragmented across regional contractors; no established brand with buyer recall exists — buyers search by spec and per-sq-ft rate, not manufacturer name.",
+      "reason": "Fabricator track record, installation capability, and project portfolio are evaluated during vendor selection for large industrial/warehouse sheds, but company identity does not drive initial engagement — spec and price shortlisting come first."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Built Type",
+        "reason": "PEB vs standard prefab vs portable are non-interchangeable product classes with fundamentally different structural engineering, lead times, and per-sq-ft price points — a buyer cannot substitute one for another."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Sheet Thickness",
+        "reason": "Roofing sheet thickness (0.35mm to 0.60mm) directly determines structural load capacity, wind resistance, and durability compliance, driving a meaningful per-sq-ft price delta across values."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Metal Type",
+      "Roof Shape",
+      "Sheet Thickness",
+      "Side Cladding",
+      "Surface Finish",
+      "Usage",
+      "Usage Area",
+      "Ventilation"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Clear Span / Width",
+        "why_important": "A buyer's required clear span determines the entire frame design and structural cost — sellers cannot generate an accurate quote without knowing the span requirement.",
+        "source": "both",
+        "example_values": ["20 ft", "30 ft", "40 ft", "60 ft"]
+      },
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Glass wool, rock wool, or sandwich panel insulation adds significant cost and is mandatory for cold storage and hot-climate industrial sheds — a primary price and performance differentiator.",
+        "source": "both",
+        "example_values": ["Glass Wool", "Rock Wool", "No Insulation", "Sandwich Panel"]
+      },
+      {
+        "spec_name": "Roof Sheet Coating",
+        "why_important": "Galvalume vs plain GI vs colour-coated roofing sheet is a primary durability and cost differentiator not captured by Metal Type (base metal) or Surface Finish (post-fabrication finish).",
+        "source": "both",
+        "example_values": ["Galvalume", "GI Plain", "Colour Coated", "Sandwich Panel"]
+      },
+      {
+        "spec_name": "Eave Height",
+        "why_important": "Clear eave height determines operational usability for forklifts, overhead cranes, and mezzanine floors — a primary structural spec buyers specify upfront that directly affects frame cost.",
+        "source": "both",
+        "example_values": ["12 ft", "15 ft", "20 ft", "25 ft"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Area",
+        "reason": "Project area directly determines fabrication scale and supply capacity — a seller with limited capacity cannot serve large-area buyers, making this the primary project-sizing and routing signal.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Application",
+        "reason": "Application type (godown vs manufacturing vs poultry farm) determines structural, ventilation, and compliance requirements — sellers need this to confirm fit and quote the correct shed configuration.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Godown", "Manufacturing", "Rice Mill", "Warehouse", "Factory", "Poultry Farm"]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Built Type",
+        "why_important": "Sellers need to know whether the buyer requires a PEB (engineered bolted frame), standard prefabricated shed, or portable modular shed — these are fundamentally different products with different structural capabilities, lead times, and price points.",
+        "source": "both",
+        "example_values": ["PEB (Pre-Engineered Building)", "Prefabricated Shed", "Portable / Modular Shed"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["PEB (Pre-Engineered Building)", "Prefabricated Shed", "Portable / Modular Shed"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Godown",
+      "id": "spec_1",
+      "prompt_for_generation": "Exterior view of a large prefabricated steel godown shed with GI sheet roofing, wide rolling shutter entrance, plain grey metal walls, industrial setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Manufacturing",
+      "id": "spec_2",
+      "prompt_for_generation": "Exterior view of a prefabricated industrial manufacturing shed with MS frame and Galvalume roof, high eave height, ventilator ridge on roof, large sliding door, industrial estate setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Rice Mill",
+      "id": "spec_3",
+      "prompt_for_generation": "Exterior view of a prefabricated metal shed used as a rice mill facility, corrugated GI sheet roof and walls, wide entrance for vehicle access, rural agricultural setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Warehouse",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior view of a large-span prefabricated steel warehouse shed with Galvalume roofing, multiple loading dock shutters, colour-coated metal wall cladding, logistics park setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Factory",
+      "id": "spec_5",
+      "prompt_for_generation": "Exterior view of a prefabricated factory shed with MS structural frame, full side cladding, turbo ventilators on ridge, industrial zone setting, wide span clear height visible, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Poultry Farm",
+      "id": "spec_6",
+      "prompt_for_generation": "Exterior view of a prefabricated metal poultry farm shed with open side louvers, low eave height, GI sheet roof, agricultural rural setting, green surroundings, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "PEB (Pre-Engineered Building)",
+      "id": "spec_7",
+      "prompt_for_generation": "Exterior view of a large-span Pre-Engineered Building (PEB) steel shed with tapered column frames, bolted connections visible, Galvalume roof and wall panels, industrial park setting, clear-span structure, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Prefabricated Shed",
+      "id": "spec_8",
+      "prompt_for_generation": "Exterior view of a standard prefabricated steel shed with MS angle and channel frame sections, corrugated GI sheet roof, full side cladding, mid-size industrial setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Portable / Modular Shed",
+      "id": "spec_9",
+      "prompt_for_generation": "Exterior view of a small portable modular metal shed with panel-build construction, compact size, single door entry, relocatable design visible through panel joints, plain background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
