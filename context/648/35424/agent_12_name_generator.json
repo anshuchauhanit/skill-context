@@ -1,0 +1,66 @@
+{
+  "enhanced_name_4w": "Prefab Portable Toilet Cabins",
+  "enhanced_name_5w": "Portable Toilet Cabins for Sites",
+  "enhanced_name_6w": "Prefab Portable Toilet Cabins Construction Events",
+  "enhanced_name_long": "Prefabricated Portable Toilet Cabins for Construction Sites, Labour Camps, Outdoor Events and Public Sanitation Projects",
+  "alt_names": {
+    "primary_keywords": [
+      "portable toilet cabin",
+      "portable washroom",
+      "readymade toilet cabin",
+      "portable bathroom cabin",
+      "prefab toilet cabin",
+      "site toilet cabin",
+      "outdoor toilet cabin",
+      "portable loo cabin",
+      "portable toilet unit",
+      "portable sanitation cabin"
+    ],
+    "technical_synonyms": [
+      "HDPE portable toilet cabin",
+      "self-contained toilet cabin",
+      "panel-built portable toilet",
+      "prefabricated toilet unit",
+      "zero-discharge portable toilet",
+      "porta cabin toilet",
+      "IWC toilet cabin",
+      "MS portable toilet cabin",
+      "PVC portable toilet cabin",
+      "sandwich panel toilet cabin"
+    ],
+    "trade_names": [
+      "E-Loo modular toilet",
+      "Super Loo portable toilet",
+      "Nirmal FRP toilet",
+      "Executive Loo (EXE-LOO)"
+    ],
+    "hindi_terms": [
+      "पोर्टेबल टॉयलेट",
+      "पोर्टेबल शौचालय",
+      "रेडीमेड टॉयलेट",
+      "मोबाइल शौचालय",
+      "पोर्टेबल बाथरूम"
+    ],
+    "buyer_intent_queries": [
+      "portable toilet cabin for construction site",
+      "readymade toilet cabin bulk order India",
+      "portable washroom cabin for outdoor events",
+      "portable toilet with septic tank",
+      "prefab toilet cabin for labour camp",
+      "readymade bathroom and toilet combo cabin",
+      "portable toilet cabin Indian and western style",
+      "portable toilet cabin for municipal sanitation project",
+      "portable toilet cabin for highway rest stop",
+      "portable sanitation unit for Swachh Bharat project"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Sibling MCAT 'FRP Portable Toilet' (ID: 145136) carves out FRP-material-specific listings — enhanced names and alt names avoid FRP-only framing to prevent overlap; root MCAT covers all materials (HDPE, MS, PVC, FRP) and the parent-level buyer segment",
+    "Sibling MCAT 'Mobile Toilet Van' (ID: 44109) and 'Mobile Toilets' (ID: 45789) carve out vehicle-mounted and mobile-wheeled toilet units — terms 'mobile toilet van', 'vehicle-mounted toilet', and 'towable toilet unit' are excluded from enhanced names and alt names to avoid attracting that buyer segment",
+    "Sibling MCAT 'Bio Toilet' (ID: 119106) carves out bio-digester-specific units — 'bio toilet', 'bio-digester toilet', and 'FRP bio toilet' are excluded from enhanced names and alt names to avoid contaminating that sibling's buyer segment",
+    "Sibling MCAT 'Sintex Portable Toilets' (ID: 182628) carves out brand-specific Sintex listings — 'Sintex portable toilet' trade name excluded from alt names to avoid brand-segment contamination",
+    "Sibling MCATs 'Toilet Cubicles' (ID: 42586) and 'Toilet Partitions' (ID: 42587) attract buyers seeking fixed indoor partition/cubicle fittings rather than standalone deployable cabin units — terms 'toilet cubicle', 'toilet partition', and 'toilet enclosure panel' are excluded as they attract an incompatible buyer persona (interior fit-out buyers vs outdoor sanitation deployers)"
+  ],
+  "segment_contamination_disclaimer": null
+}
