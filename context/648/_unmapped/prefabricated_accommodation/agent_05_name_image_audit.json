@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Accommodation' directly matches the primary keyword in Agent 3's alt_names and is the standard B2B search term used by EPC contractors and industrial buyers in the Indian market for factory-built, relocatable worker housing structures.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image shows a two-storey yellow prefabricated accommodation building with sandwich panel walls, aluminium windows, and AC units — correctly representing the primary segment of prefabricated labour/worker accommodation for construction and industrial sites.",
+      "Improvement is possible: the image appears to be a real-site photograph with background clutter (sky, gravel, distant structures) and a visible seller banner/signage on the facade, which reduces visual clarity; a cleaner, purpose-shot image isolating the structure against a neutral background would better serve as a category thumbnail."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A photorealistic product-style image of a two-storey prefabricated labour accommodation cabin for construction sites, featuring a steel-framed structure with yellow and grey insulated PUF sandwich panel walls, aluminium sliding windows, a green corrugated metal roof, external AC units mounted on the facade, a simple entry staircase with metal railing, set against a clean white studio background, soft even lighting, sharp architectural detail, square 1:1 crop, no text or watermarks on the building, professional B2B catalogue style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
