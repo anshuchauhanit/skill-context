@@ -1,0 +1,236 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Buyers arrive with a defined area, crop type, and subsidy-compliance requirement — structure type, covering material, climate control, and frame specs are the primary shortlisting gate. A listing without these specs cannot be evaluated for NHB/MIDH eligibility or agronomic fit."
+    },
+    {
+      "rank": 2,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall at the structure level — market is fragmented across regional fabricators and empanelled vendors; buyers search by spec and subsidy eligibility, not manufacturer name (film brands like Ginegar are an exception but are a component, not the structure).",
+      "reason": "Subsidy-eligible buyers must procure from state horticulture department empanelled vendors — seller credentials (empanelment status, NHB/MIDH compliance track record, installation experience) are a hard eligibility gate, not a preference."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "NHB/MIDH benchmark rates per sq. mt. are publicly known reference points; buyers compare listed rates against the benchmark to assess subsidy gap and seller competitiveness. Price varies substantially with structure type, covering material, and climate control tier — buyers discover and compare across spec tiers, making this spec-driven."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq. mt.",
+      "unit_note": "Turnkey projects may be quoted per project or per acre; material-only supply is quoted per kg/roll/piece. Per sq. mt. is the dominant and government-benchmarked unit for complete structures — must be shown to enable price comparison against NHB/MIDH rates.",
+      "reason": "Price cannot be compared against NHB/MIDH benchmark rates without knowing the unit — per sq. mt. vs per project vs per acre creates real confusion for subsidy-driven buyers calculating their cost and subsidy gap."
+    },
+    {
+      "rank": 5,
+      "dimension": "image",
+      "level": "Medium",
+      "show": true,
+      "reason": "Image helps buyers visually confirm structure type (NVPH vs tunnel vs dome) and construction quality, but specs and company credentials are the primary decision drivers. Absence of image reduces confidence but does not prevent shortlisting if specs are complete."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Climate Control",
+        "reason": "Defines the product class — Natural Ventilated vs Fan & Pad vs Fogging represents non-interchangeable tiers with 3–5x price difference and distinct agronomic suitability; a buyer cannot substitute one for another."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Covering Material",
+        "reason": "Polythene Film vs Polycarbonate Sheet vs Shade Net vs Insect Net drives significant price delta and determines crop protection capability — non-interchangeable across project requirements and subsidy eligibility criteria."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Climate Control",
+      "Covering Material",
+      "Covering Specification",
+      "Frame Pipe Thickness",
+      "Gutter/Center Height",
+      "Span (Width)",
+      "Structure Material",
+      "Structure Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Area / Coverage Area",
+        "why_important": "Buyers and NHB/MIDH subsidy calculations are always area-based — sellers need to know the installation area to quote accurately and confirm subsidy eligibility thresholds (minimum 500 sq. mt. for most schemes).",
+        "source": "both",
+        "example_values": [
+          "500 sq. mt.",
+          "1000 sq. mt.",
+          "2000 sq. mt.",
+          "4000 sq. mt."
+        ]
+      },
+      {
+        "spec_name": "Subsidy Eligibility / NHB-MIDH Compliance",
+        "why_important": "The majority of Indian polyhouse buyers are subsidy-driven — whether the structure meets NHB/MIDH technical standards (IS 1161 GI pipes, 200 micron UV film, HDG 275 GSM) is a primary purchase criterion that differentiates compliant from non-compliant offerings.",
+        "source": "both",
+        "example_values": [
+          "NHB Compliant",
+          "MIDH Compliant",
+          "Non-Subsidy",
+          "State Scheme Compliant"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Climate Control",
+        "reason": "Defines the product tier the buyer needs — Natural Vent vs Fan-Pad vs Fogger System are non-interchangeable and determine which sellers can supply; this single spec routes the RFQ to the correct supplier segment.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Fan-Pad System",
+          "Natural Vent",
+          "Fogger System"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area",
+        "reason": "Installation area is the primary sizing and pricing variable — sellers cannot quote accurately or confirm subsidy eligibility without knowing the required coverage area.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Covering Material",
+        "why_important": "Sellers need to know whether the buyer requires polythene film, polycarbonate sheet, shade net, or insect net to confirm product fit and quote the correct material cost — this is a primary price driver absent from the current buyer spec form.",
+        "source": "both",
+        "example_values": [
+          "Polythene Film",
+          "Polycarbonate Sheet",
+          "Shade Net",
+          "Insect Net"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Polythene Film",
+          "Polycarbonate Sheet",
+          "Shade Net",
+          "Insect Net"
+        ]
+      },
+      {
+        "spec_name": "Subsidy Requirement",
+        "why_important": "Sellers who are NHB/MIDH empanelled vendors need to know upfront whether the buyer requires a subsidy-compliant structure — non-empanelled sellers cannot serve subsidy buyers, making this a hard routing signal.",
+        "source": "both",
+        "example_values": [
+          "NHB/MIDH Subsidy Required",
+          "No Subsidy",
+          "State Scheme Subsidy",
+          "Not Sure"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Climate Control",
+      "option_value": "Fan-Pad System",
+      "id": "spec_1",
+      "prompt_for_generation": "Interior view of a Fan & Pad environmentally controlled polyhouse with GI tubular frame and UV polyethylene film covering, showing large exhaust fans mounted on one end wall and wet evaporative cooling pads on the opposite end, rows of vegetable crops inside, bright natural light, clean agricultural setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Climate Control",
+      "option_value": "Natural Vent",
+      "id": "spec_2",
+      "prompt_for_generation": "Exterior view of a Naturally Ventilated Poly House (NVPH) with GI tubular frame, UV-stabilised polyethylene film covering, open side vents and roof ridge ventilation visible, gutter height approximately 4 metres, rows of capsicum or tomato plants visible through the open vent panels, rural agricultural field background, daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Climate Control",
+      "option_value": "Fogger System",
+      "id": "spec_3",
+      "prompt_for_generation": "Interior view of a polyhouse with GI tubular frame and UV polyethylene film covering, showing overhead fogging nozzles mounted on the frame emitting fine mist, rows of high-value crops such as gerbera or orchids below, humid misty atmosphere visible, no fans or pad system present, clean agricultural setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Polythene Film",
+      "id": "spec_4",
+      "prompt_for_generation": "Close-up of a polyhouse structure showing UV-stabilised polyethylene film covering stretched over GI tubular frame, translucent milky-white film surface clearly visible with film clips and clamps securing it to the frame, natural daylight filtering through, agricultural context, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Polycarbonate Sheet",
+      "id": "spec_5",
+      "prompt_for_generation": "Close-up of a greenhouse structure showing twin-wall polycarbonate sheet panels covering a GI frame, transparent structured panels with visible internal channels, rigid and glossy surface clearly distinguishable from film, natural daylight, agricultural or horticultural context, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Shade Net",
+      "id": "spec_6",
+      "prompt_for_generation": "Close-up of a polyhouse or shade net house structure showing green or black woven shade net covering stretched over GI tubular frame, mesh texture clearly visible, partial sunlight filtering through the net, nursery or vegetable crop context below, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Insect Net",
+      "id": "spec_7",
+      "prompt_for_generation": "Close-up of a polyhouse structure showing fine white insect-proof net covering over GI tubular frame, very fine mesh weave clearly visible (50 mesh or finer), white colour distinguishing it from shade net, vegetable crop or nursery context inside, bright daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
