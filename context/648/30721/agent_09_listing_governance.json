@@ -1,0 +1,6 @@
+{
+  "location_exception": false,
+  "location_exception_reason": "Industrial Shelters are nationwide commodity structures quoted by span/load/material spec, not origin. Location in title (e.g., 'Delhi Steel Shelter') adds no buyer decision value; structural performance is location-agnostic. Reject location names in titles.",
+  "biz_exception": false,
+  "biz_exception_reason": "IndiaMART's seller-type filter (Manufacturer, Supplier, Dealer, Exporter, etc.) already exposes business relationship independently. Words like 'Manufacturer', 'Supplier', 'Contractor' in titles are redundant; removing them leaves product meaning intact ('Steel Shelter' = complete). Reject business-type words in titles."
+}
