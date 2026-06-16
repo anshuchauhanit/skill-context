@@ -1,0 +1,62 @@
+{
+  "enhanced_name_4w": "Prefab Worker Colony Housing",
+  "enhanced_name_5w": "Prefab Labour Colony for Projects",
+  "enhanced_name_6w": "Modular Prefab Labour Colony Construction Sites",
+  "enhanced_name_long": "Prefabricated Labour Colony with Dormitories, Sanitation and Dining for Construction and Industrial Project Sites",
+  "alt_names": {
+    "primary_keywords": [
+      "labour colony",
+      "labor colony",
+      "labour camp",
+      "labour quarters",
+      "labour hutment",
+      "prefab labour colony",
+      "prefabricated labour camp",
+      "worker accommodation colony",
+      "labour accommodation",
+      "prefab labour hutment"
+    ],
+    "technical_synonyms": [
+      "modular worker accommodation",
+      "prefabricated workmen quarters",
+      "portable labour housing",
+      "modular labour camp",
+      "pre-engineered labour colony",
+      "prefab site accommodation",
+      "temporary worker housing complex",
+      "modular dormitory accommodation"
+    ],
+    "trade_names": [
+      "GI sheet labour colony",
+      "MS prefab labour colony",
+      "PUF panel labour colony",
+      "Aerocon panel labour colony",
+      "sandwich panel labour colony",
+      "container labour camp",
+      "mild steel prefabricated labor colony"
+    ],
+    "hindi_terms": [
+      "shramik colony",
+      "mazdoor colony",
+      "labour colony (श्रमिक कॉलोनी)"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated labour colony for construction site",
+      "prefab labour camp for 50 workers",
+      "modular worker accommodation for industrial project",
+      "portable labour colony with toilet and kitchen",
+      "labour hutment manufacturer in India",
+      "prefab labour quarters for EPC project",
+      "temporary worker housing for highway project",
+      "labour colony with sanitation block",
+      "double storey prefabricated labour colony",
+      "turnkey labour colony with dining hall"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "RCC/permanent construction buyer segment: sibling 'RCC Labour Quarter' (ID 216129) targets buyers procuring permanent or semi-permanent reinforced concrete worker quarters — a different construction method, durability tier, and procurement context from prefabricated/temporary MS-GI frame colonies; names implying permanent RCC or brick-masonry construction are blocked.",
+    "General prefabricated building buyer segment: siblings 'Prefabricated Buildings' (ID 35589), 'Prefabricated Industrial Buildings' (ID 178587), 'Prefabricated Steel Buildings' (ID 20474), and 'Modular Buildings' (ID 33188) attract buyers seeking commercial, industrial, or institutional prefab structures — not worker accommodation colonies; names that omit the labour/worker accommodation function and read as generic prefab buildings are blocked to prevent cross-contamination."
+  ],
+  "segment_contamination_disclaimer": null
+}
