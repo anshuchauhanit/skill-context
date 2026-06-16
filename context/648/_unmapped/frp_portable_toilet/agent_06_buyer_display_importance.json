@@ -1,0 +1,225 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is high — single cabin vs multi-compartment block, Indian squat pan vs Western commode vs urinal, economy vs executive finish are all visually distinct. Buyers use the image to confirm product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Toilet type (Indian/Western/Urinal), number of seats, cabin dimensions, and tank capacity are non-negotiable shortlisting criteria. A buyer needing a 6-seat block cannot evaluate a listing that omits seat count or compartment configuration."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with toilet type, number of seats, and cabin tier (economy vs executive). Indian construction contractors compare prices aggressively across sellers once type and size are confirmed; price is a primary shortlisting lever after spec match."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Sintex is a recognised brand with dedicated buyer demand confirmed by a taxonomy sibling MCAT ('Sintex Portable Toilets', 361 listings); institutional and government buyers also evaluate manufacturer track record and delivery capability.",
+      "reason": "Institutional and government buyers (Swachh Bharat, municipal) evaluate manufacturer credentials, delivery track record, and GST compliance during vendor selection. Brand matters in the premium segment but most volume buyers prioritise spec and price first."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Multi-compartment blocks are quoted per block (still a single assembled unit). Rental market may quote per day but this is outside the primary B2B listing context. No buyer questions whether a portable toilet cabin is sold per piece.",
+      "reason": "Unit is entirely implied — every FRP portable toilet cabin is a discrete, countable unit sold per piece. No buyer confusion is possible."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "No Of Seats",
+        "reason": "Seat count defines the scale of the unit — a 1-seat cabin vs a 6-seat or 10-seat block is non-interchangeable and drives the largest price delta in this category (easily 3–8x difference between single-seat and large multi-seat blocks)."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Toilet Seat",
+        "reason": "Defines the fundamental product type (Indian Seat, Western Seat, Urinal Only, Indian And Western) — non-interchangeable across buyer requirements, and Indian vs Western drives a meaningful price difference due to ceramic commode cost."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Features",
+      "Flooring",
+      "Mounting Type",
+      "No Of Seats",
+      "Tank Capacity",
+      "Toilet Seat",
+      "Toilet Type",
+      "Usage",
+      "Wall Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "FRP Wall Thickness",
+        "why_important": "Wall thickness (2–6 mm) is the primary indicator of cabin quality tier and structural durability — buyers use it to distinguish economy from premium cabins and it directly drives price; Agent 3 market_context explicitly identifies it as a key buyer decision factor.",
+        "source": "both",
+        "example_values": [
+          "2 mm",
+          "3 mm",
+          "4 mm",
+          "6 mm"
+        ]
+      },
+      {
+        "spec_name": "Cabin Dimensions",
+        "why_important": "Cabin footprint (e.g., 3×3 ft, 4×4 ft) determines whether the unit fits the available site space and affects material cost — buyers with constrained site layouts require this spec to shortlist.",
+        "source": "both",
+        "example_values": [
+          "3x3 ft",
+          "3.5x3.5 ft",
+          "4x4 ft",
+          "4x5 ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Toilet Seat Type",
+        "reason": "Defines the fundamental product type — a seller supplying only Indian-style cabins cannot fulfil a Western seat requirement, making this the primary routing spec for accurate seller matching.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Indian",
+          "Western",
+          "Urinal"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Size",
+        "reason": "Cabin footprint determines site fit and structural material cost — sellers need this to confirm they manufacture the required size and to price the unit accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "No Of Seats",
+        "why_important": "A buyer needing a 6-seat multi-compartment block vs a single cabin is a fundamentally different procurement requirement — sellers need seat count to determine product type, manufacturing scope, and price.",
+        "source": "both",
+        "example_values": [
+          "1 Seat (Single)",
+          "2 Seats (2-in-1)",
+          "3 Seats (3-in-1)",
+          "6 Seats (6-in-1)"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "1 Seat (Single)",
+          "2 Seats (2-in-1)",
+          "3 Seats (3-in-1)",
+          "6 Seats (6-in-1)"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Indian",
+      "id": "spec_1",
+      "prompt_for_generation": "Interior view of an FRP portable toilet cabin showing an Indian-style squat pan (orissa pan) at floor level, white FRP walls, anti-skid FRP flooring, water tap on side wall, clean and well-lit, straight-on perspective, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Western",
+      "id": "spec_2",
+      "prompt_for_generation": "Interior view of an FRP portable toilet cabin showing a white ceramic Western-style commode (WC seat with lid), white FRP walls, FRP flooring, water tap and flush mechanism visible, clean studio lighting, straight-on perspective, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Urinal",
+      "id": "spec_3",
+      "prompt_for_generation": "Interior view of an FRP portable urinal cabin showing a wall-mounted urinal trough or individual urinal unit, white FRP walls, FRP flooring, drain at base, clean and well-lit, straight-on perspective, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "No Of Seats",
+      "option_value": "1 Seat (Single)",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior view of a single-unit FRP portable toilet cabin, white or light grey colour, single door with ventilation louvre, compact footprint approximately 3x3 ft, placed on flat ground at a construction site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "No Of Seats",
+      "option_value": "2 Seats (2-in-1)",
+      "id": "spec_5",
+      "prompt_for_generation": "Exterior view of a 2-in-1 FRP portable toilet block with two adjacent doors side by side, white FRP panels, two separate compartments clearly visible, placed on flat ground, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "No Of Seats",
+      "option_value": "3 Seats (3-in-1)",
+      "id": "spec_6",
+      "prompt_for_generation": "Exterior view of a 3-in-1 FRP portable toilet block with three adjacent doors in a row, white FRP panels, three separate compartments clearly visible, placed on flat ground at a construction site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "No Of Seats",
+      "option_value": "6 Seats (6-in-1)",
+      "id": "spec_7",
+      "prompt_for_generation": "Exterior view of a large 6-in-1 FRP portable toilet block with six adjacent doors in a row, white FRP panels, six separate compartments clearly visible, wide structure placed on flat ground at a construction or municipal site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
