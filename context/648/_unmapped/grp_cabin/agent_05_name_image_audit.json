@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'GRP Cabin' directly matches the primary keyword and is the standard British/European trade term used alongside FRP Cabin in the Indian market; Agent 3 market_context confirms both GRP and FRP are accepted interchangeably, and 'GRP cabin' leads the primary_keywords list.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows a white GRP prefabricated portable cabin with aluminium sliding windows and moulded panel construction — correctly representing the primary segment of security guard and site office use.",
+      "Improvement is possible: the cabin is shown at an oblique angle on a plain white background with no contextual setting or size reference; a front-facing or slight three-quarter view with a construction/industrial site backdrop would better communicate the product's real-world application and scale to buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A white GRP (glass reinforced plastic) prefabricated portable cabin, rectangular box shape, approximately 10x8 ft, with moulded fibreglass panels, aluminium sliding windows on the front face, a single PVC door on the side, shown in a slight three-quarter front view on a clean construction site background with gravel ground and blue sky, bright natural daylight, sharp product focus, photorealistic style, square 1:1 composition, no text overlays except watermark.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
