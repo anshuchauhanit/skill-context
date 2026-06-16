@@ -1,0 +1,222 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "PEB structures vary visually across frame types (clear-span vs multi-span vs lean-to), cladding systems, and end-use configurations (warehouse vs factory vs cold storage). Buyers scan images first to confirm the structural type and scale match their project requirement — wrong visual type causes immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Frame type, service type (turnkey vs fabrication-only vs erection-only), and building usage are primary shortlisting criteria. Without these specs, buyers cannot determine whether the supplier's scope matches their project requirement."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No single dominant brand commands buyer recall in the Indian PEB market — buyers search by capability, geography, and track record rather than brand name; EPACK, Interarch, Pennar, and Tata BlueScope are known but not searched by name by most buyers.",
+      "reason": "PEB fabrication is a high-value, long-duration construction contract — buyers evaluate supplier credentials (IS 800 compliance, past project portfolio, erection capability, geographic reach) as a primary qualification gate before engaging on price. Post-sale dependency (erection supervision, warranty) makes company identity critical."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every PEB project is custom-engineered and quoted as a lump-sum or per-MT figure specific to the project scope, site conditions, and seismic/wind zone. Listed price is a rough budget signal only; final price is always negotiated after design and site assessment. Indian buyers are price-sensitive but cannot compare prices meaningfully across listings without spec equivalence."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per project (lump sum)",
+      "unit_note": "Component-only supply sub-segment uses per MT; cladding uses per sq ft — but these are minority sub-segments. For the primary turnkey service, no per-unit price exists to confuse. Unit ambiguity does not arise in project-based quoting.",
+      "reason": "Project-based pricing means there is no per-unit price displayed on the listing to misinterpret. Unit confusion cannot arise when every sale is individually scoped and quoted."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Service Type",
+        "reason": "Defines the fundamental scope of what is being sold — turnkey Design and Build vs Fabrication Only vs Erection Only are non-interchangeable service offerings with entirely different project values, and a buyer cannot substitute one for another."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Frame Type",
+        "reason": "Clear Span vs Multi Span vs Multi Gable vs Lean To determines structural engineering complexity, steel tonnage, and therefore price — a clear-span 60m warehouse costs substantially more than a multi-span equivalent covering the same footprint."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Building Usage",
+      "Cladding Type",
+      "Design Software",
+      "Frame Type",
+      "Material Grade",
+      "Project Size",
+      "Roof Slope",
+      "Service Location",
+      "Service Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Clear Span Width",
+        "why_important": "The maximum column-free interior width is the single most structurally and commercially differentiating capability of a PEB supplier — buyers with crane bays or large-format warehouses require specific clear spans (e.g. 30m, 60m, 90m) and suppliers without that capability cannot bid.",
+        "source": "both",
+        "example_values": [
+          "Up to 30m",
+          "30–60m",
+          "60–90m",
+          "Above 90m"
+        ]
+      },
+      {
+        "spec_name": "Crane Compatibility",
+        "why_important": "Industrial and manufacturing buyers with overhead EOT or HOT cranes require PEB frames designed with crane beam rails and higher column loads — this is a binary capability filter that eliminates non-compatible suppliers before any other evaluation.",
+        "source": "both",
+        "example_values": [
+          "EOT Crane Provision",
+          "HOT Crane Provision",
+          "No Crane",
+          "Monorail Provision"
+        ]
+      },
+      {
+        "spec_name": "Seismic / Wind Zone Compliance",
+        "why_important": "IS 1893 seismic zone and IS 875 wind zone govern structural design parameters and are mandatory procurement criteria for institutional, government, and large industrial buyers — suppliers must confirm zone-specific design capability.",
+        "source": "both",
+        "example_values": [
+          "Zone II",
+          "Zone III",
+          "Zone IV",
+          "Zone V",
+          "Wind Zone 1–4"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Application type (Industrial Shed, Warehouse, Cold Storage, etc.) immediately routes the RFQ to suppliers with the relevant structural and cladding capability — a cold storage PEB requires insulated sandwich panels while a poultry farm shed has entirely different load and ventilation requirements.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Industrial Shed",
+          "Warehouse/Godown",
+          "Cold Storage",
+          "Sports Court",
+          "Car Garage",
+          "Poultry Farm"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area",
+        "reason": "Project footprint area is the primary scale signal that determines steel tonnage, project value, and whether a supplier's fabrication capacity and erection team can handle the scope — suppliers with small-project focus cannot competitively bid large-area projects.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Service Type Required",
+        "why_important": "A buyer needing only fabrication supply (components) vs full turnkey design-fabricate-erect vs erection-only requires a completely different supplier type — without this, sellers cannot determine whether they are the right fit to respond.",
+        "source": "both",
+        "example_values": [
+          "Turnkey (Design + Fabrication + Erection)",
+          "Fabrication Only",
+          "Erection Only",
+          "Design Only"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Industrial Shed",
+      "id": "spec_1",
+      "prompt_for_generation": "Pre-engineered steel industrial shed with large clear-span rigid frame, corrugated metal roof and wall cladding in grey and blue, wide roller shutter entrance, concrete apron in foreground, natural daylight, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Warehouse/Godown",
+      "id": "spec_2",
+      "prompt_for_generation": "Pre-engineered steel warehouse building with multi-span gable roof, light grey metal cladding, multiple loading dock doors along the side wall, large footprint, flat site, natural daylight, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Cold Storage",
+      "id": "spec_3",
+      "prompt_for_generation": "Pre-engineered cold storage building with insulated sandwich panel cladding in white and light blue, sealed insulated doors, no windows, compact rectangular footprint, concrete yard, natural daylight, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Sports Court",
+      "id": "spec_4",
+      "prompt_for_generation": "Pre-engineered steel structure covering an indoor sports court, wide clear-span arch or gable roof with translucent polycarbonate roof panels for natural light, open sides with mesh infill, green and grey colour scheme, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Car Garage",
+      "id": "spec_5",
+      "prompt_for_generation": "Pre-engineered steel car garage structure with lean-to or single-span gable roof, metal sheet cladding, wide front opening with roller shutter, compact footprint suitable for 4–6 vehicles, concrete floor, natural daylight, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Poultry Farm",
+      "id": "spec_6",
+      "prompt_for_generation": "Pre-engineered steel poultry farm shed with long rectangular footprint, ventilated side walls with curtain openings, corrugated metal roof, rural agricultural setting, natural daylight, no people, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
