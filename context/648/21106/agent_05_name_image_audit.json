@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Aircraft Hangars' directly matches the top primary keyword and is the universally recognised B2B trade term confirmed across alt_names and market_context; no more specific or technically superior alternative exists for a category-level MCAT.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The image shows only the empty interior steel framework of a large-span industrial building with no aircraft, hangar doors, or aviation-specific features visible — a buyer cannot identify this as an aircraft hangar versus a generic warehouse or factory shed.",
+      "The primary segment requires a PEB clear-span aircraft hangar with identifiable aviation context (aircraft present, large bi-fold/sliding hangar door opening, or exterior view with apron), none of which are present in this interior-only, aircraft-absent shot."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Exterior photorealistic render of a large pre-engineered steel (PEB) clear-span aircraft hangar, wide bi-fold hangar door fully open revealing interior, a single-engine general aviation propeller aircraft parked just inside the door on a concrete apron, corrugated metal cladding in light grey with blue trim, bright daylight, clean white background sky, square 1:1 composition, sharp product-focused lighting, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
