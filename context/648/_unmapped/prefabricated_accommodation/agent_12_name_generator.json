@@ -1,0 +1,63 @@
+{
+  "enhanced_name_4w": "Prefab Worker Accommodation Cabin",
+  "enhanced_name_5w": "Prefab Labour Camp Accommodation Cabin",
+  "enhanced_name_6w": "Modular Prefab Labour Accommodation Cabin Unit",
+  "enhanced_name_long": "Prefabricated Labour and Worker Accommodation Cabins for Construction Sites, Industrial Campuses and Infrastructure Projects",
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated accommodation",
+      "labour accommodation cabin",
+      "staff accommodation cabin",
+      "worker accommodation prefab",
+      "prefab labour camp",
+      "container accommodation",
+      "portable labour cabin",
+      "bunkhouse cabin",
+      "prefab staff quarters",
+      "modular labour colony"
+    ],
+    "technical_synonyms": [
+      "modular accommodation unit",
+      "relocatable accommodation building",
+      "prefab labour hutment",
+      "insulated sandwich panel cabin",
+      "cold-formed steel modular housing",
+      "portable workmen accommodation",
+      "prefabricated dormitory unit",
+      "volumetric modular accommodation"
+    ],
+    "trade_names": [
+      "K-House (EPACK Prefab)",
+      "Bunkhouse",
+      "Labour Colony",
+      "Site Accommodation",
+      "Camp Cabin"
+    ],
+    "hindi_terms": [
+      "प्रीफैब्रिकेटेड आवास",
+      "लेबर कैंप केबिन",
+      "मजदूर आवास केबिन",
+      "पोर्टेबल केबिन"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated labour accommodation for construction site",
+      "portable cabin for labour camp near me",
+      "staff accommodation prefab cabin with bathroom",
+      "40ft container accommodation for workers",
+      "modular bunkhouse cabin for industrial site",
+      "prefab worker accommodation with electric connection",
+      "multi-storey prefab labour colony G+1",
+      "temporary housing for workers at project site",
+      "prefabricated staff accommodation with AC and meeting room",
+      "PUF panel labour accommodation cabin"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Security and guard-duty buyer segment: siblings Office Cabin, Security Cabins, Portable Security Cabins, FRP Portable Security Cabin, Prefabricated Security Cabin, MS Security Cabins attract buyers seeking single-occupant guard or office enclosures — incompatible with multi-occupant worker housing buyers; names implying guard room, security booth, or office enclosure are discarded.",
+    "Specialist-function cabin buyer segment: siblings Telephone Booths, Smoking Cabin, Toll Booth, Frisking Booth, Portable ATM Cabin, Portable Dressing Room, Portable Kitchen, Portable Pantry attract buyers seeking single-purpose utility enclosures — incompatible with accommodation/sleeping-quarters buyers; names implying any of these functions are discarded.",
+    "Material-type generic cabin buyer segment: siblings PUF Cabin, FRP Cabin, GRP Cabin, GI Portable Cabin, PVC Portable Cabin, MS Porta Cabin, Wooden Cabins, Aluminium Office Cabins attract buyers searching by material alone without accommodation context — trade names 'Porta Cabin' and 'Portable Cabin' discarded from enhanced names as they match sibling names (Portable Cabin MCAT 35400, MS Porta Cabin MCAT 150852) and attract generic non-accommodation buyers.",
+    "Classroom and educational buyer segment: sibling Portable Classrooms attracts school/institution buyers seeking teaching spaces — incompatible with construction-site worker housing buyers; any name implying classroom or educational use is discarded."
+  ],
+  "segment_contamination_disclaimer": null
+}
