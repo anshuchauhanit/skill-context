@@ -1,0 +1,212 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Industrial shed fabrication has high visual sub-type variation — PEB vs portal frame vs tin shed vs tensile structure are visually distinct; buyers scan images to confirm the construction system and finish quality before reading any text. A listing without a photo cannot communicate span, height, cladding type, or build quality — all primary shortlisting signals."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Buyers shortlist fabricators based on span capability, eave height, service type (turnkey vs erection-only), and shed type — without these specs a listing cannot be evaluated against project requirements. Spec mismatch (e.g., fabricator limited to 15m span when buyer needs 40m) eliminates the seller entirely."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Recognised PEB brands exist with strong buyer recall — EPACK Prefab, Interarch, Kirby, Zamil, Tata BlueScope Steel — and architects/developers specify by brand name for large projects; local fabricators are evaluated on track record and past project portfolio.",
+      "reason": "This is a high-value, site-executed construction service — buyers evaluate fabricator track record, past project portfolio, IS-code compliance capability, and geographic reach before committing. For large PEB projects, brand/manufacturer identity is a primary vendor qualification signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq ft rate varies substantially with span, height, cladding type, and service scope — buyers use listed price as a budget entry point after confirming spec fit, not as a primary shortlisting signal. Indian B2B buyers are price-aggressive but cannot compare rates without knowing the spec basis."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Large turnkey PEB projects may be quoted as lump-sum; roofing-only contracts are also per sq ft of roof area. Some listings quote per kg of steel — creates direct price comparison confusion and must be flagged.",
+      "reason": "Price cannot be compared without unit — per sq ft vs per kg vs lump sum are all present in the market and create real buyer confusion. Unit must be shown alongside any price to make the figure interpretable."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Shed Span",
+        "reason": "Span is the primary structural design driver — a fabricator capable of 15m clear span cannot supply a 40m column-free PEB, making values non-interchangeable and driving the largest per-sq-ft price delta in the category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Service Type",
+        "reason": "Erection-only vs fabrication-and-erection vs turnkey defines the entire scope of work and contract value — a buyer needing a turnkey project cannot substitute an erection-only supplier, and price differences across values are substantial."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cladding Material",
+      "Connection Type",
+      "Length",
+      "Material Grade",
+      "Roof Shape",
+      "Service Type",
+      "Shed Height",
+      "Shed Span",
+      "Shed Type",
+      "Surface Finish"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Construction System",
+        "why_important": "PEB vs conventional MS portal frame is the single most fundamental product-class separator in this category — it determines erection timeline, material sourcing, engineering approach, and per-sq-ft cost, and buyers explicitly search by system type.",
+        "source": "both",
+        "example_values": [
+          "Pre-Engineered Building (PEB)",
+          "Conventional MS Portal Frame",
+          "Tensile Structure",
+          "Hybrid"
+        ]
+      },
+      {
+        "spec_name": "Roofing Material",
+        "why_important": "Roofing material (PPGI sheet, insulated sandwich panel, polycarbonate, GI corrugated) is a primary cost and performance differentiator — insulated PUF panels vs bare GI sheet represent a significant per-sq-ft price gap and directly affect buyer decisions on thermal comfort and energy cost.",
+        "source": "both",
+        "example_values": [
+          "PPGI Sheet",
+          "Insulated Sandwich Panel (PUF)",
+          "Polycarbonate Sheet",
+          "GI Corrugated Sheet",
+          "FRP Sheet"
+        ]
+      },
+      {
+        "spec_name": "Wind Load / Seismic Zone Compliance",
+        "why_important": "IS:875 wind zone and IS:1893 seismic zone compliance is a mandatory engineering specification for institutional and government buyers — fabricators who cannot certify compliance are eliminated from tender shortlists.",
+        "source": "both",
+        "example_values": [
+          "Zone II",
+          "Zone III",
+          "Zone IV",
+          "Zone V",
+          "IS:875 Wind Zone 1–5"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Type",
+        "reason": "Structure type (PEB vs Conventional vs Pipe Structure) routes the RFQ to fabricators with the right engineering capability and factory setup — a conventional MS fabricator cannot supply a PEB project, making this the primary seller-routing spec.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "PEB",
+          "Pipe Structure",
+          "Non-PEB",
+          "Gable",
+          "Conventional"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Total Area",
+        "reason": "Total project area determines contract scale and whether a fabricator has the capacity and mobilisation capability to execute — sellers use this to decide whether to respond and to estimate project value.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Shed Span (Clear Width)",
+        "why_important": "Clear span width is the primary structural engineering constraint — fabricators have defined maximum span capabilities, and buyers with column-free span requirements above 25m can only be served by PEB-capable suppliers.",
+        "source": "both",
+        "example_values": [
+          "Up to 15 m",
+          "15–25 m",
+          "25–40 m",
+          "Above 40 m"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Industrial shed buyers frequently have an existing site layout, architectural sketch, or reference project photo that defines the shed configuration (bay arrangement, crane girder requirement, mezzanine, canopy extensions) — details that cannot be captured in dropdown specs. An uploaded site plan or reference image allows fabricators to assess feasibility and quote accurately without a preliminary site visit, significantly improving RFQ response quality for complex or non-standard shed configurations."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Type",
+      "option_value": "PEB",
+      "id": "spec_1",
+      "prompt_for_generation": "Pre-engineered steel building industrial shed, tapered column and rafter portal frame clearly visible, colour-coated PPGI roof and wall cladding in blue and grey, large clear-span interior, natural daylight, exterior three-quarter view, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Pipe Structure",
+      "id": "spec_2",
+      "prompt_for_generation": "Industrial shed with circular hollow section pipe frame structure, GI corrugated sheet roofing, open sides, visible round tubular columns and rafters, exterior view in natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Non-PEB",
+      "id": "spec_3",
+      "prompt_for_generation": "Conventional mild steel portal frame industrial shed, hot-rolled I-section columns and rafters, GI sheet roofing, welded connections visible, factory or warehouse exterior, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Gable",
+      "id": "spec_4",
+      "prompt_for_generation": "Gable-roof industrial shed with symmetrical pitched roof, colour-coated steel sheet cladding on both roof slopes and end walls, ridge clearly visible at apex, exterior three-quarter view, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Conventional",
+      "id": "spec_5",
+      "prompt_for_generation": "Conventional MS truss industrial shed, angle iron or channel section roof truss clearly visible, corrugated GI sheet roofing, brick or block infill walls, traditional construction appearance, exterior view in natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
