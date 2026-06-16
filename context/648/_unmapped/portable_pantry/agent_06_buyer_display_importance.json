@@ -1,0 +1,199 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Portable pantry cabins vary significantly in visual type — basic site canteen shell vs fitted office pantry with counter and overhead cabinets vs container-based unit. Buyers use the listing image to identify whether the product matches their deployment context before reading any text. Wrong visual type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Pantry size (floor area) and wall panel material are non-negotiable shortlisting gates — a cabin that does not fit the site footprint or meet the insulation requirement cannot be considered regardless of price. Buyers filter by these specs before contacting any seller."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with size and panel material — a 20x10 ft PUF-insulated cabin costs multiples of an 8x6 ft GI sheet cabin. Indian B2B buyers compare prices across listings after confirming size and material fit; price is a primary decision lever before contacting sellers."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Standard catalogue sizes are quoted per piece; custom-dimensioned builds are quoted per sq ft by multiple manufacturers. Both units appear in the market — a buyer comparing a per-piece listing with a per-sq-ft listing without unit clarity will misread the price. Unit must be shown alongside price.",
+      "reason": "Per piece vs per sq ft ambiguity is a real market condition for this MCAT. Price cannot be compared across listings without knowing the unit, creating a genuine buyer confusion risk."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in the Indian portable pantry cabin market — the market is fragmented across regional fabricators and buyers search by size, material, and price rather than manufacturer name.",
+      "reason": "Institutional and government buyers evaluate manufacturer status, installation capability, and site delivery track record during vendor selection. For smaller corporate buyers, company is less critical but seller credibility (years in business, past project references) is still checked before placing an order."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Pantry Size",
+        "reason": "Floor area is the primary price driver and is non-interchangeable — a buyer with a specific site footprint requirement cannot substitute one size for another, and price scales directly with cabin area."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel",
+        "reason": "Panel material (PUF vs EPS vs GI Sheet vs FRP) determines insulation grade and weather resistance, with PUF-insulated panels commanding a significant price premium over basic GI sheet construction — non-interchangeable across climate and application requirements."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Appliance Scope",
+      "Counter Type",
+      "Flooring Type",
+      "Pantry Size",
+      "Sink Type",
+      "Storage Options",
+      "Structure Material",
+      "Usage Type",
+      "Wall Panel",
+      "Water System"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Insulation Thickness",
+        "why_important": "PUF and EPS panels are available in multiple thickness grades (25mm, 40mm, 60mm, 80mm) that determine thermal performance and price independently of panel material type — a critical differentiator for cold-climate mining and food-grade deployments.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "25mm",
+          "40mm",
+          "60mm",
+          "80mm"
+        ]
+      },
+      {
+        "spec_name": "Electrical Fittings",
+        "why_important": "Whether the cabin includes basic electrical wiring, full electrical fittings (lighting, switchboard, points), or no electrical work is a buyer decision gate that affects both price and site readiness — currently not captured by any spec in the seller list.",
+        "source": "both",
+        "example_values": [
+          "Full Electrical",
+          "Basic Wiring Only",
+          "No Electrical",
+          "Customised"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Structural and insulation material determines which product line the seller can offer and is the primary basis for accurate pricing — sellers cannot quote without knowing whether the buyer needs PUF-insulated, FRP, MS, or GI construction.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Pantry Furniture",
+        "reason": "The scope of internal fittings (unfurnished shell vs work counter vs full fitted pantry) defines a fundamentally different product and price point — sellers need this to scope the build and respond with an accurate quote.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Work Counter",
+          "Storage Shelves",
+          "Overhead Cabinets",
+          "Serving Counter",
+          "Unfurnished"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Pantry Size",
+        "why_important": "The required floor area is the single most important buyer input — sellers cannot determine product fit or price without knowing the cabin dimensions, and size gates the entire product selection before material or fittings are considered.",
+        "source": "both",
+        "example_values": [
+          "8x6 ft",
+          "10x8 ft",
+          "12x8 ft",
+          "20x10 ft",
+          "Custom Size"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Pantry Furniture",
+      "option_value": "Work Counter",
+      "id": "spec_1",
+      "prompt_for_generation": "Interior of a prefabricated mild steel portable pantry cabin showing a straight work counter along one wall, laminate surface, no overhead cabinets, clean and empty, bright interior lighting, realistic photograph style, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Pantry Furniture",
+      "option_value": "Storage Shelves",
+      "id": "spec_2",
+      "prompt_for_generation": "Interior of a prefabricated mild steel portable pantry cabin showing open metal storage shelves mounted on the wall, no counter, shelves empty and clearly visible, bright interior lighting, realistic photograph style, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Pantry Furniture",
+      "option_value": "Overhead Cabinets",
+      "id": "spec_3",
+      "prompt_for_generation": "Interior of a prefabricated mild steel portable pantry cabin showing overhead wall-mounted cabinets with closed doors above a work counter, clean fitted kitchen style, bright interior lighting, realistic photograph style, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Pantry Furniture",
+      "option_value": "Serving Counter",
+      "id": "spec_4",
+      "prompt_for_generation": "Interior of a prefabricated mild steel portable pantry cabin showing a serving counter with a pass-through window or open-front counter facing the serving area, canteen-style layout, bright interior lighting, realistic photograph style, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Pantry Furniture",
+      "option_value": "Unfurnished",
+      "id": "spec_5",
+      "prompt_for_generation": "Interior of a prefabricated mild steel portable pantry cabin shell with bare walls, empty floor, no counters or shelves installed, plain painted interior, bright interior lighting, realistic photograph style, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
