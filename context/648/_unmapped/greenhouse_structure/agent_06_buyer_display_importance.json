@@ -1,0 +1,262 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is large — NVPH, shade net house, fan-and-pad, tunnel, and polycarbonate structures are visually distinct. Buyers use the image to identify structure type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Pipe diameter, frame coating (HDG vs powder coat), and structure type are NHB/MIDH subsidy-compliance gates. Listings without these specs cannot be evaluated for government scheme eligibility, which is the primary purchase driver for the majority buyer segment."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq mt rate is the primary comparison metric for Indian farmer buyers operating within government subsidy cost benchmarks. Price varies substantially across structure types (basic tunnel vs fan-and-pad vs polycarbonate), so buyers compare prices only after confirming spec and type match."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq mt",
+      "unit_note": "Some sellers quote per project (small installations) or per guntha (used structures) — without unit shown, per sq mt price cannot be compared across listings. Per sq mt is the NHB/MIDH subsidy evaluation standard and must always accompany price.",
+      "reason": "Price cannot be compared without unit — per sq mt vs per project vs per guntha creates real confusion. Unit ambiguity directly undermines the buyer's ability to compare quotes across sellers."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand with buyer recall in Indian greenhouse structures — market is fragmented across regional fabricators and turnkey contractors; buyers search by spec, subsidy eligibility, and price, not manufacturer name.",
+      "reason": "NHB empanelment status, installation track record, and state-specific subsidy processing experience are evaluated during vendor selection but only after spec and price shortlisting. Company is a qualifier, not a primary discovery signal."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Type",
+        "reason": "Defines the fundamental product class (NVPH vs fan-and-pad vs shade net vs tunnel) — values are non-interchangeable and carry the largest price delta in the category, with fan-and-pad structures costing three to five times more than basic tunnel frames."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Frame Coating",
+        "reason": "Hot Dip Galvanized (HDG) coating is the NHB/MIDH subsidy-qualifying standard — this spec is a hard compliance gate that determines subsidy eligibility and carries a significant price premium over powder-coated or paint-coated alternatives."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Country Of Origin",
+      "Foundation Type",
+      "Frame Coating",
+      "Peak Height",
+      "Pipe Diameter",
+      "Pipe Thickness",
+      "Span",
+      "Structure Material",
+      "Structure Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Covering Material",
+        "why_important": "The cladding type (UV polyethylene film vs polycarbonate sheet vs shade net) is a primary product differentiator that determines crop suitability, light transmission, and cost tier — buyers and subsidy schemes treat these as distinct product categories.",
+        "source": "both",
+        "example_values": [
+          "UV Polyethylene Film",
+          "Polycarbonate Sheet",
+          "Shade Net",
+          "HDPE Net"
+        ]
+      },
+      {
+        "spec_name": "Film / Cover Thickness (Micron)",
+        "why_important": "NHB/MIDH subsidy compliance mandates a minimum 200-micron UV-stabilised film — buyers must verify this spec to confirm subsidy eligibility, and sellers use it to differentiate compliant from non-compliant offerings.",
+        "source": "both",
+        "example_values": [
+          "200 micron",
+          "250 micron",
+          "800 micron (PC)",
+          "50% shade net"
+        ]
+      },
+      {
+        "spec_name": "Zinc Coating GSM",
+        "why_important": "NHB/MIDH subsidy specifications require a minimum 275 GSM zinc coating on HDG pipes — this is a distinct compliance parameter from Frame Coating type and is the most commonly audited spec during government scheme inspections.",
+        "source": "both",
+        "example_values": [
+          "275 GSM",
+          "200 GSM",
+          "120 GSM",
+          "600 GSM"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Design Type",
+        "reason": "Defines the fundamental product type and climate control approach — sellers need this to determine which product line applies, whether active cooling equipment is included, and what the correct price tier is.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Natural Vent",
+          "Fan and Pad",
+          "Arch Type",
+          "Dome",
+          "Flat Roof",
+          "Walk-in Tunnel"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area",
+        "reason": "Project scale determines total material quantity and cost — sellers cannot generate a meaningful quote without knowing the covered area requirement.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Covering Material",
+        "why_important": "Sellers need to know whether the buyer requires UV polyethylene film, polycarbonate sheet, or shade net to confirm product fit and provide an accurate price — a polycarbonate greenhouse costs three to five times more than a UV film polyhouse of the same area.",
+        "source": "both",
+        "example_values": [
+          "UV Polyethylene Film",
+          "Polycarbonate Sheet",
+          "Shade Net"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "UV Polyethylene Film",
+          "Polycarbonate Sheet",
+          "Shade Net"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Design Type",
+      "option_value": "Natural Vent",
+      "id": "spec_1",
+      "prompt_for_generation": "Naturally ventilated polyhouse structure with GI pipe frame and UV polyethylene film cover, side and roof vents open, agricultural field setting, daytime, wide-angle exterior view showing full structure, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design Type",
+      "option_value": "Fan and Pad",
+      "id": "spec_2",
+      "prompt_for_generation": "Fan and pad evaporative cooling greenhouse with GI pipe frame, exhaust fans visible on one gable end and cellulose cooling pads on opposite end, UV film cover, agricultural setting, daytime exterior view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design Type",
+      "option_value": "Arch Type",
+      "id": "spec_3",
+      "prompt_for_generation": "Arch-type quonset polyhouse with curved GI pipe frame and UV polyethylene film cover, semi-circular cross-section clearly visible, agricultural field, daytime exterior view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design Type",
+      "option_value": "Dome",
+      "id": "spec_4",
+      "prompt_for_generation": "Dome-shaped greenhouse structure with GI pipe geodesic or curved frame and UV film or polycarbonate cover, hemispherical form clearly visible, agricultural or nursery setting, daytime exterior view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design Type",
+      "option_value": "Flat Roof",
+      "id": "spec_5",
+      "prompt_for_generation": "Flat roof net house structure with GI pipe columns and horizontal cable purlin roof covered with shade net, rectangular flat-top profile clearly visible, agricultural field, daytime exterior view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Design Type",
+      "option_value": "Walk-in Tunnel",
+      "id": "spec_6",
+      "prompt_for_generation": "Walk-in tunnel polyhouse with arched GI pipe hoops and UV polyethylene film cover, low-profile single-span tunnel form clearly visible, crop rows inside visible through open end, agricultural field, daytime exterior view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "UV Polyethylene Film",
+      "id": "spec_7",
+      "prompt_for_generation": "Close-up of UV-stabilised polyethylene film covering stretched over GI pipe frame of an agricultural polyhouse, translucent milky-white film texture clearly visible, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Polycarbonate Sheet",
+      "id": "spec_8",
+      "prompt_for_generation": "Greenhouse structure clad with multi-wall polycarbonate sheets on GI or aluminium frame, rigid transparent panels with visible twin-wall cell structure, clean architectural appearance, daytime exterior view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Shade Net",
+      "id": "spec_9",
+      "prompt_for_generation": "Shade net house structure with GI pipe frame covered by green HDPE shade net, open-weave net texture clearly visible, agricultural field setting, daytime exterior view showing full structure, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
