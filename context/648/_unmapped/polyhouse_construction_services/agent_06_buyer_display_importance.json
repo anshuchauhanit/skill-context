@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Polyhouse type (NVPH vs Fan & Pad vs shade net) and structure material are non-interchangeable — wrong type means wrong subsidy category and wrong crop suitability. Specs are the primary shortlisting gate before any other signal is evaluated."
+    },
+    {
+      "rank": 2,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Established EPC firms (Dhaanya Seeds, Hitech Polyhouses, Jain Irrigation polyhouse division) carry buyer recall; buyers also actively search for state-empanelled contractors by name for subsidy-linked projects.",
+      "reason": "Subsidy-linked projects require contractors empanelled with state horticulture departments who can prepare DPRs and pass JIT inspections — contractor identity is a regulatory-equivalent trust gate, not a preference."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Project cost varies substantially by polyhouse type, area, and structure grade; Indian buyers are price-sensitive but can only compare prices after type and scope are confirmed. Listed price is a budget entry point; final cost is always negotiated per project scope."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Per sq ft dominates B2B buyer-facing negotiation; per sq meter is used in NHB/MIDH DPR and subsidy documentation; large projects (1 acre+) are often quoted as lump-sum turnkey. Unit must be shown alongside price to prevent misreading across these conventions.",
+      "reason": "Per sq ft vs per sq meter vs per project (lump sum) creates genuine price comparison confusion — a buyer comparing two listings cannot interpret price without knowing the unit basis."
+    },
+    {
+      "rank": 5,
+      "dimension": "image",
+      "level": "Medium",
+      "show": true,
+      "reason": "Portfolio photos of completed polyhouse projects serve as build-quality and contractor-credibility evidence, but the product is a construction service — type, specs, and contractor credentials carry more decision weight than visual appearance."
+    }
+  ]
+}
