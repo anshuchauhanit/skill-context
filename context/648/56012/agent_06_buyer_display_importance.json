@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Glass cabin sub-types (full glass, half-glass/half-solid, frameless, framed, portable standalone) are visually distinct and non-interchangeable for a given project brief. Buyers scan images first to identify cabin style; wrong visual type causes an immediate skip before any text is read."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Frame material (aluminium vs MS), glass thickness, and design type (framed/frameless) are primary shortlisting criteria that determine structural suitability and compliance with IS 2553. Without these specs, a contractor cannot evaluate whether the product meets project requirements."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft rate varies substantially with glass thickness, frame material, and glazing style — buyers compare rates only after spec equivalence is confirmed. Indian fit-out contractors are price-aggressive and actively compare across multiple vendors; price is a decisive shortlisting lever once spec matches."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Dominant unit for office cabin partitioning work. Standalone portable cabins and guard booths are quoted per piece — listings for these sub-types must show unit explicitly to prevent price comparison confusion with per-sq-ft office cabin listings.",
+      "reason": "Per sq ft vs per piece is a genuine market ambiguity between office partition cabins and standalone portable cabins. Price cannot be meaningfully compared without knowing the unit; omitting it causes buyer confusion and misquotation risk."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Saint-Gobain is actively cited by buyers and sellers as a glass brand signal in the Indian office cabin market; buyers specify Saint-Gobain glass as a quality proxy in project briefs.",
+      "reason": "Seller's fabrication and installation capability, track record, and glass brand sourcing (Saint-Gobain) are evaluated after price shortlisting — particularly by institutional buyers (banks, IT companies) who need post-sale installation assurance."
+    }
+  ]
+}
