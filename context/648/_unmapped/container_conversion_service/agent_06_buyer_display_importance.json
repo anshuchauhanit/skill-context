@@ -1,0 +1,211 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual variation across conversion types is extreme — a site office cabin, a café unit, a toilet block, and a cold storage conversion are visually unrecognisable as the same base product. Buyers use the image to identify conversion type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Container size (20ft/40ft) and fitout scope (insulation, electrical, HVAC) are non-interchangeable requirements that buyers know before searching. Listings without these specs cannot be evaluated for fit or price."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Price varies with container size, condition, and fitout complexity and is always quoted per container scope — no fixed list price exists. Indian buyers are price-sensitive but price is only comparable after size and fitout scope are confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "The Indian container conversion market is fragmented across regional fabricators with no dominant brand that buyers search for by name.",
+      "reason": "Fabricator credibility — delivery track record, installation capability, and past project portfolio — matters for a bespoke service where the buyer is committing to a single supplier for design, fabrication, and site installation."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per container",
+      "unit_note": "Large multi-container modular building projects may be quoted per project rather than per individual container, but per container is the dominant and universally understood unit for single-unit procurement.",
+      "reason": "Unit is entirely implied — every buyer understands that a container conversion is priced per container. No buyer questions this."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Container Size",
+        "reason": "20ft vs 40ft is non-interchangeable based on site footprint and project requirement, and drives a substantial price delta across the entire conversion scope."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation Type",
+        "reason": "No Insulation vs PUF vs Rockwool defines the thermal performance tier of the conversion — non-interchangeable across habitable vs storage applications — and is the primary fitout quality differentiator driving cost."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Container Grade",
+      "Container Size",
+      "Door Type",
+      "Insulation Type",
+      "Interior Finish",
+      "Roof Type",
+      "Service Type",
+      "Services Offered",
+      "Structure Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Electrical Fitout Level",
+        "why_important": "Buyers specify electrical scope upfront (basic wiring vs full DB board vs 3-phase supply) as it determines whether the unit is ready-to-use and drives a significant portion of fitout cost; 'Services Offered: Electrical Work' is a binary flag that does not capture this.",
+        "source": "both",
+        "example_values": [
+          "Basic wiring only",
+          "DB board with points",
+          "3-phase supply",
+          "No electrical"
+        ]
+      },
+      {
+        "spec_name": "Flooring Type",
+        "why_important": "Flooring type (anti-skid chequered plate, vinyl, ceramic tile, wooden laminate) is a standard differentiator in Indian portable cabin conversions that affects cost and application suitability and is absent from the current spec list.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "Chequered MS plate",
+          "Vinyl flooring",
+          "Ceramic tile",
+          "Wooden laminate"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Application routes the RFQ to sellers who specialise in the relevant conversion type — a seller equipped for office conversions may lack food-grade fitout capability for a café, making this the primary seller-routing gate.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Office",
+          "Food Service",
+          "Cafe",
+          "Bakery Shop",
+          "Storage",
+          "Accommodation"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Container length is non-interchangeable and is the primary driver of base price — sellers need this to confirm supply capability and provide an accurate quote.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Container Grade",
+        "why_important": "New vs one-trip vs used container is a primary price driver — sellers cannot provide an accurate quote without knowing the buyer's condition preference, and this is a standard decision point for Indian buyers.",
+        "source": "both",
+        "example_values": [
+          "New container",
+          "One-trip",
+          "Used / cargo worthy",
+          "As is"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Office",
+      "id": "spec_1",
+      "prompt_for_generation": "Converted ISO shipping container fitted out as a site office cabin, exterior view showing glass windows, entry door, and painted steel walls in grey or white, placed on a construction site, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Food Service",
+      "id": "spec_2",
+      "prompt_for_generation": "Converted ISO shipping container fitted out as a food service unit, exterior view showing a large service window cut into the side wall, counter visible, bright exterior paint, placed in an open area, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Cafe",
+      "id": "spec_3",
+      "prompt_for_generation": "Converted ISO shipping container fitted out as a café, exterior view showing glass facade panels, open serving window, decorative exterior finish in dark green or black, small outdoor seating area visible, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Bakery Shop",
+      "id": "spec_4",
+      "prompt_for_generation": "Converted ISO shipping container fitted out as a bakery retail shop, exterior view showing a display window cut into the side wall, glass door, clean painted exterior in white or cream, placed in a commercial area, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Storage",
+      "id": "spec_5",
+      "prompt_for_generation": "Converted ISO shipping container used as a storage unit, exterior view showing a roller shutter door on the side, minimal modifications, industrial grey or blue painted steel walls, placed on a flat surface, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Accommodation",
+      "id": "spec_6",
+      "prompt_for_generation": "Converted ISO shipping container fitted out as worker accommodation or bunk house, exterior view showing multiple windows, entry door with steps, insulated walls, placed on a project site, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
