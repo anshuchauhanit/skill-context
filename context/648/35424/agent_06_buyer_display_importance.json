@@ -1,0 +1,431 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Construction contractor / infrastructure project manager procuring 10–100+ units for site compliance (BOCW Act). Secondary: event management company, municipal corporation tender buyer.
+
+**Journey:**
+1. **Image first** — scans listing grid to identify cabin type (single unit vs block vs van), material appearance (FRP vs MS), and style (Indian squat vs Western). Visual sub-type variation is high. Wrong type = immediate skip.
+2. **Specification next** — checks material, toilet type (Indian/Western), number of seats, and tank capacity to confirm fit for site scale and compliance requirement. These are non-interchangeable.
+3. **Price** — construction contractors are price-aggressive; bulk procurement means per-unit price is a primary comparison lever once spec is confirmed. India price sensitivity is high.
+4. **Company** — for government tenders and large institutional procurement, manufacturer credentials, ISO certification, and supply track record matter. Sintex is a recognised name; most supply is from regional FRP fabricators.
+5. **Unit** — always per piece for single cabins. Multi-compartment blocks may be per set, but this is obvious from the product. No buyer confusion risk.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is significant (single cabin vs block vs van, FRP vs MS appearance, Indian vs Western style visible in photo).
+- **Specification:** High — material, toilet type, seat count, tank capacity are non-interchangeable shortlisting criteria.
+- **Price:** High — bulk procurement, price-aggressive Indian B2B buyers, commodity-like mid-market segment. Per-unit price comparison is active.
+- **Company:** Medium — manufacturer credentials matter for tenders and institutional buyers, but spec drives the shortlist first. No single dominant brand (Sintex is recognised but not universally specified).
+- **Unit:** Low — per piece is entirely implied for a cabin unit. No buyer confusion.
+
+---
+
+## Step 3 — Cross-Dimension Consistency Check
+
+1. Buyers arrive knowing their spec tier (construction site = Indian squat, multi-seat; event = Western, single) and compare prices within that tier → `price_display_type = "spec-driven price"` is appropriate because price changes substantially with seat count, material, and toilet type. ✓
+2. Unit is Low/show:false → price is High → no contradiction (unit rule: if price is Low, unit can't be High; here price is High and unit is Low — valid). ✓
+3. Not project-based price → unit rule for project-based doesn't apply. ✓
+4. Specification show:true → show_on_listing:true. ✓
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "High visual sub-type variation — single cabin vs multi-compartment block vs mobile van, FRP vs MS construction, and Indian squat vs Western commode style are all visually distinguishable and non-interchangeable. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Material, toilet type (Indian/Western), number of seats, and tank capacity are primary shortlisting criteria — non-interchangeable across site scale and compliance requirements. Listings without these specs cannot be evaluated for BOCW Act compliance or event deployment fit."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Construction contractors procure in bulk (10–100+ units) and actively compare per-unit prices across sellers once spec is confirmed; price varies substantially with material (FRP vs MS), seat count, and toilet type. India price sensitivity is high in this segment and price is a decisive shortlisting lever."
+  },
+  {
+    "rank": 4,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "yes",
+    "brand_important_reason": "Sintex is a recognised trade name buyers search for by name; a dedicated sibling MCAT 'Sintex Portable Toilets' (mcat_id 182628) confirms brand-driven search behaviour in this category.",
+    "reason": "Government tender buyers and large institutional procurement evaluate manufacturer credentials, ISO certification, and supply track record during vendor selection; however, spec and price drive the initial shortlist and company is a qualifier, not a primary filter."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "Low",
+    "show": false,
+    "canonical_unit": "per piece",
+    "unit_note": "Multi-compartment labour toilet blocks may be quoted per set; mobile toilet vans per van — but these sub-segments are carved out into sibling MCATs (Mobile Toilet Van mcat_id 44109). For the primary segment (single cabin units), per piece is universally implied and never a buyer question.",
+    "reason": "Unit is entirely implied for a prefabricated cabin unit — no buyer questions whether a portable toilet cabin is sold per piece. Sub-segment exceptions (blocks, vans) are handled in dedicated sibling MCATs."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Usage Site** — application/use-case tag (Construction Site, Event, Highway, School). Describes what the product is used FOR. Discard.
+- **With Wash Basin** — binary Yes/No, only 2 values; also a consequence/add-on feature, not a primary configurator. Deprioritise (soft eliminate — not a price-driving configurator at the top-2 level).
+- **Door Type** — 3 values (Sliding, Folding, Single); minor feature, does not drive significant price delta. Deprioritise.
+- **Gender Use** — Unisex/Female/Male; derived from toilet type and usage context, not an independent configurator. Deprioritise.
+- **Wall Thickness** — 4 values; correlated with Built Type and Material (PUF panel = thicker). Deprioritise as derivative.
+
+**Remaining strong candidates:** Material, No. Of Seats, Toilet Type, Tank Capacity, Built Type.
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Material (FRP / MS / HDPE / PVC / RCC / PP / ABS / LLDPE):**
+- Defines WHAT the product IS structurally. FRP vs MS vs HDPE are non-interchangeable — different durability, weight, corrosion resistance, and price tier. A buyer cannot substitute FRP for MS on a coastal site or a budget labour camp. Large price delta between material tiers. **Rank 1.**
+
+**No. Of Seats (1 / 2 / 3 / 4 / 5 / 6 / 8 / 10 / 12 / 16 Seater):**
+- Defines the scale of the unit — a 1-seater single cabin vs a 10-seater block are fundamentally different products with non-interchangeable deployment contexts and very large price deltas. Seat count is the primary capacity configurator that drives both price and site suitability. **Rank 2.**
+
+*(Toilet Type is also a strong configurator but is captured in the buyer spec audit as Seat Type — Material and No. Of Seats represent the two largest independent price-driving dimensions.)*
+
+### Phase 3 — Missing Spec Audit
+
+**specs_in_seller_list (verbatim copy):**
+Built Type, Door Type, Gender Use, Material, No. Of Seats, Tank Capacity, Toilet Type, Usage Site, Wall Thickness, With Wash Basin
+
+**Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+
+1. **Waste Management System** (Bio-digester / Septic Tank / Chemical / Direct Drain): Agent 3 explicitly identifies bio-digester as a "significant and growing sub-segment" with distinct procurement drivers (Swachh Bharat, BOCW). This is a primary price and compliance differentiator — bio-digester units cost significantly more and are specified separately in government tenders. Not present in seller spec list under any semantic equivalent. **Include.**
+
+2. **Toilet Type** — already in `specs_in_seller_list` as "Toilet Type" (Indian/Western/Urinal Only/Combi). ✓ Present — exclude from missing.
+
+3. **Overhead Water Tank** — Tank Capacity is already in the list and captures this dimension semantically. ✓ Present — exclude.
+
+4. **Flooring Type** (Anti-skid FRP / Chequered Plate / Tiles): Agent 3 mentions anti-skid flooring as a standard/optional feature. LLM world knowledge confirms this is a buyer-relevant spec for construction site safety compliance. Not present in seller spec list. However, this is a secondary feature — buyers rarely shortlist on flooring type alone. Below the top-10 importance threshold. **Exclude.**
+
+5. **Colour** — not a primary B2B shortlisting criterion for portable toilets; buyers don't filter by colour. **Exclude.**
+
+**Missing important specs confirmed:**
+
+- **Waste Management System** — absent from seller spec list. Bio-digester vs septic tank vs chemical treatment is a primary compliance and operational differentiator; government tender buyers specify waste management type explicitly, and bio-digester units command a significant price premium.
+
+### Phase 4 — Coverage Verdict
+
+1 entry in `missing_important_specs` → **partial**
+
+```json
+"seller_spec_audit": {
+  "top_configurator_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Material",
+      "reason": "FRP, MS, HDPE, and RCC are non-interchangeable material tiers with distinct durability, weight, and corrosion-resistance profiles — each commands a different price point and is specified for different deployment environments."
+    },
+    {
+      "rank": 2,
+      "spec_name": "No. Of Seats",
+      "reason": "Seat count defines the scale of the unit from a single-seater cabin to a 16-seater block — non-interchangeable across site deployment requirements and the primary driver of price delta within any material tier."
+    }
+  ],
+  "specs_in_seller_list": [
+    "Built Type",
+    "Door Type",
+    "Gender Use",
+    "Material",
+    "No. Of Seats",
+    "Tank Capacity",
+    "Toilet Type",
+    "Usage Site",
+    "Wall Thickness",
+    "With Wash Basin"
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Waste Management System",
+      "why_important": "Bio-digester, septic tank, chemical treatment, and direct drain are non-interchangeable waste disposal methods — government tender buyers and BOCW-compliant construction sites specify waste management type explicitly, and bio-digester units command a significant price premium over standard units.",
+      "source": "both",
+      "example_values": ["Bio-Digester", "Septic Tank", "Chemical Treatment", "Direct Drain / Soak Pit"]
+    }
+  ],
+  "coverage_verdict": "partial"
+}
+```
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Provided buyer specs:** Seat Type (Indian/Western), Primary Material (FRP/MS/Steel/HDPE), Footprint Size (4x4 ft / 3x3 ft / 4x3 ft)
+
+- **Seat Type (Indian/Western):** Defines the fundamental toilet configuration — Indian squat pan vs Western commode are non-interchangeable and route to entirely different product lines. Sellers need this to determine which product range applies. **Rank 1.**
+- **Primary Material (FRP/MS/Steel/HDPE):** Defines the structural material tier — each material has different price, durability, and deployment suitability. Sellers need this to confirm they manufacture/supply the required material type and to price accurately. **Rank 2.**
+
+*(Footprint Size is a dimensional spec — useful but less critical than material and seat type for seller routing; most sellers offer standard sizes and can confirm fit post-connection.)*
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Seat Type (Indian/Western):** Indian squat pan and Western commode are visually distinct toilet configurations — a buyer can immediately identify which type from a photo. **Thumbnail eligible: true.** Options: ["Indian", "Western"]
+- **Primary Material (FRP/MS/Steel/HDPE):** Material is not visually distinguishable in a thumbnail — FRP and HDPE cabins look similar externally. **Thumbnail eligible: false.**
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps:**
+
+1. **Number of Seats / Units Required** (1 / 2–5 / 6–10 / 10+): Agent 3 identifies bulk procurement (10–100+ units) as the dominant buying pattern. Sellers need to know whether the buyer needs a single cabin or a multi-compartment block to determine product type and pricing. Not present in buyer spec list. This is more important than Footprint Size for seller routing. **Include. would_be_rank: 2** (displaces Primary Material — seat count determines product type more fundamentally than material for initial seller routing). Not thumbnail eligible (numeric spec).
+
+2. **Waste Management System** (Bio-digester / Septic Tank / Standard): Agent 3 identifies bio-digester as a significant sub-segment with distinct procurement drivers. Sellers need this to determine product eligibility (not all sellers manufacture bio-digester units). Not present in buyer spec list. **Include. would_be_rank: 3** — important but below Seat Type and Seat Count for initial routing. No `would_be_rank` ≤ 2, so no thumbnail fields.
+
+3. **Footprint Size** — already in buyer spec list. ✓ Present — exclude.
+
+**Coverage verdict:** 2 entries in `missing_important_specs` → **partial**
+
+### Phase 4 — Image Upload Assessment
+
+Standard spec values (Seat Type, Material, seat count) adequately capture the requirement for a prefabricated cabin product. Sellers can respond accurately from text specs; portable toilets are catalogue products with defined configurations. **Image upload not recommended.**
+
+```json
+"buyer_spec_audit": {
+  "top_rfq_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Seat Type",
+      "reason": "Indian squat pan and Western commode are non-interchangeable toilet configurations that route buyers to entirely different product lines — sellers need this to determine which range applies before any other qualification.",
+      "thumbnail_eligible": true,
+      "thumbnail_options": ["Indian", "Western"]
+    },
+    {
+      "rank": 2,
+      "spec_name": "Primary Material",
+      "reason": "FRP, MS, and HDPE represent distinct material tiers with different price points, durability profiles, and manufacturing capabilities — sellers need this to confirm supply capability and price accurately.",
+      "thumbnail_eligible": false
+    }
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Number of Seats Required",
+      "why_important": "Seat count determines whether the buyer needs a single cabin unit or a multi-compartment block — a fundamental product-type distinction that sellers need to route the RFQ to the correct product range and price tier.",
+      "source": "both",
+      "example_values": ["1 Seat", "2-5 Seats", "6-10 Seats", "10+ Seats"],
+      "would_be_rank": 2,
+      "thumbnail_eligible": false
+    },
+    {
+      "spec_name": "Waste Management System",
+      "why_important": "Bio-digester, septic tank, and standard drain are non-interchangeable waste disposal systems — not all sellers manufacture bio-digester units, and government tender buyers specify this requirement explicitly.",
+      "source": "both",
+      "example_values": ["Bio-Digester", "Septic Tank", "Chemical Treatment", "Standard / Direct Drain"]
+    }
+  ],
+  "coverage_verdict": "partial",
+  "image_upload_recommended": false
+}
+```
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs` rank 1: Seat Type — `thumbnail_eligible: true`, options: ["Indian", "Western"]
+- `missing_important_specs`: Number of Seats Required — `thumbnail_eligible: false` (no prompts)
+
+**2 prompts total (one per Seat Type option):**
+
+All prompts represent `primary_segment`: FRP prefabricated portable toilet cabin for construction sites and outdoor use.
+
+```json
+"buyer_spec_thumbnail_prompts": [
+  {
+    "attribute": "Seat Type",
+    "option_value": "Indian",
+    "id": "spec_1",
+    "prompt_for_generation": "Interior view of a prefabricated FRP portable toilet cabin showing an Indian-style squat pan toilet fixture set into an anti-skid floor, clean white FRP walls, overhead water tank visible, bright studio lighting, no people, no branding, square crop.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Seat Type",
+    "option_value": "Western",
+    "id": "spec_2",
+    "prompt_for_generation": "Interior view of a prefabricated FRP portable toilet cabin showing a Western-style commode with seat and lid, clean white FRP walls, overhead water tank visible, bright studio lighting, no people, no branding, square crop.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  }
+]
+```
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual sub-type variation — single cabin vs multi-compartment block vs mobile van, FRP vs MS construction, and Indian squat vs Western commode style are all visually distinguishable and non-interchangeable. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Material, toilet type (Indian/Western), number of seats, and tank capacity are primary shortlisting criteria — non-interchangeable across site scale and compliance requirements. Listings without these specs cannot be evaluated for BOCW Act compliance or event deployment fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Construction contractors procure in bulk (10–100+ units) and actively compare per-unit prices across sellers once spec is confirmed; price varies substantially with material (FRP vs MS), seat count, and toilet type. India price sensitivity is high in this segment and price is a decisive shortlisting lever."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Sintex is a recognised trade name buyers search for by name; a dedicated sibling MCAT 'Sintex Portable Toilets' (mcat_id 182628) confirms brand-driven search behaviour in this category.",
+      "reason": "Government tender buyers and large institutional procurement evaluate manufacturer credentials, ISO certification, and supply track record during vendor selection; however, spec and price drive the initial shortlist and company is a qualifier, not a primary filter."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Multi-compartment labour toilet blocks may be quoted per set and mobile toilet vans per van, but these sub-segments are carved out into dedicated sibling MCATs (Mobile Toilet Van mcat_id 44109); for the primary segment of single cabin units, per piece is universally implied and never a buyer question.",
+      "reason": "Unit is entirely implied for a prefabricated cabin unit — no buyer questions whether a portable toilet cabin is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "FRP, MS, HDPE, and RCC are non-interchangeable material tiers with distinct durability, weight, and corrosion-resistance profiles — each commands a different price point and is specified for different deployment environments."
+      },
+      {
+        "rank": 2,
+        "spec_name": "No. Of Seats",
+        "reason": "Seat count defines the scale of the unit from a single-seater cabin to a 16-seater block — non-interchangeable across site deployment requirements and the primary driver of price delta within any material tier."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Door Type",
+      "Gender Use",
+      "Material",
+      "No. Of Seats",
+      "Tank Capacity",
+      "Toilet Type",
+      "Usage Site",
+      "Wall Thickness",
+      "With Wash Basin"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Waste Management System",
+        "why_important": "Bio-digester, septic tank, chemical treatment, and direct drain are non-interchangeable waste disposal methods — government tender buyers and BOCW-compliant construction sites specify waste management type explicitly, and bio-digester units command a significant price premium over standard units.",
+        "source": "both",
+        "example_values": ["Bio-Digester", "Septic Tank", "Chemical Treatment", "Direct Drain / Soak Pit"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Seat Type",
+        "reason": "Indian squat pan and Western commode are non-interchangeable toilet configurations that route buyers to entirely different product lines — sellers need this to determine which range applies before any other qualification.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Indian", "Western"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Primary Material",
+        "reason": "FRP, MS, and HDPE represent distinct material tiers with different price points, durability profiles, and manufacturing capabilities — sellers need this to confirm supply capability and price accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Number of Seats Required",
+        "why_important": "Seat count determines whether the buyer needs a single cabin unit or a multi-compartment block — a fundamental product-type distinction that sellers need to route the RFQ to the correct product range and price tier.",
+        "source": "both",
+        "example_values": ["1 Seat", "2-5 Seats", "6-10 Seats", "10+ Seats"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Waste Management System",
+        "why_important": "Bio-digester, septic tank, and standard drain are non-interchangeable waste disposal systems — not all sellers manufacture bio-digester units, and government tender buyers specify this requirement explicitly.",
+        "source": "both",
+        "example_values": ["Bio-Digester", "Septic Tank", "Chemical Treatment", "Standard / Direct Drain"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Seat Type",
+      "option_value": "Indian",
+      "id": "spec_1",
+      "prompt_for_generation": "Interior view of a prefabricated FRP portable toilet cabin showing an Indian-style squat pan toilet fixture set into an anti-skid floor, clean white FRP walls, overhead water tank visible, bright studio lighting, no people, no branding, square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Seat Type",
+      "option_value": "Western",
+      "id": "spec_2",
+      "prompt_for_generation": "Interior view of a prefabricated FRP portable toilet cabin showing a Western-style commode with seat and lid, clean white FRP walls, overhead water tank visible, bright studio lighting, no people, no branding, square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
