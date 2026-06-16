@@ -1,0 +1,480 @@
+{
+  "mcat_description": {
+    "short": "Military shelters are prefabricated or portable structures — including barracks, bunkers, command centres, vehicle shelters, and hangars — designed for Indian Army, paramilitary, and defence establishment use. They are manufactured off-site using PUF insulated panels, steel, FRP, or aluminium and assembled rapidly at operational locations.",
+    "long": "Military shelters encompass a broad range of prefabricated and portable defence structures engineered for rapid deployment across extreme climatic conditions — from Himalayan high-altitude zones to desert terrains. Constructed using PUF sandwich panels, mild steel, FRP, or aluminium frames, these structures serve as barracks, bunkers, command centres, field office shelters, gun sheds, ammunition stores, aviation hangars, and vehicle shelters for the Indian Army, Indian Air Force, ITBP, BSF, and Military Engineering Services. Suppliers in India are typically registered as approved vendors with HQ Chief Engineer commands or MES, and structures must meet DGQA quality standards and MIL-spec requirements for insulation, structural load, and in some cases EMI shielding or NBC protection. The dominant commercial form is a modular, re-locatable prefabricated shelter that can be transported by road, rail, or air and erected without heavy equipment.",
+    "product_types": [
+      "Prefabricated Barracks / Accommodation Shelters",
+      "Bunkers (PUF insulated panel / steel)",
+      "Field Office Shelters (FOS)",
+      "Command and Control Shelters",
+      "Vehicle Shelters / Vehicle Co Box",
+      "Aviation Hangars / Gun Sheds",
+      "Ammunition Storage Shelters",
+      "Expandable Mobile Shelters (EMS)",
+      "EMI Shielded Defence Shelters",
+      "NBC Protected Shelters",
+      "Watchtowers / Guard Posts",
+      "Cook Houses / JCO Shelters / Officer Shelters",
+      "Containerised / Foldable Container Shelters",
+      "Inflatable Military Tents / Fabric Shelters",
+      "Tunnel-shaped / Dome-shaped Military Shelters"
+    ],
+    "primary_applications": [
+      "Troop accommodation at forward operating bases and Line of Control (LOC) locations",
+      "Command and control operations in field conditions",
+      "Vehicle and equipment storage at remote military stations",
+      "Aviation maintenance hangars and gun sheds at air force bases",
+      "Ammunition and ordnance storage",
+      "Field hospitals and medical units",
+      "Rapid deployment for disaster relief and humanitarian operations",
+      "Border security posts for ITBP, BSF, and CRPF",
+      "Training sheds and firing ranges at military establishments"
+    ],
+    "buyer_segments": [
+      "Indian Army (via MES — Military Engineering Services and HQ Chief Engineer commands)",
+      "Indian Air Force procurement",
+      "Paramilitary forces: ITBP, BSF, CRPF, SSB",
+      "Defence PSUs and DRDO establishments",
+      "MoD-registered contractors and approved vendors",
+      "State police and armed police forces",
+      "Disaster management agencies (NDRF, SDRF)"
+    ]
+  },
+  "primary_segment": "Prefabricated modular military shelter (PUF/steel panel construction) for Indian Army and paramilitary forces",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated modular military shelter for Indian Army and paramilitary forces",
+    "secondary_families": [],
+    "reason": "All sub-types (barracks, bunkers, vehicle shelters, command centres, hangars) share the same buyer universe (Indian defence/paramilitary procurement via MES/DGQA), the same regulatory context, and the same fundamental purpose — the MCAT is already the carved-out defence sub-segment within the broader prefabricated structures taxonomy."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "military shelters",
+      "army shelters",
+      "defence shelters",
+      "prefabricated military shelter",
+      "army prefab shelter",
+      "military portable shelter",
+      "defence prefab structure",
+      "army barracks prefab",
+      "military container shelter",
+      "vehicle shelter army"
+    ],
+    "technical_synonyms": [
+      "Expandable Mobile Shelter (EMS)",
+      "Field Office Shelter (FOS)",
+      "Re-locatable shelter",
+      "Containerised shelter",
+      "Modular defence shelter",
+      "PUF insulated military shelter",
+      "NBC protected shelter",
+      "EMI shielded shelter",
+      "Blast-resistant shelter",
+      "Ballistic shelter"
+    ],
+    "trade_names": [
+      "SSP prefabricated military shelter",
+      "Integrated Command and Control Shelter",
+      "Mobile Communication System (MCS) shelter",
+      "Svarn Defence Shelter",
+      "Ace PreFab defence shelter"
+    ],
+    "hindi_terms": [
+      "sena shelter",
+      "sainik awas",
+      "fauj ka shelter",
+      "army ka prefab ghar"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated military shelter for Indian Army",
+      "army barracks prefab structure supplier India",
+      "MES approved military shelter manufacturer",
+      "portable defence shelter for border posts",
+      "vehicle shelter for army use",
+      "DGQA approved prefab shelter India",
+      "military container shelter foldable India",
+      "army field office shelter prefabricated",
+      "bunker prefab PUF panel defence",
+      "EMI shielded shelter for defence applications"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Custom-built prefabricated panel shelters are quoted per square foot of floor area in Indian B2B transactions, reflecting the area-based construction cost model; standardised containerised or modular unit shelters may be quoted per unit/piece.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Custom prefab panel shelters (barracks, bunkers, hangars)",
+        "unit": "per sq ft",
+        "note": "Area-based pricing is standard for PUF/steel panel construction"
+      },
+      {
+        "sub_segment": "Containerised / foldable container shelters",
+        "unit": "per unit / per piece",
+        "note": "Standardised container dimensions make per-unit quoting natural"
+      },
+      {
+        "sub_segment": "Inflatable / fabric tents",
+        "unit": "per unit / per set",
+        "note": "Sold as complete tent systems"
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART listing tiles (structural signal only)",
+      "Shilpkar India manufacturer site",
+      "Akash Engimech manufacturer site",
+      "Svarn defence shelters page"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Military shelters in India are a specialised sub-segment of the prefabricated structures industry, with buyers concentrated in the Indian Army, Indian Air Force, ITBP, BSF, and other paramilitary forces procuring through the Military Engineering Services (MES) and HQ Chief Engineer commands. Manufacturers must typically be registered as approved vendors with MES or relevant command HQs, and products are subject to DGQA quality trials and MIL-standard compliance for insulation, structural load, and — for electronic warfare applications — EMI shielding and NBC protection. The dominant construction method uses PUF (polyurethane foam) sandwich panels with mild steel or aluminium framing, enabling rapid assembly and re-location; containerised foldable shelters are a growing sub-segment driven by border infrastructure expansion under programmes like the Border Area Development Programme. Product types span a wide functional range — barracks, bunkers, command centres, field office shelters, vehicle shelters, aviation hangars, gun sheds, ammunition stores, cook houses, and watchtowers — all sharing the same procurement channel and regulatory context. Sellers are concentrated in NCR (Noida, Ghaziabad, Delhi), Hyderabad, Ahmedabad, and Pune, reflecting proximity to defence establishments and MES zonal commands.",
+  "buyer_attracting_attributes": [
+    "Material / Panel Type (PUF, steel, FRP, aluminium)",
+    "Insulation Type and Thickness",
+    "Structural Load Capacity / Wind and Snow Load Rating",
+    "Climatic Rating (high-altitude, desert, tropical)",
+    "Portability / Deployment Time",
+    "Blast / Ballistic Resistance",
+    "EMI Shielding Capability",
+    "NBC Protection",
+    "DGQA / MES Approval / Certification",
+    "Size / Dimensions (floor area, height, configuration)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "33228",
+    "mcat_name": "Military Shelters",
+    "mcat_level": "4",
+    "listing_count": "154",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Military Shelters",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "158662.0",
+      "name": "Prefabricated Shed",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "158662.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20781",
+        "mcat_name": "Prefabricated Shelters",
+        "listing_count": "4676",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "20782",
+        "mcat_name": "Portable Shelters",
+        "listing_count": "930",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21106",
+        "mcat_name": "Aircraft Hangars",
+        "listing_count": "407",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "26766",
+        "mcat_name": "Dome Shelters",
+        "listing_count": "395",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30719",
+        "mcat_name": "Industrial Sheds",
+        "listing_count": "36863",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30721",
+        "mcat_name": "Industrial Shelters",
+        "listing_count": "531",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33397",
+        "mcat_name": "Metal Shelters",
+        "listing_count": "228",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35070",
+        "mcat_name": "Portable Garage",
+        "listing_count": "1406",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42756",
+        "mcat_name": "Telecom Shelters",
+        "listing_count": "611",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "107235",
+        "mcat_name": "Folding Garage",
+        "listing_count": "20",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136750",
+        "mcat_name": "Prefabricated Factory Shed",
+        "listing_count": "15425",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145222",
+        "mcat_name": "Poultry Sheds",
+        "listing_count": "1889",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "146519",
+        "mcat_name": "Cattle Sheds",
+        "listing_count": "1830",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158662",
+        "mcat_name": "Prefabricated Shed",
+        "listing_count": "4727",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164591",
+        "mcat_name": "Metal Sheds",
+        "listing_count": "1477",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164769",
+        "mcat_name": "Warehouse Sheds",
+        "listing_count": "6293",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166772",
+        "mcat_name": "Swimming Pool Tensile Cover",
+        "listing_count": "670",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "172388",
+        "mcat_name": "PEB Structures Fabrication",
+        "listing_count": "3547",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182931",
+        "mcat_name": "Auditorium Roofing Shed",
+        "listing_count": "504",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "187089",
+        "mcat_name": "Badminton Court Roofing Shed",
+        "listing_count": "1474",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "191761",
+        "mcat_name": "Swimming Pool Shed",
+        "listing_count": "280",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "220929",
+        "mcat_name": "Tin Shed",
+        "listing_count": "2737",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 22,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "do_research": true,
+      "reason": "Military shelters are prefabricated structures subject to Indian defence procurement standards (MoD, DGQA) and BIS compliance for structural safety. Standard B2B research into procurement patterns and technical specifications is required."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Top keywords by Pageviews used: 'army vehicle co box', 'military shelters', 'military container', 'vehicle shelter' — confirmed buyer vocabulary spans prefab panel and containerised sub-segments."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "primary_segment"
+        ],
+        "citation_note": "Single call row 'SSP prefabricated military shelter' confirmed prefabricated panel shelter as buyer vocabulary; SSP added to trade_names."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "Listing count 154 treated as plausible for niche defence MCAT; not flagged as suspect. Taxonomy path confirmed defence sub-segment within prefabricated structures."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://shilpkarindia.in/our-products/defence-applications/",
+        "title": "Army Shelters, Bulletproof Bunkers, Fencing Solutions — Shilpkar India",
+        "source_domain": "shilpkarindia.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for product type range (bunkers, barracks, watchtowers, hangars), buyer segments (Indian Army, IAF, ITBP, MES), climatic range, and material types (PUF panels, steel)."
+      },
+      {
+        "url": "https://shilpkarindia.in/enhancing-military-readiness-with-efficient-prefabricated-shelters/",
+        "title": "Enhancing Military Readiness & Efficient Prefabricated Shelters — Shilpkar India",
+        "source_domain": "shilpkarindia.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "mcat_description.primary_applications",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for product sub-types (bunkers, barracks, dormitories), rapid deployment characteristics, and material properties (fire-retardant, corrosion-resistant)."
+      },
+      {
+        "url": "https://aceprefab.com/project/defence-projects/",
+        "title": "Defence Projects — Ace PreFab",
+        "source_domain": "aceprefab.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "market_context"
+        ],
+        "citation_note": "Used to confirm MES/HQ Chief Engineer approval requirement, product types (gun sheds, ammunition shelters, JCO shelters, cook houses, re-locatable/containerised shelters), and buyer segments (Indian Army, IAF, ITBP, MES)."
+      },
+      {
+        "url": "https://www.akasheng.com/defence-shelter-containers",
+        "title": "Defence Shelter Manufacturer | Foldable Military Container Shelters — Akash Engimech India",
+        "source_domain": "akasheng.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for containerised/foldable shelter sub-segment, use cases (living quarters, bunkers, medical units, command centres), and portability/deployment attributes."
+      },
+      {
+        "url": "https://svarn.com/defence-shelters/",
+        "title": "Defence Shelters — Svarn",
+        "source_domain": "svarn.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.technical_synonyms",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for vehicle-mounted modular shelter sub-type, EMI shielding and NBC protection as buyer attributes, and MIL-standard compliance context."
+      },
+      {
+        "url": "https://www.army-technology.com/buyers-guide/military-shelters/",
+        "title": "Military Shelters | Army Tent & Shelter System Manufacturers — Army Technology",
+        "source_domain": "army-technology.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Used for global taxonomy of military shelter types (collapsible, prefabricated, mobile tactical, fabric structures, container-based) and buyer profile (strategists, procurement heads, engineering supervisors)."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "MoD",
+        "DGQA"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Military shelters are prefabricated structures subject to Indian defence procurement standards (MoD, DGQA) and BIS compliance for structural safety. Buyers evaluate durability, portability, material specs, and regulatory certification — not brand dominance. Standard B2B research into procurement patterns and technical specifications is required."
+    }
+  }
+}
