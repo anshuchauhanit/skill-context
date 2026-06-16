@@ -1,0 +1,55 @@
+{
+  "enhanced_name_4w": "Mist Propagation Chamber Nursery",
+  "enhanced_name_5w": "Polyhouse Mist Chamber Plant Propagation",
+  "enhanced_name_6w": "GI Polyhouse Mist Chamber Horticulture Nursery",
+  "enhanced_name_long": "Prefabricated Polyhouse Mist Propagation Chamber for Commercial Nurseries, Horticulture Departments and Plant Cutting Rooting",
+  "alt_names": {
+    "primary_keywords": [
+      "mist chamber",
+      "mist propagation chamber",
+      "polyhouse mist chamber",
+      "mist chamber for nursery",
+      "mist chamber for plant propagation",
+      "mist chamber horticulture",
+      "mist house",
+      "fogging chamber"
+    ],
+    "technical_synonyms": [
+      "mist propagation unit",
+      "intermittent mist propagation structure",
+      "fog chamber for plants",
+      "humidity propagation chamber",
+      "controlled humidity propagation house",
+      "mist spray chamber"
+    ],
+    "trade_names": [
+      "poly mist chamber",
+      "GI modular mist chamber",
+      "polycarbonate mist chamber",
+      "fan-pad mist chamber",
+      "prefab mist chamber"
+    ],
+    "hindi_terms": [
+      "मिस्ट चैम्बर",
+      "नर्सरी मिस्ट चैम्बर",
+      "पॉलीहाउस मिस्ट चैम्बर"
+    ],
+    "buyer_intent_queries": [
+      "mist chamber for nursery plants India",
+      "polyhouse mist chamber manufacturer",
+      "mist propagation chamber for horticulture",
+      "prefabricated mist chamber for plant cuttings",
+      "mist chamber for rooting cuttings",
+      "mist chamber setup for commercial nursery",
+      "GI mist chamber with fogging system",
+      "mist chamber for forest nursery plants"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Laboratory corrosion-testing instrument buyers (QC labs, paint and coating manufacturers) who search 'salt mist chamber' or 'salt spray chamber' — an entirely different product category with no overlap with horticultural nursery buyers; any name or alt-name term that could attract this buyer segment (e.g., salt mist, salt spray, corrosion test, ASTM B117) is blocked.",
+    "General prefabricated building buyers (industrial sheds, warehouses, modular offices) who are siblings in the same taxonomy parent — names that omit the horticultural/propagation function and read as generic prefab structures would attract the wrong buyer segment and collide semantically with siblings such as 'Prefabricated Buildings', 'Modular Buildings', or 'Greenhouse'; all enhanced names therefore retain explicit propagation or nursery qualifiers.",
+    "General greenhouse/polyhouse buyers (crop cultivation, not propagation) represented by siblings 'Greenhouse', 'Polyhouse', 'Naturally Ventilated Greenhouse', 'Agricultural Greenhouses' — names must retain the misting/propagation qualifier to distinguish mist chambers from general growing structures."
+  ],
+  "segment_contamination_disclaimer": null
+}
