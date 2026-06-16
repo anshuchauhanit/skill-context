@@ -1,0 +1,1225 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "106432594",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Labour Hut",
+      "description": "<p>We are a well-known company in offering <b>Prefabricated</b><b>Labour Hut</b>, which is widely renowned for its durability and high quality.</p><p>&nbsp;</p>",
+      "specs": {
+        "raw": "Built Type:Panel Build, Height:10 feet, Length:15 feet, Material:Wood"
+      },
+      "image_url": "http://5.imimg.com/data5/KF/SN/MY-41847694/labour-hut.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-labour hut-16551473348.html",
+      "image_file": "106432594.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white/blue panel-build prefab hut on open sandy ground with blue-trimmed door and windows — complete structure clearly identifiable as a prefabricated labour hut."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title explicitly names product type (Prefabricated Hut) and application (Labour), providing clear buyer-relevant identification."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs provide basic dimensions (10ft height, 15ft length) and panel build type but lack panel material, insulation type, and structural detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic boilerplate about durability and quality without any product-specific attributes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo and title confirm a panel-build prefabricated labour hut — a core product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only 4 fields (built type, height, length, material) with no panel type, insulation, or structural specification."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed — photo shows a clear, complete prefab labour hut; minor spec thinness noted but no active failures.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-labour hut-16551473348.html"
+    },
+    {
+      "item_id": "230892769",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "FRP Prefabricated Huts",
+      "description": "ACE&nbsp;&nbsp;INDIA&nbsp;INFRASTRUCTURE Manufacturer We are engaged in offering&nbsp; Preabricated Huts to our clients. Our range of all products is widely appreciated by our clients.",
+      "specs": {
+        "raw": "Brand:Ace India, Built Type:Prefab, Flooring Type:Tile Floor, House Style:Modern, Material:Steel, Mobility:Portable, Roof Type:Hut Type, Service Location:Pan India, Size:Custom Size, Structure Material:Steel, Thickness:12 mm, Usage:Farm House, Usage/Application:Toilet, Use:Resort Hut, Wall Panel Type:EPS Panel, Weather Proof:Yes"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2020/9/LQ/CC/OK/113903190/modular-house.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/frp-prefabricated huts-2849629376897.html",
+      "image_file": "230892769.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a dark wood-clad resort-style prefab hut with glass doors and garden setting — a valid Resort/Eco-Tourism Hut product type within this MCAT."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title names material (FRP) and product type (Prefabricated Huts) providing clear buyer-relevant identification."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material, panel type, mobility, and usage attributes but title claims FRP while specs state EPS Panel — a mild material inconsistency."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic company introduction with no product-specific technical attributes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo and title confirm a prefabricated resort hut — Resort/Eco-Tourism Hut is a recognised product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title states 'FRP' panel material but specs explicitly list 'Wall Panel Type: EPS Panel' — two different panel material types named for the same product."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'ACE INDIA INFRASTRUCTURE' embedded as a business identifier."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title claims 'FRP' panel material; specs state 'Wall Panel Type: EPS Panel' — explicitly different panel materials named for the same listing."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description text contains business name 'ACE INDIA INFRASTRUCTURE' as a company identifier."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed — photo shows a valid resort prefab hut; P04 and P16 flagged but neither disqualifies the listing from this MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/frp-prefabricated huts-2849629376897.html"
+    },
+    {
+      "item_id": "236891726",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Mild Steel Panel Prefabricated Hut",
+      "description": "Prefabricated Huts are portable and modular made out of insulated wall panels. These buildings are totally earthquik resistant having hight insulation property of heat/cold and sound.<br />We can use wall paper, wall tiles, any type of paints on the surface walls.<br />These builgings are totally water proof and siftable.<br /><br />",
+      "specs": {
+        "raw": "Built Type:Prefab, Color:Any, Customisation:available, Design Type:Modular, Door Type:UPVC, Flooring:600x600 vitrified tiles, Lifespan:40 year plus, Material:Steel, Place Of Origin:Pan India, Roof Type:Hut Shape, Roof Ventilators:possible, Size:Any, Usage/Application:Residential, Wall Thickness:75mm, Weight:10-15kg per sq.ft, Window Type:UPVC"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/12/PG/ZX/YJ/7307138/prefab-house-cabin.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/mild-steel panel prefabricated hut-2850229272555.html",
+      "image_file": "236891726.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white prefab panel-build house with pitched dark roof and garden setting — complete structure visible with clear prefab construction characteristics."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title names material (Mild Steel), construction method (Panel), and product type (Prefabricated Hut) — all buyer-relevant attributes present."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide 15 fields including wall thickness, lifespan, door/window type, flooring, and roof type — comprehensive technical specification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description details insulated wall panels, earthquake resistance, waterproofing, and portability — specific technical claims relevant to prefab hut buyers."
+        },
+        "category": {
+          "valid": true,
+          "reason": "All dimensions confirm a mild steel panel prefabricated hut — a core product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Prefabricated Houses",
+        "reason": "Listing describes a residential-use prefab structure with 40-year lifespan and full interior finishes — attributes that also fit the 'Prefabricated Houses' sibling MCAT."
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label good confirmed — strongest listing in the set with comprehensive specs, strong description, and clear product photo; mild sibling routing signal to Prefabricated Houses noted.",
+      "source_url": "https://www.indiamart.com/proddetail/mild-steel panel prefabricated hut-2850229272555.html"
+    },
+    {
+      "item_id": "241672401",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Hut",
+      "description": "JMV MERINE SERVICES helps customers to improve their efficiency by controlling noise at work place or by best acoustic design, we provide solutions based on open standards, our customers can decide what works best for them. Our objective is to give people the best product with best design and services.<br />JMV MERINE SERVICES believes in latest technology should be use to design next-generation product which can fulfill client&rsquo;s requirement as per international standards.",
+      "specs": {
+        "raw": "Built Type:Prefab, Color:Multiple, Country of Origin:Made in India, Material:Mild Steel, Place Of Origin:Pan India, Usage/Application:as per requirement, Weather Proof:Yes"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/4/299851769/HA/DO/GC/32612665/product-prefabricated-hut.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-hut-2850707340055.html",
+      "image_file": "241672401.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white single-storey prefab hut with green corrugated roof, steps, and windows in a mountain setting — complete structure clearly identifiable as a prefabricated hut."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads only 'Prefabricated Hut' with no material, application, or size detail — correct product named but no differentiating attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs provide only 7 generic fields (built type, color, origin, material, weather proof) with no dimensions, panel type, or structural detail."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description describes acoustic noise control services by 'JMV MERINE SERVICES' — entirely unrelated to a prefabricated hut product."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo and title confirm a valid prefabricated hut; description is a copy-paste error from a different product but does not invalidate the listing's category belonging."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title says 'Prefabricated Hut' but description describes acoustic noise control solutions — two entirely different products/services.",
+          "Description describes noise control and acoustic design services, which do not belong in the Prefabricated Hut MCAT."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains business name 'JMV MERINE SERVICES' repeated twice as a company identifier."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title states 'Prefabricated Hut' but description describes acoustic noise control services — completely different product/service."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Prefabricated Hut' with no material, application, size, or panel type — insufficient differentiation for a buyer."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains business name 'JMV MERINE SERVICES' used as a company identifier in the product description."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed — photo clearly shows a valid prefab hut; description is a copy-paste error from an unrelated product but photo and title anchor the listing correctly.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-hut-2850707340055.html"
+    },
+    {
+      "item_id": "152043846",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Beach Huts Atul",
+      "description": "If you're looking for an affordable, cozy, comfy and stylish contemporary design Atul is the right choice.&nbsp; It's Edgy &amp; modern looks break the traditional look of the wooden cottage industry. First of it's kind with an area of 311.42 sq ft",
+      "specs": {
+        "raw": "Brand:Wooden Homes India, Built Type:Prefab, Color:Brown, Customisation:yes, Design Type:Customized, Material:Wood, Roof Ventilators:Customized, Usage/Application:Resort/Hotel, Wall Thickness:Customized, Weight:1 Ton++"
+      },
+      "image_url": "http://5.imimg.com/data5/GI/NQ/FI/SELLER-6590518/beach-hut.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/beach-huts atul-22293536855.html",
+      "image_file": "152043846.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows multiple wooden beach resort huts with sand ground, palm trees, and outdoor furniture — a complete, clearly identifiable resort/beach hut installation."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Beach Huts) and model name (Atul) — correct product identified though model name adds limited buyer value."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material (Wood), built type (Prefab), usage (Resort/Hotel), and weight — adequate for a wooden resort hut product."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description provides specific area (311.42 sq ft), design style, and application context — relevant buyer-facing attributes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo and all text dimensions confirm a prefabricated wooden beach/resort hut — a recognised product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Prefabricated Beach House",
+        "reason": "Title explicitly names 'Beach Huts' and usage is Resort/Hotel — attributes that also fit the 'Prefabricated Beach House' sibling MCAT."
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — photo shows a valid beach resort prefab hut with no contradictions or category failures; sibling routing to Prefabricated Beach House noted.",
+      "source_url": "https://www.indiamart.com/proddetail/beach-huts atul-22293536855.html"
+    },
+    {
+      "item_id": "168260542",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Construction Sites Portable Cabin",
+      "description": "<p dir=\"ltr\">CEMENT FIBER SHEET PORTA CABIN SITE OFFICE&#160;&#160;Guru Nanak Interiors comes under the category of renowned Portable Cabins Manufacturers that supplies quality assured Porta Cabins. Being a recognized porta cabins manufacturers, we at Guru Nanak Interiors offer you well-designed portable products with the help of top class material and the latest techniques. Our offered products are checked on different parameters by our designers by ascertaining its flawless range of the clients. Our esteemed clients can avail this offered range from us as per their requirement at affordable rates.</p>",
+      "specs": {
+        "raw": "Built Type:Panel Build, Color:White, Floor Type:civil floor provied by cleint, Insulation Type:THERMOCOOL  UNSULATION, Material:AUROCON PANEL, Mobility:Portable, Model Name/Number:20, Shape:Rectangular, Size:COSTUMICE, Stiffener Bottom:both side texture paint, Structure Material:MS, Usage/Application:Office, Use:Site Office, Wall Panel Type:EPS Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2021/9/EV/HJ/KM/2671869/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/construction-sites portable cabin-23915206162.html",
+      "image_file": "168260542.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a long row of white/blue panel-build prefab labour quarters on a construction site — multiple rooms with individual doors and windows, clearly identifiable as prefabricated portable cabins."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names application (Construction Sites) and product type (Portable Cabin) — correct product identified; 'Portable Cabin Hut' is a recognised product type in this MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide panel material (AUROCON PANEL), structure material (MS), insulation type, wall panel type (EPS), mobility, and usage — comprehensive technical specification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description specifies cement fiber sheet porta cabin for site office use — relevant product and application detail, though padded with boilerplate."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo and all text dimensions confirm a portable panel-build cabin for construction site use — a core product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains business name 'Guru Nanak Interiors' used as a company identifier in the product description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains business name 'Guru Nanak Interiors' used as a company identifier."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo shows a valid prefab portable cabin on a construction site with strong specs and no contradictions; P16 flagged for business name in description.",
+      "source_url": "https://www.indiamart.com/proddetail/construction-sites portable cabin-23915206162.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "292846857",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefabricated Wooden Hut",
+      "description": "A prefabricated hut is&nbsp;a portable, compact structure made from pre-manufactured components that are assembled on-site.&nbsp;They are often used for temporary or mobile housing.&nbsp;",
+      "specs": {
+        "raw": "Built Type:Panel Build, Color:Brown, Country of Origin:Made in India, Floor Area:Above 1000 sq ft, House Type:Villa, Material:Mild Steel, Number Of Floors:Duplex, Usage:Resort, Usage/Application:House, Wood Type:Pine Wood"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2025/2/491010249/ED/HZ/XO/180972422/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-wooden hut-2855824785948.html",
+      "image_file": "292846857.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a 2-storey permanent brick/concrete house under construction at night with metal gate and construction debris — not a prefabricated hut."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Prefabricated Wooden Hut) — correct product named but no material or size detail beyond wood type."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs describe a 'Villa, Duplex, Above 1000 sq ft' structure — attributes of a large permanent residential building, not a portable prefabricated hut."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description correctly describes prefab huts as portable compact structures assembled on-site — accurate and category-relevant."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Photo shows a permanent brick/concrete 2-storey house; specs describe a Villa/Duplex/1000sqft structure — both indicate a permanent residential building, not a portable prefabricated hut."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs",
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Photo shows a permanent 2-storey brick/concrete house; title claims 'Prefabricated Wooden Hut' — fundamentally different product types.",
+          "Photo shows permanent brick construction; specs state 'Panel Build, Mild Steel' — construction method contradicts what is visually shown.",
+          "Title says 'Prefabricated Wooden Hut' (small portable structure) but specs state 'Villa, Duplex, Above 1000 sq ft' — scale and product type contradict."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs list both 'Material: Mild Steel' and 'Wood Type: Pine Wood' — two different primary material types claimed for the same product."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Houses",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Photo shows a permanent 2-storey brick/concrete house; title claims 'Prefabricated Wooden Hut' — different product types."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Photo shows permanent brick construction; specs state 'Built Type: Panel Build, Material: Mild Steel' — construction method contradicts visual evidence."
+        },
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title says 'Prefabricated Wooden Hut' but specs state 'House Type: Villa, Number Of Floors: Duplex, Floor Area: Above 1000 sq ft' — scale and product type contradict."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Photo shows a permanent brick/concrete 2-storey residential building — not a prefabricated hut."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe 'Villa, Duplex, Above 1000 sq ft' — attributes of a large permanent residential building, not a portable prefabricated hut."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs simultaneously list 'Material: Mild Steel' and 'Wood Type: Pine Wood' — two incompatible primary material claims."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Photo shows a permanent brick/concrete house at night — wrong product shown, not a prefabricated hut."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — photo shows a permanent brick house, specs describe a villa/duplex, multiple contradictions across all dimension pairs; correct MCAT suggestion: Prefabricated Houses.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-wooden hut-2855824785948.html"
+    },
+    {
+      "item_id": "149778090",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Panel build Prefabricated Hut",
+      "description": "Established in<b>&nbsp;2016, RAV Infrastructure&nbsp;</b>is the leading&nbsp;<b>Manufacturer, Wholesaler, and&nbsp;</b><b>Trader</b>&nbsp;of&nbsp;<b>Roofing Shingles, Roofing Tiles, Thatched Roof and much more.&nbsp;</b>Being a well-recognized provider, we make sure that we offer an internationally acclaimed range of products. Our Products are stringently tested on various quality parameters under the supervision of our quality experts. We also provide the services of&nbsp;<b>Roofing Shingle Installation Service</b>&nbsp;to our clients",
+      "specs": {
+        "raw": "Built Type:Panel Build, Color:Other, Material:Other, Usage/Application:Other"
+      },
+      "image_url": "http://5.imimg.com/data5/MQ/OM/LT/IOS-46561499/product-jpeg.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/panel-build prefabricated hut-22066961273.html",
+      "image_file": "149778090.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a 3D CGI architectural render of a modern elevated chalet concept — not a real product photo; structure type is ambiguous and render quality prevents product verification."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names construction type (Panel Build) and product (Prefabricated Hut) — correct product identified."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "All spec values are 'Other' — no meaningful product information provided."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description describes a roofing shingles, roofing tiles, and thatched roof manufacturer (RAV Infrastructure) — entirely different product category from prefabricated huts."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Description explicitly describes a roofing shingles/tiles/thatched roof company — the actual product being sold is roofing materials, not a prefabricated hut."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title says 'Panel build Prefabricated Hut' but description describes a roofing shingles, tiles, and thatched roof manufacturer — different product categories.",
+          "Description explicitly names roofing shingles, roofing tiles, thatched roof, and roofing installation services — none of which belong in the Prefabricated Hut MCAT."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains business name 'RAV Infrastructure' used as a company identifier."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title says 'Panel build Prefabricated Hut' but description describes a roofing shingles, tiles, and thatched roof manufacturer — completely different products."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes 'Roofing Shingles, Roofing Tiles, Thatched Roof' and 'Roofing Shingle Installation Service' — roofing materials, not prefabricated huts."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Photo is a 3D CGI architectural render of a design concept, not a real product photograph — insufficient for buyer product evaluation."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains business name 'RAV Infrastructure' as a company identifier."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — description is about roofing products/services, not prefabricated huts; photo is a CGI render; multiple contradictions observed.",
+      "source_url": "https://www.indiamart.com/proddetail/panel-build prefabricated hut-22066961273.html"
+    },
+    {
+      "item_id": "181290360",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Wooden Hut",
+      "description": "a small, prefabricated&nbsp; House&nbsp; devoloper .that can be installed by diffent degine .and used for a short period of time.",
+      "specs": {
+        "raw": "Built Type:Modular, Country of Origin:Made in India, Flooring:MS TUBELAR PIPE FREAMING ON M100X 100MM GRID 14 GAUZE ON MARINE PLY ON  WOODEN  FLOORING MAKE GREEN., Material:Wooden, Place Of Origin:Pan India, Roof Type:HUT SHAPE, Usage/Application:USE  HOUSE"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/8/539187777/GC/VS/XD/2671869/prefabricated-wooden-hut.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-wooden hut-25218187988.html",
+      "image_file": "181290360.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a modern 2-storey luxury home with wood deck, large glass windows, and lush tropical greenery — a stock/lifestyle photo of a permanent luxury residence, not a prefabricated wooden hut."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Prefabricated Wooden Hut) — correct product named."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs describe modular wooden construction with specific flooring detail and hut-shape roof — relevant attributes for a wooden prefab hut."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is very brief and generic — mentions prefabricated house developer and short-term use but provides no technical attributes."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Photo shows a luxury permanent 2-storey home — a stock image that does not represent a prefabricated wooden hut product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Photo shows a luxury 2-storey permanent home with concrete/stone base and wood deck; title claims 'Prefabricated Wooden Hut' — fundamentally different product types.",
+          "Photo shows a luxury permanent structure; specs describe modular wooden hut construction with MS pipe framing — construction type and scale contradict."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Photo shows a luxury 2-storey permanent home; title claims 'Prefabricated Wooden Hut' — different product types and scales."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Photo shows a luxury permanent structure; specs describe modular wooden hut with MS pipe framing — construction type and scale contradict."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Photo shows a luxury permanent 2-storey residential home — not a prefabricated hut."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Photo is a stock/lifestyle image of a luxury permanent home — wrong product shown for a prefabricated wooden hut listing."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — photo is a stock image of a luxury permanent home, contradicting the title and specs; category invalid via photo dimension.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-wooden hut-25218187988.html"
+    },
+    {
+      "item_id": "193163399",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Labour Hutment Construction Service",
+      "description": "&nbsp;Prefabricated Labour room in cheapest price we are providing same as very low cast please call for more details<br />",
+      "specs": {
+        "raw": "Material:PUF Panel and Aerocon Panel, Service Location/City:Pan India, Service Mode:Offline, Service Provider:Shivam Steel Fabrication, Service Type:Prefabricated Labour Hutment Construction Service, Surface Treatment:Paint Coated"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/8/RY/CK/PV/17767617/img-20161220-174017.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-labour hutment construction service-26405491962.html",
+      "image_file": "193163399.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a long row of cream/beige panel-build prefab labour huts on a construction site — valid prefab hut product shown clearly."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title explicitly names 'Construction Service' — a service offering, not a physical prefabricated hut product."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs explicitly list 'Service Type: Prefabricated Labour Hutment Construction Service' and 'Service Mode: Offline' — confirming this is a service, not a physical product."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description mentions prefabricated labour rooms at low cost — thin but does not explicitly confirm service vs. product."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title and specs explicitly describe a construction service — services belong in 'House Construction Services' sibling MCAT, not in this physical product MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Photo shows physical prefab hut structures; title explicitly names a 'Construction Service' — product vs. service contradiction.",
+          "Photo shows physical prefab hut structures; specs explicitly state 'Service Type: Prefabricated Labour Hutment Construction Service' — product vs. service contradiction."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Provider: Shivam Steel Fabrication' — a business name embedded in the specs."
+        }
+      },
+      "correct_mcat_suggestion": "House Construction Services",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Photo shows physical prefab hut structures; title names 'Construction Service' — product shown vs. service named."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Photo shows physical prefab huts; specs state 'Service Type: Prefabricated Labour Hutment Construction Service' — product vs. service contradiction."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title contains 'Construction Service' — a service offering does not belong in this physical product MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs explicitly state 'Service Type: Prefabricated Labour Hutment Construction Service' and 'Service Mode: Offline' — service specs in a physical product MCAT."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Provider: Shivam Steel Fabrication' — business name embedded in specs."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — title and specs explicitly describe a construction service; correct MCAT is 'House Construction Services' sibling.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-labour hutment construction service-26405491962.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images consistently show complete prefabricated hut structures photographed from a slight angle or straight-on exterior view, with the full building footprint visible including roof, walls, doors, and windows. The dominant visual pattern is a white or light-coloured panel-build structure with a coloured (blue, green) corrugated or flat roof, set on open ground — either a construction site, sandy terrain, or natural landscape. Resort/beach hut variants show wooden cladding with glass doors in a garden or beach setting, also photographed as complete exterior structures.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Verified good images show complete exterior structures where the product's appearance (panel type, roof shape, colour, size) is the primary buyer information — no readable text labels or spec sheets are printed on the product surface.",
+      "OCR would extract no useful product data from these images as all specifications are conveyed through visual form, not printed text on the structure."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Verified good images show complete prefab hut structures photographed from exterior, with full building visible including roof, walls, doors, and windows on open ground or site context.",
+    "product_identity": [
+      "Panel-build wall construction with visible door and window frames",
+      "Coloured corrugated or flat roof with overhang",
+      "Single-storey compact footprint on open/site ground",
+      "Complete exterior structure visible — no cropping of key components"
+    ],
+    "acceptable_scenes": [
+      "Construction site or sandy open ground context",
+      "Mountain or natural landscape backdrop",
+      "Resort/beach setting for wooden/resort hut variants",
+      "Clean white studio-style background for product-only shots"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "106432594",
+        "reason": "Image shows a white/blue panel-build prefab hut on open sandy ground with blue-trimmed door and windows — complete structure clearly identifiable as a prefabricated labour hut.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "236891726",
+        "reason": "Image shows a white prefab panel-build house with pitched dark roof and garden setting — complete structure visible with clear prefab construction characteristics.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "241672401",
+        "reason": "Image shows a white single-storey prefab hut with green corrugated roof, steps, and windows in a mountain setting — complete structure clearly identifiable as a prefabricated hut.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "168260542",
+        "reason": "Image shows a long row of white/blue panel-build prefab labour quarters on a construction site — multiple rooms with individual doors and windows, clearly identifiable as prefabricated portable cabins.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "One verified bad product has a thin image — a CGI architectural render that does not show a real product.",
+    "thinness_signals": [
+      "CGI/3D render used instead of real product photograph — structure type ambiguous and cannot be verified",
+      "Render shows a design concept rather than an actual manufactured and installed prefab hut"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "149778090",
+        "reason": "Image shows a 3D CGI architectural render of a modern elevated chalet concept — not a real product photo; structure type is ambiguous and render quality prevents product verification."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Two verified bad products show actively wrong images — a permanent brick house under construction and a luxury stock photo home — neither of which represents a prefabricated hut.",
+    "failure_classes": [
+      {
+        "class": "permanent_construction_photo",
+        "description": "Photo shows a permanent brick/concrete residential building under construction — not a prefabricated panel-build hut.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "292846857"
+          }
+        ],
+        "detection_signal": "Visible brick/masonry walls, concrete columns, or conventional construction debris inconsistent with panel-build prefab construction.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "luxury_stock_photo",
+        "description": "Photo shows a luxury permanent 2-storey home from a stock/lifestyle image — not a prefabricated hut product.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "181290360"
+          }
+        ],
+        "detection_signal": "High-end architectural finishes, wood deck, large glass facades, and lush tropical landscaping inconsistent with portable prefab hut products.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name material type, construction method, and application in a single phrase; acceptable titles name product type and application without material detail.",
+    "strong_positive_signals": [
+      "Material named (Mild Steel, FRP, Wood, GI) combined with product type",
+      "Application named (Labour, Construction Site, Resort/Hotel) providing buyer context",
+      "Construction method named (Panel Build, Prefab, Modular) confirming product nature"
+    ],
+    "structural_patterns": [
+      "[Material] [Construction Method] Prefabricated Hut",
+      "Prefabricated [Application] Hut",
+      "[Material] Prefabricated Huts",
+      "[Application] Portable Cabin"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "236891726",
+          "title": "Mild Steel Panel Prefabricated Hut",
+          "reason": "Names material (Mild Steel), construction method (Panel), and product type (Prefabricated Hut) — three buyer-relevant attributes in one concise title."
+        },
+        {
+          "item_id": "106432594",
+          "title": "Prefabricated Labour Hut",
+          "reason": "Names product type and application (Labour) — immediately communicates the dominant B2B use case to the target buyer."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "230892769",
+          "title": "FRP Prefabricated Huts",
+          "reason": "Names material (FRP) and product type — correct and specific but lacks application context."
+        },
+        {
+          "item_id": "168260542",
+          "title": "Construction Sites Portable Cabin",
+          "reason": "Names application (Construction Sites) and product type (Portable Cabin) — buyer-relevant but uses 'Cabin' rather than 'Hut' and lacks material detail."
+        },
+        {
+          "item_id": "152043846",
+          "title": "Beach Huts Atul",
+          "reason": "Names product type (Beach Huts) and model name — correct product identified but model name adds limited buyer value without material or spec context."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name only the generic product type without material, application, or construction method detail.",
+    "thinness_signals": [
+      "Title reads only 'Prefabricated Hut' with no material, application, size, or panel type — no differentiation from generic category name",
+      "Title includes a model name (e.g., 'Atul') that adds no buyer-relevant technical information"
+    ],
+    "examples": [
+      {
+        "item_id": "241672401",
+        "title": "Prefabricated Hut",
+        "reason": "Title is identical to the MCAT name — provides no material, application, size, or construction method to differentiate the listing."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles contain contaminating tokens that signal a service offering or a wrong product category rather than a physical prefabricated hut.",
+    "failure_classes": [
+      {
+        "class": "service_title",
+        "signal": "Title contains 'Construction Service' or 'Service' — signals a service offering, not a physical product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "193163399",
+            "title": "Prefabricated Labour Hutment Construction Service",
+            "reason": "Title explicitly names a 'Construction Service' — a service offering does not belong in this physical product MCAT.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "villa_duplex_title",
+        "signal": "Title combined with specs containing 'Villa', 'Duplex', or 'Above 1000 sq ft' signals a permanent residential building, not a portable hut.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "292846857",
+            "title": "Prefabricated Wooden Hut",
+            "reason": "Title says 'Hut' but specs describe 'Villa, Duplex, Above 1000 sq ft' — the title is misleading when read with specs; photo confirms permanent brick construction.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily service listings and permanent residential building listings.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "construction_service",
+        "signal": "Title or specs explicitly name 'Service Type', 'Service Mode', or 'Construction Service' — indicating a service offering rather than a physical prefabricated hut product.",
+        "examples": [
+          {
+            "item_id": "193163399",
+            "title": "Prefabricated Labour Hutment Construction Service",
+            "reason": "Specs explicitly state 'Service Type: Prefabricated Labour Hutment Construction Service' and 'Service Mode: Offline' — this is a service listing.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "House Construction Services"
+      },
+      {
+        "class": "permanent_residential_building",
+        "signal": "Specs describe 'Villa', 'Duplex', 'Above 1000 sq ft', or photo shows permanent brick/concrete construction — indicating a permanent residential building, not a portable prefab hut.",
+        "examples": [
+          {
+            "item_id": "292846857",
+            "title": "Prefabricated Wooden Hut",
+            "reason": "Specs state 'House Type: Villa, Number Of Floors: Duplex, Floor Area: Above 1000 sq ft'; photo shows permanent brick/concrete 2-storey house — not a prefabricated hut.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Houses"
+      },
+      {
+        "class": "roofing_materials_description",
+        "signal": "Description names roofing shingles, roofing tiles, thatched roof, or roofing installation services — indicating a roofing materials/services listing misplaced in this MCAT.",
+        "examples": [
+          {
+            "item_id": "149778090",
+            "title": "Panel build Prefabricated Hut",
+            "reason": "Description describes 'Roofing Shingles, Roofing Tiles, Thatched Roof' manufacturer RAV Infrastructure — roofing products, not prefabricated huts.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Prefabricated Beach House",
+        "signal": "Title explicitly names 'Beach Huts' and usage/application is 'Resort/Hotel' — attributes that also fit the Prefabricated Beach House sibling MCAT.",
+        "examples": [
+          {
+            "item_id": "152043846",
+            "title": "Beach Huts Atul",
+            "reason": "Title names 'Beach Huts', specs state 'Usage/Application: Resort/Hotel', and photo shows a beach resort hut installation — strong routing signal to Prefabricated Beach House."
+          }
+        ]
+      },
+      {
+        "sibling_mcat": "Prefabricated Houses",
+        "signal": "Listing describes a residential-use prefab structure with long lifespan, full interior finishes, and residential application — attributes that also fit the Prefabricated Houses sibling MCAT.",
+        "examples": [
+          {
+            "item_id": "236891726",
+            "title": "Mild Steel Panel Prefabricated Hut",
+            "reason": "Specs state 'Lifespan: 40 year plus', 'Usage/Application: Residential', 'Flooring: 600x600 vitrified tiles', 'Door Type: UPVC' — residential permanence attributes that also fit Prefabricated Houses."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from base64; text fields audited from provided title/description/specs."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names (House Construction Services, Prefabricated Houses, Prefabricated Beach House) drawn from confirmed taxonomy siblings list — not fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (Steel/FRP-framed portable prefab hut for labour/construction use), product_types list, and mcat_vagueness_signal (suspected_vague: false, PATH A applied) used to ground all category belonging decisions."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
