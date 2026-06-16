@@ -1,0 +1,98 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Office cabin design is a visual-first purchase — buyers scan portfolio images to assess aesthetic quality, finish level, and design style before reading any text. High visual variation across cabin types (glass partition executive cabin vs prefab site office vs modular workstation) means wrong visual = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin type, size, preferred material, and work scope are primary shortlisting criteria — a buyer needing a turnkey executive cabin fit-out cannot evaluate a prefab site office supplier without these specs. Buyers use specs to confirm the provider covers their specific cabin type and service scope before engaging."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brands exist in office cabin designing — market is fragmented across regional interior contractors and local fit-out firms; buyers search by portfolio and service scope, not brand name.",
+      "reason": "Interior design and fit-out is a trust-intensive service purchase — buyers evaluate the provider's portfolio, years of experience, past client credentials, and geographic service reach before shortlisting. Company identity is a primary qualification signal, not a post-shortlist check."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft rates vary substantially with cabin type, material quality, and work scope (design-only vs turnkey) — buyers use listed price as a budget entry point after visual and spec shortlisting. Indian B2B buyers are price-aggressive but final price is always project-negotiated; listed rate signals the provider's market tier."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Prefab/portable cabin sub-segment may quote per piece or per sq ft of built area — unit must be shown to prevent price comparison confusion between service and product listings co-existing in this MCAT.",
+      "reason": "Per sq ft is the dominant unit for interior fit-out services but prefab cabin suppliers quote per piece — without unit shown, buyers cannot compare prices across listing types in this mixed MCAT."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Type",
+        "reason": "Defines what the cabin IS and who it is for — Executive, Director, Conference, Portable, and Glass cabins are non-interchangeable product classes with substantially different material, labour, and design cost profiles."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Work Scope",
+        "reason": "Design-only vs Design and Build vs Turnkey drives the largest price delta in this service category — a consultation engagement and a full turnkey fit-out are not substitutable, and sellers can only respond accurately when scope is defined."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cabin Shape",
+      "Cabin Size",
+      "Cabin Type",
+      "Delivery Time",
+      "Design Service Type",
+      "Design Style",
+      "Preferred Material",
+      "Service Location",
+      "Usage Area",
+      "Work Scope"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Budget Range",
+        "why_important": "Interior fit-out buyers in India have widely varying budget tiers (economy, mid-range, premium) that determine material selection and design complexity — sellers need this to qualify leads and respond with appropriately scoped proposals.",
+        "source": "both",
+        "example_values": [
+          "Economy (basic materials)",
+          "Mid-range (standard corporate)",
+          "Premium (high-end executive)",
+          "Luxury (custom bespoke)"
+        ]
+      },
+      {
+        "spec_name": "Partition Type",
+        "why_important": "Glass, gypsum, wooden, and PVC partitions are structurally and aesthetically distinct — not all providers offer all types, and partition type is a primary material decision that drives both cost and visual outcome.",
+        "source": "both",
+        "example_values": [
+          "Glass Partition",
+          "Gypsum Board",
+          "Wooden Panel",
+          "PVC Panel",
+          "Aluminium Frame Glass"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_thumbnail_prompts": []
+}
