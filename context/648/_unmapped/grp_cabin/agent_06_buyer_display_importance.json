@@ -1,0 +1,201 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "GRP cabins vary enormously in form — guard cabin vs toilet block vs site office vs kiosk are visually distinct product types. Buyers use the image to identify cabin type and verify build quality and finish before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin size and insulation type are non-interchangeable shortlisting criteria — a 4×4 ft uninsulated guard cabin cannot substitute for a 10×8 ft PUF-insulated site office. Buyers discover and compare across spec tiers during search, making specs a primary decision gate."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian B2B buyers compare prices aggressively across sellers once cabin type and size are confirmed. Price varies substantially with size and insulation tier, making it a primary shortlisting signal after spec match is established."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Standard guard cabins and toilet cabins are quoted per piece; larger custom site office and accommodation cabins (10×10 ft and above) are sometimes quoted per sq ft by Indian manufacturers — unit must be shown to prevent price comparison confusion across these sub-segments.",
+      "reason": "Per piece vs per sq ft ambiguity is a real market condition for larger GRP cabins. Buyers cannot compare prices across listings without knowing the unit basis."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in the Indian GRP cabin market — it is fragmented across regional fabricators in Mumbai, Pune, Hyderabad, and Ahmedabad; buyers search by spec and price, not manufacturer name.",
+      "reason": "Seller credentials (installation capability, track record, customisation experience) matter for post-shortlist vendor selection, particularly for government and industrial buyers, but company identity is not a primary filter at the scanning stage."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Size",
+        "reason": "Size is the single largest price driver and defines the product class — a 4×4 ft guard cabin and a 12×8 ft site office are non-interchangeable, and area roughly doubles the price across the range."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation Type",
+        "reason": "PUF-insulated vs uninsulated represents a significant price delta and determines suitability for hot or coastal climates, making it the primary quality-tier differentiator within a given size."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Cabin Color",
+      "Cabin Size",
+      "Door Type",
+      "Features",
+      "Installation Area",
+      "Insulation Type",
+      "Structure Type",
+      "Wall Thickness",
+      "Window Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Fire Retardancy",
+        "why_important": "Government, industrial, and telecom buyers specify FR-grade GRP panels as a compliance requirement; standard vs fire-retardant grade carries a meaningful price premium and gates eligibility for regulated procurement.",
+        "source": "both",
+        "example_values": [
+          "Standard",
+          "Fire Retardant (FR Grade)",
+          "Self-Extinguishing",
+          "Non-Fire Retardant"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Application type (Security Cabin vs Portable Toilet vs Toll Booth) implies distinct cabin configurations, fittings, and layouts — sellers need this to determine whether their standard product range matches the buyer's requirement.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Security Cabin",
+          "Toll Booth",
+          "Guard Booth",
+          "Ticket Kiosk",
+          "Portable Toilet",
+          "Check Post"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Construction",
+        "reason": "Wall construction tier (Single Skin vs PUF Insulated vs EPS Insulated) directly determines the price band and manufacturing process — sellers need this to confirm they can supply the required quality level and quote accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Size",
+        "why_important": "Cabin footprint is the primary price driver — sellers cannot generate an accurate quote without knowing the required dimensions, and size determines whether a standard mould product or custom fabrication is needed.",
+        "source": "both",
+        "example_values": [
+          "4x4 ft",
+          "6x6 ft",
+          "10x8 ft",
+          "Custom Size"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Buyers requiring custom-size GRP cabins with specific internal layouts — door placement, window count, internal partitions, or plumbing points — cannot fully communicate their requirement through dropdown specs alone. An uploaded sketch or reference image allows sellers to assess fabrication feasibility and quote accurately without a back-and-forth inquiry cycle."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Security Cabin",
+      "id": "spec_1",
+      "prompt_for_generation": "GRP prefabricated security guard cabin, small 4x4 ft single-room structure, green and cream dual-tone gel coat finish, aluminium sliding window on front panel, single door on side, placed on flat ground at a construction site entrance, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Toll Booth",
+      "id": "spec_2",
+      "prompt_for_generation": "GRP prefabricated toll booth cabin, elongated rectangular structure with large front-facing service window opening, white and grey gel coat finish, mounted at a road toll plaza setting, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Guard Booth",
+      "id": "spec_3",
+      "prompt_for_generation": "GRP prefabricated guard booth, compact upright structure approximately 4x4 ft, blue gel coat finish, fixed glass window on front, single door, placed at a factory gate entrance, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Ticket Kiosk",
+      "id": "spec_4",
+      "prompt_for_generation": "GRP prefabricated ticket kiosk cabin, compact booth with wide front service counter window, cream or white gel coat finish, placed at a parking lot or event venue entrance, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Portable Toilet",
+      "id": "spec_5",
+      "prompt_for_generation": "GRP prefabricated portable toilet cabin, tall narrow single-unit structure with ventilation louvres near top, white or light grey gel coat finish, lockable door with handle, placed on a construction site, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Check Post",
+      "id": "spec_6",
+      "prompt_for_generation": "GRP prefabricated check post cabin, rectangular structure with large sliding glass windows on multiple sides for visibility, grey and white gel coat finish, placed at a highway or industrial zone checkpoint, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
