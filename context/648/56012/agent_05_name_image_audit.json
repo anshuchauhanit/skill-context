@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "\"Glass Cabin\" is confirmed as the dominant trade term in the Indian B2B market per Agent 3 market_context and primary_keywords, used interchangeably with \"glass partition cabin\" and \"aluminium office cabin\" by both buyers and sellers.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a glass elevator/lift cabin with floor buttons, floor indicator display, and lift shaft entry — this is a glass elevator product, not an aluminium-framed toughened glass office cabin partition enclosure (the primary_segment).",
+      "The image actively contaminates the MCAT by representing a categorically different product (glass elevator) that would mislead buyers searching for office glass cabin partitions, constituting a wrong-product signal."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A modern aluminium-framed toughened glass office cabin partition enclosure in a corporate office interior, showing a complete manager cabin with clear 8mm toughened glass panels set in powder-coated silver aluminium section frames, a swing glass door with aluminium handle, clean white office background, soft diffused overhead lighting, isometric front-facing view, photorealistic product render, no people, no text overlays, 1:1 square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
