@@ -1,0 +1,70 @@
+{
+  "enhanced_name_4w": "Prefab Steel Factory Shed",
+  "enhanced_name_5w": "Pre-Engineered Steel Factory Shed",
+  "enhanced_name_6w": "Prefab PEB Shed for Industrial Factory",
+  "enhanced_name_long": "Prefabricated Pre-Engineered Steel Factory Sheds for Manufacturing, Production Plants and Industrial Facilities",
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated factory shed",
+      "PEB factory shed",
+      "prefabricated industrial shed",
+      "factory shed",
+      "pre-engineered factory shed",
+      "steel factory shed",
+      "industrial PEB shed",
+      "prefab factory shed",
+      "pre-engineered building for factory",
+      "PEB shed for manufacturing unit"
+    ],
+    "technical_synonyms": [
+      "Pre-Engineered Building (PEB)",
+      "Pre-Engineered Metal Building (PEMB)",
+      "Simply Engineered Metal Building (EMB)",
+      "prefabricated steel structure",
+      "portal frame shed",
+      "rigid frame building",
+      "cold-formed steel shed",
+      "LGSF factory shed",
+      "PUF panel factory shed",
+      "conventional steel truss shed"
+    ],
+    "trade_names": [
+      "EPACK Prefab",
+      "Metal Tree PEB",
+      "Kamdhenu PEB",
+      "Utkarsh India PEB",
+      "Star PEB India",
+      "Pressmach PEB",
+      "METLEX Buildings",
+      "Alfa PEB",
+      "AS PEB Solutions",
+      "JSE Projects PEB"
+    ],
+    "hindi_terms": [
+      "factory ka shed",
+      "lohe ka shed",
+      "teen chadar shed"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated factory shed manufacturer in India",
+      "PEB shed for manufacturing unit",
+      "pre-engineered building for factory",
+      "steel shed for production plant",
+      "factory shed with crane provision",
+      "prefab shed for warehouse and factory",
+      "industrial shed manufacturers in Bangalore",
+      "PEB factory shed design and construction",
+      "prefab industrial shed turnkey contractor",
+      "PEB shed with mezzanine floor for factory"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Agricultural/livestock use buyers (poultry farmers, cattle shed buyers) — sibling MCATs 'Poultry Sheds' and 'Cattle Sheds' serve a distinct agri-rural buyer persona incompatible with industrial factory shed buyers; names implying farm, poultry, or cattle use are blocked.",
+    "Residential/consumer portable structure buyers — sibling MCATs 'Portable Shelters', 'Portable Garage', 'Folding Garage', and 'Metal Sheds' serve home/personal-use buyers at a different price tier and use context; names implying portable, foldable, or home-garage use are blocked.",
+    "Specialised non-factory shed buyers — sibling MCATs 'Aircraft Hangars', 'Telecom Shelters', 'Military Shelters', 'Auditorium Roofing Shed', 'Badminton Court Roofing Shed', and 'Swimming Pool Shed/Tensile Cover' serve distinct end-use segments; names targeting these specific applications are blocked.",
+    "Warehouse-primary buyers — sibling MCAT 'Warehouse Sheds' carves out the warehousing/logistics sub-segment; names that primarily position the product as a warehouse shed (rather than factory/manufacturing shed) are blocked to avoid contaminating that sibling's buyer segment.",
+    "Tin shed / low-cost informal shed buyers — sibling MCAT 'Tin Shed' carves out the colloquial tin/GI sheet shed segment; the term 'tin shed' is removed from enhanced names and primary keywords to avoid collision, though it is retained in hindi_terms as a buyer vocabulary signal only."
+  ],
+  "segment_contamination_disclaimer": null
+}
