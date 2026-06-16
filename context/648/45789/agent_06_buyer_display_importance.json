@@ -1,0 +1,202 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual sub-type variation — single-seater FRP cabin, multi-seater block, toilet van, and urinal block are visually distinct product classes. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Seating count, mounting type, wall material, and waste system are non-interchangeable shortlisting gates. A buyer needing a 4-seater bio-digester unit cannot substitute a 2-seater septic tank cabin; listings without these specs cannot be evaluated."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially across seating count, mounting type, and material — a single-seater FRP cabin and a 10-seater trailer-mounted van are not price-comparable. Indian construction buyers are price-sensitive but compare prices only after confirming spec equivalence; bulk orders are always negotiated."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional FRP fabricators; buyers search by spec and price, not manufacturer name.",
+      "reason": "Government tender buyers and institutional purchasers evaluate manufacturer credentials, ISO certification, and installation track record during vendor selection. For construction contractors, company matters for warranty and after-sales support but ranks below spec and price in the initial shortlist."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Rental operators quote per day or per event, but all purchase listings are per piece. Multi-seater blocks are also quoted per unit (the whole block). No buyer ever questions the unit for a discrete cabin structure.",
+      "reason": "Unit is entirely implied — every mobile toilet is a discrete, self-contained structure sold per piece. No buyer would question whether a toilet cabin is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "No Of Seats",
+        "reason": "Seating count defines the product class — a 1-seater cabin and a 10-seater block are non-interchangeable and carry the largest price delta in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Mounting Type",
+        "reason": "Mounting type defines the mobility class — a skid-mounted static cabin and a trailer-mounted mobile toilet van are fundamentally different products at very different price points and cannot be substituted."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Mounting Type",
+      "No Of Seats",
+      "Power Source",
+      "Tank Capacity",
+      "Toilet Seat",
+      "Toilet Type",
+      "Usage",
+      "Wall Material",
+      "With Bath Area",
+      "With Bio System"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Dimensions",
+        "why_important": "Construction site buyers need footprint dimensions (length × width × height) for space allocation planning and transport logistics; tender specifications frequently include dimensional requirements.",
+        "source": "both",
+        "example_values": [
+          "4 x 4 x 7 ft",
+          "3 x 3 x 7 ft",
+          "3.5 x 3.5 x 7 ft",
+          "5 x 4 x 7.5 ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Material",
+        "reason": "FRP, HDPE, and MS are supplied by different manufacturer types at different price points; a seller who only fabricates FRP units cannot fulfil an MS order, making this the primary routing spec.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "FRP",
+          "HDPE",
+          "MS"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Toilet Style",
+        "reason": "Indian-pan and Western-seat configurations are non-interchangeable at the factory level; sellers need this to confirm they can supply the required configuration.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Indian Style",
+          "Western Style"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "No Of Seats",
+        "why_important": "Seating count is the primary determinant of product class and price range — sellers cannot quote accurately without knowing whether the buyer needs a 1-seater cabin or a 10-seater block.",
+        "source": "both",
+        "example_values": [
+          "1 Seat",
+          "2 Seats",
+          "4 Seats",
+          "10 Seats"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Waste Management System",
+        "why_important": "Bio-digester, septic tank, and chemical tank systems determine deployment feasibility in locations without sewage connection; sellers need this to confirm product eligibility for the buyer's site.",
+        "source": "both",
+        "example_values": [
+          "Bio Digester",
+          "Septic Tank",
+          "Chemical Tank",
+          "No Tank (open drain)"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Material",
+      "option_value": "FRP",
+      "id": "spec_1",
+      "prompt_for_generation": "Single-seater FRP portable toilet cabin in light green or cream smooth fibreglass finish, standalone unit on flat ground, front door visible, clean white background, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Material",
+      "option_value": "HDPE",
+      "id": "spec_2",
+      "prompt_for_generation": "Single-seater HDPE portable toilet cabin in blue or grey moulded plastic finish, rotationally moulded rounded form, standalone unit on flat ground, front door visible, clean white background, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Material",
+      "option_value": "MS",
+      "id": "spec_3",
+      "prompt_for_generation": "Single-seater mild steel portable toilet cabin with painted grey or green metal panel exterior, visible steel frame construction, standalone unit on flat ground, front door visible, clean white background, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Toilet Style",
+      "option_value": "Indian Style",
+      "id": "spec_4",
+      "prompt_for_generation": "Interior view of a portable toilet cabin showing Indian-style squat pan at floor level, clean white or light grey FRP interior walls, footrests visible on either side of the pan, overhead lighting, no person present, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Toilet Style",
+      "option_value": "Western Style",
+      "id": "spec_5",
+      "prompt_for_generation": "Interior view of a portable toilet cabin showing Western-style toilet seat and bowl mounted on a pedestal, clean white or light grey FRP interior walls, toilet seat lid visible, overhead lighting, no person present, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
