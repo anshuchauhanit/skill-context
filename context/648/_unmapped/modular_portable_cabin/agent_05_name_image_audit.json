@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Modular Portable Cabin' directly matches the top primary keyword and is the dominant trade term used by Indian manufacturers (EPACK Prefab, KMS Technologies, Epsilon Enterprise) and buyers across IndiaMART listings; Agent 3 market_context confirms 'Modular Portable Cabin' and 'Porta Cabin' are the two interchangeable market-standard terms, making the current name accurate and buyer-recognisable.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a Western-style residential cottage with a pitched shingle roof, wooden porch, and garden furniture — this is a permanent residential structure, not a prefabricated modular portable cabin made from steel frames and sandwich panels as defined by the primary segment.",
+      "The image actively misleads B2B buyers (construction contractors, industrial facility managers) by depicting a consumer-grade permanent home rather than the factory-built, crane-liftable, steel-frame site office or industrial cabin that constitutes the primary segment."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A factory-built modular portable cabin for construction site office use, rectangular steel-frame structure with light grey or off-white insulated sandwich panel (PUF) walls, green or blue corrugated GI sheet roof, aluminium powder-coated sliding windows on the front face, a single MS door with steps, placed on flat open ground at a construction site with a crane or scaffolding visible in the soft background, front three-quarter view, bright natural daylight, clean white-to-light-grey gradient studio-style foreground, photorealistic product render, sharp focus on the cabin, no people, no text overlays, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
