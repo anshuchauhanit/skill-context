@@ -1,0 +1,392 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Construction contractor, event organiser, or municipal/government procurement officer buying portable chemical toilet cabins for site deployment or event use.
+
+**Journey:**
+1. **Image first** — scans listing grid to confirm it's a standalone cabin unit (not a van, not a partition, not a bio-toilet). Visual sub-type variation is high: Indian vs Western pan, single vs multi-seater, FRP vs HDPE colour/finish, luxury vs standard. Wrong type = immediate skip.
+2. **Specification next** — checks Toilet Type (Indian/Western), Wall Material (FRP/HDPE/PVC), Tank Capacity, and Mounting Type. These are the primary shortlisting gates. A contractor deploying 50 units at a construction site needs Indian-style, FRP, free-standing — wrong spec = no engagement.
+3. **Price** — Indian B2B buyers are price-aggressive. After confirming the right type and material, price is compared across sellers. Bulk orders (10–100 units) make per-unit price a critical comparison signal. Price varies significantly with material and toilet type.
+4. **Company** — for large institutional/government orders, manufacturer credibility, GST compliance, and supply capacity matter. For smaller contractor orders, less critical but not irrelevant.
+5. **Unit** — always per piece for outright sale. No buyer questions this. Rental sub-segment uses per day/month but the dominant listing mode is per piece.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is significant; cabin style, material finish, and configuration are all visually distinguishable.
+- **Specification:** High — Toilet Type and Wall Material are non-interchangeable; buyers cannot substitute Indian for Western or FRP for HDPE.
+- **Price:** High — commoditised mid-market with Indian price sensitivity; bulk procurement makes per-unit price a primary comparison signal once spec is confirmed.
+- **Company:** Medium — manufacturer status and supply capacity matter for large orders; no dominant brand with buyer recall.
+- **Unit:** Low — always per piece for outright sale; no buyer confusion possible.
+
+---
+
+## Step 3 — Decision Questions Per Dimension
+
+**Image:** Visual variation across sub-types (Indian vs Western, FRP vs HDPE, single vs multi-seater, standard vs luxury) is significant. Buyers use the image to confirm product type before reading specs. High.
+
+**Specification:** Buyers arrive with a defined requirement (Indian-style FRP for construction site). Spec confirms fit — but also drives discovery across material tiers. Toilet Type and Wall Material are primary shortlisting gates. High.
+
+**Price:** Buyers compare per-unit prices across sellers after confirming spec match. Bulk orders (10–100 units) amplify price sensitivity. Price varies with material (FRP > HDPE > PVC) and toilet type. `spec-driven price` — price changes substantially with Wall Material and Toilet Type. High.
+
+**Cross-dimension consistency check:**
+1. Buyers discover across spec tiers (FRP vs HDPE is a price-driving decision) → `spec-driven price` ✓ AND specification = High ✓
+2. Unit is Low/show:false → price is High → no contradiction (unit High requires price ≥ Medium; the reverse is not required) ✓
+3. Price is not project-based → unit rule 3 does not apply ✓
+4. Specification show: true → show_on_listing: true ✓
+
+**Company:** No dominant brand. Manufacturer status and supply capacity matter for institutional buyers. Medium.
+
+**Brand check:**
+- Taxonomy siblings scan: "Sintex Portable Toilets" (mcat_id 182628) is a branded sibling — Sintex is a recognised brand in plastic/HDPE products. However, this is a sibling MCAT carved out for Sintex specifically, suggesting brand affinity is real but narrow.
+- Indian market: Sintex is recognised; otherwise market is fragmented across regional FRP fabricators. Buyers do not typically search "Chemical Toilet by [brand]" — they search by material and type.
+- Verdict: `brand_important: no` — Sintex is the only recognisable brand and it has its own sibling MCAT; the broader Chemical Toilets MCAT is brand-agnostic.
+
+**Unit:** Per piece is the only conceivable unit for a standalone cabin. Rental sub-segment uses per day/month but is not the dominant listing mode. Low / show: false.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "High visual sub-type variation across Indian vs Western pan, FRP vs HDPE finish, single vs multi-seater, and standard vs luxury configurations. Buyers use the image to confirm product type before reading any text — wrong type is an immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Toilet Type (Indian/Western) and Wall Material (FRP/HDPE/PVC) are non-interchangeable primary shortlisting criteria. Tank Capacity and Mounting Type further gate fit for construction site vs event deployment."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Indian B2B buyers compare per-unit prices aggressively across sellers after confirming spec match. Bulk procurement (10–100 units) amplifies price sensitivity; price varies substantially with Wall Material (FRP vs HDPE vs PVC) and Toilet Type."
+  },
+  {
+    "rank": 4,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "Sintex is the only recognisable brand and has its own sibling MCAT; the broader Chemical Toilets market is fragmented across regional FRP/HDPE fabricators with no brand buyers actively search by name.",
+    "reason": "Manufacturer status, supply capacity, and GST compliance matter for large institutional and government orders; for smaller contractor purchases, company is a secondary qualifier."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "Low",
+    "show": false,
+    "canonical_unit": "per piece",
+    "unit_note": "Rental sub-segment uses per unit per day or per month, but the dominant listing mode on IndiaMART is per piece for outright sale. No buyer confusion arises.",
+    "reason": "Unit is entirely implied — a standalone toilet cabin is always sold per piece. No buyer would question this."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Application:** Use-case tag — describes deployment context, not what the product IS. Discard.
+- **With Sink:** Only two values (Yes/No). Retained — binary but meaningful differentiator. However, it is a feature flag, not a configurator that drives large price deltas. Deprioritise.
+- **Color:** Aesthetic preference; does not drive significant price delta. Deprioritise.
+
+**Remaining after elimination:** Chemical System, Flush Type, Mounting Type, Tank Capacity, Toilet Type, Wall Material, With Sink (deprioritised).
+
+**Redundancy/correlation check:**
+- Chemical System and Flush Type are correlated: Gravity Flush appears in both. However, Chemical System describes the waste-handling mechanism (gravity vs vacuum vs recirculating) while Flush Type describes the user-facing flush mechanism (foot pump vs electric vs manual). These are distinct enough to retain both.
+- Mounting Type (Free Standing vs Trolley Mounted vs Seat Top Tank vs Floor Tank): defines the physical form factor — non-interchangeable. Retain.
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Toilet Type** (Multi Seater / Seat Only / Single Seater / Western / Indian):
+- Defines WHAT the product IS at the most fundamental level. Indian vs Western is non-interchangeable — a construction site worker cannot use a Western-seat unit if Indian-pan is required, and vice versa. Single vs Multi-seater drives a large price delta (multi-seater blocks cost significantly more). This is the primary product class separator.
+- **Rank 1.**
+
+**Wall Material** (FRP / LLDPE / ABS Plastic / PVC):
+- Defines the quality and durability tier. FRP is the premium standard for Indian construction/event use; LLDPE/PVC are lower-cost alternatives. Price delta between FRP and PVC is substantial. Non-interchangeable for buyers with material specifications in tenders.
+- **Rank 2.**
+
+*(Tank Capacity was a strong contender for Rank 2 — it drives operational scale and price. However, Wall Material is more fundamentally non-interchangeable and drives a larger price delta per unit. Tank Capacity is a strong Rank 3 candidate.)*
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list:**
+Application, Chemical System, Color, Flush Type, Mounting Type, Tank Capacity, Toilet Type, Wall Material, With Sink
+
+**Step 3b — Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+- **Cabin Dimensions / Size** (e.g., 3×3×7 ft, 4×4×8 ft): Agent 3 explicitly mentions unit sizing as a key differentiator. Buyers deploying at construction sites need to know footprint for space planning.
+- **Overhead Water Tank Capacity**: Agent 3 mentions overhead water tank as a standard feature. Separate from waste tank — relevant for flush water availability.
+- **Ventilation Type** (natural/forced): Agent 3 mentions ventilation as a standard feature. Relevant for odour control in enclosed sites.
+- **Door Lock Type**: Agent 3 mentions door lock as a standard feature. Minor differentiator — below importance threshold.
+- **Roof Type** (flat/sloped): Minor structural differentiator — below importance threshold.
+
+**Step 3c — Cross-reference against specs_in_seller_list:**
+- Cabin Dimensions: Not present in seller spec list by name or semantic equivalent. Tank Capacity refers to waste tank only. **Confirmed absent.**
+- Overhead Water Tank Capacity: Not present. Tank Capacity in the list refers to waste holding tank (values: 50L–500L). **Confirmed absent.**
+- Ventilation Type: Not present. **Confirmed absent — but below importance threshold for top-10 buyer-relevant specs.** Buyers rarely specify ventilation type as a purchase criterion; it is assumed as a standard feature.
+- Door Lock Type: Below importance threshold. Omit.
+
+**Importance threshold check:**
+- **Cabin Dimensions**: Senior category managers would add this — footprint and height are critical for site planning and transport logistics. Buyers deploying multiple units need to know if the cabin fits in their allocated space. **Include.**
+- **Overhead Water Tank Capacity**: Relevant for flush water availability, especially for sites without continuous water supply. However, this is a secondary spec — buyers primarily care about waste tank capacity (already in list) and toilet type. Borderline — include as it is a genuine differentiator for construction site deployments where water supply is intermittent.
+
+**Final missing_important_specs:**
+1. **Cabin Dimensions** — footprint and height determine site deployment feasibility and transport logistics; buyers planning multi-unit deployments need this to allocate space.
+2. **Overhead Water Tank Capacity** — determines flush water availability between refills; critical for sites without continuous water supply where servicing frequency matters.
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → **partial**
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Provided buyer specs:** Waste Tank Cap, Seat Type, Primary Material
+
+**Assessment:**
+
+- **Seat Type** (Western / Indian): The single most important routing signal. Indian vs Western is non-interchangeable — sellers who manufacture only one style cannot supply the other. This immediately routes the RFQ to the right seller pool. **Rank 1.**
+
+- **Primary Material** (HDPE / FRP): Determines quality tier, price band, and which manufacturers can supply. FRP and HDPE are produced by different fabricators; a buyer specifying FRP cannot be served by an HDPE-only manufacturer. **Rank 2.**
+
+*(Waste Tank Cap is important but is a dimensional spec that sellers can accommodate across a range — it is a qualifier, not a hard routing gate like Seat Type or Primary Material.)*
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Seat Type** (Western / Indian): Each value has a visually distinct appearance — Western seat vs Indian squat pan are immediately recognisable. **Thumbnail eligible: true.** Options: ["Western", "Indian"]
+
+- **Primary Material** (HDPE / FRP): Both materials produce similar-looking white/blue cabin exteriors. The visual difference between HDPE and FRP is not meaningfully distinguishable in a thumbnail. **Thumbnail eligible: false.**
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Source 1 — Agent 3 vision_output:**
+- Agent 3 identifies Tank Capacity, Mounting Type, and Toilet Type (single vs multi-seater) as key differentiators.
+- Waste Tank Cap is already in the buyer spec list (semantic equivalent of Tank Capacity). ✓ Present.
+- Seat Type covers Indian/Western. ✓ Present.
+- **Single vs Multi-seater** (Number of Seats/Compartments): Agent 3 explicitly identifies single-seater vs multi-compartment as a product type differentiator. A buyer needing a 4-seater block cannot be served by a single-unit seller. This is absent from the buyer spec list.
+
+**Source 2 — LLM world knowledge:**
+- For Indian B2B chemical toilet procurement, the number of seats/compartments is a primary requirement — construction site contractors specify "10 single-seater units" vs "2 four-seater blocks." This fundamentally changes the product and price.
+- Application context (construction site vs event vs government project) helps sellers understand servicing requirements and urgency — but this is a post-connection discussion point, not a hard routing gate.
+
+**Cross-reference check:**
+- "Number of Seats" / "Compartments" / "Single vs Multi-seater": Not present in buyer_spec_list (Waste Tank Cap, Seat Type, Primary Material). Toilet Type in the seller spec list covers this but it is not in the buyer spec list. **Confirmed absent.**
+
+**Importance assessment:**
+- Single-seater vs multi-seater is a fundamental product class difference — a seller manufacturing single-unit cabins cannot supply a multi-compartment block. This is a hard routing gate. **would_be_rank: 1** — more important than Seat Type because it defines the product class before style matters.
+
+**Thumbnail eligibility for missing spec with would_be_rank ≤ 2:**
+- Number of Seats (Single Seater / Multi Seater): Single-seater cabin vs multi-compartment block are visually distinct. **Thumbnail eligible: true.** Options: ["Single Seater", "Multi Seater"]
+
+**Coverage verdict:** 1 missing spec → **partial**
+
+### Phase 4 — Image Upload Assessment
+
+Chemical toilets are catalogue products with defined configurations. Buyers specify their requirements through standard spec values (seat type, material, capacity, number of seats). Sellers can respond accurately from text specs alone. No custom fabrication or part-matching scenario applies.
+
+**Image upload recommended: false**
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+1. `top_rfq_specs` Rank 1: Seat Type — options: ["Western", "Indian"]
+2. `missing_important_specs` with would_be_rank 1: Number of Seats — options: ["Single Seater", "Multi Seater"]
+
+Total prompts: 4 (2 + 2), sequential IDs spec_1 through spec_4.
+
+All prompts represent primary_segment: "Self-contained portable chemical toilet cabin (FRP/HDPE/PVC) for construction sites and outdoor events."
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual sub-type variation across Indian vs Western pan, FRP vs HDPE finish, single vs multi-seater, and standard vs luxury configurations. Buyers use the image to confirm product type before reading any text — wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Toilet Type (Indian/Western) and Wall Material (FRP/HDPE/PVC) are non-interchangeable primary shortlisting criteria. Tank Capacity and Mounting Type further gate fit for construction site vs event deployment."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian B2B buyers compare per-unit prices aggressively across sellers after confirming spec match. Bulk procurement (10–100 units) amplifies price sensitivity; price varies substantially with Wall Material (FRP vs HDPE vs PVC) and Toilet Type."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Sintex is the only recognisable brand and has its own sibling MCAT; the broader Chemical Toilets market is fragmented across regional FRP/HDPE fabricators with no brand buyers actively search by name.",
+      "reason": "Manufacturer status, supply capacity, and GST compliance matter for large institutional and government orders; for smaller contractor purchases, company is a secondary qualifier."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Rental sub-segment uses per unit per day or per month, but the dominant listing mode on IndiaMART is per piece for outright sale. No buyer confusion arises.",
+      "reason": "Unit is entirely implied — a standalone toilet cabin is always sold per piece. No buyer would question this."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Toilet Type",
+        "reason": "Indian vs Western pan is non-interchangeable for any deployment context, and single vs multi-seater drives the largest price delta in the category — making this the primary product class separator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Material",
+        "reason": "FRP, LLDPE, and PVC represent distinct quality and durability tiers with substantial per-unit price differences, and tender specifications frequently mandate a specific material — making it non-interchangeable."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Chemical System",
+      "Color",
+      "Flush Type",
+      "Mounting Type",
+      "Tank Capacity",
+      "Toilet Type",
+      "Wall Material",
+      "With Sink"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Dimensions",
+        "why_important": "Footprint and height determine site deployment feasibility and transport logistics — buyers planning multi-unit deployments must confirm the cabin fits their allocated space before ordering.",
+        "source": "Agent 3 vision_output",
+        "example_values": ["3x3x7 ft", "4x4x7 ft", "4x4x8 ft", "3.5x3.5x7.5 ft"]
+      },
+      {
+        "spec_name": "Overhead Water Tank Capacity",
+        "why_important": "Determines flush water availability between servicing visits — critical for construction sites and remote deployments without continuous water supply where refill frequency directly affects operational cost.",
+        "source": "Agent 3 vision_output",
+        "example_values": ["50 L", "100 L", "150 L", "200 L"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Seat Type",
+        "reason": "Indian vs Western pan is non-interchangeable — sellers manufacturing only one style cannot supply the other, making this the primary RFQ routing gate.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Western", "Indian"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Primary Material",
+        "reason": "FRP and HDPE are produced by different fabricators at different price tiers — a buyer specifying FRP cannot be served by an HDPE-only manufacturer, making this a hard supplier routing signal.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Number of Seats",
+        "why_important": "Single-seater cabin vs multi-compartment block are fundamentally different products — a seller manufacturing individual units cannot supply a multi-seater block, making this a hard routing gate that precedes seat type in importance.",
+        "source": "both",
+        "example_values": ["Single Seater", "2 Seater", "4 Seater", "Multi Seater"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Single Seater", "Multi Seater"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Seat Type",
+      "option_value": "Western",
+      "id": "spec_1",
+      "prompt_for_generation": "Self-contained portable chemical toilet cabin with Western-style seat visible through open door, FRP white exterior, free-standing on flat ground, outdoor construction site background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Seat Type",
+      "option_value": "Indian",
+      "id": "spec_2",
+      "prompt_for_generation": "Self-contained portable chemical toilet cabin with Indian squat-pan visible through open door, FRP blue exterior, free-standing on flat ground, outdoor construction site background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Seats",
+      "option_value": "Single Seater",
+      "id": "spec_3",
+      "prompt_for_generation": "Single standalone portable chemical toilet cabin, FRP white exterior, compact single-unit structure, free-standing on construction site ground, full cabin visible from slight angle, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Seats",
+      "option_value": "Multi Seater",
+      "id": "spec_4",
+      "prompt_for_generation": "Multi-compartment portable chemical toilet block with four side-by-side cabin units joined together, FRP blue exterior, multiple doors visible, free-standing on open ground at outdoor event site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
