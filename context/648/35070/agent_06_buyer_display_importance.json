@@ -1,0 +1,251 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation between sub-types — fabric canopy carport, metal panel enclosed garage, foldable structure, and dome-top variants are visually distinct. Buyers use the listing image to identify product type and size (single vs double car) before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Vehicle capacity, cover material, and frame material are primary shortlisting criteria — a buyer needing a 2-car metal panel structure cannot substitute a 1-car fabric canopy. Without these specs, the listing cannot be evaluated for fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "standard stable price",
+      "reason": "Residential and small commercial buyers compare per-piece prices aggressively across multiple sellers after confirming product type match. India price sensitivity is high; price is a decisive shortlisting lever in this commoditised mid-market segment."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No established Indian brands with buyer recall exist in this category; market is fragmented across regional fabricators and importers with no brand-name search behaviour observed.",
+      "reason": "Seller credibility, installation support, and track record matter to buyers making a considered purchase, but no dominant brands exist — buyers evaluate company after specs and price confirm fit."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Fabricated/modular variants are quoted per sq ft, but the dominant primary segment (fabric canopy kit) is always sold per piece/set. No buyer confusion arises for kit-form products.",
+      "reason": "Kit-form portable garages are universally sold per piece or per set; no buyer ever questions this unit. Per sq ft applies only to custom-fabricated modular variants outside the primary segment."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Type",
+        "reason": "Defines the structural form of the product (Canopy Type vs Enclosed Garage vs Wall Attached vs Standalone) — non-interchangeable across buyer needs and carries a 3–5x price delta between canopy and enclosed garage variants."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Vehicle Capacity",
+        "reason": "Determines the physical size of the structure (1 Car vs 2 Car vs 4 Car) — non-interchangeable and drives significant price delta between single and multi-vehicle configurations."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Anchoring Type",
+      "Cover Material",
+      "Cover Thickness",
+      "Door Type",
+      "Frame Material",
+      "Installation Type",
+      "Type",
+      "Usage Area",
+      "Vehicle Capacity"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Size / Dimensions",
+        "why_important": "Residential buyers must confirm the structure's footprint (length × width × height) fits their available parking space before purchase — sellers need this to confirm standard sizes are adequate or quote custom fabrication.",
+        "source": "both",
+        "example_values": [
+          "3m x 5m",
+          "6m x 5m",
+          "3m x 6m x 2.5m (H)",
+          "Custom"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Vehicle Capacity",
+        "reason": "Directly determines the physical size of the structure a seller must supply — a seller with only 1-car units cannot respond to a 2-car or SUV requirement, making this the primary routing spec.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "1 Car",
+          "2 Cars",
+          "1 SUV/MUV",
+          "Motorcycle/Scooter"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Covering Material",
+        "reason": "Determines product type and quality tier — sellers specialising in fabric canopy kits cannot supply metal sheet structures, making this the primary seller-type routing signal after capacity.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "PVC Coated Fabric",
+          "HDPE Fabric",
+          "Tarpaulin",
+          "Metal Sheet",
+          "Oxford Fabric"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Size / Dimensions",
+        "why_important": "Sellers need the required footprint to confirm whether standard sizes fit the buyer's space or whether custom fabrication is needed — without this, sellers cannot respond with accurate availability or pricing.",
+        "source": "both",
+        "example_values": [
+          "3m x 5m (single car)",
+          "6m x 5m (double car)",
+          "Custom dimensions",
+          "3m x 6m"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Installation Type",
+        "why_important": "Sellers specialising in foldable/portable units cannot supply fixed semi-permanent structures — this spec routes the RFQ to the correct seller type when not already implied by covering material.",
+        "source": "both",
+        "example_values": [
+          "Foldable / Portable",
+          "Fixed / Semi-permanent",
+          "Wall-mounted",
+          "Freestanding fixed"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Vehicle Capacity",
+      "option_value": "1 Car",
+      "id": "spec_1",
+      "prompt_for_generation": "Single-car portable garage canopy with steel tube frame and white PVC fabric cover, sheltering one sedan, standalone on a residential driveway, natural daylight, front-angle view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Vehicle Capacity",
+      "option_value": "2 Cars",
+      "id": "spec_2",
+      "prompt_for_generation": "Double-car portable garage canopy with galvanised steel tube frame and blue PVC fabric cover, sheltering two sedans side by side, standalone on a flat surface, natural daylight, front-angle view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Vehicle Capacity",
+      "option_value": "1 SUV/MUV",
+      "id": "spec_3",
+      "prompt_for_generation": "Tall single-bay portable garage canopy with reinforced steel frame and grey PVC fabric cover, sheltering one full-size SUV, extra height clearance visible, standalone on a driveway, natural daylight, front-angle view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Vehicle Capacity",
+      "option_value": "Motorcycle/Scooter",
+      "id": "spec_4",
+      "prompt_for_generation": "Compact portable bike shelter with lightweight steel tube frame and green polyethylene fabric cover, sheltering one motorcycle, small footprint, standalone on a residential courtyard, natural daylight, front-angle view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "PVC Coated Fabric",
+      "id": "spec_5",
+      "prompt_for_generation": "Portable car garage canopy with white PVC coated fabric cover stretched over a steel tube frame, close-up showing smooth waterproof fabric surface texture, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "HDPE Fabric",
+      "id": "spec_6",
+      "prompt_for_generation": "Portable car garage canopy with green HDPE woven fabric cover on a steel tube frame, close-up showing breathable mesh-weave fabric texture, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Tarpaulin",
+      "id": "spec_7",
+      "prompt_for_generation": "Portable car shelter with blue polyethylene tarpaulin cover draped over a steel tube frame, close-up showing reinforced tarp material with grommets visible at edges, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Metal Sheet",
+      "id": "spec_8",
+      "prompt_for_generation": "Portable garage with corrugated GI metal sheet roof and side panels on a steel frame, enclosed structure with swing door, standalone on a commercial premises, natural daylight, front-angle view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Oxford Fabric",
+      "id": "spec_9",
+      "prompt_for_generation": "Portable car canopy shelter with beige Oxford fabric cover on a powder-coated steel tube frame, close-up showing dense woven Oxford cloth surface with UV-resistant finish, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
