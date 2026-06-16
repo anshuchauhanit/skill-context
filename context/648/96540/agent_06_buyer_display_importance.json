@@ -1,0 +1,170 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — 20ft vs 40ft, single vs double-storey, bare shell vs furnished, with or without toilet/pantry. Buyers use the image to identify the configuration class before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Size (L×W), storey configuration, and included features are primary shortlisting gates. A 20ft bare-shell unit cannot substitute for a 40ft furnished unit with toilet — specs are non-interchangeable and must be visible on the listing card."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian B2B buyers compare prices aggressively, but price is only comparable after size and feature equivalence is confirmed. Price varies substantially with configuration — a 40ft furnished unit with toilet and AC provision is not price-comparable to a 20ft bare shell."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional fabricators and no buyer searches by manufacturer name.",
+      "reason": "Manufacturer status, delivery capability, crane/forklift availability, installation track record, and post-delivery relocation support are evaluated during vendor selection for this capital asset with significant post-sale dependency."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Per sq ft quoting exists for custom-size configurations and per month for rental transactions, but the dominant purchase transaction is always per complete assembled unit. No buyer questions the unit for a standard purchase.",
+      "reason": "Unit is entirely implied — every office container is sold as one complete factory-assembled structure. No buyer is confused about whether the unit is per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Size (L x W)",
+        "reason": "Physical footprint is non-interchangeable across project requirements and is the single largest price driver — doubling length roughly doubles cost, making this the primary configurator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Features",
+        "reason": "Configuration additions (toilet, pantry, AC provision, workstations) define a fundamentally different product and drive substantial price variation — a fitted unit with toilet and pantry is not substitutable for a bare shell."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Container Type",
+      "Exterior Wall Material",
+      "Features",
+      "Furnishing",
+      "Insulation Material",
+      "Internal Wall Material",
+      "Product Type",
+      "Size (L x W)",
+      "Top Flooring Material",
+      "Wall / Panel Thickness"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Height / Storey Configuration",
+        "why_important": "Single-storey vs double-storey is a non-interchangeable structural variant with major price difference, and standard height (8.5ft) vs high-cube (9.6ft) affects site clearance requirements — neither dimension is captured in the current L×W size spec.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "Single Storey 8.5 ft",
+          "Single Storey 9.6 ft (High Cube)",
+          "Double Storey",
+          "Multi-Storey"
+        ]
+      },
+      {
+        "spec_name": "Structural Frame Material",
+        "why_important": "MS, GI, Corten steel, and aluminium frames differ significantly in corrosion resistance, structural load capacity, and price — buyers in coastal, mining, or long-duration deployments specify frame material as a durability requirement distinct from the exterior cladding skin.",
+        "source": "both",
+        "example_values": [
+          "Mild Steel (MS)",
+          "Galvanized Iron (GI)",
+          "Corten Steel",
+          "Aluminium"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Length",
+        "reason": "Length defines the unit size class and is the primary routing signal — sellers who manufacture only 20ft units cannot supply a 40ft requirement, and accurate length is essential for site footprint and price quotation.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Width",
+        "reason": "Width combined with Length fully defines the floor area and confirms whether the unit fits the buyer's site footprint and project budget — sellers need both dimensions to quote accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Features / Configuration",
+        "why_important": "Sellers who supply only bare-shell units cannot fulfil a requirement for a toilet-and-pantry fitted container — configuration is a primary capability routing signal that determines seller eligibility before size even matters.",
+        "source": "both",
+        "example_values": [
+          "Bare Shell",
+          "AC Provision Only",
+          "Toilet Included",
+          "Toilet + Pantry + Workstations"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Storey Configuration",
+        "why_important": "Not all sellers can supply double-storey or multi-storey stacking configurations, which require structural engineering capability — sellers need this to confirm they can fulfil the requirement before responding.",
+        "source": "both",
+        "example_values": [
+          "Single Storey",
+          "Double Storey"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Single Storey",
+          "Double Storey"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Storey Configuration",
+      "option_value": "Single Storey",
+      "id": "spec_1",
+      "prompt_for_generation": "Single-storey prefabricated steel office container, 20ft length, MS sheet exterior in light grey finish, single entry door and two windows visible on the long face, installed on a construction site with compacted gravel ground, natural daylight, slight three-quarter angle view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Storey Configuration",
+      "option_value": "Double Storey",
+      "id": "spec_2",
+      "prompt_for_generation": "Double-storey prefabricated steel office container complex, two stacked units with external steel staircase on the right side, MS sheet exterior in light grey finish, multiple windows on both floors, installed on a construction site, natural daylight, slight three-quarter angle view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
