@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across PEB sub-types (warehouse, hangar, cold storage, multi-storey). Buyers scan images first to confirm the vendor builds the structure type they need — wrong type is an immediate skip regardless of price or specs."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Span range, eave height, service type (turnkey vs supply-only), and building use are primary shortlisting gates. A vendor who cannot meet the buyer's span or service scope is eliminated before any contact is made."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Established brands — Tata BlueScope, Pennar Industries, Zamil Steel, EPACK Prefab, Everest Industries — are actively searched by name by EPC contractors and large industrial buyers as a proxy for IS-code compliance, fabrication quality, and erection capability.",
+      "reason": "PEB is a high-value, multi-month design-fabricate-erect engagement. Buyers evaluate manufacturer credentials, IS 800:2007 compliance, past project portfolio, and erection track record as a hard gate before price discussion — company trust is non-negotiable at this contract value."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft rate is the dominant initial comparison signal for Indian PEB buyers, but price is only comparable after span, eave height, and service scope are confirmed equivalent. Final price is always project-quoted and negotiated; listed rate is a budget entry point."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Sub-segments quote per kg (supply-only steel components) or per project (full turnkey lump sum). Per sq ft is the dominant comparison unit for warehouse and factory shed buyers. Unit must be shown alongside price to prevent misreading across quoting conventions.",
+      "reason": "Per sq ft vs per kg vs per project creates real price comparison confusion in PEB. Buyers cannot compare vendor rates without knowing the unit basis — unit display is essential for price intelligibility."
+    }
+  ]
+}
