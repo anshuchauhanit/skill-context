@@ -1,0 +1,526 @@
+{
+  "mcat_description": {
+    "short": "Prefabricated huts are factory-manufactured portable structures assembled from steel frames, FRP panels, PUF sandwich panels, or GI sheets, supplied as complete units or knock-down kits for rapid on-site erection. They are sold per piece or per sq ft to industrial, construction, and institutional buyers for temporary or semi-permanent accommodation and utility use.",
+    "long": "Prefabricated huts are engineered portable structures where all major components — steel or GI frames, wall panels (PUF, FRP, GI colour-coated, or cement fibre board), roof panels, doors, and windows — are manufactured off-site in a factory and transported for quick bolted assembly at the destination. In the Indian B2B market, the dominant commercial form is a mild steel or GI-framed hut with insulated PUF or FRP panels, used as labour quarters, site offices, guard cabins, and temporary staff accommodation on construction and industrial sites. A secondary segment comprises bamboo and natural-material huts built for resort, eco-tourism, and hospitality applications, which differ fundamentally in construction method, buyer profile, and regulatory context. Structural compliance in the manufactured segment follows BIS/IS codes for steel detailing, wind load, and seismic zone requirements applicable to the project location.",
+    "product_types": [
+      "MS Frame PUF Panel Prefabricated Hut",
+      "FRP Prefabricated Hut",
+      "GI Sheet Prefabricated Hut",
+      "Steel Frame Cement Fibre Board Hut",
+      "Bamboo Prefabricated Hut",
+      "A-Frame Prefabricated Hut",
+      "Labour Quarter / Labour Camp Hut",
+      "Guard Hut / Security Cabin Hut",
+      "Resort / Eco-Tourism Hut",
+      "Portable Cabin Hut (Skid-Mounted)",
+      "Modular Prefabricated Hut (Multi-Room)"
+    ],
+    "primary_applications": [
+      "Labour accommodation on construction and infrastructure sites",
+      "Temporary site offices and supervisory cabins",
+      "Guard posts and security checkpoints (RPF, industrial security)",
+      "Resort and eco-tourism guest accommodation",
+      "Farm and agricultural field shelters",
+      "Disaster relief and emergency temporary housing",
+      "Military and paramilitary field accommodation",
+      "Industrial worker rest rooms and canteens"
+    ],
+    "buyer_segments": [
+      "Construction contractors and project developers (labour camp procurement)",
+      "Infrastructure and EPC companies (site office and accommodation)",
+      "Industrial plant operators (security cabins, utility huts)",
+      "Government and paramilitary agencies (RPF, CRPF, border posts)",
+      "Resort and hospitality developers (eco-tourism huts)",
+      "NGOs and disaster relief organisations",
+      "Real estate developers (temporary site infrastructure)"
+    ]
+  },
+  "primary_segment": "Steel/FRP-framed portable prefabricated hut for labour accommodation and construction site use",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Factory-manufactured steel/FRP/PUF panel prefabricated hut for industrial labour accommodation, site offices, and guard posts",
+    "secondary_families": [
+      "Bamboo and natural-material huts — handcrafted for resort, eco-tourism, and hospitality use (different construction method, artisan/hospitality buyer, no factory prefabrication)"
+    ],
+    "reason": "The MCAT name attracts two incompatible product families — factory-manufactured industrial portable huts (B2B industrial/construction buyer, steel/FRP/PUF construction, BIS-compliant) and handcrafted bamboo/natural huts (resort/hospitality buyer, artisan construction, no structural engineering) — confirmed by call data showing 'Bamboo Hut,' 'Baans ki jhopdi,' 'Macwant/Machan' alongside 'Prefabricated Hut' and 'Labour Hut,' representing fundamentally different buyers and construction methods."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated hut",
+      "prefab hut",
+      "portable hut",
+      "labour hut",
+      "FRP prefabricated hut",
+      "steel prefab hut",
+      "portable labour quarter",
+      "prefab labour camp hut",
+      "site office hut",
+      "guard hut prefab"
+    ],
+    "technical_synonyms": [
+      "portable cabin hut",
+      "modular hut structure",
+      "PUF panel hut",
+      "GI sheet prefab hut",
+      "MS frame prefabricated hut",
+      "skid-mounted prefab hut",
+      "knock-down prefab hut",
+      "panelised prefab hut"
+    ],
+    "trade_names": [
+      "porta cabin hut",
+      "portacabin hut",
+      "prefab labour quarter",
+      "FRP labour hut",
+      "metro sheet house",
+      "prefab site hut"
+    ],
+    "hindi_terms": [
+      "jhopdi (झोपड़ी)",
+      "prefab jhopdi",
+      "fabricated hut",
+      "labour jhopdi"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated hut for labour camp",
+      "FRP prefab hut 10x10 feet price",
+      "portable steel hut for construction site",
+      "prefab guard hut for security",
+      "one bedroom prefabricated hut",
+      "prefab labour accommodation hut",
+      "portable hut for site office use",
+      "prefabricated hut RPF railway",
+      "steel frame PUF panel hut supplier"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian prefabricated hut sellers predominantly quote per sq ft for custom-sized or project-based orders, reflecting area-based costing of panels and frame material; fixed-size standard models (e.g. 10x10 ft, 8x20 ft) are also quoted per piece.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Custom-size labour/site huts",
+        "unit": "per sq ft",
+        "note": "Area-based pricing is standard for project procurement; buyer specifies dimensions."
+      },
+      {
+        "sub_segment": "Standard fixed-size portable cabin huts",
+        "unit": "per piece",
+        "note": "Catalogue models with fixed dimensions (e.g. 10x10 ft, 8x20 ft) quoted per unit."
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART MCAT page tile observations",
+      "perfectprefabsystems.in",
+      "metaltree.in",
+      "kmstechnologies.co.in"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, prefabricated huts are primarily manufactured portable structures built from mild steel or GI frames combined with insulated wall and roof panels — PUF sandwich panels, FRP sheets, or colour-coated GI sheets being the most common cladding materials. The dominant commercial applications are labour accommodation colonies on construction and infrastructure sites, temporary site offices, and security/guard cabins for industrial and government use. Structural compliance follows BIS/IS codes for steel detailing, wind load, and seismic zone requirements, with manufacturers citing IS 2062 E250 steel grade as a common structural steel standard. A secondary and commercially distinct segment comprises bamboo and natural-material huts built for resort, eco-tourism, and hospitality buyers — these are handcrafted rather than factory-prefabricated and attract a fundamentally different buyer profile. Key manufacturing hubs include Delhi-NCR (Noida, Ghaziabad, Faridabad, Gurugram), Lucknow, Ahmedabad, and Vadodara. Sellers typically offer turnkey supply including design, fabrication, transport, and on-site erection. The market also includes a niche RPF/paramilitary segment (Railway Protection Force guard huts) visible in keyword data. Modular buildings may require local building permits, fire safety clearance, and structural compliance with BIS codes and local municipal regulations depending on project type and location (single source — low confidence for specific regulatory trigger thresholds).",
+  "buyer_attracting_attributes": [
+    "Structure Material (MS / FRP / GI / PUF Panel)",
+    "Size / Dimensions (length × width × height in feet)",
+    "Insulation Type (PUF / Rockwool / EPS / None)",
+    "Wall Panel Thickness",
+    "Portability / Relocatability",
+    "Number of Rooms / Configuration",
+    "Roof Type (Sloped / Flat / A-Frame)",
+    "Surface Treatment / Coating (Galvanized / Epoxy / Powder Coated)",
+    "Built Type (Prefab / Modular / Knock-Down)",
+    "Usage / Application (Labour Hut / Guard Cabin / Resort Hut)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "167394",
+    "mcat_name": "Prefabricated Hut",
+    "mcat_level": "4",
+    "listing_count": "313",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Prefabricated Hut",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Prefabricated huts are manufactured building structures with technical specs (materials, dimensions, assembly method) and cost drivers that vary by supplier design, not regulatory mandate or dominant brand anchoring. Agent 3 should research construction material standards (BIS for steel/concrete components), prefab assembly methodologies, and typical buyer RFQ patterns."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Top keywords by Impressions ('hut house' 277, 'hut type house design' 16) used to identify buyer search vocabulary and broad residential intent signal."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top internal KWs ('prefabricated hut' 27 PVs, 'frp prefabricated huts', 'prefab labour hut', 'prefabricated hut rpf') confirmed industrial/labour and FRP material as dominant buyer intent clusters."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_vagueness_signal.secondary_families",
+          "alt_names.hindi_terms",
+          "mcat_description.buyer_segments",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Call rows revealed bamboo hut / Baans ki jhopdi / Macwant secondary family and Hindi terms (Jhopdi, Baans ki jhopdi), confirming vagueness trigger. Resort Hut and Labour Hut calls confirmed dual buyer segments."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "Taxonomy path and listing count (313) used as reference. No page fetch was possible (URL blank), so listing_count_suspect set to false based on taxonomy snapshot only."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.perfectprefabsystems.in/portable-huts.html",
+        "title": "Portable Huts - Portable Guard Huts Service Provider from New Delhi",
+        "source_domain": "perfectprefabsystems.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for steel material confirmation, roof panel thickness (50mm), and customised size quoting pattern for portable huts."
+      },
+      {
+        "url": "https://www.uniquetradingest.com/prefabricated-huts.htm",
+        "title": "Prefabricated Huts, Mild Steel Prefabricated Huts Manufacturers",
+        "source_domain": "uniquetradingest.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for steel sheet spec (0.50mm pre-painted), GI profile cement sheet with EPS core construction detail, and structural component vocabulary (purlin, truss, column)."
+      },
+      {
+        "url": "https://kmstechnologies.co.in/modular-buildings",
+        "title": "Modular Buildings in India | Prefabricated Structures",
+        "source_domain": "kmstechnologies.co.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for BIS/IS code compliance reference, application list (site offices, worker accommodation, guard huts), and Indian climate engineering context."
+      },
+      {
+        "url": "https://aspebsolutions.com/prefabricated-structure/",
+        "title": "Prefabricated Structure Manufacturer In Indore | AS PEB Solutions",
+        "source_domain": "aspebsolutions.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for BIS standard compliance confirmation and IS 2062 E250 steel grade reference for structural steel in prefab structures."
+      },
+      {
+        "url": "https://www.metaltree.in/prefabricated-buildings-india-guide-2026/",
+        "title": "Prefabricated Buildings in India: Cost, Companies, Benefits & Complete Guide (2026)",
+        "source_domain": "metaltree.in",
+        "derived_outputs": [
+          "market_context",
+          "primary_segment",
+          "unit_quoting_context",
+          "mcat_description.long"
+        ],
+        "citation_note": "Used for cold-formed steel + insulated sandwich panel construction confirmation, labour colony/site office/portable cabin as dominant applications, and dismantling/reuse lifecycle context."
+      },
+      {
+        "url": "https://www.epack.in/",
+        "title": "EPACK Prefab: Prefabricated Buildings, PEBs & Sandwich Panels",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for labour accommodation, K-houses, shelters as named product types, and institutional buyer segment (L&T, Reliance) confirmation."
+      },
+      {
+        "url": "https://www.akasheng.com/prefabricated-buildings",
+        "title": "Prefabricated Building | Akash Engimech India Pvt Ltd.",
+        "source_domain": "akasheng.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Used for FRP cabin, LGSF technology, and portable site office application vocabulary."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Prefabricated huts are manufactured building structures with technical specs (materials, dimensions, assembly method) and cost drivers that vary by supplier design, not regulatory mandate or dominant brand anchoring. Agent 3 should research construction material standards (BIS for steel/concrete components), prefab assembly methodologies, and typical buyer RFQ patterns."
+    }
+  }
+}
