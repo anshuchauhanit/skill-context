@@ -1,0 +1,211 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Poultry sheds, dairy shelters, grain godowns, and equipment sheds are visually distinct building types — buyers use the image to confirm the correct structure type before reading any text. Absence of image causes immediate skip for a capital purchase where visual confirmation of build quality is the first trust signal."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Span width, roof type, cladding material, and ventilation design are non-interchangeable requirements — a poultry shed buyer cannot substitute a grain storage spec. Listings without these specs cannot be evaluated for structural and functional fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian agricultural buyers compare per-sq-ft rates aggressively across multiple suppliers once building type is confirmed. Price varies substantially with span, cladding type, and insulation specification — buyers discover and compare across spec tiers during search, making this a spec-driven price signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard shed types (poultry, dairy, grain storage) are quoted per sq ft in the Indian market; large turnkey multi-structure farm complexes may be quoted per project. Unit must be shown to prevent price comparison confusion between these two quoting conventions.",
+      "reason": "Per sq ft vs per project is a real market ambiguity — without the unit, a buyer cannot compare prices across listings. Per sq ft is the dominant unit for standard agricultural shed types and must be displayed alongside price."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the market is fragmented across regional PEB fabricators and buyers search by building type and spec, not manufacturer name.",
+      "reason": "Seller installation capability, erection track record, and post-sale service network are evaluated during vendor selection for a construction project, but these are confirmed after spec and price shortlisting. Company is a qualifier, not a primary discovery signal."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Building Type",
+        "reason": "Defines the product class — poultry shed, dairy shed, grain storage, equipment shed are structurally non-interchangeable and carry the largest price delta across the spec list due to differing span, height, ventilation, and flooring requirements."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Cladding Material",
+        "reason": "Defines the enclosure quality tier — GI sheet vs insulated sandwich panel vs polycarbonate creates a significant price delta and is the primary material cost driver after the steel frame."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Building Type",
+      "Built Type",
+      "Cladding Material",
+      "Country Of Origin",
+      "Flooring Type",
+      "Material",
+      "Roof Type",
+      "Service Mode",
+      "Ventilation Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Span Width",
+        "why_important": "Span width (clear column-free interior width) is the primary structural sizing dimension for PEB agricultural buildings — buyers specify their required span and sellers cannot confirm structural feasibility or quote accurately without it.",
+        "source": "both",
+        "example_values": [
+          "Up to 12m",
+          "12m–18m",
+          "18m–24m",
+          "Above 24m"
+        ]
+      },
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Insulated sandwich panels vs bare GI sheet is a major price and performance differentiator — poultry and dairy shed buyers specifically require thermal insulation for animal welfare compliance, and this is not captured by Cladding Material alone.",
+        "source": "both",
+        "example_values": [
+          "No Insulation",
+          "Glasswool Insulation",
+          "Rockwool Insulation",
+          "Insulated Sandwich Panel"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Routes the RFQ to sellers who specialise in the specific building type — a poultry shed supplier may not supply mushroom farm or agri warehouse structures, so this spec immediately determines seller fit.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Poultry Shed",
+          "Dairy Farm Shed",
+          "Goat Farm Shed",
+          "Agri Warehouse",
+          "Mushroom Farm",
+          "Cattle Shed"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Roof Material",
+        "reason": "Determines the quality tier and price range of the structure — insulated panel vs GI sheet is a major price differentiator that sellers need to confirm before quoting accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Span Width",
+        "why_important": "Sellers cannot confirm structural feasibility or quote accurately without knowing the buyer's required clear span — a fabricator who only builds up to 12m spans cannot supply a 30m dairy shed.",
+        "source": "both",
+        "example_values": [
+          "Up to 12m",
+          "12m–18m",
+          "18m–24m",
+          "Above 24m"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Poultry Shed",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated steel poultry shed on an Indian farm, long rectangular structure with corrugated GI roofing, open side ventilation panels, green paddy field background, natural daylight, wide-angle exterior view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Dairy Farm Shed",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated steel dairy farm shed on an Indian farm, wide-span structure with sloped GI roof, open sides with cattle visible inside, rural farmland background, natural daylight, exterior perspective view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Goat Farm Shed",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated steel goat farm shed on an Indian farm, compact rectangular structure with corrugated metal roof, raised flooring or slatted floor visible, goats inside, rural background, natural daylight, exterior view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Agri Warehouse",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated steel agricultural warehouse on an Indian farm, large enclosed structure with insulated roof panels, closed roller shutter doors, grain storage context, rural farmland background, natural daylight, exterior perspective view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Mushroom Farm",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated steel mushroom cultivation shed on an Indian farm, enclosed insulated structure with minimal windows, controlled environment design, rural background, natural daylight, exterior view showing insulated wall panels, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Cattle Shed",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated steel cattle shed on an Indian farm, wide-span open-sided structure with sloped corrugated roof, cattle visible inside, concrete floor, rural farmland background, natural daylight, exterior perspective view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
