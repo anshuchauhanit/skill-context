@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Eco Portable Cabins' directly matches the top primary keyword and trade name conventions confirmed across Agent 3 alt_names (eco portable cabin, eco porta cabin, eco prefab cabin) and market_context citing active Indian manufacturers marketing under this exact label.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail shows a large, elongated grey portable cabin unit with roller shutters and doors — a valid portable cabin product, but the grey colour, overcast outdoor setting, and Western-style construction aesthetic do not clearly signal the FRP/PUF sandwich panel eco-material identity that defines the primary segment.",
+      "The image lacks visual cues for the 'eco' or sustainable material aspect (no visible FRP panel texture, no colour-coated sandwich panel finish typical of Indian market products), and the industrial grey tone with cloudy background reduces visual appeal and category clarity for Indian B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A clean, professional product photograph of a modern FRP and PUF sandwich panel eco portable cabin for a site office, shown as a standalone unit on a flat surface with a plain white or light grey studio background. The cabin is a compact rectangular structure approximately 20x10 ft, with smooth green or cream-coloured FRP panel exterior walls, a white powder-coated steel door, two louvred aluminium windows, a flat roof with a slight overhang, and visible panel joint lines indicating prefabricated sandwich panel construction. The cabin is well-lit with soft studio lighting, shot from a slight front-angle perspective to show both the front face and one side wall. No people, no clutter, no watermarks from sellers. Sharp focus, high resolution, square 1:1 crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
