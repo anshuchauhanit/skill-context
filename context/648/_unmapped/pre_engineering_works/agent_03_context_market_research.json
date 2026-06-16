@@ -1,0 +1,347 @@
+{
+  "mcat_description": {
+    "short": "Pre Engineering Works refers to the civil site preparation, foundation construction, anchor bolt placement, and structural erection services that precede and enable the assembly of Pre-Engineered Buildings (PEB) — factory-fabricated steel structures for industrial, warehouse, and commercial use. These services are offered by contractors and turnkey PEB companies on a project basis.",
+    "long": "Pre Engineering Works encompasses the full range of civil and structural activities required to prepare a site for and erect a Pre-Engineered Building (PEB) — including soil investigation, foundation design and construction, anchor bolt setting, structural steel erection, roofing and cladding installation, and related civil works. PEB systems use factory-fabricated primary steel frames (columns, rafters), secondary members (purlins, girts), and cladding panels that are shipped to site and assembled by specialist erection teams. The civil-to-steel interface — particularly anchor bolt accuracy and foundation level tolerance — is the most critical quality checkpoint, as misalignment causes costly remediation. In India, these works are executed under IS:800 (steel structures), IS:2062 (structural steel grades), and NBC compliance, with high-tensile steel grades (345–410 MPa) now standard in the PEB industry.",
+    "product_types": [
+      "PEB civil foundation works (RCC footings, grade slabs, piers)",
+      "Anchor bolt setting and placement services",
+      "Structural steel erection services (primary frame assembly)",
+      "Secondary member installation (purlins, girts, bracings)",
+      "Roofing and wall cladding installation",
+      "Turnkey PEB construction (design-fabricate-erect)",
+      "PEB structural design and engineering consultancy",
+      "Site preparation and soil investigation",
+      "Mezzanine floor construction within PEB",
+      "PEB expansion and extension works"
+    ],
+    "primary_applications": [
+      "Industrial warehouse and factory construction",
+      "Logistics and distribution centre construction",
+      "Cold storage and agricultural storage facility construction",
+      "Commercial showroom and retail shed construction",
+      "Aircraft hangar and large-span industrial shed construction",
+      "Institutional buildings (schools, health centres) using PEB",
+      "Pharmaceutical plant and clean-room shed construction",
+      "Sports hall and exhibition centre construction"
+    ],
+    "buyer_segments": [
+      "Industrial manufacturers setting up new production facilities",
+      "Logistics and e-commerce companies building warehouses",
+      "Real estate developers building commercial sheds",
+      "EPC contractors and project management consultants",
+      "Government and PSU infrastructure departments (CPWD, MES, IRCON)",
+      "Agricultural and cold chain operators",
+      "SME factory owners requiring fast-build industrial sheds"
+    ]
+  },
+  "primary_segment": "Turnkey civil and structural erection services for Pre-Engineered Buildings (PEB) — including foundation, anchor bolt setting, and steel frame assembly for industrial warehouses and factories",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Civil site preparation, foundation, and structural erection services for Pre-Engineered Buildings (PEB)",
+    "secondary_families": [],
+    "reason": "All sub-types (foundation works, anchor bolt setting, steel erection, turnkey PEB construction) are part of the same PEB construction service continuum — same buyer, same regulatory framework (IS:800, NBC), no incompatible product families present."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "pre engineering works",
+      "pre engineered building works",
+      "PEB construction works",
+      "PEB civil works",
+      "pre engineered building construction",
+      "PEB erection services",
+      "PEB foundation works",
+      "pre engineering builder work",
+      "PEB site preparation",
+      "pre engineered building contractor"
+    ],
+    "technical_synonyms": [
+      "PEB civil and structural works",
+      "pre-engineered metal building erection",
+      "PEMB construction services",
+      "anchor bolt setting for PEB",
+      "structural steel erection for PEB",
+      "PEB turnkey construction",
+      "pre-engineered steel building works",
+      "PEB foundation and erection",
+      "IS:800 compliant steel erection",
+      "PEB design-build services"
+    ],
+    "trade_names": [
+      "Interarch PEB construction",
+      "Kirby Building Systems erection",
+      "Zamil Steel erection works",
+      "BlueScope Steel PEB",
+      "Tata BlueScope Buildings",
+      "Everest Industries PEB",
+      "Lloyd Insulations PEB",
+      "KP Green Engineering PEB"
+    ],
+    "hindi_terms": [
+      "प्री इंजीनियर्ड बिल्डिंग निर्माण",
+      "पूर्व अभियांत्रिकी कार्य",
+      "स्टील शेड निर्माण कार्य",
+      "औद्योगिक शेड निर्माण"
+    ],
+    "buyer_intent_queries": [
+      "pre engineered building construction contractor India",
+      "PEB civil works and erection services",
+      "turnkey PEB warehouse construction India",
+      "pre engineered building foundation and erection",
+      "industrial shed PEB construction company",
+      "PEB anchor bolt setting and foundation works",
+      "pre engineered steel building erection contractor",
+      "PEB construction services for warehouse factory"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per project (lump sum / turnkey)",
+    "unit_reasoning": "PEB construction works in India are primarily quoted as lump-sum turnkey project contracts; secondary quoting is per sq ft of built-up area for shed/warehouse construction, and per MT of structural steel for erection-only contracts.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Turnkey PEB construction",
+        "unit": "per project (lump sum)",
+        "note": "Full design-fabricate-erect contracts quoted as total project value"
+      },
+      {
+        "sub_segment": "Erection-only services",
+        "unit": "per MT of steel erected",
+        "note": "Labour-only erection contracts quoted per metric tonne of structural steel"
+      },
+      {
+        "sub_segment": "Industrial shed / warehouse construction",
+        "unit": "per sq ft",
+        "note": "Buyers often benchmark and compare PEB shed costs in per sq ft terms"
+      },
+      {
+        "sub_segment": "Foundation and civil works",
+        "unit": "per project or per RFT/RMT",
+        "note": "Civil foundation works quoted per project or per running metre of foundation"
+      }
+    ],
+    "sources_checked": [
+      "bssminfra.com (PEB construction services India)",
+      "swanag.in (PEB industrial construction guide)",
+      "methodsindia.com (PEB construction India)",
+      "pebsteel.com (PEB complete guide)",
+      "World knowledge — Indian B2B construction contracting norms"
+    ],
+    "confidence": "medium"
+  },
+  "market_context": "Pre Engineering Works in the Indian B2B market refers to the civil, structural, and erection services that constitute the construction phase of a Pre-Engineered Building (PEB) project. PEB systems — factory-fabricated steel structures comprising primary frames (columns, rafters), secondary members (purlins, girts), and cladding — are the dominant fast-build solution for industrial warehouses, factories, and logistics facilities in India. The PEB industry uses high-tensile structural steel to IS:2062 (345–410 MPa grades), with design compliance to IS:800 and the National Building Code (NBC). A defining feature of PEB construction is the parallel workflow: foundation and anchor bolt works proceed on-site while the steel structure is fabricated off-site, reducing total project time by 30–50% versus conventional RCC construction. The civil-to-steel interface — anchor bolt accuracy, foundation level, and base plate alignment — is the most critical quality checkpoint; misalignment is the leading cause of project delays. In India, PEB finds primary application in warehouses, industrial sheds, logistics parks, cold storage, and commercial complexes, with Maharashtra, Gujarat, Tamil Nadu, and Telangana as leading manufacturing and construction hubs. The market is served by turnkey contractors (design-fabricate-erect), erection-only subcontractors, and civil foundation specialists. Major Indian PEB manufacturers include Interarch, Kirby Building Systems, Tata BlueScope Buildings, Zamil Steel, and Everest Industries. The sector is growing at double-digit rates driven by Make in India, Smart Cities, and industrial corridor development initiatives.",
+  "buyer_attracting_attributes": [
+    "Built-up Area (sq ft / sq m)",
+    "Clear Span Width",
+    "Bay Length and Number of Bays",
+    "Eave Height",
+    "Steel Grade (IS:2062 grade — E250, E350, E450)",
+    "Wind Zone and Seismic Zone Compliance",
+    "Roofing and Cladding Type (Galvalume, insulated sandwich panel)",
+    "Foundation Type (isolated footing, raft, pile)",
+    "IS:800 / NBC Compliance Certification",
+    "Project Delivery Timeline"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "171002",
+    "mcat_name": "Pre Engineering Works",
+    "mcat_level": "5",
+    "listing_count": "726",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Pre Engineering Works",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35589.0",
+      "name": "Prefabricated Buildings",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35589.0"
+    ],
+    "siblings": [],
+    "direct_sibling_count": 0,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Pre-engineered buildings are standardised industrial structures (steel frames, modular components) designed to IS codes and BIS standards. Buyers evaluate structural specs, load capacity, and compliance certification — not brand names."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Top keywords by Pageviews used to confirm construction service vocabulary; 'bhogle' (1 PV) treated as noise/spam and excluded."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Single call row 'Construction Accessories' with no spec detail — confirmed construction services context only. No specs extracted."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "primary_segment"
+        ],
+        "citation_note": "Taxonomy path under Prefabricated Structures confirmed PEB civil/erection works as primary segment. 726 listing count accepted as plausible — no page URL provided for tile count cross-check."
+      },
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "No product_page_url was provided — page fetch not attempted. page_fetch_failed set to true."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.swanag.in/peb-for-industrial-construction/",
+        "title": "Pre-Engineered Buildings for Industrial Construction | Complete Guide",
+        "source_domain": "swanag.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.long",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for civil-to-steel interface description, anchor bolt criticality, and parallel workflow explanation."
+      },
+      {
+        "url": "https://www.deltainfrastructures.com/pre-engineering-buildings",
+        "title": "PRE ENGINEERING BUILDINGS | PEB SERVICE | PEB COMPANY",
+        "source_domain": "deltainfrastructures.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for IS:2062 steel grade data, clear span capabilities, and PEB application list in India."
+      },
+      {
+        "url": "https://pebsteel.com/en/pre-engineered-buildings-guide/",
+        "title": "Pre-Engineered Buildings: The Complete Guide | Pebsteel",
+        "source_domain": "pebsteel.com",
+        "derived_outputs": [
+          "market_context",
+          "unit_quoting_context",
+          "mcat_description.long"
+        ],
+        "citation_note": "Used for anchor bolt foundation compatibility, parallel workflow, and erection timeline data."
+      },
+      {
+        "url": "https://www.slideserve.com/karthikeyan11/anchor-bolt-setting-plan-for-pre-engineered-buildings",
+        "title": "Anchor Bolt Setting Plan for Pre-Engineered Buildings",
+        "source_domain": "slideserve.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for anchor bolt setting plan description as a distinct PEB pre-engineering work type."
+      },
+      {
+        "url": "https://methodsindia.com/pre-engineered-buildings-the-faster-industrial-construction-solution-by-methods/",
+        "title": "Pre-Engineered Buildings: Faster Construction | Methods",
+        "source_domain": "methodsindia.com",
+        "derived_outputs": [
+          "market_context",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Used for parallel workflow confirmation and Indian manufacturing hub geography."
+      },
+      {
+        "url": "https://www.sandipfoundation.org/blog/pre-engineered-buildings-transforming-industrial-construction-in-india/",
+        "title": "Pre Engineered Buildings: Future of Indian Industry",
+        "source_domain": "sandipfoundation.org",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for Indian PEB application sectors and market growth context."
+      },
+      {
+        "url": "https://bssminfra.com/best-pre-engineered-building-construction-in-india/",
+        "title": "Best Pre-Engineered Building Construction Company in India",
+        "source_domain": "bssminfra.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for PEB construction service scope confirmation including civil foundation works."
+      },
+      {
+        "url": "https://kpgreenengineering.com/product/pre-engineered-building",
+        "title": "Pre-Engineered Building Manufacturer | PEB Construction India",
+        "source_domain": "kpgreenengineering.com",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "market_context"
+        ],
+        "citation_note": "Used for IS:800 compliance confirmation and Indian PEB manufacturer trade name."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "NFPA",
+        "IBC"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Pre-engineered buildings are standardised industrial structures (steel frames, modular components) designed to IS codes and BIS standards. Buyers evaluate structural specs, load capacity, and compliance certification — not brand names. Agent 3 should prioritise BIS IS:800 (steel structures), IBC compliance, and technical datasheets from manufacturers."
+    }
+  }
+}
