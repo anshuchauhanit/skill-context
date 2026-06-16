@@ -1,0 +1,71 @@
+{
+  "enhanced_name_4w": "Portable Worker Accommodation Cabin",
+  "enhanced_name_5w": "Prefab Bunkhouse for Site Workers",
+  "enhanced_name_6w": "Portable Prefab Cabin for Labour Accommodation",
+  "enhanced_name_long": "Portable Prefabricated Bunkhouse Cabins for Worker and Labour Accommodation at Construction, Mining and Industrial Project Sites",
+  "alt_names": {
+    "primary_keywords": [
+      "bunkhouse",
+      "bunk house",
+      "portable bunkhouse",
+      "prefabricated bunkhouse",
+      "labour accommodation cabin",
+      "worker accommodation cabin",
+      "portable labour room",
+      "site accommodation cabin",
+      "modular bunkhouse",
+      "prefab bunk house"
+    ],
+    "technical_synonyms": [
+      "portable prefabricated accommodation unit",
+      "modular accommodation cabin",
+      "lift-and-shift bunkhouse",
+      "prefab labour colony unit",
+      "PUF panel bunkhouse",
+      "steel frame portable cabin",
+      "modular sleeping quarters",
+      "relocatable accommodation module",
+      "EPS insulated bunkhouse",
+      "GI frame bunkhouse cabin"
+    ],
+    "trade_names": [
+      "porta cabin accommodation",
+      "portable cabin",
+      "fabricated house",
+      "ready house",
+      "accommodation container",
+      "site cabin",
+      "labour room cabin",
+      "prefab site accommodation",
+      "MS porta bunk house",
+      "container-type bunkhouse"
+    ],
+    "hindi_terms": [
+      "majdoor awas cabin",
+      "portable ghar",
+      "prefab makan",
+      "bunk house ghar",
+      "rehne ki cabin"
+    ],
+    "buyer_intent_queries": [
+      "portable bunkhouse for construction site workers",
+      "prefabricated labour accommodation cabin India",
+      "MS bunkhouse cabin manufacturer",
+      "portable cabin for worker accommodation",
+      "container type bunkhouse for site",
+      "modular labour colony prefab cabin",
+      "bunkhouse with toilet and bathroom",
+      "10x20 ft portable bunk house",
+      "insulated bunkhouse cabin for remote site",
+      "relocatable worker accommodation cabin India"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Residential/lifestyle home buyers (Log Homes, Wooden House, Prefabricated Beach House, Prefabricated Guest House, Container Homes, Modular Cottages, Portable Resort buyers) — these are permanent or semi-permanent dwelling buyers, not B2B project-site labour accommodation procurers; names implying home living, resort, guest, cottage, or leisure use are blocked",
+    "Single-occupant security/guard post buyers (Guard Huts, PVC Guard Huts) — buyer persona is facility security procurement, not multi-worker labour colony procurement; names implying guard, sentry, or security post use are blocked",
+    "Office/workspace-only buyers (Bunk House Office sibling) — buyers seeking site offices without sleeping/accommodation function; names implying office-only use without accommodation context are blocked",
+    "Material-specific sibling MCATs that carve out sub-segments already named (MS Bunkhouse, Prefab Steel Bunk House, Mild Steel Portable House) — enhanced names and alt names must not exactly replicate these sibling MCAT names to avoid collision"
+  ],
+  "segment_contamination_disclaimer": null
+}
