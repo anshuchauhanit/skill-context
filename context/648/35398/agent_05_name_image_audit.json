@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'Portable Buildings' is technically correct but underperforms against dominant Indian B2B search vocabulary — Agent 3 alt_names confirm 'Porta Cabin' and 'Portable Cabin' are the primary buyer-intent keywords, and market_context explicitly states the category is commercially synonymous with 'porta cabins' and 'prefab cabins' in the Indian market.",
+    "suggested_name": "Portable Cabins"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a Western-style wooden log cabin with a barn roof, front porch, and timber siding — this is a recreational/residential wood cabin product, not a steel-framed prefabricated porta cabin, which is the confirmed primary_segment for this MCAT.",
+      "The image actively misrepresents the category by depicting a product type (timber log cabin) that is not sold in the Indian B2B portable buildings market and conflicts with all primary_keywords, technical_synonyms, and market_context signals from Agent 3."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A steel-framed prefabricated porta cabin / portable site office cabin, rectangular modular structure with smooth grey and white insulated sandwich panel walls (PUF panels), aluminium sliding windows on two sides, a single steel door with steps, mounted on a flat concrete surface at a construction site. Clean white background with soft natural lighting, slight three-quarter front angle view showing the full cabin exterior. Professional product photography style, sharp focus, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
