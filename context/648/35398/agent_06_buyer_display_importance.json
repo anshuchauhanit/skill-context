@@ -1,0 +1,664 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Construction contractor, industrial facility manager, or institutional procurement officer. Capital expenditure, project-driven, often repeat buyer across multiple sites.
+
+**Journey sequence:**
+1. **Image first** — scans listing grid to identify cabin type (site office vs security cabin vs labour colony vs container office). Visual sub-type variation is extreme — a 2-room site office looks nothing like a security guard cabin or a container conversion. Wrong type = immediate skip.
+2. **Building type / application** — confirms the functional use matches their requirement (office, accommodation, security, storage). This is the primary shortlisting gate.
+3. **Structure material** — MS+PUF vs MS+EPS vs container vs FRP determines insulation quality, durability, and price tier. This drives the price significantly.
+4. **Price** — Indian B2B buyers are price-aggressive. Per-sq-ft rate is compared across sellers once type and material are confirmed. Budget sanity check for project procurement.
+5. **Unit** — per sq ft vs per piece ambiguity is real and must be shown. A security cabin quoted per piece vs a site office quoted per sq ft creates genuine comparison confusion.
+6. **Company** — manufacturer vs trader, track record, installation capability, warranty. Evaluated after shortlisting but important for large orders.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — extreme visual variation across sub-types; image is the fastest type-identification signal.
+- **Specification:** High — building type, structure material, and size are non-negotiable shortlisting criteria.
+- **Price:** High — Indian B2B, project procurement, per-sq-ft comparison is standard practice; buyers compare rates across sellers.
+- **Unit:** High — per sq ft vs per piece ambiguity is documented in Agent 3 unit_quoting_context; price cannot be compared without unit.
+- **Company:** Medium — manufacturer status and installation track record matter but are evaluated after spec/price shortlisting.
+
+---
+
+## Step 3 — Cross-dimension consistency checks
+
+1. **Price display type vs spec level:** Buyers arrive with a functional requirement (site office, security cabin) but discover and compare across material/insulation tiers during search → `spec-driven price`. Specification = High (discovery, not just confirmation). ✓
+2. **Unit High → price at least Medium:** Price is High. ✓
+3. **Not project-based price** — per-sq-ft and per-piece are standard quoted units; unit must show. ✓
+4. **Specification show: true → show_on_listing: true.** ✓
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Visual sub-type variation is extreme — a security guard cabin, a multi-room labour colony, and a container office are visually unrecognisable as the same category. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Building type, structure material (MS+PUF vs MS+EPS vs container), and dimensions are primary shortlisting criteria — buyers cannot evaluate fit or price without these. Spec is a discovery signal, not just a confirmation check."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Indian construction and industrial buyers compare per-sq-ft rates aggressively across sellers once type and material tier are confirmed. Price varies substantially with structure material and insulation type, making it a primary comparison lever after spec shortlisting."
+  },
+  {
+    "rank": 4,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Compact single-unit cabins (security guard cabin, toilet block) are also quoted per piece — both units appear in the market. Per sq ft is dominant for custom-dimensioned structures. Unit must be shown alongside price to prevent comparison confusion.",
+    "reason": "Agent 3 unit_quoting_context confirms two active units in this market (per sq ft and per piece). A buyer comparing a per-sq-ft quote against a per-piece quote without unit visibility will misread price by an order of magnitude."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant nationally recognised brand with buyer recall exists in the Indian portable buildings market — the market is fragmented across regional fabricators and buyers search by spec, application, and price rather than manufacturer name.",
+    "reason": "Manufacturer status, installation capability, and project track record are evaluated during vendor selection — particularly for large labour colonies or institutional orders — but company identity does not drive initial engagement."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+**Hard eliminations:**
+- **Usage Application** — use-case tag describing what the product is used FOR, not what it IS. Discard.
+- **Lifting Type** — operational/logistics spec (how the cabin is moved on-site), not a product configurator. Single-value from buyer perspective; does not drive price or non-interchangeability. Discard.
+- **Number Of Doors** — consequence field; follows from building type and size. A 1-door vs 2-door distinction does not independently drive price in a meaningful way. Discard.
+
+**Soft eliminations / deprioritise:**
+- **Roof Type** (Slope / Pyramid / Flat) — partially correlated with building type and application; Flat Roof is standard for most site offices. Deprioritise.
+- **Flooring Type** — finish-level spec; follows from furnishing level and application. Deprioritise.
+- **Furnishing** — preference resolved post-connection; does not independently define the product class. Deprioritise.
+
+**Remaining strong candidates:** Building Type, Built Type, Structure Material, Wall Panel Type
+
+**Note on Built Type vs Structure Material:** Built Type (Container / Portable / Prefab / Modular) and Structure Material (MS With PUF Panel / MS With EPS Panel / etc.) are partially correlated — "Container" implies a specific material set. However, Built Type defines the construction method/form factor (non-interchangeable: a container cabin cannot substitute for a portable PUF cabin), while Structure Material defines the insulation and cladding tier within non-container types. Both survive as independent configurators.
+
+---
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Building Type** (Labour Accommodation / Office Cabin / Security Cabin / Toilet Block / Classroom Cabin / etc.):
+- Defines WHAT the product IS functionally. Non-interchangeable — a security cabin cannot substitute for a labour accommodation block. Each type has a distinct size, layout, and price point. This is the primary product class separator. **Rank 1.**
+
+**Structure Material** (MS With PUF Panel / MS With EPS Panel / MS With ACP / Aluminium / FRP / Wooden / GI Sheet):
+- Defines the insulation and structural quality tier. MS+PUF is the premium insulated standard; MS+EPS is mid-tier; GI Sheet is basic. Large price delta between values — PUF panel structures command a significant premium over GI sheet structures of the same size. Non-interchangeable for buyers with specific insulation or durability requirements. **Rank 2.**
+
+*(Built Type was considered for Rank 2 but Structure Material carries a larger price delta and is more granular — Built Type is partially derivable from Structure Material for non-container types.)*
+
+---
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list (verbatim copy):**
+Building Type, Built Type, Flooring Type, Furnishing, Lifting Type, Number Of Doors, Roof Type, Structure Material, Usage Application, Wall Panel Type
+
+**Step 3b/3c — Candidate gaps cross-referenced:**
+
+Candidates from Agent 3 vision_output and LLM world knowledge:
+- **Size / Dimensions (Length × Width)** — Agent 3 market_context confirms custom-dimensioned structures are quoted per sq ft; buyers specify their required floor area. Not present in spec list under any name or semantic equivalent. A senior CM would add this to the configurator immediately — it is the primary price driver for custom structures. ✓ Missing.
+- **Insulation Type** — partially captured by Wall Panel Type (PUF Panel / EPS Panel) and Structure Material. Semantic equivalent present. ✗ Not missing.
+- **Number of Rooms** — relevant for labour colonies and multi-room offices. Not present in spec list. However, this is largely derivable from size/dimensions and building type — borderline. Included as it independently drives price for accommodation structures.
+- **Electrical Fittings / Wiring** — whether the cabin comes with electrical fittings (lights, fans, sockets) is a standard buyer question in the Indian market. Not present in spec list. Important for ready-to-use deployment decisions.
+
+**Final missing specs (importance threshold applied):**
+
+- **Size / Dimensions** — primary price driver; not present in any form.
+- **Number of Rooms** — drives price for accommodation and office structures; not present.
+- **Electrical Fittings** — determines deployment readiness; not present.
+
+---
+
+### Phase 4 — Coverage Verdict
+
+3 missing important specs → `significant_gaps`
+
+---
+
+### Seller Spec Audit Output
+
+```json
+"seller_spec_audit": {
+  "top_configurator_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Building Type",
+      "reason": "Defines the functional product class (security cabin vs labour accommodation vs site office) — values are non-interchangeable and each type carries a distinct size, layout, and price point."
+    },
+    {
+      "rank": 2,
+      "spec_name": "Structure Material",
+      "reason": "Determines insulation and structural quality tier (MS+PUF vs MS+EPS vs GI Sheet) with a large price delta between values — PUF panel structures command a significant premium over basic GI sheet structures of equivalent size."
+    }
+  ],
+  "specs_in_seller_list": [
+    "Building Type",
+    "Built Type",
+    "Flooring Type",
+    "Furnishing",
+    "Lifting Type",
+    "Number Of Doors",
+    "Roof Type",
+    "Structure Material",
+    "Usage Application",
+    "Wall Panel Type"
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Size / Dimensions",
+      "why_important": "Floor area (length × width) is the primary price driver for custom-dimensioned portable buildings quoted on a per-sq-ft basis — sellers cannot generate an accurate quote without knowing the required size.",
+      "source": "both",
+      "example_values": ["10x10 ft", "10x20 ft", "20x30 ft", "Custom"]
+    },
+    {
+      "spec_name": "Number of Rooms",
+      "why_important": "Multi-room configurations (2-room, 3-room) for labour colonies and office blocks carry significantly higher prices than single-room units and cannot be inferred from building type alone.",
+      "source": "both",
+      "example_values": ["1 Room", "2 Rooms", "3 Rooms", "4+ Rooms"]
+    },
+    {
+      "spec_name": "Electrical Fittings",
+      "why_important": "Whether the cabin includes pre-installed electrical wiring, lights, fans, and sockets determines deployment readiness and is a standard buyer requirement in the Indian market — sellers need this to confirm scope and price.",
+      "source": "LLM world knowledge",
+      "example_values": ["With Electrical Fittings", "Without Electrical Fittings", "Partial Fittings"]
+    }
+  ],
+  "coverage_verdict": "significant_gaps"
+}
+```
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Application** (Site Office / Security Cabin / Labor Quarters / Portable Toilet / Store Room / Bunk House):
+- Routes the RFQ to sellers who manufacture the specific cabin type. A security cabin seller may not supply labour quarters. Application defines the product class and directly determines size, layout, and price tier. **Rank 1.**
+
+**Built Type** (Modular Cabin / Containerized / Flat-Pack / Folding):
+- Defines the construction method and form factor — non-interchangeable. A containerised unit requires different logistics, has different structural properties, and is priced differently from a modular PUF cabin. Sellers specialise by built type. **Rank 2.**
+
+*(Wall Material was considered for Rank 2 but Built Type is more fundamental — it defines the product form factor, while wall material is a spec within non-container types. Built Type routes the RFQ more effectively.)*
+
+---
+
+### Phase 2 — Thumbnail Eligibility
+
+**Application** (Site Office / Security Cabin / Labor Quarters / Portable Toilet / Store Room / Bunk House):
+- Each application value corresponds to a visually distinct structure type — a security cabin is a compact single-room unit, a labour quarters is a multi-room block, a portable toilet has a distinct form. **Thumbnail eligible: true.**
+
+**Built Type** (Modular Cabin / Containerized / Flat-Pack / Folding):
+- Modular cabin and containerised are visually distinct (steel-framed PUF cabin vs shipping container conversion). Flat-pack and folding are also visually distinguishable. **Thumbnail eligible: true.**
+
+---
+
+### Phase 3 — Missing Buyer Spec Audit
+
+Candidates from Agent 3 vision_output and LLM world knowledge:
+
+- **Size / Dimensions** — not present in buyer spec list under any name or semantic equivalent. This is the most critical buyer input for custom-dimensioned structures — sellers cannot quote without it. More important than Wall Material (rank 3 currently). `would_be_rank: 2` — should displace Built Type to rank 3 because size determines price more directly than construction method. Not thumbnail eligible (numeric/dimensional).
+
+- **Wall Material** — already in buyer spec list. ✗ Not missing.
+
+- **Furnishing Level** — not present. Sellers need to know if the buyer wants fully furnished, semi-furnished, or bare shell to price accurately. Important but less critical than size for initial routing. No `would_be_rank` assigned (ranks below both current specs for routing purposes).
+
+Cross-reference check: "Size / Dimensions" — not present in buyer spec list under any name. Confirmed missing. "Furnishing Level" — not present. Confirmed missing. Both pass the importance threshold.
+
+**Coverage verdict:** 2 missing specs → `partial`
+
+**Image upload assessment:**
+Portable buildings are custom-dimensioned, fabricated-to-order structures. However, buyers typically specify their requirement through functional type (application) and dimensions — they do not have a physical reference to photograph. The product does not involve part-matching, custom artwork, or design-from-stock with extreme visual variation that would require an image reference. Image upload is not recommended.
+
+---
+
+### Buyer Spec Audit Output
+
+```json
+"buyer_spec_audit": {
+  "top_rfq_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Application",
+      "reason": "Defines the functional cabin type (site office vs security cabin vs labour quarters) — routes the RFQ to sellers who manufacture that specific product and determines size, layout, and price tier.",
+      "thumbnail_eligible": true,
+      "thumbnail_options": ["Site Office", "Security Cabin", "Labor Quarters", "Portable Toilet", "Store Room", "Bunk House"]
+    },
+    {
+      "rank": 2,
+      "spec_name": "Built Type",
+      "reason": "Defines the construction method and form factor (modular PUF cabin vs containerised vs flat-pack) — sellers specialise by built type and cannot substitute one for another.",
+      "thumbnail_eligible": true,
+      "thumbnail_options": ["Modular Cabin", "Containerized", "Flat-Pack", "Folding"]
+    }
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Size / Dimensions",
+      "why_important": "Sellers cannot generate an accurate quote for a custom-dimensioned portable building without knowing the required floor area — size is the primary price driver for per-sq-ft quoted structures.",
+      "source": "both",
+      "example_values": ["10x10 ft", "10x20 ft", "20x30 ft", "Custom"],
+      "would_be_rank": 2,
+      "thumbnail_eligible": false
+    }
+  ],
+  "coverage_verdict": "partial",
+  "image_upload_recommended": false
+}
+```
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs collected:**
+- `top_rfq_specs` rank 1: Application → options: [Site Office, Security Cabin, Labor Quarters, Portable Toilet, Store Room, Bunk House] — 6 prompts
+- `top_rfq_specs` rank 2: Built Type → options: [Modular Cabin, Containerized, Flat-Pack, Folding] — 4 prompts
+- `missing_important_specs`: Size / Dimensions → `thumbnail_eligible: false` — no prompts
+
+Total: 10 prompts. All must represent `primary_segment`: Steel-framed prefabricated porta cabin / portable site office cabin.
+
+```json
+"buyer_spec_thumbnail_prompts": [
+  {
+    "attribute": "Application",
+    "option_value": "Site Office",
+    "id": "spec_1",
+    "prompt_for_generation": "Steel-framed prefabricated portable site office cabin, rectangular structure with aluminium-framed windows and a single entry door, PUF sandwich panel walls in light grey, placed on a construction site with compacted earth ground, natural daylight, front three-quarter view, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Application",
+    "option_value": "Security Cabin",
+    "id": "spec_2",
+    "prompt_for_generation": "Compact steel-framed prefabricated security guard cabin, small single-room structure approximately 6x6 ft, PUF panel walls in white or light grey, sliding window on front face, placed at a factory gate entrance, natural daylight, front-facing view, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Application",
+    "option_value": "Labor Quarters",
+    "id": "spec_3",
+    "prompt_for_generation": "Steel-framed prefabricated labour quarters building, multi-room long rectangular block with multiple doors and windows along the facade, PUF or EPS sandwich panel walls, placed on an open construction site, natural daylight, front elevation view showing multiple room units, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Application",
+    "option_value": "Portable Toilet",
+    "id": "spec_4",
+    "prompt_for_generation": "Prefabricated portable toilet block cabin, compact steel-framed structure with FRP or PUF panel walls, ventilation louvres near the top, single door with latch, placed on open ground at a construction site, natural daylight, front three-quarter view, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Application",
+    "option_value": "Store Room",
+    "id": "spec_5",
+    "prompt_for_generation": "Steel-framed prefabricated portable storage cabin, robust rectangular structure with solid PUF panel walls, wide double-leaf door for equipment access, no windows or minimal ventilation openings, placed on a construction or industrial site, natural daylight, front three-quarter view, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Application",
+    "option_value": "Bunk House",
+    "id": "spec_6",
+    "prompt_for_generation": "Steel-framed prefabricated bunk house accommodation cabin, elongated rectangular structure with multiple windows and a central entry door, PUF sandwich panel walls in light colour, placed on a remote project site, natural daylight, front elevation view suggesting sleeping accommodation, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Built Type",
+    "option_value": "Modular Cabin",
+    "id": "spec_7",
+    "prompt_for_generation": "Steel-framed modular prefabricated porta cabin with PUF sandwich panel walls, clean rectangular form with aluminium windows and a single door, assembled from factory-made panels, placed on flat ground at a construction site, natural daylight, front three-quarter view showing panel joints, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Built Type",
+    "option_value": "Containerized",
+    "id": "spec_8",
+    "prompt_for_generation": "Shipping container converted into a portable office cabin, standard 20-foot ISO container with cut-out aluminium windows and a personnel door added to the side, corrugated steel walls in blue or grey, placed on a construction site, natural daylight, front three-quarter view clearly showing container corrugation, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Built Type",
+    "option_value": "Flat-Pack",
+    "id": "spec_9",
+    "prompt_for_generation": "Flat-pack prefabricated portable cabin being assembled on-site, steel frame with flat panel wall sections being bolted together by workers, partially assembled structure showing the flat-pack construction method, construction site background, natural daylight, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Built Type",
+    "option_value": "Folding",
+    "id": "spec_10",
+    "prompt_for_generation": "Folding portable cabin structure, compact collapsible steel-framed unit shown in partially unfolded or fully deployed state, accordion-style folding wall panels visible, placed on open ground, natural daylight, three-quarter view clearly showing the folding mechanism and deployed form, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  }
+]
+```
+
+---
+
+## Final Consolidated Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — a security guard cabin, a multi-room labour colony, and a container office are visually unrecognisable as the same category. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Building type, structure material, and dimensions are primary shortlisting criteria — buyers cannot evaluate fit or price without these. Spec is a discovery signal across material and type tiers, not merely a confirmation check."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian construction and industrial buyers compare per-sq-ft rates aggressively across sellers once type and material tier are confirmed. Price varies substantially with structure material and insulation type, making it a primary comparison lever after spec shortlisting."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Compact single-unit cabins (security guard cabin, toilet block) are also quoted per piece — both units are active in the market. Per sq ft is dominant for custom-dimensioned structures. Unit must be shown alongside price to prevent comparison confusion.",
+      "reason": "Two active units exist in this market (per sq ft and per piece) — a buyer comparing a per-sq-ft quote against a per-piece quote without unit visibility will misread price significantly."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand with buyer recall exists in the Indian portable buildings market — the market is fragmented across regional fabricators and buyers search by spec, application, and price rather than manufacturer name.",
+      "reason": "Manufacturer status, installation capability, and project track record are evaluated during vendor selection for large orders, but company identity does not drive initial listing engagement."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Building Type",
+        "reason": "Defines the functional product class (security cabin vs labour accommodation vs site office) — values are non-interchangeable and each type carries a distinct size, layout, and price point."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Material",
+        "reason": "Determines insulation and structural quality tier (MS+PUF vs MS+EPS vs GI Sheet) with a large price delta between values — PUF panel structures command a significant premium over basic GI sheet structures of equivalent size."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Building Type",
+      "Built Type",
+      "Flooring Type",
+      "Furnishing",
+      "Lifting Type",
+      "Number Of Doors",
+      "Roof Type",
+      "Structure Material",
+      "Usage Application",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Size / Dimensions",
+        "why_important": "Floor area (length × width) is the primary price driver for custom-dimensioned portable buildings quoted on a per-sq-ft basis — sellers cannot generate an accurate quote without knowing the required size.",
+        "source": "both",
+        "example_values": ["10x10 ft", "10x20 ft", "20x30 ft", "Custom"]
+      },
+      {
+        "spec_name": "Number of Rooms",
+        "why_important": "Multi-room configurations for labour colonies and office blocks carry significantly higher prices than single-room units and cannot be inferred from building type alone.",
+        "source": "both",
+        "example_values": ["1 Room", "2 Rooms", "3 Rooms", "4+ Rooms"]
+      },
+      {
+        "spec_name": "Electrical Fittings",
+        "why_important": "Whether the cabin includes pre-installed electrical wiring, lights, fans, and sockets determines deployment readiness and is a standard buyer requirement — sellers need this to confirm scope and price accurately.",
+        "source": "LLM world knowledge",
+        "example_values": ["With Electrical Fittings", "Without Electrical Fittings", "Partial Fittings"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Defines the functional cabin type (site office vs security cabin vs labour quarters) — routes the RFQ to sellers who manufacture that specific product and determines size, layout, and price tier.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Site Office", "Security Cabin", "Labor Quarters", "Portable Toilet", "Store Room", "Bunk House"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Built Type",
+        "reason": "Defines the construction method and form factor (modular PUF cabin vs containerised vs flat-pack) — sellers specialise by built type and cannot substitute one form factor for another.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Modular Cabin", "Containerized", "Flat-Pack", "Folding"]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Size / Dimensions",
+        "why_important": "Sellers cannot generate an accurate quote for a custom-dimensioned portable building without knowing the required floor area — size is the primary price driver for per-sq-ft quoted structures.",
+        "source": "both",
+        "example_values": ["10x10 ft", "10x20 ft", "20x30 ft", "Custom"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Site Office",
+      "id": "spec_1",
+      "prompt_for_generation": "Steel-framed prefabricated portable site office cabin, rectangular structure with aluminium-framed windows and a single entry door, PUF sandwich panel walls in light grey, placed on a construction site with compacted earth ground, natural daylight, front three-quarter view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Security Cabin",
+      "id": "spec_2",
+      "prompt_for_generation": "Compact steel-framed prefabricated security guard cabin, small single-room structure approximately 6x6 ft, PUF panel walls in white or light grey, sliding window on front face, placed at a factory gate entrance, natural daylight, front-facing view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Labor Quarters",
+      "id": "spec_3",
+      "prompt_for_generation": "Steel-framed prefabricated labour quarters building, multi-room long rectangular block with multiple doors and windows along the facade, PUF or EPS sandwich panel walls, placed on an open construction site, natural daylight, front elevation view showing multiple room units, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Portable Toilet",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated portable toilet block cabin, compact steel-framed structure with FRP or PUF panel walls, ventilation louvres near the top, single door with latch, placed on open ground at a construction site, natural daylight, front three-quarter view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Store Room",
+      "id": "spec_5",
+      "prompt_for_generation": "Steel-framed prefabricated portable storage cabin, robust rectangular structure with solid PUF panel walls, wide double-leaf door for equipment access, minimal windows, placed on a construction or industrial site, natural daylight, front three-quarter view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Bunk House",
+      "id": "spec_6",
+      "prompt_for_generation": "Steel-framed prefabricated bunk house accommodation cabin, elongated rectangular structure with multiple windows and a central entry door, PUF sandwich panel walls in light colour, placed on a remote project site, natural daylight, front elevation view suggesting sleeping accommodation, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Modular Cabin",
+      "id": "spec_7",
+      "prompt_for_generation": "Steel-framed modular prefabricated porta cabin with PUF sandwich panel walls, clean rectangular form with aluminium windows and a single door, assembled from factory-made panels, placed on flat ground at a construction site, natural daylight, front three-quarter view showing panel joints, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Containerized",
+      "id": "spec_8",
+      "prompt_for_generation": "Shipping container converted into a portable office cabin, standard 20-foot ISO container with cut-out aluminium windows and a personnel door added to the side, corrugated steel walls in blue or grey, placed on a construction site, natural daylight, front three-quarter view clearly showing container corrugation, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Flat-Pack",
+      "id": "spec_9",
+      "prompt_for_generation": "Flat-pack prefabricated portable cabin being assembled on-site, steel frame with flat panel wall sections being bolted together, partially assembled structure clearly showing the flat-pack construction method with panels leaning against the frame, construction site background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Folding",
+      "id": "spec_10",
+      "prompt_for_generation": "Folding portable cabin structure, compact collapsible steel-framed unit shown in fully deployed state with accordion-style folding wall panels visible, placed on open ground, natural daylight, three-quarter view clearly showing the folding mechanism and deployed cabin form, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
