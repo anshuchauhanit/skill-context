@@ -1,0 +1,236 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Massive visual variation between product types — a single-room porta cabin, a 2 BHK modular unit, a dormitory block, and a furnished villa look entirely different. Buyers use the image to identify product type, size impression, and finish quality before reading any text. Wrong type or poor-quality image = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Floor area, configuration (rooms + toilet), and structure material are the primary shortlisting gates. A buyer needing a 3-room complex cannot use a single-room cabin — specs are non-interchangeable and must be visible on the listing card for any meaningful evaluation."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies enormously with floor area, configuration, material, and furnishing level — a basic single-room MS cabin and a fully furnished 2 BHK complex differ by a large multiple. Indian B2B buyers actively compare prices across sellers once spec requirements are confirmed; price is a primary budget-qualification signal for project procurement."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per unit",
+      "unit_note": "Standard single-module porta cabin guest houses are quoted per unit/piece; large custom multi-room complexes are quoted per sq ft. Both units are active in the market — price cannot be compared without knowing which unit applies. Per unit dominates for the primary segment.",
+      "reason": "Per unit vs per sq ft is a confirmed market ambiguity for this category. A buyer comparing a per-unit price against a per-sq-ft price cannot make a valid cost comparison without the unit being explicitly shown alongside the price."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the market is fragmented across SME fabricators; buyers search by spec, size, and price, not manufacturer name.",
+      "reason": "Manufacturer vs trader distinction matters for installation capability and service location coverage, and government/PSU buyers evaluate track record during vendor selection — but specs and price carry equal or greater weight in initial shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Floor Area",
+        "reason": "Floor area is the single largest price driver — a unit up to 300 sq ft vs one above 1000 sq ft represents a multiple-fold price difference, and values are non-interchangeable across project requirements."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Material",
+        "reason": "MS/steel vs wooden vs RCC/precast concrete defines fundamentally different product types with different price tiers, lifespans, and compliance requirements — a buyer specifying MS cannot substitute a wooden structure."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Built Type",
+      "Capacity",
+      "Floor Area",
+      "Flooring Type",
+      "Furnishing",
+      "Guest House Type",
+      "Service Location",
+      "Structure Material",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Number of Rooms",
+        "why_important": "Buyers specify their accommodation requirement by room count (1 room / 2 rooms / 3–4 rooms / 5+ rooms), which directly drives price and determines whether a seller's standard module range can fulfil the order — Guest House Type values (Villa, Cottage, Dormitory) do not capture this numerically.",
+        "source": "both",
+        "example_values": [
+          "1 Room",
+          "2 Rooms",
+          "3-4 Rooms",
+          "5+ Rooms"
+        ]
+      },
+      {
+        "spec_name": "Toilet / Bathroom Attached",
+        "why_important": "Whether a toilet and bathroom are included is a binary but critical spec that fundamentally changes what the seller supplies and at what price — a guest house without attached sanitation is a different product from one with, and this is not captured by the Furnishing spec.",
+        "source": "both",
+        "example_values": [
+          "Attached Toilet & Bathroom",
+          "Common Toilet Block",
+          "Without Toilet",
+          "Attached Toilet Only"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Configuration",
+        "reason": "Configuration directly communicates the accommodation layout requirement — a seller specialising in single-room porta cabins cannot supply a 2 BHK unit, making this the primary RFQ routing signal.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "1 BHK",
+          "Studio / 1 Room",
+          "2 BHK",
+          "1 Room + Toilet"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area",
+        "reason": "Floor area defines the scale of the project and allows sellers to determine manufacturing capacity, logistics feasibility, and pricing before responding.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Furnishing Level",
+        "why_important": "Sellers need to know whether the buyer wants a bare-shell structure or a furnished unit — this fundamentally changes what is supplied, the supply chain involved, and the price, making it a critical routing spec absent from the current buyer form.",
+        "source": "both",
+        "example_values": [
+          "Unfurnished",
+          "Semi Furnished",
+          "Fully Furnished"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Unfurnished",
+          "Semi Furnished",
+          "Fully Furnished"
+        ]
+      },
+      {
+        "spec_name": "Structure Material",
+        "why_important": "A seller who fabricates only MS/steel prefab units cannot supply a wooden or FRP guest house — material preference is a hard routing filter that Frame Material only partially captures (excludes Wood and FRP variants).",
+        "source": "both",
+        "example_values": [
+          "Mild Steel (MS)",
+          "Wood",
+          "FRP",
+          "GI Steel"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Configuration",
+      "option_value": "1 BHK",
+      "id": "spec_1",
+      "prompt_for_generation": "MS steel-frame prefabricated guest house cabin, 1 BHK layout with one bedroom and one living area, insulated sandwich panel walls, single entrance door, two windows visible on exterior, clean white or grey finish, placed on flat ground, natural daylight, no branding, architectural product photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Configuration",
+      "option_value": "Studio / 1 Room",
+      "id": "spec_2",
+      "prompt_for_generation": "MS steel-frame prefabricated portable guest house cabin, compact single-room studio layout, insulated sandwich panel walls and roof, one door and one window on front face, light grey exterior finish, placed on flat ground, natural daylight, no branding, clean product photography.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Configuration",
+      "option_value": "2 BHK",
+      "id": "spec_3",
+      "prompt_for_generation": "MS steel-frame prefabricated guest house, 2 BHK configuration with two separate bedroom sections visible, larger footprint than single-room cabin, insulated sandwich panel walls, multiple windows and two doors on exterior, white or cream finish, placed on flat ground, natural daylight, no branding, architectural product photography.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Configuration",
+      "option_value": "1 Room + Toilet",
+      "id": "spec_4",
+      "prompt_for_generation": "MS steel-frame prefabricated guest house cabin, single room with attached toilet block visible as a smaller adjacent section, insulated sandwich panel walls, main door plus separate toilet door on exterior, grey and white finish, flat ground placement, natural daylight, no branding, clean product photography.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Furnishing Level",
+      "option_value": "Unfurnished",
+      "id": "spec_5",
+      "prompt_for_generation": "Interior of MS steel-frame prefabricated guest house cabin, completely empty unfurnished room, bare vinyl or cement floor, plain white insulated panel walls, single window with natural light, no furniture or fittings, clean and minimal, interior photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Furnishing Level",
+      "option_value": "Semi Furnished",
+      "id": "spec_6",
+      "prompt_for_generation": "Interior of MS steel-frame prefabricated guest house cabin, semi-furnished with a basic bed frame, small table, and ceiling fan visible, vinyl flooring, white insulated panel walls, window with curtain, modest practical furnishings only, natural daylight, interior photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Furnishing Level",
+      "option_value": "Fully Furnished",
+      "id": "spec_7",
+      "prompt_for_generation": "Interior of MS steel-frame prefabricated guest house cabin, fully furnished with bed, mattress, wardrobe, side table, air conditioner unit, curtains, and complete electrical fittings, wooden or vinyl flooring, clean white walls, well-lit interior, comfortable and complete accommodation appearance, interior photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
