@@ -1,0 +1,210 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Significant visual variation exists across material types (MS metallic vs FRP fibreglass vs PUF sandwich panel) and size tiers; buyers scan listing tiles to confirm it is a guard cabin and not an office cabin, toilet block, or container before reading any text. Wrong product type = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Size (L×B) and Material are non-interchangeable primary shortlisting criteria — a 4×4 ft MS cabin cannot substitute for a 6×6 ft PUF cabin; listings without these specs cannot be evaluated or priced by buyers."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies 3–5x across the size and material range; Indian B2B buyers compare prices aggressively across sellers once size and material match is confirmed, making price a primary shortlisting lever in this commoditised mid-market category."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with active buyer recall exists in this category; buyers search by size, material, and price rather than manufacturer name, and the market is fragmented across regional fabricators.",
+      "reason": "Institutional and government buyers evaluate manufacturer status, ISO 9001 certification, and track record of project supply during vendor selection; facility managers and contractors also prefer direct manufacturers over traders for after-sales support."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Per sq ft quoting exists for large custom or multi-room orders but is secondary; standard factory-built units are universally quoted per piece and no buyer questions this.",
+      "reason": "Unit is entirely implied for a finished factory-built cabin — no buyer would question whether a portable security cabin is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Size (L x B)",
+        "reason": "Defines the product class — a 4×4 ft cabin is non-interchangeable with an 8×8 ft cabin and price difference across the size range is 3–5x, making this the primary price-driving configurator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Material",
+        "reason": "Defines the product variant within a size tier — MS, FRP, and PUF Panel are non-interchangeable across buyer requirements (corrosion resistance, insulation, durability) with significant price delta between material types."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Door Lock Type",
+      "Features",
+      "Flooring Material",
+      "Inner Wall Material",
+      "Insulation Material",
+      "Material",
+      "Number of Windows",
+      "Size (L x B)"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Height",
+        "why_important": "Standard heights range from 7–8.5 ft and affect site fit, comfort for guard personnel, and compliance with site-specific clearance requirements — sellers need this to confirm the right unit variant.",
+        "source": "both",
+        "example_values": [
+          "7 ft",
+          "7.5 ft",
+          "8 ft",
+          "8.5 ft"
+        ]
+      },
+      {
+        "spec_name": "Mobility Type",
+        "why_important": "Relocatability (fixed base vs wheels vs lifting hooks) is a core value proposition of portable cabins and a primary buyer requirement for construction sites where the cabin must be moved as the project progresses.",
+        "source": "both",
+        "example_values": [
+          "Fixed Base",
+          "Wheel Mounted",
+          "Lifting Hook",
+          "Wheel + Hook"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Material defines the product variant and is non-interchangeable across buyer requirements — sellers need this to confirm they manufacture or stock the requested type and to price it accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Mild Steel (MS)",
+          "FRP (Fiber)",
+          "PUF Panel",
+          "Galvanized Iron",
+          "ACP Sheet",
+          "Fiber Cement"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Length is the primary dimensional requirement that routes sellers to the correct factory-built size tier and determines the base price of the unit.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Insulation Requirement",
+        "why_important": "Buyers in hot or cold climates specify whether they need an insulated cabin (PUF/rock wool lined) or a non-insulated standard cabin — sellers need this to confirm product fit and price the correct variant, as an MS cabin can be supplied either way.",
+        "source": "both",
+        "example_values": [
+          "Insulated",
+          "Non-Insulated",
+          "PUF Insulated",
+          "Rock Wool Insulated"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Material",
+      "option_value": "Mild Steel (MS)",
+      "id": "spec_1",
+      "prompt_for_generation": "Portable security guard cabin constructed from mild steel, metallic grey painted exterior with visible steel frame, aluminium sliding window, MS door, placed on flat ground at a construction site gate, natural daylight, front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "FRP (Fiber)",
+      "id": "spec_2",
+      "prompt_for_generation": "Portable security guard cabin made from fibre-reinforced plastic (FRP), smooth off-white or light grey fibreglass exterior surface, FRP door and window frame, compact 6x6 ft size, placed at an industrial facility gate, natural daylight, front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "PUF Panel",
+      "id": "spec_3",
+      "prompt_for_generation": "Portable security guard cabin built with PUF sandwich panels, clean white or cream panel exterior with visible panel joints, insulated wall construction, aluminium sliding window, placed at a residential gated community entrance, natural daylight, front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Galvanized Iron",
+      "id": "spec_4",
+      "prompt_for_generation": "Portable security guard cabin constructed from galvanised iron sheets, silver-zinc metallic finish exterior, GI corrugated or flat panel walls, MS frame, aluminium window, placed at a factory gate, natural daylight, front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "ACP Sheet",
+      "id": "spec_5",
+      "prompt_for_generation": "Portable security guard cabin clad with aluminium composite panels (ACP), modern flat exterior with glossy or matte ACP finish in grey or silver, clean sharp edges, aluminium sliding window, placed at a commercial complex entrance, natural daylight, front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Fiber Cement",
+      "id": "spec_6",
+      "prompt_for_generation": "Portable security guard cabin with fiber cement board exterior walls, textured matte grey or beige surface finish, robust construction appearance, aluminium window, placed at an educational institution gate, natural daylight, front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
