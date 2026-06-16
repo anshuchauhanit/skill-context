@@ -1,0 +1,70 @@
+{
+  "enhanced_name_4w": "Prefab Industrial Steel Shelters",
+  "enhanced_name_5w": "Prefab Steel Shelters for Industry",
+  "enhanced_name_6w": "Prefab Steel FRP Shelters for Industry",
+  "enhanced_name_long": "Prefabricated Steel and FRP Industrial Shelters for Factory, Warehouse, Equipment and Machinery Protection",
+  "alt_names": {
+    "primary_keywords": [
+      "industrial shelter",
+      "prefabricated industrial shelter",
+      "prefab shelter",
+      "steel shelter",
+      "FRP shelter",
+      "pre-engineered shelter",
+      "modular industrial shelter",
+      "industrial shed shelter",
+      "iron shelter",
+      "insulated panel shelter"
+    ],
+    "technical_synonyms": [
+      "Pre-Engineered Building shelter",
+      "PEB shelter",
+      "prefab steel enclosure",
+      "structural steel shelter",
+      "PUF panel shelter",
+      "sandwich panel shelter",
+      "GI sheet shelter",
+      "PPGI roofing shelter",
+      "cold-formed steel shelter",
+      "EPS insulated shelter"
+    ],
+    "trade_names": [
+      "equipment housing shelter",
+      "prefab site shelter",
+      "pump house shelter",
+      "canopy shelter",
+      "security shelter",
+      "guard shelter",
+      "porta shelter",
+      "utility enclosure shelter",
+      "loading bay shelter",
+      "workshop shelter"
+    ],
+    "hindi_terms": [
+      "औद्योगिक शेल्टर",
+      "प्रीफैब शेड",
+      "स्टील शेड"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated industrial shelter manufacturer India",
+      "steel shelter for factory and warehouse",
+      "FRP shelter for industrial use",
+      "pre-engineered building shelter supplier",
+      "PUF insulated panel shelter for equipment",
+      "modular steel shelter for site office",
+      "portable industrial shelter with installation",
+      "industrial shed shelter per sq ft price",
+      "custom size prefab shelter for manufacturing unit",
+      "prefab steel enclosure for machinery protection"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Telecom/BTS shelter buyers (standardised fixed-dimension units for tower sites) — carved out by sibling MCAT 'Telecom Shelters' (ID 42756); names and alt names must not primarily target this sub-segment",
+    "Military/defence shelter buyers — carved out by sibling MCAT 'Military Shelters' (ID 33228); names must not primarily target defence procurement context",
+    "Dome-type shelter buyers — carved out by sibling MCAT 'Dome Shelters' (ID 26766); 'dome shelter' removed from enhanced names to avoid collision",
+    "Portable shelter buyers — carved out by sibling MCAT 'Portable Shelters' (ID 20782); 'portable industrial shelter' retained only in alt_names as a secondary term, not used in enhanced names",
+    "Agricultural/rainout shelter buyers — confirmed contaminating segment from market_context; automated retractable or agricultural research shelter terms are excluded from all name candidates"
+  ],
+  "segment_contamination_disclaimer": null
+}
