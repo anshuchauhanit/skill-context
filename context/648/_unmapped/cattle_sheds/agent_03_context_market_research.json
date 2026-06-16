@@ -1,0 +1,495 @@
+{
+  "mcat_description": {
+    "short": "Cattle Sheds are prefabricated or semi-permanent farm structures designed to house dairy cattle (cows, buffaloes), goats, and other livestock, typically built with mild steel or galvanised steel frames and corrugated roofing sheets. They are sold as complete supply-and-erect solutions or as fabricated structural kits, customised to herd size and farm layout.",
+    "long": "Cattle Sheds in the Indian B2B market are purpose-built livestock housing structures supplied by fabricators and pre-engineered building contractors, primarily serving commercial dairy farmers, small-scale livestock entrepreneurs, and agri-entrepreneurs setting up new farms. The dominant construction system uses mild steel or galvanised steel structural frames with corrugated GI, PPGI, or fibre-cement roofing sheets, concrete or brick-paved flooring with drainage slopes, and open or semi-open side walls to ensure ventilation — consistent with BIS recommendations for loose housing systems across most Indian agro-climatic zones. Buyers typically specify shed dimensions (length × width in feet), herd capacity (number of animals), roofing material, flooring type, and ancillary features such as water troughs, mangers, and drainage channels. A significant sub-segment covers elevated slatted-floor goat sheds, which use a raised wooden or metal platform design distinct from ground-level cattle housing.",
+    "product_types": [
+      "Dairy Cow Shed (loose housing system)",
+      "Buffalo Shed",
+      "Elevated Goat Farm Shed (slatted floor)",
+      "Ground-Level Goat Shed",
+      "Sheep Farm Shed",
+      "Calf Shed",
+      "Prefabricated Modular Cattle Shed",
+      "Turnkey Dairy Farm Shed (complete project)",
+      "Open-Sided Cattle Shed",
+      "Semi-Enclosed Cattle Shed"
+    ],
+    "primary_applications": [
+      "Commercial dairy farming (cow and buffalo milk production)",
+      "Goat farming and small ruminant livestock operations",
+      "Sheep farming",
+      "Calf rearing and heifer housing",
+      "Integrated dairy farm setup (milking shed + ancillary structures)",
+      "Subsistence and small-scale livestock farming"
+    ],
+    "buyer_segments": [
+      "Commercial dairy farmers (10–200+ head operations)",
+      "Small and marginal farmers setting up first dairy unit",
+      "Agri-entrepreneurs and dairy farm investors",
+      "Goat and sheep farm operators",
+      "Government-aided dairy scheme beneficiaries (NABARD, state schemes)",
+      "Livestock contractors and farm developers"
+    ]
+  },
+  "primary_segment": "Prefabricated steel-framed dairy cattle shed (cow/buffalo) for commercial dairy farming",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated steel-framed livestock housing shed for dairy cattle and small ruminants",
+    "secondary_families": [],
+    "reason": "All sub-types (cow shed, buffalo shed, goat shed, sheep shed) share the same product concept, buyer profile (livestock farmers), construction industry, and B2B transaction context — no incompatible regulatory regime or buyer segment exists within this MCAT."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "cattle shed",
+      "cow shed",
+      "dairy farm shed",
+      "goat farm shed",
+      "buffalo shed",
+      "dairy shed",
+      "livestock shed",
+      "animal shed",
+      "goat shed",
+      "sheep farm shed"
+    ],
+    "technical_synonyms": [
+      "loose housing system shed",
+      "prefabricated livestock housing",
+      "steel frame cattle barn",
+      "modular dairy farm structure",
+      "pre-engineered cattle shed",
+      "elevated slatted floor goat shed",
+      "open-sided cattle housing",
+      "GI roofing farm shed"
+    ],
+    "trade_names": [
+      "dairy barn",
+      "cow barn",
+      "cattle barn",
+      "goat house",
+      "animal housing structure",
+      "farm shed structure"
+    ],
+    "hindi_terms": [
+      "pashu shed",
+      "gau shed",
+      "dairy farm shed",
+      "bakri farm shed",
+      "pashu grih"
+    ],
+    "buyer_intent_queries": [
+      "low budget cow shed design for 10 cows",
+      "prefabricated cattle shed price per sq ft",
+      "dairy farm shed construction cost India",
+      "elevated goat farm shed complete project",
+      "steel structure cow shed design and construction",
+      "buffalo dairy farm shed design",
+      "goat farm shed design for 100 goats",
+      "modular cattle shed supplier India",
+      "cow shed design for 20 cows in India",
+      "dairy farm shed with milking parlour"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian cattle shed fabricators quote on a per-square-foot basis reflecting the custom-dimensioned nature of each project; buyers specify length × width in feet (e.g. 30×60, 30×100) and receive per-sq-ft rates for the covered area.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Elevated goat farm shed (complete project)",
+        "unit": "per project / lump sum",
+        "note": "Complete turnkey elevated goat sheds are often quoted as a project total given the complexity of platform, flooring, and structure."
+      },
+      {
+        "sub_segment": "Modular/prefabricated kit shed",
+        "unit": "per sq ft or per sq metre",
+        "note": "Standardised modular kits may be quoted per sq metre for export or larger institutional buyers."
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART MCAT page (structural signal — listing tile unit observations)",
+      "kedarroofsandpebs.in (manufacturer site)",
+      "accio.com (market aggregator — sq metre MOQ patterns)",
+      "Buyer call data (30×60, 30×100 dimension references)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Cattle Sheds in India are primarily supplied as prefabricated or semi-permanent steel-framed structures by small-to-medium fabricators and pre-engineered building (PEB) contractors, with Rajasthan, Bihar, Tamil Nadu, and Maharashtra emerging as key supplier geographies based on listing distribution signals. The Bureau of Indian Standards (BIS) has published space and housing recommendations for dairy cattle under ISI standards, with the loose housing system recommended for most Indian agro-climatic zones — this is the dominant design paradigm for commercial dairy farms. Relevant Indian standards for roofing materials include IS 459 (corrugated cement sheets) and IS 3007 (laying of corrugated roofing), which are referenced by Indian roofing manufacturers for cattle shed applications. The market spans two distinct buyer tiers: small/marginal farmers seeking low-cost sheds for 5–20 animals, and commercial dairy entrepreneurs setting up 50–200+ head operations who require turnkey design-and-build solutions with milking parlour integration, drainage systems, and water troughs. Goat farming sheds — particularly elevated slatted-floor designs — represent a growing sub-segment driven by expanding small ruminant farming across Rajasthan, UP, and MP. Asia-Pacific, including India, shows the fastest growth rate in prefabricated livestock building adoption, driven by expanding domestic dairy and meat markets (single source — low confidence for growth rate claim). Key buyer decision factors are shed size/dimensions, structural material (MS vs GI vs SS), roofing type, herd capacity, ventilation design, and total construction cost per sq ft.",
+  "buyer_attracting_attributes": [
+    "Shed Size / Dimensions (length × width in feet)",
+    "Structure Material (Mild Steel / Galvanised Steel / Stainless Steel)",
+    "Roofing Material (GI Sheet / PPGI / Fibre Cement / Polycarbonate)",
+    "Herd Capacity (number of animals)",
+    "Ventilation Design (open-sided / ridge vent / mechanical fan provision)",
+    "Flooring Type (concrete / brick-paved / slatted elevated platform)",
+    "Drainage System (slope gradient / drainage channel)",
+    "Lifespan / Durability (years; corrosion resistance)",
+    "Assembly Time and Installation Method",
+    "Customisation Options (manger, water trough, milking parlour integration)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "146519",
+    "mcat_name": "Cattle Sheds",
+    "mcat_level": "4",
+    "listing_count": "1830",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Cattle Sheds",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "158662.0",
+      "name": "Prefabricated Shed",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "158662.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20781",
+        "mcat_name": "Prefabricated Shelters",
+        "listing_count": "4676",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "20782",
+        "mcat_name": "Portable Shelters",
+        "listing_count": "930",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21106",
+        "mcat_name": "Aircraft Hangars",
+        "listing_count": "407",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "26766",
+        "mcat_name": "Dome Shelters",
+        "listing_count": "395",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30719",
+        "mcat_name": "Industrial Sheds",
+        "listing_count": "36863",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30721",
+        "mcat_name": "Industrial Shelters",
+        "listing_count": "531",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33228",
+        "mcat_name": "Military Shelters",
+        "listing_count": "154",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33397",
+        "mcat_name": "Metal Shelters",
+        "listing_count": "228",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35070",
+        "mcat_name": "Portable Garage",
+        "listing_count": "1406",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42756",
+        "mcat_name": "Telecom Shelters",
+        "listing_count": "611",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "107235",
+        "mcat_name": "Folding Garage",
+        "listing_count": "20",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136750",
+        "mcat_name": "Prefabricated Factory Shed",
+        "listing_count": "15425",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145222",
+        "mcat_name": "Poultry Sheds",
+        "listing_count": "1889",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158662",
+        "mcat_name": "Prefabricated Shed",
+        "listing_count": "4727",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164591",
+        "mcat_name": "Metal Sheds",
+        "listing_count": "1477",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164769",
+        "mcat_name": "Warehouse Sheds",
+        "listing_count": "6293",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166772",
+        "mcat_name": "Swimming Pool Tensile Cover",
+        "listing_count": "670",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "172388",
+        "mcat_name": "PEB Structures Fabrication",
+        "listing_count": "3547",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182931",
+        "mcat_name": "Auditorium Roofing Shed",
+        "listing_count": "504",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "187089",
+        "mcat_name": "Badminton Court Roofing Shed",
+        "listing_count": "1474",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "191761",
+        "mcat_name": "Swimming Pool Shed",
+        "listing_count": "280",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "220929",
+        "mcat_name": "Tin Shed",
+        "listing_count": "2737",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 22,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Cattle sheds are prefabricated agricultural structures evaluated by buyers on design, material durability, cost-effectiveness, and customisation options — standard B2B market research on material specs, construction standards, and buyer segment needs applies."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions used to identify buyer search vocabulary; 'cow shed' (734 impressions) and 'cattle shed' (298 impressions) confirmed dairy cattle as primary segment."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "'cattle sheds' (194 PVs) is the dominant on-platform term; goat farm shed and elevated goat farm shed confirmed as secondary sub-segments."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Call rows confirmed sub-segment vocabulary (buffalo shed, dairy shed, elevated goat farm shed, 30×60/30×100 dimensions). AI Pipe (Shikanja) identified as wrong-product contamination signal. Broiler Farm Shed noted as potential sibling-MCAT contamination."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "1830 listing count treated as plausible for a broad livestock shed MCAT; listing_count_suspect set false. Page URL was not provided so page_fetch_failed set true."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.pashudhanpraharee.com/principlesbis-recomendation-and-layout-design-of-dairy-cattle-and-buffalo-housing-in-india/",
+        "title": "PRINCIPLES, BIS RECOMMENDATION AND LAYOUT DESIGN OF DAIRY CATTLE AND BUFFALO HOUSING IN INDIA",
+        "source_domain": "pashudhanpraharee.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for BIS/ISI space requirements for dairy animals, loose housing system recommendation for Indian agro-climatic zones, and layout design principles."
+      },
+      {
+        "url": "https://www.silworld.in/swastik-roof-for-cattle-shed-design-and-construction/",
+        "title": "Cattle shed Design and construction information – Sahyadri Industries Limited",
+        "source_domain": "silworld.in",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for IS standards references (IS 459, IS 3007), roofing material specifications, and shed height/dimension norms for Indian cattle sheds."
+      },
+      {
+        "url": "https://www.kedarroofsandpebs.in/cattle-sheds-12127277.html",
+        "title": "Affordable Prefabricated Cattle Sheds for Modern Housing Needs",
+        "source_domain": "kedarroofsandpebs.in",
+        "derived_outputs": [
+          "mcat_description.short",
+          "unit_quoting_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for prefabricated cattle shed features (ventilation, drainage, fire resistance, 25-year lifespan), installation method (RCC strip foundations, 2–3 day assembly), and unit quoting context."
+      },
+      {
+        "url": "https://www.agrifarming.in/dairy-shed-design-construction-plan",
+        "title": "Dairy Shed Design, Construction Plan Information | Agri Farming",
+        "source_domain": "agrifarming.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for dairy shed layout norms (single row vs double row), flooring specifications, manger dimensions, and buyer vocabulary for Indian dairy farm shed construction."
+      },
+      {
+        "url": "https://www.dairyfarmguide.com/model-layouts-of-dairy-0134.html",
+        "title": "Model Layouts of Dairy Farms of Various Sizes from Dairy Farm Guide",
+        "source_domain": "dairyfarmguide.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used to corroborate loose housing system as dominant Indian dairy farm design and ancillary structure requirements (milking parlour, feed store, calf shed)."
+      },
+      {
+        "url": "https://basu.org.in/wp-content/uploads/2020/10/LPM-601_Housing_and_Rearing_Systems_for_cattle_and_buffaloes.pdf",
+        "title": "HOUSING AND REARING SYSTEMS FOR CATTLE AND BUFFALOES (LPM-601)",
+        "source_domain": "basu.org.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Agricultural university PDF used for space requirements per animal, flooring material norms (cement concrete, brick-on-edge), and ancillary structure types at Indian dairy farms."
+      },
+      {
+        "url": "https://havitsteelstructure.com/steel-structure-cowshed/",
+        "title": "Steel Structure Cowshed, Steel Frame Cow Barn",
+        "source_domain": "havitsteelstructure.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for steel structure cowshed design principles, hot-dip galvanisation for longevity, ventilation fan provision, and thermal insulation options (sandwich panels)."
+      },
+      {
+        "url": "https://www.accio.com/plp/cattle-buildings",
+        "title": "Cattle Buildings: Top Prefab Steel Structures for Farms & Livestock",
+        "source_domain": "accio.com",
+        "derived_outputs": [
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for Asia-Pacific market growth signal (single source — low confidence) and minimum order quantity patterns in sq metres confirming per-sq-ft/sq-metre unit quoting norm."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Cattle sheds are prefabricated agricultural structures evaluated by buyers on design, material durability, cost-effectiveness, and customisation options — not regulatory compliance or brand dominance. Standard B2B market research on material specs, construction standards, and buyer segment needs will inform listing audit."
+    }
+  }
+}
