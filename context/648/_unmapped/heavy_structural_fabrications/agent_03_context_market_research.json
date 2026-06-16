@@ -1,0 +1,594 @@
+{
+  "mcat_description": {
+    "short": "Heavy structural fabrications are large-scale, custom-engineered steel assemblies — including beams, columns, trusses, girders, frames, and platforms — fabricated by cutting, welding, and assembling high-strength steel sections to IS:800 and IS:2062 standards for industrial and infrastructure projects.",
+    "long": "Heavy structural fabrications encompass the design, cutting, welding, and assembly of massive steel components such as beams, columns, trusses, girders, pipe racks, crane girders, and structural frames used as load-bearing elements in industrial plants, power stations, bridges, and commercial infrastructure. Fabrication is carried out in workshops or on-site using structural steel grades conforming to IS:2062 (E250/E350), with design governed by IS:800:2007 (Limit State Method) covering load combinations, weld joint design, buckling, and corrosion protection. Products are typically custom-engineered to project specifications, with surface treatment (hot-dip galvanising, epoxy paint, or powder coating) applied before delivery and erection. In the Indian B2B market, buyers include EPC contractors, plant owners, and infrastructure developers who procure on a per-kg or per-MT basis against approved fabrication drawings.",
+    "product_types": [
+      "Structural Steel Frames (industrial building frames, factory shed frames)",
+      "Trusses (roof trusses, bridge trusses, space trusses)",
+      "Beams and Girders (plate girders, crane girders, built-up beams)",
+      "Columns and Stanchions (fabricated box columns, H-columns)",
+      "Pipe Racks and Equipment Platforms",
+      "Crane Runway Girders and EOT Crane Structures",
+      "Mezzanine Floors and Elevated Platforms",
+      "Machine Structure Fabrications (MS and SS)",
+      "Modular / Prefab Heavy Steel Structures",
+      "Transmission Line Tower Structures",
+      "Substation and Solar Mounting Structures",
+      "Pressure Vessel Support Structures and Skids"
+    ],
+    "primary_applications": [
+      "Industrial plant structures (cement plants, fertiliser plants, refineries, power plants)",
+      "Oil and gas process plant structural frameworks",
+      "Bridge and flyover structural components",
+      "Factory and warehouse building frames",
+      "Crane runway and EOT crane support structures",
+      "Mezzanine floors and elevated work platforms in manufacturing facilities",
+      "Transmission line and substation steel structures",
+      "Heavy machine base frames and equipment support structures",
+      "Railway infrastructure (over-bridge structures, railway electrification structures)",
+      "Solar panel mounting structures"
+    ],
+    "buyer_segments": [
+      "EPC contractors and turnkey project companies",
+      "Industrial plant owners and project developers (power, oil & gas, cement, chemical)",
+      "Infrastructure developers and civil contractors",
+      "Government and PSU procurement (railways, NTPC, ONGC, BHEL projects)",
+      "Warehouse and logistics facility developers",
+      "Heavy engineering OEMs requiring machine structure fabrication",
+      "Structural consultants and design-build firms"
+    ]
+  },
+  "primary_segment": "Custom-engineered heavy steel structural assemblies (beams, columns, trusses, girders, frames) for industrial plants and infrastructure projects",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Custom-engineered heavy steel structural assemblies for industrial and infrastructure applications",
+    "secondary_families": [],
+    "reason": "All sub-types within this MCAT — industrial frames, crane girders, machine structures, pipe racks — share the same buyer profile (EPC contractors, plant engineers), the same regulatory regime (IS:800, IS:2062), and the same transaction pattern (custom-engineered, per-kg), making the MCAT broad but coherent with no incompatible product families."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "heavy structural fabrication",
+      "heavy steel structure fabrication",
+      "heavy structural fabrication work",
+      "industrial structural fabrication",
+      "heavy fabrication",
+      "structural steel fabrication",
+      "heavy steel fabrication",
+      "MS structural fabrication",
+      "heavy structure fabrication"
+    ],
+    "technical_synonyms": [
+      "structural steelwork fabrication",
+      "built-up steel section fabrication",
+      "plate girder fabrication",
+      "fabricated steel structures",
+      "heavy engineering fabrication",
+      "structural steel assembly",
+      "welded steel structure fabrication",
+      "IS:800 structural fabrication",
+      "IS:2062 steel fabrication"
+    ],
+    "trade_names": [
+      "PEB (Pre-Engineered Building) structures",
+      "EOT crane girder fabrication",
+      "pipe rack fabrication",
+      "mezzanine floor fabrication",
+      "crane runway girder",
+      "modular heavy steel structure"
+    ],
+    "hindi_terms": [
+      "bhaari dhanchagat nirman",
+      "lohe ki sanrachna",
+      "steel dhanchakar nirman"
+    ],
+    "buyer_intent_queries": [
+      "heavy structural fabrication work near me",
+      "heavy steel structure fabrication manufacturers India",
+      "industrial structural steel fabrication contractors",
+      "heavy machine structure fabrication MS SS",
+      "structural fabrication complete with fitting",
+      "heavy structural fabrication per kg rate",
+      "IS 800 compliant structural steel fabrication",
+      "EPC structural steel fabrication India",
+      "heavy fabrication for power plant structures",
+      "crane girder fabrication manufacturers India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per kg",
+    "unit_reasoning": "Structural steel in India is universally sold and quoted by weight (per kg or per MT) per IS norms and industry practice, as confirmed by the 'per kg' Google keyword signal and consistent with how Indian fabricators price custom-engineered assemblies against approved drawings.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Large turnkey structural packages (industrial plants, bridges)",
+        "unit": "per MT (metric tonne)",
+        "note": "High-volume project orders quoted per MT; equivalent to per kg at scale"
+      },
+      {
+        "sub_segment": "Machine structure fabrication (small/medium assemblies)",
+        "unit": "per piece / per set",
+        "note": "Discrete machine base frames or equipment skids may be quoted per piece or per set when dimensions are fixed"
+      },
+      {
+        "sub_segment": "Fabrication services (labour + welding only)",
+        "unit": "per kg (fabrication rate)",
+        "note": "Job-work fabrication contracts quoted as fabrication rate per kg of steel processed"
+      }
+    ],
+    "sources_checked": [
+      "Google keyword data ('per kg' impression signal)",
+      "Tata Nexarc IS code article (steel sold by weight)",
+      "Indian fabricator OEM sites (Fabmax, Astal, Sahyadri, TJSV)",
+      "Moglix industry publication"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Heavy structural fabrications in India constitute a large and growing B2B segment driven by infrastructure spending under the National Infrastructure Pipeline, Make in India, and accelerated industrial capex in power, oil & gas, and manufacturing sectors. The dominant material is structural steel conforming to IS:2062 (grades E250/E350), with design and fabrication governed by IS:800:2007 (General Construction in Steel — Code of Practice, Third Revision), which mandates the Limit State Method covering load combinations, weld joint design, buckling, fatigue, fire resistance, and seismic provisions per IS:1893. Fabrication processes include precision cutting (plasma, laser, oxy-fuel), rolling, bending, MIG/TIG/submerged arc welding, and surface treatment (hot-dip galvanising, epoxy paint, powder coating). Key product types are beams, columns, trusses, plate girders, crane runway girders, pipe racks, mezzanine platforms, and machine structure frames in both MS (mild steel) and SS (stainless steel). Major Indian players include L&T Heavy Engineering, ISGEC, Braithwaite (GoI/Railways), Zetwerk, Fabmax, Astal Structures, Sahyadri Industries, and TJSV Galvan; EPC contractors (L&T, Thermax) are both buyers and fabricators. Quality certifications commonly required include ISO 9001:2015, third-party weld inspection (NDT), and material test certificates (MTC) per IS:2062. The Pune/Maharashtra region is a notable fabrication hub per keyword geography signals. Transactions are typically custom-engineered against approved drawings, quoted per kg or per MT, with buyers being EPC contractors, plant owners, and government/PSU procurement teams.",
+  "buyer_attracting_attributes": [
+    "Steel Grade / Material (IS:2062 E250, E350, MS, SS)",
+    "Load-Bearing Capacity / Design Load",
+    "Fabrication Standard / IS:800 Compliance",
+    "Weld Quality / NDT Certification",
+    "Surface Treatment / Corrosion Protection (galvanised, epoxy, powder coated)",
+    "Weight / Tonnage (per kg or per MT)",
+    "Dimensional Accuracy / Fabrication Tolerance",
+    "Material Test Certificate (MTC) Availability",
+    "Delivery Lead Time / Project Timeline",
+    "ISO 9001 / Quality Certification"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "168374",
+    "mcat_name": "Heavy Structural Fabrications",
+    "mcat_level": "4",
+    "listing_count": "2495",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Heavy Structural Fabrications",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35592.0",
+      "name": "Prefabricated Structures",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35592.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20474",
+        "mcat_name": "Prefabricated Steel Buildings",
+        "listing_count": "8194",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21344",
+        "mcat_name": "Agricultural Greenhouses",
+        "listing_count": "2151",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21649",
+        "mcat_name": "Agricultural Buildings",
+        "listing_count": "128",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "29816",
+        "mcat_name": "Greenhouse",
+        "listing_count": "5282",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33188",
+        "mcat_name": "Modular Buildings",
+        "listing_count": "917",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35398",
+        "mcat_name": "Portable Buildings",
+        "listing_count": "1196",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35589",
+        "mcat_name": "Prefabricated Buildings",
+        "listing_count": "27038",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35592",
+        "mcat_name": "Prefabricated Structures",
+        "listing_count": "14394",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38214",
+        "mcat_name": "Storage Buildings",
+        "listing_count": "939",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "39565",
+        "mcat_name": "Temporary Buildings",
+        "listing_count": "149",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42328",
+        "mcat_name": "Modular Tensile Structure",
+        "listing_count": "2417",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "50762",
+        "mcat_name": "Tensile Structures",
+        "listing_count": "9089",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88197",
+        "mcat_name": "Prefabricated Metal Building",
+        "listing_count": "901",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116157",
+        "mcat_name": "Mini Greenhouse",
+        "listing_count": "1433",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121067",
+        "mcat_name": "Aluminium Structure",
+        "listing_count": "9342",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135787",
+        "mcat_name": "Tensile Membrane Structures",
+        "listing_count": "2683",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135861",
+        "mcat_name": "Auditorium Tensile Structure",
+        "listing_count": "598",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136011",
+        "mcat_name": "Gazebo Tensile Structure",
+        "listing_count": "1508",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "148110",
+        "mcat_name": "Pre Engineered Building Structure",
+        "listing_count": "9886",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149713",
+        "mcat_name": "Polyhouse",
+        "listing_count": "3245",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154059",
+        "mcat_name": "Prefabricated School Building",
+        "listing_count": "828",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158767",
+        "mcat_name": "Greenhouse Structure",
+        "listing_count": "813",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159520",
+        "mcat_name": "Prefabricated Hospitals",
+        "listing_count": "213",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "160350",
+        "mcat_name": "Mist Chamber",
+        "listing_count": "121",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166277",
+        "mcat_name": "Naturally Ventilated Greenhouse",
+        "listing_count": "1661",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166432",
+        "mcat_name": "Prefabricated Warehouse",
+        "listing_count": "5064",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168445",
+        "mcat_name": "MS Structure Services",
+        "listing_count": "2407",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "178587",
+        "mcat_name": "Prefabricated Industrial Buildings",
+        "listing_count": "5964",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "179245",
+        "mcat_name": "Prefabricated Labor Colony",
+        "listing_count": "1480",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181553",
+        "mcat_name": "Pre Engineered Steel Building",
+        "listing_count": "1594",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "216129",
+        "mcat_name": "RCC Labour Quarter",
+        "listing_count": "549",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315645",
+        "mcat_name": "Prefabricated Walls",
+        "listing_count": "105",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "410918",
+        "mcat_name": "Light Gauge Framing System",
+        "listing_count": "350",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "444552",
+        "mcat_name": "Prefabricated Isolation Ward",
+        "listing_count": "218",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Heavy structural fabrications are engineered steel/metal assemblies for civil infrastructure evaluated by IS:800, IS:2062 material grades, weld standards, and load/span data — not brand-dominant; standard B2B research approach appropriate."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "unit_quoting_context.dominant_unit",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "'per kg' as top Google impression keyword confirmed weight-based unit quoting norm; 'heavy structure fabrication' confirmed primary buyer search vocabulary."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "market_context"
+        ],
+        "citation_note": "Top internal KWs confirmed 'heavy structural fabrications', 'heavy steel structures fabrication', and Pune geography cluster; used to build primary_keywords and buyer_intent_queries."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "alt_names.primary_keywords"
+        ],
+        "citation_note": "Call rows confirmed MS and SS machine structure fabrication as active sub-segment; 'complete with fitting' signals buyer expectation of turnkey supply."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings_count"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "Taxonomy path and listing count (2495) used as reference; no page fetch available to cross-check tile count, listing_count_suspect set false as 2495 is plausible for a broad fabrication MCAT."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://blog.tatanexarc.com/da/is-code-for-steel/",
+        "title": "IS code for steel in India – IS 800, IS 2062, IS 1786 explained",
+        "source_domain": "tatanexarc.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed IS:2062 E250/E350 as dominant structural steel grades; confirmed steel sold by weight in India; confirmed IS:800 as governing design code."
+      },
+      {
+        "url": "https://www.bhadanisrecordedlectures.com/blog/overview-of-is-800-general-construction-in-steel-code-of-practice",
+        "title": "Overview of IS 800: General Construction in Steel — Code of Practice",
+        "source_domain": "bhadanisrecordedlectures.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.long",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed IS:800 scope covering beams, columns, girders, braces, plates; weld joint design, corrosion protection, fabrication and erection guidelines."
+      },
+      {
+        "url": "https://www.fabmaxindia.com/heavy-structure-fabrication-manufacturers-in-india.php",
+        "title": "Heavy Structure Fabrication Manufacturers in India",
+        "source_domain": "fabmaxindia.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "market_context"
+        ],
+        "citation_note": "Confirmed product types (beams, columns, trusses, platforms, girders, structural frames); confirmed industrial applications (cement plants, refineries, power plants, oil & gas)."
+      },
+      {
+        "url": "https://eshaji.in/Structural-Fabrication.html",
+        "title": "Industrial & Heavy Structural Fabrication in India | E S HAJI & CO",
+        "source_domain": "eshaji.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed material types (structural steel, stainless steel, carbon steel, aluminium); confirmed fabrication processes (laser cutting, CNC machining, robotic welding, water jet cutting)."
+      },
+      {
+        "url": "https://astal.in/products-services/heavy-structural-fabrication/",
+        "title": "Heavy Structural Steel Fabrication Company in India | Astal Structures Private Limited",
+        "source_domain": "astal.in",
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Confirmed EPC contractor buyer segment; confirmed quality checks (material testing, welding inspection, dimensional accuracy); confirmed applications (industrial plants, PEB buildings, large infrastructure)."
+      },
+      {
+        "url": "https://business.moglix.com/blogs/top-10-heavy-fabrication-companies-in-india-2026",
+        "title": "Top 10 Heavy Fabrication Companies in India 2026 - Moglix Business",
+        "source_domain": "business.moglix.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Confirmed major Indian players (L&T, ISGEC, Braithwaite, Zetwerk); confirmed EPC integration trend; confirmed sector demand drivers (NIP, Make in India, industrial capex)."
+      },
+      {
+        "url": "https://www.sahyadriindustries.co.in/heavy-structural-fabrication-in-india.php",
+        "title": "Best Heavy Structural Fabrication Manufacturers in India",
+        "source_domain": "sahyadriindustries.co.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Confirmed product types (beams, columns, trusses for factories, bridges, power plants); confirmed modular/prefab sub-segment and corrosion protection methods."
+      },
+      {
+        "url": "https://tjsvgalvan.com/heavy-steel-fabrication/",
+        "title": "#1 Heavy Steel Fabrication in India | Fabrication Coimbatore | TJSV",
+        "source_domain": "tjsvgalvan.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Confirmed product types including railway over-bridge structures, transmission lines, telecom towers, substation structures, solar structures, railway electrification structures."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "IS:800",
+        "IS:1893",
+        "AISC"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Heavy structural fabrications are engineered steel/metal assemblies for civil infrastructure (bridges, industrial frames, towers) evaluated by technical specs (grade, load capacity, weld standards) and BIS/IS compliance, not brand name. Agent 3 should prioritise IS:800 (steel code), IS:1893 (seismic), material certs, and load/span data from OEM datasheets and structural design references."
+    }
+  }
+}
