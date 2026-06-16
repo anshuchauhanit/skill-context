@@ -1,0 +1,381 @@
+I'll work through all steps systematically for Portable Shelters.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Construction contractor, industrial plant operator, or infrastructure project manager sourcing a portable shelter for site accommodation, storage, or equipment protection.
+
+**Journey:**
+1. **First scan (listing tile):** Buyer scans images to identify shelter type — is it a cabin/room unit, a canopy, a BTS enclosure, or an agricultural cover? Visual sub-type variation is extreme. Wrong type = immediate skip.
+2. **Opens listing:** Reads frame material and wall panel type — MS/PUF vs FRP vs aluminium determines structural suitability, insulation, and durability for their application. This is the primary shortlisting gate.
+3. **Checks size/dimensions and mobility type** — confirms the shelter fits their site footprint and can be relocated as needed.
+4. **Looks at price** — per sq ft rate is the comparison metric. Indian B2B buyers are price-aggressive; they compare rates across 3–5 sellers once spec is confirmed.
+5. **Unit check** — per sq ft vs per piece ambiguity is real (custom shelters vs standard cabins). Must be shown alongside price.
+6. **Company check** — manufacturer vs trader distinction matters for large orders; brand is not dominant but track record and fabrication capability are evaluated.
+
+---
+
+## Step 2 & 3 — Score Each Dimension
+
+**Image:** Extreme visual variation across sub-types (cabin vs canopy vs dome vs BTS enclosure). Image is the fastest sub-type identifier. → **High, Rank 1**
+
+**Specification:** Frame material + wall panel type + size are non-interchangeable. A buyer needing a PUF-insulated MS cabin cannot substitute an aluminium canopy. Specs drive shortlisting. → **High, Rank 2**
+
+**Price:** Custom-fabricated structures — price varies substantially with spec (material, insulation, size). Indian contractors compare per-sq-ft rates aggressively once spec is confirmed. → **High, Rank 3** (spec-driven price)
+
+**Unit:** Per sq ft vs per piece is a genuine market ambiguity (custom shelters vs standard cabins). Price cannot be compared without unit clarity. → **High, Rank 4**
+
+**Cross-dimension consistency check:**
+- Unit High → price must be at least Medium ✓ (price is High)
+- Price is spec-driven → specification is High ✓ (consistent — buyers discover across spec tiers)
+- No `project-based price` → unit show:true is valid ✓
+- Specification show:true → show_on_listing:true ✓
+
+**Company:** No dominant brand with buyer recall. Market is fragmented across regional fabricators. Manufacturer vs trader distinction matters for large orders but specs carry greater weight. → **Medium, Rank 5**
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Extreme visual variation across sub-types — cabin/room unit, canopy, BTS enclosure, dome, agricultural cover — makes image the fastest and most reliable sub-type identifier. Wrong type shown = immediate buyer skip before any text is read."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Frame material (MS/GI/FRP/aluminium) and wall panel type (PUF/FRP/GI sheet) are non-interchangeable across applications — a buyer needing an insulated PUF cabin cannot substitute an aluminium canopy. These specs are the primary shortlisting gate before price is considered."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Price varies substantially with frame material, panel type, insulation thickness, and size — buyers discover and compare across spec tiers, not within a fixed tier. Indian construction contractors compare per-sq-ft rates aggressively across multiple sellers once spec equivalence is confirmed."
+  },
+  {
+    "rank": 4,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Standard-size BTS telecom shelters and portable cabins may be quoted per piece; per sq ft dominates for custom-dimension industrial, agricultural, and worker accommodation shelters. Unit must be shown to prevent price comparison errors across these two quoting conventions.",
+    "reason": "Per sq ft vs per piece is a genuine market ambiguity — custom-fabricated shelters are area-priced while standard cabins are unit-priced. Price cannot be meaningfully compared without knowing the unit."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional fabricators in Faridabad, Ahmedabad, and Gurugram; buyers search by spec and price, not manufacturer name.",
+    "reason": "Manufacturer vs trader distinction and fabrication track record matter for large institutional or infrastructure orders, but specs and price carry greater weight in initial shortlisting. Company is a post-shortlist qualifier, not a primary engagement signal."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Application** (Accommodation / Site Office / Toilet Block / Storage / Security Cabin): Use-case tag — describes what the shelter is used FOR, not what it IS. **Discard.**
+- **With Furniture** (Bare Shell / Fully Furnished / Basic Furniture): Accessory/fitout option — resolved post-connection or at order stage; does not drive price as fundamentally as structural specs. **Soft deprioritise** (not a primary configurator).
+- **With Toilet** (No / Provision Only / Yes): Binary accessory flag — consequence of application type; not a primary price driver. **Soft deprioritise.**
+- **Size** (20x10 ft / 10x10 ft / Custom Size): Highly variable, custom-driven — important but derivative of buyer requirement; area is captured in pricing per sq ft. **Soft deprioritise** as a configurator (it's a buyer input, not a seller-side differentiator).
+
+**Remaining strong candidates:** Frame Material, Wall Panel Type, Insulation Thickness, Mobility, Roofing Material
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Frame Material** (Mild Steel / Aluminium / Galvanized Steel / FRP):
+- Defines the structural class of the shelter. MS vs FRP vs Aluminium are non-interchangeable — different load ratings, corrosion resistance, weight, and cost profiles. A buyer cannot substitute one for another. Large price delta between MS (lowest cost) and FRP (premium). → **Rank 1**
+
+**Wall Panel Type** (FRP Panel / Sandwich Panel / EPS Panel / GI Sheet Panel / PUF Panel):
+- Defines the insulation and weatherproofing tier. PUF sandwich panel (premium, insulated) vs GI sheet (basic, no insulation) represents a significant price and performance gap. Telecom and cold-chain buyers require PUF; basic storage buyers use GI sheet. Non-interchangeable across application requirements. → **Rank 2**
+
+*(Insulation Thickness is a strong candidate but is derivative of Wall Panel Type — PUF panels come in defined thickness grades; it confirms the panel spec rather than independently defining the product class. Mobility is important but affects fewer buyers and is a secondary differentiator.)*
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list:**
+Application, Frame Material, Insulation Thickness, Mobility, Roofing Material, Size, Wall Panel Type, With Furniture, With Toilet
+
+**Step 3b & 3c — Candidate gaps:**
+
+From Agent 3 `vision_output` (market_context, product_types, buyer_segments) and LLM world knowledge:
+
+1. **Structural Dimensions / Floor Area** — already captured semantically by "Size" in the spec list. ✓ Present — discard.
+2. **Insulation Thickness** — present in spec list. ✓ Discard.
+3. **Mobility / Portability type** — present as "Mobility". ✓ Discard.
+4. **Roofing Material** — present. ✓ Discard.
+5. **Wind/Load Rating (IS 875 compliance)** — absent from spec list. Structural load rating (wind zone, snow load) is a critical differentiator for infrastructure and government procurement buyers; IS 875 compliance is a tender requirement. Not semantically equivalent to any existing spec. → **Flag as missing.**
+6. **Fire Rating / Fire Resistance** — absent. For worker accommodation and industrial shelters, fire resistance of wall panels (especially PUF vs EPS) is a safety compliance requirement increasingly specified by industrial buyers and government tenders. Not equivalent to Wall Panel Type (which captures material, not fire performance). → **Flag as missing.**
+7. **Lifespan / Design Life** — peripheral; resolved through material specs already present. Omit.
+8. **Colour / Finish** — cosmetic; not a primary buyer decision factor for industrial shelters. Omit.
+
+**Final check — mutual exclusion confirmed:** Wind/Load Rating and Fire Rating do not appear in specs_in_seller_list under any name or semantic equivalent.
+
+**Importance threshold check:** Both pass — a senior CM would add both to the configurator list for industrial/infrastructure portable shelters.
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → **partial**
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Feature, Frame Material, Area
+
+**Feature** (Portable / Folding / Relocatable / Lightweight):
+- Describes mobility/portability characteristics. Helps sellers understand whether the buyer needs a fixed-base structure, a lift-and-shift unit, or a truly foldable/lightweight solution. Routes to the right product sub-type. → **Rank 1**
+
+**Area** (100 sq ft / 150 sq ft / 200 sq ft / 80 sq ft / 300 sq ft):
+- Directly determines material quantity, fabrication cost, and structural design. Sellers cannot quote accurately without knowing the required floor area. → **Rank 2**
+
+*(Frame Material is a valid spec but it is a seller-side configurator — most buyers don't specify frame material upfront; they specify their requirement and the seller recommends the material. Feature and Area are more buyer-natural inputs.)*
+
+### Phase 2 — Thumbnail Eligibility
+
+**Feature** (Portable / Folding / Relocatable / Lightweight):
+- These are mobility/portability descriptors. "Portable" and "Relocatable" are visually indistinguishable from each other as shelter images. "Folding" could be visually distinct (a collapsed/folded structure vs an erected one) but the values overlap too much to produce meaningfully distinct thumbnails. → **thumbnail_eligible: false**
+
+**Area** (100 sq ft / 150 sq ft / 200 sq ft / 80 sq ft / 300 sq ft):
+- Numeric dimensional spec — no meaningful visual difference between a 100 sq ft and 200 sq ft shelter in a thumbnail image. → **thumbnail_eligible: false**
+
+### Phase 3 — Missing Buyer Spec Audit
+
+From Agent 3 `vision_output` and LLM world knowledge:
+
+1. **Application / Purpose** (Site Office / Worker Accommodation / Storage / Security Cabin / Equipment Protection):
+   - Absent from buyer spec list. This is the single most important routing signal — it determines the shelter type, insulation requirement, and fitout. A seller cannot determine whether to respond with a basic storage shed or a fully insulated worker cabin without knowing the application. Source: both. `would_be_rank: 1` — more important than Feature because it defines the product type, not just the mobility characteristic.
+   - Thumbnail eligibility: Application values (Site Office, Worker Accommodation, Storage, Security Cabin) map to visually distinct shelter configurations. A site office cabin looks different from an open storage canopy or a security guard post. → `thumbnail_eligible: true`, `thumbnail_options: ["Site Office", "Worker Accommodation", "Storage Shelter", "Security Cabin", "Equipment Protection"]`
+
+2. **Wall Panel / Insulation Type** (PUF Panel / GI Sheet / FRP Panel / Sandwich Panel):
+   - Absent from buyer spec list. Determines insulation performance and weatherproofing — a seller needs this to confirm they can supply the right panel system. Buyers in telecom, cold-chain, and worker accommodation have specific insulation requirements. Source: both. `would_be_rank: 2` — more important than Area because it gates product eligibility before dimensions are relevant.
+   - Thumbnail eligibility: Panel type values are material/construction specs — no meaningful visual difference between a PUF-panelled and a GI-sheet shelter in a thumbnail. → `thumbnail_eligible: false`
+
+3. **Frame Material** — already present in buyer spec list. ✓ Discard.
+
+**Coverage verdict:** 2 missing specs → **partial**
+
+### Phase 4 — Image Upload Assessment
+
+**Image upload recommended: false**
+
+Standard spec values (Application, Area, Frame Material, Wall Panel Type) adequately capture the buyer's requirement. Sellers can respond accurately and negotiate custom dimensions post-connection. Portable shelters are not part-identification or custom-artwork scenarios — the requirement is fully expressible through structured specs.
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+Thumbnail-eligible specs from `buyer_spec_audit`:
+- `top_rfq_specs`: Feature (false), Area (false) — no eligible specs from ranked list
+- `missing_important_specs`: Application (`thumbnail_eligible: true`, `would_be_rank: 1`, `thumbnail_options: ["Site Office", "Worker Accommodation", "Storage Shelter", "Security Cabin", "Equipment Protection"]`)
+
+5 prompts for Application values:
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual variation across sub-types — cabin/room unit, canopy, BTS enclosure, dome, agricultural cover — makes image the fastest and most reliable sub-type identifier. Wrong type shown = immediate buyer skip before any text is read."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Frame material (MS/GI/FRP/aluminium) and wall panel type (PUF/FRP/GI sheet) are non-interchangeable across applications — a buyer needing an insulated PUF cabin cannot substitute an aluminium canopy. These specs are the primary shortlisting gate before price is considered."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with frame material, panel type, insulation thickness, and size — buyers discover and compare across spec tiers, not within a fixed tier. Indian construction contractors compare per-sq-ft rates aggressively across multiple sellers once spec equivalence is confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard-size BTS telecom shelters and portable cabins may be quoted per piece; per sq ft dominates for custom-dimension industrial, agricultural, and worker accommodation shelters. Unit must be shown to prevent price comparison errors across these two quoting conventions.",
+      "reason": "Per sq ft vs per piece is a genuine market ambiguity — custom-fabricated shelters are area-priced while standard cabins are unit-priced. Price cannot be meaningfully compared without knowing the unit."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional fabricators in Faridabad, Ahmedabad, and Gurugram; buyers search by spec and price, not manufacturer name.",
+      "reason": "Manufacturer vs trader distinction and fabrication track record matter for large institutional or infrastructure orders, but specs and price carry greater weight in initial shortlisting. Company is a post-shortlist qualifier, not a primary engagement signal."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Frame Material",
+        "reason": "MS, FRP, and aluminium frames are non-interchangeable across structural load, corrosion resistance, and cost requirements — changing frame material changes the product class and drives the largest price delta in the shelter."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Type",
+        "reason": "PUF sandwich panel vs GI sheet vs FRP panel defines the insulation and weatherproofing tier — a non-interchangeable choice that determines application eligibility (telecom/cold-chain vs basic storage) and creates a significant price differential."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Frame Material",
+      "Insulation Thickness",
+      "Mobility",
+      "Roofing Material",
+      "Size",
+      "Wall Panel Type",
+      "With Furniture",
+      "With Toilet"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wind / Structural Load Rating",
+        "why_important": "Infrastructure and government procurement buyers specify wind zone compliance (IS 875) as a tender requirement — sellers need to confirm their shelter meets the structural load rating for the deployment region.",
+        "source": "both",
+        "example_values": ["Wind Zone II", "Wind Zone III", "Wind Zone IV", "IS 875 Compliant"]
+      },
+      {
+        "spec_name": "Fire Rating",
+        "why_important": "Industrial buyers and government tenders increasingly require fire resistance classification for wall panels (especially PUF vs EPS) as a safety compliance criterion — not captured by Wall Panel Type alone.",
+        "source": "both",
+        "example_values": ["FR Grade", "Non-FR", "A2 Non-Combustible", "B1 Fire Retardant"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Feature",
+        "reason": "Mobility/portability characteristic (Portable vs Folding vs Trailer Mounted) routes the RFQ to sellers who supply the right structural configuration — a seller of fixed-base prefab cabins cannot fulfil a foldable shelter requirement.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area",
+        "reason": "Floor area directly determines material quantity and fabrication cost — sellers cannot provide an accurate quote or confirm supply capability without knowing the required shelter footprint.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Application",
+        "why_important": "Application type (Site Office vs Worker Accommodation vs Storage vs Security Cabin) determines the shelter configuration, insulation requirement, and fitout — sellers cannot determine product fit or price tier without this single most important routing signal.",
+        "source": "both",
+        "example_values": ["Site Office", "Worker Accommodation", "Storage Shelter", "Security Cabin", "Equipment Protection"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Site Office", "Worker Accommodation", "Storage Shelter", "Security Cabin", "Equipment Protection"]
+      },
+      {
+        "spec_name": "Wall Panel / Insulation Type",
+        "why_important": "Insulation and panel type (PUF vs GI Sheet vs FRP) gates product eligibility for temperature-sensitive or weatherproofing-critical applications — sellers need this to confirm they can supply the right panel system before dimensions are relevant.",
+        "source": "both",
+        "example_values": ["PUF Sandwich Panel", "GI Sheet", "FRP Panel", "EPS Panel"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Site Office",
+      "id": "spec_1",
+      "prompt_for_generation": "Portable prefabricated site office cabin, mild steel frame with PUF sandwich panel walls, single door and window visible, placed on a construction site, natural daylight, clean front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Worker Accommodation",
+      "id": "spec_2",
+      "prompt_for_generation": "Portable prefabricated worker accommodation shelter, MS frame with colour-coated steel panel walls, multiple windows and a door, dormitory-style layout visible through open door, construction site background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Storage Shelter",
+      "id": "spec_3",
+      "prompt_for_generation": "Portable prefabricated storage shelter, mild steel frame with GI sheet walls and roof, large sliding door open showing empty interior, industrial yard setting, natural daylight, front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Security Cabin",
+      "id": "spec_4",
+      "prompt_for_generation": "Portable prefabricated security guard cabin, compact MS frame structure with glass window panel on front, single door, placed at a factory gate entrance, natural daylight, clean front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Equipment Protection",
+      "id": "spec_5",
+      "prompt_for_generation": "Portable prefabricated equipment protection shelter, MS frame with FRP or PUF panel walls, sealed enclosure with ventilation louvres, industrial machinery visible inside through open panel, outdoor industrial site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
