@@ -1,0 +1,45 @@
+{
+  "agent": "Agent 8 — Category Nature",
+  "mcat": "Container Homes",
+  "mcat_id": "96542",
+  "is_vague_signal_scoring": {
+    "agent3_prior": {
+      "suspected_vague": false,
+      "note": "Agent 3 did not flag mcat_vagueness_signal; primary_segment is confident and unhedged."
+    },
+    "signal_1_name_ambiguity": {
+      "fires": false,
+      "evidence": "'Container Homes' resolves unambiguously to habitable structures built from shipping containers — no competing product category (e.g., storage containers, container offices) shares this exact name in a way that creates incompatible buyer intent at the MCAT level."
+    },
+    "signal_2_primary_segment_difficulty": {
+      "fires": false,
+      "evidence": "Agent 3 primary_segment is confident and specific: 'Prefabricated residential container home (1BHK/2BHK) built from new or repurposed mild steel shipping containers' — no hedging, no 'or … depending on segment' qualifier."
+    },
+    "signal_3_intent_queries_diverge": {
+      "fires": false,
+      "evidence": "All buyer_intent_queries cluster around one purchase context — someone buying or commissioning a container-based habitable structure; sub-contexts (farmhouse, resort, labour camp) are variants of the same intent, not incompatible purchase occasions."
+    },
+    "signal_4_product_types_no_shared_buyer": {
+      "fires": false,
+      "evidence": "All product_types (1BHK, 2BHK, luxury villa, expandable, capsule, multi-storey, farmhouse, hotel room, flat-pack) share a common buyer archetype — someone procuring a prefabricated habitable container structure; material and configuration variation does not create buyer incompatibility."
+    },
+    "signal_5_regulatory_or_sibling_carveout": {
+      "fires": false,
+      "evidence": "No sibling MCAT carves out a sub-type with an incompatible regulatory regime or buyer profile — siblings like 'Portable House', 'Prefabricated Metal House', and 'Steel House' are adjacent material/format variants, not incompatible product concepts; no medical/PPE/food-grade regulatory divergence exists."
+    },
+    "signals_fired_count": 0,
+    "is_vague_conclusion": "no"
+  },
+  "category_nature": {
+    "is_generic": false,
+    "is_specific": true,
+    "is_vague": false,
+    "is_thin": false,
+    "is_branded": false,
+    "is_service": false,
+    "reason": [
+      "is_specific: 'Container Homes' is tightly bounded to one product concept — prefabricated habitable structures built from ISO shipping containers; buyer intent is homogeneous across all sub-types (BHK configurations, luxury, farmhouse, resort) and the name unambiguously signals what buyers will find; 0 vagueness signals fire.",
+      "is_generic: false — while the MCAT covers multiple configurations (1BHK to multi-storey, new vs repurposed), all sub-types share the same defining material (shipping container) and buyer intent (habitable container structure), making this a well-scoped specific node rather than a broad catch-all; listing_count of 4,457 confirms sufficient standalone volume, ruling out is_thin."
+    ]
+  }
+}
