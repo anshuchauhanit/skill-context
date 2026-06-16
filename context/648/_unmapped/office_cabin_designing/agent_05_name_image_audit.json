@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 alt_names and market_context confirm dominant buyer intent is 'office cabin interior design service' or 'cabin interior designing service' — the word 'Designing' alone is ambiguous and does not signal the service/fit-out nature; 'Office Cabin Interior Designing' or 'Office Cabin Interior Design Service' would better match keyword demand and reduce confusion with structural prefab cabin products.",
+    "suggested_name": "Office Cabin Interior Designing"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail shows a standalone executive desk with chair and storage units — this represents office furniture, not an office cabin interior design or fit-out service, which should show an enclosed cabin space with partition walls, glass panels, and integrated design elements.",
+      "The image lacks any cabin enclosure, partition system, or fit-out context that would signal the primary segment (office cabin interior design and fit-out service for corporate and commercial spaces), making it misleading for buyers seeking design/fit-out services."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A professionally designed executive office cabin interior in a modern corporate setting, showing a fully enclosed cabin space with floor-to-ceiling glass partition walls with aluminium framing, a large L-shaped wooden executive desk, a high-back leather chair, recessed LED false ceiling lighting, light grey carpet flooring, and a city-view window in the background. Clean, bright, photorealistic style. White and warm wood tones. Square 1:1 composition, centred on the cabin interior. No people. No text overlays. White 'IndiaMART AI' watermark text in a dark semi-transparent pill badge at bottom-right corner, 10–12px font, 60–70% opacity.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
