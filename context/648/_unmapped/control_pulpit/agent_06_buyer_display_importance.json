@@ -1,0 +1,109 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Control pulpits vary significantly in form — open platform vs fully enclosed AC cabin vs crane-mounted cab — and buyers must visually confirm the structural type, glazing configuration, and mounting arrangement before any other evaluation. Wrong type = immediate skip; no text description substitutes for a photo of the actual fabricated unit."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Buyers shortlist on enclosure type, material, dimensions, and environmental features (AC, acoustic insulation, heat-resistant glass) — these are non-interchangeable requirements driven by plant layout and operating conditions. A listing without specs cannot be evaluated for project fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand exists in this category; buyers search by fabrication capability, material quality, and project references rather than by manufacturer name.",
+      "reason": "EPC contractors and plant operators evaluate fabricator credentials — structural engineering capability, past project references in steel/power plants, ISO certification, and delivery track record — before committing to a custom-fabricated capital item. Seller identity is a qualification gate, not a brand preference."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every control pulpit is custom-dimensioned and project-quoted; no standard list price exists. Displayed price serves only as a budget entry point for initial feasibility screening — final price is always negotiated after scope confirmation."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "All variants — open platform, enclosed cabin, crane-mounted cab — are supplied and quoted per complete unit. No buyer questions this; unit ambiguity does not arise in this category.",
+      "reason": "Unit is entirely implied: a control pulpit is always sold as one complete fabricated structure. Showing 'per piece' adds no information and project-based pricing means there is no per-unit price to qualify."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Material (Steel vs FRP vs Wood) defines the structural class of the pulpit — non-interchangeable across plant environments, with steel being mandatory for steel mills and heavy industrial use while FRP suits corrosive or lighter-duty applications, driving significant price and fabrication cost differences."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Built Type",
+        "reason": "Built Type (Prefab vs Panel Build vs Modular) determines the construction method and site installation complexity — modular units allow phased assembly in constrained spaces while prefab units are delivered complete, directly affecting project logistics cost and lead time."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Brand",
+      "Built Type",
+      "Color",
+      "Country of Origin",
+      "Material",
+      "Product Type",
+      "Roof Type",
+      "Shape",
+      "Size",
+      "Thickness",
+      "Usage/Application"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Enclosure Type",
+        "why_important": "Whether the pulpit is open-type (platform with railings), closed with fan ventilation, or fully AC-enclosed is the primary buyer shortlisting criterion — it determines thermal comfort, noise protection, and suitability for the operating environment.",
+        "source": "both",
+        "example_values": [
+          "Open Type",
+          "Closed with Fan Ventilation",
+          "Air-Conditioned Enclosed",
+          "Acoustic/Soundproof"
+        ]
+      },
+      {
+        "spec_name": "Mounting Type",
+        "why_important": "Fixed/stationary ground-mounted, elevated platform-mounted, and crane-cab-mounted (travels with crane bridge) are non-interchangeable configurations that determine structural design, civil interface requirements, and applicable safety standards.",
+        "source": "both",
+        "example_values": [
+          "Fixed Ground Mounted",
+          "Elevated Platform Mounted",
+          "Crane Cab Mounted",
+          "Movable/Portable"
+        ]
+      },
+      {
+        "spec_name": "Glazing Type",
+        "why_important": "Toughened glass, laminated safety glass, and heat-resistant glass for steel mill environments are distinct safety and compliance requirements — buyers in steel plants and foundries mandate specific glazing standards that sellers must confirm upfront.",
+        "source": "both",
+        "example_values": [
+          "Toughened Glass",
+          "Laminated Safety Glass",
+          "Heat-Resistant Glass",
+          "Wired Glass"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_thumbnail_prompts": []
+}
