@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Bio Toilet' is the dominant trade term in Indian B2B vocabulary, confirmed by Agent 3 primary_keywords ('bio toilet', 'biotoilet', 'bio digester toilet') and market_context noting it is used interchangeably with 'biodigester toilet' and 'bio digester toilet system' across institutional and commercial buyer segments.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image correctly shows a prefabricated single-seat toilet cabin with an open door revealing a Western-style WC pan inside, directly matching the primary_segment of a prefabricated biodigester toilet cabin for institutional/public sanitation.",
+      "Improvement is possible: the cabin appears to be a plain green portable unit without visible biodigester tank, DRDO branding, or institutional-scale context, and the image quality and angle do not convey the full product proposition (integrated anaerobic digester, FRP/HDPE material, multi-seater or institutional scale) that would differentiate this MCAT from a generic portable toilet."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product photograph of a prefabricated FRP bio toilet cabin unit, light green or off-white exterior, single-seat, door open at 45 degrees showing clean white Western-style toilet seat inside, integrated biodigester tank visible at the base or rear, plain white studio background, soft even lighting, slight three-quarter front angle, sharp focus, no people, no text overlays, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
