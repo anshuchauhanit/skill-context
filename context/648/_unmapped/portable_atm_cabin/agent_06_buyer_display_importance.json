@@ -1,0 +1,252 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation between sub-types (single vs double ATM, kiosk vs walk-in, MS vs ACP-clad exterior). Buyers scan listing images to confirm this is an ATM-specific cabin — not a generic security or office cabin — before reading any text. Wrong product type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Wall material, cabin configuration (single/double ATM), key provisions (AC, wiring, CCTV), and security grade are primary shortlisting gates. A cabin missing required provisions cannot be used regardless of price — specs must match deployment requirements before any further evaluation."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with wall material (MS vs PUF panel), cabin configuration (single vs double ATM), and fit-out provisions. Indian institutional buyers compare prices aggressively but only after confirming spec equivalence — listed price is a budget entry point, with final price negotiated for batch orders."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in prefab ATM cabins — market is fragmented across regional fabricators; buyers search by spec and deployment track record, not manufacturer name.",
+      "reason": "Institutional buyers (banks, WLA operators) evaluate manufacturer status, prior bank/WLA deployment track record, installation capability, and after-sales service for multi-site rollouts. Company credentials are a vendor qualification signal, not a primary shortlisting filter."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Per sq ft quoting exists for custom-dimensioned builds but per piece dominates all standard catalogue transactions. No buyer questions whether a complete ATM cabin is sold per piece.",
+      "reason": "Unit is entirely implied — a complete factory-built ATM cabin is always sold per piece. No buyer confusion risk exists."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Bank Usage",
+        "reason": "Defines the fundamental cabin configuration (Kiosk / Single ATM / Double ATM / Cash Recycler) — non-interchangeable sub-types with entirely different footprints, layouts, and the largest price delta in the category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Material",
+        "reason": "Determines construction quality tier and thermal/structural performance (MS vs PUF vs FRP vs ACP) — non-interchangeable for climate-specific deployments and drives significant price variation between values."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Bank Usage",
+      "Cabin Size",
+      "Door Type",
+      "Features",
+      "Fire Safety",
+      "Flooring Type",
+      "Interior Finish",
+      "Power Backup",
+      "Security Grade",
+      "Wall Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Panel Thickness",
+        "why_important": "Wall panel thickness (e.g., 50mm / 75mm / 100mm for PUF panels) is a primary structural and thermal insulation differentiator that directly affects price and suitability for hot-climate or high-security deployments — buyers in semi-urban and rural India specifically compare this.",
+        "source": "both",
+        "example_values": [
+          "50mm",
+          "75mm",
+          "100mm",
+          "Custom"
+        ]
+      },
+      {
+        "spec_name": "Roof Construction",
+        "why_important": "Roof type (flat MS sheet vs insulated sandwich panel vs sloped GI sheet) affects thermal performance and weather resistance — a key differentiator for outdoor ATM deployments in varied Indian climates that buyers compare when specifying cabins for rural or coastal sites.",
+        "source": "both",
+        "example_values": [
+          "Flat MS Sheet",
+          "PUF Insulated Sandwich Panel",
+          "Sloped GI Sheet",
+          "ACP Cladded Roof"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Construction material defines the cabin's structural and thermal performance tier — sellers need this to confirm manufacturing capability and price accurately across MS, PUF, FRP, and ACP variants.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Mild Steel (MS)",
+          "Galvanized Iron",
+          "PUF Insulated Panel",
+          "FRP",
+          "ACP Cladded"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Key Provisions",
+        "reason": "Fit-out provisions (AC, wiring, UPS, CCTV, glow sign) directly determine manufacturing scope and price — sellers need to know which provisions are required to respond with an accurate quote.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "ATM Configuration",
+        "why_important": "Sellers need to know whether the buyer requires a single ATM, double ATM, kiosk, or cash recycler cabin — this determines the entire footprint, layout, and structural specification, and routes the RFQ to sellers who manufacture that specific configuration.",
+        "source": "both",
+        "example_values": [
+          "Single ATM",
+          "Double ATM",
+          "Kiosk ATM",
+          "Cash Recycler"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Single ATM",
+          "Double ATM",
+          "Kiosk ATM",
+          "Cash Recycler"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Material",
+      "option_value": "Mild Steel (MS)",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated ATM cabin with mild steel panel exterior, grey painted finish, single ATM configuration, security door visible, outdoor placement on concrete pad, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Galvanized Iron",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated ATM cabin with galvanized iron sheet exterior, metallic silver finish, single ATM configuration, reinforced security door, outdoor placement, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "PUF Insulated Panel",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated ATM cabin with PUF insulated sandwich panel walls, smooth white exterior finish, single ATM configuration, security door, outdoor placement on concrete pad, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "FRP",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated ATM cabin with FRP (fibre-reinforced plastic) panel exterior, off-white smooth moulded finish, single ATM configuration, security door, outdoor placement, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "ACP Cladded",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated ATM cabin with aluminium composite panel (ACP) cladding exterior, silver-grey brushed finish, single ATM configuration, security door, outdoor placement on concrete pad, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "ATM Configuration",
+      "option_value": "Single ATM",
+      "id": "spec_6",
+      "prompt_for_generation": "Compact prefabricated ATM cabin sized for one ATM machine, single security door entry, ATM fascia cutout visible on front panel, outdoor placement, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "ATM Configuration",
+      "option_value": "Double ATM",
+      "id": "spec_7",
+      "prompt_for_generation": "Wider prefabricated ATM cabin sized for two ATM machines side by side, two ATM fascia cutouts visible on front panel, single entry door, outdoor placement on concrete pad, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "ATM Configuration",
+      "option_value": "Kiosk ATM",
+      "id": "spec_8",
+      "prompt_for_generation": "Open-front ATM kiosk enclosure with canopy roof, no full enclosure walls, ATM machine housing visible from front, walk-up outdoor installation, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "ATM Configuration",
+      "option_value": "Cash Recycler",
+      "id": "spec_9",
+      "prompt_for_generation": "Prefabricated ATM cabin configured for a cash recycler machine, slightly larger footprint than standard single ATM cabin, reinforced security door, cash recycler fascia cutout on front panel, outdoor placement, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
