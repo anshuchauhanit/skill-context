@@ -1,0 +1,63 @@
+{
+  "enhanced_name_4w": "Prefab Container Kitchen Cabin",
+  "enhanced_name_5w": "Portable Prefab Kitchen for Site Canteen",
+  "enhanced_name_6w": "MS Container Kitchen Cabin for Industrial Sites",
+  "enhanced_name_long": "Prefabricated MS and Container-Based Portable Kitchen Cabins for Construction Sites, Industrial Camps, and Commercial Food Service",
+  "alt_names": {
+    "primary_keywords": [
+      "portable kitchen",
+      "container kitchen",
+      "portable kitchen cabin",
+      "portable kitchen canteen",
+      "prefabricated kitchen",
+      "portable modular kitchen",
+      "kitchen container",
+      "portable kitchen unit",
+      "portable kitchen setup"
+    ],
+    "technical_synonyms": [
+      "prefab kitchen cabin",
+      "MS portable kitchen",
+      "GI portable kitchen",
+      "containerised kitchen",
+      "modular container kitchen",
+      "portable kitchen structure",
+      "porta kitchen cabin",
+      "sandwich panel kitchen cabin",
+      "field kitchen unit",
+      "deployable kitchen"
+    ],
+    "trade_names": [
+      "porta kitchen",
+      "porta cabin kitchen",
+      "container kitchen cabin",
+      "kitchen porta cabin",
+      "all-in-one container kitchen",
+      "portable kitchen pantry",
+      "portable canteen cabin",
+      "kitchen site cabin"
+    ],
+    "hindi_terms": [
+      "portable kitchen katta",
+      "portable rasoi cabin",
+      "container rasoi"
+    ],
+    "buyer_intent_queries": [
+      "portable kitchen for construction site",
+      "container kitchen for labour camp",
+      "prefabricated kitchen cabin with sink",
+      "portable kitchen setup for events",
+      "portable kitchen canteen for industrial site",
+      "container kitchen for cafe or restaurant",
+      "portable kitchen with chimney and ventilation",
+      "temporary kitchen setup for site office",
+      "all in one container kitchen unit"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Home and residential modular kitchen buyers searching 'portable kitchen for home' or 'portable kitchen cabinets' — these represent consumer/home-use intent incompatible with this MCAT's B2B prefabricated structure segment; names attracting home buyers are discarded",
+    "Generic portable cabin buyers (office cabin, security cabin, accommodation cabin) whose purchase intent is non-kitchen prefab structures — terms like 'portable cabin' without kitchen qualifier are excluded to avoid routing non-kitchen cabin traffic into this MCAT"
+  ],
+  "segment_contamination_disclaimer": null
+}
