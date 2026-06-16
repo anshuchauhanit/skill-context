@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": false,
+  "is_vague": true,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "Signals S4 and S5b fire clearly: product_types include both steel/FRP industrial huts (construction contractor buyer, IS 2062 structural compliance) and Bamboo/Resort/Eco-Tourism huts (hospitality developer buyer, handcrafted construction) — zero buyer overlap; sibling MCAT 'Bamboo Huts' (141758, 5,401 listings) already carves out the bamboo segment yet product_types still includes bamboo and resort sub-types, confirming the MCAT name attracts incompatible buyer profiles.",
+    "Signal S1 fires marginally — 'hut' is loose enough that both industrial-construction buyers and eco-tourism/resort buyers land here despite 'prefabricated' providing partial narrowing; is_specific forced to no by is_vague hard constraint; is_generic is no because the dominant commercial intent (portable shelter for industrial/construction use) is coherent and the MCAT is not a broad roll-up umbrella."
+  ]
+}
