@@ -1,0 +1,238 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — a portable steel cabin, a container-based office, a multi-storey modular building, and a security cabin are all 'modular buildings' but look entirely different. Buyers use the image to identify the product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Structure material, number of floors, panel type, and portability are non-interchangeable shortlisting criteria — a single-floor PUF panel portable cabin cannot substitute for a G+2 steel-frame permanent office building. Buyers cannot shortlist without these specs."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per unit",
+      "unit_note": "Standard portable cabins and site offices are quoted per unit; custom residential and commercial buildings are quoted per sq ft of built-up area; turnkey multi-module projects (labour camps, institutional buildings) are quoted per project. Unit must be shown alongside price to prevent misreading — a per-sq-ft price and a per-unit price for the same building type differ by orders of magnitude.",
+      "reason": "Three distinct quoting units coexist in this category (per unit / per sq ft / per project), creating genuine price comparison confusion. A buyer comparing a per-unit cabin price against a per-sq-ft custom building price without unit context will misread the listing entirely."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian buyers are price-aggressive and will compare prices across listings, but price is only comparable after structure type, material, and floor count are confirmed as equivalent. Large turnkey and multi-storey projects are always negotiated; standard portable cabins have more stable listed prices that serve as budget entry points."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Tata Steel Nest-In (MobiNest) is a recognised brand in the portable cabin segment that buyers actively search for by name; the broader market is fragmented but brand acts as a quality and reliability proxy for institutional and government buyers.",
+      "reason": "Manufacturer status, installation capability, and post-sale service network are evaluated by institutional and government buyers during vendor selection for turnkey projects. For standard cabin buyers, company credibility is a secondary but non-trivial trust signal."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Material",
+        "reason": "Defines the fundamental product class — MS with PUF panel portable cabin vs steel-frame permanent building vs aluminium container are non-interchangeable product types with large price deltas between them."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Number Of Floors",
+        "reason": "Defines structural scale and complexity independently of material — a single-floor portable cabin vs a G+3 multi-storey modular building represents the largest price delta after structure type, and the two cannot substitute for each other."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Built Type",
+      "Flooring Type",
+      "Number Of Floors",
+      "Panel Thickness",
+      "Portable",
+      "Roof Type",
+      "Service Mode",
+      "Structure Material",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Building Size / Floor Area",
+        "why_important": "Standard cabin sizes (10×12 ft, 12×20 ft) are primary buyer search and comparison criteria, and per-sq-ft pricing for custom buildings requires a floor area spec to be meaningful — buyers cannot compare offerings without knowing the size being quoted.",
+        "source": "both",
+        "example_values": [
+          "10x12 ft",
+          "12x20 ft",
+          "20x30 ft",
+          "Custom"
+        ]
+      },
+      {
+        "spec_name": "Fire Rating / Compliance",
+        "why_important": "Institutional and government buyers (schools, hospitals, government housing) require fire-rated panels and BIS/NBC compliance certification as a mandatory procurement eligibility criterion — sellers without compliant products cannot respond to these RFQs.",
+        "source": "both",
+        "example_values": [
+          "NBC Compliant",
+          "Fire Rated (FR)",
+          "Non-Fire Rated",
+          "IS 15916 Compliant"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Defines the structural system and quality tier — sellers need this to determine which product line applies (PUF panel portable cabin vs MS structure permanent building vs Aerocon panel system) and to price accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Dimensions",
+        "reason": "Defines the physical footprint — sellers need this to confirm whether a standard size applies or a custom fabrication is required, which is the primary determinant of lead time and price.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Application / Building Type",
+        "why_important": "Sellers need to know the intended use (site office vs labour camp vs security cabin vs residential) to route the RFQ to the correct product line and to determine applicable compliance requirements — the same material and dimensions serve fundamentally different product configurations.",
+        "source": "both",
+        "example_values": [
+          "Site Office",
+          "Labour Camp",
+          "Security Cabin",
+          "Residential Building",
+          "Toilet Block"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Site Office",
+          "Labour Camp",
+          "Security Cabin",
+          "Residential Building",
+          "Toilet Block"
+        ]
+      },
+      {
+        "spec_name": "Portability",
+        "why_important": "Portable/relocatable structures and permanent modular buildings have fundamentally different structural systems, compliance requirements, and pricing — sellers cannot determine product fit or quote accurately without knowing whether the buyer needs a relocatable or fixed structure.",
+        "source": "both",
+        "example_values": [
+          "Portable / Relocatable",
+          "Permanent / Fixed"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Portable / Relocatable",
+          "Permanent / Fixed"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application / Building Type",
+      "option_value": "Site Office",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated modular site office building, single-storey steel-frame structure with sandwich panel walls, white exterior with windows and a door, placed on a construction site, natural daylight, no branding, clean photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Building Type",
+      "option_value": "Labour Camp",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated modular labour camp accommodation block, multi-unit single-storey row of rooms with steel-frame sandwich panel construction, green or grey exterior, set on open ground at an infrastructure project site, natural daylight, no branding, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Building Type",
+      "option_value": "Security Cabin",
+      "id": "spec_3",
+      "prompt_for_generation": "Small prefabricated modular security guard cabin, compact single-room steel-frame structure with a window and door, placed at a factory or commercial gate entrance, natural daylight, no branding, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Building Type",
+      "option_value": "Residential Building",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated modular residential building, two-storey home with sandwich panel walls, sloped roof, windows with grilles, set on a residential plot, natural daylight, no branding, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Building Type",
+      "option_value": "Toilet Block",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated modular toilet block sanitation unit, compact multi-cubicle structure with steel-frame sandwich panel construction, ventilation louvres, placed outdoors at a construction or industrial site, natural daylight, no branding, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Portability",
+      "option_value": "Portable / Relocatable",
+      "id": "spec_6",
+      "prompt_for_generation": "Portable relocatable prefabricated cabin being lifted by a crane for relocation, compact steel-frame sandwich panel structure with visible skid base, construction site background, natural daylight, no branding, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Portability",
+      "option_value": "Permanent / Fixed",
+      "id": "spec_7",
+      "prompt_for_generation": "Permanent modular building with concrete foundation, two-storey steel-frame sandwich panel construction with finished exterior cladding, landscaped surroundings, natural daylight, no branding, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
