@@ -1,0 +1,510 @@
+{
+  "mcat_description": {
+    "short": "Prefabricated concrete houses are factory-manufactured RCC (Reinforced Cement Concrete) panel-based dwelling structures — including full houses, single rooms, and labour quarters — that are assembled on-site from precast wall, floor, and roof components.",
+    "long": "A prefabricated concrete house is a residential or semi-residential structure built using precast RCC panels and components manufactured under controlled factory conditions and then transported to site for rapid assembly. The dominant commercial form in India is the precast RCC panel house or room unit, where wall panels, roof slabs, and structural columns are cast in M30–M50 grade concrete conforming to IS 15916 and IS 456, then bolted or grouted together on-site. These structures are used for permanent rural housing, government housing schemes (PMAY), labour quarters at industrial sites, site offices, and low-cost residential construction. Key advantages over conventional brick-mortar construction include faster erection time, consistent concrete quality, reduced on-site skilled labour dependency, and suitability for repetitive/large-scale housing projects.",
+    "product_types": [
+      "Precast RCC Panel House (full residential unit)",
+      "Precast RCC Single Room / Labour Quarter",
+      "Precast Concrete Modular House (multi-room assembly)",
+      "Precast Sandwich Panel House (insulated wall panels)",
+      "Precast Concrete Site Office / Guard Room",
+      "Precast RCC Toilet / Bathroom Unit",
+      "Precast Concrete Portable Cabin (residential grade)",
+      "Precast Concrete Farm House Unit",
+      "Readymade Cement House (colour-coated variant)"
+    ],
+    "primary_applications": [
+      "Rural and affordable housing (PMAY and state government housing schemes)",
+      "Labour quarters and worker accommodation at industrial/construction sites",
+      "Site offices and temporary-to-permanent residential structures",
+      "Low-cost housing for EWS/LIG segments",
+      "Disaster relief and rapid deployment housing",
+      "Farm house and agricultural worker accommodation",
+      "Institutional housing (schools, hospitals, defence establishments)"
+    ],
+    "buyer_segments": [
+      "Government housing agencies and contractors (PMAY, state housing boards)",
+      "Real estate developers and construction contractors (large-scale repetitive housing)",
+      "Industrial and infrastructure project owners (labour accommodation)",
+      "Individual rural/semi-urban buyers seeking affordable permanent housing",
+      "NGOs and disaster relief organisations",
+      "Defence and paramilitary establishment procurement"
+    ]
+  },
+  "primary_segment": "RCC precast panel-based prefabricated residential house or single-room unit for affordable/rural housing",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "RCC precast panel-based prefabricated residential house or room unit",
+    "secondary_families": [],
+    "reason": "All product sub-types within this MCAT (full house, single room, labour quarter, modular unit) share the same RCC precast construction principle, IS 15916/IS 456 regulatory regime, and residential/accommodation buyer profile — no incompatible product families exist within the MCAT name."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "precast house",
+      "precast concrete house",
+      "prefabricated concrete house",
+      "RCC precast house",
+      "readymade concrete house",
+      "precast cement house",
+      "prefabricated cement house",
+      "readymade cement house",
+      "precast home",
+      "precast residential house"
+    ],
+    "technical_synonyms": [
+      "precast RCC panel house",
+      "prefabricated RCC structure",
+      "large panel prefabricated building",
+      "precast concrete modular dwelling",
+      "factory-built concrete house",
+      "precast concrete construction system",
+      "industrialised building system (IBS) house",
+      "precast concrete housing unit"
+    ],
+    "trade_names": [
+      "RCC precast room",
+      "precast labour quarter",
+      "readymade RCC room",
+      "precast site office",
+      "precast guard room",
+      "precast concrete cabin",
+      "precast form house",
+      "colour-coated cement house"
+    ],
+    "hindi_terms": [
+      "Makaan (precast)",
+      "Taiyar Makaan",
+      "Pakkaa Ghar (precast)",
+      "RCC Kamra",
+      "Readymade Ghar"
+    ],
+    "buyer_intent_queries": [
+      "precast concrete house cost in India",
+      "prefabricated concrete house price per room",
+      "RCC precast house construction in Bangalore",
+      "readymade cement house for rural housing",
+      "precast house construction near me",
+      "prefab concrete homes for PMAY scheme",
+      "precast RCC room for labour quarters",
+      "ready made concrete house manufacturer India",
+      "precast house construction cost per sq ft",
+      "precast residential homes supplier India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per unit (per room or per house)",
+    "unit_reasoning": "In Indian B2B transactions, precast concrete houses and rooms are quoted per unit (per room or per complete house), with larger projects sometimes quoted per sq ft of built-up area or per running metre for specific components — buyers enquire for a defined room/house unit and sellers quote accordingly.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Single room / labour quarter",
+        "unit": "per unit (per room)",
+        "note": "Most common transaction unit on IndiaMART; buyers specify dimensions (e.g. 10x12 ft, 11x15 ft)"
+      },
+      {
+        "sub_segment": "Full residential house (multi-room)",
+        "unit": "per unit (per house) or per sq ft BUA",
+        "note": "Larger projects may be quoted per sq ft of built-up area or as a lump-sum per house"
+      },
+      {
+        "sub_segment": "Panel supply only (component sale)",
+        "unit": "per sq ft or per panel",
+        "note": "When selling precast panels as components rather than assembled structures"
+      }
+    ],
+    "sources_checked": [
+      "Google keyword data (buyer search patterns)",
+      "Internal keyword data (on-platform search patterns)",
+      "Buyer call data (product enquiry vocabulary)",
+      "constructionestimatorindia.com (precast construction context)"
+    ],
+    "confidence": "medium"
+  },
+  "market_context": "In India, prefabricated concrete houses are commercially known as 'precast houses' or 'RCC precast houses' — the term 'precast' dominates buyer vocabulary over 'prefabricated' in search behaviour. The dominant construction system uses factory-cast RCC wall panels, roof slabs, and columns assembled on-site, governed by IS 15916 (Building Design and Erection Using Prefabricated Concrete) and IS 456 (Plain and Reinforced Concrete — Code of Practice). Concrete grades used in Indian precast housing typically range from M30 to M50, with IS 15916 specifying dimensional tolerances of ±5 mm for factory-produced elements versus ±10 mm for in-situ construction. The Building Materials and Technology Promotion Council (BMTPC) and the Indian Concrete Institute (ICI) have published additional guidelines for precast construction in India. Demand is driven by government affordable housing schemes (PMAY), industrial labour accommodation, and rural housing — with Bangalore, Surat, Pune, Delhi-NCR, and Hyderabad being active manufacturing and supply hubs. The market distinguishes between full house units, single-room/labour quarter units, and panel-only supply; buyers in the B2B segment are predominantly contractors, housing agencies, and industrial project owners. A BIS committee (CED 32) is currently developing a unified code for precast construction in India, indicating the regulatory framework is still maturing.",
+  "buyer_attracting_attributes": [
+    "Concrete Grade (M30/M35/M40/M50)",
+    "Wall Panel Thickness",
+    "Room/House Size (dimensions in ft or sq ft)",
+    "Number of Rooms / BHK Configuration",
+    "Roof Type (RCC slab / steel truss)",
+    "Construction System (panel build / modular / sandwich panel)",
+    "Erection / Installation Time",
+    "Load-Bearing Capacity",
+    "Insulation (thermal / acoustic)",
+    "BIS / IS 15916 Compliance"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "116159",
+    "mcat_name": "Prefabricated Concrete House",
+    "mcat_level": "4",
+    "listing_count": "473",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Prefabricated Concrete House",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Prefabricated concrete houses are engineered construction products evaluated on structural specs (concrete grade, reinforcement, load capacity), compliance with BIS standards (IS:1343, IS:456), and local building codes — not brand dominance. Agent 3 should prioritise BIS/NRMCA standards, concrete technical datasheets, and structural design references."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions confirmed 'precast house' and 'precast concrete house' as dominant buyer vocabulary; geographic signals (Bangalore) and cost-intent queries identified."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Pageviews confirmed 'prefabricated concrete house' (114 PVs) as dominant on-platform term; 'RCC precast house', 'rcc room', 'precast cement house' identified as secondary buyer terms."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "alt_names.hindi_terms",
+          "alt_names.trade_names",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Call rows confirmed 'Makaan' (Hindi) as buyer vocabulary, 'RCC Precast Room' as trade name, and 'Prefabricated Cemented Panel House' as buyer-used product name. No spec values extracted."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT is at level 4 under Prefabricated Structures parent. 27 siblings (sheds, cabins, portable toilets, greenhouses) confirmed these are already carved out — no vagueness trigger. Listing count 473 treated as plausible."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.researchgate.net/publication/383095334_PRECAST_CONCRETE_BUILDING_CONSTRUCTION_IN_INDIA_-CHALLENGES_AND_OPPORTUNITIES",
+        "title": "PRECAST CONCRETE BUILDING CONSTRUCTION IN INDIA - CHALLENGES AND OPPORTUNITIES",
+        "source_domain": "researchgate.net",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for IS 11447, IS 15916, IS 1343 standards references and BMTPC/ICI guidelines; BIS CED 32 committee developing unified precast code noted for market_context maturity signal."
+      },
+      {
+        "url": "https://constructionestimatorindia.com/precast-construction-in-india-explained-benefits-process-cost/",
+        "title": "Precast Construction in India Explained – Benefits, Process, Cost & 2026 Outlook",
+        "source_domain": "constructionestimatorindia.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.long"
+        ],
+        "citation_note": "Used for M40-M50 concrete grade range, IS 15916 and IS 456 alignment, and reduced on-site labour dependency as buyer-attracting attribute."
+      },
+      {
+        "url": "https://infralens.in/code/IS-15916-2011",
+        "title": "IS 15916:2011 PDF · Precast Concrete Components - General Requirements",
+        "source_domain": "infralens.in",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for IS 15916 dimensional tolerance specifications (±5 mm factory vs ±10 mm in-situ), lifting/handling requirements, and IS 456 cross-reference for RCC design."
+      },
+      {
+        "url": "https://testbook.com/question-answer/which-code-or-document-generally-governs-precast-c--6888835cbd32c935e7f5332a",
+        "title": "Which code or document generally governs precast concrete in India",
+        "source_domain": "testbook.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed IS 15916 as the specific governing standard for precast concrete elements in India, distinct from IS 456 (general concrete structures)."
+      },
+      {
+        "url": "https://www.scribd.com/document/730745527/15916-2020",
+        "title": "IS 15916:2020 Precast Concrete Standards",
+        "source_domain": "scribd.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for panel thickness ranges (60–85 mm), sandwich panel definition, load-bearing vs non-load-bearing wall classification, and shear wall design references."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "NRMCA",
+        "Local Building Codes"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Prefabricated concrete houses are engineered construction products evaluated on structural specs (concrete grade, reinforcement, load capacity), compliance with BIS standards (IS:1343, IS:456), and local building codes — not brand dominance. Agent 3 should prioritise BIS/NRMCA standards, concrete technical datasheets, and structural design references."
+    }
+  }
+}
