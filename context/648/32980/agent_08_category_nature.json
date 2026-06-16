@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Office Cabin' is clearly bounded to prefabricated portable structures for office/workspace use; all 13 product_types share the same buyer archetype (project manager or contractor needing a temporary office) and Agent 3 produced a confident, unhedged primary_segment with no incompatible intent clusters across buyer_intent_queries.",
+    "is_vague: 0 of 5 signals fire — the name resolves to one product concept in Indian B2B context, primary_segment is unhedged, all buyer vocabulary clusters around one purchase context, all product_types share the same buyer, and no sibling MCAT represents an incompatible regulatory regime or buyer persona."
+  ]
+}
