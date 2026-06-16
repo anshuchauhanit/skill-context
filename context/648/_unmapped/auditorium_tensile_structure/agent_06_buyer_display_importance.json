@@ -1,0 +1,532 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Who is this buyer?** Municipal corporation officer, institutional procurement manager, civil contractor, or architect commissioning a large-span covered auditorium. This is a capital project purchase — high value, custom-designed, site-installed. The buyer is not browsing a catalogue; they have a specific site and requirement.
+
+**Decision sequence:**
+1. **Image first** — Buyer scans listing grid to confirm the contractor does auditorium-scale tensile work (not parking shades or small canopies). Visual form (dome, arch, saddle) and scale are immediately apparent from photos. Wrong scale/type = skip.
+2. **Specification next** — Structure type/shape, fabric type, coverage area capability, frame material. These define whether the contractor can deliver what the buyer needs. Buyers shortlist only contractors whose spec range matches their project.
+3. **Company** — This is a large civil project. Contractor track record, past auditorium projects, certifications, and installation capability are critical qualification signals. An unknown contractor with matching specs still needs to be vetted.
+4. **Price** — Per sq ft rate is a budget sanity check. Final price is always project-quoted after site survey. Indian buyers are price-sensitive but cannot compare prices without spec equivalence first.
+5. **Unit** — Per sq ft is universal for this category. Never a buyer question.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is enormous (dome vs arch vs hypar vs saddle); scale and finish quality are visible; wrong type = immediate skip.
+- **Specification:** High — structure type, fabric material, frame material are primary shortlisting gates; without these, buyer cannot evaluate fit.
+- **Company:** Medium-High — contractor track record and past project portfolio matter significantly for a large civil installation, but specs carry equal weight.
+- **Price:** Medium — per sq ft rate is a budget entry point; final price is always negotiated post-site-survey; India price sensitivity applies but spec comparison must precede price comparison.
+- **Unit:** Low — per sq ft is universally understood and never questioned in this category.
+
+---
+
+## Step 3 — Apply Decision Questions
+
+**Image:** Visual variation between dome, arch, hypar, saddle forms is dramatic. Scale (auditorium vs small canopy) is immediately visible. Fabric colour and finish quality are visible. High.
+
+**Specification:** Structure type and fabric type are non-interchangeable — a buyer needing a dome cannot substitute an arch. Frame material affects structural life and maintenance. These are primary shortlisting criteria. High.
+
+**Price:** `project-based price` — every sale is a custom project quoted after site survey. Listed per sq ft rate is indicative only. Medium. India price sensitivity applies but final price is always negotiated.
+
+**Cross-dimension consistency check:**
+- Price is Medium (project-based) → Unit cannot be High (no per-unit price to confuse). ✓
+- `project-based price` → unit show: false. ✓
+- Specification High → show_on_listing: true. ✓
+- Unit Low/show:false → no price comparison confusion risk. ✓
+
+**Unit:** Per sq ft is the universal quoting norm. No buyer ever questions this. Low / show: false.
+
+**Company:** Large civil project. Buyer evaluates contractor's past auditorium projects, installation capability, structural design credentials, and service track record. Medium — specs carry equal weight but company is a meaningful qualifier. No dominant brands with buyer recall; market is fragmented across regional specialist contractors. `brand_important: no`.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Visual variation between structure forms (dome, arch, hypar, saddle) and scale (auditorium vs small canopy) is dramatic — buyers use the image to confirm the contractor works at auditorium scale and in the required form. Wrong form or scale = immediate skip before any text is read."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Structure type, fabric material, and frame material are non-interchangeable shortlisting criteria — a buyer needing a PTFE dome cannot substitute a PVC arch. Without these specs, the listing cannot be evaluated for project fit."
+  },
+  {
+    "rank": 3,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant brand with buyer recall exists in this category — the Indian market is fragmented across regional specialist tensile structure contractors; buyers search by capability and track record, not manufacturer name.",
+    "reason": "For a large civil installation project, buyers evaluate contractor credentials — past auditorium projects, structural design capability, installation track record, and post-installation warranty support — during vendor shortlisting."
+  },
+  {
+    "rank": 4,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "project-based price",
+    "reason": "Every sale is a custom project quoted per sq ft after site survey; listed rates are indicative budget entry points only. Indian buyers are price-sensitive but final price is always negotiated post-survey — price cannot be compared without spec and scope equivalence."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "Low",
+    "show": false,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Per sq ft of covered area is the universal quoting norm across all Indian tensile structure contractors; no buyer ever questions this unit. Fabric-only supply may use per sq metre but this sub-segment is rare on IndiaMART.",
+    "reason": "Unit is entirely implied — every Indian tensile structure contractor quotes per sq ft of covered area without exception. No buyer confusion risk exists."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Application** (School/College, Convention Hall, etc.): Use-case tag — describes what the product is used FOR, not what it IS. **Discard.**
+- **Fabric Warranty** (5/7/10/15/20+ Years): Consequence field — warranty follows from fabric type + GSM + brand. Not independently configured. **Discard.**
+- **Features** (Waterproof, UV Resistant, Fire Retardant, Abrasion Resistant): Multi-select attribute tags, not configurator specs. Fire Retardant is partially captured by fabric type (PTFE is inherently FR). These are marketing descriptors. **Discard.**
+- **Services Included** (Design, Installation, Civil Work, Fabrication): Scope-of-work field, not a product configurator. **Discard.**
+
+**Remaining after Phase 1:** Fabric GSM, Frame Finish, Frame Material, Side Coverage, Structure Type
+
+**Soft elimination check:**
+- Frame Finish + Frame Material: partially correlated (Hot-dip Galvanized is both a material treatment and a finish). However, Frame Material (MS vs GI vs SS) drives structural cost significantly more than Frame Finish alone. Keep both but Frame Material ranks higher.
+- Frame Finish: Epoxy Painted / Powder Coated / Hot-dip Galvanized — these are distinct corrosion protection tiers with real cost and longevity differences. Keep.
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Structure Type** (Hypar/Sail, Arch, Dome, Conical): Defines WHAT the structure IS. Non-interchangeable — a buyer specifying a dome cannot substitute an arch. Each form requires different engineering, cable geometry, and steel quantity. Largest price delta across values. **Rank 1.**
+
+**Fabric GSM** (650, 750, 900, 1050 GSM): Defines the quality/durability tier of the membrane. Higher GSM = heavier, more durable, more expensive fabric. 650 GSM vs 1050 GSM represents a significant per-sq-ft cost difference and a 10+ year difference in expected service life. Non-interchangeable for project specifications. **Rank 2.**
+
+*(Side Coverage and Frame Material are strong candidates but rank below Structure Type and Fabric GSM in price delta magnitude. Frame Material drives cost but is often determined by the structure type and site conditions rather than independently configured by the buyer.)*
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list:**
+Application, Fabric GSM, Fabric Warranty, Features, Frame Finish, Frame Material, Services Included, Side Coverage, Structure Type
+
+**Step 3b/3c — Candidate gaps:**
+
+From Agent 3 vision_output + LLM world knowledge:
+
+1. **Fabric Type / Material** (PVC-coated polyester, PTFE-coated fiberglass, HDPE, ETFE): Agent 3 explicitly identifies this as the primary material differentiator — PVC vs PTFE represents a 3–5x price difference and fundamentally different product classes. Cross-reference against seller list: "Fabric GSM" is present but Fabric Type/Material is NOT present. These are not semantic equivalents — GSM measures weight, Type/Material identifies the membrane chemistry. **Confirmed missing.**
+
+2. **Coverage Area / Span** (up to 500 sq ft, 500–2000 sq ft, 2000–5000 sq ft, 5000+ sq ft): Agent 3 notes that auditorium structures are custom-designed to site dimensions; the scale of the project is a primary differentiator between contractors. A contractor capable of 500 sq ft canopies may not be equipped for a 10,000 sq ft auditorium. Cross-reference: not present in seller list under any name. **Confirmed missing.**
+
+3. **Wind/Load Design Standard** (IS 875 Part 3, IS 800, ASCE 7, EN 13782): Agent 3 notes structural design follows IS codes for wind/snow loads; institutional and government buyers specify compliance with IS 875. Cross-reference: not present in seller list. However, this is a technical compliance spec that is rarely configured per listing — it is more of a project-level requirement. Applying the importance threshold: a senior CM would not add this to the configurator list today as it is too technical and rarely buyer-facing. **Exclude.**
+
+**Missing important specs confirmed:** Fabric Type, Coverage Area/Span.
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → **partial**
+
+---
+
+```json
+"seller_spec_audit": {
+  "top_configurator_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Structure Type",
+      "reason": "Defines the fundamental geometric form of the structure (dome, arch, hypar, conical) — non-interchangeable across project requirements, with each form requiring distinct engineering and steel geometry, producing the largest price delta of any spec in this category."
+    },
+    {
+      "rank": 2,
+      "spec_name": "Fabric GSM",
+      "reason": "Determines the membrane durability and quality tier — 650 GSM vs 1050 GSM represents a significant per-sq-ft cost difference and a 10+ year service life gap, making it the primary within-type price driver after structure form is fixed."
+    }
+  ],
+  "specs_in_seller_list": [
+    "Application",
+    "Fabric GSM",
+    "Fabric Warranty",
+    "Features",
+    "Frame Finish",
+    "Frame Material",
+    "Services Included",
+    "Side Coverage",
+    "Structure Type"
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Fabric Type",
+      "why_important": "PVC-coated polyester vs PTFE-coated fiberglass vs HDPE vs ETFE represent fundamentally different product classes with 3–5x price differences and vastly different service life expectations — the single most important material differentiator for buyer shortlisting.",
+      "source": "both",
+      "example_values": ["PVC Coated Polyester", "PTFE Coated Fiberglass", "HDPE Shade Net", "ETFE Film"]
+    },
+    {
+      "spec_name": "Coverage Area",
+      "why_important": "Auditorium projects range from small school halls (~500 sq ft) to large municipal auditoriums (10,000+ sq ft), and contractor capability and equipment scale accordingly — buyers need to confirm the contractor has executed projects at their required scale.",
+      "source": "both",
+      "example_values": ["Up to 1000 sq ft", "1000–3000 sq ft", "3000–7000 sq ft", "7000 sq ft and above"]
+    }
+  ],
+  "coverage_verdict": "partial"
+}
+```
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Fabric Type** (PVC Coated, PTFE Coated, ETFE Film, HDPE Fabric): Defines the membrane material class — non-interchangeable, drives project cost, durability, and compliance requirements. A seller specialising in PTFE cannot substitute PVC. This is the single most important requirement dimension for routing the RFQ to the right contractor. **Rank 1.**
+
+**Shape / Form** (Arch Supported, Dome, Conical, Hypar/Anticlastic, Barrel Vault): Defines the structural geometry — non-interchangeable, determines engineering approach, cable layout, and steel quantity. A contractor experienced in dome structures may not have executed hypar forms. **Rank 2.**
+
+*(Frame Material is a valid spec but is typically determined by the contractor based on site conditions and project scope — it is less of a buyer-specified requirement and more of a contractor design decision. Fabric Type and Shape/Form are the two specs buyers arrive with.)*
+
+### Phase 2 — Thumbnail Eligibility
+
+**Fabric Type:** PVC Coated, PTFE Coated, ETFE Film, HDPE Fabric — these are material chemistry designations. While there are subtle visual differences (PTFE is typically white/translucent, ETFE is transparent, HDPE is mesh-like), the differences are not dramatically visually distinct in a thumbnail context and buyers do not identify fabric type primarily by visual appearance. **Not thumbnail eligible.**
+
+**Shape / Form:** Arch Supported, Dome, Conical, Hypar/Anticlastic, Barrel Vault — each form is dramatically visually distinct. A dome looks nothing like an arch or a hypar. Buyers immediately recognise their required form from a thumbnail. **Thumbnail eligible.** `thumbnail_options: ["Arch Supported", "Dome", "Conical", "Hypar / Anticlastic", "Barrel Vault"]`
+
+### Phase 3 — Missing Buyer Spec Audit
+
+From Agent 3 vision_output + LLM world knowledge:
+
+1. **Coverage Area / Span**: Agent 3 identifies that auditorium structures are custom-designed to site dimensions and that project scale is a primary differentiator. Sellers need to know the approximate covered area to determine whether they can execute the project and to provide a meaningful indicative rate. Cross-reference buyer spec list: not present under any name. **Confirmed missing.** This is more important than Frame Material (rank 3 in current list) — `would_be_rank: 2` (displacing Shape/Form to rank 3, as area/span is a more fundamental project scoping requirement than geometric form for initial seller routing). However, on reflection: Shape/Form is a non-interchangeable design requirement that routes to specialist contractors — Coverage Area is a scale qualifier. Both are important. Coverage Area would slot at rank 2 alongside Shape/Form. Assigning `would_be_rank: 2`. Coverage Area is a numeric/dimensional spec — **not thumbnail eligible.**
+
+2. **Side Coverage / Enclosure Type** (Roof Only, Partially Enclosed, Fully Enclosed): Determines whether the buyer needs just a roof membrane or full enclosure with side panels — a significant scope and cost differentiator. Cross-reference: not present in buyer spec list. From LLM world knowledge, this is a standard RFQ dimension for tensile structures. However, this is more of a scope refinement than a primary routing spec — sellers can handle this post-connection. Applying importance threshold: a senior CM would add this but it ranks below Coverage Area. `would_be_rank` not assigned (ranks below both current specs in routing importance). **Exclude from missing specs with would_be_rank.**
+
+   Actually, reconsidering: Side Coverage is important enough to flag as missing even without a would_be_rank, as it materially affects seller response accuracy (a fabric-only contractor cannot supply full enclosure). Including without would_be_rank.
+
+3. **Frame Material** is already in the buyer spec list. ✓ (semantic check passed)
+
+**Missing buyer specs confirmed:** Coverage Area (with would_be_rank: 2), Side Coverage (without would_be_rank — ranks below both current specs).
+
+**Coverage verdict:** 2 missing specs → **partial**
+
+### Phase 4 — Image Upload Assessment
+
+Auditorium tensile structures are custom-designed to site dimensions. However, the RFQ specs (Fabric Type, Shape/Form, Coverage Area) adequately communicate the buyer's core requirement to sellers. Sellers can respond with indicative rates and request a site visit for detailed quotation. The buyer does not typically have a design reference image at the RFQ stage — they have a site and a requirement. **Image upload not recommended.**
+
+---
+
+```json
+"buyer_spec_audit": {
+  "top_rfq_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Fabric Type",
+      "reason": "Fabric material class (PVC vs PTFE vs ETFE vs HDPE) is non-interchangeable and determines which contractors can supply — a PTFE specialist cannot substitute PVC, and the cost and compliance implications are fundamentally different.",
+      "thumbnail_eligible": false
+    },
+    {
+      "rank": 2,
+      "spec_name": "Shape / Form",
+      "reason": "Structural geometry (dome, arch, hypar, conical) is non-interchangeable and routes the RFQ to contractors with the relevant engineering and fabrication experience for that specific form.",
+      "thumbnail_eligible": true,
+      "thumbnail_options": ["Arch Supported", "Dome", "Conical", "Hypar / Anticlastic", "Barrel Vault"]
+    }
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Coverage Area",
+      "why_important": "Sellers need the approximate covered area (sq ft) to determine project feasibility, confirm their execution capability at that scale, and provide a meaningful indicative rate — without this, the RFQ cannot be meaningfully priced.",
+      "source": "both",
+      "example_values": ["Up to 1000 sq ft", "1000–3000 sq ft", "3000–7000 sq ft", "7000 sq ft and above"],
+      "would_be_rank": 2,
+      "thumbnail_eligible": false
+    },
+    {
+      "spec_name": "Side Coverage",
+      "why_important": "Whether the buyer needs roof-only, partial enclosure, or full enclosure materially changes the project scope and cost — a fabric-only contractor cannot supply full side enclosure, making this a seller routing signal.",
+      "source": "both",
+      "example_values": ["Roof Only", "Partially Enclosed", "Fully Enclosed", "Open Sides with Valance"]
+    }
+  ],
+  "coverage_verdict": "partial",
+  "image_upload_recommended": false
+}
+```
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs` rank 2: Shape / Form (`thumbnail_eligible: true`, `thumbnail_options: ["Arch Supported", "Dome", "Conical", "Hypar / Anticlastic", "Barrel Vault"]`) → 5 prompts
+- `missing_important_specs`: Coverage Area (`would_be_rank: 2`, `thumbnail_eligible: false`) → no prompts
+- Side Coverage: no `would_be_rank` → no thumbnail assessment required
+
+Total: 5 prompts (spec_1 through spec_5)
+
+All prompts represent `primary_segment`: PVC-coated polyester tensile fabric roofing structure for auditoriums and open-air assembly venues.
+
+---
+
+```json
+"buyer_spec_thumbnail_prompts": [
+  {
+    "attribute": "Shape / Form",
+    "option_value": "Arch Supported",
+    "id": "spec_1",
+    "prompt_for_generation": "Large-span arch-supported PVC tensile fabric auditorium canopy structure, white membrane stretched over curved steel arch frames, covering an open-air seating area, exterior daytime view, architectural photography style, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Shape / Form",
+    "option_value": "Dome",
+    "id": "spec_2",
+    "prompt_for_generation": "Dome-shaped PVC tensile fabric auditorium structure, circular white membrane roof with radial cable pattern, covering a large open-air assembly venue, exterior daytime view, clean architectural rendering style, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Shape / Form",
+    "option_value": "Conical",
+    "id": "spec_3",
+    "prompt_for_generation": "Conical tensile fabric auditorium canopy with single central mast and radiating cables, white PVC membrane forming a pointed cone shape, covering an outdoor seating area, exterior daytime view, architectural photography, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Shape / Form",
+    "option_value": "Hypar / Anticlastic",
+    "id": "spec_4",
+    "prompt_for_generation": "Hypar anticlastic saddle-shaped PVC tensile fabric auditorium roof, white membrane with opposing curves (high points and low points), stretched over a steel cable grid, covering an open-air amphitheatre, exterior daytime view, architectural photography, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Shape / Form",
+    "option_value": "Barrel Vault",
+    "id": "spec_5",
+    "prompt_for_generation": "Barrel vault tensile fabric auditorium canopy, white PVC membrane forming a continuous curved tunnel shape over a long rectangular seating area, steel arched ribs visible, exterior daytime view, architectural photography style, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  }
+]
+```
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual variation between structure forms (dome, arch, hypar, saddle) and scale (auditorium vs small canopy) is dramatic — buyers use the image to confirm the contractor works at auditorium scale and in the required form. Wrong form or scale = immediate skip before any text is read."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Structure type, fabric material, and frame material are non-interchangeable shortlisting criteria — a buyer needing a PTFE dome cannot substitute a PVC arch. Without these specs, the listing cannot be evaluated for project fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the Indian market is fragmented across regional specialist tensile structure contractors; buyers search by capability and track record, not manufacturer name.",
+      "reason": "For a large civil installation project, buyers evaluate contractor credentials — past auditorium projects, structural design capability, installation track record, and post-installation warranty support — during vendor shortlisting."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every sale is a custom project quoted per sq ft after site survey; listed rates are indicative budget entry points only. Indian buyers are price-sensitive but final price is always negotiated post-survey — price cannot be compared without spec and scope equivalence."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Per sq ft of covered area is the universal quoting norm across all Indian tensile structure contractors; no buyer ever questions this unit. Fabric-only supply may use per sq metre but this sub-segment is rare on IndiaMART.",
+      "reason": "Unit is entirely implied — every Indian tensile structure contractor quotes per sq ft of covered area without exception, and no buyer confusion risk exists."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Type",
+        "reason": "Defines the fundamental geometric form of the structure (dome, arch, hypar, conical) — non-interchangeable across project requirements, with each form requiring distinct engineering and steel geometry, producing the largest price delta of any spec in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Fabric GSM",
+        "reason": "Determines the membrane durability and quality tier — 650 GSM vs 1050 GSM represents a significant per-sq-ft cost difference and a 10+ year service life gap, making it the primary within-type price driver after structure form is fixed."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Fabric GSM",
+      "Fabric Warranty",
+      "Features",
+      "Frame Finish",
+      "Frame Material",
+      "Services Included",
+      "Side Coverage",
+      "Structure Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Fabric Type",
+        "why_important": "PVC-coated polyester vs PTFE-coated fiberglass vs HDPE vs ETFE represent fundamentally different product classes with 3–5x price differences and vastly different service life expectations — the single most important material differentiator for buyer shortlisting.",
+        "source": "both",
+        "example_values": ["PVC Coated Polyester", "PTFE Coated Fiberglass", "HDPE Shade Net", "ETFE Film"]
+      },
+      {
+        "spec_name": "Coverage Area",
+        "why_important": "Auditorium projects range from small school halls to large municipal auditoriums, and contractor capability scales accordingly — buyers need to confirm the contractor has executed projects at their required scale.",
+        "source": "both",
+        "example_values": ["Up to 1000 sq ft", "1000–3000 sq ft", "3000–7000 sq ft", "7000 sq ft and above"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Fabric Type",
+        "reason": "Fabric material class (PVC vs PTFE vs ETFE vs HDPE) is non-interchangeable and determines which contractors can supply — a PTFE specialist cannot substitute PVC, and the cost and compliance implications are fundamentally different.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Shape / Form",
+        "reason": "Structural geometry (dome, arch, hypar, conical) is non-interchangeable and routes the RFQ to contractors with the relevant engineering and fabrication experience for that specific form.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Arch Supported", "Dome", "Conical", "Hypar / Anticlastic", "Barrel Vault"]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Coverage Area",
+        "why_important": "Sellers need the approximate covered area to determine project feasibility, confirm their execution capability at that scale, and provide a meaningful indicative rate — without this, the RFQ cannot be meaningfully priced.",
+        "source": "both",
+        "example_values": ["Up to 1000 sq ft", "1000–3000 sq ft", "3000–7000 sq ft", "7000 sq ft and above"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Side Coverage",
+        "why_important": "Whether the buyer needs roof-only, partial enclosure, or full enclosure materially changes the project scope and cost — a fabric-only contractor cannot supply full side enclosure, making this a seller routing signal.",
+        "source": "both",
+        "example_values": ["Roof Only", "Partially Enclosed", "Fully Enclosed", "Open Sides with Valance"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Shape / Form",
+      "option_value": "Arch Supported",
+      "id": "spec_1",
+      "prompt_for_generation": "Large-span arch-supported PVC tensile fabric auditorium canopy structure, white membrane stretched over curved steel arch frames, covering an open-air seating area, exterior daytime view, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shape / Form",
+      "option_value": "Dome",
+      "id": "spec_2",
+      "prompt_for_generation": "Dome-shaped PVC tensile fabric auditorium structure, circular white membrane roof with radial cable pattern, covering a large open-air assembly venue, exterior daytime view, clean architectural rendering style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shape / Form",
+      "option_value": "Conical",
+      "id": "spec_3",
+      "prompt_for_generation": "Conical tensile fabric auditorium canopy with single central mast and radiating cables, white PVC membrane forming a pointed cone shape, covering an outdoor seating area, exterior daytime view, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shape / Form",
+      "option_value": "Hypar / Anticlastic",
+      "id": "spec_4",
+      "prompt_for_generation": "Hypar anticlastic saddle-shaped PVC tensile fabric auditorium roof, white membrane with opposing curves forming high and low points, stretched over a steel cable grid covering an open-air amphitheatre, exterior daytime view, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shape / Form",
+      "option_value": "Barrel Vault",
+      "id": "spec_5",
+      "prompt_for_generation": "Barrel vault tensile fabric auditorium canopy, white PVC membrane forming a continuous curved tunnel shape over a long rectangular open-air seating area, steel arched ribs visible, exterior daytime view, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
