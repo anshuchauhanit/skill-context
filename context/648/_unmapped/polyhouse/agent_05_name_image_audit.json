@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "\"Polyhouse\" is the dominant primary keyword confirmed across Agent 3 alt_names, market_context, and buyer_intent_queries; it is the standard trade term used by Indian buyers, sellers, and government subsidy schemes (NHB/MIDH) without ambiguity.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a polyethylene-covered greenhouse structure in an open field, which correctly represents the product category; however, the structure appears to be a low-profile Quonset/tunnel-style hoop house rather than the primary segment NVPH with a characteristic gutter-ridge profile (4.0–4.5 m gutter, 6.0–6.5 m ridge) and GI tubular frame visible.",
+      "The rural hillside background and winter-bare landscape suggest a non-Indian, non-commercial setting, which weakens relevance for Indian B2B buyers seeking NHB/MIDH subsidy-eligible NVPH structures; an image showing a taller, multi-bay NVPH with visible GI frame and UV film in an Indian agricultural context would better serve the primary segment."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A large commercial Naturally Ventilated Poly House (NVPH) with a multi-bay GI tubular galvanised steel frame and transparent UV-stabilised polyethylene film covering, gutter height approximately 4 metres and ridge height approximately 6 metres, side and roof ventilation openings visible, set in a flat Indian agricultural field under bright daylight with clear blue sky, green vegetable crops visible inside through the film, clean white background strip at base, sharp product-focused composition, photorealistic, 1:1 square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
