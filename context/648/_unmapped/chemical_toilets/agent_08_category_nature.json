@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": true,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Chemical Toilets' is bounded by the chemical waste-treatment mechanism, distinguishing it from bio-digesters, mobile vans, and permanent fixtures; buyer intent is homogeneous (portable sanitation procurement) across all product_types and no incompatible intent clusters were observed — 0 of 5 vagueness signals fire.",
+    "is_thin: listing_count of 126 is low relative to siblings (FRP Portable Toilet: 6,032; Portable Toilets: 8,053); Agent 3 market_context confirms 'chemical toilet' and 'portable toilet cabin' are used interchangeably in India, meaning relevant listings are likely dispersed across broader/material-specific sibling MCATs, suppressing this count artificially."
+  ]
+}
