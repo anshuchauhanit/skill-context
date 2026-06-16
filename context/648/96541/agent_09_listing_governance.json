@@ -1,0 +1,6 @@
+{
+  "location_exception": false,
+  "location_exception_reason": "Mobile containers are manufactured products sold nationwide; location in title (e.g., 'Delhi Container Shop') is seller geography, not a buyer decision factor. Buyers select by container type, size, and fitout, not origin city.",
+  "biz_exception": false,
+  "biz_exception_reason": "Business-type words ('Manufacturer', 'Supplier', 'Dealer') in container titles are redundant; IndiaMART already exposes seller business type as a buyer-facing filter independent of product title. Removing 'Manufacturer' from 'Container Shop Manufacturer' leaves the product meaning complete ('Container Shop')."
+}
