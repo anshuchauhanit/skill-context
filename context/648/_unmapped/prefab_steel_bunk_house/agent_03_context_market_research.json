@@ -1,0 +1,506 @@
+{
+  "mcat_description": {
+    "short": "Prefab Steel Bunk House is a factory-manufactured, mild steel-framed portable accommodation unit designed for rapid on-site deployment, sold as a complete unit or in panel-based modules. Commonly used as worker sleeping quarters and labour colony housing at construction sites, industrial projects, and remote worksites across India.",
+    "long": "Prefab Steel Bunk Houses are pre-engineered, modular structures built on a mild steel (MS) frame with panel-based walls — typically PUF, EPS sandwich panels, or GI sheet — and are manufactured off-site before being transported and assembled at the project location. Standard configurations range from compact single-room units (20×10×8.5 ft) to larger multi-room blocks (40×10×8.5 ft), with customisable dimensions, insulation grades, door/window counts, and interior fittings. These structures serve as temporary to semi-permanent accommodation for construction labourers, industrial workers, mining camp residents, and disaster relief personnel, offering weather resistance, portability, and significantly faster deployment than conventional construction. Key structural materials include mild steel sections for the frame, colour-coated GI or Galvalume roofing sheets, vinyl or FRP flooring, and aluminium sliding windows, with optional amenities such as electrical fittings, air conditioning, and attached toilet blocks.",
+    "product_types": [
+      "Standard MS Bunk House (single-room, 20×10 ft footprint)",
+      "Large MS Bunk House (double-length, 40×10 ft footprint)",
+      "Double-Decker Bunk House (two-storey stacked unit)",
+      "Container-Type Bunk House (ISO container shell conversion)",
+      "PUF Panel Bunk House (polyurethane foam insulated panels)",
+      "EPS/Sandwich Panel Bunk House (expanded polystyrene core panels)",
+      "Modular Labour Colony Block (multi-unit linked configuration)",
+      "Portable Bunk House with Attached Toilet Block",
+      "Prefab Office-cum-Bunk House (combined sleeping and office use)",
+      "Rooftop Prefab Bunk House (Tata Nestin-type rooftop installation)"
+    ],
+    "primary_applications": [
+      "Worker and labour accommodation at construction sites",
+      "Labour colony housing for infrastructure and road projects",
+      "Mining camp and remote industrial site accommodation",
+      "Military and paramilitary temporary barracks",
+      "Disaster relief and emergency shelter deployment",
+      "Offshore oil rig and port site accommodation blocks",
+      "Security guard rooms and site office annexes",
+      "Temporary accommodation near warehouses and factories"
+    ],
+    "buyer_segments": [
+      "Construction contractors and project management companies",
+      "Infrastructure developers (roads, bridges, dams, metro projects)",
+      "Mining and quarrying companies",
+      "Industrial plant operators requiring on-site worker housing",
+      "Government and PSU project authorities (NHAI, RVNL, NTPC, etc.)",
+      "Disaster management agencies and NGOs",
+      "Real estate developers for on-site labour accommodation",
+      "Rental/leasing companies for portable cabin fleet"
+    ]
+  },
+  "primary_segment": "Prefabricated mild steel worker accommodation unit for construction sites and labour colonies",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated mild steel worker accommodation unit for construction sites and labour colonies",
+    "secondary_families": [],
+    "reason": "The MCAT name 'Prefab Steel Bunk House' is sufficiently specific — it denotes a steel-framed prefabricated sleeping/accommodation structure with a coherent buyer profile (construction/industrial site operators) and no incompatible regulatory sub-types carved out by taxonomy siblings."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "prefab steel bunk house",
+      "prefabricated bunk house",
+      "portable bunk house",
+      "MS bunk house",
+      "steel bunk house",
+      "modular bunk house",
+      "labour bunk house",
+      "portable labour accommodation",
+      "prefab worker accommodation",
+      "site bunk house"
+    ],
+    "technical_synonyms": [
+      "mild steel bunk house",
+      "MS fabricated bunkhouse",
+      "panel build bunk house",
+      "PUF panel bunk house",
+      "sandwich panel bunk house",
+      "modular prefabricated accommodation unit",
+      "pre-engineered steel accommodation",
+      "container-type bunk house",
+      "portable accommodation cabin",
+      "EPS insulated bunk house"
+    ],
+    "trade_names": [
+      "Tata Nestin prefab bunk house",
+      "MS porta cabin bunkhouse",
+      "RF Portable Cabins bunk house",
+      "Pressmach bunk house",
+      "Zigma Cabin bunk house"
+    ],
+    "hindi_terms": [
+      "prefab steel bunk house",
+      "majdoor niwas cabin",
+      "portable makaan"
+    ],
+    "buyer_intent_queries": [
+      "prefab steel bunk house for construction site",
+      "portable bunk house for labour colony",
+      "modular bunk house for workers accommodation",
+      "prefabricated bunk house price per sq ft",
+      "MS bunk house manufacturer India",
+      "steel bunk house for mining camp",
+      "portable labour accommodation cabin India",
+      "prefab bunk house 20x10 feet",
+      "ready to use bunk house for site office",
+      "double decker bunk house for construction workers"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian sellers predominantly quote prefab steel bunk houses on a per-square-foot basis for custom/configured orders, reflecting the variable footprint nature of the product; standard catalogue sizes (20×10, 40×10 ft) are also quoted per piece.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard catalogue size units (20×10, 40×10 ft)",
+        "unit": "per piece",
+        "note": "Fixed-dimension units quoted as a complete piece price"
+      },
+      {
+        "sub_segment": "Custom-dimension or large labour colony orders",
+        "unit": "per sq ft",
+        "note": "Variable footprint orders quoted on built-up area basis"
+      }
+    ],
+    "sources_checked": [
+      "ajinthacreators.com (Ajintha Creators, Pune)",
+      "maportablecabins.com (MA Portable Cabins, Bengaluru)",
+      "metatechportablecabin.com (Metatech Portable Cabin)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Prefab Steel Bunk Houses in India are primarily mild steel-framed portable accommodation structures manufactured off-site and deployed at construction sites, labour colonies, mining camps, and industrial worksites. The dominant construction method uses MS sections for the structural frame with infill wall panels — PUF (polyurethane foam), EPS sandwich panels, or GI sheet — and colour-coated GI or Galvalume roofing. Standard commercial footprints are 20×10×8.5 ft and 40×10×8.5 ft, with double-decker and multi-module configurations available for higher-density labour colonies. The product is sold both as a complete ready-to-use unit (per piece) and on a per-sq-ft basis for custom dimensions. Key buyer vocabulary includes 'MS bunk house', 'portable bunk house', 'labour accommodation cabin', and 'porta cabin bunkhouse'. A notable premium sub-segment exists for rooftop prefab installations (e.g., Tata Nestin), though this is a small fraction of overall demand. Manufacturers are concentrated in Gujarat (Ahmedabad, Bhavnagar), Maharashtra (Pune, Mumbai), Karnataka (Bengaluru), and Delhi-NCR. The category overlaps with 'Porta Cabin' and 'Prefabricated Labour Colony' in buyer vocabulary — buyers searching for site accommodation may use these terms interchangeably.",
+  "buyer_attracting_attributes": [
+    "Dimensions / Floor Area (length × width × height in feet)",
+    "Wall Panel Type (PUF / EPS sandwich / GI sheet)",
+    "Structural Material (mild steel grade / section size)",
+    "Insulation Type (glass wool / PUF / EPS)",
+    "Floor Load Capacity (kg per sq ft)",
+    "Roofing Material (GI / Galvalume / colour-coated steel)",
+    "Number of Doors and Windows",
+    "Flooring Material (vinyl / FRP / MS / PVC)",
+    "Built Type (panel build / modular / container-type)",
+    "Amenities Included (electrical fittings / AC / attached toilet)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "133097",
+    "mcat_name": "Prefab Steel Bunk House",
+    "mcat_level": "4",
+    "listing_count": "688",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Prefab Steel Bunk House",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Prefab steel bunk houses are manufactured structures with technical specs (dimensions, load capacity, material gauge, assembly method) but no mandatory regulatory certification or dominant brand anchoring. Agent 3 should research typical configurations, material standards (IS codes for steel), and buyer quoting patterns from market listings and construction supplier sites."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.trade_names",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Top keywords by Pageviews used to identify on-platform search patterns; 'tata steel nestin prefab rooftop house' signal noted as low-volume premium sub-segment."
+      },
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords"
+        ],
+        "citation_note": "Google KW data was very thin (max 3 impressions); minimal signal extracted. Dimension query '30x12' noted as buyer dimension vocabulary."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Two call rows confirmed buyer vocabulary: 'Porta Cabin (Bunkhouse)' and 'Prefab House (11x13)' — dimension-based and porta cabin terminology noted."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT is a Level 4 node under Prefabricated Structures. Listing count 688 treated as plausible; page_fetch_failed so no tile-count cross-check possible."
+      },
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "No product_page_url provided — page fetch not attempted. page_fetch_failed set to true."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.unostructures.co/prefabricated-labor-colony/prefab-steel-bunk-house/",
+        "title": "Top 3 Prefab Steel Bunk House In India | Prefab Steel House",
+        "source_domain": "unostructures.co",
+        "derived_outputs": [
+          "mcat_description.short",
+          "mcat_description.primary_applications",
+          "market_context"
+        ],
+        "citation_note": "Used for product definition, quick assembly characteristics, and application contexts (construction sites, disaster relief, mining camps)."
+      },
+      {
+        "url": "https://www.ajinthacreators.com/prefab-steel-bunk-house.html",
+        "title": "Prefab Steel Bunk House - 40x10x8.5 Feet Prefab Steel Bunk House Manufacturer from Pune",
+        "source_domain": "ajinthacreators.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context",
+          "market_context"
+        ],
+        "citation_note": "Used for standard footprint dimensions (20×10×8.5 ft, 40×10×8.5 ft), per-sq-ft quoting norm, and application contexts (construction sites, mining camps, military bases)."
+      },
+      {
+        "url": "https://www.bunkhouseworld.in/portable-bunkhouse.html",
+        "title": "Portable Bunkhouse - Steel Site Bunk Houses Manufacturer from Vadodara",
+        "source_domain": "bunkhouseworld.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Used for product type range (steel site bunk houses, prefabricated office bunk houses, conference room bunk house, modular building bunk houses) and buyer vocabulary."
+      },
+      {
+        "url": "https://www.metatechportablecabin.com/ms_bunk_houses.htm",
+        "title": "MS Bunk House and Prefabricated Bunkhouse",
+        "source_domain": "metatechportablecabin.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "alt_names.technical_synonyms",
+          "market_context",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Used for application list (construction sites, labour camps, warehouses, toll booths, security cabins), MS material confirmation, and portability characteristics."
+      },
+      {
+        "url": "https://www.maportablecabins.com/prefabricated-bunkhouse.html",
+        "title": "Prefabricated Bunkhouse - Industrial Bunk House Manufacturer from Bengaluru",
+        "source_domain": "maportablecabins.com",
+        "derived_outputs": [
+          "unit_quoting_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for per-piece quoting confirmation and product variant range (container type, MS portable, mobile bunkhouse)."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Prefab steel bunk houses are manufactured structures with technical specs (dimensions, load capacity, material gauge, assembly method) but no mandatory regulatory certification or dominant brand anchoring. Agent 3 should research typical configurations, material standards (IS codes for steel), and buyer quoting patterns from market listings and construction supplier sites."
+    }
+  }
+}
