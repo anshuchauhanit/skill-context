@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Portable Log Cabins' directly matches primary keywords ('portable log cabin', 'prefab log cabin') and trade usage confirmed in Agent 3 alt_names and market_context; the 'portable' qualifier correctly differentiates this MCAT from permanent log home construction.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail clearly shows a solid wood log cabin with visible stacked-log walls, front porch, and green metal roof — accurately representing the primary segment of prefabricated wooden log cabins for eco-resort and farmhouse use.",
+      "Improvement is possible: the image appears to be a stock/Western-market photo on a plain white background with no contextual setting (hillside, resort, greenery) that would resonate with Indian eco-resort and hill-station buyers; an AI-generated image with Indian scenic context would be more compelling."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a prefabricated solid wood log cabin with stacked pine log walls, a sloping green metal roof, a covered front veranda with wooden railing, and a glass-panel front door. The cabin is set on a lush green hillside with misty mountains in the background, evoking an Indian eco-resort or hill-station retreat. Warm golden-hour lighting, vibrant green foliage surrounding the cabin, clean white gravel path leading to the entrance. No people, no text, no watermarks. Crisp product-style photography aesthetic on a natural outdoor background. Bottom-right corner reserved for watermark.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
