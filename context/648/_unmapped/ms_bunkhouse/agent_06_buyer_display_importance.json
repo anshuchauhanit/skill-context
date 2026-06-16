@@ -1,0 +1,208 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation between sub-types — single-storey dormitory, double-decker unit, container-type, toilet block combo, and site office variants are visually distinct. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Occupancy capacity and insulation/panel type are primary shortlisting gates — a 4-person cabin cannot substitute for a 16-person dormitory, and PUF-insulated units are non-interchangeable with bare sheet-clad units for climate-sensitive deployments. Listings without these specs cannot be evaluated by procurement teams."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian contractors are price-aggressive and compare per-piece quotes across 3–5 sellers after confirming spec fit. Price varies substantially with occupancy size and panel type, making it a primary comparison signal once the spec tier is matched."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "Medium",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Per piece dominates for standard catalogue-size modules; per sq ft is used for large custom-area orders (e.g. 1200 sq ft labour camp complexes). Unit must be shown to prevent price comparison confusion between these two quoting conventions.",
+      "reason": "Per piece vs per sq ft quoting creates genuine price comparison ambiguity for buyers procuring large or custom-configured bunkhouse complexes. Standard single-module buyers implicitly expect per piece, but the sub-segment ambiguity is real enough to warrant display."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No nationally recognised brands with buyer recall exist in this category — the market is fragmented across regional fabricators and no taxonomy sibling carries a brand name.",
+      "reason": "Manufacturer vs trader distinction, installation and delivery capability, and track record with similar project scale are evaluated during vendor selection — particularly for large camp procurement by infrastructure developers and government agencies."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Occupancy",
+        "reason": "Occupancy tier (2–4 vs 9–16 vs 16+ persons) defines the product class — units are non-interchangeable across tiers and drive the largest price delta in the MS bunkhouse range."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Type",
+        "reason": "Wall panel type (Sheet Cladding vs EPS vs PUF) determines the thermal and structural quality tier with a significant price delta between bare cladding and PUF-insulated units, and values are non-interchangeable for climate-specific project requirements."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Flooring Type",
+      "Insulation",
+      "Mobility",
+      "Occupancy",
+      "Service Location",
+      "Structure Material",
+      "Surface Finish",
+      "Use",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Dimensions (L x W ft)",
+        "why_important": "Buyers specify standard module sizes (10×20 ft, 12×40 ft) to confirm site layout fit and transport feasibility — this is a primary procurement parameter explicitly identified in Agent 3 market context and buyer call data.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "10x20 ft",
+          "12x40 ft",
+          "10x30 ft",
+          "12x60 ft"
+        ]
+      },
+      {
+        "spec_name": "Number of Storeys",
+        "why_important": "Single-storey vs double-decker configuration is a non-interchangeable product variant that significantly affects price, transport logistics, and site foundation requirements — Agent 3 product_types explicitly identifies Double-Decker MS Bunkhouse as a distinct variant.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "Single Storey",
+          "Double Storey (Double-Decker)",
+          "Ground + 1"
+        ]
+      },
+      {
+        "spec_name": "Electrical Fittings",
+        "why_important": "Whether electrical fittings (lights, fans, power sockets) are included affects total unit cost and site readiness — Indian B2B buyers commonly ask this to determine whether additional electrical work is required before occupancy.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "Basic (Lights + Fan)",
+          "Full (Lights, Fan, Sockets, MCB)",
+          "Not Included",
+          "As Per Requirement"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Layout",
+        "reason": "Layout defines the functional configuration of the unit — a seller manufacturing standard open dormitories cannot supply a Room with Toilet combo without significant customisation, making this the primary routing spec for accurate seller matching.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Open Hall / Dorm",
+          "Rooms with Beds",
+          "Room with Toilet",
+          "Office cum Bunks",
+          "Multiple Rooms"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area (sq ft)",
+        "reason": "Area defines the scale of the requirement, enabling sellers to confirm they can supply the requested size and to price the unit accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Occupancy (Number of Persons)",
+        "why_important": "Sellers need to know how many workers the unit must house to confirm their standard module fits the requirement — a seller with 10-person standard units cannot serve a 30-person requirement regardless of area specification.",
+        "source": "both",
+        "example_values": [
+          "2-4 Persons",
+          "5-8 Persons",
+          "9-16 Persons",
+          "Above 16 Persons"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Layout",
+      "option_value": "Open Hall / Dorm",
+      "id": "spec_1",
+      "prompt_for_generation": "Interior of a mild steel prefabricated bunkhouse showing an open dormitory hall with rows of metal bunk beds along both walls, bare steel floor, fluorescent lighting, no partitions, construction site labour accommodation context, clean photorealistic render, neutral background visible through window.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Layout",
+      "option_value": "Rooms with Beds",
+      "id": "spec_2",
+      "prompt_for_generation": "Interior of a mild steel prefabricated bunkhouse showing partitioned rooms with individual metal beds, steel partition walls with door openings visible, basic flooring, fluorescent lighting, construction site worker accommodation context, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Layout",
+      "option_value": "Room with Toilet",
+      "id": "spec_3",
+      "prompt_for_generation": "Interior of a mild steel prefabricated bunkhouse unit showing a sleeping area with bunk bed and an attached toilet/bathroom block visible through an internal door, steel walls, basic fittings, construction site accommodation context, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Layout",
+      "option_value": "Office cum Bunks",
+      "id": "spec_4",
+      "prompt_for_generation": "Interior of a mild steel prefabricated portable cabin showing a combined layout with a desk and office chair on one side and metal bunk beds on the other side, steel walls, fluorescent lighting, construction site supervisor accommodation context, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Layout",
+      "option_value": "Multiple Rooms",
+      "id": "spec_5",
+      "prompt_for_generation": "Interior corridor of a mild steel prefabricated bunkhouse complex showing multiple room doors along a central hallway, steel partition walls, numbered doors, fluorescent corridor lighting, construction site labour camp context, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
