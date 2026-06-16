@@ -1,0 +1,345 @@
+{
+  "mcat_description": {
+    "short": "Dairy Farming on IndiaMART covers dairy farm shed construction, design, and turnkey infrastructure setup for cow and buffalo milk production operations in India, including stall equipment, milking parlour structures, and ancillary farm buildings.",
+    "long": "Dairy farm infrastructure in India encompasses the design and construction of cattle housing systems — primarily loose-housing sheds for milking cows and buffaloes — along with ancillary structures such as milking parlours, calf pens, feed stores, chaff cutter sheds, and manure pits. Shed construction follows BIS-recommended layouts adapted to agro-climatic zones, using materials such as cement corrugated roofing sheets (IS 459:1992), RCC flooring, and steel or wooden trusses. Sellers in this MCAT offer a spectrum from individual shed components (roofing sheets, cow cubicles, anti-kick bars, mangers, water troughs) to complete turnkey dairy farm setup services including project reports, layout planning, animal sourcing guidance, and machinery installation. The category is driven by India's growing commercial dairy sector, with small-to-medium farmers and agri-entrepreneurs seeking scalable, cost-effective farm infrastructure for 10–100+ animal units.",
+    "product_types": [
+      "Dairy farm shed (loose housing system)",
+      "Dairy farm shed (stall/tied housing system)",
+      "Milking parlour structure",
+      "Calf pen / calving pen",
+      "Buffalo shed",
+      "Cow shed",
+      "Freestall housing / cubicle housing",
+      "Prefabricated dairy farm shed",
+      "Turnkey dairy farm setup service",
+      "Dairy farm project report / consultancy",
+      "Cow cubicle / stall partition",
+      "Anti-kick bar / cow restraint equipment",
+      "Manger and water trough",
+      "Dairy farm trolley",
+      "Feed store / chaff cutter shed structure"
+    ],
+    "primary_applications": [
+      "Commercial cow and buffalo milk production (10–100+ animal units)",
+      "Small-scale family dairy farm setup",
+      "Agri-entrepreneur greenfield dairy farm establishment",
+      "Expansion of existing dairy operations with additional sheds",
+      "Government-subsidised dairy farm projects (NABARD, state animal husbandry schemes)"
+    ],
+    "buyer_segments": [
+      "Small and medium dairy farmers (10–50 animals) setting up or expanding operations",
+      "Commercial dairy entrepreneurs (50–200+ animals) seeking turnkey solutions",
+      "Agri-entrepreneurs entering dairy farming with project report and bank loan requirements",
+      "Cooperative dairy societies requiring standardised shed infrastructure",
+      "Institutional buyers (state animal husbandry departments, KVKs) procuring model farm layouts"
+    ]
+  },
+  "primary_segment": "Dairy farm shed construction, design, and turnkey setup for cow and buffalo operations in India",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Dairy farm shed construction, design, and infrastructure setup (cow/buffalo housing, milking parlour, ancillary structures)",
+    "secondary_families": [
+      "Standalone dairy farm equipment and machinery (milking machines, bulk milk coolers, TMR mixers — belong in dedicated equipment MCATs)",
+      "Dairy farm services and labour (farm management consultancy, farm labour supply — service listings, not product listings)",
+      "Dairy farm training and project reports (informational/service products with no physical deliverable)"
+    ],
+    "reason": "The name 'Dairy Farming' is a broad agricultural practice term that attracts fundamentally different product families — shed/infrastructure (primary), standalone equipment, and farm services/labour — confirmed by call data showing 'Dairy Farm Labor' service listings and keyword signals for both shed design and machinery, representing incompatible buyer journeys within a single MCAT."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "dairy farm shed",
+      "cow shed",
+      "buffalo shed",
+      "dairy farm setup",
+      "cattle shed construction",
+      "dairy barn",
+      "dairy farm design",
+      "cow housing",
+      "dairy farm infrastructure",
+      "loose housing dairy farm"
+    ],
+    "technical_synonyms": [
+      "loose housing system",
+      "freestall housing",
+      "stall-fed shed",
+      "milking parlour structure",
+      "dairy barn construction",
+      "calf pen",
+      "calving pen",
+      "cubicle housing system",
+      "tied housing system",
+      "prefabricated cattle shed"
+    ],
+    "trade_names": [
+      "Minerwa Dairy Farm Shed",
+      "Swastik corrugated roofing sheet (cattle shed)",
+      "NDRI model layout",
+      "KVK dairy farm model"
+    ],
+    "hindi_terms": [
+      "dairy farm",
+      "gaushala nirman",
+      "pashu shed",
+      "dairy farm shed design",
+      "doodh dairy farm"
+    ],
+    "buyer_intent_queries": [
+      "dairy farm shed design for 10 buffalo",
+      "cow shed construction plan India",
+      "turnkey dairy farm setup cost",
+      "modern dairy farm shed design with milking parlour",
+      "prefabricated cow shed for 20 animals",
+      "dairy farm project report for bank loan",
+      "buffalo dairy farm shed design layout",
+      "loose housing dairy farm construction",
+      "dairy farm infrastructure setup India",
+      "cattle shed construction contractor near me"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Dairy farm shed construction in India is predominantly quoted per square foot of covered/built-up area, consistent with general construction norms; turnkey project setups are quoted per project or per animal unit capacity.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Shed construction (roofing, flooring, structure)",
+        "unit": "per sq ft",
+        "note": "Standard Indian construction quoting norm; confirmed by seller listings quoting per square foot"
+      },
+      {
+        "sub_segment": "Turnkey dairy farm setup",
+        "unit": "per project",
+        "note": "Complete setup including shed, equipment, and consultancy quoted as a lump-sum project"
+      },
+      {
+        "sub_segment": "Consultancy / site visit",
+        "unit": "per visit",
+        "note": "Initial consultancy and site assessment quoted per visit"
+      }
+    ],
+    "sources_checked": [
+      "agrifarming.in (dairy shed design)",
+      "silworld.in (cattle shed construction)",
+      "vismayagroup.in (shed construction service listings)",
+      "pashudhanpraharee.com (BIS dairy housing layouts)",
+      "dairyfarmguide.com (model layouts)"
+    ],
+    "confidence": "medium"
+  },
+  "market_context": "In the Indian B2B market, 'Dairy Farming' under the Cattle Sheds taxonomy primarily represents dairy farm shed construction and turnkey infrastructure setup for cow and buffalo milk production. The loose housing system is the BIS-recommended standard for most Indian agro-climatic zones, with layouts prepared for farm sizes ranging from 10 to 100+ animals. Key construction elements include cement corrugated roofing sheets (IS 459:1992), RCC or cement concrete flooring, mangers, water troughs, milking parlours, calf pens, and drainage gutters. The prefabricated and modular shed segment is growing, driven by faster installation times and government incentives for dairy infrastructure. Sellers range from shed construction contractors and prefab structure manufacturers to turnkey dairy consultants offering project reports, layout planning, animal sourcing, and machinery installation. Buyer vocabulary strongly reflects shed design intent ('10 buffalo dairy farm shed design,' 'modern dairy farming setup,' 'cubicles for cow') alongside equipment accessory searches ('adjustable cow anti kick,' 'dairy farm trolley'). The MCAT also attracts misplaced listings for standalone dairy equipment (milking machines, bulk milk coolers) and service listings (farm labour, training) that belong in separate MCATs. India's dairy sector is supported by NABARD financing and state animal husbandry department subsidies, making project report and bankable DPR services a significant sub-segment of buyer enquiries (single source — low confidence for NABARD subsidy claim).",
+  "buyer_attracting_attributes": [
+    "Shed capacity (number of animals)",
+    "Housing system type (loose housing / freestall / stall-fed)",
+    "Roofing material (cement corrugated / GI sheet / polycarbonate)",
+    "Flooring type (RCC / brick-paved / rubber mat)",
+    "Ventilation design (natural / fan-assisted / fogger system)",
+    "Drainage system (gutter width, slope, open/closed drain)",
+    "Construction material (prefabricated steel / RCC / locally sourced)",
+    "Agro-climatic zone suitability",
+    "Milking parlour inclusion",
+    "BIS / IS standard compliance"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "25551",
+    "mcat_name": "Dairy Farming",
+    "mcat_level": "5",
+    "listing_count": "1678",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Dairy Farming",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "146519.0",
+      "name": "Cattle Sheds",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "146519.0"
+    ],
+    "siblings": [],
+    "direct_sibling_count": 0,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "do_research": true,
+      "reason": "Dairy Farming is a broad agricultural/industrial category encompassing equipment, infrastructure, and animal husbandry practices. Buyers evaluate infrastructure design, equipment specs, and compliance with animal welfare/food safety standards. Research prioritised equipment catalogues, dairy infrastructure design standards, and state-level animal husbandry guidelines."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top impressions keywords ('10 buffalo dairy farm shed design' at pos=2, 'cow farming', 'dairy farm near me') confirmed shed design as dominant buyer intent and primary segment."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "buyer_attracting_attributes",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "High-PDP-click terms ('adjustable cow anti kick' 11 clicks, 'dairy farming' 14 clicks) confirmed equipment accessory contamination and shed design as primary segment. 'Dairy farm leasing' and 'online dairy farming training' flagged as service/non-product contamination."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name",
+          "spec_name",
+          "spec_value"
+        ],
+        "derived_outputs": [
+          "mcat_vagueness_signal.secondary_families",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Call rows for 'Anti-kick Bar' and 'Dairy Farm Labor' (x2) confirmed equipment accessory and service listing contamination — both flagged as secondary families in vagueness signal."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "primary_segment"
+        ],
+        "citation_note": "Parent MCAT 'Cattle Sheds' under 'Prefabricated Structures' confirmed infrastructure/shed construction as the correct primary segment. Listing count 1,678 treated as plausible for a broad MCAT."
+      },
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "Page URL was not provided — page fetch not attempted. page_fetch_failed set to true."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.agrifarming.in/dairy-shed-design-construction-plan",
+        "title": "Dairy Shed Design, Construction Plan Information | Agri Farming",
+        "source_domain": "agrifarming.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "mcat_description.product_types",
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for dairy shed construction dimensions, drainage specifications, floor design, and confirmation of shed design as primary buyer intent in India."
+      },
+      {
+        "url": "https://www.pashudhanpraharee.com/principlesbis-recomendation-and-layout-design-of-dairy-cattle-and-buffalo-housing-in-india/",
+        "title": "Principles, BIS Recommendation and Layout Design of Dairy Cattle and Buffalo Housing in India",
+        "source_domain": "pashudhanpraharee.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for BIS-recommended loose housing system, model layout types, animal category groupings, and ancillary structure requirements."
+      },
+      {
+        "url": "https://www.silworld.in/swastik-roof-for-cattle-shed-design-and-construction/",
+        "title": "Cattle Shed Design and Construction Information – Sahyadri Industries Limited",
+        "source_domain": "silworld.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes",
+          "market_context",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for roofing material specifications (IS 459:1992, IS 3007:1969, IS 730:1978), shed height norms, and temperature regulation requirements for Indian cattle sheds."
+      },
+      {
+        "url": "https://www.dairyfarmguide.com/model-layouts-of-dairy-0134.html",
+        "title": "Model Layouts of Dairy Farms of Various Sizes from Dairy Farm Guide",
+        "source_domain": "dairyfarmguide.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Used for ancillary structure types (chaff cutter shed, milking parlour, milk room, silo pits, manure pits) and farm layout efficiency principles."
+      },
+      {
+        "url": "https://www.accio.com/plp/simple-dairy-shed-design",
+        "title": "Simple Dairy Shed Design: Efficient & Affordable",
+        "source_domain": "accio.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for global modular farm building market growth data (CAGR 6.8%, Asia-Pacific leadership) and prefabricated shed adoption trends in India."
+      },
+      {
+        "url": "https://www.pashudhanpraharee.com/model-layouts-of-dairy-farms-for-20-cow-buffalo-unit/",
+        "title": "Model Layouts of Dairy Farms for 20 Cow/Buffalo Unit – Pashudhan Praharee",
+        "source_domain": "pashudhanpraharee.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Confirmed 20-cow/buffalo unit as a common commercial farm size in India; loose housing system as BIS-recommended standard across agro-climatic zones."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "FSSAI",
+        "State Animal Husbandry Department"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Dairy Farming is a broad agricultural/industrial category encompassing equipment, infrastructure, and animal husbandry practices. Buyers evaluate infrastructure design, equipment specs, and compliance with animal welfare/food safety standards (FSSAI milk handling, BIS equipment grades). No single dominant brand anchors buyer search; research should prioritise equipment catalogues, dairy infrastructure design standards, and state-level animal husbandry guidelines."
+    }
+  }
+}
