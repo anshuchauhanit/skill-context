@@ -1,0 +1,221 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual variation across sub-types — barracks, bunkers, command posts, hangars, and watchtowers are visually completely distinct structures. Buyers use the image to identify the product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Shelter type, protection level, mobility, insulation, and climate zone are hard shortlisting gates for defence procurement. Without spec match, a listing cannot be evaluated for tender eligibility or operational fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall — market is fragmented across MES-registered approved vendors; buyers search by vendor registration status and DGQA approval, not manufacturer brand name.",
+      "reason": "MES vendor registration and DGQA approval are regulatory prerequisites for defence supply — an unregistered supplier with matching specs cannot be awarded a contract. Supplier qualification is a hard gate evaluated before price."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Containerised and inflatable shelter sub-segments quote per unit/per set — buyers must see the quoting basis to interpret any reference or indicative price correctly.",
+      "reason": "Per sq ft (custom panel shelters) vs per unit (containerised/inflatable) is a documented sub-segment ambiguity; the quoting basis must be visible for any indicative price to be interpretable."
+    },
+    {
+      "rank": 5,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every sale is tender-quoted and negotiated through MES or command HQ procurement channels; listed price is a budget entry point only and is never the final transaction price."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Mobility",
+        "reason": "Defines the primary product class — containerised, portable, fixed, and vehicle-mounted are non-interchangeable solutions with the largest price delta across all spec dimensions."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Protection Level",
+        "reason": "CBRN and ballistic protection require specialised manufacturing and carry a 3–5x price premium over weatherproof; entire procurement categories mandate specific protection levels as a compliance requirement."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Accommodation Capacity",
+      "Climate Zone",
+      "Deployment Time",
+      "Frame Material",
+      "Insulation Type",
+      "Mobility",
+      "Power Provision",
+      "Protection Level",
+      "Shelter Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Floor Area / Size",
+        "why_important": "Shelter size in sq ft is the primary cost driver for custom panel shelters and the dominant quoting basis in Indian defence procurement — without it, sellers cannot provide accurate indicative pricing.",
+        "source": "both",
+        "example_values": [
+          "Up to 200 sq ft",
+          "200–500 sq ft",
+          "500–1000 sq ft",
+          "Above 1000 sq ft"
+        ]
+      },
+      {
+        "spec_name": "Panel Thickness",
+        "why_important": "PUF panel thickness (60mm to 120mm) is a standard configurator in Indian prefab defence shelters that drives insulation performance, structural load rating, and price — distinct from Insulation Type which captures material only.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "60 mm",
+          "80 mm",
+          "100 mm",
+          "120 mm"
+        ]
+      },
+      {
+        "spec_name": "Structural Load / Wind Speed Rating",
+        "why_important": "Defence shelters at high-altitude and border locations must meet specific structural load and wind speed ratings as a procurement specification requirement — absent from the current spec list entirely.",
+        "source": "both",
+        "example_values": [
+          "Wind Zone III (47 m/s)",
+          "Wind Zone IV (55 m/s)",
+          "Snow Load 150 kg/sq m",
+          "Snow Load 250 kg/sq m"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Routes the RFQ to sellers who manufacture the specific shelter type — a barracks supplier cannot supply an aircraft hangar, making application the primary seller-routing spec.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Troop Housing",
+          "Equipment Storage",
+          "Command Post",
+          "Medical Facility",
+          "Vehicle Maint.",
+          "Aircraft Hangar"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Deployment Type",
+        "reason": "Determines the structural and logistical solution class — a rapid deployable requirement cannot be met by a semi-permanent structure, so sellers need this to confirm product fit before responding.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Protection Level",
+        "why_important": "Sellers need the required protection level to confirm manufacturing capability — a supplier without CBRN or ballistic production capability cannot respond to those requirements regardless of other spec matches.",
+        "source": "both",
+        "example_values": [
+          "Weatherproof",
+          "Ballistic",
+          "CBRN",
+          "EMI Shielded"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Troop Housing",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated modular military barracks shelter with PUF insulated steel panels, green or olive drab exterior, multiple windows and entry door, erected on flat ground at a forward operating base, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Equipment Storage",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated military equipment storage shelter with large roll-up door, steel panel construction, olive green finish, wide single-span structure on a military base, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Command Post",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated military command post shelter, compact modular PUF panel structure with antenna mounts on roof, camouflage or olive drab exterior, communication cables visible, field deployment setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Medical Facility",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated military field medical shelter with red cross marking on exterior, white or light grey PUF panel construction, double-door entry for stretcher access, erected at a field base, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Vehicle Maint.",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated military vehicle maintenance shelter with wide-span steel panel structure, large vehicle entry doors, high ceiling clearance, olive green exterior, military truck partially visible inside, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Aircraft Hangar",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated military aircraft hangar with large arched or portal-frame steel structure, wide sliding doors, grey or olive exterior, military helicopter visible inside, airfield setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
