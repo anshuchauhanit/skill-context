@@ -1,0 +1,75 @@
+{
+  "enhanced_name_4w": "Prefab Steel Industrial Buildings",
+  "enhanced_name_5w": "Steel Prefab Buildings for Industry",
+  "enhanced_name_6w": "PEB Steel Buildings for Warehouse Factory",
+  "enhanced_name_long": "Pre-Engineered Steel Prefabricated Buildings for Warehouses, Factories, Cold Storage and Commercial Use",
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated buildings",
+      "prefab buildings",
+      "pre-engineered buildings",
+      "PEB structure",
+      "prefab construction",
+      "readymade building",
+      "steel prefab building",
+      "LGSF building",
+      "prefab house",
+      "prefab commercial building"
+    ],
+    "technical_synonyms": [
+      "Pre-Engineered Building (PEB)",
+      "Light Gauge Steel Frame (LGSF) structure",
+      "panelised building system",
+      "precast concrete building",
+      "off-site construction (OSC)",
+      "industrialised building system (IBS)",
+      "steel portal frame building",
+      "sandwich panel building",
+      "volumetric modular construction",
+      "modular prefabricated structure"
+    ],
+    "trade_names": [
+      "PEB",
+      "LGSF",
+      "Aerocon panel building",
+      "puff panel building",
+      "Interarch PEB",
+      "EPACK Prefab",
+      "Pennar PEB",
+      "Kirby Building Systems",
+      "Everest Industries prefab",
+      "Zamil Steel building"
+    ],
+    "hindi_terms": [
+      "readymade ghar",
+      "prefab ghar",
+      "readymade building",
+      "prefabricated makaan",
+      "taiyar bhavan"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated building manufacturer in India",
+      "pre-engineered building for warehouse",
+      "PEB structure for factory shed",
+      "LGSF prefab home price in India",
+      "modular prefab building supplier",
+      "prefab building construction service turnkey",
+      "2 BHK prefab house in India",
+      "prefabricated building for cold storage",
+      "readymade building for shop or office",
+      "prefab hotel resort building supplier"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Portable/temporary-use buyers (seeking relocatable or short-duration structures) — protected against by siblings Portable Buildings (35398) and Temporary Buildings (39565); names implying portability or temporariness are discarded.",
+    "Agricultural/horticultural structure buyers (greenhouses, polyhouses, mist chambers) — protected against by siblings Agricultural Greenhouses (21344), Greenhouse (29816), Polyhouse (149713), Mini Greenhouse (116157), Naturally Ventilated Greenhouse (166277), Greenhouse Structure (158767), Mist Chamber (160350); names implying agricultural growing enclosures are discarded.",
+    "Tensile/membrane structure buyers (fabric canopy, tensile shade, auditorium canopy) — protected against by siblings Tensile Structures (50762), Modular Tensile Structure (42328), Tensile Membrane Structures (135787), Auditorium Tensile Structure (135861), Gazebo Tensile Structure (136011); names implying tensile or membrane fabric structures are discarded.",
+    "Labour colony/worker housing buyers (site accommodation, labour quarters) — protected against by siblings Prefabricated Labor Colony (179245) and RCC Labour Quarter (216129); names specifically targeting labour accommodation are discarded.",
+    "Single-use institutional building buyers (school buildings, hospital/isolation ward) — protected against by siblings Prefabricated School Building (154059), Prefabricated Hospitals (159520), Prefabricated Isolation Ward (444552); names exclusively targeting these single-use types are discarded.",
+    "Dedicated warehouse-only buyers — protected against by sibling Prefabricated Warehouse (166432); names that reduce scope to warehouse-only are discarded.",
+    "Dedicated industrial-building-only buyers — protected against by sibling Prefabricated Industrial Buildings (178587); names that reduce scope to industrial-only are discarded.",
+    "Steel-building-only or PEB-structure-only buyers — protected against by siblings Prefabricated Steel Buildings (20474), Pre Engineered Building Structure (148110), Pre Engineered Steel Building (181553), Prefabricated Metal Building (88197); names that are exact or semantic equivalents of these sibling names are discarded."
+  ],
+  "segment_contamination_disclaimer": null
+}
