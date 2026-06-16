@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 alt_names confirm 'naturally ventilated polyhouse' and 'NVPH' are the dominant Indian trade terms; 'greenhouse' is the more formal/export-facing term and less searched by the primary buyer segment (progressive farmers, subsidy-linked buyers) who use 'polyhouse' overwhelmingly.",
+    "suggested_name": "Naturally Ventilated Polyhouse"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail shows a large multi-span GI-framed structure with transparent PE film covering and visible roof vents — correctly representing the primary segment (NVPH for protected cultivation).",
+      "The structure appears to be a Western-style peaked/gothic arch greenhouse rather than the typical Indian NHM-spec NVPH with curved/Quonset arch profile and visible side roll-up vents, so a more India-specific NVPH image would better serve the primary buyer segment."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a multi-span naturally ventilated polyhouse (NVPH) with hot-dip galvanised GI steel pipe framework and UV-stabilised transparent polyethylene film covering, showing curved Quonset-arch roof profile, open roll-up side vents with insect-proof netting, and ridge roof vents along the top, set in a sunny Indian agricultural field with green vegetable crops (coloured capsicum or tomato) visible inside through the transparent film, clean white background or bright blue sky backdrop, three-quarter perspective view showing both the front and side of the structure, sharp professional product photography style, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
