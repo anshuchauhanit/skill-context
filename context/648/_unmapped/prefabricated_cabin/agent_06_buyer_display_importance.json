@@ -1,0 +1,211 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — a site office cabin, toilet block, security kiosk, and accommodation bunk house are visually distinct products. Buyers use the image to identify the correct product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Size (dimensions) and wall material are the primary shortlisting gates — a buyer needing a 20x10 ft PUF site office cannot substitute a 10x10 ft GI cabin. Without these specs, the listing cannot be evaluated for fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-piece prices vary enormously with size and material combination. Indian construction contractors compare prices aggressively across sellers once spec is confirmed; listed price is a hard budget filter before any contact is made."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "Medium",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Per sq ft is used by some sellers for custom-dimension or large modular structures and prefabricated houses; unit must be shown to prevent price comparison confusion across listing types.",
+      "reason": "Per piece is strongly dominant for standard catalogue cabins, but per sq ft quoting exists for custom and large structures. A buyer comparing prices across listings could be misled if unit is not shown."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall — sibling MCATs are material/type-based (PUF Cabin, FRP Cabin, GI Portable Cabin), not brand-based; buyers search by type, size, and material rather than manufacturer name.",
+      "reason": "Manufacturer status, installation capability, and post-sale service (erection, dismantling, relocation) are evaluated by contractor and institutional buyers during vendor selection, but company ranks last as specs and price drive initial shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Size",
+        "reason": "Size is the primary product class separator — a 4x4 ft security kiosk and a 40x10 ft accommodation block are non-interchangeable, and the absolute price delta across size values is the largest of any spec in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Material",
+        "reason": "Wall material defines the construction quality and price tier within a given size — GI/MS sheet, PUF panel, FRP panel, and ACP sheet are non-interchangeable and carry significant price differentials that buyers use to shortlist."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Cabin Type",
+      "Features",
+      "Flooring Material",
+      "Height",
+      "Insulation Material",
+      "Number of Rooms",
+      "Number of Windows",
+      "Size",
+      "Wall Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Frame Material",
+        "why_important": "The structural frame (MS vs GI vs aluminium) is a primary durability and corrosion-resistance differentiator — Indian B2B buyers and procurement specs for coastal, humid, or long-duration deployments explicitly distinguish MS from GI frames, and this is not captured by Wall Material which covers panels only.",
+        "source": "both",
+        "example_values": [
+          "MS (Mild Steel)",
+          "GI (Galvanized Iron)",
+          "Aluminium",
+          "SS (Stainless Steel)"
+        ]
+      },
+      {
+        "spec_name": "Fire Rating",
+        "why_important": "Government, institutional, and defence procurement increasingly mandates fire-rated panels (FR or non-combustible grade) for cabins used in schools, hospitals, and public infrastructure — sellers need this spec to confirm compliance eligibility.",
+        "source": "both",
+        "example_values": [
+          "Non-Fire Rated",
+          "FR Grade (Fire Retardant)",
+          "A2 Non-Combustible",
+          "B1 Fire Resistant"
+        ]
+      },
+      {
+        "spec_name": "Electrical Fittings",
+        "why_important": "Whether basic electrical fittings (wiring, switches, lighting points) are included in the cabin supply significantly affects price interpretation — turnkey-with-electrical vs bare shell are priced differently and buyers need this to compare listings accurately.",
+        "source": "both",
+        "example_values": [
+          "Included",
+          "Not Included",
+          "Optional Add-on",
+          "As Per Requirement"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Build Material",
+        "reason": "Build material defines the construction quality tier and price range immediately — a buyer specifying PUF Panel vs GI Sheet vs FRP routes to completely different price tiers and supplier capabilities, enabling sellers to confirm fit and quote accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Length defines the cabin's primary dimensional class and is the single most important size parameter sellers need to confirm supply capability and price — standard catalogue sizes (10 ft, 20 ft, 40 ft) map directly to product families.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Type",
+        "why_important": "Cabin type (Site Office, Security Cabin, Accommodation, Toilet Block, Shop/Kiosk) is the single most important buyer requirement — it defines the entire product configuration, internal fittings, and compliance requirements, and sellers cannot determine fit or price without it.",
+        "source": "both",
+        "example_values": [
+          "Site Office",
+          "Security Cabin",
+          "Accommodation / Bunk House",
+          "Toilet Block",
+          "Shop / Kiosk"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Site Office",
+          "Security Cabin",
+          "Accommodation / Bunk House",
+          "Toilet Block",
+          "Shop / Kiosk"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Buyers with custom layout requirements, non-standard dimensions, or specific internal configuration needs (e.g., partition layouts, door and window placement, attached toilet positioning) benefit from uploading a reference sketch or photo, enabling sellers to quote accurately for fabrication without multiple back-and-forth exchanges."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Cabin Type",
+      "option_value": "Site Office",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated steel-framed site office cabin, PUF sandwich panel walls in light grey, single door and two windows visible on front face, placed on a construction site with bare ground, daytime natural lighting, clean rectangular structure, no branding, 3/4 front view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Cabin Type",
+      "option_value": "Security Cabin",
+      "id": "spec_2",
+      "prompt_for_generation": "Small prefabricated security guard cabin, steel-framed with GI panel walls in green or grey, compact 4x4 ft footprint, single door and sliding window on front, placed at a gate entrance, daytime natural lighting, no branding, front-facing view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Cabin Type",
+      "option_value": "Accommodation / Bunk House",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated worker accommodation bunk house cabin, steel-framed PUF panel construction, elongated rectangular structure with multiple windows along the side wall, placed at a construction labour camp, daytime natural lighting, no branding, 3/4 side view showing length.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Cabin Type",
+      "option_value": "Toilet Block",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated portable toilet block cabin, steel-framed with FRP or GI panels, multiple individual toilet compartment doors visible on front face, compact structure placed on a construction site, daytime natural lighting, no branding, front-facing view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Cabin Type",
+      "option_value": "Shop / Kiosk",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated retail kiosk cabin, steel-framed with ACP or GI panel walls, wide service window or counter opening on front face, compact structure suitable for ticket counter or small shop, placed in an open area, daytime natural lighting, no branding, front-facing view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
