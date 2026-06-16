@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Portable Dressing Room' directly matches the top primary_keywords ('portable dressing room', 'dressing room cabin') and is the established B2B search term on IndiaMART; market_context confirms it is used interchangeably with 'portable changing room' and 'trial room for shop', making the current name accurate and discoverable.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a curtain-and-fabric-frame portable changing tent — the lightweight event/photography sub-segment — which conflicts with the primary_segment of 'Prefabricated portable changing/trial room cabin for retail garment shops and boutiques' (structural GI/MS/HPL cabin form).",
+      "The fabric tent unit is the minority product type (listed last in product_types as 'Curtain-Frame Portable Dressing Room') and actively misrepresents the dominant B2B commercial form to buyers searching for rigid prefab trial room cabins for retail shops."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated portable dressing room cabin for a retail garment shop, rigid modular construction with GI or mild steel frame and HPL compact board or colour-coated panel walls, approximately 4x4 ft footprint, clean white or light grey exterior, a hinged door with a full-length mirror mounted inside visible through the open door, interior hook and curtain rod, isolated on a pure white background, soft studio lighting, sharp product photography style, square 1:1 composition, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
