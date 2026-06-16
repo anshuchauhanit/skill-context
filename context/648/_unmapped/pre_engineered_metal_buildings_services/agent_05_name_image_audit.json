@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Pre Engineered Metal Buildings Services' aligns precisely with the dominant market terminology — Agent 3 alt_names confirm 'pre engineered metal buildings', 'PEB construction', and 'pre engineered building services' as top primary keywords, and the 'Services' suffix correctly signals the design-fabricate-erect engagement model that buyers procure, not a commodity product.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image accurately shows an active PEB erection site with large-span steel primary frames (tapered I-section columns and rafters), mobile cranes, and construction workers — directly representing the primary segment of turnkey industrial warehouse/factory shed PEB construction.",
+      "Improvement is possible: the image is a busy construction-in-progress scene with cluttered foreground (mud, equipment) and no completed cladding visible, so a cleaner image showing a near-complete or fully erected PEB warehouse with roof/wall sheeting would communicate the finished product more effectively to buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a large completed pre-engineered metal building industrial warehouse, exterior view, showing white/light-grey tapered steel primary frame columns and rafters with corrugated metal roof and wall cladding panels in blue and grey, wide clear-span structure approximately 30 metres wide, set on a clean concrete apron, bright daylight with a clear blue sky, slight low-angle perspective to emphasise building scale, no people or clutter in foreground, sharp architectural product photography style, white IndiaMART AI watermark text in a dark semi-transparent pill badge at bottom-right corner, 10px font, 65% opacity.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
