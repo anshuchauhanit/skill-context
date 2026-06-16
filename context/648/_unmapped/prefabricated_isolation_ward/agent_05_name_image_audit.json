@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Isolation Ward' directly matches the top primary keyword and technical synonym clusters in Agent 3 alt_names, and aligns with the dominant buyer search intent ('prefabricated isolation ward for hospital'); no more precise or widely-used alternative name is evidenced in market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a generic grey modular/container building in an outdoor European setting with no visible healthcare, medical, or isolation-specific features (no HVAC vents, no medical signage, no clean-room panels, no hospital context), making it ambiguous and not clearly representative of the primary segment (infectious disease isolation ward for hospital settings).",
+      "The outdoor rural/industrial backdrop and plain architectural appearance could be mistaken for a prefabricated office cabin or general-purpose modular building, failing to communicate the healthcare-specific nature of the product to buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a complete prefabricated modular isolation ward unit for hospital use, shown in a hospital campus outdoor setting. The unit is a white and light-grey sandwich panel (PUF panel) structure with a clearly marked 'Isolation Ward' sign, a sealed entry anteroom door with a small observation window, visible HVAC/negative pressure exhaust vent on the exterior wall, and a medical gas outlet panel near the entrance. Clean, clinical exterior finish with no rust or weathering. Bright, even daylight lighting. White background strip at base. No people. No seller branding or watermarks. Professional product photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
