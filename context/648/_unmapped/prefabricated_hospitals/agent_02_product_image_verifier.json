@@ -1,0 +1,1253 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "170328643",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Frp Prefabricated Hospital",
+      "description": "Our products and services are high in demand due to their premium quality and affordable prices. Furthermore, we ensure to timely deliver these products to our clients, through this we have gained a huge clients base in the market.",
+      "specs": {
+        "raw": "Built Type:Prefab, Color:White And Blue, Feature:Easily Assembled, Material:FRP, Number Of Door:1 Door, Number Of Window:10 Window, Surface Treatment:Color Coated"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/10/CU/GB/JQ/140244683/frp-prefabricated-hospital.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/frp-prefabricated hospital-24122016297.html",
+      "image_file": "170328643.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a small single-storey prefabricated building with rendered white walls, green metal roof, entrance porch with steps, and louvred windows set in a mountainous terrain — consistent with a prefab health centre or clinic building."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (FRP Prefabricated Hospital) clearly but lacks structural specs, floor count, or hospital sub-type."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs provide material (FRP), colour, and door/window count but omit structural dimensions, panel thickness, hospital type, and floor count."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic quality/delivery statement with no product-specific information about the prefab hospital."
+        },
+        "category": {
+          "valid": true,
+          "reason": "FRP prefabricated hospital building is a recognised product type within the Prefabricated Hospitals MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs list only material, colour, and door/window count — no panel thickness, hospital type, floor count, or structural dimensions provided."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; image shows a valid small prefab health facility building; text dimensions are thin but not contradictory.",
+      "source_url": "https://www.indiamart.com/proddetail/frp-prefabricated hospital-24122016297.html"
+    },
+    {
+      "item_id": "182238839",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Portable Hospital Container",
+      "description": "Established in the year 2021 at Ahmedabad, Gujarat, India, we “Lucky Portable Container”, are engaged in Manufacturer and export of a wide range of Portable Cabins and etc.",
+      "specs": {
+        "raw": "Built Type:Container, Capacity:ALL, Color:As Per Requirement, Country of Origin:Made in India, Disposability:Disposabale, Hospital Type:As Per Requirement, Material:ALL, Structure Material:Mild Steel, Usage/Application:Hospital"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/3/SX/MV/IU/50851993/hospital-container.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-hospital container-25313035848.html",
+      "image_file": "182238839.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a prefabricated container room with panel walls, hospital beds (one with plastic-wrapped mattress), folding cots, medical furniture, and a person arranging equipment — clearly a portable hospital container being fitted out."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title clearly names the product type (Portable Hospital Container) but lacks structural specs or capacity details."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "All spec values are 'ALL' or 'As Per Requirement' — no useful technical data on dimensions, capacity, or configuration."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a company introduction mentioning portable cabins manufacture, with no product-specific hospital container details."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Portable hospital container is a valid product type within the Prefabricated Hospitals MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Ahmedabad, Gujarat, India' (city/location) and company name 'Lucky Portable Container'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Portable Buildings",
+        "reason": "Portable hospital container is a container-based portable structure that also fits the 'Portable Buildings' sibling MCAT, though hospital usage makes it valid here."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "All spec values are 'ALL' or 'As Per Requirement' — no structural dimensions, panel type, or capacity data provided."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Ahmedabad, Gujarat, India' and company name 'Lucky Portable Container'."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; image clearly shows hospital container interior with medical furniture; text is thin but not contradictory.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-hospital container-25313035848.html"
+    },
+    {
+      "item_id": "243299823",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Covid 19 Pre-Fabricated Hospital",
+      "description": "<b>DRS Refrigration Pvt Ltd deals in </b>Walk in cold Room, Walk in Freezer Rooms, Banana / Mango Ripping Chembers, Mushroom Growing Chembers Etc. PUF Panels, Rockwool Panels, PIR Panels, Cold room Hinge Doors, Sliding Doors, Overhead Seactional Doors and Hi speed Roller Doors and Cold room and Clean room applications, We also deal in  uPVC Doors / Windows PRE FAB Structures   ",
+      "specs": {
+        "raw": "Brand:DRS Refrigeration Private Limited, Built Type:Prefab, Color:Green, Country of Origin:Made in India, Material:SS"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/4/303854623/YM/PT/CR/2618680/covid-19-pre-fabricated-hospital.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/covid-19 pre-fabricated hospital-2850870082262.html",
+      "image_file": "243299823.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Aerial view shows multiple large prefabricated building blocks with green corrugated roofs in a campus layout — structural form is visible but no hospital-specific features (signage, clinical areas) are identifiable from this altitude."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (COVID-19 Pre-Fabricated Hospital) clearly but lacks structural or configuration details."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs provide only brand, built type, colour, and material — no hospital type, floor count, panel thickness, or structural dimensions."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description describes the company's cold storage and refrigeration business with prefab structures mentioned only as a secondary offering — no hospital-specific product details."
+        },
+        "category": {
+          "valid": true,
+          "reason": "COVID-19 prefabricated hospital is a valid product type within the Prefabricated Hospitals MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'DRS Refrigration Pvt Ltd'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only brand, built type, colour, and material — no hospital type, floor count, panel thickness, or structural dimensions."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Aerial view shows prefab building campus from high altitude — hospital-specific features are not identifiable and structural panel details are not visible."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'DRS Refrigration Pvt Ltd'."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; thin image and thin text but no active contradictions or category failure; COVID prefab hospital is a valid product type.",
+      "source_url": "https://www.indiamart.com/proddetail/covid-19 pre-fabricated hospital-2850870082262.html"
+    },
+    {
+      "item_id": "324919564",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Hospital Building",
+      "description": "Ensure top-notch healthcare facilities with our prefabricated hospital buildings, which are designed to support medical operations, patient care, and administrative functions. Our buildings are constructed to meet stringent healthcare standards while providing comfort and functionality.",
+      "specs": {
+        "raw": "Built Type:Prefab, Hospital Type:General Hospital, Number Of Floors:G Plus 2, Panel Thickness:50 mm, Structure Material:Mild Steel, Wall Panel Type:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/3/595982927/GH/VP/LI/99249771/prefabricated-hospitals.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-hospital building-2859032056648.html",
+      "image_file": "324919564.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "High-quality 3D architectural render shows a modular prefabricated building with visible steel frame, white and dark blue panel walls, multiple doors and windows, and covered walkway — clearly depicts a prefab hospital/modular building system."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title clearly names the product type (Prefabricated Hospital Building) but could be strengthened with hospital type or structural system."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs specify hospital type (General Hospital), floor count (G+2), panel thickness (50mm), structure material (Mild Steel), and wall panel type (PUF Panel) — comprehensive for buyer decision-making."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description clearly describes prefabricated hospital buildings for medical operations, patient care, and administrative functions meeting healthcare standards."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefabricated hospital building with PUF panels and G+2 floors is a core product type within the Prefabricated Hospitals MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Best-in-class listing — strong specs, strong description, good render image, no contradictions, no policy violations.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-hospital building-2859032056648.html"
+    },
+    {
+      "item_id": "151568832",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Prefabricated Hospitals Building",
+      "description": "We are manufacturer of Prefabricated hospital structure, Mobile Hospital &amp; Containerized Hospital with or without equiments.  ",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Service Location/City:All Over India, Surface Treatment:Color Coated, Usage/Application:prefab hospital structure and clinics structure and Quarantine structures"
+      },
+      "image_url": "http://5.imimg.com/data5/JT/WW/LO/SELLER-99172/disinfection-tunnel-sanitiser-chamber.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-hospitals building-22246035491.html",
+      "image_file": "151568832.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Interior corridor of a prefabricated building shows white panel walls and ceiling, glass partitions, multiple clinical doors with signage, and fluorescent lighting — clearly the interior of a prefabricated hospital or clean-room facility."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (Prefabricated Hospitals Building) clearly but lacks structural or configuration details."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs provide built type and usage application but omit panel type, thickness, floor count, and hospital type."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description states manufacturer of prefabricated hospital structure, mobile hospital, and containerized hospital — relevant product types clearly named."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefabricated hospital structure, mobile hospital, and containerized hospital are all valid product types within the Prefabricated Hospitals MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City: All Over India' (location field present)."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs provide only built type and usage application — no panel type, thickness, floor count, or hospital type specified."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City: All Over India'."
+        }
+      ],
+      "verification_note": "Pre-label overridden from bad to good — image shows a high-quality prefab hospital interior corridor, description names valid product types, no contradictions or category failure observed.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-hospitals building-22246035491.html"
+    },
+    {
+      "item_id": "189879146",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Prefabricated Hospitals Building",
+      "description": "<p>A <b>Prefabricated Hospitals Building</b> is a structure that is assembled from pre-manufactured components, usually made in a factory, and then transported to the site for final assembly. These buildings are known for their <b>speed of construction</b>, <b>cost-effectiveness</b>, and <b>flexibility</b> in design. Prefabricated buildings are used in a wide range of applications, from residential homes to commercial, industrial, and institutional buildings. They offer a modern alternative to traditional construction methods, often reducing the time and labor required to build a structure.</p>",
+      "specs": {
+        "raw": "Brand:Mount Roofing, Height:20 Feet, Is It Water Proof:Yes, Material:Steel, Technique:Hot Rolled, Tensile Strength:500 mPA, Usage:Hospital"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/7/PW/OK/CJ/136636414/115.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-hospitals building-26077066630.html",
+      "image_file": "189879146.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Elevated view shows a large multi-storey prefabricated building with blue and white panel walls, multiple HVAC/ventilation units on upper level, solar panels on roof, and construction activity — consistent with a large-scale prefabricated hospital or modular facility."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (Prefabricated Hospitals Building) clearly but lacks structural or configuration details."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide height, material, technique, tensile strength, waterproofing, and usage (Hospital) — adequate but missing panel type and hospital sub-type."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic explanation of prefabricated buildings with no hospital-specific details or technical specifications."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefabricated hospital building with steel construction and hospital usage is a valid product type within the Prefabricated Hospitals MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label overridden from bad to good — image shows a large-scale prefab building with HVAC integration consistent with a hospital facility; specs confirm hospital usage; no contradictions.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-hospitals building-26077066630.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "250889646",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefabricated Factory Shed",
+      "description": "<p>Prefabricated Factory Shed are manufactured as per Indian Standard Codes. These are produced for earthquake zones and wind loads for long-lasting solutions. We have design teams in-house, and we undertake complete turnkey projects for Prefabricated Factory Shed.</p>",
+      "specs": {
+        "raw": "Brand:Cactus, Built Type:Panel Build, Clear Span (Width):24 m (80 ft), Color:Blue and White, Country of Origin:Made in India, Crane Provision:With Crane, Eave Height:6 m (20 ft), Height:25 feet, Hospital Type:COVID Hospital, Material:MS, Service Location/City:Ahmedabad, Structure Material:MS With PUF Panel, Structure Type:Pre-Engineered, Surface Treatment:Color Coated, Technique:Hot Roll, Usage:Factory Shed, Wall Cladding:Full Sheeting"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/1/382055313/TT/KJ/YQ/1775737/prefabricated-factory-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-factory shed-2851629064533.html",
+      "image_file": "250889646.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large blue corrugated metal industrial factory shed with wide open front bay, crane-compatible clear span, and industrial windows — not a hospital building."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title explicitly names 'Prefabricated Factory Shed' — an industrial building type, not a hospital."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs state Usage=Factory Shed and Crane Provision=With Crane — industrial factory shed specifications, not hospital specifications."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description explicitly describes prefabricated factory sheds for earthquake zones and wind loads with turnkey factory shed projects."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a prefabricated factory/industrial shed — title, image, description, and primary specs all confirm industrial shed identity, not a hospital building."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_category",
+          "title_vs_category",
+          "specs_vs_category",
+          "description_vs_category",
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows an industrial factory shed with open bay and crane provision, contradicting the Prefabricated Hospitals MCAT category.",
+          "Title says 'Prefabricated Factory Shed', contradicting the Prefabricated Hospitals MCAT category.",
+          "Specs state Usage=Factory Shed and Crane Provision=With Crane, contradicting the Prefabricated Hospitals MCAT category.",
+          "Description describes factory sheds for earthquake zones and turnkey factory shed projects, contradicting the Prefabricated Hospitals MCAT category.",
+          "Title says 'Factory Shed' but specs contain 'Hospital Type: COVID Hospital' — conflicting product identity within the same listing."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs list 'Usage: Factory Shed' and 'Crane Provision: With Crane' alongside 'Hospital Type: COVID Hospital' — conflicting usage values within the same specs object."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City: Ahmedabad'."
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Steel Buildings",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a blue industrial factory shed with open bay and crane provision — not a prefabricated hospital building."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title reads 'Prefabricated Factory Shed' — explicitly an industrial building, not a hospital."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state 'Usage: Factory Shed' and 'Crane Provision: With Crane' — industrial factory shed specifications."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes prefabricated factory sheds for earthquake zones and wind loads with turnkey factory shed projects."
+        },
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title says 'Factory Shed' but specs contain 'Hospital Type: COVID Hospital' — conflicting product identity."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs simultaneously list 'Usage: Factory Shed' and 'Hospital Type: COVID Hospital' — mutually contradictory usage values."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City: Ahmedabad'."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad — product is a prefabricated factory shed, not a hospital; image, title, description, and primary specs all confirm industrial shed identity.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-factory shed-2851629064533.html"
+    },
+    {
+      "item_id": "147870068",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "prefab Modular Hospitals",
+      "description": "<p>We offer solution for requirements</p>\n<p>Prefabricated buildings, Pre engineering buildings Roof top structures, Readymade toilets Bunk houses,Labour colony(G+1 and G+2),Mezzanine office, Composite Buildings &amp; Containers.</p>",
+      "specs": {
+        "raw": "Brand:Sai Modular, Built Type:Prefab, Country of Origin:Made in India, Facility:IPD, Fire Protection:As Per NBC, Flooring Type:Vitrified Tile, Hospital Type:COVID Hospital, HVAC Provision:Split AC, Material:STEEL, Number Of Floors:Single Floor, Panel Thickness:60 mm, SIZE:As per your requirement, Structure Material:Steel, Surface Treatment:Paint Coated, Wall Panel Type:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/7/FV/IB/SF/32076289/modular-hospitals.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefab-modular hospitals-21876159097.html",
+      "image_file": "147870068.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a two-storey white/grey building under construction with multiple AC units on exterior walls and scaffolding — appears to be conventional masonry/RCC construction with no visible PUF panel joints or prefab steel frame."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (prefab Modular Hospitals) clearly."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs specify hospital type (COVID), facility (IPD), HVAC provision, wall panel type (PUF), panel thickness (60mm), floor count, fire protection standard, and flooring type — comprehensive."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description lists generic prefabricated building types (toilets, bunk houses, labour colony, mezzanine office) with no hospital-specific details."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title and specs describe a valid prefab modular hospital product within the Prefabricated Hospitals MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a multi-storey conventional-looking building with no visible PUF panel joints or steel frame, while specs state 'Wall Panel Type: PUF Panel' and 'Number Of Floors: Single Floor'."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a multi-storey conventional building with no visible PUF panels, while specs claim 'Wall Panel Type: PUF Panel' and 'Number Of Floors: Single Floor'."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a building that appears to be conventional masonry/RCC construction — prefab panel construction method is not visible or identifiable."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — photo-specs contradiction observed (image shows conventional multi-storey building vs. specs claiming PUF panel single floor).",
+      "source_url": "https://www.indiamart.com/proddetail/prefab-modular hospitals-21876159097.html"
+    },
+    {
+      "item_id": "167843097",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Hospital Buildings",
+      "description": "Thulir Structures Offers you a Multistroey hospital building, Clean Room Products buildings with an innovative design",
+      "specs": {
+        "raw": "Building Usage:Hospitals and Clean Room, Built Type:Prefab, Features:Economical, Material:MS Steel, Service Location/City:All Locations, Surface Treatment:Paint Coated"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/9/LQ/CR/PZ/124240119/prefabricated-hospital-buildings.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-hospital buildings-23873461673.html",
+      "image_file": "167843097.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows close-up tropical palm/fern leaves with bokeh background — no building, structure, or product of any kind is visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (Prefabricated Hospital Buildings) clearly."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs provide building usage and material but omit panel type, thickness, floor count, and structural dimensions."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description mentions multistorey hospital building and clean room buildings but provides no structural or technical details."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title, specs, and description all describe valid prefabricated hospital building products; only the image is wrong."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Image shows tropical palm leaves with no building visible, while title claims 'Prefabricated Hospital Buildings'.",
+          "Image shows tropical foliage with no prefabricated structure visible, contradicting the Prefabricated Hospitals MCAT category."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Thulir Structures' and specs contain 'Service Location/City: All Locations'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows tropical palm leaves with no building visible, while title says 'Prefabricated Hospital Buildings'."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows tropical foliage — no prefabricated structure of any kind is visible."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a close-up of tropical palm leaves — no product is visible whatsoever."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Thulir Structures' and specs contain 'Service Location/City: All Locations'."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — image is a tropical plant photograph with no building visible; photo-title and photo-category contradictions confirmed.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-hospital buildings-23873461673.html"
+    },
+    {
+      "item_id": "193596756",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Hospitals Building",
+      "description": "<b>AHAD INFRASTRUCTURE</b> is leading <b>Prefabricated Hospital</b> Manufacturer in <b>Lucknow UP and DELHI NCR</b> which offers with PUF insulated panels, EPS insulated panels, Cement Panel and Light gauge steel framing solution. In an era where time is money, Prefabricated Site Offices is a solution, as it is quick and easy to erect. We offer complete solutions for Site Offices under one roof starting from designing to till installation. While designing the Prefabricated Site Offices building, we consider factors like daylight and ventilation for fresh air. Moreover these Prefabricated Site Cabin, Office are constructed with insulated panels. Therefore, Prefabricated are best suited for adverse climatic conditions. In an era where time is money prefabricated and movable site office is a solution, as it is quick and easy to erect. We offer complete solutions for prefabricated site office under one roof starting from designing to till installation.  Moreover, these prefabricated site offices are constructed with insulated panels. Prefabricated Site Office, have walls of different heights, but then too, strong and sturdy. We are providing the best Prefabricated Site Office installation services in various places in India. We are able to install a vast variety of Prefabricated Site Offices to all over India. We have rich and wide industry knowledge in our trained professionals. The Prefabricated Site Offices is made of high-quality steel frame and is offered in the varied specification to suit different needs of our clients. It includes bunk units that suit for storage, on-site accommodation, and offices. In an era where time is money, prefabricated site offices is a solution, as it is quick and easy to erect. We offer complete solutions for prefabricated site office and cabins under one roof starting from designing to till installation. Moreover, these prefabricated and portable site offices are constructed with insulated panels. Therefore, prefabricated site offices are best suited for adverse climatic conditions. By utilizing trendy machines and latest instrumentality, we are engaged in providing an extensive range of Prefabricated Structures, Prefabricated Toilets, Mobile Toilets, Bio Toilets to satisfy the wants of our purchasers.",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Material:Sandwich Panel (Cement Panel)., Shape:As per Drawing, Size:As Per Drawing, Surface Treatment:Color Coated"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/8/UL/DS/BE/12709657/prefabricated-hospitals-building.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-hospitals building-26448827630.html",
+      "image_file": "193596756.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a small green-painted prefabricated structure partially obscured by dense tropical vegetation — the building is barely visible through foliage and structural details are not discernible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (Prefabricated Hospitals Building) clearly."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs provide only built type, material, shape, and size (all generic) — no hospital type, floor count, panel thickness, or structural dimensions."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description body is almost entirely about prefabricated site offices, bunk units, and portable offices — hospital is mentioned only in the opening sentence."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title states prefabricated hospital building and opening description mentions prefab hospital manufacture — product identity is valid for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'AHAD INFRASTRUCTURE' and city names 'Lucknow UP' and 'DELHI NCR'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs provide only built type, material, shape, and size (all generic) — no hospital type, floor count, panel thickness, or structural dimensions."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a small prefab structure heavily obscured by dense tropical vegetation — structural details and construction method are not visible."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'AHAD INFRASTRUCTURE' and city names 'Lucknow UP' and 'DELHI NCR'."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — thin image (product obscured by vegetation), thin specs, and description body focused on site offices rather than hospitals; no override trigger.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-hospitals building-26448827630.html"
+    }
+  ],
+  "generated_bad_examples": [
+    {
+      "generated": true,
+      "generated_for_problem_codes": [
+        "P15"
+      ],
+      "item_id": "GENERATED_P15_P16",
+      "pre_label": null,
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefabricated Hospital Building PUF Panel",
+      "description": "We manufacture prefabricated hospital buildings using PUF insulated panels and mild steel frames. For inquiries call 9876543210 or email sales@prefabhospital.in. Contact Mr. Ramesh Kumar. Our facility is located at Plot 45, Industrial Area, Pune, Maharashtra.",
+      "specs": {},
+      "image_url": null,
+      "product_page_url": null,
+      "image_file": null,
+      "image_status": "generated",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "No image available."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names a valid prefabricated hospital building product with PUF panel material."
+        },
+        "specs": {
+          "category_fit": null,
+          "quality": "thin",
+          "reason": "No specs provided — insufficient to judge category fit."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description mentions PUF panels and mild steel frames for prefab hospital buildings — product identity is valid."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefabricated hospital building with PUF panels is a core product type within the Prefabricated Hospitals MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains phone number '9876543210', email 'sales@prefabhospital.in', and personal name 'Mr. Ramesh Kumar'."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains locality 'Plot 45, Industrial Area, Pune, Maharashtra'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains phone number '9876543210', email address 'sales@prefabhospital.in', and personal name 'Mr. Ramesh Kumar'."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains specific address 'Plot 45, Industrial Area, Pune, Maharashtra'."
+        }
+      ],
+      "verification_note": "Generated illustrative example for P15 (PII Present) — no real verified product in this batch contained phone numbers, email addresses, or personal names."
+    }
+  ],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show either the exterior of a complete prefabricated building (single or multi-storey, with visible panel wall construction, metal roofing, doors and windows) or the interior clinical spaces (white panel corridors, glass partitions, clinical doors). High-quality 3D architectural renders depicting the modular panel system are also acceptable. Images should be taken at close-to-medium range to allow structural details and panel construction to be identifiable.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Verified good images convey product identity through building form, panel construction system, and clinical interior layout — not through readable text printed on the product.",
+      "No verified good image contained product-identifying text labels or specifications printed on the building surface that would make OCR extraction useful.",
+      "Building exterior and interior photographs are the primary information carriers; structural details (panel joints, steel frame, HVAC integration) are visual, not textual."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good images show complete prefabricated hospital building exteriors or clinical interiors with visible panel construction and healthcare-relevant features.",
+    "product_identity": [
+      "Prefabricated panel wall construction (PUF/FRP/sandwich panels) visible on building exterior or interior",
+      "Clinical interior features: white panel corridors, glass partitions, clinical doors, medical furniture",
+      "Multi-room modular layout with doors, windows, and covered walkways"
+    ],
+    "acceptable_scenes": [
+      "Exterior view of complete prefab hospital building on site",
+      "Interior corridor or ward showing panel wall construction and clinical fit-out",
+      "3D architectural render clearly depicting modular panel building system"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "324919564",
+        "reason": "High-quality 3D architectural render shows a modular prefabricated building with visible steel frame, white and dark blue panel walls, multiple doors and windows, and covered walkway — clearly depicts a prefab hospital/modular building system.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "151568832",
+        "reason": "Interior corridor of a prefabricated building shows white panel walls and ceiling, glass partitions, multiple clinical doors with signage, and fluorescent lighting — clearly the interior of a prefabricated hospital or clean-room facility.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "170328643",
+        "reason": "Image shows a small single-storey prefabricated building with rendered white walls, green metal roof, entrance porch with steps, and louvred windows set in a mountainous terrain — consistent with a prefab health centre or clinic building.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "182238839",
+        "reason": "Image shows the interior of a prefabricated container room with panel walls, hospital beds (one with plastic-wrapped mattress), folding cots, medical furniture, and a person arranging equipment — clearly a portable hospital container being fitted out.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "189879146",
+        "reason": "Elevated view shows a large multi-storey prefabricated building with blue and white panel walls, multiple HVAC/ventilation units on upper level, solar panels on roof, and construction activity — consistent with a large-scale prefabricated hospital or modular facility.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin images show prefabricated structures that are correct in product type but lack sufficient detail due to aerial distance, heavy obstruction, or unclear construction method.",
+    "thinness_signals": [
+      "Aerial or drone view taken from too high an altitude — panel construction details and hospital-specific features not identifiable",
+      "Building partially or heavily obscured by vegetation — structural details and construction method not visible"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "243299823",
+        "reason": "Aerial view shows prefab building campus from high altitude — hospital-specific features are not identifiable and structural panel details are not visible."
+      },
+      {
+        "photo_url": null,
+        "item_id": "147870068",
+        "reason": "Image shows a two-storey conventional-looking building under construction with no visible PUF panel joints or steel frame — prefab construction method is not identifiable."
+      },
+      {
+        "photo_url": null,
+        "item_id": "193596756",
+        "reason": "Image shows a small prefab structure heavily obscured by dense tropical vegetation — structural details and construction method are not visible."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant images show either industrial factory sheds (wrong product type) or completely unrelated subjects (tropical foliage) with no hospital building visible.",
+    "failure_classes": [
+      {
+        "class": "industrial_factory_shed",
+        "description": "Image shows a prefabricated industrial/factory shed with open bay, crane provision, and industrial cladding — wrong product type for Prefabricated Hospitals MCAT.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "250889646"
+          }
+        ],
+        "detection_signal": "Large open-bay structure with corrugated metal cladding, no windows at clinical height, crane rails or wide clear span visible.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "no_product_visible",
+        "description": "Image shows tropical foliage or other non-building subject with no prefabricated structure visible at all.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "167843097"
+          }
+        ],
+        "detection_signal": "No building structure, panels, or construction elements visible — image is entirely of plants, people, or unrelated objects.",
+        "failure_mode": "wrong_category"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name the product type (prefabricated hospital building), specify the construction system (PUF panel, FRP, modular), and optionally include hospital sub-type (COVID, general, ICU) or floor count.",
+    "strong_positive_signals": [
+      "Explicit hospital type or sub-type (General Hospital, COVID Hospital, ICU, Modular OT)",
+      "Construction system named (PUF Panel, FRP, Modular, Container-based)",
+      "Floor count or scale indicator (G+2, Multi-storey, Portable/Relocatable)"
+    ],
+    "structural_patterns": [
+      "[Material/System] Prefabricated Hospital [Building/Structure]",
+      "Prefabricated [Hospital Type] Building",
+      "[Portable/Modular/Container] Hospital [Building/Unit]",
+      "COVID-19 / COVID Pre-Fabricated Hospital"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "324919564",
+          "title": "Prefabricated Hospital Building",
+          "reason": "Title is supported by strong specs (PUF Panel, G+2, General Hospital, 50mm thickness) and strong description — the complete listing is the best example even though the title itself is acceptable; no extreme-good title with all attributes in the title string alone exists in this batch."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "170328643",
+          "title": "Frp Prefabricated Hospital",
+          "reason": "Names material (FRP) and product type (Prefabricated Hospital) — correct and specific but lacks hospital sub-type, floor count, and structural dimensions."
+        },
+        {
+          "item_id": "182238839",
+          "title": "Portable Hospital Container",
+          "reason": "Names product sub-type (Portable, Container) and usage (Hospital) — clear and specific but lacks structural specs."
+        },
+        {
+          "item_id": "243299823",
+          "title": "Covid 19 Pre-Fabricated Hospital",
+          "reason": "Names application type (COVID-19) and product type (Pre-Fabricated Hospital) — relevant and specific but lacks structural system or floor count."
+        },
+        {
+          "item_id": "151568832",
+          "title": "Prefabricated Hospitals Building",
+          "reason": "Names product type correctly but is generic — no material, hospital sub-type, or structural detail."
+        },
+        {
+          "item_id": "189879146",
+          "title": "Prefabricated Hospitals Building",
+          "reason": "Names product type correctly but is generic — no material, hospital sub-type, or structural detail."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name the product type correctly but omit all differentiating attributes such as construction system, hospital sub-type, floor count, or material.",
+    "thinness_signals": [
+      "Title contains only 'Prefabricated Hospital Building' or 'Prefabricated Hospitals Building' with no material, system, or sub-type qualifier",
+      "No hospital sub-type (General, COVID, ICU, OT, Maternity) specified in title",
+      "No construction system (PUF Panel, FRP, Modular, Container) named in title"
+    ],
+    "examples": [
+      {
+        "item_id": "151568832",
+        "title": "Prefabricated Hospitals Building",
+        "reason": "Title is correct but entirely generic — no material, hospital type, floor count, or construction system specified."
+      },
+      {
+        "item_id": "189879146",
+        "title": "Prefabricated Hospitals Building",
+        "reason": "Title is correct but entirely generic — no material, hospital type, floor count, or construction system specified."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles name industrial or non-hospital building types (factory shed) that actively signal the wrong product for this MCAT.",
+    "failure_classes": [
+      {
+        "class": "factory_shed_title",
+        "signal": "Title contains 'Factory Shed' — explicitly names an industrial building type incompatible with Prefabricated Hospitals.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "250889646",
+            "title": "Prefabricated Factory Shed",
+            "reason": "Title explicitly names a factory shed — an industrial building type with crane provision and open bay, not a hospital building.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily industrial/factory shed listings misplaced in Prefabricated Hospitals.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "prefabricated_factory_industrial_shed",
+        "signal": "Title, image, and description all name or show a factory/industrial shed with open bay, crane provision, and industrial cladding — not a hospital building.",
+        "examples": [
+          {
+            "item_id": "250889646",
+            "title": "Prefabricated Factory Shed",
+            "reason": "Title says 'Factory Shed', image shows blue industrial shed with open bay and crane provision, description describes factory shed turnkey projects — wrong product type for Prefabricated Hospitals MCAT.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Steel Buildings"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Portable Buildings",
+        "signal": "Container-based portable hospital units that are relocatable and not permanently installed may also fit the 'Portable Buildings' sibling MCAT.",
+        "examples": [
+          {
+            "item_id": "182238839",
+            "title": "Portable Hospital Container",
+            "reason": "Container-based portable hospital unit is relocatable and fits the 'Portable Buildings' sibling MCAT, though hospital usage makes it valid in Prefabricated Hospitals."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator. Images were analysed visually from provided base64 data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion 'Prefabricated Steel Buildings' and sibling_mcat_name 'Portable Buildings' are drawn from the provided taxonomy_context.siblings list — not fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (complete turnkey prefabricated hospital building) and mcat_description product_types used to ground all category belonging decisions."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
