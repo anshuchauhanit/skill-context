@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: product scope is tightly bounded to mild steel prefabricated portable accommodation units for construction/industrial site use; the 'MS' material qualifier narrows scope relative to the generic 'Bunkhouses' sibling (23898), and all product_types are insulation/configuration variants sharing a single homogeneous buyer profile (construction contractors, infrastructure developers).",
+    "is_vague: 0 signals fire — 'MS Bunkhouse' resolves to one unambiguous product concept in the Indian B2B trade context; Agent 3 produced a confident unhedged primary_segment, all buyer_intent_queries cluster around site accommodation procurement, and no sibling MCAT carves out a sub-type with an incompatible buyer profile or regulatory regime."
+  ]
+}
