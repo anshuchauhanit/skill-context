@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Modular Tensile Structure' is well-scoped — 'modular' (factory-fabricated repeatable units) + 'tensile' (membrane under tension) meaningfully bounds the product concept; all 15 product_types and all buyer_intent_queries cluster around one coherent purchase context (outdoor tensile shade/shelter), and Agent 3 named a confident, unhedged primary_segment without qualification.",
+    "is_vague: 0 of 5 signals fire — the name resolves to one product concept with no competing industry interpretation; sibling MCATs (Tensile Structures, Gazebo Tensile Structure, Auditorium Tensile Structure) are same-buyer same-regulatory-regime sub-type carve-outs, not incompatible buyer profiles; is_generic is false because the 'modular' qualifier meaningfully narrows scope vs. the broader tensile structures family."
+  ]
+}
