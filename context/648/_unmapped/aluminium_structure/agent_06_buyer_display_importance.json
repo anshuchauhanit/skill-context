@@ -1,0 +1,272 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Buyers arrive with a defined structural application (solar mounting, canopy, shed) and immediately filter by product type, span/width, alloy grade, and finish — without matching specs the listing cannot be evaluated for project fit. Custom-fabricated structures are non-interchangeable across applications; wrong spec = project non-compliance."
+    },
+    {
+      "rank": 2,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — a solar monorail, a pergola, a space frame, and a warehouse truss are visually unrecognisable from each other by title alone. Buyers use the image to confirm product type before reading any spec, and to assess fabrication quality and finish."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with alloy grade, span, finish, and product type — a per-kg or per-watt rate is meaningless without the spec context. Indian B2B buyers (solar EPC contractors, shed fabricators) are price-aggressive and compare rates across sellers once spec equivalence is confirmed; listed price is a budget entry point for project costing."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant consumer-facing brand with buyer recall exists in Indian aluminium structural fabrication — buyers search by spec, application, and price, not manufacturer name; ISO/BIS certification and fabrication track record matter but are not brand signals.",
+      "reason": "Solar EPC contractors and construction buyers evaluate manufacturer capability, BIS/IS:875 compliance, installation support, and project track record during vendor shortlisting — seller identity is a qualification gate after spec and price match, not a primary scan signal."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per kg",
+      "unit_note": "Solar mounting sub-segment also uses per watt (₹/W) for system-level quotes and per piece/set for standard monorail kits; rail sections sold per metre. Unit must be shown because per kg, per watt, per piece, and per metre are all active in this MCAT and price cannot be compared without knowing the unit basis.",
+      "reason": "Unit ambiguity is a real and material risk — the same product type can be quoted per kg, per watt, per piece, or per metre by different sellers, making price comparison impossible without unit disclosure."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Product Type",
+        "reason": "Defines what the structure IS — a solar mounting structure, pergola, greenhouse, or warehouse shed are non-interchangeable across buyer applications and carry fundamentally different price points, material requirements, and compliance standards."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Span / Width",
+        "reason": "Span is the primary dimensional configurator for structural pricing — material weight, engineering complexity, and fabrication cost scale directly with span, making it the largest single driver of per-kg or per-project price variation within any product type."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Covering Material",
+      "Eave Height",
+      "Features",
+      "Finish",
+      "Material",
+      "Product Type",
+      "Span / Width"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Alloy Grade",
+        "why_important": "Alloy grade (6061 vs 6063 vs 6082) determines structural strength, extrudability, and compliance with IS:736/IS:737 — solar EPC and construction buyers specify alloy grade to confirm load-bearing capacity and BIS/MNRE eligibility.",
+        "source": "both",
+        "example_values": [
+          "6063 T6",
+          "6061 T6",
+          "6082 T6",
+          "6005 T5"
+        ]
+      },
+      {
+        "spec_name": "Load Capacity / Wind Zone Compliance",
+        "why_important": "Solar mounting and structural buyers must confirm IS:875 wind zone compliance and design load rating before procurement — a structure rated for Wind Zone II cannot be used in Wind Zone IV without re-engineering, making this a hard shortlisting gate.",
+        "source": "both",
+        "example_values": [
+          "Wind Zone II",
+          "Wind Zone III",
+          "Wind Zone IV",
+          "Up to 150 km/h"
+        ]
+      },
+      {
+        "spec_name": "Structure Capacity (kW / sq ft / MT)",
+        "why_important": "Solar EPC buyers specify system capacity in kW (e.g., 10 kW, 100 kW, 1 MW) and shed/canopy buyers specify floor area or load in sq ft or MT — without this, sellers cannot confirm whether their standard structure fits the buyer's project scale.",
+        "source": "both",
+        "example_values": [
+          "10 kW",
+          "100 kW",
+          "500 sq ft",
+          "1000 sq ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Application routes the RFQ to sellers who fabricate the specific structure type — a solar structure seller cannot supply a greenhouse frame, and misrouted RFQs waste both buyer and seller time.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Partitions & Doors",
+          "Structural Glazing",
+          "Solar Structure",
+          "Greenhouse Frame",
+          "Exhibition Stalls"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Surface Finish",
+        "reason": "Surface finish (powder coated vs anodized vs mill finish) affects both aesthetics and corrosion protection specification — sellers need this to confirm they can supply the required finish and to price the coating process accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Powder Coated",
+          "Anodized",
+          "Wood Finish",
+          "Mill Finish"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Alloy Grade",
+        "why_important": "Sellers need alloy grade to confirm structural compliance and BIS certification eligibility — a buyer specifying 6061 T6 for a high-load application cannot be served by a seller who only stocks 6063 T5.",
+        "source": "both",
+        "example_values": [
+          "6063 T6",
+          "6061 T6",
+          "6082 T6",
+          "6005 T5"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Project Scale / Capacity",
+        "why_important": "Sellers need to know the system size (kW for solar, sq ft for canopy/shed) to determine whether their standard fabrication capacity and structural design covers the buyer's requirement.",
+        "source": "both",
+        "example_values": [
+          "Up to 10 kW",
+          "10–100 kW",
+          "Above 100 kW",
+          "Up to 500 sq ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Partitions & Doors",
+      "id": "spec_1",
+      "prompt_for_generation": "Aluminium structural frame system used for office partition with glass infill panels, silver anodized finish, clean interior setting, straight-on view, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Structural Glazing",
+      "id": "spec_2",
+      "prompt_for_generation": "Aluminium curtain wall sub-frame with structural glazing panels installed on a commercial building facade, silver mill finish extrusions, exterior daylight setting, architectural perspective view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Solar Structure",
+      "id": "spec_3",
+      "prompt_for_generation": "Aluminium solar panel mounting structure (multi-rail system) installed on a flat RCC rooftop with solar panels mounted, silver anodized finish, outdoor daylight, straight-on perspective, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Greenhouse Frame",
+      "id": "spec_4",
+      "prompt_for_generation": "Aluminium greenhouse frame structure with polycarbonate or glass covering, arched roof profile, outdoor agricultural setting, silver mill finish extrusions, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Exhibition Stalls",
+      "id": "spec_5",
+      "prompt_for_generation": "Aluminium modular exhibition stall frame structure with open panels, silver anodized extrusion profiles, indoor exhibition hall setting, clean and modern design, straight-on view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Surface Finish",
+      "option_value": "Powder Coated",
+      "id": "spec_6",
+      "prompt_for_generation": "Aluminium solar mounting structure rail section with smooth white powder coated finish, close-up detail showing uniform coating texture, white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Surface Finish",
+      "option_value": "Anodized",
+      "id": "spec_7",
+      "prompt_for_generation": "Aluminium structural extrusion section with silver anodized finish, close-up showing metallic sheen and fine surface texture, white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Surface Finish",
+      "option_value": "Wood Finish",
+      "id": "spec_8",
+      "prompt_for_generation": "Aluminium pergola structure frame with wood-grain finish coating on extrusion profiles, warm brown wood texture visible on aluminium sections, outdoor residential setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Surface Finish",
+      "option_value": "Mill Finish",
+      "id": "spec_9",
+      "prompt_for_generation": "Aluminium structural extrusion section with raw mill finish, showing natural uncoated aluminium surface with slight sheen, white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
