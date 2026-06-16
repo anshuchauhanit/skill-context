@@ -1,0 +1,171 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual variation across sub-types — single FRP cabin, GI multi-seat block, mobile toilet van, handicap unit — buyers use the image to identify product type before reading any text. Wrong sub-type shown = immediate skip regardless of specs or price."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "No. of seats, wall material, and toilet seat type (Indian/Western) are non-negotiable shortlisting criteria — a 1-seat FRP cabin and a 10-seat GI block cannot substitute for each other. Listings without these specs cannot be evaluated by contractors or government procurement officers."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies dramatically across spec tiers (single FRP cabin vs 10-seat GI block vs bio-digester unit) and buyers on IndiaMART discover and compare across tiers. Indian B2B buyers — especially construction contractors and government agencies — are price-aggressive and use listed price as a primary shortlisting signal after spec confirmation."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Recognised brands exist with buyer recall — Tata Nestin/EzyNest and Sintex Sugam are specified by name in institutional and government procurement; sibling MCAT 'Sintex Portable Toilets' (182628) confirms brand-driven search behaviour in this category.",
+      "reason": "Manufacturer track record, installation capability, and after-sales service matter to institutional buyers (municipal corporations, government agencies, EPC contractors) during vendor selection. Brand names are referenced in government tender specifications."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Multi-seater blocks are quoted per block/per set; mobile toilet vans per vehicle — but in all cases the unit is entirely implied by the product type and never a buyer question. No price comparison confusion arises.",
+      "reason": "Modular toilets are discrete manufactured units — per piece is the only conceivable unit for a single cabin. No buyer would question whether a toilet cabin is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "No Of Seats",
+        "reason": "Seat count defines the entire product class — a 1-seat cabin and a 10-seat block are non-interchangeable and carry dramatically different prices; no buyer can substitute one for the other."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Material",
+        "reason": "FRP, GI/MS, PUF panel, and RCC represent distinct durability and price tiers — non-interchangeable across project requirements — with significant price deltas between lightweight FRP and heavy-duty RCC or PUF-insulated GI construction."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Built Type",
+      "Features",
+      "Flooring",
+      "Module Type",
+      "No Of Seats",
+      "Tank Capacity",
+      "Toilet Seat",
+      "Wall Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Dimensions",
+        "why_important": "Government tenders and site planners specify required footprint (e.g., 4x4 ft, 6x4 ft) — sellers need this to confirm they can supply the required size and for buyers to plan installation space.",
+        "source": "both",
+        "example_values": [
+          "3x3 ft",
+          "4x4 ft",
+          "6x4 ft",
+          "8x4 ft"
+        ]
+      },
+      {
+        "spec_name": "Waste Disposal System",
+        "why_important": "Bio-digester (DRDO zero-discharge) vs septic tank connection vs holding tank are non-interchangeable for sites without sewage infrastructure — a primary compliance and site-suitability criterion for government and highway deployments.",
+        "source": "both",
+        "example_values": [
+          "Bio-Digester",
+          "Septic Tank Connection",
+          "Holding Tank",
+          "Soak Pit"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Toilet Seat Type",
+        "reason": "Indian vs Western WC configuration is non-interchangeable — sellers who manufacture only one type cannot supply the other, making this the primary routing spec for accurate seller response.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Western",
+          "Indian",
+          "Indian & Western"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Body Material",
+        "reason": "Material defines the durability tier and price range — FRP specialists and GI/steel fabricators are different supplier types, so this spec determines which sellers can accurately quote and supply.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "No. of Seats",
+        "why_important": "Seat count is the primary sizing parameter — a contractor needing a 10-seat labour camp block and one needing a single cabin are entirely different procurement requirements, and sellers need this to determine which product range to quote.",
+        "source": "both",
+        "example_values": [
+          "1 Seat",
+          "2 Seats",
+          "4 Seats",
+          "10 Seats"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Western",
+      "id": "spec_1",
+      "prompt_for_generation": "Interior view of a prefabricated modular toilet cabin showing a white Western-style ceramic commode with cistern, clean FRP or GI panel walls, white background lighting, no branding, square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Indian",
+      "id": "spec_2",
+      "prompt_for_generation": "Interior view of a prefabricated modular toilet cabin showing a white ceramic Indian-style squat pan (orissa pan) set into the floor, clean FRP panel walls, overhead water tap, bright studio lighting, no branding, square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Indian & Western",
+      "id": "spec_3",
+      "prompt_for_generation": "Interior view of a prefabricated modular toilet cabin showing both a Western commode and an Indian squat pan side by side or in adjacent compartments, clean GI panel walls, bright lighting, no branding, square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
