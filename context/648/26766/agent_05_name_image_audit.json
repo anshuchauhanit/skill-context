@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Dome Shelters' aligns with the dominant primary keywords ('dome shelter', 'dome structure', 'dome shed') confirmed across Agent 3 alt_names and market_context, and accurately describes the product category without over-specifying a sub-type.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a container-span fabric arch shelter (a semi-circular tunnel/arch structure bridging two shipping containers), which is a distinct product from a geodesic dome shelter — the primary segment is a freestanding prefabricated geodesic dome with triangulated steel frame and PVC fabric cover, not a container-mounted arch canopy.",
+      "The image actively misrepresents the MCAT by depicting a niche industrial container-arch product that would confuse buyers searching for geodesic dome shelters for glamping, events, or institutional use, and does not reflect the dominant commercial form identified in Agent 3 market_context."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A freestanding prefabricated geodesic dome shelter with a galvanised steel triangulated frame and white PVC-coated fabric cover, approximately 8–10 metres diameter, set on a flat outdoor ground with a clean white studio background. The dome is fully assembled, showing the characteristic triangular panel geometry on the exterior surface. Front-facing three-quarter view, soft natural daylight, no people, no text overlays, photorealistic product shot style suitable for a B2B marketplace thumbnail.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
