@@ -1,0 +1,41 @@
+{
+  "agent": "Agent 8 — Category Nature",
+  "mcat": "Auditorium Roofing Shed",
+  "mcat_id": "182931",
+  "is_vague_signal_scoring": {
+    "signal_1_name_ambiguity": {
+      "fires": false,
+      "evidence": "'Auditorium Roofing Shed' resolves to exactly one product concept — a large-span steel roofing structure for assembly/gathering venues. No competing industry reads this name differently."
+    },
+    "signal_2_primary_segment_difficulty": {
+      "fires": false,
+      "evidence": "Agent 3 produced a confident, unhedged primary_segment: 'Large-span prefabricated steel roofing shed for marriage halls, churches, and community auditoriums' — no compound hedge or 'depends on' qualifier."
+    },
+    "signal_3_buyer_intent_queries_diverge": {
+      "fires": false,
+      "evidence": "All buyer intent queries cluster around one purchase context — someone commissioning a roofing structure for a public assembly venue; 'marriage hall shed', 'church shed', 'wedding hall shed' are spec/venue refinements of the same intent, not incompatible intents."
+    },
+    "signal_4_product_types_no_shared_buyer": {
+      "fires": false,
+      "evidence": "PEB auditorium roof, steel truss for marriage hall, curved arch shed, tensile membrane, sandwich panel — all different structural typologies but the buyer is always the same: someone building or covering a large public assembly space."
+    },
+    "signal_5_regulatory_or_sibling_carveout": {
+      "fires": false,
+      "evidence": "No sibling MCAT carves out a sub-type with an incompatible buyer profile or regulatory regime; siblings like 'Industrial Sheds', 'Warehouse Sheds', 'Badminton Court Roofing Shed' are differentiated by application, not by incompatible buyer or regulatory context relative to this MCAT."
+    },
+    "signals_fired_count": 0,
+    "is_vague_conclusion": false
+  },
+  "category_nature": {
+    "is_generic": false,
+    "is_specific": true,
+    "is_vague": false,
+    "is_thin": false,
+    "is_branded": false,
+    "is_service": false,
+    "reason": [
+      "is_specific: the MCAT name tightly bounds scope to roofing structures for auditorium/assembly venues; buyer intent is homogeneous (commissioning a large-span shed for a gathering space) and all product_types share the same buyer archetype and structural purpose.",
+      "is_thin: listing_count of 504 is not suspect (Agent 3 confirmed listing_count_suspect: false) and page density is consistent with a viable standalone node; is_generic is false because the venue-application qualifier ('Auditorium') meaningfully narrows scope relative to parent 'Prefabricated Shed'."
+    ]
+  }
+}
