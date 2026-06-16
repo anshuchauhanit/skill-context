@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated School Building' directly matches the top primary keyword and is the dominant search term confirmed across Agent 3 alt_names and buyer_intent_queries; market context confirms this is the standard trade and buyer-facing terminology in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The image appears to show a Western-style modular building (likely a US portable classroom or office unit) with stucco/render cladding, brick accent panels, and a parking lot — this does not represent the Indian primary segment of LGSF/mild steel frame school buildings with insulated sandwich panel walls and roof.",
+      "The structure lacks visible steel frame or sandwich panel cladding characteristics typical of Indian prefab school buildings, and the setting (parking lot, Western architectural style) is inconsistent with the Indian B2B buyer context, making this thumbnail misleading for the MCAT."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A completed two-storey prefabricated school building in India, steel frame structure with light grey and white insulated sandwich panel walls and a blue or green metal deck roof, multiple rectangular windows with grilles, an external staircase with safety railing, set on a flat open site with a small concrete pathway in front, bright natural daylight, clean white background or open sky backdrop, photorealistic product-style render, square 1:1 composition, sharp focus on the full building facade, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
