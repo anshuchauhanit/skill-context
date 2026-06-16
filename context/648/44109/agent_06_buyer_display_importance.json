@@ -1,0 +1,197 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — trailer-mounted, truck-mounted, tractor trolley, and three-wheeler configurations are visually distinct, as are MS vs FRP body types and 4-seater vs 14-seater scale. Buyers use the image to identify the correct product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Municipal tenders and institutional procurement explicitly specify seater count, body material, vehicle/mounting type, and waste system — buyers cannot shortlist or evaluate fit without these specs. Spec is the primary qualification gate before price comparison."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially across configurations — a 4-seater MS sludge-tank unit vs a 10-seater FRP bio-digester trailer carry very different price points. Indian institutional buyers are price-aggressive and compare across sellers within their spec tier; a visible price is essential for budget approval and shortlisting."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "The market is fragmented across regional fabricators with no nationally recognised brand that buyers search for by name; buyers search by spec and price, not manufacturer brand.",
+      "reason": "Institutional buyers (municipal corporations, government contractors) evaluate manufacturer status, government supply track record, ISO certification, and after-sales service capability during vendor selection — company credentials matter but are assessed after spec and price shortlisting."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Rental operators quote per day or per event, but all purchase transactions are per piece without exception. No buyer ever questions the unit for a fabricated vehicle assembly.",
+      "reason": "Unit is entirely implied — a mobile toilet van is always sold per piece regardless of seater count or configuration. No buyer confusion is possible."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "No Of Seats",
+        "reason": "Seater count is the primary SKU differentiator — non-interchangeable across buyer requirements and drives the largest price delta in the category (4-seater vs 12-seater represents a multi-fold price difference)."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Material",
+        "reason": "MS vs FRP body construction is non-interchangeable for most buyers (weight, corrosion resistance, and longevity differ substantially) and carries a significant price delta for equivalent seater configurations."
+      }
+    ],
+    "specs_in_seller_list": [
+      "No Of Seats",
+      "Power Source",
+      "Tank Capacity",
+      "Toilet Seat",
+      "Usage",
+      "Vehicle Type",
+      "Wall Material",
+      "With Bath Area",
+      "With Bio System"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Gender Segregation",
+        "why_important": "Municipal tenders and Swachh Bharat Mission guidelines routinely require separate male and female sections; sellers need this spec to confirm their unit layout meets the procurement requirement.",
+        "source": "both",
+        "example_values": [
+          "Male Only",
+          "Female Only",
+          "Gender Segregated (Male + Female)",
+          "Combined"
+        ]
+      },
+      {
+        "spec_name": "Fresh Water Tank Capacity",
+        "why_important": "Fresh water tank and waste/sludge tank are separate components with independent capacities; buyers planning deployment duration and water resupply logistics require this spec, which is distinct from the waste Tank Capacity already in the list.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "500 L",
+          "750 L",
+          "1000 L",
+          "1200 L"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Seating Capacity",
+        "reason": "Seater count is non-interchangeable — a seller who fabricates only 4-seater units cannot supply a 10-seater requirement, and it is the primary determinant of price and physical scale.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Mounting Type",
+        "reason": "Mounting configuration (trailer, tractor trolley, vehicle-mounted, portable) defines the deployment scenario and routes the RFQ to manufacturers who specialise in that configuration — a trailer-mounted fabricator cannot supply a three-wheeler-mounted unit.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Trolley Based",
+          "Portable",
+          "Tractor Mounted",
+          "Vehicle Mounted",
+          "Trailer Mounted"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Waste Management System",
+        "why_important": "Bio-digester, chemical tank, and sludge tank systems have different infrastructure requirements, compliance implications, and price points — sellers need this to confirm product eligibility and quote accurately, particularly for remote or rural deployments where pump-out infrastructure is unavailable.",
+        "source": "both",
+        "example_values": [
+          "Bio Digester",
+          "Chemical Tank",
+          "Sludge Tank",
+          "Septic Tank"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Mounting Type",
+      "option_value": "Trolley Based",
+      "id": "spec_1",
+      "prompt_for_generation": "Mobile toilet van mounted on a four-wheel trolley chassis, MS body with 6 cabin doors visible on the side, parked on flat ground, white or light grey exterior, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Mounting Type",
+      "option_value": "Portable",
+      "id": "spec_2",
+      "prompt_for_generation": "Standalone portable mobile toilet unit without vehicle chassis, FRP body, self-contained structure with 4 cabin doors, placed on open ground at an outdoor event site, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Mounting Type",
+      "option_value": "Tractor Mounted",
+      "id": "spec_3",
+      "prompt_for_generation": "Mobile toilet van body mounted on a tractor trolley, tractor visible at the front pulling the toilet unit, MS or FRP body with multiple cabin doors on the side, rural or semi-urban road setting, natural daylight, side view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Mounting Type",
+      "option_value": "Vehicle Mounted",
+      "id": "spec_4",
+      "prompt_for_generation": "Mobile toilet van body mounted on a commercial truck or Tata/Ashok Leyland vehicle chassis, toilet cabin structure integrated onto the truck body with 6 to 8 cabin doors visible, parked on a road, natural daylight, side three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Mounting Type",
+      "option_value": "Trailer Mounted",
+      "id": "spec_5",
+      "prompt_for_generation": "Mobile toilet van on a dedicated trailer chassis with tow hitch visible at the front, FRP or MS body with 8 cabin doors along the side, white exterior, parked on flat ground, natural daylight, front three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
