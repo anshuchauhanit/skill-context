@@ -1,0 +1,171 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Significant visual variation across sub-types — polyfilm tunnel, polycarbonate panel structure, and shade net chamber look distinctly different. Buyers identify the structure type from the image before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Covering material, frame type, and control system are non-interchangeable shortlisting criteria — a polycarbonate chamber cannot substitute for a polyfilm chamber in a budget-constrained government tender. Buyers arrive with site dimensions and propagation requirements and use specs to eliminate unsuitable suppliers."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Market is fragmented across regional fabricators (TrueMIST, Waman Enterprises, Blue Stallion); no brand commands buyer recall or search-by-name behaviour in this category.",
+      "reason": "Custom fabrication with site installation means buyers evaluate the seller's installation track record, experience with government departments, and after-sales service capability — but specs carry equal weight in initial shortlisting."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every mist chamber is custom-built to site dimensions; no fixed per-unit price exists. Listed price is a budget entry point only — final price is always quoted after site assessment and spec confirmation. India price sensitivity applies but comparison is not possible at listing stage."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per unit",
+      "unit_note": "Large custom installations are additionally quoted per sq mt of covered area, but since all pricing is project-based and finalised post-quotation, unit display at listing stage adds no buyer value. Per unit is the dominant catalogue reference.",
+      "reason": "Price is project-quoted and always negotiated post-site-assessment; unit ambiguity between per unit and per sq mt is resolved in the quotation process, not at listing stage."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Covering Material",
+        "reason": "Polycarbonate sheet vs UV polyfilm vs shade net are non-interchangeable across project requirements and represent the largest price delta in the category — polycarbonate structures cost substantially more than polyfilm equivalents of the same footprint."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Control Type",
+        "reason": "Sensor-based automation vs manual control represents a significant price delta due to solenoid valves, humidity sensors, and controllers — and is non-interchangeable for research institute or government department requirements that specify automation tier."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Chamber Type",
+      "Control Type",
+      "Country Of Origin",
+      "Covering Material",
+      "Door Type",
+      "Frame Coating",
+      "Nozzle Type",
+      "Power Supply",
+      "Structure Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Chamber Size / Area",
+        "why_important": "Sellers cannot determine material quantities, structural design, or provide an accurate quotation without knowing the required footprint — size is the primary project scoping parameter for any custom-built structure.",
+        "source": "both",
+        "example_values": [
+          "Up to 50 sq mt",
+          "50–200 sq mt",
+          "200–500 sq mt",
+          "Above 500 sq mt"
+        ]
+      },
+      {
+        "spec_name": "Misting System Pressure",
+        "why_important": "High-pressure fogger systems vs low-pressure mister systems require different pumps, nozzles, and pipe specifications — a primary technical differentiator that drives system cost independently of covering material or control type.",
+        "source": "both",
+        "example_values": [
+          "Low Pressure (below 5 bar)",
+          "Medium Pressure (5–20 bar)",
+          "High Pressure (above 20 bar)"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Covering Material",
+        "reason": "Defines the structure type and light/humidity environment — sellers need this to determine material procurement, structural design, and pricing tier before they can respond meaningfully.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "UV Stabilized Film",
+          "Polycarbonate Sh",
+          "Shade Net"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Frame Material",
+        "reason": "GI, MS, and aluminium frames have different corrosion resistance, load-bearing capacity, and cost points — sellers need this to confirm fabrication capability and quote the structural component accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Chamber Size / Area",
+        "why_important": "Sellers cannot determine material quantities, structural design, or provide any meaningful quotation without knowing the required footprint — this is the primary project scoping parameter.",
+        "source": "both",
+        "example_values": [
+          "Up to 50 sq mt",
+          "50–200 sq mt",
+          "200–500 sq mt",
+          "Above 500 sq mt"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Covering Material",
+      "option_value": "UV Stabilized Film",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated polyhouse-style mist propagation chamber with translucent UV-stabilized polyethylene film covering stretched over a GI pipe arch frame, interior visible through film, green plant trays inside, natural daylight, outdoor nursery setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Polycarbonate Sh",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated mist propagation chamber with rigid twin-wall polycarbonate panel cladding on GI frame, opaque white-translucent panels clearly visible on walls and roof, plant propagation trays inside, outdoor nursery setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Shade Net",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated mist propagation chamber covered with green shade net on GI pipe frame, open mesh texture clearly visible allowing partial light diffusion, plant cuttings on propagation benches inside, outdoor nursery setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
