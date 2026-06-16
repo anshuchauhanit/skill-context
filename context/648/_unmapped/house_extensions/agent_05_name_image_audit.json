@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 alt_names and market_context confirm buyers search for 'glass house extension', 'terrace glass house', and 'glass room on terrace' — not the generic 'House Extensions', which lacks product-type specificity and misses the dominant glass/prefab signal.",
+    "suggested_name": "Glass House Extensions"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "Thumbnail correctly shows a glass-enclosed room extension with dark aluminium framing attached to a brick residential structure, directly matching the primary_segment of glass-enclosed terrace/rooftop room extension.",
+      "Image is a real-world installation photograph with garden/outdoor context that may read as European rather than Indian residential; an India-context rooftop/terrace setting with cleaner white background isolation would better serve IndiaMART buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Product-style photograph of a modern glass-enclosed terrace room extension on an Indian residential rooftop, featuring a slim dark-grey anodised aluminium frame with large tempered glass panels on all sides and a flat glass roof, furnished with minimal indoor seating, bright natural daylight, clean white or light-grey background isolation, sharp front-facing perspective, no seller watermarks, photorealistic commercial quality.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
