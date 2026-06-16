@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Greenhouse' is the dominant trade and buyer search term confirmed across Agent 3 primary_keywords and market_context, where 'greenhouse' and 'polyhouse' are used interchangeably in Indian B2B trade vocabulary.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image correctly shows the interior of a single-span Quonset/tunnel polyhouse with UV-stabilised polyethylene film cover and active crop rows (strawberry), which is a valid representation of the greenhouse MCAT.",
+      "However, the primary_segment specifies a naturally ventilated polyhouse with GI frame for commercial protected cultivation — an exterior shot clearly showing the GI tubular frame structure and ventilation openings would more precisely represent the primary segment and better serve B2B buyers evaluating structural specifications."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Exterior view of a large naturally ventilated polyhouse with a silver galvanised iron (GI) tubular arch frame, covered with translucent UV-stabilised polyethylene film, side roll-up ventilation openings visible along the base, set on flat agricultural land under bright Indian daylight, rows of green vegetable crops visible through the transparent film, clean white sky background, sharp product-focused photography, square 1:1 composition, professional commercial catalogue style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
