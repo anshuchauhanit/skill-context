@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Modular Toilet' directly matches the top primary keyword and is the dominant search and procurement term used by B2B buyers across construction, municipal, and government segments per Agent 3 alt_names and market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a valid interior shot of a modular toilet-cum-bathroom unit with Western WC, cistern, health faucet, and shower — correctly representing the product category without wrong-product contamination.",
+      "An interior view fails to communicate the prefabricated cabin form factor (exterior shell, portability, structural material) that differentiates this MCAT from a permanent toilet; an exterior shot of the full cabin unit would be significantly more informative for B2B buyers evaluating the product."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Exterior view of a standalone prefabricated FRP modular toilet cabin, light grey or off-white colour, single-seater unit, placed on flat ground at a construction site. The cabin shows a closed door with handle, ventilation louvre near the top, and clean panel joints visible. Bright natural daylight, slight three-quarter angle to show two sides of the cabin, plain white or light sky background. Photorealistic product-style render, sharp focus, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
