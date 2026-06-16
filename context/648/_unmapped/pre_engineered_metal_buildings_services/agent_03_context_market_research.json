@@ -1,0 +1,386 @@
+{
+  "mcat_description": {
+    "short": "Pre Engineered Metal Buildings (PEB) Services covers the end-to-end design, fabrication, supply, and on-site erection of factory-fabricated structural steel building systems, delivered as turnkey or supply-only packages for industrial, commercial, and institutional clients across India.",
+    "long": "Pre-Engineered Metal Buildings (PEB) are factory-fabricated steel structural systems comprising primary frames (tapered built-up I-section columns and rafters), secondary members (Z/C purlins, girts, eave struts, bracings), and roof/wall cladding panels, all designed off-site and assembled on-site using bolted connections. In India, PEB services are governed by IS 800:2007 (general construction in steel), IS 875 (wind and snow loads), and IS 1893 (seismic design), with design typically executed using STAAD.Pro or equivalent structural analysis software. The service offering ranges from supply-only packages (fabricated components delivered to site) to full turnkey solutions covering concept design, structural engineering, fabrication, transportation, and supervised erection. PEB systems deliver clear spans of 18–90 metres without intermediate columns, construction timelines 40–50% shorter than conventional RCC or conventional steel, and optimised steel usage — making them the default choice for single-storey industrial warehouses, factory sheds, logistics centres, and large-span commercial buildings in India.",
+    "product_types": [
+      "Industrial warehouse PEB (single-span, multi-span)",
+      "Factory shed / manufacturing plant PEB",
+      "Logistics and distribution centre PEB",
+      "Cold storage PEB with insulated sandwich panels",
+      "Commercial building PEB (showrooms, retail complexes)",
+      "Aircraft hangar / bus depot PEB (wide-span 40–60m+)",
+      "Multi-storey PEB with mezzanine floors",
+      "Crane-compatible PEB (overhead crane up to 50T capacity)",
+      "Agricultural storage / agro-processing PEB",
+      "Institutional PEB (schools, sports halls, auditoriums)",
+      "Lean-to / canopy / extension PEB structures",
+      "Modular site office / portable cabin PEB"
+    ],
+    "primary_applications": [
+      "Industrial warehousing and bulk storage",
+      "Manufacturing plant and factory shed construction",
+      "Logistics, e-commerce, and distribution centre development",
+      "Cold storage and food processing facility construction",
+      "Automobile showroom and workshop construction",
+      "Aircraft hangar and aviation ground support facility",
+      "Retail and commercial complex construction",
+      "Agricultural produce storage and agro-processing units",
+      "Institutional buildings: sports halls, auditoriums, metro stations",
+      "Crane-equipped heavy engineering workshops"
+    ],
+    "buyer_segments": [
+      "Industrial manufacturers and factory developers (SME to large enterprise)",
+      "Logistics and warehousing companies (3PL, e-commerce fulfilment)",
+      "Real estate developers building industrial parks and SEZs",
+      "EPC contractors and project management consultants",
+      "Government and PSU infrastructure agencies",
+      "Cold chain and food processing companies",
+      "Automobile OEMs and ancillary manufacturers",
+      "Institutional buyers: schools, universities, sports authorities",
+      "Agricultural cooperatives and agri-export companies"
+    ]
+  },
+  "primary_segment": "Turnkey industrial warehouse and factory shed construction using pre-engineered metal building systems",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "End-to-end pre-engineered metal building service (design, fabrication, supply, erection) for industrial and commercial structures",
+    "secondary_families": [],
+    "reason": "All sub-types within this MCAT share the same structural system (IS:800 steel PEB), the same buyer profile (industrial/commercial developer or EPC contractor), and the same regulatory framework — no sibling MCAT carves out an incompatible regulatory regime or buyer class."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "pre engineered metal buildings",
+      "PEB construction",
+      "pre engineered building services",
+      "PEB structure",
+      "pre engineered steel building",
+      "PEB shed",
+      "metal building construction",
+      "prefabricated steel building",
+      "industrial PEB",
+      "PEB warehouse"
+    ],
+    "technical_synonyms": [
+      "pre-engineered building system",
+      "PEMB (pre-engineered metal building)",
+      "rigid frame steel building",
+      "tapered frame steel structure",
+      "built-up section steel building",
+      "low-rise steel building system",
+      "MBMA building system",
+      "bolted steel frame building",
+      "factory-fabricated steel structure",
+      "IS 800 steel building"
+    ],
+    "trade_names": [
+      "Tata BlueScope Steel PEB",
+      "Pennar PEB (Prime Build / Value Build)",
+      "EPACK Prefab PEB",
+      "Everest Industries PEB",
+      "Zamil Steel PEB",
+      "Lloyd Insulations PEB",
+      "Kirby Building Systems",
+      "Interarch Building Products",
+      "Metal Tree PEB",
+      "KP Green Engineering PEB"
+    ],
+    "hindi_terms": [
+      "पूर्व-इंजीनियर्ड धातु भवन",
+      "प्री-इंजीनियर्ड बिल्डिंग",
+      "स्टील शेड निर्माण",
+      "औद्योगिक शेड सेवा"
+    ],
+    "buyer_intent_queries": [
+      "pre engineered metal building construction company India",
+      "PEB warehouse construction turnkey",
+      "industrial shed PEB manufacturer India",
+      "pre engineered building design and erection service",
+      "factory shed PEB construction cost India",
+      "PEB structure for warehouse with crane",
+      "pre engineered steel building IS 800 compliant",
+      "turnkey PEB construction for logistics centre",
+      "pre engineered building with insulated panels cold storage",
+      "PEB manufacturer with erection service India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian PEB sellers quote on a per-square-foot basis for the building footprint area (covering steel supply and erection), with turnkey projects additionally quoted as a lump-sum per project; per-sq-ft is the dominant comparison unit buyers use when evaluating competing PEB vendors.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Supply-only (fabricated components)",
+        "unit": "per kg (steel weight)",
+        "note": "Quoted as total steel weight in kg or MT, plus separate erection cost"
+      },
+      {
+        "sub_segment": "Turnkey construction",
+        "unit": "per project (lump sum)",
+        "note": "Full design-supply-erect contract quoted as a single project value"
+      },
+      {
+        "sub_segment": "Standard industrial shed",
+        "unit": "per sq ft",
+        "note": "Most common comparison unit for warehouse and factory shed buyers in India"
+      }
+    ],
+    "sources_checked": [
+      "ISCodeHub (iscodehub.com/knowledge/peb-buildings)",
+      "Metal Tree (metaltree.in)",
+      "Alliance Steel (alliancesteelindia.com)",
+      "Pennar Industries (pennarindia.com)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Pre-Engineered Metal Buildings (PEB) in India are factory-fabricated structural steel systems designed to IS 800:2007, IS 875 (Parts 1–3), and IS 1893 (seismic), with many vendors also referencing MBMA (Metal Building Manufacturers Association, USA) and AISC codes for design methodology. The Indian PEB market is dominated by industrial and warehousing applications, with practical clear spans of 18–36m for most warehouses and factories, and 40–60m for aircraft hangars, bus depots, and covered sports facilities. Major Indian PEB vendors include Tata BlueScope, Pennar Industries, Everest Industries, Zamil Steel, EPACK Prefab, and Lloyd Insulations. The procurement process involves issuing an enquiry with building specifications, receiving a frame design proposal and erection drawings, and a quote covering dead load, live load, and wind analysis per IS 875 — with erection typically by the manufacturer's sub-contractors and a lead time of 8–12 weeks from order to delivery. India's industrial and warehousing sector is projected to grow at a CAGR of 10–12% through 2027 (ICRA), with Tier-2 and Tier-3 cities driving approximately 40% of new demand (CII) — making PEB the default construction method for single-storey industrial buildings. Crane-compatible PEB (overhead cranes up to 50T, IS 807 duty class) is a significant sub-segment commanding a cost premium. The 'Services' framing of this MCAT reflects that buyers procure PEB as a complete design-fabricate-erect service engagement, not as a commodity product.",
+  "buyer_attracting_attributes": [
+    "Clear Span Width",
+    "Eave Height",
+    "Design Code Compliance (IS 800, IS 875, IS 1893)",
+    "Crane Compatibility and Capacity",
+    "Roofing and Cladding Type (bare sheet / insulated sandwich panel / Galvalume)",
+    "Steel Grade and Coating (Galvanized / Epoxy / Hot-Dip Galvanized)",
+    "Wind Zone and Seismic Zone Rating",
+    "Turnkey vs Supply-Only Scope",
+    "Bay Spacing",
+    "Delivery and Erection Lead Time"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "176103",
+    "mcat_name": "Pre Engineered Metal Buildings Services",
+    "mcat_level": "5",
+    "listing_count": "757",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Pre Engineered Metal Buildings Services",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "181553.0",
+      "name": "Pre Engineered Steel Building",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "181553.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "38179",
+        "mcat_name": "Steel Buildings",
+        "listing_count": "1730",
+        "source_pmcat": "181553.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 1,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Pre-engineered metal buildings are structural systems governed by Indian Building Code (IBC) and BIS standards (IS:800 steel design, IS:1893 seismic). Buyers evaluate design compliance, span capacity, and load ratings — not brand names. Research prioritised BIS/IBC compliance signals, standard span/height configurations, and material grade specifications."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "primary_segment"
+        ],
+        "citation_note": "Single keyword 'pre engineered metal buildings services' (4 pageviews) confirmed service-oriented framing of MCAT; insufficient for sub-segment differentiation."
+      },
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "No Google keyword data provided for this MCAT."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "No call data rows provided for this MCAT."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT sits under Prefabricated Structures; 757 listing count treated as plausible; single sibling noted."
+      },
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "No product_page_url provided; page fetch not attempted. page_fetch_failed set to true."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.iscodehub.com/knowledge/peb-buildings",
+        "title": "PEB Buildings - Complete Guide & Specifications | ISCodeHub",
+        "source_domain": "iscodehub.com",
+        "derived_outputs": [
+          "market_context",
+          "unit_quoting_context",
+          "mcat_description.long",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for Indian span norms (18–36m warehouses, 40–60m hangars), procurement process, lead times, major Indian vendors, and unit quoting pattern (per sq ft / per kg)."
+      },
+      {
+        "url": "https://www.metaltree.in/",
+        "title": "Leading Pre-Engineered Buildings Manufacturer - Metal Tree",
+        "source_domain": "metaltree.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.long",
+          "alt_names.trade_names",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for IS 800:2007, IS 875, IS 1893 compliance confirmation; supply-only vs turnkey scope distinction; STAAD.Pro design software reference."
+      },
+      {
+        "url": "http://www.nisametalbuildings.com/peb-specifications.htm",
+        "title": "Pre Engineered Steel Structures, Steel Buildings Manufacturers",
+        "source_domain": "nisametalbuildings.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for primary and secondary framing component list (rigid frames, purlins, girts, eave struts, bracings) and design code references (IS 875, IS 800, IS 1893, MBMA, AISC)."
+      },
+      {
+        "url": "https://www.alliancesteelindia.com/peb-structures.html",
+        "title": "PEB Structures - Industrial PEB Structure Manufacturer from Vadodara",
+        "source_domain": "alliancesteelindia.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Used for technical specifications (span up to 60m, height 6–15m, IS 875 wind load, roofing/cladding material types, coating options) and application list."
+      },
+      {
+        "url": "https://www.epack.in/pre-engineered-building",
+        "title": "Pre Engineered Metal Building & PEB Manufacturer in India",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "alt_names.trade_names",
+          "market_context"
+        ],
+        "citation_note": "Used for turnkey scope confirmation (design, engineering, manufacturing, on-site installation) and buyer segment validation."
+      },
+      {
+        "url": "https://www.pennarindia.com/pre-engineered-buildings.php",
+        "title": "PEB | Pre Engineered Buildings By Pennar Industries",
+        "source_domain": "pennarindia.com",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for major Indian PEB vendor confirmation (Pennar Industries), manufacturing capacity data, and product line names (Prime Build, Value Build)."
+      },
+      {
+        "url": "https://www.kamdhenulimited.com/product/kamdhenu-peb",
+        "title": "PEB – Pre-Engineered Buildings Solutions India - Kamdhenu Group",
+        "source_domain": "kamdhenulimited.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for custom design parameters (span, height, bay spacing, crane loads, mezzanines, environmental loads) and insulated panel / cool roof system references."
+      },
+      {
+        "url": "https://mountroof.com/pebs-reshaping-india-pre-engineered-steel-buildings-manufacturer/",
+        "title": "PEBs – Transforming India's Pre-Engineered Steel Buildings",
+        "source_domain": "mountroof.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for ICRA and CII market growth projections (CAGR 10–12% through 2027; Tier-2/3 cities driving 40% of demand) and application breadth."
+      },
+      {
+        "url": "https://www.buildingsguide.com/build/pre-engineered-metal-building/",
+        "title": "Pre-Engineered Metal Buildings | Specs & Costs",
+        "source_domain": "buildingsguide.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for standard package components list (primary framing, secondary framing, roof/wall panels, trim, fasteners, anchor bolt plan, stamped drawings) and construction speed advantage (30–50% faster, MBMA)."
+      },
+      {
+        "url": "https://utkarshindia.in/products/pre-engineered-metal-buildings",
+        "title": "PEB Manufacturers in India | Pre Engineered Building Experts",
+        "source_domain": "utkarshindia.in",
+        "derived_outputs": [
+          "buyer_attracting_attributes",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Used for design code compliance list (IS/AISC/MBMA for primary; IS 801/AISI for secondary; IS 1893 seismic; AWS D1.1M welding) and Galvalume sheet specifications."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "IS:800",
+        "IS:1893",
+        "IBC"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Pre-engineered metal buildings are structural systems governed by Indian Building Code (IBC) and BIS standards (IS:800 steel design, IS:1893 seismic). Buyers evaluate design compliance, span capacity, and load ratings — not brand names. Research should prioritise BIS/IBC compliance signals, standard span/height configurations, and material grade specifications."
+    }
+  }
+}
