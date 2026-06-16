@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'PEB Structures Fabrication' directly matches the dominant buyer vocabulary ('PEB fabrication', 'PEB structure manufacturer') confirmed across Agent 3 primary_keywords and buyer_intent_queries, and accurately reflects the end-to-end design-fabricate-erect service scope described in market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image correctly shows a large-scale PEB steel frame structure under erection with cranes and workers — directly representing the primary segment (industrial warehouse/factory shed turnkey PEB fabrication and erection service).",
+      "A third-party watermark text ('INNOVATE / INNAR / TELEGRAI...') is partially visible at the bottom edge, and the under-construction framing-only view lacks the finished cladding context that would better communicate the complete PEB product to buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a large completed industrial PEB warehouse shed with light grey painted steel rigid frame columns and rafters, corrugated metal roof and wall cladding panels in blue and grey, wide clear-span interior visible through open front elevation, set on a concrete apron with a clean industrial estate background, bright daylight, slight low-angle perspective to convey scale, no people, no text, no watermarks, sharp product-focused composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
