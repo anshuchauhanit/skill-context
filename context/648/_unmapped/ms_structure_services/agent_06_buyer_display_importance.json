@@ -1,0 +1,234 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Structure type and service scope are the primary routing gates — a buyer needing a factory shed erection cannot use a canopy or mezzanine contractor. Without these specs, the listing cannot be evaluated for fit."
+    },
+    {
+      "rank": 2,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Project photos are the only evidence of contractor capability and scale — a listing without photos cannot demonstrate whether the contractor has completed industrial shed work or only small canopy jobs. Buyers use photos to verify scale, weld quality, and structural complexity before shortlisting."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Market is fragmented across regional fabrication contractors with no dominant brand; buyers search by capability, certification, and location — not by contractor brand name.",
+      "reason": "This is a capital project service with significant on-site execution risk. Buyers evaluate contractor track record, IS:800 compliance capability, NDT certification, years in business, and geographic service reach as primary vendor selection criteria — company credibility is equal in weight to specification fit."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "All MS structure contracts are project-quoted after site visit and drawing review; listed price is a budget entry point only. Indian buyers are price-sensitive but final price is always negotiated — price display helps buyers assess whether to engage, not to compare across listings."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Medium",
+      "show": true,
+      "canonical_unit": "per kg",
+      "unit_note": "Heavy structural fabrication (sheds, trusses, portal frames) is quoted per kg; mezzanine floors and platforms are quoted per sq ft; labour-only erection contracts are quoted per project. Unit must be shown to prevent price misreading across these sub-segments.",
+      "reason": "Per kg vs per sq ft vs per project is a genuine ambiguity in this MCAT — buyers cannot interpret or compare indicative prices without knowing the unit basis. Unit display is necessary despite project-based pricing."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Type",
+        "reason": "Defines what is being built — mezzanine floor, factory shed, industrial shed, warehouse, canopy — which are non-interchangeable applications with order-of-magnitude price differences between them."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Service Type",
+        "reason": "Defines the contract scope — turnkey project, erection-only, design-and-build, or repair — which are fundamentally different pricing models and capability requirements that buyers cannot substitute for one another."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Fabrication Technique",
+      "Industry Type",
+      "Material Used",
+      "Payment Mode",
+      "Service Duration",
+      "Service Location",
+      "Service Mode",
+      "Service Type",
+      "Structure Type",
+      "Usage Application"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Steel Grade",
+        "why_important": "IS:2062 E250 vs E350 grade selection drives structural section sizing, load capacity, and fabrication cost — buyers in industrial and oil & gas segments specify grade explicitly in their tender documents.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "IS:2062 E250",
+          "IS:2062 E350",
+          "IS:2062 E410",
+          "ASTM A36"
+        ]
+      },
+      {
+        "spec_name": "Structural Span",
+        "why_important": "Span between columns (e.g., 12m, 18m, 24m, 30m) is the primary structural design input that determines section sizes, truss configuration, and fabrication complexity — sellers cannot quote accurately without it.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "Up to 12 m",
+          "12–18 m",
+          "18–24 m",
+          "Above 24 m"
+        ]
+      },
+      {
+        "spec_name": "Surface Treatment",
+        "why_important": "Primer painting vs hot-dip galvanising vs epoxy coating is a significant cost and durability differentiator — galvanised structures cost substantially more and are specified for corrosive or outdoor environments.",
+        "source": "both",
+        "example_values": [
+          "Primer Painting",
+          "Hot-Dip Galvanising",
+          "Epoxy Coating",
+          "Zinc Primer + Finish Paint"
+        ]
+      },
+      {
+        "spec_name": "Design Load / Load Capacity",
+        "why_important": "Dead load plus live load specification (per sq m or per sq ft) determines structural section selection and directly drives fabrication weight and cost — without this, sellers cannot produce an accurate BOQ.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "Light Duty (up to 150 kg/sq m)",
+          "Medium Duty (150–500 kg/sq m)",
+          "Heavy Duty (above 500 kg/sq m)",
+          "As per IS:875"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Application",
+        "reason": "Tells the seller what type of structure is needed — factory shed, warehouse, solar structure, lift shaft — routing the RFQ to contractors who specialise in that application and can confirm supply capability.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Factory Shed",
+          "Warehouse/Godown",
+          "Solar Structure",
+          "Lift Structure",
+          "Coffee Shop",
+          "Ring Making Unit"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Scope of Service",
+        "reason": "Defines whether the buyer wants fabrication only, installation only, or full design-and-build — sellers need this to determine their fit and apply the correct pricing model.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Structural Span",
+        "why_important": "Span between columns is the primary structural design input — sellers cannot determine section sizes, truss configuration, or fabrication weight without it, making accurate quoting impossible.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "Up to 12 m",
+          "12–18 m",
+          "18–24 m",
+          "Above 24 m"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Buyers commissioning MS structure fabrication typically have site drawings, architectural plans, or reference photos of similar structures they want built. An uploaded drawing or reference image lets sellers assess structural complexity, site constraints, and span configuration before responding — significantly improving quote accuracy and reducing back-and-forth before a site visit."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Application",
+      "option_value": "Factory Shed",
+      "id": "spec_1",
+      "prompt_for_generation": "Completed mild steel factory shed structure, large industrial span with portal frame columns and roof trusses, corrugated metal roofing, concrete floor visible, natural daylight exterior view, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Application",
+      "option_value": "Warehouse/Godown",
+      "id": "spec_2",
+      "prompt_for_generation": "Mild steel warehouse structure with wide-span roof, large roller shutter doors on facade, MS columns and purlins visible, exterior view showing full building elevation, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Application",
+      "option_value": "Solar Structure",
+      "id": "spec_3",
+      "prompt_for_generation": "MS mild steel solar panel mounting structure on rooftop, angled galvanised steel frame supporting solar panels in rows, industrial rooftop setting, clear sky background, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Application",
+      "option_value": "Lift Structure",
+      "id": "spec_4",
+      "prompt_for_generation": "Mild steel lift shaft structural framework inside an industrial building, vertical MS columns and cross-bracing forming the elevator shaft enclosure, primer-painted steel, interior construction context, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Application",
+      "option_value": "Coffee Shop",
+      "id": "spec_5",
+      "prompt_for_generation": "Mild steel structural framework for a small commercial coffee shop or cafe, exposed MS columns and beams with glass infill panels, modern industrial aesthetic, exterior view, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Application",
+      "option_value": "Ring Making Unit",
+      "id": "spec_6",
+      "prompt_for_generation": "Mild steel mezzanine floor structure inside an industrial manufacturing unit, MS columns supporting an elevated platform with chequered plate flooring and safety handrails, factory interior setting, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
