@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Factory Shed' directly matches the top primary keyword and buyer intent query in Agent 3 alt_names, and aligns with market_context confirming this is the dominant buyer-facing term in India for PEB and pipe-shed structures used in industrial/manufacturing settings.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a small blue colour-coated steel shed with a sliding door — a valid prefabricated factory shed product, so it is not wrong, but it represents a compact/small-scale structure in a snowy outdoor setting that reads as a storage unit rather than an industrial-scale PEB factory shed matching the primary_segment.",
+      "The snowy background and small footprint underrepresent the primary_segment (large-span PEB steel factory shed for industrial/manufacturing use) and may mislead buyers seeking multi-bay or crane-compatible industrial structures; a wide-span PEB shed in an Indian industrial context would significantly improve buyer relevance."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic exterior view of a large-span Pre-Engineered Building (PEB) steel factory shed in an Indian industrial setting. Wide gable-end facade with tapered steel portal frame columns, colour-coated Galvalume corrugated roofing and wall cladding in light grey and blue, large industrial sliding door at centre, clear-span interior visible through open door showing concrete floor. Bright daylight, clean white background or minimal industrial park surroundings, slight three-quarter perspective angle to show both roof slope and side wall depth. Sharp product-focused composition, no people, no text overlays, square 1:1 crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
