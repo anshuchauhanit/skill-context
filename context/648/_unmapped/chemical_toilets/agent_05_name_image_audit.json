@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Chemical Toilets' directly matches the top primary_keyword and is the dominant buyer search term confirmed across alt_names and market_context; no more precise or widely-used alternative name exists for this MCAT in the Indian B2B market.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a compact portable cassette/camping toilet unit (two-piece plastic body with removable lower tank and flush mechanism) — this is a consumer-grade recreational or marine cassette toilet, not the primary segment of self-contained FRP/HDPE/PVC cabin-style portable chemical toilet used on construction sites and outdoor events in India.",
+      "The image represents a wrong sub-segment (cassette/camping toilet) that conflicts with the primary_segment, and would mislead B2B buyers seeking full-cabin portable sanitation units; it should be replaced with a full-height standalone portable toilet cabin."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A standalone full-height portable chemical toilet cabin made of white FRP (Fibre Reinforced Plastic), approximately 4 feet wide and 7 feet tall, with a closed door featuring a ventilation slot and a door latch, a small overhead water tank visible on top, placed on a flat surface against a clean white background, front-facing three-quarter view, bright even studio lighting, sharp product photography style, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
