@@ -1,0 +1,66 @@
+{
+  "enhanced_name_4w": "Agricultural Polyhouse Frame Structure",
+  "enhanced_name_5w": "GI Pipe Polyhouse Structure for Farming",
+  "enhanced_name_6w": "NVPH GI Pipe Polyhouse Structure for Agriculture",
+  "enhanced_name_long": "Naturally Ventilated Polyhouse and Agricultural Greenhouse Structures — GI Pipe Frame with UV Film Cover for Protected Cultivation",
+  "alt_names": {
+    "primary_keywords": [
+      "greenhouse structure",
+      "polyhouse structure",
+      "poly house structure",
+      "agricultural greenhouse",
+      "polyhouse frame",
+      "GI pipe greenhouse",
+      "NVPH structure",
+      "protected cultivation structure",
+      "shade net house structure",
+      "fan pad greenhouse"
+    ],
+    "technical_synonyms": [
+      "Naturally Ventilated Polyhouse (NVPH)",
+      "Fan and Pad Greenhouse",
+      "HDG GI pipe frame structure",
+      "IS 14462 greenhouse structure",
+      "tubular steel greenhouse frame",
+      "polycarbonate greenhouse structure",
+      "Quonset polyhouse",
+      "tunnel polyhouse",
+      "evaporative cooling greenhouse"
+    ],
+    "trade_names": [
+      "net house",
+      "shade house",
+      "cool house",
+      "climate-controlled greenhouse",
+      "low-cost polyhouse",
+      "high-tech greenhouse",
+      "flat house"
+    ],
+    "hindi_terms": [
+      "पॉलीहाउस",
+      "ग्रीनहाउस संरचना",
+      "पॉली हाउस ढांचा",
+      "शेड नेट हाउस"
+    ],
+    "buyer_intent_queries": [
+      "polyhouse structure for vegetable farming",
+      "NHB subsidy greenhouse structure India",
+      "GI pipe polyhouse structure per sq meter",
+      "naturally ventilated polyhouse construction",
+      "fan and pad greenhouse structure supplier",
+      "agriculture greenhouse structure manufacturer India",
+      "low cost polyhouse structure for farmers",
+      "polycarbonate greenhouse structure for floriculture",
+      "terrace greenhouse structure for rooftop farming",
+      "MIDH compliant polyhouse structure supplier"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Mini/hobby greenhouse buyers (home gardeners, balcony growers, indoor plant enthusiasts) — represented by sibling 'Mini Greenhouse' (ID 116157); names implying small-scale decorative or personal-use enclosures are blocked as they attract a non-agricultural, non-commercial buyer persona incompatible with this MCAT's farmer and agri-entrepreneur segment.",
+    "Used/second-hand polyhouse buyers — the product_types list includes 'Used / Second-hand Polyhouse Structure' as a sub-type, but no dedicated sibling MCAT for used polyhouses was found in the taxonomy; however, buyer_intent_queries evidence confirms this sub-segment exists and the term 'used polyhouse structure for sale' has been removed from alt_names buyer_intent_queries to avoid attracting a distinct used-goods buyer persona that would be better served by a separate listing context.",
+    "Generic prefabricated building buyers (industrial sheds, warehouses, modular buildings) — siblings such as 'Prefabricated Buildings', 'Prefabricated Steel Buildings', 'Modular Buildings', and 'Prefabricated Warehouse' attract construction and industrial buyers; names using generic prefab/structural framing vocabulary without agricultural context are blocked.",
+    "Standalone 'Polyhouse' sibling (ID 149713) and 'Naturally Ventilated Greenhouse' sibling (ID 166277) and 'Agricultural Greenhouses' sibling (ID 21344) and 'Greenhouse' sibling (ID 29816) — all enhanced names and alt_names entries have been checked against these sibling names; 'polyhouse' and 'greenhouse' as standalone single-word entries are retained in alt_names as search keywords but are not used as standalone enhanced name candidates to avoid exact collision with sibling MCAT names."
+  ],
+  "segment_contamination_disclaimer": null
+}
