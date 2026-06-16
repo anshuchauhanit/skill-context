@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Portable ATM Cabin' directly matches the top primary keyword and trade usage confirmed across Agent 3 alt_names and market_context, where 'portable ATM cabin' and 'prefabricated ATM cabin' are the dominant buyer-facing terms in the Indian B2B market.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail shows a dark-grey prefabricated cabin structure with large glazed panels and a sliding/hinged door — consistent with the primary segment (prefabricated enclosure for ATM deployment), so the product category is correctly represented.",
+      "However, the cabin lacks any ATM-specific visual cues (no ATM machine visible inside, no bank branding or signage, no security door reinforcement detail), making it visually indistinguishable from a generic security guard cabin or site office — a more ATM-specific image would significantly improve buyer recognition and click-through."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product photograph of a prefabricated portable ATM cabin, mild steel construction with light grey or off-white ACP panel exterior, compact single-unit enclosure approximately 6x4 feet, featuring a reinforced security door with digital lock on the front face, a small ATM machine visible through a toughened glass window cut-out, roof-mounted split AC outdoor unit, CCTV camera bracket at top corner, clean white studio background, soft even lighting, slight three-quarter angle view showing front and one side panel, no people, no clutter, sharp focus on structural details.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
