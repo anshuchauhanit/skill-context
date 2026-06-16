@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'FRP Portable Security Cabin' directly matches the dominant on-platform search term identified in Agent 3 market_context and aligns with primary_keywords ('FRP portable security cabin', 'FRP security cabin'); no more accurate or widely-used alternative name exists in the alt_names data.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a compact single-person FRP cabin with gable/pitched roof, aluminium sliding window, and FRP door — correctly representing the primary segment (4×4 to 4×6 ft watchman/guard booth), so the product identity is not wrong.",
+      "However, the bright lime-green and yellow colour scheme with a decorative tiled gable roof gives a toy-house or playhouse aesthetic rather than a professional industrial/security product appearance, and the plain white background with no contextual deployment setting (gate, construction site) reduces buyer confidence and category authority — significant improvement is possible with a more neutral-coloured, professionally styled cabin shown in a realistic deployment context."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A compact FRP portable security cabin (approximately 4x4 ft footprint, 7.5 ft height) with smooth FRP moulded wall panels in light grey or off-white colour, yellow or grey MS angle frame accents, flat or low-pitch pyramid roof, one aluminium sliding glass window on the side, and a half-glazed FRP door with chrome handle, placed at a gated residential society entrance on a clean concrete floor, soft natural daylight, slight three-quarter front angle view, professional product photography style, white or light neutral background, no people, no text overlays, sharp focus on cabin details showing FRP panel texture and structural frame.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
