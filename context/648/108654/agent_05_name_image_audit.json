@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Log Cabin' directly matches the top primary keyword in Agent 3 alt_names and aligns with the dominant buyer search vocabulary ('log cabin', 'wooden log cabin') confirmed across market context and buyer intent queries.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail clearly shows a solid-log-wall wooden cabin with a covered front porch, gabled roof, and visible round log ends — accurately representing the primary segment of prefabricated modular wooden log cabins for resort and residential use.",
+      "Improvement is possible: the image appears to be a stock/catalogue render on a plain white background with no contextual setting (hill station, resort, greenery), which reduces aspirational appeal for the primary B2B buyer segment of eco-resort and hospitality developers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated modular wooden log cabin with stacked round-log walls, a gabled shingle roof, a covered front verandah with wooden railing, and a solid wood door, set in a lush green hill-station landscape with pine trees and soft natural daylight, photorealistic product photography style, clean and professional, square 1:1 composition, white or soft-blurred natural background, no people, no text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
