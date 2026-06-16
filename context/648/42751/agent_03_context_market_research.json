@@ -1,0 +1,550 @@
+{
+  "mcat_description": {
+    "short": "Guard huts are compact prefabricated structures used to shelter security personnel at entry and exit points of residential, commercial, and industrial premises. They are sold as ready-to-install or semi-knocked-down units in steel, FRP, PUF-panel, or PVC construction.",
+    "long": "Guard huts — also widely called security cabins, guard rooms, or watchman rooms — are factory-built portable structures designed to provide a functional workspace for on-duty security guards at gates, checkpoints, and access control points. They are manufactured using a mild steel or GI frame with wall panels of FRP, PUF sandwich panels, EPS, cement fibre board (CFB), or GI sheet, and are available in standard footprints ranging from 4×4 ft to 8×8 ft with custom sizes on request. Key features include weather resistance, thermal insulation, pre-fitted electrical conduits, sliding windows, and lockable doors, making them suitable for year-round outdoor deployment without a permanent foundation. The Indian market is served by a large base of prefab manufacturers concentrated in NCR (Faridabad, Noida, Gurgaon), Ahmedabad, Pune, and Chennai, with both readymade and made-to-order supply models.",
+    "product_types": [
+      "MS (Mild Steel) Security Guard Cabin",
+      "FRP (Fibre Reinforced Plastic) Security Guard Cabin",
+      "PUF Panel Insulated Security Cabin",
+      "GI Sheet Security Cabin",
+      "PVC Security Cabin",
+      "Wooden Security Guard Room",
+      "Container-Based Guard Room",
+      "CFB (Cement Fibre Board) Guard Cabin",
+      "EPS Panel Security Cabin",
+      "Portable Guard Booth / Security Kiosk",
+      "Readymade / Pre-assembled Guard Room"
+    ],
+    "primary_applications": [
+      "Residential society and apartment complex entry gates",
+      "Industrial plant and factory gate security posts",
+      "Commercial office campus and IT park entry points",
+      "Construction site security checkpoints",
+      "Toll booths and highway checkpoints",
+      "Hospital and institutional campus gates",
+      "Warehouse and logistics park access control",
+      "Government and public facility entry monitoring"
+    ],
+    "buyer_segments": [
+      "Residential housing societies and RWAs (Resident Welfare Associations)",
+      "Industrial and manufacturing facility managers",
+      "Real estate developers and construction contractors",
+      "Security agencies procuring for client sites",
+      "Government departments and PSUs",
+      "Commercial property and facility management companies",
+      "Logistics and warehousing operators"
+    ]
+  },
+  "primary_segment": "Prefabricated portable security guard cabin/room for entry-point monitoring at residential, industrial, and commercial premises",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated portable security guard cabin/room for entry-point monitoring",
+    "secondary_families": [],
+    "reason": "All product sub-types (steel, FRP, PUF, wooden, container) share the same buyer profile, purpose, and regulatory regime — no incompatible product families exist within this MCAT."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "guard room",
+      "security cabin",
+      "guard hut",
+      "security guard cabin",
+      "watchman room",
+      "guard cabin",
+      "prefab guard room",
+      "portable security cabin",
+      "readymade guard room",
+      "security booth"
+    ],
+    "technical_synonyms": [
+      "prefabricated security cabin",
+      "portable guard post",
+      "modular security cabin",
+      "panel build security cabin",
+      "porta cabin guard room",
+      "prefab watchman cabin",
+      "security kiosk",
+      "guard shelter",
+      "MS security cabin",
+      "FRP security cabin"
+    ],
+    "trade_names": [
+      "EPACK security cabin",
+      "Pressmach security cabin",
+      "Epsilon portable cabin",
+      "Everest prefab security cabin",
+      "Supersun guard room",
+      "Omkar prefab guard hut"
+    ],
+    "hindi_terms": [
+      "चौकी घर",
+      "सुरक्षा केबिन",
+      "गार्ड रूम",
+      "चौकीदार कमरा"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated security guard cabin for factory gate",
+      "readymade guard room for housing society",
+      "portable watchman cabin for construction site",
+      "steel security cabin with insulation",
+      "FRP guard hut for industrial use",
+      "buy prefab guard room online India",
+      "security cabin with electrical fittings",
+      "portable guard post for office campus",
+      "customised guard room container",
+      "prefab security cabin manufacturer India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Standard and readymade guard cabins are quoted per piece in Indian B2B transactions; custom or large-format orders may be quoted per sq ft, but per-piece dominates for the typical 4×4 to 8×8 ft security cabin segment.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard readymade guard cabin (4×4 to 8×8 ft)",
+        "unit": "per piece",
+        "note": "Most common transaction unit; sellers list fixed per-piece prices for standard sizes"
+      },
+      {
+        "sub_segment": "Custom-sized or large-format cabin",
+        "unit": "per sq ft",
+        "note": "Used when buyer specifies non-standard dimensions; price quoted per sq ft of floor area"
+      }
+    ],
+    "sources_checked": [
+      "EPACK Prefab (epack.in)",
+      "Pressmach (pressmach.com)",
+      "Tinny Craft (tinnycraft.in)",
+      "Fibrecrafts India (fibrecraftsindia.com)",
+      "UNO Structures (unostructures.com)",
+      "IndiaMART MCAT page (structural signal only)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Guard huts in the Indian B2B market are predominantly sold as prefabricated portable security cabins, with mild steel (MS) and FRP being the two dominant material types; PUF-insulated panel cabins are a growing premium sub-segment favoured for all-weather comfort. Standard commercial sizes are 4×4 ft, 4×6 ft, 6×6 ft, 6×8 ft, and 8×8 ft, with custom dimensions available from most manufacturers. The Indian manufacturing base is concentrated in NCR (Faridabad, Noida, Gurgaon), Ahmedabad, and Pune, with pan-India delivery. Buyers include housing societies, industrial facilities, real estate developers, and security agencies. The product is sold both as a readymade/pre-assembled unit and as a semi-knocked-down (SKD) kit for on-site assembly. No mandatory BIS or IS standard governs guard huts specifically; quality is assessed by material grade, insulation type, and structural durability. The buyer vocabulary strongly favours 'guard room' and 'security cabin' over 'guard hut' (confirmed by Google keyword data: 'guard room' = 237 impressions vs 'guard huts' = lower internal volume). Container-based guard rooms are an emerging variant for buyers needing larger or more permanent structures. The Hindi trade term 'चौकी घर' (chowki ghar) is used in buyer search queries (22 Google impressions at position 2).",
+  "buyer_attracting_attributes": [
+    "Material Type (MS / FRP / PUF Panel / PVC / Wooden)",
+    "Cabin Size / Dimensions (L × B × H in ft)",
+    "Insulation Type (PUF / EPS / Glass Wool / Thermocol)",
+    "Built Type (Prefabricated / Modular / Portable / Container)",
+    "Weather Resistance (all-weather / wind resistance rating)",
+    "Door Type (MS / PVC / Aluminium)",
+    "Window Type and Style (sliding / fixed / aluminium / PVC)",
+    "Flooring Type (PVC / Plywood / Tiles / Vinyl)",
+    "Electrical Fittings (pre-fitted conduits / lights / fan / AC provision)",
+    "Colour / Surface Finish"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "42751",
+    "mcat_name": "Guard Huts",
+    "mcat_level": "4",
+    "listing_count": "554",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Guard Huts",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Guard huts are prefabricated structures with no mandatory regulatory oversight. Buyers evaluate material type, dimensions, portability, and durability — standard B2B product attributes. External research surfaces material standards, typical configurations, and market patterns."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries",
+          "market_context"
+        ],
+        "citation_note": "'guard room' (237 impressions) confirmed as dominant buyer search term; 'चौकी घर' (22 impressions) confirmed Hindi trade term."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "'guard huts' and 'guard room cabin' tied at 13 pageviews each; anomalous KW 'hut shape metal coin bank' flagged as contamination signal but not a vagueness trigger."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "7 call rows confirmed buyer vocabulary: security guard cabin, watchman room, guard room, container guard room, wooden guard room. No spec values present."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed prefab structures parent; 27 siblings checked — none carve out an incompatible sub-type of guard huts."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.epack.in/portable-security-guard-cabins",
+        "title": "Portable Security Guard Cabin Manufacturer | Prefab Booth | EPACK",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "unit_quoting_context",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Standard sizes (4×4 to 8×8 ft), PUF/EPS panel construction, per-piece unit quoting, and feature list (insulation, electrical conduits, sliding windows) sourced here."
+      },
+      {
+        "url": "https://www.pressmach.com/solution/portable-prefabricated-security-kiosk",
+        "title": "Portable Security Cabins | Prefabricated Security Cabin Manufacturer in India - Pressmach",
+        "source_domain": "pressmach.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed three dominant material types (Steel, FRP, PVC) and pan-India manufacturer presence."
+      },
+      {
+        "url": "https://www.unostructures.com/container/security-cabin",
+        "title": "Security Cabin Manufacturer in India | UNO Structures",
+        "source_domain": "unostructures.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "market_context"
+        ],
+        "citation_note": "Confirmed application contexts (housing complexes, office gates, factories) and product sub-types (prefab, portable, porta cabin, readymade)."
+      },
+      {
+        "url": "https://www.hitechinnovations.in/prefabricated-sheds-security-guard-cabins/",
+        "title": "Guard Rooms: Security Cabins Chandigarh Panchkula Mohali | Hitech Innovations",
+        "source_domain": "hitechinnovations.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "FRP and PUF sandwich panel construction confirmed; all-weather insulation as a buyer-attracting attribute."
+      },
+      {
+        "url": "https://www.worldofportablecabins.com/frp-cabin.html",
+        "title": "FRP Cabin - Portable Security Guard Cabin OEM Manufacturer from Ahmedabad",
+        "source_domain": "worldofportablecabins.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "IS-grade steel frame, GI corrugated sheeting, ACP interior, glass wool insulation, and component-level specs confirmed for premium segment."
+      },
+      {
+        "url": "https://www.needhifrpindia.com/frp-portable-security-cabins.html",
+        "title": "FRP Portable Security Cabins - FRP Security Guard Cabins Manufacturer from Ahmedabad",
+        "source_domain": "needhifrpindia.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "FRP guard huts, FRP security cabins, FRP guard house cabin confirmed as trade terms used by Ahmedabad manufacturers."
+      },
+      {
+        "url": "https://www.tinnycraft.in/guard-cabin.html",
+        "title": "Guard Cabin - Portable Guard Cabin Manufacturer from New Delhi",
+        "source_domain": "tinnycraft.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Standard sizes 3×3, 4×4, 6×4, 6×6 ft confirmed; per-piece unit quoting confirmed for standard sizes."
+      },
+      {
+        "url": "https://www.fibrecraftsindia.com/portable-cabins.html",
+        "title": "PORTABLE CABINS - Steel Container Homes Manufacturer from Pune",
+        "source_domain": "fibrecraftsindia.com",
+        "derived_outputs": [
+          "unit_quoting_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Per sq ft quoting confirmed for custom/large-format cabins; FRP, steel, RCC, sandwich panel, PUF panel material types confirmed."
+      },
+      {
+        "url": "https://www.matrixportablecabins.com/prefabricated-frp-security-cabin-7213451.html",
+        "title": "Prefabricated FRP Security Cabin at Best Price - Durable & Portable Solution",
+        "source_domain": "matrixportablecabins.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Application contexts (security points, site offices, guard rooms, toll booths) and FRP wind resistance spec (up to 150 km/h) confirmed."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Guard huts are prefabricated structures with no mandatory regulatory oversight (no CDSCO, FSSAI, BIS certification requirement). Buyers evaluate material type, dimensions, portability, and durability — standard B2B product attributes. External research will surface material standards (steel/FRP/wood), typical configurations, and market pricing patterns."
+    }
+  }
+}
