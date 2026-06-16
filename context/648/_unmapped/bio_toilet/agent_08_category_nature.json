@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Bio Toilet' is tightly scoped to anaerobic biodigester-based sanitation units — the DRDO biodigester technology requirement meaningfully excludes chemical toilets, plain portable toilets, and conventional flush systems; buyer intent is homogeneous across all sub-types (institutional/public/rural sanitation procurement with biological waste treatment); listing count of 1,455 confirms healthy standalone volume.",
+    "is_vague: 0 of 5 signals fire — the name resolves to one product concept (biodigester-integrated toilet), Agent 3 named a confident unhedged primary_segment, all buyer_intent_queries cluster around the same sanitation procurement context, all product_types share the same buyer archetype, and sibling MCATs (Mobile Toilet Van, FRP Portable Toilet) carve out material/mobility sub-types without introducing incompatible buyer profiles or regulatory regimes."
+  ]
+}
