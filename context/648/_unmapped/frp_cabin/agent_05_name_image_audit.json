@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'FRP Cabin' directly matches the top primary keyword and is the dominant search term used by buyers and manufacturers across the Indian B2B market per Agent 3 alt_names and market_context; no more specific or widely-used alternative name exists that would better represent the full category breadth.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows a white FRP prefabricated cabin with a gable/hip roof, window, and door on a white background — correctly representing the primary segment (FRP Security/Guard Cabin) with no wrong-product contamination.",
+      "Improvement is possible: the cabin appears relatively large and house-like (resembling a portable home more than a compact guard/security cabin), the image has a slight grey shadow background rather than clean white, and no contextual cues (e.g., gate, security post setting) reinforce the guard-cabin use case; a tighter, more compact cabin with cleaner isolation would better anchor the primary segment."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A compact white FRP security guard cabin, approximately 6x6 ft, with a pyramid-style dark grey roof, a single sliding window with dark frame, a narrow entry door, and visible FRP panel joints on the walls, mounted on a mild steel base frame with levelling feet, photographed in three-quarter front view on a pure white background, soft studio lighting, sharp product focus, no shadows, photorealistic style suitable for B2B catalogue use.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
