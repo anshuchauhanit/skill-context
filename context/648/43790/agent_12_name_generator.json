@@ -1,0 +1,72 @@
+{
+  "enhanced_name_4w": "Relocatable Steel Site Cabins",
+  "enhanced_name_5w": "Steel Portable Cabins for Site Offices",
+  "enhanced_name_6w": "Mobile Steel Cabins for Construction Site Use",
+  "enhanced_name_long": "Relocatable Prefab Steel Cabins for Construction Site Offices, Labour Accommodation and Industrial Field Use",
+  "alt_names": {
+    "primary_keywords": [
+      "mobile cabin",
+      "portable cabin",
+      "porta cabin",
+      "mobile office cabin",
+      "portable site office",
+      "relocatable cabin",
+      "prefab cabin",
+      "site office cabin",
+      "portable bunk house",
+      "mobile container cabin"
+    ],
+    "technical_synonyms": [
+      "prefabricated portable structure",
+      "relocatable modular building",
+      "sandwich panel cabin",
+      "PUF panel cabin",
+      "MS porta cabin",
+      "GI portable cabin",
+      "container office",
+      "portable prefab office"
+    ],
+    "trade_names": [
+      "MobiNest",
+      "Porta Cabin",
+      "Container Cabin",
+      "Trolley Cabin",
+      "Bunk House",
+      "Guard Hut",
+      "Site Office Container",
+      "ACP Cabin",
+      "Cement Board Cabin"
+    ],
+    "hindi_terms": [
+      "mobile cabin",
+      "portable kamra",
+      "site office cabin"
+    ],
+    "buyer_intent_queries": [
+      "mobile cabin for construction site",
+      "portable site office cabin",
+      "prefab cabin for labour accommodation",
+      "container cabin 20x10 for site office",
+      "portable guard room cabin manufacturer",
+      "mobile bunk house for workers",
+      "relocatable cabin for industrial site",
+      "portable cabin with toilet and bathroom",
+      "trolley container cabin 10x20",
+      "mobile office cabin for mining site"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Security-only cabin buyers (guard room / watchman cabin segment) — carved out by siblings 'Security Cabins' (42755), 'Portable Security Cabins' (135705), 'MS Security Cabins' (150853), 'Prefabricated Security Cabin' (181975), and 'FRP Portable Security Cabin' (145135); names that exclusively target security/guard-room buyers are discarded from enhanced names and alt_names",
+    "FRP-material-specific cabin buyers — carved out by sibling 'FRP Cabin' (121149) and 'FRP Portable Security Cabin' (145135); names leading with FRP as the primary differentiator are discarded",
+    "Wooden cabin buyers (leisure/resort/log cabin segment) — carved out by siblings 'Wooden Cabins' (43789) and 'Portable Log Cabins' (150362); names evoking timber, log, or wooden construction are discarded",
+    "Glass cabin buyers (interior partition/office enclosure segment) — carved out by sibling 'Glass Cabin' (56012); glass-primary names are discarded",
+    "Classroom-specific buyers — carved out by sibling 'Portable Classrooms' (35057); names exclusively targeting educational/classroom use are discarded",
+    "Toll booth buyers — carved out by sibling 'Toll Booth' (135797); toll-booth-specific names are discarded",
+    "Modular portable cabin buyers (material-agnostic modular segment) — carved out by sibling 'Modular Portable Cabin' (165827); 'modular portable cabin' as an exact phrase is discarded from enhanced names to avoid name collision",
+    "PUF-material-specific buyers — carved out by sibling 'PUF Cabin' (167809); PUF-led names are discarded",
+    "GI-material-specific buyers — carved out by sibling 'GI Portable Cabin' (185339); GI-led names are discarded",
+    "Office container buyers (container-conversion/shipping-container segment) — carved out by siblings 'Office Container' (96540) and 'Mobile Containers' (96541); container-primary names that would attract shipping-container conversion buyers are discarded"
+  ],
+  "segment_contamination_disclaimer": null
+}
