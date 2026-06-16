@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Buyers have a specific aesthetic and shape brief — conical, dome, pagoda, and hypar forms are visually non-interchangeable. Image is the primary shape and colour sample; wrong shape or finish causes an immediate skip before any text is read."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Fabric material (PVC vs PTFE) and shape are non-interchangeable spec tiers that drive both price and suitability. Buyers shortlist on these specs before contacting any seller — a listing without them cannot be evaluated."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian hospitality and commercial buyers compare per-sq-ft rates aggressively across multiple sellers. Price varies substantially with fabric material (PVC vs PTFE), shape complexity, and size — making it a primary shortlisting signal after visual and spec confirmation."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Modular/standard-size units may be quoted per piece; large commercial installations may be quoted per project (lump sum). Per sq ft vs per piece creates real price comparison confusion — unit must be shown alongside price.",
+      "reason": "Three distinct quoting conventions exist in this market (per sq ft, per piece, per project). A buyer comparing listings across sellers cannot make a valid price comparison without knowing the unit — confusion is a real and documented risk."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant manufacturer brand with buyer recall exists in this category — market is fragmented across regional fabricators; buyers search by shape and spec, not by company name.",
+      "reason": "Custom supply-and-install purchase means buyers evaluate installation capability, completed project portfolio, and warranty support during vendor selection — but only after spec and price shortlisting. Company is a qualifier, not a primary signal."
+    }
+  ]
+}
