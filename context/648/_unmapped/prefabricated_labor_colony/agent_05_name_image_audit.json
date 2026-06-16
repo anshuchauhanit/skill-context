@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Labor Colony' directly matches the primary keyword set ('prefab labour colony', 'labor colony') and aligns with the dominant market naming convention confirmed in Agent 3's alt_names and market_context; the US spelling 'Labor' is acceptable as IndiaMART uses both spellings interchangeably.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image correctly shows a double-storey prefabricated structure with blue MS frame, white GI/sandwich panel walls, multiple room windows, and an external staircase — accurately representing the primary segment of a multi-room MS/GI frame worker accommodation colony.",
+      "Improvement is possible: the image shows a single building block rather than a multi-unit colony cluster, the background is cluttered with construction debris, and a wider shot showing the full colony layout with sanitation block would better communicate the turnkey cluster nature of the product."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A wide-angle photorealistic image of a multi-unit double-storey prefabricated labor colony on a clean construction site. The colony consists of 4–6 connected building blocks with blue or grey mild steel (MS) structural frames, white colour-coated GI sheet or sandwich panel walls, multiple evenly spaced windows, and external metal staircases connecting floors. A separate sanitation block is visible at one end. The foreground shows a flat concrete or compacted earth ground. The background is a clear blue sky with minimal clutter. Bright natural daylight, sharp detail, professional product photography style, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
