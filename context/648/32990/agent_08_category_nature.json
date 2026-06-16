@@ -1,0 +1,43 @@
+{
+  "agent": "Agent 8 — Category Nature",
+  "mcat": "Office Space",
+  "mcat_id": 32990,
+  "category_nature": {
+    "is_generic": true,
+    "is_specific": false,
+    "is_vague": false,
+    "is_thin": false,
+    "is_branded": false,
+    "is_service": true,
+    "reason": [
+      "is_generic: the page spans a wide sub-type spread — coworking/hot desks, private offices, managed/serviced offices, virtual offices, traditional lease, outright sale, IT park space — with diffuse buyer intent across startups, SMEs, enterprises, and freelancers; coherent umbrella (commercial workspace) but too broad to be specific.",
+      "is_service: the dominant commercial form is rental/lease of physical workspace (a service transaction), not a manufactured physical product; contaminating listings (modular cabins, interior design) are misplaced and do not change the MCAT's core service nature."
+    ],
+    "is_vague_signal_audit": {
+      "signal_1_name_ambiguity": {
+        "fires": false,
+        "note": "'Office Space' resolves unambiguously to commercial premises for workspace use; no competing industry reads this name as a different product category."
+      },
+      "signal_2_primary_segment_difficulty": {
+        "fires": false,
+        "note": "Agent 3 produced a confident, unhedged primary_segment: 'Coworking and flex commercial office space for rent or lease in Indian metro and Tier-2 cities' — no compound hedge or 'depends on segment' qualifier."
+      },
+      "signal_3_intent_queries_diverge": {
+        "fires": false,
+        "note": "All buyer_intent_queries cluster around one purchase context — finding commercial workspace; sub-contexts (startup, enterprise, IT park, freelancer) are spec refinements of the same intent, not incompatible intents."
+      },
+      "signal_4_product_types_no_shared_buyer": {
+        "fires": false,
+        "note": "Coworking, private office, managed office, virtual office, and traditional lease are all bought by someone seeking commercial workspace; modular cabin and interior design are contamination, not a second buyer archetype native to this MCAT."
+      },
+      "signals_fired": 0,
+      "is_vague_verdict": false
+    },
+    "is_thin_audit": {
+      "listing_count": 14773,
+      "listing_count_suspect": false,
+      "page_tile_density_signal": "Agent 3 reports high listing volume with multiple product sub-types and contamination present — consistent with a well-populated page, not a thin one.",
+      "is_thin_verdict": false
+    }
+  }
+}
