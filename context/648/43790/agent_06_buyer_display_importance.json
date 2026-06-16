@@ -1,0 +1,209 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — a guard cabin, site office, bunk house, and container-style cabin are visually distinct products. Buyers use the image to identify the correct product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin size and wall panel type are the primary shortlisting criteria — a 10x8 ft GI-sheet cabin cannot substitute for a 40x10 ft PUF-panel site office. Buyers cannot evaluate fit without these specs visible on the listing."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with cabin size and panel type — a guard cabin and a large site office are orders of magnitude apart. Indian B2B buyers compare prices aggressively across sellers once size and panel type are confirmed; listed price is the primary comparison lever."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Tata Steel MobiNest is a recognised brand with buyer recall in the premium segment; buyers in institutional and government procurement actively specify or prefer branded manufacturers.",
+      "reason": "Manufacturer vs trader distinction matters for delivery to remote sites, installation capability, and after-sales support. Institutional and government buyers evaluate company track record during vendor selection."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Custom-dimension builds are additionally quoted per square foot by some manufacturers — sellers should clarify unit when quoting non-standard sizes, but per piece is universally understood for standard catalogue cabins.",
+      "reason": "Per piece is entirely implied for standard catalogue-size cabins; no buyer questions whether a portable cabin is sold per piece. The per-sq-ft exception applies only to custom builds and is resolved in negotiation."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Size",
+        "reason": "Size is the single largest price driver — a 40x8 ft site office costs multiples of a 10x8 ft guard cabin, and sizes are non-interchangeable across project requirements."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel",
+        "reason": "PUF panel vs GI sheet represents a significant price and thermal performance difference — non-interchangeable for climate-specific or comfort-grade requirements."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cabin Color",
+      "Cabin Size",
+      "Features",
+      "Flooring Type",
+      "Mobility Type",
+      "Power Supply",
+      "Roof Type",
+      "Structure Material",
+      "Usage Type",
+      "Wall Panel"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Height",
+        "why_important": "Internal height determines habitability for accommodation and office use — standard 7 ft vs high-ceiling 9 ft is a meaningful differentiator affecting comfort, HVAC requirements, and price, but is not captured by the existing Cabin Size spec (which specifies length x width only).",
+        "source": "both",
+        "example_values": [
+          "7 ft",
+          "8 ft",
+          "9 ft",
+          "10 ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Application routes the RFQ to sellers who supply the right cabin type — a security cabin manufacturer may not supply resort-room-grade accommodation cabins, and the application determines the feature set and finish level sellers need to assess fit and price.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Shop",
+          "Office",
+          "Food Stall",
+          "Accommodation",
+          "Resort Room",
+          "Security Cabin"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Length is the primary size constraint sellers need to confirm manufacturing feasibility and provide an accurate price — it is the dominant dimension in Indian portable cabin sizing conventions.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall Panel / Insulation Type",
+        "why_important": "Sellers need the panel type to determine material cost and thermal performance — a resort room or accommodation cabin in a hot climate requires PUF insulation while a basic site office may use GI sheet, and these have significantly different prices.",
+        "source": "both",
+        "example_values": [
+          "GI Sheet",
+          "PUF Panel",
+          "EPS Panel",
+          "FRP Panel"
+        ]
+      },
+      {
+        "spec_name": "Electrical Provision",
+        "why_important": "Sellers need to know whether electrical fittings are required to provide an accurate quote — a cabin with three-phase wiring and LED fittings is priced substantially differently from a bare structure with no electrical.",
+        "source": "both",
+        "example_values": [
+          "No Electrical",
+          "Single Phase",
+          "Three Phase",
+          "Solar Power"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Shop",
+      "id": "spec_1",
+      "prompt_for_generation": "Steel-frame portable cabin configured as a small retail shop, corrugated GI sheet walls in dual-tone grey and white, single glass-panel door with display window, placed on flat ground at a commercial site, natural daylight, front-facing view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Office",
+      "id": "spec_2",
+      "prompt_for_generation": "Steel-frame portable site office cabin, 20x10 ft, colour-coated GI sheet walls in grey and blue, single entry door and two windows, placed on a construction site with scaffolding visible in background, natural daylight, front three-quarter view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Food Stall",
+      "id": "spec_3",
+      "prompt_for_generation": "Steel-frame portable cabin configured as a food stall or canteen, serving window cut-out on front panel, corrugated MS walls in cream and green, placed on flat ground at an industrial site, natural daylight, front-facing view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Accommodation",
+      "id": "spec_4",
+      "prompt_for_generation": "Steel-frame portable labour accommodation bunk cabin, 40x10 ft, PUF sandwich panel walls in white and grey, multiple windows along the side, placed at a remote construction camp site, natural daylight, side-angle view showing length, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Resort Room",
+      "id": "spec_5",
+      "prompt_for_generation": "Steel-frame portable cabin finished as a resort guest room, smooth ACP panel exterior in white with wooden-finish trim, large window, small porch step, placed in a green landscaped setting, natural daylight, front three-quarter view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Security Cabin",
+      "id": "spec_6",
+      "prompt_for_generation": "Small steel-frame portable security guard cabin, 6x6 ft, corrugated GI sheet walls in green and grey, single door and sliding window on front panel, placed at a factory gate entrance, natural daylight, front-facing view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
