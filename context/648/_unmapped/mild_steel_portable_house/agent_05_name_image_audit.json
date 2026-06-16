@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Mild Steel Portable House' directly matches the top primary keyword and trade name in Agent 3 alt_names, and aligns with market_context which confirms 'mild steel portable house' as the dominant commercial term used by Indian B2B buyers and MSME fabricators.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail clearly shows a full MS-framed prefabricated portable house unit with visible steel structural columns (orange), insulated wall panels, pitched roof, window, door, and a front veranda — accurately representing the primary segment of a single-room to 1BHK MS portable cabin for site/temporary use.",
+      "Improvement is possible: the outdoor setting with dirt ground and background clutter reduces visual clarity; a cleaner white or neutral background with better lighting and a slightly tighter crop on the unit would produce a more professional, buyer-attracting IndiaMART thumbnail."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated mild steel portable house unit, single-room to 1BHK size, approximately 10x20 feet, with cream or off-white insulated sandwich panel walls, a grey corrugated metal pitched roof with green trim, bright orange MS structural columns and front railing, one grilled window and a door visible on the front facade, placed on a clean flat surface against a plain white studio background, front three-quarter view, soft even lighting, sharp product focus, photorealistic rendering, no people, no background clutter.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
