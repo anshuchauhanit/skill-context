@@ -1,0 +1,65 @@
+{
+  "enhanced_name_4w": "GI Prefab Portable Cabin",
+  "enhanced_name_5w": "GI Sheet Prefab Portable Cabin",
+  "enhanced_name_6w": "Galvanised Iron Prefab Relocatable Site Cabin",
+  "enhanced_name_long": "GI Corrugated Sheet Prefabricated Portable Cabin for Security Guard Room and Construction Site Office",
+  "alt_names": {
+    "primary_keywords": [
+      "GI portable cabin",
+      "galvanised iron portable cabin",
+      "GI porta cabin",
+      "prefab GI cabin",
+      "GI site office cabin",
+      "GI portable office cabin",
+      "iron portable cabin",
+      "GI panel porta cabin",
+      "portable GI cabin",
+      "GI fabricated cabin"
+    ],
+    "technical_synonyms": [
+      "galvanized iron prefabricated cabin",
+      "GI sheet portable structure",
+      "GI corrugated sheet cabin",
+      "prefabricated GI portable structure",
+      "GI modular portable cabin",
+      "GI fabricated portable unit",
+      "GI sheet cladded prefab cabin",
+      "GI portable prefab unit"
+    ],
+    "trade_names": [
+      "GI porta cabin",
+      "GI panel cabin",
+      "GI bunkhouse",
+      "GI watchman cabin",
+      "GI gomti cabin",
+      "GI gumti cabin",
+      "GI portable container cabin"
+    ],
+    "hindi_terms": [
+      "lohe ki gomti dukaan",
+      "iron gomti shop",
+      "iron gumti shop",
+      "lohe ka portable cabin",
+      "GI portable cabin"
+    ],
+    "buyer_intent_queries": [
+      "GI portable cabin for construction site office",
+      "galvanised iron portable cabin for factory gate",
+      "prefab GI cabin for guard room",
+      "GI portable cabin manufacturer in India",
+      "iron sheet portable shop cabin",
+      "GI portable cabin with toilet attached",
+      "portable GI cabin for labour accommodation",
+      "GI portable cabin 10x15 for site office",
+      "GI panel porta cabin for security",
+      "GI portable cabin custom size"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "FRP/GRP/PUF/PVC/MS/Aluminium/Wooden material-specific cabin buyers — these sibling MCATs (FRP Cabin, GRP Cabin, PUF Cabin, MS Porta Cabin, PVC Portable Cabin, Aluminium Office Cabins, Wooden Cabins) serve buyers who have already specified a non-GI material; any name containing 'FRP', 'GRP', 'PUF', 'PVC', 'MS', 'aluminium', or 'wooden' is blocked as it attracts an incompatible material-segment buyer.",
+    "Use-case-specific sibling buyers — siblings such as Portable Classrooms, Portable Kitchen, Portable Pantry, Portable Dressing Room, Smoking Cabin, Telephone Booths, and Portable ATM Cabin serve buyers with a single fixed end-use incompatible with the general-purpose GI cabin buyer; names that exclusively signal these end-uses are blocked.",
+    "Security-cabin-only and prefabricated-cabin-only sibling buyers — siblings 'Security Cabins', 'Portable Security Cabins', 'Prefabricated Security Cabin', 'FRP Portable Security Cabin', 'MS Security Cabins', and 'Prefabricated Cabin' carve out sub-segments; names that are exact or semantic equivalents of these sibling names are blocked under the name collision rule."
+  ],
+  "segment_contamination_disclaimer": null
+}
