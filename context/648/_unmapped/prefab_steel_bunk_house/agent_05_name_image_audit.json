@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefab Steel Bunk House' directly matches the top primary keyword and accurately describes the product — a prefabricated steel-framed worker accommodation unit — consistent with market vocabulary ('MS bunk house', 'prefab steel bunk house') confirmed across Agent 3 alt_names and market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail shows a compact prefabricated steel-framed cabin unit with grey sandwich panels, aluminium sliding windows, and a dark steel frame — correctly representing the primary segment of a prefabricated mild steel worker accommodation unit.",
+      "Improvement is possible: the unit appears more like a compact porta cabin or site office rather than a multi-occupancy bunk house with visible sleeping/labour colony context; a larger 20x10 ft or double-decker configuration with site-context background would better signal the worker accommodation use case to buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated mild steel bunk house unit, approximately 20x10 ft footprint, with light grey colour-coated GI sandwich panel walls, dark charcoal MS steel structural frame visible at corners and roof edges, corrugated Galvalume sloped roofing, two aluminium sliding windows on the front face, a single steel door with handle, mounted on adjustable steel legs on a flat construction site ground. The unit is photographed at a slight three-quarter angle showing front and side panels clearly. Background is a blurred active construction site with scaffolding and cranes, conveying on-site worker accommodation context. Clean product-focused lighting, sharp edges, photorealistic render style, square 1:1 crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
