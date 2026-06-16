@@ -1,0 +1,65 @@
+{
+  "enhanced_name_4w": "GRP Prefab Portable Cabin",
+  "enhanced_name_5w": "GRP Fiberglass Prefab Portable Cabin",
+  "enhanced_name_6w": "GRP FRP Prefab Cabin Site Office",
+  "enhanced_name_long": "GRP Fiberglass Prefabricated Portable Cabin for Security Guard Post, Site Office and Labour Accommodation",
+  "alt_names": {
+    "primary_keywords": [
+      "GRP cabin",
+      "FRP cabin",
+      "fiberglass cabin",
+      "fibreglass cabin",
+      "fiber cabin",
+      "GRP portable cabin",
+      "FRP portable cabin",
+      "glass reinforced plastic cabin",
+      "fiberglass portable cabin",
+      "fiber room"
+    ],
+    "technical_synonyms": [
+      "Glass Reinforced Plastic cabin",
+      "Glass Reinforced Polyester cabin",
+      "Fibre Reinforced Plastic cabin",
+      "FRP modular cabin",
+      "GRP moulded cabin",
+      "GRP composite cabin",
+      "GRP prefab cabin",
+      "GRP panel cabin",
+      "polyester cabin",
+      "GRP enclosure"
+    ],
+    "trade_names": [
+      "GRP guard cabin",
+      "GRP porta cabin",
+      "GRP container cabin",
+      "GRP bunkhouse",
+      "GRP kiosk",
+      "GRP shelter",
+      "GRP site office",
+      "FRP site office",
+      "GRP telecom shelter",
+      "GRP toilet cabin"
+    ],
+    "hindi_terms": [],
+    "buyer_intent_queries": [
+      "GRP cabin manufacturer in India",
+      "FRP portable cabin for security guard",
+      "fiberglass cabin for construction site office",
+      "portable GRP cabin for labour accommodation",
+      "FRP security guard cabin supplier",
+      "GRP prefab cabin for telecom shelter",
+      "fibreglass portable toilet cabin",
+      "GRP cabin customised size with insulation",
+      "buy GRP cabin for resort accommodation",
+      "GRP cabin corrosion resistant coastal site"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Material-specific sibling segments: 'FRP Cabin' (ID 121149) and 'FRP Portable Security Cabin' (ID 145135) are direct siblings covering the FRP/fiberglass sub-segment — names that are exact matches to these sibling MCAT names are discarded to avoid collision (e.g., 'FRP Cabin' and 'FRP Portable Security Cabin' as standalone names are excluded from enhanced name candidates).",
+    "Use-case-specific sibling segments: siblings 'Security Cabins' (ID 42755), 'Portable Security Cabins' (ID 135705), and 'Prefabricated Security Cabin' (ID 181975) carve out the security-only sub-segment — enhanced names that exclusively target security guard buyers without referencing the GRP/FRP material differentiator are discarded, as they would collide with these siblings' buyer segments.",
+    "Material-alternative sibling segments: 'MS Porta Cabin' (ID 150852), 'Wooden Cabins' (ID 43789), 'PUF Cabin' (ID 167809), 'PVC Portable Cabin' (ID 181546), 'GI Portable Cabin' (ID 185338), and 'Aluminium Office Cabins' (ID 185339) serve buyers of non-GRP material cabins — any enhanced name or alt name implying MS, steel, wood, PUF, PVC, GI, or aluminium construction is discarded as it attracts an incompatible buyer segment.",
+    "Eco/log cabin sibling segments: 'Eco Portable Cabins' (ID 135966) and 'Portable Log Cabins' (ID 150362) target nature/sustainability-oriented buyers — names emphasising eco, log, or natural material framing are discarded as they attract a distinct buyer persona not served by GRP Cabin."
+  ],
+  "segment_contamination_disclaimer": null
+}
