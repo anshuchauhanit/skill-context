@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Auditorium Tensile Structure' directly matches the top primary keyword and aligns with market naming norms where Indian B2B buyers and contractors use this exact phrase to describe custom tensile membrane roofing for assembly venues.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a large-span arch-type tensile fabric structure on a steel framework — correctly representing the primary segment (PVC-coated polyester tensile roofing for assembly venues), so the product category is not misrepresented.",
+      "However, the setting appears to be an industrial warehouse or hangar rather than a recognisable auditorium or open-air assembly venue, reducing buyer relevance; a cleaner, purpose-built auditorium or amphitheatre tensile structure with visible seating or audience context would better signal the MCAT's specific application."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a large-span PVC-coated white polyester tensile fabric roofing structure covering an open-air auditorium or amphitheatre, arch or saddle shape, supported by a hot-dip galvanised steel tubular framework with visible cable tensioning, rows of empty audience seating visible underneath in natural daylight, clear blue sky background, clean professional architectural photography style, sharp foreground detail, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
