@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Control Panel Cabin' maps to a single, well-bounded product concept — a prefabricated steel structure for housing industrial electrical control panels; all product_types (APFC, MCC, PLC, VFD, portable, skid-mounted cabins) are configuration variants sharing the same buyer archetype (EPC contractors, plant owners, infrastructure agencies) and purchase context (project-based procurement of a site-ready control room).",
+    "is_vague: 0 signals fire — the name resolves unambiguously to one product concept with no competing industry interpretation; Agent 3 produced a confident unhedged primary_segment; all sub-types share a common buyer profile; no sibling MCAT carves out an incompatible buyer or regulatory regime (siblings are panel accessories/components, not competing cabin structures)."
+  ]
+}
