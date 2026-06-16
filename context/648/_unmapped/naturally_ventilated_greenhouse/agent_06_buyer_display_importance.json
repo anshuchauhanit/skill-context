@@ -1,0 +1,430 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Progressive farmer or commercial horticulture entrepreneur seeking NHM/NHB subsidy-linked NVPH for vegetable/flower cultivation. Capital expenditure, project-based, typically 500–4,000 sq. mt.
+
+**Journey sequence:**
+1. **Image first** — scans listing to confirm it's an NVPH (not a fan-pad polyhouse, shade net house, or mini greenhouse). Visual sub-type variation is significant: single-span vs multi-span, GI frame vs MS frame, with/without insect netting. Wrong structure type = immediate skip.
+2. **Specification** — checks covering material, structure material, span/peak height, ventilation type. These determine NHM subsidy eligibility and crop suitability. Buyers often arrive with a DPR (Detailed Project Report) specifying exact parameters.
+3. **Company** — this is a large capital project (turnkey installation). Buyer evaluates whether the seller is NHM/NHB empanelled, has installation track record, and can support subsidy documentation. Seller credibility is a hard gate.
+4. **Price** — per sq. mt rate is checked after spec and company qualification. India price sensitivity is high but price is only comparable after spec equivalence is confirmed. Subsidy norms set a cost ceiling that buyers reference.
+5. **Unit** — per sq. mt is the universal standard for NVPH in India (NHM norms, DPRs, all manufacturer pricing). Must be shown because some sellers quote per project lump sum or per set — unit ambiguity is real.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — significant visual variation between sub-types; wrong type = skip
+- **Specification:** High — NHM eligibility, crop suitability, structural parameters are primary shortlisting gates
+- **Company:** Medium — seller empanelment and installation track record matter greatly but spec must match first
+- **Price:** Medium — significant for Indian buyers but only after spec + company qualification; subsidy norms set reference ceiling
+- **Unit:** High — per sq. mt vs per project vs per set creates real price comparison confusion; must be shown
+
+---
+
+## Step 3 — Decision Questions Per Dimension
+
+**Image:** Yes — visual variation between NVPH sub-types (single/multi-span, with/without insect net, GI vs MS frame appearance) is meaningful. Buyers need to confirm structure type before reading specs.
+
+**Specification:** Yes — covering material, structure material, span, and ventilation type are primary shortlisting criteria. NHM subsidy eligibility depends on exact spec compliance (GI pipe, 200-micron PE film, specific gutter/ridge heights).
+
+**Price:** Buyers arrive knowing their spec tier (NHM model) and compare per-sq-mt rates within that tier. `price_display_type = "spec-driven price"` — price varies substantially with span, covering material, and structure grade. India price sensitivity is high; subsidy cost norms create a reference ceiling buyers actively compare against.
+
+**Unit:** Per sq. mt is dominant but some sellers quote per project or per set — real ambiguity exists. Price cannot be compared without unit clarity. High / show: true.
+
+**Company:** NHM/NHB empanelment, installation track record, and subsidy documentation support are evaluated during vendor selection. This is a large capital project with post-sale dependency (installation, warranty). Medium — important but spec must match first.
+
+**Brand check:**
+1. Taxonomy siblings scan — no branded NVPH sub-categories visible in siblings (Polyhouse, Agricultural Greenhouses, Greenhouse are generic).
+2. Indian market — no dominant nationally recognised brand with buyer recall. Market is fragmented across regional fabricators (Agriplast, InHydro, Hitech, etc.) but buyers search by spec/subsidy eligibility, not brand name.
+→ `brand_important: no`
+
+**Cross-dimension consistency checks:**
+1. Buyers arrive knowing their NHM model spec tier and compare prices within it → `price_display_type = "spec-driven price"` ✓ (price varies with span, covering material, structure grade — buyers discover price differences across spec configurations)
+2. Unit High → price must be at least Medium ✓ (price is Medium)
+3. Not project-based price → unit show: true ✓
+4. Specification show: true → show_on_listing: true ✓
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Significant visual variation between NVPH sub-types (single-span vs multi-span, GI frame vs MS frame, with/without insect netting, walk-in tunnel vs standard polyhouse). Buyers use the image to confirm structure type before reading any specs — wrong type is an immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Covering material, structure material, span, and ventilation type are primary shortlisting criteria — NHM/NHB subsidy eligibility depends on exact spec compliance (GI pipe frame, UV-stabilised PE film, specific dimensions). Buyers often arrive with a DPR specifying exact parameters."
+  },
+  {
+    "rank": 3,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No nationally recognised brand with buyer recall in the Indian NVPH market — buyers search by spec and subsidy eligibility, not manufacturer name; market is fragmented across regional fabricators.",
+    "reason": "This is a large capital project with turnkey installation and post-sale dependency. Buyers evaluate NHM/NHB empanelment status, installation track record, and ability to support subsidy documentation during vendor selection — but only after spec match is confirmed."
+  },
+  {
+    "rank": 4,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Per sq. mt rate varies substantially with span, covering material, and structure grade. Indian buyers are price-aggressive and compare rates against NHM subsidy cost norms, but price is only comparable after spec equivalence is confirmed."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq. mt",
+    "unit_note": "Some sellers quote per project (lump sum) or per set for component kits — creates price comparison confusion. Per sq. mt is the NHM/NHB standard and must be shown alongside price to enable meaningful comparison.",
+    "reason": "Unit ambiguity is real in this category — per sq. mt vs per project vs per set. Price cannot be compared without unit clarity, and NHM subsidy cost norms are expressed per sq. mt."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Country Of Origin** — single value ("Made In India"). Hard eliminate.
+- **Application** — use-case tag (Flower Farming, Vegetable Farming, etc.). Describes what the structure is used FOR, not what it IS. Hard eliminate.
+- **Door Type** — consequence/peripheral field. Door type (single/sliding/double) does not drive price significantly and is a minor configuration detail resolved post-connection. Soft eliminate.
+- **Irrigation System** — add-on system, not the core NVPH structure. Presence/absence of drip/fogger/mist is an optional inclusion that varies independently of the structure. Soft eliminate (peripheral to core NVPH configurator).
+- **Frame Coating** — partially correlated with Structure Material. Hot-dip galvanised is the NHM-mandated standard; paint-coated/powder-coated are non-standard variants. Deprioritise — largely determined by Structure Material selection and NHM compliance requirement.
+- **Ventilation Type** — for an NVPH, "Side And Top Vent" is the defining characteristic. Limited differentiation within this MCAT (all are naturally ventilated). Deprioritise.
+
+**Remaining candidates:** Covering Material, Frame Coating, Peak Height, Span, Structure Material, Ventilation Type
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Covering Material** (Poly Film / Shade Net / Polycarbonate Sheet / Insect Net):
+- Defines WHAT the structure IS. Poly Film = NVPH; Shade Net = shade net house; Polycarbonate = premium greenhouse. Non-interchangeable — a buyer cannot substitute one for another. Massive price delta between poly film and polycarbonate. This is the primary product class separator.
+- **Rank 1**
+
+**Structure Material** (MS Pipe / Aluminium / GI Pipe / FRP):
+- Defines the structural grade and NHM compliance eligibility. GI Pipe is NHM-mandated; MS Pipe is non-compliant for subsidy. Significant price delta between GI and aluminium. Non-interchangeable for subsidy-linked projects.
+- **Rank 2**
+
+*(Span and Peak Height are important dimensional specs but are continuous dimensions rather than discrete configurators — they are project-specific inputs rather than product class separators. Covering Material and Structure Material are the true configurators.)*
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list:**
+Application, Country Of Origin, Covering Material, Door Type, Frame Coating, Irrigation System, Peak Height, Span, Structure Material, Ventilation Type
+
+**Step 3b/3c — Candidate gaps:**
+
+From Agent 3 vision_output and LLM world knowledge:
+
+1. **Area / Project Size (sq. mt)** — NHM norms define standard sizes (500, 1000, 2000, 4000 sq. mt). This is a primary project scoping dimension. However, this is a continuous project input (not a discrete spec value) and is typically captured in the buyer's inquiry rather than as a seller configurator spec. Borderline — omit (not a standard configurator spec value set).
+
+2. **Film Thickness / Micron** — 200-micron UV-stabilised PE film is the NHM standard. Some suppliers offer 150-micron or 250-micron variants. This is a meaningful quality/compliance differentiator. Cross-reference: not present in seller spec list by name or semantic equivalent. **Include.**
+
+3. **Insect Net Mesh Size** — 30/40/50 mesh insect netting on vents is a standard NVPH configuration option. Mesh size determines pest exclusion level and airflow restriction. Cross-reference: not present in seller spec list. However, this is a sub-configuration of the vent/covering rather than a top-10 primary configurator. Borderline — omit (too peripheral for top-10 threshold).
+
+4. **Number of Spans** — single-span vs multi-span is a fundamental structural configuration that determines project scale and cost. Cross-reference: not present in seller spec list. **Include.**
+
+5. **Gutter Height** — NHM specifies 4.0–4.5 m gutter height. This is a structural dimension that affects crop suitability (tall crops like tomato/capsicum need minimum 4 m). Cross-reference: not present in seller spec list (Peak Height is present but gutter height is a distinct dimension). **Include.**
+
+**Final missing_important_specs (after mutual exclusion check):**
+- Film Thickness: not in seller list ✓
+- Number of Spans: not in seller list ✓
+- Gutter Height: not in seller list (Peak Height ≠ Gutter Height — semantically distinct) ✓
+
+### Phase 4 — Coverage Verdict
+
+3 missing specs → `significant_gaps`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Structure Mat** (GI Pipe / MS Pipe / Aluminium):
+- Directly determines NHM subsidy eligibility (GI Pipe is mandated) and structural durability. Sellers need this to confirm they can supply a compliant structure and to price accurately. Non-interchangeable for subsidy projects.
+- **Rank 1**
+
+**Covering Material** (UV Stabilized Film / Shade Net / Polycarbonate / Insect Net):
+- Defines the product type (NVPH = UV Stabilized Film). Sellers need this to confirm the correct structure type and to price the covering component. A buyer selecting "Shade Net" needs a fundamentally different product.
+- **Rank 2**
+
+**Intended Crop** — useful context but sellers can respond to any NVPH inquiry without knowing the crop. Crop type influences internal fittings (drip, training wires) but not the core structure quote. Deprioritise to rank 3 (not selected for top 2).
+
+### Phase 2 — Thumbnail Eligibility
+
+**Structure Mat** (GI Pipe / MS Pipe / Aluminium):
+- These are material types. GI Pipe, MS Pipe, and Aluminium look visually similar in a polyhouse context — the structural frame appearance is not meaningfully distinguishable in a thumbnail. Not thumbnail eligible.
+- `thumbnail_eligible: false`
+
+**Covering Material** (UV Stabilized Film / Shade Net / Polycarbonate / Insect Net):
+- Each covering material has a visually distinct appearance: translucent white PE film vs green/black shade net vs clear rigid polycarbonate panels vs fine mesh insect net. These are visually distinguishable in thumbnail images.
+- `thumbnail_eligible: true`
+- `thumbnail_options: ["UV Stabilized Film", "Shade Net", "Polycarbonate", "Insect Net"]`
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps from Agent 3 vision_output and LLM world knowledge:**
+
+1. **Project Area (sq. mt)** — the single most important sizing input for an NVPH project. Sellers need to know the area to provide a meaningful quote. NHM norms define standard sizes (500, 1000, 2000, 4000 sq. mt). Without this, sellers cannot price the project. Cross-reference buyer spec list: not present. **Include. `would_be_rank: 1`** — more important than Structure Mat because area determines the entire project scope and cost.
+
+   Thumbnail eligibility: Area is a numeric/dimensional spec — no visual distinction between a 500 sq. mt and 2000 sq. mt polyhouse in a thumbnail. `thumbnail_eligible: false`.
+
+2. **Ventilation Type** — for an NVPH, this is definitional (side + top vent). However, within the buyer spec list context, buyers selecting this MCAT already imply natural ventilation. Not a meaningful differentiator for the buyer RFQ. Omit.
+
+3. **Subsidy Requirement** — whether the buyer needs NHM/NHB subsidy-compliant specifications is a critical routing signal. Sellers who are not empanelled cannot serve subsidy buyers. Cross-reference buyer spec list: not present. However, this is more of a buyer intent/eligibility flag than a product spec. Borderline — include as it materially affects seller response.
+
+   Actually, on reflection: "Subsidy Requirement" is a buyer intent flag, not a product specification. Sellers need to know this to confirm empanelment eligibility. But it's not a standard spec dimension — it's a qualification question. Omit from missing_important_specs (it's a buyer intent signal, not a product spec that changes what is supplied).
+
+4. **Number of Spans** — single-span vs multi-span is a fundamental structural configuration. Sellers need this to understand project complexity and price accurately. Cross-reference buyer spec list: not present. **Include. `would_be_rank: 2`** — important for seller response accuracy.
+
+   Thumbnail eligibility: Single-span vs multi-span polyhouses are visually distinct — a single bay vs a connected multi-bay structure. `thumbnail_eligible: true`. `thumbnail_options: ["Single Span", "Multi Span"]`.
+
+**Coverage verdict:** 2 missing specs → `partial`
+
+### Phase 4 — Image Upload Assessment
+
+NVPH is a large custom-fabricated structure. Buyers typically have a site plan, existing structure photos, or a DPR layout. However, sellers can respond accurately based on area, structure material, and covering material alone — they don't need a visual reference to quote. The product is not a part-identification scenario, not a custom-design-from-artwork scenario, and not a high-variability design-match scenario. Standard spec values adequately capture the requirement.
+
+`image_upload_recommended: false`
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs` rank 2: Covering Material (`thumbnail_eligible: true`, `thumbnail_options: ["UV Stabilized Film", "Shade Net", "Polycarbonate", "Insect Net"]`) → 4 prompts
+- `missing_important_specs`: Number of Spans (`thumbnail_eligible: true`, `would_be_rank: 2`, `thumbnail_options: ["Single Span", "Multi Span"]`) → 2 prompts
+
+Total: 6 prompts (spec_1 through spec_6)
+
+All prompts represent `primary_segment`: GI-framed naturally ventilated polyhouse (NVPH) with UV-stabilised polyethylene film covering for protected cultivation of vegetables and flowers.
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Significant visual variation between NVPH sub-types (single-span vs multi-span, GI frame vs MS frame, with/without insect netting, walk-in tunnel vs standard polyhouse). Buyers use the image to confirm structure type before reading any specs — wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Covering material, structure material, span, and ventilation type are primary shortlisting criteria — NHM/NHB subsidy eligibility depends on exact spec compliance (GI pipe frame, UV-stabilised PE film, specific dimensions). Buyers often arrive with a DPR specifying exact parameters and eliminate non-compliant listings immediately."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No nationally recognised brand with buyer recall in the Indian NVPH market — buyers search by spec and subsidy eligibility, not manufacturer name; market is fragmented across regional fabricators.",
+      "reason": "Large capital project with turnkey installation and post-sale dependency — buyers evaluate NHM/NHB empanelment status, installation track record, and ability to support subsidy documentation during vendor selection, but only after spec match is confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq. mt rate varies substantially with span, covering material, and structure grade. Indian buyers are price-aggressive and compare rates against NHM subsidy cost norms, but price is only meaningfully comparable after spec equivalence is confirmed."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq. mt",
+      "unit_note": "Some sellers quote per project (lump sum) or per set for component kits — creates real price comparison confusion. Per sq. mt is the NHM/NHB standard unit and must be shown alongside price to enable meaningful comparison.",
+      "reason": "Unit ambiguity is real in this category — per sq. mt vs per project vs per set. NHM subsidy cost norms are expressed per sq. mt, and buyers cannot compare prices across listings without unit clarity."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Covering Material",
+        "reason": "Defines the product class — poly film (NVPH), shade net (shade house), or polycarbonate (premium greenhouse) are non-interchangeable and carry a massive price delta; this single spec determines whether the listing is the right product type."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Material",
+        "reason": "GI Pipe vs MS Pipe vs Aluminium determines NHM subsidy eligibility and structural durability grade — non-interchangeable for subsidy-linked projects and carries a significant price delta between grades."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Country Of Origin",
+      "Covering Material",
+      "Door Type",
+      "Frame Coating",
+      "Irrigation System",
+      "Peak Height",
+      "Span",
+      "Structure Material",
+      "Ventilation Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Film Thickness (Micron)",
+        "why_important": "200-micron UV-stabilised PE film is the NHM-mandated standard; 150-micron and 250-micron variants exist and carry different price points and compliance eligibility — buyers and subsidy auditors check this spec.",
+        "source": "both",
+        "example_values": ["150 micron", "200 micron", "250 micron"]
+      },
+      {
+        "spec_name": "Number of Spans",
+        "why_important": "Single-span vs multi-span is a fundamental structural configuration that determines project scale, gutter design, and cost — a buyer cannot substitute one for the other.",
+        "source": "both",
+        "example_values": ["Single Span", "2 Span", "3 Span", "Multi Span (4+)"]
+      },
+      {
+        "spec_name": "Gutter Height",
+        "why_important": "NHM specifies 4.0–4.5 m gutter height as a compliance parameter, and tall crops like tomato and capsicum require a minimum gutter height — distinct from peak/ridge height and not captured by the existing Peak Height spec.",
+        "source": "both",
+        "example_values": ["3.5 m", "4.0 m", "4.5 m", "5.0 m"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Mat",
+        "reason": "Directly determines NHM subsidy eligibility (GI Pipe is mandated) and structural durability — sellers need this to confirm they can supply a compliant structure and to price accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Covering Material",
+        "reason": "Defines the product type (NVPH = UV Stabilized Film vs shade net house vs polycarbonate greenhouse) — sellers need this to confirm the correct structure type and price the covering component.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["UV Stabilized Film", "Shade Net", "Polycarbonate", "Insect Net"]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Project Area",
+        "why_important": "Area in sq. mt is the primary project scoping dimension — sellers cannot provide a meaningful quote without knowing the total area, and NHM subsidy norms are defined by area tiers.",
+        "source": "both",
+        "example_values": ["500 sq. mt", "1000 sq. mt", "2000 sq. mt", "4000 sq. mt"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Number of Spans",
+        "why_important": "Single-span vs multi-span determines project structural complexity and cost — sellers need this to confirm design capability and provide an accurate quote.",
+        "source": "both",
+        "example_values": ["Single Span", "Multi Span"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Single Span", "Multi Span"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Covering Material",
+      "option_value": "UV Stabilized Film",
+      "id": "spec_1",
+      "prompt_for_generation": "Naturally ventilated polyhouse with GI pipe frame covered in translucent white UV-stabilised polyethylene film, side vents open, green vegetable crops visible inside, exterior view, bright daylight, Indian agricultural setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Shade Net",
+      "id": "spec_2",
+      "prompt_for_generation": "Naturally ventilated greenhouse structure with GI pipe frame covered in green shade net, open sides with shade netting visible, nursery seedlings inside, exterior view, bright daylight, Indian agricultural setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Polycarbonate",
+      "id": "spec_3",
+      "prompt_for_generation": "Greenhouse structure with GI pipe frame covered in clear rigid polycarbonate panels, structured roof and side walls, vegetable crops inside, exterior view, bright daylight, Indian agricultural setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Insect Net",
+      "id": "spec_4",
+      "prompt_for_generation": "Naturally ventilated polyhouse with GI pipe frame, side and roof vents covered with fine white insect-proof mesh netting, UV film on roof, exterior view showing mesh vent panels clearly, bright daylight, Indian agricultural setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Spans",
+      "option_value": "Single Span",
+      "id": "spec_5",
+      "prompt_for_generation": "Single-bay naturally ventilated polyhouse with GI pipe frame and UV-stabilised polyethylene film, standalone rectangular structure with one gutter-to-gutter span, side vents open, vegetable crops inside, exterior view, bright daylight, Indian agricultural setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Spans",
+      "option_value": "Multi Span",
+      "id": "spec_6",
+      "prompt_for_generation": "Multi-bay naturally ventilated polyhouse with GI pipe frame and UV-stabilised polyethylene film, multiple connected bays sharing gutters, large-scale structure, side vents open, vegetable crops inside, aerial perspective exterior view, bright daylight, Indian agricultural setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
