@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Guest House' directly matches the dominant primary keyword in Agent 3 alt_names and aligns with market context describing short-stay lodging establishments; no more specific or technically superior term exists that would better serve buyer search intent on IndiaMART.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a reception/front desk area with a staff member, which correctly represents a guest house accommodation service and is not a wrong product — however, the dim lighting, cluttered pigeon-hole cabinet background, and dated interior aesthetics fail to project a welcoming, trust-building first impression for buyers browsing the category.",
+      "A cleaner, brighter image showing a well-furnished guest room or a modern reception with natural light would significantly improve click-through and buyer confidence, better representing the primary segment of short-stay furnished lodging."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A bright, clean, well-furnished Indian guest house bedroom with a neatly made double bed with white linen, wooden furniture, a bedside lamp casting warm light, a window with natural daylight, and a small attached bathroom door visible in the background. The room looks welcoming, tidy, and mid-range in quality — suitable for corporate or tourist short-stay accommodation. Square 1:1 composition, soft warm lighting, no people, photorealistic style, white or neutral wall background.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
