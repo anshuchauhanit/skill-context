@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": true,
+  "reason": [
+    "is_specific/is_service: 'MS Structure Services' is tightly bounded to mild steel structural fabrication and erection contracting — material (MS/IS:2062), service type (design-fabricate-erect), and buyer intent (project owners needing turnkey steel structural work) are all homogeneous; 0 vagueness signals fire and Agent 3 produced a confident, unhedged primary_segment.",
+    "is_service: the deliverable is a completed installed steel structure (shed, mezzanine, platform) executed on-site by a contractor — not a physical product sold off-the-shelf — confirmed by product_types listing fabrication and erection services and buyer_segments referencing EPC contractors and facility operators commissioning structural work."
+  ]
+}
