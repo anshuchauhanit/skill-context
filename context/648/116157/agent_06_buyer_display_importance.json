@@ -1,0 +1,239 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — tabletop shelf units, walk-in polycarbonate structures, dome polyfilm greenhouses, and decorative glass terrariums are completely distinct products. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Covering material (polycarbonate vs. polyfilm vs. shade net), frame material, and size are non-interchangeable primary shortlisting criteria. Buyers arrive with a specific application and footprint constraint; listings without these specs cannot be evaluated."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially across covering material and size tiers — polycarbonate walk-in units command a significant premium over polyfilm or tabletop units. Indian buyers compare prices after confirming type fit; listed price is a budget entry point before negotiation."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in the Indian mini greenhouse market — the market is fragmented across regional fabricators and buyers search by spec and size, not manufacturer name.",
+      "reason": "Seller credibility matters for assembly support, installation guidance, and warranty fulfilment, particularly for first-time buyers. No brand-dominant sibling MCATs exist and buyers evaluate seller ratings rather than brand identity."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per unit / per set",
+      "unit_note": "Larger custom structures may be quoted per square metre but this is uncommon for the primary B2B segment on IndiaMART; tabletop units are per piece — all are implied and never a buyer question.",
+      "reason": "Mini greenhouses are sold as complete prefabricated kits and the per-unit basis is entirely implied. No buyer questions whether a greenhouse kit is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Covering Material",
+        "reason": "Polycarbonate vs. polyfilm vs. shade net are non-interchangeable covering types with a significant price delta — polycarbonate units command a substantial premium over polyfilm — and define the product's durability tier and UV protection level."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Greenhouse Type",
+        "reason": "Walk-in vs. tabletop vs. wall-mounted are completely different product classes serving different buyer needs and footprint constraints, with a large price delta between sub-types — a buyer cannot substitute one for another."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Country Of Origin",
+      "Covering Material",
+      "Door Type",
+      "Frame Coating",
+      "Greenhouse Type",
+      "Installation Type",
+      "No Of Shelves",
+      "Portable",
+      "Structure Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Size / Dimensions",
+        "why_important": "Buyers have a specific terrace or balcony footprint constraint and size is the first filter — sellers need dimensions to confirm their product range is relevant and to quote accurately.",
+        "source": "both",
+        "example_values": [
+          "6x6 ft",
+          "6x10 ft",
+          "10x12 ft",
+          "20x30 ft"
+        ]
+      },
+      {
+        "spec_name": "Ventilation Type",
+        "why_important": "Natural vs. fan-assisted vs. exhaust-fan ventilation is a key functional differentiator that affects crop health and price — buyers in hot climates specifically require active ventilation and sellers need this to confirm product fit.",
+        "source": "both",
+        "example_values": [
+          "Natural Ventilation",
+          "Exhaust Fan",
+          "Fan-Pad System",
+          "Zippered Vents"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Frame Material",
+        "reason": "GI, MS, PVC, and aluminium frames represent different durability and price tiers — sellers specialise in specific frame types and need this to confirm product fit and quote accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Covering Material",
+        "reason": "UV stabilised film, shade net, polycarbonate, and FRP are non-interchangeable covering types that define the product's functional tier — sellers need this to identify the correct product line and price point.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "UV Stabilized Film",
+          "Shade Net",
+          "Polycarbonate Sheet",
+          "FRP Sheet"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Size / Dimensions",
+        "why_important": "Buyers have a specific footprint constraint (terrace or balcony area) and size determines whether the seller's product range is relevant — without this, sellers cannot confirm fit or quote accurately.",
+        "source": "both",
+        "example_values": [
+          "6x6 ft",
+          "6x10 ft",
+          "10x12 ft",
+          "20x30 ft"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Greenhouse Type",
+        "why_important": "Walk-in, tabletop, and dome are completely different product classes — sellers manufacturing walk-in structures cannot supply tabletop units, making this the primary routing spec for accurate seller matching.",
+        "source": "both",
+        "example_values": [
+          "Walk-in",
+          "Tabletop / Shelf",
+          "Dome",
+          "Wall Mounted"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Walk-in",
+          "Tabletop / Shelf",
+          "Dome"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Covering Material",
+      "option_value": "UV Stabilized Film",
+      "id": "spec_1",
+      "prompt_for_generation": "Walk-in mini greenhouse with UV-stabilised translucent polyethylene film covering stretched over a GI pipe frame, set on a rooftop terrace, natural daylight, green plants visible inside through the milky-clear film, clean white background crop, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Shade Net",
+      "id": "spec_2",
+      "prompt_for_generation": "Walk-in mini greenhouse with green HDPE shade net covering over a GI pipe frame, outdoor garden setting, mesh texture clearly visible, plants partially visible through the net, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Polycarbonate Sheet",
+      "id": "spec_3",
+      "prompt_for_generation": "Walk-in mini greenhouse with rigid twin-wall polycarbonate panels on a GI frame, rooftop terrace setting, clear structured panels with visible twin-wall cross-section at edges, green plants inside, bright natural light, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "FRP Sheet",
+      "id": "spec_4",
+      "prompt_for_generation": "Walk-in mini greenhouse with semi-opaque fibreglass reinforced plastic (FRP) sheet panels on a metal frame, outdoor garden setting, off-white translucent panels with slight texture, diffused light inside, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Walk-in",
+      "id": "spec_5",
+      "prompt_for_generation": "Full-size walk-in mini greenhouse with zippered door entry, polycarbonate or polyfilm covering over a GI pipe frame, rooftop terrace setting, person-height structure with plants visible inside, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Tabletop / Shelf",
+      "id": "spec_6",
+      "prompt_for_generation": "Compact tabletop mini greenhouse with multiple shelves, clear PVC or plastic cover with zippered front, placed on a balcony railing or table, small seedling trays on shelves, indoor-outdoor setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Dome",
+      "id": "spec_7",
+      "prompt_for_generation": "Dome-shaped mini greenhouse with arched quonset-style GI frame and UV polyfilm covering, outdoor garden or terrace setting, rounded profile clearly visible, green plants inside, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
