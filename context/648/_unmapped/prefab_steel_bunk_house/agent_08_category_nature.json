@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: the name 'Prefab Steel Bunk House' specifies material (steel), construction method (prefab), and use (bunk house/worker accommodation) — buyer intent is homogeneous across all product_types (construction, mining, industrial site procurement) and Agent 3 produced a confident, unhedged primary_segment with no incompatible intent clusters observed.",
+    "is_vague: 0 of 5 signals fire — name resolves to one product concept, primary_segment is unhedged, all buyer_intent_queries cluster around the same worker-accommodation procurement context, all product_types share the same buyer archetype, and sibling MCATs ('Bunkhouses', 'MS Bunkhouse', 'Bunk House Office') represent material-scope or use-configuration variants of the same buyer profile, not incompatible regulatory regimes or buyer personas."
+  ]
+}
