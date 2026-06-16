@@ -1,0 +1,67 @@
+{
+  "enhanced_name_4w": "Agricultural Polyhouse Farming Structures",
+  "enhanced_name_5w": "Protected Cultivation Polyhouse for Farmers",
+  "enhanced_name_6w": "NHM Polyhouse Structures for Crop Farming",
+  "enhanced_name_long": "Agricultural Polyhouse and Greenhouse Structures for Protected Cultivation of Vegetables, Flowers and High-Value Crops",
+  "alt_names": {
+    "primary_keywords": [
+      "agricultural greenhouse",
+      "polyhouse",
+      "poly house",
+      "protected cultivation structure",
+      "shade net house",
+      "greenhouse structure",
+      "polyhouse structure",
+      "net house",
+      "agricultural polyhouse",
+      "green house farming structure"
+    ],
+    "technical_synonyms": [
+      "Naturally Ventilated Polyhouse (NVPH)",
+      "Climate Control Polyhouse (CCPH)",
+      "controlled environment agriculture structure",
+      "protected horticulture structure",
+      "GI pipe polyhouse",
+      "UV-stabilised PE film greenhouse",
+      "fan-and-pad greenhouse",
+      "insect-proof net house",
+      "walk-in tunnel"
+    ],
+    "trade_names": [
+      "NHM polyhouse",
+      "NHB polyhouse",
+      "MIDH greenhouse",
+      "Open Vent Polyhouse (OVPH)",
+      "Quonset polyhouse",
+      "gutter-connected polyhouse",
+      "even-span greenhouse",
+      "ridge-and-furrow greenhouse"
+    ],
+    "hindi_terms": [
+      "polyhouse",
+      "hariyali ghar",
+      "sanrakshit kheti ka dhanccha",
+      "shade net house"
+    ],
+    "buyer_intent_queries": [
+      "agricultural greenhouse for vegetable farming",
+      "polyhouse structure price per square meter",
+      "naturally ventilated polyhouse for tomato cultivation",
+      "greenhouse construction for flower farming",
+      "NHM subsidy polyhouse structure",
+      "shade net house for horticulture",
+      "fan pad greenhouse for capsicum",
+      "low cost polyhouse for small farmers",
+      "greenhouse structure for saffron cultivation",
+      "hydroponic greenhouse structure India"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Home/hobby/ornamental greenhouse buyers (Mini Greenhouse sibling, ID 116157) — buyers seeking small decorative or indoor plant enclosures, not commercial farm-scale protected cultivation structures; names such as 'mini greenhouse', 'indoor greenhouse', 'balcony greenhouse', or 'hobby greenhouse' are blocked as they attract a non-agricultural, non-commercial buyer persona incompatible with this MCAT's farmer and agri-entrepreneur segment.",
+    "Generic non-agricultural prefabricated structure buyers (Greenhouse sibling ID 29816, Greenhouse Structure sibling ID 158767, Naturally Ventilated Greenhouse sibling ID 166277) — these sibling MCATs carve out greenhouse types without the agricultural/horticulture qualifier; enhanced names and alt names must retain the 'agricultural' or crop/farming context anchor to avoid overlap with ornamental, research, or non-farm greenhouse buyers.",
+    "Polyhouse as standalone structure category (Polyhouse sibling ID 149713) — this sibling carves out the polyhouse sub-type directly; the root MCAT's names must not reduce to bare 'Polyhouse' alone (which would collide with the sibling name) but must carry the agricultural/farming qualifier or broader protected-cultivation framing.",
+    "Mist Chamber buyers (Mist Chamber sibling ID 160350) — buyers seeking propagation-specific high-humidity chambers are a distinct sub-segment; names narrowly targeting mist chambers or propagation houses are blocked to avoid contaminating this sibling's buyer segment."
+  ],
+  "segment_contamination_disclaimer": null
+}
