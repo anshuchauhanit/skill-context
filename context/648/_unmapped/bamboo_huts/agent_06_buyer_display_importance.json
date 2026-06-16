@@ -1,0 +1,198 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual style variation across bamboo hut sub-types is extreme — a Bali-style hut, a thatched beach hut, a gazebo, and a tree house are visually unrecognisable as the same product category. Hospitality buyers have a specific aesthetic brief; image is the primary style selector and wrong aesthetic means immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Built type (prefab vs on-site), treatment quality, and floor area are non-interchangeable shortlisting gates — untreated bamboo lasts 1–3 years vs chemical-treated at 15–25 years, making treatment a compliance and durability decision, not a preference. Listings without these specs cannot be evaluated for resort or commercial deployment."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian hospitality buyers compare per-sq-ft rates aggressively but only after confirming style and treatment spec match — a prefab chemical-treated Bali hut and an untreated on-site garden hut are not price-comparable. Listed price is a budget entry point; final price is always negotiated based on custom dimensions and specifications."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Some sellers quote per piece (small fixed-size garden huts) or per project (full site-fabricated structures) — per sq ft vs per piece creates real price comparison confusion and must be shown alongside price.",
+      "reason": "Price cannot be compared across listings without knowing the unit — per sq ft, per piece, and per project are all active in this market and represent fundamentally different pricing bases. Unit ambiguity directly misleads buyers comparing rates."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in the Indian bamboo hut market — the market is fragmented across regional fabricators and no sibling MCAT carves out a branded sub-segment; buyers search by style and treatment spec, not manufacturer name.",
+      "reason": "Seller installation capability, service geography (pan-India vs regional), and track record of resort/hospitality projects are evaluated during vendor selection for a large custom structure, but only after style and spec shortlisting is complete."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Treatment",
+        "reason": "Treatment class (untreated vs chemical treated) drives the largest price delta in this category and is non-interchangeable — a resort buyer cannot substitute untreated bamboo for chemical-treated given the 1–3 year vs 15–25 year lifespan difference."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Built Type",
+        "reason": "Prefab, knock-down, and on-site build represent fundamentally different delivery and installation models with significant cost and lead-time differences — a buyer requiring prefab cannot substitute on-site build."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Floor Area",
+      "Furnishing",
+      "Number Of Floors",
+      "Roof Material",
+      "Service Location",
+      "Treatment",
+      "Usage",
+      "Use"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall Material",
+        "why_important": "Wall construction type (bamboo poles, bamboo matting panels, thatch panels) is a primary visual and structural differentiator that determines both the aesthetic outcome and the structural integrity of the hut — absent from the current spec list despite being a core buyer decision variable.",
+        "source": "both",
+        "example_values": [
+          "Bamboo Poles",
+          "Bamboo Matting Panel",
+          "Thatch Panel",
+          "Bamboo Composite Board"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Design Style",
+        "reason": "Design style defines the structural form and aesthetic (Gazebo vs Bali Style vs Cottage vs Hut Shape) — sellers need this to determine which product line applies and whether they can supply the required design.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Gazebo",
+          "Cottage",
+          "Bali Style",
+          "Hut Shape",
+          "Hall",
+          "Standard"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Dimensions",
+        "reason": "Floor dimensions drive material quantity, structural feasibility, and per-sq-ft pricing — sellers cannot generate an accurate quote without knowing the required footprint.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Treatment Type",
+        "why_important": "Bamboo treatment class (untreated vs chemical treated vs heat treated) determines the structure's lifespan and compliance suitability for commercial hospitality use — sellers need this to confirm product durability tier and price accurately.",
+        "source": "both",
+        "example_values": [
+          "Chemical Treated",
+          "Heat Treated",
+          "Untreated"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Design Style",
+      "option_value": "Gazebo",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated bamboo gazebo structure with open sides, octagonal or hexagonal shape, thatched roof, natural bamboo pole frame, set in a resort garden, daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Cottage",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated bamboo cottage with enclosed walls made of bamboo panels, pitched thatched roof, small wooden door and window, set in an eco-resort landscape, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Bali Style",
+      "id": "spec_3",
+      "prompt_for_generation": "Bali-style bamboo hut with steeply pitched layered thatched roof, ornate bamboo pole columns, open veranda, tropical resort setting, lush greenery background, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Hut Shape",
+      "id": "spec_4",
+      "prompt_for_generation": "Traditional round or oval bamboo hut with conical thatched roof, bamboo pole walls, single entrance, standalone structure in a nature camp or eco-tourism setting, daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Hall",
+      "id": "spec_5",
+      "prompt_for_generation": "Large rectangular bamboo hall structure with open or semi-open sides, bamboo pole columns, thatched or metal sheet roof, suitable for resort dining or event space, wide-angle exterior view, daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Standard",
+      "id": "spec_6",
+      "prompt_for_generation": "Standard prefabricated bamboo hut with rectangular footprint, bamboo pole frame, enclosed bamboo matting walls, pitched thatched roof, single door, plain resort or farmhouse setting, daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
