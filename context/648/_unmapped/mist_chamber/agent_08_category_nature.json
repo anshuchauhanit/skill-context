@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": false,
+  "is_vague": true,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "Signals S1 and S5a fire: the name 'Mist Chamber' maps to two incompatible product families — prefabricated horticultural propagation structures (nursery/farm buyers, no specific regulatory regime) and salt spray/corrosion testing chambers (QC lab buyers, ASTM B117/ISO 9227 instruments) — with zero buyer overlap and incompatible procurement contexts; Agent 3's market_context explicitly documents this contamination.",
+    "is_specific forced to false by hard constraint (is_vague: yes); is_generic: false because within the horticultural segment the MCAT is narrow and bounded (121 listings, one product concept), not a broad catch-all roll-up node."
+  ]
+}
