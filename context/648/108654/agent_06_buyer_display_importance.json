@@ -1,0 +1,184 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Log cabins are high-value, aesthetically-driven structures where buyers — resort developers, eco-tourism operators, homeowners — make initial shortlisting decisions based on visual style, finish quality, and structural form. Extreme visual variation exists across sub-types (A-frame, gable-roof resort cabin, rooftop cabin, garden cabin), making image the primary scan-and-filter signal before any text is read."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Built type (prefab vs on-site), wood species, floor area, and treatment are non-interchangeable parameters that define project feasibility, cost, and compliance — buyers cannot shortlist without confirming these match their project requirement."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No nationally recognised brand commands buyer recall in the Indian log cabin market — buyers search by spec, style, and service capability rather than manufacturer name; Deodar Group and Royal Prefab are known within the trade but are not consumer-facing brands buyers search for by name.",
+      "reason": "End-to-end service capability (design, fabrication, installation, after-sales) and track record of completed resort/residential projects are critical vendor selection criteria for high-value custom structures; institutional buyers (state tourism boards, forest departments) additionally require company credentials and prior project references."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with wood species, floor area, built type, and furnishing level — buyers discover and compare across spec tiers during search, making price a spec-dependent qualifier rather than a standalone commodity comparison signal. Indian buyers are price-sensitive but cannot compare prices without spec equivalence first."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard portable/catalogue cabins (fixed sizes such as 10×10 ft, 10×20 ft) may be quoted per piece — unit must be shown to prevent misreading of price when sellers mix per-sq-ft and per-piece quoting conventions.",
+      "reason": "Per sq ft is the dominant quoting unit for custom-dimensioned log cabins, but some sellers quote per piece for standard portable units — without the unit shown, buyers cannot compare prices across listings or interpret quoted figures accurately."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Built Type",
+        "reason": "Prefab, on-site build, and knock-down are non-interchangeable construction methods that drive fundamentally different project timelines, logistics costs, and total price — a buyer cannot substitute one for another based on their site, budget, or permit situation."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wood Type",
+        "reason": "Wood species (pine, spruce, cedar, teak, engineered wood) determines structural durability, climate suitability, treatment requirements, and a significant price delta — cedar commands a premium over SPF pine and is non-interchangeable for humid or coastal deployments."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Cabin Type",
+      "Floor Area",
+      "Furnishing",
+      "Number Of Floors",
+      "Roof Type",
+      "Service Location",
+      "Treatment",
+      "Usage",
+      "Wood Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall Log Thickness",
+        "why_important": "Log wall thickness (e.g. 70mm, 90mm, 120mm) is a primary structural and insulation differentiator that drives material cost and thermal performance — buyers in hill-station and cold-climate deployments specify minimum thickness as a project requirement.",
+        "source": "both",
+        "example_values": [
+          "70 mm",
+          "90 mm",
+          "120 mm",
+          "150 mm"
+        ]
+      },
+      {
+        "spec_name": "Installation Included",
+        "why_important": "Whether the price includes on-site installation and erection is a critical scope-of-supply question for buyers comparing sellers — some quote supply-only while others quote supply-and-install, making this a primary price comparability gate.",
+        "source": "both",
+        "example_values": [
+          "Supply Only",
+          "Supply & Installation",
+          "Turnkey (Design + Supply + Install)"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Intended Use",
+        "reason": "Intended use (resort/hotel, farmhouse, personal retreat, backyard office, guard cabin) routes the RFQ to sellers with the right product range, scale capability, and compliance experience — a resort developer and a backyard-office buyer require fundamentally different structures and sellers.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Resort / Hotel",
+          "Farm House",
+          "Personal Retreat",
+          "Backyard Office"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area (sq ft)",
+        "reason": "Floor area is the primary scope and pricing variable for custom log cabins — sellers need this to determine whether the project falls within their fabrication capacity and to provide an accurate per-sq-ft quotation.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Built Type",
+        "why_important": "Whether the buyer needs a prefabricated modular unit, an on-site handcrafted build, or a knock-down relocatable cabin determines which sellers can respond — not all suppliers offer all construction methods.",
+        "source": "both",
+        "example_values": [
+          "Prefab / Modular",
+          "On-Site Build",
+          "Knock Down / Relocatable"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Log cabin design varies extensively within the same spec combination — the same wood type, area, and intended use can describe dozens of visually distinct structures (A-frame, gable-roof chalet, flat-roof garden cabin, multi-room resort cottage). Resort developers and hospitality buyers typically have a specific architectural style or reference project in mind; an uploaded image or design reference allows sellers to confirm they can match the aesthetic and structural form, avoiding misaligned quotations."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Intended Use",
+      "option_value": "Resort / Hotel",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated modular log cabin with gable roof and wooden deck, set in a lush green resort landscape with trees in background, natural daylight, warm wood finish exterior, no people, no branding, architectural photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Intended Use",
+      "option_value": "Farm House",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated log cabin with pitched roof situated on open farmland with fields visible in background, rustic pine wood exterior, ground-level entry with small porch, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Intended Use",
+      "option_value": "Personal Retreat",
+      "id": "spec_3",
+      "prompt_for_generation": "Compact prefabricated log cabin with sloped roof nestled in a forested hill-station setting, cedar wood exterior, large window facing trees, wooden steps at entrance, soft natural light, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Intended Use",
+      "option_value": "Backyard Office",
+      "id": "spec_4",
+      "prompt_for_generation": "Small prefabricated wooden log cabin used as a backyard garden office, flat or low-pitch roof, placed on a residential garden lawn, modern clean wood finish, single door and window visible, daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
