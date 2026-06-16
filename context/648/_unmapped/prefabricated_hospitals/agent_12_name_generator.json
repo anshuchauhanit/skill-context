@@ -1,0 +1,58 @@
+{
+  "enhanced_name_4w": "Modular Prefab Hospital Buildings",
+  "enhanced_name_5w": "Turnkey Modular Hospital Building Systems",
+  "enhanced_name_6w": "Prefab Modular Hospital Buildings for Healthcare",
+  "enhanced_name_long": "Turnkey Prefabricated Modular Hospital Buildings with ICU, OT and Ward Blocks for Government and Private Healthcare Infrastructure",
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated hospital",
+      "modular hospital building",
+      "prefab hospital",
+      "portable hospital building",
+      "modular healthcare facility",
+      "prefab medical centre",
+      "modular hospital structure",
+      "portable medical facility"
+    ],
+    "technical_synonyms": [
+      "modular hospital construction",
+      "pre-engineered hospital building",
+      "PUF panel hospital building",
+      "PUP panel hospital structure",
+      "volumetric modular hospital",
+      "flat-pack hospital building",
+      "sandwich panel hospital",
+      "relocatable hospital building"
+    ],
+    "trade_names": [
+      "EPACK prefab hospital",
+      "Pressmach modular hospital",
+      "Wedge India modular hospital",
+      "KEF-TAHPI modular hospital"
+    ],
+    "hindi_terms": [
+      "पूर्वनिर्मित अस्पताल",
+      "मॉड्यूलर अस्पताल",
+      "पोर्टेबल अस्पताल"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated hospital building for government project",
+      "modular hospital construction turnkey India",
+      "portable hospital building for remote area",
+      "prefab hospital with ICU and OT rooms",
+      "NABH compliant modular hospital building",
+      "prefabricated hospital for disaster relief",
+      "modular hospital building manufacturer India",
+      "G+1 prefab hospital building supplier",
+      "prefabricated health centre building for PHC",
+      "prefab hospital building for Tier 2 city"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Generic non-healthcare prefabricated structures (industrial sheds, warehouses, labour colonies, schools) — buyers of those structures are not healthcare infrastructure buyers and their vocabulary must not contaminate this MCAT's names",
+    "Prefabricated Isolation Ward (sibling MCAT 444552) — a single-ward modular unit is a sub-component, not a complete hospital; names must not be scoped down to isolation ward only",
+    "Temporary or portable-only framing — while portable hospitals are a valid product type, names must not reduce the MCAT to temporary-only structures, as the primary segment includes permanent turnkey hospital buildings"
+  ],
+  "segment_contamination_disclaimer": null
+}
