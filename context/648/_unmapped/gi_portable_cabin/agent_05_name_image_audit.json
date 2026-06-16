@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'GI Portable Cabin' directly matches the top primary keyword and trade name signals from Agent 3 alt_names, and aligns with market_context which confirms 'GI' specifically signals galvanised iron sheet construction — the defining material attribute buyers search by.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail clearly shows a full GI corrugated sheet portable cabin with visible MS frame base, sliding windows, and door — correctly representing the primary segment (security/guard room and site office use) with no wrong-product contamination.",
+      "The white-and-green two-tone paint finish and outdoor gravel setting are appropriate for the construction/industrial context, but the image has a seller-styled aesthetic (bright green accent branding) that reduces neutrality; a cleaner, more neutral-toned product shot on a plain or minimal background would better serve as a category-level thumbnail."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A GI prefabricated portable cabin for construction site office and security guard room use, rectangular structure approximately 10x10 ft, galvanised iron corrugated sheet exterior walls and roof in light grey or off-white colour, mild steel C-channel base frame visible at bottom, one MS door on the front face, two aluminium sliding windows with dark glass, clean gravel or compacted earth ground, clear blue sky background, three-quarter front-side angle view, natural daylight, sharp product photography style, no branding or text on the cabin, photorealistic, high detail.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
