@@ -1,0 +1,460 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Eco-resort developer / glamping operator / individual farmhouse buyer. Capital expenditure, custom-built, project-based procurement.
+
+**Journey sequence:**
+1. **Image first** — scans listing grid to see the cabin's aesthetic: log construction style, roof shape, exterior finish, setting. This is a lifestyle/hospitality product — visual appeal IS the product. Wrong aesthetic = immediate skip.
+2. **Specification** — opens listing to check structure type (solid log vs engineered), wood type, insulation, cabin size, and features (verandah, attached toilet). These define what they're buying and whether it fits their project.
+3. **Company** — who is the manufacturer? Do they have installation capability? Track record with resorts? This is a high-value, custom-built product with significant post-sale dependency (installation, warranty, maintenance).
+4. **Price** — budget sanity check. Always project-quoted or per-sq-ft; no fixed catalogue price. Indian buyers are price-sensitive but price is only comparable after spec and aesthetic match.
+5. **Unit** — per sq ft vs per piece creates real ambiguity. Must be shown alongside price to enable comparison.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual variation is extreme (A-frame vs gable vs flat roof, solid log vs cladded, natural vs painted finish, single room vs duplex). Aesthetic IS the purchase driver for hospitality/resort buyers.
+- **Specification:** High — structure type, wood type, insulation, cabin size, and features are non-interchangeable. A buyer needing a solid cedar cabin with PUF insulation and attached toilet cannot substitute an engineered wood flat-roof cabin.
+- **Company:** Medium — manufacturer track record, installation capability, and project portfolio matter significantly for this high-value custom product, but specs and aesthetics carry equal or greater weight in initial shortlisting.
+- **Price:** Medium — always project-quoted or per-sq-ft; Indian buyers are price-sensitive but price is only a sanity check after aesthetic and spec match. No fixed catalogue price exists.
+- **Unit:** High — per sq ft vs per piece is a genuine market ambiguity (Agent 3 confirms both units exist). Price cannot be compared without knowing the unit.
+
+---
+
+## Step 3 — Cross-dimension consistency checks
+
+1. **Price display type vs spec level:** Buyers arrive with a general requirement (eco-resort cabin, ~X sq ft, wooden) but discover and compare across spec tiers (solid log vs engineered, insulation type, features). This is `spec-driven price` — price changes substantially with structure type, wood species, insulation, and features. Spec = High (discovery signal). ✓ Consistent.
+2. **Unit High → price must be at least Medium.** Price = Medium. ✓ Consistent.
+3. **Not project-based price** (per-sq-ft quoting is standard, not pure project-based). Unit show: true. ✓ Consistent.
+4. **Specification show: true → show_on_listing: true.** ✓ Consistent.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Extreme visual variation across sub-types — A-frame vs gable roof, solid log vs cladded, natural finish vs painted, single-room vs duplex — makes image the primary shortlisting signal. For hospitality and resort buyers, the cabin's aesthetic IS the product; wrong visual style = immediate skip regardless of price or spec."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Structure type, wood species, insulation type, cabin size, and included features (verandah, attached toilet, loft) are non-interchangeable and drive both fit and price. Buyers discover and compare across spec tiers during search — specs are a primary shortlisting gate, not merely a confirmation signal."
+  },
+  {
+    "rank": 3,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant nationally recognised brand with buyer recall exists in this category; market is fragmented across regional manufacturers (Royal Prefab, Loom Crafts, etc.) and buyers search by aesthetic and spec, not manufacturer name.",
+    "reason": "High-value custom product with significant post-sale dependency — installation, site assembly, and warranty service require a capable manufacturer. Resort and hospitality buyers evaluate project portfolio and installation track record during vendor selection, making company credentials a meaningful qualifier after aesthetic and spec shortlisting."
+  },
+  {
+    "rank": 4,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Price varies substantially with structure type, wood species, insulation grade, cabin size, and feature inclusions — buyers cannot compare prices without equivalent specs. Indian buyers are price-sensitive but price is a budget sanity check after aesthetic and spec match; final price is always negotiated and installation-inclusive."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Standard-size catalogue models may be quoted per piece; custom-built cabins (the dominant segment) are quoted per sq ft of built-up area. Both units appear in the market — unit must be shown alongside price to prevent comparison errors.",
+    "reason": "Per sq ft vs per piece is a confirmed market ambiguity for this MCAT; price cannot be meaningfully compared across listings without knowing the unit. Unit display is essential to prevent buyers from misreading or mis-comparing quoted prices."
+  }
+]
+```
+
+**Note on rank 5 / unit:** Unit is ranked 5th in the buyer journey (they look at it last, alongside price) but carries High absolute importance because the per-sq-ft vs per-piece ambiguity is real and consequential. This is consistent with the design principle that H/M/L is not mechanically derived from rank position.
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+**Hard eliminations:**
+- **Usage Type** (Farm House, Holiday Home, Security Cabin, Office Cabin, Resort Cabin): application/use-case tag — describes what the product is used FOR, not what it IS. Discard.
+- **Treatment** (Waterproof Coated, Termite Treated, Fire Retardant, UV Protected): multi-select treatment tags, not a single configurator dimension. These are standard quality attributes applied in combination, not mutually exclusive options that define a product class. Discard as a configurator (though important as a quality signal).
+
+**Soft eliminations / deprioritise:**
+- **Finish Type** (Paint Finish, Stain Finish, Natural Finish, Oil Finish): aesthetic preference resolved post-shortlisting; does not drive large price delta independently. Deprioritise.
+- **Cabin Features** (Loft Space, Fireplace, Kitchenette, Verandah, Deck Area, Attached Toilet): multi-select add-ons, not a single configurator. Each feature adds cost incrementally but the spec is a checklist, not a single differentiating value. Deprioritise as a primary configurator.
+- **No. of Floors** (Duplex, Single Floor, G+2): correlated with Cabin Size — a larger cabin is more likely to be duplex. However, floor count is independently non-interchangeable (a buyer needing a duplex cannot use a single-floor cabin). Retain as candidate.
+- **Roof Style** (A Frame Roof, Flat Roof, Gable Roof, Slope Roof): visually distinct and non-interchangeable for hospitality buyers, but roof style is partially determined by the overall cabin design. Retain as candidate — strong visual differentiator.
+
+**Remaining candidates after Phase 1:** Structure Type, Wood Type, Cabin Size, Insulation Type, No. of Floors, Roof Style
+
+### Phase 2 — Top 2 Configurator Selection
+
+Applying the test: *"If only this spec's value changes and everything else stays the same — does the price change significantly, AND can the buyer NOT substitute one value for another?"*
+
+- **Structure Type** (Cladded Log / Solid Log / Wood and Steel): defines WHAT the product IS at the most fundamental level. Solid log is premium (higher material cost, authentic aesthetic); cladded log is mid-tier (engineered core with log cladding); wood and steel is a hybrid. Non-interchangeable — a resort buyer specifying solid cedar logs cannot accept a cladded log cabin. Largest price delta of any spec. **Rank 1.**
+
+- **Wood Type** (Pine Wood / Teak Wood / Spruce Wood / Engineered Wood / Cedar Wood): defines the material grade within the structure type. Teak and cedar command significant price premiums over pine and spruce; engineered wood is the lowest cost tier. Non-interchangeable for buyers with specific durability, aesthetic, or climate requirements. **Rank 2.**
+
+*Cabin Size* was considered but is a dimension (sq ft) rather than a true configurator — it scales price linearly and is captured by the per-sq-ft unit. *Insulation Type* is important but secondary to structure and wood type in price determination. *No. of Floors* and *Roof Style* are design choices that follow from the overall project brief.
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list (verbatim copy):**
+["Cabin Features", "Cabin Size", "Finish Type", "Insulation Type", "No. of Floors", "Roof Style", "Structure Type", "Treatment", "Usage Type", "Wood Type"]
+
+**Step 3b/3c — Candidate gaps cross-referenced:**
+
+From Agent 3 `vision_output` and LLM world knowledge, the following dimensions are important for Indian log cabin buyers:
+
+- **Log Diameter / Log Thickness:** For solid log cabins, the diameter of the logs (e.g., 100mm, 150mm, 200mm) is a primary structural and thermal performance spec. Thicker logs = better insulation, higher cost, more authentic appearance. Not present in seller spec list under any name. → **Flag as missing.**
+
+- **Floor Area / Built-up Area (sq ft):** Cabin Size captures this partially (20x20 ft, 15x10 ft, etc.) — semantic equivalent present. → **Do not flag.**
+
+- **Insulation Type:** Already in seller spec list. → **Do not flag.**
+
+- **Anti-termite / Weatherproofing Treatment:** Captured under "Treatment" in seller spec list. → **Do not flag.**
+
+- **Foundation Type / Anchoring:** Whether the cabin requires a concrete foundation, uses screw piles, or is truly portable (skid-mounted). Important for buyers in remote/hilly locations. Not present in seller spec list. → **Flag as missing.**
+
+- **Delivery and Installation Scope:** Whether price includes delivery, installation, and site assembly. Important for buyers but this is a service scope question, not a product spec — peripheral to the configurator list. → **Omit** (does not meet importance threshold as a product spec).
+
+- **Number of Rooms / Bedrooms:** For resort developers buying multi-room cabins, room count is a key requirement. Not explicitly captured — Cabin Size gives dimensions but not room count. → **Flag as missing.**
+
+**Importance threshold check:**
+- Log Diameter/Thickness: Yes — senior CM would add this; it drives structural performance and price for solid log cabins.
+- Foundation/Portability Type: Yes — critical for remote/hilly site buyers; determines installation feasibility and cost.
+- Number of Rooms: Yes — resort developers specify by room count (1BHK, 2BHK equivalent); drives layout and price.
+
+### Phase 4 — Coverage Verdict
+
+3 missing specs → `significant_gaps`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Wall Material, Roof Design, Interior Paneling
+
+- **Wall Material** (Pine Wood, Spruce Wood, WPC Planks, Thermo-Pine Wood, Cement FibrePlank, FRP Wood Finish): defines the primary structural and aesthetic material of the cabin. Sellers need this to determine manufacturing process, material sourcing, and pricing. Non-interchangeable — a seller specialising in solid pine log construction cannot supply WPC plank or FRP cabins. **Rank 1.**
+
+- **Roof Design** (Gable/Hut Shape, A-Frame, Sloped Roof, Flat with Porch): defines the cabin's structural form and visual identity. Non-interchangeable — an A-frame requires different structural engineering than a flat-roof cabin. Sellers need this to assess manufacturing capability and quote accurately. **Rank 2.**
+
+*Interior Paneling* was considered for rank 2 but is a finishing choice that sellers can accommodate across most cabin types; it does not gate seller capability as fundamentally as roof design does.
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Wall Material:** Each option value has a visually distinct appearance — pine log texture vs WPC plank vs FRP wood-finish panel are recognisably different materials. **Thumbnail eligible: true.** Options: ["Pine Wood", "Spruce Wood", "WPC Planks", "Thermo-Pine Wood", "Cement FibrePlank", "FRP (Wood Finish)"]
+
+- **Roof Design:** Each option value is a visually distinct structural form — gable/hut shape vs A-frame vs sloped vs flat with porch are immediately recognisable from a thumbnail. **Thumbnail eligible: true.** Options: ["Gable / Hut Shape", "A-Frame", "Sloped Roof", "Flat with Porch"]
+
+### Phase 3 — Missing Buyer Spec Audit
+
+Cross-referencing buyer spec list against Agent 3 vision_output and LLM world knowledge:
+
+**Cabin Size / Floor Area:** Not in buyer spec list. Sellers need to know the required floor area (sq ft or dimensions) to assess manufacturing scope and quote accurately. A seller with a maximum cabin size of 400 sq ft cannot supply a 600 sq ft resort cabin. This is the most fundamental requirement dimension for a custom-built product. → **Flag as missing. would_be_rank: 1** — more important than Wall Material because size determines whether the seller can supply at all before material choice matters.
+
+*Thumbnail eligibility for Cabin Size:* Numeric/dimensional spec — no meaningful visual difference between "10x10 ft" and "20x20 ft" as a thumbnail. **Thumbnail eligible: false.**
+
+**Insulation Type:** Not in buyer spec list. For hill-station and cold-climate resort buyers, insulation type (Glass Wool / PUF / Rockwool / None) determines thermal comfort and is a non-negotiable requirement. Sellers need this to confirm they can supply the required thermal performance. → **Flag as missing. would_be_rank: 2** — slots after Cabin Size but before current rank 2 (Roof Design) because insulation determines product suitability for the buyer's climate zone.
+
+*Thumbnail eligibility for Insulation Type:* Abstract technical spec — no visual difference between insulation types from a cabin exterior thumbnail. **Thumbnail eligible: false.**
+
+**Interior Paneling:** Already in buyer spec list. → **Do not flag.**
+
+**Number of Rooms:** Important for resort developers but partially implied by Cabin Size. Borderline — omit as it is adequately implied by size and is resolved post-connection.
+
+**Coverage verdict:** 2 missing specs → `partial`
+
+### Phase 4 — Image Upload Assessment
+
+**Image upload recommended: false.**
+
+Wall Material, Roof Design, Cabin Size, and Insulation Type together give sellers sufficient context to determine capability and quote accurately. Log cabins are custom-built to specification — sellers do not need a reference image to respond; they work from the spec brief. Unlike spare parts or custom fabrication with complex geometry, log cabin requirements are fully capturable through the spec dimensions above.
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs` rank 1: Wall Material (thumbnail_eligible: true) — 6 options
+- `top_rfq_specs` rank 2: Roof Design (thumbnail_eligible: true) — 4 options
+- `missing_important_specs`: Cabin Size (would_be_rank: 1, thumbnail_eligible: false) — no prompts
+- `missing_important_specs`: Insulation Type (would_be_rank: 2, thumbnail_eligible: false) — no prompts
+
+Total prompts: 10 (6 Wall Material + 4 Roof Design)
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual variation across sub-types — A-frame vs gable roof, solid log vs cladded, natural finish vs painted, single-room vs duplex — makes image the primary shortlisting signal. For hospitality and resort buyers, the cabin's aesthetic IS the product; wrong visual style = immediate skip regardless of price or spec."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Structure type, wood species, insulation type, cabin size, and included features are non-interchangeable and drive both fit and price. Buyers discover and compare across spec tiers during search — specs are a primary shortlisting gate, not merely a confirmation signal."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand with buyer recall exists in this category; market is fragmented across regional manufacturers and buyers search by aesthetic and spec, not manufacturer name.",
+      "reason": "High-value custom product with significant post-sale dependency — installation, site assembly, and warranty service require a capable manufacturer. Resort and hospitality buyers evaluate project portfolio and installation track record during vendor selection, making company credentials a meaningful qualifier after aesthetic and spec shortlisting."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with structure type, wood species, insulation grade, cabin size, and feature inclusions — buyers cannot compare prices without equivalent specs. Indian buyers are price-sensitive but price is a budget sanity check after aesthetic and spec match; final price is always negotiated and installation-inclusive."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard-size catalogue models may be quoted per piece; custom-built cabins (the dominant segment) are quoted per sq ft of built-up area. Both units appear in the market — unit must be shown alongside price to prevent comparison errors.",
+      "reason": "Per sq ft vs per piece is a confirmed market ambiguity for this MCAT; price cannot be meaningfully compared across listings without knowing the unit. Unit display is essential to prevent buyers from misreading or mis-comparing quoted prices."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Type",
+        "reason": "Defines the fundamental product class — solid log, cladded log, or wood-and-steel hybrid are non-interchangeable and carry the largest price delta of any spec in this category; a resort buyer specifying solid logs cannot accept a cladded or hybrid cabin."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wood Type",
+        "reason": "Defines material grade within the structure type — teak and cedar command significant price premiums over pine and spruce, and engineered wood is the lowest cost tier; non-interchangeable for buyers with specific durability, aesthetic, or climate requirements."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cabin Features",
+      "Cabin Size",
+      "Finish Type",
+      "Insulation Type",
+      "No. of Floors",
+      "Roof Style",
+      "Structure Type",
+      "Treatment",
+      "Usage Type",
+      "Wood Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Log Diameter / Log Thickness",
+        "why_important": "For solid log cabins, log diameter (e.g., 100mm, 150mm, 200mm) is a primary structural and thermal performance differentiator — thicker logs provide better insulation and command higher prices, and buyers in cold-climate hill-station locations specify this as a non-negotiable requirement.",
+        "source": "LLM world knowledge",
+        "example_values": ["100mm", "150mm", "200mm", "Custom"]
+      },
+      {
+        "spec_name": "Foundation / Portability Type",
+        "why_important": "Whether the cabin is skid-mounted (truly portable), uses screw piles, or requires a concrete foundation determines installation feasibility and cost for buyers in remote or hilly locations — sellers need this to assess site requirements and quote installation accurately.",
+        "source": "both",
+        "example_values": ["Skid Mounted", "Screw Pile Foundation", "Concrete Foundation", "No Foundation Required"]
+      },
+      {
+        "spec_name": "Number of Rooms",
+        "why_important": "Resort developers and hospitality buyers specify cabin layout by room count (single room, 1BHK, 2BHK equivalent) — this drives floor plan, material quantity, and price independently of overall cabin size dimensions.",
+        "source": "both",
+        "example_values": ["1 Room (Studio)", "1 BHK", "2 BHK", "3+ Rooms"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Wall Material",
+        "reason": "Defines the primary structural and aesthetic material of the cabin — sellers specialising in solid pine log construction cannot supply WPC plank or FRP cabins, making this the primary capability-routing spec.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Pine Wood", "Spruce Wood", "WPC Planks", "Thermo-Pine Wood", "Cement FibrePlank", "FRP (Wood Finish)"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Roof Design",
+        "reason": "Defines the cabin's structural form and visual identity — an A-frame requires different structural engineering than a flat-roof cabin, and sellers need this to assess manufacturing capability and quote accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Gable / Hut Shape", "A-Frame", "Sloped Roof", "Flat with Porch"]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Size (Floor Area)",
+        "why_important": "Sellers need the required floor area to assess manufacturing scope and quote accurately — a seller with a maximum cabin capacity cannot supply a larger resort cabin, making size the most fundamental routing requirement.",
+        "source": "both",
+        "example_values": ["Up to 200 sq ft", "200–400 sq ft", "400–600 sq ft", "Above 600 sq ft"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "For hill-station and cold-climate resort buyers, insulation type determines thermal comfort and is a non-negotiable requirement — sellers need this to confirm they can supply the required thermal performance for the buyer's climate zone.",
+        "source": "both",
+        "example_values": ["Glass Wool", "PUF", "Rockwool", "No Insulation"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Wall Material",
+      "option_value": "Pine Wood",
+      "id": "spec_1",
+      "prompt_for_generation": "Exterior wall of a prefabricated portable log cabin constructed from solid pine wood logs, horizontal stacked log construction with visible natural wood grain and knots, warm golden-brown tone, natural outdoor setting with soft daylight, close-up angle showing wall texture and log joinery, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "Spruce Wood",
+      "id": "spec_2",
+      "prompt_for_generation": "Exterior wall of a prefabricated portable log cabin constructed from spruce wood logs, horizontal stacked log construction with pale cream-white wood tone and fine grain, natural outdoor setting with soft daylight, close-up angle showing wall texture and log joinery, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "WPC Planks",
+      "id": "spec_3",
+      "prompt_for_generation": "Exterior wall of a portable cabin constructed from WPC (wood-plastic composite) planks, horizontal plank cladding with uniform wood-grain embossed texture in medium brown tone, clean modern finish, natural outdoor setting with soft daylight, close-up angle showing plank profile and surface texture, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "Thermo-Pine Wood",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior wall of a portable log cabin constructed from thermally modified pine wood planks, horizontal cladding with deep dark-brown tone characteristic of heat-treated timber, smooth surface with subtle grain, natural outdoor setting with soft daylight, close-up angle showing plank profile and rich colour, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "Cement FibrePlank",
+      "id": "spec_5",
+      "prompt_for_generation": "Exterior wall of a portable cabin constructed from cement fibre planks with wood-grain embossed surface finish, horizontal lap siding profile in light grey-brown tone, clean and durable appearance, natural outdoor setting with soft daylight, close-up angle showing plank profile and textured surface, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "FRP (Wood Finish)",
+      "id": "spec_6",
+      "prompt_for_generation": "Exterior wall of a portable cabin constructed from FRP panels with wood-finish surface, horizontal panel cladding with printed wood-grain texture in warm brown tone, smooth and uniform appearance, natural outdoor setting with soft daylight, close-up angle showing panel joints and surface finish, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Design",
+      "option_value": "Gable / Hut Shape",
+      "id": "spec_7",
+      "prompt_for_generation": "Full exterior view of a prefabricated portable log cabin with a classic gable roof (hut shape), symmetrical triangular pitched roof with ridge at centre, solid pine log walls, natural wood finish, set in a green hillside or forest clearing, soft natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Design",
+      "option_value": "A-Frame",
+      "id": "spec_8",
+      "prompt_for_generation": "Full exterior view of a prefabricated portable log cabin with a dramatic A-frame roof, steeply pitched triangular roof extending close to ground level on both sides, solid pine log or timber construction, natural wood finish, set in a green hillside or forest clearing, soft natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Design",
+      "option_value": "Sloped Roof",
+      "id": "spec_9",
+      "prompt_for_generation": "Full exterior view of a prefabricated portable log cabin with a single-slope (mono-pitch) roof, roof pitched in one direction only, solid pine log or timber walls, natural wood finish, set in a green hillside or garden setting, soft natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Design",
+      "option_value": "Flat with Porch",
+      "id": "spec_10",
+      "prompt_for_generation": "Full exterior view of a prefabricated portable log cabin with a flat roof and an attached front porch or verandah, low-profile flat roofline, solid pine log or timber walls, natural wood finish, porch with wooden railing visible in foreground, set in a garden or resort setting, soft natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
