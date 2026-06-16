@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "\"Metal Shelters\" aligns with primary_keywords (\"metal shelters\", \"steel shelter\", \"prefabricated metal shelter\") and is the standard buyer-facing term used in Indian B2B market for this category; market_context confirms the term is widely understood across industrial, agricultural, and public-use segments.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a small residential/garden-style corrugated metal storage shed (approx. 6×6 ft, apex roof, sliding door panels) — a consumer-grade garden shed product, not the primary_segment which is a prefabricated mild steel industrial/storage shelter with portal-frame or truss structure and colour-coated GI/Galvalume roofing.",
+      "This image actively misrepresents the dominant B2B commercial form of the MCAT and would attract wrong buyer intent (residential/garden buyers) while failing to signal industrial-scale fabrication capability to the actual target buyer segments."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic product image of a large prefabricated mild steel industrial storage shelter with a clear-span portal-frame or truss structure, colour-coated blue or green GI/Galvalume corrugated roofing sheets, grey or red-oxide-primed structural steel columns and rafters, wide open front with a rolling shutter or open bay, set on a concrete floor against a plain white studio background, front three-quarter view, sharp detail on roof purlins and column base plates, bright even lighting, no people, no text overlays, square 1:1 aspect ratio.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
