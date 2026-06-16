@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Industrial Shelters' aligns with the dominant primary keywords ('industrial shelter', 'prefabricated industrial shelter', 'steel shelter') and market context confirming this is the standard B2B trade term used by Indian manufacturers and buyers for prefabricated structural enclosures across factory, warehouse, and equipment protection applications.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail shows a white sandwich-panel prefabricated shelter under construction on a bare earth site — this is a valid product type within the MCAT and broadly consistent with the primary segment (prefabricated industrial shelter for factory/warehouse/equipment protection use), so it is not wrong.",
+      "However, the image reads more as a site-office or labour-camp portable cabin than a large-span industrial factory or warehouse shelter, and the construction-site context with exposed soil reduces professional appeal; a cleaner, purpose-built steel-framed or FRP industrial shelter on a finished floor with clear industrial context would better represent the primary segment and attract the core buyer."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A large-span prefabricated steel industrial shelter with grey corrugated metal roofing and light-grey insulated sandwich panel walls, standing on a clean concrete floor inside an industrial facility. The structure has a clear-span portal frame design with visible steel columns and purlins, wide roller shutter doors on the front facade, and natural light entering through translucent roof sheets. Background shows a tidy factory or warehouse interior with minimal clutter. Perspective is a three-quarter exterior front view, sharp focus, professional product photography lighting, white or light-grey neutral background gradient, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
