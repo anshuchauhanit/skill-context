@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Beach House' directly matches the top primary keyword and trade vocabulary confirmed in Agent 3 alt_names and market_context; no dominant competing term (e.g., 'modular coastal cottage') outranks it in buyer intent queries.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image shows a timber-clad, stilt-raised prefab beach cottage with a wraparound deck and tropical palm backdrop — correctly representing the primary segment (factory-built modular beach house, timber frame, coastal hospitality deployment).",
+      "Improvement is possible: the image appears to be a rendered/stock illustration rather than a photorealistic product shot, lacks any visible structural or material detail cues (e.g., composite panel joints, steel frame elements) that would signal B2B product quality, and the tropical setting is generic rather than distinctly coastal/beachfront."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a factory-built modular beach house for coastal hospitality deployment. Structure is a single-storey raised stilt cottage with light gauge steel or treated timber frame, insulated composite panel or timber cladding in warm brown and cream tones, gabled metal roof in muted grey or terracotta, and a wide wraparound wooden deck with rattan furniture. Set on a sandy beachfront with turquoise sea visible in the background, clear blue sky, bright natural daylight. Clean white sandy foreground. No people, no text overlays, no seller watermarks. Sharp product-focused composition, slight three-quarter front angle to show facade and deck depth. Professional architectural photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
