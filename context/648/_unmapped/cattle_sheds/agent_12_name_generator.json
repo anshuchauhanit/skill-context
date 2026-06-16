@@ -1,0 +1,62 @@
+{
+  "enhanced_name_4w": "Steel Frame Cattle Sheds",
+  "enhanced_name_5w": "Prefab Steel Dairy Cattle Sheds",
+  "enhanced_name_6w": "Prefab Steel Sheds for Dairy Cattle",
+  "enhanced_name_long": "Prefabricated Steel-Framed Cattle Sheds for Dairy Cows, Buffaloes, Goats and Livestock Farm Housing",
+  "alt_names": {
+    "primary_keywords": [
+      "cattle shed",
+      "cow shed",
+      "dairy farm shed",
+      "goat farm shed",
+      "buffalo shed",
+      "dairy shed",
+      "livestock shed",
+      "animal shed",
+      "goat shed",
+      "sheep farm shed"
+    ],
+    "technical_synonyms": [
+      "loose housing system shed",
+      "prefabricated livestock housing",
+      "steel frame cattle barn",
+      "modular dairy farm structure",
+      "pre-engineered cattle shed",
+      "elevated slatted floor goat shed",
+      "open-sided cattle housing",
+      "GI roofing farm shed"
+    ],
+    "trade_names": [
+      "dairy barn",
+      "cow barn",
+      "cattle barn",
+      "goat house",
+      "animal housing structure",
+      "farm shed structure"
+    ],
+    "hindi_terms": [
+      "pashu shed",
+      "gau shed",
+      "bakri farm shed",
+      "pashu grih"
+    ],
+    "buyer_intent_queries": [
+      "low budget cow shed design for 10 cows",
+      "prefabricated cattle shed price per sq ft",
+      "dairy farm shed construction cost India",
+      "elevated goat farm shed complete project",
+      "steel structure cow shed design and construction",
+      "buffalo dairy farm shed design",
+      "goat farm shed design for 100 goats",
+      "modular cattle shed supplier India",
+      "cow shed design for 20 cows in India",
+      "dairy farm shed with milking parlour"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Industrial/commercial non-agricultural shed buyers (warehouse, factory, industrial shed operators) — terms like 'industrial shed', 'warehouse shed', 'factory shed', 'PEB structure' attract buyers seeking non-livestock structures and must not appear in cattle shed names",
+    "Poultry shed buyers — poultry farming is a distinct livestock sub-segment with its own MCAT (Poultry Sheds, ID 145222); terms like 'poultry shed', 'broiler shed', 'layer shed' are blocked to prevent cross-contamination with that sibling MCAT's buyer segment"
+  ],
+  "segment_contamination_disclaimer": null
+}
