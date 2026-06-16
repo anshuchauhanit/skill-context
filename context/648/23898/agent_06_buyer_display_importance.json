@@ -1,0 +1,385 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Construction contractor or EPC project manager procuring worker accommodation for a site. Bulk purchase, project-driven, budget-constrained.
+
+**Journey:**
+1. **Image first** — scans listing grid to identify structure type (single cabin vs double-decker vs container vs multi-room block), size, and build quality. Visual sub-type variation is high. Wrong type = skip.
+2. **Specification** — checks occupancy capacity, wall panel type (PUF/EPS/rockwool for climate), structure material (MS/GI), and insulation. These determine whether the unit meets site requirements and local climate needs.
+3. **Price** — Indian contractors are highly price-sensitive. After confirming the right type and specs, price comparison across sellers is aggressive. Per-piece pricing is the norm.
+4. **Company** — manufacturer vs trader matters; pan-India delivery and installation capability is critical for remote sites. ISO certification and track record matter for large institutional/government buyers.
+5. **Unit** — mostly per piece for standard cabins; per sq ft for large colony projects. Some ambiguity exists but "per piece" is dominant and usually implied.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — significant visual variation across sub-types (single cabin, double-decker, container, multi-room block). Build quality and finish are visually assessed.
+- **Specification:** High — occupancy, insulation, wall panel type, and structure material are primary shortlisting gates.
+- **Price:** High — Indian contractors compare per-piece prices aggressively across sellers; commodity-like pricing within spec tiers.
+- **Company:** Medium — manufacturer status, pan-India delivery, and installation capability matter but are checked after spec/price shortlisting.
+- **Unit:** Low — "per piece" is almost universally implied for standard bunkhouses; ambiguity only arises in large colony projects (per sq ft), but this is a minority sub-segment.
+
+---
+
+## Step 3 — Apply Decision Questions
+
+**Image:** High visual variation between sub-types. A contractor needing a 40-ft container bunkhouse will skip a listing showing a small MS cabin. Image = product type identification.
+
+**Specification:** Occupancy and wall panel type are non-interchangeable. A 9–16 person PUF-insulated unit cannot substitute for a 2–4 person non-insulated unit. Spec drives shortlisting.
+
+**Price:** Standard-size bunkhouses are commoditised within spec tiers. Contractors compare prices across multiple sellers before contacting. India price sensitivity is high. `price_display_type = "spec-driven price"` — price varies substantially with occupancy, insulation, and panel type.
+
+**Cross-dimension consistency check:**
+- Buyers discover across spec tiers (occupancy, panel type) → `spec-driven price` ✓ and specification = High ✓
+- Unit Low → price can still be High (unit Low means "per piece" is implied, not that price is irrelevant) ✓
+- No `project-based price` → unit show:false is not forced ✓
+- Specification show:true → `show_on_listing: true` ✓
+
+**Unit:** "Per piece" is universally implied for standard bunkhouses. No buyer questions this. Per sq ft exists for large colony projects but is a minority sub-segment — not sufficient to make unit High. Low / show:false.
+
+**Company:** Manufacturer vs trader distinction matters for large institutional buyers. Pan-India delivery and installation capability are critical for remote sites. Post-sale dependency (installation, relocation) is real. Medium. No dominant brand with buyer recall — market is fragmented across regional fabricators. `brand_important: no`.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "High visual variation across sub-types — single MS cabin, double-decker, container-type, and multi-room colony blocks are visually distinct. Buyers use the image to identify product type and assess build quality before reading any text; wrong type is an immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Occupancy capacity, wall panel type (PUF/EPS/rockwool), and insulation are primary shortlisting criteria — a 9–16 person PUF-insulated unit cannot substitute for a 2–4 person non-insulated unit. Listings without these specs cannot be evaluated for site fit."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Indian contractors compare per-piece prices aggressively across sellers once spec type is confirmed. Price varies substantially with occupancy, insulation grade, and panel type — buyers use listed price as a budget entry point and shortlisting filter."
+  },
+  {
+    "rank": 4,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional fabricators; buyers search by spec and price, not manufacturer name.",
+    "reason": "Manufacturer status, pan-India delivery capability, and installation/relocation track record are evaluated after spec and price shortlisting, particularly for remote-site and institutional buyers with post-sale dependency."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "Low",
+    "show": false,
+    "canonical_unit": "per piece",
+    "unit_note": "Per sq ft quoting exists for large custom multi-room labour colony projects, but per piece is dominant and universally implied for standard-size bunkhouses. Unit ambiguity is not a meaningful buyer confusion risk for the primary segment.",
+    "reason": "Standard bunkhouses are always sold per piece — no buyer questions this. The per sq ft sub-segment is a minority case that does not create price comparison confusion at the listing level."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Service Location** (Pan India / Within City / Within State): application/logistics tag, not a product configurator. Discard.
+- **Surface Finish** (Color Coated / Powder Coated / Paint Coated): consequence/cosmetic field — all values are functionally equivalent finishes; no meaningful price delta between them. Discard.
+- **Use** (Labour Accommodation / Store Room / Staff Accommodation / Toilet Block / Office Cabin): application/use-case tag. Discard.
+- **Mobility** (Relocatable / Fixed / Portable): largely redundant with Built Type — "Portable" and "Relocatable" overlap heavily; "Fixed" is a minority edge case. Soft eliminate — correlated with Built Type.
+- **Built Type** (Portable / Modular / Panel Build / Prefab): partially redundant with Wall Panel Type and Structure Material. However, "Modular" vs "Portable" does carry some product class distinction. Retain as candidate.
+
+**Remaining after elimination:** Built Type, Flooring Type, Insulation, Occupancy, Structure Material, Wall Panel Type.
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Occupancy** (2–4 / 5–8 / 9–16 / Above 16 Person): Defines the product class — a 2–4 person unit and a 16+ person block are non-interchangeable. Occupancy directly drives unit size, material quantity, and price. Largest price delta of any spec. **Rank 1.**
+
+**Wall Panel Type** (Insulated Panel / PUF Panel / Sheet Cladding / EPS Panel): Defines the thermal and structural quality tier. PUF panel vs sheet cladding = significant price and performance difference. Buyers in hot/cold climates cannot substitute one for the other. **Rank 2.**
+
+*(Structure Material was a close competitor for Rank 2 — MS vs GI vs Light Gauge Steel carries a price delta — but Wall Panel Type has a larger price delta and is more frequently the primary buyer differentiator in Indian market research.)*
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list:**
+Built Type, Flooring Type, Insulation, Mobility, Occupancy, Service Location, Structure Material, Surface Finish, Use, Wall Panel Type
+
+**Step 3b/3c — Candidate gaps:**
+
+From Agent 3 vision_output (`product_types`, `market_context`): Cabin Size/Dimensions (10×20 ft, 10×30 ft, 40×10 ft) is a primary commercial differentiator mentioned explicitly. Cross-referencing `specs_in_seller_list` — no "Size", "Dimensions", "Length", "Width", or semantic equivalent present. **Confirmed missing.**
+
+From LLM world knowledge: Number of Rooms/Room Configuration is a key buyer requirement for multi-room labour colony blocks. Cross-referencing — no "Room Count", "Configuration", or equivalent in list. **Confirmed missing.**
+
+From LLM world knowledge: Toilet/Bathroom Facility (attached toilet / common toilet / no toilet) — a primary amenity differentiator for worker accommodation. Cross-referencing — not present. **Confirmed missing.**
+
+**Importance threshold check:**
+- Cabin Size/Dimensions: Yes — standard sizes (10×20, 10×30, 40×10 ft) are the primary commercial unit; price is directly tied to size. Top-10 relevant. ✓
+- Number of Rooms: Yes — single room vs multi-room block is a fundamental product class distinction. ✓
+- Toilet Facility: Yes — attached toilet vs no toilet is a significant amenity differentiator affecting price and buyer suitability. ✓
+
+### Phase 4 — Coverage Verdict
+
+3 missing specs → `significant_gaps`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Provided specs:** Length, Width, Application
+
+**Length** (20 ft / 40 ft / 10 ft / 12 ft / 15 ft / 30 ft): Directly determines the product size and price tier. A seller needs to know length to confirm they manufacture that size and to quote accurately. Non-interchangeable across project requirements. **Rank 1.**
+
+**Application** (Office / Residential / Cafeteria / Hospitality / Labor Housing / Storage): Routes the RFQ to sellers who supply the right configuration — a labour housing bunkhouse has different amenity requirements than an office cabin or cafeteria. Sellers need this to determine fit and relevant configuration. **Rank 2.**
+
+*(Width was considered for Rank 2 but Application carries more routing value — width is often standardised at 10 ft for most bunkhouses and is less differentiating than application type.)*
+
+### Phase 2 — Thumbnail Eligibility
+
+**Length** (20 ft / 40 ft / 10 ft / 12 ft / 15 ft / 30 ft): Numeric/dimensional spec — no meaningful visual difference between a "20 ft" and "40 ft" label in a thumbnail. `thumbnail_eligible: false`.
+
+**Application** (Office / Residential / Cafeteria / Hospitality / Labor Housing / Storage): Each application value maps to a visually distinct configuration — a labour housing bunkhouse (rows of bunks, basic finish) looks different from an office cabin (desk, AC, professional finish) or cafeteria (dining tables, kitchen counter). `thumbnail_eligible: true`. `thumbnail_options: ["Office", "Residential", "Labor Housing", "Cafeteria", "Storage"]`
+
+*(Hospitality excluded from thumbnail_options — this is a minority use case for bunkhouses and visually ambiguous; the 5 listed values are the visually distinct primary applications.)*
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate from Agent 3 vision_output:** Occupancy/Capacity — Agent 3 explicitly identifies occupancy as a primary commercial differentiator (2–4 / 5–8 / 9–16 / above 16 persons). Cross-referencing buyer_spec_list — "Occupancy", "Capacity", "Number of Persons", or semantic equivalent is absent. Sellers need this to confirm they can supply the right-sized unit and to quote accurately. **Confirmed missing.**
+
+**Candidate from LLM world knowledge:** Wall Panel / Insulation Type — buyers in hot climates (Rajasthan, Gujarat) or cold climates (Himachal, J&K) specify PUF/EPS insulation as a requirement. Sellers need this to confirm product suitability. Cross-referencing buyer_spec_list — absent. **Confirmed missing.**
+
+**`would_be_rank` assessment:**
+- Occupancy: More important than Application (Rank 2) — occupancy directly determines product size and price, and is a non-interchangeable requirement. `would_be_rank: 2` (displacing Application to Rank 3).
+- Wall Panel / Insulation Type: Less important than both Length (Rank 1) and Occupancy (would_be_rank 2) — it is a qualifier after size and capacity are confirmed. No `would_be_rank` assigned.
+
+**Thumbnail eligibility for missing spec with would_be_rank ≤ 2:**
+- Occupancy (would_be_rank: 2): Values are numeric ranges (2–4 Person, 5–8 Person, 9–16 Person, Above 16 Person) — no meaningful visual difference between these in a thumbnail. `thumbnail_eligible: false`.
+
+**Coverage verdict:** 2 missing specs → `partial`
+
+### Phase 4 — Image Upload Assessment
+
+Bunkhouses are standard catalogue products with defined size options and application types. Sellers can respond accurately based on Length, Application, and Occupancy without a visual reference. Custom fabrication exists but is handled post-connection. `image_upload_recommended: false`.
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs` Rank 2: Application (`thumbnail_eligible: true`, `thumbnail_options: ["Office", "Residential", "Labor Housing", "Cafeteria", "Storage"]`)
+- `missing_important_specs`: Occupancy (`thumbnail_eligible: false`) — no prompts generated.
+
+5 prompts total (one per Application option value). All represent `primary_segment`: portable prefabricated MS/steel-framed cabin.
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — single MS cabin, double-decker, container-type, and multi-room colony blocks are visually distinct. Buyers use the image to identify product type and assess build quality before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Occupancy capacity, wall panel type (PUF/EPS/rockwool), and insulation are primary shortlisting criteria — a 9–16 person PUF-insulated unit cannot substitute for a 2–4 person non-insulated unit. Listings without these specs cannot be evaluated for site fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian contractors compare per-piece prices aggressively across sellers once spec type is confirmed. Price varies substantially with occupancy, insulation grade, and panel type — buyers use listed price as a budget entry point and shortlisting filter."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional fabricators; buyers search by spec and price, not manufacturer name.",
+      "reason": "Manufacturer status, pan-India delivery capability, and installation/relocation track record are evaluated after spec and price shortlisting, particularly for remote-site and institutional buyers with post-sale dependency."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Per sq ft quoting exists for large custom multi-room labour colony projects, but per piece is dominant and universally implied for standard-size bunkhouses. Unit ambiguity is not a meaningful buyer confusion risk for the primary segment.",
+      "reason": "Standard bunkhouses are always sold per piece — no buyer questions this. The per sq ft sub-segment is a minority case that does not create price comparison confusion at the listing level."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Occupancy",
+        "reason": "Occupancy directly defines the product class and size — a 2–4 person unit and a 16+ person block are non-interchangeable, and the price delta across occupancy tiers is the largest of any spec in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Type",
+        "reason": "PUF panel vs sheet cladding represents a significant price and thermal performance difference — buyers in climate-sensitive or long-duration project sites cannot substitute one for the other."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Flooring Type",
+      "Insulation",
+      "Mobility",
+      "Occupancy",
+      "Service Location",
+      "Structure Material",
+      "Surface Finish",
+      "Use",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Size / Dimensions",
+        "why_important": "Standard sizes (10×20 ft, 10×30 ft, 40×10 ft) are the primary commercial unit in Indian bunkhouse transactions — price is directly tied to floor area and buyers shortlist by size before any other spec.",
+        "source": "Agent 3 vision_output",
+        "example_values": ["10x20 ft", "10x30 ft", "40x10 ft", "20x40 ft"]
+      },
+      {
+        "spec_name": "Number of Rooms",
+        "why_important": "Single-room portable cabins and multi-room labour colony blocks serve fundamentally different buyer requirements and carry very different price points — sellers need this to quote accurately.",
+        "source": "both",
+        "example_values": ["Single Room", "2 Rooms", "4 Rooms", "6+ Rooms"]
+      },
+      {
+        "spec_name": "Toilet / Bathroom Facility",
+        "why_important": "Attached toilet vs common toilet vs no toilet is a primary amenity differentiator for worker accommodation — buyers specify this requirement upfront and it significantly affects price and site suitability.",
+        "source": "both",
+        "example_values": ["Attached Toilet", "Common Toilet Block", "No Toilet", "Attached Toilet + Bathroom"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Length",
+        "reason": "Length directly determines the product size tier and price — sellers need this to confirm they manufacture that size and to provide an accurate quote.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Application",
+        "reason": "Application routes the RFQ to sellers who supply the right configuration — labour housing, office, cafeteria, and storage bunkhouses have distinct amenity and finish requirements that determine seller fit.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Office", "Residential", "Labor Housing", "Cafeteria", "Storage"]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Occupancy",
+        "why_important": "Sellers need occupancy capacity to confirm they can supply the right-sized unit and to quote accurately — a 2–4 person cabin and a 16+ person block are non-interchangeable products with very different prices.",
+        "source": "both",
+        "example_values": ["2-4 Person", "5-8 Person", "9-16 Person", "Above 16 Person"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Wall Panel / Insulation Type",
+        "why_important": "Buyers in hot or cold climates specify PUF or EPS insulation as a non-negotiable requirement — sellers need this to confirm product suitability before responding.",
+        "source": "both",
+        "example_values": ["PUF Panel", "EPS Panel", "Rockwool Panel", "Non-Insulated Sheet"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Office",
+      "id": "spec_1",
+      "prompt_for_generation": "Portable prefabricated steel-framed bunkhouse cabin configured as a site office, exterior view showing clean painted MS frame with windows and a door, professional finish, parked on a construction site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Residential",
+      "id": "spec_2",
+      "prompt_for_generation": "Portable prefabricated steel-framed bunkhouse cabin configured as residential sleeping quarters, exterior view showing insulated sandwich panel walls, ventilation windows, and entry door, placed at a project site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Labor Housing",
+      "id": "spec_3",
+      "prompt_for_generation": "Portable prefabricated MS bunkhouse cabin used as labour accommodation at a construction site, exterior view showing multiple bunk beds visible through open door, corrugated or PUF panel walls, basic utilitarian finish, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Cafeteria",
+      "id": "spec_4",
+      "prompt_for_generation": "Portable prefabricated steel-framed bunkhouse cabin configured as a site cafeteria, interior view showing dining tables and benches, insulated panel walls, fluorescent lighting, clean utilitarian finish, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Storage",
+      "id": "spec_5",
+      "prompt_for_generation": "Portable prefabricated steel-framed bunkhouse cabin configured as a site storage unit, exterior view showing heavy-duty steel door with locking mechanism, corrugated metal walls, no windows, placed on a construction site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
