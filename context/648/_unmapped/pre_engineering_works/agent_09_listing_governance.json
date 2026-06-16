@@ -1,0 +1,6 @@
+{
+  "location_exception": false,
+  "location_exception_reason": "Pre Engineering Works is a service category (civil foundation, structural erection, anchor bolt setting) executed on-site at buyer-specified project locations. The service itself is not location-defined or GI-tagged; location is a project attribute, not a product attribute. Buyers filter by project scope, timeline, and contractor capability — not by geographic origin of the service. Including location in titles (e.g., 'PEB Erection Services – Mumbai') is redundant and fragments the category across geography.",
+  "biz_exception": false,
+  "biz_exception_reason": "Business-type words (Contractor, Supplier, Manufacturer, Subcontractor, EPC) in PEB titles are redundant. IndiaMART's seller-type filter (Manufacturer, Supplier, Contractor, Distributor, etc.) already exposes this information independently. Removing 'Contractor' or 'EPC' from a title like 'PEB Erection Contractor' leaves the product meaning intact: 'PEB Erection Services'. The business relationship is captured by seller classification, not product title."
+}
