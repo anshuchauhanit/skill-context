@@ -1,0 +1,1155 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "52566973",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Beach Villa Ac Log Cabin",
+      "description": "The Beach View Ac Log cabin is a double cabin which has full beach view. Each cabin of the double cabin is sold separately. Each Cabin has been created keeping in mind our guests needs and comforts. Our Log cabins are Beach huts with AC, they are made of Wood so you can experience the Natural Beauty, they are cutely designed for couples who want to come out of their busy city life and get a complete different experience of staying in a quiet peaceful Beach in the tranquil of a coconut grove and get a feel of being one with nature. Each cabin has an attached toilet with 24hrs hot water with complimentary luxury bath products, a double bed, LED TV with Tata Sky, fully stocked Minibar, Kettle, AC, fan and has a connecting balcony. A bottle of bottled drinking water is provided complimentary per day, tea coffee sachets replenished daily free of charge. Free Wifi for all resident guests. Use of the swimming pool is free for all resident guests.",
+      "specs": {},
+      "image_url": "http://3.imimg.com/data3/HJ/LH/MY-3272295/beach-villa-ac-log-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/beach-villa ac log cabin-7063408348.html",
+      "image_file": "52566973.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a small wooden cabin with horizontal timber plank walls, a covered veranda with wooden railing, set in a natural outdoor environment — clearly a wooden beach cabin."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (log cabin), application (beach), and amenity (AC) but lacks material or construction specification."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no construction, material, or dimension data provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms a wood-built AC beach cabin with hospitality amenities, consistent with a log cabin product for resort/hospitality use."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Wooden beach cabin is a valid log cabin product type; beach application is application variation, not an identity mismatch."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs object is completely empty — no material, size, construction type, or application data provided."
+        }
+      ],
+      "verification_note": "Valid wooden beach log cabin; specs are absent but all other dimensions confirm correct product identity.",
+      "source_url": "https://www.indiamart.com/proddetail/beach-villa ac log cabin-7063408348.html"
+    },
+    {
+      "item_id": "169288567",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Pine Wood Log Cabins",
+      "description": "Conceptualized by Mr. Sanjay Sharma in the year 2006, Wood Barn India is a pioneer in creating sustainable and prefab eco-friendly wooden structures in India. Wordbarn build homes, tree houses and resorts that are energy efficient, made from the finest spruce pine wood sourced directly from British Columbia and Scandinavian countries. prefab We deliver excellence. Wood barn team consistently focuses on pro-active planning and design which minimizes the work on-site, enabling us to take our wooden structures even in the most remote areas. We are fast, efficient and effective. We have been the leaders in garnering the shift to sustainable construction in the industry, giving utmost importance to the environment and its resources. Our team values sustainability.",
+      "specs": {
+        "raw": "Built Type:Prefab, Color:Brown, Design:Customized, Feature:Easily Assembled, Material:Pinewood, Place Of Origin:Pan India, Usage/Application:Cabin"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/10/ET/TP/XG/3775984/screenshot-2021-09-30-at-12-25-21-pm.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/pine-wood log cabins-24018008655.html",
+      "image_file": "169288567.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a photorealistic render of a single-storey wooden cabin with horizontal timber plank cladding, gabled red-tiled roof, multiple windows, a porch with steps, elevated on pillars in a landscaped setting."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (pine wood) and product type (log cabins) but lacks application, size, or construction method detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs confirm prefab build type, pinewood material, customized design, easily assembled feature, and cabin application — all directly relevant to log cabin buyers."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description confirms prefab eco-friendly wooden structures from spruce pine wood sourced from British Columbia and Scandinavia, targeting homes, tree houses, and resorts."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefabricated pine wood log cabin is the core product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains personal name 'Mr. Sanjay Sharma'."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Wood Barn India' and origin location 'British Columbia'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains personal name 'Mr. Sanjay Sharma'."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Wood Barn India' and sourcing location 'British Columbia'."
+        }
+      ],
+      "verification_note": "Strong pine wood prefab log cabin listing; P15/P16 are policy issues in the description but do not affect product identity or category validity.",
+      "source_url": "https://www.indiamart.com/proddetail/pine-wood log cabins-24018008655.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "128147269",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "round log cabin",
+      "description": "<p dir=\"ltr\">Being one of the renowned organizations in the industry, we are highly engaged in providing a premium quality range of<b> </b><b>Wooden Pergola House.</b><br>\n</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Design:Customized, Features:Eco Friendly, Material:Wood, Type:Waterproof, Use:House"
+      },
+      "image_url": "http://5.imimg.com/data5/EB/PQ/MY-29167485/wooden-pergola-house.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/round-log cabin-19901512512.html",
+      "image_file": "128147269.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a 3D rendered two-storey log cabin with round log walls, steep pitched roof with dormer windows, wraparound porch, and a human figure for scale."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'round log cabin' names product type but provides no material, size, application, or construction detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm prefab, wood material, customized design, eco-friendly, waterproof, and house use — consistent with log cabin."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description explicitly names 'Wooden Pergola House' — a different product from the 'round log cabin' stated in the title, creating an active product identity contradiction."
+        },
+        "category": {
+          "valid": true,
+          "reason": "The image and specs confirm a wooden prefab structure valid for this MCAT; the description naming error does not change the underlying product identity."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title states 'round log cabin' while description explicitly names the product as 'Wooden Pergola House' — an active product name contradiction."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title says 'round log cabin' but description explicitly names the product as 'Wooden Pergola House'."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title 'round log cabin' is thin — missing material specification, size, application, and construction method."
+        }
+      ],
+      "verification_note": "Pre-label overridden to bad due to active title-description product name contradiction (P05); description names a different product entirely.",
+      "source_url": "https://www.indiamart.com/proddetail/round-log cabin-19901512512.html"
+    },
+    {
+      "item_id": "292224789",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Pine Wood Log Cabin Construction Service",
+      "description": "<br />We are the leading organization in the industry to provide our clients the best quality Pine Wood Log Cabin Construction Service. This service is widely appreciated by our valuable clients owing to its perfect execution and cost-effectiveness features. The offered service is performed by our highly experienced professionals using the best grade tools and advanced technology. Provided service is carried out in an excellent manner. Moreover, this service can be availed by our clients at most reasonable price.&nbsp;&nbsp;<br />",
+      "specs": {
+        "raw": "Built Type:Modular"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/2/491074125/OZ/ZT/MQ/240089869/log-home-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pine-wood log cabin construction service-2855762579188.html",
+      "image_file": "292224789.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large two-storey log cabin with round log walls, wraparound deck with log railings, multiple windows, steep pitched roof, set in a forest/autumn foliage environment."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title explicitly names 'Construction Service' — a service offering, not a physical log cabin product."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs contain only 'Built Type:Modular' — insufficient detail but not contradicting the MCAT."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description confirms this is a 'Pine Wood Log Cabin Construction Service' — a service, not a physical habitable structure for sale."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title and description explicitly identify this as a construction service, not a physical log cabin product; services belong in 'House Construction Services', not the Log Cabin product MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "House Construction Services",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly names 'Construction Service' — a service offering that does not belong in the Log Cabin physical product MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description confirms 'Pine Wood Log Cabin Construction Service' — a service, not a physical log cabin structure for sale."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only 'Built Type:Modular' — a single value with no material, size, or application data."
+        }
+      ],
+      "verification_note": "Pre-label overridden to bad; listing is a construction service, not a physical log cabin product — should route to House Construction Services sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/pine-wood log cabin construction service-2855762579188.html"
+    },
+    {
+      "item_id": "98714875",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Steel Bunk House Container",
+      "description": "Meeting the demands of clients as a manufacturer and supplier, we are engaged in offering a wide range of <b>Prefab Steel Bunk House</b>.<br /><b><br />Features:</b><br /> \n<ul>\n<li>Easily dismantle re-assemble</li>\n<li>Sturdy construction</li>\n<li>Ability to withstand harsh conditions</li>\n</ul>",
+      "specs": {
+        "raw": "Air Conditioner:No, Built Type:Modular, Color:White, Country of Origin:Made in India, Door Type:M.S, Electrical Wiring:PVC CONDICT, Feature:Eco Friendly, Flooring Type:Vinyl Floor, Insulation:Roof And Wall, Is It Portable:Portable, Material:Steel, Mobility:Portable, Occupancy:5-8 Person, Product Type:PORTABLE, Room Area:200SFT, Service Location:Pan India, Shape:Rectangular, Size:20x10ft, Structure Material:MS, Surface Finish:VINYL CARPET, Usage/Application:Site Office, Use:Office, Wall Panel Type:Insulated Panel, Weight:APPROX 2TON, Window Type:ALUMINUM"
+      },
+      "image_url": "http://5.imimg.com/data5/YV/HA/EW/SELLER-3398125/prefab-steel-bunk-house.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-bunk house container-15130983391.html",
+      "image_file": "98714875.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a white and blue steel shipping container-style portable cabin with corrugated metal walls, iron-barred window, and metal door on a construction site — clearly a steel bunkhouse, not a wooden log cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title 'Steel Bunk House Container' clearly names a steel container bunkhouse — wrong material and product type for the Log Cabin MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm steel material, MS door, vinyl floor, insulated panels, portable, site office use — all inconsistent with a wooden log cabin."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description confirms 'Prefab Steel Bunk House' with dismantlable, sturdy, weather-resistant features — not a log cabin."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Steel container bunkhouse is a fundamentally different product from a wooden log cabin — wrong material (steel vs. wood) and wrong product identity (industrial bunkhouse vs. habitable cabin)."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefab Steel Bunk House",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a steel shipping container-style bunkhouse with corrugated metal walls — not a wooden log cabin."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Steel Bunk House Container' names a steel container bunkhouse, not a log cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Material:Steel, Structure Material:MS, Usage/Application:Site Office — all inconsistent with a wooden log cabin."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly names 'Prefab Steel Bunk House' — a different product category from log cabin."
+        }
+      ],
+      "verification_note": "Confirmed bad; steel container bunkhouse is wrong product type and material for the Log Cabin MCAT — should route to Prefab Steel Bunk House.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-bunk house container-15130983391.html"
+    },
+    {
+      "item_id": "153774899",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Industrial Bunkhouse Cabin",
+      "description": "Greetings from Epsilon Prefab Group   known for its   Practical, Prompt & Precise solutions in Prefabricated Buildings, Customised Containers, Portacabins, Prefab & Rotomoulded Toilets, Fabricated customized toilets, Packaged Sewage Treatment Plants, Bio toilets, Septic tanks, Liquid Storage Solutions and Steel Pre Engineered Buildings for factories & Warehouses. Our strategic manufacturing locations are carefully chosen at  Ahmedabad, Faridabad NCR, Lucknow, Pune, Mumbai, Indore, Bhopal, Ranchi, Kishanganj Bihar, Bengaluru, Hyderabad, Vizag, and Chennai.  so that we can promptly and cost-effectively deliver Quality Products and Epsilon guaranteed workmanship pan India.  Coupled with Pan India's strong Service & Distribution network Epsilon Team comprises Design, manufacturing, and Installation Professionals who can on turnkey Contracts basis help in Quick Building solutions meeting your exacting needs.  We look forward to your Valuable inquiry and our technical team would configure a quality prefab solution optimized to your needs. Pl feel free to",
+      "specs": {
+        "raw": "Brand:Epsilon, Built Type:Modular, Color:White and Green, Material:Mild Steel, Shape:Rectangular, Surface Finish:Polished, Usage/Application:Site Office, Warranty:1 Year"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/8/535876266/EY/VW/YZ/76461355/industrial-bunkhouse-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-bunkhouse cabin-22466642188.html",
+      "image_file": "153774899.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large steel/metal prefabricated bunkhouse complex with corrugated metal walls (white with red/brown lower section), water tanks on roof, tiled courtyard, and 'EPSILON Savvish Prefabricated Systems' watermark — clearly a steel prefab bunkhouse, not a wooden log cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title 'Industrial Bunkhouse Cabin' names an industrial bunkhouse — wrong product type for the Log Cabin MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm Material:Mild Steel, Usage/Application:Site Office — both inconsistent with a wooden log cabin."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description confirms Epsilon Prefab Group offering steel prefabricated buildings, containers, and portacabins — no mention of wood or log cabin construction."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Mild steel industrial bunkhouse for site office use is a fundamentally different product from a wooden log cabin — wrong material and wrong product identity."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Epsilon Prefab Group' and multiple city names: Ahmedabad, Faridabad NCR, Lucknow, Pune, Mumbai, Indore, Bhopal, Ranchi, Kishanganj Bihar, Bengaluru, Hyderabad, Vizag, and Chennai."
+        }
+      },
+      "correct_mcat_suggestion": "Bunkhouses",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a steel prefab bunkhouse complex with corrugated metal walls and Epsilon branding — not a wooden log cabin."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Industrial Bunkhouse Cabin' names an industrial bunkhouse, not a log cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Material:Mild Steel and Usage/Application:Site Office — inconsistent with a wooden log cabin."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description confirms Epsilon Prefab Group offering steel prefabricated buildings and containers — no wood or log cabin product."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Epsilon Prefab Group' and city names including Ahmedabad, Faridabad NCR, Lucknow, Pune, Mumbai, Indore, Bhopal, Ranchi, Bengaluru, Hyderabad, Vizag, and Chennai."
+        }
+      ],
+      "verification_note": "Confirmed bad; mild steel industrial bunkhouse for site office use — wrong product type and material for Log Cabin MCAT; should route to Bunkhouses.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-bunkhouse cabin-22466642188.html"
+    },
+    {
+      "item_id": "190485972",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Bunkhouse Portable Cabin",
+      "description": "We have marked a distinct and dynamic position in the market by providing a high quality array of <b>Portable Bunk House</b><br /><br /><b>Features:</b><br /> \n<ul>\n<li>Standard dimension</li>\n<li>Modular design</li>\n<li>Highly spacious</li>\n</ul>",
+      "specs": {
+        "raw": "Built Type:Modular, Color:White and Red, Country of Origin:Made in India, Door Size:40X10, Feature:Eco Friendly, Material:Steel, Shape:Rectangular, Surface Finish:Color Coated, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/7/CR/TN/XV/79827059/portable-bunk-house.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/bunkhouse-portable cabin-26137749273.html",
+      "image_file": "190485972.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a white and red steel portable cabin/bunkhouse — a rectangular steel modular unit with multiple windows, two entry staircases, and a curved roof — clearly a steel portable bunkhouse, not a wooden log cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title 'Bunkhouse Portable Cabin' names a portable bunkhouse — wrong product type for the Log Cabin MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm Material:Steel, rectangular shape, color-coated surface — inconsistent with a wooden log cabin."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description confirms 'Portable Bunk House' with standard dimension and modular design — not a log cabin."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Steel portable bunkhouse is a fundamentally different product from a wooden log cabin — wrong material (steel vs. wood) and wrong product identity."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Bunkhouses",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a white and red steel portable bunkhouse unit — not a wooden log cabin."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Bunkhouse Portable Cabin' names a portable bunkhouse, not a log cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Material:Steel — inconsistent with a wooden log cabin."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description confirms 'Portable Bunk House' — a different product category from log cabin."
+        }
+      ],
+      "verification_note": "Confirmed bad; steel portable bunkhouse — wrong material and product type for Log Cabin MCAT; should route to Bunkhouses.",
+      "source_url": "https://www.indiamart.com/proddetail/bunkhouse-portable cabin-26137749273.html"
+    },
+    {
+      "item_id": "254330810",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Bunkhouse Cabins",
+      "description": "Portable Bunk house for labour staying\nwe are one of the leading Manufacturer, Supplier & Service Provider of Portable Cabins, Portable Office, Portable Toilets, Portable Security Cabins, Bunk Houses, Industrial Sheds, Banquet Hall Interior Designing Service and many more. Our claim to success is hallmarked by the offered quality products that gained us huge recognizance. We are working towards development through a determined team of people to meet the most stringent requirements of customers",
+      "specs": {
+        "raw": "Built Type:Prefab, Flooring:MS STRUCTURE WITH WOODEN, Material:Steel, Roof Type:MS, Shape:Square, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2023/8/333612300/MW/GA/VO/24691488/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-bunkhouse cabins-2851973180930.html",
+      "image_file": "254330810.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a long white and blue steel portable bunkhouse/container unit placed along a road with corrugated metal walls and minimal windows — clearly a steel container bunkhouse, not a wooden log cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title 'Portable Bunkhouse Cabins' names a portable bunkhouse — wrong product type for the Log Cabin MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs confirm Material:Steel, Roof Type:MS — inconsistent with a wooden log cabin."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description confirms portable bunk house for labour staying, with company offering portable cabins, offices, toilets, and industrial sheds — not a log cabin."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Steel portable bunkhouse for labour accommodation is a fundamentally different product from a wooden log cabin — wrong material and product identity."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Bunkhouses",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a long steel container bunkhouse with corrugated metal walls — not a wooden log cabin."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Portable Bunkhouse Cabins' names a portable bunkhouse, not a log cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Material:Steel and Roof Type:MS — inconsistent with a wooden log cabin."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description confirms portable bunk house for labour staying — a different product category from log cabin."
+        }
+      ],
+      "verification_note": "Confirmed bad; steel portable bunkhouse for labour accommodation — wrong material and product type for Log Cabin MCAT; should route to Bunkhouses.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-bunkhouse cabins-2851973180930.html"
+    },
+    {
+      "item_id": "302713950",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Steel Bunkhouse",
+      "description": "Portable bunkhouse  is a strong, weather-resistant, and mobile office solution made from galvanized iron (GI). These containers are ideal for temporary or permanent office spaces in construction sites, industrial zones, corporate expansions, and remote locations",
+      "specs": {
+        "raw": "Built Type:Modular, Color:White, Country of Origin:Made in India, Is It Portable:Portable, Material:Steel, Shape:Rectangular, Size:10X40, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/6/522968772/AE/WY/LF/51568994/portable-steel-bunkhouse.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-steel bunkhouse-2856811495233.html",
+      "image_file": "302713950.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a wooden cabin with timber-panelled walls and vaulted ceiling, large floor-to-ceiling windows, sofa, dining table, kitchen area, AC unit, and ceiling fans — clearly a wooden cabin interior."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title 'Portable Steel Bunkhouse' clearly names a steel bunkhouse — wrong material and product type for the Log Cabin MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm Material:Steel, portable, modular, rectangular — inconsistent with a wooden log cabin."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description confirms a galvanized iron (GI) portable bunkhouse for construction sites and industrial zones — not a log cabin."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title, specs, and description all definitively identify this as a steel/GI portable bunkhouse — wrong material and product identity for the Log Cabin MCAT, despite the image showing a wooden cabin interior (likely a stock photo mismatch)."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs",
+          "photo_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Image shows a wooden cabin interior with timber-panelled walls; title states 'Portable Steel Bunkhouse' — active material and product type contradiction.",
+          "Image shows wood-panelled interior; specs confirm Material:Steel — active material contradiction.",
+          "Image shows a wooden cabin interior; description describes a galvanized iron (GI) portable bunkhouse for construction sites — active product type and material contradiction."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Bunkhouses",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a wooden cabin interior with timber walls; title states 'Portable Steel Bunkhouse' — contradicting material and product type."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows wood-panelled interior; specs confirm Material:Steel — active material contradiction."
+        },
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Image shows a wooden cabin interior; description describes a galvanized iron (GI) portable bunkhouse for construction sites."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Portable Steel Bunkhouse' names a steel bunkhouse — wrong product type for the Log Cabin MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Material:Steel and portable modular construction — inconsistent with a wooden log cabin."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description confirms galvanized iron (GI) portable bunkhouse for construction sites and industrial zones — not a log cabin."
+        }
+      ],
+      "verification_note": "Confirmed bad; text dimensions definitively identify a steel/GI bunkhouse; the wooden cabin interior image is a stock photo mismatch creating multiple photo-vs-text contradictions.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-steel bunkhouse-2856811495233.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show complete wooden cabin structures — either real photographs of timber-plank beach huts with verandas in natural outdoor settings, or high-quality photorealistic renders of single-storey prefab wooden cabins with gabled roofs, multiple windows, and landscaped surroundings. Both examples feature warm brown/natural wood tones as the dominant visual element, with the full exterior of the structure visible. Interior shots of wooden cabin rooms (timber-panelled walls, vaulted ceilings, large windows) also appear as a secondary pattern.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Log cabin images convey product value through visual appearance — wood species, construction quality, roof style, veranda design, and setting — none of which is extractable via OCR.",
+      "Verified good images are exterior renders or real photographs where no meaningful text is printed on the product surface itself.",
+      "Buyers assess log cabins visually (aesthetics, scale, construction quality) rather than by reading labels or spec plates on the structure."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good log cabin images show the complete wooden structure exterior or interior with natural wood tones, clear architectural features, and a natural or landscaped setting.",
+    "product_identity": [
+      "Horizontal timber plank or round log walls in natural brown/warm wood tones",
+      "Gabled or pitched roof with visible structural elements (rafters, dormer windows)",
+      "Covered veranda or wraparound deck with wooden railings",
+      "Elevated foundation or pillar base visible"
+    ],
+    "acceptable_scenes": [
+      "Exterior photograph of a completed wooden cabin in a natural outdoor setting (beach, forest, garden)",
+      "High-quality photorealistic 3D render showing full cabin exterior with landscaping",
+      "Interior photograph showing timber-panelled walls, vaulted ceiling, and large windows"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "52566973",
+        "reason": "Image shows a small wooden cabin with horizontal timber plank walls, a covered veranda with wooden railing, set in a natural outdoor environment — clearly a wooden beach cabin.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "169288567",
+        "reason": "Image shows a photorealistic render of a single-storey wooden cabin with horizontal timber plank cladding, gabled red-tiled roof, multiple windows, a porch with steps, elevated on pillars in a landscaped setting.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "No verified bad products had thin_image quality — all bad product images were clearly identifiable (as steel bunkhouses or wooden cabin interiors) and thus classified as good_image quality despite being wrong-category.",
+    "thinness_signals": [],
+    "examples": []
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos in this MCAT are dominated by steel container bunkhouses and portable steel cabins — structurally and materially incompatible with wooden log cabins.",
+    "failure_classes": [
+      {
+        "class": "steel_container_bunkhouse",
+        "description": "Image shows a steel shipping container-style or corrugated metal portable bunkhouse — wrong material (steel vs. wood) and wrong product identity for the Log Cabin MCAT.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "98714875"
+          },
+          {
+            "photo_url": null,
+            "item_id": "153774899"
+          },
+          {
+            "photo_url": null,
+            "item_id": "254330810"
+          }
+        ],
+        "detection_signal": "Corrugated metal walls, white/blue or white/red colour scheme, flat or minimally pitched roof, industrial site context.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "steel_portable_bunkhouse_render",
+        "description": "Image shows a rendered or product-photo steel portable bunkhouse unit — rectangular steel modular structure with curved roof and metal staircases.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "190485972"
+          }
+        ],
+        "detection_signal": "White and red steel rectangular modular unit with curved roof, metal entry staircases, no wood elements visible.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "mismatched_stock_photo_wooden_interior",
+        "description": "Image shows a wooden cabin interior (correct product type) but all text dimensions confirm a steel bunkhouse — stock photo mismatch creating photo-vs-text contradictions.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "302713950"
+          }
+        ],
+        "detection_signal": "Timber-panelled walls and vaulted ceiling visible in image, but title/specs/description all name steel/GI bunkhouse.",
+        "failure_mode": "wrong_category"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong log cabin titles name the wood species or material, the product type (log cabin/wooden cabin), and optionally the application or construction method.",
+    "strong_positive_signals": [
+      "Wood species named (pine wood, spruce, cedar)",
+      "Product type explicitly stated (log cabin, wooden cabin)",
+      "Application or context named (beach, resort, eco-tourism, hill station)",
+      "Construction method indicated (prefab, modular, handcrafted)"
+    ],
+    "structural_patterns": [
+      "[Wood Species] + Log Cabin/Wooden Cabin",
+      "[Wood Species] + Log Cabin + [Application]",
+      "[Construction Method] + [Wood Species] + Log Cabin"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "169288567",
+          "title": "Pine Wood Log Cabins",
+          "reason": "Names wood species (pine wood) and product type (log cabins) — two buyer-critical attributes in a concise title."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "52566973",
+          "title": "Beach Villa Ac Log Cabin",
+          "reason": "Names product type (log cabin) and application (beach villa) with amenity (AC) but lacks material/wood species specification."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin log cabin titles name the product type but omit wood species, construction method, application, or size — leaving buyers without key decision-making attributes.",
+    "thinness_signals": [
+      "No wood species or material named (e.g., 'round log cabin' with no material)",
+      "No application or use context provided",
+      "No construction method (prefab/modular/handcrafted) indicated"
+    ],
+    "examples": [
+      {
+        "item_id": "128147269",
+        "title": "round log cabin",
+        "reason": "Title names product type but provides no wood species, size, application, or construction method — insufficient for buyer decision-making."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles in this MCAT contain 'steel', 'bunkhouse', 'portable cabin', or 'container' tokens that signal a steel prefab structure rather than a wooden log cabin.",
+    "failure_classes": [
+      {
+        "class": "steel_bunkhouse_tokens",
+        "signal": "Title contains 'Steel' + 'Bunk House' or 'Container' — explicitly naming a steel structure incompatible with the Log Cabin MCAT.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "98714875",
+            "title": "Steel Bunk House Container",
+            "reason": "Title names steel bunk house container — wrong material (steel) and wrong product type for Log Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "302713950",
+            "title": "Portable Steel Bunkhouse",
+            "reason": "Title names portable steel bunkhouse — wrong material and product type for Log Cabin MCAT.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "industrial_bunkhouse_tokens",
+        "signal": "Title contains 'Industrial Bunkhouse' or 'Portable Bunkhouse' without any wood/log cabin qualifier — signals steel prefab labour accommodation.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "153774899",
+            "title": "Industrial Bunkhouse Cabin",
+            "reason": "Title names industrial bunkhouse — wrong product type for Log Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "190485972",
+            "title": "Bunkhouse Portable Cabin",
+            "reason": "Title names portable bunkhouse — wrong product type for Log Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "254330810",
+            "title": "Portable Bunkhouse Cabins",
+            "reason": "Title names portable bunkhouse cabins — wrong product type for Log Cabin MCAT.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "construction_service_token",
+        "signal": "Title contains 'Construction Service' — explicitly naming a service offering rather than a physical log cabin product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "292224789",
+            "title": "Pine Wood Log Cabin Construction Service",
+            "reason": "Title names a construction service, not a physical log cabin product — wrong product identity for the Log Cabin MCAT.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily steel bunkhouses and construction services misplaced in the Log Cabin MCAT.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "steel_prefab_bunkhouse",
+        "signal": "Listing describes a steel, mild steel, or galvanized iron (GI) portable/modular bunkhouse for site office, labour accommodation, or industrial use — wrong material and product identity for Log Cabin MCAT.",
+        "examples": [
+          {
+            "item_id": "98714875",
+            "title": "Steel Bunk House Container",
+            "reason": "Steel container bunkhouse with MS door, vinyl floor, insulated panels — wrong material and product type.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "153774899",
+            "title": "Industrial Bunkhouse Cabin",
+            "reason": "Mild steel industrial bunkhouse for site office use — wrong material and product identity.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "190485972",
+            "title": "Bunkhouse Portable Cabin",
+            "reason": "Steel portable bunkhouse — wrong material for Log Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "254330810",
+            "title": "Portable Bunkhouse Cabins",
+            "reason": "Steel portable bunkhouse for labour staying — wrong material and product type.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "302713950",
+            "title": "Portable Steel Bunkhouse",
+            "reason": "GI/steel portable bunkhouse for construction sites — wrong material and product identity.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Bunkhouses"
+      },
+      {
+        "class": "log_cabin_construction_service",
+        "signal": "Listing explicitly names a 'Construction Service' for log cabins — a service offering that does not belong in the physical product Log Cabin MCAT.",
+        "examples": [
+          {
+            "item_id": "292224789",
+            "title": "Pine Wood Log Cabin Construction Service",
+            "reason": "Title and description confirm a construction service, not a physical log cabin product for sale.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "House Construction Services"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from provided base64 data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion values ('Bunkhouses', 'Prefab Steel Bunk House', 'House Construction Services') confirmed from taxonomy_context.siblings list."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "mcat_vagueness_signal.suspected_vague: false confirmed — PATH A applied for all items; primary_segment used to ground category belonging decisions."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 9,
+    "images_attached": 9,
+    "web_fetch_used": false
+  }
+}
