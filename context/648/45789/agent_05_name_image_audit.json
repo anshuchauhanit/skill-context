@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Mobile Toilets' aligns with the top primary keywords ('mobile toilet', 'mobile toilet cabin') and trade usage confirmed in Agent 3 market_context; it is the widely recognised B2B category label used by buyers and municipal/construction procurement.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image shows a single-seater portable toilet cabin with open door revealing interior fittings — product is clearly identifiable and correctly represents the MCAT.",
+      "The unit depicted appears to be a Western-style porta-potty (blue HDPE/plastic, flush-style seat) more typical of international/event use rather than the primary segment (FRP Indian-pan construction-site cabin); an FRP unit in Indian-market styling would better represent the primary_segment and dominant buyer context."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A clean product-style photograph of a single-seater FRP portable toilet cabin for construction sites, light grey or off-white exterior with ventilation louvers near the top, door slightly ajar showing Indian-style squat pan and water tank inside, placed on a flat white studio background, soft even lighting, slight three-quarter front angle, no people, no text overlays, sharp focus, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
