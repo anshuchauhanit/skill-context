@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Polyhouse Construction Services' directly matches the top primary keyword and buyer intent query in Agent 3 alt_names, and aligns with market context describing this as a B2B agricultural infrastructure service segment in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a GI pipe framework under construction — correct product category — but the structure is bare metal with no poly film installed, no crops visible, and a dense forest backdrop that does not convey a professional turnkey farm service.",
+      "The primary segment is NVPH construction for NHM/MIDH subsidy-linked farm projects; a completed polyhouse with UV film, ventilation flaps, and a cultivated crop interior would far better communicate the finished service deliverable to a subsidy-seeking farmer buyer."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product-style photograph of a completed Naturally Ventilated Polyhouse (NVPH) on flat agricultural farmland in India. The structure shows a multi-bay GI pipe tubular framework fully clad with translucent UV-stabilised white polyethylene film, with visible top ridge ventilation openings and rolled-up side curtains. The foreground shows the entrance door with insect netting. Inside, rows of green capsicum or tomato plants are faintly visible through the film. Clear blue sky background, bright natural daylight, clean flat red-soil farm setting with no forest or clutter. Square 1:1 composition, sharp focus on the full structure, photorealistic, high resolution.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
