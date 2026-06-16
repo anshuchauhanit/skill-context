@@ -1,0 +1,107 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation between sub-types — loose housing shed, prefab modular shed, milking parlour, and turnkey farm layouts are visually distinct. Buyers use the image to identify the structure type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Number of animals (farm capacity) is the primary sizing gate — a 10-animal shed and a 50-animal shed are non-interchangeable and have fundamentally different layouts and costs. Buyers must confirm capacity fit before engaging with any other listing detail."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Dairy farm shed construction is a major capital expenditure for Indian farmers; price sensitivity is high and buyers compare per-sq-ft rates or project quotes across multiple sellers. Price changes substantially with farm size, number of animals, and construction type, making it a primary shortlisting signal after capacity is confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Turnkey project setups are quoted per project or per animal unit capacity; per sq ft is dominant for shed construction. Unit must be shown to prevent price comparison confusion across these quoting conventions.",
+      "reason": "Per sq ft, per project, and per animal unit are all active quoting conventions in this MCAT; a buyer comparing listings without knowing the unit cannot make a meaningful price comparison."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant national brands exist in this fragmented market of regional shed contractors and prefab manufacturers; buyers do not search by brand name.",
+      "reason": "Seller identity matters for site visit capability, project report preparation for NABARD loans, and installation track record, but these are evaluated after price and capacity are confirmed. Market is fragmented across regional contractors with no brand recall."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Number of Animals",
+        "reason": "Farm capacity (10 vs 50 vs 100 animals) is non-interchangeable and drives the largest price delta in shed construction — a 10-animal shed cannot substitute for a 50-animal shed in any buyer's project."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Product Type",
+        "reason": "Defines what the product IS (shed vs milking parlour vs equipment accessory) — non-interchangeable across types and the primary routing differentiator within the MCAT despite equipment contamination in current values."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Automation Grade",
+      "Capacity",
+      "Country of Origin",
+      "Material",
+      "Number of Animals",
+      "Operation Type",
+      "Power Source",
+      "Product Type",
+      "Warranty"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Shed Type / Housing System",
+        "why_important": "Loose housing, stall/tied housing, and freestall/cubicle systems are the primary design variants for Indian dairy farm sheds — they have different layouts, animal welfare implications, and construction costs, and buyers specify their preferred system before engaging sellers.",
+        "source": "both",
+        "example_values": [
+          "Loose Housing",
+          "Stall / Tied Housing",
+          "Freestall / Cubicle Housing",
+          "Open Paddock"
+        ]
+      },
+      {
+        "spec_name": "Construction Type",
+        "why_important": "Permanent RCC construction vs prefabricated vs semi-permanent structures differ significantly in cost, installation timeline, and eligibility for NABARD/bank loan financing — a primary buyer decision point before shortlisting.",
+        "source": "both",
+        "example_values": [
+          "Permanent RCC",
+          "Prefabricated",
+          "Semi-Permanent",
+          "Modular Steel"
+        ]
+      },
+      {
+        "spec_name": "Roofing Material",
+        "why_important": "Cement corrugated sheets, GI sheets, and polycarbonate roofing have significantly different costs, durability, and heat insulation properties — a key differentiator for shed construction that the generic 'Material' spec (which lists equipment materials like HDPE and rubber) does not capture.",
+        "source": "both",
+        "example_values": [
+          "Cement Corrugated Sheet",
+          "GI Sheet",
+          "Polycarbonate Sheet",
+          "Asbestos-Free Fibre Cement"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  }
+}
