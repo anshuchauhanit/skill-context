@@ -1,0 +1,68 @@
+{
+  "enhanced_name_4w": "Timber Log Homes India",
+  "enhanced_name_5w": "Prefab Timber Log Homes Resort",
+  "enhanced_name_6w": "Prefab Log Homes for Resorts Hills",
+  "enhanced_name_long": "Prefabricated Timber Log Homes for Resorts, Eco-Tourism Cabins, Hill-Station Retreats and Farm Stay Cottages",
+  "alt_names": {
+    "primary_keywords": [
+      "log homes",
+      "log cabin",
+      "wooden log house",
+      "timber log home",
+      "prefab log cabin",
+      "wooden cabin",
+      "log cottage",
+      "timber cabin India",
+      "wooden house log",
+      "log home India"
+    ],
+    "technical_synonyms": [
+      "solid log wall construction",
+      "glulam log home",
+      "timber frame log house",
+      "stacked log structure",
+      "engineered log home",
+      "panelised timber home",
+      "modular log structure",
+      "prefabricated timber dwelling"
+    ],
+    "trade_names": [
+      "log hut",
+      "wooden villa",
+      "timber villa",
+      "eco cabin",
+      "resort cottage",
+      "wooden chalet",
+      "forest cabin",
+      "hill station cottage",
+      "wooden bungalow",
+      "A-frame cottage"
+    ],
+    "hindi_terms": [
+      "lakdi ka ghar",
+      "log ghar",
+      "kath ka makaan",
+      "timber ghar"
+    ],
+    "buyer_intent_queries": [
+      "prefab log home for resort in India",
+      "wooden log cabin for hill station",
+      "log cabin manufacturer in India",
+      "prefabricated wooden house for farmhouse",
+      "eco resort log cabin supplier India",
+      "timber log home construction India",
+      "modular log cabin for glamping",
+      "wooden cottage for farm stay",
+      "log cabin for holiday home India",
+      "timber cabin for eco tourism India"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Portable/temporary utility shelter buyers (bunkhouses, guard huts, site offices) — these buyers seek low-cost functional enclosures, not aesthetic timber residential or hospitality structures; terms such as bunkhouse, guard hut, site cabin, and portable shelter are blocked.",
+    "Bamboo hut buyers — a distinct sub-segment using bamboo as primary material rather than solid or engineered timber logs; the term 'bamboo' is blocked to prevent contamination with sibling MCAT Bamboo Huts (141758).",
+    "Log Cabin sibling (108654) — a direct sibling MCAT with the exact name 'Log Cabin'; the standalone phrase 'log cabin' is retained in alt_names as a buyer search term but is not used as an enhanced name candidate to avoid name collision with that sibling.",
+    "Prefabricated Wooden House sibling (88198) and Wooden House sibling (41490) — generic wooden/prefab house terms without the log/timber-log qualifier are avoided in enhanced names to prevent semantic collision with these siblings."
+  ],
+  "segment_contamination_disclaimer": null
+}
