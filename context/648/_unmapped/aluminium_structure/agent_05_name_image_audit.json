@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 alt_names and market_context confirm 'Aluminium Structure' is a valid but overly broad umbrella term; the dominant commercial sub-segment is aluminium solar panel mounting structure (monorail/multi-rail), and buyer_intent_queries consistently include 'solar' or 'mounting' qualifiers, suggesting the current name under-signals the primary segment.",
+    "suggested_name": "Aluminium Solar Mounting Structure"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a square aluminium box truss segment (stage/event/entertainment truss), which is a different product sub-segment from the primary_segment (aluminium solar panel mounting structure — monorail/multi-rail for rooftop and ground-mounted solar installations).",
+      "This image actively misleads B2B buyers searching for solar mounting structures and does not represent the commercially dominant product type identified by Agent 3."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product photograph of an aluminium solar panel mounting structure — multi-rail racking system with two parallel extruded aluminium rails (silver anodised, 6063 T6 alloy), mid-clamps, end-clamps, and L-feet mounting brackets assembled on a flat white background, isometric 3/4 view, clean studio lighting, sharp detail on rail cross-section and clamp hardware, no solar panels attached, no text overlays, square 1:1 crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
