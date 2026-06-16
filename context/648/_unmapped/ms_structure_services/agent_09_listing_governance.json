@@ -1,0 +1,6 @@
+{
+  "location_exception": false,
+  "location_exception_reason": "MS Structure Services is a nationwide industrial service category; location is a logistics/delivery factor, not a product attribute. Buyers select providers by capability and price, not origin geography.",
+  "biz_exception": true,
+  "biz_exception_reason": "Business-type words ('Fabricator', 'Contractor', 'Service Provider', 'Erector') in MS Structure titles signal the nature of the engagement (turnkey service vs. material supply vs. design-only vs. erection-only), which materially changes buyer expectations and contract scope. Removing these words creates ambiguity about what is being offered."
+}
