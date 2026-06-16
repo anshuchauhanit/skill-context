@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Portable Cabin' directly matches the highest-frequency primary keyword and is the standard IndiaMART category label; Agent 3 market_context confirms 'Portable Cabin' and 'Porta Cabin' are the two dominant trade terms in Indian B2B buyer search, and the current name covers the broadest segment accurately.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail clearly shows a steel-frame sandwich panel portable cabin with white/orange corrugated panel walls, aluminium-framed windows with grilles, and a curved metal roof — accurately representing the primary segment of site office/accommodation use.",
+      "Improvement is possible: the image has a plain grey background and slightly dated styling; a cleaner, better-lit 3/4-angle shot with visible door, signage context (e.g. 'Site Office'), and sharper panel detail would better communicate quality and application to B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a steel-frame insulated sandwich panel portable cabin for construction site office use. The cabin is a standard 10x20 ft rectangular unit with white and light grey PUF sandwich panel walls, a subtle orange or blue base trim, two aluminium-framed sliding windows with grilles on the long side, and a single steel door with a small canopy on the short side. A small 'Site Office' sign is mounted above the door. The cabin sits on a flat concrete pad with a clean white studio background, soft even lighting, sharp edges, and no shadows. Professional product photography style, high resolution, no people, no clutter.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
