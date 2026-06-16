@@ -1,0 +1,447 @@
+{
+  "mcat_description": {
+    "short": "Metal Shelters are prefabricated steel-framed structures supplied as ready-to-erect or bolt-together assemblies for industrial, commercial, agricultural, and public-use applications. They are sold as complete structural units or custom-fabricated to buyer dimensions, typically in mild steel, GI, or aluminium with colour-coated or galvanised roofing sheets.",
+    "long": "Metal Shelters encompass a broad range of prefabricated and pre-engineered steel structures designed for rapid on-site assembly without conventional masonry construction. In the Indian B2B market, the dominant commercial form is the mild steel prefabricated industrial or storage shelter — a portal-frame or truss-based structure with colour-coated GI or Galvalume roofing sheets, designed and fabricated as per IS 800:2007 (General Construction in Steel) and IS 875 for load calculations. Product types range from heavy-duty industrial storage sheds and factory shelters to lighter parking canopies, bus shelters, guard cabins, and portable site offices, with structural materials spanning mild steel, Corten steel, aluminium, and galvanised iron. Buyers typically specify custom dimensions, roof pitch, wall panel type (open, PUF-insulated, or sandwich panel), and surface treatment (red oxide primer + enamel, powder coat, or hot-dip galvanising), and sellers quote on a per-square-foot or per-unit basis depending on whether the structure is custom-fabricated or catalogue-standard.",
+    "product_types": [
+      "Prefabricated Industrial Storage Shelter (MS/GI frame, colour-coated roofing)",
+      "Pre-Engineered Building (PEB) Shelter / Factory Shed",
+      "Parking Shelter / Car Parking Canopy",
+      "Bus Shelter / Waiting Shelter",
+      "Agricultural / Farm Storage Shelter",
+      "Guard Cabin / Security Shelter",
+      "Portable Site Office Shelter",
+      "Exhibition / Outdoor Event Shelter",
+      "Tensile / Fabric-over-Metal Frame Shelter",
+      "Tunnel / Arch Sheet Metal Shelter",
+      "Modular / Panel-Build Metal Shelter",
+      "Aluminium Shelter (lightweight, corrosion-resistant)"
+    ],
+    "primary_applications": [
+      "Industrial storage and warehousing",
+      "Factory shed and manufacturing unit enclosure",
+      "Vehicle parking and carport",
+      "Agricultural produce and equipment storage",
+      "Construction site office and labour accommodation",
+      "Public transit waiting shelters (bus, auto stands)",
+      "Outdoor exhibition and event structures",
+      "Telecom and equipment housing shelters",
+      "Disaster relief and temporary accommodation",
+      "Guard posts and security checkpoints"
+    ],
+    "buyer_segments": [
+      "Industrial manufacturers and factory owners (storage, production shed)",
+      "Construction contractors and project developers (site offices, labour camps)",
+      "Government and municipal bodies (bus shelters, public infrastructure)",
+      "Agricultural businesses and farm owners (grain/equipment storage)",
+      "Commercial real estate developers (parking canopies, warehouses)",
+      "Defence and institutional buyers (barracks, equipment shelters)",
+      "Telecom and utility companies (equipment housing)",
+      "Event management companies (temporary outdoor structures)"
+    ]
+  },
+  "primary_segment": "Prefabricated mild steel industrial and storage shelter (portal-frame or truss structure with colour-coated GI/Galvalume roofing)",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated metal-framed structural shelter for industrial, commercial, or public use",
+    "secondary_families": [],
+    "reason": "All product sub-types (industrial sheds, parking canopies, bus shelters, portable cabins) are applications of the same prefabricated steel structure concept with the same buyer profile and no incompatible regulatory regimes; the MCAT is broad but coherent within the prefabricated structures taxonomy."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "metal shelters",
+      "prefabricated metal shelter",
+      "steel shelter",
+      "MS shelter",
+      "prefab steel shelter",
+      "industrial metal shelter",
+      "GI shelter",
+      "steel shed shelter",
+      "prefabricated shelter",
+      "metal shed"
+    ],
+    "technical_synonyms": [
+      "pre-engineered steel shelter",
+      "portal frame shelter",
+      "structural steel shelter",
+      "mild steel prefabricated shelter",
+      "galvanised iron shelter",
+      "colour-coated steel shelter",
+      "modular steel shelter",
+      "PEB shelter",
+      "steel canopy structure",
+      "truss-based metal shelter"
+    ],
+    "trade_names": [
+      "PEB structure",
+      "prefab shed",
+      "industrial shed",
+      "steel warehouse shelter",
+      "Galvalume shelter",
+      "sandwich panel shelter",
+      "PUF panel shelter",
+      "colour-coated GI shelter"
+    ],
+    "hindi_terms": [
+      "dhatu shelter",
+      "lohe ka shed",
+      "prefab shed",
+      "steel shed"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated metal shelter for industrial storage",
+      "mild steel shelter for factory",
+      "steel shed shelter with GI roofing",
+      "portable metal shelter for construction site",
+      "prefab steel shelter for parking",
+      "metal shelter for agricultural storage",
+      "industrial steel shelter manufacturer India",
+      "custom size metal shelter for warehouse"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Custom-fabricated metal shelters in India are predominantly quoted per square foot of covered area, reflecting the variable dimensions and project-specific nature of most B2B transactions; smaller catalogue-standard portable shelters (guard cabins, portable offices) are quoted per piece or per unit.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Custom industrial / storage shelter",
+        "unit": "per sq ft",
+        "note": "Dominant unit for project-based fabrication; area-based pricing reflects material and labour cost scaling."
+      },
+      {
+        "sub_segment": "Portable cabin / guard shelter",
+        "unit": "per piece",
+        "note": "Standard-dimension portable units sold as finished products quoted per piece."
+      },
+      {
+        "sub_segment": "PEB / large warehouse shelter",
+        "unit": "per sq ft or per kg",
+        "note": "Large pre-engineered buildings sometimes quoted per kg of structural steel used."
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART Industrial Shelters page (listing tile price signals)",
+      "Market research — prefabricated steel structures India",
+      "World knowledge — Indian B2B construction material quoting norms"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, Metal Shelters sit within the broader prefabricated structures segment and are primarily understood as mild steel or GI-framed prefabricated structures for industrial, storage, agricultural, and public-use applications. The primary structural design standard is IS 800:2007 (General Construction in Steel — Code of Practice), which governs limit state design for steel shelters, sheds, canopies, and industrial buildings; load calculations follow IS 875. Structural steel used in fabrication is subject to BIS certification requirements, with IS 2062 being the key standard for structural steel plates and sections used in shelter fabrication — ISI-marked steel is increasingly demanded by government and institutional buyers. The market spans a wide range of product types: heavy-duty industrial storage sheds and factory shelters (dominant segment), parking canopies, bus shelters, guard cabins, portable site offices, and exhibition structures. Materials commonly used include mild steel (MS), galvanised iron (GI), Corten steel, aluminium, and Galvalume-coated sheets; surface treatments include red oxide zinc chromate primer with synthetic enamel topcoat, powder coating, and hot-dip galvanising. Sellers are concentrated in Delhi-NCR, Hyderabad, Faridabad, Bengaluru, Indore, and Coimbatore manufacturing clusters. The category shows contamination from unrelated products (shower enclosures, decorative oil burners) based on keyword signals — listing audit should flag these as wrong-MCAT placements. Unit quoting is predominantly per sq ft for custom structures and per piece for standard portable units.",
+  "buyer_attracting_attributes": [
+    "Frame Material (MS / GI / Aluminium / Corten Steel)",
+    "Roofing Sheet Type (Colour-coated GI / Galvalume / PUF sandwich panel)",
+    "Structure Dimensions (Length × Width × Height / Custom)",
+    "Wall Panel Type (Open / Closed / Insulated / Sandwich panel)",
+    "Surface Treatment / Coating (Galvanised / Powder-coated / Red oxide primer)",
+    "Load Capacity / Wind and Snow Load Rating",
+    "IS Standard Compliance (IS 800 / IS 875 / BIS-certified steel)",
+    "Built Type (Prefab / Modular / Panel-build / PEB)",
+    "Portability / Relocatability",
+    "Delivery and Erection Timeline"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "33397",
+    "mcat_name": "Metal Shelters",
+    "mcat_level": "4",
+    "listing_count": "228",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Metal Shelters",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "158662.0",
+      "name": "Prefabricated Shed",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "158662.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20781",
+        "mcat_name": "Prefabricated Shelters",
+        "listing_count": "4676",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "20782",
+        "mcat_name": "Portable Shelters",
+        "listing_count": "930",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21106",
+        "mcat_name": "Aircraft Hangars",
+        "listing_count": "407",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "26766",
+        "mcat_name": "Dome Shelters",
+        "listing_count": "395",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30719",
+        "mcat_name": "Industrial Sheds",
+        "listing_count": "36863",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30721",
+        "mcat_name": "Industrial Shelters",
+        "listing_count": "531",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33228",
+        "mcat_name": "Military Shelters",
+        "listing_count": "154",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35070",
+        "mcat_name": "Portable Garage",
+        "listing_count": "1406",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42756",
+        "mcat_name": "Telecom Shelters",
+        "listing_count": "611",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "107235",
+        "mcat_name": "Folding Garage",
+        "listing_count": "20",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136750",
+        "mcat_name": "Prefabricated Factory Shed",
+        "listing_count": "15425",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145222",
+        "mcat_name": "Poultry Sheds",
+        "listing_count": "1889",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "146519",
+        "mcat_name": "Cattle Sheds",
+        "listing_count": "1830",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158662",
+        "mcat_name": "Prefabricated Shed",
+        "listing_count": "4727",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164591",
+        "mcat_name": "Metal Sheds",
+        "listing_count": "1477",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164769",
+        "mcat_name": "Warehouse Sheds",
+        "listing_count": "6293",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166772",
+        "mcat_name": "Swimming Pool Tensile Cover",
+        "listing_count": "670",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "172388",
+        "mcat_name": "PEB Structures Fabrication",
+        "listing_count": "3547",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182931",
+        "mcat_name": "Auditorium Roofing Shed",
+        "listing_count": "504",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "187089",
+        "mcat_name": "Badminton Court Roofing Shed",
+        "listing_count": "1474",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "191761",
+        "mcat_name": "Swimming Pool Shed",
+        "listing_count": "280",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "220929",
+        "mcat_name": "Tin Shed",
+        "listing_count": "2737",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 22,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Metal Shelters are prefabricated structural products with material specs (steel grade, dimensions, load capacity) and installation patterns. No single regulatory body or dominant brand anchors the category — buyers evaluate by structural design, material quality, and customisation capability. Standard B2B research into material standards (BIS for steel), typical configurations, and market terminology is warranted."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "market_context (contamination signal)"
+        ],
+        "citation_note": "Shower-related keywords flagged as wrong-MCAT contamination; 'metal shelters' confirmed as primary on-platform search term. 'Akiva 43' unidentifiable — excluded."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "primary_segment"
+        ],
+        "citation_note": "Taxonomy path anchors MCAT within prefabricated structures; 228 listing count treated as plausible. No product_page_url provided — page fetch not attempted."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://rcenggstudios.com/design-of-steel-shelter-as-per-is-800/",
+        "title": "Design of Steel Shelter as per IS 800",
+        "source_domain": "rcenggstudios.com",
+        "derived_outputs": [
+          "market_context (IS 800:2007 standard reference)",
+          "buyer_attracting_attributes (IS Standard Compliance)"
+        ],
+        "citation_note": "Confirmed IS 800:2007 as the primary Indian standard for steel shelter design; IS 875 for load calculations."
+      },
+      {
+        "url": "https://www.mha.gov.in/sites/default/files/2024-06/QRsTDsofMultiStorey_06062024.pdf",
+        "title": "MHA Prefabricated Shelter Technical Specifications",
+        "source_domain": "mha.gov.in",
+        "derived_outputs": [
+          "mcat_description.product_types (defence/institutional shelter)",
+          "market_context (BIS fastener compliance, surface treatment norms)"
+        ],
+        "citation_note": "Government specification document confirming BIS-compliant fasteners, red oxide zinc chromate primer + synthetic enamel finish, and Galvalume roofing sheet as standard for prefabricated shelters."
+      },
+      {
+        "url": "https://www.diligencecertification.com/bis-steel-standards/",
+        "title": "BIS Steel Standards: Products, Documents & Eligibility",
+        "source_domain": "diligencecertification.com",
+        "derived_outputs": [
+          "market_context (BIS/IS 2062 structural steel certification)",
+          "buyer_attracting_attributes (IS Standard Compliance)"
+        ],
+        "citation_note": "Confirmed BIS certification is mandatory for structural steel categories including IS 2062; ISI-marked steel demanded by government and infrastructure buyers."
+      },
+      {
+        "url": "https://www.alliancesteelindia.com/mild-steel-prefabricated-shelters.html",
+        "title": "Mild Steel Prefabricated Shelters — Alliance Steel",
+        "source_domain": "alliancesteelindia.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Manufacturer page confirming application range: industrial sheds, warehouses, agricultural storage, solar mounting, outdoor shelters."
+      },
+      {
+        "url": "https://dir.indiamart.com/impcat/industrial-shelters.html",
+        "title": "Industrial Shelters at Best Price in India — IndiaMART",
+        "source_domain": "dir.indiamart.com",
+        "derived_outputs": [
+          "unit_quoting_context (per sq ft dominant unit signal)",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "IndiaMART listing tiles used for unit quoting signal (per sq ft) and product type observation only — not used for primary_segment or market claims."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Metal Shelters are prefabricated structural products with material specs (steel grade, dimensions, load capacity) and installation patterns. No single regulatory body or dominant brand anchors the category — buyers evaluate by structural design, material quality, and customisation capability. Standard B2B research into material standards (BIS for steel), typical configurations, and market terminology is warranted."
+    }
+  }
+}
