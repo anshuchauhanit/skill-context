@@ -1,0 +1,14 @@
+{
+  "category_nature": {
+    "is_generic": false,
+    "is_specific": true,
+    "is_vague": false,
+    "is_thin": false,
+    "is_branded": false,
+    "is_service": false,
+    "reason": [
+      "is_specific: 'Greenhouse Structure' unambiguously maps to one product concept — framed enclosures for protected horticultural cultivation; all product_types (NVPH, shade net, polycarbonate, tunnel) share the same buyer archetype and purchase context with zero incompatible intent clusters across buyer_intent_queries.",
+      "is_vague: 0 of 4 signals fire — name resolves to one product concept, Agent 3 named a confident unhedged primary_segment, buyer queries cluster around one purchase context (protected cultivation), and all product_types share a common buyer profile; sibling MCATs (Greenhouse, Polyhouse, Agricultural Greenhouses) represent classification overlaps, not incompatible buyer profiles or regulatory regimes."
+    ]
+  }
+}
