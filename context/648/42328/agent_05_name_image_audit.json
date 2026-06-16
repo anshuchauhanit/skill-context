@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Modular Tensile Structure' directly matches the top primary keyword in Agent 3's alt_names and accurately reflects the pre-engineered, modular fabric-membrane shelter system dominant in the Indian B2B market; no more specific or widely-used alternative name displaces it in market_context or keyword data.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The image shows an interior corridor view of a large-span temporary event tent/marquee structure — an enclosed hall-type installation more representative of the 'German hanger' or event-tent sub-segment, not the primary segment of PVC-coated modular tensile fabric structures for car parking, canopy, walkway, or terrace cover.",
+      "The inside-out perspective, enclosed sidewalls with transparent PVC curtains, and event-hall scale actively misrepresent the dominant buyer use case (open-frame outdoor shade canopies for parking/walkway/terrace), making this thumbnail misleading for the primary segment."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic product image of a modular PVC-coated polyester tensile shade structure installed outdoors as a car parking canopy: white or light-grey fabric membrane stretched in a hyperbolic or conical form over galvanised steel poles, covering 4–6 parked cars, bright daylight, clean white background or open sky, slight shadow detail on fabric to show tension, front-three-quarter view, sharp and professional B2B catalogue style, square 1:1 crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
