@@ -1,0 +1,185 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — a luxury AC van, a cluster of FRP portable cabins, and a bio-toilet unit are visually unrecognisable as the same category. Buyers use the image to identify the unit type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "service-duration-dependent price",
+      "reason": "Rental rates are compared aggressively across vendors once unit type matches. Indian B2B buyers shortlist on per-day or per-month rate; price is a primary decision lever at the listing tile stage."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per day",
+      "unit_note": "Long-term construction/project deployments are quoted per month; large multi-unit event deployments use per unit per day. Unit must always be shown alongside price — a per-day rate vs a per-event rate for a 3-day wedding creates real price comparison confusion.",
+      "reason": "Per day, per month, and per event are all active in this market. Price cannot be compared or interpreted without the billing unit shown explicitly."
+    },
+    {
+      "rank": 4,
+      "dimension": "specification",
+      "level": "Medium",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Buyers arrive knowing their broad requirement (van vs cabin, approximate capacity). Specs such as cabin type, seat configuration, and waste handling confirm fit after initial price and image shortlisting — they are qualifiers, not discovery signals."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No nationally recognised brand with buyer recall exists in this category; the market is fragmented across regional operators and buyers search by location, unit type, and price rather than operator name.",
+      "reason": "Service reliability, geographic coverage, and operator track record are evaluated during vendor selection — particularly for large municipal or construction contracts — but only after unit type, capacity, and price are confirmed."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Type",
+        "reason": "Defines what the unit IS — VIP/AC cabin vs standard multi-seater vs urinal cabin are non-interchangeable and carry a 5–10x price differential across the range."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Toilet Type",
+        "reason": "Indian vs Western vs Combi seat configuration is non-interchangeable for the buyer's use case and drives a meaningful price delta between standard and Western/Combi-configured units."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cabin Material",
+      "Cabin Type",
+      "Gender Usage",
+      "Handwash Facility",
+      "Location Served",
+      "Service Duration",
+      "Service Included",
+      "Suitable For",
+      "Toilet Type",
+      "Waste Handling"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Seating Capacity",
+        "why_important": "Event and construction buyers specify exact seat count (4, 6, or 10 seats) as a primary procurement requirement; sellers need this to confirm fleet availability and quote accurately.",
+        "source": "both",
+        "example_values": [
+          "4 Seater",
+          "6 Seater",
+          "10 Seater",
+          "Single Seat"
+        ]
+      },
+      {
+        "spec_name": "AC / Non-AC",
+        "why_important": "AC luxury variants command a significantly higher rental rate and serve a distinct buyer segment (weddings, VIP events, corporate functions); sellers need this to match their fleet offering to the buyer's requirement.",
+        "source": "both",
+        "example_values": [
+          "AC",
+          "Non-AC",
+          "Luxury AC",
+          "Standard"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Capacity",
+        "reason": "Seat count directly determines which units a seller can supply — a seller with only 4-seater vans cannot fulfil a 10-seater requirement, making this the primary fleet-matching signal.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Mounting Type",
+        "reason": "Physical form of the unit (vehicle-mounted van vs individual portable cabin vs trolley) determines fleet type compatibility and site logistics — sellers need this to confirm they have the right equipment.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "On vehicle",
+          "Trolley",
+          "Individual Box"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Number of Units Required",
+        "why_important": "A seller with a small fleet cannot fulfil a 50-unit municipal event deployment; quantity is the primary fulfilment-capacity signal that determines whether a seller can respond at all.",
+        "source": "both",
+        "example_values": [
+          "1–5 Units",
+          "6–10 Units",
+          "11–25 Units",
+          "25+ Units"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Rental Duration",
+        "why_important": "Per-day event rental and per-month construction site deployment require different logistics, pricing structures, and service schedules — sellers need this to quote accurately.",
+        "source": "both",
+        "example_values": [
+          "Per Day",
+          "Per Week",
+          "Per Month",
+          "Per Event"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Mounting Type",
+      "option_value": "On vehicle",
+      "id": "spec_1",
+      "prompt_for_generation": "Vehicle-mounted mobile toilet van with multiple toilet compartments built onto a truck chassis, white FRP body with door handles visible, parked on an open ground, natural daylight, side-angle view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Mounting Type",
+      "option_value": "Trolley",
+      "id": "spec_2",
+      "prompt_for_generation": "Portable toilet unit mounted on a wheeled trolley frame, compact single or dual-compartment FRP cabin with tow hitch visible at the base, parked on flat ground, natural daylight, three-quarter view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Mounting Type",
+      "option_value": "Individual Box",
+      "id": "spec_3",
+      "prompt_for_generation": "Row of three standalone portable toilet cabins in white and blue FRP, individual box units placed side by side on open ground at an outdoor event site, natural daylight, front-facing view, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
