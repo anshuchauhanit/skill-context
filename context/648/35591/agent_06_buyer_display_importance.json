@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — container home, PUF panel house, wooden cottage, A-frame, and capsule house are visually distinct product types. Buyers use the image to confirm product type before reading any text; wrong visual type causes an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Floor area, structure material, wall panel type, and number of floors are non-interchangeable shortlisting criteria. A buyer needing a 1000 sq ft steel-frame PUF panel house cannot evaluate a listing without these specs."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Per sq ft dominates for custom residential builds; per unit applies to standard fixed-configuration houses; per project applies to labour colonies and multi-unit institutional orders. All three conventions are active in the Indian market — price cannot be compared without unit clarity.",
+      "reason": "Per unit vs per sq ft vs per project are all live quoting conventions in this category. A buyer comparing prices across listings cannot interpret or compare any price figure without knowing the unit basis."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian buyers are price-sensitive but price is only comparable after floor area and structure type are confirmed — a per-sq-ft rate for a PUF panel house is not comparable to one for a precast concrete structure. Listed price is a budget entry point; final price is always negotiated and site-specific."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with universal buyer recall exists — EPACK, Tata Nest-In, and Synergy are trade-known but buyers search by product type and configuration, not manufacturer name. No branded sub-categories appear in taxonomy siblings.",
+      "reason": "Manufacturer track record, BMTPC PAC certification, and service location coverage are genuine buyer qualifiers for a high-value, site-delivered product — but company ranks last because spec and visual fit must be confirmed first."
+    }
+  ]
+}
