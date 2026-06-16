@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Portable Security Cabins' directly matches the dominant trade term confirmed across Agent 3 primary_keywords ('portable security cabin') and market_context ('Portable Security Cabins is the dominant trade term'); no more precise or buyer-preferred alternative exists at this level.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail shows a correctly identified prefabricated portable security cabin with white PUF/sandwich panels, blue steel frame, aluminium sliding window, and MS door — directly matching the primary_segment of guard/watchman cabin for gate deployment.",
+      "Improvement is possible: the factory/warehouse background with visible industrial clutter and overhead pipes reduces visual clarity; a clean white or outdoor gate-context background would better communicate the product's end-use and improve buyer appeal on a listing page."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated portable security guard cabin, white and blue steel-framed structure approximately 6x6 ft, with aluminium sliding window on the front face, a single MS door on the side, and a sloped roof with blue trim. The cabin is placed outdoors at a gated entry point with a clean concrete driveway and a simple gate visible in the background. Bright natural daylight, sharp product focus, photorealistic style, clean white-to-light-grey gradient background on the cabin walls, no people, no clutter, square 1:1 composition with the cabin centred and fully visible.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
