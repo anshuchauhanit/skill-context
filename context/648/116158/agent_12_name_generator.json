@@ -1,0 +1,69 @@
+{
+  "enhanced_name_4w": "Coastal Prefab Beach House",
+  "enhanced_name_5w": "Modular Prefab House for Beach",
+  "enhanced_name_6w": "Prefab Beach House for Resort Developers",
+  "enhanced_name_long": "Prefabricated Modular Beach Houses for Coastal Resorts, Eco-Tourism and Holiday Homes — Steel, Timber and FRP Frame",
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated beach house",
+      "prefab beach house",
+      "modular beach house",
+      "beach cottage prefab",
+      "coastal prefab house",
+      "beach resort cottage prefab",
+      "prefab beach villa",
+      "prefab beach bungalow",
+      "modular coastal cottage",
+      "factory built beach house"
+    ],
+    "technical_synonyms": [
+      "modular beach dwelling",
+      "prefabricated coastal structure",
+      "factory-built beach cottage",
+      "light gauge steel beach house",
+      "FRP beach house",
+      "MS frame beach cottage",
+      "composite panel beach house",
+      "off-site fabricated beach house",
+      "relocatable beach structure",
+      "systems-built coastal cabin"
+    ],
+    "trade_names": [
+      "beach resort cottage",
+      "sea view modular cottage",
+      "coastal modular villa",
+      "beach glamping pod",
+      "eco beach cabin",
+      "beach bungalow kit",
+      "wooden beach house",
+      "timber beach cottage",
+      "prefab beach chalet",
+      "steel modular sea view cottage"
+    ],
+    "hindi_terms": [
+      "समुद्र तट का घर",
+      "प्रीफैब बीच हाउस",
+      "तटीय प्रीफैब कॉटेज"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated beach house for resort in Goa",
+      "modular beach cottage for coastal property",
+      "factory built beach house for hospitality project",
+      "portable beach house for Kerala resort",
+      "steel frame prefab beach cottage manufacturer",
+      "wooden prefab beach house for vacation rental",
+      "eco-friendly prefab beach house for glamping",
+      "prefab beach villa with CRZ compliance",
+      "modular beach house for Andaman tourism project",
+      "prefab coastal cottage for boutique resort developer"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Industrial/labour-camp accommodation buyers (bunkhouses, MS bunkhouses, prefab steel bunk houses) — these buyers seek dormitory-style worker housing, not coastal hospitality or holiday-home structures; any name implying bunk, camp, or worker accommodation is blocked.",
+    "Generic portable/guard-hut buyers (guard huts, PVC guard huts, portable huts) — these buyers seek small security or utility shelters unrelated to coastal resort deployment; names implying guard, security cabin, or utility hut are blocked.",
+    "Generic prefab house buyers without coastal or hospitality context (Prefabricated Houses, Portable House, Mild Steel Portable House) — the beach/coastal/resort qualifier is mandatory to distinguish this MCAT from generic residential prefab siblings; names without a coastal or hospitality signal are discarded.",
+    "Buyer intent query 'prefab beach house price in India' removed — price-query terms attract generic price-comparison traffic not specific to B2B resort/hospitality procurement context."
+  ],
+  "segment_contamination_disclaimer": null
+}
