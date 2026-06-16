@@ -1,0 +1,249 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Aircraft hangars are engineered-to-order structures; buyers cannot evaluate any listing without knowing span width, eave height, hangar type, and door configuration — these specs define whether the structure can physically accommodate their aircraft. Without matching specs, no buyer engages regardless of image or price."
+    },
+    {
+      "rank": 2,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant consumer-recognisable brand exists in Indian aircraft hangar supply; buyers evaluate sellers by engineering capability, IS 800 compliance track record, DGCA-related project experience, and erection credentials — not brand name recall.",
+      "reason": "Institutional and defence buyers conduct formal vendor qualification; seller credentials (PEB fabrication capability, past airport/defence projects, IS code compliance, erection experience) are a primary shortlisting gate equal in weight to specifications."
+    },
+    {
+      "rank": 3,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — PEB clear-span vs T-hangar vs fabric/tensioned structure vs space frame are visually distinct structural forms; buyers use images to confirm structural type and scale before reading specs. A listing showing a generic industrial shed instead of a clear-span hangar is immediately disqualifying."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every aircraft hangar is custom-engineered to site and aircraft requirements; no fixed list price exists and final value is always project-quoted. Indicative per-sq-ft rates serve as a budget entry point for Indian buyers but are not comparable across listings without spec equivalence."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Turnkey/EPC contracts are quoted as lump-sum per project; fabric/portable hangars may be quoted per piece. Per sq ft is the dominant unit for PEB supply contracts and must be shown to allow any budget comparison across listings.",
+      "reason": "Per sq ft vs per project vs per piece creates genuine price comparison confusion in this category; unit must be shown alongside any indicative price so buyers can interpret and compare figures correctly."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Span Width",
+        "reason": "Span width is the primary structural determinant — it defines which aircraft can be accommodated, drives the entire frame design, and produces the largest price delta across values (Up To 30 m vs Above 60 m represents a multi-fold cost difference in steel tonnage and foundation load)."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Hangar Type",
+        "reason": "Hangar type (Defence, MRO, Cargo, Helicopter, General Aviation) is non-interchangeable — each imposes distinct fire suppression class, structural loading, door configuration, and regulatory compliance requirements that fundamentally change the design scope and price."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cladding Material",
+      "Design Standard",
+      "Door Type",
+      "Foundation Type",
+      "Hangar Type",
+      "Span Width",
+      "Structure Type",
+      "With Crane System",
+      "With Fire System"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Eave Height / Clear Height",
+        "why_important": "Tail height of the aircraft determines the minimum clear eave height required — this is a non-negotiable structural dimension that directly drives frame cost and is a primary buyer specification alongside span width.",
+        "source": "both",
+        "example_values": [
+          "Up to 6 m",
+          "6–9 m",
+          "9–12 m",
+          "Above 12 m"
+        ]
+      },
+      {
+        "spec_name": "Door Opening Width",
+        "why_important": "The hangar door opening must exceed the aircraft's wingspan; buyers specify this dimension explicitly and it drives door system selection and structural header design — a separate and critical configurator from Door Type.",
+        "source": "both",
+        "example_values": [
+          "Up to 20 m",
+          "20–40 m",
+          "40–60 m",
+          "Above 60 m"
+        ]
+      },
+      {
+        "spec_name": "Wind Zone / Seismic Zone",
+        "why_important": "IS 875 wind zone and IS 1893 seismic zone determine structural steel tonnage and connection design; buyers in coastal or high-seismic regions specify this explicitly and it materially affects fabrication cost.",
+        "source": "both",
+        "example_values": [
+          "Wind Zone II",
+          "Wind Zone III",
+          "Wind Zone IV",
+          "Seismic Zone III/IV"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Clear Span",
+        "reason": "Clear span directly determines which aircraft the hangar can accommodate and is the single most important dimension sellers need to assess structural feasibility, steel tonnage, and project cost.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Door Type",
+        "reason": "Door type (Sliding, Bi-Fold, Hydraulic, Fabric) determines operational workflow compatibility and is a major cost driver; sellers need this to scope the door system supply and confirm their fabrication capability.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Sliding Door",
+          "Bi-Fold Door",
+          "Hydraulic Door",
+          "Fabric Door"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Hangar Use / Type",
+        "why_important": "Sellers need to know whether the hangar is for general aviation storage, MRO operations, helicopter use, or defence — each imposes distinct fire suppression, structural loading, and regulatory compliance requirements that change the entire design scope.",
+        "source": "both",
+        "example_values": [
+          "General Aviation / Storage",
+          "MRO / Maintenance",
+          "Helicopter",
+          "Defence / Military"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "General Aviation / Storage",
+          "MRO / Maintenance",
+          "Helicopter",
+          "Defence / Military"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Door Type",
+      "option_value": "Sliding Door",
+      "id": "spec_1",
+      "prompt_for_generation": "Large pre-engineered steel aircraft hangar with a horizontal sliding door system fully open, revealing a clear-span interior, exterior view, daytime natural lighting, airport apron setting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Door Type",
+      "option_value": "Bi-Fold Door",
+      "id": "spec_2",
+      "prompt_for_generation": "Pre-engineered steel aircraft hangar with a bi-fold door system in mid-open position showing upper and lower panels folding outward, exterior view, daytime, airport setting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Door Type",
+      "option_value": "Hydraulic Door",
+      "id": "spec_3",
+      "prompt_for_generation": "Large clear-span steel aircraft hangar with a hydraulic bottom-rolling door system fully raised, wide door opening visible, exterior view, daytime, airport apron context, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Door Type",
+      "option_value": "Fabric Door",
+      "id": "spec_4",
+      "prompt_for_generation": "Aircraft hangar with a fabric/tensioned door system partially open showing flexible fabric panels, portable or semi-permanent structure, exterior view, daytime, airfield setting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Hangar Use / Type",
+      "option_value": "General Aviation / Storage",
+      "id": "spec_5",
+      "prompt_for_generation": "Pre-engineered steel clear-span hangar with small general aviation propeller aircraft parked inside, wide open interior, no maintenance equipment, exterior view showing hangar facade, daytime, small airstrip setting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Hangar Use / Type",
+      "option_value": "MRO / Maintenance",
+      "id": "spec_6",
+      "prompt_for_generation": "Large clear-span steel MRO hangar interior with a commercial aircraft undergoing maintenance, elevated work platforms and maintenance equipment visible, high-bay industrial lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Hangar Use / Type",
+      "option_value": "Helicopter",
+      "id": "spec_7",
+      "prompt_for_generation": "Compact pre-engineered steel hangar sized for helicopter storage with a helicopter parked inside, lower eave height than fixed-wing hangar, exterior view, helipad setting, daytime, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Hangar Use / Type",
+      "option_value": "Defence / Military",
+      "id": "spec_8",
+      "prompt_for_generation": "Large military-grade steel aircraft hangar with reinforced cladding and wide clear-span opening, exterior view showing robust structural facade, airbase setting, daytime, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
