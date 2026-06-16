@@ -1,0 +1,578 @@
+{
+  "mcat_description": {
+    "short": "A greenhouse (polyhouse) is a prefabricated protected cultivation structure with a GI or MS tubular frame covered by UV-stabilised polyethylene film, polycarbonate panels, or glass, sold as a complete turnkey structure or in component kits to farmers and agri-entrepreneurs for year-round crop production.",
+    "long": "Greenhouses in India are primarily GI-framed polyhouses covered with UV-stabilised polyethylene film, used for protected cultivation of vegetables, cut flowers, and high-value horticultural crops under controlled temperature and humidity conditions. Structures are classified by ventilation type (naturally ventilated, fan-and-pad), glazing material (polyethylene film, polycarbonate panels, glass), and structural form (Quonset/tunnel, even-span, sawtooth, multi-span/gutter-connected). The Indian market is strongly shaped by NHB and MIDH subsidy norms, which specify minimum technical standards including IS 15827:2009 for polyhouse film and minimum 200-micron UV-stabilised polythene. Buyers range from small farmers seeking low-cost naturally ventilated structures to commercial horticulture enterprises requiring hi-tech fan-and-pad climate-controlled systems.",
+    "product_types": [
+      "Naturally Ventilated Polyhouse (NVP)",
+      "Fan and Pad Greenhouse (Hi-Tech)",
+      "Shade Net House / Net House",
+      "Polycarbonate Greenhouse",
+      "Glass Greenhouse / Glasshouse",
+      "Low-Cost Bamboo Greenhouse",
+      "Tunnel / Quonset Greenhouse",
+      "Multi-Span / Gutter-Connected Greenhouse",
+      "Sawtooth Greenhouse",
+      "Even-Span Greenhouse",
+      "Terrace / Rooftop Greenhouse",
+      "Dome Structure Polyhouse",
+      "Mushroom Growing House",
+      "Retractable Roof Greenhouse"
+    ],
+    "primary_applications": [
+      "Commercial vegetable cultivation (capsicum, tomato, cucumber, chilli)",
+      "Cut flower production (rose, gerbera, carnation, orchid)",
+      "Hybrid seed production",
+      "Nursery and seedling propagation",
+      "Saffron indoor farming",
+      "Mushroom cultivation",
+      "Strawberry and high-value fruit growing",
+      "Year-round protected horticulture under NHB/MIDH subsidy schemes",
+      "Terrace and home kitchen gardening"
+    ],
+    "buyer_segments": [
+      "Commercial farmers and agri-entrepreneurs seeking NHB/MIDH subsidy-eligible structures",
+      "Horticulture exporters requiring climate-controlled cut flower production",
+      "Agricultural universities and research institutions",
+      "State government horticulture departments and FPOs",
+      "Small and marginal farmers upgrading to protected cultivation",
+      "Urban/terrace gardening enthusiasts",
+      "Mushroom and specialty crop cultivators"
+    ]
+  },
+  "primary_segment": "Naturally ventilated polyhouse with GI frame and UV-stabilised polyethylene film for commercial protected cultivation",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Naturally ventilated polyhouse / polyethylene film greenhouse for protected cultivation",
+    "secondary_families": [],
+    "reason": "All greenhouse sub-types (polyhouse, fan-pad, polycarbonate, glass) serve the same protected cultivation purpose, share the same farmer/agri-entrepreneur buyer profile, and operate under the same NHB/MIDH subsidy and IS 15827:2009 regulatory framework — no incompatible product family or buyer regime exists within this MCAT."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "greenhouse",
+      "green house",
+      "polyhouse",
+      "poly house",
+      "polycarbonate greenhouse",
+      "fan pad greenhouse",
+      "shade net house",
+      "glass greenhouse",
+      "naturally ventilated polyhouse",
+      "hi-tech greenhouse"
+    ],
+    "technical_synonyms": [
+      "protected cultivation structure",
+      "controlled environment agriculture structure",
+      "NVP (naturally ventilated polyhouse)",
+      "fan and pad cooling system greenhouse",
+      "multi-span greenhouse",
+      "gutter-connected greenhouse",
+      "sawtooth greenhouse",
+      "even-span greenhouse",
+      "Quonset greenhouse",
+      "tunnel greenhouse"
+    ],
+    "trade_names": [
+      "Agriplast polyhouse",
+      "Suryoday greenhouse",
+      "Shri Ji Green polyhouse",
+      "NHB-approved polyhouse",
+      "MIDH polyhouse",
+      "IS 15827:2009 polyhouse"
+    ],
+    "hindi_terms": [
+      "पॉलीहाउस",
+      "ग्रीनहाउस",
+      "हरित गृह",
+      "संरक्षित खेती संरचना"
+    ],
+    "buyer_intent_queries": [
+      "greenhouse construction cost per square meter India",
+      "polyhouse setup cost with NHB subsidy",
+      "fan pad greenhouse for vegetable farming",
+      "naturally ventilated polyhouse for cut flowers",
+      "polycarbonate greenhouse manufacturer India",
+      "greenhouse for saffron farming setup",
+      "terrace greenhouse setup for home",
+      "multi-span polyhouse for commercial farming",
+      "greenhouse structure with GI frame and UV film",
+      "NHB subsidy polyhouse manufacturer near me"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq meter",
+    "unit_reasoning": "NHB and MIDH subsidy cost norms are denominated in per sq meter (e.g. naturally ventilated polyhouse at Rs.1,000/sq m, fan-and-pad at Rs.1,600/sq m), making sq meter the standard transactional unit for commercial greenhouse procurement in India; small terrace/home units may be quoted per unit or per sq ft.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Commercial polyhouse / fan-pad greenhouse",
+        "unit": "per sq meter",
+        "note": "NHB/MIDH subsidy norms and contractor quotes use sq meter as the standard unit"
+      },
+      {
+        "sub_segment": "Terrace / home greenhouse kit",
+        "unit": "per unit / per set",
+        "note": "Small prefabricated kits sold as complete units"
+      },
+      {
+        "sub_segment": "Greenhouse accessories / components",
+        "unit": "per piece / per running meter",
+        "note": "Individual components like GI pipes, clips, film rolls quoted separately"
+      }
+    ],
+    "sources_checked": [
+      "agricultureguruji.com",
+      "protectedcultivation.com (Agriplast NHB guide)",
+      "farmatma.in",
+      "tractorgyan.com"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In India, 'greenhouse' and 'polyhouse' are used interchangeably in trade vocabulary, with polyhouse being the dominant commercial term for GI-framed structures covered with UV-stabilised polyethylene film. The market is strongly structured by government subsidy schemes — NHB (National Horticulture Board) and MIDH (Mission for Integrated Development of Horticulture) — which define technical specifications including IS 15827:2009 for polyhouse film and minimum 200-micron UV-stabilised polythene cover. Naturally ventilated polyhouses and fan-and-pad (hi-tech) greenhouses are the two primary commercial categories; shade net houses are a lower-cost adjacent category. Polycarbonate greenhouses are a growing premium segment, particularly for hilly/cold regions where polyethylene film performs poorly. Glass greenhouses remain a niche, high-investment segment. Key structural forms in India include Quonset/tunnel (most economical), multi-span/gutter-connected (large commercial farms), sawtooth (cut flower production), and even-span. Agriplast Tech India is a notable Indian manufacturer; regional suppliers are concentrated in Maharashtra, Karnataka, Gujarat, and Rajasthan. Keyword data shows a notable niche demand for saffron indoor farming setups, reflecting emerging controlled-environment agriculture beyond traditional horticulture.",
+  "buyer_attracting_attributes": [
+    "Frame Material (GI / MS / Aluminium)",
+    "Covering / Glazing Type (UV polyethylene film / polycarbonate / glass)",
+    "Ventilation System (naturally ventilated / fan-and-pad)",
+    "Structure Area / Span Size (sq meter)",
+    "Film Thickness (microns)",
+    "UV Stabilisation Life (years warranty)",
+    "NHB / MIDH Subsidy Eligibility",
+    "Structural Form (Quonset / multi-span / sawtooth / even-span)",
+    "Climate Zone Suitability (plains / hilly / coastal)",
+    "Crop Suitability (vegetables / flowers / mushroom / saffron)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "29816",
+    "mcat_name": "Greenhouse",
+    "mcat_level": "4",
+    "listing_count": "5282",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Greenhouse",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35592.0",
+      "name": "Prefabricated Structures",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35592.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20474",
+        "mcat_name": "Prefabricated Steel Buildings",
+        "listing_count": "8194",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21344",
+        "mcat_name": "Agricultural Greenhouses",
+        "listing_count": "2151",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21649",
+        "mcat_name": "Agricultural Buildings",
+        "listing_count": "128",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33188",
+        "mcat_name": "Modular Buildings",
+        "listing_count": "917",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35398",
+        "mcat_name": "Portable Buildings",
+        "listing_count": "1196",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35589",
+        "mcat_name": "Prefabricated Buildings",
+        "listing_count": "27038",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35592",
+        "mcat_name": "Prefabricated Structures",
+        "listing_count": "14394",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38214",
+        "mcat_name": "Storage Buildings",
+        "listing_count": "939",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "39565",
+        "mcat_name": "Temporary Buildings",
+        "listing_count": "149",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42328",
+        "mcat_name": "Modular Tensile Structure",
+        "listing_count": "2417",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "50762",
+        "mcat_name": "Tensile Structures",
+        "listing_count": "9089",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88197",
+        "mcat_name": "Prefabricated Metal Building",
+        "listing_count": "901",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116157",
+        "mcat_name": "Mini Greenhouse",
+        "listing_count": "1433",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121067",
+        "mcat_name": "Aluminium Structure",
+        "listing_count": "9342",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135787",
+        "mcat_name": "Tensile Membrane Structures",
+        "listing_count": "2683",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135861",
+        "mcat_name": "Auditorium Tensile Structure",
+        "listing_count": "598",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136011",
+        "mcat_name": "Gazebo Tensile Structure",
+        "listing_count": "1508",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "148110",
+        "mcat_name": "Pre Engineered Building Structure",
+        "listing_count": "9886",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149713",
+        "mcat_name": "Polyhouse",
+        "listing_count": "3245",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154059",
+        "mcat_name": "Prefabricated School Building",
+        "listing_count": "828",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158767",
+        "mcat_name": "Greenhouse Structure",
+        "listing_count": "813",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159520",
+        "mcat_name": "Prefabricated Hospitals",
+        "listing_count": "213",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "160350",
+        "mcat_name": "Mist Chamber",
+        "listing_count": "121",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166277",
+        "mcat_name": "Naturally Ventilated Greenhouse",
+        "listing_count": "1661",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166432",
+        "mcat_name": "Prefabricated Warehouse",
+        "listing_count": "5064",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168374",
+        "mcat_name": "Heavy Structural Fabrications",
+        "listing_count": "2495",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168445",
+        "mcat_name": "MS Structure Services",
+        "listing_count": "2407",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "178587",
+        "mcat_name": "Prefabricated Industrial Buildings",
+        "listing_count": "5964",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "179245",
+        "mcat_name": "Prefabricated Labor Colony",
+        "listing_count": "1480",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181553",
+        "mcat_name": "Pre Engineered Steel Building",
+        "listing_count": "1594",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "216129",
+        "mcat_name": "RCC Labour Quarter",
+        "listing_count": "549",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315645",
+        "mcat_name": "Prefabricated Walls",
+        "listing_count": "105",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "410918",
+        "mcat_name": "Light Gauge Framing System",
+        "listing_count": "350",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "444552",
+        "mcat_name": "Prefabricated Isolation Ward",
+        "listing_count": "218",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Greenhouse is a prefabricated structure with technical specs (frame material, glazing type, dimensions, ventilation system) and regional climate adaptation patterns. No single regulatory body or dominant brand landscape; buyers evaluate by construction quality, material durability, and climate suitability."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions ('green house' 2439, 'greenhouse' 104) confirmed polyhouse/greenhouse as dominant buyer vocabulary; saffron farming queries (160 impressions) identified as notable niche segment."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Fan pad greenhouse, polycarbonate greenhouse, mushroom greenhouse, and FRP rooftop greenhouse observed as sub-type signals in internal search data."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Call rows confirmed 'polyhouse', 'poly house', 'fan pad greenhouse', 'terrace setup', and 'greenhouse accessories' as real buyer vocabulary; terrace segment and accessories sub-category identified from call data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "5,282 listings and 34 siblings at Level 4 under Prefabricated Structures; listing count treated as plausible. No sibling carve-out triggers vagueness."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://agricultureguruji.com/greenhouse-farming/",
+        "title": "Greenhouse Farming in India (beginner guide 2025)",
+        "source_domain": "agricultureguruji.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for greenhouse types in India (sawtooth, even-span, Quonset), polyhouse vs greenhouse distinction, and construction cost per sq meter context."
+      },
+      {
+        "url": "https://tractorgyan.com/tractor-industry-news-blogs/1394/understand-polyhouse-farming-benefits-types-setup-costs-and-increasing-popularity-in-india",
+        "title": "Understand Polyhouse Farming Benefits, Types, Setup Costs, and Increasing popularity in India",
+        "source_domain": "tractorgyan.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "primary_segment",
+          "market_context"
+        ],
+        "citation_note": "Confirmed polyhouse sub-types: ventilated, shade net, fan-and-pad, hi-tech, tunnel, multi-span. Corroborated polyhouse as dominant Indian greenhouse technology."
+      },
+      {
+        "url": "https://www.farmatma.in/polyhouse-greenhouse-farming/",
+        "title": "Polyhouse Farming in India (2026): Cost, Subsidy & Profit Guide",
+        "source_domain": "farmatma.in",
+        "derived_outputs": [
+          "primary_segment",
+          "market_context",
+          "unit_quoting_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Confirmed polyhouse as most popular Indian greenhouse technology; IS 15827:2009 standard for polyhouse film; Quonset multi-span as most preferred structure type in India."
+      },
+      {
+        "url": "https://www.protectedcultivation.com/blog/nhb-polyhouse-subsidy-complete-guide",
+        "title": "NHB Polyhouse Subsidy: Complete Guide | Agriplast",
+        "source_domain": "protectedcultivation.com",
+        "derived_outputs": [
+          "unit_quoting_context",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "NHB cost norms per sq meter for fan-and-pad and naturally ventilated polyhouse confirmed; used for unit quoting context and subsidy eligibility as buyer attribute."
+      },
+      {
+        "url": "https://gardeningtips.in/types-of-greenhouse-in-india-greenhouse-material",
+        "title": "Types of Greenhouse in India, Greenhouse Material",
+        "source_domain": "gardeningtips.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Confirmed covering material types (polyethylene, polycarbonate, FRP, glass), UV stabilisation requirement, and structural forms used in India."
+      },
+      {
+        "url": "https://www.mannleecw.com/polycarbonate-glass-poly-for-commercial-greenhouses/",
+        "title": "Polycarbonate, Glass, Poly for Commercial Greenhouses 2026",
+        "source_domain": "mannleecw.com",
+        "derived_outputs": [
+          "buyer_attracting_attributes",
+          "market_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Comparative analysis of polycarbonate vs glass vs polyethylene for commercial greenhouses; used for buyer attribute ranking (glazing type, insulation, climate suitability)."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Greenhouse is a prefabricated structure with technical specs (frame material, glazing type, dimensions, ventilation system) and regional climate adaptation patterns. No single regulatory body or dominant brand landscape; buyers evaluate by construction quality, material durability, and climate suitability. Standard B2B research into material grades, regional suppliers, and climate-specific design patterns will surface meaningful differentiation."
+    }
+  }
+}
