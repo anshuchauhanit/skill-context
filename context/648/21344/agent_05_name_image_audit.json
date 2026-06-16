@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Agricultural Greenhouses' aligns with primary_keywords ('agricultural greenhouse', 'greenhouse structure') and market_context confirming this is the dominant buyer-facing term for the category in India; no more precise single-term name captures the full product_types range (NVPH, CCPH, shade net house, polycarbonate, glass) without excluding valid sub-types.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail shows a large glass/polycarbonate glazed greenhouse interior with hydroponic crop rows — this matches a premium glass or PC-sheet greenhouse segment, not the primary_segment (Naturally Ventilated Polyhouse with GI pipe frame and UV-stabilised PE film cover).",
+      "The interior-only perspective with no visible frame structure or PE film cover fails to communicate the dominant Indian polyhouse format to buyers; an exterior shot of a GI-pipe NVPH with PE film would be more representative and buyer-relevant."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Exterior view of a Naturally Ventilated Polyhouse (NVPH) in an Indian agricultural field: galvanised iron (GI) pipe arch frame covered with translucent UV-stabilised polyethylene (PE) film, visible roof ridge vent and side roll-up ventilation flaps, rows of green vegetable crops (tomato or capsicum plants) visible through the open side, bright daylight, clean white background or open farmland setting, sharp product-focused composition, square 1:1 format, photorealistic style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
