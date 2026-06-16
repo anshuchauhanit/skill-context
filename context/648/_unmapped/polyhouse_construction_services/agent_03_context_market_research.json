@@ -1,0 +1,385 @@
+{
+  "mcat_description": {
+    "short": "Polyhouse Construction Services covers end-to-end turnkey construction of polyethylene-covered protected cultivation structures — including GI pipe framework fabrication, UV-stabilised poly film installation, ventilation systems, and optional drip irrigation — supplied as a complete project service to farmers and agri-entrepreneurs.",
+    "long": "Polyhouse Construction Services in India encompasses the design, supply of materials, fabrication, and on-site installation of protected cultivation structures (polyhouses/greenhouses) using hot-dip galvanised iron pipe frameworks and UV-stabilised polyethylene film cladding, built to NHB/MIDH government specifications. The two dominant construction types are Naturally Ventilated Polyhouses (NVPH), which use passive top and side vents for air circulation, and Fan & Pad (high-tech) polyhouses, which use evaporative cooling for precise climate control. Service scope typically includes site preparation, structural erection, poly film fixing with aluminium/GI profiles and zig-zag springs, insect netting, side curtains, and integration of drip irrigation or fogging systems. Most projects in India are executed under NHB or NHM/MIDH government subsidy schemes, requiring the contractor to build to approved DPR specifications and pass a Joint Inspection Team (JIT) verification before subsidy release.",
+    "product_types": [
+      "Naturally Ventilated Polyhouse (NVPH) Construction",
+      "Fan & Pad (High-Tech) Polyhouse Construction",
+      "Shade Net House Construction",
+      "Anti-Rain Polyhouse Construction",
+      "Prefab / Modular Polyhouse Installation",
+      "Polyhouse Repair and Renovation Service",
+      "Polyhouse Consultancy and DPR Preparation Service",
+      "Hydroponic Polyhouse Construction",
+      "Tunnel Polyhouse Construction",
+      "Crop-Specific Polyhouse Construction (Strawberry, Rose, Capsicum, etc.)"
+    ],
+    "primary_applications": [
+      "Protected cultivation of high-value vegetables (capsicum, tomato, cucumber)",
+      "Floriculture — rose, gerbera, orchid, chrysanthemum cultivation",
+      "Strawberry and exotic fruit cultivation in off-season",
+      "Year-round horticulture production independent of weather",
+      "NHB / NHM / MIDH government-subsidised farm infrastructure projects",
+      "Export-quality produce cultivation for hotel, supermarket, and export markets",
+      "Hydroponic and fertigation-based crop production"
+    ],
+    "buyer_segments": [
+      "Progressive farmers and agri-entrepreneurs seeking government subsidy under NHB/NHM/MIDH",
+      "Small and medium farmers (500–4,000 sq m projects) under NHM scheme",
+      "Commercial horticulture farmers (1 acre and above) under NHB scheme",
+      "Farmer Producer Organizations (FPOs) investing in group protected cultivation",
+      "Agri-startups and corporate farming entities setting up controlled-environment agriculture",
+      "State horticulture departments and agricultural universities"
+    ]
+  },
+  "primary_segment": "Naturally Ventilated Polyhouse (NVPH) construction service for NHM/MIDH subsidy-linked farm projects",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Turnkey polyhouse construction service (design, supply, fabrication, installation) for protected cultivation",
+    "secondary_families": [],
+    "reason": "The MCAT name is specific to a construction service with no incompatible product families — all sub-types (NVPH, fan-pad, shade net, repair) share the same buyer profile (farmer/agri-entrepreneur), same regulatory context (NHB/MIDH), and same commercial transaction structure (turnkey project service); no sibling MCATs exist at this level to create carve-out ambiguity."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "polyhouse construction",
+      "polyhouse installation",
+      "poly house construction",
+      "polyhouse construction services",
+      "greenhouse construction",
+      "polyhouse fabrication",
+      "NVPH construction",
+      "fan pad polyhouse construction",
+      "polyhouse setup",
+      "protected cultivation structure construction"
+    ],
+    "technical_synonyms": [
+      "naturally ventilated polyhouse (NVPH) erection",
+      "fan and pad polyhouse installation",
+      "GI pipe polyhouse structure fabrication",
+      "UV film greenhouse construction",
+      "protected cultivation structure installation",
+      "shade net house construction",
+      "controlled environment agriculture (CEA) structure construction",
+      "plastic film covered structure installation",
+      "tubular greenhouse construction",
+      "anti-rain polyhouse erection"
+    ],
+    "trade_names": [
+      "Agriplast polyhouse",
+      "IG Aatreyas polyhouse",
+      "JH Agriinfra polyhouse",
+      "InHydro polyhouse",
+      "Pioneer Agritech polyhouse",
+      "NHB-approved polyhouse",
+      "MIDH polyhouse",
+      "Israeli technology polyhouse"
+    ],
+    "hindi_terms": [
+      "पॉलीहाउस निर्माण",
+      "पॉलीहाउस कंस्ट्रक्शन",
+      "पॉली हाउस",
+      "ग्रीनहाउस निर्माण",
+      "संरक्षित खेती संरचना"
+    ],
+    "buyer_intent_queries": [
+      "polyhouse construction company near me",
+      "polyhouse construction cost per sq ft India",
+      "NHM subsidy polyhouse construction service",
+      "turnkey polyhouse installation service",
+      "naturally ventilated polyhouse construction contractor",
+      "fan pad polyhouse construction service India",
+      "polyhouse construction for capsicum farming",
+      "polyhouse construction for strawberry cultivation",
+      "prefab polyhouse installation service",
+      "polyhouse construction with drip irrigation"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian buyers and sellers quote polyhouse construction services primarily per sq ft in commercial transactions, while government NHB/MIDH cost norms are denominated per sq meter — both units are in active use, with per sq ft dominant in buyer-facing B2B negotiations and per sq meter used in DPR/subsidy documentation.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Government subsidy / DPR documentation",
+        "unit": "per sq meter",
+        "note": "NHB and MIDH cost norms are officially denominated per sq meter; subsidy calculations use sq meter as the base unit."
+      },
+      {
+        "sub_segment": "Commercial B2B buyer negotiation",
+        "unit": "per sq ft",
+        "note": "Sellers and buyers in Indian market commonly quote per sq ft in informal and formal B2B transactions."
+      },
+      {
+        "sub_segment": "Large commercial projects",
+        "unit": "per acre / per project (lump sum)",
+        "note": "Projects of 1 acre and above are often quoted as lump-sum turnkey project costs; call data confirms buyers enquire by acre."
+      }
+    ],
+    "sources_checked": [
+      "inhydro.in (NHB/MIDH cost norms per sq meter)",
+      "farmatma.in (polyhouse types and cost breakdown)",
+      "Google keyword data (poly house price per sq ft)",
+      "Buyer call data (1000 sq m, 1 acre project enquiries)",
+      "agropotli.com (project cost references)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Polyhouse Construction Services in India is a fast-growing B2B agricultural infrastructure segment driven by government-backed protected cultivation promotion under the Mission for Integrated Development of Horticulture (MIDH), National Horticulture Board (NHB), and National Horticulture Mission (NHM) schemes. The two dominant construction types are Naturally Ventilated Polyhouses (NVPH) — the most widely built, cost-effective type suited to most Indian climates — and Fan & Pad (high-tech) polyhouses for precise climate control in hot/arid regions. Structural specifications are standardised under NHB/MIDH guidelines: GI pipes must be hot-dip galvanised as per IS 1161 and IS 4759:2019 with 275 GSM zinc coating; cladding is 200-micron UV-stabilised 3-layer PE film; welding is not permitted in main structural members. Government subsidy of up to 50% (general category) and up to 85–95% (SC/ST, state top-up) is available as a credit-linked back-ended grant under NHB/NHM/MIDH, making subsidy eligibility a critical purchase driver — buyers actively seek contractors who are empanelled with state horticulture departments and can assist with DPR preparation and JIT inspection compliance. Typical project sizes range from 500 sq m (small NHM projects) to 4,000 sq m per beneficiary under NHM, and larger under NHB. High-value crops grown include coloured capsicum, tomato, cucumber, rose, gerbera, and strawberry. States with high polyhouse adoption include Maharashtra, Haryana, Himachal Pradesh, Karnataka, Gujarat, and Rajasthan.",
+  "buyer_attracting_attributes": [
+    "Structure Type (NVPH / Fan & Pad / Shade Net)",
+    "Construction Area (sq ft / sq meter / acres)",
+    "GI Pipe Grade and Galvanisation Standard (IS 1161, IS 4759, 275 GSM zinc)",
+    "Poly Film Specification (micron, UV rating, anti-drip, IR cool, diffused)",
+    "Ventilation System (natural top/side vents vs fan-pad evaporative cooling)",
+    "Subsidy Eligibility (NHB / NHM / MIDH empanelled contractor)",
+    "Drip Irrigation and Fogging System Inclusion",
+    "Span Width and Bay Configuration",
+    "Insect Netting Mesh Size and GSM",
+    "Warranty and Post-Installation Service"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "170651",
+    "mcat_name": "Polyhouse Construction Services",
+    "mcat_level": "5",
+    "listing_count": "717",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Polyhouse Construction Services",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "149713.0",
+      "name": "Polyhouse",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "149713.0"
+    ],
+    "siblings": [],
+    "direct_sibling_count": 0,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Polyhouse construction is a service-based B2B offering in the agricultural/horticultural infrastructure space with no mandatory regulatory oversight or dominant brand anchoring. Research focused on service scope, regional agricultural practices, and standard polyhouse specifications from agricultural extension sources and industry practice."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Top Google keywords by Impressions confirmed buyer search vocabulary around construction/installation; 'poly house price per sq ft' confirmed per sq ft as buyer-facing unit."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "primary_segment"
+        ],
+        "citation_note": "Top internal keywords by Pageviews ('polyhouse construction services' 23 PV, 10 calls) confirmed construction service as dominant buyer intent; 'fan pad poly house construction' and 'GI polyhouse construction service' confirmed sub-type vocabulary."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "mcat_description.product_types",
+          "unit_quoting_context.sub_segment_units"
+        ],
+        "citation_note": "Call rows confirmed buyers enquire by area (1000 sq m, 1 acre), crop-specific polyhouses (strawberry) are a real sub-segment, and repair/maintenance is a secondary service type. No spec values were present."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed service MCAT under prefabricated structures/greenhouses. Zero direct siblings confirmed no sibling carve-out vagueness trigger. Listing count 717 treated as plausible; page_fetch_failed so tile count cross-check not possible."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://inhydro.in/product/naturally-ventilated-polyhouse/",
+        "title": "Naturally Ventilated Polyhouse GI Pipe Structure | NHB Subsidy Greenhouse",
+        "source_domain": "inhydro.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for GI pipe IS standards (IS 1161, IS 4759:2019, 275 GSM zinc coating), NHB subsidy linkage, and structural specification details."
+      },
+      {
+        "url": "https://mtmsindia.com/poly-house-as-per-nhm-nhb-guidelines/",
+        "title": "Poly House As per NHM & NHB guidelines - MTMS INDIA",
+        "source_domain": "mtmsindia.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for NHM/NHB structural component specifications: GI pipe grade, 200-micron UV film, ventilation types, drip irrigation, insect netting, foundation types."
+      },
+      {
+        "url": "https://cultivationag.com/how-to-build-a-polyhouse-construction-cost-structure-materials/",
+        "title": "How To Build A Polyhouse: Construction Cost, Structure, & Materials",
+        "source_domain": "cultivationag.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for framework material options (GI, MS, bamboo), poly film specifications, and construction cost drivers."
+      },
+      {
+        "url": "https://www.igaatreyas.com/our-products/plastic-film-covered-structures/poly-house-naturally-ventilated-anti-rain/",
+        "title": "Poly House (Naturally Ventilated) (Anti-Rain) - IG Aatreyas",
+        "source_domain": "igaatreyas.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for span/bay dimension standards, GI pipe OD sizes, poly film spec details (200 micron, anti-drip, IR cool, diffused), and insect net mesh/GSM specs."
+      },
+      {
+        "url": "https://www.farmatma.in/polyhouse-types/",
+        "title": "Polyhouse Types in India (2026): Fan & Pad vs. NVPH Cost & Guide",
+        "source_domain": "farmatma.in",
+        "derived_outputs": [
+          "primary_segment",
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Used to confirm NVPH as the dominant/recommended starting type for most Indian farmers; Fan & Pad as the expert/high-tech variant for specific crop/climate needs."
+      },
+      {
+        "url": "https://inhydro.in/polyhouse-subsidy-india-2026/",
+        "title": "Polyhouse Subsidy India 2026 | NHB, NHM & NABARD Scheme Guide | InHydro",
+        "source_domain": "inhydro.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for NHB subsidy structure (50%, credit-linked back-ended), minimum area requirements, DPR and JIT inspection process details."
+      },
+      {
+        "url": "https://www.farmatma.in/polyhouse-subsidy-guide/",
+        "title": "Polyhouse Subsidy in India (2026): How to Claim 50% NHB Funding",
+        "source_domain": "farmatma.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for NHB Letter of Intent (LOI) requirement, JIT inspection process, B-Class GI pipe requirement, and subsidy application failure patterns."
+      },
+      {
+        "url": "https://agropotli.com/polyhouse-subsidy-in-india-2026/",
+        "title": "Polyhouse Subsidy in India 2026: State-wise Guide",
+        "source_domain": "agropotli.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for MIDH/NHB/NHM scheme structure, state top-up subsidy ranges (65–95%), and NABARD FPO financing context."
+      },
+      {
+        "url": "https://www.protectedcultivation.com/blog/nhb-polyhouse-subsidy-complete-guide",
+        "title": "NHB Polyhouse Subsidy: Complete Guide | Agriplast",
+        "source_domain": "protectedcultivation.com",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "market_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for NVPH vs shade net house distinction, Agriplast as a recognised trade name, and Israeli technology reference in Indian polyhouse market."
+      },
+      {
+        "url": "https://horticulture.ap.nic.in/assets/pdfs/P_C_GUIDELINES.pdf",
+        "title": "Guidelines for Protected Cultivation - AP Horticulture",
+        "source_domain": "horticulture.ap.nic.in",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Government source confirming GI pipe exclusivity requirement (MS pipes not permitted), MIDH compliance requirements, and JIT inspection documentation standards."
+      },
+      {
+        "url": "https://www.slideshare.net/slideshow/polyhouses/37449103",
+        "title": "Polyhouses Technical Specifications PPT",
+        "source_domain": "slideshare.net",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for technical specification details: 800 gauge/200 micron 3-layer UV PE film, ISI-marked B-class GI pipes 2mm thick, zig-zag spring fastening, polylock aluminium profiles."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Polyhouse construction is a service-based B2B offering in the agricultural/horticultural infrastructure space with no mandatory regulatory oversight or dominant brand anchoring. Agent 3 should research typical service scope (design, material supply, installation), regional agricultural practices, and standard polyhouse specifications (span width, covering materials, ventilation systems) from agricultural extension sources and industry practice."
+    }
+  }
+}
