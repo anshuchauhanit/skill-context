@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual sub-type variation — MS cabin, container kitchen, kiosk format, and trailer-mounted units are visually distinct. Buyers use the image to identify structure type before reading any text; wrong format is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Kitchen size, structure material, and wall panel type are primary shortlisting criteria — they determine site fit, project compliance, and budget tier. Listings without these specs cannot be evaluated by construction or industrial buyers."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with size, structure material, and fit-out configuration — buyers discover and compare across spec tiers, not within a fixed tier. Indian B2B buyers are price-aggressive on capital purchases; listed price is a budget entry point before negotiation."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in the Indian portable kitchen market; buyers search by size, material, and price — not manufacturer name.",
+      "reason": "Post-sale dependency is real — delivery, installation, and on-site commissioning require a capable manufacturer. Buyers evaluate fabrication track record and service reach after shortlisting on specs and price."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per unit",
+      "unit_note": "Custom-dimension builds may additionally quote per sq ft; rental deployments quote per month. However, the dominant transaction unit is per unit (one complete cabin/container) and is never a buyer question for standard purchases.",
+      "reason": "Unit is entirely implied for a complete prefabricated structure. No buyer questions whether a portable kitchen cabin is sold per unit."
+    }
+  ]
+}
