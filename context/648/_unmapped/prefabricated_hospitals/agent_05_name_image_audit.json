@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Hospitals' directly matches the top primary_keyword ('prefabricated hospital') and aligns with market-standard terminology used by Indian manufacturers (Pressmach, EPACK Prefab) and government procurement language; no stronger or more precise industry-standard name is evidenced in Agent 3 alt_names or market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The image shows an interior ward scene with hospital beds covered in plastic sheeting inside a bright room — it depicts internal medical equipment/furniture, not the prefabricated building structure, modular panels, or exterior/construction view that represents the MCAT's primary segment (complete turnkey prefabricated hospital building).",
+      "A buyer searching for a prefabricated hospital building supplier would not recognise this as a building product listing; the image fails to communicate the structural, modular, or prefabricated nature of the product and could be mistaken for a hospital equipment or hospital interior fit-out listing."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic exterior view of a complete turnkey prefabricated hospital building in India: two-storey pre-engineered steel frame structure with white insulated PUF sandwich panel cladding, large windows, a clearly marked hospital entrance with ramp and signage, clean landscaped surroundings, bright daylight, plain light-blue sky background, sharp product-focused composition, square 1:1 format, no people, no text overlays except watermark.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
