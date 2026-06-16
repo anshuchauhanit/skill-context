@@ -1,0 +1,66 @@
+{
+  "enhanced_name_4w": "FRP Prefab Guard Cabin",
+  "enhanced_name_5w": "FRP Portable Security Guard Cabin",
+  "enhanced_name_6w": "Fibre Reinforced Plastic Portable Guard Cabin",
+  "enhanced_name_long": "FRP Prefabricated Portable Cabin for Security Guard Rooms, Site Offices, Check Posts and Watchman Duty Posts",
+  "alt_names": {
+    "primary_keywords": [
+      "FRP cabin",
+      "FRP guard room",
+      "FRP portable cabin",
+      "FRP office cabin",
+      "FRP prefabricated cabin",
+      "GRP cabin",
+      "fiber cabin",
+      "FRP watchman cabin",
+      "fibre cabin",
+      "FRP check post cabin"
+    ],
+    "technical_synonyms": [
+      "Fibre Reinforced Plastic cabin",
+      "Glass Reinforced Plastic cabin",
+      "FRP panel cabin",
+      "FRP modular cabin",
+      "FRP prefab cabin",
+      "SMC cabin",
+      "fibreglass cabin",
+      "FRP portacabin"
+    ],
+    "trade_names": [
+      "FRP Guard Hut",
+      "FRP Guard House",
+      "FRP Check Post",
+      "FRP Sentry Box",
+      "FRP Site Office",
+      "FRP Porta Cabin"
+    ],
+    "hindi_terms": [
+      "fibre ki cabin",
+      "fibre room",
+      "security cabin",
+      "guard cabin",
+      "faiber room"
+    ],
+    "buyer_intent_queries": [
+      "FRP security cabin manufacturer in India",
+      "portable FRP guard room for factory",
+      "FRP cabin 10x10 ft for site office",
+      "prefabricated FRP cabin for construction site",
+      "portable fibre cabin for security guard",
+      "FRP cabin 4x4 for gate entry",
+      "FRP office cabin for site supervisor",
+      "FRP check post cabin manufacturer",
+      "FRP watchman cabin manufacturer in Pune",
+      "buy FRP portable cabin online India"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Security-specific FRP cabin buyers (guard room, watchman post, check post) must not be conflated with the dedicated sibling MCAT 'FRP Portable Security Cabin' (ID: 145135) — names that replicate that sibling's exact framing are discarded to avoid overlap.",
+    "Office-only cabin buyers are protected by sibling 'Office Cabin' (ID: 32980) — names that exclusively target office cabin buyers without FRP material specificity are discarded.",
+    "GRP Cabin (ID: 159318) is a live sibling — the term 'GRP Cabin' as a standalone name is discarded from enhanced name candidates to prevent name collision, though it is retained in alt_names as a technical synonym since buyers use both FRP and GRP interchangeably.",
+    "Portable Security Cabins (ID: 135705) and Prefabricated Security Cabin (ID: 181975) are live siblings — enhanced name candidates that replicate these exact framings without the FRP/fibre material differentiator are discarded.",
+    "Eco Portable Cabins (ID: 135966) is a live sibling — the trade name 'Eco Porta FRP Cabin' is discarded from alt_names trade_names to prevent name collision with that sibling."
+  ],
+  "segment_contamination_disclaimer": null
+}
