@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Bunk House Portable Toilets' directly matches the primary keyword set in Agent 3 alt_names and aligns with the recognised Indian B2B market sub-type for construction labour camp toilet cabin units; no more precise or widely-used alternative name is evidenced in the market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image shows a real FRP portable toilet cabin (blue, arched-door, Western-style commode visible inside) which correctly represents the primary segment of FRP portable toilet cabin for construction site / bunk house use.",
+      "Improvement is possible: the cabin door is open exposing the interior rather than showing the unit as a closed, deployable structure; a closed-door exterior shot with site context would better communicate the product's lift-and-shift, labour-camp-ready nature to B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product photograph of a standalone blue FRP portable toilet cabin unit with closed arched door, door latch visible, ventilation grille at top, placed on a flat outdoor construction site ground with a blurred construction site background, front-facing orientation, bright natural daylight, clean white sky, sharp focus on the full cabin exterior, no people, no text overlays, square 1:1 composition with slight padding around the unit.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
