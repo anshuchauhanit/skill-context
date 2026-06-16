@@ -1,0 +1,304 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Industrial facility developer, warehouse operator, or SME manufacturer commissioning a new factory/warehouse shed. Capital expenditure decision, project-based, typically involving site visits and multiple vendor comparisons.
+
+**Journey sequence:**
+1. **Image first** — scans listing grid to confirm this is a steel PEB shed (not a modular cabin, tensile structure, or greenhouse). Visual sub-type variation is high: single-span clear frame vs multi-span vs insulated cold storage vs mezzanine structure. Wrong type = immediate skip.
+2. **Specification next** — checks span, eave height, service scope (turnkey vs supply only), crane provision. These are the primary shortlisting gates. A buyer needing a 30m clear span with 9m eave height and crane provision cannot use a listing that doesn't show these.
+3. **Company** — PEB is a high-value capital project. Buyer checks manufacturer credentials: IS 800 compliance, in-house design capability, erection track record, years in business. Kirby/Interarch/Zamil are known brands; buyers actively check whether the seller is a manufacturer or trader.
+4. **Price** — budget sanity check after spec and company qualification. Per sq ft rate is compared across shortlisted vendors. India price sensitivity is high but price is only comparable after spec equivalence is confirmed.
+5. **Unit** — must be shown because per sq ft vs per kg creates genuine price comparison confusion between turnkey and fabrication-only listings.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is significant; wrong product type = skip.
+- **Specification:** High — span, height, crane provision, service scope are non-negotiable shortlisting gates.
+- **Price:** Medium — significant for Indian buyers but only comparable after spec equivalence; project-quoted and negotiated.
+- **Company:** Medium — manufacturer credentials, IS compliance, erection track record are evaluated in vendor selection for a capital project.
+- **Unit:** High — per sq ft (turnkey) vs per kg (fabrication supply) creates real price comparison confusion; must be shown.
+
+---
+
+## Step 3 — Cross-dimension consistency checks
+
+1. Buyers arrive on IndiaMART **discovering across spec tiers** (they don't always know their exact span/height before browsing) → `price_display_type = "spec-driven price"` AND specification = High. ✓ Consistent.
+2. Unit = High → price must be at least Medium. Price = Medium. ✓ Consistent.
+3. Not project-based price (per sq ft is a real unit price, not a pure project quote) → unit show: true is valid. ✓ Consistent.
+4. Specification show: true → show_on_listing: true. ✓ Consistent.
+
+---
+
+## Step 4 — Importance Ranking
+
+---
+
+## Step 5 — Seller Spec Audit
+
+**Phase 1 — Elimination:**
+- **Application:** use-case tag (describes what the building is FOR). Discard.
+- **Accessories:** add-on options, not primary configurators. Deprioritise.
+- **Sheet Thickness:** consequence/derivative of Wall & Roof System choice; also a narrow sub-spec. Deprioritise.
+- **Built-up Area:** project size descriptor, not a product configurator — varies per project. Deprioritise.
+
+**Remaining after elimination:** Clear Span, Crane Provision, Eave Height, Insulation Type, Service Scope, Wall & Roof System
+
+**Phase 2 — Top 2 Configurators:**
+- **Clear Span** (Yes/No): defines the fundamental structural system — single-span vs multi-span. Non-interchangeable; a buyer needing clear span cannot substitute multi-span. Drives primary frame design and cost. Rank 1.
+- **Eave Height** (4.5m to 15m): defines the vertical dimension of the structure. Non-interchangeable across project requirements (a 6m eave height building cannot serve a 12m requirement). Large price delta between values due to column height and wind load implications. Rank 2.
+
+**Phase 3 — Missing Specs:**
+- `specs_in_seller_list`: Accessories, Application, Built-up Area, Clear Span, Crane Provision, Eave Height, Insulation Type, Service Scope, Sheet Thickness, Wall & Roof System
+- Candidate gaps from Agent 3 vision_output + LLM world knowledge:
+  - **Bay Spacing / Bay Width** — standard PEB configurator (typically 6m, 7.5m, 9m bays); determines secondary member design and total building length. Not semantically equivalent to any spec in the list. Important for contractor procurement.
+  - **Steel Grade** (IS 2062 E250/E350) — primary steel grade is a key spec for institutional/government buyers and EPC contractors; affects structural certification. Not present in list.
+  - **Wind Zone / Seismic Zone** — IS 875 wind zone and IS 1893 seismic zone are design inputs that determine frame weight and cost; buyers in high-wind coastal zones or seismic zones need this confirmed. Not present in list.
+  - **Roof Slope / Pitch** — standard PEB design parameter (1:10 to 1:5); affects drainage and aesthetics. However, this is typically a derived/standard value and less buyer-critical than the above. Exclude — below importance threshold.
+  - **Crane Provision** is already in the list. ✓
+
+Applying importance threshold: Bay Spacing and Steel Grade are top-10 buyer-relevant specs. Wind/Seismic Zone is important for institutional buyers but is a design input rather than a product configurator — borderline. Including Bay Spacing and Steel Grade as confirmed gaps; Wind/Seismic Zone as a third gap given IS compliance is explicitly central to this MCAT.
+
+**Phase 4 — Coverage Verdict:** 3 missing specs → `significant_gaps`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+**Provided buyer specs:** Built-up Area, Height, No of Floors
+
+**Phase 1 — Top 2 RFQ Specs:**
+- **Built-up Area** — tells sellers the project scale; directly determines structural complexity, material quantity, and price. Rank 1.
+- **Height** — eave height is the primary vertical design parameter; sellers need this to determine frame design and confirm capability. Rank 2.
+
+**Phase 2 — Thumbnail Eligibility:**
+- Built-up Area: numeric/dimensional — not thumbnail eligible.
+- Height: numeric/dimensional — not thumbnail eligible.
+
+**Phase 3 — Missing Buyer Specs:**
+- **Application / Building Use** — sellers need to know if the building is a warehouse, factory, cold storage, or aircraft hangar to determine structural loads, insulation requirements, and applicable design standards. This is a critical routing spec. Source: both. `would_be_rank: 1` — more important than Built-up Area because it determines the entire structural design approach and whether the seller can supply at all. Thumbnail eligible: the option values (Warehouse, Factory, Cold Storage, Aircraft Hangar, Sports Facility) are visually distinct building types. `thumbnail_eligible: true`.
+- **Service Scope** — buyers need to specify turnkey vs supply-only vs supply & erection; this determines which sellers can respond and drives the unit of pricing (per sq ft vs per kg). Source: both. `would_be_rank: 2`. Not thumbnail eligible (abstract scope options, not visually distinguishable).
+- **Crane Provision** — whether the building needs an EOT/overhead crane system is a structural design requirement that fundamentally changes the frame design and cost. Sellers cannot quote accurately without this. Source: both. `would_be_rank: 3` — important but below the two above. No `thumbnail_eligible` field (would_be_rank > 2).
+
+Coverage verdict: 3 missing specs → `significant_gaps`
+
+**Phase 4 — Image Upload Assessment:**
+PEB is a custom-engineered project. Buyers often have site plans, architectural sketches, or existing building layouts they want to replicate or extend. An uploaded site plan or reference building image helps sellers understand the project scope, site constraints, and design intent far better than numeric specs alone — particularly for non-standard layouts (L-shaped buildings, buildings with existing structures to match, or complex multi-bay configurations). `image_upload_recommended: true`.
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+Thumbnail-eligible specs from buyer_spec_audit:
+- `missing_important_specs`: Application / Building Use (`would_be_rank: 1`, `thumbnail_eligible: true`, `thumbnail_options: ["Warehouse", "Factory", "Cold Storage", "Aircraft Hangar", "Sports Facility"]`)
+
+5 prompts total (spec_1 through spec_5).
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual sub-type variation between single-span clear frame sheds, multi-span industrial structures, insulated cold storage PEBs, and mezzanine buildings — buyers use the image to confirm product type before reading any text. Wrong structural type is an immediate skip regardless of price or specs."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Clear span, eave height, crane provision, and service scope are non-negotiable shortlisting gates — a buyer needing a 30m clear span with crane provision cannot evaluate a listing that omits these specs. Buyers actively discover and compare across spec tiers during search, making specs a primary decision signal."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Recognised manufacturers with buyer recall exist — Kirby, Interarch, Zamil Steel India, Tata BlueScope, Pennar — and buyers actively distinguish between manufacturers and traders when evaluating a high-value capital project.",
+      "reason": "PEB is a high-value capital project where institutional and industrial buyers evaluate manufacturer credentials, IS 800 compliance certification, in-house design capability, and erection track record during vendor selection — seller identity is a meaningful trust signal beyond specs alone."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian buyers are price-aggressive and compare per-sq-ft rates across shortlisted vendors, but price is only comparable after spec equivalence (span, height, service scope) is confirmed — a turnkey 30m-span building and a supply-only 18m-span structure cannot be price-compared without spec context."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Per sq ft is dominant for turnkey/end-buyer RFQs; per kg is standard for fabrication-only supply to contractors. Both units are active in this MCAT — showing the unit is essential to prevent price misreading between the two procurement modes.",
+      "reason": "Per sq ft (turnkey) vs per kg (fabrication supply) is a real market ambiguity — a buyer comparing prices without knowing the unit cannot make a valid comparison, and the price difference between the two modes is substantial."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Clear Span",
+        "reason": "Defines the fundamental structural system — single-span (no intermediate columns) vs multi-span — which is non-interchangeable across project requirements and drives primary frame design, material weight, and total cost."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Eave Height",
+        "reason": "Defines the vertical dimension of the structure across a wide range (4.5m to 15m), is non-interchangeable across project requirements, and carries a large price delta due to column height, wind load, and secondary member implications."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Accessories",
+      "Application",
+      "Built-up Area",
+      "Clear Span",
+      "Crane Provision",
+      "Eave Height",
+      "Insulation Type",
+      "Service Scope",
+      "Sheet Thickness",
+      "Wall & Roof System"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Bay Spacing",
+        "why_important": "Bay spacing (typically 6m, 7.5m, or 9m) determines secondary member design, purlin/girt sizing, and total building length — a standard PEB configurator that contractors and EPC buyers use to specify and price structures.",
+        "source": "both",
+        "example_values": ["6 m", "7.5 m", "9 m", "Custom"]
+      },
+      {
+        "spec_name": "Steel Grade",
+        "why_important": "Primary steel grade (IS 2062 E250 vs E350) is a structural certification requirement for institutional, government, and EPC buyers — E350 high-strength steel enables lighter frames and is specified in tender documents.",
+        "source": "both",
+        "example_values": ["IS 2062 E250", "IS 2062 E350", "ASTM A36", "As per design"]
+      },
+      {
+        "spec_name": "Design Wind / Seismic Zone",
+        "why_important": "IS 875 wind zone and IS 1893 seismic zone are mandatory design inputs that determine frame weight, connection design, and cost — buyers in coastal or high-seismic zones need this confirmed to ensure structural compliance.",
+        "source": "both",
+        "example_values": ["Wind Zone II", "Wind Zone III", "Wind Zone IV", "Seismic Zone III", "Seismic Zone IV"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Built-up Area",
+        "reason": "Project scale is the primary sizing input — sellers use built-up area to determine structural complexity, material quantity, and provide an indicative price range.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Height",
+        "reason": "Eave height is the primary vertical design parameter — sellers need this to determine frame design, confirm their capability range, and assess wind/seismic load implications.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Application / Building Use",
+        "why_important": "Sellers need to know whether the building is a warehouse, factory, cold storage, or aircraft hangar to determine structural loads, insulation requirements, applicable design standards, and whether they can supply the specific type.",
+        "source": "both",
+        "example_values": ["Warehouse / Godown", "Factory / Industrial Shed", "Cold Storage", "Aircraft Hangar", "Sports Facility / Badminton Court"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Warehouse / Godown", "Factory / Industrial Shed", "Cold Storage", "Aircraft Hangar", "Sports Facility / Badminton Court"]
+      },
+      {
+        "spec_name": "Service Scope",
+        "why_important": "Buyers must specify whether they need turnkey (design + supply + erection), supply & erection, or supply only — this determines which sellers can respond and drives the unit of pricing, making it a fundamental RFQ routing spec.",
+        "source": "both",
+        "example_values": ["Turnkey (Design + Supply + Erection)", "Supply & Erection", "Supply Only", "Design & Supply"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Crane Provision",
+        "why_important": "Whether the building requires an EOT/overhead crane system is a structural design requirement that fundamentally changes the frame design, column sizing, and cost — sellers cannot quote accurately without this information."
+        "source": "both",
+        "example_values": ["Not Required", "Up to 5 Ton", "Up to 10 Ton", "Above 20 Ton"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": true,
+    "image_upload_reason": "PEB buyers frequently have site plans, architectural layout sketches, or reference building photographs that communicate project scope, site constraints, and design intent far more precisely than numeric specs alone — particularly for non-standard layouts such as L-shaped buildings, multi-bay complexes, or structures that must match or extend existing buildings. An uploaded reference image enables sellers to assess feasibility and provide accurate quotes without a preliminary site visit."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application / Building Use",
+      "option_value": "Warehouse / Godown",
+      "id": "spec_1",
+      "prompt_for_generation": "Pre-engineered steel building structure used as an industrial warehouse, single-storey clear-span steel frame with corrugated metal roof and wall cladding, large roller shutter doors on the facade, exterior daytime view, no people, photorealistic architectural rendering, clean white background sky.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Building Use",
+      "option_value": "Factory / Industrial Shed",
+      "id": "spec_2",
+      "prompt_for_generation": "Pre-engineered steel building structure used as a manufacturing factory shed, single-storey rigid steel frame with tapered columns, corrugated metal roof with ridge ventilators, industrial setting with concrete apron in front, exterior daytime view, no people, photorealistic architectural rendering.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Building Use",
+      "option_value": "Cold Storage",
+      "id": "spec_3",
+      "prompt_for_generation": "Pre-engineered steel building structure used as a cold storage facility, single-storey insulated PUF sandwich panel walls and roof, sealed insulated doors, exterior daytime view, clean industrial setting, no people, photorealistic architectural rendering.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Building Use",
+      "option_value": "Aircraft Hangar",
+      "id": "spec_4",
+      "prompt_for_generation": "Pre-engineered steel building structure used as an aircraft hangar, very wide clear-span steel frame with high eave height, large bi-fold or sliding hangar doors fully open showing interior, exterior daytime view, airfield tarmac in foreground, no people, photorealistic architectural rendering.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Building Use",
+      "option_value": "Sports Facility / Badminton Court",
+      "id": "spec_5",
+      "prompt_for_generation": "Pre-engineered steel building structure used as an indoor sports facility for badminton courts, wide clear-span steel frame with translucent skylight panels on the roof for natural lighting, exterior daytime view showing entrance facade, no people, photorealistic architectural rendering.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
