@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation between sub-types — single cabin, double-decker, container-type, and multi-room complex are visually distinct and non-interchangeable. Buyers use the image to identify product type and assess build quality before reading any text; wrong type or poor build impression = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin dimensions, wall panel type (PUF/EPS/sheet), seating capacity, and furnishing level are primary shortlisting criteria. A cabin that does not match the site's headcount, insulation requirement, or space constraint is eliminated before any seller contact."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Construction contractors are price-aggressive and compare listings actively. Price varies substantially with cabin size, panel type, and configuration — a 10×10 ft sheet-clad unit and a 40×10 ft PUF-insulated double-decker are not price-comparable, so price is meaningful only after spec confirmation but is a decisive shortlisting signal within a matched spec tier."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category; the market is fragmented across regional fabricators and buyers search by spec and price, not manufacturer name.",
+      "reason": "Buyers evaluate whether the seller is a direct manufacturer (vs trader), whether they offer pan-India delivery and on-site installation, and whether they have a track record with similar project types — post-sale relocation and maintenance support are real differentiators in this category."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Custom-dimensioned or large modular complex orders may be quoted per sq ft, but this is a secondary convention; at the listing level, per piece is universally implied for standard catalogue sizes and no buyer questions it.",
+      "reason": "Standard catalogue-size bunk house offices are universally sold per piece; no buyer is confused or misled about price by the absence of a unit label on the listing."
+    }
+  ]
+}
