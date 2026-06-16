@@ -1,0 +1,235 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Significant visual variation between sub-types — single portable classroom cabin, multi-storey classroom block, rooftop extension, and full campus configurations are visually distinct. Buyers scan images first to confirm building type and scale before reading any text; wrong building type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Structural frame type, panel type, storey count, and turnkey scope are primary shortlisting gates for tender compliance and budget estimation. Listings without these specs cannot be evaluated by government or institutional procurement teams."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant consumer-facing brand with buyer recall; EPACK and Tata Steel Nest-In are recognised among informed buyers but the market is fragmented and buyers search by spec and track record, not brand name.",
+      "reason": "Government and institutional buyers evaluate manufacturer credentials — ISO certification, CPWD empanelment, experience with government school projects, and service network — during vendor qualification. An unknown supplier with matching specs is still a procurement risk for large public projects."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq ft rate varies substantially with structural frame type, panel specification, storey count, and MEP scope inclusion. Indian buyers are price-aggressive but price comparison is only meaningful after structural equivalence is confirmed; final price is always negotiated or tendered."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Some sellers quote per unit for standalone portable classroom cabins, and large campus projects may be quoted per project lump sum — both create price comparison confusion if unit is not shown alongside the listed rate.",
+      "reason": "Per sq ft is the dominant quoting norm but per unit and per project variants exist in the market; price cannot be compared across listings without knowing the unit basis."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Material",
+        "reason": "Defines the fundamental structural system (LGSF steel, mild steel, RCC, precast) — values are non-interchangeable across buyer requirements and drive the largest price delta across the entire product range."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Number Of Floors",
+        "reason": "Directly multiplies built-up area cost and determines structural engineering complexity — a G+3 building requires fundamentally different engineering, foundation design, and material quantities versus a single-floor unit."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Building Type",
+      "Built Type",
+      "Flooring Type",
+      "Number Of Floors",
+      "Panel Thickness",
+      "Roof Type",
+      "Service Mode",
+      "Structure Material",
+      "Usage Application",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Seismic Compliance",
+        "why_important": "Government and institutional buyers in seismic zones require IS 1893 compliance certification as a mandatory tender eligibility criterion; absence of this spec prevents buyers from confirming regulatory fit.",
+        "source": "both",
+        "example_values": [
+          "IS 1893 Compliant",
+          "Zone II",
+          "Zone III",
+          "Zone IV/V"
+        ]
+      },
+      {
+        "spec_name": "MEP Scope",
+        "why_important": "Whether electrical wiring, plumbing, and HVAC are included in the turnkey scope materially affects total project cost and seller eligibility — buyers cannot compare listings without knowing what is included.",
+        "source": "both",
+        "example_values": [
+          "Electrical Included",
+          "Plumbing Included",
+          "Full MEP Included",
+          "Structure Only"
+        ]
+      },
+      {
+        "spec_name": "Fire Safety Compliance",
+        "why_important": "School buildings occupied by children require fire safety compliance under NBC and state building codes; institutional buyers need this to confirm regulatory eligibility before shortlisting.",
+        "source": "both",
+        "example_values": [
+          "NBC Compliant",
+          "Fire Retardant Panels",
+          "Fire Rated",
+          "Non-Fire Rated"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "No. of Floors",
+        "reason": "Storey count defines structural complexity, engineering requirements, and total cost scale — sellers cannot estimate feasibility or price without this information.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Building Use",
+        "reason": "Functional use (classroom vs laboratory vs hostel vs library) determines room layout, MEP requirements, and regulatory compliance needs — sellers need this to scope the project accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Classroom",
+          "Admin Office",
+          "Laboratory",
+          "Hostel/Dormitory",
+          "Library",
+          "Playgroup/Nursery"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Built-up Area Required",
+        "why_important": "Sellers cannot estimate material quantities, fabrication scope, or price without knowing the required floor area in sq ft — this is the single most fundamental project parameter for a prefab building RFQ.",
+        "source": "both",
+        "example_values": [
+          "Up to 500 sq ft",
+          "500–1000 sq ft",
+          "1000–3000 sq ft",
+          "Above 3000 sq ft"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Structure Material",
+        "why_important": "Frame type (LGSF steel, mild steel, precast) is the primary structural technology decision that determines supplier eligibility and price — buyers who specify a frame type cannot be served by suppliers offering a different system.",
+        "source": "both",
+        "example_values": [
+          "LGSF Steel Frame",
+          "Mild Steel Frame",
+          "Precast Panel",
+          "MS with PUF Panel"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Building Use",
+      "option_value": "Classroom",
+      "id": "spec_1",
+      "prompt_for_generation": "Exterior view of a prefabricated modular classroom block, steel-framed with insulated sandwich panel walls, large windows along the facade, single storey, clean white and grey finish, natural daylight, no people, no branding, architectural photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Use",
+      "option_value": "Admin Office",
+      "id": "spec_2",
+      "prompt_for_generation": "Exterior view of a prefabricated modular administrative office block for a school campus, steel-framed with insulated sandwich panels, glazed entrance door, signage area above entrance, single storey, professional grey and white finish, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Use",
+      "option_value": "Laboratory",
+      "id": "spec_3",
+      "prompt_for_generation": "Exterior view of a prefabricated modular science laboratory block, steel-framed with insulated sandwich panel walls, high-level ventilation windows, single storey, light grey finish, natural daylight, no people, no branding, architectural photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Use",
+      "option_value": "Hostel/Dormitory",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior view of a prefabricated modular hostel or dormitory block, steel-framed with insulated sandwich panels, multiple room windows in a row, two-storey G+1 configuration, neutral beige and white finish, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Use",
+      "option_value": "Library",
+      "id": "spec_5",
+      "prompt_for_generation": "Exterior view of a prefabricated modular library block for a school, steel-framed with insulated sandwich panel walls, wide glazed windows for natural light, single storey, clean white finish, natural daylight, no people, no branding, architectural photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Use",
+      "option_value": "Playgroup/Nursery",
+      "id": "spec_6",
+      "prompt_for_generation": "Exterior view of a prefabricated modular playgroup or nursery building, steel-framed with insulated sandwich panels, colourful facade with yellow and blue accents, low single-storey structure with child-height windows, small covered veranda, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
