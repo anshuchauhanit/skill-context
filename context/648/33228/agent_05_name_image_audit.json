@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Military Shelters' aligns directly with primary_keywords ('military shelters', 'army shelters', 'defence shelters') and accurately reflects the broad functional range of product_types (barracks, bunkers, command centres, vehicle shelters) procured through MES and paramilitary channels.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail shows a prefabricated modular container-style shelter with camouflage (olive/brown/green) exterior panelling and an external HVAC unit — correctly representing the primary segment (PUF/steel panel modular military shelter) and visually communicating the defence/army use context.",
+      "Minor improvement is possible: the image has a plain white background and a slightly cluttered right side (exposed HVAC wiring/unit), and a cleaner studio-quality render or a more architecturally complete front-facing view would better showcase the product's modular panel construction and military-grade finish."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic studio render of a prefabricated modular military shelter with PUF sandwich panel walls in military camouflage pattern (olive green, dark brown, tan), mild steel frame, flat roof, two rectangular windows with metal frames, adjustable levelling feet base, clean white background, three-quarter front-left perspective view, sharp even lighting, no visible wiring or clutter, professional product photography style suitable for B2B catalogue.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
