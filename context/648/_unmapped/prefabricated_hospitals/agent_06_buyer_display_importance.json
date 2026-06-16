@@ -1,0 +1,250 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Buyers (government health departments, hospital chains, EPC contractors) scan images first to identify the structural type, scale, and finish quality of the facility — a modular ICU block, a multi-storey turnkey hospital, and a portable field hospital are visually distinct and non-interchangeable. Absence of a credible exterior/interior image signals an unserious or incomplete listing and causes immediate skip in a high-value procurement context."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Hospital type, bed capacity, number of floors, wall panel type, and included facilities (OT, ICU, OPD) are primary shortlisting criteria — buyers cannot evaluate fit without these. A listing without specs cannot be compared against tender requirements or project scope."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Recognised specialists — Pressmach, EPACK Prefab, Wedge India, KEF-TAHPI — carry brand weight through NABH compliance track record, government project credentials, and post-sale service capability; buyers actively shortlist by manufacturer reputation in this high-stakes, high-value category.",
+      "reason": "Prefabricated hospital procurement is a high-value, compliance-critical decision — buyers must verify NABH alignment, NBC structural compliance, government project track record, and post-installation service capability before engaging. An unknown supplier with matching specs is still a procurement risk; company identity is a primary trust gate."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every prefabricated hospital is custom-engineered and project-quoted; no meaningful per-unit list price exists. Buyers use any indicative price only as a budget sanity check after spec and company qualification — final price is always negotiated through a formal tender or RFQ process."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per project",
+      "unit_note": "Modular ward/ICU add-ons may be quoted per sq ft; portable single units quoted per unit — but these sub-segments do not create buyer confusion because the quoting basis is established during project scoping, not from a listing card.",
+      "reason": "Project-based pricing means there is no per-unit price on the listing to confuse or misread. Unit ambiguity cannot arise when every sale is scope-quoted."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Hospital Type",
+        "reason": "Defines what the facility IS — a General Hospital, Primary Health Centre, Field Hospital, or Diagnostic Centre are non-interchangeable project types with entirely different scope, regulatory requirements, and price points, making this the primary product-class separator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Type",
+        "reason": "PUF, Rockwool, EPS, and Glasswool panels represent distinct thermal, fire, and acoustic performance tiers with significant price deltas — a buyer specifying Rockwool (fire-rated) for an OT cannot substitute EPS, making this the primary technical grade separator within any hospital type."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Facility",
+      "Fire Protection",
+      "Flooring Type",
+      "HVAC Provision",
+      "Hospital Type",
+      "Number Of Floors",
+      "Panel Thickness",
+      "Structure Material",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Bed Capacity",
+        "why_important": "Bed count is the primary sizing parameter for hospital procurement — government tenders and private hospital projects are scoped and budgeted by bed capacity (25-bed PHC vs 100-bed district hospital), and sellers need this to determine project scale and price.",
+        "source": "both",
+        "example_values": [
+          "25 Bed",
+          "50 Bed",
+          "100 Bed",
+          "200 Bed"
+        ]
+      },
+      {
+        "spec_name": "NABH Compliance",
+        "why_important": "NABH accreditation alignment is a prerequisite for government empanelment and insurance cashless services — buyers from state health departments and private hospital chains require this confirmation before shortlisting a supplier.",
+        "source": "both",
+        "example_values": [
+          "NABH Compliant",
+          "NABH Entry Level",
+          "Non-NABH",
+          "Designed for NABH Accreditation"
+        ]
+      },
+      {
+        "spec_name": "Built-up Area",
+        "why_important": "Total built-up area (sq ft) is the primary project sizing metric used alongside bed capacity — buyers and EPC contractors need this to assess scope, compare proposals, and validate against site constraints.",
+        "source": "both",
+        "example_values": [
+          "Up to 2000 sq ft",
+          "2000–5000 sq ft",
+          "5000–10000 sq ft",
+          "Above 10000 sq ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Bed Capacity",
+        "reason": "Bed count is the single most important sizing signal — it determines project scale, structural scope, MEP requirements, and price tier, enabling sellers to immediately assess fit and provide an accurate indicative quote.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Building Floors",
+        "reason": "Number of floors determines structural engineering complexity, foundation requirements, and regulatory compliance pathway — a G+2 hospital requires fundamentally different design and cost inputs than a single-storey facility, and sellers need this to scope the project accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Single Storey",
+          "G+1",
+          "G+2",
+          "G+3"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Hospital Type",
+        "why_important": "The type of facility (General Hospital, PHC, Field Hospital, Diagnostic Centre, COVID Hospital) defines the entire functional brief — sellers need this to determine which room configurations, MEP systems, and compliance standards apply before they can respond meaningfully.",
+        "source": "both",
+        "example_values": [
+          "General Hospital",
+          "Primary Health Centre",
+          "Field Hospital",
+          "Diagnostic Centre"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "General Hospital",
+          "Primary Health Centre",
+          "Field Hospital",
+          "Diagnostic Centre"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Building Floors",
+      "option_value": "Single Storey",
+      "id": "spec_1",
+      "prompt_for_generation": "Exterior view of a single-storey prefabricated hospital building with white sandwich panel walls, green cross signage, covered entrance canopy, clean landscaped surroundings, daytime natural lighting, architectural photography style, no people.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Floors",
+      "option_value": "G+1",
+      "id": "spec_2",
+      "prompt_for_generation": "Exterior view of a two-storey (ground plus one floor) prefabricated hospital building with white PUF panel cladding, external staircase visible, hospital signage on facade, clean site, daytime natural lighting, architectural photography style, no people.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Floors",
+      "option_value": "G+2",
+      "id": "spec_3",
+      "prompt_for_generation": "Exterior view of a three-storey (ground plus two floors) prefabricated hospital building with modular panel construction, clearly visible three floor levels, hospital entrance with ramp, daytime natural lighting, architectural photography style, no people.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Floors",
+      "option_value": "G+3",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior view of a four-storey (ground plus three floors) prefabricated hospital building with steel-framed modular construction, four clearly visible floor levels, hospital signage, emergency entrance, daytime natural lighting, architectural photography style, no people.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Hospital Type",
+      "option_value": "General Hospital",
+      "id": "spec_5",
+      "prompt_for_generation": "Exterior view of a large prefabricated general hospital building with multi-specialty signage, main entrance with ambulance bay, white and blue panel facade, well-lit daytime setting, architectural photography style, no people.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Hospital Type",
+      "option_value": "Primary Health Centre",
+      "id": "spec_6",
+      "prompt_for_generation": "Exterior view of a compact single-storey prefabricated primary health centre building in a rural setting, government health centre signage in Hindi and English, white panel walls with green trim, simple entrance, daytime natural lighting, no people.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Hospital Type",
+      "option_value": "Field Hospital",
+      "id": "spec_7",
+      "prompt_for_generation": "Exterior view of a rapidly deployed prefabricated field hospital with modular units arranged in a row, temporary site setting, red cross markings, portable structure clearly visible, daytime natural lighting, no people.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Hospital Type",
+      "option_value": "Diagnostic Centre",
+      "id": "spec_8",
+      "prompt_for_generation": "Exterior view of a prefabricated diagnostic centre building with pathology and imaging signage, clean white panel facade, professional entrance, urban or semi-urban setting, daytime natural lighting, architectural photography style, no people.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
