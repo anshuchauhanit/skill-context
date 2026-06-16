@@ -1,0 +1,6 @@
+{
+  "location_exception": false,
+  "location_exception_reason": "Prefabricated buildings are engineered structures sold on technical specifications (span, load capacity, seismic zone compliance, material grade) and application type (warehouse, factory, residential), not geographic origin. Location in title is redundant; buyer filters by application and supplier capability, not where the building is manufactured.",
+  "biz_exception": false,
+  "biz_exception_reason": "Business-type words ('Manufacturer', 'Supplier', 'Contractor', 'EPC') in prefab building titles are redundant—IndiaMART already exposes seller type as a buyer-facing filter independent of product title. Removing 'Manufacturer' from 'PEB Warehouse Manufacturer' leaves 'PEB Warehouse' complete and accurate; the product meaning is unchanged."
+}
