@@ -1,0 +1,66 @@
+{
+  "enhanced_name_4w": "Prefab Modular Toilet Cabin",
+  "enhanced_name_5w": "Prefabricated Modular Toilet Cabin Unit",
+  "enhanced_name_6w": "Readymade Modular Toilet Cabin for Sites",
+  "enhanced_name_long": "Prefabricated Modular Toilet Cabins for Construction Sites, Labour Camps, Schools and Public Sanitation",
+  "alt_names": {
+    "primary_keywords": [
+      "modular toilet",
+      "portable toilet cabin",
+      "prefabricated toilet",
+      "readymade toilet",
+      "prefab toilet",
+      "FRP toilet cabin",
+      "toilet cabin",
+      "portable restroom",
+      "readymade toilet cabin",
+      "modular toilet cabin"
+    ],
+    "technical_synonyms": [
+      "prefabricated sanitation unit",
+      "FRP modular toilet",
+      "GI steel toilet cabin",
+      "PUF insulated toilet cabin",
+      "UPVC toilet module",
+      "plug-and-play toilet unit",
+      "prefab toilet block",
+      "sandwich panel toilet cabin",
+      "zero discharge toilet",
+      "modular sanitation unit"
+    ],
+    "trade_names": [
+      "Tata Nestin",
+      "Tata EzyNest",
+      "Sintex Sugam Toilet",
+      "E-Loos",
+      "Epsilon Prefab Toilet"
+    ],
+    "hindi_terms": [
+      "readymade shauchalay",
+      "portable shauchalay",
+      "prefab shauchalay",
+      "modular shauchalay"
+    ],
+    "buyer_intent_queries": [
+      "modular toilet for construction site",
+      "prefabricated toilet cabin India",
+      "readymade toilet and bathroom combo",
+      "portable toilet with attached bathroom",
+      "FRP toilet cabin for labour camp",
+      "modular toilet block for school",
+      "portable toilet for outdoor events",
+      "UPVC modular toilet washroom",
+      "readymade toilet Indian style western style",
+      "prefab toilet cabin for labour welfare"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Trailer-mounted mobile toilet van buyers (vehicle-mounted, event-hire or disaster-relief units) — carved out by sibling MCAT 'Mobile Toilet Van' (44109) and 'Mobile Toilets' (45789); names implying wheeled/vehicle-mounted mobility are excluded to avoid attracting that buyer segment",
+    "FRP-material-specific buyers — carved out by sibling MCAT 'FRP Modular Toilet' (126794) and 'FRP Portable Toilet' (145136); enhanced names must not lead with 'FRP' as the sole material differentiator, as those buyers are served by dedicated sibling MCATs",
+    "Bio-digester-only buyers — carved out by sibling MCAT 'Bio Toilet' (119106); 'bio toilet' and 'bio-digester toilet' are retained in alt_names as technical synonyms but excluded from enhanced name variants to avoid primary-segment confusion",
+    "Sintex-brand-specific buyers — carved out by sibling MCAT 'Sintex Portable Toilets' (182628); 'Sintex' is retained only in trade_names, not in enhanced name variants",
+    "MS/mild-steel-specific buyers — carved out by sibling MCAT 'MS Portable Toilets' (189105); MS-material-specific naming excluded from enhanced name variants"
+  ],
+  "segment_contamination_disclaimer": null
+}
