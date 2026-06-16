@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Buildings' is the dominant primary keyword confirmed across Agent 3 alt_names and market_context, and accurately covers the full product spectrum (PEB, LGSF, modular, precast) traded under this MCAT on IndiaMART.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a multi-storey modular/container-style prefab accommodation block — a secondary residential/site-office segment — not the primary segment of Pre-Engineered Steel (PEB) industrial warehouse/factory shed structures.",
+      "The image misrepresents the dominant buyer intent (industrial warehouse/factory PEB) and would mislead industrial buyers scanning the category, making it a poor representative thumbnail for this MCAT."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A large Pre-Engineered Steel Building (PEB) industrial warehouse with a wide clear-span portal steel frame, grey and blue corrugated metal roof and wall cladding panels, open front facade showing interior steel columns and purlins, set on a concrete floor slab in an industrial park, bright daylight, clean white background sky, photorealistic product-style shot, 1:1 square crop, sharp focus on the full building exterior, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
