@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Container Fabrication Services' directly matches the top primary keyword and accurately describes the service category; Agent 3 alt_names and market_context confirm this is the dominant industry-used term across buyer intent queries and trade usage.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a welder working on large cylindrical metal pipes/tubes — this depicts generic metal fabrication or pipe welding, not container fabrication; no container, cabin, or box-structure product is visible.",
+      "The image fails to represent the primary segment (custom steel portable site office container fabrication) and would mislead buyers searching for container/cabin fabrication services into thinking this is a pipe or pressure vessel fabrication service."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A completed custom mild steel portable site office container cabin, approximately 20x10 ft, with a single door and two windows, painted light grey or off-white, placed on a flat construction site ground with a clear white studio-style background. The container shows clean welded steel panel construction, visible corner posts, and a small entry staircase. Front three-quarter view, bright even lighting, sharp product focus, no people, no clutter. Square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
