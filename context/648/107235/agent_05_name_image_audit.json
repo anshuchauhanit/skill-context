@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "Agent 3 alt_names confirm 'folding garage' is the primary buyer-side keyword and market-dominant term in India; market_context explicitly states 'Folding Garage' and 'Foldable Carport' are used interchangeably, validating the current name as the strongest retrieval anchor.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a grey fabric motorcycle/two-wheeler cover tent — a two-wheeler shelter sized and shaped for a motorcycle, not a car-sized portable folding garage, which conflicts with the primary_segment 'Portable foldable car shelter/carport for residential vehicle protection'.",
+      "The image represents a sub-segment product (motorcycle shelter) rather than the dominant commercial form (steel-framed, PVC/polyester-covered car carport), misleading car-parking buyers and misrepresenting the MCAT's primary use case."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A portable folding car garage/carport for one car, featuring a powder-coated galvanised steel tubular frame in silver-grey, covered with a taut UV-resistant dark blue or grey PVC-coated polyester fabric, fully assembled and sheltering a white hatchback car underneath. The structure has a peaked roof, open front and rear ends, and is shown on a clean residential driveway or concrete surface. Bright, even studio-style lighting, pure white background, slight three-quarter front angle to show depth and frame structure clearly. Photorealistic product shot, no people, no text overlays, sharp focus on the frame joints and fabric texture.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
