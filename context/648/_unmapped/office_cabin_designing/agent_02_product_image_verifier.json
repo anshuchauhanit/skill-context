@@ -1,0 +1,1124 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "306684936",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Office Cabin Designing Service",
+      "description": "With the help of our expert team members, we have been able to provide Office Cabin Designing Service.",
+      "specs": {
+        "raw": "Material:Wooden, Service Duration:7 Days, Service Location:Delhi NCR, Service Mode:Offline, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/9/541465928/MN/DI/AY/101110043/office-cabin-designing-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/office-cabin designing service-2857208593897.html",
+      "image_file": "306684936.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed small office cabin interior with executive desk, leather chairs, glass partition, and wooden storage cabinet — directly representative of office cabin designing service output."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names office cabin designing service matching MCAT primary segment but lacks material type, project scope, or cabin size detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm wooden material, offline service mode, Delhi NCR location, and office usage — consistent with office cabin design service."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a boilerplate sentence naming the service but providing no scope, material, or process detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Listing offers office cabin designing service with wooden material and Delhi NCR location — directly matches MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs field contains 'Service Location:Delhi NCR' — a geographic location token embedded in the listing specs."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Office Cabin Designing Service' with no material type, project scope, cabin size, or distinguishing attribute."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location:Delhi NCR' — a geographic city/region name embedded in the listing."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; photo shows completed cabin interior, specs confirm wooden material and Delhi NCR service — all dimensions consistent with MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/office-cabin designing service-2857208593897.html"
+    },
+    {
+      "item_id": "132455249",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Office Interior Designing Service",
+      "description": "Our rich industry experience has helped us in offering quality services to our clients related to  Office Interior Designing Service. These services include designing of the office interior by setting up Computer Tables &amp; Chairs, Conference Room Tables and Library &amp; Reception Table. Our services are carried with utmost perfection to provide our clients with the best solutions.",
+      "specs": {
+        "raw": "Service Duration:15 - 20 Days, Service Location/City:India, Service Mode:Offline, Usage:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/KA/JH/MY-24290562/office-decoration-in-delhi.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/office-interior designing service-20334677173.html",
+      "image_file": "132455249.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed open-plan office interior with workstations, orange wall-mounted shelving, mesh chairs, and false ceiling with recessed lighting — a valid output of office interior designing service."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names office interior designing service, which is within the MCAT's documented scope including full office fit-outs."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm offline office service with pan-India location but lack material, project size, or scope detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description names specific furniture elements (computer tables, conference tables, reception tables) confirming office interior design service scope."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Office interior designing service covering furniture and fit-out is within the MCAT's documented product types."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City:India' — a geographic location token in the listing specs field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only duration, location, service mode, and usage — no material type, project size, or scope detail."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City:India' — a geographic location token embedded in the listing specs."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; photo shows completed office interior, description names specific furniture elements — category and quality consistent with MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/office-interior designing service-20334677173.html"
+    },
+    {
+      "item_id": "155259953",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Office Cabin Designing Service",
+      "description": "Transform your workspace with our Office Cabin Designing Service, tailored to enhance productivity and inspire creativity. Our expert designers collaborate with you to create a functional and aesthetically pleasing environment that reflects your brand's identity. From layout optimization to selecting the perfect furnishings, we ensure every detail is meticulously crafted to meet your needs. Elevate your office experience and make a lasting impression with a customized cabin design that fosters collaboration and innovation.",
+      "specs": {
+        "raw": "Duration:1 Week, Feature:Cost Effective, Mode Of Service:Offline, Payment Mode:Offline And Online, Service Location:Pan India"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/1/NO/SH/QK/41614783/office-interior-turnkey-design-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/office-cabin designing service-22615147562.html",
+      "image_file": "155259953.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image is a high-quality 3D design render of a premium executive office cabin with wooden slatted feature wall, gold geometric marble panel, marble flooring, and designer furniture — directly representative of office cabin designing service output."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names office cabin designing service matching MCAT primary segment."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm offline pan-India service with 1-week duration but lack material type, cabin dimensions, or project scope detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description clearly articulates the office cabin designing service scope including layout optimisation, furnishing selection, brand-aligned customisation, and productivity enhancement."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Turnkey office cabin designing service with strong description and pan-India scope directly matches MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location:Pan India' — a geographic scope token in the listing specs field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs lack material type, cabin dimensions, or project scope detail — only duration, cost feature, and service mode are present."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location:Pan India' — a geographic scope token embedded in the listing specs."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; 3D render photo and strong description together make this a high-quality listing for the MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/office-cabin designing service-22615147562.html"
+    },
+    {
+      "item_id": "158162030",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Wooden Office Cabin Designing Service",
+      "description": "At most  reasonable  rates, we are  providing (Wooden  Office Cabin Designing  Service to our patrons. all",
+      "specs": {
+        "raw": "Material:Wooden, Project Type:Consultants, Service Location/City:Jaipur, Service Type:Wooden Office Cabin Designing Service"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2020/11/ER/CU/CF/54549470/whatsapp-image-2020-11-28-at-11-58-42-am-2-.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/wooden-office cabin designing service-22905355233.html",
+      "image_file": "158162030.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed office interior fit-out with wooden panel partitions, frosted glass inserts, white workstations, and an enclosed glass-walled cabin in the background — directly representative of wooden office cabin designing service."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title specifies wooden material and office cabin designing service, matching MCAT scope with a useful material differentiator."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm wooden material and Jaipur location for office cabin designing service but lack project size, duration, or scope detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a single boilerplate sentence with no scope, process, or feature detail beyond naming the service."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Wooden office cabin designing service with Jaipur location is a valid instance of the MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City:Jaipur' — a city name embedded in the listing specs field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs lack project size, duration, or scope detail — only material and location are present alongside a redundant service type field."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City:Jaipur' — a city name embedded in the listing specs field."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; photo shows completed wooden office interior fit-out consistent with title and material spec.",
+      "source_url": "https://www.indiamart.com/proddetail/wooden-office cabin designing service-22905355233.html"
+    },
+    {
+      "item_id": "187766345",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Corporate Office Cabin Design",
+      "description": "Being one of the reputed companies, we are offering a wide range of Interior Designing Service to our precious clients. Our professionals have a deep knowledge to provide this interior designing service within the promised time. Offered interior designing services are admired for their promptness and reliability.",
+      "specs": {
+        "raw": "3D Interior Design Available:Yes, Project Size:100-200 Sqmt, Project Type:Both, Provide Furniture:Yes, Service Provided:Turnkey Office Interior, Work Done:Wall Paper/Paint Work"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/6/HE/KP/UL/3009658/6.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/corporate-office cabin design-25865786555.html",
+      "image_file": "187766345.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a luxury executive desk and bookshelf furniture product catalogue shot — related to office cabin design but represents a furniture product rather than a completed design service outcome."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names corporate office cabin design, matching MCAT primary segment."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs confirm turnkey office interior service with project size (100-200 sqmt), 3D design availability, furniture provision, and wall/paint work scope."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic boilerplate about interior designing service without specific cabin design scope or features."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Corporate office cabin design with turnkey interior service scope matches MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a furniture product catalogue shot of an executive desk rather than a completed office cabin design service outcome — service context is absent from the photo."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; strong specs compensate for thin photo and description — category and service scope are clearly valid.",
+      "source_url": "https://www.indiamart.com/proddetail/corporate-office cabin design-25865786555.html"
+    },
+    {
+      "item_id": "98176429",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Aluminium Cabin Fabrication Service",
+      "description": "Owing to our deep knowledge, we are offering a precision-engineered assortment of Aluminium Cabin Fabrication Service. These services are rendered using only high-quality tools. We are offering these fabrication work services after checked on various quality parameters.\nRange : Rs 35 per square feet + GST.",
+      "specs": {
+        "raw": "Material:Aluminium, Service Location/City:India, Service Mode:Offline, Service Type:Aluminium Cabin Fabrication Service"
+      },
+      "image_url": "http://5.imimg.com/data5/TF/KC/MY-11929299/aluminium-fabrication-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/aluminium-cabin fabrication service-15023845348.html",
+      "image_file": "98176429.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows an aluminium-framed glass partition system installed in an industrial space — consistent with aluminium cabin fabrication service output."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names aluminium cabin fabrication service — a construction/fabrication service that falls within the MCAT's documented product types."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm aluminium material and offline service mode but lack dimensions, glass type, or project scope detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms aluminium cabin fabrication service with quality parameters and precision engineering — note contains a price figure which is a policy concern but not a category issue."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Aluminium cabin fabrication service is within the MCAT's documented scope of modular office cabin fit-out and partition systems."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City:India' — a geographic location token in the listing specs field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs lack dimensions, glass type, or partition system detail — only material and location are present."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City:India' — a geographic location token embedded in the listing specs."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo shows valid aluminium cabin partition installation, all text dimensions consistent with MCAT scope, no contradictions or category failures observed.",
+      "source_url": "https://www.indiamart.com/proddetail/aluminium-cabin fabrication service-15023845348.html"
+    },
+    {
+      "item_id": "153461792",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Office Interior Designing Services",
+      "description": "   Corporate interiors that combine elegance with workflow efficiency. Designed to impress clients and support productive teams.",
+      "specs": {
+        "raw": "Material Procurement:Client End, Payment Method:Online/Offline, Service Days:1 Week, Service Location:Bengaluru, Service Mode:Offline"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/5/514889334/XP/VN/YV/14740514/office-interior-designing-services.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/office-interior designing services-22435331412.html",
+      "image_file": "153461792.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image is a 3D render of a corporate office reception/lobby with branded feature wall, geometric LED ceiling, sofa seating, and open-plan office visible through glass partition — representative of office interior designing service output."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names office interior designing services, within MCAT scope."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm Bengaluru-based offline interior designing service but lack project scope, material, or cabin type detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description positions the service as corporate interior design combining elegance and workflow efficiency — consistent with MCAT scope."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Office interior designing service for corporate spaces is within the MCAT's documented product types."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location:Bengaluru' — a city name embedded in the listing specs field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs lack project size, material, or cabin type detail — only payment method, duration, location, and service mode are present."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location:Bengaluru' — a city name embedded in the listing specs field."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — 3D render photo and acceptable description are consistent with office interior designing service; no contradictions or category failures observed.",
+      "source_url": "https://www.indiamart.com/proddetail/office-interior designing services-22435331412.html"
+    },
+    {
+      "item_id": "166898772",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "HR Cabin Interior Service",
+      "description": "HR Cabin Interior Service.\nwe are here to give new look to yourHR cabin by providing interior services",
+      "specs": {
+        "raw": "3D Interior Design Available:Yes, No. Of Projects Completed:as per project requirement, Payment Mode:Online, Project Size:as per requirement, Provide Furniture:No, Service Location/City:Maharashtra, Service Provided:Office Interior Designing, Work Done:Wall Paper/Paint Work"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/8/UC/AJ/KK/59957061/15.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/hr-cabin interior service-23779029188.html",
+      "image_file": "166898772.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed corporate meeting cabin interior with glass partition wall, conference table, chairs, and projector — representative of office cabin interior design service output."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names HR cabin interior service — a specific cabin type within the MCAT's documented scope of manager/executive cabin design."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm office interior designing service with 3D design availability, Maharashtra location, and wall/paint work scope."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a minimal two-sentence statement naming the HR cabin interior service without scope or feature detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "HR cabin interior service is a specific cabin type within the MCAT's documented scope of manager/executive cabin design services."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City:Maharashtra' — a geographic location token in the listing specs field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City:Maharashtra' — a geographic location token embedded in the listing specs."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo shows completed cabin interior, specs confirm office interior designing service scope; no contradictions or category failures observed.",
+      "source_url": "https://www.indiamart.com/proddetail/hr-cabin interior service-23779029188.html"
+    },
+    {
+      "item_id": "200708936",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Office Partition Service",
+      "description": "We are a unique entity in the industry, actively committed towards offering an optimum quality Office Partition Service. This service is widely acknowledged by our precious clients owing to its promptness and cost-effectiveness features. Our skilled professionals provide this service in the best possible manner. The provided service is executed by our adept professionals using optimum quality tools and latest technology. Moreover, our precious clients can avail this service from us at most reasonable price. ",
+      "specs": {
+        "raw": "Color:every colur is available, Insulation:Sound Insulation, payment:online, Size:all size is available, Thickness:75 mm"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/2/486717588/EG/ES/YU/137173484/office-partition-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/office-partition service-27160045688.html",
+      "image_file": "200708936.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a dark-framed glass and aluminium partition system forming enclosed cabin spaces in an empty office floor — a core component of office cabin designing service."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names office partition service — a core component of office cabin designing within MCAT scope."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm sound insulation and 75mm thickness but lack material type, glass specification, or partition system type."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic boilerplate about partition service quality without material, system type, or scope detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Office partition service is a core component of office cabin designing and is within the MCAT's documented scope."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs lack material type, glass specification, or partition system type — only thickness and insulation type are present alongside vague colour and size values."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo shows valid glass partition cabin system, all text dimensions consistent with MCAT scope, no contradictions or category failures observed.",
+      "source_url": "https://www.indiamart.com/proddetail/office-partition service-27160045688.html"
+    },
+    {
+      "item_id": "278203921",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Office Glass Cabin service",
+      "description": "Available all types glass cabin for office home any available resemble price and good material L shep u shep sliding door and opneble door all available",
+      "specs": {
+        "raw": "Appearance:Office, Brand:Saind govind, Built Type:Modular, Color:Multi, Country of Origin:Made in India, Crack Resistance:Office, Design Type:Customized, Glass Thickness:12mm, Glass Type:Transparent, I Deal In:New and Second Hand, Material:GI, Pattern:Simple, Shape:Dipentent customer, Size:Dipentent costumer, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2024/6/431014153/VN/XA/TK/151439117/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/office-glass cabin service-2854360492162.html",
+      "image_file": "278203921.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a black-framed glass cabin partition system with frosted panels, blind inserts, and frosted glass doors — a core component of office glass cabin design service."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names office glass cabin service — a specific material variant within the MCAT's documented scope."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs confirm 12mm glass thickness, GI material, modular built type, customised design type, and office usage — comprehensive specification for glass cabin service."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description names glass cabin configurations (L-shape, U-shape, sliding/openable doors) for office use but is grammatically poor and lacks detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Office glass cabin service with modular GI-framed glass partitions is within the MCAT's documented scope of modular office cabin fit-out."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Brand:Saind govind' — a business/brand name embedded in the listing specs field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Brand:Saind govind' — a business/brand name embedded in the listing specs field."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo shows valid glass cabin partition system, strong specs confirm glass thickness and modular construction; no contradictions or category failures observed.",
+      "source_url": "https://www.indiamart.com/proddetail/office-glass cabin service-2854360492162.html"
+    }
+  ],
+  "verified_bad_products": [],
+  "generated_bad_examples": [
+    {
+      "generated": true,
+      "generated_for_problem_codes": [
+        "P15",
+        "P16"
+      ],
+      "item_id": "GENERATED_P15_P16",
+      "pre_label": null,
+      "verified_label": "bad",
+      "override": true,
+      "title": "Office Cabin Interior Design Service - Call 9876543210",
+      "description": "We at Sharma Interiors, located in Sector 18, Noida, provide premium office cabin designing services. Contact Mr. Rajesh Sharma at rajesh.sharma@sharmainteriors.com or call 9876543210 for a free site visit. We serve clients across Delhi NCR with wooden and glass cabin solutions.",
+      "specs": {},
+      "image_url": null,
+      "product_page_url": null,
+      "image_file": null,
+      "image_status": "generated",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "No image available — generated illustrative example."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Title embeds a phone number ('Call 9876543210') directly in the listing title — a PII policy violation."
+        },
+        "specs": {
+          "category_fit": null,
+          "quality": "thin",
+          "reason": "Specs object is empty — no service attributes provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description contains personal name ('Mr. Rajesh Sharma'), email address ('rajesh.sharma@sharmainteriors.com'), phone number ('9876543210'), business name ('Sharma Interiors'), and locality ('Sector 18, Noida') — multiple PII and location/business leakage violations."
+        },
+        "category": {
+          "valid": true,
+          "reason": "The underlying service (office cabin interior design) is valid for this MCAT — the violations are policy-level, not category-level."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains personal name 'Mr. Rajesh Sharma', email 'rajesh.sharma@sharmainteriors.com', and phone number '9876543210' — all are PII tokens."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains business name 'Sharma Interiors', locality 'Sector 18, Noida', and title contains phone number — location and business identity embedded in listing content."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains personal name 'Mr. Rajesh Sharma', email address 'rajesh.sharma@sharmainteriors.com', and phone number '9876543210'."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains business name 'Sharma Interiors' and locality 'Sector 18, Noida'; title contains phone number 'Call 9876543210'."
+        }
+      ],
+      "verification_note": "Generated illustrative example for P15 and P16 — no real verified product in this batch demonstrated PII or location/business leakage in title or description fields."
+    }
+  ],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images for this MCAT fall into three visual patterns: (1) completed real office cabin interiors showing executive desks, leather chairs, glass partitions, and wooden storage — photographed from a room-corner perspective; (2) high-quality 3D design renders of executive or corporate cabins featuring feature walls, marble flooring, and designer furniture; and (3) installed partition systems (glass-aluminium or wooden panel) showing the structural cabin framework in an office or industrial setting.",
+  "image_type_recommendation": {
+    "type": "object_with_info",
+    "reason": [
+      "Office cabin designing is a service category where the image communicates the design style, material quality, and spatial outcome — all of which are visually readable and buyer-relevant.",
+      "3D renders and completed project photos both carry design intent information (material finish, layout, lighting) that a buyer evaluates visually before enquiring.",
+      "Partition system photos show structural specifications (frame type, glass opacity, panel configuration) that are visually extractable and inform buyer decisions."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good photos show completed office cabin interiors, 3D design renders, or installed partition systems that communicate design quality, material finish, and spatial outcome.",
+    "product_identity": [
+      "Enclosed or semi-enclosed office cabin space with desk, chairs, and partition visible",
+      "Glass, wooden, or aluminium partition system forming cabin boundaries",
+      "False ceiling, recessed lighting, or feature wall elements indicating design service scope"
+    ],
+    "acceptable_scenes": [
+      "Completed real office cabin interior photographed from room-corner or wide-angle perspective",
+      "High-quality 3D design render of executive or manager cabin",
+      "Installed glass-aluminium or wooden panel partition system in office setting"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "306684936",
+        "reason": "Image shows a completed small office cabin interior with executive desk, leather chairs, glass partition, and wooden storage cabinet — directly representative of office cabin designing service output.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "155259953",
+        "reason": "Image is a high-quality 3D design render of a premium executive office cabin with wooden slatted feature wall, gold geometric marble panel, marble flooring, and designer furniture — directly representative of office cabin designing service output.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "158162030",
+        "reason": "Image shows a completed office interior fit-out with wooden panel partitions, frosted glass inserts, white workstations, and an enclosed glass-walled cabin in the background — directly representative of wooden office cabin designing service.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "166898772",
+        "reason": "Image shows a completed corporate meeting cabin interior with glass partition wall, conference table, chairs, and projector — representative of office cabin interior design service output.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "200708936",
+        "reason": "Image shows a dark-framed glass and aluminium partition system forming enclosed cabin spaces in an empty office floor — a core component of office cabin designing service.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show furniture product catalogue shots or isolated partition components without design service context.",
+    "thinness_signals": [
+      "Furniture product catalogue shot without completed cabin or room context — design service outcome not visible",
+      "Partition system shown in isolation without furniture, lighting, or spatial design elements that communicate service scope"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "187766345",
+        "reason": "Image shows a luxury executive desk and bookshelf furniture product catalogue shot — related to office cabin design but represents a furniture product rather than a completed design service outcome."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "No verified bad products were identified in this batch — irrelevant photo examples are not available from real verified products.",
+    "failure_classes": []
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name the specific cabin type or material alongside the service type, enabling buyers to immediately identify the scope and specialisation of the offering.",
+    "strong_positive_signals": [
+      "Specific cabin type named (Executive, Corporate, HR, Manager, Wooden, Glass, Aluminium)",
+      "Service type explicitly stated (Designing Service, Interior Service, Fit-out, Fabrication Service)",
+      "Material or construction method specified (Wooden, Glass, Aluminium, Modular)"
+    ],
+    "structural_patterns": [
+      "[Material] Office Cabin Designing Service",
+      "[Cabin Type] Office Cabin Interior Service",
+      "Corporate/Office [Cabin Type] Design [Service]",
+      "Office [Material] Cabin [Service Type]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "158162030",
+          "title": "Wooden Office Cabin Designing Service",
+          "reason": "Specifies material (Wooden), product type (Office Cabin), and service type (Designing Service) — three buyer-relevant attributes in a compact title."
+        },
+        {
+          "item_id": "278203921",
+          "title": "Office Glass Cabin service",
+          "reason": "Specifies material (Glass), product type (Office Cabin), and service type — material differentiator is buyer-relevant for glass cabin enquiries."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "306684936",
+          "title": "Office Cabin Designing Service",
+          "reason": "Correctly names the service but lacks material, cabin size, or scope differentiator."
+        },
+        {
+          "item_id": "187766345",
+          "title": "Corporate Office Cabin Design",
+          "reason": "Adds 'Corporate' qualifier but omits material, project size, or service scope detail."
+        },
+        {
+          "item_id": "166898772",
+          "title": "HR Cabin Interior Service",
+          "reason": "Specific cabin type (HR) named but omits material and design scope detail."
+        },
+        {
+          "item_id": "98176429",
+          "title": "Aluminium Cabin Fabrication Service",
+          "reason": "Material (Aluminium) and service type (Fabrication) specified but cabin type and project scope absent."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name the service category correctly but omit material, cabin type, project scope, or any buyer-differentiating attribute.",
+    "thinness_signals": [
+      "No material type specified (Wooden, Glass, Aluminium, Modular) — buyer cannot filter by construction method",
+      "No cabin type specified (Executive, Manager, HR, Conference) — buyer cannot identify the specific cabin scope",
+      "No project scope or size indicator — buyer cannot assess fit for their requirement"
+    ],
+    "examples": [
+      {
+        "item_id": "306684936",
+        "title": "Office Cabin Designing Service",
+        "reason": "Correct service name but no material, cabin type, or scope detail — minimal differentiation for a buyer comparing multiple listings."
+      },
+      {
+        "item_id": "132455249",
+        "title": "Office Interior Designing Service",
+        "reason": "Broader than cabin-specific and lacks material or cabin type — buyer cannot determine if this covers cabin design specifically."
+      },
+      {
+        "item_id": "153461792",
+        "title": "Office Interior Designing Services",
+        "reason": "Generic service name with no material, cabin type, or scope differentiator."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "No verified bad products with irrelevant titles were identified in this batch — irrelevant title examples are not available from real verified products.",
+    "failure_classes": []
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere.",
+    "input_data_absent": false,
+    "classes": []
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from provided base64 data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "No siblings available in taxonomy_context — correct_mcat_suggestion set to null for all items; no sibling routing targets confirmed."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment and mcat_description used to ground category belonging decisions; MCAT treated as coherent (PATH A) with broad product_types covering both interior design service and partition/fabrication service sub-types."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
