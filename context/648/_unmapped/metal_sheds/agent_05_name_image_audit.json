@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 alt_names and market_context confirm that Indian B2B buyers predominantly search 'iron shed', 'steel shed', and 'prefab steel shed' — 'Metal Sheds' is technically correct but less buyer-resonant than 'Metal / Steel Sheds' or 'Prefabricated Metal Sheds', and the plural form is atypical for MCAT naming conventions.",
+    "suggested_name": "Prefabricated Metal Sheds"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a small residential-style portable/modular metal shed with vinyl-panel cladding, gable roof, windows, and a hinged garage door — this is a Western consumer-market garden/storage shed, not the primary segment (prefabricated industrial/warehouse steel shed with MS frame and GI/Galvalume roofing) that dominates Indian B2B demand.",
+      "The image actively misrepresents the MCAT by signalling a small domestic product to buyers who are searching for large-span factory, warehouse, or farm sheds, creating a segment mismatch that would reduce buyer trust and click-through quality."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a large prefabricated industrial steel shed: wide-span MS portal frame structure with corrugated Galvalume metal sheet roofing in silver-grey, open front bay showing interior steel trusses and purlins, concrete floor, set against a plain white studio background, bright even lighting, sharp product focus, no people, no text overlays, professional B2B catalogue style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
