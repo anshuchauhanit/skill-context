@@ -1,0 +1,1375 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "151189110",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Mini Green houses",
+      "description": "We make various types  of  Mini Greenhouse to suit customer needs. They could be triangular or round in shapre on top. Could be environment control or naturally ventilated. could have evaporative cooling system inside or just the foggers. All depends upon the customer needs.<br />they could be erected on terrace or on land.",
+      "specs": {
+        "Brand": "Emaar Farm",
+        "Built Type": "Modular",
+        "Central Height": "5 m",
+        "Color": "White",
+        "Material": "Polyester",
+        "Shape": "Dome Shaped",
+        "Usage/Application": "Green House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/7/AL/JM/QJ/8051309/mini-greenhouse.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/mini-green houses-22208063230.html",
+      "image_file": "151189110.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows the interior of a large greenhouse with hydroponic growing tables, shade net ceiling, and industrial fans — a greenhouse interior is visible but the scale and setup represent a large commercial hydroponic facility rather than a compact mini greenhouse."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Mini Green houses' directly names the MCAT product but lacks covering material, frame type, or size attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs state dome-shaped modular greenhouse at 5m central height with polyester material — consistent with mini greenhouse product type but missing covering material and dimensions."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description covers multiple mini greenhouse types including dome/triangular shapes, environment control vs. natural ventilation, evaporative cooling, foggers, and terrace or land installation."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title explicitly names 'Mini Green houses,' description covers terrace and land-based mini greenhouse variants, and specs confirm dome-shaped modular greenhouse construction."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a large commercial hydroponic greenhouse interior with industrial fans and growing tables — scale and setup do not represent a compact mini greenhouse, making the image thin for this MCAT."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; product is a valid mini greenhouse with strong description coverage, but image shows a large commercial interior rather than a compact mini greenhouse unit.",
+      "source_url": "https://www.indiamart.com/proddetail/mini-green houses-22208063230.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "96933970",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Agricultural Poly Green House",
+      "description": "<p>We are one of the leading manufacturers &amp; service provider of&nbsp;<b>Agricultural Greenhouses.&nbsp;</b></p>",
+      "specs": {
+        "Application": "Hardening",
+        "Built Type": "Prefab",
+        "Color": "White",
+        "Country Of Origin": "Made In India",
+        "Covering Material": "Poly Film",
+        "Feature": "Eco Friendly",
+        "Frame Coating": "Hot Dip Galvanized",
+        "Greenhouse Type": "Polyhouse",
+        "Height": "4.5-6.5m",
+        "Irrigation System": "Drip",
+        "Length": "100-300 m",
+        "Material": "Film",
+        "Peak Height": "6.5",
+        "Span": "9-12m",
+        "Structure Material": "GI Pipe",
+        "Ventilation Type": "Side And Top Vent"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/11/SS/SL/TS/23093533/agricultural-greenhouses.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/agricultural-poly green house-14773678588.html",
+      "image_file": "96933970.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "thin_image",
+          "reason": "Image shows a large commercial polyhouse complex with dozens of arch-shaped bays photographed from a great distance across a field — scale is clearly large commercial agricultural, not a mini greenhouse, and no structural detail is discernible."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title 'Agricultural Poly Green House' signals a large agricultural polyhouse, not a mini greenhouse for home/terrace/nursery use."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs state Length 100–300m and Span 9–12m — these are large commercial polyhouse dimensions, not mini greenhouse dimensions."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description identifies the product as 'Agricultural Greenhouses,' confirming large-scale commercial application rather than mini greenhouse."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a large commercial agricultural polyhouse (100–300m length, 9–12m span) — a fundamentally different product from a mini greenhouse in scale, buyer type, and price tier."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Agricultural Greenhouses",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large commercial polyhouse complex with dozens of arch-shaped bays across an agricultural field — not a mini greenhouse."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title reads 'Agricultural Poly Green House,' signalling a large agricultural polyhouse rather than a mini greenhouse."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state Length 100–300m and Span 9–12m — dimensions characteristic of large commercial polyhouses, not mini greenhouses."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly identifies the product as 'Agricultural Greenhouses,' not a mini greenhouse."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Product photographed from extreme distance across a field; no frame, covering material, or structural detail is visible."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — product is a large commercial agricultural polyhouse (100–300m), not a mini greenhouse; belongs in Agricultural Greenhouses sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/agricultural-poly green house-14773678588.html"
+    },
+    {
+      "item_id": "138448287",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Polycarbonate polyhouse Greenhouse",
+      "description": "<b>Polycarbonate polyhouse Greenhouse&nbsp;</b>&nbsp;is designed by using supreme quality polycarbonate and used for protecting crops from sun, heat, rain etc. These are available in temporary, permanent, full and mini sizes as per the precise demands of clients. Polycarbonate closed greenhouse is available in various attractive styles and designs as per the specific requirements. Polycarbonate greenhouses have better insulation values and the polycarbonate glazing is virtually indestructible, which ensures complete safety. These have standard roof space and rim heights, which provide proper space for healthy plant growth. This greenhouse includes various numbers of side louvers and roof vents for good ventilation.",
+      "specs": {
+        "Application": "Terrace Garden",
+        "Area": "100 sq mtr",
+        "Built Type": "Modular",
+        "Color": "White",
+        "Covering Material": "Poly Film",
+        "Greenhouse Type": "Mini Greenhouse",
+        "Gsm": "6mm 8 mm",
+        "Height": "3 meters 4 Meter",
+        "No Of Shelves": "3 Shelves",
+        "Portable": "No",
+        "Shape": "Tunnel",
+        "Structure Material": "GI Pipe",
+        "Usage/Application": "Agriculture"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/12/XL/TL/GY/2644714/polycarbonate-polyhouse-greenhouse.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/polycarbonate-polyhouse greenhouse-20933980930.html",
+      "image_file": "138448287.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a tunnel-shaped walk-in greenhouse with translucent polycarbonate/polyfilm covering, arched roof, and a door on the front face — clearly identifiable as a mini/small walk-in greenhouse."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names covering material (polycarbonate) and product type (greenhouse) but does not specify mini size or application."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs explicitly state Greenhouse Type: Mini Greenhouse, Application: Terrace Garden, Shape: Tunnel, GI Pipe structure — directly confirming mini greenhouse identity."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description covers polycarbonate greenhouse with insulation, side louvers, roof vents, and explicitly mentions availability in mini sizes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Specs explicitly state Greenhouse Type: Mini Greenhouse with terrace garden application and walk-in tunnel dimensions consistent with the MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title states 'Polycarbonate' as the covering material but specs field lists Covering Material as 'Poly Film,' presenting conflicting covering material information."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title claims 'Polycarbonate' covering but specs list Covering Material as 'Poly Film' — buyer cannot determine the actual covering material."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad due to title-specs contradiction on covering material (polycarbonate vs. poly film); product is otherwise a valid mini greenhouse.",
+      "source_url": "https://www.indiamart.com/proddetail/polycarbonate-polyhouse greenhouse-20933980930.html"
+    },
+    {
+      "item_id": "174319301",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Mini Green house",
+      "description": "<p dir=\"ltr\">Specification/Additional Details<br>\n</p>\n<p dir=\"ltr\">MaterialGI Pipe and Polysheet<br>\n</p>\n<p dir=\"ltr\">Built TypeModular<br>\n</p>\n<p dir=\"ltr\">Surface TreatmentColor Coated<br>\n</p>\n<p dir=\"ltr\">FeaturesUV Stabilized and Waterproof<br>\n</p>\n<p dir=\"ltr\">ColorWhite<br>\n</p>\n<p dir=\"ltr\">Size10 L X 9 W X 12 H feet<br>\n</p>",
+      "specs": {
+        "Application": "Terrace Garden",
+        "Built Type": "Prefab",
+        "Color": "White",
+        "Covering Material": "Poly Film",
+        "Features": "UV Stabilized and Waterproof",
+        "Greenhouse Type": "Mini Greenhouse",
+        "Material": "GI Pipe and Polysheet",
+        "No Of Shelves": "3 Shelves",
+        "Portable": "Yes",
+        "Size": "14L*10W*10H",
+        "Structure Material": "GI Pipe",
+        "Surface Treatment": "Galvanized"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/1/SW/PN/TT/39891110/mini-greenhouse.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/mini-green house-24521082097.html",
+      "image_file": "174319301.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a dome/arch-shaped structure with an opaque white covering over a metal pipe frame in a nursery context with potted plants — the covering appears opaque rather than transparent and sides are open, making key greenhouse features (enclosed walls, transparent covering) not visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Mini Green house' directly names the product but lacks covering material, frame type, or size."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs state Greenhouse Type: Mini Greenhouse, Application: Terrace Garden, GI Pipe and Polysheet, UV Stabilized, Portable: Yes, Size: 14L×10W×10H — comprehensive mini greenhouse specification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description lists material (GI Pipe and Polysheet), UV Stabilized and Waterproof features, and size (10L×9W×12H feet) — consistent with mini greenhouse but dimensions conflict with specs."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Specs explicitly state Greenhouse Type: Mini Greenhouse with terrace garden application, GI pipe frame, and polysheet covering — valid mini greenhouse product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Specs state size as 14L×10W×10H but description states size as 10L×9W×12H feet — conflicting dimensions for the same product."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs state size 14L×10W×10H but description states 10L×9W×12H feet — buyer receives conflicting dimensions."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows an open-sided canopy structure with opaque white covering; enclosed greenhouse walls and transparent covering — key buyer-decision features — are not visible."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad due to specs-description dimension contradiction; product is a valid mini greenhouse but listing has conflicting size information.",
+      "source_url": "https://www.indiamart.com/proddetail/mini-green house-24521082097.html"
+    },
+    {
+      "item_id": "307969670",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Mini Greenhouse .",
+      "description": "Fynofim Green Shadenet offers durable, UV-stabilized protection designed for agriculture, nurseries, and construction sites. Built to withstand harsh weather, it ensures optimum sunlight control, temperature balance, and plant growth. With superior quality and long-lasting performance, Fynofim Shadenet is trusted for reliable coverage and lasting value.",
+      "specs": {
+        "Country of Origin": "Made in India",
+        "Material": "shadenet",
+        "Service Location/City": "All over India service"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/10/554060480/MN/DU/NR/50407923/mini-greenhouse.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/mini-greenhouse .-2857337067291.html",
+      "image_file": "307969670.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a large open-field agricultural shade net installation — green HDPE shade net stretched over GI pipe frames across a large agricultural field with workers visible — not a mini greenhouse structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads 'Mini Greenhouse .' with a trailing period and no substantive attributes — correct product name claimed but no useful buyer information provided."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs only list material (shadenet) and service location — no structural dimensions, frame type, or greenhouse-specific attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description describes 'Fynofim Green Shadenet' as a shade net material product for agriculture and construction sites — not a mini greenhouse structure."
+        },
+        "category": {
+          "valid": false,
+          "reason": "The actual product described and shown is a shade net material/covering, not a prefabricated mini greenhouse structure — the title claim of 'Mini Greenhouse' is contradicted by the description and image."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title claims 'Mini Greenhouse' but description describes 'Fynofim Green Shadenet' — a shade net material product for agriculture and construction, not a greenhouse structure."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City: All over India service' — business service location embedded in specs field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title claims 'Mini Greenhouse' but description describes 'Fynofim Green Shadenet' — a shade net material, not a greenhouse structure."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large open-field agricultural shade net installation over GI pipe frames — not a mini greenhouse."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Mini Greenhouse .' is misleading — the actual product described is a shade net material, not a mini greenhouse structure."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes 'Fynofim Green Shadenet' — a shade net covering material for agriculture and construction — not a mini greenhouse."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Mini Greenhouse .' — trailing period and zero substantive attributes (no material, size, frame type, or application)."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs only list material (shadenet) and service location — no structural dimensions, frame type, covering spec, or greenhouse-specific attributes."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a large open-field shade net canopy installation — wrong product type shown, not a mini greenhouse."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City: All over India service' — business service location embedded in product specs."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — actual product is a shade net material (Fynofim Shadenet), not a mini greenhouse structure; title is misleading.",
+      "source_url": "https://www.indiamart.com/proddetail/mini-greenhouse .-2857337067291.html"
+    },
+    {
+      "item_id": "48253540",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Steel Buildings",
+      "description": "We are one of the major enterprise manufacturing and supplying the quality range of <b>Prefabricated Steel Building</b>. Our offered products are known in the market for their quick installation and high durability traits. These products are designed by our team of professionals in various specifications as per clients’ needs. Well furnished with excellent interiors and high weather resistant, we supply these products to our customers at equitable price range.<br /><br /><b>Features:</b><br /> \n<ul>\n<li>Attractive interiors</li>\n<li>Quick and easy setup</li>\n<li>High stability</li>\n</ul>",
+      "specs": {
+        "Building Type": "Customized",
+        "Built Type": "Prefab",
+        "Country of Origin": "Made in India",
+        "Feature": "Corrosion Resistant",
+        "Finishing": "Paint Coated",
+        "Height": "Customized",
+        "Material": "Steel",
+        "Service Location/City": "Pan India",
+        "Surface Treatment": "Galvanized",
+        "Usage/Application": "Factory"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/5/311287239/BW/WD/PL/135805/prefabricated-steel-building.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-steel buildings-6472202533.html",
+      "image_file": "48253540.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large industrial prefabricated steel building under construction with a crane lifting a steel beam onto a tall steel frame — clearly an industrial building, not a mini greenhouse."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title 'Prefabricated Steel Buildings' names an industrial steel building product, not a mini greenhouse."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs describe steel factory building with paint coating, galvanized surface treatment, and factory usage — no greenhouse attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description describes prefabricated steel buildings for factory use with attractive interiors and high stability — not a greenhouse."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a prefabricated steel building for industrial/factory use — fundamentally different product type from a mini greenhouse."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City: Pan India' — business service location embedded in product specs."
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Steel Buildings",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large industrial prefabricated steel building under construction with crane — not a mini greenhouse."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title is 'Prefabricated Steel Buildings' — an industrial building product, not a mini greenhouse."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe steel factory building with paint coating and factory usage — no greenhouse-related attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes prefabricated steel buildings for factory use — not a mini greenhouse."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City: Pan India' — business service location embedded in product specs."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is a prefabricated steel factory building; belongs in Prefabricated Steel Buildings sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-steel buildings-6472202533.html"
+    },
+    {
+      "item_id": "71228770",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Steel Building",
+      "description": "Being a quality centric organization, we are actively committed towards offering <b>Prefabricated Building.</b> This building is manufactured using quality assured raw material and ultra-modern technology under the supervision of our adroit professionals. Provided building is widely admired by our clients for its optimum finish. Offered building is checked by our quality experts to approve its grade. Furthermore, our respectable clients can avail this building at reasonable prices.<br /><br /><b>Features:</b><br /><br /> \n<ul><li>Easy to install </li><li>Rugged structure </li><li>High strength </li></ul>",
+      "specs": {
+        "Built Type": "Prefab",
+        "Height": "Customised",
+        "Material": "Steel",
+        "Technique": "Cold Rolled",
+        "Usage/Application": "House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/10/356932080/ZU/DT/KO/19242443/prefabricated-steel-building.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-steel building-10530302448.html",
+      "image_file": "71228770.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large prefabricated steel building frame under construction with multiple steel columns, beams, and workers on scaffolding — clearly an industrial/commercial steel building, not a mini greenhouse."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title 'Prefabricated Steel Building' names an industrial steel building, not a mini greenhouse."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs describe cold-rolled steel prefab building for house use — no greenhouse attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description describes a prefabricated building with quality raw material and optimum finish — not a greenhouse."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a prefabricated steel building — fundamentally different product type from a mini greenhouse."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Steel Buildings",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large prefabricated steel building frame under construction with scaffolding — not a mini greenhouse."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title is 'Prefabricated Steel Building' — an industrial building product, not a mini greenhouse."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe cold-rolled steel prefab building for house use — no greenhouse-related attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a prefabricated building with quality raw material — not a mini greenhouse."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is a prefabricated steel building; belongs in Prefabricated Steel Buildings sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-steel building-10530302448.html"
+    },
+    {
+      "item_id": "154931260",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Steel Buildings",
+      "description": "<b>Metal-ify PEB Solution</b>&nbsp;is one of the fastest growing manufacturer of PEB Sheds like Industrial Factory Sheds, Warehouses, Power plants, rice mill plants and many more.",
+      "specs": {
+        "Built Type": "Prefab",
+        "Country of Origin": "Made in India",
+        "Electronic System": "any",
+        "Features": "any",
+        "Height": "any",
+        "Material": "Steel",
+        "Roof Type": "Slope",
+        "Size": "any",
+        "Technique": "Hot Rolled",
+        "Usage/Application": "industrial"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/6/VE/YI/XT/37315965/prefabricated-steel-buildings.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-steel buildings-22582278230.html",
+      "image_file": "154931260.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a completed prefabricated steel industrial building with blue and cream metal cladding panels on a steel frame elevated on columns — clearly an industrial warehouse/factory building, not a mini greenhouse."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title 'Prefabricated Steel Buildings' names an industrial steel building product, not a mini greenhouse."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs describe hot-rolled steel industrial building with slope roof — no greenhouse attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly names 'PEB Sheds,' 'Industrial Factory Sheds,' 'Warehouses,' 'Power plants' — not a mini greenhouse."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is an industrial PEB shed/warehouse — fundamentally different product type from a mini greenhouse."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Steel Buildings",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a completed industrial prefabricated steel building with metal cladding panels — not a mini greenhouse."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title is 'Prefabricated Steel Buildings' — an industrial building product, not a mini greenhouse."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe hot-rolled steel industrial building with slope roof — no greenhouse-related attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description names 'PEB Sheds,' 'Industrial Factory Sheds,' and 'Warehouses' — not a mini greenhouse."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is an industrial PEB shed; belongs in Prefabricated Steel Buildings sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-steel buildings-22582278230.html"
+    },
+    {
+      "item_id": "183431252",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Steel Prefabricated Buildings",
+      "description": "We have set up an outstanding example for others showing that rapid growth is possible by strictly maintaining quality of products and serving the clients with complete dedication. We are engaged in the industry as a distinguished manufacturer, trader and distributor dealing in a number of products like Pre Engineered Building Systems(PEB),Pre fabricated steel structures,mezzanine floors,industrial sheds,warehouses and Insulating Roofing and Panels.Our company is professionally managed by a group of technocrats having versatile knowledge and experience in the discipline. High quality and timely delivery are the two parameters, which have kept us ahead in the industry. The company is a perfect blend of man and machine to deliver its clients with the best possible engineering construction services and allied products at the most competitive prices. We are committed to deliver the best, thus leaving no space for quality degradation.",
+      "specs": {
+        "Built Type": "Prefab",
+        "Country of Origin": "Made in India",
+        "Feature": "Durable",
+        "Material": "Steel",
+        "Roof Type": "A Type",
+        "Service Location/City": "Pan India",
+        "Surface Treatment": "Color Coated"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/4/QF/SW/QC/938734/steel-prefabricated-buildings.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-prefabricated buildings-25432277133.html",
+      "image_file": "183431252.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large multi-storey prefabricated steel structure under construction with blue and grey steel columns, multiple floors of steel framework, and a brick boundary wall — clearly an industrial/commercial building, not a mini greenhouse."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title 'Steel Prefabricated Buildings' names an industrial steel building product, not a mini greenhouse."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs describe steel prefab building with A-type roof and color-coated surface treatment — no greenhouse attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly names PEB systems, prefabricated steel structures, mezzanine floors, industrial sheds, and warehouses — not a mini greenhouse."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a PEB/industrial steel structure — fundamentally different product type from a mini greenhouse."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City: Pan India' — business service location embedded in product specs."
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Steel Buildings",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large multi-storey prefabricated steel structure under construction — not a mini greenhouse."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title is 'Steel Prefabricated Buildings' — an industrial building product, not a mini greenhouse."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe steel prefab building with A-type roof — no greenhouse-related attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description names PEB systems, industrial sheds, and warehouses — not a mini greenhouse."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City: Pan India' — business service location embedded in product specs."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is an industrial PEB/steel structure; belongs in Prefabricated Steel Buildings sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-prefabricated buildings-25432277133.html"
+    },
+    {
+      "item_id": "281662896",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Steel Structure",
+      "description": "<b>Omkar Prefab System&nbsp;</b>is involved as a&nbsp;<b>manufacturer, wholesaler&nbsp;</b>and&nbsp;<b>retailer</b>&nbsp;a broad plethora of&nbsp;<b>Portable Cabins, Portable Resort,&nbsp;</b>etc. In their development process, we assure that only top notch basic material is used by our professionals along with ultra-modern tools and machinery. Besides this, we check these on a variety of grounds before finally shipping them at the destination of our customers.",
+      "specs": {
+        "Built Type": "Prefab",
+        "Country of Origin": "Made in India",
+        "Material": "GI",
+        "Service Location/City": "Delhi",
+        "Surface Treatment": "Galvanized"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2024/8/444689969/XB/ZU/YU/51018771/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-steel structure-2854706389830.html",
+      "image_file": "281662896.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a rooftop glass/UPVC enclosure with large sliding glass doors and a steel frame on a residential rooftop — a conservatory/room structure, not a mini greenhouse for plant growing."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title 'Prefabricated Steel Structure' names a generic prefabricated structure, not a mini greenhouse."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs list GI material, prefab build type, and Delhi service location — no greenhouse-related attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description describes portable cabins and portable resort products — not a mini greenhouse."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a prefabricated portable cabin/conservatory structure — not a mini greenhouse for plant growing."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City: Delhi' — city name embedded in product specs."
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Structures",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a rooftop glass/UPVC conservatory enclosure with sliding doors — not a mini greenhouse for plant growing."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title is 'Prefabricated Steel Structure' — a generic prefabricated structure, not a mini greenhouse."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe GI prefab structure with Delhi service location — no greenhouse-related attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes portable cabins and portable resort — not a mini greenhouse."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City: Delhi' — city name embedded in product specs."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is a prefabricated portable cabin/conservatory; belongs in Prefabricated Structures sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-steel structure-2854706389830.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Only one verified good product (151189110) has an available image, showing a large greenhouse interior with hydroponic growing tables, shade net ceiling, and industrial fans — this is a thin image for the primary segment. Ideal mini greenhouse images should show the complete exterior structure with transparent/translucent covering, visible frame, and door, at a scale consistent with home/terrace/nursery use (typically 6×6 ft to 20×30 ft walk-in units). The tunnel/arch shape with polycarbonate or polyfilm covering is the dominant commercial form and should be the primary visual reference.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Mini greenhouses are physical structures whose buyer-relevant information (shape, covering material, frame type, size, door placement) is conveyed entirely through the visual appearance of the structure — OCR cannot extract these attributes from a product image.",
+      "Verified good images show greenhouse structures in outdoor/garden contexts; no text labels, spec sheets, or printed information appear on the product surface itself."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Only one verified good product image is available; it shows a greenhouse interior rather than the ideal exterior view of a compact mini greenhouse unit.",
+    "product_identity": [
+      "Enclosed growing structure with transparent or translucent covering (polycarbonate panels or polyfilm) over a metal (GI/MS) or PVC pipe frame",
+      "Walk-in scale consistent with home/terrace/nursery use — typically tunnel, dome, or arch shape with a visible door"
+    ],
+    "acceptable_scenes": [
+      "Exterior view of complete mini greenhouse structure in garden, terrace, or nursery setting",
+      "Interior view showing growing plants, ventilation, and structural frame — acceptable if scale is clearly compact/mini"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "151189110",
+        "reason": "Image shows the interior of a greenhouse with hydroponic growing tables, shade net ceiling, and industrial fans — a greenhouse interior is visible but the scale and setup represent a large commercial hydroponic facility rather than a compact mini greenhouse.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show greenhouse-related structures but at wrong scale, wrong angle, or with opaque/non-transparent covering that obscures key buyer-decision features.",
+    "thinness_signals": [
+      "Structure photographed from extreme distance — frame material, covering type, and door are not discernible",
+      "Covering material appears opaque rather than transparent — buyer cannot assess light transmission or covering type",
+      "Open-sided canopy structure shown instead of enclosed greenhouse — key enclosure feature not visible"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "96933970",
+        "reason": "Image shows a large commercial polyhouse complex with dozens of arch-shaped bays photographed from a great distance across a field — scale is clearly large commercial agricultural, not a mini greenhouse, and no structural detail is discernible."
+      },
+      {
+        "photo_url": null,
+        "item_id": "174319301",
+        "reason": "Image shows a dome/arch-shaped structure with an opaque white covering over a metal pipe frame in a nursery context with potted plants — the covering appears opaque rather than transparent and sides are open, making key greenhouse features (enclosed walls, transparent covering) not visible."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show industrial prefabricated steel buildings, shade net installations, or conservatory structures — entirely wrong product types for the Mini Greenhouse MCAT.",
+    "failure_classes": [
+      {
+        "class": "prefabricated_steel_building",
+        "description": "Image shows a large industrial or commercial prefabricated steel building — steel columns, beams, metal cladding panels, construction cranes, or multi-storey steel frames — with no greenhouse or plant-growing context.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "48253540"
+          },
+          {
+            "photo_url": null,
+            "item_id": "71228770"
+          },
+          {
+            "photo_url": null,
+            "item_id": "154931260"
+          },
+          {
+            "photo_url": null,
+            "item_id": "183431252"
+          }
+        ],
+        "detection_signal": "Steel columns, beams, metal cladding, construction cranes, or multi-storey steel frames visible; no transparent covering, no plants, no growing context.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "shade_net_open_field_installation",
+        "description": "Image shows a large open-field agricultural shade net stretched over GI pipe frames — no enclosed structure, no transparent covering, large agricultural scale.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "307969670"
+          }
+        ],
+        "detection_signal": "Green or white HDPE shade net over open-field GI pipe frames; no enclosed walls, no door, large agricultural scale.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "conservatory_or_rooftop_room",
+        "description": "Image shows a rooftop glass/UPVC enclosure with large sliding glass doors and steel frame — a conservatory or habitable room structure, not a horticultural mini greenhouse.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "281662896"
+          }
+        ],
+        "detection_signal": "Large glass sliding doors, UPVC frames, habitable room context on rooftop — no growing trays, no polyfilm/polycarbonate horticultural covering.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Only one verified good product title is available; strong mini greenhouse titles should name the product type, covering material, frame material, and application.",
+    "strong_positive_signals": [
+      "Explicit 'Mini Greenhouse' or 'Mini Green House' product name",
+      "Covering material named (polycarbonate, polyfilm, poly sheet, UV film)",
+      "Application named (terrace garden, nursery, home gardening)",
+      "Frame material named (GI pipe, MS pipe, PVC)"
+    ],
+    "structural_patterns": [
+      "[Covering Material] Mini Greenhouse for [Application]",
+      "Mini [Shape] Greenhouse — [Frame Material] Frame, [Covering Material] Cover",
+      "[Brand] Mini Greenhouse — [Size] [Application]"
+    ],
+    "examples": {
+      "extreme_good": [],
+      "acceptable": [
+        {
+          "item_id": "151189110",
+          "title": "Mini Green houses",
+          "reason": "Title directly names the MCAT product ('Mini Green houses') but lacks covering material, frame type, size, or application — acceptable but not extreme good."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name the correct product but omit covering material, frame type, size, or application — leaving buyers without key decision-making information.",
+    "thinness_signals": [
+      "Title contains only 'Mini Greenhouse' or 'Mini Green house' with no additional attributes",
+      "Title contains trailing punctuation or filler characters with no substantive product attributes",
+      "Title omits covering material (polycarbonate vs. polyfilm) — the primary buyer differentiator"
+    ],
+    "examples": [
+      {
+        "item_id": "151189110",
+        "title": "Mini Green houses",
+        "reason": "Title names the product correctly but provides no covering material, frame type, size, or application."
+      },
+      {
+        "item_id": "307969670",
+        "title": "Mini Greenhouse .",
+        "reason": "Title has a trailing period and zero substantive attributes — no material, size, frame type, or application."
+      },
+      {
+        "item_id": "174319301",
+        "title": "Mini Green house",
+        "reason": "Title names the product correctly but provides no covering material, frame type, size, or application."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles contain 'Prefabricated Steel Building/Structure' tokens that actively signal an industrial building product, not a mini greenhouse.",
+    "failure_classes": [
+      {
+        "class": "prefabricated_steel_building_title",
+        "signal": "Title contains 'Prefabricated Steel Building,' 'Steel Prefabricated Buildings,' or 'Prefabricated Steel Structure' — tokens that actively identify an industrial building product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "48253540",
+            "title": "Prefabricated Steel Buildings",
+            "reason": "Title names an industrial steel building product — no greenhouse or plant-growing signal present.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "71228770",
+            "title": "Prefabricated Steel Building",
+            "reason": "Title names an industrial steel building product — no greenhouse or plant-growing signal present.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "154931260",
+            "title": "Prefabricated Steel Buildings",
+            "reason": "Title names an industrial PEB shed product — no greenhouse or plant-growing signal present.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "183431252",
+            "title": "Steel Prefabricated Buildings",
+            "reason": "Title names an industrial steel building product — no greenhouse or plant-growing signal present.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "281662896",
+            "title": "Prefabricated Steel Structure",
+            "reason": "Title names a generic prefabricated steel structure — no greenhouse or plant-growing signal present.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "agricultural_polyhouse_title",
+        "signal": "Title contains 'Agricultural' modifier combined with 'Greenhouse' or 'Polyhouse' — signals a large commercial agricultural polyhouse, not a mini greenhouse.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "96933970",
+            "title": "Agricultural Poly Green House",
+            "reason": "Title signals a large commercial agricultural polyhouse — 'Agricultural' modifier and absence of 'mini' indicate large-scale commercial product.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily large prefabricated steel buildings and large commercial agricultural polyhouses that have been incorrectly listed in the Mini Greenhouse MCAT.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "prefabricated_steel_building",
+        "signal": "Title, specs, or description contains 'Prefabricated Steel Building,' 'PEB,' 'industrial shed,' 'warehouse,' or 'factory' — indicating an industrial steel building product with no greenhouse or plant-growing function.",
+        "examples": [
+          {
+            "item_id": "48253540",
+            "title": "Prefabricated Steel Buildings",
+            "reason": "Product is a prefabricated steel factory building — steel material, factory usage, no greenhouse attributes.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "71228770",
+            "title": "Prefabricated Steel Building",
+            "reason": "Product is a prefabricated steel building for house/industrial use — no greenhouse attributes.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "154931260",
+            "title": "Prefabricated Steel Buildings",
+            "reason": "Product is an industrial PEB shed/warehouse — explicitly named in description.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "183431252",
+            "title": "Steel Prefabricated Buildings",
+            "reason": "Product is a PEB/industrial steel structure with mezzanine floors and warehouses — no greenhouse attributes.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Steel Buildings"
+      },
+      {
+        "class": "prefabricated_portable_cabin_structure",
+        "signal": "Title or description contains 'portable cabin,' 'portable resort,' or 'prefabricated steel structure' with no greenhouse or plant-growing context.",
+        "examples": [
+          {
+            "item_id": "281662896",
+            "title": "Prefabricated Steel Structure",
+            "reason": "Product is a prefabricated portable cabin/conservatory — description explicitly names portable cabins and portable resort.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Structures"
+      },
+      {
+        "class": "large_commercial_agricultural_polyhouse",
+        "signal": "Specs state greenhouse length >50m or span >6m, or title/description uses 'Agricultural Greenhouse' or 'Polyhouse' without 'mini' qualifier — indicating a large commercial polyhouse, not a mini greenhouse.",
+        "examples": [
+          {
+            "item_id": "96933970",
+            "title": "Agricultural Poly Green House",
+            "reason": "Specs state Length 100–300m and Span 9–12m — large commercial agricultural polyhouse dimensions, not mini greenhouse.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Agricultural Greenhouses"
+      },
+      {
+        "class": "shade_net_material_product",
+        "signal": "Description describes a shade net material/brand (e.g., 'Shadenet,' 'HDPE shade net') rather than a complete greenhouse structure — actual product is a covering material, not a prefabricated greenhouse.",
+        "examples": [
+          {
+            "item_id": "307969670",
+            "title": "Mini Greenhouse .",
+            "reason": "Description describes 'Fynofim Green Shadenet' — a shade net material product, not a mini greenhouse structure.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images analysed visually from image_base64."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion values drawn only from confirmed taxonomy siblings: 'Agricultural Greenhouses,' 'Prefabricated Steel Buildings,' 'Prefabricated Structures' — all verified in provided sibling list."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (walk-in polycarbonate/polyfilm mini greenhouse for home/nursery use) and mcat_description used to ground all category belonging decisions; large commercial polyhouses (100–300m) and industrial steel buildings confirmed as wrong-category products."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
