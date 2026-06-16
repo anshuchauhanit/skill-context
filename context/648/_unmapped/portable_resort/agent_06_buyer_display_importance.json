@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual variation across sub-types — wooden cottage, steel cabin, glamping dome, container resort, bamboo hut — each has a distinct aesthetic. Buyers have a site concept and visual brief; wrong style = immediate skip before any text is read."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Structure material, floor area, furnishing level, and occupancy are the primary shortlisting gates. A listing without these specs cannot be evaluated for project fit — buyers cannot determine whether the unit matches their site requirement or guest capacity."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian hospitality developers compare per-sq-ft or per-unit rates across multiple suppliers after visual and spec shortlisting. Price varies substantially with structure material, floor area, and furnishing level — buyers need it to assess budget feasibility before contacting a seller."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Custom panel-build resort rooms are quoted per sq ft (dominant); standard factory-assembled cabin units are quoted per piece. Both units coexist in the market — price cannot be compared without knowing which unit applies to a given listing.",
+      "reason": "Per sq ft vs per piece is a genuine market ambiguity between custom-build and factory-cabin sellers. A buyer comparing two listings cannot assess value without the unit being explicitly shown alongside the price."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand exists in the Indian portable resort market; the market is fragmented across regional fabricators and buyers search by material, style, and price rather than manufacturer name.",
+      "reason": "Portfolio of completed resort projects, pan-India delivery capability, and turnkey installation track record are evaluated during vendor selection — particularly for large multi-unit deployments. Company matters but only after visual, spec, and price shortlisting are complete."
+    }
+  ]
+}
