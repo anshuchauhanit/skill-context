@@ -1,0 +1,51 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Location (city/micromarket), property type, and capacity are the primary shortlisting gates — a buyer cannot evaluate any listing without confirming these three dimensions match their requirement. Wrong city or wrong workspace format = immediate skip regardless of all other signals."
+    },
+    {
+      "rank": 2,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "ocr_showcase": false,
+      "reason": "Workspace ambience, fit-out quality, and modernity are significant purchase signals — buyers shortlist based on visual appeal of the space, and a listing with no image or a poor-quality image loses credibility immediately in a category where the physical environment is the product."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": {
+        "primary_type": "spec-driven",
+        "secondary_modifier": "also-regional",
+        "display_instruction": "show_price",
+        "determination_note": "Office space price varies substantially by property type (coworking hot desk vs private managed office), capacity tier, furnishing status, and city/micromarket — buyers cannot meaningfully compare prices without knowing the spec configuration, making spec the primary price driver, with regional variance (city and micromarket) as a strong secondary modifier."
+      },
+      "reason": "Indian B2B buyers are price-aggressive and compare per-seat or per-sq-ft rates across operators; price is a hard shortlisting gate after location, type, and capacity confirm fit, and the listed rate is the primary basis for initial engagement."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per seat per month",
+      "unit_note": "Two coexisting units in this MCAT: per seat/month (coworking/flex) and per sq ft/month (traditional lease/sale). Mixing these without labelling creates direct price comparison errors — a buyer comparing a per-seat quote with a per-sq-ft quote cannot assess value without the unit. Per seat/month is dominant for the primary segment (flex/coworking); per sq ft/month applies to traditional lease and sale transactions.",
+      "reason": "Price cannot be compared across listing types without knowing the unit — per seat/month vs per sq ft/month is a real market ambiguity that causes buyers to misread value; unit must always be shown alongside price in this category."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Recognised flex operators (WeWork India, Awfis, Regus, Smartworks, IndiQube, 91 Springboard) carry brand weight as quality and reliability signals; enterprise buyers actively specify or prefer named operators, and ownership type (direct owner vs broker) is a trust signal for traditional lease listings.",
+      "reason": "Operator brand is a meaningful trust and quality signal in the premium flex segment, and direct-owner vs broker distinction affects negotiation and reliability confidence for traditional lease buyers — company ranks last but is not irrelevant."
+    }
+  ]
+}
