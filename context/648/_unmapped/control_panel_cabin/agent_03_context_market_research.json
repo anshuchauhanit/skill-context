@@ -1,0 +1,379 @@
+{
+  "mcat_description": {
+    "short": "A Control Panel Cabin is a prefabricated, skid-mounted or modular steel structure designed to house industrial electrical control panels — such as MCC, APFC, PLC, VFD, and SCADA panels — at industrial sites, substations, and infrastructure projects. Sold as a complete custom-built unit, typically fabricated from mild steel or GI sheet with insulation, ventilation, and electrical fittings.",
+    "long": "Control Panel Cabins are prefabricated walk-in or skid-mounted enclosure structures built to protect and house electrical control equipment including Motor Control Centres (MCC), APFC panels, PLC/SCADA systems, VFD panels, and distribution boards in outdoor or semi-outdoor industrial environments. Constructed primarily from mild steel (MS) or galvanised iron (GI) sheet with options for PUF insulation, false ceiling, anti-skid flooring, and integrated ventilation or air conditioning, these cabins are custom-fabricated to buyer-specified dimensions and electrical load requirements. They are widely deployed at power substations, water treatment plants, manufacturing facilities, oil & gas installations, solar power plants, and infrastructure project sites where permanent building construction is impractical. In the Indian market, these structures are sold per piece as turnkey prefabricated units, with customisation covering size, material grade, IP protection level, insulation type, and internal electrical fittings.",
+    "product_types": [
+      "APFC Panel Cabin",
+      "MCC (Motor Control Centre) Panel Cabin",
+      "PLC/SCADA Control Room Cabin",
+      "VFD Panel Cabin",
+      "Electrical Control Room Cabin",
+      "Substation Control Cabin",
+      "Modular Control Room",
+      "Portable Control Panel Cabin",
+      "Skid-Mounted Control Panel Cabin",
+      "Air-Conditioned Control Panel Cabin",
+      "Insulated Control Panel Cabin (PUF)"
+    ],
+    "primary_applications": [
+      "Housing MCC and APFC panels at industrial manufacturing plants",
+      "Electrical control rooms at water treatment and sewage treatment plants",
+      "Substation control buildings for power distribution projects",
+      "PLC/SCADA control rooms at oil & gas and petrochemical sites",
+      "Solar power plant inverter and control panel housing",
+      "Temporary or permanent control rooms at construction and infrastructure project sites",
+      "VFD panel enclosures for pump houses and motor control applications"
+    ],
+    "buyer_segments": [
+      "EPC contractors and project management consultants",
+      "Industrial plant owners and facility managers",
+      "Power sector utilities and substation developers",
+      "Water and wastewater treatment plant operators",
+      "Oil & gas and petrochemical plant operators",
+      "Solar and renewable energy project developers",
+      "Government infrastructure departments (PWD, CPWD, irrigation)",
+      "Electrical panel manufacturers requiring site-ready housing solutions"
+    ]
+  },
+  "primary_segment": "Prefabricated mild steel cabin/room for housing industrial electrical control panels (MCC, APFC, PLC, VFD) at industrial and infrastructure sites",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated structural cabin/room for housing industrial electrical control panels at site",
+    "secondary_families": [],
+    "reason": "The MCAT represents a coherent single product family — a prefabricated building structure for housing control panels — with no sibling MCAT carving out an incompatible sub-type under a different regulatory regime; the main contamination risk is wrong-product listings (panel enclosure cabinets vs. prefabricated cabin structures), which is handled by wrong_mcat_classifier, not a vagueness signal."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "control panel cabin",
+      "APFC panel cabin",
+      "electrical control room cabin",
+      "prefabricated control room",
+      "MCC panel cabin",
+      "modular control room",
+      "panel room cabin",
+      "electrical cabin",
+      "portable control room",
+      "skid mounted control room"
+    ],
+    "technical_synonyms": [
+      "E-house (electrical house)",
+      "prefabricated electrical building",
+      "modular electrical room",
+      "skid-mounted control building",
+      "prefab control room structure",
+      "electrical equipment room (EER)",
+      "packaged substation building"
+    ],
+    "trade_names": [
+      "MS control cabin",
+      "GI panel cabin",
+      "PUF insulated control cabin",
+      "AC control room cabin",
+      "portable panel room"
+    ],
+    "hindi_terms": [
+      "control panel cabin",
+      "bijli panel cabin",
+      "prefab control room"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated control panel cabin for industrial use",
+      "APFC panel cabin manufacturer India",
+      "mild steel electrical control room cabin",
+      "modular MCC panel cabin for plant",
+      "portable control room cabin for substation",
+      "insulated control panel cabin with AC",
+      "skid mounted electrical cabin for site",
+      "prefab cabin for PLC SCADA panel"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Control Panel Cabins are custom-fabricated complete structures sold as individual units; Indian B2B transactions quote per piece as each cabin is a discrete, project-specific deliverable with unique dimensions and fittings.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Large custom modular control rooms",
+        "unit": "per square foot",
+        "note": "Some larger modular control room structures are quoted per sq ft of floor area when dimensions are highly variable"
+      },
+      {
+        "sub_segment": "Standard portable cabins",
+        "unit": "per piece",
+        "note": "Standard-size portable control cabins always quoted per piece"
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART MCAT listing tiles (structural observation)",
+      "World knowledge — Indian B2B prefabricated structure quoting norms"
+    ],
+    "confidence": "medium"
+  },
+  "market_context": "Control Panel Cabins in India are prefabricated steel structures (distinct from panel enclosures/cabinets) used to house electrical control equipment at industrial and infrastructure sites. The dominant construction material is mild steel (MS) sheet, with GI sheet and PUF sandwich panel variants for insulated or weatherproof applications. Key differentiators in the Indian market include insulation type (PUF vs. non-insulated), air conditioning provision, IP/weatherproofing level, and internal electrical fittings. APFC panel cabins represent a well-recognised sub-type in India, driven by electricity board power factor penalty regulations that make APFC installations mandatory for large industrial consumers. MCC panel cabins are the other dominant sub-type, widely used in manufacturing and infrastructure projects. The Indian market is served by a fragmented base of fabricators and portable cabin manufacturers concentrated in Gujarat (Ahmedabad, Mahesana), Maharashtra (Nagpur, Thane), and Karnataka (Bellary). Buyers are predominantly EPC contractors, plant owners, and government infrastructure agencies who procure on a project basis. The product sits at the intersection of the prefabricated structures industry and the electrical panel industry — sellers may be either cabin fabricators or electrical panel manufacturers who add cabin fabrication capability. A critical naming distinction: 'Control Panel Cabin' (this MCAT — a prefabricated room/structure) must not be confused with 'Control Panel Enclosure' or 'Control Panel Cabinet' (a sheet-metal box that houses panel components — a separate product category).",
+  "buyer_attracting_attributes": [
+    "Cabin Size / Dimensions (L x W x H)",
+    "Material (Mild Steel / GI / PUF Sandwich Panel)",
+    "Insulation Type (PUF / Rockwool / Non-insulated)",
+    "Air Conditioning / Ventilation Provision",
+    "IP / Weatherproofing Rating",
+    "Panel Type Housed (APFC / MCC / PLC / VFD)",
+    "Wall Thickness / Sheet Gauge",
+    "Flooring Type (Anti-skid / Chequered Plate)",
+    "Portability / Skid-Mounted vs. Fixed Foundation",
+    "Internal Electrical Fittings (Lighting, DB, Cable Entry)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "117803",
+    "mcat_name": "Control Panel Cabin",
+    "mcat_level": "4",
+    "listing_count": "214",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Control Panel Cabin",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "68070.0",
+      "name": "Control Panel Accessories",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "68070.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "7254",
+        "mcat_name": "Power Distribution Equipment",
+        "listing_count": "706",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "24371",
+        "mcat_name": "Collet Knobs",
+        "listing_count": "146",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "26020",
+        "mcat_name": "Control Knobs",
+        "listing_count": "633",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33845",
+        "mcat_name": "Panel Switches",
+        "listing_count": "1395",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35495",
+        "mcat_name": "Potentiometer Knob",
+        "listing_count": "291",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "68070",
+        "mcat_name": "Control Panel Accessories",
+        "listing_count": "2558",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "80519",
+        "mcat_name": "Access Panel",
+        "listing_count": "699",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85092",
+        "mcat_name": "Control Components",
+        "listing_count": "360",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "107412",
+        "mcat_name": "Instrument Panel Cover",
+        "listing_count": "193",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "111149",
+        "mcat_name": "LED Semaphore Indicators",
+        "listing_count": "108",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "115990",
+        "mcat_name": "Panel Board Accessories",
+        "listing_count": "1761",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141770",
+        "mcat_name": "Bus Duct Indoor Panels",
+        "listing_count": "321",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "144526",
+        "mcat_name": "VCB Panel Spares",
+        "listing_count": "1115",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149937",
+        "mcat_name": "Drawout Panel Accessories",
+        "listing_count": "79",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150978",
+        "mcat_name": "Bus Bar Assembly",
+        "listing_count": "135",
+        "source_pmcat": "68070.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 15,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "do_research": true,
+      "reason": "Control Panel Cabin is a prefabricated industrial structure with technical specs (dimensions, material, electrical capacity, ventilation). No single dominant brand anchors buyer search; buyers evaluate by functional specs and customisation options. Standard B2B industrial equipment research applies."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Keywords 'apfc panel cabin' and 'control panel cabin' confirmed APFC sub-type as real buyer search pattern and anchored primary keyword list."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "primary_segment"
+        ],
+        "citation_note": "Taxonomy path under Prefabricated Structures confirmed this MCAT is a prefabricated building structure, not a panel enclosure/cabinet. Listing count 214 accepted as plausible."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://sonceindia.com/electrical-panel.html",
+        "title": "Electrical Panel Enclosures — SONCE India",
+        "source_domain": "sonceindia.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used to confirm distinction between panel enclosures (sheet metal boxes) and control panel cabins (prefabricated structures); SONCE describes enclosures, not cabins — reinforces wrong-product contamination signal."
+      },
+      {
+        "url": "https://www.vemindustrialcontrol.com/apfc-panel",
+        "title": "APFC Panels Manufacturer in India — VEM",
+        "source_domain": "vemindustrialcontrol.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "alt_names.primary_keywords"
+        ],
+        "citation_note": "Confirmed APFC panel as a distinct sub-type with specific industrial applications (manufacturing, data centres, hospitals); supported APFC panel cabin as a real product sub-type in India."
+      },
+      {
+        "url": "https://bchindia.com/product/apfc-panel/",
+        "title": "APFC Panel — BCH India",
+        "source_domain": "bchindia.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "market_context"
+        ],
+        "citation_note": "Confirmed APFC panel applications across power plants, steel mills, sugar plants, cement plants, textile, hospitals — corroborated buyer segment list."
+      },
+      {
+        "url": "https://www.accupanels.com/apfc-panel/",
+        "title": "APFC Panel — Accu-Panels India",
+        "source_domain": "accupanels.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed APFC panels range from 30 kVAr to 1000 kVAr; corroborated industrial and commercial buyer segments."
+      },
+      {
+        "url": "https://e-vultureblogs.in/industrial-control-panel-enclosure-manufacturers/",
+        "title": "Top 10 Industrial Control Panel Enclosure Manufacturers — Chennai",
+        "source_domain": "e-vultureblogs.in",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed Chennai as a manufacturing hub for panel enclosures; used to reinforce product distinction between enclosures and cabins, and to note Indian manufacturing geography."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Control Panel Cabin is a prefabricated industrial structure with technical specs (dimensions, material, electrical capacity, ventilation). No single dominant brand anchors buyer search; buyers evaluate by functional specs and customisation options. Standard B2B industrial equipment research applies."
+    }
+  }
+}
