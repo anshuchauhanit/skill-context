@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Cattle Sheds' maps to a tightly bounded product concept — prefabricated/semi-permanent livestock housing structures — with homogeneous buyer intent (livestock farmers and agri-entrepreneurs) across all sub-types (dairy cow, buffalo, goat, sheep, calf, turnkey); 0 of 4 vagueness signals fire, and Agent 3 named a confident unhedged primary_segment.",
+    "is_generic: false because despite multiple animal-species sub-types, the buyer intent is coherent and bounded (someone building a livestock farm), not a diffuse catch-all; 1,830 listings with listing_count_suspect:false and comparable sibling 'Poultry Sheds' at 1,889 listings confirms sufficient standalone volume, ruling out is_thin."
+  ]
+}
