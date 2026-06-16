@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — basic GI sheet cabin, PUF panel modular home, LGSF villa-style, double-storey unit all look fundamentally different. Buyers use the image to identify structure type and livability standard before reading any text; wrong visual type causes immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Configuration (1BHK/2BHK), structure material (MS/GI/LGSF), wall panel type, and floor area are primary shortlisting gates. Without these specs a buyer cannot determine whether the structure meets their residential, labour camp, or institutional requirement."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq ft rate is the universal comparison metric in Indian construction. Buyers actively compare rates across sellers after visual and spec shortlisting; price varies substantially with structure material, insulation grade, and configuration, so it is spec-driven rather than a flat commodity rate."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard portable cabin units (10x12 ft, 10x20 ft) are sometimes quoted per unit by sellers — this creates direct price comparison confusion with per sq ft listings. Unit must be shown alongside price to prevent misreading.",
+      "reason": "Per sq ft is the dominant unit but per unit quoting exists for standard cabin sizes; a buyer comparing two listings cannot interpret price without knowing the unit, making this a necessary price qualifier."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Recognised national brands (Tata Nest-In, EPACK Prefab) exist but IndiaMART buyers predominantly search by spec and price; most sellers are regional fabricators and buyers do not search by manufacturer name.",
+      "reason": "Institutional and government buyers evaluate manufacturer credentials, installation track record, and service network during vendor selection; individual buyers assess seller reliability for a high-value, site-assembled purchase — but specs and price carry greater weight at the shortlisting stage."
+    }
+  ]
+}
