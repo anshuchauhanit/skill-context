@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Significant visual variation between sub-types — single FRP cabin, MS multi-seat block, combined toilet+bath, trailer-mounted unit. Buyers scan images to confirm product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Number of seats, wall material, configuration (toilet-only vs toilet+bath), and tank capacity are non-negotiable shortlisting criteria driven by labour camp headcount and site conditions. Listings without these specs cannot be evaluated."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Construction procurement buyers are price-aggressive and compare across sellers after spec match. Price varies substantially with seat count, wall material, and configuration — buyers use listed price as a budget entry gate before contacting sellers."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional FRP and MS fabricators; buyers search by spec and price, not manufacturer name.",
+      "reason": "Government/PSU buyers and EPC contractors evaluate manufacturer credentials, bulk supply reliability, and installation/warranty support during vendor selection; post-sale dependency is real but company ranks below spec and price in initial shortlisting."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Multi-seat blocks sold per unit/block; custom MS fabrications occasionally quoted per sq ft — sub-segment ambiguity exists but does not affect the primary single-cabin buyer experience.",
+      "reason": "Unit is overwhelmingly implied as per piece for the primary segment (single FRP/MS cabin). No buyer questions whether a portable toilet cabin is sold per piece."
+    }
+  ]
+}
