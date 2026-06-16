@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 alt_names and market_context confirm the primary segment is dairy farm shed construction and turnkey infrastructure setup — 'Dairy Farming' is a broad activity term that does not signal the infrastructure/construction nature of listings in this MCAT, risking misplaced listings for dairy equipment, training, and farm management services.",
+    "suggested_name": "Dairy Farm Shed"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail accurately shows a stall-fed dairy cow shed with steel structural framing, manger feeding rail, and Holstein-Friesian cows feeding — directly representing the primary segment of dairy farm shed construction and infrastructure.",
+      "Improvement is possible: the image is a real-farm photograph with a worker and feed cart visible, which reduces the clean product-showcase quality; an AI-generated or professionally staged image showing the shed structure more prominently (without livestock distraction) would better communicate the infrastructure/construction offering to B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a modern Indian dairy farm shed interior, loose housing system, steel tubular frame structure with corrugated metal roofing sheets, concrete RCC flooring with drainage gutter, green-painted steel manger feeding rail running along the length, clean empty stalls with cow cubicle partitions, bright natural daylight from open sides, no animals, no people, white or light-grey background visible through open shed sides, sharp architectural detail, professional B2B product photography style, warm natural lighting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
