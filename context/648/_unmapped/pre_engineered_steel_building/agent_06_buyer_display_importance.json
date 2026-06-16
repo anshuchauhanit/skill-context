@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is large — warehouse, aircraft hangar, modular cabin, multi-storey complex, and crane building are visually distinct. Buyers use the image to confirm building type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Span type, eave height, crane provision, and service scope are non-interchangeable shortlisting gates. A buyer requiring a 30m clear-span EOT crane building cannot evaluate a 12m multi-span no-crane listing — specs must be visible to enable any shortlisting decision."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Kirby, Interarch, Pennar, Tata BlueScope, and Zamil are actively searched by name by architects, EPC contractors, and institutional buyers; brand acts as a proxy for IS:800 compliance capability, erection track record, and post-sale service network.",
+      "reason": "PEB is a high-value capital project with long lead time and post-sale erection dependency. Institutional and government buyers run formal vendor qualification; IS:800 compliance, erection track record, and service network are evaluated before price. Seller identity is a primary trust signal equal in weight to specification."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "All PEB contracts are project-quoted after site visit and detailed design; listed per-sq-ft rates serve only as a budget entry point. India price sensitivity applies but price cannot be meaningfully compared across listings without spec equivalence — it is a qualification signal, not a primary shortlisting lever."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Per sq ft is dominant for turnkey contracts; large-span or complex projects (hangars, multi-storey) are quoted lump-sum per project. Supply-only fabricators quote per MT. Unit is contextually understood by all buyers in this category — no confusion risk.",
+      "reason": "No buyer in this category is confused about unit — they know they are buying a building system quoted per sq ft or per project. Unit ambiguity does not arise because price itself is project-negotiated, not a per-unit catalogue figure."
+    }
+  ]
+}
