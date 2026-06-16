@@ -1,0 +1,382 @@
+I'll work through the 7 steps systematically for **Prefab Steel Bunk House**.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Construction contractor, infrastructure developer, or PSU project authority procuring worker accommodation for a site.
+
+**Journey:**
+1. **First scan (listing tile):** Buyer scans images to identify the configuration — single-room vs double-decker vs multi-unit block, size/scale, build quality. Visual sub-type variation is high. Wrong configuration = immediate skip.
+2. **Opens listing — specs:** Checks occupancy capacity, footprint dimensions, wall panel type (insulation grade). These determine whether the unit fits the site's headcount and climate requirements.
+3. **Price check:** Compares per-sq-ft or per-piece price. Indian B2B buyers are price-aggressive; this is a significant procurement line item. Price is compared after spec fit is confirmed.
+4. **Unit verification:** Per sq ft vs per piece creates real comparison confusion — must be shown alongside price.
+5. **Company check:** Manufacturer vs trader, installation capability, service reach (Pan India vs regional). Post-sale dependency is real — installation, transport, and warranty matter.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is significant (single vs double-decker vs multi-module). Buyers cannot identify configuration from title alone.
+- **Specification:** High — occupancy, dimensions, and panel type are primary shortlisting gates. Without these, buyers cannot evaluate fit.
+- **Price:** High — large procurement line item; Indian contractors compare prices aggressively across sellers once spec fit is confirmed.
+- **Unit:** High — per sq ft vs per piece is a real market ambiguity; price cannot be compared without unit clarity.
+- **Company:** Medium — manufacturer status, installation capability, and service reach matter but are evaluated after spec/price shortlisting.
+
+---
+
+## Step 3 — Decision Questions Per Dimension
+
+**Image:** High visual variation between sub-types (single-room, double-decker, container-type, multi-module). Buyers use image to identify product type before reading specs. Absence = high skip rate. ✓ High.
+
+**Specification:** Occupancy and dimensions are non-interchangeable — a 5-person unit cannot substitute for a 15-person unit. Panel type determines climate suitability. Buyers shortlist on these specs. ✓ High.
+
+**Price:** Large capital procurement. Indian contractors compare per-sq-ft rates across sellers. Price is checked after spec confirmation but is a decisive shortlisting factor. `price_display_type`: "spec-driven price" — price changes substantially with dimensions, panel type, and occupancy configuration. Buyers discover across spec tiers. ✓ High.
+
+**Cross-dimension consistency check:**
+- Buyers discover across spec tiers (single-room vs double-decker vs PUF vs EPS) → `spec-driven price` ✓ AND specification = High ✓
+- Unit High → price must be at least Medium → price is High ✓
+- Not project-based price → unit show: true ✓
+- Specification show: true → show_on_listing: true ✓
+
+**Unit:** Per sq ft vs per piece is a documented market ambiguity (Agent 3 confirms both units are used). Price cannot be compared without knowing the unit. ✓ High. Canonical unit: per sq ft (dominant for custom/configured orders; per piece for standard catalogue sizes).
+
+**Company:** Manufacturer vs trader distinction matters; installation capability and Pan India service reach are evaluated during vendor selection. No dominant brand with buyer recall — market is fragmented across regional fabricators. ✓ Medium. `brand_important: no`.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "High visual variation across sub-types — single-room, double-decker, container-type, and multi-module configurations are visually distinct. Buyers use the image to identify the correct configuration before reading any text; wrong type = immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Occupancy capacity, footprint dimensions, and wall panel type are primary shortlisting gates. A unit that does not match the site's headcount or climate insulation requirement cannot be evaluated regardless of price."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Large procurement line item for Indian contractors who compare per-sq-ft rates aggressively across sellers. Price changes substantially with dimensions, panel type, and occupancy — buyers discover across spec tiers, making this a spec-driven price comparison."
+  },
+  {
+    "rank": 4,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Standard catalogue sizes (20x10, 40x10 ft) are also quoted per piece — unit must be shown to prevent price comparison confusion between per-sq-ft and per-piece listings.",
+    "reason": "Per sq ft vs per piece is a documented market ambiguity in this category. Price cannot be meaningfully compared across listings without knowing the unit basis."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant brand with buyer recall — market is fragmented across regional fabricators in Gujarat, Maharashtra, Karnataka, and Delhi-NCR; buyers search by spec and price, not manufacturer name.",
+    "reason": "Manufacturer vs trader status, installation capability, and Pan India service reach are evaluated during vendor selection. Post-sale dependency (transport, installation, warranty) is real but assessed after spec and price shortlisting."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+**Hard eliminations:**
+- **Service Location** (Pan India / Within State / Within City): application/logistics tag, not a product configurator. Discard.
+- **Use** (Toilet Block / Staff Accommodation / Office Cabin / Store Room / Labour Accommodation): use-case tag describing what the product is used FOR. Discard.
+- **Surface Finish** (Color Coated / Powder Coated / Paint Coated): consequence field — finish follows from the panel/sheet specification and is not independently configured by buyers as a price driver. Deprioritise.
+
+**Soft eliminations / redundancy check:**
+- **Built Type** (Modular / Prefab / Portable): largely overlaps with Mobility. Both describe the same dimension (how the structure is assembled/moved). Mobility is more precise and buyer-relevant. Deprioritise Built Type.
+- **Mobility** (Fixed / Relocatable / Portable): more precise than Built Type. Retain.
+- **Structure Material** (Light Gauge Steel / GI / Steel / MS): values are largely synonymous in this market (MS = Steel; GI ≈ Light Gauge Steel). Low differentiation across values — deprioritise as a configurator.
+
+**Remaining candidates:** Flooring Type, Insulation, Mobility, Occupancy, Structure Material, Wall Panel Type.
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Occupancy** (5-8 Person / 2-4 Person / 9-16 Person / Above 16 Person): Defines the scale of the unit — non-interchangeable. A 2-4 person unit cannot substitute for a 9-16 person unit. Directly determines footprint, material quantity, and price. Largest price delta across values. **Rank 1.**
+
+**Wall Panel Type** (EPS Panel / Insulated Panel / PUF Panel / Sheet Cladding): Defines the insulation and structural quality tier. PUF panels command a significant premium over EPS and sheet cladding. Climate suitability (hot/cold sites) is determined by panel type. Non-interchangeable across project requirements. **Rank 2.**
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list (verbatim copy):**
+Built Type, Flooring Type, Insulation, Mobility, Occupancy, Service Location, Structure Material, Surface Finish, Use, Wall Panel Type
+
+**Step 3b/3c — Candidate gaps:**
+
+From Agent 3 `vision_output` and LLM world knowledge:
+
+1. **Dimensions / Footprint (Length × Width):** Agent 3 explicitly identifies standard footprints (20×10, 40×10 ft) as primary commercial configurations. Buyers specify dimensions as a primary requirement. Cross-reference against `specs_in_seller_list`: "Occupancy" captures headcount but NOT physical dimensions — a buyer needing a 40×10 ft unit for a specific site layout cannot determine fit from occupancy alone. Not semantically equivalent to any existing spec. **Confirmed missing.**
+
+2. **Number of Storeys / Configuration (Single Storey / Double Decker / Multi-Storey):** Agent 3 identifies double-decker and multi-module configurations as distinct product types. This is a non-interchangeable structural variant — a double-decker unit has different structural requirements, transport logistics, and price. Not captured by any existing spec. **Confirmed missing.**
+
+3. **Roofing Type:** Agent 3 mentions colour-coated GI and Galvalume roofing as key materials. Cross-reference: not present in spec list. However, roofing type is typically a secondary spec in this category — buyers specify panel type and insulation first; roofing follows. Below the top-10 importance threshold. **Exclude.**
+
+4. **Insulation** is already in the list — confirmed present. ✓
+
+**Missing important specs confirmed:** Dimensions/Footprint and Number of Storeys.
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → **partial**
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Capacity (People)** (8-10 / 4-6 / 10-12 / 15-20 / 2-4): Directly communicates the scale of accommodation required. Sellers use this to determine which unit size/configuration to offer and whether they can supply it. Non-interchangeable — a seller with only small units cannot serve a 15-20 person requirement. **Rank 1.**
+
+**Size (LxW) ft** (20×10 / 40×10 / 30×10 / 20×8 / 40×8): Physical footprint determines site fit and transport logistics. Sellers need this to confirm they manufacture the required size and to price accurately. **Rank 2.**
+
+### Phase 2 — Thumbnail Eligibility
+
+**Capacity (People):** Numeric range spec — no meaningful visual difference between "4-6 people" and "15-20 people" as a thumbnail image. `thumbnail_eligible: false`.
+
+**Size (LxW) ft:** Dimensional spec — no visually distinguishable thumbnail per size value. `thumbnail_eligible: false`.
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Source 1 — Agent 3 vision_output:** Market context identifies wall panel type (PUF vs EPS vs sheet cladding) as a key differentiator. Buyer segments include climate-sensitive deployments (mining camps, remote industrial sites) where insulation grade is a primary requirement.
+
+**Source 2 — LLM world knowledge:** Indian B2B buyers for prefab bunk houses commonly specify: (a) wall/panel type for insulation grade, (b) number of storeys (single vs double-decker), (c) whether toilet block is attached.
+
+**Cross-reference against buyer_spec_list:** Capacity (People), Size (LxW) ft, Frame Material.
+
+- **Wall Panel Type / Insulation Grade:** Not in buyer spec list. Sellers need this to determine which panel system to quote (PUF vs EPS vs sheet cladding — significant price difference). Source: both. `would_be_rank: 1` — more important than Capacity (People) because it determines the product's climate suitability and price tier before headcount is even relevant. `thumbnail_eligible: true` — EPS panel, PUF panel, and sheet cladding are visually distinct panel types that can be depicted as thumbnail images. `thumbnail_options: ["PUF Panel", "EPS Sandwich Panel", "Sheet Cladding"]`.
+
+- **Number of Storeys:** Not in buyer spec list. Single-storey vs double-decker is a non-interchangeable structural variant — sellers cannot quote without knowing this. Source: both. `would_be_rank: 2` — determines structural complexity and price tier. `thumbnail_eligible: true` — single-storey and double-decker bunk houses are visually distinct. `thumbnail_options: ["Single Storey", "Double Decker"]`.
+
+- **Frame Material** is already in the buyer spec list. ✓
+
+**Coverage verdict:** 2 missing specs → **partial**
+
+### Phase 4 — Image Upload Assessment
+
+**Image upload recommended: false.** Standard spec values (capacity, size, panel type, storeys) adequately capture the buyer's requirement. Sellers can respond accurately from text specs alone; post-connection discussion handles remaining customisation (door/window count, fittings, colour).
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs`: none eligible (both false)
+- `missing_important_specs`:
+  - Wall Panel Type: `thumbnail_eligible: true`, options: ["PUF Panel", "EPS Sandwich Panel", "Sheet Cladding"]
+  - Number of Storeys: `thumbnail_eligible: true`, options: ["Single Storey", "Double Decker"]
+
+Total: 5 prompts (3 + 2).
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — single-room, double-decker, container-type, and multi-module configurations are visually distinct. Buyers use the image to identify the correct configuration before reading any text; wrong type = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Occupancy capacity, footprint dimensions, and wall panel type are primary shortlisting gates. A unit that does not match the site's headcount or climate insulation requirement cannot be evaluated regardless of price."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Large procurement line item for Indian contractors who compare per-sq-ft rates aggressively across sellers. Price changes substantially with dimensions, panel type, and occupancy — buyers discover across spec tiers, making this a spec-driven price comparison."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard catalogue sizes (20x10, 40x10 ft) are also quoted per piece — unit must be shown to prevent price comparison confusion between per-sq-ft and per-piece listings.",
+      "reason": "Per sq ft vs per piece is a documented market ambiguity in this category. Price cannot be meaningfully compared across listings without knowing the unit basis."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall — market is fragmented across regional fabricators in Gujarat, Maharashtra, Karnataka, and Delhi-NCR; buyers search by spec and price, not manufacturer name.",
+      "reason": "Manufacturer vs trader status, installation capability, and Pan India service reach are evaluated during vendor selection. Post-sale dependency (transport, installation, warranty) is real but assessed after spec and price shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Occupancy",
+        "reason": "Defines the scale of the unit — non-interchangeable across headcount requirements — and is the primary driver of footprint, material quantity, and price delta across all values."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Type",
+        "reason": "PUF panels command a significant premium over EPS and sheet cladding, and climate suitability for remote/mining sites is determined by panel type — non-interchangeable across project requirements."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Flooring Type",
+      "Insulation",
+      "Mobility",
+      "Occupancy",
+      "Service Location",
+      "Structure Material",
+      "Surface Finish",
+      "Use",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Dimensions (Length x Width)",
+        "why_important": "Buyers specify physical footprint (20x10, 40x10 ft) as a primary site-fit requirement — occupancy alone does not communicate whether the unit fits the available site layout or transport constraints.",
+        "source": "both",
+        "example_values": ["20 x 10 ft", "40 x 10 ft", "30 x 10 ft", "20 x 8 ft"]
+      },
+      {
+        "spec_name": "Number of Storeys",
+        "why_important": "Single-storey vs double-decker is a non-interchangeable structural variant with different transport logistics, foundation requirements, and price — sellers cannot quote accurately without knowing this.",
+        "source": "both",
+        "example_values": ["Single Storey", "Double Decker", "Triple Storey"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Capacity (People)",
+        "reason": "Directly communicates the scale of accommodation required — sellers use this to determine which unit size and configuration to offer and whether they can supply it.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Size (LxW) ft",
+        "reason": "Physical footprint determines site fit and transport logistics — sellers need this to confirm they manufacture the required size and to price accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall Panel Type",
+        "why_important": "Sellers need panel type to determine which insulation system to quote — PUF, EPS, and sheet cladding have significantly different prices and climate suitability profiles.",
+        "source": "both",
+        "example_values": ["PUF Panel", "EPS Sandwich Panel", "Sheet Cladding"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["PUF Panel", "EPS Sandwich Panel", "Sheet Cladding"]
+      },
+      {
+        "spec_name": "Number of Storeys",
+        "why_important": "Single-storey vs double-decker is a non-interchangeable structural variant — sellers cannot determine structural complexity, transport requirements, or price without this information.",
+        "source": "both",
+        "example_values": ["Single Storey", "Double Decker"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Single Storey", "Double Decker"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Wall Panel Type",
+      "option_value": "PUF Panel",
+      "id": "spec_1",
+      "prompt_for_generation": "Cross-section view of a prefab steel bunk house wall panel showing thick polyurethane foam (PUF) core sandwiched between two steel sheets, panel edge clearly visible, white background, studio lighting, no branding, label 'PUF Panel' visible on panel face.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Panel Type",
+      "option_value": "EPS Sandwich Panel",
+      "id": "spec_2",
+      "prompt_for_generation": "Cross-section view of a prefab steel bunk house wall panel showing expanded polystyrene (EPS) foam core between two colour-coated steel sheets, panel edge clearly visible, white background, studio lighting, no branding, label 'EPS Panel' visible on panel face.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Panel Type",
+      "option_value": "Sheet Cladding",
+      "id": "spec_3",
+      "prompt_for_generation": "Exterior view of a prefab steel bunk house wall section with plain GI sheet cladding — flat corrugated metal sheet panels without foam insulation, visible fasteners, white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Storeys",
+      "option_value": "Single Storey",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior view of a single-storey prefab mild steel bunk house unit, 20x10 ft footprint, colour-coated GI roof, aluminium sliding windows, door on short end, placed on flat ground at a construction site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Storeys",
+      "option_value": "Double Decker",
+      "id": "spec_5",
+      "prompt_for_generation": "Exterior view of a double-decker prefab mild steel bunk house — two stacked storeys with external staircase on the side, colour-coated GI roof, multiple windows on both floors, placed at a construction site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
