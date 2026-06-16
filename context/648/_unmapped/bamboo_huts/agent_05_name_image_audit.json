@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Bamboo Huts' directly matches the top primary keyword and trade vocabulary confirmed across Agent 3 alt_names and market_context; it is the dominant search term used by both buyers and sellers in the Indian B2B hospitality and eco-tourism segment.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a genuine bamboo-pole-and-thatch hut structure that correctly represents the MCAT product — no wrong product, brochure, or seller watermark obstruction is present.",
+      "However, the image appears to be a low-resolution, outdoor field photograph with a cluttered rural background and no staging; it does not convey the hospitality/eco-tourism primary segment (resort-quality finish, clean presentation) and would benefit significantly from a professionally rendered or staged image of a resort-grade bamboo cottage."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated bamboo resort cottage with treated golden-yellow bamboo pole walls, a neatly thatched conical roof, a small wooden deck with bamboo railing at the entrance, set against a lush green tropical garden background with soft natural daylight. The structure is clean, well-finished, and resort-quality. Square 1:1 composition, product centred, bright and inviting atmosphere, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
