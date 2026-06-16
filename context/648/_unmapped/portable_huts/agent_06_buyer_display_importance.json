@@ -1,0 +1,279 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — a bamboo eco-resort hut, a GI sheet security cabin, and a PUF panel labour accommodation are visually unrecognisable as the same product category. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Material/panel type, use application, and size are non-interchangeable shortlisting criteria — a PUF-insulated site office and a GI sheet security cabin cannot substitute for each other. Listings without these specs cannot be evaluated by procurement buyers."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian construction contractors compare per-sq-ft rates aggressively across sellers once material and use type are confirmed. Price delta between PUF panel and GI sheet huts is substantial — spec tier drives price, making this a spec-driven comparison signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard fixed-size security cabins and guard huts are also quoted per piece; both units are active in this MCAT. Per sq ft is dominant for custom labour camps and site offices. Unit must always be shown alongside price to prevent misreading.",
+      "reason": "Per sq ft vs per piece ambiguity is documented and real — a 10x20 ft hut quoted per piece vs per sq ft creates a price comparison error of 200x. Price cannot be interpreted without unit clarity."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — Tata Steel's Nest-In/MobiNest is a notable entrant but buyers do not search by brand name; market is fragmented across regional fabricators and buyers search by spec and price.",
+      "reason": "Manufacturer status, installation capability, and IS compliance track record matter for large institutional orders but are evaluated after spec and price shortlisting, not before."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Wall Panel Type",
+        "reason": "PUF panel vs EPS panel vs sheet cladding defines the thermal performance tier and drives the largest price delta in this category — non-interchangeable across insulation requirements."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Use",
+        "reason": "Each use type (security cabin, labour hut, site office, toilet block) requires a different structural configuration and fitting set — non-interchangeable and the primary product variant selector."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Flooring Type",
+      "Insulation",
+      "Material",
+      "Mobility",
+      "Service Location",
+      "Size",
+      "Surface Finish",
+      "Use",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Panel Thickness",
+        "why_important": "Buyers specify PUF panel thickness (40mm / 50mm / 60mm / 75mm) as a direct thermal performance and cost driver — the existing Insulation spec captures layer count only, not the thickness dimension that determines price.",
+        "source": "both",
+        "example_values": [
+          "40mm",
+          "50mm",
+          "60mm",
+          "75mm"
+        ]
+      },
+      {
+        "spec_name": "Electrical Fittings",
+        "why_important": "Site office and labour hut buyers specify whether basic wiring, full electrical fittings, or no electrical is included — this materially affects price and determines whether the seller can supply a turnkey unit.",
+        "source": "both",
+        "example_values": [
+          "No Electrical",
+          "Basic Wiring",
+          "Full Electrical Fittings",
+          "Solar Integrated"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Material defines the construction system and price tier — sellers need this to confirm they manufacture in the requested material and to provide an accurate per-sq-ft rate.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "GI / MS Sheet",
+          "FRP",
+          "PUF Panel",
+          "Bamboo",
+          "Wood",
+          "PVC"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area",
+        "reason": "Floor area is the primary cost driver for custom-built huts — sellers need this to calculate material quantity and provide a meaningful price.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Use / Application",
+        "why_important": "Sellers need the intended application (security cabin, labour hut, site office, toilet block) to confirm they supply the right structural configuration and fittings, and to price the unit accurately.",
+        "source": "both",
+        "example_values": [
+          "Security Cabin",
+          "Labour Hut",
+          "Site Office",
+          "Eco-Resort Cottage",
+          "Toilet Block"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Security Cabin",
+          "Labour Hut",
+          "Site Office",
+          "Eco-Resort Cottage",
+          "Toilet Block"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Material",
+      "option_value": "GI / MS Sheet",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated portable hut with galvanised iron and mild steel sheet cladding, corrugated GI roof, single door and window visible, placed on a construction site, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "FRP",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated portable hut constructed with smooth fibre reinforced plastic (FRP) panels, lightweight appearance, white or off-white finish, single door, placed outdoors on flat ground, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "PUF Panel",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated portable hut with insulated PUF sandwich panel walls and roof, clean flat panel joints visible, colour-coated steel skin in light grey or cream, single door and window, construction site background, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Bamboo",
+      "id": "spec_4",
+      "prompt_for_generation": "Portable hut constructed with natural bamboo frame and bamboo panel walls, thatched or bamboo slat roof, rustic eco-resort aesthetic, green natural surroundings, warm daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Wood",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated portable wooden hut with timber plank walls and sloped wooden roof, natural wood grain finish, single door with wooden frame, placed on flat ground in a resort or farm setting, warm daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "PVC",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated portable hut with white PVC panel walls and roof, smooth plastic surface finish, lightweight compact structure, single door, placed on a construction site or open ground, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Application",
+      "option_value": "Security Cabin",
+      "id": "spec_7",
+      "prompt_for_generation": "Small prefabricated steel security guard cabin, approximately 4x4 ft, with a sliding window at chest height for guard interaction, single door, placed at a site entrance gate, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Application",
+      "option_value": "Labour Hut",
+      "id": "spec_8",
+      "prompt_for_generation": "Prefabricated portable labour accommodation hut, rectangular structure approximately 10x20 ft, GI or PUF panel walls, multiple windows for ventilation, placed in a construction site labour camp setting, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Application",
+      "option_value": "Site Office",
+      "id": "spec_9",
+      "prompt_for_generation": "Prefabricated portable site office cabin, PUF panel construction, multiple windows, single entry door with steps, placed on a construction site with equipment visible in background, professional appearance, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Application",
+      "option_value": "Eco-Resort Cottage",
+      "id": "spec_10",
+      "prompt_for_generation": "Prefabricated portable eco-resort cottage hut with bamboo or wooden exterior, sloped thatched or wooden roof, veranda with railing, surrounded by greenery in a resort setting, warm natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Application",
+      "option_value": "Toilet Block",
+      "id": "spec_11",
+      "prompt_for_generation": "Prefabricated portable toilet block unit, FRP or GI panel construction, multiple individual cubicle doors visible on exterior, compact rectangular structure, placed on a construction site, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
