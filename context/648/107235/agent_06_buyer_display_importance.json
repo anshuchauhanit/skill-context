@@ -1,0 +1,443 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Residential homeowner or apartment resident in an Indian Tier-1/Tier-2 city who lacks covered parking and is browsing IndiaMART for a portable car shelter.
+
+**Journey sequence:**
+
+1. **Image first** — Buyer scans listing tiles. The image immediately tells them: Is this a fabric tent-style carport or a rigid panel structure? Does it look sturdy enough? Does it fit a car vs a bike? Visual sub-type variation is high (accordion vs telescopic vs flat-pack vs polycarbonate roof). Wrong visual type = immediate skip.
+
+2. **Specs next** — After image confirms the right type, buyer checks: How many cars does it fit? What is the frame material (steel vs aluminium)? What is the cover material (PVC vs polycarbonate)? Is it manual or motorised? These are the shortlisting gates — a buyer needing a 2-car motorised unit will not engage with a 1-car manual listing.
+
+3. **Price** — Indian residential buyers are price-sensitive. After confirming type and specs match, they compare prices across shortlisted listings. This is a mid-market consumer product with meaningful price variation across spec tiers. Price is a primary comparison signal once specs are confirmed.
+
+4. **Unit** — Folding garages are sold per piece/per set. This is entirely obvious. No buyer questions whether a folding garage is sold per piece. However, custom-fabricated carport structures may be quoted per sq ft — this creates mild ambiguity in a minority of listings.
+
+5. **Company** — Seller identity matters somewhat (warranty, after-sales support, installation assistance) but no dominant brands exist that buyers search for by name. Company is a trust qualifier, not a primary decision driver.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is significant; image is the fastest way to confirm product type and build quality impression.
+- **Specification:** High — vehicle capacity, frame material, operation type are non-interchangeable shortlisting criteria.
+- **Price:** High — Indian residential buyers compare prices aggressively; price is a primary comparison signal after spec confirmation. Meaningful price variation across spec tiers.
+- **Unit:** Low — per piece is entirely implied for a complete kit product. Custom per-sq-ft quoting is a minority edge case.
+- **Company:** Medium — no dominant brands; seller trust (warranty, installation support) matters but is not a primary shortlisting signal.
+
+---
+
+## Step 3 — Apply Decision Questions
+
+**Image:** Would visual identification be meaningfully reduced without a photo? Yes — accordion vs telescopic vs polycarbonate roof are visually distinct product types. Build quality (frame gauge, cover quality) is partially visible. High.
+
+**Specification:** Do buyers shortlist based on specs before contacting? Yes — vehicle capacity (1 car vs 2 car), operation type (manual vs motorised), frame material are non-interchangeable. High.
+
+**Price:** Does visible price influence buyer contact decision? Yes — this is a consumer-adjacent product with clear price tiers. Indian buyers compare prices across listings. Price is a primary comparison signal. High. `price_display_type`: "spec-driven price" — price changes substantially with operation type (manual vs motorised), frame material (steel vs aluminium), and vehicle capacity.
+
+**Cross-dimension consistency check:**
+- Buyers discover across spec tiers (manual vs motorised, 1-car vs 2-car) → `spec-driven price` is correct AND specification = High. ✓
+- Unit Low → price can still be High (unit Low means unit is obvious, not that price is irrelevant). ✓
+- No project-based pricing → unit show:false is based on per-piece being obvious, not on project quoting. ✓
+- Specification show:true → show_on_listing:true. ✓
+
+**Unit:** Would buyer be confused without unit shown? No — a folding garage is obviously sold per piece/per set. The per-sq-ft edge case exists for custom fabrication but that is a different product type. Low / show:false.
+
+**Company:** Does seller identity materially affect decision beyond specs and price? Somewhat — warranty, installation support, and after-sales service matter for a product that requires assembly and may need replacement covers. Medium. No dominant brands with buyer recall → `brand_important: no`.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "High visual sub-type variation — accordion, telescopic, polycarbonate roof, and flat-pack variants are visually distinct product types. Buyers use the image to confirm product type and assess build quality before reading any text; wrong type = immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Vehicle capacity, operation type (manual vs motorised), and frame material are non-interchangeable shortlisting criteria. A buyer needing a 2-car motorised unit will not engage with a 1-car manual listing regardless of price."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Indian residential buyers compare prices aggressively across shortlisted listings. Price varies substantially across spec tiers (manual vs motorised, steel vs aluminium, 1-car vs 2-car) — buyers discover across tiers, making price a primary comparison signal after spec confirmation."
+  },
+  {
+    "rank": 4,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant brand with buyer recall exists in this category; market is fragmented across regional fabricators and importers, and buyers search by spec and price rather than manufacturer name.",
+    "reason": "Seller trust signals (warranty, installation support, after-sales service) matter for a product requiring assembly and potential cover replacement, but company identity is a qualifier after spec and price shortlisting — not a primary decision driver."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "Low",
+    "show": false,
+    "canonical_unit": "per piece / per set",
+    "unit_note": "Custom-fabricated carport structures may be quoted per sq ft, but packaged folding garage kits — the dominant form in this MCAT — are universally sold per piece/per set. No buyer questions this.",
+    "reason": "Unit is entirely implied for a complete kit product. No buyer would question whether a folding garage is sold per piece."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+Working through each spec:
+
+- **Anchoring Type** (Ground Peg / Wall Bracket / Foundation Bolt): 3 values, meaningful differentiation. Retain — candidate.
+- **Color** (Blue / Beige / Green / White / Grey): 5 values. Color is a preference resolved post-connection for most B2B buyers; does not drive price significantly. Soft deprioritise — not a configurator.
+- **Cover Material** (HDPE Fabric / Polycarbonate Sheet / Polyester Fabric / PVC Fabric): 4 values, significant price and durability difference. Polycarbonate vs fabric = different product class. Retain — strong candidate.
+- **Cover Thickness** (250 micron / 600 micron / 400 micron / 500 micron): 4 values. Correlated with Cover Material — thickness follows from material grade. Soft eliminate as derivative of Cover Material.
+- **Folding Style** (Accordion / Scissor / Side Fold / Tunnel): 4 values. Defines the structural mechanism — non-interchangeable. Retain — strong candidate.
+- **Frame Material** (Aluminium / MS Pipe / Mild Steel / Galvanized Steel): 4 values. Significant price and durability difference. Retain — strong candidate.
+- **Operation Type** (Hydraulic Fold / Motorized Fold / Manual Fold): 3 values. Major price driver — motorised vs manual is a primary product class separator. Retain — strong candidate.
+- **Usage Area** (Temporary Event / Office Parking / Showroom / Home Parking): application/use-case tag. Hard eliminate.
+- **Vehicle Capacity** (1 Car / Bike Stand / 2 Car / 3 Car): 4 values. Non-interchangeable — defines the physical size of the structure. Retain — strong candidate.
+
+**Remaining after elimination:** Anchoring Type, Cover Material, Folding Style, Frame Material, Operation Type, Vehicle Capacity.
+
+### Phase 2 — Top 2 Configurator Selection
+
+Applying the test: "If only this spec's value changes — does price change significantly AND can the buyer NOT substitute one value for another?"
+
+- **Vehicle Capacity** (1 Car / 2 Car / 3 Car / Bike Stand): Defines the physical footprint of the structure. A 1-car unit cannot serve a 2-car need. Non-interchangeable. Large price delta between 1-car and 2-car units. **Rank 1.**
+
+- **Operation Type** (Manual Fold / Motorised Fold / Hydraulic Fold): Manual vs motorised is the single largest price driver in this category — motorised units command a significant premium. Non-interchangeable from a buyer convenience and budget perspective. **Rank 2.**
+
+- Frame Material is a close third — aluminium vs galvanised steel carries a meaningful price delta — but Operation Type's price delta is larger and more decisive for buyer shortlisting.
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list (verbatim copy):**
+["Anchoring Type", "Color", "Cover Material", "Cover Thickness", "Folding Style", "Frame Material", "Operation Type", "Usage Area", "Vehicle Capacity"]
+
+**Step 3b/3c — Candidate gaps from Agent 3 vision_output and LLM world knowledge:**
+
+- **Dimensions / Size (L×W×H):** Agent 3 market_context identifies "overall dimensions" as a key buyer-evaluated spec. Not present in seller spec list by name or semantic equivalent. Buyers need to know if the structure fits their parking space. Important — but this is typically a numeric field (e.g., 5m × 3m × 2.2m) that may be captured in product description rather than a configurator spec. Senior CM would add this. Include.
+
+- **Waterproofing / UV Rating:** Agent 3 market_context explicitly lists "waterproofing rating" and "UV protection" as key buyer-evaluated specs. Not present in seller spec list by name or semantic equivalent (Cover Material and Cover Thickness are present but do not capture the rating/grade). Include.
+
+- **Wind Resistance Rating:** Agent 3 market_context lists "wind resistance" as a key buyer-evaluated spec. Not present in seller spec list. Important for buyers in coastal or high-wind regions. Include.
+
+Cross-reference check: None of these three appear in specs_in_seller_list by name or semantic equivalent. All confirmed absent.
+
+Importance threshold check: All three would rank in the top 10 buyer-relevant specs for this MCAT — a senior CM would add all three to the configurator list.
+
+**Step 3c — missing_important_specs:**
+
+1. **Dimensions / Size** — buyers must verify the structure fits their parking space before purchase; a 1-car unit can range from 3m to 5.5m in length, making dimensions a critical fit-check spec. Source: both.
+2. **Waterproofing Rating** — buyers in rain-heavy regions (monsoon India) prioritise waterproofing grade; this is distinct from cover material and directly affects product suitability. Source: Agent 3 vision_output.
+3. **Wind Resistance Rating** — buyers in coastal or open-area locations require minimum wind load ratings; absent from spec list despite being a key durability differentiator. Source: Agent 3 vision_output.
+
+### Phase 4 — Coverage Verdict
+
+3 entries in missing_important_specs → `significant_gaps`.
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Frame Mechanism, Frame Material, Covering Material.
+
+Applying the test: "If a seller reads this spec value from the RFQ, does it materially change their ability to respond accurately?"
+
+- **Frame Mechanism** (Scissor Action / Accordion Type / Clamshell Type / Telescopic): Defines the structural type of the folding garage. Different mechanisms require different manufacturing setups — a seller specialising in scissor-action units may not supply accordion types. Non-interchangeable. Sellers need this to confirm they can supply. **Rank 1.**
+
+- **Frame Material** (Aluminum Alloy / Powder Coated Steel / GI Pipe): Defines the material grade and price tier. Aluminium alloy vs GI pipe is a significant price and durability difference. Sellers need this to quote accurately. **Rank 2.**
+
+- **Covering Material** (PVC Coated Fabric / Oxford Fabric / HDPE Fabric): Also important, but Frame Mechanism and Frame Material together more decisively route the RFQ to the right seller type. Covering Material is a secondary qualifier — most sellers who supply a given frame type also supply multiple cover options.
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Frame Mechanism** (Scissor Action / Accordion Type / Clamshell Type / Telescopic): Each mechanism type produces a visually distinct structure shape. Scissor-action units look different from accordion/tunnel types. **Thumbnail eligible: true.** Options: ["Scissor Action", "Accordion Type", "Clamshell Type", "Telescopic"]
+
+- **Frame Material** (Aluminum Alloy / Powder Coated Steel / GI Pipe): Material differences are not visually distinguishable in a thumbnail — all three look like metal frames. **Thumbnail eligible: false.**
+
+### Phase 3 — Missing Buyer Spec Audit
+
+Cross-referencing provided buyer_spec_list against Agent 3 vision_output and LLM world knowledge:
+
+**Candidate gaps:**
+
+- **Vehicle Capacity** (1 Car / 2 Car / 3 Car / Bike): Agent 3 market_context and seller spec list both confirm this is a primary differentiator. Not present in buyer_spec_list by name or semantic equivalent. Sellers cannot determine the physical size of structure required without this. Critical routing spec. `would_be_rank: 1` — more important than Frame Mechanism because it defines the fundamental size requirement that gates all other specs. Thumbnail eligibility: each value (1 Car, 2 Car, 3 Car, Bike) maps to a visually distinct structure size — **thumbnail eligible: true.** Options: ["1 Car", "2 Car", "3 Car", "Bike / Two-Wheeler"]
+
+- **Operation Type** (Manual / Motorised / Hydraulic): Agent 3 market_context identifies manual vs motorised as a key product sub-segment. Not present in buyer_spec_list by name or semantic equivalent (Frame Mechanism describes the folding geometry, not the actuation method). Sellers need this to confirm they supply the right actuation type and to quote accurately (motorised units require different components). `would_be_rank: 2` — more important than Frame Material because it is a larger price driver and non-interchangeable. Thumbnail eligibility: manual vs motorised is partially visually distinguishable (motorised units have a motor housing/remote receiver visible) but the difference is subtle and not reliably distinguishable in a thumbnail. **Thumbnail eligible: false.**
+
+Cross-reference check: "Vehicle Capacity" and "Operation Type" do not appear in buyer_spec_list by name or semantic equivalent. Confirmed absent.
+
+**Coverage verdict:** 2 entries in missing_important_specs → `partial`.
+
+### Phase 4 — Image Upload Assessment
+
+Standard spec values (Frame Mechanism, Frame Material, Covering Material, Vehicle Capacity, Operation Type) adequately capture the buyer's requirement. Sellers can respond accurately and negotiate cover colour, anchoring type, and dimensions post-connection. This is a catalogue-based product with manageable finite variation — not a custom-fabricated or design-match-from-stock scenario requiring a visual reference.
+
+**Image upload recommended: false.**
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+
+1. `top_rfq_specs` rank 1: Frame Mechanism — `thumbnail_eligible: true`, options: ["Scissor Action", "Accordion Type", "Clamshell Type", "Telescopic"] → 4 prompts
+2. `missing_important_specs`: Vehicle Capacity — `thumbnail_eligible: true`, `would_be_rank: 1`, options: ["1 Car", "2 Car", "3 Car", "Bike / Two-Wheeler"] → 4 prompts
+
+Total: 8 prompts. All represent primary_segment: "Portable foldable car shelter/carport for residential vehicle protection."
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual sub-type variation — accordion, telescopic, polycarbonate roof, and flat-pack variants are visually distinct product types. Buyers use the image to confirm product type and assess build quality before reading any text; wrong type = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Vehicle capacity, operation type (manual vs motorised), and frame material are non-interchangeable shortlisting criteria. A buyer needing a 2-car motorised unit will not engage with a 1-car manual listing regardless of price."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian residential buyers compare prices aggressively across shortlisted listings. Price varies substantially across spec tiers (manual vs motorised, steel vs aluminium, 1-car vs 2-car) — buyers discover across tiers, making price a primary comparison signal after spec confirmation."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category; market is fragmented across regional fabricators and importers, and buyers search by spec and price rather than manufacturer name.",
+      "reason": "Seller trust signals (warranty, installation support, after-sales service) matter for a product requiring assembly and potential cover replacement, but company identity is a qualifier after spec and price shortlisting — not a primary decision driver."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece / per set",
+      "unit_note": "Custom-fabricated carport structures may be quoted per sq ft, but packaged folding garage kits — the dominant form in this MCAT — are universally sold per piece/per set. No buyer questions this.",
+      "reason": "Unit is entirely implied for a complete kit product. No buyer would question whether a folding garage is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Vehicle Capacity",
+        "reason": "Defines the physical footprint of the structure — a 1-car unit cannot serve a 2-car need, making values non-interchangeable with a large price delta between capacity tiers."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Operation Type",
+        "reason": "Manual vs motorised is the single largest price driver in this category — motorised units command a significant premium and require different manufacturing, making values non-interchangeable."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Anchoring Type",
+      "Color",
+      "Cover Material",
+      "Cover Thickness",
+      "Folding Style",
+      "Frame Material",
+      "Operation Type",
+      "Usage Area",
+      "Vehicle Capacity"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Dimensions / Size (L x W x H)",
+        "why_important": "Buyers must verify the structure fits their parking space before purchase — a 1-car unit can range from 3m to 5.5m in length, making overall dimensions a critical fit-check spec that cannot be inferred from vehicle capacity alone.",
+        "source": "both",
+        "example_values": ["3m x 2.5m x 2m", "5m x 3m x 2.2m", "6m x 5.5m x 2.5m", "2.5m x 1.5m x 1.8m"]
+      },
+      {
+        "spec_name": "Waterproofing Rating",
+        "why_important": "Buyers in monsoon-heavy Indian regions prioritise waterproofing grade as a primary durability signal — this is distinct from cover material and directly determines product suitability for rain protection.",
+        "source": "Agent 3 vision_output",
+        "example_values": ["Waterproof", "Water Resistant", "IPX4", "100% Waterproof PVC"]
+      },
+      {
+        "spec_name": "Wind Resistance Rating",
+        "why_important": "Buyers in coastal or open-area locations require minimum wind load ratings to ensure structural safety — absent from the spec list despite being a key durability differentiator called out in market research.",
+        "source": "Agent 3 vision_output",
+        "example_values": ["Up to 40 km/h", "Up to 60 km/h", "Up to 80 km/h", "Up to 100 km/h"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Frame Mechanism",
+        "reason": "Different folding mechanisms (scissor, accordion, telescopic) require different manufacturing setups — sellers specialising in one type may not supply others, making this the primary routing spec for accurate seller matching.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Scissor Action", "Accordion Type", "Clamshell Type", "Telescopic"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Frame Material",
+        "reason": "Aluminium alloy vs GI pipe vs powder-coated steel represents a significant price and durability difference — sellers need this to quote accurately and confirm they supply the right material grade.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Vehicle Capacity",
+        "why_important": "Sellers cannot determine the physical size of structure required without knowing how many vehicles it must cover — this is the most fundamental routing spec and gates all other spec decisions.",
+        "source": "both",
+        "example_values": ["1 Car", "2 Car", "3 Car", "Bike / Two-Wheeler"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["1 Car", "2 Car", "3 Car", "Bike / Two-Wheeler"]
+      },
+      {
+        "spec_name": "Operation Type",
+        "why_important": "Manual vs motorised vs hydraulic actuation is a non-interchangeable product class separator with a large price delta — sellers need this to confirm they supply the right actuation type and to quote accurately.",
+        "source": "both",
+        "example_values": ["Manual Fold", "Motorised Fold", "Hydraulic Fold"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Frame Mechanism",
+      "option_value": "Scissor Action",
+      "id": "spec_1",
+      "prompt_for_generation": "Portable folding car shelter with scissor-action frame mechanism, X-shaped crossed steel arms visible in extended position, grey powder-coated steel frame, blue PVC fabric cover, parked on residential driveway, natural daylight, front three-quarter view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Frame Mechanism",
+      "option_value": "Accordion Type",
+      "id": "spec_2",
+      "prompt_for_generation": "Portable folding car shelter with accordion-type frame, parallel horizontal ribs forming a pleated tunnel structure, galvanised steel frame, white polyester fabric cover, fully extended over a sedan on a residential driveway, natural daylight, side view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Frame Mechanism",
+      "option_value": "Clamshell Type",
+      "id": "spec_3",
+      "prompt_for_generation": "Portable folding car shelter with clamshell-type frame, two curved arching halves opening upward like a clamshell, aluminium frame, beige PVC fabric cover, parked over a hatchback on a flat residential surface, natural daylight, front view showing the opening mechanism, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Frame Mechanism",
+      "option_value": "Telescopic",
+      "id": "spec_4",
+      "prompt_for_generation": "Portable telescopic retractable car shelter, sliding rail mechanism with nested sections extending horizontally, powder-coated steel frame, grey PVC fabric cover, partially extended over a sedan on a residential driveway, natural daylight, side view showing telescoping rails, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Vehicle Capacity",
+      "option_value": "1 Car",
+      "id": "spec_5",
+      "prompt_for_generation": "Single-car portable folding garage shelter, compact size covering one sedan, grey powder-coated steel frame with blue PVC fabric cover, parked on a residential driveway, natural daylight, front three-quarter view clearly showing it covers exactly one vehicle, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Vehicle Capacity",
+      "option_value": "2 Car",
+      "id": "spec_6",
+      "prompt_for_generation": "Double-car portable folding garage shelter, wide structure covering two sedans side by side, galvanised steel frame with white polyester fabric cover, parked on a residential driveway, natural daylight, front view clearly showing two vehicles sheltered beneath, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Vehicle Capacity",
+      "option_value": "3 Car",
+      "id": "spec_7",
+      "prompt_for_generation": "Triple-car portable folding garage shelter, large wide structure covering three cars in a row, heavy-duty galvanised steel frame with green PVC fabric cover, parked on a flat open surface, natural daylight, front view clearly showing three vehicles sheltered beneath, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Vehicle Capacity",
+      "option_value": "Bike / Two-Wheeler",
+      "id": "spec_8",
+      "prompt_for_generation": "Compact portable folding shelter sized for a motorcycle or scooter, small narrow structure covering a two-wheeler, powder-coated steel frame with blue HDPE fabric cover, parked on a residential driveway, natural daylight, side view clearly showing a motorcycle sheltered beneath, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
