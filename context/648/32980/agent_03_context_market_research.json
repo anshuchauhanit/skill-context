@@ -1,0 +1,629 @@
+{
+  "mcat_description": {
+    "short": "Office Cabin is a prefabricated, portable modular structure built with a steel (MS/GI) frame and insulated wall panels, sold as a complete ready-to-install unit for use as a temporary or semi-permanent office workspace.",
+    "long": "Office Cabins are factory-manufactured, relocatable structures assembled from mild steel or galvanised iron frames combined with insulated sandwich panels (PUF, EPS, glass wool, or rock wool core) to create functional, weather-resistant workspaces. They are available in standard catalogue sizes (typically 8×8 ft to 40×10 ft) or custom dimensions, and can be equipped with electrical fittings, aluminium sliding windows, doors, AC provisions, and interior finishes such as vinyl flooring or MDF panelling. In the Indian B2B market, these cabins are primarily sold as site offices for construction and infrastructure projects, but also serve as security cabins, manager cabins, portable conference rooms, and temporary administrative offices. They are transported via trailer or crane and require no major civil foundation work, making them a cost-effective alternative to permanent construction for project-duration deployments.",
+    "product_types": [
+      "MS Portable Office Cabin (Mild Steel frame, insulated panels)",
+      "GI Portable Office Cabin (Galvanised Iron frame)",
+      "Container Office Cabin (shipping container conversion)",
+      "PUF Panel Office Cabin (Polyurethane Foam sandwich panel)",
+      "Sandwich Panel Office Cabin (EPS/rock wool core)",
+      "FRP/GRP Office Cabin (Fibre Reinforced Plastic)",
+      "UPVC Office Cabin",
+      "Cement Board Office Cabin",
+      "Wooden/MDF Office Cabin",
+      "Multi-Storey Portable Office Block",
+      "Aluminium Frame Office Cabin",
+      "Readymade/Prefabricated Office Cabin (standard catalogue size)",
+      "Custom/Modular Office Cabin (bespoke dimensions)"
+    ],
+    "primary_applications": [
+      "Construction site office / project site administration",
+      "Industrial plant site office",
+      "Manager / supervisor cabin on project sites",
+      "Temporary corporate office extension",
+      "Security and guard cabin with office function",
+      "Remote location field office",
+      "Portable conference and meeting room",
+      "IT/BPO temporary workspace",
+      "Infrastructure project (roads, railways, power) site office"
+    ],
+    "buyer_segments": [
+      "Construction contractors and project developers",
+      "Infrastructure companies (roads, bridges, power, railways)",
+      "Industrial plant operators and EPC contractors",
+      "Real estate developers needing site offices",
+      "Government and PSU project offices",
+      "Corporate facilities managers needing temporary workspace",
+      "Rental/leasing companies for portable cabins",
+      "Mining and oil & gas field operators"
+    ]
+  },
+  "primary_segment": "Prefabricated portable office cabin with MS/steel frame and insulated panels, used as site office or temporary workspace",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated portable office cabin (MS/steel frame, insulated panels) for site offices and temporary workspaces",
+    "secondary_families": [],
+    "reason": "The taxonomy path (Prefabricated Structures > Portable Cabin) firmly anchors this MCAT to the prefab portable structure family; interior office partition/workstation cabins appear as low-volume keyword noise but do not constitute an incompatible product family given the taxonomy anchor and dominant buyer signal."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "office cabin",
+      "portable office cabin",
+      "readymade office cabin",
+      "prefabricated office cabin",
+      "modular office cabin",
+      "container office cabin",
+      "site office cabin",
+      "porta cabin office",
+      "MS office cabin",
+      "transportable office"
+    ],
+    "technical_synonyms": [
+      "porta cabin",
+      "prefab office cabin",
+      "modular portable cabin",
+      "relocatable office unit",
+      "prefabricated modular office",
+      "sandwich panel office cabin",
+      "PUF panel office cabin",
+      "steel modular office",
+      "portable site office",
+      "mobile office unit"
+    ],
+    "trade_names": [
+      "porta cabin",
+      "portacabin",
+      "container office",
+      "bunk house office",
+      "site office container",
+      "office block cabin",
+      "manager cabin",
+      "personal cabin",
+      "resi cum office cabin"
+    ],
+    "hindi_terms": [
+      "kabine",
+      "portable cabin",
+      "office ka cabin"
+    ],
+    "buyer_intent_queries": [
+      "readymade office cabin for construction site",
+      "portable office cabin with AC provision",
+      "prefabricated site office cabin 10x20",
+      "modular office cabin manufacturer India",
+      "container office cabin on rent",
+      "steel portable office cabin price",
+      "office cabin with insulation and electrical fittings",
+      "portable office cabin for project site",
+      "small office cabin 10x10 readymade",
+      "UPVC office cabin manufacturer"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian sellers predominantly quote office cabins per sq ft for custom-dimensioned orders, reflecting the variable-size nature of the product; per piece quoting is also common for standard catalogue sizes (e.g. 10×10, 10×20 ft), with both units coexisting across the market.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Custom-dimension office cabin",
+        "unit": "per sq ft",
+        "note": "Buyer specifies length × width; seller quotes per sq ft of floor area"
+      },
+      {
+        "sub_segment": "Standard readymade catalogue cabin",
+        "unit": "per piece",
+        "note": "Fixed-size units (8×8, 10×10, 10×20, 20×20 ft) quoted as complete units"
+      },
+      {
+        "sub_segment": "Container office cabin (rental)",
+        "unit": "per month",
+        "note": "Rental/hire market quotes on monthly basis"
+      }
+    ],
+    "sources_checked": [
+      "maportablecabins.com",
+      "ajinthacreators.com",
+      "supersun.in",
+      "industrialassociates.in",
+      "birlacabins.in",
+      "zintocabin.com"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, 'Office Cabin' commercially refers to a prefabricated portable modular structure — not an interior furniture partition — built on a mild steel (MS) or galvanised iron (GI) frame with insulated sandwich panel walls (PUF, EPS, glass wool, or rock wool core). The dominant construction type is the MS frame cabin with PUF or sandwich panel cladding, widely sold by manufacturers concentrated in Maharashtra (Thane, Pune), Karnataka (Bengaluru), Gujarat (Vadodara, Ahmedabad), and Delhi-NCR (Gurgaon, Noida). Key buyer vocabulary includes 'porta cabin', 'portable office cabin', 'readymade office cabin', and 'container office cabin' — the last being a high-intent sub-segment where shipping container conversions or container-style steel structures are used. Standard commercial sizes range from 8×8 ft (small security/manager cabin) to 40×10 ft (large site office block), with 10×10 and 10×20 ft being the most commonly listed catalogue sizes. Wall panel materials vary: PUF (polyurethane foam) sandwich panels offer superior thermal insulation; EPS (expanded polystyrene) panels are more economical; glass wool and rock wool are used for fire-rated applications. Flooring is typically plywood or cement board with vinyl/PVC finish. Electrical fittings (ISI-marked wiring, MCB boards, fans, tube lights) and aluminium sliding windows are standard inclusions. The market also includes a rental/hire segment (per month basis) serving short-duration project sites. Certifications observed in the market include ISO 9001:2015 and ISI-marked steel; no specific BIS standard exclusively governs portable office cabins as a product category — they are governed by the standards of their constituent materials (IS 2062 for structural steel, IS 277 for GI sheets). The 'container office cabin' sub-segment (keyword: 33 pageviews, 10 calls — highest call conversion) represents a premium, durable variant using shipping container-grade steel structures.",
+  "buyer_attracting_attributes": [
+    "Size / Dimensions (length × width × height in feet)",
+    "Wall Panel Material (PUF / EPS / sandwich panel / FRP / cement board)",
+    "Frame Material (MS / GI / aluminium / FRP)",
+    "Insulation Type and Thickness (glass wool / rock wool / PUF, mm)",
+    "Floor Material (plywood / cement board / vinyl finish)",
+    "Electrical Fittings (ISI wiring, MCB, fans, lights, AC provision)",
+    "Window and Door Type (aluminium sliding / UPVC / steel)",
+    "Portability / Transportability (crane hooks, trailer-ready)",
+    "Finish and Colour (exterior paint / coating type)",
+    "Certifications (ISO 9001, ISI-marked steel, fire-resistant coating)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "32980",
+    "mcat_name": "Office Cabin",
+    "mcat_level": "4",
+    "listing_count": "6818",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Office Cabin",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35400.0",
+      "name": "Portable Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35400.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "35057",
+        "mcat_name": "Portable Classrooms",
+        "listing_count": "736",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35400",
+        "mcat_name": "Portable Cabin",
+        "listing_count": "13877",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38456",
+        "mcat_name": "Telephone Booths",
+        "listing_count": "419",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42755",
+        "mcat_name": "Security Cabins",
+        "listing_count": "4207",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43789",
+        "mcat_name": "Wooden Cabins",
+        "listing_count": "665",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43790",
+        "mcat_name": "Mobile Cabins",
+        "listing_count": "613",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "56012",
+        "mcat_name": "Glass Cabin",
+        "listing_count": "1247",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96540",
+        "mcat_name": "Office Container",
+        "listing_count": "21197",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96541",
+        "mcat_name": "Mobile Containers",
+        "listing_count": "2044",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "111378",
+        "mcat_name": "Smoking Cabin",
+        "listing_count": "192",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119140",
+        "mcat_name": "Container Conversion Service",
+        "listing_count": "68",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121149",
+        "mcat_name": "FRP Cabin",
+        "listing_count": "1604",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135704",
+        "mcat_name": "Portable Kitchen",
+        "listing_count": "457",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135705",
+        "mcat_name": "Portable Security Cabins",
+        "listing_count": "6233",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135712",
+        "mcat_name": "Prefabricated Cabin",
+        "listing_count": "6259",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135797",
+        "mcat_name": "Toll Booth",
+        "listing_count": "853",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135966",
+        "mcat_name": "Eco Portable Cabins",
+        "listing_count": "436",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136204",
+        "mcat_name": "Prefabricated Accommodation",
+        "listing_count": "1321",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145135",
+        "mcat_name": "FRP Portable Security Cabin",
+        "listing_count": "1727",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149768",
+        "mcat_name": "Portable Dressing Room",
+        "listing_count": "358",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150360",
+        "mcat_name": "Portable Log Cabins",
+        "listing_count": "220",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150362",
+        "mcat_name": "Portable Pantry",
+        "listing_count": "142",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150852",
+        "mcat_name": "MS Porta Cabin",
+        "listing_count": "9337",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150853",
+        "mcat_name": "MS Security Cabins",
+        "listing_count": "1334",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154082",
+        "mcat_name": "Wooden Guard Room",
+        "listing_count": "111",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159318",
+        "mcat_name": "GRP Cabin",
+        "listing_count": "55",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "165827",
+        "mcat_name": "Modular Portable Cabin",
+        "listing_count": "3118",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167809",
+        "mcat_name": "PUF Cabin",
+        "listing_count": "1376",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181546",
+        "mcat_name": "PVC Portable Cabin",
+        "listing_count": "407",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181975",
+        "mcat_name": "Prefabricated Security Cabin",
+        "listing_count": "1156",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185338",
+        "mcat_name": "GI Portable Cabin",
+        "listing_count": "2393",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185339",
+        "mcat_name": "Aluminium Office Cabins",
+        "listing_count": "1740",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "188230",
+        "mcat_name": "Portable ATM Cabin",
+        "listing_count": "130",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "207959",
+        "mcat_name": "Frisking Booth",
+        "listing_count": "168",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Office Cabin is a prefabricated modular structure with technical specs (dimensions, materials, insulation, assembly) and no regulatory or brand-dominant signals. Standard B2B research into modular construction practices, material standards, and market configurations will inform spec hierarchy and segment clarity."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions ('office cabin' 927, 'readymade office cabin' 87, 'container office cabin' via internal) confirmed prefab portable structure as primary buyer intent; 'UPVC office cabin' and 'transportable office' identified as alt name signals."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "unit_quoting_context",
+          "market_context"
+        ],
+        "citation_note": "'container office cabin' (33 PV, 10 calls — highest call conversion) identified as high-intent sub-segment; 'portable office cabin', 'prefabricated office cabin', 'modular office cabins' used for alt names. '3 seater cabin work table' and 'CEO cabin showcase' flagged as contamination signals."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "mcat_description.primary_applications",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "111 call rows confirmed dominant product names: 'Office Porta Cabin', 'Portable Office Cabin', 'Container Office Cabin', 'Manager Cabin'. One 'Workstation' row flagged as potential misroute. No spec values present in call data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path under 'Prefabricated Structures > Portable Cabin' used to anchor primary_segment to prefab structure and rule out vagueness trigger. Listing count 6818 treated as plausible for a large MCAT; listing_count_suspect set false."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.wedge-india.com/product-page/prefab-office-cabins",
+        "title": "Durable Low Budget Prefab Office Cabins by Wedge India",
+        "source_domain": "wedge-india.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Confirmed prefab office cabins as modular structures for construction sites, industrial areas, and remote locations; confirmed off-site manufacture and on-site assembly model."
+      },
+      {
+        "url": "https://www.clickcabinsandinteriors.com/office-cabins.html",
+        "title": "Office Cabins - 12ft MS Prefabricated Office Cabin Manufacturer from Thane",
+        "source_domain": "clickcabinsandinteriors.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Confirmed MS, GI, steel modular variants; confirmed standard sizes (8.6ft, 9ft, 10ft, 12ft, 20×20ft); confirmed amenities (lighting, electrical, ventilation, windows, doors, AC)."
+      },
+      {
+        "url": "https://www.ajinthacreators.com/portable-cabin.html",
+        "title": "Portable Cabin - 10x15x8.5 Feet Mild Steel Portable Office Cabin Manufacturer from Pune",
+        "source_domain": "ajinthacreators.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed wall panel options (insulated steel sheets, PUF panels, sandwich panels); flooring (plywood/cement board/vinyl); per sq ft and per piece unit quoting; crane/trailer transportability."
+      },
+      {
+        "url": "https://www.maportablecabins.com/portable-office-cabins.html",
+        "title": "Portable Office Cabins - Steel Mobile Cabin Manufacturer from Bengaluru",
+        "source_domain": "maportablecabins.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context",
+          "market_context"
+        ],
+        "citation_note": "Confirmed container office cabin as distinct sub-type; confirmed per sq ft and per piece quoting; confirmed rental/hire market (per month unit)."
+      },
+      {
+        "url": "https://www.birlacabins.in/ms-portable-office-cabin.html",
+        "title": "MS Portable Office Cabin - Modular Portable Cabin Service Provider from Raigad",
+        "source_domain": "birlacabins.in",
+        "derived_outputs": [
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Confirmed insulation specs (25mm glass wool walls, 50mm glass wool roof); epoxy zinc phosphate primer paint; ISI-marked wiring; aluminium sliding windows with 4mm tinted glass; MDF interior panelling."
+      },
+      {
+        "url": "https://www.samanportable.com/",
+        "title": "Portable Cabin & Container Offices in India | Saman Portable",
+        "source_domain": "samanportable.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed ISI-certified steel and PUF panels as standard materials; ISO 9001:2015 certification; 25-year structural warranty claim; wind load resistance as buyer-relevant spec."
+      },
+      {
+        "url": "https://www.supersun.in/portable-cabin.html",
+        "title": "Portable Cabin Manufacturer India - Puff Porta Cabin Manufacturer from Faridabad",
+        "source_domain": "supersun.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed PUF/polyurethane sandwich panel as dominant insulation material; confirmed Delhi-NCR as manufacturing hub; confirmed 'porta cabin', 'container office', 'mobile office' as trade names."
+      },
+      {
+        "url": "https://www.bunkhouseworld.in/portable-cabin.html",
+        "title": "Portable Cabin - Industrial Portable Cabins Manufacturer from Vadodara",
+        "source_domain": "bunkhouseworld.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Confirmed Vadodara as manufacturing hub; confirmed multi-storey portable office block as product type; confirmed ISO steel structures for office blocks."
+      },
+      {
+        "url": "https://www.zintocabin.com/prefabricated-portable-office-cabin.html",
+        "title": "Prefabricated Portable Office Cabin - Guard Office Cabin Manufacturer from Thane",
+        "source_domain": "zintocabin.com",
+        "derived_outputs": [
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed Thane/Mumbai, Noida, Hyderabad as manufacturing hubs; confirmed per sq ft quoting (Rs 956/sq ft observed); confirmed standard amenities package (fan, tube light, switches, AC provision, main door, window with grill, lifting hook, vinyl carpet)."
+      },
+      {
+        "url": "https://www.industrialassociates.in/portable-site-offices.html",
+        "title": "Portable Site Offices - Sandwich Panel Cabin Manufacturer from Bengaluru",
+        "source_domain": "industrialassociates.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed PUF sandwich panel composition (polyol + isocyanate, 40 kg/cu.m density); confirmed Bengaluru as manufacturing hub; confirmed per sq ft quoting."
+      },
+      {
+        "url": "https://www.fibrecraftsindia.com/portable-cabins.html",
+        "title": "PORTABLE CABINS - Steel Container Homes Manufacturer from Pune",
+        "source_domain": "fibrecraftsindia.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Confirmed FRP/GRP as a distinct material variant; confirmed size range 4×4 ft to 20×10 ft; confirmed Pune as manufacturing hub."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Office Cabin is a prefabricated modular structure with technical specs (dimensions, materials, insulation, assembly) and no regulatory or brand-dominant signals. Standard B2B research into modular construction practices, material standards (BIS for steel/concrete components), and market configurations will inform spec hierarchy and segment clarity."
+    }
+  }
+}
