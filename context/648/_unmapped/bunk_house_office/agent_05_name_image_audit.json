@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 alt_names and market_context confirm 'Portable Site Office Cabin' and 'Prefabricated Site Office' are the dominant buyer search terms in India; 'Bunk House Office' is used but conflates sleeping-quarters (bunk) with office function, reducing search precision for the primary segment.",
+    "suggested_name": "Portable Bunk House Office Cabin"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows the interior of a prefabricated cabin (sandwich panel walls, dark-framed window, built-in desk, vinyl flooring) which is a valid product representation but shows only the interior — the exterior form factor, portability, and steel construction that define the primary segment are not visible.",
+      "An exterior shot of the complete portable steel cabin unit on a construction or industrial site would far better communicate the product's key buyer-attracting attributes (portability, prefab steel structure, deployable unit) and align with the primary_segment definition."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Exterior view of a prefabricated portable steel site office cabin, mild steel frame with white PUF sandwich panel walls, colour-coated grey corrugated steel roof, aluminium sliding window, single lockable door with steps, placed on a flat construction site ground with light gravel, clean white background on one side, natural daylight, sharp product photography style, square 1:1 composition, no people, no text overlays except watermark.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
