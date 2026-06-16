@@ -1,0 +1,14 @@
+{
+  "category_nature": {
+    "is_generic": false,
+    "is_specific": true,
+    "is_vague": false,
+    "is_thin": false,
+    "is_branded": false,
+    "is_service": true,
+    "reason": [
+      "is_specific + is_service: 'Pre Engineering Works' is tightly scoped to civil/structural preparation and erection services for Pre-Engineered Buildings — all product_types (foundation, anchor bolt setting, steel erection, cladding, turnkey PEB) belong to one construction workflow with a homogeneous buyer archetype (project owners and EPC contractors); the deliverable is a completed construction phase, not a physical product.",
+      "is_vague: 0 signals fire — the name resolves unambiguously to PEB construction services in the B2B context; Agent 3 produced a confident unhedged primary_segment and all buyer_intent_queries cluster around a single purchase context with no incompatible intent clusters or regulatory divergence."
+    ]
+  }
+}
