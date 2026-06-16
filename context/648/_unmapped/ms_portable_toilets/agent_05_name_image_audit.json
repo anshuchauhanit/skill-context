@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'MS Portable Toilets' directly matches the top primary keyword ('MS portable toilet') and aligns with dominant market terminology confirmed in Agent 3's alt_names and market_context, where 'MS' and 'mild steel portable toilet cabin' are the standard trade references used by buyers and manufacturers in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail accurately shows a prefabricated mild steel portable toilet cabin with red-and-white MS sheet cladding, open door revealing a Western commode, wash basin, exhaust fan, and plywood interior panelling — correctly representing the primary segment of single-unit MS portable toilet cabins for construction sites and labour camps.",
+      "Improvement is possible: the image shows a double-unit (two-door) cabin rather than the most common single-compartment unit, the angled perspective partially obscures the exterior structure, and a cleaner white-background studio shot with a single-compartment cabin would better serve as a category thumbnail."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A single-compartment prefabricated mild steel portable toilet cabin for construction sites, white and red MS sheet exterior cladding with tubular steel frame base, front-facing view with door slightly open showing Indian-style commode and interior plywood wall panelling, clean white studio background, bright even lighting, sharp product photography style, square 1:1 composition, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
