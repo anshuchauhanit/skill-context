@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Portable Shelters' aligns directly with the top primary_keywords ('portable shelter', 'prefab shelter', 'mobile shelter') and market_context confirms 'Portable Shelters' and 'Prefabricated Shelters' are used interchangeably as the dominant B2B search term in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a fabric/tarpaulin arch-tent shelter (canvas or PVC membrane over a curved frame) — a consumer/military camping-style tent structure that does not represent the primary_segment of industrial prefabricated MS/FRP/PUF panel modular shelters used on construction sites and for equipment protection.",
+      "The image conflicts with the primary_segment: no rigid panel walls, no MS/GI/FRP frame construction, no modular prefab characteristics are visible — buyers searching for industrial prefab shelters will not recognise this as their product."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A modular industrial prefabricated portable shelter with mild steel frame and PUF sandwich panel walls and roof, light grey and white colour scheme, single hinged door on the front face, set on a flat concrete surface against a clean white background, front three-quarter view, sharp studio lighting, photorealistic product shot, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
