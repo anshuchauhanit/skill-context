@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 alt_names and market_context confirm that the dominant buyer-facing term is 'container shop' or 'portable container shop', not 'Mobile Containers' — the current name is generic and risks contamination from bare ISO shipping containers used in logistics/freight, which share the same keyword space.",
+    "suggested_name": "Portable Container Shop"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a large grey prefabricated site office / mobile home trailer structure — not a container shop or commercial kiosk, which is the confirmed primary_segment; this misrepresents the MCAT to buyers.",
+      "The structure visible lacks any container-form aesthetic (no corrugated steel ISO container profile, no commercial shopfront opening or signage area), making it actively misleading for buyers searching for portable container shops or kiosks."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A modified 20ft ISO steel shipping container converted into a portable retail shop kiosk, with a large fold-down front counter/shutter opening, corrugated corten steel exterior painted in bright blue or orange, small signage board above the counter, set on a flat urban street or market area, natural daylight, clean white background on one side, square 1:1 crop, photorealistic product shot style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
