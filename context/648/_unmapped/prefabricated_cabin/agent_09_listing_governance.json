@@ -1,0 +1,6 @@
+{
+  "location_exception": false,
+  "location_exception_reason": "Prefabricated cabins are manufactured products with standardised specifications; buyer decisions are driven by material type, dimensions, and thermal properties, not origin location. Location names in titles (e.g., 'Delhi-made cabin') add no product information and should not appear.",
+  "biz_exception": false,
+  "biz_exception_reason": "Business-type words ('Manufacturer', 'Supplier', 'Dealer') are redundant in cabin titles; IndiaMART's seller-type filter already exposes this information independently. Removing 'Manufacturer' from 'PUF Cabin Manufacturer' leaves a complete, accurate product title."
+}
