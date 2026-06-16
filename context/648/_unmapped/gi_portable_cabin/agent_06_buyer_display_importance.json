@@ -1,0 +1,211 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — a 6×4 ft guard booth, a 20×8 ft site office, and a multi-room accommodation block are visually unrecognisable as the same product. Buyers use the image to identify the correct product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin size is non-interchangeable — a buyer with a specific footprint requirement cannot substitute one size for another. GI sheet thickness and insulation type are the primary quality-tier and price-driving specs; listings without these cannot be evaluated or compared."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian B2B buyers compare per-piece prices aggressively once size and spec tier are confirmed. Price varies substantially with cabin size and GI thickness — a 40×8 ft insulated cabin is multiples of the price of a 6×4 ft uninsulated booth — making listed price a primary shortlisting signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the market is fragmented across regional fabricators and buyers search by size, spec, and price rather than manufacturer name.",
+      "reason": "Manufacturer vs trader distinction matters for customisation capability and quality assurance, and buyers check company credentials after spec and price shortlisting. No brand-driven premium exists in this fragmented market."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Per square feet quoting exists for custom-dimension orders but per piece is dominant for all standard catalogue sizes. No buyer confusion arises for standard security cabin or site office procurement.",
+      "reason": "Standard GI portable cabins are universally sold per piece; no buyer questions the unit for catalogue sizes, and the per-sq-ft exception applies only to bespoke large-format orders handled post-connection."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Size",
+        "reason": "Size is the primary price driver and is non-interchangeable — a 6×4 ft guard booth and a 40×8 ft site office differ by multiples in price and cannot substitute for each other in any application."
+      },
+      {
+        "rank": 2,
+        "spec_name": "GI Thickness",
+        "reason": "GI sheet thickness (0.4 mm to 1.0 mm) defines the durability and quality tier of the cabin, with 1.0 mm commanding a significant price premium over economy-grade 0.4–0.5 mm sheets used in short-duration deployments."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Cabin Size",
+      "Door Type",
+      "Features",
+      "Flooring Type",
+      "GI Thickness",
+      "Insulation Type",
+      "Roof Type",
+      "Structure Material",
+      "Window Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Frame Section Size",
+        "why_important": "Frame section dimensions (e.g., 75×40 mm vs 100×50 mm C-channel) determine structural load capacity and are a primary differentiator between economy and heavy-duty cabins used in procurement specs for government and PSU projects.",
+        "source": "both",
+        "example_values": [
+          "75×40 mm",
+          "100×50 mm",
+          "50×50 mm",
+          "125×65 mm"
+        ]
+      },
+      {
+        "spec_name": "Internal Wall Panelling",
+        "why_important": "Internal panelling material (pre-laminated MDF, bison board, GI sheet) determines interior finish quality and moisture resistance, which is a key differentiator for accommodation and long-duration site office buyers.",
+        "source": "both",
+        "example_values": [
+          "Pre-laminated MDF",
+          "Bison Board",
+          "GI Sheet",
+          "Plywood"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Length",
+        "reason": "Length is the primary dimension defining the cabin's footprint and is non-interchangeable — sellers need this to confirm they can supply the required size and to price the unit accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Application",
+        "reason": "Application type routes the RFQ to sellers who manufacture the correct sub-type — a toilet cabin manufacturer may not supply site offices, and fit-out, compliance requirements, and pricing differ substantially across application types.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Office",
+          "Security Cabin",
+          "Site Office",
+          "Storage Unit",
+          "Toilet Block",
+          "Labor Hutment"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Sellers need to know whether the buyer requires insulation (and which type) to confirm product capability and price accurately — an uninsulated cabin and a PUF-insulated cabin are different products at different price points.",
+        "source": "both",
+        "example_values": [
+          "Glass Wool",
+          "PUF",
+          "Rockwool",
+          "No Insulation"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Office",
+      "id": "spec_1",
+      "prompt_for_generation": "GI portable cabin configured as an office interior, showing a desk, chair, and window with aluminium sliding frame, GI corrugated sheet exterior walls visible, clean white internal panelling, natural daylight, no branding, 1:1 square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Security Cabin",
+      "id": "spec_2",
+      "prompt_for_generation": "Small GI portable security guard cabin, approximately 6x4 ft, slope roof, single MS door, sliding window on front panel, GI corrugated sheet exterior in grey-green finish, placed at a gate entry, daytime outdoor setting, no branding, 1:1 square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Site Office",
+      "id": "spec_3",
+      "prompt_for_generation": "GI portable site office cabin, approximately 20x8 ft, slope roof, multiple aluminium sliding windows, single entry door, GI corrugated sheet exterior in light blue or grey, placed on a construction site with scaffolding visible in background, daytime, no branding, 1:1 square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Storage Unit",
+      "id": "spec_4",
+      "prompt_for_generation": "GI portable storage cabin, approximately 10x8 ft, flat or slope roof, no windows, single wide MS door on front, GI corrugated sheet exterior in plain grey, placed on an industrial yard, daytime outdoor setting, no branding, 1:1 square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Toilet Block",
+      "id": "spec_5",
+      "prompt_for_generation": "GI portable toilet cabin block, multiple individual cubicle doors visible on front panel, GI corrugated sheet exterior in white or light grey, ventilation louvres near roof, placed on a construction site, daytime outdoor setting, no branding, 1:1 square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Labor Hutment",
+      "id": "spec_6",
+      "prompt_for_generation": "GI portable labour accommodation cabin, approximately 20x8 ft, slope roof, multiple sliding windows along side wall, GI corrugated sheet exterior in green or grey, placed in a row with similar units at a remote project site, daytime outdoor setting, no branding, 1:1 square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
