@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Pre Engineered Steel Building' directly matches the dominant buyer vocabulary ('PEB building', 'pre engineered steel building') confirmed across Agent 3 primary_keywords and buyer_intent_queries, and aligns with the market-standard abbreviation PEB used by all major organised-sector players.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image correctly shows a large-span steel portal frame structure under construction with visible primary columns, rafters, and an overhead EOT crane beam — accurately representing the primary segment (industrial warehouse/factory PEB, supply and erect).",
+      "Improvement is possible: the under-construction state with a construction truck and bare earth foreground reduces visual clarity; a completed, clad PEB warehouse with profiled metal roofing and wall panels on a clean background would better communicate the finished product to buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic exterior view of a completed large-span single-storey pre-engineered steel warehouse building with grey profiled metal roof sheeting and blue corrugated steel wall cladding, tapered portal frame columns visible at the entrance, wide sliding industrial door open at the front, clean concrete apron in the foreground, clear blue sky background, bright natural daylight, sharp product-focused composition, square 1:1 crop, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
