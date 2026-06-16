@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Industrial Sheds' directly matches the top primary keyword and is the dominant buyer search term confirmed across alt_names and market_context; it is the standard trade and buyer-facing label for this MCAT in the Indian B2B market.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail shows a real, completed blue colour-coated corrugated steel shed structure with visible portal-frame eave, side cladding, windows, and open front bay — correctly representing the industrial shed category and broadly consistent with the primary segment.",
+      "The image is a real-site photograph with a dirt foreground, overcast sky, and construction debris visible, which reduces visual clarity and professional appeal; an AI-generated or studio-quality render of a PEB shed would better communicate the primary segment (Pre-Engineered Steel Industrial Shed for manufacturing/warehousing) with cleaner composition and structural detail."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a large Pre-Engineered Steel Industrial Shed (PEB shed) for manufacturing and warehousing. The shed has a wide-span portal-frame steel structure with light grey or off-white colour-coated corrugated roofing panels and matching side wall cladding, a clear-span interior visible through a large open roller-shutter front bay, and a clean concrete apron in the foreground. The structure shows visible ridge, eave gutters, and evenly spaced windows along the side wall. Background is a clear blue sky with minimal surroundings to keep focus on the shed. Bright, even daylight lighting. Professional architectural photography style. No people, no vehicles, no text overlays. White 'IndiaMART AI' watermark text in a dark semi-transparent pill badge, 10–12px, 60–70% opacity, bottom-right corner.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
