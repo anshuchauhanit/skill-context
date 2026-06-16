@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 market_context confirms 'glass room' is the dominant buyer-side vocabulary in India while 'conservatories' is seller/formal usage; primary_keywords list 'glass room' and 'aluminium glass room' ahead of 'conservatory', indicating the current name underserves Indian buyer search intent.",
+    "suggested_name": "Glass Room Conservatories"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail correctly shows a uPVC-framed glazed room extension attached to a residential building with a sloped glass roof and full-height glass panels — directly matching the primary_segment of custom aluminium or uPVC-framed glass room extension for residential terraces and outdoor spaces.",
+      "The image is a real-world exterior photograph of a Western-style brick-facade property rather than a clean product-on-white or Indian residential context, which reduces its resonance with the Indian buyer segment and makes an AI-generated, India-context alternative worthwhile."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic product image of a custom aluminium-framed glass room conservatory installed on a modern Indian residential terrace. White powder-coated aluminium frame with full-height tempered glass walls and a sloped glass roof. Interior visible through glass shows comfortable seating. Clean white background on three sides, bright natural daylight, sharp architectural lines, no people, no text, no watermarks. Square 1:1 composition, professional product photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
