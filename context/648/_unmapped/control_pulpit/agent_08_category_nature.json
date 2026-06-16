@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": true,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Control Pulpit' maps to a well-bounded product concept — prefabricated industrial operator enclosures for crane/process plant supervision; all buyer_intent_queries and product_types share a single buyer archetype (industrial plant/crane OEM procurement) with no incompatible intent clusters; is_vague signals: S1 does not fire (name resolves to one product concept), S2 does not fire (Agent 3 named a confident unhedged primary_segment), S3 does not fire (all intent contexts cluster around operator cabin procurement), S4 does not fire (all product_types share the same industrial buyer), yielding 0 signals — is_vague: no.",
+    "is_thin: listing_count of 59 is low and consistent with a project-driven, low-frequency capital equipment niche; Agent 3 confirms listing_count_suspect: false and characterises this as a 'low-frequency, project-driven capital equipment category', validating thin classification despite plausible demand in steel/power plant sectors."
+  ]
+}
