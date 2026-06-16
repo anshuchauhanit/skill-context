@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Industrial Buildings' directly maps to the top primary_keywords ('prefabricated industrial building', 'PEB building', 'prefab factory building') and aligns with market_context confirming this is the dominant commercial term for the PEB/steel prefab category in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a real pre-engineered steel building with profiled metal wall cladding and blue structural framing — correctly representing the primary_segment (PEB for industrial warehouse/factory use).",
+      "However, the photo is a low-resolution, overcast construction-site shot with a scaffolding obstruction, snowy/grey surroundings, and no clear view of the full building form — a clean, well-lit exterior render or photo showing the complete PEB structure would significantly improve buyer appeal and category clarity."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic exterior view of a large pre-engineered steel building (PEB) used as an industrial warehouse, showing the full facade with light grey profiled metal wall cladding, blue or green structural steel columns and eave trim, wide-span clear-span portal frame structure, corrugated metal roof with ridge ventilator, large sliding entry door, clean concrete apron in foreground, bright daylight with soft shadows, plain white or light sky background, sharp product-focused composition, square 1:1 format, no people, no scaffolding, no construction debris.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
