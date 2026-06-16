@@ -1,0 +1,1273 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "186362053",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Modular Mild Steel Industrial Servant Shelter",
+      "description": ".<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />.",
+      "specs": {
+        "raw": "Application:Worker Shelter, Built Type:Fixed, Color:Yellow, Feature:Easily Assembled, Frame Material:Mild Steel, Is It Rust Proof:Yes, Roofing Material:Galvalume Sheet, Surface Treatment:Paint Coated, Usage Area:Outdoor, Wall Panel Type:Sheet And Insulation"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/3/591587778/HS/ZU/ZT/18407213/ms-portable-shelter.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/modular-mild steel industrial servant shelter-25725357391.html",
+      "image_file": "186362053.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a row of yellow prefabricated mild steel worker quarters with corrugated blue Galvalume roofing, doors, and louvred windows, consistent with a fixed modular industrial worker shelter."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Modular Mild Steel Industrial Shelter) and application (Servant/Worker Shelter) but omits structural specs such as span, size, or panel type."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide frame material (Mild Steel), roofing material (Galvalume Sheet), wall panel type (Sheet and Insulation), surface treatment, rust-proof claim, and application (Worker Shelter) — sufficient for buyer evaluation."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description contains only punctuation and line breaks with no substantive product information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a fixed prefabricated mild steel industrial worker shelter — a recognised product type within Industrial Shelters MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Modular Mild Steel Industrial Servant Shelter' — the word 'Servant' is an unusual/informal qualifier that reduces clarity, and the title omits size, panel type, and structural specs."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; strong specs and clear image override thin description; P12 raised for title quality but does not disqualify.",
+      "source_url": "https://www.indiamart.com/proddetail/modular-mild steel industrial servant shelter-25725357391.html"
+    },
+    {
+      "item_id": "241672901",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Industrial Shelters",
+      "description": "JMV MERINE SERVICES helps customers to improve their efficiency by controlling noise at work place or by best acoustic design, we provide solutions based on open standards, our customers can decide what works best for them. Our objective is to give people the best product with best design and services.<br />JMV MERINE SERVICES believes in latest technology should be use to design next-generation product which can fulfill client's requirement as per international standards.",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Material:Steel, Thickness:As Per Requirement, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/4/299794529/MK/AR/MJ/32612665/prefabricated-shed-500x500.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-shelters-2850707390033.html",
+      "image_file": "241672901.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large grey pre-engineered steel industrial shed with roller shutter doors, steel cladding, and a clear-span structure — a strong representative image for industrial shelters."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads only 'Industrial Shelters' — correct category name but provides no product type, material, size, or application differentiation."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab steel construction but 'Thickness: As Per Requirement' and 'Usage/Application: House' are vague and the house application is atypical for industrial shelters."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic company capability statement about acoustic design and technology, with no product-specific attributes for the shelter."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated steel industrial shed — a core product type within the Industrial Shelters MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'JMV MERINE SERVICES' repeated twice as a business identifier embedded in the product description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Industrial Shelters' — a category-level label with no product type, material, size, or application specifics."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs list 'Thickness: As Per Requirement' and 'Usage/Application: House' — both are non-informative or atypical for an industrial shelter listing."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description embeds company name 'JMV MERINE SERVICES' as a business identifier rather than a product attribute."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed on image quality; multiple text quality issues noted but no active contradiction or category failure; verified good with P-codes flagged.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-shelters-2850707390033.html"
+    },
+    {
+      "item_id": "290484876",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Ms Prefabricated Industrial Shelter",
+      "description": "One of the goods within the modular building market that is experiencing the greatest level of demand right now is prefabricated industrial sheds. These storage spaces are also known as pre-engineered steel sheds",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Material:Steel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/11/364425821/DP/GT/CD/41626517/pre-engineering-structural-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/ms-prefabricated industrial shelter-2855588587812.html",
+      "image_file": "290484876.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a large clear-span steel industrial shed with arched purlins, corrugated steel roof panels, and an open floor — a strong representative image for prefabricated industrial shelters."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (MS/Mild Steel), construction type (Prefabricated), and product category (Industrial Shelter) — correct and minimally informative though lacking size or application."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab steel construction and Indian origin but provide no structural dimensions, span, height, or panel details."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description correctly identifies the product as a prefabricated industrial shed / pre-engineered steel shed with market context, though it lacks specific product attributes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a mild steel prefabricated industrial shed — a core product type within the Industrial Shelters MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only 'Built Type: Prefab, Material: Steel, Country of Origin: Made in India' — no span, height, panel type, or load capacity provided."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; image is strong and title/description are acceptable; thin specs noted but no active failure.",
+      "source_url": "https://www.indiamart.com/proddetail/ms-prefabricated industrial shelter-2855588587812.html"
+    },
+    {
+      "item_id": "276947208",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Prefabricated Industrial Shelter",
+      "description": "Our company has achieved widespread recognition in offering Prefabricated shelter to the clients. Prefabricated shelter are available in various technical specifications in accordance with clients' requirements. These products are made by professionals at well developed manufacturing unit by using premium quality components and contemporary technology in conformity with predefined guidelines of quality.",
+      "specs": {
+        "raw": "Application:Security Cabin, Built Type:Panel Build, Frame Finishing:Hot Galvanized, Material:Steel, Shape:Tunnel, Size:Customised, Surface Treatment:Galvanised, Type:Prefabricated, Type Of Industrial Sheds:All, Usage/Application:Factory, Wall Panel Type:GI Sheet Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/6/425641097/CA/XC/WP/2017476/prefabricated-shelters.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-industrial shelter-2854234820833.html",
+      "image_file": "276947208.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a modular prefabricated portable cabin with blue steel frame, cream sandwich panels, red-framed windows, and corrugated roof — a valid industrial shelter product clearly visible from an exterior angle."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Prefabricated Industrial Shelter) correctly but lacks material, size, or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide frame finishing (Hot Galvanized), wall panel type (GI Sheet Panel), shape (Tunnel), application (Factory/Security Cabin), surface treatment, and construction type (Panel Build) — comprehensive for buyer evaluation."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic capability statement with no product-specific attributes such as dimensions, load capacity, or panel specifications."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated GI panel industrial shelter used for factory and security cabin applications — a recognised product type within the Industrial Shelters MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — image is clear and product-appropriate, specs are strong, title is acceptable, no contradictions or category failures observed.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-industrial shelter-2854234820833.html"
+    },
+    {
+      "item_id": "302903036",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Prefabricated Industrial Shelter Service",
+      "description": "Prefabricated Industrial Shelter Service",
+      "specs": {
+        "raw": "Application:Industrial, Built Type:Prefabricated, Frame Material:Mild Steel, Roofing Material:PPGI Sheet, Size:10x20 ft, Wall Panel Type:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/3/595997861/OF/IO/IR/99249771/prefabricated-industrial-shelter-service.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-industrial shelter service-2856830403833.html",
+      "image_file": "302903036.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a glass-walled modular prefabricated shelter unit with aluminium/steel frame, flat roof, and transparent panel walls — a valid portable/modular industrial shelter product."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads 'Prefabricated Industrial Shelter Service' — the word 'Service' is ambiguous (could imply installation service rather than a product) but specs confirm a physical product."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide frame material (Mild Steel), roofing material (PPGI Sheet), wall panel type (PUF Panel), size (10x20 ft), and application (Industrial) — sufficient for buyer evaluation."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a single-phrase repetition of the title with no additional product information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated mild steel PUF panel industrial shelter — a recognised product type within the Industrial Shelters MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title includes the word 'Service' which creates ambiguity about whether this is a product or an installation service listing."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — image shows a valid prefabricated shelter product, specs are strong and specific, no contradictions or category failures; title ambiguity noted as P12.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-industrial shelter service-2856830403833.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "250989778",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Industrial Shelters",
+      "description": "<p>Using the best grade material, we are actively offering a wide gamut of <b>Wind Driven Turbo Ventilator</b>. The product is stringently examined under the supervision of our skilled professionals against parameters of quality to ensure a hassle free range to our clients.</p><p><b>Features:</b></p><ul><li><p>High durability</p></li><li><p>High performance</p></li><li><p>Finely finished</p></li></ul>",
+      "specs": {},
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/8/339218365/ON/DU/ZO/7997860/industrial-shelter.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-shelters-2851639077730.html",
+      "image_file": "250989778.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a large clear-span steel industrial shed with arched purlins and corrugated roof panels — consistent with an industrial shelter structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads only 'Industrial Shelters' — a category-level label with no product type, material, or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no product attributes provided."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly names 'Wind Driven Turbo Ventilator' as the product being offered — a ventilation accessory, not an industrial shelter structure."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Description explicitly identifies the product as a Wind Driven Turbo Ventilator — a ventilation component, not a prefabricated industrial shelter structure."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title claims 'Industrial Shelters' but description explicitly names 'Wind Driven Turbo Ventilator' as the product being offered.",
+          "Description identifies the product as a Wind Driven Turbo Ventilator — a ventilation accessory — which contradicts the Industrial Shelters category."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title says 'Industrial Shelters' but description explicitly names 'Wind Driven Turbo Ventilator' as the product."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes a Wind Driven Turbo Ventilator — a ventilation accessory — not a prefabricated industrial shelter structure."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Industrial Shelters' is a category label masking a Wind Driven Turbo Ventilator product — the actual product does not belong in this MCAT."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — description explicitly names a Wind Driven Turbo Ventilator as the product, contradicting both the title and the MCAT; category.valid set to false.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-shelters-2851639077730.html"
+    },
+    {
+      "item_id": "255507710",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefabricated Industrial Shelter",
+      "description": "\"Ansari Fabrication works\" are one of the prominent names occupied in the manufacturing in Parking Shades, Parking structures, Roofing Structurer Manufacturers, MS / stainless steel Structurer etc. We are capable to offer a qualitative assortment of products to our valuable customers.",
+      "specs": {
+        "raw": "Brand:ANSARI, Built Type:Prefab, Country of Origin:Made in India, Is It Rust Proof:YES, Is It Waterproof:YES, It Is Waterproof:YES, Material:Steel, Usage/Application:INDUSTRAIL"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/4/413927941/ZB/HS/RY/132459882/industrial-shelters.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-industrial shelter-2852090870962.html",
+      "image_file": "255507710.jpg",
+      "image_status": "missing_from_zip",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "Image not available in zip — photo audit skipped."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Prefabricated Industrial Shelter) correctly but lacks material grade, size, or structural specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab steel construction with rust-proof and waterproof claims but provide no structural dimensions, panel type, or load capacity; 'It Is Waterproof' is a duplicate of 'Is It Waterproof'."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic company profile for Ansari Fabrication Works listing product categories (parking shades, roofing structures) with no specific shelter attributes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title and specs indicate a prefabricated steel industrial shelter — a valid product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs contain duplicate waterproof entries: 'Is It Waterproof: YES' and 'It Is Waterproof: YES' — two keys for the same attribute."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains business name 'Ansari Fabrication works' in quotes as a company identifier embedded in the product description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs contain duplicate waterproof keys: 'Is It Waterproof: YES' and 'It Is Waterproof: YES' — conflicting/redundant entries for the same attribute."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs provide no structural dimensions, panel type, span, or load capacity — only generic material and waterproof claims."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description embeds company name 'Ansari Fabrication works' as a business identifier."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — image missing from zip (inconclusive on photo), but specs internal contradiction (P11) and business leakage (P16) are active failures; verified bad on text audit alone.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-industrial shelter-2852090870962.html"
+    },
+    {
+      "item_id": "47589059",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "20000Sq Feet Prefabricated IT Incubation House",
+      "description": "A <b>20,000 sq ft prefabricated IT Incubation House</b> is a large, modular building designed to support startups, tech companies, and innovation hubs. This structure is optimized for the needs of tech entrepreneurs, providing office spaces, shared resources, and networking areas in a flexible, efficient, and cost-effective manner. Prefabricated buildings for such purposes are gaining popularity due to their rapid construction, scalability, and reduced operational costs.",
+      "specs": {
+        "raw": "Area Coverage:20000Sq Feet, Built Type:Modular, Feature:Eco Friendly, Material:Steel, Surface Treatment:Color Coated, Technique:Hot Rolled, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/4/500853340/HY/BN/BQ/37731/prefabricated-it-incubation-park.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/20000sq-feet prefabricated it incubation house-6374054148.html",
+      "image_file": "47589059.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows an aerial view of a large prefabricated office/institutional building with a green tiled roof, parking lot, and landscaping — this is a prefabricated commercial/office building, not an industrial shelter."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title explicitly names 'IT Incubation House' — a commercial/office building product, not an industrial shelter."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs list 'Usage/Application: House' and describe a 20,000 sq ft modular building — consistent with a commercial/residential prefab building, not an industrial shelter."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly describes an IT Incubation House for startups and tech companies with office spaces — a commercial prefab building, not an industrial shelter."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a prefabricated IT Incubation House (commercial office building) — a fundamentally different product type from industrial shelters, with different buyer, application, and structural design."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Shelters",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large prefabricated commercial/office building with green tiled roof and landscaping — not an industrial shelter structure."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly names 'IT Incubation House' — a commercial office building, not an industrial shelter."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs list 'Usage/Application: House' for a 20,000 sq ft modular building — inconsistent with industrial shelter applications."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes an IT Incubation House for startups and tech companies — a commercial building product, not an industrial shelter."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — all dimensions indicate a commercial prefab IT Incubation House, not an industrial shelter; category.valid false; routed to Prefabricated Shelters sibling.",
+      "source_url": "https://www.indiamart.com/proddetail/20000sq-feet prefabricated it incubation house-6374054148.html"
+    },
+    {
+      "item_id": "54607582",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Bus Passenger Waiting Shelter",
+      "description": "By keeping track with the market developments, we are engaged in offering an extensive range of <b>Bus Passenger Waiting Shelter</b>. The given range of bus shelter is developed with the latest techniques & best material along with market norms. This FRP bus shelter is well inspected on each section for delivering its flawless range; clients can have the offered FRP bus shelter from us at suitable rates.<br /><b>Features:</b><br /><ul><li>Easy to install</li><li>Fine finish</li><li>Elevated quality</li></ul>",
+      "specs": {
+        "raw": "Brand:PBH, Built Type:Modular, Country of Origin:Made in India, Features:Public / Advertising, Height:2.5 Mtr., Material:Steel, Position:As per Requirement, Size:Depend on requirement, Size/Dimension:6 x 2 Mtr, Thickness:As per Requirement, Usage/Application:Public Place"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/10/ZT/WJ/VM/7018070/bus-passenger-waiting-shelter.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/bus-passenger waiting shelter-7371844455.html",
+      "image_file": "54607582.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a roadside bus passenger waiting shelter with a canopy roof, bench seating, and open sides — a public transit shelter, not an industrial shelter structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title explicitly names 'Bus Passenger Waiting Shelter' — a public transit infrastructure product, not an industrial shelter."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs list 'Usage/Application: Public Place' and 'Features: Public/Advertising' — confirming this is a public transit shelter, not an industrial shelter."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly describes an FRP bus passenger waiting shelter for public use — a transit infrastructure product, not an industrial shelter."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a bus passenger waiting shelter for public transit use — a fundamentally different product type from industrial shelters, with different buyer, application, and structural design."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Portable Shelters",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a roadside bus passenger waiting shelter with bench and canopy — a public transit structure, not an industrial shelter."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly names 'Bus Passenger Waiting Shelter' — a public transit product, not an industrial shelter."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs list 'Usage/Application: Public Place' and 'Features: Public/Advertising' — confirming a public transit application, not industrial."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes an FRP bus passenger waiting shelter for public use — not an industrial shelter."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — all dimensions consistently identify a bus passenger waiting shelter; category.valid false; routed to Portable Shelters sibling.",
+      "source_url": "https://www.indiamart.com/proddetail/bus-passenger waiting shelter-7371844455.html"
+    },
+    {
+      "item_id": "326542700",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Puf panel Goat shelter",
+      "description": "PUF panels are increasingly used in modern goat farming to create climate-controlled, hygienic, and durable shelters. They offer significant advantages over traditional tin or wooden sheds by maintaining a stable internal temperature, which reduces animal stress and improves growth rate",
+      "specs": {
+        "raw": "Application:Security Cabin, Built Type:Portable, Flooring:PVC Flooring, Frame Material:Mild Steel, Roofing Material:PPGI Sheet, Size:10x10 ft, Wall Panel Type:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/5/606371617/UN/KT/WJ/268353893/puf-panels-for-ro-shelters.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/puf-panel goat shelter-2859194370273.html",
+      "image_file": "326542700.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a modular portable cabin with blue steel frame, cream sandwich panels, door, and window — visually consistent with a portable industrial shelter or security cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title explicitly names 'Goat Shelter' — an agricultural livestock shelter, not an industrial shelter."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs list 'Application: Security Cabin, Built Type: Portable, Frame Material: Mild Steel, Wall Panel Type: PUF Panel, Size: 10x10 ft' — consistent with an industrial portable shelter, contradicting the title's goat shelter claim."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description explicitly describes PUF panel goat farming shelters for livestock climate control — an agricultural application, not industrial."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title and description explicitly identify this as a goat farming livestock shelter — an agricultural product, not an industrial shelter, despite the image and specs showing a portable cabin structure."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs",
+          "description_vs_category",
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title names 'Goat Shelter' (agricultural livestock) but specs list 'Application: Security Cabin' and 'Usage/Application: Factory' — directly conflicting applications.",
+          "Description describes a goat farming livestock shelter but the MCAT is Industrial Shelters — the described application is agricultural, not industrial.",
+          "Specs list 'Application: Security Cabin' (industrial) while description explicitly describes a goat farming shelter (agricultural) — direct application contradiction."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Cattle Sheds",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title names 'Goat Shelter' (agricultural) but specs list 'Application: Security Cabin' — directly conflicting applications for the same product."
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs list 'Application: Security Cabin' (industrial) while description explicitly describes a goat farming shelter (agricultural)."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly names 'Goat Shelter' — an agricultural livestock shelter, not an industrial shelter."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes PUF panel shelters for goat farming — an agricultural application outside the Industrial Shelters MCAT."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — title and description explicitly identify an agricultural goat shelter; cross-dimension contradictions with specs noted; category.valid false; routed to Cattle Sheds sibling.",
+      "source_url": "https://www.indiamart.com/proddetail/puf-panel goat shelter-2859194370273.html"
+    }
+  ],
+  "generated_bad_examples": [
+    {
+      "generated": true,
+      "generated_for_problem_codes": [
+        "P15"
+      ],
+      "item_id": "GENERATED_P15_P16",
+      "pre_label": null,
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefabricated Industrial Shelter",
+      "description": "We offer high quality prefabricated mild steel industrial shelters for factory and warehouse use. For enquiries call 9876543210 or email info@shelterworks.com. Our unit is located at MIDC Pune Industrial Area. Contact Mr. Ramesh Kumar for bulk orders.",
+      "specs": {},
+      "image_url": null,
+      "product_page_url": null,
+      "image_file": null,
+      "image_status": "generated",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "No image available — generated illustrative example."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names a prefabricated industrial shelter but lacks material, size, or structural specifics."
+        },
+        "specs": {
+          "category_fit": null,
+          "quality": "thin",
+          "reason": "Specs object is empty — no product attributes provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description embeds phone number, email address, personal name, and location — policy violations that contaminate the product listing."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title describes a prefabricated industrial shelter — a valid product type for this MCAT; PII/location issues are policy violations, not category failures."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains phone number '9876543210', email 'info@shelterworks.com', and personal name 'Mr. Ramesh Kumar'."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains location 'MIDC Pune Industrial Area' and business identifier 'shelterworks.com'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains phone number '9876543210', email 'info@shelterworks.com', and personal name 'Mr. Ramesh Kumar'."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains location 'MIDC Pune Industrial Area' and business domain 'shelterworks.com'."
+        }
+      ],
+      "verification_note": "Generated illustrative example for P15 and P16 — no real verified product in this batch demonstrated PII; grounded in Industrial Shelters primary segment."
+    }
+  ],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images for Industrial Shelters show either exterior views of complete prefabricated steel structures (with visible steel cladding, corrugated roofing, roller shutters or doors, and structural columns) or interior views of clear-span steel sheds (showing arched purlins, corrugated roof panels, and open floor area). Modular portable cabin units with panel walls, steel frames, windows, and doors also appear as valid product images. Images are typically taken from a ground-level exterior angle or interior wide-angle perspective that communicates the structural scale and construction method.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Verified good images show complete structural products (sheds, cabins, shelters) where the product's physical form, scale, and construction method are the primary information — no readable text labels or spec plates are visible on the structures.",
+      "OCR cannot extract meaningful product specifications from images of steel sheds or prefab cabins; all spec information is conveyed through the listing's text fields, not printed on the product surface."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good images show complete prefabricated industrial shelter structures from exterior or interior angles, clearly communicating construction type, material, and scale.",
+    "product_identity": [
+      "Steel-framed prefabricated shed or cabin structure with visible cladding, roofing, and structural elements",
+      "Modular portable cabin with panel walls, steel frame, doors, and windows"
+    ],
+    "acceptable_scenes": [
+      "Exterior ground-level view of a complete prefab steel shed or industrial building",
+      "Interior wide-angle view of a clear-span steel shed showing roof structure and open floor",
+      "Exterior view of a modular portable cabin unit on a construction or industrial site"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "186362053",
+        "reason": "Image shows a row of yellow prefabricated mild steel worker quarters with corrugated blue Galvalume roofing, doors, and louvred windows, consistent with a fixed modular industrial worker shelter.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "241672901",
+        "reason": "Image shows a large grey pre-engineered steel industrial shed with roller shutter doors, steel cladding, and a clear-span structure — a strong representative image for industrial shelters.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "290484876",
+        "reason": "Image shows the interior of a large clear-span steel industrial shed with arched purlins, corrugated steel roof panels, and an open floor — a strong representative image for prefabricated industrial shelters.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "276947208",
+        "reason": "Image shows a modular prefabricated portable cabin with blue steel frame, cream sandwich panels, red-framed windows, and corrugated roof — a valid industrial shelter product clearly visible from an exterior angle.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "302903036",
+        "reason": "Image shows a glass-walled modular prefabricated shelter unit with aluminium/steel frame, flat roof, and transparent panel walls — a valid portable/modular industrial shelter product.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "No verified bad products in this batch had thin_image quality — all bad products either had good images showing the wrong product or had missing images.",
+    "thinness_signals": [],
+    "examples": []
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show products that are clearly not industrial shelters — including public transit bus shelters, commercial office buildings, and agricultural livestock shelters.",
+    "failure_classes": [
+      {
+        "class": "public_transit_shelter",
+        "description": "Image shows a roadside bus passenger waiting shelter with canopy and bench seating — a public transit infrastructure product, not an industrial shelter.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "54607582"
+          }
+        ],
+        "detection_signal": "Open-sided canopy with bench seating on a roadside or public pavement — no enclosed walls, no industrial context.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "commercial_office_building",
+        "description": "Image shows a large prefabricated commercial/office building with decorative tiled roof, parking lot, and landscaping — a commercial building product, not an industrial shelter.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "47589059"
+          }
+        ],
+        "detection_signal": "Aerial view of a large building with decorative roof finish, parking lot, and landscaping — commercial/institutional appearance rather than industrial shed.",
+        "failure_mode": "wrong_category"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles for Industrial Shelters name the construction type (prefabricated/modular), primary material (mild steel, GI, PUF panel), and application or product sub-type.",
+    "strong_positive_signals": [
+      "Material qualifier: 'Mild Steel', 'MS', 'GI Sheet', 'PUF Panel', 'Galvalume'",
+      "Construction type qualifier: 'Prefabricated', 'Modular', 'Pre-Engineered'",
+      "Application or sub-type: 'Worker Shelter', 'Industrial Shelter', 'Factory Shed'"
+    ],
+    "structural_patterns": [
+      "[Material] [Construction Type] Industrial Shelter",
+      "[Construction Type] [Material] [Application] Shelter",
+      "[Material] Prefabricated Industrial Shelter"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "186362053",
+          "title": "Modular Mild Steel Industrial Servant Shelter",
+          "reason": "Names construction type (Modular), material (Mild Steel), category (Industrial), and application (Worker/Servant Shelter) — four buyer-relevant attributes in one title."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "290484876",
+          "title": "Ms Prefabricated Industrial Shelter",
+          "reason": "Names material (MS/Mild Steel) and construction type (Prefabricated) with category label — correct but lacks application, size, or panel type."
+        },
+        {
+          "item_id": "276947208",
+          "title": "Prefabricated Industrial Shelter",
+          "reason": "Correct product type named but no material, size, or application differentiation."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles use only the MCAT category name or add 'Service' without any material, size, or application specifics.",
+    "thinness_signals": [
+      "Title reads only 'Industrial Shelters' — a category-level label with no differentiating attributes",
+      "Title appends 'Service' creating ambiguity about whether a physical product or installation service is being offered"
+    ],
+    "examples": [
+      {
+        "item_id": "241672901",
+        "title": "Industrial Shelters",
+        "reason": "Title is the MCAT category name only — no material, construction type, size, or application provided."
+      },
+      {
+        "item_id": "302903036",
+        "title": "Prefabricated Industrial Shelter Service",
+        "reason": "The word 'Service' creates ambiguity about whether this is a product or an installation service listing."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles name products from entirely different categories — public transit shelters, commercial buildings, agricultural livestock shelters, and ventilation accessories.",
+    "failure_classes": [
+      {
+        "class": "public_transit_shelter",
+        "signal": "Title contains 'Bus Passenger Waiting Shelter' or 'Bus Shelter' — a public transit infrastructure product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "54607582",
+            "title": "Bus Passenger Waiting Shelter",
+            "reason": "Explicitly names a public transit bus shelter — a different product category from industrial shelters.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "commercial_prefab_building",
+        "signal": "Title contains 'IT Incubation House' or similar commercial/residential building descriptor — a prefab commercial building, not an industrial shelter.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "47589059",
+            "title": "20000Sq Feet Prefabricated IT Incubation House",
+            "reason": "Explicitly names an IT Incubation House — a commercial office building product, not an industrial shelter.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "agricultural_livestock_shelter",
+        "signal": "Title contains 'Goat Shelter', 'Cattle Shelter', or similar livestock/agricultural shelter descriptor.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "326542700",
+            "title": "Puf panel Goat shelter",
+            "reason": "Explicitly names a goat farming livestock shelter — an agricultural product outside the Industrial Shelters MCAT.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "ventilation_accessory_mislabelled",
+        "signal": "Description names 'Wind Driven Turbo Ventilator' or similar ventilation component while title uses the MCAT category name — product is a ventilation accessory, not a shelter structure.",
+        "failure_mode": "misleading",
+        "examples": [
+          {
+            "item_id": "250989778",
+            "title": "Industrial Shelters",
+            "reason": "Title uses MCAT category name but description explicitly identifies the product as a Wind Driven Turbo Ventilator — a ventilation accessory, not a shelter.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong in a different MCAT — sourced from verified bad products where dimensions.category.valid is false.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "prefabricated_commercial_building",
+        "signal": "Title or description names an IT Incubation House, office building, or commercial prefab structure with residential/office application.",
+        "examples": [
+          {
+            "item_id": "47589059",
+            "title": "20000Sq Feet Prefabricated IT Incubation House",
+            "reason": "Product is a prefabricated commercial/office building — not an industrial shelter; all dimensions confirm commercial building identity.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Shelters"
+      },
+      {
+        "class": "public_transit_bus_shelter",
+        "signal": "Title or description names a Bus Passenger Waiting Shelter or bus stop shelter with public place application.",
+        "examples": [
+          {
+            "item_id": "54607582",
+            "title": "Bus Passenger Waiting Shelter",
+            "reason": "Product is a public transit bus shelter — a different product type from industrial shelters with different buyer and application.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Portable Shelters"
+      },
+      {
+        "class": "agricultural_livestock_shelter",
+        "signal": "Title or description names a Goat Shelter, Cattle Shelter, or poultry/livestock shelter for agricultural use.",
+        "examples": [
+          {
+            "item_id": "326542700",
+            "title": "Puf panel Goat shelter",
+            "reason": "Product is a goat farming livestock shelter — an agricultural product outside the Industrial Shelters MCAT.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Cattle Sheds"
+      },
+      {
+        "class": "ventilation_accessory_mislabelled",
+        "signal": "Description names a Wind Driven Turbo Ventilator or similar ventilation component while title uses the MCAT category name.",
+        "examples": [
+          {
+            "item_id": "250989778",
+            "title": "Industrial Shelters",
+            "reason": "Description explicitly identifies the product as a Wind Driven Turbo Ventilator — a ventilation accessory, not a shelter structure.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; 255507710.jpg was not found in the image zip and was treated as missing_from_zip."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion values drawn only from confirmed taxonomy siblings: Prefabricated Shelters, Portable Shelters, Cattle Sheds — no MCAT names fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (prefabricated steel/FRP industrial shelter) and mcat_description used to ground all category belonging decisions; mcat_vagueness_signal.suspected_vague treated as false (coherent MCAT) per Agent 3 context."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
