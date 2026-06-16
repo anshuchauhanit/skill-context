@@ -1,0 +1,220 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — a steel site cabin, container home, capsule pod, and wooden cabin all belong to this MCAT and are unrecognisable from each other without an image. Buyers use the image as the primary product-type identification signal before reading any text."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Dimensions (length × width), number of rooms, and insulation material are non-negotiable shortlisting criteria — a buyer needing a 20×40 ft labour camp cannot evaluate a listing that omits these specs. Buyers discover across spec tiers on IndiaMART, making specs a primary decision gate, not a post-shortlisting confirmation."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Standard portable cabins are sufficiently commoditised that Indian B2B buyers compare prices aggressively across sellers once spec fit is confirmed. Price varies substantially with dimensions, insulation grade, and built type — buyers use listed price as a budget entry point and primary comparison signal within their spec tier."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per unit (per piece/structure)",
+      "unit_note": "Custom multi-room and large structures are quoted per sq ft — both conventions are active in the market. A buyer comparing a per-unit price against a per-sq-ft price without knowing the unit will misread the comparison entirely. Unit must be shown alongside price.",
+      "reason": "Per unit vs per sq ft is a documented market ambiguity for this category. Price cannot be meaningfully compared across listings without knowing the unit basis."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall — EPACK, Tata Nest-In, and Pressmach are known manufacturers but buyers search by spec and dimension, not brand name; no branded sub-categories appear in taxonomy siblings.",
+      "reason": "Manufacturer status, installation capability, transport logistics, and after-sales service are evaluated during vendor selection — post-sale dependency is real for a structure that requires delivery and on-site assembly. Company ranks last but is not irrelevant for institutional and large-contractor buyers."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Number of Rooms",
+        "reason": "Defines the product class — a single-room cabin is non-interchangeable with a 4-room unit, and room count is the primary driver of structural complexity, floor area, and price."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation Material",
+        "reason": "Defines the quality and performance tier — PUF panels command a significant premium over EPS (thermocol), and buyers in thermally demanding or fire-sensitive applications cannot substitute one for the other."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Door Material",
+      "Features",
+      "Flooring Material",
+      "Insulation Material",
+      "Length",
+      "Material",
+      "Number of Rooms",
+      "Portability",
+      "Use / Application"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Width",
+        "why_important": "Buyers specify portable house footprints as length × width (e.g., 10×20 ft, 20×40 ft) — Length alone is insufficient for site planning and accurate pricing; Width is a separate, independently specified dimension.",
+        "source": "both",
+        "example_values": [
+          "8 ft",
+          "10 ft",
+          "12 ft",
+          "15 ft"
+        ]
+      },
+      {
+        "spec_name": "Panel / Wall Thickness",
+        "why_important": "PUF panel thickness (50mm, 75mm, 100mm) drives both thermal insulation performance and structural rigidity, representing a significant price and quality differentiator between basic and premium portable house configurations.",
+        "source": "both",
+        "example_values": [
+          "50 mm",
+          "75 mm",
+          "100 mm",
+          "120 mm"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Built Type",
+        "reason": "Immediately routes the RFQ to sellers who supply the right product configuration — a seller specialising in site office cabins may not supply farm houses or bunk houses, and this spec determines fit before any other information is needed.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Office Cabin",
+          "Security Cabin",
+          "Bunk House",
+          "Farm House",
+          "Store Room"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Defines the structural scale and is the primary dimension driving price variation — a 40 ft structure requires fundamentally different materials, transport, and installation than a 10 ft cabin, enabling sellers to confirm supply capability and price accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Number of Rooms",
+        "why_important": "Sellers need room count to determine the internal configuration, structural complexity, and accurate price — a buyer requesting a 20×40 ft structure could need an open hall, 2-room, or 4-room layout, each requiring different fabrication.",
+        "source": "both",
+        "example_values": [
+          "Open Hall",
+          "1 Room",
+          "2 Rooms",
+          "3-4 Rooms"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Insulation Material",
+        "why_important": "Sellers need to know the required insulation type to confirm they can supply the right thermal and fire performance tier — PUF, rock wool, and EPS represent different price points and compliance levels that affect whether a seller can fulfil the requirement.",
+        "source": "both",
+        "example_values": [
+          "PUF (Polyurethane)",
+          "Rock Wool",
+          "EPS (Thermocol)",
+          "Mineral Wool"
+        ]
+      },
+      {
+        "spec_name": "Electrical and Plumbing Fittings",
+        "why_important": "A bare structure and a fully fitted unit with pre-installed electrical wiring and plumbing are priced and supplied very differently — sellers need this to scope the job accurately and determine whether they can fulfil the requirement.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "Electrical only",
+          "Plumbing only",
+          "Both electrical and plumbing",
+          "None (bare structure)"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Built Type",
+      "option_value": "Office Cabin",
+      "id": "spec_1",
+      "prompt_for_generation": "Steel-framed portable office cabin with insulated sandwich panel walls, single-room configuration, glass window, metal door, placed on a construction site, exterior view, natural daylight, clean background, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Security Cabin",
+      "id": "spec_2",
+      "prompt_for_generation": "Small steel portable security guard cabin, compact single-person size approximately 4x4 ft, insulated panel walls, sliding window on front, placed at a gate or entry point, exterior view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Bunk House",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated steel bunk house for labour accommodation, multi-room elongated structure with insulated panel walls, multiple doors and windows along the side, placed at a construction site, exterior view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Farm House",
+      "id": "spec_4",
+      "prompt_for_generation": "Portable prefabricated farm house cabin with insulated panel walls, sloped roof, wooden-finish exterior cladding, veranda or porch, set in a rural or agricultural landscape, exterior view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Store Room",
+      "id": "spec_5",
+      "prompt_for_generation": "Portable prefabricated store room unit with insulated steel panel walls, single metal door with latch, no windows or minimal ventilation openings, placed on a flat surface at an industrial or construction site, exterior view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
