@@ -1,0 +1,455 @@
+{
+  "mcat_description": {
+    "short": "Bio Toilet is a self-contained sanitation unit integrating a prefabricated cabin with an anaerobic biodigester tank that treats human waste into water and biogas without requiring sewage connection or sludge removal.",
+    "long": "Bio Toilets in India are prefabricated sanitation systems built around DRDO-developed anaerobic biodigester technology, which uses cold-active microbial inoculum (AMI) to decompose human waste into pathogen-free effluent water and methane gas. The units are manufactured in FRP (Fiber Reinforced Plastic), HDPE, mild steel, or PUF-insulated cabins and are available as single-seat stationary units, multi-seater mobile toilet vans, or tank-only systems connected to existing toilet seats. They are designed to operate without sewage infrastructure, making them suitable for high-altitude, remote, rural, and mobile deployment contexts including Indian Railways coaches, defence installations, construction sites, and municipal public sanitation. Buyers evaluate units on material, seating capacity, biodigester tank volume, DRDO technology certification, and whether the cabin is Indian-style or Western-style.",
+    "product_types": [
+      "Stationary Bio Toilet Cabin (FRP)",
+      "Stationary Bio Toilet Cabin (HDPE)",
+      "Stationary Bio Toilet Cabin (Mild Steel / PUF insulated)",
+      "Mobile Bio Toilet Van (4-seater, 6-seater, 8-seater)",
+      "Bio Toilet with Attached Biodigester Tank",
+      "Biodigester Tank Only (standalone, for retrofit)",
+      "Railway Bio Toilet (coach-mounted biodigester unit)",
+      "E-Toilet (electronic/automated bio toilet)",
+      "Multi-Seater Community Bio Toilet Block",
+      "Portable Bio Toilet (single-user, lightweight)",
+      "Indian Style Bio Toilet",
+      "Western Style Bio Toilet"
+    ],
+    "primary_applications": [
+      "Indian Railways coach sanitation (on-board waste treatment)",
+      "Defence and armed forces field deployments at high altitude",
+      "Municipal public toilet blocks in urban and semi-urban areas",
+      "Construction site worker sanitation",
+      "Rural and peri-urban household sanitation (no sewage connection)",
+      "Event and temporary sanitation (fairs, pilgrimages, outdoor events)",
+      "Highway and roadside public toilets",
+      "Bus and vehicle-mounted toilet systems",
+      "Swachh Bharat Mission rural sanitation installations",
+      "Disaster relief and remote area sanitation"
+    ],
+    "buyer_segments": [
+      "Indian Railways and railway contractors (bulk institutional procurement)",
+      "Defence establishments and armed forces contractors",
+      "Municipal corporations and urban local bodies (ULBs)",
+      "State government sanitation departments (Swachh Bharat programs)",
+      "Construction companies and EPC contractors",
+      "NGOs and rural sanitation project implementers",
+      "Bus body builders and commercial vehicle manufacturers",
+      "Event management companies",
+      "Individual homeowners in areas without sewage connection",
+      "Industrial plant and factory operators"
+    ]
+  },
+  "primary_segment": "Prefabricated FRP/HDPE biodigester toilet cabin with integrated anaerobic digester tank for institutional and public sanitation",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated biodigester-based toilet unit using anaerobic bacterial digestion for sewage-free waste treatment",
+    "secondary_families": [],
+    "reason": "All sub-types (stationary cabin, mobile van, railway-mounted, home unit) share the same DRDO anaerobic biodigestion working principle, the same buyer intent (sanitation without sewage infrastructure), and the same regulatory context — no incompatible product family or regulatory regime conflict exists within this MCAT."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "bio toilet",
+      "biotoilet",
+      "bio digester toilet",
+      "portable bio toilet",
+      "mobile bio toilet",
+      "bio toilet cabin",
+      "biodigester toilet",
+      "eco toilet",
+      "bio toilet system",
+      "FRP bio toilet"
+    ],
+    "technical_synonyms": [
+      "biodigester toilet system",
+      "anaerobic digester toilet",
+      "DRDO biodigester toilet",
+      "bio-septic toilet",
+      "AMI-based toilet",
+      "anaerobic microbial inoculum toilet",
+      "bio-degradable toilet system",
+      "zero-discharge toilet"
+    ],
+    "trade_names": [
+      "DRDO Bio Toilet",
+      "IR-DRDO Bio Toilet",
+      "E-Toilet",
+      "Smart Bio Toilet",
+      "Bio Pod",
+      "Syntex Bio Toilet"
+    ],
+    "hindi_terms": [
+      "जैव शौचालय",
+      "बायो टॉयलेट",
+      "बायो डाइजेस्टर शौचालय",
+      "पोर्टेबल शौचालय"
+    ],
+    "buyer_intent_queries": [
+      "bio toilet for home without sewage connection",
+      "portable bio toilet for construction site",
+      "mobile bio toilet van 6 seater",
+      "DRDO biodigester toilet manufacturer India",
+      "FRP bio toilet cabin price",
+      "bio toilet for bus installation",
+      "bio digester toilet system for railway coaches",
+      "bio toilet manufacturer in India",
+      "community bio toilet block for municipality",
+      "bio toilet for rural areas Swachh Bharat"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Single bio toilet cabin units are quoted per piece in Indian B2B transactions; multi-seater mobile vans are quoted per unit/set; large institutional or project-based orders (municipal blocks, railway contracts) are quoted per project or per seat.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Single-cabin stationary or portable bio toilet",
+        "unit": "per piece",
+        "note": "Standard unit for FRP/HDPE/steel single-cabin listings"
+      },
+      {
+        "sub_segment": "Mobile bio toilet van (multi-seater)",
+        "unit": "per unit / per set",
+        "note": "4-seater, 6-seater, 8-seater vans quoted as complete units"
+      },
+      {
+        "sub_segment": "Biodigester tank only (standalone)",
+        "unit": "per piece",
+        "note": "Tank-only retrofit products quoted per piece by volume/capacity"
+      },
+      {
+        "sub_segment": "Community toilet block / institutional project",
+        "unit": "per project / per seat",
+        "note": "Large municipal or government tenders quoted per project or per seat"
+      }
+    ],
+    "sources_checked": [
+      "cbsenergy.com manufacturer page",
+      "greenassets.in mobile bio toilet van page",
+      "engineeringforchange.org product profile",
+      "modconindustries.com product page",
+      "worldofportablecabins.com"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Bio Toilets in India are defined by DRDO-developed anaerobic biodigester technology, originally created for Indian Railways and armed forces deployed at high altitude and remote locations. The technology uses cold-active Anaerobic Microbial Inoculum (AMI) sourced from Antarctica, enabling operation across temperatures from -20°C to +50°C without electricity or sludge removal. Indian Railways has deployed over 90,000 biodigester units across its coach fleet, making it the largest single institutional buyer segment. The commercial market spans FRP cabin units (dominant material), HDPE units, mild steel cabins, and PUF-insulated variants. Key product distinctions buyers make: Indian-style vs Western-style pan, stationary vs mobile/van configuration, single-user vs multi-seater community block, and tank-only vs complete cabin. The Swachh Bharat Mission has significantly expanded demand in rural and semi-urban segments. Buyers in the B2B segment include municipal corporations, state sanitation departments, construction contractors, bus body builders, and NGOs. The term 'bio toilet' is used interchangeably with 'biodigester toilet' and 'bio digester toilet system' in Indian trade vocabulary. E-Toilet is a related but distinct sub-type featuring electronic/automated operation, sometimes listed under this MCAT. Bio Septic Tank is a closely related product (standalone tank without cabin) that appears in buyer call data and may be misplaced in this MCAT.",
+  "buyer_attracting_attributes": [
+    "Material (FRP / HDPE / Mild Steel / PUF)",
+    "Number of Seats / User Capacity",
+    "Biodigester Tank Capacity (litres)",
+    "Toilet Style (Indian / Western)",
+    "Portability (Stationary / Mobile / Van-mounted)",
+    "DRDO Technology Certification",
+    "Water Tank Capacity",
+    "Cabin Dimensions (L x W x H)",
+    "Installation Type (Standalone / Attached / Retrofit)",
+    "Waste Treatment Output (effluent quality / pathogen reduction)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "119106",
+    "mcat_name": "Bio Toilet",
+    "mcat_level": "4",
+    "listing_count": "1455",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Bio Toilet",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35424.0",
+      "name": "Portable Toilets",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35424.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "35424",
+        "mcat_name": "Portable Toilets",
+        "listing_count": "8053",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42586",
+        "mcat_name": "Toilet Cubicles",
+        "listing_count": "4466",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42587",
+        "mcat_name": "Toilet Partitions",
+        "listing_count": "1861",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "44109",
+        "mcat_name": "Mobile Toilet Van",
+        "listing_count": "2119",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45789",
+        "mcat_name": "Mobile Toilets",
+        "listing_count": "4607",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "126794",
+        "mcat_name": "FRP Modular Toilet",
+        "listing_count": "735",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133092",
+        "mcat_name": "Bunk House Portable Toilets",
+        "listing_count": "210",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145136",
+        "mcat_name": "FRP Portable Toilet",
+        "listing_count": "6032",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "156755",
+        "mcat_name": "Chemical Toilets",
+        "listing_count": "126",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182628",
+        "mcat_name": "Sintex Portable Toilets",
+        "listing_count": "361",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "189105",
+        "mcat_name": "MS Portable Toilets",
+        "listing_count": "2127",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "214584",
+        "mcat_name": "RCC Toilet",
+        "listing_count": "729",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "222823",
+        "mcat_name": "PVC Toilet",
+        "listing_count": "343",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "224049",
+        "mcat_name": "Modular Toilet",
+        "listing_count": "442",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 14,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Bio Toilet is a manufactured sanitation infrastructure product with BIS standards and CPHEEO guidelines. Buyers evaluate performance specs and regulatory compliance. Standard B2B research into technical specifications, material composition, and installation requirements is needed."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions ('bio toilet' 1988, 'bio toilet price' 370, 'bio toilet in bus' 44) used to identify buyer search vocabulary and dominant product intent."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Top internal keywords ('bio toilet' 138 PVs, 'bio toilet cabin' 12 PVs, 'syntex bio toilet' 2 PVs) confirmed buyer vocabulary and surfaced trade names."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "alt_names.buyer_intent_queries",
+          "market_context"
+        ],
+        "citation_note": "73 call rows confirmed Indian/Western style distinction, bus bio toilet segment, HDPE/E-Toilet variants, multi-seater mobile configurations, and bio septic tank as a related/confused product."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path and listing count (1,455) used as reference. 14 siblings checked for Trigger A vagueness — none carve out an incompatible regulatory regime."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.drdo.gov.in/drdo/green-hi-tech-prefabricated-biotoilet",
+        "title": "GREEN HI-TECH PREFABRICATED BIOTOILET | DRDO, Ministry of Defence, Government of India",
+        "source_domain": "drdo.gov.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.long",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "DRDO official page confirmed technology origin, 90,000 railway installations, and deployment in J&K, Sikkim, Arunachal Pradesh, and Lakshadweep."
+      },
+      {
+        "url": "https://cbsenergy.com/product/bio-toilet/",
+        "title": "Buy Eco-Friendly Bio Toilets at Best Price | Fast Delivery",
+        "source_domain": "cbsenergy.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Manufacturer page confirmed FRP/PUF cabin types, stationary vs mobile variants, capacity ranges, and DRDO technology attribution."
+      },
+      {
+        "url": "https://www.greenassets.in/product-page/mobile-bio-toilet-van",
+        "title": "Mobile Bio-Toilet Van",
+        "source_domain": "greenassets.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context.sub_segment_units",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed 4/6/8-seater mobile van configurations with specific biodigester tank capacities (750/1000/1200L) and DRDO technology."
+      },
+      {
+        "url": "https://susbio.in/biodigester-and-biotoilet/",
+        "title": "Biodigester and Bio-Toilet - SUSBIO",
+        "source_domain": "susbio.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Confirmed multi-chamber anaerobic digestion process and technical synonyms for biodigester toilet systems."
+      },
+      {
+        "url": "https://www.ecoideaz.com/innovative-green-ideas/drdo-bio-toilets-innovation-to-rescue-indian-railways/",
+        "title": "DRDO Bio-toilet Innovation to Rescue Indian Railways",
+        "source_domain": "ecoideaz.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Confirmed Indian Railways as primary institutional buyer segment and DRDO technology specifications for railway coach bio toilets."
+      },
+      {
+        "url": "https://www.engineeringforchange.org/solutions/product/r-k-technologies-economical-bio-toilet/",
+        "title": "R.K. Technologies Economical Bio Toilet | Engineering For Change",
+        "source_domain": "engineeringforchange.org",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed capacity-based sizing (200L/500L/1200L for 3–15 users), Ministry of Water and Sanitation approval, and per-piece unit quoting."
+      },
+      {
+        "url": "https://www.cbsenergy.co.in/bio-toilets-bio-digesters.html",
+        "title": "Bio Toilets & Bio Digesters - CBS Energy Greater Noida",
+        "source_domain": "cbsenergy.co.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed FRP and mild steel material options, temperature operating range, and stationary vs PUF cabin product types."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "CPHEEO",
+        "State Pollution Control Board"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Bio Toilet is a manufactured sanitation infrastructure product with BIS standards (IS 2500 for septic tanks, IS 13428 for biodigester toilets) and CPHEEO guidelines. Buyers evaluate performance specs (capacity, treatment efficiency, material durability) and regulatory compliance rather than brand name. Standard B2B research into technical specifications, material composition, and installation requirements is needed."
+    }
+  }
+}
