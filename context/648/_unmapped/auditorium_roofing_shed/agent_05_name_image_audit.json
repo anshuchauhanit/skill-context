@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Auditorium Roofing Shed' directly matches the top primary keyword in Agent 3's alt_names and accurately reflects the primary segment (large-span prefabricated steel roofing for assembly venues); market_context confirms 'auditorium roofing shed' is the dominant search and trade term used by Indian buyers and suppliers.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a genuine large-span steel truss roofing structure under construction — consistent with the primary segment — so the product category is correctly represented with no wrong-product contamination.",
+      "However, the interior under-construction upward-looking angle obscures the full structure, lacks exterior context showing the auditorium/marriage-hall application, and the scaffolding-heavy construction scene reduces buyer confidence compared to a completed exterior or semi-exterior shot that communicates the finished product."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic exterior view of a large-span prefabricated steel roofing shed covering a completed marriage hall or community auditorium in India. The structure features a gabled or slightly curved roof clad with colour-coated PPGI profiled steel sheets in light blue or off-white, supported by visible welded H-beam steel columns painted grey. The building is set against a clear daytime sky with soft natural lighting. The foreground shows a clean concrete apron or entrance area with a few people for scale, conveying the grand span and finished quality. Clean white background crop on sides, square 1:1 composition, sharp focus, professional architectural photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
