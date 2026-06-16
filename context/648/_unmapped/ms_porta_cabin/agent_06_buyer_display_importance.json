@@ -1,0 +1,289 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual variation across built types is extreme — a 10×10 security guard cabin, a 40×10 bunkhouse, and a furnished site office are visually unrecognisable as the same product category. Buyers use the image to identify the correct sub-type before reading any text; wrong visual type causes an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Size (L×W) and Built Type are non-interchangeable — a contractor needing a 20×10 site office cannot substitute a 10×10 security cabin. These specs are the primary shortlisting gate; a listing without them cannot be evaluated or compared."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with size and built type (plain shell vs furnished office vs bunkhouse), and the market is highly fragmented with hundreds of fabricators. Indian construction contractors actively compare prices across listings once size and type match; listed price is a real shortlisting signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Per piece is dominant for standard sizes (10×10, 10×15, 10×20 ft). Per sq ft is used for large custom or multi-room configurations — buyers comparing a per-piece quote against a per-sq-ft quote will misread price without unit clarity.",
+      "reason": "Unit must be shown because the market has two active quoting conventions (per piece and per sq ft) and a buyer comparing standard-size listings against custom-configuration listings will misread price if unit is absent."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — taxonomy siblings contain no branded MS cabin MCATs and the market is fragmented across hundreds of regional fabricators.",
+      "reason": "Seller capability — fabrication quality, installation service, delivery radius, and track record on similar projects — matters to institutional and government buyers during vendor selection, but company ranks last as buyers shortlist on image, specs, and price first."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Built Type",
+        "reason": "Defines what the cabin IS and who it is for — a bunkhouse, site office, security cabin, and toilet block are non-interchangeable products targeting different buyer segments with substantially different price points."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Size (L x W)",
+        "reason": "Floor area is the primary price driver — price scales directly with size, and a buyer needing 20×10 ft cannot substitute 10×10 ft, making this a non-interchangeable configurator with the largest absolute price delta in the spec list."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Features",
+      "Flooring",
+      "Insulation",
+      "Internal Wall Paneling",
+      "Material",
+      "No. of Rooms",
+      "No. of Windows",
+      "Size (L x W)"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Structural Frame Specification",
+        "why_important": "Frame section size (e.g., 100×50mm C-channel vs 50×50mm square pipe) is a primary structural quality differentiator that institutional and government buyers use to compare durability and justify price differences between fabricators.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "100x50mm C-Channel",
+          "75x40mm C-Channel",
+          "50x50mm MS Square Pipe",
+          "I-Beam Base Frame"
+        ]
+      },
+      {
+        "spec_name": "Supply Condition",
+        "why_important": "Whether the cabin is supplied as a knock-down kit, a ready-to-install unit, or with full installation service materially changes the buyer's logistics cost and total project cost, and sellers need this to quote accurately.",
+        "source": "both",
+        "example_values": [
+          "Ready to Install",
+          "Knock-Down Kit",
+          "With Installation",
+          "Without Installation"
+        ]
+      },
+      {
+        "spec_name": "Exterior Cladding Thickness / Sheet Gauge",
+        "why_important": "GI/MS sheet gauge (e.g., 0.5mm vs 0.8mm) directly affects structural durability and weather resistance, and is a standard comparison point for buyers evaluating quality across fabricators in this fragmented market.",
+        "source": "both",
+        "example_values": [
+          "0.47mm (26 Gauge)",
+          "0.55mm (24 Gauge)",
+          "0.80mm (22 Gauge)",
+          "1.0mm (20 Gauge)"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Application defines the use case and built type — a seller specialising in security cabins or sanitation blocks may not supply furnished site offices, so this spec routes the RFQ to sellers who can actually fulfil the requirement.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Office",
+          "Commercial",
+          "Security Guard",
+          "Storage",
+          "Residential",
+          "Sanitary"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Length is the primary size dimension that determines whether a seller can fabricate or supply the required cabin and allows accurate price quotation — sellers cannot respond meaningfully without knowing the required footprint.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Supply Condition / Configuration",
+        "why_important": "Sellers need to know whether the buyer wants a plain shell, a furnished unit, or a cabin with electrical fittings and AC provision — this determines the scope of supply and drives the largest price variation within the same size and application.",
+        "source": "both",
+        "example_values": [
+          "Plain Shell",
+          "Furnished",
+          "With Electrical Fittings",
+          "With AC Provision",
+          "With Toilet Attached"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Plain Shell",
+          "Furnished",
+          "With Electrical Fittings",
+          "With AC Provision",
+          "With Toilet Attached"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Office",
+      "id": "spec_1",
+      "prompt_for_generation": "MS porta cabin configured as a site office, mild steel frame with GI corrugated sheet exterior in grey or green finish, single door and two windows visible, placed on a construction site, natural daylight, clean exterior, no branding, 3/4 angle view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Commercial",
+      "id": "spec_2",
+      "prompt_for_generation": "MS porta cabin configured as a portable commercial shop or kiosk, mild steel frame with GI sheet cladding, wide front opening or shutter door, signage-ready facade, placed on a paved surface, natural daylight, no branding, 3/4 angle view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Security Guard",
+      "id": "spec_3",
+      "prompt_for_generation": "Small MS porta cabin configured as a security guard room, compact 6x6 ft footprint, mild steel frame with GI sheet cladding, single door and one window, placed at a gate or entrance, natural daylight, no branding, 3/4 angle view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Storage",
+      "id": "spec_4",
+      "prompt_for_generation": "MS porta cabin configured as a storage unit or store room, mild steel frame with GI corrugated sheet cladding, no windows, single heavy-duty door with latch, placed on a construction or industrial site, natural daylight, no branding, 3/4 angle view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Residential",
+      "id": "spec_5",
+      "prompt_for_generation": "MS porta cabin configured as a portable residential room or rooftop cabin, mild steel frame with GI sheet cladding, two windows with grilles, single door, placed on a rooftop or open plot, natural daylight, residential context, no branding, 3/4 angle view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Sanitary",
+      "id": "spec_6",
+      "prompt_for_generation": "MS porta cabin configured as a portable toilet or sanitation block, mild steel frame with GI sheet cladding, ventilation louvres near roof, single door, placed at a construction site, natural daylight, no branding, 3/4 angle view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Supply Condition / Configuration",
+      "option_value": "Plain Shell",
+      "id": "spec_7",
+      "prompt_for_generation": "MS porta cabin as a plain shell structure, mild steel frame with GI corrugated sheet exterior, bare interior with no fittings or furniture visible through open door, placed on a construction site, natural daylight, no branding, 3/4 angle view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Supply Condition / Configuration",
+      "option_value": "Furnished",
+      "id": "spec_8",
+      "prompt_for_generation": "MS porta cabin interior showing furnished configuration, pre-laminated MDF wall panelling, vinyl flooring, office desk and chairs visible, ceiling fan, natural light through window, clean and ready-to-use appearance, no branding, interior perspective shot.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Supply Condition / Configuration",
+      "option_value": "With Electrical Fittings",
+      "id": "spec_9",
+      "prompt_for_generation": "MS porta cabin interior showing electrical fittings configuration, LED tube lights mounted on ceiling, electrical switchboard on MDF-panelled wall, wiring conduits visible, vinyl flooring, no furniture, natural light through window, no branding, interior perspective shot.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Supply Condition / Configuration",
+      "option_value": "With AC Provision",
+      "id": "spec_10",
+      "prompt_for_generation": "MS porta cabin exterior showing AC provision configuration, split AC outdoor unit mounted on GI sheet exterior wall, AC sleeve opening visible, mild steel frame cabin on construction site, natural daylight, no branding, 3/4 angle view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Supply Condition / Configuration",
+      "option_value": "With Toilet Attached",
+      "id": "spec_11",
+      "prompt_for_generation": "MS porta cabin with attached toilet block, main cabin section with door and windows plus smaller attached sanitation unit with separate door and ventilation louvre, mild steel frame with GI sheet cladding, placed on a construction site, natural daylight, no branding, 3/4 angle view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
