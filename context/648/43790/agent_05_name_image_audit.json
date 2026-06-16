@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Mobile Cabins' aligns with the dominant primary keywords ('mobile cabin', 'portable cabin', 'porta cabin') and market context confirming this is the standard B2B category label in India for relocatable prefabricated structures.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a timber/wood-clad cabin on a wheeled trailer — a Western-style recreational or residential tiny-home construction that does not represent the Indian B2B primary segment of steel-frame MS/GI/sandwich-panel portable cabins for construction site offices and labour accommodation.",
+      "The wood-exterior aesthetic and residential staircase styling actively misrepresent the product category, which is dominated by mild steel frame structures with corrugated GI or PUF sandwich panel walls, and could mislead buyers seeking industrial-grade site office or guard room cabins."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A standalone industrial-grade portable cabin (porta cabin) with a mild steel frame, corrugated colour-coated GI sheet or PUF sandwich panel walls in light grey or off-white, a flat or slightly sloped metal roof, a single steel door and two rectangular windows with grilles, placed on a flat construction site with compacted earth or gravel ground, natural daylight, slight three-quarter front angle view showing the full structure, clean white or light sky background, photorealistic product-style render, no people, no branding, sharp focus on the cabin exterior.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
