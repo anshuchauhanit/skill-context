@@ -1,0 +1,159 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "MS Portable Toilets have significant visual variation across sub-types — single cabin vs multi-compartment block vs trolley-mounted vs container type — and buyers use the image to immediately confirm structure type, build quality, and finish before reading any text. Wrong structure type or visibly poor build quality causes an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Buyers shortlist based on No. of Seats, Toilet Seat type (Indian/Western), and Structure Type before contacting sellers — these specs define whether the product matches the site requirement and cannot be inferred from image alone."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with No. of Seats, structure type, and included fittings — Indian B2B buyers (especially contractors and government procurement) compare prices aggressively across listings once spec equivalence is confirmed, making price a primary shortlisting lever."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand exists in the MS portable toilet cabin market — buyers search by spec, price, and location of manufacturer, not by brand name.",
+      "reason": "For government tender and bulk contractor procurement, seller credentials (manufacturing capability, past supply track record, GST registration) matter during vendor evaluation but are checked after spec and price shortlisting."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Per sq ft quoting exists for custom/modular configurations but per piece is the dominant and universally understood transaction unit for standard cabin units — no buyer confusion arises.",
+      "reason": "Unit is entirely implied for a finished cabin structure — no buyer questions whether a portable toilet cabin is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "No Of Seats",
+        "reason": "Seat count is the primary price driver and non-interchangeable product class separator — a 1-seat labour toilet and a 16-seat toilet block serve entirely different site requirements and carry vastly different prices."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Toilet Seat",
+        "reason": "Indian vs Western commode type is non-interchangeable for the end user and drives a meaningful price and fitment difference — buyers specify this upfront and cannot substitute one for the other."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Flooring",
+      "No Of Seats",
+      "Structure Type",
+      "Tank Capacity",
+      "Toilet Seat",
+      "Toilet Type",
+      "Usage",
+      "Wall Material",
+      "With Bath Area"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Size / Dimensions",
+        "why_important": "Footprint dimensions (e.g. 3x3 ft, 4x6 ft) determine site space allocation and transportation logistics — contractors and government buyers specify this as a primary requirement alongside seat count.",
+        "source": "both",
+        "example_values": [
+          "3x3 ft",
+          "4x4 ft",
+          "4x6 ft",
+          "6x8 ft"
+        ]
+      },
+      {
+        "spec_name": "Frame Material / Grade",
+        "why_important": "MS tubular frame gauge or section size (e.g. 40x40 mm, 2mm thickness) is a key quality and durability differentiator that affects price and buyer confidence in structural integrity for long-duration site deployment.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "40x40 mm MS tube",
+          "50x50 mm MS tube",
+          "MS channel frame",
+          "GI frame"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Seating Capacity",
+        "reason": "Seat count defines the scale of the sanitation requirement and is the single most important routing signal — sellers need this to determine whether they can supply the right product class and to price accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Toilet Seat Type",
+        "reason": "Indian vs Western commode type is non-interchangeable and must be confirmed upfront — sellers configure the unit differently and buyers cannot substitute one for the other on site.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Indian",
+          "Western"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Usage / Application",
+        "why_important": "Construction site, event, government/municipal, or defence camp usage drives different compliance, durability, and fitting requirements — sellers need this to confirm product suitability and quote the right configuration.",
+        "source": "both",
+        "example_values": [
+          "Construction Site",
+          "Labour Camp",
+          "Event",
+          "Government / Municipal Project"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Indian",
+      "id": "spec_1",
+      "prompt_for_generation": "Interior view of a prefabricated mild steel portable toilet cabin showing an Indian-style squat toilet pan (orissa pan) installed on a tiled or MS chequered plate floor, clean white walls, overhead lighting, no people, straight-on angle, studio-quality lighting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Western",
+      "id": "spec_2",
+      "prompt_for_generation": "Interior view of a prefabricated mild steel portable toilet cabin showing a Western-style ceramic commode with seat and lid installed on a tiled or MS chequered plate floor, clean white walls, overhead lighting, no people, straight-on angle, studio-quality lighting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
