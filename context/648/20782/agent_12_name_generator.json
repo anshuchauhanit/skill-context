@@ -1,0 +1,64 @@
+{
+  "enhanced_name_4w": "Relocatable Prefab Industrial Shelters",
+  "enhanced_name_5w": "Modular Portable Shelters for Site Use",
+  "enhanced_name_6w": "Portable Prefab Shelters for Workers Equipment",
+  "enhanced_name_long": "Relocatable Modular Prefabricated Shelters for Construction Sites, Worker Accommodation, Equipment Protection and Agricultural Rain Cover",
+  "alt_names": {
+    "primary_keywords": [
+      "portable shelter",
+      "portable shed",
+      "prefab shelter",
+      "temporary shed",
+      "mobile shelter",
+      "portable prefab shelter",
+      "temporary portable shed",
+      "rain shelter",
+      "relocatable shelter",
+      "portable enclosure"
+    ],
+    "technical_synonyms": [
+      "modular prefabricated shelter",
+      "pre-engineered portable shelter",
+      "PUF panel shelter",
+      "FRP prefab shelter",
+      "GRP prefabricated shelter",
+      "MS portable shelter",
+      "sandwich panel shelter",
+      "portable cabin enclosure",
+      "prefabricated portable enclosure"
+    ],
+    "trade_names": [
+      "porta shelter",
+      "shift shelter",
+      "smart shelter",
+      "monsoon shed",
+      "ATU shelter",
+      "BTS shelter"
+    ],
+    "hindi_terms": [
+      "asthayi shed",
+      "chalti phirti chhat"
+    ],
+    "buyer_intent_queries": [
+      "portable shelter for construction site workers",
+      "prefabricated shelter for industrial equipment storage",
+      "temporary shed for workers on site",
+      "portable shelter for agricultural rain protection",
+      "mobile shelter for industrial equipment",
+      "portable blasting shelter for industrial use",
+      "automatic retractable rain shelter for crops",
+      "portable shelter for BTS telecom equipment",
+      "foldable portable shelter for vehicle parking",
+      "portable shelter 10x23 for site use"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Telecom-specialist buyer segment (BTS/tower operators procuring sealed insulated telecom enclosures) — carved out by sibling MCAT 'Telecom Shelters' (42756); names and alt names that exclusively target telecom BTS enclosure buyers are discarded. 'BTS shelter' retained only as a trade name since it also appears in general portable shelter listings, but 'telecom shelter' itself is discarded as it matches the sibling MCAT name.",
+    "Military/defence procurement buyer segment — carved out by sibling MCAT 'Military Shelters' (33228); names exclusively targeting defence/military buyers (e.g., 'army field shelter', 'military portable shelter') are discarded. The buyer intent query 'portable shelter 10x23 army military' is retained in sanitised form ('portable shelter 10x23 for site use') to avoid direct military-segment targeting.",
+    "Dome-structure specialist buyer segment — carved out by sibling MCAT 'Dome Shelters' (26766); names exclusively referencing dome prefab shelters are discarded from enhanced names and primary keywords.",
+    "Industrial shed (permanent/semi-permanent large-span) buyer segment — carved out by siblings 'Industrial Sheds' (30719), 'Industrial Shelters' (30721), 'Prefabricated Factory Shed' (136750), and 'Warehouse Sheds' (164769); names implying permanent large-span factory or warehouse structures are discarded.",
+    "Garage/vehicle storage specialist buyer segment — carved out by siblings 'Portable Garage' (35070) and 'Folding Garage' (107235); names using 'garage' are discarded. 'Foldable portable shelter for vehicle parking' is retained as it describes a shelter use case, not a garage product."
+  ],
+  "segment_contamination_disclaimer": null
+}
