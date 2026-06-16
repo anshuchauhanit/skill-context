@@ -1,0 +1,197 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — A-frame, round log, D-log, modern timber frame, and resort cottage cluster are visually distinct products. Buyers have a specific aesthetic vision; image is the primary product-type identifier and the first shortlisting gate."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Wood type, log profile, floor area, and treatment are non-interchangeable project requirements. A buyer specifying cedar cannot substitute pine; a resort developer needing 600 sq ft cottages cannot use a 200 sq ft cabin spec. Specs are the primary technical shortlisting gate after visual match."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in the Indian log home market; it is fragmented across regional manufacturers and buyers search by spec, portfolio, and geography rather than brand name.",
+      "reason": "High-value custom build over 45–90 days — buyers evaluate manufacturer track record, completed project portfolio, installation geography, and post-sale support before committing. Seller identity is a significant trust signal for a project of this scale."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft rate varies substantially with wood species, floor area, and construction method. Indian buyers are price-sensitive but listed price is a budget entry point — final price is always negotiated for a custom project. Price is compared only after spec and visual equivalence is confirmed."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Some sellers quote per unit or per project lump sum for kit-form cabins and resort cottage clusters — creates real price comparison confusion. Per sq ft must be shown alongside price to enable meaningful comparison.",
+      "reason": "Price cannot be compared across sellers without knowing the unit. Per sq ft vs per unit vs per project is a genuine market ambiguity in this category; unit display is essential for buyer price interpretation."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Wood Type",
+        "reason": "Non-interchangeable material class — teak vs engineered wood vs pine represents a 3–5x price difference and buyers cannot substitute one species for another based on project requirements."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Floor Area",
+        "reason": "Defines project scale directly — the largest single driver of total project cost, and a 300 sq ft cabin is not substitutable for a 1000 sq ft villa regardless of other specs."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Floor Area",
+      "Furnishing",
+      "House Type",
+      "Log Profile",
+      "Number Of Floors",
+      "Roof Type",
+      "Service Location",
+      "Treatment",
+      "Usage",
+      "Wood Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall Thickness / Log Diameter",
+        "why_important": "Structural and thermal performance spec cited by Indian manufacturers (90–120 mm range) — resort and hill-station buyers specify this for insulation adequacy and structural integrity, and it drives material cost directly.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "90 mm",
+          "100 mm",
+          "120 mm",
+          "150 mm"
+        ]
+      },
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Hill-station and cold-climate buyers require PUF or equivalent insulation panels for thermal performance — absence of this spec prevents buyers from confirming suitability for their climate zone.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "PUF Panel",
+          "Rock Wool",
+          "EPS",
+          "No Insulation"
+        ]
+      },
+      {
+        "spec_name": "Construction Method",
+        "why_important": "Prefabricated modular vs site-built vs kit-form determines build timeline (45–90 days for prefab vs months for site-built) and total project cost — a primary decision variable for resort developers on tight opening schedules.",
+        "source": "both",
+        "example_values": [
+          "Prefabricated Modular",
+          "Site-Built",
+          "Kit Form (Supply Only)",
+          "Hybrid"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Configuration",
+        "reason": "BHK configuration immediately communicates project scale and complexity to sellers — a 1 BHK studio vs 3 BHK villa defines feasibility, floor area range, and price tier before any other spec is needed.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wood Type",
+        "reason": "Wood species is non-interchangeable and defines the material tier — sellers need this to confirm supply capability and provide an accurate per-sq-ft rate rather than a wide indicative range.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Pine Wood",
+          "Spruce Wood",
+          "Cedar Wood",
+          "Teak Wood"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Floor Area",
+        "why_important": "Sellers need explicit floor area to confirm project feasibility and provide an accurate quote — BHK configuration is a partial proxy but does not capture the actual built-up area the buyer requires.",
+        "source": "both",
+        "example_values": [
+          "Up to 300 sq ft",
+          "300–600 sq ft",
+          "600–1000 sq ft",
+          "Above 1000 sq ft"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Log home buyers frequently have a specific design reference — a cabin style, roof form, facade aesthetic, or competitor resort cottage they want to replicate — that cannot be captured in spec dropdowns. An uploaded reference image allows sellers to assess design complexity, confirm they can replicate the style, and provide a more accurate initial quote rather than a wide indicative range."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Wood Type",
+      "option_value": "Pine Wood",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated log home exterior wall panel in pine wood, showing natural light-golden pine grain and horizontal log profile, close-up flat lay on white background, studio lighting, no branding, sharp edges visible.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wood Type",
+      "option_value": "Spruce Wood",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated log home exterior wall panel in spruce wood, showing pale cream-white spruce grain with fine texture and horizontal log profile, close-up flat lay on light grey background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wood Type",
+      "option_value": "Cedar Wood",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated log home exterior wall panel in cedar wood, showing warm reddish-brown cedar grain with distinctive aromatic wood texture and horizontal log profile, close-up flat lay on white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wood Type",
+      "option_value": "Teak Wood",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated log home exterior wall panel in teak wood, showing rich dark golden-brown teak grain with prominent straight grain lines and horizontal log profile, close-up flat lay on white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
