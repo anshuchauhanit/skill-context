@@ -1,0 +1,494 @@
+{
+  "mcat_description": {
+    "short": "Log cabins are prefabricated or custom-built wooden structures assembled from stacked or interlocked solid logs or engineered timber, sold as complete habitable units for residential, hospitality, and eco-tourism use.",
+    "long": "A log cabin is a structure whose walls are formed from horizontally stacked solid wood logs or engineered timber, providing natural insulation, structural strength, and a distinctive rustic aesthetic. In the Indian market, log cabins are predominantly supplied as prefabricated or modular units — factory-manufactured in sections and assembled on-site — targeting resort developers, eco-tourism operators, hill-station homeowners, and farmhouse builders. Wood species used in Indian market supply include imported kiln-dried Canadian spruce, pine (SPF), and cedar, with treatment processes applied for moisture, termite, and weather resistance. Buyers typically commission custom-dimensioned structures quoted per square foot, with design, manufacturing, and installation offered as an end-to-end service.",
+    "product_types": [
+      "Prefabricated log cabin (modular, factory-built sections)",
+      "Portable log cabin (relocatable, skid-mounted)",
+      "Handcrafted log cabin (on-site traditional log stacking)",
+      "A-frame log cabin",
+      "Timber frame cabin (post-and-beam construction)",
+      "Garden cabin / backyard cabin",
+      "Resort cottage / eco-resort cabin",
+      "Rooftop wooden cabin",
+      "Log home (full residential scale)"
+    ],
+    "primary_applications": [
+      "Eco-resort and nature resort accommodation",
+      "Hill station residential homes",
+      "Farmhouse and weekend retreat construction",
+      "Glamping and boutique hospitality units",
+      "Garden rooms and backyard studios",
+      "Rooftop habitable structures",
+      "Forest and wildlife lodge accommodation"
+    ],
+    "buyer_segments": [
+      "Resort and hospitality developers (primary)",
+      "Eco-tourism and glamping operators",
+      "Individual farmhouse and hill-station homeowners",
+      "Real estate developers building nature-themed projects",
+      "Institutional buyers (forest department, ITDC, state tourism boards)",
+      "Architects and interior designers specifying wooden structures"
+    ]
+  },
+  "primary_segment": "Prefabricated modular wooden log cabin for resort, eco-tourism, and hill-station residential use",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated modular wooden log cabin for resort, eco-tourism, and hill-station residential use",
+    "secondary_families": [],
+    "reason": "All product sub-types (modular, portable, handcrafted, A-frame) share the same buyer profile and fundamental product concept — a wooden log-based habitable structure — with no incompatible regulatory regime or buyer segment carve-out among taxonomy siblings."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "log cabin",
+      "wooden log cabin",
+      "prefab log cabin",
+      "log home",
+      "wooden cabin"
+    ],
+    "technical_synonyms": [
+      "timber log construction",
+      "modular log home",
+      "prefabricated wooden house",
+      "solid wood cabin",
+      "stacked log structure",
+      "KD log cabin (kiln-dried)"
+    ],
+    "trade_names": [
+      "log cottage",
+      "wooden resort cottage",
+      "eco cabin",
+      "forest cabin",
+      "chalet",
+      "wooden bungalow"
+    ],
+    "hindi_terms": [
+      "lakdi ka ghar",
+      "kath ghar"
+    ],
+    "buyer_intent_queries": [
+      "prefab log cabin for resort in India",
+      "wooden log cabin for hill station",
+      "modular log home manufacturer India",
+      "log cabin for farmhouse construction",
+      "eco resort wooden cabin supplier India",
+      "log cabin price per sq ft India",
+      "portable wooden cabin for glamping"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian log cabin sellers universally quote on a per-square-foot basis because structures are custom-dimensioned to buyer specifications, making area the natural transactional unit for both pricing and scope definition.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Portable / relocatable cabin (fixed standard sizes)",
+        "unit": "per piece",
+        "note": "Standard-size portable cabins (e.g. 10x10 ft, 10x20 ft) may be quoted per piece when sold as catalogue units."
+      }
+    ],
+    "sources_checked": [
+      "woodenhomeindia.com (Royal Prefab)",
+      "deodargroup.com",
+      "prefabwoodenhomes.com",
+      "IndiaMART listing tile observations (structural signal only)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, log cabins are primarily positioned as prefabricated or modular wooden structures for the hospitality, eco-tourism, and premium residential segments, with demand concentrated in hill stations, forest-adjacent resorts, and farmhouse developments. Leading Indian manufacturers (e.g. Deodar Group, Royal Prefab/Wooden Home India, Wooden Villas India, Prefab Wooden Homes) supply end-to-end services covering design, factory fabrication, and on-site installation. Wood sourcing in the Indian market relies heavily on imported kiln-dried timber — Canadian spruce, SPF (spruce-pine-fir), and pine — with PEFC/FSC-certified supply chains cited by multiple manufacturers; cedar is preferred for humid and coastal climates due to its natural moisture and insect resistance. Properly treated log homes are cited by multiple Indian manufacturers as lasting 50–80 years or more. The market distinguishes between modular prefab cabins (factory-built panels assembled on-site), portable/relocatable cabins (skid-mounted, standard sizes), and fully handcrafted on-site log homes. Buyer vocabulary in India uses 'log cabin', 'wooden cabin', 'log home', and 'resort cottage' interchangeably; 'chalet' and 'eco cabin' are used in hospitality contexts. The 'nap pod' and 'Sonabath cabin' signals observed in keyword and call data are contamination from misplaced listings and do not represent the primary buyer segment.",
+  "buyer_attracting_attributes": [
+    "Wood Species / Timber Type",
+    "Wall Log Thickness",
+    "Floor Area / Cabin Size (sq ft)",
+    "Built Type (Modular / Prefab / Handcrafted)",
+    "Wood Treatment (Anti-termite, Waterproof, Kiln-dried)",
+    "Roof Type (Sloped / Flat / Thatched / Metal)",
+    "Number of Rooms / Layout",
+    "Certification (PEFC / FSC / BIS)",
+    "Installation Included (Yes/No)",
+    "Customisation Available (Yes/No)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "108654",
+    "mcat_name": "Log Cabin",
+    "mcat_level": "4",
+    "listing_count": "678",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Log Cabin",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Log cabins are prefabricated structural products evaluated on material specs (wood type, dimensions, assembly method), durability, and customisation — not regulatory compliance or brand dominance."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Impressions"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Top keyword by impressions is 'log cabin' (20 impressions) — confirms primary buyer search term."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "'small nap pod' (3 PV, 2 PDP clicks) flagged as contamination signal from misplaced listings; 'wooden log cabin' (1 PV) corroborates primary keyword."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "'Sonabath Cabin' call row identified as contamination (sauna/steam cabin), not used for buyer vocabulary or segment derivation."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirms MCAT sits under Prefabricated Structures; 678 listing count treated as plausible given market size; sibling count (27) reviewed for vagueness triggers — none fired."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://woodenhomeindia.com/product/log-homes",
+        "title": "Log Homes in India | Wooden Cabin & Timber Houses",
+        "source_domain": "woodenhomeindia.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context",
+          "unit_quoting_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for primary segment confirmation (resort/hill-station/farmhouse), durability claims (50-80 years), and per-sq-ft unit quoting norm."
+      },
+      {
+        "url": "https://www.deodargroup.com/log-homes",
+        "title": "Log Homes Construction in India, Modular Log Home Manufacturers in Delhi NCR",
+        "source_domain": "deodargroup.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for product type variants (A-frame, modular, prefab), natural insulation claim, and manufacturer landscape in India."
+      },
+      {
+        "url": "https://prefabwoodenhomes.com/",
+        "title": "Prefab Wooden Homes | manufacturer & supplier in India",
+        "source_domain": "prefabwoodenhomes.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for product type list (log cabins, A-frame, resort cottages, gazebo), PEFC/FSC certification signal, and imported timber sourcing (British Columbia, Scandinavian)."
+      },
+      {
+        "url": "https://www.woodenvillasindia.com/log-homes-india.php",
+        "title": "Log homes In India - Wooden Villas India",
+        "source_domain": "woodenvillasindia.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for imported kiln-dried Canadian spruce/pine wood claim and multi-terrain installation capability signal."
+      },
+      {
+        "url": "https://www.trulogsiding.com/best-wood-for-log-cabin/",
+        "title": "The Best Wood for Log Cabin Construction: How to Choose?",
+        "source_domain": "trulogsiding.com",
+        "derived_outputs": [
+          "buyer_attracting_attributes",
+          "mcat_description.long"
+        ],
+        "citation_note": "Used for wood species attribute (cedar, pine, spruce, fir, oak, cypress) as key buyer decision dimension."
+      },
+      {
+        "url": "https://tarriverloghomes.com/best-wood-for-log-cabins/",
+        "title": "Best Wood for Log Cabins: Durable, Cozy & Affordable Options",
+        "source_domain": "tarriverloghomes.com",
+        "derived_outputs": [
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Corroborated wood species selection (pine, cedar, spruce) as primary buyer-facing specification dimension."
+      },
+      {
+        "url": "https://www.goldstarbuildings.com/prefab-sheds-ideas/6-types-of-cabins/",
+        "title": "6 Best Types of Cabins and Their Construction | Gold Star Buildings",
+        "source_domain": "goldstarbuildings.com",
+        "derived_outputs": [
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for cabin construction type taxonomy (prefab, modular, post-and-beam, SIP, stick-built, log) to validate product_types list."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Log cabins are prefabricated structural products evaluated on material specs (wood type, dimensions, assembly method), durability, and customisation — not regulatory compliance or brand dominance. Agent 3 should research material standards, prefab construction practices, and typical buyer specifications."
+    }
+  }
+}
