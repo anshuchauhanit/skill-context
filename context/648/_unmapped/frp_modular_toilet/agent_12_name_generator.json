@@ -1,0 +1,62 @@
+{
+  "enhanced_name_4w": "FRP Prefab Sanitation Cabin",
+  "enhanced_name_5w": "FRP Modular Toilet Cabin Prefabricated",
+  "enhanced_name_6w": "Prefabricated FRP Toilet Cabin Construction Sites",
+  "enhanced_name_long": "Prefabricated Fiberglass FRP Modular Toilet Cabin for Construction Sites, Public Sanitation and Swachh Bharat Programs",
+  "alt_names": {
+    "primary_keywords": [
+      "FRP modular toilet",
+      "fiber toilet cabin",
+      "fibre reinforced plastic toilet",
+      "FRP toilet cabin",
+      "prefab toilet cabin",
+      "readymade toilet cabin",
+      "fibreglass toilet",
+      "fiber bathroom cabin",
+      "FRP sanitation cabin"
+    ],
+    "technical_synonyms": [
+      "GRP modular toilet",
+      "fibreglass reinforced plastic toilet",
+      "FRP prefabricated sanitation unit",
+      "single-piece moulded FRP toilet",
+      "FRP knockdown toilet cabin",
+      "FRP dismantable toilet",
+      "FRP sanitation cabin",
+      "FRP labour toilet unit"
+    ],
+    "trade_names": [
+      "Epsilon modular toilet",
+      "Needhi FRP toilet",
+      "Creative Fibrotech toilet",
+      "E-Loos FRP modular toilet"
+    ],
+    "hindi_terms": [
+      "फाइबर टॉयलेट",
+      "एफआरपी मॉड्यूलर टॉयलेट",
+      "पोर्टेबल टॉयलेट केबिन",
+      "फाइबर बाथरूम"
+    ],
+    "buyer_intent_queries": [
+      "FRP modular toilet for construction site",
+      "fiber toilet cabin with water tank",
+      "prefab toilet cabin Indian style",
+      "portable FRP toilet for Swachh Bharat",
+      "combined toilet and bathroom FRP unit",
+      "FRP toilet block multi-seater",
+      "FRP bio toilet for rural area",
+      "modular toilet cabin with septic tank",
+      "readymade fiber toilet cabin for labour camp"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Bio-digester-specific toilet buyers (sibling: Bio Toilet, ID 119106) — names emphasising bio-digester or anaerobic waste treatment as the primary product identity are excluded, as that sub-segment is carved out by the Bio Toilet sibling; FRP Modular Toilet covers the broader cabin category including bio-digester as one optional waste-management feature, not as the defining product identity.",
+    "Vehicle-mounted mobile toilet buyers (sibling: Mobile Toilet Van, ID 44109; Mobile Toilets, ID 45789) — names emphasising vehicle-mounted, truck-mounted, or van-based deployment are excluded, as those buyer segments seek motorised sanitation vehicles rather than static or skid-mounted prefab cabins.",
+    "Chemical toilet buyers (sibling: Chemical Toilets, ID 156755) — names emphasising chemical waste treatment as the primary product identity are excluded, as that is a distinct waste-management technology segment with a different buyer procurement context.",
+    "Brand-specific Sintex buyers (sibling: Sintex Portable Toilets, ID 182628) — the trade name 'Sintex portable toilet' is excluded from alt_names to avoid collision with the live Sintex-branded sibling MCAT.",
+    "MS (mild steel) portable toilet buyers (sibling: MS Portable Toilets, ID 189105) — names referencing steel, metal, or MS construction are excluded as that is a distinct material-based sibling segment.",
+    "Generic portable toilet buyers without FRP/modular specificity (sibling: Portable Toilets, ID 35424; FRP Portable Toilet, ID 145136) — the name 'FRP portable toilet' is excluded from enhanced name candidates as it exactly matches sibling MCAT 145136; the modular/prefab/cabin qualifier is retained in all enhanced names to preserve this MCAT's distinct identity."
+  ],
+  "segment_contamination_disclaimer": null
+}
