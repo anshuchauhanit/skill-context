@@ -1,0 +1,289 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Prefabricated buildings span visually distinct sub-types — PEB industrial sheds, LGSF residential homes, modular panel buildings, cold storage structures — that buyers cannot distinguish from title or specs alone. A buyer scanning listings for a warehouse shed will immediately skip a listing showing a residential modular home; image is the fastest sub-type filter available."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Built type, material (PEB/LGSF/panel), clear span, and frame type are primary shortlisting criteria — a factory owner needs a clear-span PEB, not a multi-span residential frame. Without these specs visible on the listing, buyers cannot determine fit and will not engage."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Recognised PEB brands — Interarch, EPACK Prefab, Kirby Building Systems, Pennar Industries, Everest Industries — carry significant buyer trust signals; institutional and large industrial buyers actively specify or prefer named manufacturers with ISO 9001 certification and proven erection track records.",
+      "reason": "For large capital projects (warehouses, factories, government buildings), buyers evaluate manufacturer credentials, ISO certification, seismic zone design capability, and post-erection service network during vendor shortlisting — company identity is a qualification gate, not just a preference."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft rates vary substantially with material type (PEB vs LGSF vs panel), clear span, insulation, and number of floors — buyers cannot compare prices across listings without confirmed spec equivalence. Indian B2B buyers are price-aggressive but price comparison is only meaningful after sub-type and spec alignment."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Large turnkey/EPC contracts are quoted as lump-sum project values; steel frame-only supply is sometimes quoted per MT by fabricators. Per sq ft is the dominant and expected unit for supply-and-erect contracts across industrial, commercial, and residential prefab segments.",
+      "reason": "Unit is non-obvious in this category — sellers quote per sq ft, per MT (steel frame only), or per project (lump sum turnkey), and a buyer comparing per-sq-ft listings against a per-project quote cannot make a valid price comparison without the unit being explicitly shown."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Material (PEB Steel / LGSF / Insulated Panel / MS Structure / Container Based) defines the structural system and is non-interchangeable — a buyer requiring a PEB steel warehouse cannot substitute an insulated panel building, and each material type carries a fundamentally different price point and engineering requirement."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Frame Type",
+        "reason": "Frame type (Clear Span / Multi-Span / Multi-Gable / Single Slope / Lean-To) drives the largest price delta within the PEB segment — clear-span structures require heavier primary frames and cost significantly more per sq ft than multi-span equivalents, and buyers with specific operational requirements (crane bays, unobstructed floor area) cannot substitute one frame type for another."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Area (in sq ft)",
+      "Bay Spacing (in m)",
+      "Built Type",
+      "Features",
+      "Frame Type",
+      "Insulation Material",
+      "Material",
+      "Number of Floors",
+      "Sheet Thickness (in mm)"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Clear Height / Eave Height (in m)",
+        "why_important": "Eave height is a primary PEB configurator — industrial buyers specify minimum clear height for crane operation, racking systems, or aircraft hangars, and height directly drives column size, steel tonnage, and per-sq-ft cost.",
+        "source": "both",
+        "example_values": [
+          "6 m",
+          "7.5 m",
+          "9 m",
+          "12 m"
+        ]
+      },
+      {
+        "spec_name": "Steel Grade",
+        "why_important": "Steel grade (IS 2062 E250 / E350 / E450) determines structural capacity and compliance with NBC 2016 seismic zone requirements — buyers in high-seismic zones or with heavy crane loads specify minimum steel grade, and it is a significant cost and compliance differentiator.",
+        "source": "both",
+        "example_values": [
+          "IS 2062 E250",
+          "IS 2062 E350",
+          "IS 2062 E450",
+          "Galvanised Steel"
+        ]
+      },
+      {
+        "spec_name": "Roofing Sheet Type",
+        "why_important": "Roofing sheet profile and coating (Galvalume / colour-coated / bare Galvanised) affects weatherproofing, thermal performance, and aesthetics — buyers for cold storage, food processing, and commercial buildings specify roofing type as a compliance and durability requirement.",
+        "source": "both",
+        "example_values": [
+          "Galvalume",
+          "Colour Coated",
+          "Bare Galvanised",
+          "Insulated Sandwich Panel"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Total Area",
+        "reason": "Total built-up area is the primary project-scoping signal — it determines steel tonnage, erection timeline, and total project cost, allowing sellers to immediately assess whether the project is within their capacity and quote accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Material",
+        "reason": "Wall material (PUF Panel / EPS Panel / Steel / Cement Panel / Glass Wool Panel) defines the structural and thermal system of the building — sellers need this to determine which product line applies, confirm compliance with the buyer's use case (e.g., cold storage requires PUF), and price the project.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "PUF Panel",
+          "Cement Panel",
+          "Steel",
+          "EPS Panel",
+          "PVC Panel",
+          "Glass Wool Panel"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Built Type / End Use",
+        "why_important": "Sellers need to know whether the buyer wants a factory shed, warehouse, residential home, cold storage, or office building — the structural design, compliance requirements, and product line differ fundamentally across use cases and this is the single most important routing signal for a seller.",
+        "source": "both",
+        "example_values": [
+          "Factory Shed",
+          "Warehouse",
+          "Residential House",
+          "Cold Storage",
+          "Office Building"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Factory Shed",
+          "Warehouse",
+          "Residential House",
+          "Cold Storage",
+          "Office Building"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Wall Material",
+      "option_value": "PUF Panel",
+      "id": "spec_1",
+      "prompt_for_generation": "Close-up of a PUF (polyurethane foam) insulated sandwich panel wall section for a prefabricated industrial building, showing the foam core cross-section and steel skin faces, flat lay on white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "Cement Panel",
+      "id": "spec_2",
+      "prompt_for_generation": "Close-up of a cement composite wall panel section used in prefabricated buildings, showing the grey cement surface texture and panel edge profile, flat lay on white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "Steel",
+      "id": "spec_3",
+      "prompt_for_generation": "Close-up of a colour-coated corrugated steel wall sheet panel for a pre-engineered industrial building, showing the ribbed profile and metallic finish, flat lay on white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "EPS Panel",
+      "id": "spec_4",
+      "prompt_for_generation": "Close-up of an EPS (expanded polystyrene) sandwich panel wall section for a prefabricated building, showing the white foam core and steel face sheets in cross-section, flat lay on white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "PVC Panel",
+      "id": "spec_5",
+      "prompt_for_generation": "Close-up of a PVC wall panel section for a prefabricated building, showing the smooth white plastic surface and interlocking edge profile, flat lay on white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "Glass Wool Panel",
+      "id": "spec_6",
+      "prompt_for_generation": "Close-up of a glass wool insulated sandwich panel wall section for a prefabricated industrial building, showing the yellow fibrous glass wool core and steel face sheets in cross-section, flat lay on white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type / End Use",
+      "option_value": "Factory Shed",
+      "id": "spec_7",
+      "prompt_for_generation": "Exterior view of a pre-engineered steel factory shed with clear-span structure, colour-coated corrugated roof and walls, large roller shutter entrance, industrial setting, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type / End Use",
+      "option_value": "Warehouse",
+      "id": "spec_8",
+      "prompt_for_generation": "Exterior view of a large-span prefabricated steel warehouse building with multi-gable roof, loading dock doors, logistics park setting, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type / End Use",
+      "option_value": "Residential House",
+      "id": "spec_9",
+      "prompt_for_generation": "Exterior view of a prefabricated LGSF residential house with sloped roof, finished wall panels, windows and entrance door, suburban setting, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type / End Use",
+      "option_value": "Cold Storage",
+      "id": "spec_10",
+      "prompt_for_generation": "Exterior view of a prefabricated cold storage building with PUF insulated panel walls and roof, insulated door with dock leveller, industrial setting, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type / End Use",
+      "option_value": "Office Building",
+      "id": "spec_11",
+      "prompt_for_generation": "Exterior view of a prefabricated modular office building with glass facade panels, clean architectural finish, commercial setting, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
