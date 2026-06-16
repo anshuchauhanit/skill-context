@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'MS Portable Toilets' is tightly scoped by material (mild steel) and product type (prefabricated relocatable toilet cabin); all product_types and buyer_segments share a single coherent purchase context — procuring a steel sanitation cabin for construction sites, events, or government projects — with no incompatible intent clusters; 0 of 4 vagueness signals fire.",
+    "is_generic: no — the 'MS' material qualifier meaningfully narrows scope versus the parent 'Portable Toilets' umbrella (which spans FRP, PVC, RCC, bio, chemical, and mobile van variants); sub-type spread within the MCAT (Indian/Western commode, single/multi-compartment, GI variant) represents spec refinements within one bounded product concept, not a diffuse catch-all."
+  ]
+}
