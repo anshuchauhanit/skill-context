@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Mist Chamber' is the dominant primary keyword confirmed across Agent 3 alt_names, market_context, and Indian trade usage; it is unambiguous within the horticultural propagation segment and aligns with how buyers and manufacturers refer to this product category in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail shows a real prefabricated polyhouse-style structure with GI/aluminium frame, polycarbonate side panels, and green shade-net roof covering — correctly representing the primary segment of a mist propagation chamber for commercial nurseries.",
+      "However, the image is an outdoor field photograph with cluttered background (weeds, dirt, trees, overexposed sky), no visible misting nozzles or fogging system, and low visual clarity — a clean studio-style or controlled render showing the misting system interior would significantly improve buyer recognition and listing quality."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic product image of a prefabricated polyhouse mist propagation chamber for commercial plant nurseries: arched GI galvanised iron nut-bolted frame structure with UV-stabilised transparent polycarbonate twin-wall side panels and green shade-net roof, interior visible through open front door showing rows of rooting cuttings on benches with fine mist spray nozzles mounted overhead on GI pipes actively emitting white mist, lush green propagating plants inside, clean white or soft grey studio background, bright even natural lighting, sharp foreground detail, square 1:1 crop, professional horticultural equipment photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
