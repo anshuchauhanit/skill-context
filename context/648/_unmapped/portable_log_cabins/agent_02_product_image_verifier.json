@@ -1,0 +1,1330 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [],
+  "verified_bad_products": [
+    {
+      "item_id": "98868596",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Log Portable Cabin",
+      "description": "We are offering <b>Log Portable Cabin</b> to our clients.<br />We are leading manufacturer of Office Containers,Container site offices,container offices,Portable container offices,Multy Storey container offices,Container Portable Cabin etc.",
+      "specs": {
+        "raw": "Brand:Imperial, Built Type:Modular, Color:Brown, Material:Wood, Shape:Rectangular, Size:15 x 10 x 8.6 feet"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/1/DR/VX/BH/38546737/log-portable-cabin.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/log-portable cabin-15162700848.html",
+      "image_file": "98868596.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a wooden gabled-roof cabin with front porch, wood-panel walls, and windows — clearly a wooden portable log cabin."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Log Portable Cabin' correctly names the product type but lacks wood species, size, or application detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs state Material:Wood, Built Type:Modular, Size:15x10x8.6 feet — consistent with a wooden modular log cabin."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly describes 'Office Containers, Container site offices, container offices, Portable container offices' — a steel container product family entirely different from a log cabin."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo, title, and specs all confirm a wooden log cabin; description is boilerplate container-office text that does not reflect the actual product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description",
+          "specs_vs_description",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title says 'Log Portable Cabin' but description describes container offices and site office containers.",
+          "Specs state Material:Wood/Modular cabin but description lists steel container office products.",
+          "Description promotes steel container office products while the MCAT requires wooden log cabin structures."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title names 'Log Portable Cabin' but description body promotes steel container offices and site office containers."
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs declare Material:Wood and a modular cabin form but description lists container offices, container site offices, and portable container offices."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes steel container office products, which are categorically different from the wooden log cabins required by this MCAT."
+        }
+      ],
+      "verification_note": "Photo and specs confirm a genuine wooden log cabin; description is mismatched boilerplate from a container-office product line, triggering contradiction override.",
+      "source_url": "https://www.indiamart.com/proddetail/log-portable cabin-15162700848.html"
+    },
+    {
+      "item_id": "163499976",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Portable Log Cabins",
+      "description": "We are engaged in offering best quality Portable Log Cabins to our clients. Our range of all products is widely appreciated by our clients",
+      "specs": {
+        "raw": "Brand:A N Portable Cabins Industry, Built Type:Modular, Color:Yellow, Finish:Powder Coated, Material:MS, Shape:Rectangular, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/8/333316629/YQ/RI/IU/127464286/portable-log-cabins.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-log cabins-23439149512.html",
+      "image_file": "163499976.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a log-profile sided cabin on a wheeled trailer with green metal standing-seam roof, wooden porch railing, and multi-window facade — a portable log cabin."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Portable Log Cabins' correctly names the product but provides no further specification detail."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs state Material:MS (mild steel) and Finish:Powder Coated, which directly contradict the wooden log cabin shown in the image and named in the title."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic quality claim with no product-specific detail, but does not contradict the log cabin identity."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo and title confirm a wooden log cabin; the MS/steel specs appear to be a data-entry error for this listing."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs",
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a wooden log-profile cabin but specs declare Material:MS (mild steel) and Powder Coated finish.",
+          "Title says 'Portable Log Cabins' (implying wood) but specs state Material:MS and Finish:Powder Coated."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a wooden log-profile cabin with timber porch; specs state Material:MS and Finish:Powder Coated."
+        },
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title claims 'Portable Log Cabins' (wood-implied) but specs declare Material:MS (mild steel) and Powder Coated finish."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state Material:MS for a Portable Log Cabins MCAT that requires wooden/timber construction."
+        }
+      ],
+      "verification_note": "Photo confirms a genuine log cabin but specs contain MS/steel material data that contradicts the product shown — likely a data-entry error, but contradiction rule requires bad label.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-log cabins-23439149512.html"
+    },
+    {
+      "item_id": "252311195",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Portable Log Cabins",
+      "description": "We are offering Portable Log Cabin .We are offering Portable Log Cabin.&nbsp;Crafted for comfort and durability, these cabins offer a perfect blend of functionality and aesthetics, bringing countryside charm wherever you go. It can be customized to add Manager Cabins, MD Rooms, Employee Desk, Attached small kitchen and Attached toilet.",
+      "specs": {
+        "raw": "Brand:NA, Built Type:Modular, Cabin Features:Kitchenette, Cabin Size:Custom Size, Country of Origin:Made in India, Finish Type:Natural Finish, Insulation Type:Glass Wool, No. of Floors:Single Floor, Roof Style:Flat Roof, Shape:Rectangular, Structure Type:Wood and Steel, Treatment:Termite Treated, Usage/Application:Office, Usage Type:Resort Cabin, Wood Type:Engineered Wood"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/9/340914990/OQ/QA/HY/37353533/portable-log-cabins.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-log cabins-2851771219455.html",
+      "image_file": "252311195.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a white and blue steel corrugated portable office container — a steel porta cabin, not a wooden log cabin."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Portable Log Cabins' correctly names the MCAT product but provides no wood type, size, or application detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs mention Structure Type:Wood and Steel, Wood Type:Engineered Wood, Termite Treated, Resort Cabin usage — partially consistent with a log cabin product."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description mentions countryside charm, customizable rooms, kitchen, and toilet — consistent with a resort/accommodation cabin."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Image shows a steel corrugated portable office container, not a wooden log cabin — the defining construction material for this MCAT is absent from the product shown."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs",
+          "photo_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Image shows a steel corrugated container but title claims 'Portable Log Cabins' (wooden construction).",
+          "Image shows a steel corrugated container but specs state Wood and Steel structure with Engineered Wood.",
+          "Image shows a steel portable office container which does not belong in the Portable Log Cabins MCAT."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Portable Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a steel corrugated container cabin; title claims 'Portable Log Cabins' implying wooden construction."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a steel corrugated container; specs state Structure Type:Wood and Steel and Wood Type:Engineered Wood."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a steel portable office container, not a wooden log cabin as required by the Portable Log Cabins MCAT."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows the wrong product type (steel container) for this MCAT — the wooden log cabin product is not visible."
+        }
+      ],
+      "verification_note": "Title and specs suggest a log cabin but the image shows a steel corrugated container — category invalid based on photo evidence.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-log cabins-2851771219455.html"
+    },
+    {
+      "item_id": "264510527",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Portable Resort Cabin",
+      "description": "We are engaged in offering <b>Portable Resort Cabin</b>&nbsp;to our clients. Our range of all products is widely appreciated&nbsp;by&nbsp;our&nbsp;clients.",
+      "specs": {
+        "raw": "Brand:SFAB Engineers, Built Type:Modular, Features:Easily Assembled, Material:Steel, Shape:Rectangular, Size:8x10, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/12/365792666/CY/RU/CR/189919720/portable-resort-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-resort cabin-2852991152630.html",
+      "image_file": "264510527.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a small yellow steel-panel cabin with a green flat roof and barred window in a garden setting — a steel security/resort cabin, not a wooden log cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title 'Portable Resort Cabin' names a resort cabin but does not specify log or wooden construction required for this MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs state Material:Steel — explicitly non-wood, contradicting the wooden construction requirement of the Portable Log Cabins MCAT."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic offering statement with no material or construction detail."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Image and specs both confirm a steel cabin — the wooden/timber log construction that defines this MCAT is absent."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Portable Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a yellow steel-panel cabin with metal roof — not a wooden log cabin as required by this MCAT."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Portable Resort Cabin' does not identify log or wooden construction — the defining characteristic of this MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state Material:Steel for a Portable Log Cabins MCAT that requires wooden/timber construction."
+        }
+      ],
+      "verification_note": "Steel resort cabin misclassified into Portable Log Cabins MCAT; should route to Portable Cabin sibling.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-resort cabin-2852991152630.html"
+    },
+    {
+      "item_id": "290221821",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Log Portable Cabin",
+      "description": "<p>Established in the year of&nbsp;2019,&nbsp;We&nbsp;&ldquo;Bharat Portable Cabins Industry &rdquo;&nbsp;are Manufacturer of&nbsp;&nbsp;Modular Portable Cabin , &nbsp;Portable Toilet Cabin&nbsp;, &nbsp;Site Office Container, Prefabricated Security Cabin , Portable Office Cabins&nbsp;, Portable Bunkhouse, and Much More. We direct all our activities to cater the expectations of customers by providing them excellent quality products as per their gratification. Moreover, we follow moral business policies and crystal pure transparency in all our transactions to keep healthy relations with the customers.</p>\n<p>For our accomplishment story, we are grateful to our&nbsp;Mr. DILDAR ANSARI&nbsp; , whose continual backing and direction have been useful to us for attaining exponential development in the current market.</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Material:FRP, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2025/2/487685403/MP/DI/RY/213960920/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/log-portable cabin-2855562282312.html",
+      "image_file": "290221821.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows an orange/red glass-and-metal modular pod with large glass sliding door and composite panel cladding — a modern glass/metal cabin, not a wooden log cabin."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Log Portable Cabin' names the product type but provides no wood species, size, or application detail."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs state Material:FRP — fibre-reinforced plastic, not wood — contradicting the wooden construction required for this MCAT."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description lists 'Modular Portable Cabin, Portable Toilet Cabin, Site Office Container, Prefabricated Security Cabin, Portable Office Cabins' — steel/FRP container products, not log cabins."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Image shows an FRP/glass modern pod and specs confirm FRP material — neither the wooden construction nor the log aesthetic of this MCAT is present."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs",
+          "title_vs_specs",
+          "title_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Image shows a glass/metal modular pod; title claims 'Log Portable Cabin' (wooden construction).",
+          "Image shows a glass/metal pod; specs state Material:FRP.",
+          "Title claims 'Log Portable Cabin' (wood-implied) but specs state Material:FRP.",
+          "Title claims 'Log Portable Cabin' but description lists site office containers, security cabins, and portable toilet cabins."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains 'Mr. DILDAR ANSARI' — a personal name embedded in the listing description."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Bharat Portable Cabins Industry' — a business/company name embedded in the listing description text."
+        }
+      },
+      "correct_mcat_suggestion": "FRP Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a glass/metal modular pod; title claims 'Log Portable Cabin' implying wooden log construction."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a glass/metal pod; specs state Material:FRP."
+        },
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title says 'Log Portable Cabin' (wood-implied) but specs state Material:FRP."
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title claims 'Log Portable Cabin' but description promotes site office containers, security cabins, and portable toilet cabins."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows an FRP/glass modern modular pod — not a wooden log cabin as required by this MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state Material:FRP for a Portable Log Cabins MCAT that requires wooden/timber construction."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description lists steel/FRP container office products, not wooden log cabins."
+        },
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains personal name 'Mr. DILDAR ANSARI'."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains business name 'Bharat Portable Cabins Industry' embedded in listing text."
+        }
+      ],
+      "verification_note": "FRP/glass modern pod with multiple contradictions, wrong material, PII, and business name — clear wrong-MCAT listing with policy violations.",
+      "source_url": "https://www.indiamart.com/proddetail/log-portable cabin-2855562282312.html"
+    },
+    {
+      "item_id": "160671694",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Office Cabin",
+      "description": "We Omega Cabins are mfg and supplier of portable office cabin,site office cabin,security guard cabin, toilet cabin, bunk house cabin, and we are supplier of used cargo container throughout india.",
+      "specs": {
+        "raw": "Built Type:Prefab, Material:Steel, Shape:Rectangular, Size:Size 20'Lx10'Wx8.6'H, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/3/494930325/PD/MQ/UW/18198436/portable-office-container.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-23156321330.html",
+      "image_file": "160671694.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a white and blue steel corrugated portable office container in a construction yard — a steel porta cabin, not a wooden log cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title 'Portable Office Cabin' names a steel office cabin product, not a log cabin."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs state Material:Steel — explicitly non-wood, inconsistent with the Portable Log Cabins MCAT."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description lists portable office cabins, site office cabins, security guard cabins, toilet cabins, and cargo containers — all steel products, not log cabins."
+        },
+        "category": {
+          "valid": false,
+          "reason": "All dimensions confirm a steel portable office cabin — no wooden log construction present."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Omega Cabins' — a business/company name embedded in the listing description text."
+        }
+      },
+      "correct_mcat_suggestion": "Portable Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a steel corrugated portable office container — not a wooden log cabin."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Portable Office Cabin' names a steel office product, not a wooden log cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state Material:Steel for a Portable Log Cabins MCAT requiring wooden construction."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description lists steel office cabins, site office cabins, security cabins, and cargo containers — not log cabins."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains business name 'Omega Cabins' embedded in listing text."
+        }
+      ],
+      "verification_note": "Correctly pre-labelled bad — steel portable office container with no log cabin characteristics.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-23156321330.html"
+    },
+    {
+      "item_id": "166404120",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Steel Office Cabin",
+      "description": "The Epsilon Prefabricated Portable Cabin is meticulously engineered and factory constructed using branded IS grade materials, ensuring durability and reliability. Its robust shell, fabricated from tested quality steel, features a base frame, peripheral structure, self-draining roof, entry door, and windows. Reinforced corner columns facilitate easy transportation, lifting, and placement. The cabin boasts premium components including G.I. corrugated sheeting for exterior paneling, pre-laminated board panels or ACP sheeting for interior walls, and 1.2mm thick G.I. corrugated sheeting for the roof. Inside, a 9mm pre-laminated ceiling and 18mm thick cement board or plywood flooring with vinyl carpeting ensure comfort and longevity. Double shutter aluminum powder-coated sliding windows and corrugated MS doors equipped with glass wool insulation provide security and insulation. The cabin is equipped with 50mm glass wool insulation, concealed wiring, standard electrical fittings, plumbing fixtures, and sanitation systems, meeting the highest industry standards. With a focus on quality and functionality, the Epsilon Portable Prefabricated Cabin is the ideal solution for diverse applications. Each cabin can be supplied as plain shell or customised as per Client's interior requirments of partitions, washrooms, pantry and different kind of furnitures fitted at factory",
+      "specs": {
+        "raw": "Built Type:Prefab, Cabin Color:White, Cabin Size:Custom Size, Country of Origin:Made in India, Facilities:Air Conditioner, Flooring:customised, Flooring Type:Laminate Floor, House Style:customised, Material:Steel, No. of Workstations:as per specs, Place Of Origin:Pan India, Roof Type:slanting, Size:customised, Structure Material:MS Frame, Thickness:customised, Usage/Application:for office and shelter, Usage Type:Project Office, Wall Panel:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/5/305596389/WT/GY/JH/76461355/steel-office-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-office cabin-23729563933.html",
+      "image_file": "166404120.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a grey/white steel prefab building with 'EPSILON / Savvish Prefabricated Systems' branding at a construction site — a steel prefab office building, not a wooden log cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title 'Steel Office Cabin' explicitly names a steel office product — not a log cabin."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs state Material:Steel, Structure Material:MS Frame, Wall Panel:PUF Panel — all steel construction, inconsistent with wooden log cabin requirements."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description details GI corrugated sheeting, MS frame, steel shell construction — explicitly a steel prefab cabin, not a log cabin."
+        },
+        "category": {
+          "valid": false,
+          "reason": "All dimensions confirm a steel prefab office cabin — no wooden log construction present anywhere in the listing."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Epsilon Prefabricated Portable Cabin' and 'Epsilon Portable Prefabricated Cabin' — the brand/company name 'Epsilon' is embedded in the listing description text."
+        }
+      },
+      "correct_mcat_suggestion": "Portable Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a steel prefab office building with EPSILON branding — not a wooden log cabin."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Steel Office Cabin' explicitly names a steel product, not a wooden log cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state Material:Steel and Structure Material:MS Frame for a Portable Log Cabins MCAT requiring wooden construction."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description details GI corrugated sheeting, MS frame, and steel shell — explicitly a steel prefab cabin."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains brand/company name 'Epsilon' embedded in listing description text."
+        }
+      ],
+      "verification_note": "Correctly pre-labelled bad — explicitly a steel office cabin with no log cabin characteristics.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-office cabin-23729563933.html"
+    },
+    {
+      "item_id": "253743584",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "15Feet Steel Portable Office Cabin",
+      "description": "<b>15-Feet Steel Portable Office Cabin</b> is a highly durable and versatile solution for creating mobile office spaces. Built with <b>high-quality steel</b> construction, this cabin offers exceptional <b>strength and longevity</b>. It is ideal for <b>construction sites</b>, <b>remote project locations</b>, or as a <b>temporary office</b> solution for businesses. The compact <b>15-foot</b> size ensures it can be used in tight spaces while still offering the essential features for day-to-day operations.",
+      "specs": {
+        "raw": "Brand:HPC, Built Type:Modular, Features:Portable, Material:Steel, Shape:Rectangular, Size:12x15x8 Feet (LXWXH), Surface Treatment:Paint Coated, Usage/Application:Construction Site"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/5/508597307/RU/GM/LL/90422608/modular-steel-portable-office-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/15feet-steel portable office cabin-2851914458333.html",
+      "image_file": "253743584.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a white/blue steel container cabin with 'SIRI CEMENT & FLYA' painted on the exterior and phone numbers visible on the wall — a steel portable office container, not a wooden log cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title '15Feet Steel Portable Office Cabin' explicitly names a steel office product — not a log cabin."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs state Material:Steel, Usage/Application:Construction Site — steel construction for office use, not a wooden log cabin."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly describes 'high-quality steel construction' for construction sites and temporary offices — not a log cabin."
+        },
+        "category": {
+          "valid": false,
+          "reason": "All dimensions confirm a steel portable office cabin — no wooden log construction present."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Portable Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a steel container cabin with client branding painted on exterior — not a wooden log cabin."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title '15Feet Steel Portable Office Cabin' explicitly names a steel office product, not a wooden log cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state Material:Steel for a Portable Log Cabins MCAT requiring wooden construction."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes steel construction for construction site office use — not a log cabin."
+        }
+      ],
+      "verification_note": "Correctly pre-labelled bad — explicitly a steel portable office cabin with no log cabin characteristics.",
+      "source_url": "https://www.indiamart.com/proddetail/15feet-steel portable office cabin-2851914458333.html"
+    },
+    {
+      "item_id": "270297620",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Office Cabin",
+      "description": "<table border=\"0\" width=\"256\">\n<tr height=\"45\">\n<td width=\"256\" height=\"45\">Walls – M.S corrugated sheet of 1.2mm thick<br />Roof - M.S sheet of 1.2mm thick<br />Floor - M.S framing with cross support block area </td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Doors & Vents</td>\n</tr>\n<tr height=\"30\">\n<td width=\"256\" height=\"30\">1 MS double door with canopy & handles,<br /></td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Windows</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Windows size(3'X2')</td>\n</tr>\n<tr height=\"30\">\n<td width=\"256\" height=\"30\">Bulkheads above and safety grill outside 10mmX10mm</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Wiring & Switches</td>\n</tr>\n<tr height=\"90\">\n<td width=\"256\" height=\"90\">LED lights - <br />External door light fitting - <br />Cabin Fan - 1 <br />15 Amp. Point Modular Switch Socket – <br />Modular Switch Board as per drawing<br />6 Amp. Double Point Modular Switch Socket – </td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Insulation & Interiors</td>\n</tr>\n<tr height=\"30\">\n<td width=\"256\" height=\"30\">Wooden framing in the whole container<br />Glass wool insulation of 50mm</td>\n</tr>\n<tr height=\"60\">\n<td width=\"256\" height=\"60\">Walls- 8mm laminated ply board ,</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Wooden batern and beading to cover the joints</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Floor - 18mm wooden floor and 1.2mm vinyl carpet</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Exteriors</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">4 Hooks for lifting and shifting</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Paint 1 coat primer and 2 coat enamel paint</td>\n</tr>\n</table>",
+      "specs": {
+        "raw": "Built Type:Prefab, Cabin Size:12x10 ft, Design Type:Customized, Furnishing:Semi Furnished, Material:Steel, No. of Workstations:5 to 10, Size:20'x10', Structure Material:MS Frame, Usage/Application:Office, Usage Type:Conference Cabin, Wall Panel:PVC Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/4/409867802/OV/OB/NP/11001000/1.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-2853569862097.html",
+      "image_file": "270297620.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a row of white/green steel corrugated container cabins at a construction site — steel portable office containers, not wooden log cabins."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title 'Portable Office Cabin' names a steel office product, not a wooden log cabin."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs state Material:Steel, Structure Material:MS Frame — steel construction, not wooden log cabin."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description specifies M.S corrugated sheet walls, M.S sheet roof, M.S framing — explicitly steel construction throughout."
+        },
+        "category": {
+          "valid": false,
+          "reason": "All dimensions confirm a steel portable office cabin — no wooden log construction present."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs list two different sizes: 'Cabin Size:12x10 ft' and 'Size:20'x10'' — conflicting dimensions for the same product."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Portable Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows steel corrugated container cabins at a construction site — not wooden log cabins."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Portable Office Cabin' names a steel office product, not a wooden log cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state Material:Steel and Structure Material:MS Frame for a Portable Log Cabins MCAT requiring wooden construction."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description specifies M.S corrugated sheet walls and M.S framing — explicitly steel construction."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs list conflicting dimensions: 'Cabin Size:12x10 ft' and 'Size:20'x10'' for the same product."
+        }
+      ],
+      "verification_note": "Correctly pre-labelled bad — steel portable office cabin with internal specs size contradiction.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-2853569862097.html"
+    },
+    {
+      "item_id": "324713713",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable office Cabin",
+      "description": "Portable office Cabin",
+      "specs": {
+        "raw": "Built Type:Prefabricated, Cabin Size:12x10 ft, Flooring:Cement Board, Height:8.5 ft, Insulation Material:Glass Wool, Material:MS (Mild Steel), Product Type:Site Office, Size (L x W):20 ft x 10 ft, Structure Material:MS Frame, Usage Type:Site Office, Wall Panel:MS Sheet"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/3/594694501/AM/LO/NW/265534617/portable-cabin.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-2859011471562.html",
+      "image_file": "324713713.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "thin_image",
+          "reason": "Image shows the interior of a fitted office container with U-shaped desks, overhead cabinets, and laminate walls — an interior shot of a steel office cabin; the exterior and construction material are not visible."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title 'Portable office Cabin' names a generic office cabin with no log or wood specification."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs state Material:MS (Mild Steel), Structure Material:MS Frame, Wall Panel:MS Sheet — explicitly steel construction, not wooden log cabin."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description is a single-phrase repeat of the title with no product detail."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Specs confirm MS steel construction — the wooden/timber log construction defining this MCAT is absent."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Portable Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows the interior of a steel office container cabin — not a wooden log cabin."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Portable office Cabin' names a generic office cabin with no log/wood specification required for this MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state Material:MS (Mild Steel) and Wall Panel:MS Sheet for a Portable Log Cabins MCAT requiring wooden construction."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description 'Portable office Cabin' names a steel office product, not a wooden log cabin."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title 'Portable office Cabin' is thin — missing wood type, construction method, size, and application."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the interior of the cabin; exterior construction material and log profile are not visible."
+        }
+      ],
+      "verification_note": "Correctly pre-labelled bad — steel site office cabin with thin title and interior-only image.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-2859011471562.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "No verified good products were found in this batch — all 10 items were classified as bad due to wrong material (steel/FRP instead of wood), wrong product type (steel office containers instead of wooden log cabins), or cross-dimension contradictions. Good image patterns for Portable Log Cabins should show: wooden exterior walls (log-profile, tongue-and-groove, or plank siding), gabled or pitched roof with natural timber framing, and an outdoor/natural setting (hillside, garden, or resort context). The two items with genuine wooden cabin images (98868596, 163499976) were overridden to bad due to text contradictions, but their images represent the correct visual pattern for this MCAT.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Portable log cabins are architectural structures whose primary buyer signal is the visual appearance of the wooden exterior, roof style, and overall cabin form — OCR cannot extract meaningful product information from these images.",
+      "No text labels, spec plates, or printed information appear on the exterior of genuine log cabin structures; the product identity is communicated entirely through visual construction details (log profile, wood species colour, porch design, roof pitch)."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "No verified good products available; relevant photo patterns are inferred from the two overridden items (98868596, 163499976) whose images showed genuine wooden log cabins.",
+    "product_identity": [
+      "Wooden exterior walls with log-profile, plank, or tongue-and-groove timber siding",
+      "Gabled or pitched roof with natural timber framing or green metal standing-seam roofing",
+      "Front porch or veranda with wooden railing and door visible"
+    ],
+    "acceptable_scenes": [
+      "Cabin placed on grass or natural outdoor setting (hillside, garden, resort grounds)",
+      "Cabin on a wheeled trailer chassis showing portability"
+    ],
+    "examples": []
+  },
+  "thin_photos": {
+    "summary": "One item (324713713) shows only the interior of a cabin — the exterior construction material and log profile are not visible, making it a thin image for this MCAT.",
+    "thinness_signals": [
+      "Interior-only shots that do not show the exterior wooden log construction",
+      "Images taken from too far away or at an angle that obscures the wall material and construction method"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "324713713",
+        "reason": "Image shows the interior of a fitted office container with U-shaped desks, overhead cabinets, and laminate walls — an interior shot of a steel office cabin; the exterior and construction material are not visible."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Eight items show steel corrugated portable office containers, steel prefab buildings, or modern glass/FRP pods — all wrong product types for the Portable Log Cabins MCAT.",
+    "failure_classes": [
+      {
+        "class": "steel_corrugated_container",
+        "description": "White, blue, or green steel corrugated sheet portable office containers — the dominant wrong-product type in this batch.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "252311195"
+          },
+          {
+            "photo_url": null,
+            "item_id": "160671694"
+          },
+          {
+            "photo_url": null,
+            "item_id": "253743584"
+          },
+          {
+            "photo_url": null,
+            "item_id": "270297620"
+          }
+        ],
+        "detection_signal": "Corrugated metal sheet exterior walls, flat or slightly sloped metal roof, two-tone paint (white/blue, white/green), barred windows — no wood visible.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "steel_prefab_office_building",
+        "description": "Larger steel prefab office structures with PUF panel or GI sheet cladding, typically with brand signage.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "166404120"
+          }
+        ],
+        "detection_signal": "Smooth grey/white panel cladding, flat roof, multiple windows in a row, brand logo visible — no log profile or wood texture.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "steel_small_cabin_resort",
+        "description": "Small steel-panel cabin with flat/sloped metal roof in a garden setting — resembles a resort cabin but is steel, not wood.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "264510527"
+          }
+        ],
+        "detection_signal": "Yellow or coloured steel panel walls, flat green metal roof, barred window, no log profile or timber texture visible.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "frp_glass_modern_pod",
+        "description": "Modern cube-shaped glass and composite panel modular pod — entirely different construction method and aesthetic from a log cabin.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "290221821"
+          }
+        ],
+        "detection_signal": "Reflective orange/red composite panels, large glass sliding door, no roof pitch, no wood visible — modern architectural pod aesthetic.",
+        "failure_mode": "wrong_category"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "No verified good products available; title patterns are inferred from the two overridden items with genuine wooden cabin images.",
+    "strong_positive_signals": [
+      "Explicit 'Log' or 'Wooden' qualifier in the title",
+      "Wood species or construction type (pine, cedar, engineered wood, T&G)",
+      "Application context (resort, eco, farmhouse, glamping)"
+    ],
+    "structural_patterns": [
+      "[Wood Type] Log Cabin [Size/Application]",
+      "Portable [Wood Type] Log Cabin for [Application]",
+      "[Application] Log Cabin — [Size] [Wood Species]"
+    ],
+    "examples": {
+      "extreme_good": [],
+      "acceptable": [
+        {
+          "item_id": "98868596",
+          "title": "Log Portable Cabin",
+          "reason": "Correctly names 'Log' and 'Portable Cabin' but lacks wood species, size detail, and application — acceptable but not strong."
+        },
+        {
+          "item_id": "163499976",
+          "title": "Portable Log Cabins",
+          "reason": "Correctly names 'Portable Log Cabins' but provides no further specification — acceptable structure, thin content."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Several titles name a generic 'Portable Cabin' or 'Office Cabin' without specifying log or wooden construction.",
+    "thinness_signals": [
+      "Missing 'Log' or 'Wood' qualifier — title says only 'Portable Cabin' or 'Resort Cabin'",
+      "No wood species, construction type, or application context provided"
+    ],
+    "examples": [
+      {
+        "item_id": "264510527",
+        "title": "Portable Resort Cabin",
+        "reason": "Names a resort cabin but omits log/wood construction qualifier — insufficient to identify this as a log cabin."
+      },
+      {
+        "item_id": "324713713",
+        "title": "Portable office Cabin",
+        "reason": "Generic office cabin title with no log, wood, or construction type detail."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Multiple titles explicitly name steel or office products — actively wrong tokens for the Portable Log Cabins MCAT.",
+    "failure_classes": [
+      {
+        "class": "steel_office_cabin_explicit",
+        "signal": "Tokens 'Steel', 'Office Cabin', or 'Site Office' present in title — explicitly non-wood product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "166404120",
+            "title": "Steel Office Cabin",
+            "reason": "Title explicitly names a steel office product — the word 'Steel' is a disqualifying token for a log cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "253743584",
+            "title": "15Feet Steel Portable Office Cabin",
+            "reason": "Title contains 'Steel' and 'Office Cabin' — both are wrong-product tokens for a wooden log cabin MCAT.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "portable_office_cabin_generic",
+        "signal": "Title says 'Portable Office Cabin' with no log/wood qualifier — names a steel office product family.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "160671694",
+            "title": "Portable Office Cabin",
+            "reason": "Generic 'Portable Office Cabin' title with no log or wood qualifier — maps to steel office cabin product family.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "270297620",
+            "title": "Portable Office Cabin",
+            "reason": "Generic 'Portable Office Cabin' title with no log or wood qualifier — maps to steel office cabin product family.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily steel portable office cabins misclassified into Portable Log Cabins.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "steel_portable_office_cabin",
+        "signal": "Material:Steel or Material:MS in specs, or 'Steel'/'Office Cabin' in title, or corrugated metal exterior in image — product is a steel prefab cabin, not a wooden log cabin.",
+        "examples": [
+          {
+            "item_id": "160671694",
+            "title": "Portable Office Cabin",
+            "reason": "Steel corrugated container cabin with Material:Steel specs — belongs in Portable Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "166404120",
+            "title": "Steel Office Cabin",
+            "reason": "Explicitly steel prefab office building with MS Frame and GI sheeting — belongs in Portable Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "253743584",
+            "title": "15Feet Steel Portable Office Cabin",
+            "reason": "Explicitly steel portable office cabin for construction sites — belongs in Portable Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "270297620",
+            "title": "Portable Office Cabin",
+            "reason": "MS corrugated sheet walls and MS frame construction — belongs in Portable Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "324713713",
+            "title": "Portable office Cabin",
+            "reason": "Material:MS (Mild Steel) and MS Frame structure — belongs in Portable Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "252311195",
+            "title": "Portable Log Cabins",
+            "reason": "Image shows steel corrugated container despite log cabin title — belongs in Portable Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "264510527",
+            "title": "Portable Resort Cabin",
+            "reason": "Material:Steel resort cabin — belongs in Portable Cabin MCAT.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Portable Cabin"
+      },
+      {
+        "class": "frp_cabin",
+        "signal": "Material:FRP in specs or glass/composite panel construction in image — product is an FRP or modern composite cabin, not a wooden log cabin.",
+        "examples": [
+          {
+            "item_id": "290221821",
+            "title": "Log Portable Cabin",
+            "reason": "Material:FRP specs and glass/metal modular pod image — belongs in FRP Cabin MCAT.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "FRP Cabin"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator. Zero verified good products found — all 10 items failed audit due to wrong material (steel/FRP), wrong product type, or cross-dimension contradictions."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion values ('Portable Cabin', 'FRP Cabin') are drawn from taxonomy_context.siblings list — confirmed present in the provided sibling list."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (prefabricated wooden log cabin) and mcat_description used to ground all category belonging decisions; mcat_vagueness_signal not explicitly provided but MCAT is treated as coherent (wooden construction is the defining characteristic)."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
