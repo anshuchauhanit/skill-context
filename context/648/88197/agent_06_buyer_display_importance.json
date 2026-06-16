@@ -1,0 +1,223 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual variation across building sub-types is significant — an industrial clear-span warehouse, a curved-roof commercial structure, a cold storage building, and a modular site office are visually distinct. Buyers use the image to confirm building type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Frame type, eave height, span, and cladding material are non-interchangeable structural parameters. A buyer needing a 30m clear-span warehouse cannot evaluate a listing that does not disclose these specs — they are the primary shortlisting gate."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Recognised manufacturers — Interarch, Everest Industries, Kirby Building Systems, Zamil Steel — are specified by name by institutional buyers, large EPC contractors, and architects evaluating vendor credentials for capital projects.",
+      "reason": "This is a high-value capital project where IS:800 compliance, ISO 9001 certification, in-house structural design capability, and erection track record are evaluated during vendor selection. Seller identity is a significant trust signal, though specs carry equal weight in initial shortlisting."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Every PEB is custom-designed and project-quoted; no fixed catalogue price exists. Indicative per-sq-ft rates are used by Indian buyers for budget benchmarking, but final price is always negotiated after structural design is confirmed. Price is a qualification signal after spec and company evaluation."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Three quoting conventions coexist in this MCAT: per sq ft (turnkey/area-based), per MT (supply-only steel components), and per project (lump-sum turnkey). A buyer comparing listings without unit clarity will misread prices significantly — per sq ft and per MT are not interchangeable price signals.",
+      "reason": "Unit must be shown because per sq ft, per MT, and per project are all active quoting conventions in this MCAT. Price comparison is meaningless without unit clarity — this is a genuine buyer confusion risk, not a theoretical one."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Frame Type",
+        "reason": "Frame type defines the structural system — clear span, multi-span, portal frame, and curved roof are non-interchangeable configurations that drive primary steel tonnage and therefore the largest component of project price."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Height",
+        "reason": "Eave height directly determines steel tonnage and structural complexity — a 15m eave height building requires substantially heavier primary frames than a 6m building of the same footprint, creating a significant and non-substitutable price delta."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Building Location",
+      "Built Type",
+      "Country Of Origin",
+      "Frame Type",
+      "Height",
+      "Material",
+      "Roof Type",
+      "Sheet Thickness",
+      "Surface Treatment",
+      "Usage Application"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Span / Clear Width",
+        "why_important": "Clear span (column-free width) is the single most critical structural parameter for a PEB — it determines primary frame weight, steel grade, and project price more than any other dimension, and buyers specify it as a non-negotiable requirement for their floor plan.",
+        "source": "both",
+        "example_values": [
+          "12 m",
+          "18 m",
+          "24 m",
+          "30 m",
+          "36 m"
+        ]
+      },
+      {
+        "spec_name": "Cladding Type",
+        "why_important": "Single-skin colour-coated sheet, sandwich/PUF panel, and bare purlin represent major price and thermal performance differences — cold storage and temperature-controlled buildings require insulated panels while standard warehouses use single-skin sheets, making this a primary cost driver.",
+        "source": "both",
+        "example_values": [
+          "Single Skin Color Coated Sheet",
+          "PUF Sandwich Panel",
+          "Rockwool Sandwich Panel",
+          "Bare Purlin (No Cladding)"
+        ]
+      },
+      {
+        "spec_name": "Seismic / Wind Zone",
+        "why_important": "IS:1893 seismic zone and IS:875 wind zone are mandatory design inputs under Indian standards — they determine structural steel grade, connection design, and foundation loads, and institutional/government buyers specify zone compliance as a procurement requirement.",
+        "source": "both",
+        "example_values": [
+          "Zone II",
+          "Zone III",
+          "Zone IV",
+          "Zone V"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Application type routes the RFQ to sellers who specialise in the right building category — a cold storage specialist, an industrial shed fabricator, and a modular site office supplier are distinct seller types who cannot respond accurately without knowing the intended use.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Warehouse/Godown",
+          "Factory/Workshop",
+          "Site Office",
+          "Labor Colony",
+          "Showroom",
+          "School/Classroom"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Total Area",
+        "reason": "Total area defines project scale and allows sellers to determine whether the project is within their capacity and to provide a meaningful indicative quote — a seller specialising in large industrial PEBs cannot respond usefully to a 500 sq ft site office enquiry.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Span / Clear Width",
+        "why_important": "Sellers need the required column-free span to determine frame type, primary steel tonnage, and project price — a buyer needing 30m clear span requires a fundamentally different structural solution than one needing 12m, and total area alone does not capture this.",
+        "source": "both",
+        "example_values": [
+          "Up to 12 m",
+          "12–18 m",
+          "18–24 m",
+          "24 m and above"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Warehouse/Godown",
+      "id": "spec_1",
+      "prompt_for_generation": "Pre-engineered steel warehouse building, large clear-span industrial shed with colour-coated metal roof and wall cladding, wide roller shutter doors, exterior view, natural daylight, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Factory/Workshop",
+      "id": "spec_2",
+      "prompt_for_generation": "Pre-engineered steel factory building with multiple bays, skylights on metal roof, industrial ventilators, large entry doors, exterior view showing structural steel frame and colour-coated cladding, natural daylight, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Site Office",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated metal site office cabin, compact rectangular steel structure with windows and a personnel door, colour-coated metal walls and roof, placed on a construction site, exterior view, natural daylight, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Labor Colony",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated metal labor colony, row of modular steel residential units with doors and windows, colour-coated metal cladding, exterior view of multiple connected units, natural daylight, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Showroom",
+      "id": "spec_5",
+      "prompt_for_generation": "Pre-engineered steel commercial showroom building, wide glass facade with metal frame, colour-coated roof and side walls, modern exterior appearance, exterior view, natural daylight, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "School/Classroom",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated metal school building, single-storey structure with multiple windows, colour-coated metal roof and walls, institutional exterior appearance, exterior view, natural daylight, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
