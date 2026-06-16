@@ -1,0 +1,467 @@
+{
+  "mcat_description": {
+    "short": "FRP Portable Toilet is a prefabricated, self-contained sanitation cabin made from Fibre Reinforced Plastic (FRP), sold as a ready-to-install unit with integral waste-holding or septic tank, water tap, and light point. Available in Indian-style and Western-style configurations, single or multi-compartment, for temporary or semi-permanent deployment.",
+    "long": "FRP Portable Toilets are factory-manufactured, standalone sanitation cabins constructed from Fibre Reinforced Plastic panels, offering a lightweight, weather-resistant, and corrosion-proof alternative to brick-and-mortar toilet construction. Standard units are supplied in Indian-style (squat pan) or Western-style (commode) configurations, with typical cabin dimensions ranging from 3×3×7 ft to 4×4×8 ft, FRP wall thickness of 2–6 mm, and integral provisions for a water tap, bulb holder, and optional overhead water tank or septic tank. Multi-compartment blocks (2-in-1, 3-in-1, up to 6-in-1) combine toilet, bathroom, and urinal sections for higher-footfall deployments at construction sites, public events, and municipal installations. The Indian market is served by a large base of regional manufacturers concentrated in Maharashtra, Delhi-NCR, and Nagpur, with Sintex being the most widely recognised trade brand alongside numerous unbranded fabricators.",
+    "product_types": [
+      "FRP Indian Toilet Cabin (squat/Indian-style pan)",
+      "FRP Western Toilet Cabin (commode/WC)",
+      "FRP Toilet cum Bathroom (2-in-1)",
+      "FRP Toilet cum Bathroom cum Urinal (3-in-1 / multi-compartment block)",
+      "FRP Urinal Cabin (standalone gents urinal)",
+      "FRP Executive Portable Toilet (premium finish, mirror, wash basin, AC provision)",
+      "FRP Mobile Toilet (trailer/wheel-mounted)",
+      "FRP Bio-Digester Toilet (with bio-digester tank, no sewage connection needed)",
+      "FRP Baby / Kids Toilet",
+      "Modular Panel-Built FRP Toilet (dismantle-and-reassemble type)"
+    ],
+    "primary_applications": [
+      "Construction site worker sanitation",
+      "Outdoor events, fairs, and melas",
+      "Swachh Bharat Mission and CSR sanitation projects",
+      "Municipal and public toilet installations",
+      "Disaster relief and flood-affected area deployment",
+      "Railway station and highway rest-stop sanitation",
+      "Pilgrimage sites and religious gatherings",
+      "Labour camps and remote work locations",
+      "Industrial plant and factory temporary sanitation"
+    ],
+    "buyer_segments": [
+      "Construction contractors and project managers (primary — bulk procurement for site workers)",
+      "Government and municipal bodies (Swachh Bharat, NMCG, smart city projects)",
+      "Event management companies",
+      "NGOs and CSR project implementers",
+      "Industrial plant operators and EPC contractors",
+      "Real estate developers",
+      "Rental/hire companies (portable toilet fleet operators)"
+    ]
+  },
+  "primary_segment": "Single-unit FRP portable toilet cabin (Indian-style pan) for construction site and temporary sanitation use",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Single-unit FRP portable toilet cabin (Indian-style or Western-style) for construction sites and temporary sanitation",
+    "secondary_families": [],
+    "reason": "All product sub-types (Indian, Western, urinal, multi-seater, bio-digester) share the same buyer profile, same FRP material basis, and same deployment context — no incompatible regulatory regime or buyer-type split exists across variants."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "FRP portable toilet",
+      "fiber portable toilet",
+      "FRP toilet cabin",
+      "fibre reinforced plastic toilet",
+      "FRP readymade toilet",
+      "portable toilet cabin",
+      "FRP mobile toilet",
+      "FRP bathroom cabin",
+      "fiber toilet cabin",
+      "readymade toilet cabin"
+    ],
+    "technical_synonyms": [
+      "Fibre Reinforced Plastic portable toilet",
+      "GRP portable toilet",
+      "FRP prefab toilet cabin",
+      "FRP modular toilet",
+      "FRP sanitation cabin",
+      "FRP toilet block",
+      "FRP portable washroom",
+      "prefabricated FRP toilet unit",
+      "FRP portable sanitation unit"
+    ],
+    "trade_names": [
+      "Sintex Portable Toilet",
+      "FRP Executive Toilet",
+      "FRP Economy Toilet",
+      "FRP Bio-Digester Toilet",
+      "FRP Eco Toilet",
+      "FRP Prefab Toilet"
+    ],
+    "hindi_terms": [
+      "FRP पोर्टेबल टॉयलेट",
+      "फाइबर टॉयलेट",
+      "पोर्टेबल शौचालय",
+      "फाइबर शौचालय केबिन"
+    ],
+    "buyer_intent_queries": [
+      "FRP portable toilet for construction site",
+      "fiber toilet cabin with septic tank",
+      "readymade toilet and bathroom price",
+      "portable toilet cabin Indian style",
+      "FRP toilet cabin 3x3x7 feet",
+      "portable washroom for outdoor events",
+      "FRP toilet with water tank and wash basin",
+      "mobile toilet cabin for labour camp",
+      "Sintex portable toilet price India",
+      "FRP portable toilet cum bathroom"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "FRP portable toilets are discrete, self-contained cabin units sold individually; all Indian manufacturer pages and B2B listings quote per piece or per unit, with multi-compartment blocks quoted per block (which is still a single assembled unit).",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Single-unit cabin (Indian/Western/Urinal)",
+        "unit": "per piece",
+        "note": "Standard transaction unit across all single-cabin variants"
+      },
+      {
+        "sub_segment": "Multi-compartment toilet block (2-in-1, 3-in-1, 6-in-1)",
+        "unit": "per block",
+        "note": "Quoted as one assembled block unit; some sellers also quote per seat for large institutional orders"
+      },
+      {
+        "sub_segment": "Trailer-mounted mobile toilet",
+        "unit": "per unit",
+        "note": "Quoted per vehicle-mounted unit; rental market may quote per day"
+      }
+    ],
+    "sources_checked": [
+      "Creative Fibrotech manufacturer page",
+      "Hindustan Fibers manufacturer page",
+      "Fibre Crafts India manufacturer page",
+      "Uday Creations manufacturer page",
+      "RD India manufacturer page"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "FRP Portable Toilets occupy a well-defined segment of India's prefabricated sanitation market, distinguished from HDPE/polyethylene portable toilets by their higher structural rigidity, thicker wall construction (2–8 mm FRP panels), and superior weather resistance. The Indian market offers two broad tiers: economy cabins (thin FRP, basic Indian pan, tap, and light point) used predominantly at construction sites and labour camps, and executive/premium cabins (thicker FRP, ceramic commode, wash basin, mirror, ventilation, and optional AC provision) used at corporate events and upscale public installations. Sintex is the dominant recognised trade brand in the Indian market, though a large number of regional unbranded fabricators — concentrated in Pune/Pimpri-Chinchwad, Nagpur, Delhi-NCR, and Ghaziabad — supply the bulk of volume. The Swachh Bharat Mission and government sanitation mandates have significantly expanded institutional demand, with bio-digester variants (no sewage connection required) gaining traction for rural and off-grid deployments. BIS standards for community and public toilets (BIS 1993 norms) govern design parameters such as cubicle size and user-to-WC ratios, though FRP portable toilets as a product category do not carry a mandatory BIS ISI mark. Key buyer decision factors are cabin dimensions, toilet type (Indian vs Western), FRP wall thickness, waste/water tank capacity, and number of compartments.",
+  "buyer_attracting_attributes": [
+    "Cabin Dimensions (L×W×H in feet)",
+    "Toilet Type (Indian squat pan / Western commode)",
+    "FRP Wall Thickness (mm)",
+    "Waste Tank / Septic Tank Capacity (litres)",
+    "Water Tank Capacity (litres)",
+    "Number of Compartments (single / 2-in-1 / 3-in-1 / multi-seater)",
+    "Colour",
+    "Accessories Included (wash basin, flush, mirror, ventilation, light point)",
+    "Mounting Type (free-standing / trailer-mounted / modular panel)",
+    "Bio-Digester Option (yes/no)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "145136",
+    "mcat_name": "FRP Portable Toilet",
+    "mcat_level": "4",
+    "listing_count": "6032",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > FRP Portable Toilet",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35424.0",
+      "name": "Portable Toilets",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35424.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "35424",
+        "mcat_name": "Portable Toilets",
+        "listing_count": "8053",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42586",
+        "mcat_name": "Toilet Cubicles",
+        "listing_count": "4466",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42587",
+        "mcat_name": "Toilet Partitions",
+        "listing_count": "1861",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "44109",
+        "mcat_name": "Mobile Toilet Van",
+        "listing_count": "2119",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45789",
+        "mcat_name": "Mobile Toilets",
+        "listing_count": "4607",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119106",
+        "mcat_name": "Bio Toilet",
+        "listing_count": "1455",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "126794",
+        "mcat_name": "FRP Modular Toilet",
+        "listing_count": "735",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133092",
+        "mcat_name": "Bunk House Portable Toilets",
+        "listing_count": "210",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "156755",
+        "mcat_name": "Chemical Toilets",
+        "listing_count": "126",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182628",
+        "mcat_name": "Sintex Portable Toilets",
+        "listing_count": "361",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "189105",
+        "mcat_name": "MS Portable Toilets",
+        "listing_count": "2127",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "214584",
+        "mcat_name": "RCC Toilet",
+        "listing_count": "729",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "222823",
+        "mcat_name": "PVC Toilet",
+        "listing_count": "343",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "224049",
+        "mcat_name": "Modular Toilet",
+        "listing_count": "442",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 14,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "FRP portable toilets are prefabricated sanitation equipment subject to BIS standards and state health/municipal regulations; standard B2B industrial equipment with material and compliance specifications."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top impressions keywords ('readymade toilet and bathroom price', 'frp portable toilet', 'portable washroom') used to identify buyer search vocabulary and confirm primary segment."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Top internal KW 'frp portable toilet' (436 PV, 15 calls) confirmed as dominant search term; dimension-specific queries ('3x3x7 feet frp portable toilet') informed buyer_attracting_attributes."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "mcat_description.primary_applications",
+          "alt_names.trade_names",
+          "alt_names.primary_keywords"
+        ],
+        "citation_note": "431 call rows revealed buyer vocabulary (Fiber Toilet, FRP Bathroom, Mobile Toilet, Executive Portable Washroom, Sintex Portable Toilet, HDPE Plastic Toilet) and confirmed construction site as primary application context."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT sits under Prefabricated Structures parent; 14 siblings (including Bio Toilet, Sintex Portable Toilets, Mobile Toilets) assessed for vagueness triggers — none fired."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://creative-fibrotech.com/products/frp-portable-toilet-manufacturers-in-india/",
+        "title": "FRP Portable Toilet Manufacturers in India | Creative Fibrotech",
+        "source_domain": "creative-fibrotech.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "market_context",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Used for product feature descriptions (customisable dimensions, weather-resistant FRP, waste collection systems) and application contexts (construction sites, outdoor events, disaster relief)."
+      },
+      {
+        "url": "https://www.hindustanfibers.in/frp-toilet.html",
+        "title": "FRP Toilet - 2 In 1 (Toilet/Bathroom) Manufacturer from Pimpri Chinchwad",
+        "source_domain": "hindustanfibers.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for product variant types (2-in-1, Indian, Western), standard dimensions (3×3×7 ft, 4×4×8 ft), FRP thickness ranges (2.5–6 mm), and per-piece unit quoting confirmation."
+      },
+      {
+        "url": "https://www.udaycreations.co.in/frp-toilets",
+        "title": "FRP Toilet Manufacturers in Nagpur, FRP Portable Toilet Suppliers in India",
+        "source_domain": "udaycreations.co.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for multi-compartment product types (gents urinal + ladies urinal + wash basin + toilet), ISI-marked steel components detail, and PU paint finish specification."
+      },
+      {
+        "url": "https://www.rdindia.co/frp-portable-toilet-manufacturer.html",
+        "title": "FRP Portable Toilet Manufacturer & Supplier | RD India",
+        "source_domain": "rdindia.co",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Used for readymade FRP toilet cabin description, septic tank and water tank integration features, and modular toilet characterisation."
+      },
+      {
+        "url": "https://www.cleangreenequipments.in/portable-toilet.html",
+        "title": "Portable Toilet - FRP Portable Toilet Manufacturer from Ghaziabad",
+        "source_domain": "cleangreenequipments.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for component-level specification detail (waste tank, wash basin, mirror, ventilation, lighting, electric supply points) feeding buyer_attracting_attributes."
+      },
+      {
+        "url": "https://www.fibrecraftsindia.com/portable-toilet-modules.html",
+        "title": "PORTABLE TOILET MODULES - Portable Toilet Cabins with site installation Manufacturer from Pune",
+        "source_domain": "fibrecraftsindia.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for multi-unit block configurations (3-in-1, 6-in-1), bio-digester variant confirmation, application list (Swachh Bharat, CSR, railways, pilgrimage sites), and per-piece/per-block unit quoting."
+      },
+      {
+        "url": "https://organicabiotech.com/portable-toilet-faqs-all-you-need-to-know-about-portable-toilets/",
+        "title": "Portable Toilet FAQs: All You Need To Know About Portable Toilets",
+        "source_domain": "organicabiotech.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for Swachh Bharat Mission context and bio-digester tank sizing norms for Indian market."
+      },
+      {
+        "url": "https://releaf.in/2023/03/indian-public-toilet/",
+        "title": "Practical Solutions for the Indian Public Toilet Problem - Re-Leaf",
+        "source_domain": "releaf.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for portable toilet model variety (Western, Indian-style, urinals, shower stalls) and buyer segment confirmation (construction site owners, event managers)."
+      },
+      {
+        "url": "https://forum.susana.org/india/3918-standards-or-norms-for-design-of-community-and-public-toilet",
+        "title": "Standards or norms for design of Community and Public toilet - SuSanA Forum",
+        "source_domain": "forum.susana.org",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used to confirm BIS 1993 norms for community/public toilet design parameters (cubicle size, user-to-WC ratios) and that multiple government guidelines follow the same BIS standards."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "FSSAI",
+        "State Health Department"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "FRP portable toilets are prefabricated sanitation equipment subject to BIS standards (IS:2379 for portable toilets) and state health/municipal regulations. Not a pharma/chemical/brand-dominant product; standard B2B industrial equipment with material and compliance specifications."
+    }
+  }
+}
