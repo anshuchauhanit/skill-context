@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'Portable House' is broadly understood and matches primary buyer intent queries, but technical synonyms and market norms (EPACK, Tata Nest-In, Pressmach) consistently use 'Prefab House' or 'Prefabricated House' as the dominant trade term, making the current name slightly less precise for B2B discovery.",
+    "suggested_name": "Portable Prefab House"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a wooden tiny house on wheels (trailer-mounted log-cabin style), which represents a niche sub-segment — not the primary segment of steel-framed insulated panel portable cabins used for site offices and labour accommodation.",
+      "The image conflicts directly with Agent 3's primary_segment; a buyer searching for a steel PUF-panel site cabin would not recognise this wooden trailer home as the product, creating a segment mismatch that misleads B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A clean, professional product photograph of a steel-framed insulated sandwich panel portable cabin (PUF panel walls, light grey or off-white exterior cladding, green or blue metal sheet roof), single-room unit approximately 10x20 ft, placed on a flat construction site ground, front-facing three-quarter view showing a single door and one window, bright natural daylight, plain white or light sky background, no people, no branding, sharp focus, commercial B2B catalogue style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
