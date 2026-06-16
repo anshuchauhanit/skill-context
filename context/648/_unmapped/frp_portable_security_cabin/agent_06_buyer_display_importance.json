@@ -1,0 +1,172 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "FRP security cabins vary significantly in visual appearance by size class, roof style (flat vs pyramid vs Manglori tile), colour, and build quality — buyers use the image to identify the right product type before reading any text. Wrong visual type causes an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Footprint dimensions are a hard physical constraint — a 4x4 ft cabin cannot substitute for a 6x6 ft. Built type (standard vs insulated PUF vs Manglori) drives both price tier and climate suitability, making specs the primary shortlisting gate after image confirmation."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with dimensions and built type — Indian buyers compare prices aggressively across sellers once size and construction type are confirmed. Price is a decisive shortlisting signal in this commoditised mid-market category."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the market is fragmented across regional FRP fabricators in Pune, Gujarat, and Maharashtra; buyers search by spec and price, not manufacturer name.",
+      "reason": "Seller credibility matters for installation support, delivery reach, and after-sales service, but company identity is evaluated after spec and price shortlisting — not as a primary engagement signal."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Custom large-format cabins (site office, forest office) are occasionally quoted per sq ft by some manufacturers, but the dominant market unit is per piece for all standard catalogue sizes.",
+      "reason": "FRP security cabins are complete prefabricated units — no buyer ever questions whether the unit is per piece. Unit is entirely implied by the product."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Dimensions (L x W)",
+        "reason": "Footprint dimensions are non-interchangeable across buyer requirements and are the single largest price driver — price scales directly with floor area across all size variants."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Built Type",
+        "reason": "Standard vs Insulated (PUF Core) vs Manglori Design represents a significant price delta and non-interchangeable construction quality tier — insulated PUF commands a substantial premium and serves different climate requirements than standard FRP."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Dimensions (L x W)",
+      "Flooring Type",
+      "Frame Material",
+      "Included Accessories",
+      "Number of Windows",
+      "Roof Design",
+      "Wall Thickness",
+      "Window Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Colour / Exterior Colour",
+        "why_important": "Buyers — particularly housing societies and commercial premises — specify exterior colour to match site aesthetics, and manufacturers offer standard colour options (cream, grey, green, blue); colour is a configurable option on all major FRP cabin manufacturer sites.",
+        "source": "both",
+        "example_values": [
+          "Cream / Off-White",
+          "Grey",
+          "Green",
+          "Blue"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Dimensions",
+        "reason": "Footprint dimensions are the primary hard constraint — sellers need the floor area to confirm they can supply the right size and to price the unit accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Seating Capacity",
+        "reason": "Seating capacity communicates the operational requirement in buyer-intuitive terms, helping sellers recommend the correct size class and confirm fit for single-person vs multi-person guard posts.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Built Type",
+        "why_important": "Sellers who manufacture only standard FRP cannot supply insulated PUF core cabins — buyers must specify construction type so sellers can confirm eligibility and price the correct tier.",
+        "source": "both",
+        "example_values": [
+          "Standard FRP",
+          "Insulated (PUF Core)",
+          "Manglori Design",
+          "Economical"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Roof Design",
+        "why_important": "Flat, pyramid, and Manglori tile roofs require different fabrication capabilities — sellers need the roof type to confirm they can supply the requested design and to price accurately.",
+        "source": "both",
+        "example_values": [
+          "Flat Roof",
+          "Pyramid / Kerala Roof",
+          "Manglori Tile Roof"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Flat Roof",
+          "Pyramid / Kerala Roof",
+          "Manglori Tile Roof"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Roof Design",
+      "option_value": "Flat Roof",
+      "id": "spec_1",
+      "prompt_for_generation": "FRP portable security cabin with a flat roof, single-person guard booth approximately 4x4 ft, cream-coloured FRP panels, aluminium sliding window, MS frame, placed on a plain white background, front-facing view, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Design",
+      "option_value": "Pyramid / Kerala Roof",
+      "id": "spec_2",
+      "prompt_for_generation": "FRP portable security cabin with a four-sided pyramid-shaped Kerala roof, single-person guard booth approximately 4x4 ft, cream-coloured FRP panels, aluminium sliding window, MS frame, placed on a plain white background, front-facing three-quarter view, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Design",
+      "option_value": "Manglori Tile Roof",
+      "id": "spec_3",
+      "prompt_for_generation": "FRP portable security cabin with a Manglori clay-tile-style sloped roof, single-person guard booth approximately 4x4 ft, cream-coloured FRP panels, aluminium sliding window, MS frame, placed on a plain white background, front-facing three-quarter view, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
