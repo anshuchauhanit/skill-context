@@ -1,0 +1,116 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Significant visual variation across sub-types (structural cabin vs curtain-frame vs partition cubicle), material finishes (HPL, FRP, PVC), and interior configurations. Retail buyers need to see the product's appearance before shortlisting — wrong aesthetic = immediate skip for a shop-facing fitting."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Material type and cabin dimensions are non-interchangeable primary shortlisting criteria — a 3x3 ft PVC cabin cannot substitute for a 4x4 ft HPL cabin. Buyers arrive with a floor plan constraint and material preference; listings without these specs cannot be evaluated."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with material (PVC < FRP < HPL) and size combination. Indian B2B buyers compare prices aggressively across sellers once material and size match — price is a primary decision lever at the shortlisting stage."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional fabricators and buyers search by material and size, not manufacturer name.",
+      "reason": "Manufacturer vs trader distinction matters for delivery, on-site installation, and after-sales support. No taxonomy siblings indicate brand-dominant sub-segments; buyers evaluate supplier capability, not brand name."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Per sq ft quoting exists for large custom multi-bay installations but the dominant B2B transaction is per piece. No buyer questions whether a dressing room cabin is sold per piece.",
+      "reason": "Unit is entirely implied by the product — a self-contained cabin is always sold per piece. No buyer confusion risk."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Defines the product class and drives the largest price delta — PVC, FRP, HPL, and PUF Panel are non-interchangeable tiers with substantially different costs and durability profiles."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Size (L x B)",
+        "reason": "Cabin footprint is non-interchangeable across buyer floor plan requirements and price scales directly with size — a 3x3 ft unit cannot substitute for a 4x6 ft unit."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Build Type",
+      "Floor Type",
+      "Frame Material",
+      "Included Accessories",
+      "Material",
+      "Number of Doors",
+      "Portability Feature",
+      "Size (L x B)"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Door / Entry Type",
+        "why_important": "Privacy and security are core to a dressing room's function — buyers in retail and pool segments explicitly specify whether they need a full lockable door, a curtain, or a sliding door, and sellers need this to confirm product fit.",
+        "source": "both",
+        "example_values": [
+          "Lockable Door",
+          "Curtain",
+          "Sliding Door",
+          "Folding Door"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Tells sellers the product tier and price range immediately — sellers who fabricate only HPL cabins cannot supply a PVC order, making this the primary routing spec.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Size (L x W)",
+        "reason": "Sellers need the footprint requirement to confirm fabrication capability and provide an accurate per-piece price.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Build Type",
+        "why_important": "Sellers need to know whether the buyer wants a structural prefab cabin, a curtain-frame tent unit, or a partition cubicle — these are fundamentally different products requiring different manufacturing capabilities and cannot be substituted.",
+        "source": "both",
+        "example_values": [
+          "Cabin",
+          "Tent / Curtain Frame",
+          "Partition Cubicle"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": []
+}
