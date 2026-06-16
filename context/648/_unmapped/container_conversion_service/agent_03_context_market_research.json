@@ -1,0 +1,554 @@
+{
+  "mcat_description": {
+    "short": "Container Conversion Service covers the bespoke modification of ISO shipping containers (typically 20ft or 40ft) into functional spaces such as site offices, portable cabins, retail units, cafés, storage rooms, and residential units, delivered as a turnkey fabrication and fitout service.",
+    "long": "Container Conversion Service is a B2B fabrication and fitout service in which standard ISO steel shipping containers are structurally modified and internally fitted out to serve as functional built spaces. Conversions typically involve cutting openings for doors and windows, reinforcing the steel structure, adding insulation, electrical wiring, HVAC, plumbing, and interior finishing to produce ready-to-use units. The dominant commercial application in India is the site office or portable cabin for construction, infrastructure, and industrial projects, though conversions for retail pop-ups, cold storage, food service, and modular housing are also active segments. Buyers procure these as turnkey services — specifying container size, conversion type, and fitout level — with the converted unit delivered and installed at site.",
+    "product_types": [
+      "Container office conversion (site office / portable cabin)",
+      "Container retail unit / pop-up shop conversion",
+      "Container café / food service unit conversion",
+      "Container residential / bunk house conversion",
+      "Container cold storage / reefer conversion",
+      "Container workshop / lab conversion",
+      "Container toilet block / sanitation unit conversion",
+      "Container guard cabin / security cabin conversion",
+      "Container classroom conversion",
+      "Container medical / healthcare unit conversion",
+      "Multi-container modular building conversion"
+    ],
+    "primary_applications": [
+      "Site offices for construction and infrastructure projects",
+      "Portable cabins for remote project sites and industrial facilities",
+      "Temporary and permanent retail pop-up units",
+      "Bunk houses and labour accommodation on project sites",
+      "Cold storage and temperature-controlled units",
+      "Mobile food service and café units",
+      "Security and guard cabins",
+      "Modular classrooms and training rooms",
+      "Sanitation and toilet blocks for events and sites"
+    ],
+    "buyer_segments": [
+      "Construction and infrastructure contractors (site office procurement)",
+      "Real estate developers (sales offices, site facilities)",
+      "Industrial and manufacturing plant operators",
+      "Retail brands and F&B operators (pop-up and mobile units)",
+      "Government and defence (field offices, sanitation units)",
+      "Event management companies",
+      "Logistics and port operators",
+      "Educational institutions (modular classrooms)"
+    ]
+  },
+  "primary_segment": "Container office / site cabin conversion for construction and industrial project sites",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Bespoke modification of ISO shipping containers into functional spaces (offices, cabins, retail, storage)",
+    "secondary_families": [],
+    "reason": "The MCAT name unambiguously refers to ISO shipping container modification services; no sibling MCAT carves out an incompatible buyer segment or regulatory regime, and all conversion sub-types share the same fundamental product concept, buyer profile, and service delivery model."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "container conversion service",
+      "shipping container conversion",
+      "modified container",
+      "container office conversion",
+      "container cabin conversion",
+      "container modification service",
+      "converted shipping container",
+      "container to office conversion"
+    ],
+    "technical_synonyms": [
+      "ISO container modification",
+      "intermodal container repurposing",
+      "container fitout service",
+      "container fabrication and fitout",
+      "container structural modification",
+      "container refurbishment service"
+    ],
+    "trade_names": [
+      "modular container office",
+      "porta cabin container",
+      "container site office",
+      "container portable cabin",
+      "customised container unit",
+      "bespoke container conversion"
+    ],
+    "hindi_terms": [
+      "container cabin",
+      "container office"
+    ],
+    "buyer_intent_queries": [
+      "container conversion service for site office",
+      "shipping container converted to office India",
+      "20ft container office conversion price",
+      "40ft container modification for site cabin",
+      "container to portable cabin conversion service",
+      "modified container for construction site office",
+      "container office conversion with AC and electrical",
+      "bespoke container conversion service India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per container (per piece / per unit)",
+    "unit_reasoning": "Container conversion is a bespoke service quoted per container unit — buyers specify container size (20ft/40ft) and fitout scope, and sellers price per converted container delivered; IndiaMART listing tiles confirm 'per Container' and 'per Piece' as the dominant quoting units.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Multi-container modular building",
+        "unit": "per project",
+        "note": "Large multi-container builds may be quoted per project rather than per individual container."
+      },
+      {
+        "sub_segment": "Fitout-only service (buyer supplies container)",
+        "unit": "per container",
+        "note": "When the buyer owns the container and only the modification work is contracted, unit remains per container."
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART MCAT listing tiles (structural observation)",
+      "Craftsmen Industries (craftsmenind.com)",
+      "Containers Direct (shippingcontainersuk.com)",
+      "GetSimpleBox (getsimplebox.com)",
+      "Falcon Structures (falconstructures.com)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Container Conversion Service is a globally active and growing B2B fabrication segment — the Shipping Container Modification Market was valued at USD 13.02 billion in 2024 and is projected to reach USD 16.93 billion by 2030 at a CAGR of 4.32% (single source — ResearchAndMarkets via Craftsmen Industries). In India, the dominant commercial application is the site office or portable cabin for construction and infrastructure projects, with sellers concentrated in Mumbai/Thane, Coimbatore, and Kochi/Ernakulam. Standard base containers are 20ft and 40ft ISO dry containers; high-cube variants (9ft 6in height) are preferred for habitable conversions due to greater internal headroom. Conversion scope ranges from basic shell modifications (door/window openings, repaint) to fully fitted units with insulation, electrical wiring, HVAC, plumbing, and interior finishing. The service is quoted per container with pricing driven by container size, condition (new/one-trip vs used), and fitout complexity. Key buyer vocabulary in India includes 'modified container', 'container cabin', 'container site office', and 'portable cabin'; sellers also use 'customised container' and 'modular container office'. No BIS or IS standard governs container conversions in India — structural integrity is governed by the base ISO container standard (ISO 668 for dimensions, ISO 1496 for testing), and electrical fitouts follow standard Indian electrical codes.",
+  "buyer_attracting_attributes": [
+    "Container Size (20ft / 40ft / custom)",
+    "Conversion Type (office / retail / residential / storage / café / lab)",
+    "Container Condition (new / one-trip / used)",
+    "Insulation Type and Rating",
+    "Electrical Fitout (wiring, panel, outlets, lighting)",
+    "HVAC / Air Conditioning",
+    "Plumbing (toilet, sink, kitchenette)",
+    "Interior Finishing (flooring, wall panels, false ceiling)",
+    "Customisation Level (standard / bespoke)",
+    "Delivery and Installation (pan-India / site delivery)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "119140",
+    "mcat_name": "Container Conversion Service",
+    "mcat_level": "4",
+    "listing_count": "68",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Container Conversion Service",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35400.0",
+      "name": "Portable Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35400.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "32980",
+        "mcat_name": "Office Cabin",
+        "listing_count": "6818",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35057",
+        "mcat_name": "Portable Classrooms",
+        "listing_count": "736",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35400",
+        "mcat_name": "Portable Cabin",
+        "listing_count": "13877",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38456",
+        "mcat_name": "Telephone Booths",
+        "listing_count": "419",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42755",
+        "mcat_name": "Security Cabins",
+        "listing_count": "4207",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43789",
+        "mcat_name": "Wooden Cabins",
+        "listing_count": "665",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43790",
+        "mcat_name": "Mobile Cabins",
+        "listing_count": "613",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "56012",
+        "mcat_name": "Glass Cabin",
+        "listing_count": "1247",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96540",
+        "mcat_name": "Office Container",
+        "listing_count": "21197",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96541",
+        "mcat_name": "Mobile Containers",
+        "listing_count": "2044",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "111378",
+        "mcat_name": "Smoking Cabin",
+        "listing_count": "192",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121149",
+        "mcat_name": "FRP Cabin",
+        "listing_count": "1604",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135704",
+        "mcat_name": "Portable Kitchen",
+        "listing_count": "457",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135705",
+        "mcat_name": "Portable Security Cabins",
+        "listing_count": "6233",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135712",
+        "mcat_name": "Prefabricated Cabin",
+        "listing_count": "6259",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135797",
+        "mcat_name": "Toll Booth",
+        "listing_count": "853",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135966",
+        "mcat_name": "Eco Portable Cabins",
+        "listing_count": "436",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136204",
+        "mcat_name": "Prefabricated Accommodation",
+        "listing_count": "1321",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145135",
+        "mcat_name": "FRP Portable Security Cabin",
+        "listing_count": "1727",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149768",
+        "mcat_name": "Portable Dressing Room",
+        "listing_count": "358",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150360",
+        "mcat_name": "Portable Log Cabins",
+        "listing_count": "220",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150362",
+        "mcat_name": "Portable Pantry",
+        "listing_count": "142",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150852",
+        "mcat_name": "MS Porta Cabin",
+        "listing_count": "9337",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150853",
+        "mcat_name": "MS Security Cabins",
+        "listing_count": "1334",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154082",
+        "mcat_name": "Wooden Guard Room",
+        "listing_count": "111",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159318",
+        "mcat_name": "GRP Cabin",
+        "listing_count": "55",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "165827",
+        "mcat_name": "Modular Portable Cabin",
+        "listing_count": "3118",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167809",
+        "mcat_name": "PUF Cabin",
+        "listing_count": "1376",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181546",
+        "mcat_name": "PVC Portable Cabin",
+        "listing_count": "407",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181975",
+        "mcat_name": "Prefabricated Security Cabin",
+        "listing_count": "1156",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185338",
+        "mcat_name": "GI Portable Cabin",
+        "listing_count": "2393",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185339",
+        "mcat_name": "Aluminium Office Cabins",
+        "listing_count": "1740",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "188230",
+        "mcat_name": "Portable ATM Cabin",
+        "listing_count": "130",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "207959",
+        "mcat_name": "Frisking Booth",
+        "listing_count": "168",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Container conversion is a bespoke B2B service with no regulatory oversight, no dominant brands, and no chemical/pharmaceutical angle. Agent 3 should research market patterns: typical container types (20ft/40ft shipping containers), conversion use cases (offices, retail, housing, storage), material specs, and pricing models to ground listing audit rules."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keyword 'container conversion service' (13 PV) and 'office conversion container conversion service' (1 PDP click) confirmed office as dominant buyer intent signal."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path and listing count (68) used as reference; parent MCAT 'Portable Cabin' confirms habitable-space conversion as primary segment anchor."
+      },
+      {
+        "source": "IndiaMART MCAT page (structural observation from search result snippet)",
+        "fields_used": [
+          "listing tile titles",
+          "seller geography",
+          "unit quoting"
+        ],
+        "derived_outputs": [
+          "unit_quoting_context.dominant_unit",
+          "alt_names.trade_names",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Tile titles confirmed 'per Container' / 'per Piece' unit quoting and office as dominant use case. Seller geography: Thane, Coimbatore, Ernakulam, Navi Mumbai. Not used for primary_segment determination."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.craftsmenind.com/shipping-container-conversion",
+        "title": "Custom Shipping Container Conversion | Functional Units — Craftsmen Industries",
+        "source_domain": "craftsmenind.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for market size figure (ResearchAndMarkets via Craftsmen), conversion types (offices, retail, medical, food service), and fitout scope (insulation, electrical, HVAC, plumbing)."
+      },
+      {
+        "url": "https://www.shippingcontainersuk.com/container-conversions/",
+        "title": "Shipping Container Conversions | Containers Direct",
+        "source_domain": "shippingcontainersuk.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for product type range (offices, pop-up shops, labs, plant rooms, gyms, chemical stores) and confirmation of 20ft/40ft as standard base containers."
+      },
+      {
+        "url": "https://www.shippingcontainersuk.com/blog/what-is-the-process-for-a-container-conversion--194/",
+        "title": "What Is The Process For A Container Conversion? — Containers Direct",
+        "source_domain": "shippingcontainersuk.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Used for conversion process steps (CAD design, steel modifications, repaint, insulation, partitions, fitout) and container condition options (new/used)."
+      },
+      {
+        "url": "https://getsimplebox.com/shipping-container-modifications/",
+        "title": "Shipping Container Modifications | Custom Containers & Conversions | Get Simple Box",
+        "source_domain": "getsimplebox.com",
+        "derived_outputs": [
+          "buyer_attracting_attributes",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for fitout attribute detail: insulation types (spray foam, fibreglass batts), electrical panel specs, HVAC options, door modification types."
+      },
+      {
+        "url": "https://www.falconstructures.com/blog/shipping-container-converted-to-office",
+        "title": "Shipping Container Converted to an Office? — Falcon Structures",
+        "source_domain": "falconstructures.com",
+        "derived_outputs": [
+          "primary_segment",
+          "mcat_description.primary_applications",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed container office as most common conversion type; used for office-specific fitout attributes (observation windows, heavy-duty AC, kitchenette, bathrooms)."
+      },
+      {
+        "url": "https://bmarkostructures.com/3d-shipping-container-modifications-division/",
+        "title": "America's #1 Shipping Container Modifications | BMarko Structures",
+        "source_domain": "bmarkostructures.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for B2B market confirmation, product type range (cafés, press boxes, pop-up retail, modular housing), and fitout options (spray foam insulation, MgO board, ducted AC)."
+      },
+      {
+        "url": "https://containertech.com/container-modifications/custom-container-conversions/",
+        "title": "Custom Container Conversions for Unique Storage Needs — ContainerTech",
+        "source_domain": "containertech.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for specialist conversion types (mobile pumphouse, equipment testing lab, climate-controlled research lab, guard shack) and container size variants (10ft, 20ft, 53ft HC)."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 2,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Container conversion is a bespoke B2B service with no regulatory oversight, no dominant brands, and no chemical/pharmaceutical angle. Agent 3 should research market patterns: typical container types (20ft/40ft shipping containers), conversion use cases (offices, retail, housing, storage), material specs, and pricing models to ground listing audit rules."
+    }
+  }
+}
