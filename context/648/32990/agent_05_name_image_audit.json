@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'Office Space' is accurate but generic — Agent 3 alt_names and market_context confirm that buyers search primarily for 'coworking space', 'office space for rent', or 'commercial office space', suggesting a more intent-signalling name would improve discoverability.",
+    "suggested_name": "Commercial Office Space"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail appears to be a still from a film/TV production (likely 'Office Space' the movie) showing a dated, cluttered cubicle farm — this is not a real Indian commercial office or coworking space and misrepresents the primary segment entirely.",
+      "The image contains people, branded documents, and a cinematic/fictional aesthetic that signals stock-film content rather than an actual B2B workspace listing, creating a misleading first impression for buyers seeking flex or coworking space in Indian cities."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Modern Indian coworking office space interior, open-plan layout with rows of clean white desks, ergonomic chairs, laptop workstations, warm LED pendant lighting, glass-walled private meeting pods visible in background, lush indoor plants, polished concrete or light wood flooring, large windows with natural daylight, minimal branding, no people, photorealistic, bright and professional B2B product thumbnail, square 1:1 format, white or light grey background zone in foreground for text overlay, high resolution.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
