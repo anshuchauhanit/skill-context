@@ -1,0 +1,1309 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "177275130",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Portable Resorts Rooms",
+      "description": "Nature Homes was created in 2013, with a vision to create turnkey wooden structures that are capable of meeting the modern dwelling requirements. We are the Wooden Houses Manufacturer and Supplier in Delhi, India primarily engaged in building residential houses, resorts, and farmhouses. To have clarity in the big picture, we put effort right from the sketch board, prototype design to realizing the turnkey structure of the buildings. ",
+      "specs": {},
+      "image_url": "http://5.imimg.com/data5/IOS/Default/2022/2/GL/RF/ON/7708592/product-jpeg.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-resorts rooms-24816664991.html",
+      "image_file": "177275130.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed wooden cabin/cottage elevated on stilts with a covered balcony, green-roofed pitched structure, deployed on a hillside with mountain backdrop — clearly a prefabricated resort-style accommodation unit."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Portable Resorts Rooms' names the correct product category but omits material, size, construction type, or any differentiating attribute."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no material, size, or configuration data provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms wooden structure manufacturing for resorts and farmhouses with turnkey delivery, consistent with the MCAT, though it also mentions residential houses broadening scope slightly."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Wooden prefab resort room/cottage deployed in a scenic hillside setting — matches primary_segment of prefabricated modular resort accommodation."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Delhi, India' as a location and 'Nature Homes' as a business/brand name embedded in the description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Portable Resorts Rooms' only — missing material type, construction method, size, or any buyer-useful specification."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Delhi, India' (location) and 'Nature Homes' (business name) embedded in the listing text."
+        }
+      ],
+      "verification_note": "Good image of a deployed wooden resort cabin; title and specs are thin but no active contradiction or category failure; P16 flagged for location/business in description.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-resorts rooms-24816664991.html"
+    },
+    {
+      "item_id": "279594082",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefab Resorts",
+      "description": "We are involved in offering a wide range of all products to our most valued clients. Our range of all products is widely appreciated by our clients which are situated all round the nation. We offer our range of products at most affordable prices. Also availaible in large quantity as per customer demand.",
+      "specs": {
+        "raw": "Built Type:Prefab, Color:Blue, It Is Customize:Yes, Material:Steel, Shape:Rectangular, Usages:Resort"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2024/7/436650557/OI/LW/EF/51018771/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefab-resorts-2854499508212.html",
+      "image_file": "279594082.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed blue-and-white prefabricated modular cottage with pitched roof, covered porch, steps, and AC unit, deployed in a natural outdoor setting — clearly a prefab resort accommodation unit."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Prefab Resorts' correctly identifies the product category but omits material, size, configuration, or any differentiating attribute."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm prefab build type, steel material, customisable, rectangular shape, and resort usage — minimal but consistent with the MCAT."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is entirely generic boilerplate with no product-specific information about the resort structure."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Steel prefab resort unit with resort usage confirmed in specs and image — matches primary_segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Prefab Resorts' only — missing material (steel), size, occupancy, or any buyer-differentiating attribute."
+        }
+      ],
+      "verification_note": "Good image of a deployed blue steel prefab resort cottage; specs confirm resort usage; description is generic boilerplate but no active contradiction.",
+      "source_url": "https://www.indiamart.com/proddetail/prefab-resorts-2854499508212.html"
+    },
+    {
+      "item_id": "324825698",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Portable Resort Cabin",
+      "description": "<p><b>Prefab Excellence. Engineered for Performance.</b></p>\n<p>Sehgal Buildcon is a trusted name in prefabricated construction, delivering end-to-end solutions for modern, efficient, and sustainable building projects. From residential and commercial spaces to warehouses, offices, and cottages, our prefab systems are designed to meet the highest standards of quality, durability, and performance.</p>\n<p>With a strong foundation in construction and architectural solutions, we also offer complementary expertise in:</p>\n<ul>\n<li>Premium aluminum door &amp; window systems</li>\n<li>Structural glazing solutions</li>\n<li>Architectural roofing shingles &amp; metal roofing</li>\n<li>Construction chemicals</li>\n</ul>\n<p>At Sehgal Buildcon, our dedicated team collaborates closely with architects, contractors, and developers to deliver customized prefab solutions that ensure speed, precision, and cost-efficiency. We are committed to quality craftsmanship, timely delivery, and complete client satisfaction.</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Floor Area:300-600 sq ft, Furnishing:Unfurnished, Occupancy:5-6 Guests, Roof Type:Pitched Roof, Service Location:Pan India, Structure Material:Steel, Toilet Facility:Attached Toilet, Unit Type:Cottage, Usage:Beach Resort"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/3/595417636/BB/IS/MN/210860446/portable-resort-cabin.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-resort cabin-2859022670097.html",
+      "image_file": "324825698.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the same blue-and-white prefabricated modular cottage with pitched roof, covered porch, and AC unit in a natural outdoor setting — a complete, buyer-useful view of a prefab resort cabin."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Portable Resort Cabin' correctly names the product type with the key modifier 'cabin' but lacks material, size, or occupancy detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide floor area (300–600 sq ft), occupancy (5–6 guests), pitched roof, steel structure, attached toilet, cottage unit type, and beach resort usage — comprehensive buyer-relevant attributes."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms prefab construction expertise and cottage delivery but is primarily a company profile rather than product-specific content."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Steel prefab cottage with beach resort usage, attached toilet, and 5–6 guest occupancy — directly matches primary_segment of prefabricated modular resort accommodation."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Sehgal Buildcon' as a business/brand name embedded in the listing text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Sehgal Buildcon' (business name) embedded in the listing description text."
+        }
+      ],
+      "verification_note": "Best-in-class listing with strong specs (floor area, occupancy, toilet, usage) and good image; P16 flagged for business name in description.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-resort cabin-2859022670097.html"
+    },
+    {
+      "item_id": "259897505",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Portable Resort",
+      "description": "These resorts are assembled with the help of superior quality objects and advanced technologies. Our offered resorts and huts are widely appreciated by our clients due to their high durability and perfect design. The offered range of resorts is used in various hill stations, camping and other places.",
+      "specs": {
+        "raw": "Built Type:Panel Build, Color:Yellow, Country of Origin:Made in India, Floor Area:Up to 300 sq ft, Furnishing:Semi Furnished, Material:FRP, Occupancy:3-4 Guests, Place Of Origin:Pan India, Roof Type:Slope Roof, Service Location:Pan India, Structure Material:Steel, Toilet Facility:Attached Toilet, Unit Type:Cottage, Usage:Beach Resort, Weather Proof:Yes"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/12/370924553/VJ/BP/PY/8900879/portable-resort.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-resort-2852529850473.html",
+      "image_file": "259897505.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed wooden duplex cottage with two gabled roofs, covered veranda, steps, and tropical garden landscaping — a fully deployed resort-style accommodation structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Portable Resort' is the bare category name with no material, size, or configuration detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide panel build type, FRP material, floor area (up to 300 sq ft), semi-furnished, 3–4 guest occupancy, slope roof, attached toilet, cottage unit type, beach resort usage, and weatherproof — comprehensive buyer-relevant attributes."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms resort/hut assembly for hill stations and camping — consistent with MCAT though generic in phrasing."
+        },
+        "category": {
+          "valid": true,
+          "reason": "FRP panel-build prefab resort cottage with beach resort usage and attached toilet — directly matches primary_segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Portable Resort' only — missing material (FRP), build type (panel), occupancy, or any buyer-differentiating attribute despite strong specs being available."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — strong specs, good image of deployed resort cottage, no contradiction or category failure; title is thin but that alone does not disqualify.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-resort-2852529850473.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "193763739",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefabricated Resort",
+      "description": "Our products and services are high in demand due to their premium quality and affordable prices. Furthermore, we ensure to timely deliver these products to our clients, through this we have gained a huge clients base in the market.",
+      "specs": {},
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2022/8/VS/MN/TQ/140244683/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-resort-26465525991.html",
+      "image_file": "193763739.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a conventional permanent masonry/concrete bungalow under construction on flat ground with a tiled hip roof and plastered walls — this is a site-built permanent house, not a prefabricated portable resort structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Prefabricated Resort' names the correct category but provides no material, size, or configuration detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no attributes provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is entirely generic boilerplate with no product-specific information."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Image shows a permanent site-built masonry/concrete house under construction — not a prefabricated portable resort structure; product identity mismatch."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title claims 'Prefabricated Resort' but image shows a permanent masonry/concrete bungalow under construction with no prefab characteristics.",
+          "Image shows a permanent site-built structure which contradicts the MCAT requirement for prefabricated/portable resort structures."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Houses",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a permanent masonry/concrete bungalow under construction — not a prefabricated portable resort unit."
+        },
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Title claims 'Prefabricated Resort' but image shows a conventional site-built permanent house with no prefab panel or modular construction visible."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — image shows a permanent masonry house, not a prefab resort structure; photo-category and photo-title contradictions confirmed.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-resort-26465525991.html"
+    },
+    {
+      "item_id": "285033943",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Portable Resort",
+      "description": "Comfortable, noise less Steel Houses and office Manufactured at Telengana with all the Check List Special care and finishing. available in different models and price<br /><br />Telangana",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Material:Steel"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2024/10/457107452/QQ/GK/OC/210528210/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-resort-2855043494555.html",
+      "image_file": "285033943.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a two-storey blue-and-white steel prefab structure with industrial staircase, upper open deck, and utility-style construction — this appears to be a site office or labour accommodation block, not a resort accommodation unit."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Portable Resort' names the category but provides no material, size, or configuration detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab build and steel material but provide no resort-specific attributes such as occupancy, floor area, or toilet facility."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly states 'Steel Houses and office' as the product — not a resort structure — directly contradicting the title's claim of 'Portable Resort'."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Description explicitly identifies the product as 'Steel Houses and office' and image shows an industrial-style prefab block — not a hospitality resort accommodation unit."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description",
+          "photo_vs_title",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title claims 'Portable Resort' but description explicitly states the product is 'Steel Houses and office'.",
+          "Title claims 'Portable Resort' but image shows an industrial two-storey steel prefab block with utility staircase, inconsistent with resort aesthetics.",
+          "Description explicitly states 'Steel Houses and office' which is not a resort accommodation product, contradicting the MCAT category."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Telengana' and 'Telangana' as location names embedded in the listing text."
+        }
+      },
+      "correct_mcat_suggestion": "Portable House",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title says 'Portable Resort' but description explicitly states the product is 'Steel Houses and office'."
+        },
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows an industrial two-storey steel prefab block with utility staircase — inconsistent with a resort accommodation unit claimed in the title."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly states 'Steel Houses and office' — not a resort accommodation product — contradicting the Portable Resort MCAT."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows an industrial-style two-storey steel prefab block, not a hospitality resort accommodation unit."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Telengana' and 'Telangana' as location names embedded in the listing text."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — description explicitly identifies product as steel office/house, image shows industrial prefab block, multiple active contradictions confirmed.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-resort-2855043494555.html"
+    },
+    {
+      "item_id": "161219421",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Resort",
+      "description": "The Chinar Services Speciliazes in manufacturing PORTA CABINS of all sizes and dimensions for all types of INDUSTRIES AND SECTORS. <br /><br />We are manufactures of the following products in Noida Delhi Gurgaon Faridabad<br />Office Container Portable CabinsOffice ContainersContainer HomesPrefabricated HousesPortable HouseMobile ContainersPrefabricated CabinModular Portable CabinMS Porta CabinPrefabricated Wooden HouseSteel Portable Cabin<br />Some of the industries, where our products are pervasively used, include:<br />Oil Exploration CompaniesPipe Laying CompaniesTelephone &amp; Communications IndustryNational Highways (Accident Trauma care, Toll Road manning, etc)Mining IndustryCivil and Industrial Contract Works<br />Some of the industries, where our products are pervasively used, include:<br />Oil Exploration CompaniesPipe Laying CompaniesTelephone &amp; Communications IndustryNational Highways (Accident Trauma care, Toll Road manning, etc)Mining IndustryCivil and Industrial Contract Works<br />Porta cabin price manufacturers <br />20foot 10foot 40foot 8foot 8.5foot 10.foot HC GP <br />site office site labor accomodation Storage Cabin Toilet Cabin container <br /><br /> <br />",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Materials Used:Wooden, Number of Bedroom:3 Bedrooms, Number of Container:2 Containers, Size:15 feet, Usage/Application:Construction Sites"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/3/FS/EN/LR/122269561/maxresdefault-1-.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-resort-23211094055.html",
+      "image_file": "161219421.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image is a rendered cutaway/exploded diagram showing steel frame construction of a residential house — this is a technical illustration, not a real product photograph of a portable resort unit."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Portable Resort' names the category but provides no material, size, or configuration detail."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs explicitly state 'Usage/Application:Construction Sites' — a construction site application directly contradicts the hospitality/resort use required for this MCAT."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly identifies the products as porta cabins for oil exploration, mining, highways, and construction sites — industrial applications entirely inconsistent with resort accommodation."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Specs explicitly state construction site usage and description identifies industrial porta cabin products — not hospitality resort accommodation units."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs",
+          "title_vs_description",
+          "specs_vs_category",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title claims 'Portable Resort' but specs state 'Usage/Application:Construction Sites' — directly conflicting end-use.",
+          "Title claims 'Portable Resort' but description explicitly lists industrial porta cabin products for oil, mining, and highway sectors.",
+          "Specs state construction site usage which contradicts the Portable Resort MCAT's hospitality/resort requirement.",
+          "Description explicitly identifies industrial porta cabin products for construction and mining — not resort accommodation."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Noida Delhi Gurgaon Faridabad' as location names and 'Chinar Services' as a business name embedded in the listing text."
+        }
+      },
+      "correct_mcat_suggestion": "Portable House",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title says 'Portable Resort' but specs explicitly state 'Usage/Application:Construction Sites'."
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title says 'Portable Resort' but description explicitly lists industrial porta cabins for oil exploration, mining, and highway sectors."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state 'Usage/Application:Construction Sites' — construction site use directly contradicts the Portable Resort MCAT's hospitality requirement."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly identifies industrial porta cabin products for construction, mining, and oil sectors — not resort accommodation."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image is a rendered steel-frame construction diagram, not a real product photo of a portable resort unit."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a rendered technical cutaway diagram of steel frame construction — not a real product photograph; no actual resort structure is visible."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Noida Delhi Gurgaon Faridabad' (locations) and 'Chinar Services' (business name) embedded in the listing text."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — specs and description explicitly identify industrial porta cabin products for construction sites; image is a technical diagram; multiple active contradictions.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-resort-23211094055.html"
+    },
+    {
+      "item_id": "184094905",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Imported Wooden Resort Manufacturers Hyderabad Pan India",
+      "description": "<p>We being the manufacturers of wooden homes across pan india <br /> we build  resorts , gazebos ,farm houses completely of imported wood natural material in just 15 days respect to order  <br /> we build wooden cottages for resorts hotels home’s stays farm houses gazebos tree house etc life of wooden home’s is  50  years +it can be dismantled andpan  relocated in future also intrested people can ping us on watts app  for live works and </p>",
+      "specs": {
+        "raw": "Feature:Cost Effective, Payment Mode:Online/Offline, Service Location/City:Pan India, Service Mode:Offline, Service Type:Wooden Resort Construction service"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2022/4/ZS/PP/RA/151632916/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/imported-wooden resort manufacturers hyderabad pan india-25498642430.html",
+      "image_file": "184094905.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image is a rendered/CGI promotional graphic with large text overlay reading 'CONTAINER HOUSE — 2 CONTAINERS | 3 BEDROOMS | SADDLEBOX 640' — this is a marketing render for a container home product, not a real photo of a wooden resort structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title 'Imported Wooden Resort Manufacturers Hyderabad Pan India' names a service/manufacturer rather than a product, and embeds location names (Hyderabad, Pan India) making it a service listing title."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs explicitly state 'Service Type:Wooden Resort Construction service' — this is a construction service, not a prefabricated product listing."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description mentions building wooden cottages for resorts, hotels, and farmhouses with dismantling/relocation capability — partially consistent with MCAT intent but framed as a service."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Specs explicitly classify this as a 'Wooden Resort Construction service' — a construction service, not a prefabricated portable resort product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs",
+          "specs_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title claims wooden resort manufacturer but image shows a CGI render of a container house with text overlay — completely different product type.",
+          "Specs describe a wooden resort construction service but image shows a container house CGI render — product type mismatch.",
+          "Specs explicitly state 'Service Type:Wooden Resort Construction service' which contradicts the Portable Resort MCAT's requirement for a physical prefabricated product."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Title contains 'Hyderabad' and 'Pan India' as location references; description contains 'pan india' as a location reference."
+        }
+      },
+      "correct_mcat_suggestion": "House Construction Services",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs explicitly state 'Service Type:Wooden Resort Construction service' — a service, not a prefabricated product."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Imported Wooden Resort Manufacturers Hyderabad Pan India' names a manufacturer/service entity rather than a prefabricated resort product."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image is a CGI render of a container house with promotional text overlay — not a real photo of a wooden portable resort unit."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a CGI promotional render with large text overlay, not a real product photograph."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Title contains 'Hyderabad Pan India' and description contains 'pan india' as location references embedded in the listing."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — specs classify this as a construction service; image is a container house CGI render; title embeds location names; multiple active contradictions.",
+      "source_url": "https://www.indiamart.com/proddetail/imported-wooden resort manufacturers hyderabad pan india-25498642430.html"
+    },
+    {
+      "item_id": "187761618",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Modern Resort Construction Architecture - Riyadh - Jeddah - Makkah - Madinah - Saudi Arabia",
+      "description": "We Create Different themes of Eco Friendly Natrural Resort Construction.<br /><br />Conceptualize based on location, Space available and budget.<br /><br />Design and Development consultancy including interior Design and Exterior designing with actual supervision during Development.<br /><br />We are engaged Turnkey Resort Construction project in # Panaji # Panjim#North Goa # Madgaon # South Goa # Mormugao # Mapuca # Mapusa # Curchorem Cacora # PondaSancoale",
+      "specs": {
+        "raw": "Built Type:Prefab, Flooring:Wooden Floor, House Style:Wooden planks and Bamboo house, Material:Wooden planks and Bamboo house, Roof Type:A-type, Size:Customized, Usage/Application:Bamboo house"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/6/EW/XX/DL/148507659/modern-resort-construction-architecture-riyadh-jeddah-makkah-madinah-saudi-arabia.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/modern-resort construction architecture - riyadh - jeddah - makkah - madinah - saudi arabia-25865313830.html",
+      "image_file": "187761618.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a branded promotional banner ('MAKEMYCOTTAGE — Wooden Homes Manufacturers') with a phone number ('CALL990205000?') overlaid on a construction site photo of wooden log structures being built in foggy conditions — this is an advertisement image, not a product photo."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title 'Modern Resort Construction Architecture - Riyadh - Jeddah - Makkah - Madinah - Saudi Arabia' names a construction/architecture service with multiple foreign city locations — not a prefabricated product."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs mention prefab build type, wooden planks and bamboo material, A-type roof, and customised size — partially consistent with MCAT product types though 'Usage/Application:Bamboo house' is a product type rather than resort usage."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly describes design consultancy, architecture, and turnkey construction project services — not a prefabricated product for sale."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title and description explicitly identify this as a resort construction architecture/consultancy service, not a prefabricated portable resort product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs",
+          "description_vs_category",
+          "photo_vs_title"
+        ],
+        "contradiction_reasons": [
+          "Title names a construction architecture service for Saudi Arabia cities but specs describe a prefab bamboo/wooden structure product.",
+          "Description explicitly describes design consultancy and turnkey construction services which contradicts the Portable Resort MCAT's requirement for a physical prefabricated product.",
+          "Title names a construction service for Saudi Arabian cities but image shows a branded advertisement banner for a wooden cottage manufacturer in India."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Title contains 'Riyadh, Jeddah, Makkah, Madinah, Saudi Arabia' as location names; description contains 'Panaji, Panjim, North Goa, Madgaon, South Goa, Mormugao, Mapuca, Mapusa, Curchorem Cacora, PondaSancoale' as location names; image contains 'MAKEMYCOTTAGE' brand name and a phone number."
+        }
+      },
+      "correct_mcat_suggestion": "House Construction Services",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title names a resort construction architecture service for Saudi Arabian cities — not a prefabricated portable resort product."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes design consultancy and turnkey construction project services — not a prefabricated product."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image is a branded advertisement banner with phone number overlay — not a real product photograph of a portable resort unit."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a branded promotional banner with 'MAKEMYCOTTAGE' logo and phone number overlaid on a construction site — not a usable product photograph."
+        },
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Image contains 'CALL990205000?' which appears to be a phone number embedded in the promotional banner."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Title contains 'Riyadh, Jeddah, Makkah, Madinah, Saudi Arabia'; description contains multiple Goa location names; image contains 'MAKEMYCOTTAGE' brand name."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — title and description identify a construction service; image is a branded advertisement with phone number; multiple active contradictions and P15/P16 violations.",
+      "source_url": "https://www.indiamart.com/proddetail/modern-resort construction architecture - riyadh - jeddah - makkah - madinah - saudi arabia-25865313830.html"
+    },
+    {
+      "item_id": "290245558",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Mild Steel Portable Resort",
+      "description": "<p>A <b>Mild Steel Portable Resort</b> is a prefabricated, modular structure made primarily of mild steel, designed for luxury, durability, and mobility. These resorts are ideal for creating temporary or semi-permanent accommodations in remote or scenic locations, offering a blend of comfort and functionality.</p>",
+      "specs": {
+        "raw": "Built Type:Modular, Resort Material:Mild Steel, Shape:Square, Size:30 x 30 x 10 Feet, Surface Finish:Color Coated, Usage/Application:Party"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/1/477914434/EP/DM/YF/238691773/prefabricated-resort.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/mild-steel portable resort-2855564656062.html",
+      "image_file": "290245558.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a large luxury resort villa with a swimming pool, mixed wood-and-concrete multi-storey construction with interior lighting — this is a permanent luxury resort property, not a prefabricated portable resort unit."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Mild Steel Portable Resort' correctly names the product type with material (mild steel) but lacks size, occupancy, or configuration detail."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs state 'Usage/Application:Party' — a party usage application directly contradicts the hospitality resort accommodation use required for this MCAT."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description correctly describes a prefabricated modular mild steel structure for temporary/semi-permanent accommodation in remote locations — consistent with MCAT."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Specs explicitly state 'Usage/Application:Party' and image shows a permanent luxury villa with swimming pool — neither matches the prefabricated portable resort accommodation product identity."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_description",
+          "title_vs_specs",
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title claims 'Mild Steel Portable Resort' (prefab modular) but image shows a permanent luxury villa with swimming pool and mixed concrete/wood construction.",
+          "Description describes a prefabricated modular structure for remote locations but image shows a permanent luxury resort villa with pool — fundamentally different product.",
+          "Title implies resort accommodation use but specs state 'Usage/Application:Party' — conflicting end-use.",
+          "Description describes resort accommodation for remote locations but specs state 'Usage/Application:Party' — conflicting end-use."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state 'Usage/Application:Party' — party use is not a resort accommodation application consistent with the Portable Resort MCAT."
+        },
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title implies resort accommodation use but specs state 'Usage/Application:Party' — directly conflicting end-use."
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Description describes resort accommodation for remote locations but specs state 'Usage/Application:Party'."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a permanent luxury villa with swimming pool — not a prefabricated portable resort unit."
+        },
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Title claims 'Mild Steel Portable Resort' (prefab modular) but image shows a permanent luxury villa with pool and concrete/wood construction."
+        },
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Description describes a prefabricated modular structure for remote locations but image shows a permanent luxury resort villa with pool."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — specs state party usage, image shows permanent luxury villa; multiple active contradictions across all dimension pairs.",
+      "source_url": "https://www.indiamart.com/proddetail/mild-steel portable resort-2855564656062.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images consistently show a completed prefabricated resort cottage or cabin deployed in a natural outdoor setting (hillside, garden, or open field), photographed from a 3/4 exterior angle that reveals the full structure including roof type, walls, entrance, and veranda/balcony. Structures are shown as finished, habitable units with visible aesthetic features such as pitched roofs, covered porches, steps, and landscaping. Materials visible include timber/wood cladding and steel panel construction in blue, white, or natural wood tones.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Verified good product images show completed exterior structures where the product's appearance, material finish, and deployment context are the primary buyer information — no meaningful text is printed on the structure itself.",
+      "OCR would extract no useful product specification data from these images; all spec information (floor area, occupancy, material) must come from the specs/description fields.",
+      "The visual identity of the structure (wood vs. steel, cabin vs. cottage, pitched vs. flat roof, balcony presence) is the key differentiator that buyers assess from images."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good images show completed prefabricated resort cottages or cabins deployed in natural outdoor settings, photographed from a 3/4 exterior angle revealing full structure, roof, entrance, and veranda.",
+    "product_identity": [
+      "Completed prefabricated structure with visible roof, walls, entrance door, and windows",
+      "Deployed in a natural/scenic outdoor setting (hillside, garden, open field) indicating hospitality use"
+    ],
+    "acceptable_scenes": [
+      "3/4 exterior angle showing full structure with natural landscape backdrop",
+      "Front elevation showing entrance, veranda/balcony, and landscaping"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "177275130",
+        "reason": "Image shows a completed wooden cabin/cottage elevated on stilts with a covered balcony, green-roofed pitched structure, deployed on a hillside with mountain backdrop — clearly a prefabricated resort-style accommodation unit.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "279594082",
+        "reason": "Image shows a completed blue-and-white prefabricated modular cottage with pitched roof, covered porch, steps, and AC unit, deployed in a natural outdoor setting — clearly a prefab resort accommodation unit.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "324825698",
+        "reason": "Image shows the same blue-and-white prefabricated modular cottage with pitched roof, covered porch, and AC unit in a natural outdoor setting — a complete, buyer-useful view of a prefab resort cabin.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "259897505",
+        "reason": "Image shows a completed wooden duplex cottage with two gabled roofs, covered veranda, steps, and tropical garden landscaping — a fully deployed resort-style accommodation structure.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "No verified bad products had thin_image quality — all bad-image products showed actively wrong content (permanent buildings, CGI renders, advertisement banners) rather than merely insufficient detail.",
+    "thinness_signals": [],
+    "examples": []
+  },
+  "irrelevant_photos": {
+    "summary": "Bad images fall into four failure classes: permanent masonry/concrete houses, industrial prefab blocks, CGI renders/promotional graphics, and luxury permanent villas — none of which represent prefabricated portable resort accommodation units.",
+    "failure_classes": [
+      {
+        "class": "permanent_masonry_house",
+        "description": "Image shows a conventional site-built permanent masonry or concrete house under construction — not a prefabricated portable structure.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "193763739"
+          }
+        ],
+        "detection_signal": "Visible plastered/rendered walls, tiled hip roof, permanent foundation, construction debris — no panel or modular construction visible.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "industrial_prefab_block",
+        "description": "Image shows a two-storey industrial-style steel prefab block with utility staircase and open upper deck — designed for site offices or labour accommodation, not resort hospitality.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "285033943"
+          }
+        ],
+        "detection_signal": "Industrial blue/white colour scheme, exposed metal staircase, utility-style construction with no aesthetic resort features.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "cgi_render_or_advertisement",
+        "description": "Image is a CGI promotional render or branded advertisement banner with text overlays — not a real product photograph.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "161219421"
+          },
+          {
+            "photo_url": null,
+            "item_id": "184094905"
+          },
+          {
+            "photo_url": null,
+            "item_id": "187761618"
+          }
+        ],
+        "detection_signal": "Visible text overlays, brand logos, phone numbers, or CGI rendering artifacts — no real-world photography.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "permanent_luxury_villa",
+        "description": "Image shows a large permanent luxury resort villa with swimming pool and mixed concrete/wood construction — a permanent property, not a prefabricated portable unit.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "290245558"
+          }
+        ],
+        "detection_signal": "Swimming pool, multi-storey permanent concrete structure, interior lighting visible through large glass panels — scale and permanence inconsistent with portable prefab.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles for Portable Resort name the product type with material and unit type; acceptable titles name the category correctly but lack differentiating attributes.",
+    "strong_positive_signals": [
+      "Material type named (Steel, FRP, Wooden, Mild Steel)",
+      "Unit type specified (Cabin, Cottage, Room)",
+      "Construction method indicated (Prefab, Portable, Modular)"
+    ],
+    "structural_patterns": [
+      "[Material] Portable Resort [Unit Type]",
+      "Prefab/Prefabricated Resort [Unit Type]",
+      "Portable Resort [Material] [Unit Type]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "324825698",
+          "title": "Portable Resort Cabin",
+          "reason": "Names product type (Portable Resort) with unit type modifier (Cabin) — most specific title in the verified good set; backed by strong specs with floor area, occupancy, and usage."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "279594082",
+          "title": "Prefab Resorts",
+          "reason": "Correctly identifies prefabricated resort product category but lacks material, unit type, or any differentiating attribute."
+        },
+        {
+          "item_id": "259897505",
+          "title": "Portable Resort",
+          "reason": "Bare category name — correct product type identified but no material, size, or configuration detail provided."
+        },
+        {
+          "item_id": "177275130",
+          "title": "Portable Resorts Rooms",
+          "reason": "Adds 'Rooms' as a unit type hint but still lacks material, size, or construction method detail."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Most verified good product titles are thin — they correctly name the category but omit material, size, occupancy, or construction method that buyers need to evaluate the product.",
+    "thinness_signals": [
+      "Material type absent (Steel / FRP / Wooden / Bamboo not mentioned)",
+      "Unit type absent (Cabin / Cottage / Room / Pod not specified)",
+      "Construction method absent (Prefab / Panel Build / Modular not stated in title)"
+    ],
+    "examples": [
+      {
+        "item_id": "177275130",
+        "title": "Portable Resorts Rooms",
+        "reason": "No material, construction method, or size — only category name with plural 'Rooms' appended."
+      },
+      {
+        "item_id": "279594082",
+        "title": "Prefab Resorts",
+        "reason": "No material, unit type, or size — only construction method (Prefab) and category name."
+      },
+      {
+        "item_id": "259897505",
+        "title": "Portable Resort",
+        "reason": "Bare category name with no differentiating attributes despite strong specs being available."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles fall into three failure classes: service/manufacturer titles with location names, industrial porta cabin titles misrepresenting as resort, and titles naming construction architecture services.",
+    "failure_classes": [
+      {
+        "class": "service_or_manufacturer_title_with_locations",
+        "signal": "Title names a manufacturer, service provider, or construction company with embedded city/country location names rather than naming a prefabricated product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "184094905",
+            "title": "Imported Wooden Resort Manufacturers Hyderabad Pan India",
+            "reason": "Title names a manufacturer entity with location names (Hyderabad, Pan India) — this is a service/company title, not a product title.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "construction_architecture_service_title",
+        "signal": "Title names a construction, architecture, or design service with multiple location names — explicitly a service offering, not a prefabricated product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "187761618",
+            "title": "Modern Resort Construction Architecture - Riyadh - Jeddah - Makkah - Madinah - Saudi Arabia",
+            "reason": "Title names a construction architecture service with multiple Saudi Arabian city names — not a prefabricated portable resort product.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere based on product identity mismatches confirmed in verified bad products.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "permanent_site_built_house",
+        "signal": "Image shows a conventional permanent masonry/concrete house under construction with no prefab characteristics; title may claim 'prefabricated' but visual evidence contradicts.",
+        "examples": [
+          {
+            "item_id": "193763739",
+            "title": "Prefabricated Resort",
+            "reason": "Image shows a permanent masonry/concrete bungalow under construction — not a prefabricated portable resort structure.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Houses"
+      },
+      {
+        "class": "industrial_porta_cabin_construction_site",
+        "signal": "Specs or description explicitly state construction site, industrial, or office usage; description lists industrial sectors (oil, mining, highways) rather than hospitality/resort applications.",
+        "examples": [
+          {
+            "item_id": "161219421",
+            "title": "Portable Resort",
+            "reason": "Specs state 'Usage/Application:Construction Sites' and description explicitly lists industrial porta cabin products for oil, mining, and highway sectors.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "285033943",
+            "title": "Portable Resort",
+            "reason": "Description explicitly states 'Steel Houses and office' as the product and image shows an industrial two-storey steel prefab block.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Portable House"
+      },
+      {
+        "class": "construction_or_architecture_service",
+        "signal": "Specs classify the listing as a 'Service Type' or description describes design consultancy, architecture, and turnkey construction project services rather than a physical prefabricated product.",
+        "examples": [
+          {
+            "item_id": "184094905",
+            "title": "Imported Wooden Resort Manufacturers Hyderabad Pan India",
+            "reason": "Specs explicitly state 'Service Type:Wooden Resort Construction service' — a construction service, not a prefabricated product.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "187761618",
+            "title": "Modern Resort Construction Architecture - Riyadh - Jeddah - Makkah - Madinah - Saudi Arabia",
+            "reason": "Description explicitly describes design consultancy and turnkey construction project services — not a prefabricated product.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "House Construction Services"
+      },
+      {
+        "class": "permanent_luxury_villa_or_party_venue",
+        "signal": "Specs state party or event usage; image shows a permanent luxury villa with swimming pool — product identity is a permanent property, not a portable prefab unit.",
+        "examples": [
+          {
+            "item_id": "290245558",
+            "title": "Mild Steel Portable Resort",
+            "reason": "Specs state 'Usage/Application:Party' and image shows a permanent luxury villa with swimming pool — not a prefabricated portable resort unit.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from base64; text audited from provided title/description/specs fields only."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion values (Prefabricated Houses, Portable House, House Construction Services) drawn from confirmed taxonomy siblings list — no names fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (prefabricated modular resort room/cottage for hospitality deployment) used to ground all category belonging decisions; mcat_vagueness_signal.suspected_vague treated as false (coherent MCAT) per Agent 3 context."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
