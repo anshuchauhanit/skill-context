@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Heavy Structural Fabrications' directly matches the top primary_keywords ('heavy structural fabrication', 'heavy steel structure fabrication') and aligns with market-standard terminology for IS:800/IS:2062-governed custom steel assemblies used in industrial and infrastructure projects.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows workers on a large-scale steel space-frame/truss structure under construction, which is a valid heavy structural fabrication product type (space truss/roof structure), so it is not actively wrong.",
+      "However, the image is a busy construction-site scene with scaffolding, workers, and glass panels dominating the frame — it does not cleanly showcase the fabricated steel assembly itself (beams, columns, girders, frames) as a finished or near-finished product, reducing its effectiveness as a B2B category thumbnail for buyers seeking industrial structural steel fabrication."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product photograph of a large custom-engineered heavy structural steel assembly in a fabrication workshop: prominent welded steel frame comprising H-columns, plate girders, and horizontal beams in grey primer-coated mild steel, arranged as an industrial plant structural bay frame, clean white or light grey studio background, sharp front-three-quarter view, even industrial lighting highlighting weld seams and bolt connections, no workers or scaffolding, photorealistic, square 1:1 format.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
