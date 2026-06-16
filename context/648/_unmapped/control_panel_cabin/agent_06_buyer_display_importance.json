@@ -1,0 +1,228 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Significant visual sub-type variation exists between walk-in control room cabins, skid-mounted units, and portable cabins — buyers use the image to confirm product type before reading any text. The critical wrong-product risk (cabin vs panel enclosure/cabinet) is resolved at the image stage; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Panel Type, Protection Class, Material, and Mounting are non-interchangeable shortlisting gates — an APFC cabin cannot substitute for a PLC control room, and an IP42 indoor cabin cannot substitute for an IP65 outdoor installation. Buyers arrive with a project-specific requirement and use specs to confirm fit before any contact."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant recognised brand names exist in the Indian control panel cabin market — it is served by fragmented regional fabricators and buyers search by fabricator capability and spec, not brand name.",
+      "reason": "Custom fabrication with post-sale dependency (site delivery, installation support, commissioning) means buyers evaluate fabricator track record, certifications, and project execution capability during vendor selection. Institutional and government buyers conduct vendor qualification before awarding orders."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every cabin is custom-fabricated to project-specific dimensions and fittings — no fixed unit price exists and final price is always negotiated. Listed price serves as a budget entry point for Indian buyers after spec and company qualification; India price sensitivity applies but price comparison across listings is only meaningful after spec equivalence is confirmed."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Per piece is the dominant and universally understood unit for discrete cabin structures. A minority sub-segment of large modular control rooms is quoted per sq ft of floor area, but this is not the primary buyer expectation and does not create meaningful price comparison confusion at the listing tile level.",
+      "reason": "Unit is entirely implied for a discrete prefabricated structure — no buyer questions whether a control panel cabin is sold per piece. The per sq ft sub-segment exception is captured in unit_note but does not warrant showing unit on all listings."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Panel Type",
+        "reason": "Defines what electrical equipment the cabin houses — APFC vs MCC vs HT Panel vs PLC are non-interchangeable product classes with fundamentally different internal layouts, busbar sizing, and ventilation requirements, producing large price deltas across values."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Protection Class",
+        "reason": "IP42 (indoor) vs IP65/IP66 (outdoor, dust and water-tight) represents a significant price delta driven by sealed cable glands, gaskets, and robust construction — buyers cannot substitute a lower IP class for outdoor installations, making this a hard shortlisting gate."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cable Entry",
+      "Colour",
+      "Door Type",
+      "Material",
+      "Mounting",
+      "Panel Type",
+      "Protection Class",
+      "Sheet Thickness",
+      "Standard",
+      "Surface Finish"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "PUF sandwich panel insulation vs non-insulated MS sheet construction is a primary price and performance differentiator for outdoor and hot-climate installations — buyers specify insulation requirement upfront and sellers need it to confirm construction method and quote accurately.",
+        "source": "both",
+        "example_values": [
+          "PUF Insulated",
+          "Non-Insulated",
+          "Rockwool Insulated",
+          "EPS Insulated"
+        ]
+      },
+      {
+        "spec_name": "Air Conditioning",
+        "why_important": "AC provision is a major cost adder and a common mandatory requirement for PLC/SCADA control rooms in hot climates — sellers need this to determine whether to include AC unit supply and installation in their quote.",
+        "source": "both",
+        "example_values": [
+          "With AC",
+          "Without AC",
+          "AC Provision Only",
+          "Ventilation Fan Only"
+        ]
+      },
+      {
+        "spec_name": "Cabin Dimensions",
+        "why_important": "Control Panel Cabins are custom-fabricated to buyer-specified floor area and height — sellers need dimensional requirements to assess fabrication feasibility, material quantity, and project cost before responding.",
+        "source": "both",
+        "example_values": [
+          "6x8 ft",
+          "8x10 ft",
+          "10x12 ft",
+          "Custom"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Steel vs FRP defines the structural and environmental suitability of the cabin — FRP is required for corrosive or coastal environments where steel would corrode, and sellers need this to confirm they can supply the specified construction type.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Panel Type",
+        "why_important": "The type of electrical equipment to be housed (APFC, MCC, PLC, VFD, HT) determines the entire cabin configuration — internal layout, busbar sizing, ventilation, and dimensions — and sellers cannot quote accurately without this information.",
+        "source": "both",
+        "example_values": [
+          "APFC Panel",
+          "MCC Panel",
+          "PLC Panel",
+          "VFD Panel",
+          "HT Panel"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "APFC Panel",
+          "MCC Panel",
+          "PLC Panel",
+          "VFD Panel",
+          "HT Panel"
+        ]
+      },
+      {
+        "spec_name": "Protection Class",
+        "why_important": "IP rating defines whether the cabin is for indoor or outdoor installation — sellers need this to confirm construction method, sealing requirements, and material grade before responding to the RFQ.",
+        "source": "both",
+        "example_values": [
+          "IP42",
+          "IP54",
+          "IP55",
+          "IP65",
+          "IP66"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Insulation Requirement",
+        "why_important": "Whether the buyer needs PUF insulation or a non-insulated structure determines construction method and cost — sellers need this to provide an accurate quote for outdoor or temperature-sensitive installations.",
+        "source": "both",
+        "example_values": [
+          "PUF Insulated",
+          "Non-Insulated",
+          "Rockwool Insulated"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Panel Type",
+      "option_value": "APFC Panel",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated mild steel control panel cabin housing an APFC panel, exterior view showing a compact outdoor cabin with ventilation louvres and cable entry glands at the base, industrial site background, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Panel Type",
+      "option_value": "MCC Panel",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated mild steel walk-in control panel cabin for MCC panel housing, exterior view showing a larger cabin with double-leaf entry door, ventilation units on side walls, mounted on a concrete plinth at a manufacturing plant, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Panel Type",
+      "option_value": "PLC Panel",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated insulated mild steel control room cabin for PLC and SCADA panel housing, exterior view showing a well-sealed cabin with air conditioning unit mounted on the wall, cable entry from below, at an industrial process plant, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Panel Type",
+      "option_value": "VFD Panel",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated mild steel skid-mounted cabin for VFD panel housing, exterior view showing a compact cabin with ventilation louvres, skid base frame visible, positioned near a pump house at an industrial facility, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Panel Type",
+      "option_value": "HT Panel",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated mild steel high-tension panel cabin, exterior view showing a robust larger cabin with reinforced steel construction, high-clearance cable entry provisions, safety warning signage on door, at a power substation site, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
