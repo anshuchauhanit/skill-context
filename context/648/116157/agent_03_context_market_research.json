@@ -1,0 +1,575 @@
+{
+  "mcat_description": {
+    "short": "A mini greenhouse is a small prefabricated or semi-permanent enclosed structure with a transparent polycarbonate, polyfilm, or UV-stabilised plastic covering over a metal (GI/MS) or PVC frame, designed to create a controlled growing environment for plants. Sold as a complete kit or assembled unit, it is used for home gardening, terrace farming, nursery propagation, and small-scale protected horticulture.",
+    "long": "Mini greenhouses are compact, prefabricated plant-growing enclosures that use a transparent or translucent covering material — most commonly twin-wall polycarbonate panels or UV-stabilised polyethylene film — stretched over a galvanised iron, mild steel, or PVC pipe frame to regulate temperature, humidity, and light for optimal plant growth. In the Indian market, they range from small tabletop or shelf-type units for indoor/balcony use to walk-in structures typically spanning 6×6 ft to 20×30 ft, with the walk-in polycarbonate or polyfilm type being the dominant commercial form sold on B2B platforms. Key functional features include natural or fan-assisted ventilation, UV-resistant covering, sliding or zippered doors, and easy bolt-together assembly without specialised tools. Buyers include home gardeners, terrace farmers, plant nurseries, agri-entrepreneurs, and educational institutions seeking year-round crop protection from weather, pests, and temperature extremes.",
+    "product_types": [
+      "Polycarbonate Mini Greenhouse (twin-wall PC panel, GI/MS frame, walk-in)",
+      "Polyfilm / Polyhouse Mini Greenhouse (UV-stabilised polyethylene film, GI pipe frame)",
+      "Folding / Collapsible Mini Greenhouse (portable, PVC or steel frame, zippered cover)",
+      "Dome-shaped Mini Greenhouse (arched/quonset frame, polyfilm or polycarbonate cover)",
+      "Shade Net Mini Greenhouse (HDPE shade net cover, GI frame, partial light control)",
+      "Tabletop / Shelf Mini Greenhouse (small indoor/balcony unit, PVC frame, clear plastic cover)",
+      "Lean-to Mini Greenhouse (wall-mounted, single-slope roof, polycarbonate or polyfilm)",
+      "Hydroponic Mini Greenhouse (integrated growing trays, polycarbonate cover, nutrient system)",
+      "Glass and Steel Decorative Mini Greenhouse (ornamental terrarium-style, iron frame, glass panels)"
+    ],
+    "primary_applications": [
+      "Home terrace and balcony gardening",
+      "Nursery seedling propagation and hardening",
+      "Year-round vegetable and herb cultivation",
+      "Flower and ornamental plant growing",
+      "School and institutional horticulture projects",
+      "Small-scale protected farming for leafy greens",
+      "Hydroponic and soilless growing setups"
+    ],
+    "buyer_segments": [
+      "Home gardeners and terrace farming enthusiasts",
+      "Plant nurseries and propagation centres",
+      "Small and marginal farmers adopting protected cultivation",
+      "Agri-entrepreneurs and hobby farmers",
+      "Educational institutions (schools, agricultural colleges)",
+      "Eco-resorts and garden centres",
+      "Wholesale buyers / resellers of horticultural equipment"
+    ]
+  },
+  "primary_segment": "Prefabricated polycarbonate or polyfilm walk-in mini greenhouse for home gardening and nursery use",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Prefabricated functional mini greenhouse structure (polycarbonate/polyfilm, walk-in or portable, for plant growing and protected horticulture)",
+    "secondary_families": [
+      "Decorative glass-and-iron terrarium / ornamental mini greenhouse (home décor display item, not a functional growing structure)"
+    ],
+    "reason": "The name 'Mini Greenhouse' attracts both functional prefabricated horticulture structures (primary buyer: gardeners, nurseries, farmers) and decorative glass terrarium display items (primary buyer: home décor/gifting segment), which have incompatible buyer intent, working principle, and commercial context — confirmed by accio.com market data showing both segments active in India."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "mini greenhouse",
+      "small greenhouse",
+      "readymade greenhouse",
+      "portable greenhouse",
+      "hobby greenhouse",
+      "home greenhouse",
+      "mini polyhouse",
+      "prefabricated greenhouse",
+      "walk-in mini greenhouse",
+      "compact greenhouse"
+    ],
+    "technical_synonyms": [
+      "polycarbonate mini greenhouse",
+      "polyfilm greenhouse structure",
+      "UV-stabilised polyhouse",
+      "naturally ventilated mini greenhouse",
+      "folding type greenhouse",
+      "quonset mini greenhouse",
+      "dome greenhouse structure",
+      "shade net mini house",
+      "GI frame greenhouse",
+      "twin-wall polycarbonate greenhouse"
+    ],
+    "trade_names": [
+      "Zestha Mini Greenhouse",
+      "Govind Greenhouse",
+      "Keisha Greens Mini Greenhouse",
+      "Oswal Hortitech Greenhouse",
+      "Blue Stallion Mini Greenhouse"
+    ],
+    "hindi_terms": [
+      "mini greenhouse ghar ke liye",
+      "chota polyhouse",
+      "ghar ki bagwani greenhouse"
+    ],
+    "buyer_intent_queries": [
+      "mini greenhouse for home gardening",
+      "small greenhouse for terrace farming",
+      "readymade mini greenhouse buy online",
+      "polycarbonate mini greenhouse for nursery",
+      "portable greenhouse for balcony plants",
+      "mini greenhouse kit with frame and cover",
+      "mini greenhouse 6x6 ft for vegetables",
+      "prefabricated greenhouse for small farm",
+      "walk-in greenhouse for home use India",
+      "mini greenhouse with ventilation and door"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per unit / per set",
+    "unit_reasoning": "Mini greenhouses in India are sold as complete prefabricated kits (frame + covering + accessories) and quoted per unit or per set; larger custom structures may be quoted per square metre, but the dominant B2B transaction unit for this MCAT is per complete assembled unit.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Walk-in polycarbonate / polyfilm mini greenhouse (complete kit)",
+        "unit": "per unit / per set",
+        "note": "Sold as a complete kit with frame, cover, door, and fittings"
+      },
+      {
+        "sub_segment": "Custom or semi-commercial mini greenhouse (larger, site-built)",
+        "unit": "per square metre",
+        "note": "Larger structures quoted on area basis; less common for this MCAT"
+      },
+      {
+        "sub_segment": "Tabletop / shelf greenhouse",
+        "unit": "per piece",
+        "note": "Small indoor units sold individually"
+      }
+    ],
+    "sources_checked": [
+      "zesthagreenhouse.com (manufacturer product listings)",
+      "gardeningtips.in (greenhouse types and materials)",
+      "accio.com (India greenhouse market trade data)",
+      "agricultureguruji.com (greenhouse farming India guide)",
+      "Internal keyword data (mini greenhouse 6.5ftx6.5ft — dimensional unit signal)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian market, 'mini greenhouse' refers to a small prefabricated or portable enclosed growing structure, distinct from large commercial polyhouses (typically 1,000–4,000 sq m) that dominate the agricultural greenhouse sector. The dominant covering materials in India are plastic films (polyethylene, UV-stabilised) and polycarbonate panels — plastic holds the largest market share (>40%) while polycarbonate is the fastest-growing segment due to superior durability and UV resistance. Frame materials are predominantly galvanised iron (GI) pipe or mild steel (MS), with PVC used for lighter portable units. The Indian market distinguishes between: (a) functional walk-in mini greenhouses for home gardening, terrace farming, and nursery propagation — the primary B2B segment on IndiaMART; (b) decorative glass-and-iron terrarium-style mini greenhouses sold as home décor items — a secondary segment with different buyer intent. Key manufacturing hubs include Noida/Greater Noida (UP), Pune/Talegaon (Maharashtra), Ambala (Haryana), and Bhilai (Chhattisgarh). Government schemes (National Horticulture Mission, MIDH) subsidise polyhouse construction, driving demand from small farmers. Buyers evaluate on frame material (GI vs. MS vs. PVC), covering type (polycarbonate vs. polyfilm), ventilation system (natural vs. fan-pad), UV protection rating, ease of assembly, and overall dimensions.",
+  "buyer_attracting_attributes": [
+    "Frame Material (GI pipe / MS / PVC)",
+    "Covering Material (polycarbonate / polyfilm / UV-stabilised PE)",
+    "Dimensions / Size (length × width × height in feet or metres)",
+    "Ventilation Type (natural ventilation / fan-pad / ridge vent)",
+    "UV Protection Rating / UV Stabilisation",
+    "Covering Thickness (polycarbonate panel thickness in mm / film micron)",
+    "Assembly Type (bolt-together / folding / modular)",
+    "Door Type (sliding / zippered / hinged)",
+    "Warranty / Covering Life (years)",
+    "Capacity (number of plants / growing trays)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "116157",
+    "mcat_name": "Mini Greenhouse",
+    "mcat_level": "4",
+    "listing_count": "1433",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Mini Greenhouse",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35592.0",
+      "name": "Prefabricated Structures",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35592.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20474",
+        "mcat_name": "Prefabricated Steel Buildings",
+        "listing_count": "8194",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21344",
+        "mcat_name": "Agricultural Greenhouses",
+        "listing_count": "2151",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21649",
+        "mcat_name": "Agricultural Buildings",
+        "listing_count": "128",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "29816",
+        "mcat_name": "Greenhouse",
+        "listing_count": "5282",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33188",
+        "mcat_name": "Modular Buildings",
+        "listing_count": "917",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35398",
+        "mcat_name": "Portable Buildings",
+        "listing_count": "1196",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35589",
+        "mcat_name": "Prefabricated Buildings",
+        "listing_count": "27038",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35592",
+        "mcat_name": "Prefabricated Structures",
+        "listing_count": "14394",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38214",
+        "mcat_name": "Storage Buildings",
+        "listing_count": "939",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "39565",
+        "mcat_name": "Temporary Buildings",
+        "listing_count": "149",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42328",
+        "mcat_name": "Modular Tensile Structure",
+        "listing_count": "2417",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "50762",
+        "mcat_name": "Tensile Structures",
+        "listing_count": "9089",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88197",
+        "mcat_name": "Prefabricated Metal Building",
+        "listing_count": "901",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121067",
+        "mcat_name": "Aluminium Structure",
+        "listing_count": "9342",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135787",
+        "mcat_name": "Tensile Membrane Structures",
+        "listing_count": "2683",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135861",
+        "mcat_name": "Auditorium Tensile Structure",
+        "listing_count": "598",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136011",
+        "mcat_name": "Gazebo Tensile Structure",
+        "listing_count": "1508",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "148110",
+        "mcat_name": "Pre Engineered Building Structure",
+        "listing_count": "9886",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149713",
+        "mcat_name": "Polyhouse",
+        "listing_count": "3245",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154059",
+        "mcat_name": "Prefabricated School Building",
+        "listing_count": "828",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158767",
+        "mcat_name": "Greenhouse Structure",
+        "listing_count": "813",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159520",
+        "mcat_name": "Prefabricated Hospitals",
+        "listing_count": "213",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "160350",
+        "mcat_name": "Mist Chamber",
+        "listing_count": "121",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166277",
+        "mcat_name": "Naturally Ventilated Greenhouse",
+        "listing_count": "1661",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166432",
+        "mcat_name": "Prefabricated Warehouse",
+        "listing_count": "5064",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168374",
+        "mcat_name": "Heavy Structural Fabrications",
+        "listing_count": "2495",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168445",
+        "mcat_name": "MS Structure Services",
+        "listing_count": "2407",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "178587",
+        "mcat_name": "Prefabricated Industrial Buildings",
+        "listing_count": "5964",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "179245",
+        "mcat_name": "Prefabricated Labor Colony",
+        "listing_count": "1480",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181553",
+        "mcat_name": "Pre Engineered Steel Building",
+        "listing_count": "1594",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "216129",
+        "mcat_name": "RCC Labour Quarter",
+        "listing_count": "549",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315645",
+        "mcat_name": "Prefabricated Walls",
+        "listing_count": "105",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "410918",
+        "mcat_name": "Light Gauge Framing System",
+        "listing_count": "350",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "444552",
+        "mcat_name": "Prefabricated Isolation Ward",
+        "listing_count": "218",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Mini Greenhouse is a prefabricated structure with technical specs (frame material, dimensions, ventilation, covering type) that vary by design and use case. No single regulatory body or dominant brand landscape; buyers evaluate on construction quality, durability, and functional features. Standard B2B research into market variants and spec patterns is needed."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top Google KWs by Impressions: 'green house' (36), 'readymade greenhouse' (12), 'polycarbonate polyhouse' (1) — confirmed buyer search vocabulary and readymade/prefabricated demand signal."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top internal KWs: 'mini greenhouse' (21 PVs), 'mini green house for home gardening' (3 PVs, 1 call), 'mini greenhouse for nursery' (1 PV) — confirmed home gardening and nursery as dominant buyer intent clusters."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "alt_names.hindi_terms",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "One call row: 'Mini House (30x18)' — buyer used 'mini house' as synonym; dimensions in feet confirm walk-in scale. Supplemented buyer vocabulary only."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "Listing count 1,433 is plausible for this MCAT; no page fetch to cross-check tile count, so listing_count_suspect left false (no contradicting evidence). Taxonomy path confirms prefabricated structures parent."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.zesthagreenhouse.com/agricultural-greenhouses.html",
+        "title": "Agricultural Greenhouses - Modular Dome Polycarbonate Greenhouse Manufacturer from Noida",
+        "source_domain": "zesthagreenhouse.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Used for product type variants (polycarbonate mini greenhouse, folding type, dome-shaped, hobby greenhouse, shade net greenhouse) and frame/covering material signals."
+      },
+      {
+        "url": "https://gardeningtips.in/types-of-greenhouse-in-india-greenhouse-material",
+        "title": "Types of Greenhouse in India, Greenhouse Material | Gardening Tips",
+        "source_domain": "gardeningtips.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for covering material types (polyethylene, polycarbonate, fiberglass), frame types, and UV stabilisation requirements in Indian context."
+      },
+      {
+        "url": "https://www.palram.com/in/solution/commercial-greenhouses-covering/",
+        "title": "Commercial Greenhouse Covers | Palram India",
+        "source_domain": "palram.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for polycarbonate covering performance attributes (light transmission, thermal insulation, condensate control, UV resistance) relevant to buyer evaluation criteria."
+      },
+      {
+        "url": "https://www.researchandmarkets.com/reports/5511326/india-greenhouse-horticulture-market-by",
+        "title": "India Greenhouse Horticulture Market, By Covering Material, By Crop Type, By Greenhouse Type, By Technology, By Application",
+        "source_domain": "researchandmarkets.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for India market covering material share (plastic >40%, polycarbonate fastest growing at 5.65% CAGR) and greenhouse type segmentation."
+      },
+      {
+        "url": "https://www.astuteanalytica.com/industry-report/india-greenhouse-horticulture-market",
+        "title": "India Greenhouse Horticulture Market Size, Share | Report [2033]",
+        "source_domain": "astuteanalytica.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used to corroborate plastic covering market share (>41.24%) and detached greenhouse dominance (49.27% revenue share) in India — cross-validated with researchandmarkets.com."
+      },
+      {
+        "url": "https://www.accio.com/plp/greenhouse-in-india",
+        "title": "Greenhouse in India: Top Suppliers & Prices",
+        "source_domain": "accio.com",
+        "derived_outputs": [
+          "mcat_vagueness_signal",
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used to identify secondary family (decorative glass terrarium mini greenhouses for home décor/eco-resorts) distinct from functional horticulture mini greenhouses — key evidence for vagueness signal."
+      },
+      {
+        "url": "https://agricultureguruji.com/greenhouse-farming/",
+        "title": "Greenhouse Farming in India (beginner guide 2025)",
+        "source_domain": "agricultureguruji.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for greenhouse types in India (plastic/polyhouse dominant), buyer applications (crop protection, nursery, vegetable production), and frame material norms."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Mini Greenhouse is a prefabricated structure with technical specs (frame material, dimensions, ventilation, covering type) that vary by design and use case. No single regulatory body or dominant brand landscape; buyers evaluate on construction quality, durability, and functional features. Standard B2B research into market variants and spec patterns is needed."
+    }
+  }
+}
