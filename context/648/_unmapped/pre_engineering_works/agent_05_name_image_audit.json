@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'Pre Engineering Works' is an industry-colloquial shorthand that omits 'Building' — market-standard terminology is 'Pre-Engineered Building (PEB) Works' or 'PEB Construction Works', as confirmed by Agent 3 primary_keywords and buyer_intent_queries; the current name risks search miss-match and ambiguity with unrelated pre-engineering activities.",
+    "suggested_name": "Pre Engineered Building Works"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image correctly shows workers on a boom lift erecting a large-span steel frame structure consistent with the primary segment (PEB civil and structural erection for industrial warehouses), so the product category is accurately represented.",
+      "Image quality is low-resolution, dark-toned, and shot from an oblique angle that obscures the full PEB frame scale; a cleaner wide-angle shot showing the complete steel skeleton with anchor bolts and foundation interface would better communicate the scope of turnkey PEB erection services."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Wide-angle photorealistic image of a large-span Pre-Engineered Building (PEB) steel frame under construction at an industrial site in India. Show grey painted primary steel columns and rafters fully erected, with orange-helmeted workers in safety vests visible on the ground and on scaffolding. Foreground shows concrete RCC foundation footings with anchor bolts protruding. Background shows open blue sky and a partially clad corrugated metal roof panel being installed. Bright natural daylight, sharp focus, clean professional composition, no text overlays, square 1:1 format.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
