@@ -1,0 +1,548 @@
+{
+  "mcat_description": {
+    "short": "Prefabricated houses are factory-manufactured residential structures assembled on-site from pre-engineered components such as PUF/sandwich panels, steel frames, and modular units, sold as complete turnkey homes or kits in India.",
+    "long": "Prefabricated houses in India are dwelling units where major structural components — wall panels, roof panels, floor systems, and steel frames — are manufactured off-site in a controlled factory environment and then transported and assembled at the installation site. The dominant construction system uses cold-formed or mild steel frames combined with PUF (Polyurethane Foam) insulated sandwich panels with pre-painted galvanised steel facings, delivering thermal insulation, weather resistance, and rapid erection. Structures range from compact single-room units and 1–2 BHK residential homes to multi-room labour colonies, farm houses, and institutional staff quarters, and are designed to comply with BIS structural codes including IS 875 (wind/dead loads) and IS 1893 (seismic zones). Buyers in India procure these as complete turnkey projects or as supply-and-erect packages, with delivery timelines significantly shorter than conventional brick-and-mortar construction.",
+    "product_types": [
+      "PUF Panel Prefabricated House",
+      "Sandwich Panel Prefabricated House",
+      "Steel Frame Modular House",
+      "Container House (Shipping Container Home)",
+      "Capsule House / Capsule Castle",
+      "LGSF (Light Gauge Steel Frame) House",
+      "Precast Concrete Prefabricated House",
+      "Portable / Relocatable Prefabricated House",
+      "A-Frame Prefabricated House",
+      "Prefabricated Farm House",
+      "Prefabricated Rooftop Room / Extension",
+      "Prefabricated Labour Colony / Camp Housing"
+    ],
+    "primary_applications": [
+      "Permanent or semi-permanent residential housing (1 BHK, 2 BHK configurations)",
+      "Labour camps and worker accommodation for construction and infrastructure projects",
+      "Staff quarters for schools, hospitals, and industrial facilities",
+      "Farm houses and weekend homes on agricultural land",
+      "Disaster relief and emergency housing",
+      "Affordable housing under PMAY and government schemes",
+      "Site offices with attached residential quarters",
+      "Rooftop room additions and extensions"
+    ],
+    "buyer_segments": [
+      "Individual homeowners seeking fast, affordable residential construction",
+      "Real estate developers and housing project contractors",
+      "Infrastructure and construction companies requiring labour accommodation",
+      "Government and PSU agencies procuring affordable/emergency housing",
+      "Institutional buyers (schools, hospitals, industrial plants) needing staff quarters",
+      "Farmers and rural landowners seeking farm house structures",
+      "NGOs and disaster relief organisations"
+    ]
+  },
+  "primary_segment": "Steel-framed PUF/sandwich panel prefabricated house for residential and semi-residential use",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Steel-framed PUF/sandwich panel prefabricated house for residential and semi-residential use",
+    "secondary_families": [],
+    "reason": "All sub-types (PUF panel, container, capsule, LGSF, modular) share the same fundamental product concept — factory-manufactured dwelling unit — the same buyer profile, and the same BIS/NBC regulatory framework; no sibling MCAT carves out an incompatible regulatory regime or buyer type."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated house",
+      "prefab house",
+      "readymade house",
+      "prefab home",
+      "modular house",
+      "prefabricated home",
+      "portable house",
+      "capsule house",
+      "container house",
+      "precast house"
+    ],
+    "technical_synonyms": [
+      "PUF panel house",
+      "sandwich panel house",
+      "LGSF house",
+      "light gauge steel frame house",
+      "modular prefab structure",
+      "off-site constructed dwelling",
+      "industrialised building system house",
+      "cold-formed steel frame house",
+      "prefabricated concrete house",
+      "systems building house"
+    ],
+    "trade_names": [
+      "Capsule Castle",
+      "Tata Nest-In",
+      "EPACK Prefab House",
+      "Nestudio",
+      "Porta Cabin House"
+    ],
+    "hindi_terms": [
+      "bana banaya ghar",
+      "readymade makan",
+      "ghar bana banaya",
+      "prefabricated makan",
+      "taiyar ghar"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated house price in India",
+      "readymade house price in India",
+      "1 BHK prefabricated house",
+      "2 BHK container house price in India",
+      "low cost prefab house India",
+      "prefab house manufacturer India",
+      "portable prefabricated house for farm",
+      "steel frame modular house India",
+      "capsule castle cost in India",
+      "prefabricated house for labour camp"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per unit",
+    "unit_reasoning": "Complete prefabricated houses are quoted per unit (complete structure) for standard configurations, and per sq ft for custom-sized builds — Indian B2B buyers typically enquire by BHK configuration or total floor area, with manufacturers quoting a lump-sum per unit or a per-sq-ft rate for custom designs.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard 1 BHK / 2 BHK complete house",
+        "unit": "per unit",
+        "note": "Fixed configuration sold as a complete turnkey structure"
+      },
+      {
+        "sub_segment": "Custom-sized residential or institutional build",
+        "unit": "per sq ft",
+        "note": "Buyers specify floor area; manufacturer quotes per sq ft of built-up area"
+      },
+      {
+        "sub_segment": "Labour colony / multi-unit camp",
+        "unit": "per project",
+        "note": "Large institutional orders quoted as a complete project with supply and erection"
+      }
+    ],
+    "sources_checked": [
+      "Synergy Prefab India manufacturer page",
+      "Nestin / Nestudio manufacturer page",
+      "Google keyword data (500 sq ft prefab home, 1 BHK container house)",
+      "Buyer call data vocabulary"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Prefabricated houses in India are a fast-growing segment driven by government affordable housing programmes (PMAY), infrastructure project labour accommodation demand, and individual buyers seeking faster and more cost-predictable alternatives to conventional brick-and-mortar construction. The dominant commercial system is the steel-framed PUF/sandwich panel house, where panels consist of a rigid polyurethane foam core sandwiched between pre-painted galvanised steel facings — this system is used by leading Indian manufacturers including EPACK Prefab, Tata Nest-In, Synergy Prefab, and Nestin. Three broad technical approaches are used in India: modular units (fully factory-finished box modules), panel-built systems (individual sandwich panels on a steel frame), and LGSF (light gauge steel frame) structures. Relevant BIS standards include IS 15916:2011 (prefabricated concrete building design), IS 15917:2010 (mixed/composite construction), IS 875 (structural loads — wind and dead load), and IS 1893 (seismic design); the National Building Code (NBC) published by BIS provides overarching guidelines for prefabricated building construction in India. Buyer vocabulary in India strongly favours 'readymade house', 'bana banaya ghar', and BHK-based configurations; the capsule house / capsule castle sub-segment and container house sub-segment are notable niche demand clusters visible in search data. BMTPC (Building Materials and Technology Promotion Council) issues Performance Appraisal Certificates (PAC) for innovative prefab systems, which is a key quality signal for institutional buyers.",
+  "buyer_attracting_attributes": [
+    "Floor Area / BHK Configuration",
+    "Panel Type and Material (PUF / Sandwich / EPS)",
+    "Panel Thickness (Wall and Roof)",
+    "Structural Frame Type (Steel / LGSF / Precast)",
+    "Insulation Rating / Thermal Performance",
+    "Fire Rating",
+    "Wind Load and Seismic Zone Compliance",
+    "Delivery and Installation Timeline",
+    "Customisation Options (Layout, Colour, Fittings)",
+    "Warranty and After-Sales Service"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "35591",
+    "mcat_name": "Prefabricated Houses",
+    "mcat_level": "3",
+    "listing_count": "6571",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Prefabricated Houses",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Prefabricated houses are manufactured building structures with modular construction standards and BIS/NATA compliance requirements. Buyers evaluate structural design, material specs, assembly process, and regulatory certification — not brand name. Agent 3 should prioritise BIS standards (IS:1893 seismic, IS:875 wind load), NATA accreditation, material datasheets, and assembly documentation."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Top keywords by Impressions identified capsule castle, container house, readymade house, and 1/2 BHK configuration as dominant buyer search clusters."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Top keywords by Pageviews confirmed prefabricated houses, capsule house, precast house, and A-frame house as on-platform search patterns."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "681 call rows confirmed Hindi vocabulary (bana banaya ghar, makan, ghar), BHK-based buyer intent, puff panel room, and labour colony as dominant buyer applications."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path and 27 siblings reviewed; no sibling carves out an incompatible regulatory regime, supporting suspected_vague: false."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://law.resource.org/pub/in/bis/S03/is.15916.2011.pdf",
+        "title": "IS 15916 (2011): Building Design and Erection Using Prefabricated Concrete",
+        "source_domain": "law.resource.org",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed IS 15916:2011 as the BIS standard for prefabricated concrete building design and erection in India."
+      },
+      {
+        "url": "https://www.fluidconstructions.com/building/building-code-regulations-india/",
+        "title": "Current Building Code and Regulations in India",
+        "source_domain": "fluidconstructions.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed NBC/BIS framework and PMAY linkage to prefabricated building adoption in India."
+      },
+      {
+        "url": "https://www.nbmcw.com/product-technology/precast/prefabrication-building-construction-an-indian-perspective.html",
+        "title": "Prefabrication Building Construction: An Indian Perspective",
+        "source_domain": "nbmcw.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Confirmed LGSF, modular, and precast concrete as the three main prefab construction systems in India; confirmed PMAY government housing demand driver."
+      },
+      {
+        "url": "https://www.metaltree.in/prefabricated-buildings-india-guide-2026/",
+        "title": "Prefabricated Buildings in India: Cost, Companies, Benefits & Complete Guide (2026)",
+        "source_domain": "metaltree.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "primary_segment"
+        ],
+        "citation_note": "Confirmed three broad technical approaches (modular units, panel-built systems, steel frame PEB) and panel-built sandwich panel system as dominant for residential/small commercial use."
+      },
+      {
+        "url": "https://synergyprefab.com/prefabricated-house/",
+        "title": "Prefabricated House | Synergy Prefab India",
+        "source_domain": "synergyprefab.com",
+        "derived_outputs": [
+          "primary_segment",
+          "unit_quoting_context",
+          "buyer_attracting_attributes",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Confirmed PUF panels + galvanised steel frame as dominant construction system; confirmed per sq ft and per unit quoting; confirmed 4–8 week installation timeline as buyer-attracting attribute."
+      },
+      {
+        "url": "https://www.epack.in/puf-panels",
+        "title": "PUF Panels Manufacturer — EPACK Prefab",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Confirmed BMTPC PAC certification as quality signal; confirmed GRIHA certification; confirmed PUF/PIR sandwich panel as dominant panel type for prefab structures in India."
+      },
+      {
+        "url": "https://www.nestin.co.in/nestudio",
+        "title": "Nestudio — Prefab Housing Solutions & Modular Homes Manufacturers",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed 1 BHK to 4–5 BHK farm house range; confirmed 60mm wall / 40–70mm roof panel thickness as buyer-relevant spec; confirmed galvanised steel facing as standard."
+      },
+      {
+        "url": "https://mechfab.org/prefabricated-houses-in-india-cost-design-and-low-cost-prefab-home-construction-guide/",
+        "title": "Prefabricated Houses in India: Cost, Design and Low-Cost Prefab Home Construction Guide",
+        "source_domain": "mechfab.org",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "market_context"
+        ],
+        "citation_note": "Confirmed tier-2/tier-3 city and rural demand; confirmed staff quarters, affordable housing, and site office as primary applications."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "NATA",
+        "Local Building Codes"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Prefabricated houses are manufactured building structures with modular construction standards and BIS/NATA compliance requirements. Buyers evaluate structural design, material specs, assembly process, and regulatory certification — not brand name. Agent 3 should prioritise BIS standards (IS:1893 seismic, IS:875 wind load), NATA accreditation, material datasheets, and assembly documentation."
+    }
+  }
+}
