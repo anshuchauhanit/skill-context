@@ -1,0 +1,1199 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "177931126",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Pre Engineered Construction Shed",
+      "description": "&nbsp; Complete&nbsp; &nbsp;design&nbsp; manufacture&nbsp; supply&nbsp; and Erection&nbsp; &nbsp;service.",
+      "specs": {
+        "raw": "Built Type:Modular, Material:Acrylic, Roof Type:Insulated, Technique:Cold Rolled, Usage/Application:Industrial"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/2/ZJ/HD/KR/15467236/portable-house.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineered construction shed-24882264533.html",
+      "image_file": "177931126.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows steel columns and roof purlins being erected on a construction site with workers visible and no cladding installed yet — active PEB structural erection in progress."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names 'Pre Engineered Construction Shed' which correctly identifies the PEB construction service but omits scope, span, or material grade."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs list 'Material:Acrylic' which is inconsistent with PEB steel construction, and remaining fields (modular, insulated roof, industrial) are sparse with no structural dimensions or service scope."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description states only 'Complete design manufacture supply and Erection service' — correct service type implied but no scope, capacity, or technical detail provided."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Listing describes a complete PEB design-manufacture-erect service for industrial sheds, which is squarely within Pre Engineering Works scope."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Pre Engineered Construction Shed' only — missing service scope, span dimensions, and structural material grade."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs list 'Material:Acrylic' which is implausible for PEB steel construction, and all other fields are sparse with no structural or service-scope data."
+        }
+      ],
+      "verification_note": "Pre_label good confirmed; photo shows active PEB erection, title and service type are correct, but specs contain a suspicious 'Acrylic' material entry inconsistent with steel PEB construction.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineered construction shed-24882264533.html"
+    },
+    {
+      "item_id": "172412593",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Peb Pre Engineered Building Work",
+      "description": "Established in the year of&nbsp;<b>2013</b>,&nbsp;<b>\"Ratnaa Industries</b>\" is the foremost M<b>anufacturer and Service Provider&nbsp;</b>of&nbsp;<b>Industrial Shed,Evaporative Condensers,Safety Grill&nbsp;</b><b>and Much more</b>.<br />",
+      "specs": {
+        "raw": "Material:Steel, Payment Mode:Cash, Service Location:Maharashtra, Service Mode:Oflline, Service Type:PEB Pre Engineered Building Work, Usage/Application:Kiosk"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/4/301946706/QE/BV/MI/30321522/peb-pre-engineered-building-work.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/peb-pre engineered building work-24330411288.html",
+      "image_file": "172412593.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a complete PEB primary steel frame (columns and curved rafters) erected on a concrete slab against a clear blue sky — classic PEB structural erection work."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Peb Pre Engineered Building Work' directly names the PEB service but lacks structural scope, span, or application detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm 'Service Type:PEB Pre Engineered Building Work' and 'Material:Steel' but are dominated by non-product fields (payment mode, service mode, location)."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a company introduction for 'Ratnaa Industries' listing multiple unrelated products (Evaporative Condensers, Safety Grill) alongside Industrial Shed."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Service Type spec explicitly confirms 'PEB Pre Engineered Building Work' and photo shows PEB steel frame erection, placing this squarely in Pre Engineering Works."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "'Service Location:Maharashtra' appears in specs and 'Ratnaa Industries' company name appears in description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs are dominated by non-product fields (Payment Mode:Cash, Service Mode:Oflline, Service Location:Maharashtra) with minimal structural or service-scope data."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "'Service Location:Maharashtra' in specs and 'Ratnaa Industries' company name in description constitute location and business name leakage."
+        }
+      ],
+      "verification_note": "Pre_label good confirmed; photo clearly shows PEB frame erection and service type spec confirms PEB work, though description and specs contain business/location leakage.",
+      "source_url": "https://www.indiamart.com/proddetail/peb-pre engineered building work-24330411288.html"
+    },
+    {
+      "item_id": "198080968",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Pre Engineered Building Work",
+      "description": "<p dir=\"ltr\">We<b>&#160;SWETHA STRUCTURES PRIVATE LIMITED&#160;</b>are the Leading<b>&#160;Manufacturer and Service Provider&#160;</b>of<b>&#160;Portable House And Cabins, Prefabricated Factory Shed&#160;</b>etc</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Features:Multipurpose, Height:21 Feet, Material:Steel, Roof Type:A Type, Size:4500 Sft, Technique:Hot Rolled, Usage/Application:Industry, Wall Cladding Type:GI Sheet"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2023/9/341258829/RH/JH/XH/50953253/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineered building work-26897248862.html",
+      "image_file": "198080968.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a completed PEB industrial shed with overhead crane beam (yellow), blue-painted steel columns, corrugated metal wall cladding, and construction equipment on a concrete floor."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Pre Engineered Building Work' directly names the PEB service but lacks structural dimensions or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide height (21 Feet), size (4500 Sft), material (Steel), roof type (A Type), wall cladding (GI Sheet), and technique (Hot Rolled) — a buyer-useful structural specification set."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a company introduction for 'SWETHA STRUCTURES PRIVATE LIMITED' listing Portable House, Cabins, and Prefabricated Factory Shed without service-specific detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo shows completed PEB industrial shed interior and specs confirm prefab steel construction with GI cladding — valid Pre Engineering Works listing."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "'SWETHA STRUCTURES PRIVATE LIMITED' company name appears in the description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "'SWETHA STRUCTURES PRIVATE LIMITED' company name is embedded in the description text."
+        }
+      ],
+      "verification_note": "Pre_label good confirmed; strong specs with structural dimensions and good PEB interior photo make this a high-quality listing despite company name leakage in description.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineered building work-26897248862.html"
+    },
+    {
+      "item_id": "241434452",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Pre Engineered Building Work",
+      "description": "<p>PSK Roofing Support All Level Of Businesses�, Domestic Sectors�, Residential &amp; Individual Needs</p>\nFrom Small Shops, sheds, Small Scale Industries To Large Factories, From Roof Gardens To Parking Sheds. From Industrial Shed To Warehouse. Also Kerala Style Roofing, Terrace Roofing, Auditorium Shed, Poly Carbonate Shed, Etc\n<p>PSK Roofing Holds Fine Fabricators &amp; People With Techniques In Our Team So We Can Assure The Best In Quality And Safety.</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Height:Based on Requirement, Material:steel, Roof Type:All Types, Size:Based on Requirement, Usage/Application:House, Wall Cladding Type:Based on Requirement"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/4/298801348/TF/ES/DG/49170583/pre-engineering-building.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineered building work-2850683545148.html",
+      "image_file": "241434452.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large completed PEB structure exterior with teal and white corrugated metal cladding on walls and roof, steel columns at base, on an active construction site with red laterite soil."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Pre Engineered Building Work' correctly names the PEB service but provides no structural or application detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "All spec values are 'Based on Requirement' except material (steel), providing no buyer-useful structural dimensions or service scope."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description lists broad roofing and shed services under 'PSK Roofing' brand including Kerala style roofing and polycarbonate sheds, without PEB-specific technical detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo shows a completed PEB cladded structure and title confirms PEB building work — valid Pre Engineering Works listing despite thin specs."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "'PSK Roofing' business name appears in the description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "All spec values are 'Based on Requirement' except material, providing no structural dimensions, span, height, or cladding type for buyer evaluation."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "'PSK Roofing' business name is embedded in the description text."
+        }
+      ],
+      "verification_note": "Pre_label good confirmed; photo shows completed PEB cladded structure and title is correct, but specs are entirely placeholder values and description contains business name leakage.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineered building work-2850683545148.html"
+    },
+    {
+      "item_id": "253492728",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Pre Engineered Building Work",
+      "description": "In the field of structural engineering, a pre-engineered building or (PEB) is designed by a PEB supplier or a PEB manufacturer that has a single design and that is fabricated using various materials and methods that can satisfy different types of structural and aesthetic design requirements.",
+      "specs": {
+        "raw": "Application:Customized, Brand:Kishore Infratech, Built Type:Prefabricated, Design:Customized, Dimensions:Customized, Exprience:700 Above Projects Completed, Material Grade:Customized, Service Location:Pan India, Sheet Thickness:0.50 mm, Structure Type:Industrial Shed, Surface Finish:Galvanized"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/7/330081260/CX/HB/NX/135805/pre-engineered-building-work.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineered building work-2851889372712.html",
+      "image_file": "253492728.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed PEB industrial shed exterior with blue and white corrugated metal cladding, steel columns, brick masonry base under construction, and construction site materials visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Pre Engineered Building Work' correctly names the PEB service but lacks structural type, span, or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs include Structure Type (Industrial Shed), Sheet Thickness (0.50 mm), Surface Finish (Galvanized), experience (700+ projects), and Pan India service scope — a strong buyer-relevant set."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description provides a clear generic definition of PEB systems covering design, fabrication, and material flexibility — informative though not service-specific."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo shows completed PEB industrial shed, specs confirm prefabricated industrial shed construction with galvanized finish — valid Pre Engineering Works listing."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "'Kishore Infratech' brand name appears in specs under 'Brand' field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "'Kishore Infratech' brand/company name is present in the specs 'Brand' field."
+        }
+      ],
+      "verification_note": "Pre_label good confirmed; strong specs with structure type, sheet thickness, and surface finish plus a good exterior PEB photo make this the highest-quality listing in the set.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineered building work-2851889372712.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "136975414",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Mild Steel Fabrication",
+      "description": "<p>All Types of Fabrication as per Drawing.With the aid of our modern infrastructure, we are instrumental in manufacturing best quality <b>MS Heavy Fabrication</b>. The offered product is used for wide application in all types of Industries. Fabricated and designed by us using supreme grade mild steel and advanced machines, these products are highly durable and compact in design. Available with us wide specifications, we supply these products in affordable tamper proof packaging for serving varied needs of customers.</p>\n<p><b>Features:</b></p>\n<p>Robust design</p>\n<p>Easy setup and dismantle</p>\n<p>Wear resistant</p>\n<p>Request<br /> <b>Callback</b></p>\n<p><b>Additional Information:</b></p>\n<p><b>Item Code: </b>MSFab</p>",
+      "specs": {
+        "raw": "Coating:As per Customers Requirements., Material:Mild steel, Material Grade:S275JR, No of units:As per Customers Requirements., Product to be Fabricated:As per Customers Requirements., Service City:As per Customers Requirements., Service Location/City:As per Customers Requirements., Specialization For:As per Customers Requirements., Tolerance:As per Customers Requirements., Type Of Metal Used:As per Customers Requirements., Usage/Application:As per Customers Requirements."
+      },
+      "image_url": "https://5.imimg.com/data5/SY/QM/IF/SELLER-19355319/mild-steel-fabrication.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/mild-steel fabrication-20786693662.html",
+      "image_file": "136975414.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a grey-painted circular metal fabricated component (large ring/flange housing) on a workshop floor — a custom fabricated metal part, not a PEB structure or erection service."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title 'Mild Steel Fabrication' names a general metal fabrication service with no reference to PEB, pre-engineered buildings, or structural erection."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs describe general custom fabrication (material grade S275JR, tolerance, coating) with all values 'As per Customers Requirements' — no PEB-specific fields present."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description covers general MS heavy fabrication for industrial applications with no mention of PEB, pre-engineered buildings, or civil/erection works."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title, image, specs, and description all describe general mild steel custom fabrication — not PEB civil foundation, anchor bolt setting, or structural erection services."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a grey-painted circular fabricated metal component (ring/flange), not a PEB structure, erection site, or civil works activity."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Mild Steel Fabrication' names general metal fabrication with no reference to PEB, pre-engineered buildings, or structural erection works."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe general custom fabrication parameters (material grade S275JR, tolerance, coating) with no PEB-specific fields such as structure type, span, or erection scope."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description covers MS heavy fabrication for general industrial applications with no mention of PEB, pre-engineered buildings, or civil/erection works."
+        }
+      ],
+      "verification_note": "Pre_label bad confirmed; all four dimensions (photo, title, specs, description) consistently describe general MS fabrication with no PEB relevance.",
+      "source_url": "https://www.indiamart.com/proddetail/mild-steel fabrication-20786693662.html"
+    },
+    {
+      "item_id": "279916999",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Industrial Fabrication",
+      "description": "We are counted amongst the most promising&nbsp;Manufacturer&nbsp;and&nbsp;Service Provider&nbsp;firms delivering excellence in its offered state of art Construction Services.",
+      "specs": {
+        "raw": "Fabrication Type:Structural, Industry Served:Automotive, Material:Mild Steel, Max Length:6 to 12 m, Max Thickness:11 to 20 mm, Service Location:Vendor Works, Service Mode:Turnkey, Service Type:New Fabrication, Surface Finish:Sand Blasted, Welding Process:MIG"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/7/437947316/SJ/SE/LJ/2426731/industrial-fabrication.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-fabrication-2854531799933.html",
+      "image_file": "279916999.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a large interior industrial space with steel columns, beams, and concrete floor under construction — could be any steel-framed building interior; no PEB-specific erection activity or structural assembly is clearly visible."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title 'Industrial Fabrication' names a general fabrication service with no reference to PEB, pre-engineered buildings, or structural erection."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs describe structural fabrication for the automotive industry with MIG welding and sand blasting — no PEB-specific fields such as structure type, span, or erection scope."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description mentions 'Construction Services' generically but provides no PEB-specific detail."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title and specs describe general structural fabrication for the automotive industry, not PEB civil foundation or erection services."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Industrial Fabrication' names general fabrication with no reference to PEB, pre-engineered buildings, or structural erection works."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe structural fabrication for the automotive industry (MIG welding, sand blasting, 6–12 m lengths) with no PEB-specific fields."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a generic industrial interior with steel columns and concrete floor — no PEB-specific erection activity, anchor bolt work, or structural assembly is visible."
+        }
+      ],
+      "verification_note": "Pre_label bad confirmed; title and specs describe automotive structural fabrication, not PEB works, and the photo is too generic to confirm PEB category.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-fabrication-2854531799933.html"
+    },
+    {
+      "item_id": "286432412",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Industrial Fabrication Works In Pune",
+      "description": "Industrial fabricators are&nbsp;specialists who create custom metal structures, parts, and components by shaping, cutting, and assembling raw materials.&nbsp;This process is essential in various industries for producing machinery, equipment, and large-scale infrastructure projects.&nbsp;They work with a range of materials, including steel, and often create large-scale items like tanks, silos, and heavy machine parts WORK,",
+      "specs": {
+        "raw": "Fabrication Type:Heavy, Industry Served:Automotive, Location:Pune, Material:MS/SS, Max Length:Up to 3 m, Max Thickness:21 to 40 mm, MOQ:1, Service Type:New Fabrication, S Type:Industrial Fabrication, Type:Services"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/11/467252991/EE/NU/WA/182955557/industrial-fabrication.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-fabrication works in pune-2855183341491.html",
+      "image_file": "286432412.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a yellow-painted metal fabricated trolley/cart with shelves and wheels in a workshop — a material handling product, not a PEB structure, erection site, or civil works activity."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title 'Industrial Fabrication Works In Pune' names general fabrication with a city name — no reference to PEB, pre-engineered buildings, or structural erection."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs describe heavy automotive fabrication in Pune (MS/SS, up to 3 m, 21–40 mm thickness) — no PEB-specific fields present."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description covers general industrial fabrication of tanks, silos, and machine parts — no mention of PEB, pre-engineered buildings, or civil/erection works."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Image shows a fabricated metal trolley and all text dimensions describe heavy automotive fabrication in Pune — not PEB civil foundation or erection services."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "'Location:Pune' in specs and 'In Pune' in title constitute city name leakage."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a yellow fabricated metal trolley/cart with wheels and shelves — a material handling product entirely unrelated to PEB erection or civil works."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Industrial Fabrication Works In Pune' names general fabrication with a city name, with no reference to PEB or pre-engineered building works."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe heavy automotive fabrication (MS/SS, up to 3 m, 21–40 mm) in Pune with no PEB-specific fields."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description covers fabrication of tanks, silos, and machine parts — no mention of PEB, pre-engineered buildings, or structural erection."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "'Location:Pune' in specs and 'In Pune' in title constitute city name leakage in listing fields."
+        }
+      ],
+      "verification_note": "Pre_label bad confirmed; image shows a fabricated trolley (completely wrong product) and all text dimensions describe automotive heavy fabrication in Pune — no PEB relevance.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-fabrication works in pune-2855183341491.html"
+    },
+    {
+      "item_id": "288874648",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Industrial Fabrication Works",
+      "description": "We are shree chamunda Fabrication &amp; Engineering Works leading Manufacturer and service provider for all type of factrication and structure works.",
+      "specs": {
+        "raw": "Fabrication Type:Machined, Industrial Types:Pharma, Location:Ahmedabad, Material:MS & SS, Service:All over India, Service Type:New Fabrication, Type of Fabrication:PEB"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/12/471966739/XA/WV/JO/66891125/industrial-fabrication-works.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-fabrication works-2855427565091.html",
+      "image_file": "288874648.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows blue-painted steel structural frame members laid on a ground floor with workers assembling them — structural steel components visible but not erected as a PEB structure; ambiguous whether PEB-specific or general fabrication."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title 'Industrial Fabrication Works' names general fabrication with no reference to PEB, pre-engineered buildings, or structural erection."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs include 'Type of Fabrication:PEB' which is a positive PEB signal, but 'Fabrication Type:Machined' and 'Industrial Types:Pharma' frame this as general machined fabrication for pharma, not PEB erection works."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description introduces 'shree chamunda Fabrication & Engineering Works' as a general fabrication and structure works provider — thin but not category-contradicting."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title names general industrial fabrication and specs describe machined fabrication for pharma industry; a single 'Type of Fabrication:PEB' spec entry does not constitute a PEB erection or civil works service offering."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "'Location:Ahmedabad' in specs and 'shree chamunda Fabrication & Engineering Works' company name in description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Industrial Fabrication Works' names general fabrication with no reference to PEB, pre-engineered buildings, or structural erection works."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows steel frame members laid on the ground being assembled — components are not erected as a PEB structure and the scene is ambiguous between general fabrication and PEB pre-assembly."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "'Location:Ahmedabad' in specs and 'shree chamunda Fabrication & Engineering Works' company name in description."
+        }
+      ],
+      "verification_note": "Pre_label bad confirmed; title frames this as general fabrication and the primary spec context is machined pharma fabrication, despite a single PEB mention in specs.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-fabrication works-2855427565091.html"
+    },
+    {
+      "item_id": "292143568",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Industrial Fabrication Works",
+      "description": "We&nbsp;<b>\"CAS CONSTRUCTION\"</b>&nbsp;are a leading&nbsp;<b>Manufacturer</b>&nbsp;and&nbsp;<b>Trader</b>&nbsp;of a wide range of pre-engineered buildings, factory, warehouse shed, etc. Situated in&nbsp;<b>Greater Noida (Uttar Pradesh, India),</b>&nbsp;we have constructed a wide and well functional infrastructural unit that plays an important role in the growth of our company. We offer these products at reasonable rates and deliver these within the promised time-frame. Under the headship of&nbsp;<b>\"CAS CONSTRUCTION\",</b>&nbsp;we have gained a huge clientele across the nation.",
+      "specs": {
+        "raw": "Area:As per details, Fabrication technique:cutting, made:in india, rate:90\\kg, service/location service:pan india"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/2/488243536/BF/WI/SV/28457052/industrial-fabrication-works.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-fabrication works-2855754457030.html",
+      "image_file": "292143568.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a PEB steel primary frame structure under construction with columns and rafters erected and a crane visible in the background — active PEB structural erection work."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title 'Industrial Fabrication Works' names general fabrication with no reference to PEB, pre-engineered buildings, or structural erection."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs list 'Fabrication technique:cutting' and 'rate:90\\kg' — general fabrication fields with no PEB-specific structural or erection scope data."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description explicitly mentions 'pre-engineered buildings, factory, warehouse shed' under 'CAS CONSTRUCTION' with Pan India reach — PEB-relevant content present."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title names 'Industrial Fabrication Works' (not PEB works) and specs describe cutting fabrication by weight — the listing's primary framing is general fabrication despite PEB mention in description and a PEB photo."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "'CAS CONSTRUCTION' company name and 'Greater Noida (Uttar Pradesh, India)' location appear in the description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Industrial Fabrication Works' names general fabrication with no reference to PEB, pre-engineered buildings, or structural erection works."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs list 'Fabrication technique:cutting' and a per-kg rate — general fabrication fields with no PEB structure type, span, height, or erection scope."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Industrial Fabrication Works' — misnames the service as general fabrication instead of PEB works, missing product type, application, and structural scope."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "'CAS CONSTRUCTION' company name and 'Greater Noida (Uttar Pradesh, India)' location are embedded in the description."
+        }
+      ],
+      "verification_note": "Pre_label bad confirmed; despite a good PEB photo and PEB-relevant description, the title and specs frame this as general fabrication, making it a misaligned listing for Pre Engineering Works.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-fabrication works-2855754457030.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images for Pre Engineering Works show either active PEB structural erection (steel columns and rafters being assembled on a construction site with workers and construction debris visible) or completed PEB structures (exterior views with corrugated metal cladding in blue/teal/white, steel columns, and active construction site surroundings, or interior views showing overhead crane beams, blue-painted columns, and metal cladding walls). All good images are real-site construction or completion photographs taken outdoors or inside the shed, with natural lighting and construction context visible.",
+  "image_type_recommendation": {
+    "type": "object_with_info",
+    "reason": [
+      "PEB listings are service/project offerings where the image shows a real construction site or completed structure — the scene context (erection stage, cladding type, span size) conveys buyer-relevant information beyond mere product appearance.",
+      "Good images consistently show construction-in-progress or completed shed exteriors/interiors where structural details (column spacing, roof profile, cladding colour/type) are visible and informative to a buyer evaluating the contractor's capability."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good PEB listing photos show either active structural erection (steel frame being assembled on site) or completed PEB structures (exterior with metal cladding or interior with crane beams and columns).",
+    "product_identity": [
+      "Steel primary frame (columns and rafters) visible — either under erection or completed",
+      "Corrugated metal cladding (GI/colour-coated) on walls and roof of completed structure",
+      "Construction site context — concrete slab, construction debris, workers, or equipment visible"
+    ],
+    "acceptable_scenes": [
+      "Exterior view of completed PEB shed with metal cladding and steel columns",
+      "Interior view of completed PEB shed showing overhead crane beams and metal cladding walls",
+      "Active erection site showing steel frame columns and purlins being assembled"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "177931126",
+        "reason": "Image shows steel columns and roof purlins being erected on a construction site with workers visible and no cladding installed yet — active PEB structural erection in progress.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "172412593",
+        "reason": "Image shows a complete PEB primary steel frame (columns and curved rafters) erected on a concrete slab against a clear blue sky — classic PEB structural erection work.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "198080968",
+        "reason": "Image shows the interior of a completed PEB industrial shed with overhead crane beam (yellow), blue-painted steel columns, corrugated metal wall cladding, and construction equipment on a concrete floor.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "241434452",
+        "reason": "Image shows a large completed PEB structure exterior with teal and white corrugated metal cladding on walls and roof, steel columns at base, on an active construction site with red laterite soil.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "253492728",
+        "reason": "Image shows a completed PEB industrial shed exterior with blue and white corrugated metal cladding, steel columns, brick masonry base under construction, and construction site materials visible.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos for PEB listings show generic industrial interiors or steel components on the ground that could belong to any steel construction context, lacking clear PEB-specific erection or structural assembly detail.",
+    "thinness_signals": [
+      "Generic industrial interior with steel columns and concrete floor — no PEB-specific erection activity visible",
+      "Steel frame members laid on ground — components not erected as a PEB structure, ambiguous between fabrication and PEB pre-assembly"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "279916999",
+        "reason": "Image shows a large interior industrial space with steel columns, beams, and concrete floor under construction — could be any steel-framed building interior; no PEB-specific erection activity or structural assembly is clearly visible."
+      },
+      {
+        "photo_url": null,
+        "item_id": "288874648",
+        "reason": "Image shows blue-painted steel structural frame members laid on a ground floor with workers assembling them — structural steel components visible but not erected as a PEB structure; ambiguous whether PEB-specific or general fabrication."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos for PEB listings show fabricated metal components or products (circular flanges, trolleys/carts) that are entirely unrelated to PEB structures, erection sites, or civil works.",
+    "failure_classes": [
+      {
+        "class": "fabricated_metal_component",
+        "description": "Image shows a custom-fabricated metal component (ring, flange, housing) on a workshop floor — a general fabrication product with no connection to PEB structures or erection services.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "136975414"
+          }
+        ],
+        "detection_signal": "Circular or geometric metal fabricated part on workshop floor, no structural columns, rafters, or construction site context visible.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "fabricated_material_handling_product",
+        "description": "Image shows a fabricated metal trolley/cart with shelves and wheels in a workshop — a material handling product entirely unrelated to PEB erection or civil works.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "286432412"
+          }
+        ],
+        "detection_signal": "Yellow or brightly painted metal cart/trolley with wheels and shelves in a factory/workshop setting — no construction site, steel frame, or cladding visible.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong PEB listing titles explicitly name 'Pre Engineered Building Work' or 'PEB' and ideally include structural type, application, or scope details.",
+    "strong_positive_signals": [
+      "Explicit 'PEB' or 'Pre Engineered Building' token in title",
+      "Service-type qualifier: 'Work', 'Construction', 'Erection', 'Turnkey'",
+      "Application or structural type: 'Industrial Shed', 'Warehouse', 'Factory'"
+    ],
+    "structural_patterns": [
+      "[PEB / Pre Engineered Building] + [Work / Construction / Erection]",
+      "[Pre Engineered] + [Construction / Building] + [Shed / Warehouse / Factory]",
+      "[PEB] + [Turnkey / Design-Build] + [Industrial Shed / Warehouse]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "253492728",
+          "title": "Pre Engineered Building Work",
+          "reason": "Title names PEB work directly and is supported by strong specs (structure type, sheet thickness, surface finish, 700+ projects experience) and a good exterior PEB photo — the complete listing package is the strongest in the set."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "172412593",
+          "title": "Peb Pre Engineered Building Work",
+          "reason": "Title includes both 'PEB' and 'Pre Engineered Building Work' tokens — correct and identifiable but lacks structural scope, span, or application detail."
+        },
+        {
+          "item_id": "198080968",
+          "title": "Pre Engineered Building Work",
+          "reason": "Title correctly names PEB work and is backed by strong specs (height, size, cladding type) but the title itself is generic without application or structural type."
+        },
+        {
+          "item_id": "177931126",
+          "title": "Pre Engineered Construction Shed",
+          "reason": "Title names PEB construction shed — correct product type identified but missing service scope, span, and material grade."
+        },
+        {
+          "item_id": "241434452",
+          "title": "Pre Engineered Building Work",
+          "reason": "Title correctly names PEB work but is identical to other listings and unsupported by meaningful specs."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin PEB titles correctly imply a construction or building service but omit PEB-specific tokens, structural type, application, or service scope.",
+    "thinness_signals": [
+      "Missing 'PEB' or 'Pre Engineered' token — title names only generic construction or fabrication",
+      "Missing structural application: no 'Industrial Shed', 'Warehouse', 'Factory', or 'Turnkey' qualifier",
+      "Missing service scope: no 'Erection', 'Design-Build', 'Foundation', or 'Turnkey' qualifier"
+    ],
+    "examples": [
+      {
+        "item_id": "279916999",
+        "title": "Industrial Fabrication",
+        "reason": "Title names only 'Industrial Fabrication' — missing PEB token, structural type, and service scope; could describe any metal fabrication service."
+      },
+      {
+        "item_id": "288874648",
+        "title": "Industrial Fabrication Works",
+        "reason": "Title names 'Industrial Fabrication Works' — missing PEB token and structural erection context; too generic to identify as a PEB service."
+      },
+      {
+        "item_id": "292143568",
+        "title": "Industrial Fabrication Works",
+        "reason": "Title names 'Industrial Fabrication Works' — missing PEB token despite the listing having a PEB photo and PEB-relevant description."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant PEB titles contain tokens that actively signal general metal fabrication or location-specific fabrication services rather than PEB construction or erection works.",
+    "failure_classes": [
+      {
+        "class": "general_ms_fabrication",
+        "signal": "'Mild Steel Fabrication' or 'MS Fabrication' token present — signals custom metal part fabrication, not PEB erection.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "136975414",
+            "title": "Mild Steel Fabrication",
+            "reason": "Title names general mild steel fabrication — no PEB, pre-engineered building, or structural erection reference; actively signals a different service category.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "location_tagged_fabrication",
+        "signal": "'Industrial Fabrication Works In [City]' pattern — location token combined with general fabrication signals wrong MCAT and location leakage.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "286432412",
+            "title": "Industrial Fabrication Works In Pune",
+            "reason": "Title combines general fabrication with a city name — actively signals automotive/heavy fabrication in Pune, not PEB erection works.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily general industrial/structural fabrication services that have been incorrectly placed in Pre Engineering Works.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "general_mild_steel_fabrication",
+        "signal": "Title names 'Mild Steel Fabrication' or 'MS Fabrication' and image shows a custom fabricated metal component (not a PEB structure or erection site).",
+        "examples": [
+          {
+            "item_id": "136975414",
+            "title": "Mild Steel Fabrication",
+            "reason": "Title, image (circular fabricated metal component), specs, and description all describe general MS custom fabrication — not PEB civil foundation or erection works.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      },
+      {
+        "class": "structural_fabrication_for_automotive_or_industrial",
+        "signal": "Specs list 'Industry Served:Automotive' or 'Fabrication Type:Structural/Heavy' with MIG welding, sand blasting, and length/thickness parameters — signals structural fabrication for non-PEB industries.",
+        "examples": [
+          {
+            "item_id": "279916999",
+            "title": "Industrial Fabrication",
+            "reason": "Specs describe structural fabrication for the automotive industry with MIG welding and sand blasting — not PEB erection or civil works.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "286432412",
+            "title": "Industrial Fabrication Works In Pune",
+            "reason": "Specs describe heavy automotive fabrication in Pune (MS/SS, up to 3 m, 21–40 mm) and image shows a fabricated trolley — not PEB works.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      },
+      {
+        "class": "general_fabrication_with_incidental_peb_mention",
+        "signal": "Title names 'Industrial Fabrication Works' and specs describe machined/cutting fabrication by weight or for pharma/general industry — PEB mentioned only incidentally in one spec field.",
+        "examples": [
+          {
+            "item_id": "288874648",
+            "title": "Industrial Fabrication Works",
+            "reason": "Title and primary spec context (machined fabrication for pharma) frame this as general fabrication; 'Type of Fabrication:PEB' in one spec field is insufficient to classify as a PEB erection service.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "292143568",
+            "title": "Industrial Fabrication Works",
+            "reason": "Title names general fabrication and specs describe cutting fabrication by weight — despite a PEB photo and PEB description, the listing's primary framing is general fabrication.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator. Images were visually analysed from provided base64 data; text fields audited from provided title, description, and specs fields only."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "No siblings listed in taxonomy_context; all correct_mcat_suggestion values set to null — no sibling MCAT names fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (turnkey PEB civil and structural erection services) and mcat_description used to ground all category belonging decisions; mcat_vagueness_signal not explicitly provided but MCAT assessed as coherent (PATH A applied)."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
