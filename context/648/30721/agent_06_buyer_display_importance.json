@@ -1,0 +1,182 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Industrial shelters have high visual sub-type variation — steel PEB, FRP dome, insulated panel, portable modular — and buyers use the image to immediately confirm structural type, span scale, and construction quality before reading any text. Wrong structural type shown = immediate skip for a buyer with a specific project requirement."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Frame material, roofing type, wall panel type, and wind resistance are primary shortlisting criteria — buyers cannot evaluate fit or price without these. A listing without specs cannot be compared against project requirements and will be skipped by EPC contractors and facility managers."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft price varies substantially with frame material (MS vs aluminium vs FRP), insulation type, and wind resistance rating — buyers discover and compare across spec tiers during search, not within a fixed tier. Indian B2B buyers in construction and infrastructure are highly price-aggressive; listed per-sq-ft rate is the primary budget entry point before negotiation."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Telecom BTS and portable shelters are quoted per piece; turnkey EPC contracts are quoted per project (lump sum). Per sq ft is dominant for the primary segment (factory, warehouse, equipment shelter). Unit must be shown alongside price to prevent misreading across these three quoting conventions.",
+      "reason": "Price cannot be compared without knowing the unit — per sq ft, per piece, and per project (lump sum) all coexist in this MCAT. A buyer comparing two listings without visible units risks a significant misread of project cost."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in the Indian industrial shelter market — the market is fragmented across regional fabricators and mid-size PEB manufacturers; buyers search by spec and price, not manufacturer name.",
+      "reason": "For institutional and EPC buyers, manufacturer credentials (IS 800 compliance, fabrication capacity, installation track record, structural warranty) matter during vendor shortlisting but rank below spec and price as initial engagement signals."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Frame Material",
+        "reason": "Frame material (Mild Steel vs Galvanized Steel vs Aluminium vs FRP) is the primary product class separator — non-interchangeable across project requirements and drives the largest per-sq-ft price delta in the Indian industrial shelter market."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Type",
+        "reason": "Wall panel type (FRP vs PUF vs EPS vs No Side Wall) defines the insulation and corrosion-resistance tier of the shelter — non-interchangeable for temperature-sensitive or corrosive-environment applications, with significant price difference between bare sheet and insulated panel configurations."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Built Type",
+      "Flooring",
+      "Frame Material",
+      "Roofing Material",
+      "Usage Area",
+      "Wall Panel Type",
+      "Weather Protection",
+      "Wind Resistance"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Span Width",
+        "why_important": "Span width (clear span in metres) is a primary structural design parameter — it determines the primary framing system, column spacing, and fabrication cost, and buyers specify it as a hard requirement for their facility layout.",
+        "source": "both",
+        "example_values": [
+          "Up to 12m",
+          "12m–24m",
+          "24m–36m",
+          "Above 36m"
+        ]
+      },
+      {
+        "spec_name": "Structural Load Standard",
+        "why_important": "Indian buyers and EPC contractors specify IS 800:2007 compliance and wind/seismic zone (IS 875) as a procurement requirement, particularly for government, defence, and institutional projects — absence of this spec prevents compliance verification.",
+        "source": "both",
+        "example_values": [
+          "IS 800:2007",
+          "IS 875 Wind Zone II",
+          "IS 875 Wind Zone III",
+          "IS 1893 Seismic Zone"
+        ]
+      },
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Insulation type (PUF, EPS, rock wool, none) determines thermal and acoustic performance — a critical differentiator for telecom BTS, cold-chain, and temperature-sensitive manufacturing applications where buyers specify insulation R-value or thickness.",
+        "source": "both",
+        "example_values": [
+          "PUF (50mm)",
+          "EPS (75mm)",
+          "Rock Wool",
+          "No Insulation"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Type",
+        "reason": "Structure type (PEB vs Conventional Truss vs Pipe Structure) defines the fabrication system and directly determines which sellers can supply — PEB manufacturers, conventional fabricators, and pipe-structure specialists are distinct supplier categories.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "PEB Structure",
+          "Conventional Truss",
+          "Pipe Structure"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Crane Support",
+        "reason": "Crane support requirement (none vs up to 5T vs up to 20T vs above 20T) is a hard structural design parameter — sellers must know this to size the primary framing, column sections, and crane runway beams, and it materially changes fabrication cost and supplier eligibility.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Span Width",
+        "why_important": "Sellers need the required clear span to determine whether their fabrication capability and structural design covers the buyer's project — span width is the single most important structural parameter for pricing and feasibility.",
+        "source": "both",
+        "example_values": [
+          "Up to 12m",
+          "12m–24m",
+          "24m–36m",
+          "Above 36m"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Type",
+      "option_value": "PEB Structure",
+      "id": "spec_1",
+      "prompt_for_generation": "Pre-engineered building (PEB) steel industrial shelter with tapered I-section primary frames, Galvalume sheet roofing and side cladding, large clear-span interior visible through open end, industrial setting, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Conventional Truss",
+      "id": "spec_2",
+      "prompt_for_generation": "Conventional truss industrial shelter with lattice roof truss visible from inside, MS angle or channel purlins, corrugated GI sheet roofing, brick or MS sheet side walls, factory or workshop setting, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Pipe Structure",
+      "id": "spec_3",
+      "prompt_for_generation": "Pipe structure industrial shelter with circular hollow section (CHS) columns and rafters, polycarbonate or GI sheet roofing, open or semi-open sides, used as equipment canopy or loading bay cover, industrial yard setting, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
