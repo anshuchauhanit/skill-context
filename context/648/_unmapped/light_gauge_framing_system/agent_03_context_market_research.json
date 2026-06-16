@@ -1,0 +1,622 @@
+{
+  "mcat_description": {
+    "short": "Light Gauge Framing System (LGSF) is a prefabricated structural building system using cold-formed galvanized steel sections (studs, tracks, joists, trusses) to create load-bearing frames for walls, floors, and roofs, sold as a complete engineered system or as fabricated profiles for on-site assembly.",
+    "long": "LGSF is a construction technology in which thin galvanized steel sheets (typically 0.8–3mm thickness, 120–275 GSM coating) are cold-formed into structural sections — C-studs, U-tracks, floor joists, and roof trusses — that are prefabricated off-site and assembled on-site without welding, using screws and bolts. The system is designed to Indian Standards (BIS) for load, seismic, and wind resistance, and is validated by BMTPC Performance Appraisal Certificates (PAC) in India. LGSF is primarily suited for low-to-mid-rise buildings (G+1 to G+4 and above with hybrid systems), offering construction speeds up to 3x faster than conventional RCC/brick masonry with significantly lower dead weight. In India, the technology is gaining rapid adoption in residential housing (including PMAY government schemes), commercial buildings, schools, hospitals, and labour accommodation, with key manufacturers operating FrameCAD roll-forming lines in Chandigarh, Pune, Bangalore, and NCR.",
+    "product_types": [
+      "Complete LGSF building system (design + fabrication + installation, turnkey)",
+      "LGSF wall framing panels (pre-assembled stud-and-track panels)",
+      "LGSF roof truss system",
+      "LGSF floor joist system",
+      "Cold-formed C-section steel studs (89mm / 150mm profiles)",
+      "U-track / bottom and top track sections",
+      "LGSF profiles / steel sections supply only (without erection)",
+      "LGSF modular building / prefab home using LGSF technology",
+      "LGSF drywall partition system (non-load-bearing interior)",
+      "LGSF solar racking / mounting structure"
+    ],
+    "primary_applications": [
+      "Prefabricated residential homes and villas (1BHK, 2BHK, 3BHK)",
+      "Low-rise apartment buildings and housing colonies (PMAY, affordable housing)",
+      "Commercial buildings: offices, hotels, resorts, service apartments",
+      "Educational institutions: schools, colleges",
+      "Healthcare facilities: hospitals, clinics, vaccination centres",
+      "Industrial amenities: labour camps, worker accommodation",
+      "Warehouses and industrial sheds",
+      "Model flats and sample flat construction",
+      "Disaster-prone area construction (high seismic / high wind zones)",
+      "Building extensions and additional floors on existing structures"
+    ],
+    "buyer_segments": [
+      "Real estate developers and builders (residential and commercial projects)",
+      "Government and PSU contractors (PMAY, affordable housing schemes)",
+      "Prefab structure manufacturers and EPC contractors",
+      "Architects and structural designers specifying alternative construction systems",
+      "Industrial and infrastructure project owners (labour camps, site offices)",
+      "Individual homeowners seeking fast-track construction",
+      "Hospitality developers (hotels, resorts, service apartments)"
+    ]
+  },
+  "primary_segment": "Complete cold-formed galvanized steel structural framing system for prefabricated low-to-mid-rise residential and commercial buildings",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Cold-formed galvanized steel structural framing system (LGSF) for prefabricated buildings",
+    "secondary_families": [],
+    "reason": "The MCAT name unambiguously refers to cold-formed steel structural framing technology; no sibling MCAT carves out an incompatible buyer profile or regulatory regime, and all product sub-types (profiles, panels, complete systems) share the same buyer, working principle, and compliance framework."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "LGSF",
+      "light gauge steel framing",
+      "light gauge steel frame",
+      "LGSF structure",
+      "LGSF construction",
+      "cold formed steel framing",
+      "light gauge steel framing system",
+      "LGFS",
+      "light gauge steel building",
+      "LGSF building system"
+    ],
+    "technical_synonyms": [
+      "cold-formed steel framing (CFS framing)",
+      "cold-formed thin gauge steel structure",
+      "light steel framing (LSF)",
+      "light gauge steel framed structure (LGFSS)",
+      "cold-rolled steel framing",
+      "thin gauge steel structural system",
+      "CFS structural framing",
+      "light gauge steel wall framing",
+      "steel stud framing system"
+    ],
+    "trade_names": [
+      "FrameCAD system",
+      "HabiNest (Tata Steel Nest-In)",
+      "EPACK LGSF",
+      "Stratus Steel LGSF",
+      "GalvaStrong LGSF profiles",
+      "Indue Prefab LGSF",
+      "Pressmach LGSF"
+    ],
+    "hindi_terms": [
+      "हल्के गेज स्टील फ्रेमिंग",
+      "प्रीफैब स्टील फ्रेम संरचना"
+    ],
+    "buyer_intent_queries": [
+      "LGSF structure manufacturers in India",
+      "light gauge steel framing system for residential construction",
+      "LGSF construction cost per square foot",
+      "cold formed steel framing system for prefab house",
+      "LGSF building system supplier India",
+      "light gauge steel frame house construction",
+      "LGSF structure for commercial building",
+      "galvanized steel light gauge framing system price",
+      "LGSF turnkey construction company India",
+      "light gauge steel framing for low rise building"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft (square foot)",
+    "unit_reasoning": "Indian LGSF suppliers and buyers transact on a per-sq-ft basis for complete systems and turnkey projects, consistent with the broader Indian construction market norm; profile-only suppliers may quote per kg or per running metre for raw sections, but the dominant B2B enquiry and transaction unit for the framing system is per sq ft of built-up area.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Complete LGSF building / turnkey project",
+        "unit": "per sq ft",
+        "note": "Standard Indian construction quoting norm; confirmed by multiple Indian manufacturer sites"
+      },
+      {
+        "sub_segment": "LGSF steel profiles / sections supply only",
+        "unit": "per kg or per running metre",
+        "note": "Profile-only suppliers may quote by weight or linear length of section"
+      },
+      {
+        "sub_segment": "LGSF modular building panels",
+        "unit": "per panel or per sq ft",
+        "note": "Pre-assembled panels may be quoted per panel unit or per sq ft of panel area"
+      }
+    ],
+    "sources_checked": [
+      "EPACK Prefab (epack.in)",
+      "Pressmach (pressmach.com)",
+      "Stratus Steel (stratus-steel.com)",
+      "Nestin / Tata Steel HabiNest (nestin.co.in)",
+      "IndiaMART MCAT page (application signals only)",
+      "Google keyword data (lgsf structure cost per square foot)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Light Gauge Steel Framing (LGSF) is an emerging-to-mainstream construction technology in India, based on cold-formed galvanized steel sections manufactured off-site and assembled on-site without welding. The technology is validated in India through BMTPC Performance Appraisal Certificates (PAC) and must comply with BIS standards for load, seismic (IS:1893), and wind resistance parameters. The residential end-use segment dominates the Indian market (approximately 44% share), driven significantly by government affordable housing schemes including Pradhan Mantri Awas Yojana (PMAY); commercial end-use is the fastest-growing segment. The market is bifurcated by frame type: wall-bearing frames (dominant, suited for low-rise residential), skeleton frames (growing, suited for multi-storey commercial and industrial), and long-span frames (industrial applications). Key Indian manufacturers include EPACK Prefab, Stratus Steel, GalvaStrong (Mitsumi Housing), Indue Prefab, Pressmach, and Tata Steel's Nest-In (HabiNest brand), operating FrameCAD roll-forming lines. Standard section sizes in the Indian market are 89mm and 150mm profiles; galvanizing specification is typically 120–275 GSM with 0.8–3mm base metal thickness. The system is positioned as an RCC/brick masonry alternative offering construction speeds up to 3x faster, 70–80% lighter dead weight, and suitability for seismic and high-wind zones. The abbreviation LGSF is the dominant buyer-facing term in India; LGFS (transposed) also appears in search data. British Standard BS 5950-05 and Indian Standards are both referenced in BMTPC technical documentation for design compliance.",
+  "buyer_attracting_attributes": [
+    "Steel thickness (gauge) and base metal thickness (mm)",
+    "Galvanizing coating weight (GSM)",
+    "Section size / profile dimensions (89mm, 150mm, etc.)",
+    "Seismic zone and wind zone compliance",
+    "Number of floors / storey height supported (G+1, G+3, G+4+)",
+    "Steel grade / tensile strength",
+    "BMTPC PAC certification / BIS compliance",
+    "Turnkey vs supply-only offering",
+    "Construction speed / project timeline",
+    "Fire resistance rating"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "410918",
+    "mcat_name": "Light Gauge Framing System",
+    "mcat_level": "4",
+    "listing_count": "350",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Light Gauge Framing System",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35592.0",
+      "name": "Prefabricated Structures",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35592.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20474",
+        "mcat_name": "Prefabricated Steel Buildings",
+        "listing_count": "8194",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21344",
+        "mcat_name": "Agricultural Greenhouses",
+        "listing_count": "2151",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21649",
+        "mcat_name": "Agricultural Buildings",
+        "listing_count": "128",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "29816",
+        "mcat_name": "Greenhouse",
+        "listing_count": "5282",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33188",
+        "mcat_name": "Modular Buildings",
+        "listing_count": "917",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35398",
+        "mcat_name": "Portable Buildings",
+        "listing_count": "1196",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35589",
+        "mcat_name": "Prefabricated Buildings",
+        "listing_count": "27038",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35592",
+        "mcat_name": "Prefabricated Structures",
+        "listing_count": "14394",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38214",
+        "mcat_name": "Storage Buildings",
+        "listing_count": "939",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "39565",
+        "mcat_name": "Temporary Buildings",
+        "listing_count": "149",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42328",
+        "mcat_name": "Modular Tensile Structure",
+        "listing_count": "2417",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "50762",
+        "mcat_name": "Tensile Structures",
+        "listing_count": "9089",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88197",
+        "mcat_name": "Prefabricated Metal Building",
+        "listing_count": "901",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116157",
+        "mcat_name": "Mini Greenhouse",
+        "listing_count": "1433",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121067",
+        "mcat_name": "Aluminium Structure",
+        "listing_count": "9342",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135787",
+        "mcat_name": "Tensile Membrane Structures",
+        "listing_count": "2683",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135861",
+        "mcat_name": "Auditorium Tensile Structure",
+        "listing_count": "598",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136011",
+        "mcat_name": "Gazebo Tensile Structure",
+        "listing_count": "1508",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "148110",
+        "mcat_name": "Pre Engineered Building Structure",
+        "listing_count": "9886",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149713",
+        "mcat_name": "Polyhouse",
+        "listing_count": "3245",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154059",
+        "mcat_name": "Prefabricated School Building",
+        "listing_count": "828",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158767",
+        "mcat_name": "Greenhouse Structure",
+        "listing_count": "813",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159520",
+        "mcat_name": "Prefabricated Hospitals",
+        "listing_count": "213",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "160350",
+        "mcat_name": "Mist Chamber",
+        "listing_count": "121",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166277",
+        "mcat_name": "Naturally Ventilated Greenhouse",
+        "listing_count": "1661",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166432",
+        "mcat_name": "Prefabricated Warehouse",
+        "listing_count": "5064",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168374",
+        "mcat_name": "Heavy Structural Fabrications",
+        "listing_count": "2495",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168445",
+        "mcat_name": "MS Structure Services",
+        "listing_count": "2407",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "178587",
+        "mcat_name": "Prefabricated Industrial Buildings",
+        "listing_count": "5964",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "179245",
+        "mcat_name": "Prefabricated Labor Colony",
+        "listing_count": "1480",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181553",
+        "mcat_name": "Pre Engineered Steel Building",
+        "listing_count": "1594",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "216129",
+        "mcat_name": "RCC Labour Quarter",
+        "listing_count": "549",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315645",
+        "mcat_name": "Prefabricated Walls",
+        "listing_count": "105",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "444552",
+        "mcat_name": "Prefabricated Isolation Ward",
+        "listing_count": "218",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Light gauge framing is a structural building material subject to Indian Standards (BIS IS:801, IS:1893). Buyers evaluate by grade, thickness, coating, and structural compliance. Standard B2B research into material specs, manufacturing standards, and prefab assembly patterns required."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Top keywords by Impressions confirmed LGSF acronym dominance, per-sq-ft unit quoting intent, and manufacturer discovery as primary buyer journeys."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "89mm LGSF keyword confirmed section size as buyer-relevant spec; galvanized steel LGSF keyword confirmed coating as key attribute."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "alt_names.primary_keywords"
+        ],
+        "citation_note": "Two call rows confirmed buyers use LGSF acronym and think in terms of complete framework/materials system, not individual profiles."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings_count"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed LGSF sits under Prefabricated Structures; 34 siblings noted for vagueness assessment; listing_count 350 treated as plausible."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://bmtpc.org/DataFiles/CMS/file/PDF_Files/TP_08_LGSS_small.pdf",
+        "title": "TECHNOLOGY PROFILE Light Gauge Steel Framed Structures (LGSF) — BMTPC",
+        "source_domain": "bmtpc.org",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.long",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for BMTPC PAC certification context, cold-formed section description, and Indian Standards compliance references."
+      },
+      {
+        "url": "https://bmtpc.org/DataFiles/CMS/file/PDF_Files/28_PACS_%20LGFSS.pdf",
+        "title": "Light Gauge Framed Steel Structure — BMTPC PACS Certificate",
+        "source_domain": "bmtpc.org",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for BMTPC PAC certification details, Indian Standards and BS 5950-05 compliance, and structural design parameters."
+      },
+      {
+        "url": "https://www.epack.in/light-gauge-steel-framing",
+        "title": "Light Gauge Steel Framing Supplier | LGSF Structures Manufacturer — EPACK Prefab",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "mcat_description.short",
+          "mcat_description.product_types",
+          "market_context",
+          "unit_quoting_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for cold-formed steel section description, off-site fabrication model, corrosion resistance, seismic/wind compliance, and per-sq-ft unit quoting confirmation."
+      },
+      {
+        "url": "https://www.grandviewresearch.com/industry-analysis/india-light-gauge-steel-framing-market-report",
+        "title": "India Light Gauge Steel Framing Market Size Report, 2030 — Grand View Research",
+        "source_domain": "grandviewresearch.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for residential segment dominance (44% share), PMAY government scheme adoption, commercial fastest-growing CAGR, and frame type segmentation (wall-bearing, skeleton, long-span)."
+      },
+      {
+        "url": "https://indueprefab.com/light-gauge-steel-framing-lgsf-technology/",
+        "title": "Light Gauge Steel Frame Buildings in India | LGSF Technology — Indue Prefab",
+        "source_domain": "indueprefab.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for galvanized steel sheet thickness range (1–3mm), GSM coating context, seismic/wind zone suitability, and drywall system description."
+      },
+      {
+        "url": "https://stratus-steel.com/",
+        "title": "Home — Stratus Steel Manufacturer of LGSF",
+        "source_domain": "stratus-steel.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "alt_names.trade_names",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for 89mm and 150mm section size confirmation, FrameCAD machine reference, manufacturing hub locations (Chandigarh, Pune), and mid-rise building capability."
+      },
+      {
+        "url": "https://www.nestin.co.in/habinest",
+        "title": "HabiNest — Light Gauge Steel Framing (LGSF) & Modular Buildings — Tata Steel Nest-In",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "market_context",
+          "alt_names.trade_names",
+          "buyer_attracting_attributes",
+          "mcat_description.long"
+        ],
+        "citation_note": "Used for GSM specification (120–275 GSM), base metal thickness (0.8–1.2mm), construction speed (1/3rd conventional time), and HabiNest trade name."
+      },
+      {
+        "url": "https://galvastrong.com/",
+        "title": "Welcome to GalvaStrong Manufacturer of LGSF Steel Profiles",
+        "source_domain": "galvastrong.com",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "market_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for LGSF steel profiles as a distinct product type, FrameCAD machine reference, and load-bearing technology description."
+      },
+      {
+        "url": "https://www.pressmach.com/solution/lgsf",
+        "title": "LGSF Building | LGSF Construction in India — Pressmach",
+        "source_domain": "pressmach.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "alt_names.trade_names",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for application types (prefab homes, model flats, educational institutions) and cold-formed galvanized steel framing description."
+      },
+      {
+        "url": "https://www.nestin.co.in/nest-in-blog/nest-in/faster-stronger-greener-accelerating-construction-timelines-lgsf",
+        "title": "Faster, Stronger, Greener: Accelerating Construction Timelines With LGSF — Tata Steel Nest-In",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for 3x faster construction claim (Tata Steel Nest-In), off-site prefabrication model, and reduced foundation requirements."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "IS:801",
+        "IS:1893"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Light gauge framing is a structural building material subject to Indian Standards (BIS IS:801 for steel structures, IS:1893 for seismic design). Buyers evaluate by grade, thickness, coating, and structural compliance rather than brand. Standard B2B research into material specs, manufacturing standards, and prefab assembly patterns is needed."
+    }
+  }
+}
