@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Cabin' directly matches the top primary keyword and is the dominant search term used by buyers and manufacturers in the Indian B2B market, as confirmed by Agent 3 alt_names and market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail clearly shows a steel-framed portable cabin with GI/metal panel construction, white-and-red livery, windows, and a door — accurately representing the primary segment of construction site office/worker accommodation cabins.",
+      "Improvement is possible: the image has a plain grey background and modest resolution; a cleaner white background with sharper detail and a PUF sandwich panel cabin (the dominant commercial variant) would better represent the highest-volume product type."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A portable prefabricated site office cabin with steel frame and white PUF sandwich panel walls, red base trim, two aluminium-framed windows with grilles, and a single metal door with handle, placed on a clean white background, three-quarter front view, soft studio lighting, sharp product photography style, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
