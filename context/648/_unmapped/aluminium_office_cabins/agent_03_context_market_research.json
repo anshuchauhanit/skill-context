@@ -1,0 +1,591 @@
+{
+  "mcat_description": {
+    "short": "Aluminium office cabins are prefabricated or modular workspace enclosures built with aluminium framing and cladding (often with glass panels), sold as complete units or quoted per square foot for custom-fabricated installations. They serve as portable site offices, executive cabins, and partitioned workspaces in commercial and industrial settings across India.",
+    "long": "Aluminium office cabins are self-contained workspace structures fabricated using aluminium section frames, aluminium/glass composite wall panels, and powder-coated or colour-coated finishes, designed for rapid installation and relocation. In the Indian market, two dominant commercial forms coexist: (1) modular aluminium-and-glass partition cabins installed within existing buildings as enclosed office spaces, and (2) portable prefabricated cabins with aluminium cladding used as standalone site offices, security posts, or temporary workspaces at construction sites and industrial premises. Key technical parameters include frame section thickness (typically 1.5–3 mm aluminium profile), glass thickness (3–6 mm tinted or clear), wall panel type (aluminium sheet, ACP, or aluminium-glass composite), insulation (glass wool or PUF), and overall cabin dimensions. Buyers range from construction companies and real estate developers procuring site offices to corporate facilities managers fitting out interior workspaces, with fabrication-and-installation typically handled by local aluminium fabricators or prefab cabin manufacturers.",
+    "product_types": [
+      "Modular aluminium-and-glass office cabin (interior partition type)",
+      "Portable prefabricated aluminium office cabin (standalone/site office type)",
+      "Aluminium composite panel (ACP) cladded portable cabin",
+      "Powder-coated aluminium office cabin",
+      "Foldable/collapsible aluminium office cabin",
+      "Aluminium-frame glass cabin (full-glass or semi-glass)",
+      "Aluminium office cabin partition (open-plan divider type)",
+      "PVC-aluminium hybrid office cabin",
+      "Rooftop aluminium office cabin",
+      "Custom-fabricated aluminium office cabin (bespoke dimensions)"
+    ],
+    "primary_applications": [
+      "Site office at construction and infrastructure project sites",
+      "Executive or manager cabin within factory or warehouse floor",
+      "Security guard cabin / watchman cabin at industrial premises",
+      "Temporary office space at real estate sales sites",
+      "Partitioned workspace within open-plan commercial offices",
+      "Portable office at remote or rural worksites",
+      "Toll booth or entry/exit control cabin",
+      "Educational institution administrative cabin",
+      "Retail kiosk or commercial display cabin"
+    ],
+    "buyer_segments": [
+      "Construction companies and real estate developers (site office procurement)",
+      "Industrial facility managers (factory floor cabin partitioning)",
+      "Corporate facilities and admin teams (interior office cabin fit-out)",
+      "Government and PSU project offices (portable site infrastructure)",
+      "Aluminium fabricators and contractors (supply-and-install)",
+      "Educational institutions (administrative space)",
+      "Retail and commercial establishments (kiosk/cabin fit-out)"
+    ]
+  },
+  "primary_segment": "Modular aluminium-and-glass office cabin for interior workspace partitioning and site office use",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Modular aluminium-and-glass office cabin — interior partition or standalone portable site office structure",
+    "secondary_families": [
+      "Aluminium office cabin partition only (non-structural interior divider panel system, not a full enclosed cabin)",
+      "Portable cabin with aluminium cladding but steel/MS primary structure (aluminium is secondary material, not the frame)"
+    ],
+    "reason": "The MCAT name attracts two structurally incompatible product families: (1) true aluminium-framed modular cabins (full enclosed workspace), and (2) aluminium partition panel systems that are interior dividers — not cabins — with a different buyer intent, installation method, and price tier; additionally, many listings under this MCAT are MS/steel-frame portable cabins with only aluminium windows or cladding, which belong under sibling MCATs (Portable Cabin / MS Porta Cabin), creating persistent contamination."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "aluminium office cabin",
+      "aluminium cabin",
+      "modular aluminium cabin",
+      "aluminium office cabin prefab",
+      "aluminium fabrication office cabin",
+      "portable aluminium office cabin",
+      "aluminium glass office cabin",
+      "aluminium modular office cabin",
+      "aluminum office cabin",
+      "aluminum cabin"
+    ],
+    "technical_synonyms": [
+      "aluminium section office cabin",
+      "aluminium profile office cabin",
+      "aluminium composite panel cabin",
+      "ACP office cabin",
+      "powder coated aluminium cabin",
+      "colour coated aluminium cabin",
+      "aluminium frame glass cabin",
+      "prefabricated aluminium workspace"
+    ],
+    "trade_names": [
+      "aluminium porta cabin",
+      "aluminium prefab cabin",
+      "aluminium site office",
+      "aluminium portable office",
+      "aluminium office enclosure",
+      "aluminium cabin partition"
+    ],
+    "hindi_terms": [
+      "एल्युमिनियम ऑफिस केबिन",
+      "एल्युमिनियम केबिन",
+      "एल्युमिनियम दफ्तर केबिन"
+    ],
+    "buyer_intent_queries": [
+      "aluminium office cabin price per sq ft",
+      "modular aluminium office cabin for site office",
+      "aluminium glass cabin for office partition",
+      "portable aluminium cabin for construction site",
+      "aluminium office cabin manufacturer near me",
+      "aluminium cabin for factory office",
+      "prefabricated aluminium office cabin with glass",
+      "foldable aluminium office cabin price",
+      "aluminium office cabin cost per square foot India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian aluminium office cabin sellers overwhelmingly quote on a per-square-foot basis for custom-fabricated and modular units, reflecting the variable dimensions of each installation; fixed-size portable cabins may also be quoted per piece or per unit, but per sq ft is the dominant transactional unit across the market.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Custom-fabricated modular aluminium cabin (interior fit-out)",
+        "unit": "per sq ft",
+        "note": "Quoted per sq ft of cabin floor area or wall panel area; most common unit in IndiaMART listings and fabricator quotes"
+      },
+      {
+        "sub_segment": "Portable prefabricated aluminium cabin (fixed size, standalone)",
+        "unit": "per piece / per unit",
+        "note": "Standard-dimension portable cabins (e.g. 10x10 ft, 10x20 ft) may be quoted per piece with a fixed total price"
+      },
+      {
+        "sub_segment": "Aluminium cabin partition panels",
+        "unit": "per sq ft",
+        "note": "Partition-only products quoted per sq ft of panel area"
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART MCAT listing tiles (structural signal only)",
+      "ssvaluminiumworks.com (manufacturer price page — per sq ft dominant)",
+      "rajatfabrication.com (manufacturer site)",
+      "aryaaluminium.com (modular cabin product page)",
+      "World knowledge — Indian B2B aluminium fabrication quoting norms"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, 'aluminium office cabin' refers to two overlapping but distinct product concepts: (1) modular aluminium-and-glass partition cabins installed within existing commercial or industrial buildings as enclosed manager/executive workspaces, fabricated and installed by local aluminium fabricators; and (2) portable prefabricated cabins with aluminium section framing and cladding used as standalone site offices, security cabins, or temporary workspaces at construction sites and remote locations. The modular interior cabin type dominates keyword search volume and call data, with buyers typically specifying dimensions, glass thickness (3–6 mm), frame profile thickness, and finish (powder-coated, colour-coated, or anodised). The portable site office type is closely related to the broader 'Portable Cabin' and 'MS Porta Cabin' sibling MCATs — a significant contamination risk, as many portable cabins listed here use MS/steel primary structures with only aluminium windows or ACP cladding. Aluminium composite panel (ACP) cladded cabins represent a premium sub-segment used by real estate developers as sales site offices. BIS certification applies to aluminium raw material (IS 733, IS 1285 for aluminium alloy sections) but there is no specific BIS standard for the assembled cabin product; quality signals buyers look for include ISI-marked electrical wiring, powder-coat finish quality, and glass specification. Manufacturing hubs are concentrated in Delhi-NCR, Mumbai, Hyderabad, Pune, and Ahmedabad. Pricing is universally quoted per sq ft for custom work; fixed-dimension portable units may be quoted per piece.",
+  "buyer_attracting_attributes": [
+    "Cabin Dimensions (length × width × height)",
+    "Frame Material and Profile Thickness (mm)",
+    "Glass Type and Thickness (mm)",
+    "Wall Panel Type (aluminium sheet / ACP / glass / PVC)",
+    "Surface Finish (powder coated / colour coated / anodised)",
+    "Insulation Type (glass wool / PUF / none)",
+    "Built Type (modular / prefab / portable / foldable)",
+    "Door and Window Style (sliding / hinged / frameless)",
+    "Colour / Colour Options",
+    "Certifications and Electrical Fittings (ISI wiring, MCB, earthing)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "185339",
+    "mcat_name": "Aluminium Office Cabins",
+    "mcat_level": "4",
+    "listing_count": "1740",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Aluminium Office Cabins",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35400.0",
+      "name": "Portable Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35400.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "32980",
+        "mcat_name": "Office Cabin",
+        "listing_count": "6818",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35057",
+        "mcat_name": "Portable Classrooms",
+        "listing_count": "736",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35400",
+        "mcat_name": "Portable Cabin",
+        "listing_count": "13877",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38456",
+        "mcat_name": "Telephone Booths",
+        "listing_count": "419",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42755",
+        "mcat_name": "Security Cabins",
+        "listing_count": "4207",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43789",
+        "mcat_name": "Wooden Cabins",
+        "listing_count": "665",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43790",
+        "mcat_name": "Mobile Cabins",
+        "listing_count": "613",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "56012",
+        "mcat_name": "Glass Cabin",
+        "listing_count": "1247",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96540",
+        "mcat_name": "Office Container",
+        "listing_count": "21197",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96541",
+        "mcat_name": "Mobile Containers",
+        "listing_count": "2044",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "111378",
+        "mcat_name": "Smoking Cabin",
+        "listing_count": "192",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119140",
+        "mcat_name": "Container Conversion Service",
+        "listing_count": "68",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121149",
+        "mcat_name": "FRP Cabin",
+        "listing_count": "1604",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135704",
+        "mcat_name": "Portable Kitchen",
+        "listing_count": "457",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135705",
+        "mcat_name": "Portable Security Cabins",
+        "listing_count": "6233",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135712",
+        "mcat_name": "Prefabricated Cabin",
+        "listing_count": "6259",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135797",
+        "mcat_name": "Toll Booth",
+        "listing_count": "853",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135966",
+        "mcat_name": "Eco Portable Cabins",
+        "listing_count": "436",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136204",
+        "mcat_name": "Prefabricated Accommodation",
+        "listing_count": "1321",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145135",
+        "mcat_name": "FRP Portable Security Cabin",
+        "listing_count": "1727",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149768",
+        "mcat_name": "Portable Dressing Room",
+        "listing_count": "358",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150360",
+        "mcat_name": "Portable Log Cabins",
+        "listing_count": "220",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150362",
+        "mcat_name": "Portable Pantry",
+        "listing_count": "142",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150852",
+        "mcat_name": "MS Porta Cabin",
+        "listing_count": "9337",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150853",
+        "mcat_name": "MS Security Cabins",
+        "listing_count": "1334",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154082",
+        "mcat_name": "Wooden Guard Room",
+        "listing_count": "111",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159318",
+        "mcat_name": "GRP Cabin",
+        "listing_count": "55",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "165827",
+        "mcat_name": "Modular Portable Cabin",
+        "listing_count": "3118",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167809",
+        "mcat_name": "PUF Cabin",
+        "listing_count": "1376",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181546",
+        "mcat_name": "PVC Portable Cabin",
+        "listing_count": "407",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181975",
+        "mcat_name": "Prefabricated Security Cabin",
+        "listing_count": "1156",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185338",
+        "mcat_name": "GI Portable Cabin",
+        "listing_count": "2393",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "188230",
+        "mcat_name": "Portable ATM Cabin",
+        "listing_count": "130",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "207959",
+        "mcat_name": "Frisking Booth",
+        "listing_count": "168",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Aluminium office cabins are prefabricated modular structures with technical specs and installation patterns that vary by supplier. No single regulatory body or dominant brand anchors the category. Standard B2B research into supplier portfolios and material standards will surface product variants and buyer expectations."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Top keywords by Impressions confirmed 'aluminium office cabin', 'aluminium cabin', 'aluminium fabrication office cabin', and 'price per sq ft' as dominant buyer search terms; per sq ft unit confirmed from keyword 'aluminium office cabin price per sq ft'."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.hindi_terms",
+          "primary_segment"
+        ],
+        "citation_note": "Top internal keywords confirmed 'aluminium office cabins' and 'aluminium office cabin' as dominant on-platform search terms; 'aluminium glass office cabin' and 'modular aluminium office cabin' observed as sub-type signals; Hindi term 'एल्युमिनियम ऑफिस केबिन' inferred from IndiaMART Delhi page title."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Call data confirmed buyer vocabulary: 'Aluminium Office Cabin', 'Aluminum Cabin', 'Aluminum Frame Office Cabin', 'Aluminum Room (Office)' — no spec values provided in call rows. Size signals ('Big', 'Small') noted as buyer dimension intent."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT sits under Prefabricated Structures parent. 34 siblings noted — sibling MCATs (Portable Cabin, MS Porta Cabin) identified as contamination risk for vagueness assessment. Listing count 1740 treated as plausible given active market."
+      },
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [
+          "listing tiles",
+          "related category links",
+          "product types"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "listing_count_suspect"
+        ],
+        "citation_note": "IndiaMART Delhi and national pages used for structural signals only: related categories (Office Container, Portable Cabin, Office Cabin, Prefabricated Cabin), frame thickness (2.5 mm observed), built type (modular/prefab). NOT used for primary_segment or market claims. Page fetch of primary product_page_url failed (no URL provided); IndiaMART search result pages used as structural proxy."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://rajatfabrication.com/aluminium-office-cabin-manufacturer-in-delhi/",
+        "title": "Aluminium Office Cabin Manufacturer in Delhi | Rajat Fabrication",
+        "source_domain": "rajatfabrication.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for product type signals: modular designs, prefabricated options, customisable solutions; features including sound insulation and ergonomic design confirmed."
+      },
+      {
+        "url": "https://www.aryaaluminium.com/modular-aluminium-office-cabin-5340296.html",
+        "title": "Modular Aluminium Office Cabin at Best Price in Ghaziabad",
+        "source_domain": "aryaaluminium.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed modular aluminium-and-glass cabin with 3–6 mm glass thickness as a key spec dimension; confirmed office-use primary application."
+      },
+      {
+        "url": "https://www.birlacabins.in/ms-portable-office-cabin.html",
+        "title": "MS Portable Office Cabin - Modular Portable Cabin Service Provider from Raigad",
+        "source_domain": "birlacabins.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed aluminium sliding powder-coated windows with 4 mm tinted glass as standard spec; ISI-marked electrical wiring as quality signal; glass wool insulation (25 mm walls, 50 mm roof) as insulation spec."
+      },
+      {
+        "url": "https://www.perfectprefabsystems.in/portable-cabin.html",
+        "title": "Portable Cabin - Portable Site Office Manufacturer from New Delhi",
+        "source_domain": "perfectprefabsystems.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Confirmed aluminium office cabin as a distinct product type alongside MS porta cabins; confirmed custom fabrication to buyer specifications as standard practice."
+      },
+      {
+        "url": "https://portacabingujrat.com/specification",
+        "title": "Analyzing the Production process before manufacturing the Cabin",
+        "source_domain": "portacabingujrat.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed structural specs: door dimensions (6'×3'), ISI-marked PVC conduit wiring, MCB protection, glass wool insulation; confirmed Gujarat/Maharashtra/Rajasthan as active manufacturing/supply regions."
+      },
+      {
+        "url": "https://www.hayajamiportacabins.com/aluminum-composite-panels-porta-cabins.html",
+        "title": "Aluminum Composite Panels Porta Cabins - ACP Porta Cabins Manufacturer from Mumbai",
+        "source_domain": "hayajamiportacabins.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Confirmed ACP (aluminium composite panel) cladded cabin as a distinct premium sub-type; confirmed builder/construction company use case for real estate sales site offices."
+      },
+      {
+        "url": "https://www.certification-india.com/en/new-indian-regulation-on-bis-certification-for-aluminum-and-aluminum-alloys-2023/",
+        "title": "New Indian Regulation on BIS Certification for Aluminum and Aluminum Alloys 2023",
+        "source_domain": "certification-india.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed BIS/ISI certification applies to aluminium raw material (alloys and sections) under Indian regulations; no specific BIS standard for assembled cabin product confirmed."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Aluminium office cabins are prefabricated modular structures with technical specs (dimensions, material gauge, insulation, load capacity) and installation patterns that vary by supplier. No single regulatory body or dominant brand anchors the category — buyers evaluate on customisation, durability, and cost. Standard B2B research into supplier portfolios and material standards (IS codes for aluminium, structural design) will surface product variants and buyer expectations."
+    }
+  }
+}
