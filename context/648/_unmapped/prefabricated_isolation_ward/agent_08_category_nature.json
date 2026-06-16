@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: product scope is tightly bounded to prefabricated modular structures for infectious disease patient isolation in healthcare settings; all product_types (single-room cabin, multi-bed ward, container-based mobile hospital, negative pressure room) share the same buyer archetype (hospital administrators, government health departments, EPC contractors) and the same compliance framework (healthcare facility construction, HVAC/HEPA, fire rating).",
+    "is_vague: 0 of 5 signals fire — 'Prefabricated Isolation Ward' resolves unambiguously to one product concept; Agent 3 named a confident unhedged primary_segment; all buyer_intent_queries cluster around the same healthcare infrastructure procurement context; no sibling MCAT carves out a sub-type with an incompatible buyer profile or regulatory regime."
+  ]
+}
