@@ -1,0 +1,621 @@
+{
+  "mcat_description": {
+    "short": "Modular buildings are factory-manufactured prefabricated structures assembled on-site from individual modules, sold as complete units or turnkey building systems for residential, commercial, and industrial applications.",
+    "long": "Modular buildings are engineered structures where individual modules — complete with walls, floors, roofing, and pre-installed services — are manufactured in a controlled factory environment and transported to site for rapid assembly. In the Indian market, they span a wide range from portable steel-frame cabins and site offices to multi-storey permanent residential and commercial buildings, with structural systems including steel frame, sandwich panel (PUF/EPS/rock wool core), prefabricated concrete, and hybrid composite construction. Key Indian standards governing design and erection include IS 15916:2011 (prefabricated concrete systems) and IS 15917:2010 (mixed/composite construction), with compliance also required under the National Building Code of India and local municipal regulations. Buyers value modular buildings for speed of deployment, cost predictability, relocatability, and scalability — with construction timelines reduced by 30–50% versus conventional RCC methods.",
+    "product_types": [
+      "Portable cabin / site office (steel frame, sandwich panel)",
+      "Modular labour camp / worker accommodation",
+      "Prefabricated modular home / residential building",
+      "Modular office building (permanent or relocatable)",
+      "Prefabricated terrace room / rooftop room extension",
+      "Modular industrial shed / warehouse",
+      "Modular classroom / school building",
+      "Modular healthcare facility / clinic / hospital unit",
+      "Container-based modular building",
+      "Modular security cabin / guard room",
+      "Modular toilet / sanitation block",
+      "Multi-storey modular building (volumetric 3D system)"
+    ],
+    "primary_applications": [
+      "Construction site offices and project management facilities",
+      "Labour and worker accommodation camps at infrastructure projects",
+      "Rooftop room extensions and terrace additions",
+      "Affordable and rapid residential housing",
+      "Industrial warehouses, factories, and manufacturing sheds",
+      "Modular classrooms and school buildings in rural and urban areas",
+      "Healthcare facilities, clinics, and isolation wards",
+      "Retail outlets, pop-up stores, and commercial spaces",
+      "Security cabins and guard rooms at industrial/commercial premises",
+      "Disaster relief and emergency shelter deployment"
+    ],
+    "buyer_segments": [
+      "Infrastructure and construction contractors (site offices, labour camps)",
+      "Real estate developers and housing project developers",
+      "Industrial and manufacturing companies (warehouses, sheds)",
+      "Government and PSU procurement (schools, healthcare, housing)",
+      "Individual homeowners (terrace rooms, residential extensions)",
+      "Hospitality and resort operators (cottages, staff quarters)",
+      "NGOs and humanitarian organisations (emergency shelters)",
+      "Educational institutions (modular classrooms, hostels)"
+    ]
+  },
+  "primary_segment": "Prefabricated modular building for commercial and industrial use — site offices, portable cabins, and labour accommodation",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Factory-built prefabricated modular structure assembled on-site for residential, commercial, or industrial use",
+    "secondary_families": [],
+    "reason": "All sub-types share the same working principle (factory-built modules, on-site assembly), the same B2B buyer profile, and the same regulatory framework (BIS/NBC); no sibling MCAT carves out an incompatible buyer or regulatory regime."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "modular buildings",
+      "prefabricated modular building",
+      "modular house",
+      "prefab building",
+      "portable cabin",
+      "prefabricated room on terrace",
+      "modular office",
+      "modular structure",
+      "prefab modular structure",
+      "readymade room for terrace"
+    ],
+    "technical_synonyms": [
+      "volumetric modular construction",
+      "panelised prefab building",
+      "sandwich panel building",
+      "PUF panel modular building",
+      "steel frame prefabricated structure",
+      "pre-engineered modular building",
+      "relocatable modular building",
+      "permanent modular construction (PMC)",
+      "off-site construction building",
+      "factory-built modular unit"
+    ],
+    "trade_names": [
+      "MobiNest (Tata Steel Nest-In)",
+      "Nestudio (Tata Steel Nest-In)",
+      "MODULI prefab homes",
+      "Pressmach modular buildings",
+      "Wedge India prefab",
+      "Modulex modular buildings"
+    ],
+    "hindi_terms": [
+      "prefabricated ghar",
+      "modular makaan",
+      "taiyar kamra (terrace ke liye)",
+      "portable cabin"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated room on terrace price",
+      "low cost modular house India",
+      "portable cabin for construction site",
+      "modular office building for factory",
+      "readymade room for terrace installation",
+      "prefab modular building manufacturer India",
+      "modular labour camp for infrastructure project",
+      "steel frame prefabricated building supplier",
+      "modular classroom for school project",
+      "sandwich panel modular building price India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per unit",
+    "unit_reasoning": "Modular buildings in India are primarily quoted per complete unit (cabin, building, or module) for standard configurations; custom multi-module projects are quoted per sq ft of built-up area or as a lump-sum per project.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Portable cabins / site offices",
+        "unit": "per unit",
+        "note": "Standard sizes (10x12 ft, 12x20 ft, etc.) quoted as complete units"
+      },
+      {
+        "sub_segment": "Custom residential / commercial buildings",
+        "unit": "per sq ft",
+        "note": "Larger custom structures quoted on built-up area basis"
+      },
+      {
+        "sub_segment": "Turnkey multi-module projects",
+        "unit": "per project",
+        "note": "Labour camps, institutional buildings quoted as complete turnkey contracts"
+      }
+    ],
+    "sources_checked": [
+      "noahinfra.in (modular construction types and costs)",
+      "wedge-india.com (prefab construction product pages)",
+      "kmstechnologies.co.in (modular buildings India)",
+      "nestin.co.in (Tata Steel Nest-In MobiNest product pages)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "The Indian modular construction market is a fast-growing segment of the prefabricated structures industry, driven by urbanisation, infrastructure development, and demand for faster, cost-predictable construction. Two independent market research sources (Grand View Research and IMARC Group) confirm strong growth: the market was valued at approximately USD 3.9 billion in 2025 and is projected to reach USD 8.3 billion by 2033 at a CAGR of approximately 9.9%. Permanent modular construction is the dominant segment by revenue (85.2% share in 2025), though relocatable/portable structures remain the most visible product type on B2B platforms. Key structural systems in the Indian market include steel-frame sandwich panel buildings (PUF/EPS/rock wool core), prefabricated concrete systems (governed by IS 15916:2011), mixed/composite construction (IS 15917:2010), and hybrid systems combining steel frames with precast concrete. Tata Steel's Nest-In (MobiNest) is a prominent branded player in the portable cabin and site office segment; other active manufacturers include MODULI, Pressmach, Wedge India, and KMS Technologies. Buyers in India distinguish between relocatable structures (portable cabins, site offices, labour camps — typically steel frame, lightweight) and permanent modular buildings (residential, commercial, institutional — heavier construction, BIS/NBC compliant). The Google keyword signal 'prefabricated room on terrace' (top impression-driving query) indicates a significant residential extension sub-segment unique to the Indian market. Compliance requirements include BIS codes (IS 15916, IS 15917), National Building Code of India, local municipal building permits, and fire safety clearances.",
+  "buyer_attracting_attributes": [
+    "Structural system / frame material (steel frame, sandwich panel, concrete)",
+    "Panel type and insulation core (PUF, EPS, rock wool)",
+    "Floor area / dimensions (sq ft or module size)",
+    "Number of floors / storeys",
+    "Portability / relocatability (permanent vs relocatable)",
+    "Thermal insulation rating",
+    "Fire rating / fire resistance",
+    "Seismic / wind load compliance (BIS/NBC standard)",
+    "Installation time",
+    "Customisation options (layout, finishes, services pre-installed)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "33188",
+    "mcat_name": "Modular Buildings",
+    "mcat_level": "4",
+    "listing_count": "917",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Modular Buildings",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35592.0",
+      "name": "Prefabricated Structures",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35592.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20474",
+        "mcat_name": "Prefabricated Steel Buildings",
+        "listing_count": "8194",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21344",
+        "mcat_name": "Agricultural Greenhouses",
+        "listing_count": "2151",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21649",
+        "mcat_name": "Agricultural Buildings",
+        "listing_count": "128",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "29816",
+        "mcat_name": "Greenhouse",
+        "listing_count": "5282",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35398",
+        "mcat_name": "Portable Buildings",
+        "listing_count": "1196",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35589",
+        "mcat_name": "Prefabricated Buildings",
+        "listing_count": "27038",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35592",
+        "mcat_name": "Prefabricated Structures",
+        "listing_count": "14394",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38214",
+        "mcat_name": "Storage Buildings",
+        "listing_count": "939",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "39565",
+        "mcat_name": "Temporary Buildings",
+        "listing_count": "149",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42328",
+        "mcat_name": "Modular Tensile Structure",
+        "listing_count": "2417",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "50762",
+        "mcat_name": "Tensile Structures",
+        "listing_count": "9089",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88197",
+        "mcat_name": "Prefabricated Metal Building",
+        "listing_count": "901",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116157",
+        "mcat_name": "Mini Greenhouse",
+        "listing_count": "1433",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121067",
+        "mcat_name": "Aluminium Structure",
+        "listing_count": "9342",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135787",
+        "mcat_name": "Tensile Membrane Structures",
+        "listing_count": "2683",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135861",
+        "mcat_name": "Auditorium Tensile Structure",
+        "listing_count": "598",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136011",
+        "mcat_name": "Gazebo Tensile Structure",
+        "listing_count": "1508",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "148110",
+        "mcat_name": "Pre Engineered Building Structure",
+        "listing_count": "9886",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149713",
+        "mcat_name": "Polyhouse",
+        "listing_count": "3245",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154059",
+        "mcat_name": "Prefabricated School Building",
+        "listing_count": "828",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158767",
+        "mcat_name": "Greenhouse Structure",
+        "listing_count": "813",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159520",
+        "mcat_name": "Prefabricated Hospitals",
+        "listing_count": "213",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "160350",
+        "mcat_name": "Mist Chamber",
+        "listing_count": "121",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166277",
+        "mcat_name": "Naturally Ventilated Greenhouse",
+        "listing_count": "1661",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166432",
+        "mcat_name": "Prefabricated Warehouse",
+        "listing_count": "5064",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168374",
+        "mcat_name": "Heavy Structural Fabrications",
+        "listing_count": "2495",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168445",
+        "mcat_name": "MS Structure Services",
+        "listing_count": "2407",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "178587",
+        "mcat_name": "Prefabricated Industrial Buildings",
+        "listing_count": "5964",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "179245",
+        "mcat_name": "Prefabricated Labor Colony",
+        "listing_count": "1480",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181553",
+        "mcat_name": "Pre Engineered Steel Building",
+        "listing_count": "1594",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "216129",
+        "mcat_name": "RCC Labour Quarter",
+        "listing_count": "549",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315645",
+        "mcat_name": "Prefabricated Walls",
+        "listing_count": "105",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "410918",
+        "mcat_name": "Light Gauge Framing System",
+        "listing_count": "350",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "444552",
+        "mcat_name": "Prefabricated Isolation Ward",
+        "listing_count": "218",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Modular buildings are engineered prefabricated structures evaluated on design specs, material standards (BIS IS:16711 for prefab), and customisation options — not brand-anchored. Agent 3 should research construction material standards, prefab industry practices, and modular design terminology."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Top Google query 'prefabricated room on terrace' (92 impressions, pos 2) identified rooftop room extension as a significant Indian-market sub-segment; used to populate buyer_intent_queries and product_types."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "'Modulex modular buildings' identified as a trade name signal; 'modular house' and 'modular buildings' confirmed as primary search terms."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Single call row for 'Modular House' with no spec detail — confirmed residential buyer intent; no specs extracted."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path under 'Prefabricated Structures — Houses, Sheds, Cabins, Portable Toilets & Greenhouses' confirmed broad MCAT scope; 34 siblings used in vagueness assessment; listing_count 917 treated as plausible."
+      },
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "Page URL was blank — fetch not attempted. page_fetch_failed set to true."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://law.resource.org/pub/in/bis/S03/is.15916.2011.pdf",
+        "title": "IS 15916 (2011): Building Design and Erection Using Prefabricated Concrete",
+        "source_domain": "law.resource.org (BIS standard)",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.long"
+        ],
+        "citation_note": "Used to confirm IS 15916:2011 as the primary BIS standard for prefabricated concrete building systems in India."
+      },
+      {
+        "url": "https://law.resource.org/pub/in/bis/S03/is.15917.2010.pdf",
+        "title": "IS 15917 (2010): Building Design and Erection Using Mixed/Composite Construction",
+        "source_domain": "law.resource.org (BIS standard)",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.long"
+        ],
+        "citation_note": "Used to confirm IS 15917:2010 as the BIS standard for mixed/composite prefabricated construction."
+      },
+      {
+        "url": "https://noahinfra.in/modular-construction-and-prefabricated-buildings-in-india-types-costs-and-benefits/",
+        "title": "Modular Construction | Prefabricated buildings | Types | Costs",
+        "source_domain": "noahinfra.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for product type enumeration (prefab homes, office sheds, multi-storey, industrial), applications, and construction time reduction claims."
+      },
+      {
+        "url": "https://www.grandviewresearch.com/horizon/outlook/modular-construction-market/india",
+        "title": "India Modular Construction Market Size & Outlook, 2033",
+        "source_domain": "grandviewresearch.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for market size (USD 3,924M in 2025, USD 8,324M by 2033, CAGR 9.9%) and permanent segment share (85.2%) — cross-validated with IMARC Group data."
+      },
+      {
+        "url": "https://www.imarcgroup.com/india-modular-construction-market",
+        "title": "India Modular Construction Market Size & Share, 2032",
+        "source_domain": "imarcgroup.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Second independent source confirming India modular construction market growth trajectory — cross-validates Grand View Research figures."
+      },
+      {
+        "url": "https://material360.co/blog/types-of-modular-construction-in-india",
+        "title": "Types of Modular Construction in India",
+        "source_domain": "material360.co",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for structural system types (steel frame, sandwich panel, concrete, hybrid, container-based), applications, and Tata Steel Nest-In MobiNest brand signal."
+      },
+      {
+        "url": "https://www.nestin.co.in/nest-in-blog/mobinest/types-of-modular-buildings-in-india",
+        "title": "5 Types of Modular Buildings in India — Tata Steel Nest-In",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "mcat_description.primary_applications",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Used for MobiNest/Nestudio trade names, application types (site offices, sanitation blocks, storage, guard rooms), and unit quoting context."
+      },
+      {
+        "url": "https://kmstechnologies.co.in/modular-buildings",
+        "title": "Modular Buildings in India | Prefabricated Structures",
+        "source_domain": "kmstechnologies.co.in",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for application list (site offices, worker accommodation, portable cabins, sanitation blocks, modular classrooms) and BIS compliance context."
+      },
+      {
+        "url": "https://www.wedge-india.com/prefab-construction",
+        "title": "Prefab Houses & Modular Building Construction | Wedge India",
+        "source_domain": "wedge-india.com",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for product type variants (villas, commercial buildings, industrial structures, healthcare/education), fireproof/earthquake-resistant panel attributes, and Wedge India trade name."
+      },
+      {
+        "url": "https://www.fluidconstructions.com/construction/modular-construction-in-india-opportunities-challenges/",
+        "title": "Modular Construction in India: Opportunities & Challenges",
+        "source_domain": "fluidconstructions.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for relocatable building characteristics, buyer segments (temporary housing, clinics, commercial spaces), and market growth drivers."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "NFDC",
+        "Local Building Codes"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Modular buildings are engineered prefabricated structures evaluated on design specs, material standards (BIS IS:16711 for prefab), and customisation options — not brand-anchored. Agent 3 should research construction material standards, prefab industry practices, and modular design terminology."
+    }
+  }
+}
