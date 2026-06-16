@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'MS Porta Cabin' directly matches the dominant primary keyword and trade name used by buyers and sellers in the Indian market, as confirmed by Agent 3 alt_names (primary_keywords: 'ms porta cabin', 'porta cabin') and market_context identifying it as the material-specific sub-category label.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail shows a clearly identifiable MS porta cabin unit with white corrugated GI sheet cladding, navy blue base skirt, double-door entry, and ventilation windows — accurately representing the primary segment of mild steel framed prefabricated portable cabin for construction site office and labour accommodation.",
+      "Improvement is possible: the image has a plain white background which is acceptable, but the cabin is shown in a slightly oblique low-angle perspective with no contextual site setting or visible MS structural frame details; a cleaner 3/4-angle shot with slightly warmer lighting and a subtle construction-site context would better communicate the product's B2B utility to buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square product image of a mild steel prefabricated portable cabin (MS porta cabin) for construction site office use. The cabin is approximately 10x20 ft, with white corrugated GI sheet exterior cladding, a navy blue or dark grey MS base frame skirt, two glazed aluminium windows on the long side, a single steel door with handle, and a slight roof overhang. The cabin sits on a flat surface with a soft blurred construction site background (earth, scaffolding) suggesting field deployment. Three-quarter front-left perspective, natural daylight, clean professional product photography style, sharp focus on the cabin, no text overlays, no seller watermarks. Bottom-right corner: white 'IndiaMART AI' text in a dark semi-transparent pill badge, 10-12px equivalent, 60-70% opacity.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
