@@ -1,0 +1,107 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in PEB contracting services — market is served by regional turnkey contractors and erection subcontractors; buyers search by capability, track record, and geography, not contractor brand name.",
+      "reason": "PEB construction is a high-value, project-based service where the seller IS the product — buyers evaluate contractor credentials, past project portfolio, technical capability, and financial standing before any other signal. An unknown contractor with the right specs is still unusable for a crore-plus project."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Service type (turnkey vs erection-only vs design-build), structure type, and material grade are primary shortlisting gates — a buyer seeking a turnkey industrial warehouse contractor will not engage with a fabrication-only or civil-only listing regardless of price or company credentials."
+    },
+    {
+      "rank": 3,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Completed project photos serve as the portfolio proxy — buyers use images to verify the contractor has built structures of comparable scale, type, and quality. A listing with no project photos signals an inexperienced or unverifiable contractor, causing immediate skip in a high-stakes procurement."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every PEB project is uniquely scoped and quoted as a lump-sum or per-sq-ft estimate; no fixed list price exists. Indicative pricing helps buyers perform a budget sanity check but final price is always negotiated after site visit and detailed scope definition."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per project (lump sum)",
+      "unit_note": "Secondary units exist — per sq ft for shed construction benchmarking, per MT for erection-only contracts — but unit is always clarified during project scoping, not at listing-scan stage. No buyer confusion arises from unit absence on the listing tile.",
+      "reason": "Project-based pricing means no per-unit price is displayed; unit ambiguity cannot arise at the listing level and is resolved during project scoping conversations."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Service Type",
+        "reason": "Defines what the contractor actually delivers — Turnkey Project, Erection Only, Design and Build, or Fabrication Only are non-interchangeable service scopes with fundamentally different project values, team requirements, and buyer eligibility; a buyer cannot substitute one for another."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Type",
+        "reason": "Defines the physical output being constructed — Industrial Shed, Warehouse, Cold Storage, Multi Storey, Mezzanine Floor — each requires different engineering, load calculations, and compliance standards, driving significant variation in project cost and contractor specialisation."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Built Type",
+      "Frame Material",
+      "Insulation",
+      "Material Grade",
+      "Roof Type",
+      "Service Type",
+      "Sheet Thickness",
+      "Structure Type",
+      "Surface Finish"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Span / Clear Span",
+        "why_important": "Clear span width is the primary structural design driver for PEB — it determines column-free interior space, primary frame sizing, and steel tonnage, making it the single most buyer-relevant dimensional spec for warehouse and industrial shed procurement.",
+        "source": "both",
+        "example_values": [
+          "Up to 20m",
+          "20–30m",
+          "30–50m",
+          "Above 50m"
+        ]
+      },
+      {
+        "spec_name": "Project Execution Capacity (MT / sq ft)",
+        "why_important": "Institutional and large industrial buyers shortlist contractors by their proven execution scale — a contractor who has only built 500 MT structures cannot be shortlisted for a 5,000 MT project, making capacity a primary qualification gate.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "Up to 500 MT",
+          "500–2000 MT",
+          "2000–5000 MT",
+          "Above 5000 MT"
+        ]
+      },
+      {
+        "spec_name": "Foundation / Civil Works Included",
+        "why_important": "Whether civil foundation works (RCC footings, anchor bolt setting, grade slab) are included in scope is a critical contract boundary that determines which sub-contractors a buyer must separately engage and significantly affects total project cost.",
+        "source": "both",
+        "example_values": [
+          "Yes — full civil included",
+          "No — steel erection only",
+          "Partial — anchor bolt setting only"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_thumbnail_prompts": []
+}
