@@ -1,0 +1,356 @@
+{
+  "mcat_description": {
+    "short": "Container Fabrication Services covers the custom design, fabrication, and modification of steel containers into functional structures — primarily portable site office cabins, storage containers, and specialised units — built to buyer-specified dimensions and fittings.",
+    "long": "Container Fabrication Services in India encompasses the end-to-end custom fabrication of mild steel (MS) or galvanised iron (GI) container structures, including new-build portable office cabins, site office containers, storage containers, refrigerated containers, and modified shipping containers. Fabricators work to buyer-specified dimensions (typically 10×8 ft to 40×10 ft), material grades (IS-grade MS, GI, FRP), insulation types (PUF, glasswool, EPS), and interior fitouts (electrical, plumbing, partitions, furniture). The dominant application in India is construction-site and industrial-site portable office infrastructure, driven by large-scale infrastructure projects, mining, and manufacturing expansion. The Indian modular container market is growing at a CAGR of approximately 13.5% (2024–2030), with mobile modular containers as the largest and fastest-growing segment.",
+    "product_types": [
+      "Portable site office container (MS/GI steel, new fabrication)",
+      "Prefabricated office cabin (sandwich panel / PUF panel construction)",
+      "Storage container fabrication (MS steel, custom dimensions)",
+      "Refrigerated / reefer container fabrication (insulated, cold chain)",
+      "Shipping container modification / conversion",
+      "Labour accommodation / bunkhouse container",
+      "Security cabin fabrication",
+      "Portable toilet / sanitation container",
+      "Truck body container fabrication (dry van, insulated)",
+      "Modular container home / residential unit",
+      "FRP container cabin fabrication",
+      "Double-storey / multi-floor container structure"
+    ],
+    "primary_applications": [
+      "Construction site temporary office infrastructure",
+      "Mining and quarry site office and accommodation",
+      "Industrial plant site office and security cabin",
+      "Cold chain and food storage (refrigerated containers)",
+      "E-commerce and logistics dry van truck body fabrication",
+      "Labour camp and bunkhouse accommodation",
+      "Portable toilet and sanitation facilities at project sites",
+      "Defence and remote-location modular infrastructure",
+      "Telecom and energy sector field office units",
+      "Disaster relief and emergency shelter deployment"
+    ],
+    "buyer_segments": [
+      "Construction contractors and project developers (primary — site office demand)",
+      "Infrastructure and road/highway project companies",
+      "Mining and quarry operators",
+      "Industrial plant and factory operators",
+      "Fleet owners and logistics companies (truck body containers)",
+      "Cold chain and food logistics operators (refrigerated containers)",
+      "Government and defence procurement agencies",
+      "Real estate developers (labour camp and site office)",
+      "Event management and temporary facility operators",
+      "Rental companies (container cabin rental fleet replenishment)"
+    ]
+  },
+  "primary_segment": "Custom steel portable site office container fabrication for construction and industrial projects",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Custom fabrication of portable steel site office containers and prefabricated cabins for construction and industrial use",
+    "secondary_families": [
+      "Refrigerated / reefer container fabrication for cold chain logistics (different buyer: cold chain operators; different technical regime: insulation, refrigeration unit integration, food-grade compliance)",
+      "Truck body / dry van container fabrication for commercial vehicles (different buyer: fleet owners and OEMs; different technical regime: AIS/CMVR vehicle body standards, axle load compliance)"
+    ],
+    "reason": "The name 'Container Fabrication Services' attracts three genuinely incompatible fabrication families — site office/cabin (construction buyer), refrigerated container (cold chain buyer with food-grade/insulation regime), and truck body container (fleet/OEM buyer under CMVR vehicle body standards) — confirmed by internal keyword signals ('refrigerated container fabricator Chennai', 'shipping container fabrication service') and taxonomy parent 'Office Container' which carves out only the office sub-segment."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "container fabrication services",
+      "container office fabrication",
+      "site office container fabrication",
+      "portable cabin fabrication",
+      "prefab container fabrication",
+      "MS container fabrication",
+      "steel container fabrication",
+      "portable office container fabrication",
+      "prefabricated site office container",
+      "container cabin fabrication"
+    ],
+    "technical_synonyms": [
+      "modular container fabrication",
+      "portable cabin manufacturing",
+      "prefabricated steel cabin fabrication",
+      "sandwich panel container fabrication",
+      "PUF panel cabin fabrication",
+      "GI portable cabin fabrication",
+      "MS portable office fabrication",
+      "ISO container modification",
+      "container conversion services",
+      "modular office container manufacturing"
+    ],
+    "trade_names": [
+      "porta cabin fabrication",
+      "portacabin fabrication",
+      "site cabin fabrication",
+      "office container",
+      "bunkhouse fabrication",
+      "prefab cabin",
+      "container office",
+      "modular site office"
+    ],
+    "hindi_terms": [
+      "container office banane ki service",
+      "portable cabin nirman",
+      "prefab cabin fabrication"
+    ],
+    "buyer_intent_queries": [
+      "container fabrication services near me",
+      "portable site office container fabrication",
+      "prefab MS container office fabrication",
+      "custom steel cabin fabrication for construction site",
+      "shipping container modification for office use",
+      "portable cabin manufacturer and fabricator India",
+      "site office container fabrication with toilet and pantry",
+      "container office fabrication with insulation",
+      "modular portable cabin fabrication service",
+      "container modification near me"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Indian container fabrication services are predominantly quoted per piece (per unit/cabin) for standard-size builds; per square foot is used by fabricators offering custom-dimensioned builds where total area drives cost, consistent with multiple Indian fabricator sites quoting both per piece and per sq ft.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard portable office cabin (10×8 ft, 20×8 ft, 40×8 ft)",
+        "unit": "per piece",
+        "note": "Fixed-size units quoted as a complete unit price"
+      },
+      {
+        "sub_segment": "Custom-dimensioned cabin or container",
+        "unit": "per sq ft",
+        "note": "Fabricators quote per sq ft when buyer specifies non-standard dimensions"
+      },
+      {
+        "sub_segment": "Truck body container fabrication",
+        "unit": "per piece",
+        "note": "Quoted per body/unit to fleet owners and OEMs"
+      }
+    ],
+    "sources_checked": [
+      "worldofportablecabins.com (Epsilon Prefab)",
+      "containeroffice.co.in (A.M. Office Solutions)",
+      "nestin.co.in (Tata Steel Nest-In MobiNest)",
+      "primeportablecabins.com",
+      "uniqueengineeringworks.com"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Container Fabrication Services in India spans custom fabrication of portable steel site office containers, prefabricated cabins, refrigerated containers, and truck body containers — with the construction and industrial site office segment dominating demand. Indian fabricators use IS-grade mild steel (MS) and galvanised iron (GI) as primary structural materials, with insulation options including PUF (50mm), glasswool (25–50mm), and EPS thermocol (40mm). Standard cabin dimensions range from 10×8 ft to 40×10 ft; custom dimensions are common. The India modular container market is projected to grow at a CAGR of 13.5% (2024–2030), with mobile modular containers as the largest revenue segment. The construction application segment leads globally in shipping container modification demand (Allied Market Research, Straits Research — two independent sources). Key Indian fabrication hubs include Chennai, Ahmedabad, Pune, Mumbai, Bengaluru, Hyderabad, and the NCR region. Tata Steel's Nest-In (MobiNest) is a notable branded player; most of the market is served by unbranded regional fabricators. Refrigerated container fabrication is a distinct sub-segment serving cold chain logistics, with Chennai as a noted hub (per internal keyword signals). Truck body container fabrication (dry van, insulated) serves fleet owners and e-commerce logistics under CMVR/AIS vehicle body standards — a separate buyer and regulatory context from site office containers.",
+  "buyer_attracting_attributes": [
+    "Cabin Dimensions (length × width × height in ft)",
+    "Material (MS / GI / FRP / sandwich panel)",
+    "Insulation Type (PUF / glasswool / EPS thermocol)",
+    "Wall Panel Thickness",
+    "Flooring Type (cement board / plywood / vinyl)",
+    "Interior Fitout (electrical wiring, AC provision, plumbing, toilet, pantry)",
+    "Structural Grade (IS-grade steel specification)",
+    "Roof Type (self-draining corrugated / flat)",
+    "Portability / Relocatability (lifting hooks, crane-liftable)",
+    "Certifications / Quality Standards (ISO, BIS IS-grade material)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "155475",
+    "mcat_name": "Container Fabrication Services",
+    "mcat_level": "5",
+    "listing_count": "605",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Container Fabrication Services",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "96540.0",
+      "name": "Office Container",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "96540.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "32990",
+        "mcat_name": "Office Space",
+        "listing_count": "14773",
+        "source_pmcat": "96540.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 1,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "do_research": true,
+      "reason": "Container fabrication is a B2B service category where buyers evaluate custom specifications (dimensions, materials, insulation, fittings) and fabricator capability rather than regulatory compliance or brand dominance. Market research will clarify segment variants (office vs. storage vs. portable toilet containers) and standard fabrication practices."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "mcat_vagueness_signal",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Pageviews confirmed site office container fabrication as primary segment; 'refrigerated container fabricator Chennai' and 'shipping container fabrication service' confirmed secondary-family vagueness signals."
+      },
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "'container modification near me' confirmed buyer intent for modification/custom fabrication services."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Parent MCAT 'Office Container' used to confirm primary family carve-out and vagueness trigger A assessment."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.worldofportablecabins.com/container-office.html",
+        "title": "Container Office - Porta Cabin Site Office Manufacturer from Ahmedabad (Epsilon Prefab)",
+        "source_domain": "worldofportablecabins.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context",
+          "market_context"
+        ],
+        "citation_note": "Used for IS-grade material confirmation, insulation types, structural specifications, and per sq ft unit quoting evidence."
+      },
+      {
+        "url": "https://www.nestin.co.in/mobinest",
+        "title": "Best Prefabricated Office Cabins & Portable Office Containers (Tata Steel Nest-In)",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context",
+          "market_context"
+        ],
+        "citation_note": "Used for standard cabin dimensions (10–40 ft length, 8–10 ft width), insulation types (EPS 40mm, glasswool 25/50mm, PUF 50mm), structural material specs (1.2mm corrugated MS outer sheet), and buyer segment (manufacturing, mining, construction)."
+      },
+      {
+        "url": "https://transafeservices.com/blog/view/top-container-manufacturing-companies-in-india",
+        "title": "Top Container Manufacturing Companies in India | Transafe Services",
+        "source_domain": "transafeservices.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for Indian container manufacturing landscape overview, application sectors (defence, oil & gas, telecom, healthcare, construction), and ISO standards alignment."
+      },
+      {
+        "url": "https://www.alliedmarketresearch.com/shipping-container-modification-market-A11107",
+        "title": "Shipping Container Modification Market Size, Share | 2027 (Allied Market Research)",
+        "source_domain": "alliedmarketresearch.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for application segment classification (construction as highest revenue segment) and modification use cases (modular offices, restrooms, workplace housing)."
+      },
+      {
+        "url": "https://straitsresearch.com/report/shipping-container-modification-market",
+        "title": "Shipping Container Modification Market Size, Trends, Growth, Forecast to 2033 (Straits Research)",
+        "source_domain": "straitsresearch.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Second independent source confirming construction and commercial/retail as key trending application segments; India urbanisation driving demand."
+      },
+      {
+        "url": "https://www.grandviewresearch.com/horizon/outlook/modular-container-market/india",
+        "title": "India Modular Container Market Size & Outlook, 2023-2030 (Grand View Research)",
+        "source_domain": "grandviewresearch.com",
+        "derived_outputs": [
+          "market_context",
+          "primary_segment"
+        ],
+        "citation_note": "Used for India market CAGR (13.5%, 2024–2030), mobile modular containers as largest segment (62.59% revenue share in 2023), and primary segment confirmation."
+      },
+      {
+        "url": "https://jcbl.com/container",
+        "title": "Container Manufacturer in India | JCBL Limited",
+        "source_domain": "jcbl.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for truck body container fabrication sub-segment confirmation (dry van, OEM/fleet owner buyer) as a distinct secondary family."
+      },
+      {
+        "url": "https://www.uniqueengineeringworks.com/fabricated-portable-office-cabin.html",
+        "title": "Prefabricated Cabin, Portable Office Cabins - Manufacturer, Supplier, Chennai, India",
+        "source_domain": "uniqueengineeringworks.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for product type enumeration (modified container office, accommodation container, modular kitchen container, security cabin, sandwich panel container) and Chennai fabricator geography signal."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Container fabrication is a B2B service category where buyers evaluate custom specifications (dimensions, materials, insulation, fittings) and fabricator capability rather than regulatory compliance or brand dominance. Market research will clarify segment variants (office vs. storage vs. portable toilet containers) and standard fabrication practices."
+    }
+  }
+}
