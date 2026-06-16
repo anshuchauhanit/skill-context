@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Guest House' directly matches the top primary keyword and is the dominant search term confirmed across alt_names and market_context; no more specific or technically precise name would improve discoverability without narrowing scope.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a legitimate prefabricated structure with visible steel base frame, sandwich panel walls, and tiled roof — correctly representing the product category, but the elevated rural/open-field setting and residential aesthetic skew toward a permanent or hospitality sub-segment rather than the primary segment (MS porta cabin for construction/industrial sites).",
+      "The primary segment requires a more utilitarian MS-frame porta cabin appearance with flat or low-slope roof and industrial context; the current image may mislead B2B buyers seeking site-deployment cabins and does not reflect the dominant commercial form described in market_context."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A modular MS (mild steel) frame prefabricated guest house portable cabin unit, rectangular single-storey structure with cream or light grey insulated sandwich panel walls and a flat or low-slope metal sheet roof, visible steel base frame with forklift pockets, one door and two windows with steel frames, placed on a flat open ground at an industrial or construction site, clear blue sky background, sharp product-focused photography, clean white studio-style lighting, square 1:1 composition, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
