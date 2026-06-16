@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Container Conversion Service' directly matches the top primary keyword and accurately describes the turnkey fabrication and fitout service scope confirmed across Agent 3 alt_names and market_context; no dominant trade or buyer-intent term suggests a materially better alternative.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a modified ISO shipping container being offloaded from a flatbed truck inside an industrial shed — the container has a visible red door panel cut-in, confirming it is a converted unit, which is directionally correct for the MCAT.",
+      "However, the image emphasises logistics/transport handling rather than the finished converted office/site cabin product, does not clearly show interior fitout or the primary-segment use case (site office / portable cabin), and the industrial crane and truck dominate the frame — a clean, finished container site office exterior with visible door, windows, and AC unit would far better represent the primary segment and attract the target buyer."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A finished 20ft ISO steel shipping container converted into a site office portable cabin, light grey exterior with a white personnel door and two aluminium-framed windows, a wall-mounted split AC unit visible on the exterior, placed on a flat construction site ground with compacted gravel, slight three-quarter front angle view, bright natural daylight, clean white background sky, no people, photorealistic product-style render, sharp focus on the container unit, square 1:1 composition with the container occupying 70% of the frame.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
