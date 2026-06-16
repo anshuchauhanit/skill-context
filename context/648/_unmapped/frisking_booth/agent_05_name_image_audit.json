@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Frisking Booth' is the dominant primary keyword confirmed across Agent 3 alt_names (primary_keywords, trade_names) and market_context, and accurately describes the product category as used by Indian B2B buyers and suppliers.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image correctly shows a ladies frisking booth matching the primary segment — steel frame, green ACP side panels, black privacy curtains on two open sides — deployed in what appears to be a real checkpoint environment (mall/airport floor visible), confirming product identity.",
+      "Improvement is warranted because the image is low-resolution, shot in a dim real-world setting with a cluttered background (visible signage, floor debris, wooden step-box in foreground), reducing visual clarity and professional appeal for a B2B catalogue thumbnail; a clean white-background studio-style render would significantly improve buyer confidence."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Product photography style image of a ladies frisking booth for Indian B2B security market. The booth is a freestanding portable enclosure approximately 4ft x 4ft x 6.5ft with a powder-coated mild steel frame in dark grey or black, two rigid ACP (aluminium composite panel) side walls in green or grey, and two open sides fitted with heavy black privacy curtains hanging from the top rail. The booth sits on four steel legs with black rubber castor wheels visible at the base. Front-facing three-quarter angle view showing one curtained entry side and one solid ACP panel side clearly. Clean pure white studio background, soft even lighting with no harsh shadows, sharp product focus, no people, no clutter, no watermarks from sellers. Professional B2B catalogue quality. Square 1:1 aspect ratio.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
