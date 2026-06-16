@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Industrial Shed Fabrication' directly matches the top primary keyword and accurately describes the service (design, fabrication, and erection of steel-framed industrial structures); Agent 3 alt_names and market_context confirm this is the dominant search and trade term used by buyers and contractors across India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image correctly shows the interior of a large steel-framed industrial shed under construction — visible MS/PEB portal frame columns, roof purlins, colour-coated roofing sheets, and stacked insulated sandwich panels (PUF/EPS) in the foreground — all consistent with the primary segment.",
+      "Improvement is possible: the interior-only perspective and under-construction state reduce immediate buyer impact; an exterior shot showing the completed structure with clear span, eave height, and cladding would communicate the finished product more effectively for a B2B buyer evaluating fabrication services."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic exterior view of a large completed steel-framed industrial shed (Pre-Engineered Building / PEB style), wide clear-span structure approximately 30–40 metres wide, grey and blue colour-coated PPGI roofing sheets, white MS portal frame columns, corrugated metal wall cladding with a single large roller shutter entrance door, ridge ventilator running along the roof apex, clean concrete apron in foreground, bright daylight, plain white or light sky background, sharp product-focused composition, square 1:1 aspect ratio, no people, no text overlays, professional industrial photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
