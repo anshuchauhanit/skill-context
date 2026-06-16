@@ -1,0 +1,547 @@
+{
+  "mcat_description": {
+    "short": "Industrial Sheds are large prefabricated or fabricated steel structures used for manufacturing, warehousing, and storage operations, sold as turnkey construction projects or as supply-and-erect packages, typically quoted per square foot of covered area.",
+    "long": "Industrial Sheds in the Indian market are predominantly Pre-Engineered Buildings (PEB) — steel portal-frame structures with factory-fabricated columns, rafters, purlins, and colour-coated roofing panels assembled on-site, designed to IS 800-2007, IS 875, and IS 1893 codes for structural, wind, and seismic loads. They are also supplied as conventional MS fabricated sheds, tin/corrugated sheet sheds (teen shed / patra shed), FRP sheds, and PUF sandwich panel structures, covering spans from 10 m to 100 m and eave heights from 20 ft to 40 ft. Primary structural steel conforms to IS 2062 E250 grade, with roofing sheets in pre-painted Alum/Zinc alloy coated steel (0.5 mm nominal, silicon polyester finish) or polycarbonate/PUC sheets for daylighting. Buyers range from SME manufacturers and logistics operators to large industrial groups, procuring sheds for factories, godowns, workshops, cold storage, and vehicle parking.",
+    "product_types": [
+      "PEB Industrial Shed (Pre-Engineered Building)",
+      "MS Fabricated Industrial Shed",
+      "Tin Shed / Teen Shed (Corrugated GI Sheet Shed)",
+      "Patra Shed (Corrugated Sheet Shed)",
+      "FRP Industrial Shed",
+      "PUF Sandwich Panel Shed",
+      "PUC / Polycarbonate Sheet Shed",
+      "Cold Storage Industrial Shed",
+      "Multi-Bay Industrial Shed",
+      "Mezzanine Floor Shed",
+      "Factory Shed",
+      "Warehouse Shed",
+      "Workshop Shed",
+      "Godown Shed",
+      "Agricultural / Farm Shed"
+    ],
+    "primary_applications": [
+      "Manufacturing unit / factory floor",
+      "Warehouse and logistics storage",
+      "Workshop and automobile service shed",
+      "Cold storage facility",
+      "Godown / raw material storage",
+      "Vehicle parking shed",
+      "Agricultural produce storage",
+      "Rice mill / cotton ginning shed",
+      "Boiler room enclosure",
+      "School / institutional building (temporary or permanent)"
+    ],
+    "buyer_segments": [
+      "SME manufacturers setting up or expanding factory units",
+      "Logistics and warehousing companies",
+      "Real estate developers and industrial park developers",
+      "Agricultural businesses and agro-processing units",
+      "Government and institutional buyers (schools, defence, PSUs)",
+      "Contractors and EPC firms procuring on behalf of end clients",
+      "Large industrial groups (IOCL, L&T, BSF type buyers)"
+    ]
+  },
+  "primary_segment": "Pre-Engineered Steel Industrial Shed (PEB shed) for manufacturing and warehousing",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Pre-Engineered Steel Industrial Shed (PEB shed) for manufacturing and warehousing",
+    "secondary_families": [],
+    "reason": "All sub-types — PEB, MS fabricated, tin/corrugated, FRP — serve the same fundamental purpose (covered industrial workspace) with the same buyer profile and no incompatible regulatory regime; the MCAT is broad but coherent, not vague."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "industrial shed",
+      "industrial sheds",
+      "PEB shed",
+      "factory shed",
+      "prefabricated industrial shed",
+      "steel industrial shed",
+      "warehouse shed",
+      "godown shed",
+      "MS shed",
+      "industrial shade"
+    ],
+    "technical_synonyms": [
+      "Pre-Engineered Building (PEB)",
+      "Pre-Engineered Metal Building (PEMB)",
+      "prefab steel structure",
+      "portal frame shed",
+      "steel portal frame building",
+      "cold-formed steel shed",
+      "structural steel shed",
+      "fabricated steel shed",
+      "modular industrial building"
+    ],
+    "trade_names": [
+      "PEB structure",
+      "LGSF shed",
+      "PUF panel shed",
+      "Tata sheet shed",
+      "colour coated shed",
+      "GP sheet shed",
+      "PPGI roofing shed",
+      "Kirby building",
+      "Zamil steel building"
+    ],
+    "hindi_terms": [
+      "industrial shed",
+      "shed ka lagwana",
+      "teen shed",
+      "patra shed",
+      "shed nirman",
+      "factory shed"
+    ],
+    "buyer_intent_queries": [
+      "industrial shed construction cost per square feet",
+      "factory shed construction cost in India",
+      "PEB industrial shed manufacturers near me",
+      "prefabricated industrial shed price per sq ft",
+      "steel shed for warehouse construction",
+      "godown shed construction cost",
+      "industrial shed for manufacturing unit",
+      "tin shed construction cost 20 feet",
+      "cold storage industrial shed manufacturer",
+      "industrial shed design and build contractor"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian industrial shed sellers universally quote construction and supply cost per square foot of covered floor area, consistent with how buyers search (top Google KW: 'shed construction cost per square feet') and how listings are priced across multiple manufacturer sites.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Turnkey EPC project",
+        "unit": "per sq ft (lump sum derived)",
+        "note": "Large EPC contracts may quote a lump sum but the underlying rate is always per sq ft"
+      },
+      {
+        "sub_segment": "Roofing sheet / cladding only",
+        "unit": "per sq ft or per running metre",
+        "note": "When only roofing or wall cladding is supplied without structure, per sq ft or per running metre is used"
+      },
+      {
+        "sub_segment": "Structural steel supply only",
+        "unit": "per MT (metric tonne)",
+        "note": "Raw structural steel components (purlins, columns) may be quoted per MT when sold separately"
+      }
+    ],
+    "sources_checked": [
+      "metaltree.in",
+      "gaytriinfratech.in",
+      "blueladderepc.in",
+      "omengineerings.com",
+      "Google keyword data (top query: shed construction cost per square feet)",
+      "IndiaMART listing page (structural signal only)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Industrial Sheds in India are dominated by the Pre-Engineered Building (PEB) format, where factory-fabricated steel components (IS 2062 E250 grade) are assembled on-site to IS 800-2007 and IS 875 structural codes, offering construction timelines of 16–22 weeks versus 30+ weeks for conventional RCC builds. The market spans a wide product spectrum: PEB portal-frame sheds at the premium end, conventional MS fabricated sheds, and simpler corrugated sheet structures (locally called 'teen shed' or 'patra shed') at the entry level, with FRP and PUF sandwich panel sheds serving specialised applications (cold storage, clean rooms). India is among the fastest-growing PEB markets globally, driven by the Make in India initiative, growth in logistics and warehousing, and SME manufacturing expansion. Buyers consistently compare on clear span width, eave height, roofing sheet type, and cost per sq ft; the dominant transaction unit across all sub-segments is per sq ft of covered area. Key Indian PEB manufacturers include EPACK Prefab, Metal Tree, Pressmach, Kirby Building Systems, and Zamil Steel India. Structural design must comply with IS 800-2007 (general steel construction), IS 875 Parts 1–3 (dead, live, wind loads), and IS 1893 (seismic design) — these are the BIS codes buyers and specifiers reference when evaluating suppliers.",
+  "buyer_attracting_attributes": [
+    "Clear Span / Width",
+    "Eave Height",
+    "Roofing Sheet Type",
+    "Steel Grade",
+    "Shed Type (Single Slope / Double Slope / Multi-Bay)",
+    "Insulation / PUF Panel",
+    "Crane Provision / Crane Capacity",
+    "Wind Zone / Seismic Zone Compliance",
+    "Colour Coating / Paint Finish",
+    "Bay Length"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "30719",
+    "mcat_name": "Industrial Sheds",
+    "mcat_level": "4",
+    "listing_count": "36863",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Industrial Sheds",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "158662.0",
+      "name": "Prefabricated Shed",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "158662.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20781",
+        "mcat_name": "Prefabricated Shelters",
+        "listing_count": "4676",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "20782",
+        "mcat_name": "Portable Shelters",
+        "listing_count": "930",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21106",
+        "mcat_name": "Aircraft Hangars",
+        "listing_count": "407",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "26766",
+        "mcat_name": "Dome Shelters",
+        "listing_count": "395",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30721",
+        "mcat_name": "Industrial Shelters",
+        "listing_count": "531",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33228",
+        "mcat_name": "Military Shelters",
+        "listing_count": "154",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33397",
+        "mcat_name": "Metal Shelters",
+        "listing_count": "228",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35070",
+        "mcat_name": "Portable Garage",
+        "listing_count": "1406",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42756",
+        "mcat_name": "Telecom Shelters",
+        "listing_count": "611",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "107235",
+        "mcat_name": "Folding Garage",
+        "listing_count": "20",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136750",
+        "mcat_name": "Prefabricated Factory Shed",
+        "listing_count": "15425",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145222",
+        "mcat_name": "Poultry Sheds",
+        "listing_count": "1889",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "146519",
+        "mcat_name": "Cattle Sheds",
+        "listing_count": "1830",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158662",
+        "mcat_name": "Prefabricated Shed",
+        "listing_count": "4727",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164591",
+        "mcat_name": "Metal Sheds",
+        "listing_count": "1477",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164769",
+        "mcat_name": "Warehouse Sheds",
+        "listing_count": "6293",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166772",
+        "mcat_name": "Swimming Pool Tensile Cover",
+        "listing_count": "670",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "172388",
+        "mcat_name": "PEB Structures Fabrication",
+        "listing_count": "3547",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182931",
+        "mcat_name": "Auditorium Roofing Shed",
+        "listing_count": "504",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "187089",
+        "mcat_name": "Badminton Court Roofing Shed",
+        "listing_count": "1474",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "191761",
+        "mcat_name": "Swimming Pool Shed",
+        "listing_count": "280",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "220929",
+        "mcat_name": "Tin Shed",
+        "listing_count": "2737",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 22,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Industrial sheds are prefabricated structures sold on material specs (steel gauge, roofing type, span), load capacity, and local building code compliance — not brand name. BIS standards for structural steel and fire safety apply; Agent 3 should prioritise IS codes, structural design specs, and material certifications."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context.dominant_unit"
+        ],
+        "citation_note": "Top queries by impressions ('shed construction cost per square feet', 'teen shade', 'patra shed', 'puc sheet') used to identify buyer search vocabulary, unit quoting norm, and sub-segment signals."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Pageviews ('industrial sheds' 631, 'industrial shed' 197, 'PEB industrial shed' 7) confirmed PEB shed as dominant demand signal."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Call rows provided buyer vocabulary ('shed ka lagwana', 'teen shed', 'patra shed', 'PUC shed', 'PEB shed', 'double slope') and application signals (boiler shed, school building, cold storage). Specs not extracted from call data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT sits under Prefabricated Structures. Listing count 36,863 is large and plausible — listing_count_suspect set false. 22 siblings reviewed for vagueness trigger assessment."
+      },
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "Page URL was blank — page fetch not attempted. page_fetch_failed set true. IndiaMART listing page (index 16 from web_search) used only for structural signals: per sq ft unit quoting, double slope shed type, mild steel material — not for primary_segment or market claims."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://aspebsolutions.com/pre-engineered-building/",
+        "title": "Pre Engineered Building Manufacturers In India | AS PEB Solutions",
+        "source_domain": "aspebsolutions.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.long"
+        ],
+        "citation_note": "Used for IS 2062 E250 steel grade confirmation, IS/BIS compliance signal, wind load and seismic zone design requirements."
+      },
+      {
+        "url": "https://www.academia.edu/23285764/Design_and_Analysis_of_Pre_Engineered_Industrial_Buildings_PEB",
+        "title": "Design and Analysis of Pre Engineered Industrial Buildings (PEB)",
+        "source_domain": "academia.edu",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.long"
+        ],
+        "citation_note": "Used for BIS code references: IS 800-2007, IS 875 Parts 1–3, IS 1893 as governing structural design codes for PEB industrial sheds."
+      },
+      {
+        "url": "https://www.metaltree.in/industrial-shed-construction-pre-engineered-building-manufacturer/",
+        "title": "Pre-Engineered Building Manufacturer: Complete Guide to Industrial Shed Construction",
+        "source_domain": "metaltree.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for PEB component list (columns, rafters, purlins, wall panels), application list (manufacturing, warehousing, logistics, cold storage), and construction timeline benchmarks."
+      },
+      {
+        "url": "https://www.epack.in/industrial-shed",
+        "title": "Industrial Shed Manufacturer & Supplier | EPACK Prefab",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for product type enumeration (PEB sheds, storage sheds, factory sheds, workshop sheds, multi-purpose sheds) and buyer segment confirmation."
+      },
+      {
+        "url": "https://www.pressmach.com/solution/industrial-sheds",
+        "title": "Prefabricated Industrial Sheds Manufacturer India - Pressmach",
+        "source_domain": "pressmach.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Used for material variant confirmation (MS mild steel, FRP, tubular structural) and product type signals."
+      },
+      {
+        "url": "https://pinaxsteel.com/industrial-sheds-pre-engineered-for-building-efficiency/",
+        "title": "Industrial Sheds – Pre Engineered For Building Efficiency",
+        "source_domain": "pinaxsteel.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for India PEB market growth signal, buyer segment breadth (SME to large industrial groups), and application examples (jute mills, godowns, automobile workshops)."
+      },
+      {
+        "url": "https://starpebindia.com/peb-factory-shed/",
+        "title": "PEB FACTORY SHED | Star PEB India Pvt Ltd",
+        "source_domain": "starpebindia.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for span range (10M–100M), height range (20–40 ft), and material thickness (4–24mm) as buyer-relevant spec dimensions."
+      },
+      {
+        "url": "https://www.gaytriinfratech.in/prefabricated-sheds.html",
+        "title": "Prefabricated Sheds - Gaytri Infratech",
+        "source_domain": "gaytriinfratech.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for roofing sheet spec (0.5mm nominal, silicon polyester finish, Alum/Zinc alloy coated) and per sq ft unit quoting confirmation."
+      },
+      {
+        "url": "https://jseprojects.com/peb-industrial-sheds/",
+        "title": "PEB Industrial Sheds | Pre engineered Industrial Buildings",
+        "source_domain": "jseprojects.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for application confirmation (factory, warehouse, vehicle parking, workshop) and PEB definition corroboration."
+      },
+      {
+        "url": "https://www.metaltree.in/best-pre-engineered-building-designs-warehouses-industrial-sheds/",
+        "title": "Best Pre-Engineered Building Designs for Warehouses and Industrial Sheds",
+        "source_domain": "metaltree.in",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for construction timeline benchmark (16–22 weeks vs 30+ weeks conventional), LEED/GRIHA certification signal, and insulation/daylighting as buyer attributes."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "NFPA",
+        "Local Building Codes"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Industrial sheds are prefabricated structures sold on material specs (steel gauge, roofing type, span), load capacity, and local building code compliance — not brand name. BIS standards for structural steel and fire safety apply; Agent 3 should prioritise IS codes, structural design specs, and material certifications."
+    }
+  }
+}
