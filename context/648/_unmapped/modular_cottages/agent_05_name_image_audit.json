@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Modular Cottages' aligns with the dominant primary keywords ('modular cottage', 'prefab cottage', 'prefabricated cottage') and trade usage confirmed in Agent 3 alt_names and market_context; it is the standard B2B category label used by Indian manufacturers and buyers on IndiaMART.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a decorative Victorian-style children's playhouse or ornamental garden cottage — a consumer/residential novelty product — which does not represent the primary segment of prefabricated A-frame and resort cottages for hospitality and farmhouse use.",
+      "The image depicts a conventionally constructed, non-modular, non-prefabricated structure with no visible steel framing, sandwich panels, or LGSF elements, actively misleading B2B buyers seeking industrial prefab resort cottages."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A photorealistic 1:1 square product image of a modern prefabricated A-frame resort cottage with a steep triangular roof, natural pine wood or light grey composite cladding exterior, large glass front facade, small wooden deck with railing, set on green grass against a clear blue sky background. Clean white studio-style lighting with soft shadows. No people. No text overlays. Professional B2B catalogue style. Watermark: white 'IndiaMART AI' text in dark semi-transparent pill badge, 10–12px, 60–70% opacity, bottom-right corner.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
