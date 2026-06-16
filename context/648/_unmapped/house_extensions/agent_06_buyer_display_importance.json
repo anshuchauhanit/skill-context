@@ -1,0 +1,329 @@
+I'll work through this systematically for House Extensions (MCAT 158049).
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Urban homeowner or property developer seeking to add usable space to an existing structure without full conventional construction. The dominant commercial form is a glass-enclosed terrace/rooftop room.
+
+**Journey:**
+1. **Image first** — Buyer has a visual concept in mind (glass room on terrace, sunroom, rooftop addition). They scan listing tiles to see if the product matches their mental picture. High visual variation across sub-types (glass enclosure vs PUF panel room vs veranda vs pergola). Wrong visual type = immediate skip.
+2. **Extension Type / what it is** — After image confirms visual fit, buyer reads what type of extension is being offered. Room addition vs sunroom vs kitchen extension vs floor addition — these are non-interchangeable.
+3. **Price** — This is a significant residential investment. Indian homeowners are price-sensitive and compare across sellers. Per sq ft rate is the standard comparison unit. Price is checked early once the product type is confirmed.
+4. **Unit (per sq ft)** — Price cannot be compared without knowing the unit. Per sq ft vs per unit vs per project creates real confusion. Must be shown alongside price.
+5. **Specifications** — Build type, frame material, service mode (on-site vs off-site prefab), service duration. These confirm fit after initial shortlisting.
+6. **Company** — Seller track record, installation capability, geographic reach. Checked last but important for a high-value, installation-dependent product.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is extreme. Glass enclosure vs PUF room vs veranda are visually completely different. Image is the primary type-identification signal.
+- **Specification:** Medium — buyers know their extension type before searching; specs confirm build method and service scope after initial engagement.
+- **Price:** High — significant residential investment; Indian buyers compare per-sq-ft rates aggressively across sellers. Price is a primary shortlisting lever once image/type matches.
+- **Unit:** High — per sq ft vs per unit vs per project creates genuine price comparison confusion. Unit must accompany price.
+- **Company:** Medium — installation-dependent product; seller's track record, geographic coverage, and installation capability matter significantly but are evaluated after price/spec shortlisting.
+
+---
+
+## Step 3 — Cross-Dimension Consistency Check
+
+1. Buyers arrive knowing their extension type (glass room, room addition) and compare prices within that type → `price_display_type = "spec-driven price"` because the extension type and build method substantially drive the per-sq-ft rate. ✓
+2. Unit is High → price must be at least Medium. Price is High. ✓
+3. Not project-based price (per sq ft is the dominant unit). ✓
+4. Specification show: true → show_on_listing: true. ✓
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Extreme visual variation across sub-types — glass terrace enclosure, PUF panel rooftop room, veranda, and pergola are visually completely different products. Buyers scan listing images to identify product type before reading any text; wrong visual type is an immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "House extensions are a significant residential investment and Indian homeowners compare per-sq-ft rates aggressively across sellers. Price varies substantially with build type and frame material, making it a primary shortlisting signal once image/type is confirmed."
+  },
+  {
+    "rank": 3,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Fixed-module prefab room suppliers may quote per unit or per project — these listings must still display unit to prevent price comparison confusion with per-sq-ft listings.",
+    "reason": "Per sq ft is the dominant quoting unit but some sellers quote per unit or per project; price cannot be meaningfully compared across listings without knowing the unit. Confusion is a real risk in this category."
+  },
+  {
+    "rank": 4,
+    "dimension": "specification",
+    "level": "Medium",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Buyers typically know their extension type before searching; specs (build type, frame material, service mode) confirm fit and build method after initial price and image shortlisting rather than driving the initial discovery."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant nationally recognised brand with buyer recall exists in this category; the market is fragmented across regional fabricators and installers, and buyers search by product type and price rather than manufacturer name.",
+    "reason": "Installation capability, geographic service coverage, and track record matter significantly for this high-value, site-installed product — but these are evaluated after price and spec shortlisting, and no brand commands buyer-driven search."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Service Location** (Within State / Within City / Pan India): application/use-case tag describing geographic reach, not a product configurator. Discard.
+- **Usage** (Kitchen / Living Room / Bathroom / Bedroom / Office): use-case tag describing intended room function, not what the product IS. Discard.
+- **Design Type** (Contemporary / Modern / Traditional): aesthetic preference tag; does not drive price independently and is not a non-interchangeable product class. Soft eliminate — deprioritise.
+- **Service Duration** (1-3 Months / Up to 1 Month / 3-6 Months): consequence field — follows from extension complexity and size, not independently configured. Discard.
+
+**Remaining after elimination:** Build Type, Extension Type, Service Mode, Service Provided, Design Type (deprioritised)
+
+### Phase 2 — Top 2 Configurator Selection
+
+- **Extension Type** (Toilet Block / Balcony Extension / Room Addition / Kitchen Extension / Floor Addition): Defines WHAT the product IS. Non-interchangeable — a buyer needing a room addition cannot substitute a toilet block. Each type has a completely different structural scope, material requirement, and price point. Rank 1.
+- **Build Type** (Steel Structure / Precast / RCC / Prefab): Defines the construction method and material system. Non-interchangeable across project requirements (RCC vs prefab = fundamentally different delivery, timeline, and cost). Large price delta between values — prefab glass enclosure vs RCC floor addition can differ by 3–5x per sq ft. Rank 2.
+
+### Phase 3 — Missing Spec Audit
+
+**specs_in_seller_list (verbatim copy):** Build Type, Design Type, Extension Type, Service Duration, Service Location, Service Mode, Service Provided, Usage
+
+**Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+
+- **Frame Material** (Aluminium / MS / Steel / Wood): Agent 3 identifies aluminium framing as the dominant structural material for glass enclosures; LLM world knowledge confirms frame material is a primary buyer differentiator (aluminium vs MS vs steel drives both price and durability perception). Not present in seller spec list by name or semantic equivalent. Buyers use frame material to shortlist — aluminium commands a premium over MS. ✓ Include.
+- **Glazing / Infill Type** (Tempered Glass / Polycarbonate / PUF Panel / Solid Wall): Agent 3 identifies tempered glass vs PUF panel as the primary product class separator in this MCAT. Not present in seller spec list. Drives price substantially and is non-interchangeable. ✓ Include.
+- **Area / Size**: Covered by per-sq-ft quoting; not a spec gap.
+- **Service Mode** is already in the list (On Site / Off Site Prefab). ✓ Present.
+- **Warranty / Lifespan**: Consequence field — follows from build type and materials. Exclude.
+
+**Phase 4 — Coverage Verdict:** 2 missing specs → `partial`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+From buyer_spec_list: Extension Type, Frame Material, Roof Type.
+
+- **Extension Type** (Room Extension / Kitchen Extension / Bathroom / Sunroom/Veranda / Office Room): Routes the RFQ to sellers who specialise in the right type of extension — a glass sunroom supplier cannot supply a bathroom extension. Non-interchangeable; fundamentally changes what the seller must supply and quote. Rank 1.
+- **Roof Type** (Pitched/Sloped / Flat Roof / PUF Panel Roof / Glass Roof): Defines the structural and aesthetic character of the extension; sellers need this to determine material scope and price. Glass roof vs PUF panel roof vs flat roof are non-interchangeable and drive significantly different cost structures. Rank 2.
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Extension Type**: Values (Room Extension, Kitchen Extension, Bathroom, Sunroom/Veranda, Office Room) — these are functionally distinct but visually they all look like "a room addition." The visual difference between a room extension and a kitchen extension is not reliably distinguishable in a thumbnail. **Not thumbnail eligible.**
+- **Roof Type** (Pitched/Sloped / Flat Roof / PUF Panel Roof / Glass Roof): Each roof type has a visually distinct appearance — a glass roof, a pitched/sloped roof, a flat roof, and a PUF panel roof are clearly visually different in a thumbnail image. **Thumbnail eligible.** `thumbnail_options: ["Pitched / Sloped", "Flat Roof", "PUF Panel Roof", "Glass Roof"]`
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps:**
+
+- **Frame Material** is already in buyer_spec_list (Light Gauge Steel / Mild Steel / Wood Frame / Aluminium). ✓ Present.
+- **Area / Size (sq ft)**: Sellers need to know the approximate area to quote accurately. Agent 3 confirms per-sq-ft quoting is universal; LLM world knowledge confirms area is the primary scoping input for any extension project. Not present in buyer_spec_list. Sellers cannot provide an accurate quote without knowing the approximate area. `would_be_rank: 1` — more important than Extension Type because without area, no seller can quote at all; Extension Type is secondary to knowing the project scale. Not thumbnail eligible (numeric dimension). ✓ Include.
+
+**Semantic check:** Area/Size is not present in buyer_spec_list under any equivalent name (Extension Type, Frame Material, Roof Type — none capture area). ✓ Confirmed absent.
+
+**Coverage verdict:** 1 missing spec → `partial`
+
+### Phase 4 — Image Upload Assessment
+
+House extensions are custom-dimensioned, site-specific installations. However, the buyer's requirement is adequately captured through Extension Type, Frame Material, Roof Type, and Area — these give sellers sufficient context to respond with a quote. The product is not a part-identification scenario, not a custom-fabricated component requiring a design reference, and the visual variation (while high) is captured by the spec options. Image upload is not necessary for sellers to respond accurately.
+
+`image_upload_recommended: false`
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+Thumbnail-eligible specs from buyer_spec_audit:
+- `top_rfq_specs` rank 2: Roof Type (`thumbnail_eligible: true`, `thumbnail_options: ["Pitched / Sloped", "Flat Roof", "PUF Panel Roof", "Glass Roof"]`)
+- `missing_important_specs`: Area/Size — `would_be_rank: 1` but `thumbnail_eligible: false` → no prompts.
+
+4 prompts for Roof Type:
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual variation across sub-types — glass terrace enclosure, PUF panel rooftop room, veranda, and pergola are visually completely different products. Buyers scan listing images to identify product type before reading any text; wrong visual type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "House extensions are a significant residential investment and Indian homeowners compare per-sq-ft rates aggressively across sellers. Price varies substantially with build type and frame material, making it a primary shortlisting signal once image and type are confirmed."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Fixed-module prefab room suppliers may quote per unit or per project — these listings must still display unit to prevent price comparison confusion with per-sq-ft listings.",
+      "reason": "Per sq ft is the dominant quoting unit but some sellers quote per unit or per project; price cannot be meaningfully compared across listings without knowing the unit, and confusion is a real risk in this category."
+    },
+    {
+      "rank": 4,
+      "dimension": "specification",
+      "level": "Medium",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Buyers typically know their extension type before searching; specs such as build type, frame material, and service mode confirm fit and construction method after initial price and image shortlisting rather than driving initial discovery."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand with buyer recall exists in this category; the market is fragmented across regional fabricators and installers, and buyers search by product type and price rather than manufacturer name.",
+      "reason": "Installation capability, geographic service coverage, and track record matter significantly for this high-value, site-installed product but are evaluated after price and spec shortlisting, and no brand commands buyer-driven search."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Extension Type",
+        "reason": "Defines what the product IS — room addition, toilet block, kitchen extension, and floor addition are non-interchangeable and each carries a completely different structural scope and price point."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Build Type",
+        "reason": "Defines the construction method and material system — prefab vs RCC vs steel structure vs precast are non-interchangeable delivery approaches with large per-sq-ft price deltas between values."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Build Type",
+      "Design Type",
+      "Extension Type",
+      "Service Duration",
+      "Service Location",
+      "Service Mode",
+      "Service Provided",
+      "Usage"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Frame Material",
+        "why_important": "Aluminium vs mild steel vs steel frame drives both price and durability perception — buyers actively shortlist on frame material, and aluminium commands a significant premium over MS in the dominant glass enclosure segment.",
+        "source": "both",
+        "example_values": ["Aluminium", "Mild Steel (MS)", "Steel", "Wood"]
+      },
+      {
+        "spec_name": "Glazing / Infill Type",
+        "why_important": "Tempered glass vs polycarbonate vs PUF panel vs solid wall is the primary product class separator in this MCAT — non-interchangeable and drives the largest price delta between extension types.",
+        "source": "both",
+        "example_values": ["Tempered Glass", "Polycarbonate", "PUF Panel", "Solid Wall"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Extension Type",
+        "reason": "Routes the RFQ to sellers who can supply the right type of extension — a glass sunroom supplier cannot supply a bathroom extension, and each type requires a completely different material scope and quote.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Roof Type",
+        "reason": "Sellers need roof type to determine material scope and price — glass roof, PUF panel roof, pitched/sloped, and flat roof are non-interchangeable and drive significantly different cost structures.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Pitched / Sloped", "Flat Roof", "PUF Panel Roof", "Glass Roof"]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Area / Size (sq ft)",
+        "why_important": "Sellers quote universally on a per-sq-ft basis and cannot provide an accurate project quote without knowing the approximate covered area — this is the primary scoping input for any extension project.",
+        "source": "both",
+        "example_values": ["Up to 100 sq ft", "100–200 sq ft", "200–500 sq ft", "Above 500 sq ft"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Roof Type",
+      "option_value": "Pitched / Sloped",
+      "id": "spec_1",
+      "prompt_for_generation": "Glass-enclosed terrace room extension with a pitched sloped roof, aluminium frame, transparent glass panels on sides and sloped glass roof, installed on a residential rooftop, natural daylight, clean architectural render style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Type",
+      "option_value": "Flat Roof",
+      "id": "spec_2",
+      "prompt_for_generation": "Glass-enclosed terrace room extension with a flat roof, aluminium frame, transparent glass side panels and flat solid roof, installed on a residential rooftop, natural daylight, clean architectural render style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Type",
+      "option_value": "PUF Panel Roof",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefab rooftop room extension with a PUF insulated panel roof, steel or aluminium frame, opaque insulated sandwich panel roof clearly visible, glass or panel side walls, installed on a residential terrace, natural daylight, clean architectural render style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Type",
+      "option_value": "Glass Roof",
+      "id": "spec_4",
+      "prompt_for_generation": "Glass-enclosed terrace room extension with a fully transparent glass roof, aluminium frame, glass panels on all sides and overhead glass ceiling clearly visible, installed on a residential rooftop, bright natural daylight streaming through, clean architectural render style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
