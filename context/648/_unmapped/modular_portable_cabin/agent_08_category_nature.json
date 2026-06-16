@@ -1,0 +1,12 @@
+{
+  "is_generic": true,
+  "is_specific": false,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_generic: product_types list spans 17 sub-types across multiple use cases (site office, security, accommodation, food kiosk, medical, classroom, storage) and multiple material variants (PUF, FRP, ACP, wooden), with 8 distinct buyer segments — the MCAT functions as a broad catch-all for modular prefab cabins not captured by the 34 more-specific sibling MCATs (e.g., Security Cabins, FRP Cabin, PUF Cabin, Office Cabin).",
+    "is_vague: 0 of 5 signals fire — 'Modular Portable Cabin' resolves to one product concept (factory-built relocatable prefab cabin) across all buyer readings; Agent 3 produced a confident unhedged primary_segment; all buyer_intent_queries cluster around the same purchase context; all product_types share the same buyer archetype and regulatory regime (IS 2062/IS 1079/ISO 9001); and sibling MCATs carve out material/use-case sub-types with the same buyer profile, not incompatible regulatory or buyer contexts."
+  ]
+}
