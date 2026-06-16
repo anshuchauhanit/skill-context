@@ -1,0 +1,222 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Greenhouse type is visually distinct — NVPH, Fan-Pad, shade net house, tunnel, and polycarbonate structures look fundamentally different. Buyers use the image to confirm structure type before reading any spec or price."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Greenhouse Type, Covering Material, and Span are primary shortlisting criteria — a buyer cannot evaluate fit without knowing what structure type and covering is being offered. Specs also determine NHM/NHB subsidy eligibility, making them a hard gate."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-mt price varies substantially across structure types (low-cost bamboo vs NVPH vs Fan-Pad vs polycarbonate) and is the primary comparison metric for subsidy-linked procurement. Indian agri-buyers are highly price-sensitive and compare per-sq-mt rates across sellers once structure type is confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq mt",
+      "unit_note": "Small installations (<500 sq mt) may be quoted per project lump sum; component-only supply quoted per kg/roll/piece — both create price comparison confusion if unit is not shown alongside price.",
+      "reason": "NHM/NHB subsidy norms are defined per sq mt, making it the universal transaction unit; without unit clarity, buyers cannot compare prices across sellers or validate subsidy eligibility."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand with buyer recall exists in Indian agricultural greenhouse supply — market is fragmented across regional fabricators and agri-contractors; buyers search by structure type and price, not manufacturer name.",
+      "reason": "Institutional buyers (state horticulture departments, FPOs) evaluate contractor track record, subsidy documentation support, and installation experience during vendor selection — company credentials matter but rank below structural and price signals."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Greenhouse Type",
+        "reason": "Defines what the structure fundamentally IS — NVPH, Fan-Pad, shade house, tunnel, and hi-tech are non-interchangeable product classes with large price differentials and distinct subsidy eligibility tiers."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Covering Material",
+        "reason": "Poly film, polycarbonate sheet, shade net, and insect net represent distinct material tiers with significant per-sq-mt cost differences and different crop suitability — a buyer cannot substitute one for another."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Country Of Origin",
+      "Covering Material",
+      "Frame Coating",
+      "Greenhouse Type",
+      "Irrigation System",
+      "Peak Height",
+      "Span",
+      "Structure Material",
+      "Ventilation Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Film Thickness / Micron Rating",
+        "why_important": "UV-stabilised PE film thickness (200 micron minimum per NHM norms) is a primary quality and subsidy-eligibility differentiator — buyers and government inspectors verify this spec at procurement and installation.",
+        "source": "both",
+        "example_values": [
+          "200 micron",
+          "250 micron",
+          "800 gauge",
+          "1000 gauge"
+        ]
+      },
+      {
+        "spec_name": "Wind Load / Design Wind Speed",
+        "why_important": "AP Horticulture and NHM guidelines mandate structures withstand 110 km/h wind loads — institutional and subsidy-linked buyers require this structural compliance spec to confirm eligibility and safety.",
+        "source": "both",
+        "example_values": [
+          "110 km/h",
+          "120 km/h",
+          "150 km/h",
+          "As per IS 14462"
+        ]
+      },
+      {
+        "spec_name": "Total Area / Size",
+        "why_important": "NHM subsidy model sizes range from 500 sq mt to 4,000 sq mt — buyers need to confirm the seller can supply and erect at their required project scale, which directly affects per-sq-mt pricing.",
+        "source": "both",
+        "example_values": [
+          "500 sq mt",
+          "1000 sq mt",
+          "2000 sq mt",
+          "4000 sq mt"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Greenhouse Type",
+        "reason": "Defines the structure class the buyer needs — sellers use this to confirm they build that type and to price the project; wrong type means the seller cannot respond usefully.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Naturally Vent.",
+          "High-Tech",
+          "Fan and Pad",
+          "Round Type",
+          "Tunnel Type",
+          "Dome Shape"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Total Area",
+        "reason": "Project scale determines material quantities, structural design, and per-sq-mt pricing — sellers need this to assess feasibility and provide an accurate quote.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Covering Material",
+        "why_important": "Sellers need to know whether the buyer requires poly film, polycarbonate, or shade net to confirm material availability and provide accurate per-sq-mt pricing — these are non-interchangeable with large cost differences.",
+        "source": "both",
+        "example_values": [
+          "Polyethylene Film",
+          "Polycarbonate Sheet",
+          "Shade Net",
+          "Insect Net"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Naturally Vent.",
+      "id": "spec_1",
+      "prompt_for_generation": "Naturally ventilated polyhouse with GI pipe frame and UV-stabilised polyethylene film cover, roof and side vents open, rows of vegetable crops inside, exterior view in daylight, agricultural field setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "High-Tech",
+      "id": "spec_2",
+      "prompt_for_generation": "Hi-tech climate control greenhouse with fan-and-pad evaporative cooling system, exhaust fans visible on end wall, GI pipe frame, poly film cover, automated irrigation inside, exterior view in daylight, agricultural setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Fan and Pad",
+      "id": "spec_3",
+      "prompt_for_generation": "Fan-and-pad greenhouse structure with cellulose evaporative cooling pads on one end wall and exhaust fans on opposite end, GI pipe frame, polyethylene film cover, exterior side view in daylight, agricultural field, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Round Type",
+      "id": "spec_4",
+      "prompt_for_generation": "Round arch-shaped polyhouse with curved GI pipe frame and polyethylene film cover, semi-circular cross-section profile clearly visible, exterior view in daylight, agricultural field setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Tunnel Type",
+      "id": "spec_5",
+      "prompt_for_generation": "Walk-in tunnel polyhouse with low-profile curved GI pipe hoops covered with transparent polyethylene film, compact tunnel shape clearly visible, rows of crops inside, exterior view in daylight, farm setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Dome Shape",
+      "id": "spec_6",
+      "prompt_for_generation": "Dome-shaped greenhouse with geodesic or hemispherical GI frame structure covered with polyethylene film or polycarbonate panels, distinctive dome profile clearly visible, exterior view in daylight, agricultural or research setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
