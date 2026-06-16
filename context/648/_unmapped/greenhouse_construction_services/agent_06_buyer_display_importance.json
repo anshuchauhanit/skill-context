@@ -1,0 +1,317 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Greenhouse Type, Area Range, and Turnkey Scope are primary shortlisting gates — a buyer needing a 2,000 sq mt NHB-compliant NVPH cannot evaluate a listing that does not specify these. Without matching specs, no further engagement occurs."
+    },
+    {
+      "rank": 2,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq mt rate varies substantially across greenhouse types (NVPH vs Fan & Pad vs Polycarbonate) and project scale. Indian agri-buyers compare per-sq-mt rates against NHB cost norms as a primary budget check once structure type is confirmed."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq mt",
+      "unit_note": "Some contractors quote lump-sum per project for small farms — this creates price comparison confusion. Per sq mt is the NHB/NHM standard and must be shown alongside price to enable meaningful comparison.",
+      "reason": "Price cannot be compared across listings without knowing the unit. Per sq mt vs per project is a real market ambiguity; NHB cost norms are defined per sq mt and buyers use this unit as their reference benchmark."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in Indian greenhouse construction — market is fragmented across regional contractors and fabricators; buyers search by spec, area coverage, and NHB empanelment status, not contractor brand name.",
+      "reason": "NHB empanelment status, state service coverage, past project track record, and execution capability are evaluated during vendor selection — particularly for large capital projects where post-sale service and warranty matter."
+    },
+    {
+      "rank": 5,
+      "dimension": "image",
+      "level": "Medium",
+      "show": true,
+      "reason": "Completed project photos help buyers assess build quality, structural finish, and structural type — functioning as a trust and quality signal. However, spec text already captures structure type, so image is a qualifier rather than a primary shortlisting gate for this service category."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Greenhouse Type",
+        "reason": "Defines the product class — NVPH, Fan & Pad, Shade Net, and Polycarbonate are non-interchangeable structure types with large per-sq-mt cost differences driven by material and system complexity."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area Range",
+        "reason": "Determines project scale and total contract value; contractors specialise in scale tiers and buyers have fixed land parcels, making this a non-substitutable shortlisting filter with significant cost implications."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Area Range",
+      "Cladding Material",
+      "Frame Material",
+      "Greenhouse Type",
+      "Include Automation",
+      "Include Irrigation System",
+      "Service Coverage",
+      "Turnkey Scope",
+      "Warranty on Structure"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Ventilation System Type",
+        "why_important": "Agent 3 market_context explicitly identifies ventilation system as a key buyer decision driver — NVPH structures can have different passive ventilation configurations, and Fan & Pad systems are a distinct premium tier; sellers need this to confirm they supply the required climate control approach.",
+        "source": "both",
+        "example_values": [
+          "Natural Ventilation (Passive)",
+          "Fan and Pad Evaporative Cooling",
+          "Roof Vent with Side Curtain",
+          "Fogging System"
+        ]
+      },
+      {
+        "spec_name": "Subsidy Compliance",
+        "why_important": "NHB/NHM subsidy compliance is a primary buyer decision driver per Agent 3 market_context — NHB-compliant construction requires specific material standards (B-Class GI pipe, 200-micron UV film) and documentation support that not all contractors provide.",
+        "source": "both",
+        "example_values": [
+          "NHB Compliant",
+          "NHM Compliant",
+          "State Scheme Compliant",
+          "Non-Subsidised"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Greenhouse Type",
+        "reason": "Defines the structural form the buyer requires — sellers need this to confirm they construct that type and to provide an accurate per-sq-mt quote.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Traditional",
+          "High Tunnel",
+          "Venlo Greenhouse",
+          "Multi Span",
+          "Shade House",
+          "Single Span",
+          "Gable Roof",
+          "Hoop Greenhouse"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Greenhouse Irrigation System",
+        "reason": "Tells sellers whether irrigation integration is in scope and what type — drip vs hydroponics vs aeroponics differ substantially in complexity and cost, materially affecting the seller's ability to respond accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Drip Irrigation",
+          "Overhead Irrigation",
+          "Subsurface Irrigation",
+          "Hydroponics",
+          "Aeroponics"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Area Required",
+        "why_important": "Sellers cannot generate a meaningful quote without knowing the project area — per-sq-mt pricing and total contract value are entirely dependent on covered area, and NHB/NHM subsidy tier eligibility is defined by area thresholds.",
+        "source": "both",
+        "example_values": [
+          "Up to 1000 sq mt",
+          "1001–4000 sq mt",
+          "4001–8000 sq mt",
+          "Above 8000 sq mt"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Subsidy Scheme",
+        "why_important": "Sellers need to know if the project must meet NHB or NHM compliance standards — subsidised projects require specific material grades, documentation support, and empanelment status that not all contractors possess.",
+        "source": "both",
+        "example_values": [
+          "NHB Subsidy",
+          "NHM Subsidy",
+          "State Scheme",
+          "No Subsidy"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Traditional",
+      "id": "spec_1",
+      "prompt_for_generation": "Traditional agricultural polyhouse greenhouse structure with GI pipe frame and UV-stabilized polyethylene film cladding, gable roof, side curtains open for ventilation, surrounded by agricultural land, daytime natural lighting, wide-angle exterior view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "High Tunnel",
+      "id": "spec_2",
+      "prompt_for_generation": "High tunnel greenhouse structure with curved hoop frame and polyethylene film cover, single-span arched roof, open ends, low-profile structure over crop rows in agricultural field, daytime exterior view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Venlo Greenhouse",
+      "id": "spec_3",
+      "prompt_for_generation": "Venlo-style glass greenhouse with aluminium glazing bars, multi-gutter roof profile, large glass panels, modern commercial greenhouse structure, exterior view showing characteristic sawtooth roofline, daytime natural lighting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Multi Span",
+      "id": "spec_4",
+      "prompt_for_generation": "Multi-span naturally ventilated polyhouse with GI pipe framework, multiple connected bays with polyethylene film cladding, ridge vents visible along roofline, large commercial-scale agricultural greenhouse, aerial perspective exterior view, daytime.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Shade House",
+      "id": "spec_5",
+      "prompt_for_generation": "Agricultural shade net house with GI pipe frame and green shade netting cladding, open sides with shade net walls, crops visible inside, exterior view in agricultural setting, daytime natural lighting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Single Span",
+      "id": "spec_6",
+      "prompt_for_generation": "Single-span polyhouse greenhouse with GI pipe frame and UV polyethylene film, single-bay gable roof structure, side ventilation curtains, compact agricultural greenhouse on farm land, exterior view, daytime.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Gable Roof",
+      "id": "spec_7",
+      "prompt_for_generation": "Gable roof greenhouse structure with symmetrical pitched roof, GI pipe frame, polycarbonate or polyfilm cladding, triangular gable ends clearly visible, standalone agricultural greenhouse, exterior view, daytime natural lighting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Type",
+      "option_value": "Hoop Greenhouse",
+      "id": "spec_8",
+      "prompt_for_generation": "Hoop greenhouse with semicircular arched GI pipe frame and polyethylene film cover, rounded tunnel profile, row of hoops clearly visible, low-cost agricultural structure in farm setting, exterior view, daytime.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Irrigation System",
+      "option_value": "Drip Irrigation",
+      "id": "spec_9",
+      "prompt_for_generation": "Drip irrigation system installed inside a naturally ventilated polyhouse, drip lines running along crop rows with emitters visible at plant base, vegetable crops growing, interior view, natural daylight through polyfilm roof.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Irrigation System",
+      "option_value": "Overhead Irrigation",
+      "id": "spec_10",
+      "prompt_for_generation": "Overhead sprinkler irrigation system installed inside an agricultural polyhouse, sprinkler heads mounted on overhead pipes spraying water over crop rows, interior view, natural daylight through polyfilm cladding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Irrigation System",
+      "option_value": "Subsurface Irrigation",
+      "id": "spec_11",
+      "prompt_for_generation": "Subsurface drip irrigation system with buried drip lines visible in cross-section of soil inside a greenhouse, crop rows above, close-up showing underground pipe placement, agricultural polyhouse interior context.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Irrigation System",
+      "option_value": "Hydroponics",
+      "id": "spec_12",
+      "prompt_for_generation": "Hydroponic growing system inside an agricultural greenhouse, NFT or DWC channels with plants growing in nutrient solution, no soil, clean white or grey channels arranged in rows, interior view of polyhouse structure, daytime.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Irrigation System",
+      "option_value": "Aeroponics",
+      "id": "spec_13",
+      "prompt_for_generation": "Aeroponic system inside an agricultural greenhouse, plant roots suspended in air with misting nozzles spraying fine water droplets onto exposed roots, vertical growing towers or A-frame structure, interior polyhouse context, daytime.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
