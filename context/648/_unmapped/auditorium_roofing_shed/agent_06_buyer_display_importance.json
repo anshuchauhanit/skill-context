@@ -1,0 +1,249 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — steel truss vs PEB vs tensile membrane vs arch roof are visually distinct structures. Buyers scan images first to confirm the structural form and finish quality matches their venue vision before reading any specs."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Span width, structure type, and roofing material are primary shortlisting criteria — a seller who cannot cover the required span or supply the required structural system cannot be engaged regardless of price."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand exists in this category; market is fragmented across regional fabricators and contractors — buyers search by capability, portfolio, and geography, not brand name.",
+      "reason": "Turnkey project buyers evaluate contractor track record, completed project portfolio, and regional service capability before committing; seller identity is a qualification signal after spec fit is confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft price varies substantially with span width, structure type, and roofing material — buyers use listed price as a budget entry point after spec shortlisting, with final price always negotiated as a project quote."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Very large institutional or government contracts may be quoted as lump-sum project value, but per sq ft remains the universal comparison benchmark across all sub-segments.",
+      "reason": "Per sq ft vs per project (lump sum) creates real price comparison confusion — unit must be shown alongside price so buyers can normalise and compare across listings accurately."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Span Width",
+        "reason": "Span width is the primary structural determinant — a seller cannot supply a 40 m clear-span structure if they only fabricate up to 20 m, and material, section size, and cost scale non-linearly with span, making it the single largest price driver."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Roofing Material",
+        "reason": "Roofing material (Galvalume sheet vs PPGI vs Sandwich Panel vs Tensile Fabric vs Polycarbonate) drives significant price delta and determines thermal, acoustic, and aesthetic performance — non-interchangeable across buyer requirements."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Acoustic Treatment",
+      "Application",
+      "Ceiling Type",
+      "Insulation Type",
+      "Lighting Provision",
+      "Roofing Material",
+      "Service Scope",
+      "Span Width",
+      "Structure Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Bay Length",
+        "why_important": "Bay length (column spacing along the length of the structure) directly determines the number of columns, purlin spans, and total steel tonnage — a key cost driver that buyers and structural engineers specify alongside span width.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "6 m",
+          "7.5 m",
+          "9 m",
+          "12 m"
+        ]
+      },
+      {
+        "spec_name": "Eave Height / Ridge Height",
+        "why_important": "Clear height at eave or ridge determines usable interior volume for seating, stage, and HVAC — auditorium buyers specify minimum clear height as a functional requirement that gates supplier eligibility.",
+        "source": "both",
+        "example_values": [
+          "5 m",
+          "6 m",
+          "7.5 m",
+          "9 m"
+        ]
+      },
+      {
+        "spec_name": "Wind Zone / Seismic Zone Compliance",
+        "why_important": "IS 875 wind zone and IS 1893 seismic zone compliance are mandatory structural design inputs for public assembly buildings — buyers in high-wind or seismic zones must confirm the supplier designs to the correct zone.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "Wind Zone II",
+          "Wind Zone III",
+          "Wind Zone IV",
+          "Seismic Zone III"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Clear Span Width",
+        "reason": "Clear span width is the single most critical structural requirement — it determines whether a seller's fabrication capability and design system can physically deliver the structure, and it is the primary cost driver.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Type",
+        "reason": "Structure type (Truss System vs PEB vs Dome vs Space Frame) defines the fabrication methodology and supplier specialisation — sellers who only do steel truss cannot supply a tensile or geodesic dome, making this a hard routing filter.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Truss System",
+          "PEB (Clear Span)",
+          "Dome / Geodesic",
+          "Space Frame"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roofing Material",
+        "why_important": "Roofing material determines thermal comfort, acoustic performance, and cost — sellers need this to confirm they supply the required cladding system and to price the project accurately.",
+        "source": "both",
+        "example_values": [
+          "Insulated Sandwich Panel",
+          "Galvalume Sheet",
+          "Tensile Fabric",
+          "Polycarbonate Sheet"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Insulated Sandwich Panel",
+          "Galvalume Sheet",
+          "Tensile Fabric",
+          "Polycarbonate Sheet"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Type",
+      "option_value": "Truss System",
+      "id": "spec_1",
+      "prompt_for_generation": "Large-span steel truss roofing shed for a marriage hall or community auditorium, exposed triangulated steel truss frame visible from interior, colour-coated profiled sheet roofing, wide column-free interior space, natural daylight, architectural context clearly visible, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "PEB (Clear Span)",
+      "id": "spec_2",
+      "prompt_for_generation": "Pre-engineered building clear-span roofing structure for a community auditorium, tapered welded H-beam portal frame, PPGI colour-coated profiled sheet cladding, wide unobstructed interior span, exterior view showing clean gable end, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Dome / Geodesic",
+      "id": "spec_3",
+      "prompt_for_generation": "Geodesic dome roofing structure covering a large assembly hall or auditorium, triangulated steel or aluminium frame with polycarbonate or tensile fabric panels, circular plan, exterior view in daylight, architectural context visible, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Space Frame",
+      "id": "spec_4",
+      "prompt_for_generation": "Three-dimensional space frame roofing structure spanning a large auditorium or convention hall, tubular steel nodes and members forming a grid lattice, colour-coated sheet roofing above, wide column-free interior, exterior view showing the flat or low-pitch roof profile, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roofing Material",
+      "option_value": "Insulated Sandwich Panel",
+      "id": "spec_5",
+      "prompt_for_generation": "Close-up of insulated sandwich panel roofing installed on a large auditorium shed, visible layered cross-section showing steel skins and PUF or rockwool core, colour-coated exterior surface in white or grey, clean panel joints, studio or natural lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roofing Material",
+      "option_value": "Galvalume Sheet",
+      "id": "spec_6",
+      "prompt_for_generation": "Profiled Galvalume roofing sheet installed on a large-span marriage hall or community auditorium shed, metallic silver-grey corrugated surface, wide roof expanse visible from exterior, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roofing Material",
+      "option_value": "Tensile Fabric",
+      "id": "spec_7",
+      "prompt_for_generation": "Tensile fabric membrane roofing structure covering a large auditorium or marriage hall, white or off-white PTFE or HDPE fabric stretched over steel masts and cables, dramatic curved canopy form, exterior view in daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roofing Material",
+      "option_value": "Polycarbonate Sheet",
+      "id": "spec_8",
+      "prompt_for_generation": "Multiwall polycarbonate sheet roofing installed on a large community hall or auditorium shed, translucent panels allowing diffused natural light into the interior, steel purlin substructure visible, interior view showing light transmission, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
