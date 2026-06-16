@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'Portable Kitchen' is accurate but under-specified — Agent 3 market context and primary keywords confirm that 'Portable Kitchen Cabin' or 'Container Kitchen' are the dominant B2B trade terms used by buyers and suppliers in this MCAT, making the current name less discoverable for the core commercial segment.",
+    "suggested_name": "Portable Kitchen Cabin"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a compact modular furniture-style kitchen unit (white cabinet assembly with gas hob and sink) — a consumer/home interior product — which directly contradicts the primary segment of prefabricated MS/container-based portable kitchen cabins for construction sites and industrial camps.",
+      "This image will attract wrong-category traffic (home modular kitchen buyers) and fail to signal the B2B prefab cabin product to the intended buyer segments, constituting a segment contamination failure."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated mild steel portable kitchen cabin unit, rectangular box structure approximately 10x8 feet, corrugated MS/GI steel exterior walls in light grey or off-white with a single door and ventilation exhaust chimney outlet on the roof, placed on flat ground at a construction site setting, front-facing three-quarter view showing the open door revealing a built-in cooking platform with gas burners, stainless steel sink, and overhead exhaust hood inside, natural daylight, clean white background gradient at base, sharp product photography style, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
