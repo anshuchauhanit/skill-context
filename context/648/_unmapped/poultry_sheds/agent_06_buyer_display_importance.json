@@ -1,0 +1,170 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Poultry sheds have high visual sub-type variation — open-sided MS frame, semi-EC with curtains, and fully EC tunnel-vent sheds with PUF panels look entirely different. Buyers use the image to immediately identify whether the shed type matches their requirement before reading any text."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Shed type (EC/semi-EC/open), bird capacity, and structure material are primary shortlisting criteria — a 10,000-bird EC shed and a 5,000-bird open shed are non-interchangeable investments. Listings without these specs cannot be evaluated by buyers comparing options."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft or per-project price varies dramatically across shed types (open-sided vs EC) and capacity tiers — buyers cannot compare prices without spec equivalence. Indian poultry farmers are highly price-sensitive and actively compare construction costs across suppliers before shortlisting."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Turnkey EC shed projects are quoted per project (lump sum by bird capacity); structural steel supply only may be quoted per kg. Per sq ft is the dominant unit for fabrication contracts and must be shown to enable price comparison. Buyers must see the unit to interpret any quoted figure correctly.",
+      "reason": "Unit ambiguity is real — per sq ft, per project, and per kg are all in active use across sub-segments. A buyer comparing two listings cannot interpret price without knowing the unit basis."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand exists in Indian poultry shed construction — market is fragmented across regional fabricators and contractors; buyers search by spec, capacity, and location, not manufacturer name.",
+      "reason": "Seller credentials matter for a high-value construction project — buyers evaluate fabrication experience, past installations, and geographic reach — but company identity ranks last because spec and price drive initial shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Shed Type",
+        "reason": "Shed type (Open Shed / Semi Climate / Tunnel Vent / Closed Shed) is the primary product class separator — each value represents a non-interchangeable investment tier with dramatically different construction costs, equipment requirements, and operational outcomes."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Capacity",
+        "reason": "Bird capacity (up to 5,000 / 5,000–10,000 / 10,000–20,000 / above 20,000) directly determines shed dimensions and total project cost, making it the second-largest price driver after shed type."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Bird Type",
+      "Capacity",
+      "Flooring Type",
+      "Location Type",
+      "Roofing Material",
+      "Shed Type",
+      "Structure Material",
+      "Ventilation Type",
+      "With Feed Room"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Automation Level",
+        "why_important": "Buyers in the EC shed segment specifically evaluate whether the shed includes automated feeding, watering, and lighting systems — this is a primary cost and operational differentiator that is not captured by Shed Type or Ventilation Type alone.",
+        "source": "both",
+        "example_values": [
+          "Manual",
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      {
+        "spec_name": "Shed Dimensions / Size",
+        "why_important": "Shed length and width (e.g., 40×400 ft, 30×300 ft) are standard sizing parameters that Indian buyers use to specify area requirements and verify capacity claims — absent from the current spec list despite being a primary buyer query signal.",
+        "source": "both",
+        "example_values": [
+          "30×200 ft",
+          "40×300 ft",
+          "40×400 ft",
+          "Custom"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Shed Type",
+        "reason": "Shed type (EC / PEB-Prefabricated / Open Shed) defines the entire project scope, equipment package, and cost tier — sellers cannot determine fit or price without knowing which type the buyer requires.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Env. Controlled",
+          "PEB/Prefabricated",
+          "Open Shed"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Bird Capacity",
+        "reason": "Bird capacity directly determines shed dimensions and total project cost — sellers need this to confirm they can supply at the required scale and to provide an accurate quote.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Farming Type",
+        "why_important": "Broiler vs layer vs breeder farming requires fundamentally different shed configurations (floor-based vs cage-based, different ventilation and flooring systems) — sellers need this to confirm their design capability and quote accurately.",
+        "source": "both",
+        "example_values": [
+          "Broiler",
+          "Layer",
+          "Breeder",
+          "Pullet"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Shed Type",
+      "option_value": "Env. Controlled",
+      "id": "spec_1",
+      "prompt_for_generation": "Fully enclosed environmentally controlled poultry shed for commercial broiler farming, long rectangular steel-frame structure with PUF sandwich panel walls and roof, tunnel ventilation exhaust fans visible at one end, evaporative cooling pad inlet at the other end, set in a rural agricultural landscape, daytime natural lighting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shed Type",
+      "option_value": "PEB/Prefabricated",
+      "id": "spec_2",
+      "prompt_for_generation": "Pre-engineered building poultry shed for commercial broiler farming, steel portal frame structure with GI sheet roofing and side cladding, partially open sides with roll-up curtains, prefabricated modular construction clearly visible, set on a flat rural farm plot, daytime natural lighting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shed Type",
+      "option_value": "Open Shed",
+      "id": "spec_3",
+      "prompt_for_generation": "Open-sided poultry shed for commercial broiler farming, MS angle-frame structure with GI sheet roof, fully open sides with wire mesh or side curtains, natural cross-ventilation design, narrow width not exceeding 25 feet, set in a rural farm setting, daytime natural lighting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
