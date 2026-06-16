@@ -1,0 +1,238 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Precast concrete houses span a wide visual range — single-room labour quarters, multi-room residential units, G+1 structures, and site offices are all visually distinct product types. Buyers use the image to confirm product type and scale before reading any text; wrong type is an immediate skip for a high-commitment purchase."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Floor area, configuration (BHK), structure material, and house type are non-interchangeable shortlisting criteria — a contractor tendering for PMAY single-room units cannot evaluate a 3BHK villa listing. Specs are the primary shortlisting gate after visual type confirmation."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand exists in Indian precast concrete housing; the market is fragmented across regional manufacturers and buyers search by spec, capacity, and geographic reach rather than brand name.",
+      "reason": "This is a large-value, site-delivered, assembled structure requiring installation capability and geographic reach — government and industrial buyers evaluate manufacturer credentials, prior project track record, and service network during vendor selection. Company identity is a trust gate before price is considered."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every sale is project-quoted — final price depends on floor area, configuration, site location, foundation scope, and installation terms. Indian buyers are price-sensitive but listed price is only a budget feasibility check after spec and company qualification; no meaningful per-unit price comparison is possible across listings."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per unit (per room or per house)",
+      "unit_note": "Larger projects may be quoted per sq ft of built-up area, but for listing display purposes the unit is always per structure unit. No buyer questions whether a prefabricated house is sold per piece.",
+      "reason": "Unit is entirely implied by the product — a finished structure is always sold per unit. No buyer confusion is possible, and project-based pricing means there is no per-unit price to qualify with a unit label."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Floor Area",
+        "reason": "Floor area is the single largest price driver — a 300 sq ft labour quarter vs a 1500 sq ft residential unit represents a 5–8x price difference, and values are non-interchangeable across buyer project requirements."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Material",
+        "reason": "RCC precast, mild steel, and light gauge steel are entirely different construction systems with different structural properties, regulatory compliance paths, and price points — non-interchangeable across buyer specifications."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Floor Area",
+      "Furnishing",
+      "House Type",
+      "Number Of Bedrooms",
+      "Roof Type",
+      "Service Location",
+      "Structure Material",
+      "Use",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Concrete Grade",
+        "why_important": "Government and institutional buyers specify minimum concrete grade (M30/M35/M40/M50) in tender documents per IS 456 and IS 15916; sellers need to confirm compliance and it drives structural quality differentiation.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "M30",
+          "M35",
+          "M40",
+          "M50"
+        ]
+      },
+      {
+        "spec_name": "Foundation Scope",
+        "why_important": "Whether foundation work is included or excluded from the seller's scope significantly affects total project cost and a seller's ability to quote accurately; buyers frequently misunderstand what is included.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "Foundation Included",
+          "Foundation Excluded",
+          "Pile Foundation Included",
+          "Buyer to Arrange Foundation"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Configuration",
+        "reason": "BHK configuration is non-interchangeable — sellers immediately know whether they can supply the required layout and at what price tier, making it the primary RFQ routing signal.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area",
+        "reason": "Floor area is the primary price driver for project-quoted structures; sellers need this to assess feasibility and provide an accurate budget estimate.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Use / Application",
+        "why_important": "Intended use (residential vs labour camp vs site office vs farm house) defines the product type and structural/aesthetic requirements — sellers need this to confirm product suitability before configuration and area are even relevant.",
+        "source": "both",
+        "example_values": [
+          "Residential House",
+          "Labour Camp / Worker Quarter",
+          "Site Office",
+          "Farm House"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Residential House",
+          "Labour Camp / Worker Quarter",
+          "Site Office",
+          "Farm House"
+        ]
+      },
+      {
+        "spec_name": "Number of Floors",
+        "why_important": "Single storey vs G+1 vs G+2 significantly affects structural complexity, material quantity, and price — sellers need this to assess feasibility and quote accurately.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "Single Storey",
+          "G+1 (Ground + 1 Floor)",
+          "G+2 (Ground + 2 Floors)"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Single Storey",
+          "G+1 (Ground + 1 Floor)",
+          "G+2 (Ground + 2 Floors)"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Use / Application",
+      "option_value": "Residential House",
+      "id": "spec_1",
+      "prompt_for_generation": "Completed prefabricated RCC precast concrete residential house, single-storey, smooth cement-finished exterior walls, small front porch, set on a flat plot with clear sky background, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Application",
+      "option_value": "Labour Camp / Worker Quarter",
+      "id": "spec_2",
+      "prompt_for_generation": "Row of prefabricated RCC precast concrete worker quarters at an industrial site, uniform single-room units with flat roofs, grey cement finish, arranged in a line on a construction site background, natural daylight, no branding, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Application",
+      "option_value": "Site Office",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated RCC precast concrete site office unit, rectangular structure with a door and windows, smooth exterior finish, placed on a construction site with equipment visible in background, natural daylight, no branding, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Application",
+      "option_value": "Farm House",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated RCC precast concrete farm house unit, single-storey structure with a sloped roof, set in a rural agricultural landscape with open fields in background, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Floors",
+      "option_value": "Single Storey",
+      "id": "spec_5",
+      "prompt_for_generation": "Single-storey prefabricated RCC precast concrete house, ground floor only, flat or low-slope roof, smooth cement exterior, front-facing view on a clear plot, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Floors",
+      "option_value": "G+1 (Ground + 1 Floor)",
+      "id": "spec_6",
+      "prompt_for_generation": "Two-storey prefabricated RCC precast concrete house (ground floor plus one upper floor), flat roof, smooth cement exterior with visible floor separation line, front-facing view on a clear plot, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Floors",
+      "option_value": "G+2 (Ground + 2 Floors)",
+      "id": "spec_7",
+      "prompt_for_generation": "Three-storey prefabricated RCC precast concrete house (ground floor plus two upper floors), flat roof, smooth cement exterior with clearly visible three floor levels, front-facing view on a clear plot, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
