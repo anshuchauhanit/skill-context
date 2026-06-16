@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Metal Building' directly matches the top primary keyword and is the broadest accurate descriptor for this MCAT, which encompasses PEB warehouses, industrial sheds, and modular steel structures as confirmed by Agent 3 alt_names and market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a small quonset-style arch/curved-roof metal building resembling a residential garage or storage shed — this does not represent the primary segment of Pre-Engineered Steel Building (PEB) for industrial warehouse and manufacturing shed use, which features tapered I-frame rigid portal frames with pitched roofs and large clear-span bays.",
+      "The curved arch form is associated with light-gauge quonset huts or portable storage units, a sub-segment that misrepresents the dominant industrial PEB product and could mislead buyers seeking large-span warehouse or factory shed solutions."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a large pre-engineered steel building (PEB) industrial warehouse: rigid portal frame with tapered I-section columns and rafters, gable-end wall with a wide roller shutter door and a personnel door, corrugated metal roof and wall cladding in light grey and blue, set on a concrete apron with a clear white studio background, bright even lighting, sharp architectural detail, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
