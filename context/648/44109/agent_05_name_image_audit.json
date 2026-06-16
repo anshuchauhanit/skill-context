@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "\"Mobile Toilet Van\" is the dominant primary keyword across Agent 3 alt_names, buyer_intent_queries, and market_context, and directly matches the trade-standard abbreviation MTV used by manufacturers and institutional buyers in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows a trailer-mounted multi-seater mobile toilet van with blue/white FRP or MS body, multiple cabin doors, access staircase, and wheeled chassis — accurately representing the primary segment.",
+      "Improvement is possible: the image has a plain white background and slightly dated rendering quality; a cleaner, higher-resolution render showing the full unit at a slight 3/4 angle with visible seater count labelling would better communicate product scale and specification to institutional buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 3/4 front-angle view of a trailer-mounted 6-seater mobile toilet van with blue and white MS or FRP panelled body, six individual cabin doors with ventilation louvers, side-mounted access staircase with handrail, large rubber wheels on steel chassis with tow hitch, clean white studio background, bright even lighting, sharp product detail, square 1:1 crop with subject centred and full unit visible.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
