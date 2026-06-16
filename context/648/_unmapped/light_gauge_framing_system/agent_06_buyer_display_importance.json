@@ -1,0 +1,395 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Real estate developer / EPC contractor / government contractor evaluating LGSF as a construction system for a residential or commercial project.
+
+**Journey sequence:**
+1. **Image first** — scans listing to understand what is being offered: is this a complete turnkey building system, fabricated panels, or raw profiles? Visual sub-type variation is significant (assembled building vs panel stack vs section profiles). Wrong product type = immediate skip.
+2. **Specification** — checks Frame Type (wall/roof/floor), Section Thickness, Coating Thickness (GSM), Structure Type (load-bearing vs non-load-bearing), and Service Mode (turnkey vs supply only). These are the primary shortlisting gates — a buyer needing a turnkey G+3 residential system cannot use a profile-supply-only listing.
+3. **Price** — per sq ft rate is the Indian construction market norm. Buyers compare rates across suppliers after confirming system type and specs. India price sensitivity is high; LGSF competes directly with RCC on cost.
+4. **Unit** — per sq ft is the dominant unit but profile-only suppliers quote per kg or per running metre. Unit ambiguity is real and affects price comparison.
+5. **Company** — manufacturer credibility, BMTPC PAC certification, FrameCAD line ownership, and project track record matter for institutional/government buyers. No single dominant brand with universal buyer recall, but established players (EPACK, Tata Nest-In, Stratus Steel) carry weight.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — significant visual variation between product types (complete building vs panels vs profiles). Buyers cannot determine what is being sold without an image.
+- **Specification:** High — Frame Type, Section Thickness, Coating GSM, and Service Mode are non-interchangeable shortlisting criteria. Wrong spec = cannot use.
+- **Price:** High — per sq ft comparison is the primary commercial decision lever in Indian construction. LGSF competes on cost vs RCC; buyers compare rates aggressively.
+- **Unit:** High — per sq ft vs per kg vs per running metre creates genuine price comparison confusion across sub-segments. Must be shown alongside price.
+- **Company:** Medium — BMTPC certification, FrameCAD line ownership, and project track record are evaluated but specs and price drive initial shortlisting.
+
+---
+
+## Step 3 — Apply Decision Questions
+
+**Cross-dimension consistency checks:**
+1. Buyers arrive on IndiaMART comparing LGSF suppliers across spec tiers (section thickness, coating GSM, service mode vary significantly across listings) → `spec-driven price` is correct. Specification = High confirmed.
+2. Unit = High → price must be at least Medium. Price = High. ✓
+3. Not project-based price (per sq ft is a defined unit) → unit show: true is valid. ✓
+4. Specification show: true → show_on_listing: true. ✓
+
+**Brand check:**
+- Taxonomy siblings scan: no branded LGSF sub-categories in siblings (siblings are generic: Prefabricated Steel Buildings, Modular Buildings, etc.).
+- Indian market: EPACK Prefab, Tata Nest-In (HabiNest), Stratus Steel, GalvaStrong are recognised but buyers search by system capability and price, not brand name. No buyer searches "EPACK LGSF" the way they search "Alucobond ACP."
+- → `brand_important: no`
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Significant visual variation between product types — a complete turnkey building, pre-assembled wall panels, and raw C-stud profiles are visually distinct offerings that buyers must identify before reading any text. Wrong product type means the listing is irrelevant regardless of price or spec."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Frame Type, Section Thickness, Coating GSM, Structure Type, and Service Mode are non-interchangeable shortlisting criteria. A buyer needing a turnkey load-bearing system at 1.5mm / 275 GSM cannot substitute a profile-supply-only listing at 0.8mm / 120 GSM — specs are the primary qualification gate."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "LGSF competes directly with RCC on per-sq-ft cost; Indian construction buyers compare rates aggressively across suppliers. Price varies substantially with section thickness, coating grade, and service mode — buyers discover and compare across spec tiers, making this a spec-driven price signal."
+  },
+  {
+    "rank": 4,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Profile-only suppliers quote per kg or per running metre; complete system and turnkey suppliers quote per sq ft. Unit must be shown to prevent price comparison errors across sub-segments.",
+    "reason": "Per sq ft vs per kg vs per running metre is a real market ambiguity — a buyer comparing a turnkey system quote with a profiles-only quote cannot make a valid price comparison without knowing the unit."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant brand with buyer recall in LGSF — buyers search by system capability, certification, and price rather than manufacturer name; EPACK, Tata Nest-In, and Stratus Steel are recognised but not searched by brand name.",
+    "reason": "BMTPC PAC certification, FrameCAD line ownership, and completed project track record are evaluated during vendor selection — particularly for government/institutional buyers — but company ranks last as specs and price drive initial shortlisting."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Country Of Origin** (single value: "Made In India"): Hard eliminate — single-value spec, no differentiation.
+- **Application** (Farm House, Office, Industrial, etc.): Hard eliminate — use-case tag describing what the product is used FOR, not what it IS. Search/filter signal only.
+- **Built Type** (Modular, Prefab, Panel Build, Pre Engineered): Soft eliminate — these are overlapping construction methodology labels that partially correlate with Frame Type and Service Mode. Redundant with Frame Type + Service Mode combination; not an independent price driver.
+- **Design Standard** (IS 801, Eurocode, AISI S100): Soft eliminate — consequence field; follows from the buyer's project jurisdiction and is rarely independently configured by sellers. Not a price driver.
+- **Material** (Polyester, Galvanized Steel, Mild Steel, GI Section, Aluminium, PVC, Cold Formed Steel): Soft eliminate — contaminated spec. Galvanized Steel / GI Section / Cold Formed Steel are correct LGSF materials; Polyester, Aluminium, PVC indicate wrong product types listed in this MCAT. Not a clean configurator.
+
+**Remaining after elimination:** Coating Thickness, Frame Type, Section Thickness, Service Mode, Structure Type
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Candidates:**
+- **Section Thickness** (0.80mm / 1.00mm / 1.20mm / 1.50mm / 2.00mm / 2.50mm): Defines structural capacity and load-bearing grade. Non-interchangeable — a G+3 residential project requiring 1.5mm sections cannot substitute 0.8mm. Large price delta between thin (partition/non-structural) and thick (load-bearing structural) sections. → **Rank 1**
+- **Service Mode** (Supply And Erection / Turnkey / Supply): Defines what the seller is actually offering. Non-interchangeable — a buyer needing turnkey cannot use a supply-only listing. Massive price delta between supply-only (profiles at per-kg rate) and turnkey (complete system at per-sq-ft rate including design, fabrication, erection). → **Rank 2**
+- **Coating Thickness** (120–275 GSM): Important quality/durability differentiator but secondary to section thickness and service mode. Correlated with section thickness in practice (thicker sections typically come with higher GSM coating). Rank 3 if needed.
+- **Frame Type** (Truss / Roof Frame / Wall Frame / Floor Joist / Purlin): Describes the component, not the system grade. Important for component-level listings but less discriminating for complete system listings. Rank 4.
+- **Structure Type** (Load Bearing / Non Load Bearing): Binary and important but largely determined by Section Thickness — thin sections = non-load-bearing, thick sections = load-bearing. Correlated/redundant with Section Thickness.
+
+**Top 2 confirmed:** Section Thickness (Rank 1), Service Mode (Rank 2).
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list (verbatim copy):**
+Application, Built Type, Coating Thickness, Country Of Origin, Design Standard, Frame Type, Material, Section Thickness, Service Mode, Structure Type
+
+**Step 3b — Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+- Steel Grade / Yield Strength (G550 / G300 / G250) — structural steel grade is a primary buyer specification in LGSF; G550 high-tensile vs G300 standard grade drives significant price and structural capacity difference.
+- Number of Storeys / Building Height — determines structural system design; G+1 vs G+4 is a non-interchangeable requirement.
+- Seismic Zone Compliance — IS:1893 zone rating is a project-level requirement in India.
+- Panel/Section Profile Size (89mm / 150mm stud width) — standard Indian market sizes; determines wall thickness and structural span.
+
+**Step 3c — Cross-reference against specs_in_seller_list:**
+- Steel Grade / Yield Strength: Not present in seller list by name or semantic equivalent (Coating Thickness ≠ steel grade; Material is contaminated and does not capture grade). → **Confirmed missing.**
+- Number of Storeys: Not present. → **Confirmed missing.**
+- Seismic Zone Compliance: Not present. → **Confirmed missing.**
+- Panel/Section Profile Size (stud width): Not present — Section Thickness captures base metal thickness, not the profile width/depth (89mm vs 150mm C-stud). These are different dimensions. → **Confirmed missing.**
+
+**Importance threshold check:**
+- Steel Grade: Yes — G550 vs G300 is a primary structural and price differentiator; senior CM would add this today.
+- Number of Storeys: Yes — directly determines system design and price; a top-10 buyer-relevant spec.
+- Seismic Zone Compliance: Borderline — important for project specification but typically resolved at design stage, not listing level. Omit (peripheral at listing level).
+- Panel/Section Profile Size (stud width 89mm/150mm): Yes — standard Indian market sizes; determines wall thickness and structural span; senior CM would add.
+
+**Missing specs confirmed:** Steel Grade, Number of Storeys, Section Profile Size (stud width).
+
+**Coverage verdict:** 3 missing specs → `significant_gaps`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Material Grade (G550/G300/G275), Coating Mass GSM (AZ150/Z120/AZ200/Z275), Component Type (C Studs/U Tracks/Floor Joists/Roof Trusses/Lintels)
+
+- **Material Grade** (G550/G300/G275): Defines structural steel yield strength — non-interchangeable. G550 high-tensile vs G300 standard grade determines load-bearing capacity and price. Sellers need this to confirm they manufacture the required grade and to price accurately. → **Rank 1**
+- **Component Type** (C Studs/U Tracks/Floor Joists/Roof Trusses/Lintels): Defines which structural component the buyer needs. Non-interchangeable — a seller specialising in wall framing cannot supply roof trusses. Routes the RFQ to the right supplier type. → **Rank 2**
+- **Coating Mass GSM** (AZ150/Z120/AZ200/Z275): Important durability spec but secondary — sellers can typically supply multiple coating grades; this is a qualifier, not a routing signal. Rank 3 if needed.
+
+**Top 2:** Material Grade (Rank 1), Component Type (Rank 2).
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Material Grade** (G550/G300/G275): Numeric/grade designations — no visual difference between G550 and G300 steel. Not thumbnail eligible.
+- **Component Type** (C Studs/U Tracks/Floor Joists/Roof Trusses/Lintels): Each component type is visually distinct — a C-stud, U-track, floor joist, and roof truss have recognisably different shapes and forms. → **Thumbnail eligible.** `thumbnail_options: ["C Studs", "U Tracks", "Floor Joists", "Roof Trusses", "Lintels"]`
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+- Section Thickness (0.8mm / 1.0mm / 1.2mm / 1.5mm / 2.0mm): Base metal thickness is a primary structural specification; sellers need this to confirm manufacturing capability and price accurately. Not present in buyer spec list by name or semantic equivalent (Coating Mass GSM ≠ section thickness). → **Confirmed missing.**
+- Service Mode (Supply Only / Supply and Erection / Turnkey): Determines what the buyer actually needs from the seller — profiles only vs complete installation. Critical routing signal. Not present. → **Confirmed missing.**
+- Section Profile Size / Stud Width (89mm / 150mm): Standard Indian market profile widths; determines wall thickness and structural span. Not present. → **Confirmed missing.**
+
+**Importance threshold:** All three pass — a senior CM would add all three to the RFQ form.
+
+**would_be_rank assessment:**
+- Section Thickness: More important than Coating Mass GSM (currently not ranked) but less important than Material Grade and Component Type as currently ranked. Would slot at rank 3 — below both current ranked specs. No `would_be_rank` assigned (not more important than either ranked spec).
+- Service Mode: Fundamentally determines what the buyer is asking for (profiles vs turnkey system). More important than Component Type as a routing signal — a buyer needing turnkey cannot be served by a profiles-only supplier regardless of component type. → `would_be_rank: 2`, displacing Component Type to rank 3.
+- Section Profile Size: Important but less critical than Material Grade and Service Mode for initial routing. Would slot at rank 3. No `would_be_rank` assigned.
+
+**Thumbnail eligibility for missing specs with would_be_rank ≤ 2:**
+- Service Mode (would_be_rank: 2): Supply Only / Supply and Erection / Turnkey — these are service delivery modes, not visually distinct product forms. Not thumbnail eligible.
+
+**Coverage verdict:** 3 missing specs → `significant_gaps`
+
+### Phase 4 — Image Upload Assessment
+
+LGSF is a structural engineering system. Buyers specify requirements through standard dimensions, grades, and service modes — all capturable through text specs. Sellers can respond accurately to an RFQ with Material Grade + Component Type + Section Thickness + Service Mode without a visual reference. No custom geometry or design-match-from-stock scenario applies to the primary segment (standard cold-formed sections). → `image_upload_recommended: false`
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs` rank 2: Component Type (`thumbnail_eligible: true`, `thumbnail_options: ["C Studs", "U Tracks", "Floor Joists", "Roof Trusses", "Lintels"]`)
+- `missing_important_specs`: Service Mode (`thumbnail_eligible: false`) — no thumbnail prompts generated.
+
+**5 prompts for Component Type:**
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Significant visual variation between product types — a complete turnkey building, pre-assembled wall panels, and raw C-stud profiles are visually distinct offerings that buyers must identify before reading any text. Wrong product type means the listing is irrelevant regardless of price or spec."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Frame Type, Section Thickness, Coating GSM, Structure Type, and Service Mode are non-interchangeable shortlisting criteria. A buyer needing a turnkey load-bearing system at 1.5mm / 275 GSM cannot substitute a profile-supply-only listing at 0.8mm / 120 GSM — specs are the primary qualification gate."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "LGSF competes directly with RCC on per-sq-ft cost; Indian construction buyers compare rates aggressively across suppliers. Price varies substantially with section thickness, coating grade, and service mode — buyers discover and compare across spec tiers, making this a spec-driven price signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Profile-only suppliers quote per kg or per running metre; complete system and turnkey suppliers quote per sq ft. Unit must be shown to prevent price comparison errors across sub-segments.",
+      "reason": "Per sq ft vs per kg vs per running metre is a real market ambiguity — a buyer comparing a turnkey system quote with a profiles-only quote cannot make a valid price comparison without knowing the unit."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in LGSF — buyers search by system capability, certification, and price rather than manufacturer name; EPACK, Tata Nest-In, and Stratus Steel are recognised but not searched by brand name.",
+      "reason": "BMTPC PAC certification, FrameCAD line ownership, and completed project track record are evaluated during vendor selection — particularly for government and institutional buyers — but company ranks last as specs and price drive initial shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Section Thickness",
+        "reason": "Base metal thickness (0.8mm to 2.5mm) is non-interchangeable across structural applications — thin sections serve non-load-bearing partitions while thick sections serve load-bearing multi-storey frames, with a large price delta between tiers."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Service Mode",
+        "reason": "Supply-only vs turnkey defines what the seller is actually offering and drives the largest price delta in the category — a profiles-only quote and a turnkey design-fabricate-erect quote are not substitutable for any buyer."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Built Type",
+      "Coating Thickness",
+      "Country Of Origin",
+      "Design Standard",
+      "Frame Type",
+      "Material",
+      "Section Thickness",
+      "Service Mode",
+      "Structure Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Steel Grade",
+        "why_important": "G550 high-tensile vs G300 standard grade is a primary structural capacity and price differentiator — buyers specify steel grade in project requirements and sellers price accordingly; absent from the current spec list entirely.",
+        "source": "both",
+        "example_values": ["G550", "G300", "G250", "G450"]
+      },
+      {
+        "spec_name": "Number of Storeys",
+        "why_important": "The number of storeys (G+1 to G+4+) directly determines the structural system design, section sizing, and total system price — a buyer's storey requirement is non-interchangeable and is the primary project-level scoping parameter.",
+        "source": "both",
+        "example_values": ["G+1", "G+2", "G+3", "G+4 and above"]
+      },
+      {
+        "spec_name": "Section Profile Size",
+        "why_important": "Stud width (89mm vs 150mm) determines wall thickness and structural span capability — these are the two standard Indian market profile sizes and are non-interchangeable for a given wall assembly design.",
+        "source": "both",
+        "example_values": ["89 mm", "150 mm", "100 mm", "75 mm"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material Grade",
+        "reason": "Steel yield strength grade (G550/G300/G275) is non-interchangeable — it determines structural load-bearing capacity and price, and sellers need this to confirm manufacturing capability and quote accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Component Type",
+        "reason": "The specific structural component required (C Studs, U Tracks, Floor Joists, Roof Trusses, Lintels) routes the RFQ to sellers who manufacture that component — a wall framing specialist cannot supply roof trusses.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["C Studs", "U Tracks", "Floor Joists", "Roof Trusses", "Lintels"]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Service Mode",
+        "why_important": "Whether the buyer needs supply-only profiles or a complete turnkey design-fabricate-erect service is the most fundamental routing signal — sellers who only supply profiles cannot serve a buyer needing turnkey, regardless of component type.",
+        "source": "both",
+        "example_values": ["Supply Only", "Supply and Erection", "Turnkey"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Section Thickness",
+        "why_important": "Base metal thickness (0.8mm to 2.0mm) determines structural capacity and price — sellers need this to confirm they manufacture the required structural grade and to provide an accurate quote.",
+        "source": "both",
+        "example_values": ["0.80 mm", "1.00 mm", "1.20 mm", "1.50 mm", "2.00 mm"]
+      },
+      {
+        "spec_name": "Section Profile Size",
+        "why_important": "Stud width (89mm vs 150mm) is a standard Indian market specification that determines wall assembly thickness and structural span — sellers need this to confirm profile availability.",
+        "source": "both",
+        "example_values": ["89 mm", "150 mm", "100 mm", "75 mm"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Component Type",
+      "option_value": "C Studs",
+      "id": "spec_1",
+      "prompt_for_generation": "Cold-formed galvanized steel C-stud section for light gauge framing system, single profile standing upright showing C-shaped cross-section clearly, silver-grey metallic finish, white background, studio lighting, no branding, sharp detail on flanges and web.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Component Type",
+      "option_value": "U Tracks",
+      "id": "spec_2",
+      "prompt_for_generation": "Cold-formed galvanized steel U-track section for light gauge framing system, single profile laid flat showing open U-channel cross-section clearly, silver-grey metallic finish, white background, studio lighting, no branding, sharp detail on flanges.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Component Type",
+      "option_value": "Floor Joists",
+      "id": "spec_3",
+      "prompt_for_generation": "Cold-formed galvanized steel floor joist for light gauge framing system, horizontal orientation showing the deep C-section profile used for spanning floor loads, silver-grey metallic finish, white background, studio lighting, no branding, length clearly visible.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Component Type",
+      "option_value": "Roof Trusses",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated light gauge galvanized steel roof truss assembly, triangular truss form with cold-formed steel members and screw connections visible, silver-grey metallic finish, white background, studio lighting, no branding, full truss geometry clearly shown.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Component Type",
+      "option_value": "Lintels",
+      "id": "spec_5",
+      "prompt_for_generation": "Cold-formed galvanized steel lintel section for light gauge framing system, horizontal beam profile showing box or back-to-back C-section configuration used above door and window openings, silver-grey metallic finish, white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
