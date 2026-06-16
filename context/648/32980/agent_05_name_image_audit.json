@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Office Cabin' is the dominant commercial term in the Indian B2B market and aligns with primary_keywords ('office cabin', 'portable office cabin') and market_context confirming this is the standard trade label used by buyers and manufacturers across Maharashtra, Karnataka, Gujarat, and Delhi-NCR.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows an interior open-plan office fitout with workstation cubicles, partition panels, and office chairs — this is office furniture/interior fit-out, not a prefabricated portable office cabin structure, making it actively wrong for this MCAT.",
+      "The primary_segment is 'Prefabricated portable office cabin with MS/steel frame and insulated panels, used as site office or temporary workspace' — no structural cabin, steel frame, sandwich panel wall, or portable unit is visible in the image, representing a complete segment mismatch."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A standalone prefabricated portable office cabin with a mild steel (MS) frame and white insulated sandwich panel walls, aluminium sliding windows, and a single entry door with steps, placed on a flat construction site ground with a clear white or light grey studio background. The cabin is approximately 10x20 ft in size, shown in a three-quarter front-side perspective view. Exterior panels are light grey or off-white with visible panel joints. Bright, even studio lighting. No people, no interior visible. Photorealistic product-style render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
