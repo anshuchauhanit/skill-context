@@ -1,0 +1,1152 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "123128192",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Pre Engineered Building",
+      "description": "<b>Note -&nbsp;</b> \n<ul>\n<li>Price Range - Rs. 200 to 300 Square Feet</li>\n<li>These products are manufactured and designed by employing best quality basic material and are obtainable in numerous specifications to select from These products are extremely demanded by the numerous industrial sectors for their consistent functioning high tensile strength and longer service life We are presenting these products in modified options according to the detailed desires of our patrons</li>\n</ul>",
+      "specs": {
+        "raw": "Built Type:Prefab, Height:25 Feet, Length:30 Feet, Material:Steel, Technique:Hot Rolled, Thickness:10 mm, Usage/Application:Factory"
+      },
+      "image_url": "http://5.imimg.com/data5/IL/ZZ/ML/SELLER-41153865/peb-industrial-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineered building-19399604862.html",
+      "image_file": "123128192.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Completed blue-and-white profiled metal cladding industrial shed with large bay opening is clearly visible from ground-level exterior angle."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names the product type but omits material (steel), application, and any dimensional or structural attribute."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs confirm steel prefab construction with height (25 feet), length (30 feet), hot-rolled technique, and factory application."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic boilerplate with no specific PEB structural or application detail beyond a price mention."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a steel prefab factory building matching the primary segment of industrial warehouse/factory PEB."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Pre Engineered Building' only, missing material (steel), application, and any structural or dimensional attribute."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; photo shows completed industrial shed; specs are strong; title is thin but not misleading.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineered building-19399604862.html"
+    },
+    {
+      "item_id": "133412569",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Pre Engineered Steel Building",
+      "description": "<b>Metal-ify PEB Solution</b>&nbsp;is one of the fastest growing manufacturer of PEB Sheds like Industrial Factory Sheds, Warehouses, Power plants, rice mill plants and many more.",
+      "specs": {
+        "raw": "Built Type:Pre Engineered Steel Building, Country of Origin:Made in India, Features:Easy to Install, Material:Steel, Roof Type:Steel Building, Size:Customized, Usage/Application:Building"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/10/555710434/BD/PV/IN/37315965/pre-engineered-steel-building.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineered steel building-20430409130.html",
+      "image_file": "133412569.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Aerial view shows a large multi-span corrugated steel PEB warehouse complex with ridge ventilators and profiled metal roofing clearly visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names the product type and material but lacks application, span, or structural detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm PEB steel construction with customized size but 'Roof Type:Steel Building' is a non-standard value and application is vague ('Building')."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description names specific PEB applications (factory sheds, warehouses, power plants) confirming category fit, though it is company-promotional in tone."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a steel PEB shed/warehouse matching the primary segment of industrial warehouse/factory PEB."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Metal-ify PEB Solution' embedded as a brand identifier."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Metal-ify PEB Solution' embedded as a brand identifier in the description text."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; aerial photo shows large multi-span PEB warehouse; P16 flagged for company name in description.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineered steel building-20430409130.html"
+    },
+    {
+      "item_id": "138192913",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Pre Engineered Steel Building",
+      "description": "Sterling Arch is one of the leading manufacturere of Pre Engineered Buildings. When it comes to finding the perfect solution for a wide range of structural and aesthetic design requirements, Sterling Arch Pre-engineered Building Systems is the closest answer. It is also, without doubt, one of the fastest growing building systems that offer speed, quality, and value.&nbsp;<br />",
+      "specs": {
+        "raw": "Brand:Sterling arch, Built Type:Modular, Free Standing:Yes, Heat Resistance:Yes, Is It Waterproof:Waterproof, Is It Water Proof:Water Proof, Material:Steel, Roof Type:Slope, Surface Treatment:Color Coated, Usage/Application:Prefabricated Building"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/12/LL/UL/KV/2426731/pre-engineered-steel-building.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineered steel building-20908443588.html",
+      "image_file": "138192913.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a steel portal frame skeleton under construction with columns and purlins visible but no cladding, roofing, or completed building detail — insufficient for buyer evaluation of finished product."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names the product type and material but lacks application, span, or structural specification."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm steel modular PEB with slope roof and color-coated finish, though 'Built Type:Modular' is a non-standard PEB descriptor and duplicate waterproof fields are redundant."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms PEB product identity with structural and aesthetic design claims, though it is company-promotional in tone."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a steel pre-engineered building matching the primary segment of industrial PEB."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description and specs contain company/brand name 'Sterling Arch'/'Sterling arch' as embedded business identifiers."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the steel portal frame skeleton under construction with no cladding or completed building detail visible."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description and specs contain company/brand name 'Sterling Arch'/'Sterling arch' as embedded business identifiers."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; photo is thin (frame only, no cladding); text dimensions acceptable; P14 and P16 flagged.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineered steel building-20908443588.html"
+    },
+    {
+      "item_id": "153920598",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Pre Engineered Factory Building",
+      "description": "These structures are&nbsp;specifically designed to maintain a constant temperature and humidity level, which is essential for storing perishable goods such as food, pharmaceuticals, and other temperature-sensitive items.",
+      "specs": {
+        "raw": "Built Type:Prefab, Height:15 feet, Material:Steel, Surface Treatment:Galvanized, Technique:Cold Rolled, Thickness:30 mm"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/8/JT/CX/TJ/52892287/pre-engineered-factory-building.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineered factory building-22481212073.html",
+      "image_file": "153920598.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows only the bare steel portal frame skeleton under construction with no cladding, roofing panels, or finished building elements visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (pre-engineered building) and application (factory) but omits material and structural attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm steel prefab construction with height (15 feet), galvanized treatment, and cold-rolled technique."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description specifies cold storage application (temperature/humidity control for perishables) which is a valid PEB product type per mcat_description."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Cold storage PEB is explicitly listed in product_types; application variation does not disqualify this product from the MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the bare steel portal frame skeleton with no cladding or finished building elements — insufficient for buyer evaluation of the finished cold storage PEB."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; cold storage PEB is a valid product type; photo is thin (frame only); text dimensions acceptable.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineered factory building-22481212073.html"
+    },
+    {
+      "item_id": "172127948",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Pre Engineered Steel Buildings",
+      "description": "Our organization specializes in manufacturing, supplying and exporting PEB Shed of premium quality, these sheds are manufactured by a team of dexterous professionals and are highly reliable. These sheds are appreciated for their longer functional life and weather resistance. We use modern tools and advance technology to fabricate these sheds in strict compliance with international norms and standards. Customer can facilitate the facility of customization from us to get the desired sheds of their choice.&nbsp;<br /><br /><b>Features:</b><br />\n<ul>\n<li>Easy to install</li>\n<li>Low maintenance</li>\n<li>High tensile strength</li>\n<li>Cost-effective</li>\n</ul>",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Height:as per customer requirement, Material:PEB, Roof Type:Slope, Size:as per customer requirement, Surface Treatment:Paint Coated, Technique:Hot Rolled, Usage/Application:Shop"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/12/BV/LW/JS/1800995/10.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineered steel buildings-24301946733.html",
+      "image_file": "172127948.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Completed blue profiled metal cladding steel building exterior with roller shutter door is clearly visible, showing a finished PEB industrial structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names the product type and material but lacks application, span, or structural specification."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm PEB prefab construction with hot-rolled technique and paint-coated finish, though 'Usage/Application:Shop' is a narrow application descriptor."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms PEB shed product with relevant structural features (tensile strength, weather resistance) and customization capability."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a steel PEB shed matching the primary segment of industrial/commercial PEB."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label confirmed good; photo shows completed blue steel building exterior; business name visible on image facade but not in text fields — no P16 triggered by text scan.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineered steel buildings-24301946733.html"
+    },
+    {
+      "item_id": "189730932",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "0.65mm Pre Engineered Steel Building",
+      "description": "<p>A <b>0.65mm Pre Engineered Steel Building</b>&nbsp;is a building structure designed and fabricated using <b>pre-engineered components</b> such as steel frames, roofing panels, walls, and other components. These buildings are widely used in commercial, industrial, and residential applications due to their efficiency, versatility, and cost-effectiveness. PEBs are engineered to suit specific requirements, including load-bearing, design, and environmental conditions.</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Heat Resistance:Yes, Height:35 Feet, Material:Steel, Roof Type:Insulated, Sheet Thickness:0.65 mm, Technique:Hot Rolled, Usage/Application:Industrial"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/7/HP/GB/KJ/136636414/32.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/0-65mm pre engineered steel building-26062245248.html",
+      "image_file": "189730932.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Aerial view shows a large completed dark-grey profiled metal cladding PEB warehouse with clear industrial building form, profiled roofing, and facade branding visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type and material with a specific sheet thickness (0.65mm) as a differentiating attribute."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide height (35 feet), insulated roof type, sheet thickness (0.65mm), hot-rolled technique, and industrial application — comprehensive for a PEB listing."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description accurately describes PEB construction (pre-engineered components, steel frames, roofing panels) with application breadth and engineering customization."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a steel PEB industrial building with strong specs and description matching the primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label overridden from bad to good; photo is good_image (aerial PEB warehouse), all text dimensions strong/acceptable, no contradictions, category valid.",
+      "source_url": "https://www.indiamart.com/proddetail/0-65mm pre engineered steel building-26062245248.html"
+    },
+    {
+      "item_id": "189731424",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "28 Feet Pre Engineered Warehouse Building",
+      "description": "<p>A <b>28 Feet Pre Engineered Warehouse Building</b>&nbsp;is a structure that is assembled from pre-manufactured components, usually made in a factory, and then transported to the site for final assembly. These buildings are known for their <b>speed of construction</b>, <b>cost-effectiveness</b>, and <b>flexibility</b> in design. Prefabricated buildings are used in a wide range of applications, from residential homes to commercial, industrial, and institutional buildings. They offer a modern alternative to traditional construction methods, often reducing the time and labor required to build a structure.</p>",
+      "specs": {
+        "raw": "Brand:Mount Roofing, Built Type:Prefab, Heat Resistance:Yes, Height:28 Feet, Roof Type:Insulated, Technique:Hot Rolled, Tensile Strength:500 mPA, Usage:Warehouse"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/8/OP/HS/BZ/136636414/pre-engineered-structure.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/28-feet pre engineered warehouse building-26062294430.html",
+      "image_file": "189731424.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Aerial view shows a completed blue/white profiled metal cladding PEB factory building with solar panels on roof and multi-bay structure clearly visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (pre-engineered building), application (warehouse), and height (28 feet) as a structural attribute."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide height (28 feet), insulated roof, hot-rolled technique, tensile strength (500 mPA), and warehouse application — comprehensive PEB attributes."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description accurately describes prefabricated building construction (pre-manufactured components, factory assembly, site erection) with relevant buyer benefits."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a steel PEB warehouse building matching the primary segment of industrial warehouse/factory PEB."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label overridden from bad to good; photo is good_image (aerial PEB factory), all text dimensions strong/acceptable, no contradictions, category valid.",
+      "source_url": "https://www.indiamart.com/proddetail/28-feet pre engineered warehouse building-26062294430.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "107493125",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Pre-Engineering Building Solutions Services",
+      "description": "Pre-Engineering Building Solutions Services provides diverse services centered on our customer’s building and property assets. We specialize in Pre-Engineered Metal Building Systems Design, Engineering, Fabrication and Erection. The design and detailing work on Steel Building is carried out by our highly skilled engineering teams by utilizing fully optimized techniques and without compromising on quality. Our mission is to help our customers focus on what they do best while we provide knowledge and experience with what we know best.",
+      "specs": {
+        "raw": "Minimum Order Quantity:1, Payment Mode:Online/Offline, Service Area:Chennai, Service Duration:1 Month, Service Mode:Offline"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/11/468016621/OB/OK/JV/9732259/pre-engineering-building-solutions-services.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineering building solutions services-16754717762.html",
+      "image_file": "107493125.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a green-painted steel portal frame structure under construction — the frame is a PEB component but the image shows only the skeleton without cladding or finished building."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title explicitly names this as a 'Solutions Services' offering (design, engineering, fabrication, erection services), not a physical PEB product."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs contain service-specific fields (Service Area: Chennai, Service Duration: 1 Month, Service Mode: Offline) confirming this is a service listing, not a physical product."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly describes a service business offering design, engineering, fabrication, and erection services, not a physical PEB product for sale."
+        },
+        "category": {
+          "valid": false,
+          "reason": "This is a construction/erection service listing, not a physical pre-engineered steel building product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs",
+          "photo_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Image shows a physical green-painted steel portal frame structure under construction, but title explicitly names this as 'Solutions Services.'",
+          "Image shows a physical steel frame structure, but specs contain service-specific fields (Service Area: Chennai, Service Duration: 1 Month, Service Mode: Offline).",
+          "Image shows a physical steel frame structure, but description describes a service business offering design, engineering, fabrication, and erection services."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Area:Chennai' — a city name embedded in the specs field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a physical green-painted steel portal frame structure under construction, but title explicitly names this as 'Solutions Services.'"
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a physical steel frame structure, but specs contain service-specific fields (Service Area: Chennai, Service Duration: 1 Month, Service Mode: Offline)."
+        },
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Image shows a physical steel frame structure, but description describes a service business offering design, engineering, fabrication, and erection services."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly names this as 'Solutions Services,' not a physical PEB product."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs contain service-type fields (Service Area, Service Duration, Service Mode) inconsistent with a physical product MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a service business offering design/engineering/fabrication/erection services, not a physical PEB product."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Area:Chennai' — a city name embedded in the specs field."
+        }
+      ],
+      "verification_note": "Pre-label confirmed bad; service listing (design/engineering/erection services) not a physical PEB product; multiple category and contradiction P-codes triggered.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineering building solutions services-16754717762.html"
+    },
+    {
+      "item_id": "156310857",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Pre Engineered Mild Steel Buildings Services",
+      "description": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.",
+      "specs": {
+        "raw": "Built Type:Panel Build, Duration:2 Month, Features:Client Satisfactory, Location:Pan India, Material:Mild Steel, Payment Mode:Offline And Online, Service Mode:Offline"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/11/360993750/KO/QF/YG/103065321/prefabricated-industrial-buildings-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineered mild steel buildings services-22720237962.html",
+      "image_file": "156310857.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed modern dark-grey steel building with profiled metal cladding, architectural facade elements, and canopy — a valid PEB commercial structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title contains 'Services' indicating a service offering rather than a physical PEB product."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs contain service-specific fields (Duration: 2 Month, Service Mode: Offline, Payment Mode) alongside product fields, confirming this is a service listing."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is effectively empty (whitespace only) — no information to evaluate for category fit."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title and specs confirm this is a service listing (construction service), not a physical pre-engineered steel building product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a completed modern steel building exterior, but title explicitly names this as 'Buildings Services.'",
+          "Image shows a completed physical steel building, but specs contain service-specific fields (Duration: 2 Month, Service Mode: Offline)."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Location:Pan India' — a geographic scope indicator embedded in the specs field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a completed modern steel building exterior, but title explicitly names this as 'Buildings Services.'"
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a completed physical steel building, but specs contain service-specific fields (Duration: 2 Month, Service Mode: Offline)."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title contains 'Services,' indicating a service offering not a physical PEB product."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs contain service-type fields (Duration, Service Mode, Payment Mode) inconsistent with a physical product MCAT."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Location:Pan India' embedded as a geographic scope field."
+        }
+      ],
+      "verification_note": "Pre-label confirmed bad; service listing confirmed by title ('Services') and service-type specs; photo shows a valid PEB building but text fields override to bad.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineered mild steel buildings services-22720237962.html"
+    },
+    {
+      "item_id": "165873322",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Pre Engineered Steel Building Construction Service",
+      "description": "<p>We are offering an extensive series of&nbsp;<b>Pre Engineered Steel Building Construction Service</b><b>. </b>These products are extremely employed in the market for diverse purposes.</p>",
+      "specs": {
+        "raw": "Material:Steel, Payment Mode:Online/Offline, Service Location/City:Karnataka, Service Site:On site, Service Type:Industrial Building Construction"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/7/XN/PM/NQ/124371313/pre-engineered-steel-building-2.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pre-engineered steel building construction service-23676484162.html",
+      "image_file": "165873322.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows the interior of a steel shed with corrugated metal roof and columns, but the view is dominated by industrial equipment and materials on the floor rather than the building structure itself."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title explicitly names this as a 'Construction Service,' not a physical PEB product."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs contain service-specific fields (Service Location/City: Karnataka, Service Site: On site, Service Type: Industrial Building Construction) confirming this is a service listing."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly describes a 'Construction Service' offering, not a physical PEB product."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title, specs, and description all confirm this is a construction service listing, not a physical pre-engineered steel building product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs",
+          "photo_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Image shows the interior of a physical steel shed, but title explicitly names this as 'Construction Service.'",
+          "Image shows a physical steel shed interior, but specs contain service-specific fields (Service Location/City: Karnataka, Service Type: Industrial Building Construction).",
+          "Image shows a physical steel shed interior, but description explicitly describes a 'Construction Service' offering."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City:Karnataka' — a state/location name embedded in the specs field."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows the interior of a physical steel shed, but title explicitly names this as 'Construction Service.'"
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a physical steel shed interior, but specs contain service-specific fields (Service Location/City: Karnataka, Service Type: Industrial Building Construction)."
+        },
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Image shows a physical steel shed interior, but description explicitly describes a 'Construction Service' offering."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly names this as a 'Construction Service,' not a physical PEB product."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs contain service-type fields (Service Location/City, Service Site, Service Type) inconsistent with a physical product MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a 'Construction Service' offering, not a physical PEB product."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City:Karnataka' — a state/location name embedded in the specs field."
+        }
+      ],
+      "verification_note": "Pre-label confirmed bad; construction service listing confirmed by title, specs, and description; all three text dimensions misleading for this MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/pre-engineered steel building construction service-23676484162.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good PEB images predominantly show completed industrial buildings from exterior ground-level or aerial drone perspectives, featuring profiled metal cladding in blue, white, grey, or teal colour schemes with large bay openings or roller shutter doors. Aerial shots effectively convey building scale, roof profile (corrugated/insulated), ridge ventilators, and multi-bay footprint. Ground-level exterior shots show facade cladding, structural form, and entry points — both angles are buyer-useful for evaluating span, height, and finish quality.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "PEB product images show completed building exteriors or frame structures — product form, scale, and cladding type are the buyer-relevant visual information, not text.",
+      "No product-spec text (dimensions, grade, thickness) is printed on the building surface in any verified good image; company branding visible on facades is incidental.",
+      "Aerial and ground-level exterior shots convey span, height, cladding type, and roof profile visually — OCR extraction would yield only incidental company branding, not product specs."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good PEB photos show completed industrial buildings from exterior (ground or aerial) with profiled metal cladding, large bay openings, and clear structural form.",
+    "product_identity": [
+      "Profiled metal cladding (corrugated/insulated) in blue, white, grey, or teal colour scheme",
+      "Large clear-span bay openings or roller shutter doors indicating industrial/warehouse use",
+      "Visible roof profile with ridge ventilators or skylights on aerial shots",
+      "Multi-bay or single-span structural form consistent with PEB construction"
+    ],
+    "acceptable_scenes": [
+      "Ground-level exterior front/side elevation showing facade, cladding, and entry",
+      "Aerial drone view showing roof profile, building footprint, and industrial estate context"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "123128192",
+        "reason": "Completed blue-and-white profiled metal cladding industrial shed with large bay opening is clearly visible from ground-level exterior angle.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "133412569",
+        "reason": "Aerial view shows a large multi-span corrugated steel PEB warehouse complex with ridge ventilators and profiled metal roofing clearly visible.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "172127948",
+        "reason": "Completed blue profiled metal cladding steel building exterior with roller shutter door is clearly visible, showing a finished PEB industrial structure.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "189730932",
+        "reason": "Aerial view shows a large completed dark-grey profiled metal cladding PEB warehouse with clear industrial building form, profiled roofing, and facade branding visible.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "189731424",
+        "reason": "Aerial view shows a completed blue/white profiled metal cladding PEB factory building with solar panels on roof and multi-bay structure clearly visible.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin PEB photos show only the bare steel portal frame skeleton under construction, without cladding, roofing panels, or any finished building elements — insufficient for buyer evaluation of the completed product.",
+    "thinness_signals": [
+      "Only steel columns and purlins/rafters visible with no cladding or roofing panels installed",
+      "Construction site context with no indication of finished building appearance, colour scheme, or span"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "138192913",
+        "reason": "Image shows a steel portal frame skeleton under construction with columns and purlins visible but no cladding, roofing, or completed building detail — insufficient for buyer evaluation of finished product."
+      },
+      {
+        "photo_url": null,
+        "item_id": "153920598",
+        "reason": "Image shows only the bare steel portal frame skeleton under construction with no cladding, roofing panels, or finished building elements visible."
+      },
+      {
+        "photo_url": null,
+        "item_id": "107493125",
+        "reason": "Image shows a green-painted steel portal frame structure under construction — the frame is a PEB component but the image shows only the skeleton without cladding or finished building."
+      },
+      {
+        "photo_url": null,
+        "item_id": "165873322",
+        "reason": "Image shows the interior of a steel shed with corrugated metal roof and columns, but the view is dominated by industrial equipment and materials on the floor rather than the building structure itself."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "No verified bad products have images showing an actively wrong product type for this MCAT — all bad product images show PEB-related structures (frames or buildings), making them thin or contradictory in context rather than irrelevant.",
+    "failure_classes": []
+  },
+  "relevant_titles": {
+    "summary": "Strong PEB titles include product type, material (steel), a key structural attribute (height, span, or sheet thickness), and application (warehouse, factory, industrial).",
+    "strong_positive_signals": [
+      "Explicit 'Pre Engineered' or 'PEB' designation confirming product type",
+      "Material qualifier 'Steel' distinguishing from other prefab types",
+      "Dimensional attribute (height in feet, sheet thickness in mm) providing buyer-relevant spec",
+      "Application qualifier (Warehouse, Factory, Industrial) confirming use case"
+    ],
+    "structural_patterns": [
+      "[Dimension] Pre Engineered [Material] [Application] Building",
+      "Pre Engineered [Material] Building [Application]",
+      "Pre Engineered [Application] Building"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "189731424",
+          "title": "28 Feet Pre Engineered Warehouse Building",
+          "reason": "Title includes product type (pre-engineered building), application (warehouse), and a specific structural dimension (28 feet height) — three buyer-relevant attributes in one concise title."
+        },
+        {
+          "item_id": "189730932",
+          "title": "0.65mm Pre Engineered Steel Building",
+          "reason": "Title includes product type, material (steel), and a specific technical attribute (0.65mm sheet thickness) that differentiates the product for buyers specifying cladding gauge."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "133412569",
+          "title": "Pre Engineered Steel Building",
+          "reason": "Title correctly names product type and material but lacks application or dimensional attribute — correct but minimal."
+        },
+        {
+          "item_id": "172127948",
+          "title": "Pre Engineered Steel Buildings",
+          "reason": "Title correctly names product type and material but lacks application or structural specification — correct but minimal."
+        },
+        {
+          "item_id": "153920598",
+          "title": "Pre Engineered Factory Building",
+          "reason": "Title names product type and application (factory) but omits material (steel) and structural attributes."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin PEB titles name the product type but omit material, application, and structural attributes — correct but insufficient for buyer differentiation.",
+    "thinness_signals": [
+      "Title contains only 'Pre Engineered Building' with no material, application, or dimensional qualifier",
+      "Missing steel material qualifier leaving product type ambiguous among prefab building types"
+    ],
+    "examples": [
+      {
+        "item_id": "123128192",
+        "title": "Pre Engineered Building",
+        "reason": "Title names only the product type without material (steel), application, or any structural attribute — minimal and undifferentiated."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant PEB titles contain the word 'Service' or 'Services' or 'Construction Service,' indicating a service offering rather than a physical pre-engineered steel building product.",
+    "failure_classes": [
+      {
+        "class": "service_listing",
+        "signal": "Title contains 'Service,' 'Services,' or 'Construction Service' — explicitly naming a service offering rather than a physical PEB product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "107493125",
+            "title": "Pre-Engineering Building Solutions Services",
+            "reason": "Title explicitly names a service offering (design, engineering, fabrication, erection services), not a physical PEB product.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "156310857",
+            "title": "Pre Engineered Mild Steel Buildings Services",
+            "reason": "Title contains 'Services' indicating a construction service offering, not a physical PEB product.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "165873322",
+            "title": "Pre Engineered Steel Building Construction Service",
+            "reason": "Title explicitly names a 'Construction Service,' not a physical pre-engineered steel building product.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily service listings (construction/erection/design services) that are not physical PEB products.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "peb_construction_service",
+        "signal": "Title, specs, or description explicitly names a service (design, engineering, fabrication, erection, construction service) with service-type spec fields (Service Area, Service Duration, Service Mode, Service Type, Service Location).",
+        "examples": [
+          {
+            "item_id": "107493125",
+            "title": "Pre-Engineering Building Solutions Services",
+            "reason": "Service listing for PEB design/engineering/fabrication/erection — specs confirm with Service Area (Chennai), Service Duration, Service Mode fields.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "156310857",
+            "title": "Pre Engineered Mild Steel Buildings Services",
+            "reason": "Service listing confirmed by 'Services' in title and service-type specs (Duration, Service Mode, Location: Pan India).",
+            "product_page_url": null
+          },
+          {
+            "item_id": "165873322",
+            "title": "Pre Engineered Steel Building Construction Service",
+            "reason": "Construction service listing confirmed by 'Construction Service' in title and service specs (Service Location/City: Karnataka, Service Type: Industrial Building Construction).",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator. Images audited visually from provided base64 attachments."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "No sibling MCAT confirmed as a routing target for service listings — correct_mcat_suggestion set to null for all bad products as no taxonomy sibling covers PEB construction services."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (industrial warehouse/factory PEB) and product_types (including cold storage PEB) used to confirm category validity; mcat_vagueness_signal.suspected_vague: false confirmed PATH A evaluation for all products."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
