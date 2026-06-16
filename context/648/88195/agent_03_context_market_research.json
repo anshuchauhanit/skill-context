@@ -1,0 +1,558 @@
+{
+  "mcat_description": {
+    "short": "Portable houses are factory-built, transportable prefabricated structures with steel frames and insulated panel walls, sold as complete ready-to-use units or flat-pack kits for quick on-site assembly. They serve as temporary or semi-permanent dwellings, site offices, labour accommodation, and residential cabins across India.",
+    "long": "A portable house is a prefabricated structure manufactured off-site — typically using cold-formed or mild steel frames combined with insulated sandwich panels (PUF, EPS, or rock wool core) — and delivered as a complete unit or in modular components for rapid on-site assembly without conventional masonry. In the Indian B2B market, the dominant commercial form is a single-room or multi-room steel cabin used for construction site offices, labour accommodation, security posts, and temporary residential use, with standard floor dimensions quoted in feet (e.g., 10×10, 10×20, 20×40 ft). The category also encompasses capsule/pod houses, container-converted homes, wooden cabins, modular multi-storey units, and luxury prefab villas, all sharing the defining characteristic of factory fabrication and relocatability. Key buyer-facing attributes include insulation grade, structural frame material, floor area, number of rooms, weather resistance rating, and whether electrical/plumbing fittings are pre-installed.",
+    "product_types": [
+      "Steel frame PUF/sandwich panel portable cabin (single room)",
+      "Multi-room prefabricated portable house (2–4 rooms)",
+      "Container-converted portable home",
+      "Capsule house / pod house",
+      "Wooden portable cabin / log cabin",
+      "Expandable/folding prefab house",
+      "Modular multi-storey portable house",
+      "Luxury prefab villa / modular cottage",
+      "Portable bunkhouse / labour accommodation unit",
+      "Portable terrace room / rooftop cabin",
+      "Tiny house on wheels / mobile home on chassis",
+      "Portable farmhouse cabin"
+    ],
+    "primary_applications": [
+      "Construction site offices and supervisory cabins",
+      "Labour and worker accommodation at project sites",
+      "Security guard cabins and checkpost structures",
+      "Temporary residential housing (rural, peri-urban, disaster relief)",
+      "Farmhouse and holiday cabin use",
+      "Eco-resort and glamping pod accommodation",
+      "Rooftop room addition / terrace cabin",
+      "Remote site accommodation (mining, solar, telecom)",
+      "Portable office and commercial space",
+      "Servant quarters and staff accommodation"
+    ],
+    "buyer_segments": [
+      "Construction contractors and project developers (site offices, labour camps)",
+      "Industrial and infrastructure companies (remote site accommodation)",
+      "Individual homeowners (residential cabin, rooftop room, farmhouse)",
+      "Hospitality and resort developers (eco-resort, glamping)",
+      "Government and institutional buyers (disaster relief, PMAY housing)",
+      "Real estate developers (affordable housing, worker accommodation)",
+      "Mining, solar, and telecom companies (remote workforce housing)",
+      "Defence and humanitarian organisations (field accommodation)"
+    ]
+  },
+  "primary_segment": "Steel-framed insulated panel portable cabin for site offices and labour accommodation",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Steel-framed insulated panel portable cabin for site offices and labour accommodation",
+    "secondary_families": [],
+    "reason": "All sub-types (cabin, modular home, capsule house, container home, tiny house) share the same fundamental product concept — factory-built, transportable dwelling/workspace — with the same buyer profile and no incompatible regulatory regimes; the sibling MCAT 'Portable Toilet' carves out a clearly different product, not an incompatible sub-type of the same product."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "portable house",
+      "prefab house",
+      "portable cabin",
+      "modular house",
+      "prefabricated house",
+      "mobile home",
+      "capsule house",
+      "portable home",
+      "movable house",
+      "portacabin house"
+    ],
+    "technical_synonyms": [
+      "prefabricated modular structure",
+      "cold-formed steel frame cabin",
+      "PUF panel portable structure",
+      "sandwich panel portable house",
+      "relocatable modular building",
+      "light gauge steel frame house",
+      "LGSF portable house",
+      "off-site fabricated dwelling",
+      "demountable structure",
+      "factory-built portable unit"
+    ],
+    "trade_names": [
+      "K-House (EPACK Prefab)",
+      "MobiNest (Tata Steel Nest-In)",
+      "Nest-In portable cabin",
+      "Wedge India prefab house",
+      "Pressmach portable home",
+      "Loom Crafts modular cottage",
+      "space capsule house",
+      "pod house",
+      "tiny house on wheels",
+      "expandable container house"
+    ],
+    "hindi_terms": [
+      "portable ghar",
+      "prefab ghar",
+      "chaltu ghar",
+      "portable makaan",
+      "portable kamra"
+    ],
+    "buyer_intent_queries": [
+      "portable house price in India",
+      "prefab house for construction site",
+      "portable cabin for labour accommodation",
+      "modular house for farmhouse",
+      "portable house 10x20 feet",
+      "capsule house price in India",
+      "tiny house on wheels India",
+      "portable house for rooftop",
+      "prefabricated house for site office",
+      "portable 2BHK house India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per unit (per piece/structure)",
+    "unit_reasoning": "Standard portable cabins are quoted per complete unit/structure in Indian B2B transactions; larger or custom multi-room structures are additionally quoted per square foot, with both conventions active in the market depending on whether the buyer is ordering a standard cabin or a custom-dimensioned structure.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard single-room portable cabin",
+        "unit": "per unit / per piece",
+        "note": "Fixed-dimension cabins (10×10, 10×20 ft) quoted as complete units"
+      },
+      {
+        "sub_segment": "Custom multi-room or large portable house",
+        "unit": "per sq ft",
+        "note": "Custom-dimensioned structures quoted per square foot of floor area"
+      },
+      {
+        "sub_segment": "Modular luxury prefab villa",
+        "unit": "per unit / per project",
+        "note": "High-end modular homes quoted as complete project or per unit"
+      }
+    ],
+    "sources_checked": [
+      "EPACK Prefab (epack.in)",
+      "Pressmach (pressmach.com)",
+      "Tata Steel Nest-In (nestin.co.in)",
+      "IndiaMART category page (structural reference)",
+      "Buyer call data (441 rows)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "The Indian portable/prefabricated house market is a fast-growing segment of the broader prefab construction industry, which stood at approximately USD 15 billion in 2024 and is projected to grow at 8.8% CAGR through 2030 (Mordor Intelligence). Modular buildings command the largest product share at 40.33%, while residential applications lead end-use at 52.1% of market value. The dominant commercial form in the Indian B2B market is a cold-formed steel frame structure with insulated sandwich panels (PUF, EPS, or rock wool core), used primarily for construction site offices, labour accommodation, and temporary residential use — confirmed by major Indian manufacturers including EPACK Prefab, Tata Steel Nest-In, and Pressmach. The category spans a wide spectrum from basic single-room steel cabins (standard dimensions: 10×10 to 20×40 ft) to luxury modular villas and capsule/pod houses. Key demand drivers include government affordable housing schemes (PMAY), rising construction activity, labour welfare requirements at project sites, and growing interest in eco-resort and farmhouse applications. Steel frame compliance with BIS standards (IS 2062 for structural steel, IS 801 for cold-formed sections) is a buyer-cited quality signal. Major Indian players include EPACK Prefab, Tata Steel Nest-In, Loom Crafts, Pressmach, Everest Industries, and Larsen & Toubro. The capsule/pod house sub-segment is an emerging niche with notable keyword demand (692 impressions for 'capsule house'). Portable toilets are a sibling MCAT and must not be listed under this MCAT.",
+  "buyer_attracting_attributes": [
+    "Floor Area / Dimensions (length × width in feet)",
+    "Wall Panel Material (PUF, EPS, rock wool sandwich panel, GI sheet)",
+    "Frame Material (mild steel, cold-formed steel, LGSF, wood)",
+    "Insulation Type and Thickness",
+    "Number of Rooms / BHK Configuration",
+    "Portability / Relocatability (on wheels, skid-mounted, flat-pack)",
+    "Weather Resistance (wind speed, rain, snow load rating)",
+    "Electrical and Plumbing Fittings (pre-installed or provision only)",
+    "Roof Type (flat, sloped, gable)",
+    "Finish Level (basic/standard/luxury, interior lining material)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "88195",
+    "mcat_name": "Portable House",
+    "mcat_level": "4",
+    "listing_count": "4461",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Portable House",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Portable houses are manufactured structures with technical specs (materials, dimensions, assembly method, durability standards) but no mandatory regulatory certification or dominant brand anchoring. Agent 3 should research construction material standards (BIS, ISO), prefab assembly patterns, and buyer quoting conventions."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions used to identify buyer search vocabulary; 'portable house' (4419 impressions) confirmed as dominant term; 'capsule house' (692) identified as notable sub-segment."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.hindi_terms",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Top keywords by Pageviews confirmed 'portable house' dominance (1376 PVs); 'portacabin house', 'pod house', 'tiny house on wheels', 'space capsule house', 'precast room' identified as product type signals."
+      },
+      {
+        "source": "seller_buyer_call_data (441 rows)",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Call data confirmed dimension-based buyer vocabulary (10x20, 10x15, 10x12, 10x10 ft); 'Portable Ghar' confirmed Hindi term; 'Portable Office' confirmed dual-use; 'Portable Toilet' flagged as contamination signal (wrong MCAT)."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT sits under Prefabricated Structures parent; 27 siblings noted; listing_count 4461 treated as plausible given broad MCAT scope."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.epack.in/k-house",
+        "title": "K-House | Modular Prefabricated Houses & Labour Accommodation by EPACK Prefab",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "mcat_description.short",
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "primary_segment",
+          "market_context",
+          "unit_quoting_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed dominant commercial form: cold-formed steel frame + insulated sandwich panels; primary uses: site offices, labour accommodation, classrooms, temporary shelters; relocatable and reusable."
+      },
+      {
+        "url": "https://www.pressmach.com/solution/portable-houses",
+        "title": "Portable Container Home | Prefab Home Manufacturer in India - Pressmach",
+        "source_domain": "pressmach.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "mcat_description.primary_applications",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed customisation options (layout, electrical, plumbing, AC), thermal insulation focus, relocation capability, and project housing / staff accommodation as primary use cases."
+      },
+      {
+        "url": "https://www.nestin.co.in/",
+        "title": "Prefabricated Housing & Prefab Construction Solutions - Tata Steel Nest-In",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Confirmed MobiNest as steel-based portable cabin product; Tata Steel Nest-In serves 26 states; confirmed B2B institutional and site-use segment as primary buyer."
+      },
+      {
+        "url": "https://www.loomcraftsprefab.com/",
+        "title": "Prefab Modular Homes India | Modular Villas & Cottages Manufacturer – Loom Crafts",
+        "source_domain": "loomcraftsprefab.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Confirmed luxury sub-segment: modular villas, cottages, glamping pods; design life 50+ years; hospitality and residential buyer segments."
+      },
+      {
+        "url": "https://www.mordorintelligence.com/industry-reports/india-prefabricated-buildings-industry/market-size",
+        "title": "Prefabricated Building Market in India - Size, Share & Industry Analysis",
+        "source_domain": "mordorintelligence.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed India prefab market USD 15B (2024), 8.8% CAGR to 2030; modular buildings 40.33% share; residential applications 52.1% of market; PMAY-U driving demand."
+      },
+      {
+        "url": "https://www.researchandmarkets.com/report/india-prefabricated-construction-market",
+        "title": "India Prefabricated Construction",
+        "source_domain": "researchandmarkets.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Confirmed India prefab construction CAGR 16.1% (2021–2025), forecast 12.3% CAGR (2026–2030); institutional and industrial buyers as scale accelerators."
+      },
+      {
+        "url": "https://www.accio.com/plp/prefabr-hous-and-villa-india",
+        "title": "Prefab House and Villa India: Custom & Affordable Options",
+        "source_domain": "accio.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Confirmed LGSF as popular frame material; expandable/folding/modular designs noted; BIS steel compliance cited as buyer requirement; 8–10% CAGR projection corroborated."
+      },
+      {
+        "url": "https://www.arihantspaces.com/blog/prefab-homes-in-india-a-smarter-way-to-build-for-the-future",
+        "title": "Prefab Homes in India: A Smarter Way to Build for the Future",
+        "source_domain": "arihantspaces.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Confirmed diverse application spectrum: urban residences, leisure homes, eco-resorts, portable staff accommodation; Loom Crafts and Microhome cited as Indian market players."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Portable houses are manufactured structures with technical specs (materials, dimensions, assembly method, durability standards) but no mandatory regulatory certification or dominant brand anchoring. Agent 3 should research construction material standards (BIS, ISO), prefab assembly patterns, and buyer quoting conventions."
+    }
+  }
+}
