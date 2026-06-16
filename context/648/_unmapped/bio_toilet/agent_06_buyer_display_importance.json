@@ -1,0 +1,158 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Enormous visual variation across sub-types — FRP cabin vs mobile van vs tank-only, single-seat vs multi-seater community block, Indian vs Western style. Buyers use the image to identify product type before reading any text; wrong sub-type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Number of seats and tank capacity are the primary shortlisting criteria — they define the scale, deployment fit, and price tier of the unit. Listings without these specs cannot be evaluated by institutional buyers."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian institutional buyers are price-aggressive but price is only comparable after seat count, tank capacity, and material type are matched. Large municipal and railway orders are project-quoted; listed price serves as a budget entry point for initial shortlisting."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant consumer-facing brand with buyer recall; buyers search by DRDO certification, manufacturing credentials, and government supply track record — not by manufacturer name.",
+      "reason": "DRDO technology certification, government/railway supply track record, and manufacturing credentials are evaluated during vendor selection for tender eligibility. Company is not a first-scan signal but is critical for institutional procurement qualification."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Single-cabin units are quoted per piece; multi-seater vans per unit/set; large institutional blocks per project or per seat. Per piece vs per project creates real price comparison confusion — unit must be shown alongside price.",
+      "reason": "Unit ambiguity is a genuine risk in this category — the same seller may quote per piece for a single cabin and per project for a community block. Buyers cannot compare prices without knowing the unit basis."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "No Of Seats",
+        "reason": "Defines the scale of the unit — a 1-seat cabin and an 8-seat community block are non-interchangeable products with price deltas of several multiples, making this the primary product class separator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Tank Capacity",
+        "reason": "Directly determines biodigester treatment capacity and drives the largest price delta within the same seat-count tier — a 500L tank vs 3000L tank represents a significant cost difference for the same cabin configuration."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Bio System Type",
+      "No Of Seats",
+      "Tank Capacity",
+      "Tank Material",
+      "Toilet Type",
+      "Usage",
+      "Wall Material",
+      "With Solar Panel",
+      "With Urinal"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "DRDO Certification",
+        "why_important": "Institutional buyers including Indian Railways, Defence, and municipal corporations require DRDO-certified biodigester technology as a compliance gate — uncertified units are ineligible for government tenders regardless of other specs.",
+        "source": "both",
+        "example_values": [
+          "DRDO Certified",
+          "Non-Certified",
+          "DRDO Technology Licensed"
+        ]
+      },
+      {
+        "spec_name": "Mobility Type",
+        "why_important": "Stationary cabin, mobile toilet van, and portable unit are non-interchangeable deployment types with distinct structural requirements, pricing, and buyer use cases — a construction site buyer and a municipal van buyer cannot substitute one for the other.",
+        "source": "both",
+        "example_values": [
+          "Stationary",
+          "Mobile Van",
+          "Portable",
+          "Vehicle Mounted"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Toilet Seat Type",
+        "reason": "Indian vs Western pan configuration is non-interchangeable — rural government deployments and railway coaches typically require Indian style, while urban and institutional buyers may specify Western; sellers need this to confirm they supply the correct configuration.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Western",
+          "Indian"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Material",
+        "reason": "FRP, MS, and GI cabins differ substantially in weight, durability, cost, and suitability for deployment context (FRP for lightweight/portable, MS for heavy-duty/permanent); sellers need this to confirm they manufacture in the required material.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "No. of Seats",
+        "why_important": "Seat count defines the scale of the entire procurement — a single-seat portable unit and a 10-seat community block require completely different products, manufacturing processes, and pricing; sellers cannot respond accurately without this information.",
+        "source": "both",
+        "example_values": [
+          "1 Seat",
+          "2 Seats",
+          "4 Seats",
+          "6 Seats",
+          "8 Seats"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Western",
+      "id": "spec_1",
+      "prompt_for_generation": "Interior view of a prefabricated FRP bio toilet cabin showing a white Western-style toilet seat and pan, clean white walls, door slightly open, bright natural lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Indian",
+      "id": "spec_2",
+      "prompt_for_generation": "Interior view of a prefabricated FRP bio toilet cabin showing an Indian-style squat pan with footrests at floor level, white ceramic pan, clean walls, door slightly open, bright natural lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
