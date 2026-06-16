@@ -1,0 +1,131 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — timber cottage, steel-frame villa, FRP dome, and container conversion are visually and commercially distinct products. Hospitality buyers scan images to assess guest-facing aesthetics before reading any text; wrong visual style is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Structure material, floor area, and corrosion protection are primary shortlisting gates for coastal deployment. Buyers cannot evaluate fitness for saltwater/wind-load conditions without these specs."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand with buyer recall exists in this category; market is fragmented across regional manufacturers and buyers search by spec, portfolio, and project track record rather than brand name.",
+      "reason": "Capital expenditure at this scale requires buyers to evaluate manufacturer credibility, project portfolio, and ability to provide structural drawings for CRZ and municipal approvals. Seller identity is a qualification signal, not a discovery signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially across structure material tiers and floor area configurations; buyers compare per-sq-ft rates only after confirming visual fit and spec equivalence. India price sensitivity is high but final price is always negotiated for project-scale orders."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard catalogue configurations (fixed-size cottages) are quoted per unit; custom-sized orders are quoted per sq ft. Both conventions coexist — unit must be shown alongside price to prevent comparison errors.",
+      "reason": "Per sq ft vs per unit is a real market ambiguity in this MCAT; a buyer comparing two listings cannot interpret or compare prices without knowing which unit convention the seller is using."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Material",
+        "reason": "Defines the fundamental product type — timber, steel, bamboo, and precast concrete are non-interchangeable structural systems with entirely different price points, lifespans, and coastal compliance profiles."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Floor Area",
+        "reason": "The single largest driver of total project cost — every material quantity, structural design, and labour estimate scales directly with built-up area, making it the primary price configurator after material type."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Corrosion Protection",
+      "Floor Area",
+      "Furnishing",
+      "House Type",
+      "Number Of Floors",
+      "Roof Type",
+      "Service Location",
+      "Structure Material",
+      "Usage"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall/Cladding Material",
+        "why_important": "Coastal buyers evaluate cladding independently of frame material — a steel frame can be clad with FRP, insulated composite panels, or treated timber, each with different thermal performance, corrosion resistance, and cost profiles that materially affect shortlisting.",
+        "source": "both",
+        "example_values": [
+          "Insulated Composite Panel",
+          "FRP Sheet",
+          "Treated Timber",
+          "WPC Board"
+        ]
+      },
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Hospitality buyers in hot-humid coastal climates (Kerala, Goa) specify insulation performance for guest comfort and energy efficiency; EPS vs PUF vs Rockwool represents a meaningful quality and cost tier difference.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "EPS (Expanded Polystyrene)",
+          "PUF (Polyurethane Foam)",
+          "Rockwool",
+          "None"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Configuration",
+        "reason": "Directly communicates the buyer's spatial and functional requirement — a studio and a 2 BHK require fundamentally different structural designs and cost entirely different amounts, enabling sellers to determine fit and quote accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Frame Material",
+        "reason": "Routes the RFQ to the right supplier type — manufacturers specialising in timber construction cannot supply LGS structures, and frame material determines corrosion resistance profile and price tier for coastal deployment.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Floor Area",
+        "why_important": "Sellers cannot provide an accurate quote without knowing the required built-up area — floor area drives structural design, material quantities, and total project cost more directly than any other single buyer-specified parameter.",
+        "source": "both",
+        "example_values": [
+          "Up to 300 sq ft",
+          "300–600 sq ft",
+          "600–1000 sq ft",
+          "Above 1000 sq ft"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Prefabricated beach house buyers frequently have a specific design reference — a competitor property, architect sketch, or visual inspiration — that defines aesthetic requirements (roofline, facade style, deck configuration) that cannot be captured through spec dropdowns alone. An uploaded reference image allows sellers to assess design complexity and confirm whether their product range matches the buyer's vision before responding."
+  },
+  "buyer_spec_thumbnail_prompts": []
+}
