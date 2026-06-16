@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Poultry Sheds' directly matches the top primary keyword and is the standard B2B trade term used by buyers and suppliers across IndiaMART listings, keyword data, and market context; technical variants (EC shed, broiler farm shed) are adequately captured in alt_names without needing elevation to the MCAT name.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail visually shows an open-sided steel-frame shed housing dairy cattle (black-and-white Holstein/Friesian cows visible along feed barriers), which is a cattle/dairy shed — not a poultry shed of any type, making this an actively wrong-product image for this MCAT.",
+      "The primary segment is EC poultry shed for commercial broiler farming; the current image not only fails to represent EC poultry housing but contaminates the listing with a different livestock category entirely, creating buyer confusion and misrouting risk."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Exterior view of a large-scale Environmentally Controlled (EC) poultry shed for commercial broiler farming in India: long rectangular prefabricated steel-frame structure with white or light-grey sandwich panel or PUF panel side walls, yellow or silver corrugated metal roof, a row of large circular exhaust fans visible on the end wall, evaporative cooling pad inlets on the opposite side wall, clean concrete apron in front, set against a clear blue sky on flat agricultural land. Bright natural daylight, sharp photorealistic rendering, no people, no text overlays, square 1:1 composition with the shed centred and occupying 70% of the frame.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
