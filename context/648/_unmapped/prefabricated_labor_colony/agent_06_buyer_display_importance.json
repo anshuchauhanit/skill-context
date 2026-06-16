@@ -1,0 +1,240 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types (single-storey GI sheet hutment vs double-storey PUF panel colony vs container-based camp) — buyers use the image to immediately identify the construction type, storey count, and finish quality before reading any text. Wrong product type shown = immediate skip for an EPC contractor with a specific site requirement."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Wall panel material, number of floors, and built type are primary shortlisting criteria for EPC and contractor buyers who have project-specific structural and insulation requirements — listings without these specs cannot be evaluated against project tender specifications."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with wall panel material (GI sheet vs PUF vs Aerocon), storey count, and service inclusions (bare supply vs turnkey) — Indian EPC buyers compare per-sq-ft rates across sellers but only after confirming spec equivalence; price is a primary shortlisting lever once specs match."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Individual room/module orders may be quoted per unit or per room; container-based camps quoted per container — unit must be shown to prevent price comparison errors across these sub-segments.",
+      "reason": "Per sq ft vs per unit vs per room creates genuine price comparison confusion for buyers comparing turnkey colony quotes against modular room supply quotes — unit must be displayed alongside price to make comparisons meaningful."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — market is fragmented across regional fabricators and EPC subcontractors; buyers search by spec, capacity, and price rather than manufacturer name.",
+      "reason": "EPC contractors and government project buyers evaluate manufacturer track record, past project references, and installation capability during vendor selection — company credentials matter but only after spec and price shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Wall Panel Material",
+        "reason": "Wall panel material (GI sheet vs PUF panel vs EPS panel vs Rockwool vs Cement Board) defines the insulation grade, durability tier, and thermal comfort of the colony — non-interchangeable across project climate and specification requirements, with a significant price delta between basic PPGI sheet and insulated PUF/Rockwool panels."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Number of Floors",
+        "reason": "Storey count (G vs G+1 vs G+2 vs G+3) determines structural complexity, foundation requirements, and total accommodation capacity — non-interchangeable for a given site footprint and worker headcount, with a substantial price increase per additional floor."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Door Material",
+      "Feature",
+      "Flooring Type",
+      "Frame Material",
+      "Number of Floors",
+      "Roof Material",
+      "Service Inclusions",
+      "Wall Panel Material",
+      "Window Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Colony Capacity (Number of Workers / Rooms)",
+        "why_important": "EPC and contractor buyers size their colony order by worker headcount or number of rooms — this is the primary project sizing parameter that determines total order value and seller feasibility to supply.",
+        "source": "both",
+        "example_values": [
+          "20 workers",
+          "50 workers",
+          "100 workers",
+          "200+ workers"
+        ]
+      },
+      {
+        "spec_name": "Total Built-Up Area",
+        "why_important": "Turnkey colony pricing is quoted per sq ft of built-up area — buyers and sellers need total area to compare quotes and confirm project scope alignment.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "500 sq ft",
+          "1000 sq ft",
+          "2500 sq ft",
+          "5000 sq ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Wall Material",
+        "reason": "Wall material defines the insulation grade, durability, and compliance tier of the colony — sellers need this to confirm they can supply the specified panel type and to price the order accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Aerocon Panel",
+          "PUF Panel",
+          "Cement Sheet",
+          "GI Sheet",
+          "Precast RCC"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Number of Floors",
+        "reason": "Storey count determines structural complexity and total accommodation capacity — sellers need this to assess fabrication feasibility, foundation requirements, and to provide an accurate per-sq-ft quote.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "G+0",
+          "G+1",
+          "G+2"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Number of Rooms / Worker Capacity",
+        "why_important": "Sellers cannot determine project scale, material quantity, or supply feasibility without knowing the total number of rooms or workers to be accommodated — this is the primary order-sizing parameter.",
+        "source": "both",
+        "example_values": [
+          "10 rooms",
+          "20 rooms",
+          "50 rooms",
+          "100+ rooms"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "EPC contractors and government project buyers frequently have site layout drawings, architectural sketches, or reference colony photographs that define the spatial arrangement, storey configuration, and facility inclusions required — an uploaded image or layout plan allows sellers to assess site-specific feasibility and provide a more accurate turnkey quote without multiple back-and-forth clarification rounds."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Wall Material",
+      "option_value": "Aerocon Panel",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated labour colony building with Aerocon cement board wall panels, multi-room single-storey structure, MS steel frame visible at corners, light grey panel finish, outdoor construction site setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "PUF Panel",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated labour colony building with PUF sandwich panel walls, insulated panel edges clearly visible, colour-coated steel skin in off-white or cream finish, MS frame structure, outdoor industrial site background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "Cement Sheet",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated labour colony building with cement board sheet walls, flat grey textured panel surface, steel frame construction, multiple room doors visible along facade, outdoor project site setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "GI Sheet",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated labour colony building with corrugated galvanised iron sheet walls, colour-coated GI sheet in green or blue, MS frame structure, basic single-storey hutment style, outdoor construction site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "Precast RCC",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated labour colony building with precast RCC concrete wall panels, solid grey concrete panel surface, robust multi-room structure, outdoor industrial or infrastructure project site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Floors",
+      "option_value": "G+0",
+      "id": "spec_6",
+      "prompt_for_generation": "Single-storey prefabricated labour colony, ground floor only, multiple room doors along a long facade, GI sheet or sandwich panel walls, MS frame, outdoor construction site setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Floors",
+      "option_value": "G+1",
+      "id": "spec_7",
+      "prompt_for_generation": "Double-storey prefabricated labour colony, ground floor plus one upper floor, external staircase visible on side, sandwich panel walls, MS frame structure, multiple room doors on both floors, outdoor project site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Floors",
+      "option_value": "G+2",
+      "id": "spec_8",
+      "prompt_for_generation": "Three-storey prefabricated labour colony, ground plus two upper floors, external staircase on side, PUF or sandwich panel walls, MS steel frame, rows of room doors on each floor, outdoor industrial site background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
