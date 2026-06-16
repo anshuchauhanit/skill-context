@@ -1,0 +1,1193 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "92072134",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Dyeing Mill Shed",
+      "description": "<p>A <b>Dyeing Mill Shed</b> is a specialized industrial structure designed to support the operations of dyeing mills, which involve the processing and coloring of textiles or fabrics. These sheds are typically constructed using robust materials like steel and are tailored to meet the unique environmental, safety, and operational needs of the dyeing process.</p>",
+      "specs": {
+        "raw": "Accessories:Mezzanine Floor, Brand:TATA, Built Type:Prefab, Built-Up Area:20000 sq. ft., Center Height:30 ft (9 m), Clear Span (Width):15 m (50 ft), Color:Blue, Country of Origin:Made in India, Crane Provision:With Crane, Eave Height:9 m (30 ft), Finish:Color Coated, Insulation:PUF Panel, Length:80 ft (24 m), Material:Steel, Roof Type:Single Slope Roof, Rust Proof:Yes, Shape:Rectangular, Shed Type:Conventional, Side Height:10 ft (3 m), Structure Type:Conventional, Wall Cladding:Full Sheeting, Width:40 ft (12 m)"
+      },
+      "image_url": "http://4.imimg.com/data4/BB/BB/GLADMIN-3206394/location_image.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/dyeing-mill shed-13926715248.html",
+      "image_file": "92072134.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Interior view shows a wide-span steel truss shed with corrugated metal roofing, visible steel columns and trusses, and an open industrial floor — clearly a prefabricated factory shed structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names a specific industrial application (dyeing mill) for a shed, which is a valid factory shed use case, though it omits structural type and dimensions."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide comprehensive structural data: prefab steel, 20000 sq ft, 15m clear span, 9m eave height, crane provision, PUF insulation, colour-coated finish — all consistent with a prefabricated factory shed."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description correctly identifies the product as a specialized industrial steel structure for dyeing mill operations, consistent with the MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Dyeing mill is a valid industrial application for a prefabricated factory shed; the product identity (prefab steel shed) is correct for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label good confirmed; strong specs with crane provision and PUF insulation, interior photo clearly shows industrial truss shed.",
+      "source_url": "https://www.indiamart.com/proddetail/dyeing-mill shed-13926715248.html"
+    },
+    {
+      "item_id": "117749908",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Factory Shed",
+      "description": "<b>Metal-ify PEB Solution</b>&nbsp;is one of the fastest growing manufacturer of PEB Sheds like Industrial Factory Sheds, Warehouses, Power plants, rice mill plants and many more.",
+      "specs": {
+        "raw": "Brand:Jindal, Built Type:Prefab, Country of Origin:Made in India, Material:Steel, Thickness:05 25mm, Usage/Application:Industrial"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/3/396910592/AY/AL/TR/37315965/prefabricated-factory-shed.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-factory shed-18815569833.html",
+      "image_file": "117749908.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Exterior view shows a completed blue and cream colour-coated PEB industrial shed with steel cladding walls, entrance canopy, and windows — a clear and buyer-useful representation of a prefabricated factory shed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title exactly matches the MCAT name and correctly identifies the product, though it lacks structural type or dimension detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab steel construction and industrial use but lack span, height, and structural type details that buyers need."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description names PEB sheds for industrial factory, warehouse, and processing plant applications — consistent with the MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated PEB factory shed for industrial use, directly matching the MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs only list brand, built type, material, and usage — missing clear span, eave height, and structural type which are essential buyer decision specs for a factory shed."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; photo is the strongest asset showing a completed PEB shed exterior; specs are thin but not wrong.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-factory shed-18815569833.html"
+    },
+    {
+      "item_id": "156107610",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Ms Factory Shed",
+      "description": "<b>Aastha's Techno Fab&nbsp;</b>is one of the leading manufacturers and service providers of&nbsp;<b>MS Shed, MS Structure, MS Shed Fabrication Work</b>&nbsp;and much more<b>.&nbsp;</b>We offer these at market leading rates. Since our inception, we are working beneath the supervision of&nbsp;<b>Mr. Uttam Sisodiya</b>. Since our inception, we are working beneath the supervision of&nbsp;<b>Mr. Uttam Sisodiya</b>. His enormous knowledge in this domain has directed us in becoming one of the well-known suppliers of the industry.",
+      "specs": {
+        "raw": "Brand:JSW, Built Type:Modular, Clear Span (Width):18 m (60 ft), Crane Provision:Without Crane, Eave Height:7.5 m (25 ft), Features:yes, Height:y23', Life Span:yes, Material:Steel, Roof Type:Gable Roof, Size/Dimension:75'×145', Snow Load:yes, Structure Type:Conventional, Thickness:yes.0.50mm, Usage/Application:House, Wall Cladding:Full Sheeting"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2020/10/KM/PQ/JS/41811036/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/ms-factory shed-22699913273.html",
+      "image_file": "156107610.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Exterior photo shows a pipe/truss shed under construction with red ridge capping and open sides, but the image is taken at dusk with poor lighting, motorcycles and people in the foreground obscuring the structure, making structural details hard to assess."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names MS (mild steel) factory shed, a recognised product type within the MCAT, though it omits span, height, and structural type."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide clear span (18m), eave height (7.5m), gable roof, and 0.50mm thickness — useful structural data, though several fields contain placeholder values ('yes') and Usage/Application is listed as 'House' which is inconsistent with a factory shed."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic company introduction mentioning MS shed fabrication work but provides no product-specific details; also contains a personal name (Mr. Uttam Sisodiya)."
+        },
+        "category": {
+          "valid": true,
+          "reason": "MS factory shed is a valid conventional steel truss shed type within the Prefabricated Factory Shed MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title says 'Ms Factory Shed' (factory use) but specs list Usage/Application as 'House', which actively contradicts the stated end use."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains a personal name 'Mr. Uttam Sisodiya' which constitutes PII."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains the business name 'Aastha's Techno Fab' embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title states 'Ms Factory Shed' (factory application) but specs field Usage/Application explicitly states 'House', creating a direct contradiction."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is taken at dusk with poor lighting and foreground clutter (motorcycles, people) that obscures structural details of the shed."
+        },
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains personal name 'Mr. Uttam Sisodiya'."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description embeds business name 'Aastha's Techno Fab' in the product description text."
+        }
+      ],
+      "verification_note": "Pre-label good retained as good — product identity is correct (MS factory shed), but listing has title-specs contradiction on usage, thin photo, PII, and business name leakage; these are quality issues, not category failures.",
+      "source_url": "https://www.indiamart.com/proddetail/ms-factory shed-22699913273.html"
+    },
+    {
+      "item_id": "183431361",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Warehouse Shed",
+      "description": "We have set up an outstanding example for others showing that rapid growth is possible by strictly maintaining quality of products and serving the clients with complete dedication. We are engaged in the industry as a distinguished manufacturer, trader and distributor dealing in a number of products like Pre Engineered Building Systems(PEB),Pre fabricated steel structures,mezzanine floors,industrial sheds,warehouses and Insulating Roofing and Panels.Our company is professionally managed by a group of technocrats having versatile knowledge and experience in the discipline. High quality and timely delivery are the two parameters, which have kept us ahead in the industry. The company is a perfect blend of man and machine to deliver its clients with the best possible engineering construction services and allied products at the most competitive prices. We are committed to deliver the best, thus leaving no space for quality degradation.",
+      "specs": {
+        "raw": "Built Type:Prefab, Is It Rust Proof:Yes, Material:Steel, Service Location/City:Pan India, Surface Treatment:Galvanized, Thickness:50 mm"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/4/GI/UO/IJ/938734/prefabricated-warehouse.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-warehouse shed-25432288073.html",
+      "image_file": "183431361.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Exterior side-wall view shows a large blue and white colour-coated PEB industrial shed with corrugated steel cladding, visible structural columns, and a truck in the background confirming industrial/warehouse scale."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names a prefabricated warehouse shed — warehouse is a primary application of prefabricated factory sheds and the product type is correct for this MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab steel with galvanized surface treatment but lack span, height, structural type, and roof type — insufficient for buyer decision-making."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic company profile mentioning PEB, prefabricated steel structures, and warehouses but provides no product-specific technical details."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefabricated warehouse shed is a valid application type within the Prefabricated Factory Shed MCAT; product identity is a prefab steel structure."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Warehouse Sheds",
+        "reason": "Title and description explicitly name 'warehouse shed' and 'warehouses' as the primary product, which maps to the 'Warehouse Sheds' sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs only list built type, rust proof, material, surface treatment, and thickness — missing clear span, eave height, and structural type which are critical for a warehouse/factory shed buyer."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; strong photo of completed PEB shed; sibling routing candidate for Warehouse Sheds but valid in parent MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-warehouse shed-25432288073.html"
+    },
+    {
+      "item_id": "188890882",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Peb Industrial Shed",
+      "description": "<b>Kishore Infratech</b>: Pioneering Excellence in <b>Industrial Sheds</b><br />In the ever-evolving landscape of industrial construction, Kishore Infratech has emerged as a trailblazer, redefining the concept of industrial sheds. With an unwavering commitment to quality, innovation, and customer satisfaction, Kishore Infratech has earned a formidable reputation as a leading player in the construction industry.<br />Established with a vision to provide cutting-edge solutions to meet the diverse needs of modern industries, Kishore Infratech's journey has been characterized by a relentless pursuit of excellence. The company's industrial sheds stand as a testament to its dedication, offering a perfect amalgamation of functionality, durability, and aesthetics.<br />Kishore Infratech understands that industrial spaces are the backbone of economic progress, serving as the crucible where innovation takes shape and dreams turn into reality. To address this, the company's industrial sheds are designed not merely as structures, but as enablers of growth. Every project undertaken is a bespoke creation, tailored to the specific requirements of the client's industry. Whether it's a manufacturing unit, a warehouse, a logistics hub, or a research facility, Kishore Infratech's industrial sheds are engineered to optimize operational efficiency and enhance productivity.<br />One of the cornerstones of Kishore Infratech's success is its unwavering emphasis on innovation. The company stays at the forefront of technological advancements in construction, integrating state-of-the-art materials and techniques into its projects. This ensures that every industrial shed is not only robust and resilient but also sustainable. Kishore Infratech's commitment to eco-friendly construction aligns seamlessly with the global shift towards greener practices, making their sheds not just structures, but responsible contributions to the environment.<br />The hallmark of Kishore Infratech's industrial sheds is their adaptability. Recognizing that business landscapes are in constant flux, the company designs structures that can evolve alongside the industries they serve. Flexibility is built into every blueprint, allowing for easy modifications, expansions, and repurposing. This future-forward approach safeguards investments and minimizes downtime during transitions, setting Kishore Infratech's sheds apart as long-term assets.<br />Quality assurance is a cornerstone of Kishore Infratech's ethos. The company follows rigorous construction standards and employs a team of experienced professionals who oversee every aspect of the project. From conceptualization to execution, each phase is executed with precision and meticulous attention to detail. This commitment to quality has not only earned the trust of clients but has also garnered industry accolades, cementing Kishore Infratech's position as a reliable partner in industrial construction.<br />Customer satisfaction is at the heart of Kishore Infratech's operations. The company believes that successful projects are a result of collaboration and understanding. To this end, Kishore Infratech fosters open lines of communication with clients, ensuring that their vision is translated into reality. The journey from idea to completion is marked by transparency, clear milestones, and a client-centric approach, solidifying enduring partnerships.<br />In conclusion, Kishore Infratech's industrial sheds are more than just physical structures; they are the embodiment of a philosophy rooted in excellence, innovation, and customer-centricity. As industries continue to evolve, Kishore Infratech remains dedicated to reshaping industrial spaces, setting new benchmarks, and contributing to the growth of businesses and economies. With a legacy built on trust and a future driven by innovation, Kishore Infratech is poised to continue its transformative journey in the realm of industrial construction.",
+      "specs": {
+        "raw": "Brand:Kishore Infratech TATA, Clear Span (Width):Customized, Country of Origin:Made in India, Design:Customized, Eave Height:Customized, Experience:700 Above Projects Completed, Material:Steel, Service Location:Pan India, Structure Type:Pre-Engineered, Type Of Industrial Sheds:Steel, Usage/Application:Factory"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/6/BI/OE/OK/135805/industrial-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/peb-industrial shed-25978240297.html",
+      "image_file": "188890882.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large PEB steel frame structure under construction with tapered columns, rafters, and purlins clearly visible, with a crane in the foreground — a high-quality representation of a pre-engineered factory shed at erection stage."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names 'PEB Industrial Shed' — correctly identifies the structure type (PEB) and use (industrial), though it lacks span, height, or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm pre-engineered steel structure for factory use with customised span and eave height — appropriate for a bespoke PEB shed, though 'Customized' values reduce buyer-decision utility."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is an extensive company profile for Kishore Infratech with no product-specific technical specifications; it mentions industrial sheds and factory applications but provides no structural data."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PEB industrial shed for factory use directly matches the primary segment of the Prefabricated Factory Shed MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description prominently features the business name 'Kishore Infratech' throughout the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description repeatedly embeds the business name 'Kishore Infratech' as the primary subject of the product description."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; excellent construction-stage photo of PEB frame; description is a company brochure rather than product content.",
+      "source_url": "https://www.indiamart.com/proddetail/peb-industrial shed-25978240297.html"
+    },
+    {
+      "item_id": "179302324",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "PEB Shed Construction For Steel Storage Factories And Industries",
+      "description": "steel storage factories  PEB shed construction for steel storage factories and industries",
+      "specs": {
+        "raw": "Brand:hitech PEB, Built Type:Prefab, Height:100, Material:Steel, Thickness:thickness as per engineering design, Usage/Application:factories and industries peb shed for steel storage"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/2/CZ/FJ/DV/708133/peb-structural-sheds-manufacturer-in-kutch-1572016542.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/peb-shed construction for steel storage factories and industries-25019384388.html",
+      "image_file": "179302324.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Interior view shows a wide-span PEB shed with visible steel purlins, corrugated metal roof panels with translucent light strips, and industrial coils stored on the floor — clearly a prefabricated factory/storage shed interior."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names PEB shed construction for steel storage factories and industries — correctly identifies the product type and industrial application."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab steel for factory use but height value '100' lacks a unit, and thickness is described as 'as per engineering design' — insufficient structural detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a near-verbatim repeat of the title with no additional product information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PEB shed for steel storage factories is a valid prefabricated factory shed product matching the MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Height field value '100' has no unit, and thickness is 'as per engineering design' — both are non-informative placeholder values."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo clearly shows a valid PEB factory shed interior, product identity is correct, no contradictions or category failures; thinness in specs does not disqualify.",
+      "source_url": "https://www.indiamart.com/proddetail/peb-shed construction for steel storage factories and industries-25019384388.html"
+    },
+    {
+      "item_id": "189731383",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "GI Prefabricated Factory Shed",
+      "description": "<p>A <b>GI Prefabricated Factory Shed</b>&nbsp;is a pre-engineered structure designed for industrial and commercial use. These sheds are built using pre-fabricated components such as steel, roofing panels, and insulation materials that are manufactured off-site and then assembled at the construction location. Prefabricated factory sheds are widely used for factories, warehouses, storage facilities, and other industrial buildings due to their quick construction time, cost-efficiency, and flexibility.</p>",
+      "specs": {
+        "raw": "Built Type:Prefabricated, Heat Resistance:Yes, Height:50 Feet, Product Material:GI, Roof Type:Insulated, Sheet Thickness:0.50 mm, Technique:Hot Rolled, Tensile Strength:500 mPA, Usage:Factory"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/7/QU/GE/XZ/136636414/108.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/gi-prefabricated factory shed-26062290330.html",
+      "image_file": "189731383.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Aerial view shows a large industrial factory complex with a long PEB/steel shed structure, solar panels on the roof, blue and white colour-coated cladding, and industrial-scale footprint — clearly a prefabricated factory shed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names GI prefabricated factory shed — correctly identifies the material (GI) and product type, though it lacks span and height details."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide height (50 ft), GI material, 0.50mm sheet thickness, 500 MPa tensile strength, insulated roof, and factory usage — useful structural data for a GI prefabricated shed."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description correctly explains prefabricated factory sheds as pre-engineered structures for industrial and commercial use, assembled on-site — consistent with the MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "GI prefabricated factory shed is a valid product type within the Prefabricated Factory Shed MCAT, matching the conventional steel shed sub-type."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — aerial photo shows a valid large-scale prefabricated factory shed, all text dimensions are acceptable or better, no contradictions or category failures.",
+      "source_url": "https://www.indiamart.com/proddetail/gi-prefabricated factory shed-26062290330.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "165890953",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Puf Panel Roofing Shed",
+      "description": "<p dir=\"ltr\">Puf Panel house or shed</p>",
+      "specs": {
+        "raw": "As coustomer demand:As per the discussion, Built Type:Prefab, Material:PVC, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2021/7/CY/XS/BT/29144783/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/puf-panel roofing shed-23678247291.html",
+      "image_file": "165890953.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows two workers crouching on a residential rooftop applying sealant to corrugated sheet roofing on a multi-storey urban residential building — this is a roofing repair/installation service scene, not a prefabricated factory shed product."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title names 'PUF Panel Roofing Shed' which could refer to a roofing component or a residential shed, not a prefabricated factory shed structure."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs list PVC material and house application — PVC material is inconsistent with steel-framed prefabricated factory sheds, and 'House' usage confirms residential/non-factory context."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description 'Puf Panel house or shed' explicitly mentions house application, inconsistent with an industrial factory shed."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Image shows a residential rooftop repair service scene, specs list PVC material for house use, and description confirms house/residential application — this is not a prefabricated factory shed."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Shed",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows workers on a residential rooftop doing sheet roofing repair — not a prefabricated factory shed product."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Puf Panel Roofing Shed' refers to a roofing panel component or residential shed, not a prefabricated industrial factory shed."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs list Material:PVC and Usage/Application:House — PVC material and house use are inconsistent with steel prefabricated factory sheds."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description states 'Puf Panel house or shed' — the explicit 'house' reference contradicts the industrial factory shed MCAT."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; image, specs, and description all indicate a residential/house roofing context, not a prefabricated factory shed.",
+      "source_url": "https://www.indiamart.com/proddetail/puf-panel roofing shed-23678247291.html"
+    },
+    {
+      "item_id": "165958366",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Factory Shed",
+      "description": "Established in the year 2015 we \"Amrit Decor & Fabrication\" is a Manufacturer of the wide spectrum Aluminum Door,SS Railings,Outdoor Awnings etc. We are manufacturing these products using premium grade raw material that is procured from the authentic vendors of the market. We offer these products at reasonable rates and deliver these within the promised time-frame.",
+      "specs": {
+        "raw": "Brand:All, Features:All, Height:All, Life Span:All, Roofing Area:All, Size/Dimension:All, Snow Load:All, Thickness:All, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2020/8/DL/AB/EU/16517350/1598273220962-jpg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-factory shed-23684988573.html",
+      "image_file": "165958366.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a small decorative curved canopy/pergola with green polycarbonate panels in a park/garden setting — this is a garden canopy or car parking shade structure, not a prefabricated factory shed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title exactly matches the MCAT name 'Prefabricated Factory Shed', so the title itself is category-consistent."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "All spec values are 'All' (placeholder/non-informative) and Usage/Application is listed as 'House' — the house usage contradicts a factory shed context."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description is for 'Amrit Decor & Fabrication' manufacturing aluminum doors, SS railings, and outdoor awnings — these are entirely different products from a prefabricated factory shed, actively contradicting the title."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Image shows a garden canopy/pergola, description describes aluminum doors and awnings, and specs list house usage — the actual product is not a prefabricated factory shed."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "title_vs_description",
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a green polycarbonate garden canopy in a park, while title claims 'Prefabricated Factory Shed' — completely different product.",
+          "Title claims 'Prefabricated Factory Shed' but description describes a company making aluminum doors, SS railings, and outdoor awnings — unrelated products.",
+          "Title claims 'Prefabricated Factory Shed' but specs list Usage/Application as 'House' — contradicting the factory use implied by the title."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains the business name 'Amrit Decor & Fabrication' and the year of establishment as part of the product description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a green polycarbonate garden canopy/pergola in a park; title claims 'Prefabricated Factory Shed'."
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title says 'Prefabricated Factory Shed' but description describes a company manufacturing aluminum doors, SS railings, and outdoor awnings."
+        },
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title claims factory shed but specs list Usage/Application as 'House'."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a decorative garden canopy with polycarbonate panels — not a prefabricated factory shed."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "All spec values are placeholder 'All' and Usage/Application is 'House' — inconsistent with a factory shed."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes aluminum doors, SS railings, and outdoor awnings — entirely different products from a prefabricated factory shed."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description embeds business name 'Amrit Decor & Fabrication' in the product description text."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; image, description, and specs all indicate a completely different product (garden canopy/awnings) despite the title matching the MCAT name.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-factory shed-23684988573.html"
+    },
+    {
+      "item_id": "169168475",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "0.50mm Steel Prefabricated Factory Shed",
+      "description": "<p>A <b>0.50mm Steel Prefabricated Factory Shed</b>&nbsp;is a pre-engineered structure designed for industrial and commercial use. These sheds are built using pre-fabricated components such as steel, roofing panels, and insulation materials that are manufactured off-site and then assembled at the construction location. Prefabricated factory sheds are widely used for factories, warehouses, storage facilities, and other industrial buildings due to their quick construction time, cost-efficiency, and flexibility.</p>",
+      "specs": {
+        "raw": "Built Type:Prefabricated, Heat Resistance:Yes, Height:40 Feet, Is It Waterproof:Yes, Material:Steel, Roof Type:Insulated, Sheet Thickness:0.50 mm, Technique:Hot Rolled, Tensile Strength:500 mPA, Usage:Factory"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/3/LM/BL/EB/136636414/prefabricated-steel-building.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/0-50mm steel prefabricated factory shed-24005999455.html",
+      "image_file": "169168475.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a large multi-storey corporate/commercial building with a full glass curtain-wall facade and 'Trelleborg' branding — this is a conventional RCC/glass commercial office building, not a prefabricated factory shed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names a 0.50mm steel prefabricated factory shed — correctly identifies the product type and sheet thickness for the MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide height (40 ft), steel material, 0.50mm sheet thickness, 500 MPa tensile strength, insulated roof, and factory usage — consistent with a prefabricated factory shed."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description correctly describes prefabricated factory sheds as pre-engineered structures for industrial use assembled on-site."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title, specs, and description all describe a valid prefabricated factory shed; the photo mismatch is a photo quality issue, not a category identity failure of the listing."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs",
+          "photo_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Image shows a glass-facade corporate office building (Trelleborg brand), while title claims '0.50mm Steel Prefabricated Factory Shed'.",
+          "Image shows a multi-storey glass curtain-wall commercial building, while specs describe a 40-ft steel prefabricated shed with insulated roof.",
+          "Image shows a conventional commercial office building, while description describes a pre-engineered steel shed assembled from prefabricated components."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a glass-facade corporate office building with Trelleborg branding; title claims '0.50mm Steel Prefabricated Factory Shed'."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a multi-storey glass commercial building; specs describe a 40-ft steel prefabricated shed with insulated roof and 0.50mm sheet thickness."
+        },
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Image shows a conventional commercial office building; description describes a pre-engineered steel shed assembled from prefabricated components off-site."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a glass curtain-wall corporate office building — not a prefabricated factory shed."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; the photo is entirely wrong (corporate glass building) despite title/specs/description correctly describing a factory shed — photo-category contradiction drives bad label.",
+      "source_url": "https://www.indiamart.com/proddetail/0-50mm steel prefabricated factory shed-24005999455.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show prefabricated factory sheds either as completed exterior views (colour-coated blue/white PEB cladding with steel columns and entrance canopy) or interior wide-span views (steel purlins, corrugated metal roof panels with translucent light strips, open industrial floor). Construction-stage images showing the bare steel frame with tapered columns and rafters are also accepted. Industrial scale and steel structural elements are the consistent visual identifiers.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Prefabricated factory sheds are large structures whose value is communicated through visual scale, structural form, and cladding quality — not through readable text labels on the product.",
+      "Verified good images show exterior elevations and interior spans where the product identity is conveyed by the building's appearance, not by any printed text on the structure.",
+      "OCR cannot extract meaningful buyer-decision information from photos of steel shed structures; structural specs (span, height, material grade) must come from the specs fields, not image text."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good photos show completed or under-construction prefabricated steel factory sheds at industrial scale, from exterior elevation or interior span perspectives.",
+    "product_identity": [
+      "Colour-coated steel cladding (typically blue/white) on exterior walls and roof",
+      "Visible steel structural frame — columns, rafters, purlins — either exposed (under construction) or clad",
+      "Industrial-scale footprint with open floor area or storage visible inside"
+    ],
+    "acceptable_scenes": [
+      "Exterior elevation showing full shed facade with entrance and cladding",
+      "Interior wide-span view showing roof structure and open floor",
+      "Construction-stage view showing bare PEB steel frame with crane"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "92072134",
+        "reason": "Interior view shows a wide-span steel truss shed with corrugated metal roofing, visible steel columns and trusses, and an open industrial floor — clearly a prefabricated factory shed structure.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "117749908",
+        "reason": "Exterior view shows a completed blue and cream colour-coated PEB industrial shed with steel cladding walls, entrance canopy, and windows — a clear and buyer-useful representation of a prefabricated factory shed.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "188890882",
+        "reason": "Image shows a large PEB steel frame structure under construction with tapered columns, rafters, and purlins clearly visible, with a crane in the foreground — a high-quality representation of a pre-engineered factory shed at erection stage.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "179302324",
+        "reason": "Interior view shows a wide-span PEB shed with visible steel purlins, corrugated metal roof panels with translucent light strips, and industrial coils stored on the floor — clearly a prefabricated factory/storage shed interior.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "183431361",
+        "reason": "Exterior side-wall view shows a large blue and white colour-coated PEB industrial shed with corrugated steel cladding, visible structural columns, and a truck in the background confirming industrial/warehouse scale.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "189731383",
+        "reason": "Aerial view shows a large industrial factory complex with a long PEB/steel shed structure, solar panels on the roof, blue and white colour-coated cladding, and industrial-scale footprint — clearly a prefabricated factory shed.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show the correct product type (factory shed) but with poor lighting, obstructed views, or foreground clutter that prevents buyers from assessing structural details.",
+    "thinness_signals": [
+      "Dusk/low-light photography that obscures structural details and cladding quality",
+      "Foreground clutter (motorcycles, people) blocking the shed structure from view"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "156107610",
+        "reason": "Exterior photo shows a pipe/truss shed under construction with red ridge capping and open sides, but the image is taken at dusk with poor lighting, motorcycles and people in the foreground obscuring the structure, making structural details hard to assess."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show products entirely unrelated to prefabricated factory sheds — including residential rooftop repair scenes, garden canopies, and corporate glass office buildings.",
+    "failure_classes": [
+      {
+        "class": "residential_rooftop_service",
+        "description": "Image shows workers performing roofing repair or installation on a residential multi-storey building — a service scene, not a factory shed product.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "165890953"
+          }
+        ],
+        "detection_signal": "Workers visible on a residential building rooftop with urban residential buildings in background; no industrial shed structure present.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "garden_canopy_pergola",
+        "description": "Image shows a small decorative curved canopy with polycarbonate panels in a park or garden setting — a garden shade structure, not an industrial factory shed.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "165958366"
+          }
+        ],
+        "detection_signal": "Curved polycarbonate or fabric canopy in a green outdoor/park setting with no industrial structure visible.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "corporate_glass_office_building",
+        "description": "Image shows a multi-storey commercial office building with glass curtain-wall facade — a conventional RCC/glass structure, not a prefabricated steel factory shed.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "169168475"
+          }
+        ],
+        "detection_signal": "Multi-storey glass facade building with corporate branding visible; no steel cladding, purlins, or shed-scale structure present.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name the structural type (PEB, MS, GI, conventional), the application (factory, industrial, warehouse), and ideally include a key spec (span, height, or sheet thickness).",
+    "strong_positive_signals": [
+      "Structural type identifier: PEB, MS (mild steel), GI (galvanised iron), conventional steel truss",
+      "Industrial application context: factory, industrial shed, warehouse, dyeing mill, steel storage",
+      "Key dimensional or material spec in title: 0.50mm, 18m span, 30ft eave height"
+    ],
+    "structural_patterns": [
+      "[Material/Type] + [Factory/Industrial/Warehouse] + Shed",
+      "[PEB/MS/GI] + [Application] + Shed",
+      "Prefabricated + [Application] + Shed + [Key Spec]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "92072134",
+          "title": "Dyeing Mill Shed",
+          "reason": "Names a specific industrial application (dyeing mill) that signals buyer intent and differentiates from generic listings; combined with strong specs this is a well-targeted listing."
+        },
+        {
+          "item_id": "188890882",
+          "title": "Peb Industrial Shed",
+          "reason": "Explicitly names the structural system (PEB) and use class (industrial), which are the two most important buyer-decision signals for this MCAT."
+        },
+        {
+          "item_id": "179302324",
+          "title": "PEB Shed Construction For Steel Storage Factories And Industries",
+          "reason": "Names PEB structural type, specific application (steel storage), and buyer segment (factories and industries) — highly specific and buyer-targeted."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "117749908",
+          "title": "Prefabricated Factory Shed",
+          "reason": "Matches MCAT name exactly and is correct, but lacks structural type (PEB/MS/GI) and any dimensional detail."
+        },
+        {
+          "item_id": "183431361",
+          "title": "Prefabricated Warehouse Shed",
+          "reason": "Correct product type with application context (warehouse), but omits structural system and material grade."
+        },
+        {
+          "item_id": "189731383",
+          "title": "GI Prefabricated Factory Shed",
+          "reason": "Names material (GI) and product type correctly, but lacks span, height, or application specifics."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name the correct product but omit structural type, material, application, or dimensional information that buyers need to evaluate the listing.",
+    "thinness_signals": [
+      "Missing structural system identifier (PEB, MS, GI, conventional truss)",
+      "Missing application context (factory type, industry, use case)",
+      "Missing key dimensional spec (span, height, sheet thickness)"
+    ],
+    "examples": [
+      {
+        "item_id": "156107610",
+        "title": "Ms Factory Shed",
+        "reason": "Names material (MS) and use (factory) but omits span, height, roof type, and structural configuration."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles either name a completely different product category or contain placeholder/non-informative tokens that signal the listing is not a genuine factory shed offering.",
+    "failure_classes": [
+      {
+        "class": "residential_or_house_shed",
+        "signal": "Title or specs contain 'house', 'residential', or 'PUF panel roofing' without factory/industrial context, indicating a residential product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "165890953",
+            "title": "Puf Panel Roofing Shed",
+            "reason": "Title names a roofing panel component or residential shed, not a prefabricated industrial factory shed; specs confirm house usage.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "mismatched_product_with_correct_mcat_title",
+        "signal": "Title matches MCAT name exactly but description and image reveal a completely different product (awnings, doors, garden canopy).",
+        "failure_mode": "misleading",
+        "examples": [
+          {
+            "item_id": "165958366",
+            "title": "Prefabricated Factory Shed",
+            "reason": "Title matches MCAT but description describes aluminum doors and awnings, and image shows a garden canopy — title is a contaminating false signal.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere based on product identity mismatch confirmed across photo, specs, and description.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "residential_house_shed_or_roofing_service",
+        "signal": "Image shows residential rooftop repair, specs list PVC material and house usage, description mentions house application — product is a residential shed or roofing service, not an industrial factory shed.",
+        "examples": [
+          {
+            "item_id": "165890953",
+            "title": "Puf Panel Roofing Shed",
+            "reason": "Image shows residential rooftop repair scene; specs list PVC material and house usage; description says 'Puf Panel house or shed'.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Shed"
+      },
+      {
+        "class": "wrong_product_with_factory_shed_title",
+        "signal": "Image shows a garden canopy or decorative shade structure; description describes aluminum doors, railings, and awnings — entirely different product family despite the title matching the MCAT.",
+        "examples": [
+          {
+            "item_id": "165958366",
+            "title": "Prefabricated Factory Shed",
+            "reason": "Image shows a green polycarbonate garden canopy; description describes aluminum doors, SS railings, and outdoor awnings — not a factory shed.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Warehouse Sheds",
+        "signal": "Listing explicitly names 'warehouse shed' or 'warehouse' as the primary product type in title and description, mapping more precisely to the Warehouse Sheds sibling MCAT.",
+        "examples": [
+          {
+            "item_id": "183431361",
+            "title": "Prefabricated Warehouse Shed",
+            "reason": "Title and description both explicitly name warehouse shed as the primary product; the Warehouse Sheds sibling MCAT is a more precise fit."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator; images audited visually from attached base64 files."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names drawn only from provided taxonomy siblings list — 'Prefabricated Shed' and 'Warehouse Sheds' confirmed present in siblings."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (PEB steel factory shed) and mcat_description used to ground all category belonging decisions; mcat_vagueness_signal not provided but MCAT is treated as coherent (PATH A) based on Agent 3 description."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
