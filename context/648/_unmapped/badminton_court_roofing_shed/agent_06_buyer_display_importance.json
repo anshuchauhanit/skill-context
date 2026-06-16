@@ -1,0 +1,262 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Significant visual variation between structure types (PEB portal frame, steel truss, tensile membrane, open-sided vs fully enclosed). Buyers use the image to confirm this is a badminton court shed — not a generic industrial or warehouse shed — before reading any text. Wrong structure type or wrong application context = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Clear height (BWF minimum 9 m), court count, structure type, and service scope are non-negotiable technical gates. A listing without these specs cannot be evaluated for fit — buyers shortlist and eliminate entirely based on spec match before any other signal."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant shed fabricator brand with buyer recall exists in this category; buyers search by spec, location, and past project references — not by fabricator brand name. JSW Steel appears in buyer vocabulary for roofing sheet material but is a raw material brand, not a shed fabricator brand.",
+      "reason": "This is a high-value capital construction project. Buyers evaluate fabricator credentials, IS 800 compliance capability, past sports facility project references, and ability to provide engineering drawings during vendor selection — seller identity is a meaningful qualification signal after spec shortlisting."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with court count, structure type, roofing material, and service scope (supply-only vs turnkey). Indian buyers compare per-sq-ft rates aggressively but only after confirming spec and scope equivalence — raw price comparison without spec context is unreliable and misleading."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Some sellers quote per project lump sum for turnkey contracts — creates price comparison confusion. Per sq ft of covered area is the dominant and standard comparison unit; must be shown alongside price to enable meaningful cross-listing comparison.",
+      "reason": "Per sq ft vs per project lump sum is a real market ambiguity in this category. Price cannot be compared across listings without knowing the unit basis — a lump-sum quote and a per-sq-ft quote for the same project scope are not directly comparable without unit clarity."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Court Type",
+        "reason": "Defines the scale of the entire structure — single vs double vs multi-court configurations are non-interchangeable and represent the largest price delta of any spec, as footprint, structural span, and material quantity change entirely with court count."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Type",
+        "reason": "PEB, steel truss, tensile, and tubular truss are fundamentally different engineering systems with non-interchangeable cost profiles, lead times, and structural capabilities — PEB commands a significant premium over tubular truss for equivalent footprint."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Court Type",
+      "Floor Compatible",
+      "Height Under Truss",
+      "Lighting Provision",
+      "Roofing Material",
+      "Service Scope",
+      "Side Cladding",
+      "Structure Type",
+      "Ventilation"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wind Zone / Wind Speed Rating",
+        "why_important": "IS 875 wind zone compliance is a structural design input that buyers in coastal and high-wind regions (Tamil Nadu, Andhra Pradesh, Gujarat) explicitly specify — sellers need this to confirm their standard design meets the structural safety requirement for the project location.",
+        "source": "both",
+        "example_values": [
+          "Zone I (Basic Wind Speed 33 m/s)",
+          "Zone II (39 m/s)",
+          "Zone III (44 m/s)",
+          "Zone IV (47 m/s)"
+        ]
+      },
+      {
+        "spec_name": "Column-Free Clear Span Width",
+        "why_important": "The internal column-free span width determines whether the structure can cover the required court width without obstructing play — critical for multi-court layouts where internal columns would be a disqualifying defect.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "Up to 15 m",
+          "15–24 m",
+          "24–36 m",
+          "Above 36 m"
+        ]
+      },
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Thermal insulation treatment (sandwich panel, air-bubble foil, or none) is a distinct buyer requirement from roofing sheet material — it affects indoor comfort for players and represents a significant cost addition that buyers specify separately from the roofing sheet choice.",
+        "source": "both",
+        "example_values": [
+          "No Insulation",
+          "Air Bubble Foil",
+          "Glasswool / Rockwool",
+          "PUF Sandwich Panel"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Clear Height",
+        "reason": "BWF minimum clear height of 9 m (~30 ft) is a non-negotiable structural parameter — sellers need this to confirm their standard design meets the requirement and to size the structural frame correctly for the project.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Type",
+        "reason": "Sellers with only PEB fabrication capability cannot supply a tensile or dome structure — this spec routes the RFQ to sellers who can actually deliver the structural system the buyer wants.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Clear Span",
+          "Truss",
+          "PEB",
+          "Dome",
+          "Arch"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Number of Courts",
+        "why_important": "Court count is the most fundamental project-sizing parameter — it determines total footprint, structural span, and overall project cost, and sellers need it to provide any meaningful quote or confirm supply capability.",
+        "source": "both",
+        "example_values": [
+          "Single Court",
+          "Double Court",
+          "Triple Court",
+          "Multi Court (4+)"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Single Court",
+          "Double Court",
+          "Multi Court"
+        ]
+      },
+      {
+        "spec_name": "Service Scope",
+        "why_important": "Sellers who supply prefabricated material only cannot serve a buyer needing full turnkey erection — this spec routes the RFQ to sellers with the right service capability and prevents mismatched responses.",
+        "source": "both",
+        "example_values": [
+          "Supply Only",
+          "Supply and Erect",
+          "Turnkey (Design + Supply + Erect)",
+          "Design and Fabrication Only"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Type",
+      "option_value": "Clear Span",
+      "id": "spec_1",
+      "prompt_for_generation": "Wide-angle exterior view of a clear span steel portal frame badminton court shed in India, no internal columns visible, colour-coated PPGI roof, open sides with net cladding, single court footprint, natural daylight, clean architectural render style, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Truss",
+      "id": "spec_2",
+      "prompt_for_generation": "Exterior view of a steel truss frame badminton court roofing shed in India, visible triangulated truss members along the roof line, colour-coated metal roofing sheets, double court layout, natural daylight, clean architectural render style, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "PEB",
+      "id": "spec_3",
+      "prompt_for_generation": "Exterior view of a Pre-Engineered Building (PEB) portal frame badminton court shed in India, tapered I-section columns and rafters clearly visible, PPGI colour-coated roof and wall cladding, double court configuration, natural daylight, clean architectural render style, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Dome",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior view of a dome-shaped tensile or steel dome structure covering a badminton court in India, curved roof profile clearly visible, white or light-coloured membrane or metal cladding, single court footprint, natural daylight, clean architectural render style, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Arch",
+      "id": "spec_5",
+      "prompt_for_generation": "Exterior view of an arch-frame roofing shed covering a badminton court in India, curved arch profile along the length of the structure, colour-coated metal roofing, single or double court footprint, natural daylight, clean architectural render style, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Courts",
+      "option_value": "Single Court",
+      "id": "spec_6",
+      "prompt_for_generation": "Exterior view of a steel-framed roofing shed covering a single badminton court in India, compact footprint approximately 15 m x 8 m, colour-coated PPGI roof, net side cladding, court lines faintly visible through open sides, natural daylight, clean architectural render style, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Courts",
+      "option_value": "Double Court",
+      "id": "spec_7",
+      "prompt_for_generation": "Exterior view of a steel-framed roofing shed covering two side-by-side badminton courts in India, wider footprint clearly showing two-court span, colour-coated PPGI roof, net or half-wall side cladding, natural daylight, clean architectural render style, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Number of Courts",
+      "option_value": "Multi Court",
+      "id": "spec_8",
+      "prompt_for_generation": "Exterior view of a large steel-framed roofing shed covering four or more badminton courts in India, wide-span PEB or truss structure, colour-coated metal roof, full or partial side cladding, academy-scale facility, natural daylight, clean architectural render style, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
