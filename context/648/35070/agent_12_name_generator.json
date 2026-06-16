@@ -1,0 +1,69 @@
+{
+  "enhanced_name_4w": "Portable Car Parking Garage",
+  "enhanced_name_5w": "Portable Steel Frame Car Garage",
+  "enhanced_name_6w": "Portable Canopy Garage for Car Parking",
+  "enhanced_name_long": "Portable Steel Frame Canopy Garage for Car, Bike and Vehicle Parking — Foldable, Prefab Carport Shelter Kit",
+  "alt_names": {
+    "primary_keywords": [
+      "portable garage",
+      "portable car garage",
+      "portable car shed",
+      "temporary garage",
+      "foldable car garage",
+      "folding car garage",
+      "portable car shelter",
+      "carport tent",
+      "car parking canopy",
+      "prefab garage"
+    ],
+    "technical_synonyms": [
+      "portable carport",
+      "prefabricated car shelter",
+      "modular carport",
+      "steel frame car canopy",
+      "tensile car parking structure",
+      "relocatable garage",
+      "demountable garage",
+      "portable vehicle shelter",
+      "canopy carport kit",
+      "temporary carport structure"
+    ],
+    "trade_names": [
+      "portable garage canopy",
+      "car parking shed",
+      "car shed tent",
+      "foldable carport",
+      "car canopy shelter",
+      "portable parking shed",
+      "car cover shed",
+      "portable garage tent",
+      "car port canopy",
+      "prefab car parking shed"
+    ],
+    "hindi_terms": [
+      "portable garaj",
+      "car shed",
+      "car parking shed"
+    ],
+    "buyer_intent_queries": [
+      "portable garage for car parking",
+      "foldable car garage for home use",
+      "temporary car shed without construction",
+      "portable car shelter with steel frame",
+      "prefabricated garage for two cars",
+      "portable garage tent waterproof UV resistant",
+      "car parking canopy for residential use",
+      "portable shed for car and bike",
+      "folding garage for outdoor parking",
+      "portable car garage kit with cover"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Folding/foldable motorised garage segment carved out by sibling MCAT 'Folding Garage' (ID: 107235) — enhanced names and alt names must not exclusively target the folding/motorised-fold sub-segment; terms like 'folding garage' are retained in alt_names as buyer search vocabulary but no enhanced name variant is built around folding as the primary differentiator",
+    "Industrial/warehouse shed segment (siblings: Industrial Sheds, Warehouse Sheds, Prefabricated Factory Shed, PEB Structures Fabrication) — buyer persona is large-scale industrial operator vs residential/small-commercial vehicle owner; names implying factory, warehouse, or large-span industrial shed are excluded",
+    "Toy/miniature garage and unrelated items (garage oven, diorama garage) — observed in keyword contamination signals; no enhanced name or alt name entry targets toy, miniature, simulation, or diorama contexts",
+    "Multi-storey or permanent prefab parking garage segment — 'prefab parking garage' can attract permanent structure enquiries belonging to a different MCAT; enhanced names are anchored to portable/relocatable/canopy/kit framing to avoid this contamination"
+  ],
+  "segment_contamination_disclaimer": null
+}
