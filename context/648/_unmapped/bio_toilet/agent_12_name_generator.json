@@ -1,0 +1,63 @@
+{
+  "enhanced_name_4w": "Bio Digester Toilet System",
+  "enhanced_name_5w": "DRDO Biodigester Cabin Toilet Unit",
+  "enhanced_name_6w": "FRP Bio Digester Toilet Cabin Unit",
+  "enhanced_name_long": "Bio Digester Toilet Cabins with Anaerobic Biodigester Tank for Railways, Construction Sites and Rural Sanitation",
+  "alt_names": {
+    "primary_keywords": [
+      "bio toilet",
+      "biotoilet",
+      "bio digester toilet",
+      "bio toilet cabin",
+      "biodigester toilet",
+      "eco toilet",
+      "bio toilet system",
+      "FRP bio toilet",
+      "bio toilet unit",
+      "bio sanitation unit"
+    ],
+    "technical_synonyms": [
+      "biodigester toilet system",
+      "anaerobic digester toilet",
+      "DRDO biodigester toilet",
+      "bio-septic toilet",
+      "AMI-based toilet",
+      "anaerobic microbial inoculum toilet",
+      "zero-discharge toilet",
+      "bio-degradable toilet system"
+    ],
+    "trade_names": [
+      "DRDO Bio Toilet",
+      "IR-DRDO Bio Toilet",
+      "E-Toilet",
+      "Smart Bio Toilet",
+      "Bio Pod"
+    ],
+    "hindi_terms": [
+      "जैव शौचालय",
+      "बायो टॉयलेट",
+      "बायो डाइजेस्टर शौचालय",
+      "पोर्टेबल शौचालय"
+    ],
+    "buyer_intent_queries": [
+      "bio toilet for home without sewage connection",
+      "portable bio toilet for construction site",
+      "DRDO biodigester toilet manufacturer India",
+      "FRP bio toilet cabin for public sanitation",
+      "bio digester toilet system for railway coaches",
+      "bio toilet manufacturer in India",
+      "community bio toilet block for municipality",
+      "bio toilet for rural areas Swachh Bharat",
+      "mobile bio toilet van 6 seater",
+      "bio toilet for bus installation"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Generic portable/chemical toilet buyers (non-biodigester): siblings 'Portable Toilets', 'FRP Portable Toilet', 'MS Portable Toilets', 'Chemical Toilets', 'Sintex Portable Toilets', 'Bunk House Portable Toilets' serve buyers seeking standard portable cabins without anaerobic biodigester technology — names that omit biodigester/bio-digester/AMI/DRDO signals and rely solely on 'portable toilet' or material+portable framing are discarded as they attract the wrong buyer segment.",
+    "Mobile toilet van buyers (vehicle-mounted multi-seater): sibling 'Mobile Toilet Van' carves out the vehicle-mounted multi-seater sub-segment — enhanced names and alt names that lead with 'mobile toilet van' as the primary descriptor are discarded to avoid collision; biodigester-qualified van references remain permissible.",
+    "Modular/structural toilet cabin buyers (no biodigester): siblings 'FRP Modular Toilet', 'Modular Toilet', 'Toilet Cubicles', 'Toilet Partitions', 'RCC Toilet', 'PVC Toilet' serve buyers seeking structural enclosures without waste-treatment technology — names framed purely around cabin material or modular construction without biodigester qualification are discarded.",
+    "Trade name collision: 'Syntex Bio Toilet' removed from trade_names as 'Sintex Portable Toilets' is a live sibling MCAT — the phonetically similar trade name risks routing confusion and is excluded."
+  ],
+  "segment_contamination_disclaimer": null
+}
