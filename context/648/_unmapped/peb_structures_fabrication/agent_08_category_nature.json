@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": true,
+  "reason": [
+    "is_specific: the MCAT name is tightly scoped to one structural technology (Pre-Engineered Buildings) and one service type (fabrication/erection); buyer intent is homogeneous across all sub-types (industrial shed, warehouse, hangar, cold storage) — all are variants of the same PEB procurement context, not incompatible product families; is_vague: 0 signals fire — 'PEB Structures Fabrication' resolves to one unambiguous product concept, Agent 3 named a confident unhedged primary_segment, and all buyer_intent_queries cluster around the same purchase context.",
+    "is_service: the primary commercial transaction is a turnkey design-fabricate-erect contract (confirmed by Agent 3 market_context: 'dominant commercial model is a turnkey design-fabricate-erect contract'); the MCAT name itself contains 'Fabrication,' and the product_types list confirms end-to-end service scope including structural design, CNC fabrication, protective coating, logistics, and supervised erection."
+  ]
+}
