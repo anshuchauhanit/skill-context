@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Modular Buildings' aligns with the dominant primary keywords ('modular buildings', 'prefabricated modular building', 'modular structure') confirmed in Agent 3 alt_names and is consistent with market-standard B2B terminology used by Indian manufacturers and buyers across the segment.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail shows a real modular building structure (cream-coloured, steel-frame, multi-window portable cabin/site office) that correctly represents the primary segment of commercial/industrial prefabricated modular buildings — no wrong product, brochure, or seller watermark obstruction.",
+      "However, the image appears to be a Western/European installation context (guardrail, grey overcast setting, non-Indian industrial yard), low resolution, and lacks the clean white-background or professional studio quality that would maximise buyer confidence on IndiaMART — a purpose-generated AI image representing an Indian site office or portable cabin context would significantly improve category appeal."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product photograph of a prefabricated modular site office building: single-storey steel-frame sandwich panel structure with cream or light grey exterior cladding, white-framed windows on two sides, metal entry door with steps, elevated on a steel base frame, set against a clean white studio background, front-three-quarter view, bright even lighting, sharp focus, no people, no text overlays, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
