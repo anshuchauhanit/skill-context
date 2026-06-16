@@ -1,0 +1,208 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Dome shelters have extreme visual sub-type variation — a geodesic PVC fabric glamping dome, a polycarbonate institutional dome, and an industrial metal-sheet dome shed are visually unrecognisable as the same product category. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Span/diameter and cover material are non-interchangeable primary shortlisting criteria — a buyer needing a 10m glamping dome cannot evaluate a 30m industrial storage dome. Listings without these specs cannot be shortlisted regardless of price or supplier quality."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian B2B buyers are price-aggressive but dome shelter prices vary enormously with span, frame material, and cover type — price is only comparable after spec equivalence is confirmed. Large custom installations are always negotiated; listed price is a budget entry point, not a final figure."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Standard modular domes (up to ~10m diameter) are quoted per piece; larger custom spans are quoted per sq ft of covered area; turnkey installation projects are quoted per project. Unit must be shown to prevent price misreading across these three quoting conventions.",
+      "reason": "Three distinct quoting conventions coexist in this market — per piece, per sq ft, and per project. A buyer comparing prices across listings without visible units cannot make a valid comparison; the confusion is a real and documented market ambiguity."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in the Indian dome shelter market — the market is fragmented across regional fabricators in Jaipur, Bengaluru, Delhi NCR, and Nagpur; buyers search by spec and application, not manufacturer name.",
+      "reason": "Dome shelters are structural products with significant installation dependency — buyers evaluate fabrication capability, installation track record, and post-sale service availability during vendor selection, particularly for large-span or permanent structures."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Span Width",
+        "reason": "Span width is the primary product class separator — a buyer needing 20m coverage cannot substitute a 10m dome, and price scales non-linearly with span, making it the single largest price driver in the category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Cover Material",
+        "reason": "Cover material defines the product's structural character and application suitability — PVC fabric geodesic, polycarbonate, and metal sheet domes are non-interchangeable across glamping, institutional, and industrial applications, with significant price deltas between material types."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Anchoring Type",
+      "Application",
+      "Cover GSM",
+      "Cover Material",
+      "End Wall Type",
+      "Frame Material",
+      "Installation Type",
+      "Span Width",
+      "Usage Area"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wind Load / Structural Load Rating",
+        "why_important": "Institutional, industrial, and event buyers specify required wind load compliance (typically per IS 875 Part 3) as a procurement criterion; sellers need this to confirm structural adequacy and provide certified designs.",
+        "source": "both",
+        "example_values": [
+          "Up to 100 km/h",
+          "Up to 120 km/h",
+          "Up to 150 km/h",
+          "Custom engineered"
+        ]
+      },
+      {
+        "spec_name": "Height / Apex Height",
+        "why_important": "Industrial storage buyers require minimum interior clearance for forklift or vehicle access, and event buyers need headroom specifications; sellers cannot confirm suitability without knowing the required height.",
+        "source": "both",
+        "example_values": [
+          "Up to 3 m",
+          "3–5 m",
+          "5–8 m",
+          "Above 8 m"
+        ]
+      },
+      {
+        "spec_name": "Fire Retardancy",
+        "why_important": "Event organisers and institutional buyers (schools, public venues) require fire-retardant certified cover material for safety compliance and event permits; this is a binary eligibility criterion that eliminates non-compliant suppliers.",
+        "source": "both",
+        "example_values": [
+          "FR Certified",
+          "Non-FR",
+          "B1 Grade FR",
+          "M2 Grade FR"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Diameter",
+        "reason": "Diameter defines the scale of the structure and is non-interchangeable — sellers need this to confirm manufacturing capability, material quantities, and to price accurately.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Covering Material",
+        "reason": "Covering material defines the product type and application suitability — sellers who manufacture PVC fabric geodesic domes cannot supply polycarbonate or metal sheet domes, making this a primary routing spec.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Tensile Fabric",
+          "PVC Coated Fabric",
+          "Metal Sheet",
+          "Polycarbonate",
+          "GI Sheet"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Installation Type",
+        "why_important": "Sellers who fabricate only permanent fixed structures cannot supply portable or relocatable domes — this spec routes the RFQ to the correct supplier type and determines anchoring, foundation, and pricing approach.",
+        "source": "both",
+        "example_values": [
+          "Portable / Relocatable",
+          "Semi-permanent",
+          "Permanent Fixed",
+          "Rental"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Covering Material",
+      "option_value": "Tensile Fabric",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated geodesic dome shelter with white tensile fabric membrane cover stretched over a galvanised steel triangulated frame, outdoor setting on grass, natural daylight, full dome visible, no branding, clean background.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "PVC Coated Fabric",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated geodesic dome shelter with opaque white PVC-coated fabric panels covering a steel geodesic frame, outdoor glamping or event setting, full dome structure visible, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Metal Sheet",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated dome shelter with corrugated metal sheet cladding over a tubular steel frame, industrial or storage yard setting, full dome structure visible, overcast daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "Polycarbonate",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated geodesic dome shelter with translucent polycarbonate panel cladding on a steel or aluminium triangulated frame, institutional or school outdoor setting, natural daylight filtering through panels, full dome visible, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Covering Material",
+      "option_value": "GI Sheet",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated dome shelter with galvanised iron sheet panels covering a mild steel tubular frame, agricultural or farm storage setting, full dome structure visible, daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
