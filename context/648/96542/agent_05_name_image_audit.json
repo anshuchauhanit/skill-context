@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Container Homes' directly matches the top primary keyword and buyer intent queries confirmed in Agent 3 alt_names; market context confirms this is the dominant search and trade term used by Indian manufacturers and buyers.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows a multi-container stacked residential structure with large glass facades and warm interior lighting, correctly representing the container home product category and aligning with the primary segment.",
+      "However, the image depicts a high-end luxury two-storey villa with an open outdoor lounge — this skews toward the premium/luxury sub-segment rather than the primary segment (standard 1BHK/2BHK prefabricated residential unit), and the evening/night ambience reduces product clarity for a B2B catalogue thumbnail."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A photorealistic AI-generated image of a completed 2BHK prefabricated container home built from two joined 40ft mild steel shipping containers, painted in a clean off-white or light grey with dark steel frame accents, featuring a front-facing view showing a standard entry door, two rectangular windows with simple grilles, a small covered porch with two steps, and a compact garden patch in front. Bright natural daylight, clear blue sky background, flat ground with a simple concrete pathway leading to the entrance. Clean product-catalogue style composition, square 1:1 aspect ratio, no people, no clutter, sharp focus on the structure.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
