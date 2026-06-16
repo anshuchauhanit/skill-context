@@ -1,0 +1,640 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Industrial manufacturer, factory owner, or construction contractor seeking a prefabricated mild steel storage/industrial shelter for a specific site.
+
+**Journey sequence:**
+1. **Image first** — scans listing grid to identify structure type (industrial shed vs parking canopy vs guard cabin vs bus shelter). Visual sub-type variation is extreme. Wrong type = immediate skip.
+2. **Specification** — opens listing to check frame material, sheet material, sheet thickness, wind resistance, and built type. These determine structural adequacy for the application. Without matching specs, buyer cannot evaluate.
+3. **Price** — checks per-sq-ft rate or per-unit price. Indian B2B buyers in construction are price-aggressive. Custom fabrication means price varies significantly with spec — buyers compare rates after confirming spec tier.
+4. **Unit** — must be shown alongside price. Per sq ft vs per piece creates real confusion for custom vs catalogue products. Price cannot be compared without unit clarity.
+5. **Company** — checks seller's fabrication track record, project portfolio, and whether they handle installation. Post-sale dependency is real (erection, warranty). Brand names are not dominant — market is fragmented.
+
+---
+
+## Step 2 & 3 — Score Each Dimension
+
+**Image:** Extreme visual variation across sub-types (industrial shed ≠ parking canopy ≠ guard cabin ≠ bus shelter). Image is the fastest sub-type identifier. **High.**
+
+**Specification:** Frame material, sheet thickness, wind resistance, and built type are primary shortlisting criteria for structural adequacy. Buyers cannot evaluate fit without these. **High.**
+
+**Price:** Custom fabrication with significant spec-driven price variation. Indian construction buyers compare per-sq-ft rates aggressively. Price is a primary decision lever after spec confirmation. `price_display_type = "spec-driven price"` — buyers discover across spec tiers. **High.**
+
+**Unit:** Per sq ft (custom) vs per piece (portable cabins) creates genuine price comparison confusion. Unit must be shown alongside price. **High.**
+
+**Company:** Post-sale dependency (erection, structural warranty, site supervision) is real. Institutional/government buyers evaluate track record. No dominant brand with buyer recall — market is fragmented across regional fabricators. **Medium.**
+
+**Cross-dimension consistency checks:**
+1. ✅ Buyers discover across spec tiers (industrial shed vs parking canopy have very different specs and prices) → `spec-driven price` + specification High. Consistent.
+2. ✅ Unit High → price is High. Consistent.
+3. ✅ Not project-based price (per-sq-ft unit pricing exists) → unit show: true. Consistent.
+4. ✅ Specification show: true → show_on_listing: true. Consistent.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Extreme visual sub-type variation across Metal Shelters — industrial storage shed, parking canopy, guard cabin, bus shelter, and portable site office are visually distinct and non-interchangeable. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Frame material, sheet thickness, wind resistance, and built type are primary structural adequacy criteria. Buyers cannot shortlist a shelter without confirming these specs match their site and load requirements."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Custom fabrication means price varies substantially with structural spec tier (sheet thickness, frame material, wind rating). Indian construction buyers compare per-sq-ft rates aggressively once spec equivalence is confirmed; price is a primary decision lever, not just a sanity check."
+  },
+  {
+    "rank": 4,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Standard portable units (guard cabins, portable offices) are quoted per piece — unit must be shown to prevent price comparison confusion between custom area-based and catalogue per-piece listings.",
+    "reason": "Per sq ft vs per piece is a real market ambiguity in this category. Price cannot be meaningfully compared across listings without knowing the unit; omitting it causes buyers to misread rates."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant brand with buyer recall in Metal Shelters — market is fragmented across regional fabricators in Delhi-NCR, Hyderabad, Faridabad, and Bengaluru clusters; buyers search by spec and price, not manufacturer name.",
+    "reason": "Post-sale dependency (erection, structural warranty, site supervision) means seller track record and fabrication capability matter during vendor selection, particularly for institutional and government buyers. Company ranks last but is not irrelevant."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Application**: use-case tag (describes what the shelter is used FOR, not what it IS). Discard.
+- **Usage Area**: use-case tag (Semi Outdoor / Indoor / Outdoor — describes deployment context, not product configuration). Discard.
+- **Surface Finish**: consequence/correlated field — largely determined by Frame Material and buyer's corrosion requirement. Deprioritise (soft elimination).
+
+**Remaining after elimination:** Built Type, Frame Material, Roof Shape, Sheet Material, Sheet Thickness, Wind Resistance.
+
+### Phase 2 — Top 2 Configurator Selection
+
+- **Frame Material** (Galvanized Steel / Stainless Steel / Mild Steel / Aluminium): Defines the structural class of the shelter. Non-interchangeable — a buyer specifying MS portal frame cannot substitute aluminium. Drives the largest price delta across the range (aluminium vs MS is a significant cost difference; GI vs MS affects corrosion treatment cost). **Rank 1.**
+- **Sheet Thickness** (0.35mm / 0.40mm / 0.45mm / 0.50mm / 0.60mm / 0.80mm): Within a given frame material, sheet thickness is the primary quality/grade separator. Thicker sheets = higher wind and load resistance, higher cost. Non-interchangeable for structural compliance — a 0.40mm sheet cannot substitute for a 0.60mm sheet in a high-wind-zone application. **Rank 2.**
+
+*(Wind Resistance was a strong contender for Rank 2 but is largely a consequence of Frame Material + Sheet Thickness combination — it is a derived performance spec, not an independently configured input. Sheet Thickness is the more fundamental configurator.)*
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list (verbatim copy):**
+Application, Built Type, Frame Material, Roof Shape, Sheet Material, Sheet Thickness, Surface Finish, Usage Area, Wind Resistance
+
+**Step 3b & 3c — Candidate gaps:**
+
+From Agent 3 `vision_output` (market_context, product_types, long description):
+- **Structural Span / Bay Width**: Agent 3 notes custom dimensions are a primary buyer specification. Span determines structural design complexity and steel tonnage — a 20m clear span shelter is fundamentally different from a 6m span. Not present in seller spec list under any name. Important for industrial/storage buyers.
+- **Wall Panel Type**: Agent 3 explicitly mentions "wall panel type (open, PUF-insulated, or sandwich panel)" as a buyer specification. Open-sided vs fully enclosed vs insulated panels drives significant price and application differences. Not present in seller spec list under any name.
+- **Roofing Sheet Material**: "Sheet Material" is in the list — semantic check: GI Sheet, Polycarbonate Sheet, PPGI Sheet, Aluminium Sheet, Galvalume Sheet. This covers roofing sheet material. ✅ Present — do NOT flag.
+- **Wind Resistance**: Already in list. ✅ Present.
+- **Built Type**: Already in list. ✅ Present.
+
+From LLM world knowledge (Indian B2B metal shelter market):
+- **Structural Span / Bay Width**: Confirmed absent. Indian industrial buyers specify clear span (6m, 9m, 12m, 18m, 24m) as a primary requirement — determines column placement and usable floor area. Senior category managers would add this to the configurator.
+- **Wall Panel Type**: Confirmed absent. Open-sided, closed with GI sheet, PUF sandwich panel, and polycarbonate are standard options with significant price and thermal performance differences.
+- **Colour**: Colour of roofing/wall sheets is a buyer preference but not a structural configurator — peripheral. Omit.
+- **Foundation Type**: Post-sale/installation detail, not a product configurator. Omit.
+
+**Final missing_important_specs (after mutual exclusion check):**
+- Structural Span: not in seller spec list under any name or semantic equivalent. ✅ Include.
+- Wall Panel Type: not in seller spec list under any name or semantic equivalent. ✅ Include.
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → **partial**
+
+```json
+"seller_spec_audit": {
+  "top_configurator_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Frame Material",
+      "reason": "Defines the structural class of the shelter — MS, GI, aluminium, and stainless steel are non-interchangeable and drive the largest price delta across the product range."
+    },
+    {
+      "rank": 2,
+      "spec_name": "Sheet Thickness",
+      "reason": "Primary quality-grade separator within a given frame material — thicker sheets meet higher wind and load compliance requirements and are non-interchangeable for structural applications."
+    }
+  ],
+  "specs_in_seller_list": [
+    "Application",
+    "Built Type",
+    "Frame Material",
+    "Roof Shape",
+    "Sheet Material",
+    "Sheet Thickness",
+    "Surface Finish",
+    "Usage Area",
+    "Wind Resistance"
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Structural Span / Bay Width",
+      "why_important": "Clear span determines column placement, usable floor area, and structural steel tonnage — Indian industrial buyers specify this as a primary requirement and it drives significant price variation.",
+      "source": "both",
+      "example_values": ["Up to 6m", "6m–12m", "12m–18m", "18m–24m"]
+    },
+    {
+      "spec_name": "Wall Panel Type",
+      "why_important": "Open-sided, GI sheet enclosed, PUF sandwich panel, and polycarbonate wall options have significant price and thermal performance differences that buyers specify upfront.",
+      "source": "both",
+      "example_values": ["Open Sided", "GI Sheet Enclosed", "PUF Sandwich Panel", "Polycarbonate"]
+    }
+  ],
+  "coverage_verdict": "partial"
+}
+```
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Application, Sheet Material, Area.
+
+- **Application** (Storage/Godown, Car Garage, Workshop, Rooftop Shelter, Labor/Site Office, Utility Shelter): Routes the RFQ to sellers who specialise in the right product type. A seller who makes industrial storage sheds may not supply rooftop shelters or portable site offices. Application is the primary routing signal — it determines which sellers can respond. **Rank 1.**
+- **Area** (200 sq ft, 300 sq ft, 500 sq ft, 1000 sq ft, 1500 sq ft, 2000 sq ft): Determines project scale and whether the seller has fabrication capacity. A seller handling 200 sq ft portable units may not handle 2000 sq ft industrial sheds. Area also directly drives the price quote — sellers need this to respond with any meaningful figure. **Rank 2.**
+
+*(Sheet Material was considered for Rank 2 but Area is more fundamental — sellers need to know the scale before they can assess fit and price. Sheet Material is a preference that can be discussed post-connection.)*
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Application**: Each option value maps to a visually distinct structure type — a Storage/Godown looks fundamentally different from a Car Garage, Workshop, Rooftop Shelter, or Site Office. **Thumbnail eligible: true.** Options: ["Storage / Godown", "Car Garage", "Workshop", "Rooftop Shelter", "Labor/Site Office", "Utility Shelter"]
+- **Area**: Numeric/dimensional spec — no meaningful visual difference between a 500 sq ft and 1000 sq ft shelter from a thumbnail. **Thumbnail eligible: false.**
+
+### Phase 3 — Missing Buyer Spec Audit
+
+From Agent 3 `vision_output` and LLM world knowledge:
+
+**Candidate: Frame Material** — Agent 3 identifies MS, GI, aluminium as primary structural material choices. Buyers who need aluminium (corrosion-resistant, coastal applications) cannot substitute MS. Sellers need to know this to confirm supply capability. Check against buyer spec list: Application, Sheet Material, Area — Frame Material is absent. ✅ Flag.
+
+**Candidate: Sheet Material** — Already in buyer spec list. ✅ Present — do NOT flag.
+
+**Candidate: Structural Span** — Important for industrial buyers but typically resolved through Area + Application combination in the RFQ context; sellers follow up with span questions post-connection. Borderline — omit (post-connection negotiation point).
+
+**Candidate: Built Type (Portable vs Fixed/Prefabricated)** — Determines whether the seller supplies a portable cabin or a fixed-foundation structure. A seller who makes portable guard cabins cannot supply a fixed industrial shed. This is a fundamental routing signal absent from the buyer spec list. Check: Application, Sheet Material, Area — Built Type is absent. ✅ Flag.
+
+**would_be_rank assessment:**
+- **Frame Material**: More important than Sheet Material (rank implied at 3 in current list) but less important than Application (Rank 1) and Area (Rank 2). `would_be_rank: 3` — below both ranked specs. Omit `would_be_rank` (not more important than either ranked spec).
+- **Built Type**: More important than Sheet Material. Is it more important than Area (Rank 2)? Built Type (portable vs fixed) is a fundamental routing signal — a seller cannot respond at all if they only make portable units and the buyer needs a fixed structure. This should slot at Rank 2, pushing Area to Rank 3. `would_be_rank: 2`. ✅ Assign.
+
+**Thumbnail eligibility for Built Type (would_be_rank: 2):** Portable vs Fixed/Prefabricated are visually distinct — a portable cabin on wheels/skids looks fundamentally different from a fixed portal-frame industrial shed. **Thumbnail eligible: true.** Options: ["Portable", "Fixed / Permanent", "Prefabricated (Bolt-Together)", "Modular"]
+
+### Phase 4 — Image Upload Assessment
+
+Metal Shelters are custom-fabricated structures. However, the buyer spec form (Application + Area + Sheet Material) captures the core requirement adequately for sellers to respond with a quote. Sellers can ask follow-up questions about dimensions, span, and wall type post-connection. The product is not a spare part requiring visual identification, and it is not a design-match-from-stock scenario with unmanageable variation — application type + area gives sellers sufficient context.
+
+**Image upload: false.**
+
+```json
+"buyer_spec_audit": {
+  "top_rfq_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Application",
+      "reason": "Routes the RFQ to sellers who specialise in the right structure type — a storage godown, car garage, workshop, and rooftop shelter require different structural designs and seller capabilities.",
+      "thumbnail_eligible": true,
+      "thumbnail_options": ["Storage / Godown", "Car Garage", "Workshop", "Rooftop Shelter", "Labor/Site Office", "Utility Shelter"]
+    },
+    {
+      "rank": 2,
+      "spec_name": "Area",
+      "reason": "Determines project scale and fabrication capacity requirement — sellers need the covered area to assess whether they can supply and to provide a meaningful per-sq-ft price indication.",
+      "thumbnail_eligible": false
+    }
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Built Type",
+      "why_important": "Portable vs fixed/prefabricated is a fundamental routing signal — sellers who supply portable cabins cannot supply fixed-foundation industrial sheds, and buyers need to specify this upfront.",
+      "source": "both",
+      "example_values": ["Portable", "Fixed / Permanent", "Prefabricated (Bolt-Together)", "Modular"],
+      "would_be_rank": 2,
+      "thumbnail_eligible": true,
+      "thumbnail_options": ["Portable", "Fixed / Permanent", "Prefabricated (Bolt-Together)", "Modular"]
+    },
+    {
+      "spec_name": "Frame Material",
+      "why_important": "Buyers in coastal or high-corrosion environments specify aluminium or GI frames that sellers must confirm they can supply — MS-only fabricators cannot fulfil these requirements.",
+      "source": "both",
+      "example_values": ["Mild Steel", "Galvanized Steel", "Aluminium", "Stainless Steel"]
+    }
+  ],
+  "coverage_verdict": "partial",
+  "image_upload_recommended": false
+}
+```
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+1. `top_rfq_specs` Rank 1: Application — options: ["Storage / Godown", "Car Garage", "Workshop", "Rooftop Shelter", "Labor/Site Office", "Utility Shelter"] → 6 prompts
+2. `missing_important_specs`: Built Type (would_be_rank: 2, thumbnail_eligible: true) — options: ["Portable", "Fixed / Permanent", "Prefabricated (Bolt-Together)", "Modular"] → 4 prompts
+
+Total: 10 prompts. All represent `primary_segment`: prefabricated mild steel industrial/storage shelter.
+
+```json
+"buyer_spec_thumbnail_prompts": [
+  {
+    "attribute": "Application",
+    "option_value": "Storage / Godown",
+    "id": "spec_1",
+    "prompt_for_generation": "Prefabricated mild steel industrial storage shelter with colour-coated GI roofing sheets, large open front bay, corrugated metal walls, concrete floor visible, outdoor industrial setting, natural daylight, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Application",
+    "option_value": "Car Garage",
+    "id": "spec_2",
+    "prompt_for_generation": "Prefabricated metal car parking canopy shelter with sloping colour-coated GI roof, open sides, steel columns, two cars parked underneath, residential or commercial driveway setting, natural daylight, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Application",
+    "option_value": "Workshop",
+    "id": "spec_3",
+    "prompt_for_generation": "Prefabricated mild steel workshop shelter with enclosed GI sheet walls, roll-up shutter door, colour-coated pitched roof, industrial tools and workbench visible inside, outdoor industrial compound, natural daylight, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Application",
+    "option_value": "Rooftop Shelter",
+    "id": "spec_4",
+    "prompt_for_generation": "Prefabricated metal rooftop shelter structure installed on a flat concrete building terrace, sloping GI colour-coated roof panels, steel frame columns bolted to rooftop, urban building background, natural daylight, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Application",
+    "option_value": "Labor/Site Office",
+    "id": "spec_5",
+    "prompt_for_generation": "Prefabricated metal site office shelter on a construction site, enclosed GI sheet walls with a door and window, colour-coated sloping roof, placed on ground level, construction activity visible in background, natural daylight, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Application",
+    "option_value": "Utility Shelter",
+    "id": "spec_6",
+    "prompt_for_generation": "Compact prefabricated metal utility shelter housing electrical or mechanical equipment, enclosed steel walls with ventilation louvres, padlocked door, colour-coated GI roof, outdoor industrial or commercial compound, natural daylight, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Built Type",
+    "option_value": "Portable",
+    "id": "spec_7",
+    "prompt_for_generation": "Portable prefabricated metal shelter cabin on steel skid base, compact enclosed unit with door and window, colour-coated GI roof, visibly self-contained and movable, placed on open ground, natural daylight, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Built Type",
+    "option_value": "Fixed / Permanent",
+    "id": "spec_8",
+    "prompt_for_generation": "Fixed permanent prefabricated mild steel industrial shelter with concrete foundation footings, portal-frame structure, colour-coated GI roofing, enclosed walls, large span clear interior visible, industrial compound setting, natural daylight, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Built Type",
+    "option_value": "Prefabricated (Bolt-Together)",
+    "id": "spec_9",
+    "prompt_for_generation": "Bolt-together prefabricated metal shelter being assembled on site, visible bolted steel frame connections, colour-coated GI roof panels being installed, workers in background, construction site setting, natural daylight, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Built Type",
+    "option_value": "Modular",
+    "id": "spec_10",
+    "prompt_for_generation": "Modular prefabricated metal shelter with clearly visible panel-based construction, multiple identical bays joined together, colour-coated GI roof and wall panels, expandable structure appearance, industrial or commercial setting, natural daylight, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  }
+]
+```
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual sub-type variation across Metal Shelters — industrial storage shed, parking canopy, guard cabin, bus shelter, and portable site office are visually distinct and non-interchangeable. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Frame material, sheet thickness, wind resistance, and built type are primary structural adequacy criteria. Buyers cannot shortlist a shelter without confirming these specs match their site and load requirements."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Custom fabrication means price varies substantially with structural spec tier (sheet thickness, frame material, wind rating). Indian construction buyers compare per-sq-ft rates aggressively once spec equivalence is confirmed; price is a primary decision lever, not just a sanity check."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard portable units (guard cabins, portable offices) are quoted per piece — unit must be shown to prevent price comparison confusion between custom area-based and catalogue per-piece listings.",
+      "reason": "Per sq ft vs per piece is a real market ambiguity in this category. Price cannot be meaningfully compared across listings without knowing the unit; omitting it causes buyers to misread rates."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in Metal Shelters — market is fragmented across regional fabricators in Delhi-NCR, Hyderabad, Faridabad, and Bengaluru clusters; buyers search by spec and price, not manufacturer name.",
+      "reason": "Post-sale dependency (erection, structural warranty, site supervision) means seller track record and fabrication capability matter during vendor selection, particularly for institutional and government buyers. Company ranks last but is not irrelevant."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Frame Material",
+        "reason": "Defines the structural class of the shelter — MS, GI, aluminium, and stainless steel are non-interchangeable and drive the largest price delta across the product range."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Sheet Thickness",
+        "reason": "Primary quality-grade separator within a given frame material — thicker sheets meet higher wind and load compliance requirements and are non-interchangeable for structural applications."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Built Type",
+      "Frame Material",
+      "Roof Shape",
+      "Sheet Material",
+      "Sheet Thickness",
+      "Surface Finish",
+      "Usage Area",
+      "Wind Resistance"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Structural Span / Bay Width",
+        "why_important": "Clear span determines column placement, usable floor area, and structural steel tonnage — Indian industrial buyers specify this as a primary requirement and it drives significant price variation.",
+        "source": "both",
+        "example_values": ["Up to 6m", "6m–12m", "12m–18m", "18m–24m"]
+      },
+      {
+        "spec_name": "Wall Panel Type",
+        "why_important": "Open-sided, GI sheet enclosed, PUF sandwich panel, and polycarbonate wall options have significant price and thermal performance differences that buyers specify upfront.",
+        "source": "both",
+        "example_values": ["Open Sided", "GI Sheet Enclosed", "PUF Sandwich Panel", "Polycarbonate"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Routes the RFQ to sellers who specialise in the right structure type — a storage godown, car garage, workshop, and rooftop shelter require different structural designs and seller capabilities.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Storage / Godown", "Car Garage", "Workshop", "Rooftop Shelter", "Labor/Site Office", "Utility Shelter"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area",
+        "reason": "Determines project scale and fabrication capacity requirement — sellers need the covered area to assess whether they can supply and to provide a meaningful per-sq-ft price indication.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Built Type",
+        "why_important": "Portable vs fixed/prefabricated is a fundamental routing signal — sellers who supply portable cabins cannot supply fixed-foundation industrial sheds, and buyers need to specify this upfront.",
+        "source": "both",
+        "example_values": ["Portable", "Fixed / Permanent", "Prefabricated (Bolt-Together)", "Modular"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Portable", "Fixed / Permanent", "Prefabricated (Bolt-Together)", "Modular"]
+      },
+      {
+        "spec_name": "Frame Material",
+        "why_important": "Buyers in coastal or high-corrosion environments specify aluminium or GI frames that sellers must confirm they can supply — MS-only fabricators cannot fulfil these requirements.",
+        "source": "both",
+        "example_values": ["Mild Steel", "Galvanized Steel", "Aluminium", "Stainless Steel"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Storage / Godown",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated mild steel industrial storage shelter with colour-coated GI roofing sheets, large open front bay, corrugated metal walls, concrete floor visible, outdoor industrial setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Car Garage",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated metal car parking canopy shelter with sloping colour-coated GI roof, open sides, steel columns, two cars parked underneath, residential or commercial driveway setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Workshop",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated mild steel workshop shelter with enclosed GI sheet walls, roll-up shutter door, colour-coated pitched roof, industrial tools and workbench visible inside, outdoor industrial compound, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Rooftop Shelter",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated metal rooftop shelter structure installed on a flat concrete building terrace, sloping GI colour-coated roof panels, steel frame columns bolted to rooftop, urban building background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Labor/Site Office",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated metal site office shelter on a construction site, enclosed GI sheet walls with a door and window, colour-coated sloping roof, placed on ground level, construction activity visible in background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Utility Shelter",
+      "id": "spec_6",
+      "prompt_for_generation": "Compact prefabricated metal utility shelter housing electrical or mechanical equipment, enclosed steel walls with ventilation louvres, padlocked door, colour-coated GI roof, outdoor industrial or commercial compound, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Portable",
+      "id": "spec_7",
+      "prompt_for_generation": "Portable prefabricated metal shelter cabin on steel skid base, compact enclosed unit with door and window, colour-coated GI roof, visibly self-contained and movable, placed on open ground, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Fixed / Permanent",
+      "id": "spec_8",
+      "prompt_for_generation": "Fixed permanent prefabricated mild steel industrial shelter with concrete foundation footings, portal-frame structure, colour-coated GI roofing, enclosed walls, large span clear interior visible, industrial compound setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Prefabricated (Bolt-Together)",
+      "id": "spec_9",
+      "prompt_for_generation": "Bolt-together prefabricated metal shelter being assembled on site, visible bolted steel frame connections, colour-coated GI roof panels being installed, workers in background, construction site setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type",
+      "option_value": "Modular",
+      "id": "spec_10",
+      "prompt_for_generation": "Modular prefabricated metal shelter with clearly visible panel-based construction, multiple identical bays joined together, colour-coated GI roof and wall panels, expandable structure appearance, industrial or commercial setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
