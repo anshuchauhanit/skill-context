@@ -1,0 +1,195 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Greenhouse type (Quonset tunnel vs multi-span vs sawtooth vs fan-and-pad) is visually distinct and immediately communicates scale, technology tier, and suitability for the buyer's crop and land. A buyer scanning listings uses the image to eliminate wrong structure types before reading any text — wrong type means immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Greenhouse Type, Covering Material, and Ventilation Type are primary shortlisting criteria — they determine NHB/MIDH subsidy eligibility, crop suitability, and climate control capability. Buyers cannot evaluate fit without these specs; listings missing them cannot be shortlisted."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-meter cost varies dramatically across structure types (naturally ventilated vs fan-and-pad vs polycarbonate) and is the primary budget planning input for subsidy-linked procurement. Indian agri-buyers are highly price-sensitive and use listed per-sq-m rates to shortlist contractors before engaging — price is a discovery signal, not just a confirmation signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq meter",
+      "unit_note": "Small terrace/home greenhouse kits may be quoted per unit or per set; greenhouse components (GI pipes, film rolls) quoted per piece or per running meter. Per sq meter is the dominant commercial unit aligned with NHB/MIDH subsidy norms and must be shown to enable price comparison.",
+      "reason": "Price cannot be compared across listings without unit clarity — some sellers quote per sq ft, per sq meter, or per unit (for kit products), creating real confusion. NHB/MIDH subsidy norms denominate in per sq meter, making unit display essential for the primary commercial buyer segment."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand with buyer recall exists in the Indian greenhouse market — the market is fragmented across regional fabricators and contractors; buyers search by structure type and price, not manufacturer name.",
+      "reason": "For large commercial and subsidy-linked projects, buyers evaluate contractor track record, installation experience, and post-sale support during vendor selection — company matters but only after spec and price shortlisting. No brand commands the kind of recall that would make it a primary search signal."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Greenhouse Type",
+        "reason": "Defines the fundamental product class (naturally ventilated vs fan-and-pad vs shade house vs glass house) — values are non-interchangeable across crop requirements and subsidy tiers, and drive the largest price delta in the category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Covering Material",
+        "reason": "Covering material (poly film vs polycarbonate vs glass vs shade net) determines durability, light transmission, thermal performance, and cost tier — a primary differentiator within the same greenhouse type that significantly changes price and crop suitability."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Country Of Origin",
+      "Covering Material",
+      "Door Type",
+      "Frame Coating",
+      "Greenhouse Type",
+      "Peak Height",
+      "Span",
+      "Structure Material",
+      "Ventilation Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Film Thickness / Micron",
+        "why_important": "NHB/MIDH subsidy norms mandate minimum 200-micron UV-stabilised polyethylene film — buyers and subsidy inspectors verify this spec, and it is a primary quality differentiator between compliant and non-compliant structures.",
+        "source": "both",
+        "example_values": [
+          "200 micron",
+          "250 micron",
+          "300 micron",
+          "400 micron"
+        ]
+      },
+      {
+        "spec_name": "Area / Size",
+        "why_important": "Commercial greenhouse procurement is project-scoped by area (sq meters or acres) — buyers need to know the standard project size or minimum supply area to assess whether the seller can meet their scale requirement.",
+        "source": "both",
+        "example_values": [
+          "500 sq m",
+          "1000 sq m",
+          "4000 sq m",
+          "1 acre"
+        ]
+      },
+      {
+        "spec_name": "Subsidy Eligibility",
+        "why_important": "NHB/MIDH subsidy-linked buyers explicitly filter for structures certified as subsidy-eligible — this is a binary purchase gate for the dominant commercial buyer segment and is absent from the current spec list.",
+        "source": "both",
+        "example_values": [
+          "NHB Approved",
+          "MIDH Approved",
+          "Not Applicable"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Greenhouse Structure Type",
+        "reason": "Defines the technology tier and climate control requirement — sellers need this to determine whether they can supply the structure and to price it accurately (naturally ventilated vs hi-tech fan-and-pad vs tunnel are fundamentally different products at different price points).",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Natural Polyhouse",
+          "Round Type",
+          "Hi-Tech",
+          "Tunnel Model"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Project Area",
+        "reason": "Project scale determines whether the seller can supply at the required size and directly drives the total project cost estimate — sellers need area to respond with a meaningful quote.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Crop / Application",
+        "why_important": "The crop being grown determines ventilation, humidity control, and covering material requirements — sellers need this to recommend the correct structure type and confirm suitability, especially for high-value crops like roses, capsicum, or saffron.",
+        "source": "both",
+        "example_values": [
+          "Vegetables",
+          "Cut Flowers",
+          "Nursery / Seedlings",
+          "Mushroom"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Greenhouse Structure Type",
+      "option_value": "Natural Polyhouse",
+      "id": "spec_1",
+      "prompt_for_generation": "Naturally ventilated polyhouse with GI tubular frame and UV-stabilised polyethylene film cover, side and top ventilation openings visible, multi-span structure on agricultural land, daytime, clear sky background, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Structure Type",
+      "option_value": "Round Type",
+      "id": "spec_2",
+      "prompt_for_generation": "Quonset tunnel greenhouse with curved GI frame and polyethylene film cover, semi-circular cross-section clearly visible, single-span structure on farmland, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Structure Type",
+      "option_value": "Hi-Tech",
+      "id": "spec_3",
+      "prompt_for_generation": "Hi-tech fan-and-pad greenhouse with GI frame, polyethylene film cover, evaporative cooling pad visible on one end wall and exhaust fans on the opposite end, large multi-span commercial structure on agricultural land, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Greenhouse Structure Type",
+      "option_value": "Tunnel Model",
+      "id": "spec_4",
+      "prompt_for_generation": "Low-profile tunnel greenhouse with arched GI hoops and polyethylene film cover, compact single-row tunnel structure on a farm plot, entry door at one end visible, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
