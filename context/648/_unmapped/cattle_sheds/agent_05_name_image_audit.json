@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Cattle Sheds' directly matches the top primary keyword and trade-name conventions confirmed in Agent 3 alt_names; market context confirms this is the dominant buyer search term for this MCAT.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail shows a steel-framed open-sided farm shed under construction — structurally consistent with the primary segment (prefabricated steel-framed dairy cattle shed), but the construction-site context (rubble, incomplete flooring, no cattle visible) reduces buyer confidence and category clarity.",
+      "A completed shed with visible cattle, clean concrete flooring, GI roofing, and a farm setting would far better represent the primary segment and attract commercial dairy farmer buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic AI image of a completed prefabricated steel-framed dairy cattle shed for commercial dairy farming in India. Open-sided structure with galvanised steel columns, corrugated GI roofing sheets in silver-grey, clean concrete flooring with drainage channel, green paddy field background under bright daylight. Several Holstein-Friesian cows visible inside the shed near a concrete manger. Wide-angle front-three-quarter view, sharp focus, professional product photography style, white-balanced natural lighting, no construction debris, no people.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
