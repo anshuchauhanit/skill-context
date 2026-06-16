@@ -1,0 +1,291 @@
+{
+  "mcat_description": {
+    "short": "Guest House is a short-stay accommodation service offered by privately owned or managed lodging properties in India, providing furnished rooms on a per-day or per-month basis to tourists, corporate travellers, and government employees.",
+    "long": "A guest house in India is a small-to-medium lodging establishment — typically privately owned and operated — that offers furnished rooms, basic amenities, and hospitality services for short or extended stays. Indian guest houses serve a broad spectrum of guests including domestic and international tourists, corporate employees on business travel, government officials on tour duty, and paying guests seeking temporary accommodation. The sector is regulated by state tourism departments and municipal authorities, with the Ministry of Tourism providing voluntary approval guidelines covering facilities, hygiene, fire safety, and staff standards. On IndiaMART, this MCAT is dominated by accommodation service listings (properties advertising rooms per day or per month) with a minority contamination of prefabricated modular guest house structures listed by manufacturers.",
+    "product_types": [
+      "Tourist guest house — short-stay rooms for domestic and international travellers",
+      "Corporate guest house — furnished accommodation for business travellers and company employees on deputation",
+      "Government / CPWD guest house — accommodation for central and state government employees on official duty",
+      "Paying guest (PG) accommodation — semi-permanent lodging with meals and housekeeping",
+      "Serviced apartment / guest house — fully furnished apartment-style accommodation with hotel services",
+      "Heritage / boutique guest house — heritage property or themed lodging (e.g. Rajasthani suite, Goa beach property)",
+      "Budget guest house — economy lodging for cost-conscious travellers",
+      "Prefabricated / modular guest house structure — manufactured portable cabin or PUF panel structure (minority contamination, ~15-20% of listings; belongs in Prefabricated Houses & Structures MCAT)"
+    ],
+    "primary_applications": [
+      "Short-term accommodation for tourists visiting pilgrimage sites, hill stations, and beach destinations",
+      "Corporate employee accommodation during project assignments, training, or business travel",
+      "Government employee touring accommodation and holiday home stays",
+      "Extended stay accommodation for outstation workers and students",
+      "Event-adjacent lodging for wedding guests and family functions",
+      "Budget alternative to hotels for domestic travellers in Tier 2 and Tier 3 cities"
+    ],
+    "buyer_segments": [
+      "Individual domestic tourists and pilgrims seeking budget or mid-range lodging",
+      "Corporate HR and admin teams sourcing accommodation for travelling employees",
+      "Government departments and PSUs booking rooms for officials on tour duty",
+      "Travel agents and tour operators seeking bulk room inventory for group bookings",
+      "Families seeking furnished accommodation for extended stays or relocations",
+      "International budget travellers and backpackers"
+    ]
+  },
+  "primary_segment": "Guest house accommodation and hospitality service — short-stay furnished lodging for tourists, corporate travellers, and government employees, priced per day or per room",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Guest house accommodation and hospitality service (short-stay lodging, priced per day/room)",
+    "secondary_families": [
+      "Prefabricated / modular guest house structure — manufactured portable cabin or PUF panel building sold per sq ft or per unit to construction buyers"
+    ],
+    "reason": "The name 'Guest House' attracts two incompatible families with different buyers, price dimensions, and regulatory contexts: (1) a hospitality service (per day/room, tourism/hospitality licensing, buyer = traveller/corporate/government) confirmed by ~60-65% listing distribution, H1 'Guest House Service', all top keywords, and Agent 1 verdict; and (2) a manufactured prefabricated structure (per sq ft/piece, construction product, buyer = contractor/developer) confirmed by ~15-20% of listing tiles and call data ('Folding Guest House')."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "guest house",
+      "guest house service",
+      "furnished guest house",
+      "budget guest house",
+      "corporate guest house",
+      "tourist guest house",
+      "paying guest house",
+      "guest house accommodation",
+      "vishranthi nilayam",
+      "guest house rental"
+    ],
+    "technical_synonyms": [
+      "lodging house",
+      "boarding house",
+      "serviced accommodation",
+      "bed and breakfast",
+      "transit accommodation",
+      "short-stay accommodation",
+      "touring officers hostel",
+      "rest house"
+    ],
+    "trade_names": [
+      "CPWD guest house",
+      "government rest house",
+      "circuit house",
+      "dak bungalow",
+      "inspection bungalow",
+      "holiday home",
+      "service apartment guest house"
+    ],
+    "hindi_terms": [
+      "vishram griha",
+      "atithi griha",
+      "sarai",
+      "dharamshala"
+    ],
+    "buyer_intent_queries": [
+      "guest house for corporate employees in India",
+      "furnished guest house on daily rent",
+      "budget guest house near railway station",
+      "guest house accommodation for government employees",
+      "short stay guest house with food facility",
+      "guest house booking for business travel",
+      "fully furnished guest house for monthly rent",
+      "tourist guest house near pilgrimage site"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per day (per room/night)",
+    "unit_reasoning": "Indian guest house accommodation is universally quoted per day or per room per night in B2B transactions, consistent with hospitality industry norms; monthly rates are also common for extended corporate or PG stays, while the minority prefab structure segment quotes per sq ft or per piece.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Tourist / budget guest house",
+        "unit": "per day / per room per night",
+        "note": "Standard hospitality unit; daily rate per room type (AC/non-AC, single/double)"
+      },
+      {
+        "sub_segment": "Corporate / serviced apartment guest house",
+        "unit": "per month",
+        "note": "Extended stays quoted monthly; some also offer daily rates for short assignments"
+      },
+      {
+        "sub_segment": "Prefabricated guest house structure (contamination)",
+        "unit": "per sq ft or per piece",
+        "note": "Manufactured product; belongs in Prefabricated Houses & Structures MCAT"
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART MCAT page (listing tile price snippets)",
+      "IndiaMART Guest House Booking sibling page",
+      "flxho.in corporate guest house article",
+      "Booking.com India guest houses"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In India, a guest house is a privately owned or managed short-stay lodging establishment distinct from starred hotels, typically offering 5–30 rooms with basic to mid-range amenities at budget-friendly rates. The Indian guest house sector has grown significantly, particularly in Delhi-NCR driven by IT sector growth, and now spans tourist destinations (Goa, Rajasthan, hill stations), pilgrimage towns, and major business cities. The Ministry of Tourism and state tourism departments (e.g. Delhi Tourism) operate voluntary approval schemes for guest houses covering hygiene, fire safety, staff standards, and municipal registration requirements. A distinct corporate sub-segment exists — corporate guest houses are privately owned properties managed by companies for travelling employees, valued for cost-effectiveness on long-term stays versus business hotels. The central government operates CPWD guest houses and holiday homes across India for government employees on official duty or personal travel, bookable via the e-Sampada portal. The term 'vishranthi nilayam' (Telugu/Kannada) is widely used in South India for government or institutional rest houses. On IndiaMART, this MCAT is contaminated by a minority (~15-20%) of prefabricated/modular guest house structure listings (portable cabins, PUF panel structures) that belong in the Prefabricated Houses & Structures category, and further contaminated by unrelated listings (event services, car hire, real estate for sale).",
+  "buyer_attracting_attributes": [
+    "Room Type (AC / Non-AC)",
+    "Number of Rooms Available",
+    "Location / City",
+    "Amenities (WiFi, Food, Parking, Hot Water)",
+    "Occupancy Type (Single / Double / Family)",
+    "Stay Duration Options (Daily / Weekly / Monthly)",
+    "Furnishing Level (Basic / Fully Furnished)",
+    "Check-in / Check-out Flexibility",
+    "Corporate / Bulk Booking Availability",
+    "Star Rating Equivalent or Approval Status"
+  ],
+  "taxonomy_context": {
+    "mcat_id": 43258,
+    "mcat_name": "Guest House",
+    "listing_count": 10873,
+    "direct_siblings": 0,
+    "note": "full_path and parent name withheld intentionally by orchestrator"
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": false,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "b2b_service"
+      ],
+      "do_research": true,
+      "reason": "MCAT name unambiguously describes a service (providing accommodation access) rather than a manufactured product. Service MCATs require external research to anchor Agent 3 against manufactured-good contamination in listing tiles."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Top keyword by impressions 'vishranthi nilayam' (849 impressions) confirmed South Indian trade term for guest house/rest house; all top queries are location-based service accommodation queries confirming service primary_segment."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Top internal keyword 'guest house' (19 PVs); 'furnished guest house rental service', 'guest house daily rental' confirm service-intent buyer vocabulary. 'beatxp' terms flagged as unrelated contamination."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_vagueness_signal.secondary_families"
+        ],
+        "citation_note": "Two call rows for 'Folding Guest House' and 'Folding Guest House (1 Hall)' confirm product-family (prefab structure) buyers are landing in this MCAT, supporting vagueness signal. No specs extracted."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "mcat_id",
+          "mcat_name",
+          "listing_count",
+          "direct_siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "Listing count 10,873 is plausible for a broad service MCAT with 1,000+ visible tiles; listing_count_suspect set false. Taxonomy NOT used for primary_segment or product scope decisions."
+      },
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [
+          "H1 heading",
+          "listing tile distribution",
+          "related category links",
+          "price snippets",
+          "seller descriptions"
+        ],
+        "derived_outputs": [
+          "primary_segment",
+          "mcat_vagueness_signal",
+          "mcat_description.product_types",
+          "unit_quoting_context",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "H1 'Guest House Service' is platform's structural declaration of service identity. Listing distribution ~60-65% service, ~15-20% prefab structures, ~10-15% other contamination. Per-day pricing in cheapest sellers confirms dominant unit. Related category links (Guest House Booking, Guest House Management Service, Hotels Accommodation Service) confirm service ecosystem."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.theperch.in/blog/guest-houses-in-india-business-model-basics-more",
+        "title": "Guest Houses in India: Business Model, Basics & More - Perch Serviced Apartments",
+        "source_domain": "theperch.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.long"
+        ],
+        "citation_note": "Confirmed guest houses in India are synonymous with reasonably priced accommodation, typically 20-30 rooms, privately owned; market evolving with OTA aggregators. Used for market_context characterisation of the Indian guest house sector."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Guest_house",
+        "title": "Guest house - Wikipedia",
+        "source_domain": "en.wikipedia.org",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.short"
+        ],
+        "citation_note": "Confirmed significant growth of guest house business in India especially Delhi-NCR; home-converted guest houses now offering 3-star equivalent facilities. Used for market_context and product definition."
+      },
+      {
+        "url": "https://tourism.delhi.gov.in/tourism/guidelines-approval-guest-houses",
+        "title": "Guidelines for Approval of Guest Houses | Department of Tourism, Delhi",
+        "source_domain": "tourism.delhi.gov.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Confirmed Ministry of Tourism / state tourism department voluntary approval scheme for guest houses covering hygiene, fire safety, staff standards, and municipal registration. Used for regulatory context in market_context."
+      },
+      {
+        "url": "https://flxho.in/corporate-guest-houses-vs-serviced-apartments-whats-better-for-your-team/",
+        "title": "Corporate Guest Houses: Your Home Away from Office",
+        "source_domain": "flxho.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed corporate guest houses in India are privately owned properties managed by companies for travelling employees; cost-effective for long-term stays; often located near corporate offices. Used for corporate sub-segment description and buyer_segments."
+      },
+      {
+        "url": "https://www.thecurrentindia.com/govt/central-government-holiday-homes/",
+        "title": "Central Government Holiday Homes: CPWD Guest House List",
+        "source_domain": "thecurrentindia.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Confirmed CPWD guest houses / central government holiday homes exist across India for government employees; bookable via e-Sampada portal. Used for government sub-segment in market_context and trade_names (CPWD guest house, holiday home)."
+      },
+      {
+        "url": "https://www.booking.com/guest-house/country/in.en-gb.html",
+        "title": "The 10 best guest houses in India | Booking.com",
+        "source_domain": "booking.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed guest house accommodation in India includes AC rooms, WiFi, 24-hour front desk, restaurant, airport transfers as standard buyer-evaluated attributes. Used for buyer_attracting_attributes and unit quoting confirmation."
+      }
+    ]
+  }
+}
