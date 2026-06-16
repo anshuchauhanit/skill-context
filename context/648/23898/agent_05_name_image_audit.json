@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The term 'Bunkhouses' is the primary trade keyword confirmed across Agent 3 alt_names and market_context, and is the standard B2B search term used by Indian construction and infrastructure buyers for portable worker accommodation cabins.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows colourful timber-framed recreational/holiday cabins in a landscaped outdoor setting — these are leisure accommodation structures, not the MS/steel-framed prefabricated portable worker accommodation cabins that define the primary segment.",
+      "The image actively misrepresents the MCAT: no steel frame, no sandwich panel construction, no industrial/construction site context — a buyer searching for portable labour accommodation cabins would not recognise this as relevant."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A portable prefabricated mild steel (MS) framed bunkhouse cabin for worker accommodation, rectangular box-shaped structure with corrugated metal or PUF sandwich panel walls in grey or off-white, single entry door with small window, placed on a flat construction site with bare ground, front-facing three-quarter view, clean white or light grey background, bright even studio lighting, product photography style, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
