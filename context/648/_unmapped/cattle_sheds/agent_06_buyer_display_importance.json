@@ -1,0 +1,211 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Cattle sheds vary significantly in structural form — open-sided loose housing vs semi-enclosed vs elevated slatted-floor goat sheds are visually distinct product types. Buyers use the image to confirm the shed type and construction quality before reading any text; wrong type = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Capacity (herd size), roofing material, structure material, and flooring type are primary shortlisting criteria — buyers cannot evaluate fit without these. A listing without specs cannot be compared against project requirements."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft rate varies substantially with structure material (MS vs GI), roofing type, and capacity tier — buyers compare rates across sellers only after confirming spec equivalence. Indian dairy farmers and agri-entrepreneurs are highly price-sensitive; listed per-sq-ft rate is the primary budget entry point for project planning."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Turnkey goat sheds and complex dairy projects may be quoted per project/lump sum — must be shown to prevent price comparison confusion with per-sq-ft listings.",
+      "reason": "Per sq ft is the dominant quoting unit but some sellers quote per project or per sq metre; without the unit shown, buyers cannot compare prices across listings. Unit ambiguity is a real market problem in this category."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No recognised brand names exist in Indian cattle shed fabrication that buyers search for by name — market is fragmented across regional fabricators and PEB contractors.",
+      "reason": "For turnkey and large commercial projects, buyers evaluate fabricator track record, installation capability, and proximity (for site visits and after-erection support), making company credentials a post-shortlisting qualifier rather than a primary signal."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Capacity",
+        "reason": "Herd capacity (Up To 10 Animals through Above 100 Animals) is the primary project-scale determinant — it drives shed dimensions, structural load requirements, and total cost, and values are non-interchangeable across buyer requirements."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Roofing Material",
+        "reason": "Roofing material (GI Sheet vs PPGI vs Asbestos Free Sheet vs Thatch vs Tile) drives a significant per-sq-ft price delta and determines durability, heat resistance, and compliance with buyer preferences — buyers cannot substitute one roofing type for another on a given project."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Capacity",
+      "Flooring Type",
+      "Roofing Material",
+      "Shed Type",
+      "Structure Material",
+      "Usage",
+      "Ventilation Type",
+      "With Fodder Area",
+      "With Milking Parlor"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Shed Dimensions (Length × Width)",
+        "why_important": "Indian buyers specify and compare sheds by covered area dimensions (e.g. 30×60 ft, 30×100 ft) — this is the primary sizing input for per-sq-ft pricing and project planning, yet no dimension spec exists in the current list.",
+        "source": "both",
+        "example_values": [
+          "30×60 ft",
+          "30×100 ft",
+          "40×100 ft",
+          "Custom"
+        ]
+      },
+      {
+        "spec_name": "Column/Frame Height",
+        "why_important": "Eave height determines ventilation adequacy and animal comfort — commercial dairy buyers specify minimum column height (typically 10–14 ft) as a structural requirement, and it materially affects fabrication cost.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "10 ft",
+          "12 ft",
+          "14 ft",
+          "Custom"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Shed Application Type",
+        "reason": "Application type (Dairy Farm, Goat Farm, Goshala, etc.) routes the RFQ to sellers who specialise in the correct structural design — elevated slatted-floor goat sheds and ground-level dairy cattle sheds require fundamentally different fabrication expertise.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Goat Farm",
+          "Dairy Farm",
+          "Cow Farm",
+          "Buffalo Farm",
+          "Integrated Farm",
+          "Goshala"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Total Animal Capacity",
+        "reason": "Animal capacity defines project scale and directly determines shed dimensions, structural requirements, and total cost — sellers need this to assess whether they can supply and to provide an accurate quote.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Structure Material",
+        "why_important": "Sellers need to know whether the buyer requires MS, GI, or RCC framing to confirm they can supply and to price accurately — material choice drives the largest single cost variable in shed fabrication.",
+        "source": "both",
+        "example_values": [
+          "Mild Steel",
+          "Galvanized Steel",
+          "RCC",
+          "Wooden"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Cattle shed buyers frequently have a specific layout or design reference — a farm plot sketch, an existing shed they want replicated, or a government scheme drawing — that sellers need to assess site fit, drainage slope, and structural configuration before quoting. An uploaded reference image or rough layout sketch allows sellers to respond with accurate dimensions and cost estimates rather than requesting a site visit first."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Shed Application Type",
+      "option_value": "Goat Farm",
+      "id": "spec_1",
+      "prompt_for_generation": "Elevated slatted-floor goat farm shed with mild steel frame and corrugated GI roofing, raised wooden platform visible, open sides with mesh fencing, rural farm setting, natural daylight, no animals, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shed Application Type",
+      "option_value": "Dairy Farm",
+      "id": "spec_2",
+      "prompt_for_generation": "Ground-level open-sided dairy cattle shed with mild steel structural frame, corrugated GI sheet roofing, concrete flooring with drainage slope, feed manger along one side, rural farm background, natural daylight, no animals, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shed Application Type",
+      "option_value": "Cow Farm",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated steel-framed cow shed with PPGI roofing sheets, semi-open side walls, concrete paved floor, water trough visible along the side, green rural landscape background, bright daylight, no animals, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shed Application Type",
+      "option_value": "Buffalo Farm",
+      "id": "spec_4",
+      "prompt_for_generation": "Wide-span open-sided buffalo shed with galvanised steel frame, corrugated GI roofing, paver block flooring, ridge ventilation visible at roof apex, rural agricultural setting, natural daylight, no animals, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shed Application Type",
+      "option_value": "Integrated Farm",
+      "id": "spec_5",
+      "prompt_for_generation": "Integrated dairy farm complex showing connected cattle housing shed and milking parlour annex, mild steel PEB structure with GI roofing, concrete flooring, multiple bays visible, aerial perspective, rural farm setting, no animals, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shed Application Type",
+      "option_value": "Goshala",
+      "id": "spec_6",
+      "prompt_for_generation": "Traditional-style goshala cattle shelter with RCC or brick columns, tiled or corrugated roofing, open courtyard layout, paved flooring, manger along perimeter walls, clean and well-maintained appearance, daylight, no animals, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
