@@ -1,0 +1,1121 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "298114742",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "High Tech Agricultural Greenhouse",
+      "description": "High Tech Agricultural Greenhouse",
+      "specs": {
+        "raw": "Application:Vegetable Farming, Built Type:Modular, Covering Material:Poly Film, Features:Natural Airflow for Temperature Control, Greenhouse Type:High Tech, Material:Polyethylene, Peak Height:5 m, Span:12 m, Structure Material:GI Pipe, Surface Treatment:Galvanized, Usage:Agriculture"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2025/4/502300318/ZR/JP/GI/36837773/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/high-tech agricultural greenhouse-2856351574430.html",
+      "image_file": "298114742.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large white poly film greenhouse with GI frame, exhaust fan louvers on the side wall, and a person at the entrance — a complete agricultural greenhouse structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Agricultural Greenhouse) with a quality descriptor (High Tech) but omits specific type, dimensions, or covering material."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide covering material (Poly Film), structure material (GI Pipe), peak height (5m), span (12m), greenhouse type (High Tech), and surface treatment (Galvanized)."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a single-line repetition of the title with no additional product information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "High-tech poly film greenhouse on GI pipe frame is a recognised agricultural greenhouse product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label good confirmed — good image of complete poly film greenhouse, strong specs, no contradictions, valid category.",
+      "source_url": "https://www.indiamart.com/proddetail/high-tech agricultural greenhouse-2856351574430.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "17777712",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Polycarbonate Greenhouses, For Agriculture",
+      "description": "<p dir=\"ltr\">We are leading manufacturer and supplier of <b>Curved Polycarbonate Greenhouses</b> to our clients. We have been able to cater to the diverse needs of our clients by offering the best quality range of products.<br>\n&#160;</p>",
+      "specs": {
+        "raw": "Application:Flower Farming, Built Type:Prefab, Color:White, Country of Origin:Made in India, Covering:Polycarbonate sheets, Covering Material:Poly Film, Greenhouse Type:Polyhouse, Height:3 Meter 4 meters 5 meters, Peak Height:5 m, Span:8 m, Structure Material:GI Pipe, Thickness:6 mm 8 mm, Usage/Application:Agriculture"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/12/GG/BS/SE/2644714/polycarbonate-greenhouses-for-agriculture.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/polycarbonate-greenhouses, for agriculture-2077400112.html",
+      "image_file": "17777712.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a complete curved-roof polycarbonate greenhouse structure with louvred vents and entry door in an outdoor agricultural setting."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Polycarbonate Greenhouse) and application (Agriculture) but omits structural specs like span, height, or ventilation type."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide covering material, structure material (GI Pipe), span (8m), and height but contain an internal contradiction between 'Covering: Polycarbonate sheets' and 'Covering Material: Poly Film'."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic manufacturer boilerplate with no product-specific details beyond 'Curved Polycarbonate Greenhouses'."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Polycarbonate sheet greenhouse is a recognised product type within the Agricultural Greenhouses MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title states 'Polycarbonate Greenhouses' but specs field 'Covering Material' states 'Poly Film', directly contradicting the polycarbonate covering claimed in the title."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs contain 'Covering: Polycarbonate sheets' and 'Covering Material: Poly Film' — two conflicting values for the covering material of the same product."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title states 'Polycarbonate Greenhouses' but specs 'Covering Material' field states 'Poly Film', contradicting the covering type."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs list 'Covering: Polycarbonate sheets' and 'Covering Material: Poly Film' — two conflicting covering material values within the same specs object."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — title-specs contradiction on covering material and internal specs contradiction both confirmed.",
+      "source_url": "https://www.indiamart.com/proddetail/polycarbonate-greenhouses, for agriculture-2077400112.html"
+    },
+    {
+      "item_id": "251814588",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "100x40m Fan Pad Greenhouse",
+      "description": "<ul>\n<li>Stub type anchoring foundation.&nbsp; &nbsp;</li>\n<li>Multispan total galvanized and nut bolted structure. </li>\n<li>Natural Ventileted Structure Proving 8% to 10% Ventilation with top Open Vent </li>\n<li>Aerodynamic shape along all periphery to resist more wind velocity . </li>\n<li>Manually Operated curtains along 2 Side for more ventilation . </li>\n<li>Specially designed flab controls along 2 side to project curtain damages. </li>\n<li>Polythene fixation shall be done with Profile &amp; Zigzag spring lock. </li>\n<li>200 micron UV Stabilization Polythene (Bis Standerd). </li>\n<li>White Shade net 50% at top inside the Greenhouse and Insect Net 40Mesh Or 35% Net at Curtain Side . </li>\n<li>Exhaust fan 50' with SS Blades Auto Opening Shutters Damper Type 415V 50HZ 1.5HP Motor .&nbsp;</li>\n<li>Cellulose Cooling Pad 4' Thickness with Aluminum frame water Distribution System. </li>\n<li>Control Panel for Exhaust Fan with display. </li>\n<li>Humidity Sensor With Auto Control Panel.</li>\n</ul>",
+      "specs": {
+        "raw": "Application:Vegetable Farming, Bay Size:8 x 4 m, Brand:Rudra, Built Type:Prefab, Central Height:5 m, Color:Pale Yellow, Covering Material:Poly Film, Film Thickness:200 Micron, Frame Finishing:Polished, Greenhouse Type:Naturally Ventilated, Gutter Height:4 m, Height:5 m, Material:Galvanized Iron And Woven, Peak Height:5 m, Shape:Rectangular, Size:100 x 40 m (LxW), Span:8 m, Structure Material:GI Pipe, Usage/Application:Green House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/7/527544891/JL/DJ/PQ/25502266/fan-pad-system-greenhouse.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/100x40m-fan pad greenhouse-2851721558762.html",
+      "image_file": "251814588.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large multi-span fan-pad polyhouse with pale yellow PE film cover and white side curtains in an outdoor agricultural/industrial setting."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title specifies exact dimensions (100x40m) and greenhouse type (Fan Pad), providing buyer-critical size and technology information."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide comprehensive details including bay size, central height, film thickness (200 micron), structure material (GI Pipe), span, and size."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description provides detailed technical specifications including foundation type, film spec (200 micron UV BIS standard), exhaust fan specs, cooling pad, and control panel."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Fan-pad climate control polyhouse with GI pipe frame and PE film is a recognised agricultural greenhouse product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title states 'Fan Pad Greenhouse' (climate-controlled with exhaust fans and cooling pads) but specs field 'Greenhouse Type' states 'Naturally Ventilated', directly contradicting the fan-pad technology named in the title."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title states 'Fan Pad Greenhouse' but specs 'Greenhouse Type' field states 'Naturally Ventilated', contradicting the fan-pad climate control technology described in the title and description."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — title-specs contradiction on greenhouse type (Fan Pad vs Naturally Ventilated) confirmed.",
+      "source_url": "https://www.indiamart.com/proddetail/100x40m-fan pad greenhouse-2851721558762.html"
+    },
+    {
+      "item_id": "262439785",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Hydroponic Greenhouse",
+      "description": "We are engaged in offering&nbsp;<b>Hydroponic Home Kit Dutch Bucket</b><b>&nbsp;</b>product to our clients. Our range of this products is widely appreciated by our clients.",
+      "specs": {
+        "raw": "Automation Grade:Automatic, Brand:Keisha Greens, Country of Origin:Made in India, Material:Plastic, Services:3 Month Seeds and Fertilizers, Shape:Rectangular, Support:Telephonic Agronomist Service, Thickness:2.5 mm"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/12/371640919/DK/DF/LE/99115935/upvc-hydroponic-system.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/hydroponic-greenhouse-2852784078488.html",
+      "image_file": "262439785.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows interior of a greenhouse with rows of leafy greens in white hydroponic NFT channels, with PE film roof and metal frame visible overhead."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (Hydroponic Greenhouse) but omits structural specs, dimensions, or covering material."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs describe a plastic hydroponic kit (Dutch Bucket, 2.5mm thickness, seeds/fertilizers service) and do not describe the greenhouse structure itself."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description names 'Hydroponic Home Kit Dutch Bucket' — a home kit product — rather than describing the greenhouse structure shown in the title and image."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Hydroponic Greenhouse Structure is a recognised product type within the Agricultural Greenhouses MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs",
+          "title_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title states 'Hydroponic Greenhouse' (a structure) but specs describe a plastic Dutch Bucket home kit with 2.5mm thickness and seed/fertilizer services — a different product.",
+          "Title states 'Hydroponic Greenhouse' (a structure) but description explicitly names 'Hydroponic Home Kit Dutch Bucket' — a different, smaller-scale product."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title states 'Hydroponic Greenhouse' (a structure) but specs describe a plastic Dutch Bucket home kit with 2.5mm thickness and seed/fertilizer services."
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title states 'Hydroponic Greenhouse' but description explicitly names 'Hydroponic Home Kit Dutch Bucket' — a different, smaller-scale consumer product."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — title contradicts both specs and description which describe a home hydroponic kit rather than a greenhouse structure.",
+      "source_url": "https://www.indiamart.com/proddetail/hydroponic-greenhouse-2852784078488.html"
+    },
+    {
+      "item_id": "294636259",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Agriculture Greenhouse Net",
+      "description": "<p><b>Greenhouse Shade Nets</b> and <b>Polyhouses</b>. Both are widely used in modern agriculture to control environmental conditions for better plant growth. Here&rsquo;s a breakdown of each:</p>\n<b>1. Greenhouse Shade Net</b>\n<p>A shade net is a protective covering made of polyethylene that helps regulate sunlight, temperature, and moisture levels. It is commonly used in nurseries and farms to protect crops from harsh sunlight, pests, and extreme weather.</p>\n<p><b>Advantages:</b></p>\n<ul>\n<li>Reduces temperature and prevents excessive evaporation</li>\n<li>Protects plants from UV rays and strong winds</li>\n<li>Minimizes pest infestation and fungal diseases</li>\n<li>Improves crop yield by creating an optimal microclimate</li>\n</ul>\n<p><b>Common Uses:</b></p>\n<ul>\n<li>Growing flowers, vegetables, and herbs</li>\n<li>Hardening seedlings before transplanting</li>\n<li>Protecting plants from extreme summer heat</li>\n</ul>\n<b>2. Polyhouse</b>\n<p>A polyhouse is a type of greenhouse where the structure is covered with a polyethylene sheet instead of glass. It provides a controlled environment for crop cultivation, ensuring better productivity throughout the year.</p>\n<p><b>Advantages:</b></p>\n<ul>\n<li>Protects crops from heavy rain, wind, and pests</li>\n<li>Increases yield by maintaining ideal humidity and temperature</li>\n<li>Allows off-season farming for higher profits</li>\n<li>Suitable for precision farming and hydroponics</li>\n</ul>\n<p><b>Types of Polyhouses:</b></p>\n<ul>\n<li><b>Naturally Ventilated Polyhouse:</b> Uses vents and natural air circulation for temperature control.</li>\n<li><b>Climate-Controlled Polyhouse:</b> Uses fans, foggers, and heating systems for better environmental management.</li>\n</ul>\n<b>Choosing Between Shade Net and Polyhouse</b> \n<ul>\n<li><b>Shade Net:</b> Best for partial shade-loving plants, nurseries, and reducing heat stress.</li>\n<li><b>Polyhouse:</b> Ideal for year-round farming, high-value crops, and controlled cultivation.</li>\n</ul>",
+      "specs": {
+        "raw": "Application:Hardening, Country Of Origin:Made In India, Covering Material:Poly Film, Frame Coating:GI Coated, Greenhouse Type:Naturally Ventilated, Irrigation System:Fogger, Peak Height:6m, Span:8 m, Structure Material:GI Pipe, Ventilation Type:Top Vent"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/6/518838115/PI/GC/GQ/18772786/naturally-ventilated-green-house4.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/agriculture-greenhouse net-2856003726197.html",
+      "image_file": "294636259.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows interior of a multi-span greenhouse with green shade/insect net cover, GI pipe frame, cooling pad wall, and seedling trays on the ground."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Agriculture Greenhouse Net' is vague — 'Net' implies a shade net or net house component rather than clearly naming a complete greenhouse structure type."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide greenhouse type (Naturally Ventilated), covering material (Poly Film), structure material (GI Pipe), peak height (6m), span (8m), and ventilation type (Top Vent)."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description explains both shade nets and polyhouses with types and advantages — informative but generic/educational rather than product-specific."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Naturally ventilated polyhouse/shade net house with GI pipe frame is a recognised agricultural greenhouse product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs",
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a green shade net/insect net cover on the greenhouse structure, but specs state 'Covering Material: Poly Film', contradicting the visible net covering.",
+          "Title states 'Agriculture Greenhouse Net' (implying net covering) but specs state 'Covering Material: Poly Film', contradicting the net covering implied by the title."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows green shade/insect net cover on the greenhouse, but specs state 'Covering Material: Poly Film'."
+        },
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title 'Agriculture Greenhouse Net' implies net covering but specs state 'Covering Material: Poly Film'."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title 'Agriculture Greenhouse Net' is thin — it does not specify greenhouse type, structure material, dimensions, or ventilation type."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — photo-specs and title-specs contradictions on covering material confirmed.",
+      "source_url": "https://www.indiamart.com/proddetail/agriculture-greenhouse net-2856003726197.html"
+    },
+    {
+      "item_id": "18216090",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Hi-Tech Greenhouses",
+      "description": "<p>We are pleased to be able to offer a comprehensive range of greenhouses. An aluminum framed greenhouse offers robust construction with long life and element proof. Many models have high eaves for more growing space and working comfort</p>",
+      "specs": {},
+      "image_url": "http://2.imimg.com/data2/KF/PB/IMFCP-2894545/image004.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/hi-tech greenhouses-2148455948.html",
+      "image_file": "18216090.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a small ornamental glass greenhouse with white aluminium frame and pitched glass roof in a garden setting with people inside."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Hi-Tech Greenhouses' is vague with no product type, dimensions, covering material, or application specified."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no structural or material information provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description mentions aluminium frame and long life but provides no dimensions, covering type, span, height, or agricultural application details."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Glass greenhouse with aluminium frame is a recognised product type within the Agricultural Greenhouses MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Mini Greenhouse",
+        "reason": "Image shows a small hobby/ornamental glass greenhouse suitable for home garden use, which aligns with the 'Mini Greenhouse' sibling MCAT rather than large-scale agricultural greenhouse structures."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title 'Hi-Tech Greenhouses' is thin — no product type, covering material, dimensions, or structural specifications are present."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — title and all text dimensions are thin; sibling routing candidate for Mini Greenhouse identified.",
+      "source_url": "https://www.indiamart.com/proddetail/hi-tech greenhouses-2148455948.html"
+    },
+    {
+      "item_id": "34435921",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Modular Polycarbonate Greenhouse",
+      "description": "We are offering&nbsp;<b>Modular Polycarbonate Greenhouse</b> to our clients.we deals in pan india\n<ul>\n</ul>",
+      "specs": {
+        "raw": "Brand:Zestha Developers, Built Type:Modular, Country of Origin:Made in India, Frame Finishing:Polished, Height:15 Feet, Material:Polycarbonate, Thickness:6 mm, Usage/Application:Agriculture"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2020/12/BI/PZ/XL/777905/polycarbonate-greenhouse.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/modular-polycarbonate greenhouse-4780623497.html",
+      "image_file": "34435921.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows GI pipe greenhouse frame under construction with workers climbing the structure — the greenhouse is incomplete with no covering material installed, making it a thin representation of the finished product."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Modular Polycarbonate Greenhouse) with construction type but omits dimensions, height, or span."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material (Polycarbonate), height (15 feet), thickness (6mm), and usage (Agriculture) but omit span, ventilation type, and structural frame details."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a single generic sentence with no product-specific details beyond the product name."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Modular polycarbonate greenhouse is a recognised product type within the Agricultural Greenhouses MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows an incomplete greenhouse frame under construction with workers climbing the structure — no covering material is visible, making the image insufficient to represent the finished polycarbonate greenhouse product."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — thin image of incomplete frame under construction; text dimensions acceptable but not strong enough to override.",
+      "source_url": "https://www.indiamart.com/proddetail/modular-polycarbonate greenhouse-4780623497.html"
+    },
+    {
+      "item_id": "99816869",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Green House Pipe",
+      "description": "We are a unique name in this industry to provide our prestigious clients an exclusive range of <b>Greenhouse Pipe.</b>",
+      "specs": {
+        "raw": "Application:Vegetables, Greenhouse Style:Pacific, Material Used:Steel"
+      },
+      "image_url": "http://5.imimg.com/data5/LK/TB/MY-13894462/greenhouse-pipes.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/green-house pipe-15333374897.html",
+      "image_file": "99816869.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows interior of a multi-span shade net house with green HDPE net cover, GI pipe frame, and seedling trays — a complete agricultural greenhouse structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title 'Green House Pipe' names only a structural component (pipe), not a complete greenhouse structure — this is a component/material listing."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs mention Application: Vegetables and Material: Steel but describe a pipe component with minimal detail, not a complete greenhouse structure."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description refers to 'Greenhouse Pipe' as the product being offered — a structural component, not a complete agricultural greenhouse."
+        },
+        "category": {
+          "valid": false,
+          "reason": "The product being sold is a greenhouse pipe (structural component), not a complete greenhouse structure — this MCAT is for complete prefabricated greenhouse structures."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title"
+        ],
+        "contradiction_reasons": [
+          "Image shows a complete multi-span shade net greenhouse structure but title names only 'Green House Pipe' — a structural component, not the complete structure shown."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a complete multi-span shade net greenhouse structure but title names only 'Green House Pipe' — a structural component."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Green House Pipe' names a structural component, not a complete greenhouse structure as required by this MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description refers to 'Greenhouse Pipe' as the product — a structural component, not a complete agricultural greenhouse structure."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is a greenhouse pipe component, not a complete structure; category.valid: false.",
+      "source_url": "https://www.indiamart.com/proddetail/green-house pipe-15333374897.html"
+    },
+    {
+      "item_id": "102979387",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Dome Agricultural Greenhouses",
+      "description": "We are offering&nbsp;<b>Dome Agricultural Greenhouses</b> to our clients.we deals in pan india and provide the good quality&nbsp;\t<br />",
+      "specs": {
+        "raw": "Brand:Zestha Developers, Built Type:Modular, Color:Green, Country of Origin:Made in India, Height:12 Feet, Material:PVC, Shape:Dome, Thickness:6 mm, Usage/Application:Agriculture"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2020/12/BX/XA/XP/777905/fan-pad-system.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/dome-agricultural greenhouses-15899057388.html",
+      "image_file": "102979387.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows interior of a multi-span shade net house with green net cover, GI pipe frame, cooling pad wall, and seedling trays — a valid agricultural greenhouse structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Dome Agricultural Greenhouses) with shape descriptor but omits dimensions, covering material, or structural specs."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material (PVC), shape (Dome), height (12 feet), and usage (Agriculture) but omit span, covering type, and ventilation details."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a single generic sentence with no product-specific details."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Dome-shaped agricultural greenhouse is a valid greenhouse type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a multi-span curved-roof shade net house interior, not a dome-shaped structure as stated in the title.",
+          "Image shows a GI pipe frame shade net house with green net cover, but specs state Material: PVC and Shape: Dome — the visible structure does not match the PVC dome described in specs."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a multi-span curved-roof shade net house interior, not a dome-shaped greenhouse as stated in the title."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a GI pipe frame shade net house with green net cover, but specs state Material: PVC and Shape: Dome — the visible structure does not match."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — photo contradicts both title (dome shape) and specs (PVC material, dome shape).",
+      "source_url": "https://www.indiamart.com/proddetail/dome-agricultural greenhouses-15899057388.html"
+    },
+    {
+      "item_id": "155391555",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Polyhouse Farming Services",
+      "description": "Polyhouse farming is&nbsp;a special kind of arrangement in which the crop field is completely or partially covered by transparent polyethene sheets.",
+      "specs": {
+        "raw": "Land Area:1000, Land Location:Jaipur, Service Location:Pan India, Usage/Application:Agriculture, weight:5kg per meter"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2020/9/RJ/FC/GN/61009390/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/polyhouse-farming services-22628307762.html",
+      "image_file": "155391555.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows small portable rooftop grow bags with shade net canopy on a terrace — a home terrace garden kit, not an agricultural greenhouse structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title 'Polyhouse Farming Services' names a service, not a physical greenhouse product — services are not valid products for this MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs list Land Area, Land Location (Jaipur), and Service Location (Pan India) — service parameters, not greenhouse structure specifications."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description describes polyhouse farming as a conceptual arrangement rather than offering a physical greenhouse product for sale."
+        },
+        "category": {
+          "valid": false,
+          "reason": "This is a farming service listing with service-type specs (land location, service location) — not a physical greenhouse structure product as required by this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title"
+        ],
+        "contradiction_reasons": [
+          "Image shows small portable rooftop grow bags with shade net canopy, while title claims 'Polyhouse Farming Services' — the image does not represent a polyhouse farming service context."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs field contains 'Land Location: Jaipur' — a city name embedded in the listing specs."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows small portable rooftop grow bags with shade net canopy — a home terrace garden kit, not an agricultural greenhouse structure."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Polyhouse Farming Services' names a service, not a physical greenhouse product as required by this MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs list 'Land Location: Jaipur' and 'Service Location: Pan India' — service parameters, not greenhouse structure specifications."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes polyhouse farming as a conceptual service arrangement, not a physical greenhouse product for sale."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Land Location: Jaipur' — a city name embedded in the listing specs."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — service listing with location data, wrong product type (rooftop grow bags), and category.valid: false.",
+      "source_url": "https://www.indiamart.com/proddetail/polyhouse-farming services-22628307762.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show complete, erected agricultural greenhouse structures photographed from the exterior or interior in real outdoor/field settings. The dominant visual pattern is a large-span poly film structure with GI pipe frame, white or pale-coloured PE film cover, and visible ventilation components (louvers, exhaust fans). Images are taken at ground level or slightly elevated, showing the full structure in context.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Greenhouse structures are large physical constructions — the product information (size, type, covering material) is not printed on the product surface and cannot be extracted by OCR from the image.",
+      "Verified good images show the structure in situ; buyer-useful information comes from visual assessment of frame type, covering material, ventilation components, and scale — not from text on the product."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good images show complete, erected poly film or polycarbonate greenhouse structures with GI pipe frames in outdoor agricultural settings, with ventilation components visible.",
+    "product_identity": [
+      "Complete erected greenhouse structure (not frame-only or component)",
+      "Visible covering material (PE film, polycarbonate, or shade net) on the frame",
+      "Ventilation components visible (louvers, exhaust fans, side curtains, or top vents)"
+    ],
+    "acceptable_scenes": [
+      "Exterior view of complete greenhouse structure in field/agricultural setting",
+      "Interior view showing crop rows, hydroponic channels, or seedling trays under the greenhouse cover"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "298114742",
+        "reason": "Image shows a large white poly film greenhouse with GI frame, exhaust fan louvers on the side wall, and a person at the entrance — a complete agricultural greenhouse structure.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin images show greenhouse structures that are incomplete (frame only, under construction) or photographed at insufficient detail to identify covering material and ventilation type.",
+    "thinness_signals": [
+      "Greenhouse frame under construction with no covering material installed",
+      "Structure photographed from too far away or at an angle that obscures key components"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "34435921",
+        "reason": "Image shows GI pipe greenhouse frame under construction with workers climbing the structure — the greenhouse is incomplete with no covering material installed, making it a thin representation of the finished product."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant images show products that are not agricultural greenhouse structures — including home terrace garden kits and service-context images.",
+    "failure_classes": [
+      {
+        "class": "home_terrace_garden_kit",
+        "description": "Image shows small portable grow bags or containers with shade net canopy on a rooftop terrace — a consumer home gardening product, not an agricultural greenhouse structure.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "155391555"
+          }
+        ],
+        "detection_signal": "Small portable containers/grow bags on a rooftop or terrace setting, no structural frame spanning a field area.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles for agricultural greenhouses name the specific greenhouse type, key structural material, dimensions or span, and application.",
+    "strong_positive_signals": [
+      "Specific greenhouse type named (Fan Pad, NVPH, Naturally Ventilated, Climate Control, Polycarbonate, Shade Net)",
+      "Dimensions or span specified (e.g., 100x40m, 8m span, 12m span)",
+      "Structure material named (GI Pipe, Galvanized Iron)",
+      "Application named (Vegetable Farming, Flower Farming, Agriculture)"
+    ],
+    "structural_patterns": [
+      "[Size] [Greenhouse Type] Greenhouse",
+      "[Greenhouse Type] Agricultural Greenhouse, For [Application]",
+      "[Covering Material] Greenhouse, [Application]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "298114742",
+          "title": "High Tech Agricultural Greenhouse",
+          "reason": "Names product type (Agricultural Greenhouse) with technology descriptor (High Tech) and is unambiguous about the product category."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "298114742",
+          "title": "High Tech Agricultural Greenhouse",
+          "reason": "Acceptable — names product type and quality tier but omits dimensions, covering material, and span which would make it stronger."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name only a vague descriptor or a single attribute without specifying greenhouse type, covering material, or dimensions.",
+    "thinness_signals": [
+      "Missing greenhouse type (NVPH, Fan-Pad, Shade Net, Polycarbonate) — buyer cannot identify the technology",
+      "Missing dimensions or span — buyer cannot assess scale or suitability",
+      "Vague descriptor only (e.g., 'Hi-Tech', 'Agriculture') without product type"
+    ],
+    "examples": [
+      {
+        "item_id": "18216090",
+        "title": "Hi-Tech Greenhouses",
+        "reason": "Title provides only a vague quality descriptor with no product type, covering material, dimensions, or application."
+      },
+      {
+        "item_id": "294636259",
+        "title": "Agriculture Greenhouse Net",
+        "reason": "Title is vague — 'Net' does not clearly identify the greenhouse type, and no dimensions, covering material, or structural specs are present."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles contain tokens that actively signal a component, a service, or a non-greenhouse product rather than a complete agricultural greenhouse structure.",
+    "failure_classes": [
+      {
+        "class": "component_not_structure",
+        "signal": "Title names a greenhouse component (e.g., 'Pipe', 'Net', 'Film') rather than a complete greenhouse structure.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "99816869",
+            "title": "Green House Pipe",
+            "reason": "Title names only a structural component (pipe), not a complete greenhouse structure.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "service_not_product",
+        "signal": "Title contains 'Services' or 'Farming Services' — indicating a service offering rather than a physical greenhouse product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "155391555",
+            "title": "Polyhouse Farming Services",
+            "reason": "Title names a farming service, not a physical greenhouse structure product.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — either components, services, or non-greenhouse products.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "greenhouse_component_pipe",
+        "signal": "Title and description name a greenhouse structural component (pipe, fitting, profile) rather than a complete erected greenhouse structure.",
+        "examples": [
+          {
+            "item_id": "99816869",
+            "title": "Green House Pipe",
+            "reason": "Product is a greenhouse pipe component, not a complete agricultural greenhouse structure.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      },
+      {
+        "class": "farming_service",
+        "signal": "Title contains 'Services' and specs list service parameters (Land Location, Service Location) rather than physical product specifications.",
+        "examples": [
+          {
+            "item_id": "155391555",
+            "title": "Polyhouse Farming Services",
+            "reason": "Product is a polyhouse farming service with land location and service area specs — not a physical greenhouse structure.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Mini Greenhouse",
+        "signal": "Small ornamental or hobby glass greenhouse with aluminium frame designed for home garden use — not a large-scale agricultural structure.",
+        "examples": [
+          {
+            "item_id": "18216090",
+            "title": "Hi-Tech Greenhouses",
+            "reason": "Image shows a small hobby/ornamental glass greenhouse in a garden setting, more appropriate for the Mini Greenhouse sibling MCAT than large-scale Agricultural Greenhouses."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator. Images were visually analysed from provided base64 data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names drawn only from taxonomy_context.siblings — 'Mini Greenhouse' confirmed present in siblings list."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (NVPH) and mcat_description.product_types used to ground category belonging decisions; mcat_vagueness_signal.suspected_vague: false confirmed PATH A applied."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
