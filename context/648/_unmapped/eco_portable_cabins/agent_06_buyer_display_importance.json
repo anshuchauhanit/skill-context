@@ -1,0 +1,381 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Construction contractor, industrial facility manager, or eco-tourism operator procuring a cabin for site office, security post, or accommodation.
+
+**Journey sequence:**
+1. **Image first** — Scans listing grid to identify cabin type (security cabin vs site office vs accommodation block vs kiosk). Visual sub-type variation is enormous — a 4×4 ft security cabin looks nothing like a 40×10 ft double-storey accommodation block. Wrong type = immediate skip.
+2. **Specification next** — Opens listing to check Size, Product Type, Built Type (FRP vs PUF vs Container), and Insulation Material. These are the primary shortlisting gates. A buyer needing a 20×8 ft PUF site office cannot use a 6×4 ft FRP security cabin.
+3. **Price check** — After confirming type and size fit, checks price for budget sanity. India price sensitivity is high; buyers compare across sellers once spec is confirmed. Price varies substantially with size and material — spec-driven.
+4. **Company** — Checks manufacturer credentials, installation track record, and whether the seller can deliver to the project site. Post-sale dependency (installation, transport, warranty) is real.
+5. **Unit** — Standard catalogue cabins are per piece; custom builds are per sq ft. Unit ambiguity is real and must be shown to prevent price misreading.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — enormous visual variation across sub-types; image is the fastest type-identification signal.
+- **Specification:** High — size, material, and product type are non-negotiable shortlisting gates.
+- **Price:** Medium — significant but only comparable after spec equivalence confirmed; varies with size and material.
+- **Company:** Medium — installation capability, site delivery, and post-sale service are evaluated; no dominant brand with buyer recall.
+- **Unit:** High — per piece vs per sq ft is a live market ambiguity; price cannot be compared without unit clarity.
+
+---
+
+## Step 3 — Decision Questions Per Dimension
+
+**Image:** Visual sub-type variation is extreme (compact security cabin vs multi-room accommodation block vs kiosk). Buyers cannot identify product type from title alone. High / show: true.
+
+**Specification:** Size and Built Type are non-interchangeable. A buyer specifying 20×8 ft PUF cannot substitute 6×4 ft FRP. Spec drives the shortlist entirely. High / show: true / show_on_listing: true.
+
+**Price:** Buyers arrive knowing their spec tier (size + material) and compare prices within it. Price_display_type = "spec-driven price" — price changes substantially with size and material combination. Medium — significant but post-spec. India price sensitivity applies.
+
+**Cross-dimension consistency check:**
+- Unit High → price must be at least Medium ✓ (price is Medium)
+- Price is not project-based → unit show: true is valid ✓
+- Specification show: true → show_on_listing: true ✓
+- Buyers arrive knowing spec tier → price_display_type should reflect within-tier comparison. However, size and material combinations create substantial price variation — "spec-driven price" is correct because a 40×10 ft double-storey PUF cabin is priced very differently from a 6×4 ft FRP security cabin. ✓
+
+**Unit:** Per piece vs per sq ft is a documented live ambiguity in this market (confirmed by Agent 3 unit_quoting_context). Dominant unit is per piece for standard catalogue cabins; per sq ft for custom builds. Unit must be shown. High / show: true.
+
+**Company:** No dominant brand with buyer recall (market is fragmented — EPACK, Spangle Steel, Fibrecrafts, Needhi FRP, Zinto, Orchid — none have the brand recall of, say, Alucobond in ACP). However, installation capability, site delivery logistics, and post-sale service are real evaluation criteria. Medium / show: true. Brand_important: no.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Visual sub-type variation is extreme — a 4×4 ft FRP security cabin, a 40×10 ft PUF accommodation block, and a kiosk are visually unrecognisable as the same product category. Buyers use the image to identify product type before reading any text; wrong type = immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Size, Built Type (FRP/PUF/Container), and Product Type are non-interchangeable shortlisting gates. A buyer specifying a 20×8 ft PUF site office cannot evaluate a 6×4 ft FRP security cabin — listings without these specs cannot be shortlisted."
+  },
+  {
+    "rank": 3,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per piece",
+    "unit_note": "Per piece is dominant for standard catalogue sizes; per sq ft is actively used for custom-dimensioned builds. Both conventions coexist in the Indian market — unit must be shown alongside price to prevent misreading.",
+    "reason": "Per piece vs per sq ft is a live market ambiguity documented across Indian eco portable cabin suppliers. Price cannot be meaningfully compared without knowing the unit basis."
+  },
+  {
+    "rank": 4,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Price varies substantially with size and material combination (a 40×10 ft double-storey PUF cabin is priced very differently from a 6×4 ft FRP security cabin). Indian buyers are price-aggressive and compare across sellers once spec is confirmed, but price is a post-spec sanity check, not a primary shortlisting signal."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "The Indian eco portable cabin market is fragmented across regional fabricators (EPACK, Fibrecrafts, Needhi FRP, Zinto, Orchid) with no dominant brand that buyers search for by name — buyers search by spec and application, not manufacturer.",
+    "reason": "Installation capability, site delivery logistics, and post-sale service (relocation, repair) are real evaluation criteria for this product category, but no dominant brand exists — company ranks last as a qualifier, not a primary signal."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+Working through each spec:
+
+- **Built Type** (Container Based / Panel Build / FRP Moulded): 3 values, non-interchangeable product classes. **Keep.**
+- **Features** (Pantry / Workstations / Electrical Fittings / Trolley Mounted / Toilet/Washroom / AC Provision): Multi-select amenity/feature tags — describe what is included, not what the product IS. These are add-on configurations, not primary price-driving dimensions in the same way as size or material. **Soft eliminate — deprioritise.**
+- **Flooring Material** (Plywood / PVC Vinyl / Cement Fiber Board / FRP Plate): 4 values, but flooring is a secondary finish spec — it follows from Built Type and is a minor price contributor. **Soft eliminate.**
+- **Frame Material** (GI / MS): Only 2 values; largely correlated with Built Type (GI frames dominate eco/FRP builds, MS frames dominate heavier panel builds). **Soft eliminate — correlated with Built Type.**
+- **Furnishing Status** (Fully Furnished / Semi-Furnished / Unfurnished): 3 values, significant price delta — a fully furnished cabin vs unfurnished shell is a major cost difference. **Keep.**
+- **Insulation Material** (PUF / Rock Wool / EPS / Glass Wool): 4 values, directly affects thermal performance and price. PUF vs EPS is a significant quality/price tier separator. **Keep.**
+- **Number of Rooms** (5+ / 3 / 4 / 1 / 2): Correlated with Size — a larger cabin has more rooms. However, Number of Rooms is a direct buyer requirement (accommodation planning) and is not fully derivable from Size alone (a 40×10 ft can be 1 open plan or 4 rooms). **Keep — but lower priority.**
+- **Product Type** (Kiosk / Office Cabin / Security Cabin / Accommodation Cabin / Toilet Cabin / Bunk House / Site Office / Farm House): Application/use-case tag — describes what the product is used FOR. **Soft eliminate per hard elimination rule.**
+- **Size** (8×6 ft / 30×10 ft / 6×4 ft / 4×4 ft / 20×8 ft / 10×10 ft / 40×10 ft / 20×10 ft): 8 values, directly determines floor area and is the primary price driver. Non-interchangeable. **Keep — strong configurator.**
+- **Wall Material** (MS / GI Sheet / Cement Board / PUF Panel / ACP / FRP): 6 values, defines structural and thermal character of the cabin. Partially correlated with Built Type but more granular. **Keep.**
+
+**Remaining after Phase 1:** Built Type, Furnishing Status, Insulation Material, Number of Rooms, Size, Wall Material.
+
+### Phase 2 — Top 2 Configurator Selection
+
+Applying the test: *"If only this spec's value changes — does price change significantly AND can the buyer NOT substitute one value for another?"*
+
+- **Size:** Changing from 6×4 ft to 40×10 ft changes floor area by ~17x — price delta is enormous and non-substitutable. A buyer needing a 20×8 ft site office cannot use a 4×4 ft security cabin. **Rank 1 — largest price driver, non-interchangeable.**
+- **Wall Material / Built Type:** These two are partially correlated (FRP Moulded → FRP wall; Container Based → MS/GI wall; Panel Build → PUF/Cement Board wall). Wall Material is more granular and directly drives material cost and thermal performance. FRP vs PUF Panel vs MS is a significant price and performance separator. **Rank 2 — Wall Material** (more granular than Built Type, directly price-driving).
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list:**
+Built Type, Features, Flooring Material, Frame Material, Furnishing Status, Insulation Material, Number of Rooms, Product Type, Size, Wall Material
+
+**Step 3b — Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+- Cabin dimensions (length × width × height) — covered by Size ✓ (semantic equivalent)
+- Insulation grade/thickness — covered by Insulation Material ✓
+- Number of storeys (single vs double storey) — not in list. Agent 3 explicitly mentions "single-room security cabins to multi-room double-storey portable houses." Double-storey is a distinct product class with significantly higher price.
+- Electrical fittings — partially covered by Features ✓
+- Door/window configuration — not in list. Relevant for site office vs accommodation distinction.
+- Colour/finish — not in list. Relevant for visual identification but not a primary price driver.
+- Delivery/installation included — not a spec, it's a service term.
+- Fire rating — relevant for industrial/government procurement. Not in list.
+
+**Step 3c — Cross-reference and threshold check:**
+
+- **Number of Storeys** (Single / Double): Not in `specs_in_seller_list` by name or semantic equivalent. Agent 3 explicitly identifies double-storey as a distinct product type. A double-storey cabin is structurally different, requires different foundation, and is priced significantly higher. Senior CM would add this. **Include.**
+- **Fire Rating** (Non-Fire Rated / FR Grade / A2 Grade): Not in list. Government, PSU, and industrial buyers (Agent 3 buyer_segments) frequently specify fire rating compliance. Relevant for institutional procurement. LLM world knowledge confirms fire rating is a standard spec for prefabricated structures in regulated procurement. **Include.**
+- **Door/window configuration:** Peripheral — resolved post-connection. Exclude.
+- **Colour/finish:** Not a primary purchase decision factor for this category. Exclude.
+
+**Hard constraint check:** Number of Storeys and Fire Rating are absent from `specs_in_seller_list` — confirmed. ✓
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → **partial**
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Wall Material, Insulation, Eco Features.
+
+Applying the test: *"If a seller reads this spec value from the RFQ, does it materially change their ability to respond accurately?"*
+
+- **Wall Material** (PUF Panel / Cement Fiber Board / WPC Panels / Bamboo Panels / Recycled Plastic): Directly determines what the seller manufactures. A seller specialising in FRP/PUF panel cabins cannot supply a bamboo panel cabin. This is a primary routing and capability-matching spec. **Rank 1.**
+- **Insulation** (PUF Panel / Rockwool / Glasswool / EPS Panel / Thermocol): Determines thermal performance tier and material cost. A seller quoting PUF insulation cannot substitute Rockwool without a different product line. Helps sellers confirm fit and price accurately. **Rank 2.**
+- **Eco Features** (Heat Resistant / Solar Panel Ready / LED Lighting / Rainwater Harvest / Water Saving Fixture / Natural Ventilation): Multi-select feature tags — these are add-on requirements, not primary product-defining specs. Sellers can respond to most of these post-connection. Less critical for initial routing. **Deprioritise.**
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Wall Material** (PUF Panel / Cement Fiber Board / WPC Panels / Bamboo Panels / Recycled Plastic): These are material types — visually, a PUF panel cabin, a bamboo panel cabin, and a WPC panel cabin do look different in terms of surface texture and finish. However, the visual difference is subtle and not immediately obvious from a thumbnail — buyers would need to see the cabin as a whole, not just the wall material. The option values themselves (material names) do not map to visually distinct cabin appearances in a way that a thumbnail would clearly communicate. **thumbnail_eligible: false.**
+- **Insulation** (PUF Panel / Rockwool / Glasswool / EPS Panel / Thermocol): These are internal insulation materials — entirely invisible from the outside. No visual differentiation possible. **thumbnail_eligible: false.**
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+
+- **Size/Dimensions** — Agent 3 identifies size as the primary purchase criterion. The buyer RFQ form does not capture cabin size. A seller cannot respond accurately without knowing the required floor area. This is the most critical missing buyer spec. Source: both. Would be rank 1 — more important than Wall Material for routing sellers. Not thumbnail eligible (numeric/dimensional).
+- **Product Type / Application** — Agent 3 identifies application (security cabin vs site office vs accommodation) as a primary buyer requirement. Without this, sellers cannot determine which product from their range to quote. Source: both. Would be rank 2 — equal to or more important than Wall Material. Thumbnail eligible — a security cabin, site office, and accommodation block are visually distinct.
+- **Furnishing Status** — Fully furnished vs unfurnished is a significant price and scope differentiator. Source: LLM world knowledge. Less critical than Size and Product Type for initial routing — sellers can clarify post-connection. No would_be_rank assigned (ranks below both current specs once Size and Product Type are added).
+
+**Semantic check:** Size/Dimensions not in buyer_spec_list ✓. Product Type/Application not in buyer_spec_list ✓. Furnishing Status not in buyer_spec_list ✓.
+
+**Importance threshold check:** Size and Product Type clearly pass — senior CM would add both immediately. Furnishing Status is relevant but less critical for initial routing — exclude to keep missing list focused.
+
+**Missing specs output:** Size (would_be_rank: 1), Product Type (would_be_rank: 2, thumbnail_eligible: true).
+
+**Thumbnail options for Product Type:** Security Cabin, Site Office, Accommodation Cabin, Kiosk — these are visually distinct cabin types.
+
+**Coverage verdict:** 2 missing specs → **partial**
+
+### Phase 4 — Image Upload Assessment
+
+**Assessment:** Eco Portable Cabins are custom-configured products with significant dimensional and layout variation. However, the primary buyer requirement (size, material, application type) can be captured through spec values. Sellers do not need a visual reference to determine whether they can supply — they need dimensions and material specs, which are text-based. Image upload is not recommended for this category.
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs`: Wall Material (thumbnail_eligible: false), Insulation (thumbnail_eligible: false) — no prompts from top_rfq_specs.
+- `missing_important_specs`: Product Type (would_be_rank: 2, thumbnail_eligible: true, thumbnail_options: ["Security Cabin", "Site Office", "Accommodation Cabin", "Kiosk"])
+
+**4 prompts for Product Type:**
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — a 4×4 ft FRP security cabin, a 40×10 ft PUF accommodation block, and a kiosk are visually unrecognisable as the same product category. Buyers use the image to identify product type before reading any text; wrong type = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Size, Built Type (FRP/PUF/Container), and Wall Material are non-interchangeable shortlisting gates. A buyer specifying a 20×8 ft PUF site office cannot evaluate a 6×4 ft FRP security cabin — listings without these specs cannot be shortlisted."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Per piece is dominant for standard catalogue sizes; per sq ft is actively used for custom-dimensioned builds. Both conventions coexist in the Indian market — unit must be shown alongside price to prevent misreading.",
+      "reason": "Per piece vs per sq ft is a live market ambiguity documented across Indian eco portable cabin suppliers. Price cannot be meaningfully compared without knowing the unit basis."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with size and material combination — a 40×10 ft double-storey PUF cabin is priced very differently from a 6×4 ft FRP security cabin. Indian buyers are price-aggressive and compare across sellers once spec is confirmed, but price is a post-spec sanity check, not a primary shortlisting signal."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "The Indian eco portable cabin market is fragmented across regional fabricators with no dominant brand that buyers search for by name — buyers search by spec and application, not manufacturer.",
+      "reason": "Installation capability, site delivery logistics, and post-sale service (relocation, repair) are real evaluation criteria, but no dominant brand exists — company ranks last as a qualifier confirming delivery and service capability."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Size",
+        "reason": "Changing from 6×4 ft to 40×10 ft changes floor area by approximately 17x — the largest single price driver in this category and entirely non-interchangeable across buyer requirements."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Material",
+        "reason": "FRP vs PUF Panel vs MS sheet defines the structural and thermal character of the cabin with a significant price delta between material tiers, and buyers cannot substitute one material for another based on their application and climate requirements."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Features",
+      "Flooring Material",
+      "Frame Material",
+      "Furnishing Status",
+      "Insulation Material",
+      "Number of Rooms",
+      "Product Type",
+      "Size",
+      "Wall Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Number of Storeys",
+        "why_important": "Single-storey vs double-storey is a structurally distinct and non-interchangeable product class — double-storey cabins require different structural engineering, foundation, and are priced significantly higher, making it a primary buyer shortlisting criterion.",
+        "source": "both",
+        "example_values": ["Single Storey", "Double Storey", "Triple Storey"]
+      },
+      {
+        "spec_name": "Fire Rating",
+        "why_important": "Government, PSU, defence, and industrial buyers frequently specify fire rating compliance as a mandatory procurement requirement — FR Grade and A2 Grade panels are non-substitutable with standard LDPE panels in regulated applications.",
+        "source": "both",
+        "example_values": ["Non-Fire Rated", "FR Grade", "A2 Grade"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Wall Material",
+        "reason": "Wall material directly determines which product a seller manufactures — a supplier specialising in FRP/PUF panel cabins cannot supply bamboo or WPC panel cabins, making this the primary capability-routing spec.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation",
+        "reason": "Insulation type determines thermal performance tier and material cost — sellers need this to confirm product fit and price accurately, as PUF, Rockwool, and EPS represent distinct product lines with different supply capabilities.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Size",
+        "why_important": "Cabin size (floor area) is the primary price driver and a non-negotiable requirement — sellers cannot determine fit or provide an accurate quote without knowing the required dimensions.",
+        "source": "both",
+        "example_values": ["6 x 4 ft", "10 x 10 ft", "20 x 8 ft", "40 x 10 ft"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Product Type",
+        "why_important": "Application type (security cabin vs site office vs accommodation block vs kiosk) determines the structural configuration, internal layout, and fittings required — sellers need this to identify which product from their range to quote.",
+        "source": "both",
+        "example_values": ["Security Cabin", "Site Office", "Accommodation Cabin", "Kiosk"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Security Cabin", "Site Office", "Accommodation Cabin", "Kiosk"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Product Type",
+      "option_value": "Security Cabin",
+      "id": "spec_1",
+      "prompt_for_generation": "Compact FRP eco portable security cabin, approximately 4x4 ft, single room, guard post window on front face, green or grey exterior finish, placed on flat ground at a gate entry, natural daylight, clean white background, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Product Type",
+      "option_value": "Site Office",
+      "id": "spec_2",
+      "prompt_for_generation": "PUF sandwich panel eco portable site office cabin, approximately 20x8 ft, rectangular single-storey structure with door and multiple windows, light grey or cream exterior, placed on a construction site setting, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Product Type",
+      "option_value": "Accommodation Cabin",
+      "id": "spec_3",
+      "prompt_for_generation": "Eco portable accommodation cabin or bunk house, approximately 40x10 ft, multi-room prefabricated structure with multiple doors and windows along the length, PUF panel construction, placed on open ground, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Product Type",
+      "option_value": "Kiosk",
+      "id": "spec_4",
+      "prompt_for_generation": "Compact eco portable kiosk cabin, approximately 8x6 ft, FRP or PUF panel construction, open service counter window on front, bright exterior finish, placed in an open commercial or retail setting, natural daylight, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
