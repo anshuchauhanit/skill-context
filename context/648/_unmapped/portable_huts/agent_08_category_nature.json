@@ -1,0 +1,47 @@
+{
+  "agent": "Agent 8 — Category Nature",
+  "mcat": "Portable Huts",
+  "mcat_id": "164685",
+  "is_vague_detection": {
+    "agent3_prior": {
+      "suspected_vague": false,
+      "note": "Agent 3 did not flag mcat_vagueness_signal; primary_segment is confident and unhedged."
+    },
+    "signal_scoring": {
+      "S1_name_ambiguity": {
+        "fires": false,
+        "evidence": "'Portable Huts' resolves to one product concept — a small, relocatable prefabricated shelter unit. No competing industry reads this name differently; 'hut' universally denotes a small shelter structure."
+      },
+      "S2_primary_segment_difficulty": {
+        "fires": false,
+        "evidence": "Agent 3 produced a confident, unhedged primary_segment: 'Steel/panel-clad prefabricated portable hut for construction site labour accommodation, security cabins, and site offices' — no 'or', 'depends on', or hedging qualifiers."
+      },
+      "S3_buyer_intent_queries_diverge": {
+        "fires": false,
+        "evidence": "All buyer_intent_queries cluster around one purchase context — someone procuring a small relocatable shelter structure; sub-contexts (labour camp, security cabin, eco-resort) are spec refinements of the same intent, not incompatible purchase occasions."
+      },
+      "S4_product_types_no_shared_buyer": {
+        "fires": false,
+        "evidence": "Steel/GI panel huts, PUF sandwich panel huts, bamboo huts, wooden huts, FRP huts — different materials and aesthetics but the buyer is always someone who needs a small portable shelter unit; buyer archetype is consistent throughout."
+      },
+      "S5_regulatory_or_sibling_carveout": {
+        "fires": false,
+        "evidence": "Siblings 'Guard Huts' (42751) and 'Bamboo Huts' (141758) carve out specific sub-types, but these share the same buyer profile and regulatory context (no incompatible regulatory regime — no medical device, PPE, or food-grade divergence); carve-outs are material/use-case refinements of the same product concept, not incompatible destinations."
+      }
+    },
+    "signals_fired": 0,
+    "is_vague_conclusion": false
+  },
+  "category_nature": {
+    "is_generic": false,
+    "is_specific": true,
+    "is_vague": false,
+    "is_thin": false,
+    "is_branded": false,
+    "is_service": false,
+    "reason": [
+      "is_specific: product scope is tightly bounded to small, relocatable prefabricated shelter units; buyer intent is homogeneous (procuring a portable hut for site/security/hospitality use) across all material variants, and the name unambiguously signals this product concept to any buyer.",
+      "is_thin: listing_count of 254 is not suspect (Agent 3 flag: false) and is corroborated by a commercially active segment with multiple named manufacturers (EPACK, EcoPrefab, Ercon, Supersun, Tata Nest-In); volume is sufficient to stand alone as a distinct MCAT."
+    ]
+  }
+}
