@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Office Container' directly matches the top primary keyword and is the dominant search term used by Indian buyers and manufacturers for this product category, as confirmed by Agent 3 alt_names and market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image correctly shows a prefabricated steel portable office container with white-and-blue corrugated steel panels, a wooden door, and a barred window — consistent with the primary segment (20ft construction site office container).",
+      "Improvement is possible: a person standing beside the unit reduces professional product-catalogue quality, the outdoor background with trees and ground clutter is distracting, and a clean isolated or site-context shot without a human figure would better serve buyer intent on IndiaMART."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A photorealistic 1:1 square product image of a 20ft prefabricated steel portable office container for construction site use. The container has white corrugated steel wall panels with a bold blue steel frame, base rail, and top rail. It features a single solid steel door (open slightly to reveal a clean interior with vinyl flooring and LED lighting), one sliding aluminium window with grille, and integrated corner lifting hooks. The unit is placed on a flat concrete surface against a clean white or very light grey studio background. Bright, even studio lighting from the front-left. No people, no clutter, no watermarks. Sharp focus, professional product photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
