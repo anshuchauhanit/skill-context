@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "Agent 3 alt_names confirm 'greenhouse design services' as the top primary keyword, and market_context validates it as the commercially accepted umbrella term in India covering polyhouse and protected cultivation design services.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a small Western-style hobby greenhouse with aluminium-and-glass construction in a garden setting — this is not representative of the Indian commercial polyhouse (GI pipe + UV polyethylene film) that constitutes the primary_segment.",
+      "The image depicts a European residential backyard context with no agricultural crop production visible, actively misrepresenting the commercial turnkey polyhouse construction service that Indian buyers search for."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Wide-angle exterior view of a large naturally ventilated commercial polyhouse structure in India: multi-bay Quonset or gothic-arch GI pipe framework covered with UV-stabilized white polyethylene film, side ventilation openings with insect net, rows of vegetable crops visible inside through open sidewalls, flat agricultural land setting under bright Indian daylight, clean white background crop rows, photorealistic, professional product photography style, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
