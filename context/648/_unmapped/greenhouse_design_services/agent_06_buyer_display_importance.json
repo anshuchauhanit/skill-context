@@ -1,0 +1,108 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Completed project photos are the primary trust signal for a design and construction service — buyers use images to identify structure type (polyhouse vs shade net vs glass), assess build quality, and verify scale. High visual variation across sub-types means wrong or absent images cause immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Greenhouse Type and Design Compliance (NHB/MIDH) are non-negotiable shortlisting gates — a buyer cannot determine subsidy eligibility or structural fit without these specs. Listings without them cannot be evaluated by the majority buyer segment."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq m",
+      "unit_note": "Some sellers quote per sq ft; consultancy and small walk-in tunnel projects may quote per project lump sum. Per sq m is dominant for commercial projects and NHB subsidy calculations — must be shown to enable price comparison.",
+      "reason": "Price cannot be compared across listings without knowing the unit. Per sq m vs per sq ft vs per project lump sum creates real confusion for buyers comparing multiple service providers."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq m rate varies substantially by greenhouse type and compliance tier (walk-in tunnel vs hi-tech climate-controlled = large cost difference). Indian buyers are price-sensitive but compare rates only after confirming greenhouse type and NHB compliance fit."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — buyers search by compliance tier, greenhouse type, and geographic coverage, not by manufacturer name.",
+      "reason": "Large capital project with high post-sale dependency (erection, commissioning, subsidy documentation) means seller track record, NHB empanelment, and past project portfolio are evaluated during vendor selection, but only after spec and compliance fit is confirmed."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Greenhouse Type",
+        "reason": "Defines what the service delivers — non-interchangeable across buyer requirements, with the largest price delta in the category (walk-in tunnel vs hi-tech glass greenhouse represents a 10x+ cost difference)."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Design Compliance",
+        "reason": "NHB/MIDH compliance is a binary subsidy eligibility gate — mandated structural specifications (hot-dip GI pipe, UV-stabilized film) drive significant cost differences and a buyer applying for government subsidy cannot substitute a non-compliant design."
+      }
+    ],
+    "specs_in_seller_list": [
+      "3D Design Available",
+      "Application",
+      "Area Range",
+      "Design Compliance",
+      "Frame Material",
+      "Greenhouse Type",
+      "Include Civil Layout",
+      "Include Irrigation Design",
+      "Service Coverage",
+      "Service Mode"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cladding Material",
+        "why_important": "Cladding type (UV-stabilized PE film vs polycarbonate sheet vs shade net vs glass) is independently configurable from greenhouse type and drives significant cost and performance differences — buyers specify this as a primary structural requirement.",
+        "source": "both",
+        "example_values": [
+          "UV-Stabilized Polyethylene Film",
+          "Polycarbonate Sheet",
+          "Shade Net",
+          "Glass"
+        ]
+      },
+      {
+        "spec_name": "Service Scope",
+        "why_important": "Buyers need to know whether the provider offers full turnkey construction or design/consultancy only — these are fundamentally different service engagements with different pricing structures and buyer requirements.",
+        "source": "both",
+        "example_values": [
+          "Turnkey (Design + Construction)",
+          "Design and DPR Only",
+          "Consultancy",
+          "Design + Material Supply"
+        ]
+      },
+      {
+        "spec_name": "Agro-Climatic Zone Suitability",
+        "why_important": "Structural design parameters (wind load, ventilation configuration, span width) vary by agro-climatic zone across India — a design valid for Maharashtra may not meet wind load requirements in coastal Andhra Pradesh or high-altitude Himachal Pradesh.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "Semi-Arid (Zone IV)",
+          "Humid Tropical (Zone I)",
+          "Sub-Tropical (Zone II)",
+          "Arid (Zone V)"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_thumbnail_prompts": []
+}
