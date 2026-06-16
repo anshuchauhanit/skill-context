@@ -1,0 +1,57 @@
+{
+  "enhanced_name_4w": "Worker Camp Portable Toilets",
+  "enhanced_name_5w": "Bunk House Labour Camp Toilet Cabins",
+  "enhanced_name_6w": "Portable Toilet Cabins for Labour Camps",
+  "enhanced_name_long": "Prefabricated FRP and MS Portable Toilet Cabins for Construction Site Labour Camps and Bunk House Worker Settlements",
+  "alt_names": {
+    "primary_keywords": [
+      "bunk house portable toilet",
+      "labour camp portable toilet",
+      "construction site portable toilet cabin",
+      "portable toilet cabin for workers",
+      "site toilet cabin",
+      "prefabricated toilet cabin",
+      "portable sanitation cabin",
+      "worker camp toilet unit"
+    ],
+    "technical_synonyms": [
+      "FRP bunk house toilet cabin",
+      "MS portable toilet cabin",
+      "GI portable toilet unit",
+      "panel-built portable toilet",
+      "prefab toilet block",
+      "lift-and-shift toilet unit",
+      "portable toilet module",
+      "modular portable toilet cabin"
+    ],
+    "trade_names": [
+      "Epsilon prefabricated portable cabin",
+      "Portec bunk house toilet",
+      "Birla portable bunk house toilet"
+    ],
+    "hindi_terms": [
+      "shramik shauchalaya",
+      "portable shauchalaya cabin",
+      "majdoor camp toilet"
+    ],
+    "buyer_intent_queries": [
+      "bunk house portable toilet for construction site",
+      "portable toilet cabin for labour camp",
+      "FRP portable toilet cabin for workers",
+      "MS portable toilet for construction site",
+      "prefabricated toilet cabin for site office",
+      "portable toilet block for labour accommodation",
+      "relocatable toilet cabin for project site",
+      "portable sanitation unit for worker camp"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Brand-specific portable toilet buyers (Sintex brand segment) — 'Sintex Portable Toilets' is a live sibling MCAT; names or alt_names referencing the Sintex brand have been excluded to avoid attracting buyers searching specifically for Sintex-branded units rather than generic bunk house cabin units",
+    "FRP modular toilet buyers (generic FRP modular segment) — 'FRP Modular Toilet' and 'FRP Portable Toilet' are live sibling MCATs; names that would be indistinguishable from those categories (e.g., plain 'FRP Modular Toilet' or 'FRP Portable Toilet' without the bunk house / labour camp qualifier) have been excluded",
+    "MS portable toilet buyers (generic MS segment) — 'MS Portable Toilets' is a live sibling MCAT; names using only 'MS Portable Toilet' without the bunk house / worker camp qualifier have been excluded",
+    "Mobile toilet van and mobile toilet buyers — 'Mobile Toilet Van' and 'Mobile Toilets' are live sibling MCATs covering vehicle-mounted or wheeled mobile units; names implying vehicle-mounted mobility (van, truck-mounted, towed trailer unit as primary descriptor) have been excluded",
+    "Bio toilet buyers — 'Bio Toilet' is a live sibling MCAT; bio-digester or bio toilet as a standalone descriptor has been excluded from enhanced names, though bio-digester remains a valid product_type variant within this MCAT"
+  ],
+  "segment_contamination_disclaimer": null
+}
