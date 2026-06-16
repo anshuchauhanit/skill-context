@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Hut' directly matches the top primary keyword and is the dominant search term across buyer_intent_queries and primary_keywords in Agent 3 alt_names; market_context confirms this is the standard B2B trade term used by Indian manufacturers and buyers.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The current thumbnail shows a decorative wooden cabin with shingle roof, dormer windows, and a porch — a Western-style leisure/residential structure that does not represent the primary segment (steel/FRP-framed portable prefabricated hut for labour accommodation and construction site use).",
+      "The image actively misleads B2B buyers by depicting a timber-frame holiday cabin aesthetic, which conflicts with the dominant Indian market form of MS/GI-framed PUF or FRP panel huts used for labour camps and site offices."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A portable prefabricated hut with a mild steel frame and light grey colour-coated GI or FRP sandwich panel walls and roof, rectangular single-room structure approximately 10x10 feet, single metal door and one window with grille, placed on a flat construction site with bare earth or gravel ground, bright natural daylight, clean white or light sky background, front three-quarter view, sharp product-focused composition, no people, no branding, photorealistic industrial product style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
