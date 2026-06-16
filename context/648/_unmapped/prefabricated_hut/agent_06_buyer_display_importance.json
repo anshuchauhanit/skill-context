@@ -1,0 +1,196 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual variation across sub-types — a bamboo resort hut, a steel PUF labour quarter, and a GI sheet guard cabin are unrecognisable as the same category without an image. Buyers use the image to identify product type and construction quality before reading any text."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Structure material, wall panel type, size, and roof type are non-interchangeable shortlisting criteria. A buyer specifying PUF-insulated MS-frame huts for a desert site cannot substitute bamboo or GI sheet cladding — specs are the primary qualification gate."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Construction contractors compare per-sq-ft rates aggressively once material and panel type are confirmed. Price varies substantially across structure material tiers (bamboo vs MS PUF vs FRP), making it a primary decision lever after spec match."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard fixed-size models (10x10 ft, 8x20 ft) are also quoted per piece — unit must be shown to prevent price comparison errors between area-based and per-unit listings.",
+      "reason": "Per sq ft vs per piece is a documented market ambiguity for this MCAT. Price cannot be meaningfully compared across listings without knowing the unit basis."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — market is fragmented across regional fabricators and buyers search by material, size, and price rather than manufacturer name.",
+      "reason": "For large labour camp orders, buyers evaluate installation capability, service reach, and track record. Company matters as a post-shortlist qualifier but does not drive initial engagement."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Material",
+        "reason": "Defines the fundamental product class — MS/Steel PUF hut vs Bamboo vs FRP are non-interchangeable across buyer segments and carry the largest price delta in the category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Type",
+        "reason": "Within the steel-frame segment, PUF vs EPS vs GI sheet cladding drives significant price and thermal performance differences that are non-interchangeable for insulation-critical site applications."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Flooring Type",
+      "Mobility",
+      "Roof Type",
+      "Service Location",
+      "Size",
+      "Structure Material",
+      "Usage",
+      "Use",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Panel / Insulation Thickness",
+        "why_important": "PUF panel thickness (50mm / 75mm / 100mm) is a primary thermal and structural spec that buyers specify for climate-appropriate site accommodation — thicker panels command a significant price premium and are non-interchangeable for cold-region or desert deployments.",
+        "source": "both",
+        "example_values": [
+          "50 mm",
+          "75 mm",
+          "100 mm",
+          "120 mm"
+        ]
+      },
+      {
+        "spec_name": "Number of Rooms",
+        "why_important": "Single-room vs multi-room configuration is a fundamental procurement dimension for labour camp buyers — a 20-room labour colony and a single guard cabin are priced and fabricated entirely differently.",
+        "source": "both",
+        "example_values": [
+          "1 Room",
+          "2 Rooms",
+          "4 Rooms",
+          "Custom / Multi-Room"
+        ]
+      },
+      {
+        "spec_name": "Wind Load / Structural Grade",
+        "why_important": "Government, EPC, and paramilitary buyers specify wind zone compliance (IS 875 Part 3) as a procurement requirement — sellers must confirm structural grade to be eligible for tender response.",
+        "source": "both",
+        "example_values": [
+          "Wind Zone II",
+          "Wind Zone III",
+          "Wind Zone IV",
+          "IS 875 Part 3 Compliant"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Routes the RFQ to the correct seller type — bamboo/natural material fabricators vs steel/FRP manufacturers are entirely different supplier pools and cannot substitute for each other.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Bamboo",
+          "Wood & Mild Steel",
+          "Wood",
+          "Fiber"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Application",
+        "reason": "Tells sellers the use context (site office vs restaurant vs staff housing), which determines structural requirements, fire safety configuration, and product tier — enabling accurate quote generation.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Number of Rooms",
+        "why_important": "Sellers need room count to determine whether the buyer needs a single portable unit or a multi-room modular labour camp — these require fundamentally different fabrication, logistics, and pricing.",
+        "source": "both",
+        "example_values": [
+          "1 Room",
+          "2 Rooms",
+          "4 Rooms",
+          "Custom / Multi-Room"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Material",
+      "option_value": "Bamboo",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated hut constructed entirely from natural bamboo poles and bamboo panel walls, pitched thatched or bamboo-slat roof, standalone structure on open ground, natural daylight, no branding, clean background.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Wood & Mild Steel",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated portable hut with mild steel frame and wooden plank wall cladding, metal corrugated roof, single door and window visible, standalone on a construction site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Wood",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated hut built from solid wooden panels and wooden frame, pitched wooden roof, single door and window, standalone structure on open ground, warm natural lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Fiber",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated portable hut with FRP fibre-reinforced plastic panel walls and roof, smooth white or grey exterior finish, steel frame visible at corners, standalone on flat ground, studio-style natural lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
