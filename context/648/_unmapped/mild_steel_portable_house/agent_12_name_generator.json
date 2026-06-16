@@ -1,0 +1,67 @@
+{
+  "enhanced_name_4w": "MS Prefab Portable House",
+  "enhanced_name_5w": "Mild Steel Prefab Portable House",
+  "enhanced_name_6w": "MS Frame Prefab Relocatable Portable House",
+  "enhanced_name_long": "Mild Steel Prefabricated Portable House for Site Office, Labour Housing, 1BHK Residential and Commercial Use",
+  "alt_names": {
+    "primary_keywords": [
+      "mild steel portable house",
+      "MS portable house",
+      "MS portable cabin",
+      "steel portable house",
+      "prefab portable house",
+      "portable cabin house",
+      "MS prefabricated house",
+      "steel cabin house",
+      "portable room",
+      "relocatable steel house"
+    ],
+    "technical_synonyms": [
+      "prefabricated mild steel structure",
+      "modular portable cabin",
+      "relocatable steel cabin",
+      "pre-engineered portable house",
+      "knock-down steel house",
+      "MS frame prefab unit",
+      "portable site cabin",
+      "modular steel dwelling",
+      "transportable steel structure"
+    ],
+    "trade_names": [
+      "MS container cabin",
+      "portacabin",
+      "porta cabin",
+      "site office cabin",
+      "portable office cabin",
+      "mobile cabin",
+      "Tata Nest-In MobiNest"
+    ],
+    "hindi_terms": [
+      "portable makaan",
+      "lohe ka ghar",
+      "bana banaya ghar",
+      "portable dukan"
+    ],
+    "buyer_intent_queries": [
+      "mild steel portable house with bathroom and kitchen",
+      "MS portable house 1BHK",
+      "portable house 10x20 feet mild steel",
+      "prefab steel house for construction site",
+      "portable cabin for labour accommodation",
+      "mild steel portable house manufacturer India",
+      "portable house for site office use",
+      "steel portable farmhouse for agricultural land",
+      "portable shop container mild steel",
+      "foldable portable house India"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Bunkhouse-only buyer segment: 'MS Bunkhouse' (ID 150851), 'Bunkhouses' (ID 23898), 'Prefab Steel Bunk House' (ID 133097), and 'Bunk House Office' (ID 133091) are direct siblings — names and alt names must not exclusively target the bunkhouse/labour-dormitory sub-segment; 'bunkhouse' and 'bunk house' removed from enhanced names and trade_names to avoid collision with these sibling MCATs.",
+    "Guard-hut buyer segment: 'Guard Huts' (ID 42751) and 'PVC Guard Huts' (ID 132218) are direct siblings targeting security-cabin-only buyers — names must not exclusively target guard cabin or security hut use; no guard-hut-specific terms used in enhanced names.",
+    "Material-incompatible sibling segments: 'Wooden House' (ID 41490), 'Log Homes' (ID 32367), 'Log Cabin' (ID 108654), 'Prefabricated Wooden House' (ID 88198), 'Bamboo Huts' (ID 141758) attract buyers seeking non-steel natural-material structures — all wood, log, bamboo, and natural-material terms excluded.",
+    "Generic 'Portable House' sibling (ID 88195) and 'Prefabricated Houses' (ID 35591) are direct siblings — enhanced names must include 'Mild Steel' or 'MS' material qualifier to differentiate this MCAT from the generic portable house category and avoid name collision.",
+    "Container-home buyer segment: 'Container Homes' (ID 96542) targets buyers seeking ISO shipping-container conversions — 'MS container cabin' retained in trade_names as a buyer-used trade term but not used in enhanced names to avoid collision."
+  ],
+  "segment_contamination_disclaimer": null
+}
