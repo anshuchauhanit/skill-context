@@ -1,0 +1,1044 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "53530728",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Moghul Suite",
+      "description": "<table border=\"0\" width=\"590\"><tr><td height=\"10\" valign=\"top\"></td></tr><tr><td align=\"left\" valign=\"top\"><b>The Moghul Suite</b></td></tr><tr><td height=\"12\" valign=\"top\"></td></tr><tr><td align=\"left\" valign=\"top\">The Moghul Suite is a spacious split level room with a classical flair, situated on the ground floor opening out to the courtyard. This superb suite is fitted with a comfortable sitting area, en-suite bathroom and shower. The bedroom is air conditioned and has cable TV. The Marbella is a very popular guest house and we recommend that you book well in advance if you wish to stay during high season. High season starts in December and ends in April.</td></tr><tr><td height=\"10\" valign=\"top\"></td></tr><tr><td align=\"center\" valign=\"top\"></td></tr><tr><td height=\"22\"></td></tr><tr><td align=\"left\" valign=\"top\"><br /></td></tr></table>",
+      "specs": {},
+      "image_url": "http://3.imimg.com/data3/LQ/KT/MY-10698518/moghul-suite.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/moghul-suite-7199709248.html",
+      "image_file": "53530728.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a furnished heritage-style guest room interior with sitting area, canopy bed, and ornate Mughal-inspired décor consistent with a boutique guest house."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names a themed suite at a guest house property, consistent with boutique/heritage guest house accommodation."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "No specs provided; absence does not contradict category."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description clearly describes a furnished guest house suite with AC, cable TV, en-suite bathroom, and booking guidance at a named property, directly matching the accommodation service MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Listing describes a furnished suite at a named guest house property, directly matching the accommodation service primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Moghul Suite' only, missing property type, location, and key amenities."
+        }
+      ],
+      "verification_note": "Valid heritage guest house suite listing; title is thin but description is strong and photo confirms accommodation context.",
+      "source_url": "https://www.indiamart.com/proddetail/moghul-suite-7199709248.html"
+    },
+    {
+      "item_id": "103137235",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Guest House",
+      "description": "Wanna feel home away from home in the hills of Ooty, Myspace is the ultimate utopia to escape the hustle bustle city life.\nThis is an individual villa with 2 bed cum living room with kitchen, lawn, bonfire area and BBQ set up with up hill view .\nApt for family and friends getogether.",
+      "specs": {},
+      "image_url": "http://4.imimg.com/data4/TG/HA/IMOB-9361863/img_20170716_094515_hdr.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/guest-house-15928048962.html",
+      "image_file": "103137235.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the exterior of a well-maintained brick cottage with tiled roof, garden, and paved pathway, consistent with a hill-station guest house or villa accommodation property."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title is only the category name 'Guest House' with no differentiating attributes such as location, room count, or amenity."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "No specs provided; absence does not contradict category."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description clearly describes a furnished villa accommodation in Ooty with 2 bedrooms, kitchen, lawn, bonfire area, and uphill view, matching the guest house accommodation service MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Listing describes a furnished villa accommodation for short stays in Ooty, directly matching the guest house accommodation service primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Guest House' only, missing location, room count, and any differentiating attribute."
+        }
+      ],
+      "verification_note": "Valid hill-station villa guest house listing; title is thin but description is strong and photo confirms accommodation property context.",
+      "source_url": "https://www.indiamart.com/proddetail/guest-house-15928048962.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "287170790",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "20ft 10ft (guest house )",
+      "description": "The assortment of products in which we deal comprises of Container Home, Modular Steel Portable Site Office, Office Container and many more.",
+      "specs": {
+        "raw": "build type:modular, color:customized, Country of Origin:Made in India, product:guest house, shape:rectangular, size:20x10"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/11/464030970/UP/RI/HX/2463015/1d9ffa9d-7d46-4202-b1e5-fc3ea74dfb83.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/20ft-10ft (guest house )-2855257179230.html",
+      "image_file": "287170790.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a prefabricated modular cabin with insulated panel walls (white and wood-grain finish) and tiled floor, consistent with a manufactured portable structure, not a hospitality accommodation service."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title describes a dimensioned prefabricated structure (20ft×10ft) with 'guest house' in parentheses, indicating a manufactured product, not a guest house accommodation service."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs describe a modular rectangular structure with dimensions and customized color, consistent with a prefabricated manufactured product, not an accommodation service."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description lists manufactured products (container homes, portable offices, office containers) indicating a prefab structure manufacturer, not a guest house accommodation service provider."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Listing is for a manufactured prefabricated modular structure (20ft×10ft container/cabin), not a guest house accommodation service."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows interior of a prefab modular cabin with insulated panel walls, not a guest house accommodation service."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title '20ft 10ft (guest house)' describes a dimensioned prefabricated structure, not a guest house accommodation service."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe a modular rectangular structure with build type and dimensions (20x10), not accommodation service attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description lists manufactured products (container homes, portable offices) indicating a prefab structure manufacturer, not an accommodation service."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad; listing is for a manufactured prefab modular structure, not a guest house accommodation service.",
+      "source_url": "https://www.indiamart.com/proddetail/20ft-10ft (guest house )-2855257179230.html"
+    },
+    {
+      "item_id": "98714875",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Steel Bunk House Container",
+      "description": "Meeting the demands of clients as a manufacturer and supplier, we are engaged in offering a wide range of <b>Prefab Steel Bunk House</b>.<br /><b><br />Features:</b><br /> \n<ul>\n<li>Easily dismantle re-assemble</li>\n<li>Sturdy construction</li>\n<li>Ability to withstand harsh conditions</li>\n</ul>",
+      "specs": {
+        "raw": "Air Conditioner:No, Built Type:Modular, Color:White, Country of Origin:Made in India, Door Type:M.S, Electrical Wiring:PVC CONDICT, Feature:Eco Friendly, Flooring Type:Vinyl Floor, Insulation:Roof And Wall, Is It Portable:Portable, Material:Steel, Mobility:Portable, Occupancy:5-8 Person, Product Type:PORTABLE, Room Area:200SFT, Service Location:Pan India, Shape:Rectangular, Size:20x10ft, Structure Material:MS, Surface Finish:VINYL CARPET, Usage/Application:Site Office, Use:Office, Wall Panel Type:Insulated Panel, Weight:APPROX 2TON, Window Type:ALUMINUM"
+      },
+      "image_url": "http://5.imimg.com/data5/YV/HA/EW/SELLER-3398125/prefab-steel-bunk-house.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-bunk house container-15130983391.html",
+      "image_file": "98714875.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a white-and-blue steel portable container cabin on a construction site with one window and a door, consistent with a prefabricated bunkhouse structure product."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names a steel bunkhouse container, a manufactured prefab structure, not a guest house accommodation service."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs describe a manufactured portable steel structure with material, dimensions (20x10ft), site office usage, insulated panels, and vinyl flooring, not accommodation service attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description describes a prefabricated steel bunkhouse product with structural features (dismantle/reassemble, sturdy construction), not a guest house accommodation service."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Listing is for a manufactured prefabricated steel bunkhouse container, not a guest house accommodation service."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a white-and-blue steel portable container cabin on a construction site, not a guest house accommodation service."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Steel Bunk House Container' names a manufactured prefab steel container product, not an accommodation service."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe a manufactured portable steel structure with site office usage, insulated panels, and 20x10ft dimensions, not accommodation service attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a prefab steel bunkhouse product with structural features (dismantle/reassemble, withstand harsh conditions), not a guest house accommodation service."
+        }
+      ],
+      "verification_note": "Confirmed bad; listing is for a manufactured prefab steel bunkhouse container intended for site office use, not a guest house accommodation service.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-bunk house container-15130983391.html"
+    },
+    {
+      "item_id": "153774899",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Industrial Bunkhouse Cabin",
+      "description": "Greetings from Epsilon Prefab Group    known for its   Practical, Prompt & Precise solutions in Prefabricated Buildings, Customised Containers, Portacabins, Prefab & Rotomoulded Toilets, Fabricated customized toilets, Packaged Sewage Treatment Plants, Bio toilets, Septic tanks, Liquid Storage Solutions and Steel Pre Engineered Buildings for factories & Warehouses. <br /><br />Our strategic manufacturing locations are carefully chosen at  Ahmedabad, Faridabad NCR, Lucknow, Pune, Mumbai, Indore, Bhopal, Ranchi, Kishanganj Bihar, Bengaluru, Hyderabad, Vizag, and Chennai.  so that we can promptly and cost-effectively deliver Quality Products and Epsilon guaranteed workmanship pan India.  Coupled with Pan India’s strong Service & Distribution network <br />Epsilon Team comprises Design, manufacturing, and Installation Professionals who can on turnkey Contracts basis help in Quick Building solutions meeting your exacting needs.  We look forward to your Valuable inquiry and our technical team would configure a quality prefab solution optimized to your needs. Pl feel free to",
+      "specs": {
+        "raw": "Brand:Epsilon, Built Type:Modular, Color:White and Green, Material:Mild Steel, Shape:Rectangular, Surface Finish:Polished, Usage/Application:Site Office, Warranty:1 Year"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/8/535876266/EY/VW/YZ/76461355/industrial-bunkhouse-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-bunkhouse cabin-22466642188.html",
+      "image_file": "153774899.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large prefabricated modular structure with Epsilon Prefab Group brand watermark, water tanks on roof, and corrugated metal panels, consistent with a manufactured prefab building product."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names an industrial bunkhouse cabin, a manufactured prefab structure, not a guest house accommodation service."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs describe a branded modular mild steel structure with site office usage and 1-year warranty, not accommodation service attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description is a manufacturer company profile for Epsilon Prefab Group listing prefabricated buildings, containers, and portacabins across multiple manufacturing cities, not a guest house accommodation service listing."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Listing is for a manufactured prefabricated industrial bunkhouse cabin by Epsilon Prefab Group, not a guest house accommodation service."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains multiple city names (Ahmedabad, Faridabad NCR, Lucknow, Pune, Mumbai, Indore, Bhopal, Ranchi, Kishanganj Bihar, Bengaluru, Hyderabad, Vizag, Chennai) as manufacturing locations and the company name 'Epsilon Prefab Group'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a prefab modular structure with Epsilon manufacturer branding and water tanks on roof, not a guest house accommodation service."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Industrial Bunkhouse Cabin' names a manufactured prefab industrial product, not an accommodation service."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe a branded modular mild steel structure with site office usage and warranty, not accommodation service attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description is a manufacturer company profile for prefabricated structures and containers, not a guest house accommodation service listing."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description lists 13 city names as manufacturing locations (Ahmedabad, Faridabad NCR, Lucknow, Pune, Mumbai, Indore, Bhopal, Ranchi, Kishanganj Bihar, Bengaluru, Hyderabad, Vizag, Chennai) and the company name 'Epsilon Prefab Group'."
+        }
+      ],
+      "verification_note": "Confirmed bad; listing is a manufacturer company profile for Epsilon Prefab Group's industrial bunkhouse cabin, not a guest house accommodation service.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-bunkhouse cabin-22466642188.html"
+    },
+    {
+      "item_id": "190485972",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Bunkhouse Portable Cabin",
+      "description": "We have marked a distinct and dynamic position in the market by providing a high quality array of <b>Portable Bunk House</b><br /><br /><b>Features:</b><br /> \n<ul>\n<li>Standard dimension</li>\n<li>Modular design</li>\n<li>Highly spacious</li>\n</ul>\n<ul>\n</ul>",
+      "specs": {
+        "raw": "Built Type:Modular, Color:White and Red, Country of Origin:Made in India, Door Size:40X10, Feature:Eco Friendly, Material:Steel, Shape:Rectangular, Surface Finish:Color Coated"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/7/CR/TN/XV/79827059/portable-bunk-house.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/bunkhouse-portable cabin-26137749273.html",
+      "image_file": "190485972.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a white-and-red prefabricated portable cabin with multiple windows and two entry staircases on a white background, consistent with a manufactured modular structure product render."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names a portable bunkhouse cabin, a manufactured prefab structure, not a guest house accommodation service."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs describe a modular steel structure with color, door size, and shape attributes, not accommodation service attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description describes a portable bunkhouse manufactured product with structural features (standard dimension, modular design, highly spacious), not a guest house accommodation service."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Listing is for a manufactured portable bunkhouse cabin (modular steel structure), not a guest house accommodation service."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a manufactured prefab portable cabin product render on white background, not a guest house accommodation service."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Bunkhouse Portable Cabin' names a manufactured prefab structure, not an accommodation service."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe a modular steel structure with color, door size, and shape, not accommodation service attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a portable bunkhouse manufactured product with structural features, not a guest house accommodation service."
+        }
+      ],
+      "verification_note": "Confirmed bad; listing is for a manufactured portable bunkhouse cabin, not a guest house accommodation service.",
+      "source_url": "https://www.indiamart.com/proddetail/bunkhouse-portable cabin-26137749273.html"
+    },
+    {
+      "item_id": "254330810",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Bunkhouse Cabins",
+      "description": "Portable Bunk house for labour staying<br />we are one of the leading Manufacturer, Supplier &amp; Service Provider of Portable Cabins, Portable Office, Portable Toilets, Portable Security Cabins, Bunk Houses, Industrial Sheds, Banquet Hall Interior Designing Service and many more. Our claim to success is hallmarked by the offered quality products that gained us huge recognizance. We are working towards development through a determined team of people to meet the most stringent requirements of customers<br />",
+      "specs": {
+        "raw": "Built Type:Prefab, Flooring:MS STRUCTURE WITH WOODEN, Material:Steel, Roof Type:MS, Shape:Square, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2023/8/333612300/MW/GA/VO/24691488/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-bunkhouse cabins-2851973180930.html",
+      "image_file": "254330810.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows multiple connected white-and-blue prefabricated steel container units along a roadside, consistent with manufactured portable bunkhouse structures."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names portable bunkhouse cabins, manufactured prefab structures, not a guest house accommodation service."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs describe a prefab steel structure with MS flooring, MS roof type, and square shape, not accommodation service attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description identifies the product as a portable bunkhouse for labour accommodation and lists the seller as a manufacturer/supplier of prefab structures, not a guest house accommodation service."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Listing is for a manufactured portable bunkhouse cabin for labour accommodation, not a guest house accommodation service."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows multiple connected prefab steel container units along a roadside, not a guest house accommodation service."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Portable Bunkhouse Cabins' names manufactured prefab structures, not an accommodation service."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe a prefab steel structure with MS flooring and roof type, not accommodation service attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description identifies the product as a portable bunkhouse for labour and lists a prefab manufacturer catalogue, not a guest house accommodation service."
+        }
+      ],
+      "verification_note": "Confirmed bad; listing is for a manufactured portable bunkhouse cabin for labour accommodation, not a guest house accommodation service.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-bunkhouse cabins-2851973180930.html"
+    },
+    {
+      "item_id": "302713950",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Steel Bunkhouse",
+      "description": "Portable bunkhouse  is a strong, weather-resistant, and mobile office solution made from galvanized iron (GI). These containers are ideal for temporary or permanent office spaces in construction sites, industrial zones, corporate expansions, and remote locations",
+      "specs": {
+        "raw": "Built Type:Modular, Color:White, Country of Origin:Made in India, Is It Portable:Portable, Material:Steel, Shape:Rectangular, Size:10X40, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/6/522968772/AE/WY/LF/51568994/portable-steel-bunkhouse.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-steel bunkhouse-2856811495233.html",
+      "image_file": "302713950.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a furnished wood-panelled living space with sofa, dining area, kitchen, AC, ceiling fans, and mountain view through large windows, visually consistent with a guest house or villa accommodation interior."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names a portable steel bunkhouse, a manufactured prefab structure, not a guest house accommodation service."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs describe a modular portable steel structure with dimensions (10X40) and rectangular shape, not accommodation service attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description describes a GI portable bunkhouse as a mobile office solution for construction sites and industrial zones, not a guest house accommodation service."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Listing is for a manufactured portable steel bunkhouse (GI mobile office solution for construction sites), not a guest house accommodation service."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Photo shows a furnished wood-panelled living space with mountain view and residential amenities, while description describes a galvanized iron mobile office solution for construction sites and industrial zones."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Photo shows a furnished wood-panelled residential living space with mountain view, while description describes a GI mobile office solution for construction sites and industrial zones."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Portable Steel Bunkhouse' names a manufactured prefab structure, not an accommodation service."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs describe a modular portable steel structure with dimensions (10X40), not accommodation service attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a GI portable bunkhouse as a mobile office for construction sites and industrial zones, not a guest house accommodation service."
+        }
+      ],
+      "verification_note": "Confirmed bad; listing is for a manufactured portable steel bunkhouse with photo-description contradiction; title, specs, and description all confirm prefab structure product, not accommodation service.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-steel bunkhouse-2856811495233.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show either furnished room interiors with visible hospitality amenities (heritage décor, sitting area, canopy bed, ornate tiled floors) or exterior property shots of the accommodation building (brick cottage facade, tiled roof, garden, paved pathway). Both image types clearly communicate the accommodation nature of the listing through visual ambiance rather than text. Images are well-lit, taken at close-to-medium range, and show the property in its best presentation state.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Good listing images show furnished room interiors and property exteriors where the visual appearance IS the product information — no extractable text labels or printed specifications are present.",
+      "Neither verified good image contains price boards, spec sheets, or text overlays that OCR could usefully process; value is communicated entirely through visual ambiance.",
+      "Accommodation service listings convey quality through décor, furnishings, and property condition — all visual signals that OCR cannot interpret."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good guest house photos show furnished room interiors with hospitality amenities or exterior property shots conveying the accommodation's character and quality.",
+    "product_identity": [
+      "Furnished room interior with visible amenities (furniture, décor, lighting, bed)",
+      "Exterior property shot showing building facade, garden, and approach"
+    ],
+    "acceptable_scenes": [
+      "Heritage or themed room interior with sitting area and bedroom visible",
+      "Cottage or villa exterior with landscaping and entrance"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "53530728",
+        "reason": "Image shows a furnished heritage-style guest room interior with sitting area, canopy bed, and ornate Mughal-inspired décor consistent with a boutique guest house.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "103137235",
+        "reason": "Image shows the exterior of a well-maintained brick cottage with tiled roof, garden, and paved pathway, consistent with a hill-station guest house or villa accommodation property.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "No thin photos identified among verified products; all bad product images show actively wrong product types (prefab structures) rather than correct-but-incomplete accommodation images.",
+    "thinness_signals": [],
+    "examples": []
+  },
+  "irrelevant_photos": {
+    "summary": "All bad product images show manufactured prefabricated structures (steel containers, modular cabins, portable bunkhouses) that are entirely wrong for a guest house accommodation service MCAT.",
+    "failure_classes": [
+      {
+        "class": "prefab_structure_exterior",
+        "description": "Image shows a prefabricated steel container or modular cabin photographed outdoors, typically on a construction site or roadside.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "98714875"
+          },
+          {
+            "photo_url": null,
+            "item_id": "153774899"
+          },
+          {
+            "photo_url": null,
+            "item_id": "254330810"
+          }
+        ],
+        "detection_signal": "Corrugated metal panels, container-style construction, outdoor industrial setting, no hospitality furnishings visible.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "prefab_structure_interior",
+        "description": "Image shows the interior of a prefabricated modular cabin with insulated panel walls, not a furnished hospitality room.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "287170790"
+          }
+        ],
+        "detection_signal": "Insulated PUF/sandwich panel walls visible, industrial-grade door, no hospitality furnishings or décor.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "prefab_marketing_render",
+        "description": "Image is a product render or aspirational interior shot used to market a prefabricated structure, not an actual guest house accommodation.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "190485972"
+          },
+          {
+            "photo_url": null,
+            "item_id": "302713950"
+          }
+        ],
+        "detection_signal": "White background product render of a portable cabin, or furnished interior with photo-description contradiction indicating aspirational marketing for a prefab product.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Good guest house titles name the room type or property with hospitality context; even thin titles use accommodation-service vocabulary rather than manufactured product terminology.",
+    "strong_positive_signals": [
+      "Themed or named room/suite designation (e.g. 'Moghul Suite')",
+      "Property type descriptor with location or amenity context"
+    ],
+    "structural_patterns": [
+      "[Room/Suite Name] at [Property Name]",
+      "[Location] Guest House",
+      "[Type] Guest House — [Key Amenity/Feature]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "53530728",
+          "title": "Moghul Suite",
+          "reason": "Names a specific themed suite at a guest house property, clearly signalling a hospitality accommodation offering with a distinctive brand identity."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "103137235",
+          "title": "Guest House",
+          "reason": "Correct category vocabulary but provides no differentiating attributes; acceptable as a category-valid title despite being thin."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles use only the category name or a room name without location, amenity, or property context, leaving buyers with no differentiating information.",
+    "thinness_signals": [
+      "Title is only the category name 'Guest House' with no location, room count, or amenity",
+      "Title names a room type (e.g. 'Moghul Suite') without property name, location, or key amenity"
+    ],
+    "examples": [
+      {
+        "item_id": "103137235",
+        "title": "Guest House",
+        "reason": "Title is only the category name with no differentiating attributes."
+      },
+      {
+        "item_id": "53530728",
+        "title": "Moghul Suite",
+        "reason": "Room name without property context, location, or amenity information."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles name manufactured prefabricated structures (bunkhouses, portable cabins, steel containers) — the dominant contamination pattern in this MCAT.",
+    "failure_classes": [
+      {
+        "class": "prefab_structure_naming",
+        "signal": "Title contains tokens such as 'Bunkhouse', 'Portable Cabin', 'Container', 'Prefab', 'Modular' indicating a manufactured structure product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "98714875",
+            "title": "Steel Bunk House Container",
+            "reason": "Names a manufactured steel container product, not a guest house accommodation service.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "153774899",
+            "title": "Industrial Bunkhouse Cabin",
+            "reason": "Names an industrial manufactured bunkhouse cabin, not a guest house accommodation service.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "190485972",
+            "title": "Bunkhouse Portable Cabin",
+            "reason": "Names a portable manufactured bunkhouse cabin, not a guest house accommodation service.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "254330810",
+            "title": "Portable Bunkhouse Cabins",
+            "reason": "Names manufactured portable bunkhouse cabins, not a guest house accommodation service.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "302713950",
+            "title": "Portable Steel Bunkhouse",
+            "reason": "Names a manufactured portable steel bunkhouse, not a guest house accommodation service.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "dimension_led_title",
+        "signal": "Title begins with physical dimensions (e.g. '20ft 10ft') indicating a manufactured product sold by size.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "287170790",
+            "title": "20ft 10ft (guest house )",
+            "reason": "Dimension-first title with 'guest house' in parentheses indicates a manufactured prefab structure product, not an accommodation service.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily manufactured prefabricated/modular bunkhouse and portable cabin structures that contaminate this accommodation service MCAT.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "prefabricated_modular_structure",
+        "signal": "Listing describes a manufactured modular/prefab steel structure with dimensions, material specs, and site/labour usage — not a hospitality accommodation service.",
+        "examples": [
+          {
+            "item_id": "287170790",
+            "title": "20ft 10ft (guest house )",
+            "reason": "Manufactured prefab modular structure (20x10ft) with container home and portable office product range.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "98714875",
+            "title": "Steel Bunk House Container",
+            "reason": "Manufactured prefab steel bunkhouse container for site office use with modular construction.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "153774899",
+            "title": "Industrial Bunkhouse Cabin",
+            "reason": "Manufactured industrial bunkhouse cabin by Epsilon Prefab Group for site office use.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "190485972",
+            "title": "Bunkhouse Portable Cabin",
+            "reason": "Manufactured portable bunkhouse cabin with modular steel construction.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "254330810",
+            "title": "Portable Bunkhouse Cabins",
+            "reason": "Manufactured portable bunkhouse cabins for labour accommodation by a prefab manufacturer.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "302713950",
+            "title": "Portable Steel Bunkhouse",
+            "reason": "Manufactured portable GI steel bunkhouse described as a mobile office solution for construction sites.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from image_base64."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "No siblings available in taxonomy_context; correct_mcat_suggestion set to null for all wrong-category items as no confirmed sibling MCAT name could be verified."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (accommodation service) and mcat_description used to ground all category belonging decisions; mcat_vagueness_signal not explicitly provided but MCAT treated as coherent PATH A based on Agent 3 description."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 8,
+    "images_attached": 8,
+    "web_fetch_used": false
+  }
+}
