@@ -1,0 +1,47 @@
+{
+  "agent": "Agent 8 — Category Nature",
+  "mcat": "Container Conversion Service",
+  "mcat_id": "119140",
+  "is_vague_detection": {
+    "agent3_prior": {
+      "suspected_vague": false,
+      "note": "Agent 3 did not flag mcat_vagueness_signal; primary_segment is confident and unhedged."
+    },
+    "signal_scoring": {
+      "S1_name_ambiguity": {
+        "fires": false,
+        "evidence": "'Container Conversion Service' resolves to one clear concept — a fabrication/fitout service applied to ISO shipping containers. No competing industry reads this name differently; 'conversion' in this context unambiguously means structural modification and fitout."
+      },
+      "S2_primary_segment_difficulty": {
+        "fires": false,
+        "evidence": "Agent 3 produced a confident, unhedged primary_segment: 'Container office / site cabin conversion for construction and industrial project sites' — no 'or', 'depends on', or hedging language."
+      },
+      "S3_intent_queries_diverge": {
+        "fires": false,
+        "evidence": "All buyer_intent_queries cluster around one purchase context — commissioning a converted shipping container for a functional space. Sub-types (office, retail, cold storage, café) are spec refinements of the same service intent, not incompatible purchase contexts."
+      },
+      "S4_product_types_no_shared_buyer": {
+        "fires": false,
+        "evidence": "All product_types (office conversion, retail unit, café, residential, cold storage, workshop, toilet block, guard cabin, classroom, medical unit) share a common buyer archetype — a project or facility manager procuring a bespoke converted container unit. Different end uses, same procurement model and buyer type."
+      },
+      "S5_regulatory_or_sibling_carveout": {
+        "fires": false,
+        "evidence": "No sibling MCAT carves out a sub-type with an incompatible buyer profile or regulatory regime — siblings like 'Office Container' (96540) and 'Mobile Containers' (96541) are product MCATs for finished units, not competing service classifications. No regulatory incompatibility exists across the product_types listed."
+      }
+    },
+    "signals_fired": 0,
+    "is_vague_verdict": false
+  },
+  "category_nature": {
+    "is_generic": false,
+    "is_specific": true,
+    "is_vague": false,
+    "is_thin": true,
+    "is_branded": false,
+    "is_service": true,
+    "reason": [
+      "is_service: yes — this is a bespoke fabrication and fitout service (structural modification, electrical, HVAC, plumbing, interior finishing delivered as a turnkey engagement), not a physical product listing; is_thin: yes — listing_count of 68 is low relative to siblings (Office Container: 21,197; Portable Cabin: 13,877; MS Porta Cabin: 9,337), page density is sparse, and the service nature further constrains addressable seller volume.",
+      "is_specific: yes — the MCAT name tightly bounds scope to one service type (ISO container conversion/fitout); is_generic: no — the page does not show a broad umbrella of unrelated sub-variants; is_branded: no — generic fabrication service with no brand/trademark anchor; is_vague: no — 0 of 5 signals fire, name maps to one unambiguous service concept with a confident primary_segment."
+    ]
+  }
+}
