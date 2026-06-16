@@ -1,0 +1,67 @@
+{
+  "enhanced_name_4w": "PEB Industrial Steel Structure",
+  "enhanced_name_5w": "Pre Engineered Steel Building System",
+  "enhanced_name_6w": "PEB Structure for Industrial Warehouse Sheds",
+  "enhanced_name_long": "Pre Engineered Building (PEB) Steel Structures for Industrial Warehouses, Factories, Logistics Centres and Aircraft Hangars",
+  "alt_names": {
+    "primary_keywords": [
+      "PEB structure",
+      "pre engineered building",
+      "PEB building",
+      "PEB shed",
+      "pre engineered steel building",
+      "industrial PEB structure",
+      "PEB construction",
+      "prefabricated steel building",
+      "PEB structures"
+    ],
+    "technical_synonyms": [
+      "Pre-Engineered Metal Building (PEMB)",
+      "rigid frame steel building",
+      "tapered I-section steel frame building",
+      "factory-fabricated steel structure",
+      "bolted steel building system",
+      "IS 800 compliant steel building",
+      "built-up section steel frame",
+      "portal frame steel building"
+    ],
+    "trade_names": [
+      "Kirby Building Systems",
+      "Interarch Building Products",
+      "Zamil Steel Buildings India",
+      "Pennar Industries PEB",
+      "Tata BlueScope Steel",
+      "Alfa PEB",
+      "Metal Tree PEB",
+      "Kamdhenu PEB",
+      "Star PEB India"
+    ],
+    "hindi_terms": [
+      "पूर्व-इंजीनियर्ड बिल्डिंग",
+      "प्री-फैब्रिकेटेड स्टील शेड",
+      "औद्योगिक शेड",
+      "गोदाम शेड",
+      "फैक्ट्री शेड"
+    ],
+    "buyer_intent_queries": [
+      "pre engineered building structure manufacturer in India",
+      "PEB structure for warehouse construction",
+      "industrial shed PEB structure price per sq ft",
+      "factory shed pre engineered building",
+      "PEB structure manufacturer in Haryana",
+      "pre engineered building for godown",
+      "PEB shed with mezzanine floor",
+      "PEB structure with crane girder system",
+      "pre engineered building IS 800 compliant"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Used/second-hand PEB buyers: sibling taxonomy does not carve this out explicitly, but Agent 3 product_types includes 'Second-hand / used PEB structure' as a distinct sub-segment with a different buyer persona (cost-constrained buyers seeking pre-owned lots vs. new-build industrial developers); names containing 'used', 'second-hand', 'pre-owned', or 'refurbished' are discarded to avoid attracting that incompatible buyer segment — the buyer_intent_query 'used second hand PEB building structure' was removed from alt_names on this basis.",
+    "Light Gauge Steel Frame (LGSF) buyers: sibling 'Light Gauge Framing System' (ID 410918) targets a structurally distinct buyer segment (residential/low-load applications using cold-formed light-gauge sections) incompatible with the heavy industrial PEB buyer; names or alt_names terms foregrounding 'LGSF' or 'light gauge' are discarded to prevent cross-segment contamination.",
+    "Agricultural/greenhouse buyers: siblings 'Agricultural Greenhouses', 'Agricultural Buildings', 'Greenhouse', 'Polyhouse', 'Naturally Ventilated Greenhouse', 'Mini Greenhouse', 'Greenhouse Structure' all target agri-horticulture buyers with fundamentally different use contexts and price tiers; no PEB name candidate uses greenhouse, polyhouse, or agri-shed framing.",
+    "Tensile/membrane structure buyers: siblings 'Tensile Structures', 'Modular Tensile Structure', 'Tensile Membrane Structures', 'Auditorium Tensile Structure', 'Gazebo Tensile Structure' target fabric/membrane structure buyers incompatible with rigid steel frame PEB buyers; tensile-related terms are excluded from all name candidates.",
+    "Modular/portable/temporary building buyers: siblings 'Modular Buildings', 'Portable Buildings', 'Temporary Buildings', 'Prefabricated Labor Colony', 'Prefabricated Isolation Ward' target relocatable or temporary-use buyers distinct from permanent industrial PEB buyers; modular, portable, temporary, and labour-colony framing is excluded."
+  ],
+  "segment_contamination_disclaimer": null
+}
