@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Aircraft Hangars' maps to a single, well-bounded product concept — large prefabricated steel structures for housing aircraft; buyer intent is homogeneous (aviation infrastructure procurement) across all sub-types (T-hangar, MRO, helicopter, military), and Agent 3 named a confident, unhedged primary_segment ('PEB clear-span aircraft hangar for general aviation and MRO use') with no competing product family.",
+    "is_vague: 0 signals fire — the name resolves unambiguously to one product category with no incompatible intent clusters; all buyer_intent_queries and product_types share the same buyer archetype (aviation infrastructure buyer) and no sibling MCAT carves out an incompatible regulatory regime or buyer profile from this MCAT."
+  ]
+}
