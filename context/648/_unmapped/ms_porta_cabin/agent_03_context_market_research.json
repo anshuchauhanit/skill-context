@@ -1,0 +1,631 @@
+{
+  "mcat_description": {
+    "short": "MS Porta Cabin is a prefabricated, portable structure fabricated from mild steel sections and GI/MS sheet cladding, sold as a complete unit or in knock-down form for on-site assembly. It serves as a temporary or semi-permanent space solution for offices, accommodation, storage, and security at construction and industrial sites.",
+    "long": "An MS Porta Cabin is a factory-built modular enclosure constructed on a mild steel base frame (typically 100mm×50mm C-channel or I-beam) with MS/GI corrugated sheet exterior cladding, glass wool insulation (25–50mm walls, 50–80mm roof), interior MDF or pre-laminated board panelling, and PVC vinyl or cement board flooring. Cabins are supplied in standard sizes (10×10 ft, 10×15 ft, 10×20 ft being most common) or fully customised to buyer dimensions, and can be delivered as a plain shell or factory-fitted with electrical wiring, plumbing, windows, and furniture. The primary market is construction project sites, industrial plants, and infrastructure projects requiring rapid, relocatable workspace or accommodation without permanent civil construction. Buyers include construction contractors, infrastructure developers, industrial facility managers, and government project offices procuring for site offices, labour bunkhouses, security guard rooms, and storage units.",
+    "product_types": [
+      "MS Portable Office Cabin",
+      "MS Labour / Bunk House Cabin",
+      "MS Security / Guard Room Cabin",
+      "MS Storage Cabin / Store Room",
+      "MS Portable Shop Cabin",
+      "MS Site Office Container Cabin",
+      "MS Portable Conference / Meeting Room Cabin",
+      "MS Portable Toilet / Sanitation Cabin",
+      "MS Modular Multi-Room / 2BHK Container House",
+      "MS Portable Canteen / Pantry Cabin",
+      "MS Terrace / Rooftop Cabin",
+      "MS Inverter / Equipment Room Cabin"
+    ],
+    "primary_applications": [
+      "Construction site office and project management room",
+      "Labour accommodation and bunkhouse at remote project sites",
+      "Security guard room and watchman cabin at industrial/commercial premises",
+      "On-site storage for tools, materials, and equipment",
+      "Portable shop or kiosk for retail and food service",
+      "Temporary canteen or pantry at construction camps",
+      "Rooftop or terrace room addition for residential use",
+      "Toll booth and check-post cabin",
+      "Portable toilet and sanitation block at project sites",
+      "Equipment room for inverters, DG sets, or control panels"
+    ],
+    "buyer_segments": [
+      "Construction contractors and EPC companies procuring site offices and labour accommodation",
+      "Infrastructure developers (roads, bridges, metro, power) needing temporary project offices",
+      "Industrial plant and factory operators requiring security cabins and storage units",
+      "Government departments and PSUs procuring site offices for public works projects",
+      "Real estate developers needing on-site sales offices and security cabins",
+      "Retail and food-service entrepreneurs setting up portable shops or container cafes",
+      "Residential buyers adding a rooftop or terrace room",
+      "Rental companies procuring cabins for lease to project sites"
+    ]
+  },
+  "primary_segment": "Mild steel framed prefabricated portable cabin for construction site office and labour accommodation",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Mild steel framed prefabricated portable cabin (site office, labour accommodation, storage, security) for construction and industrial use",
+    "secondary_families": [],
+    "reason": "All sub-types within this MCAT share the same material (mild steel), the same buyer profile (construction/industrial procurement), and the same regulatory context — no incompatible product families or regulatory regimes are present; sibling MCATs carve out by material (FRP, PUF panel) not by buyer incompatibility."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "ms porta cabin",
+      "ms portable cabin",
+      "mild steel portable cabin",
+      "steel portable cabin",
+      "ms portable office cabin",
+      "portable cabin",
+      "porta cabin",
+      "ms site office cabin",
+      "prefab ms cabin",
+      "ms modular cabin"
+    ],
+    "technical_synonyms": [
+      "mild steel prefabricated portable cabin",
+      "MS prefab modular cabin",
+      "mild steel porta cabin",
+      "MS container cabin",
+      "steel porta cabin",
+      "MS frame portable structure",
+      "mild steel modular structure",
+      "prefabricated steel cabin",
+      "MS portable bunkhouse",
+      "knock-down MS cabin"
+    ],
+    "trade_names": [
+      "porta cabin",
+      "portacabin",
+      "site office container",
+      "office container",
+      "portable office container",
+      "bunk house cabin",
+      "labour cabin",
+      "worker cabin",
+      "security cabin",
+      "guard room cabin"
+    ],
+    "hindi_terms": [
+      "porta cabin",
+      "portable cabin",
+      "prefab cabin",
+      "steel cabin",
+      "portable office"
+    ],
+    "buyer_intent_queries": [
+      "ms porta cabin for construction site office",
+      "portable cabin for terrace or rooftop",
+      "readymade office cabin 10x10 price",
+      "ms portable cabin for labour accommodation",
+      "prefab steel cabin for site office",
+      "portable house india for workers",
+      "ms porta cabin manufacturer near me",
+      "portable cabin for shop or kiosk",
+      "ms portable security cabin for factory",
+      "10x20 ms porta cabin with insulation"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "MS Porta Cabins are sold as complete fabricated units in Indian B2B transactions; per piece is the dominant unit for standard-size cabins (10×10, 10×15, 10×20 ft), while per sq ft is used for large custom or multi-room configurations where buyers specify total floor area.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard size cabin (10×10, 10×15, 10×20 ft)",
+        "unit": "per piece",
+        "note": "Most common transaction unit; confirmed across multiple Indian manufacturer pages"
+      },
+      {
+        "sub_segment": "Custom / large multi-room or multi-storey cabin",
+        "unit": "per sq ft",
+        "note": "Used when buyer specifies total area; rate per sq ft quoted by manufacturers like Birla Cabins, Vishwakarma Enterprises"
+      },
+      {
+        "sub_segment": "Rental / temporary deployment",
+        "unit": "per month / per piece per month",
+        "note": "Rental market quotes per month; observed in call data and site office container rental listings"
+      }
+    ],
+    "sources_checked": [
+      "hindportablecabin.co.in",
+      "birlacabins.in",
+      "metalscabin.com",
+      "sigmaengg.in",
+      "vishwakarmaenterprises.net",
+      "worldofportablecabins.com"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "MS Porta Cabin is the dominant material-specific sub-category within the broader portable cabin market in India, distinguished from FRP, PUF panel, and Aerocon panel variants by its mild steel structural frame and GI/MS sheet cladding. The Indian market is highly fragmented with hundreds of small-to-mid-size fabricators concentrated in Maharashtra (Thane, Mumbai, Pune, Raigad), Gujarat (Ahmedabad), Delhi-NCR, Karnataka (Bengaluru, Ballari), and Telangana (Hyderabad). Standard commercial sizes are 10×10 ft, 10×15 ft, and 10×20 ft, with custom dimensions widely available; structural frames use 100mm×50mm C-channel or I-beam base frames with 50mm×50mm MS square pipe uprights. Insulation is typically 25–50mm glass wool for walls and 50–80mm for roofs, with GI corrugated sheet exterior and MDF/pre-laminated board interior panelling. No single BIS/IS standard governs the complete MS Porta Cabin assembly; component materials reference IS grades (IS 2062 for structural steel, IS 277 for GI sheets). Buyers transact primarily per piece for standard sizes and per sq ft for large custom configurations. The product serves a dual market: B2B construction/industrial procurement (dominant) and a growing B2C/residential segment (rooftop rooms, terrace cabins, portable houses) evidenced by keyword data. Container-style MS cabins (resembling ISO shipping containers) are a premium sub-type increasingly used for container cafes, portable homes, and modular offices.",
+  "buyer_attracting_attributes": [
+    "Size / Dimensions (L×W×H in feet)",
+    "Insulation Type and Thickness (glass wool mm)",
+    "Wall Panel Material (GI sheet, MDF, ACP, pre-laminated board)",
+    "Base Frame Section (C-channel / I-beam size)",
+    "Flooring Type (PVC vinyl, cement board, plywood)",
+    "Door and Window Type (aluminium sliding, PVC, steel)",
+    "Surface Treatment and Paint (epoxy primer, enamel coat)",
+    "Electrical Fittings (pre-wired, concealed copper wiring)",
+    "Built Type (plain shell vs furnished / with partitions)",
+    "Number of Rooms / Partitions"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "150852",
+    "mcat_name": "MS Porta Cabin",
+    "mcat_level": "4",
+    "listing_count": "9337",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > MS Porta Cabin",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35400.0",
+      "name": "Portable Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35400.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "32980",
+        "mcat_name": "Office Cabin",
+        "listing_count": "6818",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35057",
+        "mcat_name": "Portable Classrooms",
+        "listing_count": "736",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35400",
+        "mcat_name": "Portable Cabin",
+        "listing_count": "13877",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38456",
+        "mcat_name": "Telephone Booths",
+        "listing_count": "419",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42755",
+        "mcat_name": "Security Cabins",
+        "listing_count": "4207",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43789",
+        "mcat_name": "Wooden Cabins",
+        "listing_count": "665",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43790",
+        "mcat_name": "Mobile Cabins",
+        "listing_count": "613",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "56012",
+        "mcat_name": "Glass Cabin",
+        "listing_count": "1247",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96540",
+        "mcat_name": "Office Container",
+        "listing_count": "21197",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96541",
+        "mcat_name": "Mobile Containers",
+        "listing_count": "2044",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "111378",
+        "mcat_name": "Smoking Cabin",
+        "listing_count": "192",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119140",
+        "mcat_name": "Container Conversion Service",
+        "listing_count": "68",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121149",
+        "mcat_name": "FRP Cabin",
+        "listing_count": "1604",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135704",
+        "mcat_name": "Portable Kitchen",
+        "listing_count": "457",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135705",
+        "mcat_name": "Portable Security Cabins",
+        "listing_count": "6233",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135712",
+        "mcat_name": "Prefabricated Cabin",
+        "listing_count": "6259",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135797",
+        "mcat_name": "Toll Booth",
+        "listing_count": "853",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135966",
+        "mcat_name": "Eco Portable Cabins",
+        "listing_count": "436",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136204",
+        "mcat_name": "Prefabricated Accommodation",
+        "listing_count": "1321",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145135",
+        "mcat_name": "FRP Portable Security Cabin",
+        "listing_count": "1727",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149768",
+        "mcat_name": "Portable Dressing Room",
+        "listing_count": "358",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150360",
+        "mcat_name": "Portable Log Cabins",
+        "listing_count": "220",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150362",
+        "mcat_name": "Portable Pantry",
+        "listing_count": "142",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150853",
+        "mcat_name": "MS Security Cabins",
+        "listing_count": "1334",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154082",
+        "mcat_name": "Wooden Guard Room",
+        "listing_count": "111",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159318",
+        "mcat_name": "GRP Cabin",
+        "listing_count": "55",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "165827",
+        "mcat_name": "Modular Portable Cabin",
+        "listing_count": "3118",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167809",
+        "mcat_name": "PUF Cabin",
+        "listing_count": "1376",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181546",
+        "mcat_name": "PVC Portable Cabin",
+        "listing_count": "407",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181975",
+        "mcat_name": "Prefabricated Security Cabin",
+        "listing_count": "1156",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185338",
+        "mcat_name": "GI Portable Cabin",
+        "listing_count": "2393",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185339",
+        "mcat_name": "Aluminium Office Cabins",
+        "listing_count": "1740",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "188230",
+        "mcat_name": "Portable ATM Cabin",
+        "listing_count": "130",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "207959",
+        "mcat_name": "Frisking Booth",
+        "listing_count": "168",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "MS Porta Cabin is a prefabricated structural product with technical specs (dimensions, material gauge, insulation, load capacity) that vary by seller. Market research will surface standard configurations, buyer quoting patterns, and whether BIS/IS standards apply to metal structures or modular construction."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions ('porta cabin', 'porta cabin for terrace', 'portable house in india') used to identify buyer search vocabulary and confirm residential/terrace use as secondary segment."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context"
+        ],
+        "citation_note": "'ms porta cabin' (144 PV) dominates internal search; '10x20 porta cabin' and '10x10 porta cabin near mumbai' confirm standard size queries; 'office porta cabin' confirms office use as primary application."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "151 call rows provided product name signals: office cabin, storage cabin, labour cabin, site office, container cabin, shop cabin, guard room — confirmed broad application range. No spec values present in call data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Listing count 9,337 is plausible for a high-volume MCAT; 34 siblings confirm material-based sibling carve-outs (FRP, PUF, Aerocon) which informed vagueness assessment."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.hindportablecabin.co.in/ms-porta-cabin.html",
+        "title": "MS Porta Cabin - 10x10 Feet MS Porta Cabin Manufacturer from Thane",
+        "source_domain": "hindportablecabin.co.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed standard sizes (10×10, 10×15, 10×20 ft) and per-piece unit quoting; applications: offices, security rooms, accommodation, storage."
+      },
+      {
+        "url": "https://www.birlacabins.in/ms-portable-office-cabin.html",
+        "title": "MS Portable Office Cabin - Modular Portable Cabin Service Provider from Raigad",
+        "source_domain": "birlacabins.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed structural spec details: 100mm×50mm C-channel base frame, 25mm/50mm glass wool insulation, epoxy zinc phosphate primer paint, aluminium powder-coated windows."
+      },
+      {
+        "url": "https://www.worldofportablecabins.com/ms-porta-cabin.html",
+        "title": "MS Porta Cabin - Shipping Container House OEM Manufacturer from Ahmedabad",
+        "source_domain": "worldofportablecabins.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Confirmed 50mm glass wool insulation, GI corrugated sheet exterior, pre-laminated board interior, cement board flooring with vinyl carpeting, aluminium powder-coated sliding windows."
+      },
+      {
+        "url": "https://www.metalscabin.com/ms-gi-portable-cabins.html",
+        "title": "MS & GI Portable Cabins - Portable Office Container Manufacturer from Thane",
+        "source_domain": "metalscabin.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed product types: portable office container, portable security cabins, prefabricated portable cabin; per-piece unit quoting."
+      },
+      {
+        "url": "https://www.samanportable.com/top-quality-ms-porta-cabin/",
+        "title": "Top Quality MS Porta Cabin - Reliable Solutions for Your Space Needs",
+        "source_domain": "samanportable.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "market_context"
+        ],
+        "citation_note": "Confirmed versatile applications: portable office cabins, meeting rooms, storage spaces, living modules, retail spaces, construction sites."
+      },
+      {
+        "url": "https://www.vishwakarmaenterprises.net/portable-cabin.html",
+        "title": "Portable Cabin - Portable Office Container Manufacturer from Thane",
+        "source_domain": "vishwakarmaenterprises.net",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed detailed structural specs (base frame, panelling, insulation, flooring), per sq ft unit quoting for custom configurations, and product types including conference cabin and portable house."
+      },
+      {
+        "url": "https://www.metalportablesolution.com/prefabricated-cabin.html",
+        "title": "Prefabricated Cabin - Mild Steel Prefabricated Labor Cabin Manufacturer from Ballari",
+        "source_domain": "metalportablesolution.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Confirmed labour cabin and security cabin as distinct product types; applications at construction sites, industrial locations, remote areas."
+      },
+      {
+        "url": "https://www.sigmaengg.in/portable-cabin.html",
+        "title": "Portable Cabin - Mild Steel Prefab Portable Office Cabin Manufacturer from Pune",
+        "source_domain": "sigmaengg.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed product range: portable office cabin, security cabin, shop cabin, bunk house cabin; per-piece unit quoting across multiple size variants."
+      },
+      {
+        "url": "https://shreebalajiportablecabin.com/ms-portable-cabin-manufacturers-in-ahmedabad.php",
+        "title": "Shree Balaji Porta Cabin Pvt. Ltd. Pune, Maharashtra, India",
+        "source_domain": "shreebalajiportablecabin.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed MS modular cabin applications across manufacturing, construction, commercial, aerospace, food processing, pharmaceuticals; confirmed customisation and modularity as key buyer attributes."
+      },
+      {
+        "url": "https://www.bunkhouseworld.in/portable-cabin.html",
+        "title": "Portable Cabin - Industrial Portable Cabins Manufacturer from Vadodara",
+        "source_domain": "bunkhouseworld.in",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "market_context"
+        ],
+        "citation_note": "Confirmed portable cabins as prefabricated structures for site office, security cabin, accommodation, storage, toilets; confirmed rental market (site office container on rent)."
+      },
+      {
+        "url": "https://www.prestigeportablecabins.in/mild-steel-portable-cabin.htm",
+        "title": "Mild Steel Portable Cabin Manufacturer Exporter Supplier from Thane India",
+        "source_domain": "prestigeportablecabins.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed weather resistance, flexible design/relocatability, and fast construction as key buyer-attracting attributes; confirmed custom sizes as standard offering."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "MS Porta Cabin is a prefabricated structural product with technical specs (dimensions, material gauge, insulation, load capacity) that vary by seller. Market research will surface standard configurations, buyer quoting patterns, and whether BIS/IS standards apply to metal structures or modular construction."
+    }
+  }
+}
