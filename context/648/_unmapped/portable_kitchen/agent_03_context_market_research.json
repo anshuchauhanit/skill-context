@@ -1,0 +1,583 @@
+{
+  "mcat_description": {
+    "short": "A portable kitchen is a prefabricated, self-contained cooking unit built on a mild steel, GI, or shipping container chassis, supplied as a complete ready-to-use structure with built-in cooking appliances, sink, ventilation, and electrical fittings. Sold per unit, it is deployed at construction sites, industrial camps, events, and commercial food service locations.",
+    "long": "Portable kitchens are factory-built prefabricated structures designed to provide fully functional cooking and food preparation facilities at temporary or semi-permanent locations without permanent civil construction. They are constructed using mild steel (MS) or galvanised iron (GI) frames, container steel bodies, or sandwich panel walls, and come fitted with cooking platforms, chimney outlets, water supply and drainage outlets, electrical fixtures, and ventilation systems. In the Indian B2B market, the dominant commercial form is the container-based or MS cabin-based portable kitchen, customised to buyer specifications for size, appliance configuration, insulation, and finish. These units are reusable, relocatable, and available for both outright purchase and rental, serving construction site canteens, industrial labour camps, military and defence establishments, event catering, and fast food kiosk operators.",
+    "product_types": [
+      "MS Portable Kitchen Cabin",
+      "GI Portable Kitchen Cabin",
+      "Container Kitchen (20ft / 40ft shipping container conversion)",
+      "Modular Container Kitchen",
+      "Portable Kitchen Canteen Cabin",
+      "Portable Kitchen with Pantry",
+      "Portable Fast Food Container / Kiosk Kitchen",
+      "Prefabricated Kitchen Cabin with Dining Area",
+      "Portable Kitchen Platform with Sink",
+      "Mobile Kitchen Unit (trailer/wheel-mounted)"
+    ],
+    "primary_applications": [
+      "Construction site canteen and labour camp kitchen",
+      "Industrial and mining camp catering",
+      "Military and defence field kitchen",
+      "Event and exhibition catering setup",
+      "Disaster relief and refugee camp kitchen",
+      "Fast food stall and street food kiosk",
+      "Cafe and small restaurant in container format",
+      "Temporary kitchen during building renovation or relocation"
+    ],
+    "buyer_segments": [
+      "Construction contractors and project developers (site canteen requirement)",
+      "Industrial and infrastructure project operators (labour camp catering)",
+      "Event management companies (temporary catering infrastructure)",
+      "Defence and paramilitary procurement departments",
+      "Food entrepreneurs and fast food operators (container restaurant/kiosk)",
+      "Disaster relief NGOs and government agencies",
+      "Hospitality and catering companies requiring relocatable kitchens",
+      "Mining and oil & gas camp operators"
+    ]
+  },
+  "primary_segment": "Prefabricated MS/container-based portable kitchen cabin for construction sites, industrial camps, and commercial food service",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated portable kitchen cabin/container unit (structural product for on-site cooking)",
+    "secondary_families": [],
+    "reason": "The MCAT sits within the Prefabricated Structures taxonomy path, anchoring it unambiguously as a structural product; minor keyword contamination from home-kitchen searches ('portable kitchen cabinets', 'portable kitchen for home') represents wrong-category traffic, not an incompatible product family with a different buyer profile or regulatory regime."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "portable kitchen",
+      "container kitchen",
+      "portable kitchen cabin",
+      "portable kitchen canteen",
+      "prefabricated kitchen",
+      "portable modular kitchen",
+      "kitchen container",
+      "portable kitchen unit",
+      "mobile kitchen",
+      "portable kitchen setup"
+    ],
+    "technical_synonyms": [
+      "prefab kitchen cabin",
+      "MS portable kitchen",
+      "GI portable kitchen",
+      "containerised kitchen",
+      "modular container kitchen",
+      "portable kitchen structure",
+      "porta kitchen cabin",
+      "sandwich panel kitchen cabin",
+      "field kitchen unit",
+      "deployable kitchen"
+    ],
+    "trade_names": [
+      "porta kitchen",
+      "porta cabin kitchen",
+      "container kitchen cabin",
+      "kitchen porta cabin",
+      "all-in-one container kitchen",
+      "portable kitchen pantry",
+      "portable canteen cabin",
+      "kitchen site cabin"
+    ],
+    "hindi_terms": [
+      "portable kitchen katta",
+      "portable rasoi cabin",
+      "container rasoi"
+    ],
+    "buyer_intent_queries": [
+      "portable kitchen for construction site",
+      "container kitchen for labour camp",
+      "prefabricated kitchen cabin with sink",
+      "portable kitchen setup for events",
+      "MS portable kitchen cabin price",
+      "portable kitchen canteen for industrial site",
+      "container kitchen for cafe or restaurant",
+      "portable kitchen with chimney and ventilation",
+      "temporary kitchen setup for site office",
+      "all in one container kitchen unit"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per unit",
+    "unit_reasoning": "Portable kitchens are sold as complete prefabricated structures; the natural transaction unit is per unit (one complete cabin or container), though custom-dimension builds may additionally quote per sq ft for area-based pricing.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard cabin/container kitchen (fixed size)",
+        "unit": "per unit / per piece",
+        "note": "Most common — buyer purchases one complete ready-to-deploy structure"
+      },
+      {
+        "sub_segment": "Custom-dimension or large-scale kitchen complex",
+        "unit": "per sq ft",
+        "note": "Used when buyer specifies custom floor area; some Indian sellers quote per sq ft for bespoke builds"
+      },
+      {
+        "sub_segment": "Rental / temporary deployment",
+        "unit": "per month / per day",
+        "note": "Rental transactions quoted on time basis; common for event and disaster relief deployments"
+      }
+    ],
+    "sources_checked": [
+      "Valisons.com (manufacturer site)",
+      "CNB Porta Cabin (manufacturer site)",
+      "IndiaMART listing tile data (structural signal only)",
+      "World knowledge — Indian B2B prefab structure transaction norms"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, portable kitchens are a sub-category of prefabricated cabin structures, with the container-based and MS cabin-based formats being the dominant commercial forms. Manufacturers across India (concentrated in NCR, Thane/Mumbai, Hyderabad, Jaipur, Bangalore) supply these units to construction contractors, industrial camp operators, event companies, and food entrepreneurs. The product is sold both outright and on rental, with customisation being a key differentiator — buyers specify size, appliance fit-out, insulation, wall material (MS, GI, sandwich panel), and finish. Key buyer vocabulary includes 'container kitchen', 'porta kitchen cabin', 'portable kitchen canteen', and 'portable kitchen katta' (regional term for a portable cooking stall). A secondary demand segment — fast food container kiosks and cafe-in-a-container formats — is growing among food entrepreneurs seeking low-cost commercial kitchen setups without permanent construction. The 'portable kitchen cabinets' and 'portable kitchen for home' search terms represent wrong-category traffic from home modular kitchen buyers and should be treated as irrelevant signals for this MCAT.",
+  "buyer_attracting_attributes": [
+    "Body Material (MS / GI / Container Steel / Sandwich Panel)",
+    "Size / Dimensions (length × width × height in feet)",
+    "Built Type (Prefab / Modular / Container Conversion)",
+    "Insulation (insulated / non-insulated)",
+    "Appliance Fit-Out (cooking platform, chimney, sink, exhaust fan)",
+    "Flooring Type and Thickness",
+    "Window and Door Type (PVC / Steel / Sliding)",
+    "Wind and Weather Resistance Rating",
+    "Electrical Fixtures (pre-fitted plug points, lighting)",
+    "Mobility Feature (wheel-mounted / crane-liftable / trailer-mounted)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "135704",
+    "mcat_name": "Portable Kitchen",
+    "mcat_level": "4",
+    "listing_count": "457",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Portable Kitchen",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35400.0",
+      "name": "Portable Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35400.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "32980",
+        "mcat_name": "Office Cabin",
+        "listing_count": "6818",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35057",
+        "mcat_name": "Portable Classrooms",
+        "listing_count": "736",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35400",
+        "mcat_name": "Portable Cabin",
+        "listing_count": "13877",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38456",
+        "mcat_name": "Telephone Booths",
+        "listing_count": "419",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42755",
+        "mcat_name": "Security Cabins",
+        "listing_count": "4207",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43789",
+        "mcat_name": "Wooden Cabins",
+        "listing_count": "665",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43790",
+        "mcat_name": "Mobile Cabins",
+        "listing_count": "613",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "56012",
+        "mcat_name": "Glass Cabin",
+        "listing_count": "1247",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96540",
+        "mcat_name": "Office Container",
+        "listing_count": "21197",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96541",
+        "mcat_name": "Mobile Containers",
+        "listing_count": "2044",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "111378",
+        "mcat_name": "Smoking Cabin",
+        "listing_count": "192",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119140",
+        "mcat_name": "Container Conversion Service",
+        "listing_count": "68",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121149",
+        "mcat_name": "FRP Cabin",
+        "listing_count": "1604",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135705",
+        "mcat_name": "Portable Security Cabins",
+        "listing_count": "6233",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135712",
+        "mcat_name": "Prefabricated Cabin",
+        "listing_count": "6259",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135797",
+        "mcat_name": "Toll Booth",
+        "listing_count": "853",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135966",
+        "mcat_name": "Eco Portable Cabins",
+        "listing_count": "436",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136204",
+        "mcat_name": "Prefabricated Accommodation",
+        "listing_count": "1321",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145135",
+        "mcat_name": "FRP Portable Security Cabin",
+        "listing_count": "1727",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149768",
+        "mcat_name": "Portable Dressing Room",
+        "listing_count": "358",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150360",
+        "mcat_name": "Portable Log Cabins",
+        "listing_count": "220",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150362",
+        "mcat_name": "Portable Pantry",
+        "listing_count": "142",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150852",
+        "mcat_name": "MS Porta Cabin",
+        "listing_count": "9337",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150853",
+        "mcat_name": "MS Security Cabins",
+        "listing_count": "1334",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154082",
+        "mcat_name": "Wooden Guard Room",
+        "listing_count": "111",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159318",
+        "mcat_name": "GRP Cabin",
+        "listing_count": "55",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "165827",
+        "mcat_name": "Modular Portable Cabin",
+        "listing_count": "3118",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167809",
+        "mcat_name": "PUF Cabin",
+        "listing_count": "1376",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181546",
+        "mcat_name": "PVC Portable Cabin",
+        "listing_count": "407",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181975",
+        "mcat_name": "Prefabricated Security Cabin",
+        "listing_count": "1156",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185338",
+        "mcat_name": "GI Portable Cabin",
+        "listing_count": "2393",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185339",
+        "mcat_name": "Aluminium Office Cabins",
+        "listing_count": "1740",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "188230",
+        "mcat_name": "Portable ATM Cabin",
+        "listing_count": "130",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "207959",
+        "mcat_name": "Frisking Booth",
+        "listing_count": "168",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "do_research": true,
+      "reason": "Portable kitchens are prefabricated structures with technical specs varying by seller; standard B2B research into market offerings, material standards, and typical spec patterns is needed."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "market_context"
+        ],
+        "citation_note": "Top keywords by Impressions used to identify buyer search vocabulary; 'container kitchen' (209 impressions) confirmed as dominant sub-type signal; 'portable kitchen cabinets' flagged as wrong-category contamination."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.hindi_terms",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Pageviews corroborated container kitchen as dominant form; 'portable kitchen katta' identified as Hindi/regional trade term."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "All 6 call rows referenced prefab cabin/container form factor; confirmed construction site and fast food/canteen use cases; no incompatible product families observed."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings_count"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path (Prefabricated Structures > Portable Kitchen) used to anchor MCAT as structural product; listing count 457 treated as plausible — not suspect."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://valisons.com/portable-kitchen/",
+        "title": "Portable Kitchen Containers Manufacturer in India | Mobile Kitchen Containers",
+        "source_domain": "valisons.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "mcat_description.primary_applications",
+          "buyer_attracting_attributes",
+          "unit_quoting_context",
+          "market_context"
+        ],
+        "citation_note": "Used for: fireproof/weather-resistant construction specs, chimney/ventilation/electrical fit-out details, purchase-or-rental model, 6-month warranty norm, construction site and event use cases."
+      },
+      {
+        "url": "https://www.pkl.co.uk/products/transworld-kitchens/",
+        "title": "Remote Site Catering Facilities | Modular Camp Kitchens",
+        "source_domain": "pkl.co.uk",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "market_context"
+        ],
+        "citation_note": "Used for: mining/oil & gas, refugee camp, construction camp, military camp use cases; 50-pax to 1,000-pax capacity range as market norm."
+      },
+      {
+        "url": "https://rollingunit.com/rescue-defence/mobile-kitchen/",
+        "title": "Mobile Kitchen - Rolling Unit by MARU",
+        "source_domain": "rollingunit.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for: commercial-grade appliance fit-out (stoves, ovens, refrigerators, freezers, sinks), multi-fuel adaptability, disaster response and military use cases."
+      },
+      {
+        "url": "https://www.bangaloreportablecabin.com/portable-cabin.html",
+        "title": "Portable Cabin - Double Decker Container Manufacturer from Bengaluru",
+        "source_domain": "bangaloreportablecabin.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for: 'mild steel portable kitchen canteen cabin' as a confirmed Indian trade product type name."
+      },
+      {
+        "url": "https://www.cnbportacabin.com/service/portable-shop-and-canteen/",
+        "title": "India's Trusted Portable Shop Cabin Manufacture From Haryana",
+        "source_domain": "cnbportacabin.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for: canteen-with-dining-area configuration, customisation options (size, layout, features), construction site and event buyer segments."
+      },
+      {
+        "url": "https://www.metalgrove.in/porta-cabin/",
+        "title": "Porta Cabin - Metal Grove",
+        "source_domain": "metalgrove.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for: steel/aluminium/insulated panel construction materials, modular design and relocation features, retail and hospitality applications."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Field_kitchen",
+        "title": "Field kitchen - Wikipedia",
+        "source_domain": "en.wikipedia.org",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for: deployable/camp kitchen definition, military and humanitarian aid use cases, static vs mobile kitchen distinction."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Portable kitchens are manufactured prefabricated structures with technical specs (dimensions, materials, appliance inclusions, mobility features) that vary by seller. No single regulatory body or dominant brand landscape; buyers evaluate based on configuration, build quality, and customisation options. Standard B2B research into market offerings, material standards, and typical spec patterns is needed."
+    }
+  }
+}
