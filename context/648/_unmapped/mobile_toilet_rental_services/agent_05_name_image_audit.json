@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Mobile Toilet Rental Services' directly matches the top primary keywords ('mobile toilet rental', 'mobile toilet van rental') and accurately signals the service-rental nature of the category as confirmed by market_context and alt_names.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image shows a vehicle-mounted multi-compartment mobile toilet van with access stairs and open doors revealing interior toilet units — directly matching the primary_segment of multi-seat, vehicle-mounted mobile toilet van rental for events and construction sites.",
+      "The image appears to be a Western-market truck-mounted unit photographed outdoors in a non-Indian setting (bare deciduous trees, adobe-style building), which reduces contextual relevance for Indian B2B buyers; an Indian-context FRP or steel mobile toilet van would be more representative."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A white Indian-style mobile toilet van mounted on a commercial truck chassis, with 6 individual toilet compartment doors visible along the side, metal access steps deployed, parked on a flat open ground at an outdoor event or construction site in India, bright daylight, clean white FRP body with blue accent stripe, doors slightly open to show interior, photorealistic product shot, neutral sky background, square 1:1 format, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
