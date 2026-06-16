@@ -1,0 +1,65 @@
+{
+  "enhanced_name_4w": "Bamboo Eco Resort Huts",
+  "enhanced_name_5w": "Prefab Bamboo Huts for Resorts",
+  "enhanced_name_6w": "Prefabricated Bamboo Huts for Eco Tourism",
+  "enhanced_name_long": "Prefabricated Bamboo Huts and Eco Cottages for Resorts, Restaurants, Farmhouses and Eco-Tourism Camps",
+  "alt_names": {
+    "primary_keywords": [
+      "bamboo hut",
+      "bamboo house",
+      "prefabricated bamboo hut",
+      "bamboo cottage",
+      "bamboo structure",
+      "bamboo homes",
+      "bamboo beach hut",
+      "bamboo restaurant hut",
+      "bamboo shed",
+      "bamboo eco cottage"
+    ],
+    "technical_synonyms": [
+      "bamboo culm structure",
+      "treated bamboo prefab structure",
+      "bamboo modular house",
+      "bamboo jafri house",
+      "bamboo pole construction",
+      "engineered bamboo housing",
+      "bamboo frame structure",
+      "bamboo panel hut"
+    ],
+    "trade_names": [
+      "bamboo resort hut",
+      "bamboo farm house",
+      "bamboo gazebo hut",
+      "bamboo terrace hut",
+      "bamboo guest house"
+    ],
+    "hindi_terms": [
+      "baans ka ghar",
+      "baas ki jhopdi",
+      "baans ki jhumpdi",
+      "baans ki hut",
+      "bamboo jhopdi",
+      "jhopdi"
+    ],
+    "buyer_intent_queries": [
+      "bamboo hut for resort",
+      "prefabricated bamboo house price",
+      "bamboo hut manufacturer near me",
+      "bamboo house construction cost India",
+      "bamboo hut for restaurant outdoor seating",
+      "eco-friendly bamboo cottage for farmhouse",
+      "bamboo hut design and price",
+      "bamboo house for sale India",
+      "bamboo hut on terrace installation",
+      "bamboo structure for eco-tourism"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Guard and security cabin buyers (Guard Huts, PVC Guard Huts) — utilitarian security structures with industrial/commercial-site buyer persona, incompatible with eco-tourism and hospitality buyers of bamboo huts; names implying security cabin, watchman cabin, or guard post are blocked",
+    "Portable/temporary labour accommodation buyers (Bunkhouses, MS Bunkhouse, Prefab Steel Bunk House, Bunk House Office) — construction-site and industrial-camp buyer persona seeking steel or metal units, incompatible with bamboo eco-structure buyers; names implying bunkhouse, labour camp, or site office are blocked",
+    "Tree House buyers (Tree House sibling MCAT) — elevated tree-mounted structure is a distinct sub-segment with its own buyer intent; bamboo tree house as a standalone product type is blocked from enhanced names to avoid collision with the Tree House sibling MCAT",
+    "Modular Cottages sibling buyers — generic modular cottage framing without bamboo-specific material identity risks semantic collision with the Modular Cottages sibling MCAT; names using only 'modular cottage' without bamboo qualifier are blocked"
+  ],
+  "segment_contamination_disclaimer": null
+}
