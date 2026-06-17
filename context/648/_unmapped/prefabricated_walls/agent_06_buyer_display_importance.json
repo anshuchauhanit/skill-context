@@ -1,0 +1,211 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual variation across sub-types is extreme — a PUF sandwich panel (smooth metal-faced), precast concrete panel (grey, textured), AAC wall panel (cellular lightweight), and compound wall system are visually unrecognisable as the same category. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Material type (PUF/EPS/Rock Wool/AAC/precast) and panel thickness are non-interchangeable — a cold storage buyer cannot substitute a 50mm EPS panel for a 100mm PUF panel. Without these specs visible on the listing, the buyer cannot evaluate fit and will not engage."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian B2B contractors compare per-sq-mt rates aggressively once material and thickness are confirmed. Price varies substantially across material types and thickness tiers, so it is only meaningful after spec equivalence is established — but once confirmed, price is a primary decision lever."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per square metre",
+      "unit_note": "Compound/boundary wall sub-segment is often quoted per running foot or per panel piece; large precast panels may be quoted per piece. Per sq mt is dominant for sandwich and AAC panels and must be shown to enable price comparison across sellers.",
+      "reason": "Per sq mt, per sq ft, per running foot, and per piece all coexist in this market across sub-segments. Price cannot be compared without unit clarity — a per-sq-ft quote and a per-sq-mt quote for the same panel will appear to differ by a factor of ~10 if unit is not shown."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — Tata Steel sandwich panels exist but buyers search by material type and thickness, not manufacturer name; the market is fragmented across regional fabricators and panel manufacturers.",
+      "reason": "Manufacturer vs trader status matters for large project supply reliability, installation support, and BIS compliance documentation, but company ranks last because spec and price match must be confirmed first."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Defines what the product fundamentally IS — PUF, EPS, AAC, Precast Concrete, Rockwool, and Gypsum Board are non-interchangeable across applications and carry the largest price delta of any spec in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Panel Thickness",
+        "reason": "Determines insulation and structural adequacy within a material class — a 50mm EPS panel cannot substitute for a 100mm PUF panel in cold storage, and price per sq mt changes significantly across thickness tiers."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Country Of Origin",
+      "Density",
+      "Fire Rating",
+      "Installation Service",
+      "Joint Type",
+      "Material",
+      "Panel Thickness",
+      "Surface Treatment",
+      "Usage Application",
+      "Wall Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Thermal Insulation Value",
+        "why_important": "Cold storage and energy-efficient building buyers specify minimum thermal performance (U-value or K-value in W/m·K) independently of thickness — two panels of the same thickness in different materials have very different insulation performance, and sellers need this spec to confirm product eligibility.",
+        "source": "both",
+        "example_values": [
+          "0.022 W/m·K",
+          "0.035 W/m·K",
+          "0.040 W/m·K",
+          "0.045 W/m·K"
+        ]
+      },
+      {
+        "spec_name": "Load Bearing Capacity",
+        "why_important": "Structural wall buyers (precast concrete, LGSF sub-segments) specify whether the panel must be load-bearing or non-load-bearing — a non-load-bearing partition panel cannot be used as a structural wall, and sellers need this to confirm product suitability and quote accurately.",
+        "source": "both",
+        "example_values": [
+          "Non Load Bearing",
+          "Load Bearing",
+          "Up to 50 kN/m",
+          "Up to 100 kN/m"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Wall Material",
+        "reason": "Routes the RFQ to the correct seller type — a PUF sandwich panel fabricator cannot supply precast concrete panels, and material type is the primary non-interchangeable requirement that determines which sellers can respond.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "PUF Panel",
+          "Cement Board",
+          "Precast Concrete",
+          "GI Sheet",
+          "AAC Block",
+          "Cement Panel"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Panel Thickness",
+        "reason": "Determines insulation and structural adequacy for the project — sellers need this to confirm they manufacture the required thickness and to provide an accurate per-sq-mt price.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Fire Rating",
+        "why_important": "Cold storage, cleanroom, and industrial buyers must meet fire compliance requirements — sellers need the required fire rating (Non-rated / 1-hour / 2-hour / 4-hour) to confirm product eligibility before responding to the RFQ.",
+        "source": "both",
+        "example_values": [
+          "Non Fire Rated",
+          "1 Hour",
+          "2 Hour",
+          "4 Hour"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Wall Material",
+      "option_value": "PUF Panel",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated PUF sandwich wall panel for industrial warehouse construction, smooth PPGI metal-faced surface in light grey, panel shown at slight angle to reveal foam core cross-section at cut edge, clean white studio background, sharp studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "Cement Board",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated cement board wall panel for commercial building construction, flat grey textured fibre cement surface, panel shown upright with visible board edges and uniform surface texture, clean white studio background, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "Precast Concrete",
+      "id": "spec_3",
+      "prompt_for_generation": "Precast reinforced concrete wall panel for industrial building construction, solid grey concrete surface with visible formwork texture and lifting inserts at top, panel shown upright in a construction yard setting, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "GI Sheet",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated galvanised iron sheet wall panel for factory shed construction, corrugated GI metal surface with visible ribbed profile in silver-grey finish, panel shown at slight angle, clean white studio background, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "AAC Block",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated AAC (Autoclaved Aerated Concrete) wall panel for residential and commercial construction, lightweight cellular white block surface with visible porous texture, panel shown upright with clean cut edges, white studio background, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wall Material",
+      "option_value": "Cement Panel",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated cement composite wall panel for modular building construction, smooth off-white cement panel surface with uniform finish and visible panel edges, shown flat lay on light grey background, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
