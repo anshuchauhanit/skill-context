@@ -1,0 +1,592 @@
+{
+  "mcat_description": {
+    "short": "Prefabricated steel buildings are factory-fabricated structural steel systems — comprising primary frames, secondary members, and cladding — designed, detailed, and assembled on-site using bolted connections for industrial, commercial, and institutional use.",
+    "long": "Pre-Engineered Buildings (PEBs) are integrated steel structural systems in which primary rigid portal frames (tapered built-up I-sections), secondary members (purlins, girts, eave struts), and roof/wall cladding are designed as a complete system, fabricated off-site under controlled factory conditions, and rapidly erected on-site. Structural design in India follows IS 800:2007 (general steel construction), IS 875 (wind and snow loads), IS 1893 (seismic design), and IS 2062 for structural steel grades (E250, E350). PEBs dominate industrial and warehousing construction in India due to large clear spans (typically 18–90 m), faster construction timelines (30–50% shorter than conventional), and lower foundation loads versus RCC. Buyers procure on a turnkey basis — covering design, fabrication, supply, and erection — with lead times of 8–12 weeks from order to delivery.",
+    "product_types": [
+      "Industrial warehouse PEB",
+      "Factory shed / manufacturing plant PEB",
+      "Cold storage PEB structure",
+      "Commercial complex / showroom PEB",
+      "Institutional building PEB (schools, hospitals)",
+      "Aircraft hangar PEB",
+      "Multi-storey PEB structure",
+      "Crane-compatible PEB (overhead crane bay)",
+      "Relocatable / portable steel building",
+      "Agricultural storage shed",
+      "Prefabricated site office / cabin",
+      "Sports facility / stadium PEB"
+    ],
+    "primary_applications": [
+      "Industrial warehousing and logistics hubs",
+      "Manufacturing plants and factory sheds",
+      "Cold storage and temperature-controlled facilities",
+      "Distribution centres and e-commerce fulfilment centres",
+      "Commercial showrooms and retail complexes",
+      "School and institutional buildings",
+      "Aircraft hangars and transport terminals",
+      "Multi-level parking structures",
+      "Defence and government infrastructure"
+    ],
+    "buyer_segments": [
+      "MSME manufacturers and industrial unit owners requiring factory sheds",
+      "Logistics and warehousing companies (3PL, e-commerce)",
+      "Real estate developers and EPC contractors",
+      "Institutional buyers (schools, hospitals, government bodies)",
+      "Agricultural cooperatives and food processing units",
+      "Defence and public sector undertakings",
+      "Commercial property developers"
+    ]
+  },
+  "primary_segment": "Pre-Engineered Building (PEB) for industrial warehouse and factory shed use",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Pre-Engineered Building (PEB) — factory-fabricated structural steel system for industrial, commercial, and institutional construction",
+    "secondary_families": [],
+    "reason": "All sub-types share the same structural steel frame system, IS 800/IS 875/IS 1893 regulatory framework, and B2B procurement process; no sibling MCAT carves out an incompatible buyer profile or regulatory regime."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated steel buildings",
+      "pre-engineered buildings",
+      "PEB structure",
+      "steel structure building",
+      "prefab steel structure",
+      "industrial steel building",
+      "steel shed",
+      "prefab building",
+      "steel warehouse building",
+      "relocatable steel building"
+    ],
+    "technical_synonyms": [
+      "Pre-Engineered Metal Building (PEMB)",
+      "Engineered Metal Building (EMB)",
+      "portal frame steel building",
+      "rigid frame steel structure",
+      "built-up section steel building",
+      "tapered frame building",
+      "cold-formed steel building system",
+      "structural steel shed"
+    ],
+    "trade_names": [
+      "Tata BlueScope Steel building",
+      "Pennar PEB",
+      "Kirby building",
+      "Zamil Steel building",
+      "Everest Industries PEB",
+      "Prime Build",
+      "Value Build"
+    ],
+    "hindi_terms": [
+      "prefabricated steel bhawan",
+      "steel shed",
+      "prefab shed",
+      "steel ka godown"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated steel building manufacturer in India",
+      "pre-engineered building for warehouse",
+      "PEB structure for factory shed",
+      "industrial steel shed with crane facility",
+      "prefab steel building for school",
+      "steel structure warehouse turnkey project",
+      "pre-engineered building cost per sq ft India",
+      "relocatable steel building supplier",
+      "prefabricated commercial building steel structure",
+      "PEB manufacturer near me"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian PEB buyers and sellers quote turnkey project costs per square foot of built-up area, covering primary steel, secondary members, sheeting, bolts, and erection; foundation and civil works are quoted separately.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Component/fabrication-only supply",
+        "unit": "per MT (metric tonne)",
+        "note": "Steel fabrication contractors quoting structural steel supply without erection use per-MT pricing."
+      },
+      {
+        "sub_segment": "Turnkey PEB project",
+        "unit": "per sq ft",
+        "note": "Most common B2B transaction unit for complete design-supply-erect contracts."
+      },
+      {
+        "sub_segment": "Portable/relocatable cabin",
+        "unit": "per piece / per unit",
+        "note": "Smaller portable steel cabins and site offices are quoted per unit."
+      }
+    ],
+    "sources_checked": [
+      "AS PEB Solutions (aspebsolutions.com)",
+      "ISCodeHub (iscodehub.com)",
+      "Metal Tree (metaltree.in)",
+      "Saffron Consulting Engineers (saffronconsulting.net)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Prefabricated steel buildings in India are commercially dominated by the Pre-Engineered Building (PEB) system — factory-fabricated structural steel frames assembled on-site — which has become the preferred construction method for industrial warehouses, factory sheds, and logistics hubs across India. The Indian PEB market is governed by IS 800:2007 (general steel construction), IS 875 (wind/snow loads), IS 1893 (seismic design), and IS 2062 for structural steel grades (E250, E350 being most common); some manufacturers also design to AISC and MBMA codes for export or multinational clients. Major Indian PEB vendors include Tata BlueScope, Pennar Industries, Everest Industries, Zamil Steel, and Kirby India, with a large unorganised segment of regional fabricators. Clear spans of 18–36 m are typical for Indian industrial projects, with single-span capability up to 90–100 m for hangars and sports facilities. Buyers procure on a turnkey basis (design + fabrication + erection) with lead times of 8–12 weeks; crane-compatible PEB frames (up to 50-tonne overhead crane capacity) command a significant premium over standard frames. The market is growing, driven by India's logistics and warehousing boom, PLI scheme-linked manufacturing expansion, and MSME industrial shed demand.",
+  "buyer_attracting_attributes": [
+    "Clear Span Width",
+    "Building Height (Eave Height)",
+    "Steel Grade (IS 2062 E250 / E350)",
+    "Crane Compatibility (Overhead Crane Capacity)",
+    "Cladding Type (Galvalume / Colour-Coated / Sandwich Panel)",
+    "Insulation Type (PUF / EPS / Rockwool)",
+    "Seismic and Wind Zone Compliance",
+    "Bay Spacing",
+    "Roof Slope",
+    "Surface Coating / Paint System"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "20474",
+    "mcat_name": "Prefabricated Steel Buildings",
+    "mcat_level": "4",
+    "listing_count": "8194",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Prefabricated Steel Buildings",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35592.0",
+      "name": "Prefabricated Structures",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35592.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "21344",
+        "mcat_name": "Agricultural Greenhouses",
+        "listing_count": "2151",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21649",
+        "mcat_name": "Agricultural Buildings",
+        "listing_count": "128",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "29816",
+        "mcat_name": "Greenhouse",
+        "listing_count": "5282",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33188",
+        "mcat_name": "Modular Buildings",
+        "listing_count": "917",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35398",
+        "mcat_name": "Portable Buildings",
+        "listing_count": "1196",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35589",
+        "mcat_name": "Prefabricated Buildings",
+        "listing_count": "27038",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35592",
+        "mcat_name": "Prefabricated Structures",
+        "listing_count": "14394",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38214",
+        "mcat_name": "Storage Buildings",
+        "listing_count": "939",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "39565",
+        "mcat_name": "Temporary Buildings",
+        "listing_count": "149",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42328",
+        "mcat_name": "Modular Tensile Structure",
+        "listing_count": "2417",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "50762",
+        "mcat_name": "Tensile Structures",
+        "listing_count": "9089",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88197",
+        "mcat_name": "Prefabricated Metal Building",
+        "listing_count": "901",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116157",
+        "mcat_name": "Mini Greenhouse",
+        "listing_count": "1433",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121067",
+        "mcat_name": "Aluminium Structure",
+        "listing_count": "9342",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135787",
+        "mcat_name": "Tensile Membrane Structures",
+        "listing_count": "2683",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135861",
+        "mcat_name": "Auditorium Tensile Structure",
+        "listing_count": "598",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136011",
+        "mcat_name": "Gazebo Tensile Structure",
+        "listing_count": "1508",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "148110",
+        "mcat_name": "Pre Engineered Building Structure",
+        "listing_count": "9886",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149713",
+        "mcat_name": "Polyhouse",
+        "listing_count": "3245",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154059",
+        "mcat_name": "Prefabricated School Building",
+        "listing_count": "828",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158767",
+        "mcat_name": "Greenhouse Structure",
+        "listing_count": "813",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159520",
+        "mcat_name": "Prefabricated Hospitals",
+        "listing_count": "213",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "160350",
+        "mcat_name": "Mist Chamber",
+        "listing_count": "121",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166277",
+        "mcat_name": "Naturally Ventilated Greenhouse",
+        "listing_count": "1661",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166432",
+        "mcat_name": "Prefabricated Warehouse",
+        "listing_count": "5064",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168374",
+        "mcat_name": "Heavy Structural Fabrications",
+        "listing_count": "2495",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168445",
+        "mcat_name": "MS Structure Services",
+        "listing_count": "2407",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "178587",
+        "mcat_name": "Prefabricated Industrial Buildings",
+        "listing_count": "5964",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "179245",
+        "mcat_name": "Prefabricated Labor Colony",
+        "listing_count": "1480",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181553",
+        "mcat_name": "Pre Engineered Steel Building",
+        "listing_count": "1594",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "216129",
+        "mcat_name": "RCC Labour Quarter",
+        "listing_count": "549",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315645",
+        "mcat_name": "Prefabricated Walls",
+        "listing_count": "105",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "410918",
+        "mcat_name": "Light Gauge Framing System",
+        "listing_count": "350",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "444552",
+        "mcat_name": "Prefabricated Isolation Ward",
+        "listing_count": "218",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Prefabricated steel buildings are engineered construction products subject to BIS standards (IS:800, IS:1893); buyers evaluate structural design, load capacity, and regulatory certification; no dominant brand landscape drives search behaviour."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Top Google keywords by Impressions ('steel structure building', 'relocatable steel buildings', 'prefab schools manufacturers in faridabad') used to identify buyer search vocabulary and segment signals."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "primary_segment"
+        ],
+        "citation_note": "Top internal keyword 'prefabricated steel buildings' (66 PVs) confirmed as dominant search term; 'industrial-steel-buildings' (2 PDP clicks) corroborated industrial segment primacy."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "mcat_description.primary_applications",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Call rows confirmed PEB acronym in active buyer vocabulary and institutional (school shed) as a real buyer segment."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path and listing count (8194) used as reference; 34 siblings noted but none identified as carving out an incompatible regulatory sub-segment."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.metaltree.in/",
+        "title": "Leading Pre-Engineered Buildings Manufacturer - Metal Tree",
+        "source_domain": "metaltree.in",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for IS code compliance details (IS 800:2007, IS 875, IS 1893), clear span ranges, and insulated panel types."
+      },
+      {
+        "url": "https://saffronconsulting.net/peb-structure-design.html",
+        "title": "PEB Structure Design: Complete Pre-Engineered Building Guide for India | Saffron Consulting Engineers",
+        "source_domain": "saffronconsulting.net",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for PEB system definition, component groups (primary framing, secondary members, cladding), Indian code references, and primary applications (warehouses, industrial plants, logistics hubs)."
+      },
+      {
+        "url": "https://www.jswonemsme.com/blogs/blogs-articles/what-makes-a-good-peb-key-material-specs-every-msme-should-ask-for",
+        "title": "What makes a good PEB? key material specs every MSME should ask for",
+        "source_domain": "jswonemsme.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for IS 2062 steel grades (E250, E350), IS 800 compliance, cladding standards (IS 277, IS 14246), and MSME buyer segment identification."
+      },
+      {
+        "url": "https://www.mgsarchitecture.in/building-materials-products/precast-peb/250-pre-engineered-for-success-tracking-growth-of-peb-steel-buildings-in-india.html",
+        "title": "Pre-engineered for Success: Tracking growth of PEB Steel buildings in India - MGS Architecture",
+        "source_domain": "mgsarchitecture.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for market context on PEB dominance in industrial construction, clear span capability (up to 90m), and design code landscape (IS vs AISC/MBMA)."
+      },
+      {
+        "url": "https://www.iscodehub.com/knowledge/peb-buildings",
+        "title": "PEB Buildings - Complete Guide & Specifications | ISCodeHub",
+        "source_domain": "iscodehub.com",
+        "derived_outputs": [
+          "market_context",
+          "unit_quoting_context",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for major Indian PEB vendors list, procurement process, lead times (8–12 weeks), crane compatibility specs, typical Indian industrial spans (18–36m), and unit quoting context."
+      },
+      {
+        "url": "https://aspebsolutions.com/right-prefabricated-pre-engineered-building-manufacturer-in-india/",
+        "title": "Prefabricated Engineered Building Manufacturer | AS PEB Solutions",
+        "source_domain": "aspebsolutions.com",
+        "derived_outputs": [
+          "unit_quoting_context",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for per sq ft unit quoting confirmation and primary application types (logistics hubs, warehouse buildings, manufacturing plants, agricultural storage)."
+      },
+      {
+        "url": "https://www.pennarindia.com/pre-engineered-buildings.php",
+        "title": "PEB | Pre Engineered Buildings By Pennar Industries",
+        "source_domain": "pennarindia.com",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "market_context"
+        ],
+        "citation_note": "Used for Pennar Industries as a major Indian PEB vendor, product line names (Prime Build, Value Build), and manufacturing facility details."
+      },
+      {
+        "url": "https://neothermalinsulation.com/blog/pre-engineered-building-manufacturers-in-india/",
+        "title": "5 Best Pre Engineered Building Manufacturers in India",
+        "source_domain": "neothermalinsulation.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for market size signal (PEB market expected to reach $0.888 billion by 2032, CAGR 7.40%) — single source, tagged low confidence for numeric figure."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "IBC"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Prefabricated steel buildings are engineered construction products subject to BIS standards (IS:800 for steel design, IS:1893 for seismic design) and Indian Building Code compliance. Buyers evaluate structural design, load capacity, and regulatory certification as primary signals; no dominant brand landscape drives search behaviour."
+    }
+  }
+}
