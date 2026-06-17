@@ -1,0 +1,248 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — a telecom BTS enclosure, a labour camp block, a guard cabin, and a disaster relief unit are all 'prefabricated shelters' but look entirely different. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Wall panel material, insulation thickness, frame material, and size are non-negotiable shortlisting gates — a telecom buyer needs PUF panels with IP54 compliance; a defence buyer needs IS:1893 seismic zone compliance; a contractor needs specific floor area and flooring type. Listings without these specs cannot be evaluated."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard portable cabins and guard rooms are often quoted per unit/per piece; custom industrial and telecom shelters are quoted per sq ft. Both units appear in the market — unit must be shown to prevent price comparison errors.",
+      "reason": "Per sq ft vs per unit is a genuine market ambiguity — a buyer comparing a per-sq-ft quote against a per-unit quote cannot assess value without knowing the unit. Price cannot be interpreted or compared without unit clarity."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies enormously with wall panel material, insulation grade, size, and fitout — buyers discover and compare across spec tiers, not within a fixed tier. Indian B2B buyers are price-aggressive but listed price is a budget entry point; final price is always negotiated after spec equivalence is confirmed."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Market is fragmented across regional fabricators with no dominant brand carrying buyer recall — buyers search by application, material, and spec, not manufacturer name.",
+      "reason": "Manufacturer vs trader distinction matters for installation capability, warranty, and after-sales service — particularly for defence, railway, and telecom buyers who require site erection and commissioning. Company credentials are evaluated after spec shortlisting, not before."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Wall Panel Type",
+        "reason": "Defines the fundamental material class of the shelter — FRP, PUF, GI Sheet, and EPS panels are non-interchangeable across applications (telecom requires PUF for insulation, defence requires IS:8183-compliant panels), and drive the largest price delta across the product range."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation Thickness",
+        "reason": "Defines the thermal and acoustic performance grade within a panel type — non-interchangeable for application compliance (40mm for standard site offices vs 80mm for telecom/defence enclosures), with significant price delta between thickness tiers."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Built Type",
+      "Electrical Fittings",
+      "Flooring",
+      "Frame Material",
+      "Insulation Thickness",
+      "Roofing Material",
+      "Size",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "IP / Weather Protection Rating",
+        "why_important": "Telecom BTS and equipment enclosure buyers specify IP54 or higher as a mandatory compliance requirement — sellers without this spec cannot confirm eligibility for the buyer's deployment environment.",
+        "source": "both",
+        "example_values": [
+          "IP54",
+          "IP55",
+          "IP65",
+          "Not Rated"
+        ]
+      },
+      {
+        "spec_name": "Structural Load / Seismic Zone Compliance",
+        "why_important": "Defence, railway, and government PSU buyers specify IS:875 wind load and IS:1893 seismic zone compliance in tenders — absence of this spec prevents institutional buyers from shortlisting a listing.",
+        "source": "both",
+        "example_values": [
+          "IS:875 Wind Zone III",
+          "IS:1893 Seismic Zone IV",
+          "IS:1893 Seismic Zone V",
+          "Standard Load"
+        ]
+      },
+      {
+        "spec_name": "Number of Storeys",
+        "why_important": "Single-storey and double/multi-storey prefabricated shelters are fundamentally different products with non-overlapping price ranges and structural requirements — buyers cannot shortlist without knowing whether a seller supplies multi-storey configurations.",
+        "source": "both",
+        "example_values": [
+          "Single Storey",
+          "Double Storey",
+          "Multi-Storey (3+)"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "I am interested in",
+        "reason": "Routes the RFQ to the correct seller type — a telecom shelter manufacturer, a dome shelter fabricator, and a portable shelter supplier are distinct businesses; sellers need this to determine whether they can supply the required product type.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Dome Shelters",
+          "Portable Shelters",
+          "Telecom Shelters"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area",
+        "reason": "Defines the scale of the requirement — sellers need floor area to determine manufacturing feasibility, logistics, and provide an accurate price indication per sq ft.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Application / Use Case",
+        "why_important": "Sellers need to know whether the buyer requires a security cabin, site office, labour camp, or telecom BTS enclosure to determine product type, applicable compliance standards, and fitout scope — this is the primary routing signal within the Prefabricated Shelters MCAT.",
+        "source": "both",
+        "example_values": [
+          "Security Cabin",
+          "Site Office",
+          "Labour Camp / Accommodation",
+          "Telecom BTS Shelter"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Security Cabin",
+          "Site Office",
+          "Labour Camp / Accommodation",
+          "Telecom BTS Shelter"
+        ]
+      },
+      {
+        "spec_name": "Wall Panel / Construction Material",
+        "why_important": "Sellers manufacture in specific panel materials (PUF, FRP, MS/GI Sheet) — buyers who specify their required material allow sellers to immediately confirm supply capability and provide accurate pricing.",
+        "source": "both",
+        "example_values": [
+          "PUF Panel",
+          "FRP Panel",
+          "MS / GI Sheet",
+          "EPS Panel"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "I am interested in",
+      "option_value": "Dome Shelters",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated dome shelter structure with curved geodesic steel frame and white PVC fabric cover, installed on open ground at an industrial site, natural daylight, full structure visible, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "Portable Shelters",
+      "id": "spec_2",
+      "prompt_for_generation": "Portable prefabricated cabin shelter with mild steel frame and GI sheet cladding, mounted on skids for easy relocation, placed at a construction site, natural daylight, full unit visible from a 45-degree angle, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "Telecom Shelters",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated telecom BTS shelter with PUF sandwich panel walls, grey powder-coated steel frame, ventilation louvres and cable entry points visible, installed at a telecom tower base, natural daylight, full unit visible from front-angle, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Use Case",
+      "option_value": "Security Cabin",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated security guard cabin with PUF panel walls, single door and sliding window, placed at an industrial gate entrance, natural daylight, compact single-room unit clearly visible, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Use Case",
+      "option_value": "Site Office",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated portable site office shelter with FRP or PUF panel walls, multiple windows, door with steps, placed at a construction site with equipment visible in background, natural daylight, full unit visible from front-angle, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Use Case",
+      "option_value": "Labour Camp / Accommodation",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated labour camp accommodation block with multiple rooms, PUF sandwich panel walls, row of doors and windows, installed at a large construction or mining site, natural daylight, full building block visible, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Use Case",
+      "option_value": "Telecom BTS Shelter",
+      "id": "spec_7",
+      "prompt_for_generation": "Prefabricated telecom BTS equipment shelter with insulated PUF panel walls, cable entry glands, ventilation louvres, and padlocked steel door, installed at a mobile tower base station site, natural daylight, full unit visible from front-angle, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
