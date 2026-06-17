@@ -1,0 +1,261 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is significant — an industrial PEB shed, a poultry farm shed, a terrace roofing shed, and a marriage hall shed are visually distinct structures. Buyers use the image to identify the correct product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Clear span, eave height, roofing material, and service model (supply-only vs turnkey) are primary shortlisting criteria for a capital construction purchase. Without these specs, a buyer cannot evaluate structural fit or project scope."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall — market is fragmented across regional fabricators and national players (EPACK, Kirby, Interarch); buyers search by spec, location, and price rather than brand name.",
+      "reason": "Capital construction project with post-sale dependency (erection, structural compliance, warranty) means buyers evaluate manufacturer status, IS compliance track record, and past project portfolio before committing. Seller credibility is a meaningful shortlisting signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft rate is a budget entry point that Indian buyers compare across sellers, but price changes substantially with span, height, insulation type, and service model — making it a post-spec-shortlisting signal rather than a primary filter. Final price is always project-quoted and negotiated."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Sub-segments quote differently — supply-only steel components may be quoted per kg, and large turnkey contracts as a lump-sum project cost. Per sq ft is the dominant and most buyer-comparable unit and must be shown to prevent price misreading across these quoting conventions.",
+      "reason": "Per sq ft vs per kg vs per project is a real market ambiguity confirmed across multiple Indian PEB manufacturer sources. Price cannot be meaningfully compared without knowing the unit basis."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Clear Span (Width)",
+        "reason": "Span is the primary structural dimension — non-interchangeable across project requirements (a buyer needing 80 ft clear span cannot use a 30 ft structure) and the largest single driver of steel tonnage and therefore price."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Shed Type",
+        "reason": "PEB vs Conventional vs Trussless defines the entire construction system — non-interchangeable across engineering approach, supplier capability, and price point, making it the fundamental product class separator."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Accessories",
+      "Built-up Area",
+      "Clear Span (Width)",
+      "Crane Provision",
+      "Eave Height",
+      "Intended Use",
+      "Mezzanine Floor",
+      "Roofing Material",
+      "Shed Type",
+      "Wall Cladding Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Insulation type (PUF panel, rock wool, glass wool, or none) is a primary thermal performance and cost driver — PUF sandwich panels vs uninsulated GI sheet represent fundamentally different product configurations that buyers specify upfront, not an accessory add-on.",
+        "source": "both",
+        "example_values": [
+          "No Insulation",
+          "Rock Wool",
+          "Glass Wool",
+          "PUF Sandwich Panel"
+        ]
+      },
+      {
+        "spec_name": "Service Model",
+        "why_important": "Supply-only vs supply-and-erect vs full turnkey (design + fabrication + erection) defines the entire scope of the seller's offering — a supply-only fabricator and a turnkey contractor are different seller types that buyers must distinguish before engaging.",
+        "source": "both",
+        "example_values": [
+          "Supply Only",
+          "Supply + Erection",
+          "Turnkey (Design + Fabrication + Erection)"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "I am interested in",
+        "reason": "Shed type routes the RFQ to the correct seller category — a PEB industrial shed supplier cannot serve a poultry shed buyer, making this the primary seller-routing signal.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Industrial Sheds",
+          "Poultry Sheds",
+          "Tin Shed",
+          "Prefabricated Factory Shed",
+          "Cattle Sheds",
+          "Warehouse Sheds"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area",
+        "reason": "Project area defines scale and determines whether a seller's capacity and minimum order threshold match the buyer's requirement, enabling sellers to self-select before responding.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Service Model",
+        "why_important": "A supply-only fabricator cannot serve a buyer requiring turnkey erection — sellers need this to determine whether they can fulfil the requirement before responding to the RFQ.",
+        "source": "both",
+        "example_values": [
+          "Supply Only",
+          "Supply + Erection",
+          "Turnkey"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Supply Only",
+          "Supply + Erection",
+          "Turnkey"
+        ]
+      },
+      {
+        "spec_name": "Clear Span",
+        "why_important": "Span width is the primary structural dimension — sellers cannot assess feasibility or provide an accurate quote without knowing the required clear span, as it determines steel tonnage and engineering complexity.",
+        "source": "both",
+        "example_values": [
+          "Up to 30 ft",
+          "31–60 ft",
+          "61–100 ft",
+          "Above 100 ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "I am interested in",
+      "option_value": "Industrial Sheds",
+      "id": "spec_1",
+      "prompt_for_generation": "Large pre-engineered steel industrial shed with colour-coated metal roofing, wide clear-span interior, industrial setting, natural daylight, no people, no branding, photorealistic exterior view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "Poultry Sheds",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated poultry farm shed with elongated low-profile steel structure, ventilation louvers along sidewalls, rural agricultural setting, natural daylight, no people, no branding, photorealistic exterior view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "Tin Shed",
+      "id": "spec_3",
+      "prompt_for_generation": "Simple corrugated tin sheet shed with tubular steel frame, sloped single-pitch roof, small footprint, semi-urban or industrial yard setting, natural daylight, no people, no branding, photorealistic exterior view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "Prefabricated Factory Shed",
+      "id": "spec_4",
+      "prompt_for_generation": "Pre-engineered building factory shed with wide-span steel portal frame, colour-coated roof and wall cladding, large roller shutter doors, industrial estate setting, natural daylight, no people, no branding, photorealistic exterior view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "Cattle Sheds",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated cattle shed with open-sided steel frame structure, corrugated metal roof, concrete floor, rural farm setting, natural daylight, no animals or people visible, no branding, photorealistic exterior view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "I am interested in",
+      "option_value": "Warehouse Sheds",
+      "id": "spec_6",
+      "prompt_for_generation": "Large pre-engineered warehouse shed with high eave height, colour-coated metal roofing and wall cladding, loading dock doors, logistics park setting, natural daylight, no people, no branding, photorealistic exterior view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Service Model",
+      "option_value": "Supply Only",
+      "id": "spec_7",
+      "prompt_for_generation": "Pre-engineered building steel structural components — columns, rafters, purlins, and colour-coated roofing sheets — stacked and bundled on a factory yard, ready for dispatch, no assembled structure visible, industrial setting, natural daylight, no people, no branding, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Service Model",
+      "option_value": "Supply + Erection",
+      "id": "spec_8",
+      "prompt_for_generation": "Pre-engineered steel shed under active construction — primary steel frame columns and rafters bolted in place, roofing sheets partially installed, construction site setting, natural daylight, no people, no branding, photorealistic exterior view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Service Model",
+      "option_value": "Turnkey",
+      "id": "spec_9",
+      "prompt_for_generation": "Fully completed pre-engineered building industrial shed — finished exterior with colour-coated roof and wall cladding, access doors installed, landscaped surroundings, industrial estate setting, natural daylight, no people, no branding, photorealistic exterior view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
