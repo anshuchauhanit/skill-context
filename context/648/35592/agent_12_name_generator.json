@@ -1,0 +1,70 @@
+{
+  "enhanced_name_4w": "Prefab Industrial Building Structures",
+  "enhanced_name_5w": "Prefab Steel Shed and Building Systems",
+  "enhanced_name_6w": "PEB Prefab Sheds Warehouses and Industrial Buildings",
+  "enhanced_name_long": "Pre-Engineered Steel Buildings, Prefabricated Industrial Sheds, Warehouses, Portable Cabins and Modular Structures for Factory, Commercial and Institutional Use",
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated structures",
+      "prefab structure",
+      "pre engineered building",
+      "PEB structure",
+      "prefab shed",
+      "prefabricated shed",
+      "modular structure",
+      "prefabricated building",
+      "pre fab structure",
+      "fabricated structure"
+    ],
+    "technical_synonyms": [
+      "Pre-Engineered Building (PEB)",
+      "Pre-Engineered Metal Building (PEMB)",
+      "LGSF structure",
+      "light gauge steel frame building",
+      "sandwich panel structure",
+      "cold-formed steel structure",
+      "systems building",
+      "modular prefab construction",
+      "prefabricated concrete structure",
+      "mixed composite construction"
+    ],
+    "trade_names": [
+      "PEB shed",
+      "porta cabin",
+      "portable cabin",
+      "puff panel structure",
+      "container home",
+      "prefab room",
+      "ready-made structure",
+      "prefab house",
+      "bunkhouse",
+      "labour colony structure"
+    ],
+    "hindi_terms": [
+      "प्रीफैब्रिकेटेड स्ट्रक्चर",
+      "प्रीफैब शेड",
+      "पोर्टा केबिन",
+      "रेडीमेड स्ट्रक्चर"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated structure manufacturer in India",
+      "PEB shed for warehouse construction",
+      "prefab industrial shed with insulation",
+      "portable cabin for site office",
+      "prefabricated room structure with dimensions",
+      "pre engineered building for factory",
+      "modular prefab structure for terrace",
+      "prefabricated hall structure for marriage",
+      "container home prefab room India",
+      "prefabricated structures cost in India"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Agricultural/horticultural buyers seeking greenhouse, polyhouse, or mist chamber structures — these buyers are farmers and agri-operators with fundamentally different use contexts and price tiers from industrial/commercial prefab buyers; terms such as greenhouse, polyhouse, naturally ventilated, agricultural building, and mist chamber are blocked.",
+    "Tensile/membrane structure buyers seeking fabric-based canopy or shade structures (tensile structures, tensile membrane, modular tensile, gazebo tensile, auditorium tensile) — these buyers seek fabric-and-frame canopy solutions, not steel-panel prefab buildings; tensile-specific terms are blocked.",
+    "Specialist institutional sub-segment buyers where a dedicated sibling MCAT already carves out that segment — terms that would exclusively attract buyers of prefabricated school buildings, prefabricated hospitals, prefabricated isolation wards, or prefabricated labour colonies as standalone product searches are blocked to avoid collision with those sibling MCATs.",
+    "Aluminium structure buyers and heavy structural fabrication buyers — these attract buyers seeking aluminium-frame or heavy-steel fabrication services rather than complete prefab building systems; aluminium structure and heavy structural fabrication terms are blocked."
+  ],
+  "segment_contamination_disclaimer": null
+}
