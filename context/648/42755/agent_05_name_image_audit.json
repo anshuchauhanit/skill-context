@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Security Cabins' directly matches the top primary keyword and is the dominant buyer search term confirmed across alt_names and market_context; no more specific or technically precise name would improve discoverability without narrowing scope.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows a compact MS sheet security guard cabin with sliding glass windows and a roof ventilator on a clean white background — correctly representing the primary segment of prefabricated portable security guard cabins for gate deployment.",
+      "Improvement is possible: the cabin appears to be a plain grey corrugated MS sheet variant only; a PUF-panel or dual-tone finished cabin with a visible door would better represent the broader primary segment and appear more premium to buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated portable security guard cabin with PUF sandwich panel walls in light grey and blue two-tone finish, sliding glass windows on the front face, a single hinged entry door on the side, corrugated metal roof with slight overhang, mounted on a flat MS base frame, photographed at a slight 3/4 angle on a clean white background, bright even studio lighting, sharp product-catalogue style, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
