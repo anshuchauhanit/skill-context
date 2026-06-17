@@ -1,0 +1,45 @@
+{
+  "agent": "Agent 8 — Category Nature",
+  "mcat": "Telephone Booths",
+  "mcat_id": "38456",
+  "is_vague_signal_scoring": {
+    "agent3_prior": {
+      "suspected_vague": false,
+      "note": "Agent 3 did not flag mcat_vagueness_signal; primary_segment is confident and unhedged."
+    },
+    "signal_1_name_ambiguity": {
+      "fires": false,
+      "evidence": "'Telephone Booths' resolves to one product concept — a self-contained enclosure for telephony privacy. The name does not admit unrelated industry interpretations; 'traditional kiosk' vs 'modern acoustic pod' are form-factor variants of the same concept, not incompatible product families."
+    },
+    "signal_2_primary_segment_difficulty": {
+      "fires": false,
+      "evidence": "Agent 3 produced a confident, unhedged primary_segment: 'FRP and acoustic prefabricated telephone booth for office privacy, industrial telephony, and institutional use' — no 'or/depends on' hedging present."
+    },
+    "signal_3_intent_queries_diverge": {
+      "fires": false,
+      "evidence": "All buyer_intent_queries cluster around one purchase context — acquiring an enclosure for telephony or acoustic privacy; 'PCO booth', 'office phone pod', 'industrial acoustic booth' are spec/deployment variants of the same intent, not incompatible purchase occasions."
+    },
+    "signal_4_product_types_no_shared_buyer": {
+      "fires": false,
+      "evidence": "FRP kiosk, acoustic office pod, industrial booth, outdoor kiosk — different deployment contexts but the buyer archetype is consistently a facility/procurement manager seeking a prefabricated acoustic enclosure for communication privacy."
+    },
+    "signal_5_regulatory_or_sibling_carveout": {
+      "fires": false,
+      "evidence": "No sibling MCAT carves out a sub-type with an incompatible regulatory regime or buyer profile; siblings (Office Cabin, FRP Cabin, Toll Booth, Frisking Booth) are adjacent prefab structures, not competing telephone booth sub-types. No regulatory incompatibility exists across product_types."
+    },
+    "signals_fired": 0,
+    "is_vague_verdict": "no"
+  },
+  "category_nature": {
+    "is_generic": false,
+    "is_specific": true,
+    "is_vague": false,
+    "is_thin": false,
+    "is_branded": false,
+    "is_service": false,
+    "reason": [
+      "is_specific: the MCAT name 'Telephone Booths' tightly bounds the product scope to prefabricated acoustic enclosures for telephony/communication privacy; buyer intent is homogeneous across form-factor variants (FRP kiosk, acoustic pod, industrial booth) and 419 listings with no listing_count_suspect flag confirms sufficient standalone volume.",
+      "is_generic/is_vague both no: the page does not show a diffuse umbrella of unrelated sub-types — all product_types share the same buyer archetype (facility/procurement manager seeking a prefab acoustic enclosure) and 0 of 5 vagueness signals fire; the decorative/prop booth contamination risk noted by Agent 3 is a listing-quality issue, not a structural vagueness signal."
+    ]
+  }
+}
