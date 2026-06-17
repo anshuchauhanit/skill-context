@@ -1,0 +1,6 @@
+{
+  "location_exception": false,
+  "location_exception_reason": "Toll booths are installed at specific highway locations, but the location is a deployment detail, not a buyer decision factor. Buyers (NHAI contractors, toll operators) procure the cabin structure itself; the installation site is determined by the toll plaza project, not by the product listing. Location in the title adds no product intelligence.",
+  "biz_exception": false,
+  "biz_exception_reason": "Business-type words (Manufacturer, Supplier, Contractor) in toll booth titles are redundant. IndiaMART's seller-type filter already exposes whether the seller is a Manufacturer, Supplier, or Contractor. Removing 'Manufacturer' from 'Toll Booth Cabin Manufacturer' leaves the product meaning unchanged — it is still a toll booth cabin. The business relationship is not the product; the cabin structure is."
+}
