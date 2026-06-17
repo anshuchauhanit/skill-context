@@ -1,0 +1,41 @@
+{
+  "agent": "Agent 8 — Category Nature",
+  "mcat": "PVC Toilet",
+  "mcat_id": "222823",
+  "agent3_prior_check": {
+    "suspected_vague_from_agent3": false,
+    "note": "Agent 3 did not emit mcat_vagueness_signal; primary_segment is confident and unhedged — 'Prefabricated PVC toilet cabin — portable, readymade single-unit sanitation structure for construction sites and public sanitation'."
+  },
+  "is_vague_signal_scoring": {
+    "signal_1_name_ambiguity": {
+      "fires": false,
+      "evidence": "'PVC Toilet' resolves unambiguously to a PVC-material portable toilet cabin; no competing product category in a different industry shares this name — a buyer reading it expects exactly one product type."
+    },
+    "signal_2_primary_segment_difficulty": {
+      "fires": false,
+      "evidence": "Agent 3 produced a confident, unhedged primary_segment with no 'or/depends on/varies' qualifiers."
+    },
+    "signal_3_buyer_intent_queries_diverge": {
+      "fires": false,
+      "evidence": "All buyer_intent_queries cluster around one purchase context — procuring a portable PVC sanitation cabin; sub-variants (Indian/Western style, single/multi-compartment) are spec refinements within the same intent, not incompatible intents."
+    },
+    "signal_4_product_types_no_shared_buyer": {
+      "fires": false,
+      "evidence": "All product_types (squat cabin, WC cabin, urinal cabin, bio-toilet cabin, multi-compartment block) share the same buyer archetype — someone procuring a portable sanitation unit; material and configuration vary but buyer profile does not."
+    },
+    "signals_fired": 0,
+    "is_vague_verdict": false
+  },
+  "category_nature": {
+    "is_generic": false,
+    "is_specific": true,
+    "is_vague": false,
+    "is_thin": false,
+    "is_branded": false,
+    "is_service": false,
+    "reason": [
+      "is_specific: the MCAT name tightly bounds both material (PVC) and product concept (portable toilet cabin); buyer intent is homogeneous across all sub-variants (squat, WC, bio, multi-compartment) — all are prefabricated sanitation structures procured by the same buyer archetype; 343 listings with a confident primary_segment confirm sufficient scope and coherence.",
+      "is_thin: false — 343 listings is a healthy count for a material-specific portable toilet sub-category; sibling context (FRP Portable Toilet at 6,032 and FRP Modular Toilet at 735) confirms PVC is a recognised distinct material segment with standalone demand, not a residual catch-all."
+    ]
+  }
+}
