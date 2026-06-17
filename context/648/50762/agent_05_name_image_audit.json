@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "\"Tensile Structures\" is the dominant primary keyword confirmed across Agent 3 alt_names (primary_keywords[0]) and buyer_intent_queries, and aligns with standard market nomenclature used by fabricator-installers and buyers in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail depicts a large-span PTFE/fibreglass airport-terminal tensile roof (visually consistent with Denver International Airport), which represents a premium infrastructure sub-segment — not the primary segment of PVC-coated polyester car parking / entrance canopy structures that dominate the Indian B2B market.",
+      "While the image is technically a tensile structure and is not wrong in category, it misrepresents the primary buyer context (SME fabricators, car parking sheds, commercial canopies) and may mislead buyers seeking everyday tensile canopy solutions, warranting replacement with a primary-segment-aligned image."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product photograph of a PVC-coated polyester tensile structure canopy installed over a commercial car parking area, featuring a white or light grey membrane fabric stretched over a galvanised mild steel framework with visible cable tensioning, conical or sail-shaped roof form, clean modern aesthetic, shot from a slight low angle against a clear blue sky background, sharp focus on fabric texture and steel mast detail, bright natural daylight, no people, no text overlays, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
