@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Wooden Cabins' is materially constrained to timber-framed prefabricated/portable structures; all product_types (site-office cabin, resort cottage, A-frame, log cabin, glamping pod) share the same buyer archetype (someone procuring a wooden prefab structure) and the same supplier type — 0 vagueness signals fire and Agent 3 named a confident primary_segment without hedging.",
+    "is_generic: false because the MCAT is bounded by material (wood/timber) and form-factor (cabin/enclosed structure), distinguishing it from the parent 'Portable Cabin' (13,877 listings, any material) which is the true catch-all; is_thin: false because 665 listings with listing_count_suspect: false and active commercial demand in resort/hospitality and site-office segments."
+  ]
+}
