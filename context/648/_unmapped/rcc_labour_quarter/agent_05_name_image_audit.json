@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'RCC Labour Quarter' directly matches the top primary keyword and is the dominant trade term used by buyers and manufacturers across IndiaMART listings and market context; technical synonyms confirm 'RCC' and 'labour quarter' are the canonical identifiers for this India-specific B2B category.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The image shows a structure with a corrugated metal/asbestos sheet roof and roller-shutter panels — consistent with a portable cabin or sheet-metal prefab unit, not a precast RCC concrete room unit which would have concrete slab walls and ceiling.",
+      "The primary segment requires a factory-cast reinforced cement concrete modular room unit; this thumbnail misrepresents the product type and would mislead buyers searching for RCC (concrete) construction, not metal-panel construction."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A standalone precast RCC (reinforced cement concrete) modular labour quarter room unit on a construction site, showing smooth grey concrete slab walls, flat RCC concrete roof, a single wooden or steel door at centre, one small window on the side wall, orange or cream painted exterior finish, placed on levelled ground with a clean white or light grey studio-style background, front-facing three-quarter view, bright even lighting, sharp product photography style, no people, no vehicles, no trees, no clutter.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
