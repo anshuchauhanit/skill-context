@@ -1,0 +1,66 @@
+{
+  "enhanced_name_4w": "Prefab Steel Frame House",
+  "enhanced_name_5w": "Modular Steel Frame Prefab House",
+  "enhanced_name_6w": "LGSF Modular Steel Prefab Residential House",
+  "enhanced_name_long": "Prefabricated Light Gauge Steel Frame House for Residential, Labour Camp and Institutional Use",
+  "alt_names": {
+    "primary_keywords": [
+      "steel house",
+      "steel home",
+      "prefabricated steel house",
+      "steel structure house",
+      "readymade steel house",
+      "modular steel house",
+      "steel frame house",
+      "prefab steel home",
+      "steel wala makan",
+      "iron structure house"
+    ],
+    "technical_synonyms": [
+      "LGSF house",
+      "light gauge steel frame house",
+      "pre-engineered steel house",
+      "modular prefab structure",
+      "steel panel house",
+      "PUF panel steel house",
+      "sandwich panel steel house",
+      "MS frame prefab house",
+      "steel structure building"
+    ],
+    "trade_names": [
+      "Tata Nest-In",
+      "EPACK Prefab",
+      "Loom Crafts Prefab",
+      "Wedge India Prefab",
+      "Bajaj Prefab House",
+      "Darq India Prefab"
+    ],
+    "hindi_terms": [
+      "स्टील का मकान",
+      "स्टील वाला मकान",
+      "प्रीफैब्रिकेटेड स्टील घर",
+      "स्टील स्ट्रक्चर हाउस",
+      "रेडीमेड स्टील मकान"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated steel house price in India",
+      "steel structure house for labour camp",
+      "readymade steel house manufacturer India",
+      "modular steel house for farmhouse",
+      "steel frame prefab home for residential use",
+      "steel house for PMAY government project",
+      "LGSF prefab house manufacturer India",
+      "steel room prefab house manufacturer",
+      "prefab steel home for worker accommodation"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Wooden/log/bamboo frame house buyers (siblings: Wooden House, Log Homes, Log Cabin, Prefabricated Wooden House, Bamboo Huts) — buyers seeking natural or timber-frame construction are incompatible with steel-frame buyers; discard any name containing wood, wooden, timber, log, bamboo, or natural material references",
+    "Container-converted dwelling buyers (sibling: Container Homes) — buyers seeking ISO shipping container conversions are a distinct sub-segment with different structural and regulatory expectations; discard any name leading with 'container home' or 'container house' as primary descriptor",
+    "Guard hut / security cabin micro-structure buyers (siblings: Guard Huts, PVC Guard Huts) — buyers seeking small single-purpose security enclosures are incompatible with residential/accommodation house buyers; discard any name that primarily targets guard room or security kiosk use",
+    "Prefab bunkhouse-only buyers (siblings: Bunkhouses, Prefab Steel Bunk House, MS Bunkhouse, Bunk House Office) — bunkhouse is a specific dormitory-style labour accommodation sub-type carved out as its own sibling; discard any name using 'bunkhouse' or 'bunk house' as the primary descriptor",
+    "Portable/temporary hut buyers (siblings: Portable Huts, Prefabricated Hut, Portable House, Mild Steel Portable House) — buyers seeking ultra-portable or hut-style temporary shelters are a distinct segment; discard any name leading with 'portable hut' or 'prefab hut' as primary descriptor"
+  ],
+  "segment_contamination_disclaimer": null
+}
