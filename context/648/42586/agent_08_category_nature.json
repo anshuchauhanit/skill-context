@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Toilet Cubicles' maps to a well-bounded product — prefabricated modular washroom partition stalls; all product_types share a common buyer (interior contractors, architects, facility managers) and a single purchase context (fitting out commercial washroom stalls); 0 vagueness signals fire — the name resolves to one product concept with no incompatible intent clusters across buyer_intent_queries or product_types.",
+    "is_thin: listing_count of 4,466 is substantial and Agent 3 flagged listing_count_suspect: false; is_branded: no brand or trademark anchors the MCAT name; is_service: physical product (panels, doors, hardware assembled on-site); is_generic: page shows material and configuration variants (HPL, SS, FRP, floor-mounted, ceiling-hung) but all serve the same buyer intent — creating toilet stalls — making this a bounded specific category, not a diffuse catch-all."
+  ]
+}
