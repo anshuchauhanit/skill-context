@@ -1,0 +1,1142 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "172347410",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Factory Roofing Tin Shed",
+      "description": "We are leading manufacturer & supplier of Tin Shed.\nWe ensure to provide good quality products to our customers.",
+      "specs": {
+        "raw": "Accessories:Turbo Ventilators, Clear Span (Width):12 m (40 ft), Crane Provision:With Crane, Eave Height:9 m (30 ft), Insulation:Non-Insulated, Material:Mild Steel (MS), Roof Type:Single Slope Roof, Structure Type:Pre-Engineered, Wall Cladding:Partial Masonry"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2021/12/FS/VL/YX/62559634/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/factory-roofing tin shed-24323892973.html",
+      "image_file": "172347410.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large dark grey colour-coated profiled steel sheet industrial shed under construction with curved roof profile, brick base course, and door opening clearly visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Factory Roofing Tin Shed) but lacks span dimension, sheet material, or insulation detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide clear span (12m), eave height (9m), roof type (single slope), structure type (pre-engineered), crane provision, MS material, and wall cladding type."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic manufacturer/supplier claim with no product-specific attributes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Pre-engineered MS frame factory roofing shed with colour-coated steel cladding is the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Factory Roofing Tin Shed' only, missing span dimension, sheet material type, and insulation specification."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; strong specs compensate for thin description and acceptable title.",
+      "source_url": "https://www.indiamart.com/proddetail/factory-roofing tin shed-24323892973.html"
+    },
+    {
+      "item_id": "230296780",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefab Tin Shed",
+      "description": "We are the leading manufacturer of industrial sheds and offring the best Pre Engineered Metal Building for all over india.",
+      "specs": {
+        "raw": "Accessories:Skylight, Brand:Paramount Roofing System, Built Type:Prefab, Built-up Area:Above 50000 sq.ft, Clear Span (Width):81-100 ft (30 m), Coating:Aluminium Zinc, Colour:Blue, Country of Origin:Made in India, Crane Provision:Yes, Eave Height:Above 35 ft, Frame Material:Mild Steel, Height:25 Feet, Intended Use:Warehouse, Is It Waterproof:Yes, Material:Tin, Mezzanine Floor:Yes, Roofing Material:Galvalume Sheet, Roof Shape:Sloping, Shed Type:PEB (Pre-Engineered), Sheet Thickness:0.50 mm, Usage:Industrial, Usage/Application:Warehouse, Wall Cladding Material:Profiled Sheet"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/3/588773105/JJ/GZ/KF/48698825/prefab-tin-shed.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefab-tin shed-2849569777912.html",
+      "image_file": "230296780.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large-span industrial warehouse shed complex with white/light grey profiled steel sheet walls and roof, multiple bays, and ventilation louvers clearly visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (Prefab Tin Shed) but lacks span, coating type, or intended use detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide Galvalume sheet roofing, 0.50mm thickness, PEB type, clear span 81–100ft, eave height above 35ft, warehouse use, mezzanine floor, crane provision, and aluminium zinc coating."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic 'leading manufacturer' claim with no specific product attributes beyond 'Pre Engineered Metal Building'."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Large-span PEB warehouse tin shed with Galvalume roofing is a recognised product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Warehouse Sheds",
+        "reason": "Specs explicitly state intended use as warehouse with above 50,000 sq ft built-up area and PEB structure type, matching the Warehouse Sheds sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Prefab Tin Shed' only, missing span dimension, Galvalume coating, and warehouse application detail."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; strong specs with full dimensional and material detail; sibling routing to Warehouse Sheds noted.",
+      "source_url": "https://www.indiamart.com/proddetail/prefab-tin shed-2849569777912.html"
+    },
+    {
+      "item_id": "311818282",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Tin Shed Fabrication work",
+      "description": "<p><b>R.K. Tinset</b> is a trusted <b>manufacturer and provider of Tin Shed Fabrication for Cow</b>, offering durable, weather-resistant, and hygienic shelter solutions for dairy and livestock farming across <b>Pan Rajasthan</b>. Our tin sheds are designed to provide <b>safe, ventilated, and comfortable housing for cows</b>, protecting them from harsh weather conditions while ensuring proper airflow and hygiene.</p>\n<p>We use <b>premium galvanized tin sheets and sturdy steel frameworks</b> to fabricate sheds that are strong, long-lasting, and easy to maintain. Each shed can be <b>customized in size, design, and layout</b> to meet the specific requirements of farms and dairy operations.</p>\n<p><b>Key Features:</b></p>\n<ul>\n<li>\n<p>Fabricated with high-quality tin sheets and steel framework</p>\n</li>\n<li>\n<p>Weatherproof, rust-resistant, and durable construction</p>\n</li>\n<li>\n<p>Ventilated design for animal comfort and hygiene</p>\n</li>\n<li>\n<p>Custom size and layout as per farm requirements</p>\n</li>\n<li>\n<p>Quick installation and low-maintenance solution</p>\n</li>\n</ul>\n<p><b>Applications:</b><br /> Dairy Farms | Cattle Housing | Livestock Sheds | Agricultural Units | Farm Storage</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Height:20 Feet, Length:Up to 20 m (Up to 65 ft), Material Grade:Mild Steel, Service Type:New Fabrication, Shed Height:Above 12 m, Shed Span:15 To 25 m, Shed Type:Industrial Shed"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/10/553196224/TX/ZA/QO/57282277/tin-shed-fabrication-for-cow.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/tin-shed fabrication work-2857721928497.html",
+      "image_file": "311818282.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large-span open-sided tin shed on MS column frame with corrugated GI sheet roofing under construction at sunset, clearly identifiable as an agricultural/cattle shed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Tin Shed Fabrication work' is vague and lacks application (cattle/dairy), material type, or span detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide shed span (15–25m), height (20ft), length (up to 20m), mild steel grade, and new fabrication service type."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description details cattle/dairy shed with galvanised tin sheets and steel framework, weatherproof/rust-resistant construction, ventilated design, and custom sizing for farm requirements."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Agricultural/cattle tin shed fabrication is a recognised product type within this MCAT; application variation does not disqualify the product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'R.K. Tinset' (business name) and 'Pan Rajasthan' (geographic region) embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Cattle Sheds",
+        "reason": "Description explicitly states fabrication for cow/dairy/livestock housing, matching the Cattle Sheds sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Tin Shed Fabrication work' only, missing application (cattle/dairy), material type, and span dimension."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'R.K. Tinset' (business name) and 'Pan Rajasthan' (geographic region) in the product description text."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; strong description and good image compensate for thin title; P16 flagged for business name and geographic region in description.",
+      "source_url": "https://www.indiamart.com/proddetail/tin-shed fabrication work-2857721928497.html"
+    },
+    {
+      "item_id": "135398107",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Steel Tin Shed",
+      "description": "<p><b>Tin Sheds - Easy Fit And Less Maintainence.<br /></b><br />This is totally fabricated product Setup on site. <br />Dismanteling &amp; Easy Fitting Structure, easy To Take Care. <br />Specifically Desgined as per by customers requirement.</p>",
+      "specs": {
+        "raw": "Brand:All, Colour:As per Customer Need, Country of Origin:Made in India, Design:Pre Fabricated, Frame Material:Best Suitable in Accordance With Requirement, Height:As per The Need Of client"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2020/9/FG/QR/JO/21588351/tin-sheds.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-tin shed-20628962930.html",
+      "image_file": "135398107.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows an open-sided blue colour-coated corrugated steel sheet shed on MS pipe frame columns with MS sections visible on the ground in a construction site context."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Steel Tin Shed' names material and product type but lacks span, colour, or application detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs list only brand, colour, country, design type, and height as 'as per client' with no concrete dimensions or material specifications."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description mentions easy fit, low maintenance, site fabrication, and custom design but provides no material spec, span, or application detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefabricated steel tin shed is the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs provide no concrete dimensions, sheet thickness, or frame material specification — all values are 'as per customer' or generic placeholders."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; good image compensates for thin specs and description; no active failures detected.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-tin shed-20628962930.html"
+    },
+    {
+      "item_id": "153520670",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Roofing Tin Shed",
+      "description": "Roofing Tin Shed",
+      "specs": {
+        "raw": "Country of Origin:Made in India, Frame Material:Mild steel"
+      },
+      "image_url": "http://5.imimg.com/data5/XX/HO/VC/ANDROID-9197108/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/roofing-tin shed-22441219273.html",
+      "image_file": "153520670.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows only the interior ceiling/roof view of a corrugated GI sheet shed with MS purlin frame and skylight openings; exterior structure, span, and overall scale are not visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Roofing Tin Shed' is minimal with no material spec, span, application, or differentiating attribute."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs provide only country of origin and frame material (mild steel) with no span, height, sheet type, or application."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is just the title text repeated ('Roofing Tin Shed') with no additional product information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Roofing tin shed is the primary segment of this MCAT; thin content does not disqualify the product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Roofing Tin Shed' only, missing material specification, span dimension, and application detail."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs provide only country of origin and frame material with no span, height, sheet type, or application."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the interior ceiling/roof view; exterior structure, span, and overall scale of the shed are not visible to the buyer."
+        }
+      ],
+      "verification_note": "Pre-label good retained; all dimensions thin but no active contradiction or category failure; thinness alone does not override to bad.",
+      "source_url": "https://www.indiamart.com/proddetail/roofing-tin shed-22441219273.html"
+    },
+    {
+      "item_id": "119253901",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Tin Bluescope Shed",
+      "description": "<p>We are a well-known company in offering <b>Tin Bluescope Shed</b>, which is widely renowned for its durability and high quality.</p>",
+      "specs": {
+        "raw": "Built Type:Modular, Corrosion Resistance:Yes, Feature:Easily Assembled, Material:Tin, Waterproof:Yes"
+      },
+      "image_url": "http://5.imimg.com/data5/NW/EM/MY-48283816/tin-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/tin-bluescope shed-19012175833.html",
+      "image_file": "119253901.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a complete prefabricated metal carport/portable shed structure with arched roof, partial end wall, roller door, and open sides set in an outdoor parking area."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Tin Bluescope Shed' names material brand (BlueScope Steel) and product type but lacks span or application detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs list modular build type, corrosion resistance, easy assembly, tin material, and waterproof but provide no span, height, or frame material specification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic 'well-known company' claim with only durability and high quality mentioned."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefabricated modular tin/metal shed is a valid product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Portable Garage",
+        "reason": "Image shows a Western-style prefab metal carport with arched roof and partial enclosure typical of portable garage products, matching the Portable Garage sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs provide no span, height, or frame material specification — only generic attributes like corrosion resistance and waterproof."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good; photo is good_image showing a valid prefab metal shed, no contradictions, category valid; sibling routing to Portable Garage noted.",
+      "source_url": "https://www.indiamart.com/proddetail/tin-bluescope shed-19012175833.html"
+    },
+    {
+      "item_id": "279679444",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Fabricated Tin Shed",
+      "description": "<p>\"Tin Shed: A practical and budget-friendly storage solution made from galvanized tin. Perfect for agricultural, industrial, or workshop use, offering durability, weather resistance, and low maintenance with easy setup and long-lasting performance.\"</p>\n&nbsp;",
+      "specs": {
+        "raw": "Built Type:Prefab, Height:20 Feet, Is It Waterproof:Yes, Material:Steel, Usages:Industrial"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/8/444493233/DS/CM/PM/226481209/fabricated-tin-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/fabricated-tin shed-2854508044497.html",
+      "image_file": "279679444.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large teal colour-coated corrugated steel sheet industrial shed with multiple loading bay openings, full wall cladding, and MS column frame clearly visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Fabricated Tin Shed' names construction method and product type but lacks span, material spec, or application detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs provide prefab build type, 20ft height, waterproof, steel material, and industrial usage but no span, sheet thickness, or frame specification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description mentions galvanized tin material, agricultural/industrial/workshop use, durability, weather resistance, and low maintenance — reasonable product description."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Fabricated tin shed for industrial use is the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs provide no span dimension, sheet thickness, or frame material specification beyond generic prefab/industrial attributes."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good; photo is good_image showing a valid large-span industrial tin shed, acceptable description, no contradictions, category valid.",
+      "source_url": "https://www.indiamart.com/proddetail/fabricated-tin shed-2854508044497.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "186989340",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Tin Shed",
+      "description": "<p>NPEC after the initial start of the construction process maintains proper transparency with the customer for complete satisfaction and approval. NPEC uses its own logistic service to transport the raw materials, parts and components to ensure safe and timely supply of materials.</p>\n<p>Every bridge component is manufactured under roof, so our production processes are not affected by weather. All our facilities are served by rail spur allowing us to source material tailored to project requirements. We have a strong, established reputation for exceeding expectations and delivering on-time to our customers.</p>",
+      "specs": {
+        "raw": "Country of Origin:Made in India, Frame Material:steel, Size:Min 12000-15000 square feet"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/5/SN/MK/DM/20811851/tin-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/tin-shed-25788086033.html",
+      "image_file": "186989340.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large blue colour-coated corrugated steel sheet industrial shed with full wall cladding, single-slope roof, and sliding door opening clearly visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Tin Shed' is the bare minimum with no material, span, application, or type detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs provide only country of origin, frame material (steel), and minimum size (12,000–15,000 sq ft) with no sheet type, height, or application."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description discusses bridge component manufacturing, rail spur logistics, and bridge construction operations with no mention of tin sheds."
+        },
+        "category": {
+          "valid": true,
+          "reason": "The product (tin shed) is valid for this MCAT; the description content is wrong/misleading but the product identity is correct."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description",
+          "photo_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title says 'Tin Shed' but description discusses bridge component manufacturing, rail spur logistics, and bridge construction operations with no mention of sheds.",
+          "Image shows a blue steel sheet industrial shed but description describes a bridge construction company's manufacturing and logistics processes."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'NPEC' (company abbreviation/name) embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Image shows a blue steel sheet industrial shed but description describes bridge component manufacturing and rail spur logistics with no shed content."
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title says 'Tin Shed' but description discusses bridge construction operations, bridge components, and rail spur logistics."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a bridge construction company's manufacturing processes, not a tin shed product."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Tin Shed' only, missing material type, span dimension, and application detail."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'NPEC' (company name) embedded in the product description text."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; misleading description about bridge construction actively contradicts the tin shed title and image.",
+      "source_url": "https://www.indiamart.com/proddetail/tin-shed-25788086033.html"
+    },
+    {
+      "item_id": "237791132",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Factory Shed",
+      "description": "<b>Achievers Design Studio</b>&nbsp;is the best-known firm involved in&nbsp;<b>Service Provider</b>&nbsp;of products like&nbsp;<b>Shed Fabrication Service, Railing Fabrication Service</b>&nbsp;and much more",
+      "specs": {
+        "raw": "Built-Up Area:as per choice, Center Height:As per customer, Cladding Material:as per choice, Crane Provision:as per choice, Intended Use:as per choice, Shed Type:as per choice"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2023/2/ID/WF/SL/73065924/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/factory-shed-2850319213155.html",
+      "image_file": "237791132.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image is a mobile screenshot showing an interior ceiling view of a corrugated sheet shed roof with phone UI and URL slug visible; overall structure and scale are not assessable."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Factory Shed' lacks material (tin/steel/GI), span, height, and does not include 'tin' keyword."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "All spec values are 'as per choice' or 'as per customer' with no concrete specifications provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic service provider listing for shed fabrication and railing fabrication with no product specifications."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Factory shed fabrication is a valid tin shed product/service within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Achievers Design Studio' (business name) embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Factory Shed' with no material (tin/steel), span, or height detail and omits the 'tin' keyword entirely."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "All spec values are 'as per choice' or 'as per customer' — no concrete dimensions, material, or configuration provided."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a mobile screenshot of an interior ceiling view with phone UI visible; overall shed structure and scale are not visible to the buyer."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Achievers Design Studio' (business name) embedded in the product description text."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; thin across all dimensions with P16 policy violation and screenshot-format thin image.",
+      "source_url": "https://www.indiamart.com/proddetail/factory-shed-2850319213155.html"
+    },
+    {
+      "item_id": "290982232",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Industrial Tin Shed",
+      "description": "The Adishilpi Building System Pvt. Ltd is a Construction Company in Bhubaneswar, Odisha (previously known as Pradhan Engineering) established in the year 2018 to undertake specialized pre-engineered building construction works. The company has developed expertise and know how in planning, designing and construction and successfully executed a wide variety of construction jobs on turn key basis. It's our mission to deliver the level of detail and professionalism that you expect and deserve. Advanced TechnologyExpert TeamOn time Delivery",
+      "specs": {},
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2025/1/481447739/LN/OI/QO/135062444/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-tin shed-2855638323412.html",
+      "image_file": "290982232.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows fabricated grey primer-coated steel I-beams/H-beams on trestles in a fabrication yard with 'realme Shot by Sanjeev Shukla' watermark — not a shed structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Industrial Tin Shed' correctly names application and product type."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no specifications provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description describes a construction company's background and capabilities with no tin shed product specifications."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Industrial tin shed is the primary segment of this MCAT; the product title is correct even though the image shows structural components."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title"
+        ],
+        "contradiction_reasons": [
+          "Title says 'Industrial Tin Shed' but image shows fabricated steel I-beams/H-beams on trestles in a fabrication yard, not a shed structure."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Adishilpi Building System Pvt. Ltd' (company name) and 'Bhubaneswar, Odisha' (city and state) embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Title says 'Industrial Tin Shed' but image shows fabricated steel I-beams/H-beams on trestles, not a shed structure."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows fabricated structural steel I-beams/sections, not a tin shed structure — wrong product shown for this MCAT."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows steel I-beams on trestles with a personal watermark ('realme Shot by Sanjeev Shukla') — not a shed product image."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Adishilpi Building System Pvt. Ltd' (company name) and 'Bhubaneswar, Odisha' (city/state) in the product description text."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; image shows structural steel beams not a shed, creating photo-title contradiction and photo-category contradiction.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-tin shed-2855638323412.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images consistently show the complete exterior of a steel sheet shed structure from a ground-level perspective, with colour-coated or GI corrugated sheet roof and wall cladding clearly visible. MS column frames and structural members are typically visible, and the shed is photographed in a construction site or industrial/agricultural open-ground context. Colour-coated sheds (blue, teal, grey) dominate the good image set, with the full span and height of the structure assessable from the photo.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Tin shed product images are photographs of erected structures — no readable text, labels, or data plates appear on the product surface that OCR could extract.",
+      "Product information (span, height, cladding colour, roof profile) is conveyed entirely through visual appearance of the structure, not through printed text on the product."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good tin shed photos show the complete exterior of a colour-coated or GI corrugated steel sheet shed on an MS frame, photographed from ground level in a construction or industrial site context.",
+    "product_identity": [
+      "Colour-coated or GI corrugated steel sheet roof and wall cladding visible",
+      "MS column/frame structure supporting the roof visible",
+      "Complete shed structure with identifiable span and height"
+    ],
+    "acceptable_scenes": [
+      "Construction site with open sandy/earthen ground in foreground",
+      "Industrial or agricultural site with shed as primary subject",
+      "Exterior ground-level view showing full shed elevation"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "172347410",
+        "reason": "Image shows a large dark grey colour-coated profiled steel sheet industrial shed under construction with curved roof profile, brick base course, and door opening clearly visible.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "230296780",
+        "reason": "Image shows a large-span industrial warehouse shed complex with white/light grey profiled steel sheet walls and roof, multiple bays, and ventilation louvers clearly visible.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "311818282",
+        "reason": "Image shows a large-span open-sided tin shed on MS column frame with corrugated GI sheet roofing under construction at sunset, clearly identifiable as an agricultural/cattle shed.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "135398107",
+        "reason": "Image shows an open-sided blue colour-coated corrugated steel sheet shed on MS pipe frame columns with MS sections visible on the ground in a construction site context.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "119253901",
+        "reason": "Image shows a complete prefabricated metal carport/portable shed structure with arched roof, partial end wall, roller door, and open sides set in an outdoor parking area.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "279679444",
+        "reason": "Image shows a large teal colour-coated corrugated steel sheet industrial shed with multiple loading bay openings, full wall cladding, and MS column frame clearly visible.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin tin shed photos show only a partial view of the structure (interior ceiling only or screenshot format) without conveying the full span, height, or exterior appearance of the shed.",
+    "thinness_signals": [
+      "Interior ceiling/roof-only view without exterior structure visible",
+      "Screenshot format with phone UI overlaid on the product image"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "153520670",
+        "reason": "Image shows only the interior ceiling/roof view of a corrugated GI sheet shed with MS purlin frame and skylight openings; exterior structure, span, and overall scale are not visible."
+      },
+      {
+        "photo_url": null,
+        "item_id": "237791132",
+        "reason": "Image is a mobile screenshot showing an interior ceiling view of a corrugated sheet shed roof with phone UI and URL slug visible; overall structure and scale are not assessable."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant tin shed photos show structural steel components (beams/sections) rather than an erected shed structure.",
+    "failure_classes": [
+      {
+        "class": "structural_steel_components",
+        "description": "Image shows fabricated structural steel I-beams or H-beams on trestles in a fabrication yard — these are raw components used to build sheds, not the shed product itself.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "290982232"
+          }
+        ],
+        "detection_signal": "Image shows multiple parallel steel sections/beams laid horizontally on trestles or supports in a workshop/yard setting, with no shed roof or wall cladding visible.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong tin shed titles combine product type with at least one of: construction method (prefab/fabricated), material (steel/GI/Galvalume), application (factory/warehouse/industrial), or span/height dimension.",
+    "strong_positive_signals": [
+      "Material qualifier: Steel, GI, Galvalume, colour-coated",
+      "Application qualifier: Factory, Industrial, Warehouse, Roofing, Agricultural",
+      "Construction method: Prefab, Fabricated, Pre-Engineered"
+    ],
+    "structural_patterns": [
+      "[Material] Tin Shed",
+      "[Application] Tin Shed",
+      "[Construction Method] Tin Shed",
+      "[Application] [Construction Method] Tin Shed"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "172347410",
+          "title": "Factory Roofing Tin Shed",
+          "reason": "Combines application (Factory), function (Roofing), and product type (Tin Shed) — three buyer-relevant attributes in one title."
+        },
+        {
+          "item_id": "279679444",
+          "title": "Fabricated Tin Shed",
+          "reason": "Names construction method (Fabricated) and product type (Tin Shed), supported by good image and acceptable description."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "135398107",
+          "title": "Steel Tin Shed",
+          "reason": "Names material (Steel) and product type (Tin Shed) — correct but lacks span, application, or construction method detail."
+        },
+        {
+          "item_id": "230296780",
+          "title": "Prefab Tin Shed",
+          "reason": "Names construction method (Prefab) and product type (Tin Shed) — correct but lacks span, coating, or intended use detail."
+        },
+        {
+          "item_id": "119253901",
+          "title": "Tin Bluescope Shed",
+          "reason": "Names material brand (Bluescope/BlueScope Steel) and product type — correct but lacks span or application detail."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin tin shed titles name the product type but omit all qualifying attributes such as material, span, application, or construction method.",
+    "thinness_signals": [
+      "Title is just 'Tin Shed' with no qualifying attribute",
+      "Title names application (Factory Shed) without material or 'tin' keyword",
+      "Title names function (Roofing Tin Shed) without material, span, or application"
+    ],
+    "examples": [
+      {
+        "item_id": "186989340",
+        "title": "Tin Shed",
+        "reason": "Bare product name with no material, span, application, or construction method detail."
+      },
+      {
+        "item_id": "153520670",
+        "title": "Roofing Tin Shed",
+        "reason": "Names function (Roofing) and product type but lacks material specification, span dimension, and application detail."
+      },
+      {
+        "item_id": "311818282",
+        "title": "Tin Shed Fabrication work",
+        "reason": "Names product type and service type but lacks application (cattle/dairy), material type, and span detail."
+      },
+      {
+        "item_id": "237791132",
+        "title": "Factory Shed",
+        "reason": "Names application (Factory) but omits material (tin/steel/GI), span, height, and the 'tin' keyword entirely."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "No verified bad products in this set have titles that are actively wrong or contaminating for the Tin Shed MCAT; all bad product titles either name the correct product type or are thin.",
+    "failure_classes": []
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere based on category.valid=false signals.",
+    "input_data_absent": false,
+    "classes": []
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Warehouse Sheds",
+        "signal": "Specs explicitly state intended use as warehouse with large built-up area (above 50,000 sq ft) and PEB structure type.",
+        "examples": [
+          {
+            "item_id": "230296780",
+            "title": "Prefab Tin Shed",
+            "reason": "Specs state intended use as warehouse, above 50,000 sq ft built-up area, PEB shed type — matches Warehouse Sheds sibling MCAT."
+          }
+        ]
+      },
+      {
+        "sibling_mcat": "Cattle Sheds",
+        "signal": "Description explicitly states fabrication for cow/dairy/livestock housing with ventilated design for animal comfort.",
+        "examples": [
+          {
+            "item_id": "311818282",
+            "title": "Tin Shed Fabrication work",
+            "reason": "Description explicitly states fabrication for cow/dairy/livestock housing across dairy farms and cattle housing applications — matches Cattle Sheds sibling MCAT."
+          }
+        ]
+      },
+      {
+        "sibling_mcat": "Portable Garage",
+        "signal": "Image shows a Western-style prefab metal carport with arched roof and partial enclosure typical of portable garage products.",
+        "examples": [
+          {
+            "item_id": "119253901",
+            "title": "Tin Bluescope Shed",
+            "reason": "Image shows a prefab metal carport/portable garage structure with arched roof and roller door — matches Portable Garage sibling MCAT."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator; images were visually analysed from provided base64 data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names (Warehouse Sheds, Cattle Sheds, Portable Garage) drawn from taxonomy_context.siblings list — not fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment and mcat_description used to ground category belonging decisions; mcat_vagueness_signal.suspected_vague was not provided but MCAT is treated as coherent (Path A) based on market research context."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
