@@ -1,0 +1,212 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Tensile structures have extreme visual variation across shapes (conical, sail, hypar, umbrella, barrel vault), colours, and scale — buyers use the image to identify the product type and form factor before reading any text. Wrong shape or scale = immediate skip regardless of specs or price."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Fabric material (PVC vs PTFE vs HDPE) and GSM are primary shortlisting criteria — they define durability tier, service life, and price band. PVC and PTFE are non-interchangeable; a buyer cannot substitute one for the other without changing the project specification entirely."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian construction and fabrication buyers compare per-sq-ft rates aggressively across sellers once visual and material fit is confirmed. Price changes substantially with fabric material and GSM grade — PVC 850 GSM vs PTFE represents a 3–5x price difference — making price a primary shortlisting lever after spec confirmation."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Some sellers quote per sq metre (international fabric brands) or per project lump sum for large-span structures — this creates real price comparison confusion. Per sq ft is the dominant Indian market unit and must be shown alongside price to enable valid comparison.",
+      "reason": "Price cannot be compared without knowing the unit — per sq ft vs per sq metre vs per project lump sum are all present in the market and create genuine buyer confusion when unit is not displayed."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Fabric brands (Serge Ferrari, Mehler, Sioen, SRF) are actively specified by architects and institutional buyers as quality and durability signals — a seller's fabric sourcing is a meaningful differentiator.",
+      "reason": "Institutional and commercial buyers evaluate completed project portfolio, fabric brand sourcing, and structural engineering capability during vendor selection — company credentials are a meaningful qualifier after initial shortlisting but not a primary scan signal."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Fabric Material",
+        "reason": "PVC Coated, PTFE Coated, and HDPE are non-interchangeable product classes with 3–5x price differences and fundamentally different service life and application suitability — the single most important price-driving configurator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Fabric GSM",
+        "reason": "Within the same material class, GSM (650–1050 GSM) defines the quality and durability tier with a meaningful price delta and determines structural compliance for wind load requirements."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Fabric Brand",
+      "Fabric GSM",
+      "Fabric Material",
+      "Features",
+      "Frame Material",
+      "Protective Coating",
+      "Shape",
+      "Structure Type",
+      "Warranty"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Covered Area / Span",
+        "why_important": "The area to be covered (sq ft) drives structural design complexity, mast count, cable configuration, and total project cost — sellers cannot scope or price a project without this dimension.",
+        "source": "both",
+        "example_values": [
+          "Up to 500 sq ft",
+          "500–2000 sq ft",
+          "2000–5000 sq ft",
+          "Above 5000 sq ft"
+        ]
+      },
+      {
+        "spec_name": "Membrane Colour",
+        "why_important": "Buyers in hospitality, residential, and commercial segments specify colour (white, grey, blue, custom) as a primary aesthetic requirement — colour selection affects fabric sourcing and pricing.",
+        "source": "both",
+        "example_values": [
+          "White",
+          "Grey",
+          "Blue",
+          "Custom / As per requirement"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Fabric Material",
+        "reason": "PVC Coated, PTFE, and PVDF are non-interchangeable material tiers with fundamentally different price points and durability profiles — sellers need this to determine which product line to quote and whether they can supply.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Fabric Weight",
+        "reason": "GSM grade within a material class defines the quality tier and drives per-sq-ft pricing — sellers need this to confirm they stock the required grade and to provide an accurate quote.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Application / Structure Type",
+        "why_important": "Sellers need to know the intended application (car parking, entrance canopy, food court, sports court) to determine structural requirements, span, load design, and project scope before they can respond accurately.",
+        "source": "both",
+        "example_values": [
+          "Car Parking",
+          "Entrance Canopy",
+          "Sports Court Cover",
+          "Food Court Roofing",
+          "Banquet Hall Cover"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Car Parking",
+          "Entrance Canopy",
+          "Sports Court Cover",
+          "Food Court Roofing",
+          "Banquet Hall Cover"
+        ]
+      },
+      {
+        "spec_name": "Covered Area",
+        "why_important": "The approximate area to be covered (sq ft) is the primary project scoping dimension — a 200 sq ft canopy and a 5000 sq ft food court cover require entirely different structural designs and cost structures.",
+        "source": "both",
+        "example_values": [
+          "Up to 500 sq ft",
+          "500–2000 sq ft",
+          "2000–5000 sq ft",
+          "Above 5000 sq ft"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Car Parking",
+      "id": "spec_1",
+      "prompt_for_generation": "PVC tensile structure canopy installed over a car parking area, white conical or sail-shaped membrane stretched over mild steel masts, multiple cars parked underneath, daytime outdoor setting, wide-angle view showing full coverage span, photorealistic architectural render, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Entrance Canopy",
+      "id": "spec_2",
+      "prompt_for_generation": "PVC tensile fabric entrance canopy over a commercial building entrance, white sail-shaped or hypar membrane on stainless steel masts, pedestrians walking underneath, daytime setting, architectural context clearly visible, photorealistic render, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Sports Court Cover",
+      "id": "spec_3",
+      "prompt_for_generation": "PVC tensile structure roofing over an outdoor sports court, large white barrel vault or flat tensile membrane spanning the full court width, steel cable-supported frame, badminton or tennis court visible underneath, daytime natural lighting, photorealistic architectural render, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Food Court Roofing",
+      "id": "spec_4",
+      "prompt_for_generation": "PVC tensile fabric roofing over an outdoor food court seating area, white or light grey membrane canopy on multiple steel masts, dining tables and chairs visible underneath, commercial setting, daytime natural lighting, photorealistic architectural render, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Banquet Hall Cover",
+      "id": "spec_5",
+      "prompt_for_generation": "Large PVC tensile structure covering an outdoor banquet or marriage lawn, expansive white membrane roof on tall steel masts with cable tensioning, decorated event space visible underneath, evening or daytime setting, photorealistic architectural render, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
