@@ -1,0 +1,264 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Tree houses vary enormously in visual character — rustic bamboo eco-hut, luxury resort suite, children's play platform, and stilt-supported farmhouse structure are visually unrecognisable as the same product. Buyers have a specific aesthetic brief; the image IS the design portfolio and the primary shortlisting signal."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Built type (prefab vs on-site), support type (stilt vs tree), structure material, and floor area are non-interchangeable — a buyer needing a stilt-supported prefab bamboo unit cannot substitute an on-site teak build. These specs define whether the seller can deliver what the buyer needs before any other evaluation."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the market is fragmented across regional fabricators and buyers search by design style, material, and use case, not manufacturer name.",
+      "reason": "Tree house construction is a high-value custom project; buyers evaluate the contractor's portfolio, execution track record, geographic service capability, and past resort/hospitality installations during vendor selection — seller identity is a trust gate, not a commodity signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price with per sq ft indicative rate",
+      "reason": "Every tree house is custom-quoted; listed per-sq-ft rates are indicative entry points for budget comparison, not fixed prices. Indian buyers are price-sensitive but price is only comparable after aesthetic, spec, and company confidence are established."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Children's play tree house sub-segment is quoted per piece — listings must clarify unit to prevent price misreading when comparing resort (per sq ft) vs play unit (per piece) listings.",
+      "reason": "Per sq ft vs per piece is a documented market ambiguity across the resort and children's play sub-segments; buyers comparing indicative prices cannot interpret the rate without knowing the unit, making unit display essential despite the project-based pricing norm."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Built Type",
+        "reason": "Defines the fundamental delivery and construction method — on-site custom build vs prefab module vs knock-down are non-interchangeable and drive a 40–60% price delta for equivalent floor area."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Material",
+        "reason": "Bamboo, wood, and steel frame are non-interchangeable materials with distinct aesthetics, durability profiles, and price points — bamboo is significantly cheaper than teak, and steel frame is a structurally different system entirely."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Access Type",
+      "Built Type",
+      "Floor Area",
+      "Furnishing",
+      "Material",
+      "Safety Features",
+      "Service Location",
+      "Structure Material",
+      "Support Type",
+      "Use"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roofing Type",
+        "why_important": "Roofing material (thatch, PVC sheet, galvanised steel, polycarbonate) is a primary aesthetic and durability differentiator for resort buyers — thatch signals eco-authenticity while metal sheet signals durability, and each carries a different cost and maintenance profile.",
+        "source": "both",
+        "example_values": [
+          "Thatch",
+          "PVC Sheet",
+          "Galvanised Steel",
+          "Polycarbonate"
+        ]
+      },
+      {
+        "spec_name": "Height from Ground",
+        "why_important": "Height determines structural complexity, safety compliance requirements, and price — resort view-deck buyers require 15–20 ft minimum while children's play installations have regulatory height limits, making this a primary project-scoping dimension.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "8-10 ft",
+          "10-15 ft",
+          "15-20 ft",
+          "20+ ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Primary Material",
+        "reason": "Material defines the structural and aesthetic character of the tree house — sellers need this to confirm capability and price accurately, as bamboo, wood, and steel frame have fundamentally different cost structures and construction methods.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Wood",
+          "Bamboo",
+          "Steel Frame",
+          "Recycled Material"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Capacity (People)",
+        "reason": "Capacity determines floor area and structural load requirements — a 1-2 person romantic suite and a 6-8 person family unit are fundamentally different projects requiring different structural specifications and pricing.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Use / Purpose",
+        "why_important": "Sellers need the intended use to determine applicable safety standards, furnishing requirements, and structural grade — a resort accommodation tree house and a children's play unit have entirely different compliance, structural, and finishing requirements.",
+        "source": "both",
+        "example_values": [
+          "Resort Accommodation",
+          "Children's Play",
+          "Farmhouse Leisure",
+          "View Deck"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Resort Accommodation",
+          "Children's Play",
+          "Farmhouse Leisure",
+          "View Deck"
+        ]
+      },
+      {
+        "spec_name": "Floor Area",
+        "why_important": "Floor area is the primary pricing dimension for per-sq-ft quoted tree house projects — sellers cannot generate an accurate indicative quote without knowing the required built area.",
+        "source": "both",
+        "example_values": [
+          "Up to 150 sq ft",
+          "150-300 sq ft",
+          "300-500 sq ft",
+          "500+ sq ft"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Support Type",
+        "why_important": "Tree-supported structures require suitable mature trees on the buyer's site while stilt-supported structures can be built on any terrain — sellers need this to assess site feasibility before committing to a project.",
+        "source": "both",
+        "example_values": [
+          "Tree Supported",
+          "On Stilts",
+          "Mixed Support",
+          "Rooftop Mounted"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Tree house design varies enormously within the same material and capacity combination — a wooden tree house for a resort can range from a rustic single-room platform to a multi-level luxury suite with a deck. Resort developers and farmhouse owners almost always have a specific design reference (competitor property, Pinterest image, or architect sketch); an uploaded reference image allows sellers to assess design complexity, quote accurately, and share matching portfolio work without multiple back-and-forth exchanges."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Primary Material",
+      "option_value": "Wood",
+      "id": "spec_1",
+      "prompt_for_generation": "Elevated wooden tree house for eco-tourism resort, built from treated pine or teak timber, natural wood finish, stilt-supported structure with wooden staircase, surrounded by trees, warm natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Primary Material",
+      "option_value": "Bamboo",
+      "id": "spec_2",
+      "prompt_for_generation": "Elevated bamboo tree house for eco-tourism resort, full bamboo pole construction with thatch roof, rustic eco-friendly aesthetic, stilt-supported on bamboo pillars, lush green forest background, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Primary Material",
+      "option_value": "Steel Frame",
+      "id": "spec_3",
+      "prompt_for_generation": "Elevated steel-frame tree house for resort property, visible galvanised steel structural frame with wooden deck and cladding, modern industrial-meets-nature aesthetic, stilt-supported, surrounded by trees, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Primary Material",
+      "option_value": "Recycled Material",
+      "id": "spec_4",
+      "prompt_for_generation": "Elevated tree house for eco-tourism property built from recycled and reclaimed materials — salvaged wood planks, repurposed metal accents, upcycled elements — rustic sustainable aesthetic, stilt-supported, forest setting, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Purpose",
+      "option_value": "Resort Accommodation",
+      "id": "spec_5",
+      "prompt_for_generation": "Luxury resort tree house accommodation unit elevated among trees, fully furnished interior visible through large windows, private wooden deck with railing, staircase access, resort landscaping in background, warm golden hour lighting, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Purpose",
+      "option_value": "Children's Play",
+      "id": "spec_6",
+      "prompt_for_generation": "Children's play tree house in a school or park setting, compact wooden elevated platform with safety railings, rope ladder access, slide attachment, bright cheerful colours, surrounded by trees in a garden, daytime natural light, no branding, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Purpose",
+      "option_value": "Farmhouse Leisure",
+      "id": "spec_7",
+      "prompt_for_generation": "Rustic wooden tree house leisure structure on a farmhouse property, elevated on stilts among mango or banyan trees, open-air seating deck, simple wooden construction, relaxed countryside setting, warm afternoon light, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Use / Purpose",
+      "option_value": "View Deck",
+      "id": "spec_8",
+      "prompt_for_generation": "Elevated tree house view deck platform high above the forest canopy, open-air observation deck with sturdy railings, panoramic landscape view visible, minimal enclosed structure, stilt or tree-supported at 15-20 ft height, natural daylight, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
