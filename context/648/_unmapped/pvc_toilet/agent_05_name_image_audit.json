@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'PVC Toilet' directly matches the dominant primary keyword in Agent 3 alt_names and aligns with buyer vocabulary ('PVC toilet', 'plastic toilet') confirmed in market_context; the name is concise and unambiguous for B2B search.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows a prefabricated PVC toilet cabin with blue PVC frame, white panels, open door revealing an Indian squat pan and exhaust vent — correctly representing the primary segment.",
+      "Improvement is possible: the door is open (interior partially visible but not fully showcasing fittings), the background is an outdoor gravel/wall setting rather than a clean white studio background, and the image has a slightly low-resolution, informal appearance that reduces professional appeal for B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A single prefabricated PVC portable toilet cabin, blue and white colour scheme, closed door with latch visible, Indian squat pan partially visible through a slightly ajar door, overhead water tank on roof, exhaust vent on side panel, standing upright on a clean white studio background, soft even lighting, front-facing 3/4 angle view, sharp product photography style, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
