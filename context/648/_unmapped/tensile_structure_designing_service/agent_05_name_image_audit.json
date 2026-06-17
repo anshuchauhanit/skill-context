@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Tensile Structure Designing Service' directly matches the top primary keyword and accurately reflects the service nature (design + engineering) confirmed across Agent 3 alt_names and market_context; no dominant competing trade name or buyer-preferred alternative was found that would make this suboptimal.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a real tensile membrane structure (hypar/sail form, white PVC membrane, galvanised steel masts and cables) installed on a rooftop — a valid product representation, not a brochure or wrong product.",
+      "However, the primary_segment is car parking and commercial canopy applications, whereas this image depicts a rooftop installation with workers mid-construction, which is a secondary use case and an in-progress scene rather than a clean, finished, buyer-facing product shot — a purpose-built car parking or commercial canopy render would better serve the primary segment."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a finished PVC white membrane tensile structure canopy covering a commercial car parking area, multiple conical or hypar sail forms supported by galvanised steel masts and stainless steel cables, clean daytime lighting with soft shadows on the ground, cars parked underneath, modern commercial building facade visible in background, crisp white fabric membrane with slight tension wrinkles, no people, no text overlays, white and grey tones, shot from a slight low-angle perspective to emphasise the canopy span, professional architectural photography style, sharp focus throughout.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
