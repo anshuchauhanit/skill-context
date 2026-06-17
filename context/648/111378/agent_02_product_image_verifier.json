@@ -1,0 +1,1322 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "69171064",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Smoke Cabins Open",
+      "description": "<b>Smoke Cabins Open : </b>2SP 160 <p><b>Dimension</b><br /> Width : 3700 mm<br /> Depth : 1600 mm<br /> Height : 2200 mm<br /> Capacity : Up to 11 persons at a time</p><p><b>Ashtray</b><br /> Depth : 300 mm<br /> Width : 500 mm<br /> Height : 960 mm<br /> Capacity : 6000 cigarettes</p><p>&nbsp;</p><table border=\"0\" width=\"588\"><tr><td width=\"535\" height=\"46\" align=\"LEFT\"><b>We S.n. Global Media are authorized dealer Smoke Cabins Open in India. </b></td></tr></table>",
+      "specs": {
+        "raw": "Built Type:Panel Build, Color:White, Country of Origin:Made in India, I Deal In:New Only, Material:FRP, Shape:Rectangular, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/6/522970984/GL/DI/PA/2636116/smoke-cabins-open.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/smoke-cabins open-9916693273.html",
+      "image_file": "69171064.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows two open-style smoking booths with glass side panels, red slatted back wall, ashtray pedestal, overhead exhaust duct, and recessed ceiling lighting — all smoking-cabin-specific features clearly visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Smoke Cabins Open' correctly identifies the product type and open-style variant but omits material, capacity, and ventilation attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm panel-build FRP construction, new-only, rectangular shape, and office application — consistent with a smoking cabin product."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description provides precise dimensions (3700×1600×2200 mm), capacity (11 persons), and ashtray specifications (6000-cigarette capacity), all specific to a smoking cabin."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated open smoking cabin with ashtray and exhaust features, directly matching the MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'We S.n. Global Media are authorized dealer Smoke Cabins Open in India' — company/business name embedded in listing description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Smoke Cabins Open' only — missing material (FRP), capacity, and ventilation type that would make it buyer-useful."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains business name 'S.n. Global Media' identified as authorized dealer, constituting business name leakage in listing content."
+        }
+      ],
+      "verification_note": "Genuine smoking cabin product with strong visual and description evidence; title is thin but product identity is unambiguous.",
+      "source_url": "https://www.indiamart.com/proddetail/smoke-cabins open-9916693273.html"
+    },
+    {
+      "item_id": "103534473",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Fiber Portable Smoking Cabins",
+      "description": "With our years of experience & in-depth knowledge in this field, we are engaged in offering a quality-assured array of Steel Portable Smoking Cabins.",
+      "specs": {
+        "raw": "Built Type:Modular, Feature:Easily Assembled, Material:Steel"
+      },
+      "image_url": "http://5.imimg.com/data5/PQ/DQ/MY-39812247/steel-portable-smoking-cabins.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/fiber-portable smoking cabins-15997906362.html",
+      "image_file": "103534473.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a generic white/blue prefab portable cabin with slanted roof, door, and one window — no smoking-specific features (exhaust, ashtray, ventilation grilles) are visible to confirm it is a smoking cabin rather than a generic portable cabin."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Fiber Portable Smoking Cabins' correctly names the product type and portability attribute, though material descriptor 'Fiber' conflicts with specs stating 'Steel'."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm modular build and steel material but provide no smoking-specific attributes (ventilation, capacity, ashtray) to differentiate from a generic portable cabin."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic boilerplate sentence that names 'Steel Portable Smoking Cabins' but provides no product-specific detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title and description both explicitly name 'Smoking Cabins,' confirming product identity for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title states 'Fiber' material while specs explicitly state 'Material:Steel' — these are conflicting material claims."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title says 'Fiber' but specs state 'Material:Steel' — direct material contradiction between title and specs."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a generic prefab cabin exterior with no visible smoking-specific features (exhaust duct, ventilation grilles, ashtray) to confirm smoking cabin identity."
+        }
+      ],
+      "verification_note": "Product is a valid smoking cabin by title and description; photo is a generic cabin image and title-specs material contradiction reduces listing quality.",
+      "source_url": "https://www.indiamart.com/proddetail/fiber-portable smoking cabins-15997906362.html"
+    },
+    {
+      "item_id": "310488951",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Mild Steel Smoking Cabin",
+      "description": "Mild Steel Smoking Cabin – durable, weather-resistant, and easy to install. Perfect solution for designated smoking areas in offices, factories, and public spaces.",
+      "specs": {},
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/9/548393577/XC/GO/ER/144284822/mild-steel-smoking-cabin.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/mild-steel smoking cabin-2857588995397.html",
+      "image_file": "310488951.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows an open-front prefab cabin (branded 'Rekon Cabins') with wood-look flooring and interior partition walls — this is clearly a portable office/commercial cabin with no smoking-specific features (no exhaust, no ashtray, no ventilation grilles, open front face unsuitable for smoke containment)."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Mild Steel Smoking Cabin' correctly names the product type and material, though it lacks capacity, ventilation, and size attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no attributes provided, but absence of specs does not contradict the smoking cabin identity stated in title and description."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms 'designated smoking areas in offices, factories, and public spaces' — correct application context for a smoking cabin."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title and description explicitly identify this as a smoking cabin for designated smoking areas; photo mismatch is a photo quality issue, not a category disqualifier."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title"
+        ],
+        "contradiction_reasons": [
+          "Photo shows an open-front office/commercial cabin with no smoking-specific features, while title explicitly claims 'Smoking Cabin' — the visible product does not match the stated product type."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Photo shows an open-front office cabin (Rekon Cabins branded) with no exhaust or ashtray features, contradicting the title's claim of 'Smoking Cabin'."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Visible product is an open-front portable office/commercial cabin — no smoking-specific features present, making the photo inconsistent with the Smoking Cabin MCAT."
+        }
+      ],
+      "verification_note": "Text identity is valid for Smoking Cabin MCAT but the photo shows a wrong product (open office cabin); retained as good based on text evidence per override logic — pre_label good, category valid, no text contradiction, photo mismatch noted as P01/P07.",
+      "source_url": "https://www.indiamart.com/proddetail/mild-steel smoking cabin-2857588995397.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "272016820",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Steel Smoke House",
+      "description": "Smoking cabins are more versatile because they can be used almost anywhere without being confined to one room. Plus, they have more features than smoking rooms, like filtration and ventilation system that can release the clean and pure air after filtering the smoke.",
+      "specs": {
+        "raw": "Design/Pattern:Plain, Finish:Polished, Grade Material:AZ-150, Material:GI, Product Length:1260-129mm, Type:I-Trolley, Warranty:6 Years"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/3/405625917/EN/MW/IC/34876140/whatsapp-image-2024-03-30-at-2-47-54-pm.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-smoke house-2853741782097.html",
+      "image_file": "272016820.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows an industrial metal cabinet/oven with open double doors revealing internal shelving racks and a compressor unit at the bottom — this is food/industrial smokehouse processing equipment, not a prefabricated smoking cabin for human occupancy."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title 'Steel Smoke House' is ambiguous — 'smoke house' in industrial context refers to food/rubber curing equipment, not a human-occupancy smoking cabin, and the image confirms the industrial equipment interpretation."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs list 'Type:I-Trolley', 'Grade Material:AZ-150', 'Product Length:1260-129mm', and '6 Years Warranty' — these are industrial equipment specs inconsistent with a prefabricated smoking cabin structure."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description text discusses smoking cabin features (filtration, ventilation) but appears to be generic boilerplate copied from a smoking cabin listing, not describing the actual product shown."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Photo and specs confirm this is industrial smokehouse processing equipment (food/rubber curing), not a prefabricated human-occupancy smoking cabin — fundamentally different product type, buyer, and working principle."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_description",
+          "specs_vs_description",
+          "photo_vs_category",
+          "title_vs_category",
+          "specs_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Photo shows industrial smokehouse equipment with shelving racks and compressor, while title says 'Steel Smoke House' which the image confirms as industrial curing equipment rather than a human-occupancy cabin.",
+          "Photo shows industrial processing equipment while description discusses smoking cabin ventilation and filtration features for human use — the description does not match the visible product.",
+          "Specs list I-Trolley type, AZ-150 grade material, and 6-year warranty consistent with industrial equipment, while description discusses smoking cabin ventilation for human occupancy.",
+          "Visible product is industrial smokehouse/curing equipment, not a prefabricated smoking cabin for human occupancy.",
+          "Title 'Steel Smoke House' in context of the image refers to industrial food/rubber curing equipment, not a human-occupancy smoking cabin.",
+          "Specs (I-Trolley, AZ-150, 1260mm length) are consistent with industrial processing equipment, not a prefabricated cabin structure."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Photo shows industrial smokehouse/curing equipment with racks and compressor; title 'Steel Smoke House' in this context refers to industrial processing equipment, not a smoking cabin."
+        },
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Photo shows industrial curing equipment while description discusses human-occupancy smoking cabin ventilation and filtration — the description does not match the visible product."
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs list I-Trolley type and AZ-150 grade material (industrial equipment attributes) while description discusses smoking cabin ventilation for human use."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Visible product is industrial smokehouse processing equipment (shelving racks, compressor), not a prefabricated human-occupancy smoking cabin."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Steel Smoke House' combined with image evidence identifies this as industrial curing equipment, not a smoking cabin for human occupancy."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs (I-Trolley, AZ-150 grade, 1260mm product length) are industrial equipment specifications incompatible with a prefabricated cabin structure."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — photo and specs confirm this is industrial smokehouse/curing equipment, a known contamination risk for this MCAT per Agent 3 market context.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-smoke house-2853741782097.html"
+    },
+    {
+      "item_id": "294720652",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Smoking Container Cabin",
+      "description": "Established in the year 2021 at Ahmedabad, Gujarat, India, we \"Lucky Portable Container\", are engaged in Manufacturer and export of a wide range of Portable Cabins and etc.",
+      "specs": {
+        "raw": "Body Material:MS, Built Type:Modular, Cabin Capacity:As Per Requirement, Cabin Type:Outdoor Cabin, Country of Origin:Made in India, Material:Mild Steel, Shape:Rectangular"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/3/497708225/PJ/MW/KR/50851993/smoking-container-cabin.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/smoking-container cabin-2856012165455.html",
+      "image_file": "294720652.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a plain white container cabin being crane-lifted at a construction site — it has a single door and no visible smoking-specific features (no exhaust duct, no ventilation grilles, no ashtray, no signage indicating smoking use)."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Smoking Container Cabin' names the product type but provides no attributes (ventilation, capacity, material) to differentiate it from a generic container cabin."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs describe a generic outdoor modular MS cabin with no smoking-specific attributes — 'Cabin Capacity: As Per Requirement' and generic material/shape specs do not confirm smoking cabin identity."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description is a company introduction for 'Lucky Portable Container' mentioning 'Portable Cabins and etc.' with no smoking cabin-specific content — it does not describe the product at all."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Photo shows a generic container cabin with no smoking-specific features; description and specs describe a generic portable cabin manufacturer with no smoking cabin attributes — the listing is a generic portable cabin mislabelled as a smoking cabin."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_category",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Photo shows a plain container cabin with no smoking features while title claims 'Smoking Container Cabin' — the visible product has no smoking-specific attributes.",
+          "Visible product is a generic container cabin with no exhaust, ventilation, or ashtray features inconsistent with the Smoking Cabin MCAT.",
+          "Description introduces a portable cabin manufacturer with no smoking cabin content, inconsistent with the Smoking Cabin MCAT."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Ahmedabad, Gujarat, India' (location) and 'Lucky Portable Container' (company name) embedded in the listing description."
+        }
+      },
+      "correct_mcat_suggestion": "Portable Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Photo shows a plain container cabin with no smoking-specific features while title claims 'Smoking Container Cabin'."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Visible product is a generic container cabin with no exhaust duct, ventilation grilles, or ashtray — no smoking cabin features present."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description is a company boilerplate for a portable cabin manufacturer with no smoking cabin content, contradicting placement in the Smoking Cabin MCAT."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains location 'Ahmedabad, Gujarat, India' and company name 'Lucky Portable Container' embedded in listing text."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — photo and description confirm a generic portable container cabin with no smoking-specific features; correct MCAT is Portable Cabin.",
+      "source_url": "https://www.indiamart.com/proddetail/smoking-container cabin-2856012165455.html"
+    },
+    {
+      "item_id": "160671694",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Office Cabin",
+      "description": "We Omega Cabins are mfg and supplier of portable office cabin,site office cabin,security guard cabin, toilet cabin, bunk house cabin, and we are supplier of used cargo container throughout india.",
+      "specs": {
+        "raw": "Built Type:Prefab, Material:Steel, Shape:Rectangular, Size:Size 20'Lx10'Wx8.6'H, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/3/494930325/PD/MQ/UW/18198436/portable-office-container.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-23156321330.html",
+      "image_file": "160671694.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a white/blue corrugated steel portable cabin with barred windows, a door, and no smoking-specific features — clearly a portable office or security cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title 'Portable Office Cabin' explicitly names an office cabin, not a smoking cabin — wrong product type for this MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm 'Usage/Application:Office' and standard office cabin dimensions — no smoking-related attributes present."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description lists office cabin, site office cabin, security guard cabin, toilet cabin, and bunk house cabin — no smoking cabin mentioned anywhere."
+        },
+        "category": {
+          "valid": false,
+          "reason": "All dimensions confirm this is a portable office cabin — wrong product type for the Smoking Cabin MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'We Omega Cabins' (company name) and 'throughout india' (geographic scope) embedded in listing text."
+        }
+      },
+      "correct_mcat_suggestion": "Office Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Photo shows a portable office/security cabin with no smoking-specific features — wrong product for Smoking Cabin MCAT."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly states 'Portable Office Cabin' — not a smoking cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state 'Usage/Application:Office' — no smoking-related application or feature present."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description lists office, site office, security, toilet, and bunk house cabins — smoking cabin is not mentioned."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Omega Cabins' embedded in listing text."
+        }
+      ],
+      "verification_note": "Confirmed bad — portable office cabin with no smoking features; correct MCAT is Office Cabin.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-23156321330.html"
+    },
+    {
+      "item_id": "166404120",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Steel Office Cabin",
+      "description": "The Epsilon Prefabricated Portable Cabin is meticulously engineered and factory constructed using branded IS grade materials, ensuring durability and reliability. Its robust shell, fabricated from tested quality steel, features a base frame, peripheral structure, self-draining roof, entry door, and windows. Reinforced corner columns facilitate easy transportation, lifting, and placement. The cabin boasts premium components including G.I. corrugated sheeting for exterior paneling, pre-laminated board panels or ACP sheeting for interior walls, and 1.2mm thick G.I. corrugated sheeting for the roof. Inside, a 9mm pre-laminated ceiling and 18mm thick cement board or plywood flooring with vinyl carpeting ensure comfort and longevity. Double shutter aluminum powder-coated sliding windows and corrugated MS doors equipped with glass wool insulation provide security and insulation. The cabin is equipped with 50mm glass wool insulation, concealed wiring, standard electrical fittings, plumbing fixtures, and sanitation systems, meeting the highest industry standards. With a focus on quality and functionality, the Epsilon Portable Prefabricated Cabin is the ideal solution for diverse applications. Each cabin can be supplied as plain shell or customised as per Client's interior requirments of partitions, washrooms, pantry and different kind of furnitures fitted at factory",
+      "specs": {
+        "raw": "Built Type:Prefab, Cabin Color:White, Cabin Size:Custom Size, Country of Origin:Made in India, Facilities:Air Conditioner, Flooring:customised, Flooring Type:Laminate Floor, House Style:customised, Material:Steel, No. of Workstations:as per specs, Place Of Origin:Pan India, Roof Type:slanting, Structure Material:MS Frame, Thickness:customised, Usage/Application:for office and shelter, Usage Type:Project Office, Wall Panel:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/5/305596389/WT/GY/JH/76461355/steel-office-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-office cabin-23729563933.html",
+      "image_file": "166404120.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large multi-window prefabricated building (Epsilon branded) on a construction site — clearly a large office/accommodation structure with no smoking-specific features."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title 'Steel Office Cabin' explicitly names an office cabin — wrong product type for the Smoking Cabin MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm 'Usage/Application:for office and shelter', 'Usage Type:Project Office', 'No. of Workstations:as per specs' — all office cabin attributes, none smoking-related."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description details a prefabricated office cabin with partitions, washrooms, pantry, and furniture — no smoking cabin features mentioned."
+        },
+        "category": {
+          "valid": false,
+          "reason": "All dimensions confirm this is a prefabricated office cabin — wrong product type for the Smoking Cabin MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Image contains 'EPSILON Savvish Prefabricated Systems' brand/company name prominently displayed on the building."
+        }
+      },
+      "correct_mcat_suggestion": "Office Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Photo shows a large prefabricated office building with no smoking-specific features — wrong product for Smoking Cabin MCAT."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly states 'Steel Office Cabin' — not a smoking cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state 'Usage Type:Project Office' and 'No. of Workstations:as per specs' — office cabin attributes with no smoking-related features."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description details office cabin features (partitions, washrooms, pantry, furniture) with no smoking cabin content."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Photo prominently displays 'EPSILON Savvish Prefabricated Systems' company branding on the building exterior."
+        }
+      ],
+      "verification_note": "Confirmed bad — prefabricated office cabin; correct MCAT is Office Cabin.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-office cabin-23729563933.html"
+    },
+    {
+      "item_id": "253743584",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "15Feet Steel Portable Office Cabin",
+      "description": "<b>15-Feet Steel Portable Office Cabin</b> is a highly durable and versatile solution for creating mobile office spaces. Built with <b>high-quality steel</b> construction, this cabin offers exceptional <b>strength and longevity</b>. It is ideal for <b>construction sites</b>, <b>remote project locations</b>, or as a <b>temporary office</b> solution for businesses. The compact <b>15-foot</b> size ensures it can be used in tight spaces while still offering the essential features for day-to-day operations.",
+      "specs": {
+        "raw": "Brand:HPC, Built Type:Modular, Features:Portable, Material:Steel, Shape:Rectangular, Size:12x15x8 Feet (LXWXH), Surface Treatment:Paint Coated, Usage/Application:Construction Site"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/5/508597307/RU/GM/LL/90422608/modular-steel-portable-office-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/15feet-steel portable office cabin-2851914458333.html",
+      "image_file": "253743584.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a white/blue corrugated steel portable cabin with phone numbers and business name ('SIRI CEMENT & FLYA', 'Hanmanth Reddy Ph.79818 0551', 'Akhilesh Reddy Ph.8008357479') painted on the exterior — clearly a portable office cabin with PII and business name leakage."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title '15Feet Steel Portable Office Cabin' explicitly names an office cabin — wrong product type for the Smoking Cabin MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm 'Usage/Application:Construction Site' and standard office cabin dimensions — no smoking-related attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly describes a mobile office space for construction sites and remote project locations — no smoking cabin content."
+        },
+        "category": {
+          "valid": false,
+          "reason": "All dimensions confirm this is a portable office cabin for construction sites — wrong product type for the Smoking Cabin MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Photo shows phone numbers 'Ph.79818 0551' and 'Ph.8008357479' painted on the cabin exterior — personal/contact phone numbers visible in listing image."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Photo shows 'SIRI CEMENT & FLYA' (business name) and personal names 'Hanmanth Reddy' and 'Akhilesh Reddy' painted on the cabin exterior."
+        }
+      },
+      "correct_mcat_suggestion": "Office Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Photo shows a portable office cabin with no smoking-specific features — wrong product for Smoking Cabin MCAT."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly states '15Feet Steel Portable Office Cabin' — not a smoking cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state 'Usage/Application:Construction Site' — office/construction cabin attributes with no smoking features."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a mobile office space for construction sites — no smoking cabin content."
+        },
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Photo shows phone numbers 'Ph.79818 0551' and 'Ph.8008357479' painted on the cabin exterior."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Photo shows business name 'SIRI CEMENT & FLYA' and personal names 'Hanmanth Reddy' and 'Akhilesh Reddy' painted on the cabin exterior."
+        }
+      ],
+      "verification_note": "Confirmed bad — portable office cabin with PII and business name leakage in photo; correct MCAT is Office Cabin.",
+      "source_url": "https://www.indiamart.com/proddetail/15feet-steel portable office cabin-2851914458333.html"
+    },
+    {
+      "item_id": "270297620",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Office Cabin",
+      "description": "<table>...(walls MS corrugated sheet, roof MS sheet, floor MS framing, doors, windows, wiring, insulation, interiors, exteriors)...</table>",
+      "specs": {
+        "raw": "Built Type:Prefab, Cabin Size:12x10 ft, Design Type:Customized, Furnishing:Semi Furnished, Material:Steel, No. of Workstations:5 to 10, Size:20'x10', Structure Material:MS Frame, Usage/Application:Office, Usage Type:Conference Cabin, Wall Panel:PVC Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/4/409867802/OV/OB/NP/11001000/1.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-2853569862097.html",
+      "image_file": "270297620.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a long white/green corrugated steel portable cabin row at a construction site — clearly a portable office/accommodation structure with no smoking-specific features."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title 'Portable Office Cabin' explicitly names an office cabin — wrong product type for the Smoking Cabin MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm 'Usage/Application:Office', 'Usage Type:Conference Cabin', 'No. of Workstations:5 to 10' — all office cabin attributes with no smoking features."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description details MS corrugated walls, roof, floor, wiring, insulation, and interior finishes for an office cabin — no smoking cabin features mentioned."
+        },
+        "category": {
+          "valid": false,
+          "reason": "All dimensions confirm this is a portable office/conference cabin — wrong product type for the Smoking Cabin MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs list both 'Cabin Size:12x10 ft' and 'Size:20'x10'' — two different size values for the same product."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Office Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Photo shows a portable office cabin row with no smoking-specific features — wrong product for Smoking Cabin MCAT."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly states 'Portable Office Cabin' — not a smoking cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state 'Usage/Application:Office' and 'Usage Type:Conference Cabin' — office cabin attributes with no smoking features."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description details office cabin construction specifications with no smoking cabin content."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs list 'Cabin Size:12x10 ft' and 'Size:20'x10'' — two conflicting size values for the same product."
+        }
+      ],
+      "verification_note": "Confirmed bad — portable office/conference cabin with internal specs size contradiction; correct MCAT is Office Cabin.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-2853569862097.html"
+    },
+    {
+      "item_id": "324713713",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable office Cabin",
+      "description": "Portable office Cabin",
+      "specs": {
+        "raw": "Built Type:Prefabricated, Cabin Size:12x10 ft, Flooring:Cement Board, Height:8.5 ft, Insulation Material:Glass Wool, Material:MS (Mild Steel), Product Type:Site Office, Size (L x W):20 ft x 10 ft, Structure Material:MS Frame, Usage Type:Site Office, Wall Panel:MS Sheet"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/3/594694501/AM/LO/NW/265534617/portable-cabin.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-2859011471562.html",
+      "image_file": "324713713.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a furnished portable cabin with workstations, cabinets, ceiling lights, and sliding windows — clearly an office interior with no smoking-specific features."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title 'Portable office Cabin' explicitly names an office cabin — wrong product type for the Smoking Cabin MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm 'Product Type:Site Office', 'Usage Type:Site Office' — office cabin attributes with no smoking-related features."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description is a single phrase 'Portable office Cabin' — explicitly names an office cabin, wrong product type."
+        },
+        "category": {
+          "valid": false,
+          "reason": "All dimensions confirm this is a portable site office cabin — wrong product type for the Smoking Cabin MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Specs list 'Cabin Size:12x10 ft' and 'Size (L x W):20 ft x 10 ft' — two different size values; however this is an internal specs issue (captured as P11 below) rather than a specs-vs-description contradiction since description provides no size info."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs list both 'Cabin Size:12x10 ft' and 'Size (L x W):20 ft x 10 ft' — two conflicting size values for the same product."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Office Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Photo shows a furnished office interior with workstations and cabinets — wrong product for Smoking Cabin MCAT."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly states 'Portable office Cabin' — not a smoking cabin."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs state 'Product Type:Site Office' and 'Usage Type:Site Office' — office cabin attributes with no smoking features."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description reads 'Portable office Cabin' — explicitly names wrong product type."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs list 'Cabin Size:12x10 ft' and 'Size (L x W):20 ft x 10 ft' — two conflicting size values."
+        }
+      ],
+      "verification_note": "Confirmed bad — portable site office cabin; correct MCAT is Office Cabin.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-2859011471562.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good smoking cabin images show purpose-built enclosures with visible smoking-specific features: open-style booths have glass side panels, red slatted back walls, ashtray pedestals, and overhead exhaust ducts with recessed ceiling lighting. Generic prefab cabin images (white/blue corrugated steel, standard door and windows) are insufficient to confirm smoking cabin identity without visible exhaust, ventilation, or ashtray features.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Smoking cabins are structural enclosures whose key buyer-relevant attributes (exhaust duct placement, glass panels, ashtray integration, ventilation grilles) are visible in the product appearance itself — OCR cannot extract these from the image.",
+      "The one confirmed good product image (69171064) shows the product from a front/perspective angle where structural and functional features are the information — no printed text labels on the product surface carry spec data.",
+      "Generic prefab cabin images (which dominate the bad products) confirm that product appearance IS the differentiator — a smoking cabin must visually show smoking-specific features to be buyer-useful."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Only one verified good product (69171064) has a photo that clearly shows smoking-cabin-specific features.",
+    "product_identity": [
+      "Open-style smoking booth with glass side panels and red slatted back wall",
+      "Integrated ashtray pedestal and overhead exhaust duct visible"
+    ],
+    "acceptable_scenes": [
+      "Front/perspective view showing full enclosure with exhaust and ashtray features",
+      "Interior view showing ventilation grilles, benches, and smoke containment structure"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "69171064",
+        "reason": "Image shows two open-style smoking booths with glass side panels, red slatted back wall, ashtray pedestal, overhead exhaust duct, and recessed ceiling lighting — all smoking-cabin-specific features clearly visible.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "One verified good product (103534473) has a photo showing a generic prefab cabin exterior with no smoking-specific features visible.",
+    "thinness_signals": [
+      "Generic white/blue prefab cabin exterior with no exhaust duct, ventilation grilles, or ashtray visible",
+      "Standard door and window configuration indistinguishable from office or security cabin"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "103534473",
+        "reason": "Image shows a generic white/blue prefab portable cabin with slanted roof, door, and one window — no smoking-specific features (exhaust, ashtray, ventilation grilles) are visible to confirm it is a smoking cabin rather than a generic portable cabin."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos fall into two failure classes: generic portable office cabins and industrial smokehouse processing equipment.",
+    "failure_classes": [
+      {
+        "class": "generic_portable_office_cabin",
+        "description": "Photo shows a standard prefab portable cabin (corrugated steel, door, windows) used for office, site office, or accommodation — no smoking-specific features present.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "294720652"
+          },
+          {
+            "photo_url": null,
+            "item_id": "160671694"
+          },
+          {
+            "photo_url": null,
+            "item_id": "166404120"
+          },
+          {
+            "photo_url": null,
+            "item_id": "253743584"
+          },
+          {
+            "photo_url": null,
+            "item_id": "270297620"
+          },
+          {
+            "photo_url": null,
+            "item_id": "324713713"
+          }
+        ],
+        "detection_signal": "Corrugated steel cabin with standard door and barred windows; no exhaust duct, ventilation grilles, or ashtray visible; often branded as office/site cabin.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "industrial_smokehouse_equipment",
+        "description": "Photo shows an industrial metal cabinet/oven with shelving racks and compressor — food or rubber curing equipment, not a human-occupancy smoking cabin.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "272016820"
+          }
+        ],
+        "detection_signal": "Metal cabinet with hinged doors opening to reveal internal shelving racks and a compressor/motor unit at the base — industrial processing equipment appearance.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "open_front_office_cabin",
+        "description": "Photo shows an open-front prefab cabin with wood-look flooring and interior partition walls — commercial/office use with no smoke containment capability.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "310488951"
+          }
+        ],
+        "detection_signal": "Cabin with fully open front face, interior visible showing office/commercial fit-out, no exhaust or ventilation features.",
+        "failure_mode": "wrong_category"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong smoking cabin titles name the product type explicitly with material and application context.",
+    "strong_positive_signals": [
+      "Explicit 'Smoking Cabin' or 'Smoke Cabin' token in title",
+      "Material qualifier (Mild Steel, FRP, Steel) combined with smoking cabin product type"
+    ],
+    "structural_patterns": [
+      "[Material] Smoking Cabin",
+      "Smoke Cabin[s] [Variant]",
+      "[Material] [Portability] Smoking Cabin[s]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "310488951",
+          "title": "Mild Steel Smoking Cabin",
+          "reason": "Names material (Mild Steel) and product type (Smoking Cabin) clearly — buyer immediately understands the product."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "103534473",
+          "title": "Fiber Portable Smoking Cabins",
+          "reason": "Names portability and product type correctly but material 'Fiber' conflicts with specs stating Steel — acceptable for category identification but has a material accuracy issue."
+        },
+        {
+          "item_id": "69171064",
+          "title": "Smoke Cabins Open",
+          "reason": "Correctly identifies product type and open variant but lacks material and capacity attributes."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin smoking cabin titles name the product type but omit key differentiating attributes.",
+    "thinness_signals": [
+      "Missing material type (FRP, steel, GI) that buyers use to compare products",
+      "Missing capacity or size indicator",
+      "Missing ventilation/filtration type that differentiates smoking cabin sub-types"
+    ],
+    "examples": [
+      {
+        "item_id": "69171064",
+        "title": "Smoke Cabins Open",
+        "reason": "Correct product type named but missing material, capacity, and ventilation attributes."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles contain explicit office cabin, site cabin, or industrial smokehouse tokens that confirm wrong product type.",
+    "failure_classes": [
+      {
+        "class": "office_cabin_titles",
+        "signal": "Title contains 'Office Cabin' token — explicitly names wrong product type.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "160671694",
+            "title": "Portable Office Cabin",
+            "reason": "Explicitly names office cabin — wrong product for Smoking Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "166404120",
+            "title": "Steel Office Cabin",
+            "reason": "Explicitly names office cabin — wrong product for Smoking Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "253743584",
+            "title": "15Feet Steel Portable Office Cabin",
+            "reason": "Explicitly names portable office cabin — wrong product for Smoking Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "270297620",
+            "title": "Portable Office Cabin",
+            "reason": "Explicitly names office cabin — wrong product for Smoking Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "324713713",
+            "title": "Portable office Cabin",
+            "reason": "Explicitly names office cabin — wrong product for Smoking Cabin MCAT.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "industrial_smokehouse_titles",
+        "signal": "Title contains 'Smoke House' token referring to industrial curing equipment, not a human-occupancy smoking cabin.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "272016820",
+            "title": "Steel Smoke House",
+            "reason": "Title 'Steel Smoke House' combined with image evidence identifies industrial food/rubber curing equipment, not a smoking cabin.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily generic portable office cabins and industrial smokehouse equipment.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "portable_office_cabin",
+        "signal": "Title, specs, or description explicitly states 'Office Cabin', 'Site Office', or 'Conference Cabin' with no smoking-related attributes.",
+        "examples": [
+          {
+            "item_id": "160671694",
+            "title": "Portable Office Cabin",
+            "reason": "All dimensions confirm office cabin — no smoking features in title, specs, description, or photo.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "166404120",
+            "title": "Steel Office Cabin",
+            "reason": "All dimensions confirm prefabricated office cabin — specs state 'Usage Type:Project Office'.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "253743584",
+            "title": "15Feet Steel Portable Office Cabin",
+            "reason": "All dimensions confirm portable office cabin for construction sites.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "270297620",
+            "title": "Portable Office Cabin",
+            "reason": "All dimensions confirm office/conference cabin — specs state 'Usage Type:Conference Cabin'.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "324713713",
+            "title": "Portable office Cabin",
+            "reason": "All dimensions confirm site office cabin — specs state 'Product Type:Site Office'.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Office Cabin"
+      },
+      {
+        "class": "industrial_smokehouse_equipment",
+        "signal": "Photo shows industrial metal cabinet with shelving racks and compressor; specs reference industrial grades (AZ-150), trolley type, and industrial warranty — food/rubber curing equipment, not a human-occupancy cabin.",
+        "examples": [
+          {
+            "item_id": "272016820",
+            "title": "Steel Smoke House",
+            "reason": "Photo and specs confirm industrial smokehouse/curing equipment — completely different product type, buyer, and working principle from a smoking cabin.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      },
+      {
+        "class": "generic_container_cabin_no_smoking_features",
+        "signal": "Title uses 'Smoking' token but photo, specs, and description show a generic container cabin with no exhaust, ventilation, or ashtray features; description is a company boilerplate.",
+        "examples": [
+          {
+            "item_id": "294720652",
+            "title": "Smoking Container Cabin",
+            "reason": "Photo shows plain container cabin being crane-lifted with no smoking features; description is a company introduction for a portable cabin manufacturer.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Portable Cabin"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from base64."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion values (Office Cabin, Portable Cabin) drawn from confirmed taxonomy siblings list — never fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment and market_context (including industrial smokehouse contamination warning) used to ground category belonging decisions."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
