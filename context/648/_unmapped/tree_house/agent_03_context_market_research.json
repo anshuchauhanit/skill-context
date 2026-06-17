@@ -1,0 +1,511 @@
+{
+  "mcat_description": {
+    "short": "Tree House is a custom-built or prefabricated elevated wooden structure constructed on or around trees, or supported on stilts, used for eco-tourism accommodation, resort hospitality, children's play areas, and farmhouse leisure spaces. Sold as turnkey construction projects or modular prefab units, primarily quoted per square foot of built area.",
+    "long": "Tree Houses in the Indian B2B market are elevated habitable or recreational structures built using wood, bamboo, or steel-frame construction, designed to integrate with natural tree canopies or supported on independent stilts. They are supplied as fully custom-designed turnkey projects or as prefabricated modular units that are factory-assembled and site-installed, with design themes ranging from rustic eco-friendly to luxury resort-grade. Primary construction materials include treated pine, teak, bamboo, and engineered timber, with roofing in thatch, PVC sheet, or galvanised steel; all structures require termite treatment, waterproofing, and periodic maintenance for longevity in Indian climatic conditions. The dominant commercial buyers are resort developers, eco-tourism operators, farmhouse owners, and school/park administrators seeking unique experiential spaces.",
+    "product_types": [
+      "Tree-supported tree house (built on living trees)",
+      "Stilt-supported tree house (independent post/pillar foundation)",
+      "Modular prefabricated tree house",
+      "Custom turnkey tree house",
+      "Bamboo tree house",
+      "Wooden tree house (pine, teak, engineered timber)",
+      "Children's play tree house",
+      "Luxury resort tree house with interiors",
+      "Eco-tourism tree house cottage",
+      "Rooftop tree house structure"
+    ],
+    "primary_applications": [
+      "Eco-tourism and wildlife resort accommodation",
+      "Farmhouse and private estate leisure structures",
+      "Children's play area and school/park installations",
+      "Glamping and boutique hospitality properties",
+      "Corporate retreat and team-building venues",
+      "Honeymoon and romantic getaway suites at resorts"
+    ],
+    "buyer_segments": [
+      "Resort and eco-tourism developers",
+      "Farmhouse and private estate owners",
+      "School and amusement park operators",
+      "Hospitality and hotel chains seeking unique accommodation",
+      "Glamping and boutique stay operators",
+      "Government tourism departments and forest lodges"
+    ]
+  },
+  "primary_segment": "Custom-built or prefabricated elevated wooden tree house for eco-tourism resorts, farmhouses, and hospitality properties",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Elevated wooden/bamboo structure built on trees or stilts for human habitation, hospitality, or children's play — sold as construction/prefab project",
+    "secondary_families": [
+      "Pet furniture tree house — cat climbing tree / cat condo sold as a furniture item per piece to pet owners and pet shops"
+    ],
+    "reason": "The name 'Tree House' equally attracts architectural construction products (resort/play structures, B2B, per sq ft) and pet furniture products (cat trees/condos, retail, per piece) — incompatible buyers, incompatible product categories, and incompatible price tiers confirmed by internal keyword data ('pet tree house', 'tree house for cats')."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "tree house",
+      "treehouse",
+      "tree house construction",
+      "prefabricated tree house",
+      "wooden tree house",
+      "tree house for resort",
+      "tree house for kids",
+      "bamboo tree house",
+      "modular tree house",
+      "tree house cabin"
+    ],
+    "technical_synonyms": [
+      "arboreal structure",
+      "elevated wooden structure",
+      "stilt-supported tree house",
+      "tree-supported elevated cabin",
+      "prefab tree house unit",
+      "modular elevated cabin",
+      "canopy house"
+    ],
+    "trade_names": [
+      "tree house cottage",
+      "eco tree house",
+      "nature house",
+      "forest cabin",
+      "jungle cabin",
+      "tree top cabin",
+      "tree top room",
+      "machaan house"
+    ],
+    "hindi_terms": [
+      "ped par ghar",
+      "ped ghar",
+      "jungle ghar"
+    ],
+    "buyer_intent_queries": [
+      "tree house construction for resort in India",
+      "prefabricated tree house for farmhouse",
+      "wooden tree house builders near me",
+      "tree house for kids play area",
+      "eco friendly tree house for eco tourism",
+      "modular tree house price per sq ft",
+      "bamboo tree house construction India",
+      "tree house cottage for resort project",
+      "turnkey tree house construction service"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Tree houses in India are custom or prefab structures quoted per square foot of built area, consistent with all prefabricated wooden structure norms in the Indian B2B market; small standalone play units may be quoted per piece.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Resort / hospitality tree house (custom or prefab)",
+        "unit": "per sq ft",
+        "note": "Quoted per sq ft of built area; turnkey projects may also be quoted per project lump sum"
+      },
+      {
+        "sub_segment": "Children's play tree house (small standalone unit)",
+        "unit": "per piece",
+        "note": "Small modular play units sold as a single assembled unit"
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART listing tiles (structural observation)",
+      "fathatchroof.com",
+      "dthprefab.in",
+      "prefabwoodenhomes.com"
+    ],
+    "confidence": "medium"
+  },
+  "market_context": "Tree houses in the Indian B2B market are primarily supplied as custom-designed turnkey construction projects or prefabricated modular units, with the eco-tourism and resort hospitality segment being the dominant commercial driver — builders operate pan-India across Karnataka, Kerala, Himachal Pradesh, Rajasthan, Tamil Nadu, and Maharashtra. Construction materials include treated pine, teak, bamboo, and engineered timber, with support systems ranging from tree-integrated (bolted to living trees with minimal root disturbance) to independent stilt/pillar foundations. Leading Indian prefab wooden structure manufacturers (e.g., Royal Prefab, Vrisa Innovation, FA Thatch Roof, DTH Prefab) offer tree houses as part of a broader portfolio of resort cottages, log cabins, and eco-structures. Timber sourcing increasingly references PEFC/FSC certification as a buyer-facing quality signal. The children's play segment is a secondary but distinct sub-market, with small modular play tree houses sold to schools, parks, and residential complexes. A contamination risk exists from pet furniture listings ('cat tree houses' / cat condos) which share the keyword but are entirely different products — these must be routed to the appropriate furniture/pet products MCAT.",
+  "buyer_attracting_attributes": [
+    "Structure Material (wood species / bamboo / steel frame)",
+    "Support Type (tree-supported vs. stilt/pillar)",
+    "Built Type (modular prefab vs. custom turnkey)",
+    "Floor Area / Size (sq ft)",
+    "Height Above Ground",
+    "Roof Type (thatch / PVC / galvanised steel)",
+    "Weather Treatment (termite-proof / waterproofing / polish)",
+    "Design Theme (rustic / luxury / eco / kids)",
+    "Timber Certification (PEFC / FSC certified)",
+    "Load Capacity / Structural Safety Rating"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "182878",
+    "mcat_name": "Tree House",
+    "mcat_level": "4",
+    "listing_count": "613",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Tree House",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "85303",
+        "mcat_name": "Steel House",
+        "listing_count": "385",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Tree houses are prefabricated structures with material specs and installation requirements; no dominant brand landscape; buyers evaluate by design, material quality, and customisation capability."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "mcat_vagueness_signal",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions used to identify buyer search vocabulary and detect secondary-family contamination ('pet tree house', 'tree house for cats')."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "mcat_vagueness_signal",
+          "alt_names.hindi_terms"
+        ],
+        "citation_note": "Top keywords by Pageviews confirmed pet furniture contamination signal and Hindi buyer vocabulary ('ped par ghar' inferred from encoded keyword)."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "Taxonomy path and listing count (613) used as reference; no page tile count available to cross-check due to missing URL."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.fathatchroof.com/tree-house-construction-india.html",
+        "title": "Tree House Construction India — FA Thatch Roof",
+        "source_domain": "fathatchroof.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "mcat_description.primary_applications",
+          "market_context",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Used for turnkey tree house construction scope, pan-India geographic coverage, and prefab mock-up delivery model."
+      },
+      {
+        "url": "https://www.dthprefab.in/india/prefabricated-tree-house.html",
+        "title": "Prefabricated Tree House Manufacturers in India — DTH Prefab",
+        "source_domain": "dthprefab.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Used for custom-design approach, size benchmarks, and tree wellbeing/root protection as a buyer-facing attribute."
+      },
+      {
+        "url": "https://prefabwoodenhomes.com/",
+        "title": "Prefab Wooden Homes — Manufacturer & Supplier in India",
+        "source_domain": "prefabwoodenhomes.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "market_context"
+        ],
+        "citation_note": "Used for product type enumeration (tree house as part of broader prefab wooden structure portfolio) and material/certification signals."
+      },
+      {
+        "url": "https://woodenhomeindia.com/",
+        "title": "Royal Prefab — Prefab Wooden Homes Manufacturer India",
+        "source_domain": "woodenhomeindia.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for PEFC timber certification as buyer-facing quality signal and customisation as a key purchase driver."
+      },
+      {
+        "url": "https://www.vrisainnovation.com/prefab-wooden-house-structure-india",
+        "title": "Prefab Wooden Home, House, Resort Manufacturer in India — Vrisa Innovation",
+        "source_domain": "vrisainnovation.com",
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for maintenance requirements (termite treatment, waterproofing, polish) as buyer-attracting attributes and climate adaptability signals."
+      },
+      {
+        "url": "https://lbb.in/bangalore/treehouse-getaway-india/",
+        "title": "Check Out The Tree House Resorts In India — LBB Bangalore",
+        "source_domain": "lbb.in",
+        "derived_outputs": [
+          "primary_segment",
+          "mcat_description.primary_applications",
+          "market_context"
+        ],
+        "citation_note": "Used to corroborate eco-tourism/resort hospitality as the dominant commercial segment for tree houses in India."
+      },
+      {
+        "url": "https://www.treehouseresort.in/",
+        "title": "The Tree House Resort Jaipur — Best Luxury Resort in Jaipur",
+        "source_domain": "treehouseresort.in",
+        "derived_outputs": [
+          "primary_segment",
+          "market_context"
+        ],
+        "citation_note": "Used to corroborate luxury eco-tourism as a primary application and eco-friendly construction standards as buyer signals."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Tree houses are prefabricated structures with material specs (wood type, fasteners, safety railings) and installation requirements. No single regulatory body mandates tree house certification in India, but BIS standards for structural safety and material grades apply. No dominant brand landscape — buyers evaluate by design, material quality, and customisation capability."
+    }
+  }
+}
