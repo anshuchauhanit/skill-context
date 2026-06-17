@@ -1,0 +1,222 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation across prefabricated structures is extreme — a PEB industrial shed, portable cabin, modular office, and prefab toilet block are visually unrecognisable as the same category. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Structure type, wall panel type, and material are non-interchangeable shortlisting criteria — a buyer needing a PUF-insulated cold storage warehouse cannot substitute a GI-sheet industrial shed. Listings without these specs cannot be evaluated by buyers or sellers."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft pricing varies substantially with structure type, panel specification, and span — buyers compare rates across sellers within their confirmed spec tier. Indian industrial and commercial buyers are price-aggressive; price is a primary decision lever once type and material match."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Per sq ft is dominant for PEB sheds and industrial warehouses (primary segment). Portable cabins and modular rooms are quoted per piece/unit; large turnkey institutional projects are quoted per project. Unit must be shown to prevent price comparison errors across sub-segments.",
+      "reason": "Price cannot be compared without knowing the unit — per sq ft vs per piece vs per project creates genuine confusion across sub-segments. A buyer comparing a PEB shed listing (per sq ft) with a portable cabin listing (per unit) will misread price if unit is not shown."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "The Indian prefabricated structures market is fragmented across regional fabricators; buyers search by structure type and spec, not manufacturer name — EPACK, Interarch, and Metal Tree are known to repeat buyers but not searched by name by first-time buyers.",
+      "reason": "For capital projects, buyers evaluate manufacturer status, installation capability, IS code compliance track record, and erection experience during vendor selection — but these are post-shortlisting checks, not initial engagement drivers."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Type",
+        "reason": "Defines what the product IS — industrial shed, warehouse, office, hospital, labour camp, toilet block are non-interchangeable; entire structural design, span, and per-sq-ft pricing changes with structure type."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Type",
+        "reason": "Defines insulation grade and cladding quality — PUF panel (cold storage grade) vs GI sheet (basic industrial) represents a significant per-sq-ft price delta and is non-interchangeable for regulated applications such as cold storage and fire-rated buildings."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Flooring Type",
+      "Material",
+      "Number Of Floors",
+      "Portable",
+      "Roof Type",
+      "Service Mode",
+      "Structure Type",
+      "Usage Application",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Structural Span / Clear Span",
+        "why_important": "PEB and industrial shed buyers specify clear span (15m / 20m / 30m / 40m+) as the primary structural requirement — it determines column-free floor area and drives fabrication cost; sellers cannot confirm fit or price without it.",
+        "source": "both",
+        "example_values": [
+          "Up to 15m",
+          "15m–25m",
+          "25m–40m",
+          "Above 40m"
+        ]
+      },
+      {
+        "spec_name": "IS Code Compliance",
+        "why_important": "Institutional, government, and infrastructure buyers require IS 800 / IS 875 / IS 1893 compliance documentation as a procurement eligibility criterion — sellers without certified compliance are disqualified from these tenders.",
+        "source": "both",
+        "example_values": [
+          "IS 800",
+          "IS 875 (Wind/Snow Load)",
+          "IS 1893 (Seismic Zone)",
+          "IS 13831"
+        ]
+      },
+      {
+        "spec_name": "Roof Sheeting Material",
+        "why_important": "Roofing material (PPGI colour-coated / GI plain / polycarbonate / insulated sandwich) affects weatherproofing performance and per-sq-ft cost independently of roof shape — buyers in high-rainfall or cold storage applications specify this separately from Roof Type.",
+        "source": "both",
+        "example_values": [
+          "PPGI Colour Coated",
+          "GI Plain Sheet",
+          "Polycarbonate",
+          "Insulated Sandwich Panel"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application / Usage",
+        "reason": "Routes the RFQ to sellers who specialise in the right structure type — a cold storage PEB supplier cannot supply a labour camp, and application value immediately determines structural design, panel type, and compliance requirements.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "FMCG Godown",
+          "Commercial",
+          "Labor Camp",
+          "Storage",
+          "IT Building",
+          "Side Coverage"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Total Area",
+        "reason": "Defines project scale — sellers need this to confirm minimum project eligibility, estimate structural span requirements, and provide a meaningful per-sq-ft price indication.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall Panel / Insulation Type",
+        "why_important": "Sellers need to know whether the buyer requires PUF (cold storage), EPS (standard industrial), rockwool (fire-rated), or GI sheet (basic shed) to determine product fit and price — this is a non-interchangeable requirement that cannot be resolved post-connection.",
+        "source": "both",
+        "example_values": [
+          "PUF Panel",
+          "EPS Panel",
+          "Rockwool Panel",
+          "GI Sheet"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application / Usage",
+      "option_value": "FMCG Godown",
+      "id": "spec_1",
+      "prompt_for_generation": "Pre-engineered steel building used as an FMCG goods warehouse — large-span industrial shed with PUF sandwich panel walls and colour-coated PPGI roof, loading dock visible at front, exterior view, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Usage",
+      "option_value": "Commercial",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated commercial building with ACP-clad facade, glass entrance, multi-bay steel frame structure, used as a showroom or office complex, exterior view, clean architectural finish, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Usage",
+      "option_value": "Labor Camp",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated labour camp — row of modular bunkhouse units with GI sheet walls and sloped roof, construction site setting, multiple connected rooms visible, exterior view, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Usage",
+      "option_value": "Storage",
+      "id": "spec_4",
+      "prompt_for_generation": "Pre-engineered steel storage shed — wide-span industrial warehouse with corrugated PPGI roof and side cladding, large roller shutter door at front, exterior view, clear sky background, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Usage",
+      "option_value": "IT Building",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated IT office building — multi-storey modular steel structure with glass curtain wall panels and clean modern facade, corporate campus setting, exterior view, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application / Usage",
+      "option_value": "Side Coverage",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated side coverage structure — steel frame with corrugated GI sheet or polycarbonate side cladding panels installed along the perimeter of an industrial shed, partial enclosure visible, exterior view, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
