@@ -1,0 +1,486 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Construction contractor needing a site office/labour camp, or individual homeowner/developer seeking a prefabricated residential structure.
+
+**Journey sequence:**
+1. **Image first** — scans listing grid to confirm it's a steel house (not wooden, not container). Visual sub-type variation is enormous: single-storey cabin vs multi-floor residential vs labour camp block. Wrong type = immediate skip.
+2. **Specification** — checks floor area, number of floors, structure material (LGSF vs MS), wall panel type. These are the primary shortlisting gates. A buyer needing a 1000 sq ft LGSF residential unit cannot use a 200 sq ft MS site cabin.
+3. **Price** — per sq ft rate is the primary comparison metric. Indian construction buyers are highly price-aggressive and compare rates across multiple sellers before contacting anyone.
+4. **Unit** — must be shown alongside price. Per sq ft vs per piece vs per project creates real confusion. A buyer comparing a per-sq-ft quote against a per-piece quote for a cabin cannot make a valid comparison without unit clarity.
+5. **Company** — seller track record, project portfolio, certifications (IS:800, NBC compliance), and service geography matter — but only after the product type and price have passed initial screening.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — enormous visual variation across sub-types; image is the fastest sub-type identifier.
+- **Specification:** High — floor area, structure material, floor count, wall panel type are non-interchangeable shortlisting criteria.
+- **Price:** High — per sq ft comparison is the dominant buyer behaviour in Indian construction procurement; buyers compare rates aggressively.
+- **Unit:** High — per sq ft vs per piece vs per project is a real market ambiguity; price cannot be compared without unit.
+- **Company:** Medium — seller credentials, project portfolio, and service geography matter but are evaluated after product and price screening.
+
+**Cross-dimension consistency checks:**
+1. Buyers discover and compare across spec tiers (LGSF vs MS, floor count, area) → `spec-driven price` ✓ AND specification = High ✓
+2. Unit High → price must be at least Medium ✓ (price is High)
+3. Not project-based price as primary type (per sq ft dominates) → unit show: true ✓
+4. Specification show: true → show_on_listing: true ✓
+
+---
+
+## Step 3 — Apply Decision Questions
+
+**Image:** Visual variation between a portable guard cabin, a single-storey LGSF residential unit, a multi-floor labour camp block, and a farmhouse villa is enormous. Buyers cannot identify sub-type from title alone. High / show: true.
+
+**Specification:** Floor area, structure material, number of floors, and wall panel type are the primary shortlisting criteria — non-interchangeable. A buyer needing a 1500 sq ft LGSF residential unit with PUF panels cannot substitute a 300 sq ft MS cabin. High / show: true / show_on_listing: true.
+
+**Price:** Per sq ft rate is the universal comparison metric in Indian construction. Buyers compare rates across multiple sellers before contacting. High / show: true / `spec-driven price` (price changes substantially with floor area, structure material, floor count, and cladding type).
+
+**Unit:** Per sq ft is dominant but per piece (small cabins) and per project (large turnkey contracts) exist in the market. Without unit, a buyer cannot compare a per-sq-ft quote against a per-piece cabin quote. High / show: true / canonical_unit: "per sq ft".
+
+**Company:** Seller track record, project portfolio, IS:800/NBC certification, and service geography are evaluated during vendor selection — especially for government procurement and large residential projects. No single dominant brand with buyer recall (market is fragmented: Tata Nest-In, EPACK, Loom Crafts, Wedge India — none commands the brand loyalty of, say, Alucobond in ACP). Medium / show: true.
+
+**Brand check:**
+1. Taxonomy siblings scan: No branded sub-categories visible in siblings (e.g., no "Tata Nest-In Steel House" sibling). Inconclusive.
+2. Indian market: Tata Nest-In has some brand recognition but buyers primarily search by spec/price/geography, not brand name. Market is fragmented.
+→ `brand_important: no`
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Visual sub-type variation is enormous — a portable guard cabin, single-storey LGSF residential unit, multi-floor labour camp block, and farmhouse villa are visually distinct products. Buyers use the image to identify product type before reading any text; wrong type = immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Floor area, structure material (LGSF vs MS), number of floors, and wall panel type are non-interchangeable shortlisting criteria. A buyer needing a 1500 sq ft LGSF residential unit with PUF panels cannot evaluate a listing that omits these specs."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Per sq ft rate is the universal comparison metric in Indian construction procurement. Price changes substantially with floor area, structure material, floor count, and cladding type — buyers compare rates aggressively across sellers within their spec tier."
+  },
+  {
+    "rank": 4,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Small standardised cabins (guard rooms, site offices) are sometimes quoted per piece; large turnkey projects may be quoted per project lump sum. Per sq ft is dominant and must be shown to prevent price comparison confusion across these quoting conventions.",
+    "reason": "Per sq ft vs per piece vs per project is a real market ambiguity. A buyer comparing a per-sq-ft residential quote against a per-piece cabin quote cannot make a valid price comparison without unit clarity."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "Market is fragmented across regional fabricators and a few national players (Tata Nest-In, EPACK, Loom Crafts); no single brand commands buyer recall strong enough to drive search by brand name.",
+    "reason": "Seller credentials, project portfolio, IS:800/NBC certification, and service geography are evaluated during vendor selection — particularly for government procurement and large residential projects — but only after product type and price have passed initial screening."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+**Hard eliminations:**
+- **Usage** — application/use-case tag (Resort, Residential, Office, Farm House). Describes what the product is used FOR, not what it IS. Discard.
+- **Service Location** — geographic service area, not a product configurator. Discard.
+
+**Soft eliminations / deprioritisation:**
+- **House Type** (Farm House, Cottage, Bungalow, Villa) — largely a marketing/aesthetic label that follows from other specs (floor area, floor count, furnishing). Correlated with Floor Area and Number of Floors. Deprioritise.
+- **Built Type** (Pre Engineered, Prefab, Modular) — partially correlated with Structure Material; "Pre Engineered" and "Prefab" are near-synonymous in this market context. Deprioritise.
+- **Furnishing** — post-construction fit-out decision, not a structural configurator. Price delta exists but it's a downstream add-on, not a primary structural spec. Deprioritise.
+- **Roof Type** (Slope, Pitched, Flat) — partially correlated with House Type and Usage; limited independent price delta. Deprioritise.
+
+**Remaining strong candidates:** Structure Material, Floor Area, Number of Floors, Wall Panel Type
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Structure Material (MS / Light Gauge Steel / PEB Steel / GI):**
+- Defines WHAT the structural system IS. MS vs LGSF vs PEB are non-interchangeable — different engineering systems, different suppliers, different compliance pathways. A buyer specifying LGSF for a residential project cannot substitute MS sections. Large price delta between PEB Steel (engineered, higher cost) and standard MS. **Rank 1.**
+
+**Wall Panel Type (Sandwich Panel / PUF Panel / Cement Board / AAC Block):**
+- Defines the thermal, acoustic, and fire performance tier of the structure. PUF/PIR sandwich panels (premium, insulated) vs cement board (mid-range) vs AAC block (masonry-equivalent) represent fundamentally different product tiers with significant price deltas. Non-interchangeable for climate-controlled or fire-rated applications. **Rank 2.**
+
+*(Floor Area was considered for Rank 2 but is a dimensional input rather than a product class separator — it scales price linearly rather than defining a distinct product tier. Wall Panel Type creates a more meaningful non-interchangeable tier separation.)*
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list (verbatim copy):**
+Built Type, Floor Area, Furnishing, House Type, Number Of Floors, Roof Type, Service Location, Structure Material, Usage, Wall Panel Type
+
+**Step 3b/3c — Candidate gaps cross-referenced:**
+
+From Agent 3 `market_context` and `mcat_description`: buyers compare on frame type ✓ (Structure Material covers this), cladding/insulation type ✓ (Wall Panel Type covers this), floor count ✓ (Number Of Floors present), certifications (IS:800, NBC, seismic zone compliance) — **not in list**.
+
+From LLM world knowledge for Indian prefab steel house B2B market:
+- **Cladding/Roofing Sheet Type** — the external roof and wall cladding material (colour-coated GI sheet, Galvalume, polycarbonate) is a distinct spec from Wall Panel Type (which covers interior/structural panels). Roofing sheet type drives weatherproofing performance and cost. However, checking semantically: "Wall Panel Type" covers wall cladding but not roofing sheet specifically. This is a meaningful gap for buyers comparing weatherproofing options. → **Candidate.**
+- **Seismic/Wind Zone Compliance** — IS:800, NBC seismic zone rating, and wind load design are primary eligibility criteria for government procurement (PMAY, army, disaster relief) and institutional buyers. Not captured by any existing spec. → **Candidate.**
+- **Floor/Foundation Type** — raised platform, concrete slab, screw pile — affects site preparation cost and suitability. Important for buyers on difficult terrain (farmhouses, disaster relief). → **Candidate but peripheral** — not among top 10 buyer-relevant specs for the general market; omit.
+- **Insulation Type** — partially covered by Wall Panel Type (PUF Panel implies insulation). Semantic equivalent present. Discard.
+- **Number of Rooms / BHK Configuration** — important for residential buyers (1BHK, 2BHK). Not in list. → **Candidate.**
+
+**Importance threshold check:**
+- Cladding/Roofing Sheet Type: senior CM would add this — it's a distinct weatherproofing spec not covered by Wall Panel Type. ✓ Include.
+- Seismic/Wind Zone Compliance: critical for government/institutional procurement eligibility. ✓ Include.
+- Number of Rooms / BHK: important for residential buyers but more of a derived output from Floor Area + layout design than an independent configurator. Borderline — a senior CM might add it for residential segment filtering. ✓ Include (1 entry, keeping missing list to ≤3).
+
+**Final cross-check against specs_in_seller_list:** None of the three candidates (Roofing Sheet Type, Seismic/Wind Zone Compliance, Number of Rooms) appear in the list by name or semantic equivalent. ✓ All confirmed absent.
+
+### Phase 4 — Coverage Verdict
+3 missing specs → `significant_gaps`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Provided buyer specs:** Structure Type, Length, Width
+
+**Structure Type** (Portable / Prefabricated / Modular / A-Frame Design / Folding / Custom Design):
+- Routes the RFQ to the right seller type immediately. A seller specialising in permanent LGSF modular homes cannot supply a folding portable cabin. This spec defines the fundamental product category the buyer needs. **Rank 1.**
+
+**Length + Width:** These are dimensional inputs that together define floor area — the primary sizing metric. However, they are provided as two separate specs rather than a combined floor area spec. For RFQ purposes, Length alone (without Width) gives sellers partial sizing information. Between the two, Length is the more discriminating dimension (longer structures require different structural engineering). But both together are needed for area calculation.
+
+Assessing which single spec is more useful to sellers: **Length** gives the primary structural span dimension that determines engineering complexity and material requirements. Width is secondary (most standard modules are 10–14 ft wide). **Rank 2: Length.**
+
+*(Width is the third spec but falls outside the top 2 — it adds incremental information after Length is known.)*
+
+### Phase 2 — Thumbnail Eligibility
+
+**Structure Type** (Portable / Prefabricated / Modular / A-Frame Design / Folding / Custom Design):
+- Each value maps to a visually distinct structural form. A portable cabin, a modular multi-room house, an A-frame design, and a folding structure are recognisably different visual forms. **Thumbnail eligible: true.**
+- `thumbnail_options`: ["Portable", "Prefabricated", "Modular", "A-Frame Design", "Folding", "Custom Design"]
+
+**Length** (20 ft / 40 ft / 12 ft / 10 ft / 30 ft / 15 ft):
+- Numeric dimensional spec. No meaningful visual difference between a 20 ft and a 40 ft structure from a thumbnail perspective — the difference is scale, not visual form. **Thumbnail eligible: false.**
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps from Agent 3 vision_output and LLM world knowledge:**
+
+- **Usage / Purpose** (Residential / Labour Camp / Site Office / Farmhouse / Disaster Relief): Sellers need to know the intended use to recommend the right structural system, cladding, and compliance pathway. A labour camp requires different specs than a permanent residential unit. Not captured by Structure Type alone. Source: both. → **Candidate.**
+  - Is this more important than current rank 1 (Structure Type) or rank 2 (Length)? Usage/Purpose helps sellers route to the right product type — comparable in importance to Structure Type. `would_be_rank: 2` — it should slot between Structure Type and Length, pushing Length to rank 3.
+  - Thumbnail eligibility: Each usage value maps to a visually distinct installation context (a labour camp block vs a farmhouse villa vs a site office cabin are visually distinct). **Thumbnail eligible: true.** `thumbnail_options`: ["Residential", "Labour Camp / Worker Quarters", "Site Office", "Farmhouse / Resort", "Disaster Relief Shelter"]
+
+- **Floor Area / Built-up Area** (Up to 500 sq ft / 500–1000 sq ft / 1000–2000 sq ft / Above 2000 sq ft): The primary sizing metric for pricing and structural engineering. Length + Width together imply area but buyers often think in sq ft terms directly. However, Length + Width are already in the buyer spec list and together they define area — semantic equivalent present. **Discard** (semantic equivalent covered by Length + Width combination).
+
+- **Number of Floors** (Single Storey / G+1 / G+2 / G+3): Determines structural complexity, engineering requirements, and cost tier. A single-storey cabin vs a G+2 residential building are fundamentally different products. Not captured by Structure Type or Length. Source: both. → **Candidate.**
+  - Is this more important than current rank 2 (Length)? Yes — floor count is a more fundamental structural differentiator than a single linear dimension. `would_be_rank: 2` — but Usage/Purpose also claims rank 2. Resolving: Usage/Purpose is more fundamental for routing (determines product type); Number of Floors is a structural spec. Assign `would_be_rank: 3` for Number of Floors (below both Structure Type and Usage/Purpose, above Length).
+  - `would_be_rank: 3` > 2, so no thumbnail eligibility assessment required per rules.
+
+**Final cross-check against buyer_spec_list:** Structure Type, Length, Width — none of the candidates (Usage/Purpose, Number of Floors) appear. ✓ Confirmed absent.
+
+**Coverage verdict:** 2 missing specs → `partial`
+
+### Phase 4 — Image Upload Assessment
+
+Steel houses are custom-configured structures. However, the RFQ form captures Structure Type, Length, Width, and (if added) Usage and Floor Count — these together give sellers sufficient context to respond with a quote or request further details. Unlike spare parts or custom fabricated components, a steel house buyer typically does not have a physical reference to photograph; they have a requirement that can be expressed in words and dimensions.
+
+**Exception consideration:** Custom Design option in Structure Type — a buyer selecting "Custom Design" may have architectural drawings or reference images. However, this is a sub-segment edge case, not the primary buyer behaviour.
+
+**Image upload: false** — standard spec values adequately capture the requirement for the primary buyer segments; sellers can respond accurately and negotiate layout details post-connection.
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+1. `top_rfq_specs` rank 1: Structure Type — `thumbnail_options`: ["Portable", "Prefabricated", "Modular", "A-Frame Design", "Folding", "Custom Design"] → 6 prompts
+2. `missing_important_specs`: Usage/Purpose (`would_be_rank: 2`, `thumbnail_eligible: true`) — `thumbnail_options`: ["Residential", "Labour Camp / Worker Quarters", "Site Office", "Farmhouse / Resort", "Disaster Relief Shelter"] → 5 prompts
+
+Total: 11 prompts (spec_1 through spec_11)
+
+All prompts represent `primary_segment`: Prefabricated steel-framed modular house for residential or accommodation use (LGSF or MS frame with sheet/panel cladding).
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is enormous — a portable guard cabin, single-storey LGSF residential unit, multi-floor labour camp block, and farmhouse villa are visually distinct products that buyers cannot differentiate from title text alone. Wrong type = immediate skip regardless of price or spec."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Floor area, structure material (LGSF vs MS vs PEB), number of floors, and wall panel type are non-interchangeable shortlisting criteria. A buyer needing a 1500 sq ft LGSF residential unit with PUF panels cannot evaluate a listing that omits these specs."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq ft rate is the universal comparison metric in Indian construction procurement, and price changes substantially with floor area, structure material, floor count, and cladding type. Indian construction buyers compare rates aggressively across multiple sellers within their spec tier before making contact."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Small standardised cabins (guard rooms, site offices) are sometimes quoted per piece; large turnkey multi-unit projects may be quoted as a lump-sum per project. Per sq ft is dominant and must be shown to prevent price comparison confusion across these three quoting conventions.",
+      "reason": "Per sq ft vs per piece vs per project is a real market ambiguity in this category. A buyer comparing a per-sq-ft residential quote against a per-piece cabin quote cannot make a valid price comparison without unit clarity."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Market is fragmented across regional fabricators and a few national players (Tata Nest-In, EPACK, Loom Crafts, Wedge India); no single brand commands buyer recall strong enough to drive search by brand name rather than by spec and geography.",
+      "reason": "Seller credentials, project portfolio, IS:800/NBC certification, and service geography are evaluated during vendor selection — particularly for government procurement and large residential projects — but only after product type, spec, and price have passed initial screening."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Material",
+        "reason": "MS vs Light Gauge Steel vs PEB Steel are non-interchangeable structural systems with different engineering pathways, supplier capabilities, and significant price deltas — a buyer specifying LGSF for a residential project cannot substitute MS sections."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Type",
+        "reason": "PUF sandwich panels, cement board, and AAC block represent fundamentally different thermal, acoustic, and fire performance tiers with significant price deltas — non-interchangeable for climate-controlled or fire-rated applications."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Floor Area",
+      "Furnishing",
+      "House Type",
+      "Number Of Floors",
+      "Roof Type",
+      "Service Location",
+      "Structure Material",
+      "Usage",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roofing Sheet Type",
+        "why_important": "External roofing cladding material (colour-coated GI, Galvalume, polycarbonate) is a distinct weatherproofing and durability spec not captured by Wall Panel Type, and drives meaningful cost and performance differences that buyers compare before shortlisting.",
+        "source": "both",
+        "example_values": ["Colour-Coated GI Sheet", "Galvalume Sheet", "Polycarbonate Sheet", "Insulated Sandwich Roof Panel"]
+      },
+      {
+        "spec_name": "Seismic / Wind Zone Compliance",
+        "why_important": "Government and institutional buyers (PMAY, army, disaster relief) require IS:800 and NBC seismic/wind zone certification as a procurement eligibility criterion — sellers without the relevant compliance cannot bid.",
+        "source": "both",
+        "example_values": ["Zone II", "Zone III", "Zone IV", "Zone V", "NBC Compliant"]
+      },
+      {
+        "spec_name": "Number of Rooms / BHK Configuration",
+        "why_important": "Residential buyers specify their accommodation requirement in BHK terms (1BHK, 2BHK, 3BHK) and sellers need this to confirm layout feasibility within the quoted floor area.",
+        "source": "LLM world knowledge",
+        "example_values": ["1 BHK", "2 BHK", "3 BHK", "Studio / Single Room"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Type",
+        "reason": "Defines the fundamental product category the buyer needs — a seller specialising in permanent LGSF modular homes cannot supply a folding portable cabin, so this spec routes the RFQ to sellers who can actually fulfil the requirement.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Portable", "Prefabricated", "Modular", "A-Frame Design", "Folding", "Custom Design"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "The primary structural span dimension that determines engineering complexity, material requirements, and pricing — gives sellers the most critical single sizing input when combined with the structure type.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Usage / Purpose",
+        "why_important": "Sellers need to know the intended use (residential, labour camp, site office, farmhouse) to recommend the correct structural system, cladding specification, and compliance pathway — a labour camp requires different specs than a permanent residential unit.",
+        "source": "both",
+        "example_values": ["Residential", "Labour Camp / Worker Quarters", "Site Office", "Farmhouse / Resort", "Disaster Relief Shelter"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Residential", "Labour Camp / Worker Quarters", "Site Office", "Farmhouse / Resort", "Disaster Relief Shelter"]
+      },
+      {
+        "spec_name": "Number of Floors",
+        "why_important": "Floor count determines structural complexity, engineering requirements, and cost tier — a single-storey cabin and a G+2 residential building are fundamentally different products that require different seller capabilities.",
+        "source": "both",
+        "example_values": ["Single Storey", "G+1", "G+2", "G+3"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Type",
+      "option_value": "Portable",
+      "id": "spec_1",
+      "prompt_for_generation": "A small portable steel cabin with colour-coated GI sheet walls and roof, single door and window, mounted on a flat steel base frame, placed on open ground, natural daylight, no branding, clean white background.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Prefabricated",
+      "id": "spec_2",
+      "prompt_for_generation": "A single-storey prefabricated steel-framed house with sandwich panel walls, pitched GI sheet roof, two windows and a front door, assembled on a concrete plinth, residential setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Modular",
+      "id": "spec_3",
+      "prompt_for_generation": "A two-storey modular steel house composed of stacked rectangular modules with PUF panel cladding, flat roof, multiple windows, external staircase, residential compound setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "A-Frame Design",
+      "id": "spec_4",
+      "prompt_for_generation": "A steel-framed A-frame house with steeply pitched triangular roof extending to ground level, colour-coated metal cladding, large front window, set in a green landscape, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Folding",
+      "id": "spec_5",
+      "prompt_for_generation": "A folding portable steel cabin shown in mid-deployment with one wall panel folding outward, compact collapsed form visible on one side and expanded room on the other, industrial setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Custom Design",
+      "id": "spec_6",
+      "prompt_for_generation": "A custom-designed steel-framed prefabricated house with mixed architectural elements — varied roof lines, large glazed panels, cement board and sandwich panel cladding combination — residential setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage / Purpose",
+      "option_value": "Residential",
+      "id": "spec_7",
+      "prompt_for_generation": "A single-storey prefabricated steel house used as a permanent residence, PUF sandwich panel walls, pitched roof, front porch with railing, small garden, suburban setting, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage / Purpose",
+      "option_value": "Labour Camp / Worker Quarters",
+      "id": "spec_8",
+      "prompt_for_generation": "A row of prefabricated steel worker accommodation units at a construction site, colour-coated GI sheet cladding, multiple doors and windows along a long rectangular block, site environment with construction activity in background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage / Purpose",
+      "option_value": "Site Office",
+      "id": "spec_9",
+      "prompt_for_generation": "A prefabricated steel site office cabin at a construction site, colour-coated GI sheet walls, single door, two windows, signage board above door, placed on levelled ground with construction equipment visible in background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage / Purpose",
+      "option_value": "Farmhouse / Resort",
+      "id": "spec_10",
+      "prompt_for_generation": "A prefabricated steel farmhouse cabin with pitched roof, wooden-finish composite cladding panels, large windows, wrap-around deck, set in a green rural landscape with trees, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage / Purpose",
+      "option_value": "Disaster Relief Shelter",
+      "id": "spec_11",
+      "prompt_for_generation": "A rapidly deployed prefabricated steel emergency shelter unit, compact rectangular form with GI sheet cladding, single door, small window, placed on open flat ground in a relief camp setting with multiple identical units visible, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
