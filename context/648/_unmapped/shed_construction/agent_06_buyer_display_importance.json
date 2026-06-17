@@ -1,0 +1,215 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Shed construction buyers scan images first to identify shed type (industrial PEB vs agricultural vs warehouse vs canopy) and assess build quality, span, and finish — visual sub-type variation is extreme and wrong type means immediate skip. Image also serves as a portfolio proof-of-execution signal that no text field can replicate for a construction service."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Shed type, built type (PEB vs conventional), service mode (turnkey vs supply-and-erect), and shed height are primary shortlisting gates — buyers eliminate listings that don't match their project requirement before any contact. Without these specs a buyer cannot determine whether the contractor can deliver their specific project."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "project-based price quoted per sq ft",
+      "reason": "Indian shed construction buyers universally benchmark per-sq-ft rates across contractors before shortlisting — keyword demand ('shed construction cost per square feet near me', 'shed work rate per sq ft') confirms price is an active comparison signal. Price is project-scoped and negotiated, but a visible per-sq-ft indicative rate is a primary engagement driver for Indian SME and farm buyers."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Small agricultural/poultry sheds may be quoted as lump sum per project; large industrial PEB sheds are universally per sq ft of covered area. Some supply-only contracts quote per MT of steel — must be distinguished from construction service quotes.",
+      "reason": "Price cannot be compared across listings without knowing the unit — per sq ft vs lump sum vs per MT creates real buyer confusion. Unit must be shown alongside price to make the rate interpretable."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant consumer-facing brand with buyer recall exists in Indian shed construction — market is fragmented across regional PEB contractors and fabricators; buyers search by location, shed type, and price, not contractor brand name.",
+      "reason": "For capital construction projects, buyers evaluate contractor track record, past project portfolio, structural compliance credentials (IS 800:2007), and geographic service reach during vendor selection — company matters but only after spec and price shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Shed Type",
+        "reason": "Defines what the structure IS and who it is for — Industrial/Factory/Warehouse vs Agricultural/Dairy vs Parking/Canopy are non-interchangeable project categories with fundamentally different structural requirements, load designs, and price points per sq ft."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Service Mode",
+        "reason": "Turnkey vs Supply-and-Erect vs Labour-Only vs Design-and-Build drives the largest price delta in this category — a turnkey contract includes design, fabrication, and erection while labour-only is a fraction of that cost, making this the primary scope-of-work configurator."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Location",
+      "Material",
+      "Roof Type",
+      "Service Mode",
+      "Shed Height",
+      "Shed Type",
+      "Sheet Thickness",
+      "Usage",
+      "Warranty"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Span / Width",
+        "why_important": "Clear span (width between columns) is a primary structural and cost driver for industrial and warehouse sheds — wider spans require heavier primary frames and significantly increase per-sq-ft cost, making it a key buyer shortlisting criterion.",
+        "source": "both",
+        "example_values": [
+          "Up to 20 ft",
+          "20–40 ft",
+          "40–60 ft",
+          "Above 60 ft"
+        ]
+      },
+      {
+        "spec_name": "Roofing / Cladding System",
+        "why_important": "The choice of roofing material (Galvalume profiled sheet, PUF sandwich panel, Rockwool panel, polycarbonate) determines insulation performance, light transmission, and cost — buyers in industrial and cold-storage segments specify this as a non-negotiable requirement.",
+        "source": "both",
+        "example_values": [
+          "Galvalume Profiled Sheet",
+          "PUF Sandwich Panel",
+          "Rockwool Panel",
+          "Polycarbonate Sheet"
+        ]
+      },
+      {
+        "spec_name": "Covered Area",
+        "why_important": "Project scale (total sq ft to be constructed) is the primary quantity dimension for shed construction — sellers need this to assess project feasibility, mobilisation cost, and whether the project falls within their execution capacity.",
+        "source": "both",
+        "example_values": [
+          "Up to 2,000 sq ft",
+          "2,000–10,000 sq ft",
+          "10,000–50,000 sq ft",
+          "Above 50,000 sq ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Material defines the structural system and durability tier — Mild Steel vs GI vs Aluminium vs Stainless Steel determines whether the seller can supply the required structure and at what cost, making it the primary routing spec for shed construction RFQs.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Shed Type",
+        "why_important": "Sellers need to know whether the buyer wants an industrial factory shed, warehouse, agricultural/poultry shed, or parking canopy to confirm they execute that project type and to quote accurately.",
+        "source": "both",
+        "example_values": [
+          "Industrial / Factory Shed",
+          "Warehouse / Godown Shed",
+          "Agricultural / Poultry Shed",
+          "Parking / Canopy Shed"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Industrial / Factory Shed",
+          "Warehouse / Godown Shed",
+          "Agricultural / Poultry Shed",
+          "Parking / Canopy Shed"
+        ]
+      },
+      {
+        "spec_name": "Service Mode",
+        "why_important": "Sellers need to know whether the buyer wants a turnkey contract (design + supply + erect), supply-and-erect only, or labour-only engagement — this defines the entire scope of work and determines which contractors can respond.",
+        "source": "both",
+        "example_values": [
+          "Turnkey (Design + Supply + Erect)",
+          "Supply and Erect",
+          "Labour Only",
+          "Design and Build"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Covered Area",
+        "why_important": "Project scale in sq ft is the primary quantity signal for shed construction — sellers need this to assess mobilisation feasibility, resource planning, and whether the project is within their execution capacity.",
+        "source": "both",
+        "example_values": [
+          "Up to 2,000 sq ft",
+          "2,000–10,000 sq ft",
+          "10,000–50,000 sq ft",
+          "Above 50,000 sq ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Shed construction buyers frequently have a site layout, architectural sketch, or reference photo of a similar shed they want built — sharing this reference allows contractors to assess span requirements, roof pitch, bay configuration, and site constraints that cannot be captured in dropdown specs, enabling accurate quotation without a site visit."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Shed Type",
+      "option_value": "Industrial / Factory Shed",
+      "id": "spec_1",
+      "prompt_for_generation": "Pre-engineered steel industrial factory shed with large clear span, corrugated Galvalume roof sheets, steel columns and rafters, roller shutter entrance, concrete floor visible, exterior view in natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shed Type",
+      "option_value": "Warehouse / Godown Shed",
+      "id": "spec_2",
+      "prompt_for_generation": "Pre-engineered steel warehouse godown shed with wide-span roof, corrugated metal cladding on side walls, large sliding door entrance, loading bay area visible at front, exterior view in natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shed Type",
+      "option_value": "Agricultural / Poultry Shed",
+      "id": "spec_3",
+      "prompt_for_generation": "Steel-framed agricultural poultry shed with low-pitch roof, ventilation openings along side walls, GI sheet cladding, rural setting with open land visible, exterior view in natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shed Type",
+      "option_value": "Parking / Canopy Shed",
+      "id": "spec_4",
+      "prompt_for_generation": "Steel cantilever parking canopy shed with single-slope corrugated metal roof, open sides, steel columns, vehicles parked underneath visible, exterior view in natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
