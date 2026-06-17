@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Tin Shed' is the dominant buyer-facing term confirmed across primary_keywords and buyer_intent_queries in Agent 3 alt_names, and aligns with the market_context confirming 'Tin Shed' (Hindi: टीन शेड / teen shed) as the standard commercial label in Indian B2B search behaviour.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail shows a large-span colour-coated blue steel sheet shed on a visible MS pipe/column frame in an industrial/commercial setting under construction — directly matching the primary_segment of prefabricated GI or colour-coated steel sheet shed on mild steel frame for industrial and commercial use.",
+      "Minor improvement is possible: the image is a real-world construction-site photograph with foreground clutter (loose MS sections, dirt ground), which reduces visual clarity; a cleaner, better-lit shot of a completed industrial shed would improve buyer confidence and listing quality."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic AI-generated image of a large-span prefabricated industrial tin shed with a blue colour-coated corrugated steel sheet roof on a grey mild steel hollow-section column and rafter frame, fully erected and complete, set against a plain white or light sky-blue studio background, front three-quarter view, bright even lighting, clean ground with no clutter, sharp focus on the roof sheet profile and MS frame structure, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
