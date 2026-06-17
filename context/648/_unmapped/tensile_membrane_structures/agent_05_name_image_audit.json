@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Tensile Membrane Structures' directly matches the top primary keyword and technical synonyms confirmed in Agent 3 alt_names, and aligns with market_context naming norms for this category in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail shows a large-span stadium/sports complex tensile membrane roof — a valid product type, but not the primary segment (PVC-coated polyester car parking / commercial shade canopy); it represents a premium, large-scale installation that is atypical of the dominant Indian B2B buyer query.",
+      "Image quality is low-resolution, taken from a distance with surrounding construction clutter, grass, and barriers — a closer, cleaner shot of a conical or modular car parking tensile structure would be far more buyer-relevant and visually compelling for the primary segment."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A row of white PVC-coated polyester conical tensile membrane structures covering a commercial car parking area, steel mast poles with cable stays, clean white fabric canopy against a bright blue sky, sharp product-focused composition, no people, no clutter, photorealistic architectural render style, square 1:1 format, soft natural daylight, white and light grey tones, minimal background.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
