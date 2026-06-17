@@ -1,0 +1,390 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Resort/eco-tourism developer or glamping entrepreneur purchasing prefabricated wooden cabins for hospitality use.
+
+**Journey:**
+1. **Image first** — scans listing grid to identify structure type (A-frame vs log cabin vs cottage), aesthetic quality, and finish. This is a high-value, high-involvement purchase where visual appeal of the end product is the primary commercial asset for the buyer's own guests.
+2. **Design style / structure type** — confirms the architectural form matches their resort concept. A-frame, log cabin, cottage — non-interchangeable aesthetics.
+3. **Floor area / layout** — determines whether the structure fits their plot and guest accommodation needs.
+4. **Price** — significant capital expenditure; buyers compare per-unit or per-sq-ft rates across sellers after visual and spec shortlisting. India price sensitivity is high.
+5. **Company** — manufacturer credibility, installation track record, delivery timeline, and service capability matter for a high-value, site-delivered product.
+6. **Unit** — per unit vs per sq ft ambiguity is real and must be shown alongside price.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual form and aesthetic IS the product for hospitality buyers. Sub-type variation is extreme (A-frame vs log cabin vs cottage look nothing alike).
+- **Specification:** High — floor area, design style, wood type, treatment, and furnishing level are primary shortlisting gates.
+- **Price:** High — large capital expenditure; Indian buyers compare aggressively. Per-unit or per-sq-ft rates are compared across sellers.
+- **Unit:** High — per unit vs per sq ft creates genuine price comparison confusion; must be shown.
+- **Company:** Medium — manufacturer track record and installation capability matter but are evaluated after visual and spec fit.
+
+---
+
+## Step 3 — Decision Questions Per Dimension
+
+**Image:** High visual variation across sub-types. A-frame, log cabin, cottage, glamping pod — each looks completely different. Buyers have a specific aesthetic brief for their resort. Wrong type = immediate skip.
+
+**Specification:** Buyers discover across spec tiers (floor area, design style, wood type). Spec is a discovery and shortlisting signal, not just a confirmation signal. `price_display_type = "spec-driven price"`.
+
+**Price:** Large capital expenditure. Indian B2B buyers compare per-unit or per-sq-ft rates across sellers. Price is a primary shortlisting signal after visual and spec fit. High.
+
+**Unit:** Per unit (fixed-spec cabin) vs per sq ft (custom residential) — both in active use. A buyer comparing a per-unit quote against a per-sq-ft quote without knowing the unit cannot make a valid comparison. Unit must be shown.
+
+**Company:** Manufacturer status, installation track record, delivery timeline, and post-installation service are evaluated during vendor selection. No dominant brand with buyer recall — market is fragmented. Medium.
+
+**Cross-dimension consistency checks:**
+1. Buyers discover across spec tiers → `spec-driven price` ✓ AND specification = High ✓
+2. Unit = High → price must be at least Medium ✓ (price is High)
+3. Not project-based price → unit show: true ✓
+4. Specification show: true → show_on_listing: true ✓
+
+**Brand check:**
+- Taxonomy siblings scan: no branded sub-categories (e.g., "Loom Crafts Cabin") appear in siblings. Siblings are generic category names.
+- Indian market: Loom Crafts, Royal Prefab, Sara Abode, Vrisa Innovation are regional manufacturers — buyers do not search by brand name; they search by structure type and spec.
+- `brand_important: no`
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Extreme visual variation across sub-types — A-frame, log cabin, glamping pod, and cottage look nothing alike. Hospitality buyers have a specific aesthetic brief for their resort; image is the primary shortlisting signal and the buyer's first filter before reading any text."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Design style, floor area, wood type, and treatment are discovery-level shortlisting criteria — buyers compare across spec tiers, not within a known tier. Listings without these specs cannot be evaluated for fit."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Large capital expenditure with high India price sensitivity. Buyers compare per-unit or per-sq-ft rates across sellers after visual and spec shortlisting; price varies substantially with floor area, wood species, and furnishing level."
+  },
+  {
+    "rank": 4,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per unit",
+    "unit_note": "Per unit dominates for fixed-spec resort/glamping cabins; per sq ft is used for custom residential and farmhouse buyers. Both units are in active market use — price cannot be compared without knowing which unit applies. Listings must state the unit explicitly.",
+    "reason": "Per unit vs per sq ft creates genuine price comparison confusion. A buyer comparing a per-unit quote against a per-sq-ft quote without the unit shown cannot make a valid comparison."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "Market is fragmented across regional manufacturers; no brand has buyer recall strong enough that buyers search by manufacturer name rather than structure type and spec.",
+    "reason": "Manufacturer installation track record, delivery timeline, and post-installation service capability are evaluated during vendor selection for this high-value, site-delivered product — but only after visual and spec fit is confirmed."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Usage:** Application/use-case tag (Residential, Farm House, Resort, Guest House) — describes what the product is used FOR. Discard.
+- **Service Location:** Geographic service area — not a product configurator. Discard.
+- **Roof Type:** Gable, Slope, Hip, Pitched — these are largely correlated with Design Style / House Type and are a consequence of the structural form chosen. Soft eliminate — deprioritise.
+
+**Remaining after elimination:** Built Type, Floor Area, Furnishing, House Type, Number Of Floors, Treatment, Wood Type.
+
+### Phase 2 — Top 2 Configurator Selection
+
+**House Type** (Resort Cabin / Farm House / Villa / Cottage): Defines WHAT the product IS architecturally and commercially. Non-interchangeable — a resort cabin and a villa are different products with different structural complexity, finish levels, and price points. A buyer cannot substitute one for another. Rank 1.
+
+**Wood Type** (Teak Wood / Cedar Wood / Spruce Wood / Pine Wood / Engineered Wood): Defines the material grade and quality tier. Teak vs Engineered Wood = very large price delta. Non-interchangeable — structural performance, durability, and aesthetic differ fundamentally. Rank 2.
+
+*Floor Area* was a strong contender for Rank 2 but Wood Type drives a larger price delta per unit and is a non-interchangeable quality tier separator. Floor Area is a size configurator that scales price linearly — important but secondary to material grade.
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list:**
+Built Type, Floor Area, Furnishing, House Type, Number Of Floors, Roof Type, Service Location, Treatment, Usage, Wood Type
+
+**Step 3b/3c — Candidate gaps:**
+
+From Agent 3 vision_output and LLM world knowledge:
+
+- **Construction System** (Timber Frame / Log Cabin / A-Frame / Hybrid Wood-Steel): Agent 3 explicitly identifies construction systems as a primary market differentiator. Not captured by House Type (which is the use-case form) or Wood Type (which is the material). A-Frame is a structural system, not a house type. Sellers need to know which structural system the buyer wants — it drives engineering, cost, and aesthetics fundamentally. Cross-check: "Built Type" covers Knock Down / Modular / Prefab — this is the assembly method, NOT the structural system. Construction System is genuinely absent. ✓ Include.
+
+- **Wall Thickness / Insulation**: Relevant for hill-station and cold-climate buyers. However, this is typically a consequence of wood type and construction system — not independently configured by most Indian sellers at the listing level. Borderline — exclude (below top-10 threshold for this market).
+
+- **Certification** (FSC / PEFC / NBC Compliant): Agent 3 identifies FSC/PEFC certification as increasingly demanded by premium buyers and NBC compliance as a structural requirement. Not captured anywhere in the spec list. Premium resort developers and institutional buyers actively filter on this. ✓ Include.
+
+- **Delivery Timeline**: Competitive differentiator per Agent 3 (45–90 days). However, this is a service attribute, not a product spec — sellers negotiate this post-connection. Exclude.
+
+- **Number of Floors** is already in the list. ✓ Present.
+- **Treatment** is already in the list. ✓ Present.
+- **Furnishing** is already in the list. ✓ Present.
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → `partial`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Design Style** (A-Frame / Triangular / Hut Type / V-shape Cottage / Cottage / Double A Frame): Defines the architectural form — the primary aesthetic requirement for hospitality buyers. Non-interchangeable. Sellers need this to confirm they can supply the specific structural form. Rank 1.
+
+**Layout** (1 BHK / 1 Room / 2 BHK / 2 Rooms / Double Story): Defines the accommodation capacity and internal configuration. Sellers need this to determine structural complexity, floor area, and pricing tier. Rank 2.
+
+*Built-up Area* is a strong candidate but is a continuous numeric dimension — less useful as an RFQ spec than Layout, which captures the functional accommodation requirement that sellers use to route to their product range. Built-up Area is better captured post-connection during quotation.
+
+### Phase 2 — Thumbnail Eligibility
+
+**Design Style:** Each option value (A-Frame, Triangular, Hut Type, V-shape Cottage, Cottage, Double A Frame) is visually distinct — these are recognisably different architectural forms. `thumbnail_eligible: true`. Options: ["A-Frame", "Triangular", "Hut Type", "V-shape Cottage", "Cottage", "Double A Frame"]
+
+**Layout:** 1 BHK, 2 BHK, 1 Room, 2 Rooms, Double Story — these are numeric/categorical room counts. No meaningful visual difference between a "1 BHK" and "2 BHK" label as a thumbnail image. `thumbnail_eligible: false`.
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps from Agent 3 vision_output and LLM world knowledge:**
+
+- **Wood Type** (Teak / Cedar / Pine / Engineered Wood): Agent 3 identifies wood species as a primary market differentiator. Sellers need this to confirm material availability and quote accurately — teak vs engineered wood is a fundamental price and quality difference. Not captured in buyer spec list. `would_be_rank: 2` — more important than Layout because it gates the seller's ability to supply the right material tier. Not thumbnail eligible (material names are not visually distinguishable as thumbnails without showing the actual wood grain — and that level of visual differentiation is not reliably achievable in a thumbnail prompt). ✓ Include.
+
+- **Built-up Area**: Already in buyer spec list as "Built-up Area". ✓ Present — do not include.
+
+- **Usage / Application** (Resort / Farmhouse / Residential / Rooftop): Agent 3 identifies distinct buyer segments with different structural requirements. However, Design Style already partially captures this (A-Frame = resort/glamping; Cottage = farmhouse/residential). Borderline — the overlap is significant enough to exclude as a separate missing spec.
+
+- **Treatment** (Pressure Treated / Chemical Treated / Untreated): Relevant for durability in coastal and hill-station climates. However, this is a seller-side spec that buyers rarely specify upfront — they rely on the seller to confirm appropriate treatment for the location. Exclude.
+
+**Coverage verdict:** 1 missing spec → `partial`
+
+**Image Upload Assessment:**
+
+Prefabricated wooden houses are custom-configured structures where buyers often have a specific design reference — a photo from a resort they visited, an architect's sketch, or a reference image from a competitor's property. Sellers cannot always determine "can I build this and at what price?" from Design Style + Layout alone, especially for custom or hybrid forms. However, the defined Design Style options (A-Frame, Cottage, Hut Type, etc.) cover the major architectural forms adequately for initial routing. Post-connection, sellers typically request reference images anyway. Image upload at RFQ stage would be useful but is not essential for initial seller routing.
+
+`image_upload_recommended: true` — buyers frequently have a specific design reference (resort photo, architect sketch, or competitor property image) that sellers need to confirm structural feasibility and quote accurately for custom or non-standard forms.
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs` rank 1: Design Style (`thumbnail_eligible: true`, options: ["A-Frame", "Triangular", "Hut Type", "V-shape Cottage", "Cottage", "Double A Frame"])
+- `missing_important_specs`: Wood Type — `thumbnail_eligible: false` → no prompts generated.
+
+6 prompts total (one per Design Style option value). All represent `primary_segment`: prefabricated wooden cottage/cabin for eco-resort, glamping, and hospitality use.
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual variation across sub-types — A-frame, log cabin, glamping pod, and cottage look nothing alike. Hospitality buyers have a specific aesthetic brief for their resort; image is the primary shortlisting signal and the buyer's first filter before reading any text."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Design style, floor area, wood type, and treatment are discovery-level shortlisting criteria — buyers compare across spec tiers, not within a known tier. Listings without these specs cannot be evaluated for fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Large capital expenditure with high India price sensitivity. Buyers compare per-unit or per-sq-ft rates across sellers after visual and spec shortlisting; price varies substantially with floor area, wood species, and furnishing level."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per unit",
+      "unit_note": "Per unit dominates for fixed-spec resort and glamping cabins; per sq ft is used for custom residential and farmhouse buyers. Both units are in active market use — price cannot be compared without knowing which unit applies. Listings must state the unit explicitly.",
+      "reason": "Per unit vs per sq ft creates genuine price comparison confusion. A buyer comparing a per-unit quote against a per-sq-ft quote without the unit shown cannot make a valid comparison."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Market is fragmented across regional manufacturers; no brand has buyer recall strong enough that buyers search by manufacturer name rather than structure type and spec.",
+      "reason": "Manufacturer installation track record, delivery timeline, and post-installation service capability are evaluated during vendor selection for this high-value, site-delivered product — but only after visual and spec fit is confirmed."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "House Type",
+        "reason": "Defines the architectural and commercial product class (Resort Cabin vs Villa vs Cottage) — non-interchangeable forms with fundamentally different structural complexity, finish levels, and price points."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wood Type",
+        "reason": "Defines the material quality tier — Teak vs Engineered Wood carries a very large price delta and the values are non-interchangeable in terms of durability, aesthetics, and structural performance."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Floor Area",
+      "Furnishing",
+      "House Type",
+      "Number Of Floors",
+      "Roof Type",
+      "Service Location",
+      "Treatment",
+      "Usage",
+      "Wood Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Construction System",
+        "why_important": "Timber Frame, Log Cabin, A-Frame, and Hybrid Wood-Steel are structurally non-interchangeable systems that drive engineering design, cost, and aesthetics — buyers specify this upfront and sellers must confirm capability; not captured by Built Type (assembly method) or House Type (use-case form).",
+        "source": "both",
+        "example_values": ["Timber Frame", "Log Cabin", "A-Frame", "Hybrid Wood-Steel"]
+      },
+      {
+        "spec_name": "Certification",
+        "why_important": "FSC/PEFC timber certification and NBC structural compliance are actively demanded by premium resort developers and institutional buyers as a quality and regulatory eligibility gate — absent from the current spec list entirely.",
+        "source": "both",
+        "example_values": ["FSC Certified", "PEFC Certified", "NBC Compliant", "Uncertified"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Design Style",
+        "reason": "Defines the architectural form (A-Frame, Cottage, Hut Type) — the primary aesthetic requirement for hospitality buyers; sellers need this to confirm they can supply the specific structural form and quote accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["A-Frame", "Triangular", "Hut Type", "V-shape Cottage", "Cottage", "Double A Frame"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Layout",
+        "reason": "Defines accommodation capacity and internal configuration (1 BHK, 2 BHK, Double Story) — sellers use this to determine structural complexity and route to the appropriate product range.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wood Type",
+        "why_important": "Sellers need the buyer's material preference to confirm availability and quote accurately — Teak vs Engineered Wood is a fundamental price and quality difference that cannot be resolved post-connection without this information.",
+        "source": "both",
+        "example_values": ["Teak Wood", "Cedar Wood", "Pine Wood", "Engineered Wood"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Buyers frequently have a specific design reference — a resort photo, architect sketch, or competitor property image — that sellers need to confirm structural feasibility and provide an accurate quote, especially for custom or non-standard architectural forms not covered by the defined Design Style options."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Design Style",
+      "option_value": "A-Frame",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated A-frame wooden cabin for eco-resort use, steep triangular roofline extending to ground level, natural pine or cedar cladding, set in a green hillside landscape, daytime natural lighting, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Triangular",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated triangular wooden cabin for glamping resort, prominent triangular gable facade with large glass front panel, wooden exterior cladding, set on a flat resort lawn, daytime natural lighting, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Hut Type",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated wooden hut-style cabin for eco-resort, rounded or conical thatched-look roof with wooden plank walls, rustic natural finish, set in a tropical garden setting, daytime natural lighting, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "V-shape Cottage",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated V-shape wooden cottage for hospitality resort, distinctive V-shaped roofline with wooden exterior walls, natural timber finish, set in a hillside resort landscape, daytime natural lighting, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Cottage",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated wooden cottage for eco-resort or farmhouse use, traditional pitched gable roof, wooden plank exterior cladding with a small covered porch, set in a green garden landscape, daytime natural lighting, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Double A Frame",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated double A-frame wooden cabin for glamping resort, two connected A-frame sections forming a wider structure, natural timber cladding, set on a hillside resort property, daytime natural lighting, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
