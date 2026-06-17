@@ -1,0 +1,321 @@
+{
+  "mcat_description": {
+    "short": "Telephone Boxes are enclosures used in telecommunications infrastructure for cable termination, distribution, and connection management, sold as wall-mounted or pole-mounted metal or plastic units in India's B2B telecom market.",
+    "long": "In the Indian B2B market, 'Telephone Boxes' predominantly refers to telecom distribution enclosures — including MDF (Main Distribution Frame) boxes, DP (Distribution Point) boxes, Krone-type junction boxes, and rosette boxes — used to terminate, organise, and distribute telephone cable pairs in structured cabling systems. These enclosures are manufactured from mild steel (MS sheet), ABS plastic, PVC, or aluminium, and are available in pair capacities ranging from 10 pairs to 1,200 pairs, with IP ratings such as IP40 and IP54 for indoor and outdoor use. The MCAT name also attracts a secondary product family — prefabricated telephone booth kiosks made from FRP or steel — which are structurally and commercially incompatible with distribution boxes. Buyers for distribution boxes are telecom contractors, BSNL/MTNL network operators, ISPs, and building infrastructure teams, while booth buyers are municipalities, corporates, and construction firms.",
+    "product_types": [
+      "Telephone MDF Box (Main Distribution Frame Box)",
+      "Telephone DP Box (Distribution Point Box)",
+      "Krone-type Telephone Junction Box",
+      "Telephone Rosette Box",
+      "Telephone DB Box (Distribution Box)",
+      "Telephone PVC Distribution Box",
+      "Aluminium DP Box",
+      "Mild Steel Telephone Distribution Box",
+      "Telephone Junction Box",
+      "Prefabricated Telephone Booth / Kiosk (FRP or Steel)",
+      "Acoustic Telephone Booth (Office Pod)"
+    ],
+    "primary_applications": [
+      "Telephone cable pair termination and distribution in buildings and campuses",
+      "BSNL/MTNL last-mile copper network distribution points",
+      "Structured cabling systems in commercial and residential complexes",
+      "Interconnection of primary and secondary distribution cables",
+      "Outdoor pole-mounted or wall-mounted telecom junction points",
+      "Public telephone kiosk installation (booth sub-type)",
+      "Office acoustic privacy pods for phone calls (booth sub-type)"
+    ],
+    "buyer_segments": [
+      "Telecom contractors and network installers (BSNL, MTNL, private ISPs)",
+      "Electrical and telecom wholesalers and distributors",
+      "Building infrastructure and facility management teams",
+      "Government telecom departments and PSUs",
+      "Corporate IT/facilities procurement teams (for booth sub-type)",
+      "Municipal bodies and public infrastructure agencies (for booth sub-type)"
+    ]
+  },
+  "primary_segment": "Telephone Distribution Box (MDF / DP / Krone junction box for telecom cable termination)",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Telephone distribution/junction box (MDF box, DP box, Krone box) for telecom cable pair termination and distribution",
+    "secondary_families": [
+      "Prefabricated telephone booth / kiosk (FRP or steel walk-in enclosure for public telephony or outdoor use)",
+      "Acoustic office telephone booth / privacy pod (soundproofed modular enclosure for corporate office use)"
+    ],
+    "reason": "The name 'Telephone Boxes' attracts two fundamentally incompatible product families — small telecom cable distribution enclosures (bought by telecom contractors per piece in bulk) and prefabricated walk-in booth structures (bought by municipalities/corporates per unit at orders-of-magnitude higher value) — with different buyers, regulatory contexts, taxonomy homes, and price tiers; keyword data confirms distribution boxes dominate actual search intent while the taxonomy path implies booths."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "telephone distribution box",
+      "telephone MDF box",
+      "telephone DP box",
+      "telephone junction box",
+      "telephone DB box",
+      "telephone krone box",
+      "telecom distribution box",
+      "telephone rosette box"
+    ],
+    "technical_synonyms": [
+      "Main Distribution Frame box",
+      "Distribution Point box",
+      "Krone LSA junction box",
+      "telephone termination box",
+      "telephone cable distribution enclosure",
+      "telecom cable junction enclosure",
+      "telephone pair distribution frame"
+    ],
+    "trade_names": [
+      "Krone box",
+      "MDF box",
+      "DP box",
+      "DB box",
+      "IPM box",
+      "Krone IPM module box",
+      "Saxons rosette box"
+    ],
+    "hindi_terms": [
+      "टेलीफोन बॉक्स",
+      "टेलीफोन डिस्ट्रीब्यूशन बॉक्स",
+      "टेलीफोन जंक्शन बॉक्स"
+    ],
+    "buyer_intent_queries": [
+      "100 pair telephone MDF box price",
+      "200 pair telephone distribution box with krone",
+      "telephone DP box mild steel wall mounted",
+      "50 pair telephone distribution box indoor",
+      "telephone krone box 10 pair module",
+      "telephone rosette box ABS plastic",
+      "telephone MDF box manufacturer India",
+      "BSNL telephone distribution box supplier"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Telephone distribution boxes are discrete enclosures sold individually per unit in Indian B2B transactions; pair capacity (10 pair, 50 pair, 100 pair, 200 pair) is a spec attribute, not a unit — the transaction unit is always per piece.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Telephone MDF / DP / Krone boxes",
+        "unit": "per piece",
+        "note": "Sold individually; pair capacity is a product specification, not a unit of measure"
+      },
+      {
+        "sub_segment": "Telephone rosette boxes",
+        "unit": "per piece",
+        "note": "Small wall-mount units; sometimes sold in lots/sets but per piece is the standard quote unit"
+      },
+      {
+        "sub_segment": "Prefabricated telephone booth / kiosk",
+        "unit": "per piece",
+        "note": "Large prefab structures quoted per unit; custom dimensions may attract per-project quoting"
+      }
+    ],
+    "sources_checked": [
+      "goyalshop.com (Indian telecom distributor product listings)",
+      "99kaccessories.com (MDF box product page)",
+      "kapur plastics IndiaMART page (DP box manufacturer)",
+      "world knowledge — Indian B2B telecom market unit norms"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B telecom market, 'Telephone Boxes' is a colloquial umbrella term that most commonly refers to telecom cable distribution enclosures — specifically MDF (Main Distribution Frame) boxes, DP (Distribution Point) boxes, and Krone-type junction boxes — used to terminate and manage telephone cable pairs in structured cabling infrastructure. These are manufactured from mild steel (MS sheet), ABS plastic, PVC, or aluminium, and are available in pair capacities from 10 pairs to 1,200 pairs; IP ratings of IP40 (indoor) and IP54 (outdoor/weatherproof) are standard differentiators. The Krone LSA disconnection module system is the dominant termination standard in India, with Krone-compatible boxes being the most widely traded variant. Key manufacturing and trading hubs include Delhi (Bhagirath Palace), Jalandhar, and Jaipur. A secondary and incompatible product family — prefabricated telephone booth kiosks made from FRP or mild steel — also trades under this name; these are walk-in or semi-enclosed structures used for public telephony or outdoor installations, with dimensions typically around 1.1m x 1.1m x 2.4m and materials including FRP, steel, and glass wool insulation. A tertiary emerging segment is acoustic office telephone booths (soundproofed modular pods) for corporate open-plan offices. The distribution box segment is driven by BSNL/MTNL network expansion, building infrastructure projects, and ISP last-mile deployments; the booth segment is driven by municipal and corporate buyers. These two families are commercially and structurally incompatible and should ideally be separated in taxonomy.",
+  "buyer_attracting_attributes": [
+    "Pair Capacity (10 pair / 50 pair / 100 pair / 200 pair / 500 pair / 1000 pair)",
+    "Material (Mild Steel / ABS Plastic / PVC / Aluminium)",
+    "IP Rating (IP40 / IP54 / weatherproof)",
+    "Module Type (Krone LSA / IDC / standard)",
+    "Mounting Type (wall-mounted / pole-mounted / floor-standing)",
+    "Installation Location (indoor / outdoor)",
+    "Lock and Key System (yes/no)",
+    "Dimensions (H x W x D in mm)",
+    "Finish / Coating (powder-coated / galvanised)",
+    "Compliance / Brand (BSNL-approved / Krone-compatible)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "117155",
+    "mcat_name": "Telephone Boxes",
+    "mcat_level": "5",
+    "listing_count": "288",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Telephone Boxes",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "38456.0",
+      "name": "Telephone Booths",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "38456.0"
+    ],
+    "siblings": [],
+    "direct_sibling_count": 0,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Telephone boxes are prefabricated structures with material and dimensional specs (steel/FRP construction, weatherproofing, footprint). No regulatory mandate, brand dominance, or chemical/pharma angle. Standard B2B research into material grades, installation standards, and market variants is warranted."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Google KWs 'telephone dp box', 'telephone db box' confirmed distribution box as dominant buyer search intent; Hindi keyword with 5,437 impressions confirmed strong demand signal."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms",
+          "primary_segment",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Internal KWs overwhelmingly showed MDF box, DP box, Krone box, rosette box, distribution box terms — confirming primary_segment as telecom distribution boxes, not prefab booths."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path ('Prefabricated Structures') conflicts with keyword evidence; this conflict is documented in mcat_vagueness_signal. listing_count_suspect set false as no page URL was available to cross-check tile count."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "No call data rows provided for this MCAT — unused."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.goyalshop.com/telephone-distribution-db-boxes.html",
+        "title": "TELEPHONE DISTRIBUTION DB BOXES — Goyal Electricals and Electronics, New Delhi",
+        "source_domain": "goyalshop.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for product type enumeration (MDF box, Krone box, DP box), material variants (MS sheet, plastic), pair capacity ranges (10–1000 pair), and IP rating signals."
+      },
+      {
+        "url": "https://99kaccessories.com/products/100-pair-mdf-box-1",
+        "title": "100 Pair Telephone MDF Box — 99KACCESSORIES",
+        "source_domain": "99kaccessories.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for MDF box specification details: material (ABS Plastic / Metal), IP rating, indoor/outdoor installation, and structured cabling application context."
+      },
+      {
+        "url": "https://www.malsonelectronics.com/product-category/telecom-accessories/distribution-box/",
+        "title": "Distribution Box — Malson Electronics",
+        "source_domain": "malsonelectronics.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Corroborated distribution box as a distinct telecom accessories sub-category in Indian market."
+      },
+      {
+        "url": "http://www.prefabeverest.com/prefabricated-telephone-booth-4611990.html",
+        "title": "Prefabricated Telephone Booth Manufacturer — Everest Composites",
+        "source_domain": "prefabeverest.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_vagueness_signal.secondary_families",
+          "market_context"
+        ],
+        "citation_note": "Used to confirm prefabricated telephone booth as a real secondary product family: materials (felt board, glass, steel board, mineral wool insulation), no-foundation installation, FRP/steel construction."
+      },
+      {
+        "url": "https://www.worldofportablecabins.com/prefabricated-kiosk.html",
+        "title": "Prefabricated Kiosk — Epsilon Prefab Group",
+        "source_domain": "worldofportablecabins.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_vagueness_signal.secondary_families",
+          "market_context"
+        ],
+        "citation_note": "Used to confirm prefab kiosk/booth construction specs (IS grade steel, GI corrugated sheeting, ACP sheeting) and manufacturer geography (pan-India)."
+      },
+      {
+        "url": "https://dir.indiamart.com/impcat/telephone-booths.html",
+        "title": "Telephone Booths Manufacturers in India — IndiaMART Directory",
+        "source_domain": "dir.indiamart.com",
+        "derived_outputs": [
+          "mcat_vagueness_signal.secondary_families",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for structural observation only — confirmed FRP telephone booth (1m x 1m x 2.45m, acoustic material) as a distinct product family under the same name. Not used for primary_segment or market claims."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Telephone boxes are prefabricated structures with material and dimensional specs (steel/FRP construction, weatherproofing, footprint). No regulatory mandate, brand dominance, or chemical/pharma angle. Standard B2B research into material grades, installation standards, and market variants is warranted."
+    }
+  }
+}
