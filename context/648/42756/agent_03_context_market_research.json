@@ -1,0 +1,433 @@
+{
+  "mcat_description": {
+    "short": "Telecom shelters are prefabricated, thermally insulated enclosures built from PUF (polyurethane foam) sandwich panels on a steel frame, designed to house BTS equipment, batteries, power systems, and MW racks at telecom tower sites.",
+    "long": "Telecom shelters are factory-assembled, portable cabins constructed using pre-painted galvanised (PPGI) steel sheet skins with CFC-free polyurethane foam cores (typically 50–80mm thick), providing thermal insulation, weatherproofing, and structural rigidity for housing sensitive telecom equipment in outdoor environments. The floor assembly typically comprises a PUF-insulated sandwich panel topped with 19mm marine plywood and a 2mm antistatic floor mat, while doors feature three-point locking systems and aluminium-channel frames. In India, shelters must comply with TEC Generic Requirements (TEC-GR-RS-BSH) issued by the Department of Telecommunications, and are designed to withstand ambient temperatures from -30°C to +70°C, humidity up to 95%, and wind speeds up to 200 km/h. Variants include standard BTS shelters, green/energy-efficient shelters with passive phase-change thermal management, knock-down (KD) shelters for remote deployment, and larger multi-compartment enclosures for railway and utility applications.",
+    "product_types": [
+      "PUF Panel BTS Telecom Shelter",
+      "Green Telecom Shelter (energy-efficient / passive cooling)",
+      "Knock-Down (KD) Telecom Shelter",
+      "Steel Fabricated Telecom Shelter",
+      "Railway Telecom Shelter",
+      "FRP (Fibre Reinforced Plastic) Telecom Shelter",
+      "Rooftop Telecom Shelter",
+      "Multi-Compartment Telecom Enclosure",
+      "AC Kiosk / Power Equipment Shelter"
+    ],
+    "primary_applications": [
+      "Housing BTS (Base Transceiver Station) equipment at mobile telecom tower sites",
+      "Protecting MW (microwave) racks, SMPS battery chargers, and power interface units",
+      "Battery bank and DG set enclosures at telecom sites",
+      "Railway signalling and transmission equipment housing",
+      "Broadband and access network equipment enclosures",
+      "Remote and rural telecom site deployment where civil construction is impractical"
+    ],
+    "buyer_segments": [
+      "Telecom tower infrastructure companies (Indus Towers, ATC India, TAWAL)",
+      "Telecom operators and service providers (Airtel, Jio, BSNL, Vi)",
+      "EPC contractors for telecom network rollout",
+      "Indian Railways (signalling and telecom department)",
+      "Defence and government communication agencies",
+      "Power sector utilities requiring equipment enclosures"
+    ]
+  },
+  "primary_segment": "PUF-panel insulated prefabricated BTS cabin for mobile telecom tower sites",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "PUF-panel insulated prefabricated BTS cabin for mobile telecom tower sites",
+    "secondary_families": [],
+    "reason": "All sub-types within this MCAT share the same fundamental purpose (housing telecom equipment outdoors), the same buyer profile (telecom operators and tower companies), and the same TEC/DOT regulatory regime — no incompatible product families exist within the name."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "telecom shelter",
+      "BTS shelter",
+      "prefabricated telecom shelter",
+      "telecom cabin",
+      "BTS cabin",
+      "telecommunication tower shelter",
+      "PUF panel telecom shelter",
+      "telecom equipment shelter"
+    ],
+    "technical_synonyms": [
+      "BTS enclosure",
+      "base transceiver station shelter",
+      "equipment shelter",
+      "insulated telecom enclosure",
+      "PUF insulated shelter",
+      "sandwich panel telecom shelter",
+      "PPGI telecom shelter",
+      "TEC approved shelter"
+    ],
+    "trade_names": [
+      "Green Telecom Shelter",
+      "Knock-Down Shelter",
+      "KD Shelter",
+      "Smart Shelter",
+      "Svarn BTS Shelter",
+      "Railway BTS Shelter",
+      "AC Kiosk Shelter"
+    ],
+    "hindi_terms": [
+      "दूरसंचार शेल्टर",
+      "प्रीफैब टेलीकॉम शेल्टर"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated telecom shelter for BTS site",
+      "PUF panel BTS shelter manufacturer India",
+      "TEC approved telecom shelter supplier",
+      "insulated shelter for telecom equipment housing",
+      "portable BTS cabin for mobile tower",
+      "telecom shelter with antistatic floor and three point lock",
+      "green telecom shelter with passive cooling",
+      "knock down telecom shelter for remote site"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Standard BTS telecom shelters are quoted per piece (per unit) in Indian B2B transactions, as each shelter is a complete, factory-assembled enclosure with fixed or custom dimensions; per sq ft quoting appears for large custom multi-compartment enclosures but is secondary.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Standard PUF BTS Shelter",
+        "unit": "per piece",
+        "note": "Complete factory-assembled unit; dimensions fixed or customised per order"
+      },
+      {
+        "sub_segment": "Large custom multi-compartment enclosure",
+        "unit": "per sq ft",
+        "note": "Used when shelter is sized to order (e.g. 5m x 15m railway enclosures)"
+      }
+    ],
+    "sources_checked": [
+      "narendra-group.com",
+      "industrialfoams.co.in",
+      "metalspace.in",
+      "engko.in"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Telecom shelters in India are governed by TEC Generic Requirements (TEC-GR-RS-BSH-001-02) issued by the Department of Telecommunications (DOT), making TEC approval a mandatory certification signal for buyers procuring for licensed telecom operators. The dominant construction standard uses PPGI (pre-painted galvanised iron) sheet skins with CFC-free PUF cores at 50–80mm thickness and 40 kg/m³ foam density, confirmed across multiple Indian manufacturers. A significant and growing sub-segment is the 'Green Telecom Shelter' — energy-efficient variants using passive phase-change materials (PCM) to reduce air-conditioning dependency, driven by telecom operators' energy cost reduction mandates. Manufacturers are concentrated in NCR (Faridabad, Greater Noida, Noida), Bengaluru, Ahmedabad, and Mumbai, with pan-India supply capability. Railway telecom shelters represent a distinct institutional buyer segment with larger multi-compartment enclosures (up to 5m x 15m) supplied to Indian Railways. IP protection ratings (IP54 to IP65) and wind resistance (up to 200 km/h) are key technical differentiators cited by multiple manufacturers.",
+  "buyer_attracting_attributes": [
+    "PUF Panel Thickness",
+    "Shelter Dimensions (L x W x H)",
+    "IP Protection Rating",
+    "Insulation Type (PUF / Rockwool / FRP)",
+    "TEC Approval / DOT Certification",
+    "Wind Load Resistance",
+    "Number of PUF Panels",
+    "Door Type and Locking System",
+    "Floor Construction (Marine Ply / Antistatic Mat)",
+    "Green / Energy-Efficient Rating"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "42756",
+    "mcat_name": "Telecom Shelters",
+    "mcat_level": "4",
+    "listing_count": "611",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Telecom Shelters",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "158662.0",
+      "name": "Prefabricated Shed",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "158662.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20781",
+        "mcat_name": "Prefabricated Shelters",
+        "listing_count": "4676",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "20782",
+        "mcat_name": "Portable Shelters",
+        "listing_count": "930",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21106",
+        "mcat_name": "Aircraft Hangars",
+        "listing_count": "407",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "26766",
+        "mcat_name": "Dome Shelters",
+        "listing_count": "395",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30719",
+        "mcat_name": "Industrial Sheds",
+        "listing_count": "36863",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30721",
+        "mcat_name": "Industrial Shelters",
+        "listing_count": "531",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33228",
+        "mcat_name": "Military Shelters",
+        "listing_count": "154",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33397",
+        "mcat_name": "Metal Shelters",
+        "listing_count": "228",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35070",
+        "mcat_name": "Portable Garage",
+        "listing_count": "1406",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "107235",
+        "mcat_name": "Folding Garage",
+        "listing_count": "20",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136750",
+        "mcat_name": "Prefabricated Factory Shed",
+        "listing_count": "15425",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145222",
+        "mcat_name": "Poultry Sheds",
+        "listing_count": "1889",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "146519",
+        "mcat_name": "Cattle Sheds",
+        "listing_count": "1830",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158662",
+        "mcat_name": "Prefabricated Shed",
+        "listing_count": "4727",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164591",
+        "mcat_name": "Metal Sheds",
+        "listing_count": "1477",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164769",
+        "mcat_name": "Warehouse Sheds",
+        "listing_count": "6293",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166772",
+        "mcat_name": "Swimming Pool Tensile Cover",
+        "listing_count": "670",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "172388",
+        "mcat_name": "PEB Structures Fabrication",
+        "listing_count": "3547",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182931",
+        "mcat_name": "Auditorium Roofing Shed",
+        "listing_count": "504",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "187089",
+        "mcat_name": "Badminton Court Roofing Shed",
+        "listing_count": "1474",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "191761",
+        "mcat_name": "Swimming Pool Shed",
+        "listing_count": "280",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "220929",
+        "mcat_name": "Tin Shed",
+        "listing_count": "2737",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 22,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "do_research": true,
+      "reason": "Telecom shelters are prefabricated structures for telecom infrastructure with technical specs as primary buyer signals; no single dominant brand; no mandatory regulatory certification beyond TEC/DOT; standard B2B industrial equipment research applies."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "buyer_attracting_attributes",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Pageviews confirmed BTS/prefabricated telecom shelter as dominant buyer search cluster; '5 puf panel telecom shelter' confirmed PUF panel count as buyer spec dimension."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings_count"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path and listing count (611) used as reference; no sibling carve-out detected that would trigger vagueness."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://metalspace.in/railway-bts-shelters/",
+        "title": "Railway BTS Shelters - Metalspace",
+        "source_domain": "metalspace.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed steel-framed PUF sandwich panel construction, harsh environment design, railway + telecom shelter overlap, and IP protection as key feature."
+      },
+      {
+        "url": "https://www.industrialfoams.co.in/telecom-shelters.html",
+        "title": "Telecom Shelters - Portable Prefabricated Shelters Manufacturer from Greater Noida",
+        "source_domain": "industrialfoams.co.in",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Confirmed BTS equipment, MW racks, batteries, SMPS housed inside; green shelter variant with passive phase-change materials for thermal management."
+      },
+      {
+        "url": "https://www.narendra-group.com/index.php?module=product&action=productdetails&id=8",
+        "title": "BTS Telecom Shelters | Telecom Shelters Manufacturer - Mumbai",
+        "source_domain": "narendra-group.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed canonical construction spec: PPGI skins, PU foam 60–80mm, 40 kg/m³ density, marine plywood floor, antistatic mat; per-piece unit quoting."
+      },
+      {
+        "url": "https://www.engko.in/railway-shelters",
+        "title": "Prefabricated Railway Shelters in India | Railway Shelter Manufacturer",
+        "source_domain": "engko.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Confirmed IP54 protection level, earthquake-resistant design, 3-way lock, reinforced walls/ceilings; portable or civil-floor-mounted options."
+      },
+      {
+        "url": "https://www.tec.gov.in/pdf/GR3/TEC-GR-RS-BSH-001-02-SEP-11.pdf",
+        "title": "TEC Generic Requirement for BTS Shelter (TEC-GR-RS-BSH-001-02)",
+        "source_domain": "tec.gov.in",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.long"
+        ],
+        "citation_note": "Authoritative DOT/Government of India regulatory document confirming TEC approval as mandatory certification for BTS shelters in India."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Telecom shelters are prefabricated structures for telecom infrastructure with technical specs (dimensions, material, thermal insulation, load capacity) as primary buyer signals. No single dominant brand anchors buyer search; no mandatory regulatory certification (though BIS standards may apply to materials). Standard B2B industrial equipment research applies."
+    }
+  }
+}
