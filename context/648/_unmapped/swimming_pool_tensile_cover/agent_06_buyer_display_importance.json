@@ -1,0 +1,248 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "This is an architectural membrane structure — the structural shape (conical, dome, arch, sail), fabric colour, and installation quality are all communicated visually. Buyers scan listing images to identify the structural form before reading any text; wrong shape or poor installation photo results in an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Fabric material (PVC/HDPE/PTFE/ETFE), cover type (fixed vs retractable), fabric GSM, and frame material are non-interchangeable across project requirements — a hotel specifying PTFE cannot substitute PVC, and a retractable system is a fundamentally different product from a fixed canopy. Buyers use these specs to shortlist fabricators before any contact."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the Indian tensile structure fabrication market is fragmented across regional specialists; buyers search by fabricator capability and portfolio, not brand name.",
+      "reason": "This is a turnkey supply-and-install project; the fabricator's installation track record, portfolio of completed pool covers, geographic service reach, and structural engineering capability are evaluated during vendor selection. An unknown fabricator with matching specs is still a procurement risk."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian buyers are price-sensitive and compare per-sq-ft rates, but price is only comparable after spec equivalence is confirmed — PTFE and PVC covers carry very different price tiers. Final price is always negotiated post-site-survey; the listed per-sq-ft rate is a budget entry point, not a final quote."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Some sellers quote large commercial installations as a per-project lump sum after site survey — per sq ft must be shown to enable price comparison across listings. Modular panel variants also follow per sq ft convention.",
+      "reason": "Per sq ft is the dominant unit across all observed Indian sellers, but some listings quote per project — without the unit shown, buyers cannot compare prices across listings and risk significant misreading of cost."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Fabric Material",
+        "reason": "Defines the product class — PTFE, PVC-coated, and HDPE are non-interchangeable across durability, light transmission, fire rating, and price tiers, with PTFE commanding a substantially higher price than PVC or HDPE for the same covered area."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Cover Type",
+        "reason": "Retractable (motorised) vs fixed cover represents a completely different structural system and fabrication scope, with retractable systems commanding a large price premium and requiring different engineering expertise."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Color",
+      "Cover Type",
+      "Fabric GSM",
+      "Fabric Material",
+      "Frame Material",
+      "Shape",
+      "Side Covering",
+      "UV Protection"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wind Load Rating",
+        "why_important": "Commercial and resort pool buyers require the structure to meet site-specific wind load requirements; sellers need this to engineer the frame correctly and confirm structural compliance before quoting.",
+        "source": "both",
+        "example_values": [
+          "75 km/h",
+          "100 km/h",
+          "120 km/h",
+          "150 km/h"
+        ]
+      },
+      {
+        "spec_name": "Fire Retardancy Standard",
+        "why_important": "Hotel, resort, and public pool buyers face fire safety compliance requirements; DIN 4102 B1/M2 and equivalent standards are referenced by Indian sellers and are a procurement gate for commercial projects.",
+        "source": "both",
+        "example_values": [
+          "DIN 4102 B1",
+          "M2",
+          "NFPA 701",
+          "Non Fire Retardant"
+        ]
+      },
+      {
+        "spec_name": "Light Transmission",
+        "why_important": "Buyers choosing between translucent and opaque membranes need this spec to assess pool ambience and natural heating — a primary differentiator between ETFE/PTFE premium membranes and standard PVC/HDPE covers.",
+        "source": "both",
+        "example_values": [
+          "5%",
+          "10–15%",
+          "20–30%",
+          "Opaque"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Fabric Type",
+        "reason": "Fabric type directly routes the RFQ to the right fabricator tier — sellers specialising in PTFE or ETFE premium membranes operate at a different price point and capability level than PVC or HDPE fabricators, and cannot substitute one for another.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Shape",
+        "reason": "Structural shape determines fabrication complexity and engineering requirements — a seller with conical tensile expertise may not fabricate dome or hypar structures, making shape a primary routing signal for seller response accuracy.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Hyperbolic",
+          "Conical",
+          "Dome",
+          "Sail",
+          "Pyramid"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cover Type",
+        "why_important": "A seller cannot determine fabrication scope, structural system, or price without knowing whether the buyer wants a fixed canopy or a motorised retractable cover — these are fundamentally different products requiring different engineering and manufacturing capability.",
+        "source": "both",
+        "example_values": [
+          "Fixed Cover",
+          "Retractable Cover",
+          "Partial Cover"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Fixed Cover",
+          "Retractable Cover",
+          "Partial Cover"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Shape",
+      "option_value": "Hyperbolic",
+      "id": "spec_1",
+      "prompt_for_generation": "Hyperbolic paraboloid (hypar) tensile membrane cover over an outdoor swimming pool, PVC-coated white fabric stretched over mild steel frame with four high and low points creating a saddle shape, daytime natural lighting, pool water visible below, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shape",
+      "option_value": "Conical",
+      "id": "spec_2",
+      "prompt_for_generation": "Conical tensile membrane cover over an outdoor swimming pool, single central peak with PVC-coated white fabric radiating outward to perimeter steel posts, daytime natural lighting, pool water visible below, clean architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shape",
+      "option_value": "Dome",
+      "id": "spec_3",
+      "prompt_for_generation": "Dome-shaped tensile membrane cover over an outdoor swimming pool, smooth curved PVC-coated white fabric forming a full dome over the pool area, mild steel frame visible at base, daytime natural lighting, pool water visible inside, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shape",
+      "option_value": "Sail",
+      "id": "spec_4",
+      "prompt_for_generation": "Sail-shaped tensile membrane shade cover over an outdoor swimming pool, flat triangular or quadrilateral PVC-coated white fabric panel tensioned between three or four steel mast points, angled asymmetric form, daytime natural lighting, pool visible below, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shape",
+      "option_value": "Pyramid",
+      "id": "spec_5",
+      "prompt_for_generation": "Pyramid-shaped tensile membrane cover over an outdoor swimming pool, four triangular PVC-coated white fabric panels meeting at a central apex above the pool, mild steel frame with four corner posts, daytime natural lighting, pool water visible below, clean architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Cover Type",
+      "option_value": "Fixed Cover",
+      "id": "spec_6",
+      "prompt_for_generation": "Fixed tensile membrane canopy permanently installed over an outdoor swimming pool, PVC-coated white fabric on mild steel frame with no moving parts, static structure covering the full pool area, daytime natural lighting, pool water visible below, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Cover Type",
+      "option_value": "Retractable Cover",
+      "id": "spec_7",
+      "prompt_for_generation": "Retractable motorised tensile membrane cover over an outdoor swimming pool, PVC-coated fabric partially retracted on visible aluminium track and rail system showing the pool open on one side, motorised mechanism visible, daytime natural lighting, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Cover Type",
+      "option_value": "Partial Cover",
+      "id": "spec_8",
+      "prompt_for_generation": "Partial tensile membrane canopy covering one section of an outdoor swimming pool, PVC-coated white fabric on mild steel frame shading approximately half the pool while the other half remains open to sky, daytime natural lighting, pool water visible, architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
