@@ -1,0 +1,1123 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "251158227",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Industrial Shed Construction",
+      "description": "We \"RG Developers\" are a Proprietorship based firm, engaged as the foremost builders of Pre-fabricated buildings, Warehouses, Industial Sheds, other Pre fabricated structures and all required civil works to complete the job at it's best. \n\nWe are one final solution for all your required prefabrictaed construction needs. ",
+      "specs": {
+        "raw": "Country of Origin:Made in India, location:Bengaluru, Material:Mild Steel, Shed Type:Double Slope, size:customized"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2025/7/527446426/GJ/BL/ZM/92437834/img-20250712-wa0080-jpg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-shed construction-2851655922655.html",
+      "image_file": "251158227.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Interior of a large clear-span steel-framed shed showing visible steel columns, purlins, and corrugated roof sheets during an inauguration event."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the service type and application (industrial shed construction) but lacks material, construction method, or size attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material (Mild Steel), shed type (Double Slope), and customized size — relevant but sparse on structural details."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description mentions pre-fabricated buildings, warehouses, industrial sheds, and civil works — coherent and relevant to shed construction."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Industrial shed construction using prefabricated steel structures is the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'location: Bengaluru' (city name) and description contains company name 'RG Developers'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'location: Bengaluru' and description contains company name 'RG Developers'."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; photo shows completed large-span industrial shed interior; P16 flagged for city name in specs and company name in description.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-shed construction-2851655922655.html"
+    },
+    {
+      "item_id": "252907826",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Steel Shed Construction",
+      "description": "A shed is typically a simple, single-story roofed structure that is used for hobbies, or as a workshop in a back garden or on an allotment. Sheds vary considerably in their size and complexity of construction, from simple open-sided ones designed to cover bicycles or garden items to large wood-framed structures with shingled roofs, windows, and electrical outlets. Sheds used on farms or in the industry can be large structures. The main types of shed construction are metal sheathing over a metal frame, plastic sheathing and frame, all-wood construction (the roof may be asphalt shingled or sheathed in tin), and vinyl-sided sheds built over a wooden frame. Small sheds may include a wooden or plastic floor, while more permanent ones may be built on a concrete pad or foundation. Sheds may be lockable to deter theft or entry by children, domestic animals, wildlife",
+      "specs": {
+        "raw": "Brand:Kishore Infratech, Design:Customized, Experience:700 Above Projects Completed, Service Location:Pan India, Type Of Construction Structure:Light Gauge Steel Construction"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/7/328066582/KT/WD/HJ/135805/shed-construction.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-shed construction-2851830882562.html",
+      "image_file": "252907826.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Bare steel frame structure under construction showing columns, rafters, and purlins against blue sky — clearly a shed construction project in progress."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (steel) and service type (shed construction) but lacks construction method, application, or size."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide construction type (Light Gauge Steel), design (Customized), and Pan India service scope — relevant but lack structural dimensions."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic Wikipedia-style overview of sheds including garden sheds and bicycles — not specific to the B2B industrial shed construction service offered."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Steel shed construction service is a valid product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain brand name 'Kishore Infratech' (company name)."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains brand/company name 'Kishore Infratech'."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; photo shows steel frame under construction; description is generic but does not contradict category; P16 flagged for company name in specs.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-shed construction-2851830882562.html"
+    },
+    {
+      "item_id": "270969894",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Tin Shed Construction Service",
+      "description": "In order to cater the variegated demands of our precious clients, we are offering an excellent quality",
+      "specs": {
+        "raw": "Payment Mode:Offline / Online, Service Duration:As Per Requirement, Service Location:Gurgaon, Service Mode:Offline"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/3/399427938/EW/BT/XT/215490589/tin-sheds-construction-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/tin-shed construction service-2853637089448.html",
+      "image_file": "270969894.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Interior of a small tin/corrugated sheet shed showing rusty steel angle-iron trusses and corrugated GI roofing sheets — correct product type clearly identifiable."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (tin) and service type (shed construction) — correct but lacks application, size, or structural details."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs contain only logistics/service delivery information (payment mode, service duration, location) with no structural or material specifications."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is an incomplete boilerplate sentence with no product-specific information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Tin shed construction is a valid product type (conventional steel truss shed) within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location: Gurgaon' — a specific city name."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Service Location: Gurgaon' — a specific city name."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; photo shows tin shed interior clearly; text dimensions are thin but no contradiction or category failure; P16 flagged for city name in specs.",
+      "source_url": "https://www.indiamart.com/proddetail/tin-shed construction service-2853637089448.html"
+    },
+    {
+      "item_id": "20207705",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Sheds Construction Services",
+      "description": "<p>Our clients can avail from us a reliable set of <b>Sheds Construction Services. </b>We are reckoned to undertake a green eco-friendly project, which is in compliance with the set international norms.</p> <p>&nbsp;</p> <p>We undertake execution of Sheds Construction Services Works right from foundation stage to the completion stage, which includes erection of form-work, steelwork, concreting.</p>",
+      "specs": {},
+      "image_url": "http://2.imimg.com/data2/XW/LL/MY-3150764/sheds-construction-services.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/sheds-construction services-2463487891.html",
+      "image_file": "20207705.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Interior of a clean wide-span steel-framed industrial shed showing steel columns, purlins, corrugated roof sheets, concrete floor, and roller shutter door."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the service type (sheds construction services) — correct but lacks material, construction method, or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no structural or service specifications provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description mentions foundation-to-completion execution including formwork, steelwork, and concreting — relevant and coherent for shed construction."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Sheds construction service from foundation to completion is the core offering of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — photo shows a clear good-quality industrial shed interior, all text dimensions pass, no contradictions, no P-codes.",
+      "source_url": "https://www.indiamart.com/proddetail/sheds-construction services-2463487891.html"
+    },
+    {
+      "item_id": "137476612",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Industrial Shades Construction Services",
+      "description": "<p>With sincerity and hard work of our professionals, we have carved a niche for ourselves in this domain by providing a premium quality gamut of <b>Industrial Shades Construction</b></p>",
+      "specs": {
+        "raw": "Buid Type:Panel Build, Built Type:Prefab, Design Type:C Channel, Frame Material:Galvanized Iron, Material:Stainless Steel, Service Location/City:Delhi, Steel Grade:SS316, Surface Finish:Paint Coated, Technique:Cold Rolled"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/4/298202065/JB/GO/HK/5822467/industrial-shades-construction-services.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-shades construction services-20836813462.html",
+      "image_file": "137476612.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Interior of a large steel-framed industrial shed showing grey steel columns, corrugated metal wall cladding, and wide clear-span interior with concrete floor."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title contains typo 'Shades' instead of 'Sheds', degrading searchability, though intent (industrial shed construction) is clear."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide frame material (Galvanized Iron), steel grade (SS316), built type (Prefab), and design type (C Channel) — relevant structural details."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is near-empty boilerplate with no product-specific attributes beyond repeating the service name."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Industrial shed construction (despite title typo) is a valid service within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City: Delhi' — a specific city name."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Industrial Shades Construction Services' — 'Shades' is a typo for 'Sheds', corrupting the title's search signal."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Service Location/City: Delhi' — a specific city name."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo shows a clear good-quality industrial shed interior, no contradictions, category valid; P12 flagged for title typo, P16 for city in specs.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-shades construction services-20836813462.html"
+    },
+    {
+      "item_id": "145401338",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Shed Fabrication Service",
+      "description": "MS Structure Shed Fabrication, PEB shed Erection, roof sheeting, turbo ventilators, sky light panel,downtake pipe, shutters",
+      "specs": {
+        "raw": "Location Preference:Maharashtra, Material:Iron, Payment Mode:Online/Offline, Service Duration:7 Days, Service Location/City:Pune, Service Mode:Offline, Type Of Truss:Fabricated"
+      },
+      "image_url": "http://5.imimg.com/data5/HW/YS/ZD/SELLER-96008625/fabrication2-jpg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/shed-fabrication service-21629286088.html",
+      "image_file": "145401338.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Blue-painted multi-bay steel structural frame under construction showing columns, rafters, purlins, bracing, and construction workers at base."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the service type (shed fabrication) — correct but lacks material, construction method, or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material (Iron), truss type (Fabricated), service duration (7 Days), and location (Pune/Maharashtra) — relevant service details."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description lists specific components and services: MS Structure Shed Fabrication, PEB shed Erection, roof sheeting, turbo ventilators, skylight panel, downtake pipe, shutters."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Shed fabrication and PEB erection service is a core offering within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City: Pune' and 'Location Preference: Maharashtra' — specific city and state names."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Service Location/City: Pune' and 'Location Preference: Maharashtra' — specific city and state names."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo shows multi-bay steel frame under construction, description is strong with specific components listed, no contradictions.",
+      "source_url": "https://www.indiamart.com/proddetail/shed-fabrication service-21629286088.html"
+    },
+    {
+      "item_id": "171653569",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "PEB Steel Shed Construction Service",
+      "description": "<p>PEB Steel Shed Construction Service involves the design, fabrication, and assembly of steel structures that are custom-designed to meet the specific requirements of a shed or warehouse. PEB steel structures are ideal for creating durable, cost-effective, and quick-to-assemble sheds that are used in various applications, such as storage, workshops, agricultural buildings, and industrial facilities.</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Material Procurement:By Supplier End, Service Duration:7-8 Days, Service Location:Pan India, Service Type:PEB Steel Shed Construction, Usage/Application:Warehouse"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/10/QZ/MC/KP/136636414/shed-construction.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/peb-steel shed construction service-24254508812.html",
+      "image_file": "171653569.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Exterior of a completed steel shed building clearly showing corrugated metal cladding, roller shutter door, and finished structure — buyer-useful project reference photo."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title names construction method (PEB), material (steel), and service type (shed construction) — three buyer-relevant attributes in one title."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide built type (Prefab), material procurement, service duration (7-8 Days), service scope (Pan India), and application (Warehouse) — comprehensive service details."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description explains PEB design/fabrication/assembly process and lists applications (storage, workshops, agricultural, industrial) — specific and buyer-relevant."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PEB Steel Shed Construction Service is the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — all three text dimensions are strong, photo shows completed PEB shed exterior, no contradictions, no P-codes.",
+      "source_url": "https://www.indiamart.com/proddetail/peb-steel shed construction service-24254508812.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "185196525",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Shed Construction",
+      "description": "<p dir=\"ltr\">Being a leading enterprise of this industry, we offer Structural Modern and Contemporary Designs For <b>Broiler and Animal shed for animals like</b> Chickens, Goats, Cattle Etc.<br>\n<b>Features:</b><br>\n<b>Rugged Design </b><br>\n<b>Weather proof</b><br>\n<b>Fine Finish</b></p>",
+      "specs": {
+        "raw": "Factory Type:Industrial, Ground Color:As per choice, Material:Steel, Roofing Style:color Coated, Stadium Required:Yes, We Can Deliver:Industrial Projects, Work Location:PAN India"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2020/9/QO/RU/WJ/21588351/prefabricated-factory-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/shed-construction-25608804433.html",
+      "image_file": "185196525.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Large blue-and-white corrugated steel industrial warehouse exterior with trucks at loading dock — complete and buyer-useful shed construction reference."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads only 'Shed Construction' — correct service type but missing material, construction method, application, and all differentiating attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide Factory Type (Industrial), Material (Steel), Roofing Style (Color Coated), and Work Location (PAN India) — relevant but sparse."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description specifies broiler and animal shed for chickens, goats, and cattle — a valid agricultural shed application within this MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Agricultural shed construction (broiler/animal) is a recognised product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Specs state 'Factory Type: Industrial' and 'We Can Deliver: Industrial Projects' while description explicitly describes broiler and animal sheds for chickens, goats, and cattle — industrial vs. agricultural application contradiction."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs say 'Factory Type: Industrial / We Can Deliver: Industrial Projects' while description explicitly describes broiler and animal sheds for chickens, goats, and cattle."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Shed Construction' — missing material, construction method, application type, and all differentiating buyer-relevant attributes."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — specs-vs-description contradiction (industrial vs. agricultural) triggers bad label per override table.",
+      "source_url": "https://www.indiamart.com/proddetail/shed-construction-25608804433.html"
+    },
+    {
+      "item_id": "270383640",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Industrial Shed Construction",
+      "description": "We are engaged in offering this product to our clients. Our range of this products is widely appreciated by our clients\t",
+      "specs": {
+        "raw": "Brand:JSW, Country of Origin:Made in India, Height:As per customer order, Material:FRP, Thickness:0.5MM THK, Type Of Shed:Prefabricated Industrial Shed, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/3/396181339/ME/GX/TK/1800995/shed-construction.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-shed construction-2853578464012.html",
+      "image_file": "270383640.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image is a promotional marketing graphic ('New Life Steel Structures / ISO 9001:2015') with a shed photo inset — the shed is partially visible but the image is primarily a branded collage, not a direct product photo."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names service type and application (industrial shed construction) — correct but lacks material, construction method, or size."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide shed type (Prefabricated Industrial Shed), material (FRP), and brand (JSW) — relevant but contain conflicting usage field."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is near-empty boilerplate with no product-specific information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Industrial shed construction is the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title says 'Industrial Shed Construction' but specs state 'Usage/Application: House' — industrial vs. residential application contradiction."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs state 'Type Of Shed: Prefabricated Industrial Shed' but also 'Usage/Application: House' — industrial shed type contradicts residential usage application."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain brand name 'JSW' (company name) and image contains 'New Life Steel Structures' company branding."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title says 'Industrial Shed Construction' but specs state 'Usage/Application: House' — direct industrial vs. residential contradiction."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs contain 'Type Of Shed: Prefabricated Industrial Shed' and 'Usage/Application: House' — two conflicting application values within the same specs object."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a promotional marketing graphic with 'New Life Steel Structures / ISO 9001:2015' text overlay and decorative design elements — not a direct product photo."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain brand name 'JSW' (company name)."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — title-vs-specs contradiction (industrial vs. house) and internal specs contradiction trigger bad label.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-shed construction-2853578464012.html"
+    },
+    {
+      "item_id": "233522553",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Metal Roofing Shed Construction Service",
+      "description": "Phoenix Steel Structures have designed a factory of 5000 to 50000 sqft for a leading manufacturer in TN. The scope of the work is to design the Entire campus, with PEB structures and RCC structures, with all other infrastructures. ",
+      "specs": {
+        "raw": "Brand:Phinox, Material:Steel, Thickness:Accordingly, Type:Metal Roofing Shed Construction Service, Type Of Shed:Commercial, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/6/315272890/FG/OE/LF/30054208/metal-roofing-shed-construction-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/metal-roofing shed construction service-2849892355297.html",
+      "image_file": "233522553.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Interior of a large PEB shed showing grey steel columns, corrugated metal roof and wall cladding, skylight panels, and concrete floor — buyer-useful project reference."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (metal roofing) and service type (shed construction) — correct but lacks construction method or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide shed type (Commercial), material (Steel), and brand (Phinox) — relevant but contain conflicting usage field."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description mentions PEB and RCC structures for a factory campus in TN — relevant project scope for shed construction."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Metal roofing shed construction service is a valid product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title implies commercial/industrial shed construction but specs state 'Usage/Application: House' — commercial/industrial vs. residential contradiction."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs state 'Type Of Shed: Commercial' but also 'Usage/Application: House' — commercial shed type contradicts residential usage application."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Phoenix Steel Structures'; image contains 'PHONIX STEELS STRUCTURES' watermark and 'AADITHYA RUBBER MOULDS - COIMBATORE' client name."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title implies commercial/industrial shed but specs state 'Usage/Application: House' — direct commercial vs. residential contradiction."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs contain 'Type Of Shed: Commercial' and 'Usage/Application: House' — two conflicting application values within the same specs object."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Phoenix Steel Structures'."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — title-vs-specs contradiction (commercial vs. house) and internal specs contradiction sustain bad label.",
+      "source_url": "https://www.indiamart.com/proddetail/metal-roofing shed construction service-2849892355297.html"
+    }
+  ],
+  "generated_bad_examples": [
+    {
+      "generated": true,
+      "generated_for_problem_codes": [
+        "P15"
+      ],
+      "item_id": "GENERATED_P15_P16",
+      "pre_label": null,
+      "verified_label": "bad",
+      "override": true,
+      "title": "Industrial PEB Shed Construction Service",
+      "description": "We offer PEB steel shed construction services across India. Contact us at 9876543210 or email info@shedbuilders.com. Our office is located at Plot 45, MIDC Pune. Call Rajesh Kumar for site visits.",
+      "specs": {},
+      "image_url": null,
+      "product_page_url": null,
+      "image_file": null,
+      "image_status": "generated",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "No image available."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names PEB industrial shed construction service — category-appropriate."
+        },
+        "specs": {
+          "category_fit": null,
+          "quality": "thin",
+          "reason": "Specs object is empty — no structural or service specifications provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description contains phone number, email address, personal name (Rajesh Kumar), and physical address — PII and location/business leakage embedded in product description."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PEB industrial shed construction is the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains phone number '9876543210', email 'info@shedbuilders.com', and personal name 'Rajesh Kumar'."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains physical address 'Plot 45, MIDC Pune' and business name 'shedbuilders.com'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains phone number '9876543210', email address 'info@shedbuilders.com', and personal name 'Rajesh Kumar'."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains physical address 'Plot 45, MIDC Pune' and business domain 'shedbuilders.com'."
+        }
+      ],
+      "verification_note": "Generated illustrative example for P15 and P16 — no real verified product in this batch contained phone numbers, email addresses, or personal names in text fields."
+    }
+  ],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images for Shed Construction show either completed shed structures (exterior views of colour-coated corrugated steel buildings with roller shutter doors, or interior wide-span views with visible steel columns, purlins, and corrugated roof/wall cladding) or steel frame structures under active construction (bare columns, rafters, and purlins before cladding). Images are real project photographs taken on-site, not studio shots. The dominant visual cues are large clear-span interiors, grey or blue-painted structural steel members, and corrugated metal cladding systems.",
+  "image_type_recommendation": {
+    "type": "object_with_info",
+    "reason": [
+      "Shed construction is a service category where project reference photos (completed sheds or under-construction frames) are the primary visual evidence — the structure itself communicates scale, quality, and construction method to buyers.",
+      "Some images contain embedded text (company names, client names, certifications) that OCR could extract as supplementary information, though the structural visual is the primary buyer signal."
+    ],
+    "ocr_useful": true
+  },
+  "relevant_photos": {
+    "summary": "Good photos show completed steel shed structures (exterior or interior) or steel frames under construction — real project reference photographs that communicate scale, construction method, and finish quality.",
+    "product_identity": [
+      "Steel columns, rafters, and purlins forming clear-span structural frame",
+      "Corrugated metal cladding (roof and/or walls) in colour-coated or galvanised finish",
+      "Large unobstructed interior floor area with concrete slab",
+      "Roller shutter doors or loading dock openings on exterior shots"
+    ],
+    "acceptable_scenes": [
+      "Exterior view of completed industrial/warehouse shed with trucks or vehicles for scale",
+      "Interior view of completed shed showing full clear-span and structural members",
+      "Under-construction steel frame showing columns, rafters, and purlins before cladding",
+      "Interior of smaller tin/corrugated shed showing truss structure"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "251158227",
+        "reason": "Interior of a large clear-span steel-framed shed showing visible steel columns, purlins, and corrugated roof sheets during an inauguration event.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "252907826",
+        "reason": "Bare steel frame structure under construction showing columns, rafters, and purlins against blue sky — clearly a shed construction project in progress.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "171653569",
+        "reason": "Exterior of a completed steel shed building clearly showing corrugated metal cladding, roller shutter door, and finished structure — buyer-useful project reference photo.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "20207705",
+        "reason": "Interior of a clean wide-span steel-framed industrial shed showing steel columns, purlins, corrugated roof sheets, concrete floor, and roller shutter door.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "145401338",
+        "reason": "Blue-painted multi-bay steel structural frame under construction showing columns, rafters, purlins, bracing, and construction workers at base.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show the correct product type (shed structure) but present it as a promotional marketing graphic rather than a direct project photograph, obscuring structural detail.",
+    "thinness_signals": [
+      "Image is a branded promotional collage with company name, certification logos, and decorative design elements overlaid on a small shed photo inset",
+      "Shed structure is partially visible but not the primary visual element — marketing text dominates the frame"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "270383640",
+        "reason": "Image is a promotional marketing graphic ('New Life Steel Structures / ISO 9001:2015') with a shed photo inset — the shed is partially visible but the image is primarily a branded collage, not a direct product photo."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "No verified bad products in this batch have photos showing actively wrong or off-category products — all bad products were failed on text contradictions, not photo category mismatch.",
+    "failure_classes": []
+  },
+  "relevant_titles": {
+    "summary": "Strong titles for Shed Construction name the construction method (PEB), material (steel/tin/MS), and service type (construction/fabrication/erection) — three-attribute titles are the strongest pattern.",
+    "strong_positive_signals": [
+      "Construction method named: PEB, Pre-Engineered, Prefab, Light Gauge Steel",
+      "Material named: Steel, Mild Steel, MS, Tin, Iron",
+      "Service type named: Construction, Fabrication, Erection",
+      "Application named: Industrial, Warehouse, Agricultural, Factory"
+    ],
+    "structural_patterns": [
+      "[Material] Shed Construction Service",
+      "[Application] Shed Construction",
+      "[Construction Method] [Material] Shed Construction Service",
+      "Shed [Service Type] Service"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "171653569",
+          "title": "PEB Steel Shed Construction Service",
+          "reason": "Names construction method (PEB), material (Steel), and service type (Construction Service) — three buyer-relevant attributes that differentiate the offering."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "251158227",
+          "title": "Industrial Shed Construction",
+          "reason": "Names application (Industrial) and service type (Shed Construction) — two attributes, correct but lacks material or construction method."
+        },
+        {
+          "item_id": "252907826",
+          "title": "Steel Shed Construction",
+          "reason": "Names material (Steel) and service type (Shed Construction) — two attributes, correct but lacks application or construction method."
+        },
+        {
+          "item_id": "270969894",
+          "title": "Tin Shed Construction Service",
+          "reason": "Names material (Tin) and service type — two attributes, correct for the product type offered."
+        },
+        {
+          "item_id": "145401338",
+          "title": "Shed Fabrication Service",
+          "reason": "Names service type (Fabrication) — one attribute, correct but minimal; description compensates with strong component-level detail."
+        },
+        {
+          "item_id": "20207705",
+          "title": "Sheds Construction Services",
+          "reason": "Names service type only — minimal but correct; no misleading tokens."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name only the generic service category without any differentiating attribute — material, construction method, application, or scale are all absent.",
+    "thinness_signals": [
+      "Title contains only the generic category name 'Shed Construction' with no material, method, or application qualifier",
+      "Title contains a typo ('Shades' instead of 'Sheds') that degrades search signal without adding any useful attribute"
+    ],
+    "examples": [
+      {
+        "item_id": "185196525",
+        "title": "Shed Construction",
+        "reason": "Title reads only 'Shed Construction' — missing material, construction method, application type, and all differentiating buyer-relevant attributes."
+      },
+      {
+        "item_id": "137476612",
+        "title": "Industrial Shades Construction Services",
+        "reason": "Title contains typo 'Shades' instead of 'Sheds', corrupting the title's search signal and reducing buyer-findability."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "No verified bad products in this batch have titles that are actively wrong or contaminating for this MCAT — all bad products failed on specs/description contradictions, not title category mismatch.",
+    "failure_classes": []
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere.",
+    "input_data_absent": false,
+    "classes": []
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator. Images were visually analysed from provided base64 data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "No siblings available in taxonomy_context — correct_mcat_suggestion set to null for all items; no sibling routing possible from taxonomy data."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (Industrial factory shed construction using PEB steel structures) and mcat_description product_types used to ground all category belonging decisions; mcat_vagueness_signal not explicitly provided but MCAT is coherent (PATH A applied)."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
