@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Warehouse' directly matches the top primary keyword and is the dominant buyer search term per Agent 3 alt_names; market_context confirms it is commercially synonymous with PEB warehouse in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a green colour-coated metal sheet clad steel warehouse with roller shutter doors — correctly representing the primary segment (PEB steel warehouse with metal cladding), so the product identity is accurate.",
+      "The image appears to be a stock/foreign-context photo (gravel forecourt, non-Indian setting, dark green cladding uncommon in Indian PEB market), lacks clear-span scale cues, and does not convey the industrial storage/logistics context typical of Indian PEB buyers — a purpose-shot or AI-generated Indian-context image would significantly improve buyer relevance."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic exterior view of a large single-storey Pre-Engineered Building (PEB) steel warehouse in an Indian industrial setting. The structure has a portal frame design with light grey or ivory colour-coated corrugated metal sheet roofing and wall cladding, wide roller shutter loading bay doors on the front facade, and a clear-span width of approximately 30 metres. The foreground shows a concrete apron with a forklift near the entrance. Background includes a clear blue sky with light clouds. Clean, professional product photography style, sharp focus, natural daylight, no people, no text overlays, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
