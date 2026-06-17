@@ -1,0 +1,41 @@
+{
+  "agent": "Agent 8 — Category Nature",
+  "mcat": "Sintex Portable Toilets",
+  "mcat_id": "182628",
+  "is_vague_signal_evaluation": {
+    "agent3_prior": {
+      "suspected_vague": false,
+      "note": "Agent 3 did not flag mcat_vagueness_signal; primary_segment is confident and unhedged."
+    },
+    "signal_1_name_ambiguity": {
+      "fires": false,
+      "evidence": "'Sintex Portable Toilets' resolves unambiguously to one product concept — prefabricated sanitation cabin units bearing or referencing the Sintex brand; no competing industry reads this name differently."
+    },
+    "signal_2_primary_segment_difficulty": {
+      "fires": false,
+      "evidence": "Agent 3 produced a confident, unhedged primary_segment: 'Sintex-branded single-seater FRP or PVC prefabricated portable toilet cabin (Indian or Western seat)' — no compound hedge or 'depends on' qualifier."
+    },
+    "signal_3_buyer_intent_queries_diverge": {
+      "fires": false,
+      "evidence": "All buyer intent queries cluster around one purchase context — procuring a prefabricated portable sanitation cabin; sub-variants (FRP, PVC, Indian seat, Western seat, bio-toilet) are spec refinements within the same intent, not incompatible intents."
+    },
+    "signal_4_product_types_no_shared_buyer": {
+      "fires": false,
+      "evidence": "All product_types (single-seater FRP, PVC, twin-seater block, bio-toilet, urinal cabin) share the same buyer archetype — someone procuring a portable sanitation enclosure for a site, event, or scheme; no zero-overlap buyer split exists."
+    },
+    "signals_fired": 0,
+    "is_vague_verdict": false
+  },
+  "category_nature": {
+    "is_generic": false,
+    "is_specific": true,
+    "is_vague": false,
+    "is_thin": false,
+    "is_branded": true,
+    "is_service": false,
+    "reason": [
+      "is_branded: 'Sintex' is a registered trademark (Sintex Industries / Sintex Plastics) and functions as the dominant category descriptor in India's prefabricated portable toilet market — the MCAT name is anchored to a specific brand/trade name, not a generic material or function; is_specific: the MCAT is tightly scoped to Sintex-branded or Sintex-referenced prefabricated portable toilet cabins with homogeneous buyer intent (site/event/scheme sanitation procurement) and 361 listings at level 4 with a confident primary_segment.",
+      "is_thin: false — 361 listings at a level-4 node is a healthy count for a brand-specific MCAT; listing_count_suspect is false per Agent 3 and page density is consistent; is_generic: false — the Sintex brand anchor and the specific product format (prefabricated cabin) prevent this from being a broad catch-all, even though sibling 'Portable Toilets' (8,053 listings) is the generic parent."
+    ]
+  }
+}
