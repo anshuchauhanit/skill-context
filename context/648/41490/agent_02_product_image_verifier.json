@@ -1,0 +1,1278 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "163385645",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Wooden House",
+      "description": "We “Meridian Infra” are the eminent organization involved in Manufacturing and Service Providing a wide gamut of Tensile Structures, Prefabricated Shed, Pre Engineered Warehouse Building, and more.",
+      "specs": {
+        "raw": "Built Type:Prefab, Flooring:Wooden Flooring, House Type:Cottage, Roof Type:Prefabricated, Service Location:Pan India, Service Mode:Offline, Usage/Application:Wooden House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/5/JU/ID/HA/113814154/prefabricated-wooden-house.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-wooden house-23427716448.html",
+      "image_file": "163385645.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a complete modern wooden-clad modular cabin on a floating platform with large glazed sliding doors and a wooden deck."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title correctly names a prefabricated wooden house but provides no differentiating attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm prefab built type, cottage house type, wooden flooring, and pan-India service scope."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description introduces the company and its broader product portfolio but does not describe the specific wooden house product."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated wooden house/cottage, directly matching the MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Meridian Infra' embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Meridian Infra' embedded in the product description text."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; P16 flagged for company name in description but does not disqualify the listing.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-wooden house-23427716448.html"
+    },
+    {
+      "item_id": "248800656",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Modular Wooden House",
+      "description": "Prefab Wooden Homes has gained an admirable position in manufacturing and supplying of Children Play House, Wooden Gazebo, Mountain House , Wooden Deck, Wooden Cladding, Wooden Cottage, Wooden Hut, Wooden Restaurant, Wood Vacation House and Seaside Studio Cottage etc. These products are enormously admired in the market due to their heat resistance, water resistance, affordable rates, attractive design, easy to install and low maintenance. Our presented products are manufactured employing the best quality of raw material and advanced techniques. These raw materials are obtained from dependable sellers of market. In addition, in order to present the top quality of products, we inspect them on varied quality factors. Besides, we follow the present market trends in the making of our products. In addition, our firm has highly developed manufacturing unit that is embedded with advanced machines and tools. In addition, we have selected a team of dexterous experts who complete our trade actions in proficient way. We appoint this team via a rigorous selection process.",
+      "specs": {
+        "raw": "Built Type:Prefab, Material:Wood, Place Of Origin:Pan India, service location:Pan india, service type:prefab wooden house manufacturer"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/5/422321742/MG/AT/VT/24286067/wooden-modular-a-frame-house.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/modular-wooden house-2851420165555.html",
+      "image_file": "248800656.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a rendered modern wooden cabin with horizontal timber cladding, mono-pitch roof, large sliding glass doors, and a concrete plinth in a forest setting."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title correctly names a modular wooden house but provides no differentiating attributes such as size, material spec, or application."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm prefab built type and wood material, consistent with a modular wooden house."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description lists wooden house variants (cottage, hut, vacation house, mountain house) and relevant attributes (heat/water resistance, easy installation)."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefab modular wooden house, directly matching the MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Modular Wooden House' only, missing wood species, floor area, construction method, and application."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; title is thin but no active failures detected.",
+      "source_url": "https://www.indiamart.com/proddetail/modular-wooden house-2851420165555.html"
+    },
+    {
+      "item_id": "288305591",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Wooden Schools",
+      "description": "MK Wooden Homes are specialized in manufacturing custom high quality Pre-fabricated wooden house, Villas, Gazebos, Bar-counter, Security cabins, Beach houses , Roof tops , Sloppy Mountain valleys , Floating houses , Farm houses and Pavilions, Wooden Cladding.\n\nMK Wooden Homes skilled craftsman’s use combination of machine tools hand made techniques to produce precision luxury homes , door structures and also based on precise architectural designs provided by our clients. And every stage of production is monitored and strictly controlled ensuring high quality end result.",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Material:Wood, Service Location/City:All india, Surface Treatment:Color Coated, wood:imported canadian pine wood"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/11/469310484/MA/YF/XT/229859915/wooden-laborooms.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/wooden-schools-2855370659333.html",
+      "image_file": "288305591.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed real wooden cabin with dark brown horizontal log cladding, tiled roof, large windows, entrance steps, and a brick plinth foundation."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names 'Wooden Schools' — an application variant of prefabricated wooden structures — but omits product type, construction method, and material spec."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs confirm prefab built type, imported Canadian pine wood, color-coated surface treatment, and all-India service location."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description lists prefabricated wooden houses, villas, farmhouses, and beach houses — all valid product types for this MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Wooden school building is an application variant of prefabricated wooden structures; product identity (prefab wooden structure, Canadian pine, color-coated) is valid for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'MK Wooden Homes' embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Wooden Schools' only, missing product type label (house/cabin/cottage), construction method, and material spec."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'MK Wooden Homes' embedded in the product description text."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; application-named title is thin but product identity is valid; P16 flagged for company name in description.",
+      "source_url": "https://www.indiamart.com/proddetail/wooden-schools-2855370659333.html"
+    },
+    {
+      "item_id": "288189957",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Villa Wooden House",
+      "description": "Wooden Villas\nWooden villas are luxurious and distinctive structures that combine the elegance of traditional villa design with the warmth and beauty of wood as a primary construction material. These dwellings offer a unique blend of sophistication, comfort, and a connection to nature. Here are some aspects associated with wooden villas:\nArchitectural Elegance:\nWooden villas often boast elegant and timeless architectural designs. They may feature high ceilings, large windows, balconies, and other design elements that contribute to a sense of grandeur.\nLuxurious Interiors:\nThe interiors of wooden villas are typically designed with a focus on luxury and comfort. High-quality wood is used for flooring, furniture, and other finishes, creating an opulent and inviting atmosphere.\nSpacious Layouts:\nVillas are known for their spacious layouts, and wooden villas are no exception. These structures often include multiple bedrooms, bathrooms, and expansive living areas, providing ample room for residents and guests.\nCustomization and Craftsmanship:\nWooden villas often involve a high level of customization and craftsmanship. Homeowners may have the opportunity to work with skilled artisans and designers to create bespoke elements, ensuring that the villa reflects their unique style and preferences.\nIntegration with Nature:\nWhile wooden villas are luxurious, they also aim to integrate seamlessly with their natural surroundings. Large windows and outdoor spaces, such as terraces and gardens, are common features that allow residents to enjoy the beauty of the surrounding environment.\nModern Amenities:\nWooden villas often come equipped with modern amenities, such as state-of-the-art kitchens, spa-like bathrooms, smart home technology, and other features that enhance the overall living experience.\nSustainability:\nMany modern wooden villas are designed with sustainability in mind. This includes the use of responsibly sourced wood, energy-efficient systems, and eco-friendly building practices to minimize the environmental impact of the construction.\nInvestment and Prestige:\nWooden villas are often considered prestigious properties, and they can be attractive investments. The combination of luxury, natural beauty, and craftsmanship can contribute to the long-term value of these properties.\nPrivacy and Security:\nVillas are often situated in private and secure locations, providing residents with a sense of seclusion and tranquility. Security features may include gated entrances, surveillance systems, and other measures to ensure the safety of occupants.",
+      "specs": {
+        "raw": "Built Type:Prefab, colur:whitish cream, Country of Origin:Made in India, Floor Area:600-1000 sq ft, Ground Floor Dimensions:875 sqft, House Type:Farm House, Number Of Floors:Single Storey, Roof Type:Hip Roof, Service Location:Hill Station, thickness:38 mm, Treatment:Seasoned Wood, Usage:Farm House, wood:canadian pine, Wood Type:Pine Wood"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/11/469377342/LP/ZG/HP/229859915/wooden-polishing-service.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/villa-wooden house-2855359095933.html",
+      "image_file": "288189957.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed real wooden house with horizontal timber cladding, terracotta-tiled hip roof, covered porch with wooden columns, and a concrete plinth foundation on a green lawn."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title correctly names a villa wooden house but provides no differentiating attributes such as floor area, wood species, or construction type."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide comprehensive detail including prefab construction, 875 sqft floor area, Canadian pine wood, 38mm thickness, seasoned wood treatment, hip roof, and hill station service location."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description comprehensively describes wooden villa features including construction quality, sustainability, customization, and luxury amenities relevant to this MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated wooden villa/farmhouse with Canadian pine construction, 875 sqft floor area, and hip roof — directly matching the MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — image is a real completed wooden farmhouse, specs are comprehensive (Canadian pine, 875 sqft, hip roof, seasoned wood treatment), no contradictions detected.",
+      "source_url": "https://www.indiamart.com/proddetail/villa-wooden house-2855359095933.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "90077788",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Wooden Timber House",
+      "description": "Due to our years of expertise in this realm, we are readily affianced in presenting an exceptional quality variety of Wooden Timber House.\nFeatures:\n• Excellent design\n• Durable\n• Fine finish\n• Sturdy",
+      "specs": {
+        "raw": "Material:Steel, Use:Kiosk"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/12/469937201/CS/LF/ZV/7976026/wooden-timber-house.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/wooden-timber house-13620373862.html",
+      "image_file": "90077788.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a timber-frame wooden house under construction with exposed pine rafters, ridge beam, and large glazed windows."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title correctly names a wooden timber house but provides no differentiating attributes such as size, wood species, or construction type."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs declare Material:Steel and Use:Kiosk, which actively contradict the wooden house product identity stated in the title."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description references Wooden Timber House by name but provides only generic quality claims with no structural or specification detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image and title confirm a wooden timber-frame house; specs appear to be incorrectly populated with steel kiosk data."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs",
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows exposed pine/SPF timber-frame construction; specs declare Material:Steel.",
+          "Title names a Wooden Timber House; specs declare Material:Steel and Use:Kiosk."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows exposed pine/SPF timber-frame construction; specs declare Material:Steel."
+        },
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title says 'Wooden Timber House'; specs declare Material:Steel and Use:Kiosk."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Wooden Timber House' only, missing wood species, size, construction method, and application."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs declare Material:Steel and Use:Kiosk for a wooden house listing, making them actively misleading."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — specs (Material:Steel, Use:Kiosk) directly contradict the wooden house identity shown in image and title.",
+      "source_url": "https://www.indiamart.com/proddetail/wooden-timber house-13620373862.html"
+    },
+    {
+      "item_id": "238284053",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Wooden Doll House",
+      "description": "doll’s houses – whatever their style or configuration – offer children the chance to explore and act out situations and experiences from real life in a safe and inconsequential way.",
+      "specs": {
+        "raw": "Age Group:3-9 Year, Color:Multicolour, Country of Origin:Made in India, Gender:Unisex, Material:MDF, Type:Wooden Doll House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/2/NO/JF/DG/59257764/dollhouse2.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/wooden-doll house-2850368505262.html",
+      "image_file": "238284053.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a small pink-and-white MDF children's dollhouse toy with miniature windows and a toy elephant, not a prefabricated wooden residential structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title explicitly names a 'Wooden Doll House' — a children's toy — which is a fundamentally different product from a prefabricated wooden residential structure."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm Age Group:3-9 Year and Type:Wooden Doll House, establishing this as a children's toy product incompatible with this MCAT."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly describes a children's toy dollhouse for play, not a prefabricated residential or hospitality structure."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a children's MDF toy dollhouse (Age Group:3-9 Year), not a prefabricated wooden residential or hospitality structure."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a small pink-and-white MDF children's dollhouse toy with miniature windows and a toy elephant, not a prefabricated wooden residential structure."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title names 'Wooden Doll House' — a children's toy — which is a fundamentally different product from a prefabricated wooden residential structure."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Age Group:3-9 Year and Type:Wooden Doll House, a children's toy product incompatible with this MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes children's play with a toy dollhouse, not a prefabricated residential structure."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — all dimensions confirm a children's MDF toy dollhouse, not a prefabricated wooden residential structure.",
+      "source_url": "https://www.indiamart.com/proddetail/wooden-doll house-2850368505262.html"
+    },
+    {
+      "item_id": "137526059",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Wooden House",
+      "description": "Keeping in mind ever-evolving requirements of our respected clients, we are offering a premium quality array of PVC Door Making Machine.Features:High performanceLong working lifeEasy maintenance",
+      "specs": {
+        "raw": "Brand:Jay Hari Engineeting, Built Type:Prefab, Color:Wooden, Material:Wood, Use:House"
+      },
+      "image_url": "https://5.imimg.com/data5/KP/GV/ZW/SELLER-20808303/wooden-house.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/wooden-house-20841758188.html",
+      "image_file": "137526059.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed wooden cabin with honey-toned horizontal timber cladding, tiled hip roof, covered porch with wooden railing, and garden surroundings."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title correctly names a wooden house but provides no differentiating attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm prefab built type, wood material, and house use, consistent with this MCAT."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly describes a 'PVC Door Making Machine' with machine-specific features, actively contradicting the wooden house product identity."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image, title, and specs confirm a prefab wooden house; description is a copy-paste error from a PVC Door Making Machine listing."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description",
+          "photo_vs_description",
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title names 'Wooden House' but description explicitly describes a 'PVC Door Making Machine.'",
+          "Image shows a completed wooden cabin; description describes a PVC Door Making Machine.",
+          "Specs state Material:Wood, Use:House; description describes a PVC Door Making Machine."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Image shows a completed wooden cabin; description describes a 'PVC Door Making Machine.'"
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title says 'Wooden House'; description explicitly describes a 'PVC Door Making Machine.'"
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs state Material:Wood, Use:House; description describes a 'PVC Door Making Machine.'"
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Wooden House' only, missing construction method, size, wood species, and application."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — description is a copy-paste error from a PVC Door Making Machine listing, creating three active cross-dimension contradictions.",
+      "source_url": "https://www.indiamart.com/proddetail/wooden-house-20841758188.html"
+    },
+    {
+      "item_id": "170132923",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Resort Cottages Construction Service",
+      "description": "We are manufacturing these products using premium grade raw material that is procured from the authentic vendors of the market. We offer these products at reasonable rates and deliver these within the promised time-frame.",
+      "specs": {
+        "raw": "Payment Mode:Online/Offline, Service Location:Delhi NCR, Service Mode:Offline, Type of Resort:Wooden House Resort"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/1/378800634/LX/ES/OK/138329862/hotels-resorts-construction-service.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/resort-cottages construction service-24102444248.html",
+      "image_file": "170132923.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a 3D SketchUp architectural render of an A-frame wooden cabin with adjacent structure, identifiable as a wooden house design but not a real product photograph."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names a resort cottages construction service, which is an application/service variant of wooden house supply, but omits product type, material, and construction method."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm service mode, Delhi NCR location, and wooden house resort type, consistent with wooden house supply for resort use."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic supplier boilerplate with no specific wooden house product detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "The underlying product (wooden resort cottage) is valid for this MCAT; listing is framed as a construction service."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs field contains 'Service Location:Delhi NCR' — a geographic location embedded in the listing data."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "House Construction Services",
+        "reason": "Listing is framed as a construction service (title: 'Resort Cottages Construction Service', specs: Service Mode:Offline) rather than a product supply, making 'House Construction Services' a more precise fit."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a 3D SketchUp architectural render rather than a real product photograph, limiting buyer-useful visual detail."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Service Location:Delhi NCR' — a geographic location embedded in the listing data."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — thin image (3D render) and service-framed listing; routes to 'House Construction Services' sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/resort-cottages construction service-24102444248.html"
+    },
+    {
+      "item_id": "256308887",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "WOODEN MINI  HOME",
+      "description": "WOODEN MINI HOME USE HOME DECORATION HIGH QUALITY HANDMADE BY QN CRAFTS ",
+      "specs": {
+        "raw": "Child Age Group:14 & Above, Color:Brown, Gender:Girl, Handmade:Yes, Material:Pine wood, Packaging:Box, Product Type:Puzzle"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/8/338944755/EE/AD/DA/31580474/qn-wmh-49501.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/wooden-mini  home-2852170988688.html",
+      "image_file": "256308887.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a small bark-wood miniature house object approximately the size of a fist, consistent with a pet accessory or decorative item, not a prefabricated residential structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title 'WOODEN MINI HOME' combined with specs (Product Type:Puzzle, Child Age Group:14 & Above) indicates a toy/craft product, not a prefabricated residential structure."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm Product Type:Puzzle, Child Age Group:14 & Above, and Gender:Girl, establishing this as a children's craft/toy product incompatible with this MCAT."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description states 'HOME DECORATION' and 'HANDMADE BY QN CRAFTS,' confirming a decorative craft item, not a prefabricated residential structure."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a handmade wooden miniature home decoration/puzzle (Product Type:Puzzle, Child Age Group:14 & Above), not a prefabricated residential or hospitality wooden structure."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a tiny bark-wood miniature house object (pet/decorative item), not a prefabricated residential structure."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'WOODEN MINI HOME' combined with specs (Product Type:Puzzle, Child Age Group:14 & Above) indicates a toy/craft product incompatible with this MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Product Type:Puzzle, Child Age Group:14 & Above, incompatible with prefabricated wooden house MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description confirms home decoration/handmade craft use by 'QN CRAFTS,' not a prefabricated residential structure."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — all dimensions confirm a decorative/puzzle wooden miniature, not a prefabricated residential structure.",
+      "source_url": "https://www.indiamart.com/proddetail/wooden-mini  home-2852170988688.html"
+    },
+    {
+      "item_id": "292509764",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Modern Wooden House",
+      "description": "Modular cottages are prefabricated homes built in sections, or modules, at a factory and then assembled on-site. They are a type of prefab home offering a more efficient and potentially faster construction process than traditional building methods. These cottages can be customized with various floor plans, layouts, and finishes, offering a flexible and stylish housing solution",
+      "specs": {
+        "raw": "Floor Area:1600 sq ft, House Type:Cottage, Material:Bamboo, Usage:Residential, Wood Type:Pine Wood"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2025/2/489016670/NZ/MS/FH/160291632/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/modern-wooden house-2855791076648.html",
+      "image_file": "292509764.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed bamboo-clad elevated cottage structure with green metal roof, wooden veranda, and stilts, set in a landscaped garden — a real installed prefab natural-material structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title correctly names a modern wooden house but provides no differentiating attributes."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Specs list both Material:Bamboo and Wood Type:Pine Wood for the same structure, which are contradictory material specifications."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description accurately describes prefab modular cottage construction with factory-built sections, on-site assembly, and customizable layouts."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefab bamboo cottage (1600 sq ft, residential use), valid for the Wooden House MCAT as a natural-material prefab structure."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows bamboo cladding on the structure; specs declare Wood Type:Pine Wood, contradicting the visible material."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs declare Material:Bamboo and Wood Type:Pine Wood simultaneously, which are contradictory material specifications for the same structure."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Bamboo Huts",
+        "reason": "Image and specs confirm bamboo as the primary cladding/construction material (Material:Bamboo), making 'Bamboo Huts' a more precise sibling MCAT fit."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows bamboo cladding on the structure; specs declare Wood Type:Pine Wood, contradicting the visible material."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs declare Material:Bamboo and Wood Type:Pine Wood simultaneously, which are contradictory material specifications for the same structure."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs are misleading due to contradictory material declarations (Material:Bamboo vs Wood Type:Pine Wood) for the same structure."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — specs contain internal material contradiction (Bamboo vs Pine Wood) and photo-specs contradiction; routes to 'Bamboo Huts' sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/modern-wooden house-2855791076648.html"
+    }
+  ],
+  "generated_bad_examples": [
+    {
+      "generated": true,
+      "generated_for_problem_codes": [
+        "P15",
+        "P16"
+      ],
+      "item_id": "GENERATED_P15_P16",
+      "pre_label": null,
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefab Wooden Cottage House",
+      "description": "We Sharma Wood Homes, located in Dehradun, Uttarakhand, offer premium prefabricated wooden cottages for residential and resort use. Contact us at 9876543210 or sharmawoodhomes@gmail.com for custom orders. Our cottages use imported Canadian pine with termite treatment.",
+      "specs": {},
+      "image_url": null,
+      "product_page_url": null,
+      "image_file": null,
+      "image_status": "generated",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "No image available."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names a prefab wooden cottage house, consistent with this MCAT."
+        },
+        "specs": {
+          "category_fit": null,
+          "quality": "thin",
+          "reason": "Specs object is empty — no specification detail provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description contains a phone number, email address, company name, and city/state location embedded in the product description text."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is described as a prefabricated wooden cottage for residential and resort use, matching the MCAT primary segment."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains phone number '9876543210' and email address 'sharmawoodhomes@gmail.com.'"
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Sharma Wood Homes' and location 'Dehradun, Uttarakhand' embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains phone number '9876543210' and email address 'sharmawoodhomes@gmail.com.'"
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Sharma Wood Homes' and location 'Dehradun, Uttarakhand' embedded in the product description text."
+        }
+      ],
+      "verification_note": "Generated illustrative example for P15 and P16 — no real verified product in this batch demonstrated PII presence; grounded in Wooden House MCAT product universe."
+    }
+  ],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show complete wooden house structures from an exterior perspective — either real photographs of installed units or high-quality renders — with the full facade, roof, windows, entrance, and surrounding context (garden, trees, or water) clearly visible. Dominant visual elements include horizontal timber or log cladding, pitched or mono-pitch roofs, wooden-framed windows, and a plinth or deck foundation. Both real photography and professional CGI renders are acceptable; the key requirement is that the complete structure is identifiable as a habitable wooden building.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Wooden house structures are identified by their visual form — cladding type, roof shape, window configuration, and overall massing — not by text labels on the product surface.",
+      "No verified good image shows text, labels, or specifications printed on the wooden house structure itself.",
+      "OCR would extract no useful product information from exterior photographs or renders of wooden houses."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good photos show complete exterior views of real or rendered wooden houses with identifiable cladding, roof type, windows, and site context.",
+    "product_identity": [
+      "Horizontal timber or log cladding in natural wood tones (honey, dark brown, or light pine)",
+      "Pitched, hip, or mono-pitch roof with tiles or metal sheeting",
+      "Wooden-framed windows and entrance doors",
+      "Plinth foundation (concrete, brick, or stone) or elevated deck/stilts"
+    ],
+    "acceptable_scenes": [
+      "Exterior photograph of completed installed wooden house with garden or natural surroundings",
+      "Professional CGI render of wooden cabin/cottage showing full exterior with site context"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "163385645",
+        "reason": "Image shows a complete modern wooden-clad modular cabin on a floating platform with large glazed sliding doors and a wooden deck.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "248800656",
+        "reason": "Image shows a rendered modern wooden cabin with horizontal timber cladding, mono-pitch roof, large sliding glass doors, and a concrete plinth in a forest setting.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "288305591",
+        "reason": "Image shows a completed real wooden cabin with dark brown horizontal log cladding, tiled roof, large windows, entrance steps, and a brick plinth foundation.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "288189957",
+        "reason": "Image shows a completed real wooden house with horizontal timber cladding, terracotta-tiled hip roof, covered porch with wooden columns, and a concrete plinth foundation on a green lawn.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show wooden house structures that are identifiable but presented as 3D design renders rather than real product photographs, limiting buyer-useful detail.",
+    "thinness_signals": [
+      "3D SketchUp or CAD-style architectural render instead of real product photograph",
+      "Stylized/cartoon-like rendering with unrealistic scene elements (street lamps, human figures, picnic tables)"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "170132923",
+        "reason": "Image shows a 3D SketchUp architectural render of an A-frame wooden cabin with adjacent structure, identifiable as a wooden house design but not a real product photograph."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show products that are fundamentally not prefabricated wooden residential structures — specifically children's toy houses and miniature decorative items.",
+    "failure_classes": [
+      {
+        "class": "children_toy_dollhouse",
+        "description": "Image shows a small-scale MDF or board children's dollhouse toy with miniature windows, painted in bright colours, clearly a play item not a habitable structure.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "238284053"
+          }
+        ],
+        "detection_signal": "Structure is clearly miniature scale (tabletop size), brightly painted in non-structural colours (pink, white), with toy accessories visible.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "miniature_decorative_or_pet_item",
+        "description": "Image shows a tiny bark-wood or natural-wood miniature house object (pet accessory or home decoration), clearly not a habitable prefabricated structure.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "256308887"
+          }
+        ],
+        "detection_signal": "Object is fist-sized or smaller, made from bark/natural wood pieces, with a small arched entrance consistent with a hamster/pet house or decorative ornament.",
+        "failure_mode": "wrong_category"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles for this MCAT name the construction type (prefab/modular/log cabin), wood species (Canadian pine, SPF), house type (cottage, villa, farmhouse), and floor area or application.",
+    "strong_positive_signals": [
+      "Construction method token: Prefabricated / Modular / Log Cabin / Timber Frame",
+      "Wood species token: Canadian Pine / SPF / Imported Pine / Glulam",
+      "House type token: Cottage / Villa / Farmhouse / Resort Cabin / A-Frame",
+      "Floor area or bedroom count"
+    ],
+    "structural_patterns": [
+      "[Construction Method] + [Wood Species] + [House Type]",
+      "[House Type] + Wooden House + [Application]",
+      "Prefabricated + [Wood Type] + [House Type] + [Floor Area]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "288189957",
+          "title": "Villa Wooden House",
+          "reason": "Supported by specs with Canadian pine, 875 sqft, hip roof, seasoned wood treatment, and hill station service — the listing as a whole is the strongest example despite a thin title."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "163385645",
+          "title": "Prefabricated Wooden House",
+          "reason": "Correctly names construction method (prefabricated) and product type but lacks wood species, floor area, and house sub-type."
+        },
+        {
+          "item_id": "248800656",
+          "title": "Modular Wooden House",
+          "reason": "Correctly names construction method (modular) and product type but lacks wood species, floor area, and application."
+        },
+        {
+          "item_id": "288305591",
+          "title": "Wooden Schools",
+          "reason": "Names a valid application of prefab wooden structures but omits product type label, construction method, and material spec."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name the product correctly but omit all differentiating attributes such as construction method, wood species, floor area, house type, or application.",
+    "thinness_signals": [
+      "Title contains only 'Wooden House' or 'Modern Wooden House' with no construction method, material, or size qualifier",
+      "Title names an application (schools, resort) without naming the product type or construction method",
+      "Title omits wood species, floor area, treatment specification, and house sub-type"
+    ],
+    "examples": [
+      {
+        "item_id": "137526059",
+        "title": "Wooden House",
+        "reason": "Title contains only the generic product name with no construction method, wood species, size, or application."
+      },
+      {
+        "item_id": "292509764",
+        "title": "Modern Wooden House",
+        "reason": "Title adds only 'Modern' as a qualifier, missing construction method, wood species, floor area, and house type."
+      },
+      {
+        "item_id": "90077788",
+        "title": "Wooden Timber House",
+        "reason": "Title names product type but provides no wood species, size, construction method, or application."
+      },
+      {
+        "item_id": "170132923",
+        "title": "Resort Cottages Construction Service",
+        "reason": "Title frames the listing as a service and names an application but omits product type, material, and construction method."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles contain tokens that explicitly name a different product category — specifically children's toy houses and miniature decorative items — making them actively wrong for this MCAT.",
+    "failure_classes": [
+      {
+        "class": "toy_dollhouse_token",
+        "signal": "Title contains 'Doll House' — a children's toy product token incompatible with prefabricated residential structures.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "238284053",
+            "title": "Wooden Doll House",
+            "reason": "Token 'Doll House' explicitly names a children's toy, not a prefabricated residential or hospitality wooden structure.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "miniature_decoration_token",
+        "signal": "Title contains 'MINI HOME' combined with specs confirming a puzzle/decoration product — signals a decorative craft item, not a habitable structure.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "256308887",
+            "title": "WOODEN MINI  HOME",
+            "reason": "Title 'WOODEN MINI HOME' combined with specs (Product Type:Puzzle, Child Age Group:14 & Above) confirms a decorative craft item incompatible with this MCAT.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — specifically children's toy dollhouses and miniature decorative wooden items that match the word 'wooden house' but are not prefabricated residential structures.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "children_toy_dollhouse",
+        "signal": "Specs confirm Age Group (child), Type:Wooden Doll House, or Material:MDF with toy-scale dimensions; image shows a miniature painted toy structure.",
+        "examples": [
+          {
+            "item_id": "238284053",
+            "title": "Wooden Doll House",
+            "reason": "All dimensions confirm a children's MDF toy dollhouse (Age Group:3-9 Year, Type:Wooden Doll House) — not a prefabricated residential structure.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      },
+      {
+        "class": "miniature_decorative_or_puzzle_item",
+        "signal": "Specs confirm Product Type:Puzzle, Handmade:Yes, or Child Age Group with home decoration use; image shows a fist-sized bark-wood or craft-wood miniature object.",
+        "examples": [
+          {
+            "item_id": "256308887",
+            "title": "WOODEN MINI  HOME",
+            "reason": "Specs confirm Product Type:Puzzle, Child Age Group:14 & Above, Gender:Girl — a decorative craft item, not a prefabricated residential structure.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "House Construction Services",
+        "signal": "Listing is framed as a construction/installation service (title contains 'Construction Service', specs show Service Mode:Offline, Payment Mode) rather than a product supply.",
+        "examples": [
+          {
+            "item_id": "170132923",
+            "title": "Resort Cottages Construction Service",
+            "reason": "Title explicitly names a construction service and specs confirm Service Mode:Offline and Payment Mode — better fits 'House Construction Services' sibling MCAT."
+          }
+        ]
+      },
+      {
+        "sibling_mcat": "Bamboo Huts",
+        "signal": "Primary construction material is bamboo (Material:Bamboo in specs, bamboo cladding visible in image) rather than structural timber or engineered wood.",
+        "examples": [
+          {
+            "item_id": "292509764",
+            "title": "Modern Wooden House",
+            "reason": "Image shows bamboo cladding and specs declare Material:Bamboo — primary material is bamboo, making 'Bamboo Huts' a more precise sibling MCAT fit."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator. Images were visually analysed from provided base64 data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names ('House Construction Services', 'Bamboo Huts') confirmed from taxonomy_context.siblings list. correct_mcat_suggestion set to null where no sibling matched."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (prefabricated wooden house/cottage) and mcat_description used to ground all category belonging decisions. mcat_vagueness_signal.suspected_vague treated as false — PATH A applied to all items."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
