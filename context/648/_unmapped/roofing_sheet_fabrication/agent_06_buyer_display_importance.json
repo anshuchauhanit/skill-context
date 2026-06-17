@@ -1,0 +1,249 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual sub-type variation between corrugated GI, colour-coated trapezoidal profile, PUF sandwich panel, and polycarbonate roofing — buyers use the listing image to identify the fabricator's primary offering before reading any text. Wrong product type shown = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Sheet Material and Sheet Profile are non-interchangeable shortlisting criteria — a fabricator equipped for GI corrugated cannot substitute for PUF sandwich panel or polycarbonate. Buyers cannot evaluate a listing without these specs."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq ft rate varies substantially with sheet material (GI vs PUF sandwich panel vs polycarbonate) and thickness — Indian contractors compare rates aggressively across fabricators once material type matches, making price a primary shortlisting signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Material-only sellers quote per kg; PUF panel sellers may quote per piece or per sq ft — unit must be shown alongside price to prevent misreading across sub-segments.",
+      "reason": "Per sq ft vs per kg vs per piece creates real price comparison confusion across sub-segments; a buyer comparing a per sq ft fabrication quote with a per kg material quote cannot make a valid comparison without the unit shown."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "JSW, Tata Roofseal, and Jindal are raw material mill brands, not fabricator brands — no roofing sheet fabricator has buyer recall by name in the Indian market.",
+      "reason": "Fabricator track record, project portfolio, and geographic service area are evaluated during vendor selection for large industrial projects, but company ranks after material, price, and unit confirmation in the buyer journey."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Sheet Material",
+        "reason": "Defines the fundamental product type (GI vs PPGI vs galvalume vs polycarbonate vs FRP) — non-interchangeable across buyer requirements and drives the largest price delta per sq ft across all sub-segments."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Sheet Thickness",
+        "reason": "Within a given material, thickness is the primary quality and structural grade separator — 0.30mm vs 0.60mm GI sheet carries a significant per sq ft price difference and is specified by structural load requirements that cannot be substituted."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Coating Type",
+      "Color",
+      "Fabrication Location",
+      "Payment Terms",
+      "Sheet Length",
+      "Sheet Material",
+      "Sheet Profile",
+      "Sheet Thickness",
+      "Sheet Width",
+      "Surface Finish"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "PUF Core Thickness",
+        "why_important": "PUF sandwich panels are specified by insulation core thickness (10mm–100mm), which is semantically distinct from metal sheet gauge thickness and is the primary price and performance differentiator for the insulated roofing sub-segment — confirmed by Agent 3 market_context noting 10 of 17 buyer enquiries mentioning PUF sheets.",
+        "source": "both",
+        "example_values": [
+          "25 mm",
+          "50 mm",
+          "75 mm",
+          "100 mm"
+        ]
+      },
+      {
+        "spec_name": "Zinc Coating Grade (GSM)",
+        "why_important": "GI and galvalume sheets are graded by zinc coating weight (Z-90 to Z-275 GSM per IS 277), which determines corrosion resistance and suitability for coastal vs inland applications — a primary durability differentiator that affects price and buyer specification compliance.",
+        "source": "both",
+        "example_values": [
+          "Z-90",
+          "Z-120",
+          "Z-180",
+          "Z-275"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Service City",
+        "reason": "Roofing sheet fabrication is a location-bound installation service — a fabricator in one city cannot serve a project in another, making geographic location the primary routing spec that determines which sellers can physically respond.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Material",
+        "reason": "Sheet material (Mild Steel, FRP, PVC, Iron) determines which fabricator type can supply and install the roofing — sellers specialising in GI/PPGI cannot serve FRP or polycarbonate requirements, making this a hard routing signal.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Mild Steel",
+          "FRP",
+          "PVC",
+          "Iron"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roof Profile Type",
+        "why_important": "Corrugated, trapezoidal, tile profile, and sandwich panel fabrication require different roll-forming equipment and installation expertise — sellers cannot confirm fit or quote accurately without knowing the required profile type.",
+        "source": "both",
+        "example_values": [
+          "Corrugated",
+          "Trapezoidal",
+          "Tile Profile",
+          "Sandwich Panel"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Corrugated",
+          "Trapezoidal",
+          "Tile Profile",
+          "Sandwich Panel"
+        ]
+      },
+      {
+        "spec_name": "Fabrication Location",
+        "why_important": "On-site fabrication vs factory fabrication with delivery are fundamentally different service models — buyers with on-site requirements cannot use factory-only suppliers, and sellers need this to confirm service capability before responding.",
+        "source": "both",
+        "example_values": [
+          "On Site",
+          "Factory",
+          "On Site And Factory"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Material",
+      "option_value": "Mild Steel",
+      "id": "spec_1",
+      "prompt_for_generation": "Installed mild steel GI corrugated roofing sheets on an industrial warehouse shed, metallic silver galvanized surface, viewed from slight angle showing roof slope and sheet profile ridges, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "FRP",
+      "id": "spec_2",
+      "prompt_for_generation": "Installed FRP (fibre-reinforced plastic) translucent roofing sheets on an industrial shed, semi-transparent corrugated panels allowing diffused natural light through, viewed from below showing light transmission, clean industrial setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "PVC",
+      "id": "spec_3",
+      "prompt_for_generation": "Installed PVC roofing sheets on a commercial shed structure, white corrugated plastic profile panels, clean and bright appearance, viewed from slight angle showing roof slope, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Iron",
+      "id": "spec_4",
+      "prompt_for_generation": "Installed iron MS corrugated roofing sheets on an industrial factory shed, dark grey metallic surface with visible corrugated profile ridges, viewed from angle showing roof slope and structural purlins, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Profile Type",
+      "option_value": "Corrugated",
+      "id": "spec_5",
+      "prompt_for_generation": "Installed GI corrugated roofing sheets on an industrial warehouse, classic sinusoidal wave profile in metallic silver, viewed from slight angle showing continuous corrugated ridges across the roof span, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Profile Type",
+      "option_value": "Trapezoidal",
+      "id": "spec_6",
+      "prompt_for_generation": "Installed colour-coated trapezoidal profile roofing sheets on an industrial shed, blue PPGI panels with flat-topped trapezoidal ribs, viewed from angle showing sharp angular profile and standing ribs across the roof, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Profile Type",
+      "option_value": "Tile Profile",
+      "id": "spec_7",
+      "prompt_for_generation": "Installed tile-profile colour-coated metal roofing sheets on a residential or commercial building, terracotta-coloured sheets mimicking traditional clay tile appearance with curved tile pattern, viewed from angle showing roof slope, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Profile Type",
+      "option_value": "Sandwich Panel",
+      "id": "spec_8",
+      "prompt_for_generation": "Installed PUF sandwich panel roofing on an industrial warehouse, white insulated composite panels with flat surface and visible panel joints, viewed from angle showing roof span and panel thickness at edge, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
