@@ -1,0 +1,219 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual variation across sub-types — portable cabin, multi-storey labour camp, storage shed, tent structure, container unit. Buyers use the image to identify building type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Building type, panel type, and size are primary shortlisting criteria — a buyer needing a labour camp cannot substitute a security cabin. Listings without these specs cannot be evaluated or priced."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian B2B buyers compare prices aggressively after confirming building type. Price varies substantially across building types and panel specifications, making it a primary decision lever once type and spec are confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per unit",
+      "unit_note": "Per unit dominates for standard portable cabins and site offices; per sq ft is used for larger labour camps and custom-sized structures. Both units appear in the market — must be shown to prevent price comparison confusion.",
+      "reason": "Per unit vs per sq ft creates genuine price comparison confusion for buyers comparing standard cabins against larger custom structures. Unit must be shown alongside price to make comparisons meaningful."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall — market is fragmented across regional fabricators and buyers search by building type and price, not manufacturer name.",
+      "reason": "Installation capability, turnkey supply (design-supply-erect), and project track record are evaluated during vendor selection but only after price and spec shortlisting are complete."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Building Type",
+        "reason": "Defines what the structure IS — site office, labour camp, storage shed, medical camp are non-interchangeable and carry the largest price delta in the category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Type",
+        "reason": "PUF vs GI Sheet vs EPS Panel drives significant price and thermal performance differences — buyers specify panel type based on climate, project duration, and insulation requirement."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Building Type",
+      "Built Type",
+      "Flooring Type",
+      "Number Of Floors",
+      "Portable",
+      "Rental Option",
+      "Roof Type",
+      "Structure Material",
+      "Usage Application",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Size / Floor Area",
+        "why_important": "Buyers specify required floor area (sq ft) or standard catalogue dimensions (10x10 ft, 10x20 ft) to get accurate quotes — sellers cannot price without knowing the required size.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "10x10 ft",
+          "10x20 ft",
+          "20x40 ft",
+          "Custom"
+        ]
+      },
+      {
+        "spec_name": "Insulation Core Type",
+        "why_important": "PUF, EPS, and rock wool cores have distinct thermal performance and price profiles — buyers in hot climates or cold-storage applications specify core type as a primary requirement.",
+        "source": "both",
+        "example_values": [
+          "PUF (Polyurethane Foam)",
+          "EPS (Expanded Polystyrene)",
+          "Rock Wool",
+          "None"
+        ]
+      },
+      {
+        "spec_name": "Panel Thickness",
+        "why_important": "Panel thickness (40mm to 80mm) directly determines thermal insulation rating and structural load capacity — a standard differentiator that affects both price and compliance with project specifications.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "40 mm",
+          "50 mm",
+          "60 mm",
+          "80 mm"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Routes the RFQ to sellers who supply the correct building configuration — a seller specialising in site offices cannot supply event halls or disaster relief shelters.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Event Hall",
+          "Temporary Warehouse",
+          "Exhibition Hall",
+          "Site Canteen",
+          "Disaster Relief"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Cladding Material",
+        "reason": "Defines the structural quality tier and thermal performance — sellers need this to confirm manufacturing capability and to price the structure accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Size / Floor Area",
+        "why_important": "Sellers cannot generate an accurate quote without knowing the required floor area or standard cabin dimensions — this is the primary sizing input for any temporary building.",
+        "source": "both",
+        "example_values": [
+          "Up to 100 sq ft",
+          "100–300 sq ft",
+          "300–1000 sq ft",
+          "Above 1000 sq ft"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Number of Floors",
+        "why_important": "Single-floor vs G+1 structures require different structural design, foundation approach, and installation complexity — sellers need this to confirm capability and quote accurately.",
+        "source": "both",
+        "example_values": [
+          "Single Floor",
+          "G Plus 1",
+          "G Plus 2"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Event Hall",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated temporary event hall structure, large span steel-framed building with metal cladding panels, open entrance, set up on a flat ground, daytime natural lighting, no branding, wide-angle exterior view.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Temporary Warehouse",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated temporary warehouse building with corrugated GI metal sheet cladding, wide roller shutter door, industrial setting, daytime exterior view, no branding, clear sky background.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Exhibition Hall",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated modular exhibition hall structure with clean white panel cladding, large glazed entrance facade, temporary structure assembled on open ground, daytime exterior view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Site Canteen",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated portable site canteen cabin with sandwich panel walls, small windows, single-storey structure on a construction site, workers visible in background, daytime exterior view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Disaster Relief",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated emergency disaster relief shelter, compact modular cabin with steel frame and insulated panel walls, deployed on open ground, humanitarian aid context, daytime exterior view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
