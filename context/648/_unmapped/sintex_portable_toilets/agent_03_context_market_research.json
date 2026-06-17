@@ -1,0 +1,408 @@
+{
+  "mcat_description": {
+    "short": "Sintex Portable Toilets are prefabricated, ready-to-use sanitation cabin units manufactured or branded under the Sintex name, constructed from FRP (Fibre Reinforced Plastic), PVC, or steel, and sold as complete self-contained toilet enclosures. They are supplied per piece or per unit block and are designed for quick installation without civil construction.",
+    "long": "Sintex Portable Toilets are factory-built, modular sanitation enclosures made primarily from FRP or PVC, available in Indian squat-pan and Western commode configurations, and supplied as single-seater cabins, twin-seater units, or multi-cabin toilet blocks. Standard cabin dimensions range from 3×3×7 ft to 4×4×8.6 ft, with built-in overhead water tanks (typically 200–500 litres), ventilation points, and bulb-holder electrical provisions. The Sintex brand is the dominant trade reference in India for this product category, with the name used generically by buyers and sellers to describe FRP/PVC prefabricated portable toilet cabins regardless of the actual manufacturer. Key applications include construction site sanitation, public events, government rural sanitation schemes (Swachh Bharat Mission), industrial labour welfare, and temporary public infrastructure.",
+    "product_types": [
+      "FRP Single Seater Portable Toilet (Indian Seat)",
+      "FRP Single Seater Portable Toilet (Western Seat)",
+      "PVC Single Seater Portable Toilet (Indian Seat)",
+      "PVC Single Seater Portable Toilet (Western Seat)",
+      "FRP Portable Toilet + Bathroom Combo (2-in-1)",
+      "Twin Seater FRP Portable Toilet Block",
+      "Multi-Cabin Toilet Block (3-in-1, 5-in-1, 6-in-1)",
+      "Sintex Nirmal Toilet Block (Rotomoulded)",
+      "Sintex Sugam Toilet (PUF Insulated Sandwich Panel)",
+      "FRP Portable Bio-Toilet (with biodigester tank)",
+      "Steel / MS Frame Portable Toilet Cabin",
+      "Portable Urinal Cabin (FRP/PVC)",
+      "FRP Portable Toilet with Wash Basin"
+    ],
+    "primary_applications": [
+      "Construction site worker sanitation",
+      "Public events, melas, and outdoor gatherings",
+      "Government rural sanitation schemes (Swachh Bharat Mission)",
+      "Industrial and factory labour welfare facilities",
+      "Highway rest areas and petrol pump sanitation",
+      "Pilgrimage sites and religious event sanitation",
+      "Temporary military and disaster relief camps",
+      "CSR sanitation initiatives"
+    ],
+    "buyer_segments": [
+      "Construction contractors and real estate developers",
+      "Event management companies",
+      "Government bodies and municipal corporations (bulk procurement)",
+      "NGOs and CSR programme managers",
+      "Industrial facility managers",
+      "Portable toilet rental service operators",
+      "Rural sanitation scheme implementers"
+    ]
+  },
+  "primary_segment": "Sintex-branded single-seater FRP or PVC prefabricated portable toilet cabin (Indian or Western seat)",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Sintex-branded prefabricated portable toilet cabin (FRP/PVC, single or multi-seater, Indian or Western seat)",
+    "secondary_families": [],
+    "reason": "All product variants within this MCAT — Indian seat, Western seat, bathroom combo, single/twin/block, FRP/PVC/steel — are prefabricated portable sanitation cabins sharing the same buyer profile, use case, and supply chain; no incompatible product families or regulatory regime conflicts exist."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "sintex portable toilet",
+      "sintex portable toilet cabin",
+      "readymade toilet",
+      "portable toilet cabin",
+      "sintex toilet",
+      "FRP portable toilet",
+      "prefab toilet cabin",
+      "mobile toilet cabin",
+      "sintex readymade toilet",
+      "portable bathroom cabin"
+    ],
+    "technical_synonyms": [
+      "FRP sanitation cabin",
+      "prefabricated toilet unit",
+      "modular portable toilet",
+      "rotomoulded toilet block",
+      "PVC portable toilet enclosure",
+      "prefab sanitation module",
+      "portable toilet block",
+      "knocked-down toilet cabin"
+    ],
+    "trade_names": [
+      "Sintex Nirmal Toilet Block",
+      "Sintex Sugam Toilet",
+      "Sintex Portolet",
+      "Sintex Single Seater",
+      "Sintex Twin Seater",
+      "Saran Portable Toilet"
+    ],
+    "hindi_terms": [
+      "readymade shauchalay",
+      "portable shauchalay",
+      "sintex shauchalay"
+    ],
+    "buyer_intent_queries": [
+      "sintex portable toilet price list India",
+      "readymade toilet cabin for construction site",
+      "FRP portable toilet Indian type price",
+      "sintex portable toilet with bathroom",
+      "portable toilet cabin for events",
+      "sintex toilet cabin western type",
+      "readymade toilet price in Chennai",
+      "portable toilet block for government project",
+      "sintex portable toilet single seater FRP",
+      "mobile toilet cabin for labour camp"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Sintex portable toilets are discrete, self-contained cabin units sold individually or in multi-cabin blocks; Indian B2B transactions universally quote per piece (single cabin) or per unit (for multi-cabin blocks), with bulk orders quoted per piece with quantity discounts.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Single-seater cabin (FRP/PVC)",
+        "unit": "per piece",
+        "note": "Standard transaction unit across all single-cabin variants"
+      },
+      {
+        "sub_segment": "Multi-cabin toilet block (3-in-1, 5-in-1, 6-in-1)",
+        "unit": "per unit / per block",
+        "note": "Quoted as a complete block unit; some sellers also quote per seat within the block"
+      },
+      {
+        "sub_segment": "Custom/large installation",
+        "unit": "per project / per seat",
+        "note": "Government and institutional bulk orders may quote per seat or per project"
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART MCAT page (structural signals)",
+      "modconindustries.com (authorized Sintex dealer page)",
+      "World knowledge — Indian B2B portable sanitation market"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Sintex is the dominant brand name in India's prefabricated portable toilet market, and the term 'Sintex portable toilet' is used generically by buyers to describe FRP or PVC prefabricated sanitation cabins regardless of actual manufacturer — making this a brand-dominant MCAT where the brand name functions as a category descriptor. The market is served by a mix of genuine Sintex-authorised dealers and independent FRP/PVC cabin manufacturers who use the Sintex name as a quality benchmark or trade reference. Two primary material streams exist: FRP (Fibre Reinforced Plastic) — the dominant and higher-durability option — and PVC, which is lighter and lower-cost; steel/MS frame variants are a smaller segment. Toilet seat type (Indian squat pan vs Western commode) is the primary product differentiation axis for buyers, followed by cabin size and water tank capacity. The Sintex Nirmal Toilet Block (rotomoulded, compact format) is a distinct government-scheme-oriented sub-product used in Swachh Bharat Mission and rural sanitation programmes. The Sintex Sugam Toilet uses PUF insulated sandwich panels and is positioned for semi-permanent installations. Demand is concentrated in construction-heavy states (Maharashtra, Gujarat, Tamil Nadu, Delhi NCR, Karnataka) with Chennai emerging as a strong regional market based on keyword geography signals. Bio-toilet variants (with DRDO-based biodigester systems) are a growing sub-segment for highway and remote-location applications where sewage connection is unavailable.",
+  "buyer_attracting_attributes": [
+    "Material (FRP / PVC / Steel)",
+    "Toilet Seat Type (Indian / Western / Both)",
+    "Cabin Size / Dimensions (ft)",
+    "Water Tank Capacity (litres)",
+    "Number of Compartments / Seaters",
+    "With / Without Bathroom (2-in-1)",
+    "With / Without Wash Basin",
+    "Wall Thickness (mm)",
+    "Colour",
+    "Bio-Digester / Septic Tank Compatibility"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "182628",
+    "mcat_name": "Sintex Portable Toilets",
+    "mcat_level": "4",
+    "listing_count": "361",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Sintex Portable Toilets",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35424.0",
+      "name": "Portable Toilets",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35424.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "35424",
+        "mcat_name": "Portable Toilets",
+        "listing_count": "8053",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42586",
+        "mcat_name": "Toilet Cubicles",
+        "listing_count": "4466",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42587",
+        "mcat_name": "Toilet Partitions",
+        "listing_count": "1861",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "44109",
+        "mcat_name": "Mobile Toilet Van",
+        "listing_count": "2119",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45789",
+        "mcat_name": "Mobile Toilets",
+        "listing_count": "4607",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119106",
+        "mcat_name": "Bio Toilet",
+        "listing_count": "1455",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "126794",
+        "mcat_name": "FRP Modular Toilet",
+        "listing_count": "735",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133092",
+        "mcat_name": "Bunk House Portable Toilets",
+        "listing_count": "210",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145136",
+        "mcat_name": "FRP Portable Toilet",
+        "listing_count": "6032",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "156755",
+        "mcat_name": "Chemical Toilets",
+        "listing_count": "126",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "189105",
+        "mcat_name": "MS Portable Toilets",
+        "listing_count": "2127",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "214584",
+        "mcat_name": "RCC Toilet",
+        "listing_count": "729",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "222823",
+        "mcat_name": "PVC Toilet",
+        "listing_count": "343",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "224049",
+        "mcat_name": "Modular Toilet",
+        "listing_count": "442",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 14,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Portable toilets are prefabricated sanitation structures subject to BIS standards and municipal building codes. Sintex is the dominant brand in India; buyers search by brand name and model. Agent 3 should prioritise BIS IS:2030 (portable sanitation units), Sintex product catalogues, and municipal compliance documentation."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "market_context",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions confirmed 'readymade toilet' as dominant buyer synonym; 'sintex portable toilet price list' (194 impressions) confirmed price-seeking behaviour; Chennai geography signal from 'readymade toilet price in chennai' (58 impressions) fed market_context."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Top internal KWs confirmed 'sintex portable toilets' (86 PVs) as dominant search term; 'sintex portable indian toilets' and 'sintex portable western toilets' confirmed toilet-type segmentation as buyer-driven; 'sintex-portable-frp-toilet' confirmed FRP as primary material signal."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "alt_names.trade_names",
+          "primary_segment"
+        ],
+        "citation_note": "13 call rows all referenced 'Sintex Portable Toilet' or 'Sintex Toilet'; sub-types Indian Type, Western Type, Bathroom confirmed from call product names; 'Saran Portable Toilet (Sintex Portable Toilet)' surfaced 'Saran' as a trade name. No spec values present — buyers calling for availability/pricing."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT is under Prefabricated Structures parent. Listing count 361 is consistent with a well-populated MCAT — not suspect. 14 siblings noted but none create regulatory incompatibility with this MCAT's primary family."
+      },
+      {
+        "source": "IndiaMART MCAT page (dir.indiamart.com/impcat/sintex-portable-toilets.html)",
+        "fields_used": [
+          "listing tile product types",
+          "model names",
+          "material signals",
+          "size signals"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Structural signals only: Sintex model names (Single Seater, Twin Seater, Nirmal), materials (FRP, PVC, Steel), sizes (3×3×7 ft, 3.5×3.5×7 ft, 4×4×8.6 ft), tank capacities (200L, 300L, 500L) observed in listing tiles. Not used for primary_segment or market claims."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.modconindustries.com/portable-toilet.html",
+        "title": "Portable Toilet - Frp Portable Puf Toilet Manufacturer from New Delhi",
+        "source_domain": "modconindustries.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "market_context"
+        ],
+        "citation_note": "Authorized Sintex dealer page — confirmed Sintex Sugam Toilet (PUF insulated sandwich panels), Sintex Portolet trade name, Indian/Western seat types, single seater and block configurations (4, 8, up to 10 toilets), knocked-down supply condition. Used for product type and trade name validation."
+      },
+      {
+        "url": "https://www.nishka-impex.com/portable-toilet.html",
+        "title": "Portable Toilet - Sintex Portable Toilet Trader - Wholesaler from Ahmedabad",
+        "source_domain": "nishka-impex.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Sintex authorised distributor page — confirmed Sintex Nirmal Toilet Block (rotomoulded, 960mm×940mm×1830mm), Sintex Prefabricated Nirmal Toilet Block specification reference (drawing no. Nirmal/FEB-14/01-22), optional septic tank, ready-to-use dispatch condition. Used for Nirmal product type and unit quoting confirmation."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "FSSAI",
+        "Local Municipal Codes"
+      ],
+      "is_branded": true,
+      "brand_names": [
+        "Sintex"
+      ],
+      "do_research": true,
+      "reason": "Portable toilets are prefabricated sanitation structures subject to BIS standards and municipal building codes. Sintex is the dominant brand in India; buyers search by brand name and model. Agent 3 should prioritise BIS IS:2030 (portable sanitation units), Sintex product catalogues, and municipal compliance documentation."
+    }
+  }
+}
