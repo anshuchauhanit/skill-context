@@ -1,0 +1,272 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation between toll booth sub-types (highway NHAI cabin vs parking cashier booth vs weighbridge cabin vs generic portable cabin). Buyers must confirm product type visually before reading any text — wrong form factor is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Wall material and cabin size are non-interchangeable shortlisting gates — an ACP-clad NHAI-compliant booth cannot substitute for a PUF-insulated booth on a highway project. Listings without these specs cannot be evaluated by contractor buyers."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every toll booth is custom-fabricated to client drawings; listed price is a budget entry point only. Indian contractor buyers are price-sensitive but final price is always negotiated per project scope — price comparison is only meaningful after spec equivalence is confirmed."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No recognised consumer-facing brands exist in this category — buyers search by fabrication capability, prior NHAI project experience, and installation support, not by manufacturer name.",
+      "reason": "Institutional and contractor buyers evaluate the seller's fabrication track record, NHAI project history, and ability to supply with installation — seller credentials are a qualification signal after spec and price shortlisting."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Toll booth canopy structures covering multiple lanes may be quoted per project or per sq ft, but these are distinct from the cabin unit and belong to a separate product category.",
+      "reason": "Unit is entirely implied — every toll booth cabin is a discrete structure sold per piece. No buyer ever questions whether a fabricated cabin is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Wall Material",
+        "reason": "Defines the product class (ACP vs PUF vs FRP vs MS vs GI) with non-interchangeable compliance and thermal performance implications for NHAI highway use, and carries the largest price delta across values in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Cabin Size",
+        "reason": "Directly determines fabrication cost and structural scale — single-lane vs double-lane configurations are size-determined and non-interchangeable across project requirements."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cabin Color",
+      "Cabin Shape",
+      "Cabin Size",
+      "Features",
+      "Flooring Type",
+      "No. of Windows",
+      "Power Supply",
+      "Usage Type",
+      "Wall Material",
+      "Window Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Insulation Type / Panel Thickness",
+        "why_important": "PUF panel thickness (40mm vs 60mm vs 80mm) is an NHAI compliance and thermal comfort signal that drives significant price variation — captured only as a binary checkbox in Features, not as a configurable spec with values.",
+        "source": "both",
+        "example_values": [
+          "40mm PUF",
+          "60mm PUF",
+          "80mm PUF",
+          "Non-Insulated"
+        ]
+      },
+      {
+        "spec_name": "Frame Material",
+        "why_important": "MS vs GI structural frame is a durability and corrosion-resistance differentiator for coastal and humid highway locations, and is not captured by Wall Material which covers cladding panels only.",
+        "source": "both",
+        "example_values": [
+          "MS (Mild Steel)",
+          "GI (Galvanised Iron)",
+          "Aluminium"
+        ]
+      },
+      {
+        "spec_name": "Number of Lanes",
+        "why_important": "Single vs double lane is an NHAI-specified configuration that determines cabin width, counter layout, and structural requirements — not reliably inferred from Cabin Size alone.",
+        "source": "both",
+        "example_values": [
+          "Single Lane",
+          "Double Lane",
+          "Multi Lane"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Defines the product class and compliance tier — sellers need material type to confirm fabrication capability and price accurately, as ACP, PUF, FRP, and MS carry fundamentally different cost structures and performance profiles.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "MS (Mild Steel)",
+          "FRP",
+          "GI Sheet",
+          "ACP Cladded",
+          "Stainless Steel"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Size (L x W)",
+        "reason": "Determines structural scale and fabrication cost — sellers need dimensions to confirm whether the requirement falls within their standard range or requires custom fabrication and to provide an accurate price.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Usage Type",
+        "why_important": "Highway toll, parking, and weighbridge applications have distinct structural and compliance requirements — sellers need this to confirm NHAI compliance capability and appropriate fitments before responding.",
+        "source": "both",
+        "example_values": [
+          "Highway Toll",
+          "Parking",
+          "Weighbridge",
+          "Entry Gate"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Highway Toll",
+          "Parking",
+          "Weighbridge",
+          "Entry Gate"
+        ]
+      },
+      {
+        "spec_name": "Power Supply",
+        "why_important": "Electrical fitment scope (no electrical, single phase, solar) materially affects fabrication cost and seller capability — sellers need this to price accurately and confirm they can supply the required electrical provisions.",
+        "source": "llm_knowledge",
+        "example_values": [
+          "No Electrical",
+          "Single Phase",
+          "Solar Power",
+          "Three Phase"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Material",
+      "option_value": "MS (Mild Steel)",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated highway toll booth cabin with MS mild steel painted exterior panels, rectangular form, sliding operator window, installed at a highway toll plaza, natural daylight, front-facing view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "FRP",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated highway toll booth cabin with smooth FRP fibre reinforced plastic moulded exterior panels in white or grey, rectangular form, sliding operator window, installed at a toll plaza, natural daylight, front-facing view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "GI Sheet",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated highway toll booth cabin with galvanised iron GI sheet exterior cladding, metallic finish, rectangular form, sliding operator window, installed at a toll plaza, natural daylight, front-facing view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "ACP Cladded",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated highway toll booth cabin with ACP aluminium composite panel cladding in dual-tone grey and white finish, smooth flat exterior surface, sliding operator window, installed at a highway toll plaza, natural daylight, front-facing view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Stainless Steel",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated highway toll booth cabin with stainless steel brushed exterior panels, clean metallic finish, rectangular form, sliding operator window, installed at a toll plaza, natural daylight, front-facing view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage Type",
+      "option_value": "Highway Toll",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated NHAI-style highway toll booth cabin installed at a multi-lane national highway toll plaza, ACP-clad exterior, sliding operator window with transaction counter, overhead canopy visible, vehicles in background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage Type",
+      "option_value": "Parking",
+      "id": "spec_7",
+      "prompt_for_generation": "Compact prefabricated parking cashier booth cabin installed at a parking lot entry barrier, small rectangular form approximately 4x4 ft, sliding window for ticket and payment exchange, parking lot with vehicles in background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage Type",
+      "option_value": "Weighbridge",
+      "id": "spec_8",
+      "prompt_for_generation": "Prefabricated weighbridge operator cabin installed adjacent to a truck weighbridge platform, larger rectangular form with multiple windows for visibility, industrial setting with weighbridge scale visible, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage Type",
+      "option_value": "Entry Gate",
+      "id": "spec_9",
+      "prompt_for_generation": "Prefabricated entry gate security booth cabin installed at a gated community or industrial estate entrance, compact rectangular form with sliding window, boom barrier visible in background, natural daylight, front-facing view, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
