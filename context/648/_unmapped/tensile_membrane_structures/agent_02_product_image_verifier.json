@@ -1,0 +1,1166 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "71005820",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Fabric Membrane Structure",
+      "description": "<p>Tensile fabric structures can be used in a variety of situations. They use less material than traditional structures and as a result, pvc membrane.</p>",
+      "specs": {
+        "raw": "Application:Commercial, Built Type:Modular, Color:White, Fabric Material:PVC Coated Fabric, Feature:Easily Assembled, Frame Material:Mild Steel, Heat Resistance:Yes, Pattern:Plain, Pole Material:Aluminum, Structure Type:Car Parking, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/YZ/UV/IG/SELLER-7563747/fabric-membrane-structure.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/fabric-membrane structure-10492876573.html",
+      "image_file": "71005820.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed conical tensile membrane structure with white PVC fabric over a steel frame at a toll plaza, fully identifiable as a tensile membrane structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title correctly identifies a fabric membrane structure but omits application, shape, and material grade."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm PVC coated fabric, mild steel frame, car parking structure type — consistent with tensile membrane structure MCAT."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a truncated generic statement about tensile fabric structures with no specific product attributes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PVC-coated fabric membrane structure on steel frame for car parking is a core product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Fabric Membrane Structure' only, missing shape, application, and material grade."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; good image and valid specs override thin title and description.",
+      "source_url": "https://www.indiamart.com/proddetail/fabric-membrane structure-10492876573.html"
+    },
+    {
+      "item_id": "135292425",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Modular Tensile Structure",
+      "description": "<p>With honest intentions to improve the standing we have earned in this arena, we are offering a distinct collection of <b>Modular Tensile Structure.</b></p>",
+      "specs": {
+        "raw": "Application:Hospital, Built Type:Modular, Country Of Origin:Made In India, Fabric Material:PVC Coated Fabric, Fabric Thickness:900 gsm, Frame Material:Mild Steel, Installation Service:Yes, Is It Waterproof:Waterproof, Material:PVC, Pattern:Plain, Shape:Conical, Structure Type:Pool Cover, UV Protection:No, Waterproof:Yes"
+      },
+      "image_url": "https://5.imimg.com/data5/MJ/FN/AT/SELLER-71398574/area-covering-tensile.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/modular-tensile structure-20618394791.html",
+      "image_file": "135292425.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows multiple colourful conical tensile membrane structures on steel columns at a school/recreational facility, clearly identifiable as tensile membrane structures."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly identifies a modular tensile structure, though it lacks fabric material, shape, or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide PVC coated fabric at 900 gsm, mild steel frame, conical shape, pool cover structure type — comprehensive tensile membrane structure attributes."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic marketing boilerplate with no specific product attributes for the tensile structure."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PVC-coated modular conical tensile structure on mild steel frame is a core product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Modular Tensile Structure",
+        "reason": "Title and specs explicitly describe a 'Modular Tensile Structure' which is an exact sibling MCAT name in the taxonomy."
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label overridden from bad to good; good image, strong specs, no contradiction, valid category — thin description alone does not disqualify.",
+      "source_url": "https://www.indiamart.com/proddetail/modular-tensile structure-20618394791.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "72889177",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Tensile Walkway Structure",
+      "description": "A <b>Tensile Walkway Structure</b> is a type of architectural design that uses <b>tensile fabric or membrane</b> materials to create lightweight, durable, and aesthetically striking walkways or passageways. These structures are supported by a framework of cables, posts, or other tensioned elements that hold the fabric in place, allowing it to span large distances with minimal support. Tensile structures are known for their modern, sleek appearance and their ability to combine functionality with artistic expression.",
+      "specs": {
+        "raw": "Built Type:Panel Build, Color:White, Free Standing:Yes, Is It Waterproof:Waterproof, Material:Tensile, Pole Material:Aluminum, Shape:Dome, Transparency:8%"
+      },
+      "image_url": "http://4.imimg.com/data4/VD/QL/MY-24266163/walkway-covering-structure.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/tensile-walkway structure-10816715597.html",
+      "image_file": "72889177.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a barrel vault tensile membrane walkway canopy with white PVC fabric over arched steel frames, under installation at an institutional building."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names a tensile walkway structure, identifying both product type and application."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm tensile material, aluminum poles, waterproof — consistent with tensile membrane structure; 'Dome' shape is inconsistent with the barrel vault shown in image."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description accurately explains tensile walkway structure using fabric membrane and tensioned cable/post framework."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Tensile walkway structure with PVC membrane and aluminum frame is a valid tensile membrane structure product type."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a barrel vault tunnel-form walkway canopy but specs state 'Shape: Dome', which is a different structural form."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a barrel vault tunnel-form walkway canopy but specs state Shape: Dome, which is a different structural form."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad due to photo_vs_specs shape contradiction.",
+      "source_url": "https://www.indiamart.com/proddetail/tensile-walkway structure-10816715597.html"
+    },
+    {
+      "item_id": "236312527",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Tensile Membrane Structures",
+      "description": "Ferrari 900 GSM fabric with Stracture.<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />.",
+      "specs": {
+        "raw": "Application:School, Built Type:Panel Build, Country of Origin:Made In India, Fabric Finish:Plain, Fabric Material:PVC Coated Fabric, Fabric Thickness:800 gsm, Frame Finishing:Plain, Frame Material:MS With Paint, Ground Clearance:As Per Requirment, Is It Waterproof:Yes, Material:PVC, Sail Finishing:Plain, Shape:Dome, Structure Type:Canopy, Surface Treatment:Paint Coated"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2021/10/BR/WL/AE/33486089/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/tensile-membrane structures-2850171352648.html",
+      "image_file": "236312527.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large circular umbrella-form tensile membrane structure with white PVC fabric over radial steel frame in a park/resort setting, clearly identifiable as a tensile membrane structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names the MCAT category but provides no differentiating attributes such as shape, application, or fabric grade."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide fabric material (PVC coated, 800 gsm), frame material (MS with paint), shape (dome/canopy), and waterproofing — comprehensive for a tensile membrane structure."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a near-empty fragment mentioning Ferrari fabric brand and structure, providing no meaningful product information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PVC-coated tensile membrane canopy structure on MS frame is a core product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Specs state Fabric Thickness 800 gsm but description mentions Ferrari 900 GSM fabric, creating a conflicting GSM value for the same product."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs state Fabric Thickness 800 gsm but description states Ferrari 900 GSM fabric, conflicting GSM values for the same product."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Tensile Membrane Structures' — the MCAT category name only — missing shape, application, and material grade."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad due to specs_vs_description GSM contradiction.",
+      "source_url": "https://www.indiamart.com/proddetail/tensile-membrane structures-2850171352648.html"
+    },
+    {
+      "item_id": "298995123",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Architectural Tensioned Membrane Structure",
+      "description": "A tensioned membrane structure in architecture refers to a lightweight, flexible building envelope or roof system where a fabric membrane is stretched and held under tension by a supporting structure, such as cables or a frame. These structures can span large distances, are often used for roofs and canopies, and offer a unique aesthetic and functional",
+      "specs": {
+        "raw": "Application:School, Country of Origin:Made in India, Coverage Area:10000 sq ft, Fabric Material:PVDF Coated Fabric, Frame Material:MS With Paint, Material:Tensile Fabric, Shape:Conical, Structure Type:Stadium Roof"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/2/582581520/VW/SB/ZF/36732731/architectural-tensioned-membrane-structure.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/architectural-tensioned membrane structure-2856439612530.html",
+      "image_file": "298995123.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large barrel vault tensile membrane structure covering a rooftop restaurant with white PVC fabric over steel truss arches, clearly identifiable as a tensile membrane structure in a hospitality application."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly identifies an architectural tensioned membrane structure, conveying the engineered/architectural nature of the product."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm PVDF coated fabric, MS frame, 10000 sq ft coverage — valid tensile membrane structure attributes, though shape and structure type differ from the barrel vault restaurant shown in image."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description accurately describes tensioned membrane structures as lightweight fabric systems held under tension by cables or frame."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PVDF-coated tensile membrane structure on MS frame is a valid product type for this MCAT regardless of application variation."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a barrel vault tensile canopy over a rooftop restaurant but specs state Shape: Conical and Structure Type: Stadium Roof, which are different structural forms and applications."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs list Application: School and Structure Type: Stadium Roof simultaneously, which are contradictory application contexts."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows barrel vault restaurant canopy but specs state Shape: Conical and Structure Type: Stadium Roof."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs simultaneously list Application: School and Structure Type: Stadium Roof, which are contradictory application contexts."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad due to photo_vs_specs shape contradiction and internal specs contradiction.",
+      "source_url": "https://www.indiamart.com/proddetail/architectural-tensioned membrane structure-2856439612530.html"
+    },
+    {
+      "item_id": "327732814",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Modular PVC Tensile Membrane Structure",
+      "description": "Product Description\n<p>A <b>Modular PVC Tensile Membrane Structure</b> is an innovative, lightweight, and aesthetically appealing architectural solution designed for creating durable covered spaces. Manufactured using high-quality PVC-coated tensile fabric and supported by robust steel or aluminum frameworks, these structures offer excellent weather protection while delivering a modern and elegant appearance.</p>\n<p>The modular design allows for easy customization, expansion, relocation, and installation, making it suitable for both temporary and permanent applications. The PVC tensile membrane is engineered to withstand harsh environmental conditions, including intense sunlight, heavy rainfall, and wind loads, while maintaining its structural integrity and visual appeal.</p>\n<p>These structures are widely used in commercial, industrial, residential, recreational, and public infrastructure projects due to their cost-effectiveness, flexibility, and low maintenance requirements.</p>\nKey Features \n<ul>\n<li> High-strength PVC-coated tensile membrane fabric </li>\n<li> Modular and customizable design configurations </li>\n<li> UV-resistant and weatherproof construction </li>\n<li> Lightweight yet highly durable structure </li>\n<li> Corrosion-resistant steel or aluminum framework </li>\n<li> Elegant and modern architectural appearance </li>\n<li> Easy installation, dismantling, and relocation </li>\n<li> Low maintenance and long operational life </li>\n<li> Excellent resistance to fading, tearing, and moisture </li>\n<li> Available in various shapes, sizes, and colors </li>\n</ul>\nApplications \n<ul>\n<li> Walkway and Entrance Covers </li>\n<li> Car Parking Shades </li>\n<li> Commercial Complexes </li>\n<li> Shopping Malls </li>\n<li> Hotels and Resorts </li>\n<li> Sports Facilities </li>\n<li> Outdoor Cafeterias and Food Courts </li>\n<li> Exhibition and Event Spaces </li>\n<li> Educational Institutions </li>\n<li> Industrial and Warehouse Areas </li>\n<li> Bus Stops and Public Waiting Areas </li>\n<li> Residential Landscaping Projects</li>\n<li>Benefits \n<ul>\n<li> Provides effective protection from sun, rain, and dust </li>\n<li> Enhances the aesthetic value of outdoor spaces </li>\n<li> Faster installation compared to conventional structures </li>\n<li> Flexible and expandable modular design </li>\n<li> Cost-effective roofing solution </li>\n<li> Energy-efficient by reducing heat buildup </li>\n<li> Long-lasting performance with minimal upkeep </li>\n<li> Suitable for a wide range of commercial and residential applications</li>\n</ul>\n</li>\n</ul>",
+      "specs": {
+        "raw": "Application:Stadium, Coverage Area:100 sq ft, Fabric Material:HDPE Fabric, Frame Material:Aluminium, Shape:Conical, Structure Type:Terrace Cover"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/5/611872931/IS/PU/SC/44188170/modular-pvc-tensile-membrane-structure.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/modular-pvc tensile membrane structure-2859313381630.html",
+      "image_file": "327732814.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows only the bare steel frame skeleton of a tensile structure under construction with no membrane fabric installed, making the product identity partially visible but key component (membrane) absent."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title specifies PVC material, modular construction type, and tensile membrane structure — three buyer-relevant attributes in one title."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm HDPE fabric, aluminium frame, conical shape for terrace cover — valid tensile membrane structure attributes."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description comprehensively covers PVC tensile membrane structure features, applications, and benefits with specific technical attributes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Modular tensile membrane structure with fabric and aluminum frame is a valid product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title specifies PVC as the fabric material but specs list Fabric Material as HDPE Fabric, which are different materials."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title states 'PVC Tensile Membrane Structure' but specs list Fabric Material as HDPE Fabric — PVC and HDPE are different materials."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the bare steel frame skeleton with no membrane fabric installed; the defining product component (tensile membrane) is absent from the photo."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad due to title_vs_specs material contradiction and thin image showing only bare frame.",
+      "source_url": "https://www.indiamart.com/proddetail/modular-pvc tensile membrane structure-2859313381630.html"
+    },
+    {
+      "item_id": "137757898",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Membrane Roof Structure",
+      "description": "<p><b>Membrane Roof</b> is a type of roofing system for buildings We design and manufacture all type of permanent and temporary tensile structures since 2009 The tensile structure is the basic construction of elements that are carried only via tension without any bending or compression. The most common tensile structures in Delhi india are available on thin-shell structures.</p>",
+      "specs": {
+        "raw": "Application:Stadium, Brand:New Arts, Built Type:Modular, Color:White, Country Of Origin:Made In India, Coverage Area:5000 sq ft, Dimensions:AS PER SITE, Fabric GSM:900 GSM, Fabric Material:PVC Coated, Fabric Thickness:900 gsm, Frame Material:MS STRUCTURE, Height:8-10 Feet, Installation Service:Yes, Is It Waterproof:Waterproof, Material:PVC, Pole Material:Aluminum, Shape:Dome, Structure Type:Tensile Structure, Usage:Stadium, Usage/Application:Kiosk, UV Protection:Yes"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/5/608763004/FY/TO/HK/7563747/membrane-roof-structure.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/membrane-roof structure-20864942030.html",
+      "image_file": "137757898.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image is a CGI render showing a large multi-cone tensile membrane canopy structure over an Indian Oil petrol station, clearly identifiable as a tensile membrane structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title identifies a membrane roof structure but lacks shape, application, fabric material, or structural form specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide PVC coated fabric at 900 gsm, MS frame, 5000 sq ft coverage, modular build — comprehensive tensile membrane structure attributes."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description correctly describes tensile membrane roof structures and their construction principles, though it includes a location reference to Delhi."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PVC-coated tensile membrane roof structure on MS frame is a valid product type for this MCAT regardless of application variation."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a tensile canopy over a petrol station but specs state Application: Stadium and Usage: Stadium, which is a different application context."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Delhi india' as a location reference and specs include Brand: New Arts (company name) with company logo visible in image watermark."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a tensile canopy over a petrol station but specs state Application: Stadium and Usage: Stadium."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Membrane Roof Structure' only, missing shape, fabric grade, and application."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Delhi india' location reference; specs include Brand: New Arts company name; company logo watermark visible in image."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; photo_vs_specs contradiction and location/business leakage present.",
+      "source_url": "https://www.indiamart.com/proddetail/membrane-roof structure-20864942030.html"
+    },
+    {
+      "item_id": "175965059",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Tensile Membrane Structure",
+      "description": "The Tensile Membrane Structure is most used as a roof, as it can economically and attractively span large space. Tensile structures have long been used in tents, where the people ropes and tent poles provide pre-tension to the fabric and allow it to withstand the burden. Steady technological progress has grown the popularity of fabric-roofed structures.",
+      "specs": {
+        "raw": "Application:Commercial, Built Type:Modular, Country of Origin:Made in India, Coverage Area:2000 sq ft, Fabric Material:PVC Coated Fabric, Fabric Thickness:800 gsm, Frame Material:Mild Steel, I deal in:New only, Installation Service:Yes, Material:PVC, Service Location/City:Ahmedabad, Shape:Barrel Vault, Structure Type:Entrance Canopy, Surface Treatment:Color Coated, UV Protection:Yes, Waterproof:Yes"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/8/442750844/BE/SO/IH/126850639/img-20190410-114826-1.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/tensile-membrane structure-24685657873.html",
+      "image_file": "175965059.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white tensile membrane cover installed over industrial rooftop equipment (cooling tower/machinery), which is a valid application of tensile membrane structures."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title is the MCAT category name only, providing no shape, application, fabric grade, or structural form information."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide PVC coated fabric at 800 gsm, mild steel frame, barrel vault shape, 2000 sq ft coverage — comprehensive tensile membrane structure attributes."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description accurately describes tensile membrane structures and their pre-tensioned fabric principle."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PVC-coated tensile membrane structure on mild steel frame is a valid product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a dome-shaped tensile cover over industrial rooftop equipment but specs state Shape: Barrel Vault and Structure Type: Entrance Canopy."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City: Ahmedabad' which is a city/location reference embedded in the spec fields."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows dome-shaped industrial equipment cover but specs state Shape: Barrel Vault and Structure Type: Entrance Canopy."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Tensile Membrane Structure' — the MCAT category name only — missing all differentiating attributes."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City: Ahmedabad' — a city name embedded in the spec fields."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; photo_vs_specs shape contradiction and location leakage in specs.",
+      "source_url": "https://www.indiamart.com/proddetail/tensile-membrane structure-24685657873.html"
+    },
+    {
+      "item_id": "236768747",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Tensaile membrane structureTensaile baik parking in society",
+      "description": "The car parking shades that are made using tensile fabric structures are quite translucent and allow the passage of light and air, making the space lively.",
+      "specs": {
+        "raw": "Country of Origin:Made in India, Fire Proof:Yes, Free Standing:Yes, Is It Waterproof:Waterproof, Material:Tensile Fabric, Shape:Baik parking, Shrink Resistance:Yes, Structure Type:Car Parking, Usage/Application:Tensaile fabric"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2023/2/BU/HH/RM/96467898/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/tensaile-membrane structuretensaile baik parking in society-2850216974688.html",
+      "image_file": "236768747.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white tensile membrane canopy covering a motorcycle parking area in a residential society, clearly identifiable as a tensile membrane shade structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title contains typos ('Tensaile', 'baik'), concatenated text without spacing, and informal language but does identify a tensile membrane parking structure."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm tensile fabric material and car parking structure type but contain informal/typo values ('Baik parking', 'Tensaile fabric') and lack fabric grade, GSM, and frame material."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description accurately describes tensile fabric car parking shades and their translucency properties."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Tensile fabric membrane parking shade structure is a valid product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title contains typos ('Tensaile', 'baik'), concatenated text without spacing ('structureTensaile'), and informal language making it poorly formatted and thin."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain informal/typo values ('Shape: Baik parking', 'Usage/Application: Tensaile fabric') and lack key attributes including fabric GSM and frame material."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; title and specs contain typos and informal values; no contradiction but quality is thin throughout.",
+      "source_url": "https://www.indiamart.com/proddetail/tensaile-membrane structuretensaile baik parking in society-2850216974688.html"
+    },
+    {
+      "item_id": "250149357",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Car Parking Shed Fabrication Service",
+      "description": "Fabrication is a critical process of designing and constructing a parking shed from scratch. It involves cutting, bending, welding, and assembling various materials to form the desired shape and design. The quality of fabrication determines the strength, durability, and functionality of the parking shed.",
+      "specs": {
+        "raw": "Car Capacity:customize, Frame Material:MS Powder Coated, Is It Waterproof:Waterproof, Payment Mode:Online And Offline, Product Material:Tensile Fabric And MS, Roof Material:Tensile Fabric, Service Location:Maharashtra, Service Mode:Offline, Shape:Curved"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/6/317118168/SH/JA/KY/28482878/car-parking-tensile-structure-1000x1000.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/car-parking shed fabrication service-2851555035688.html",
+      "image_file": "250149357.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white tensile membrane canopy covering a car and motorcycle parking area, clearly identifiable as a tensile membrane parking shade structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title explicitly describes a 'Fabrication Service' rather than a physical tensile membrane structure product, indicating a service listing in a product MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs describe tensile fabric and MS frame attributes consistent with tensile membrane structures, though 'Service Location' and 'Service Mode' fields confirm this is a service listing."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description explains the fabrication process for a tensile parking shed, confirming the underlying product is a tensile membrane structure."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Title explicitly describes a fabrication service rather than a physical tensile membrane structure product; service listings do not belong in this product MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location: Maharashtra' which is a state/location reference embedded in the spec fields."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly names 'Car Parking Shed Fabrication Service' — a service offering — not a physical tensile membrane structure product."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location: Maharashtra' — a state/location reference embedded in spec fields."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; service listing in a product MCAT — category.valid: false due to service identity mismatch.",
+      "source_url": "https://www.indiamart.com/proddetail/car-parking shed fabrication service-2851555035688.html"
+    }
+  ],
+  "generated_bad_examples": [
+    {
+      "generated": true,
+      "generated_for_problem_codes": [
+        "P15"
+      ],
+      "item_id": "GENERATED_P15",
+      "pre_label": null,
+      "verified_label": "bad",
+      "override": true,
+      "title": "PVC Tensile Membrane Car Parking Structure",
+      "description": "We offer premium PVC coated tensile membrane car parking structures. For enquiries call 9876543210 or email sales@tensilestructures.com. Contact Mr. Ramesh Sharma for site visits. Our structures use 800 GSM PVC coated fabric on mild steel frames.",
+      "specs": {},
+      "image_url": null,
+      "product_page_url": null,
+      "image_file": null,
+      "image_status": "generated",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "No image available."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly identifies a PVC tensile membrane car parking structure with material and application."
+        },
+        "specs": {
+          "category_fit": null,
+          "quality": "thin",
+          "reason": "No specs provided in this generated example."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description contains a phone number, email address, and personal name embedded alongside product information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PVC tensile membrane car parking structure is a core product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains phone number '9876543210', email 'sales@tensilestructures.com', and personal name 'Mr. Ramesh Sharma'."
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains phone number '9876543210', email address 'sales@tensilestructures.com', and personal name 'Mr. Ramesh Sharma'."
+        }
+      ],
+      "verification_note": "Generated illustrative example for P15 (PII Present) — no real verified product in this batch demonstrated PII in description or title."
+    }
+  ],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show complete, installed tensile membrane structures photographed from an exterior angle in natural daylight, with the full fabric membrane and supporting steel frame both visible. Structures appear in real-world installation contexts such as toll plazas, parking areas, and recreational facilities, allowing buyers to assess scale, structural form, and fabric quality. White or cream PVC fabric stretched over painted steel columns is the dominant visual signature.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Tensile membrane structures are large architectural installations where the product's value is communicated through its visual form, shape, and scale — no meaningful specification text is printed on or readable from the fabric surface.",
+      "No fabric grade, GSM, or dimension text is visible or extractable from product images; all technical data must come from title and specs fields.",
+      "OCR applied to these images would extract only incidental environmental text (road signage, watermarks, brand logos on adjacent structures) rather than product-relevant information."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good images show complete installed tensile membrane structures in real-world outdoor contexts with full fabric membrane and steel frame visible.",
+    "product_identity": [
+      "White or cream PVC fabric membrane stretched taut over a steel frame in conical, barrel vault, or umbrella form",
+      "Steel or aluminium columns/masts visible as structural supports with fabric anchored at connection points"
+    ],
+    "acceptable_scenes": [
+      "Outdoor installation at parking areas, toll plazas, or institutional facilities in natural daylight",
+      "Aerial or ground-level exterior view showing the complete structure span and fabric coverage"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "71005820",
+        "reason": "Image shows a completed conical tensile membrane structure with white PVC fabric over a steel frame at a toll plaza, fully identifiable as a tensile membrane structure.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin images show the steel frame skeleton of a tensile structure under construction without the membrane fabric installed.",
+    "thinness_signals": [
+      "Membrane fabric absent — only bare steel frame visible, preventing buyers from assessing fabric quality, colour, or form",
+      "Under-construction site context with workers and construction debris obscuring the final product appearance"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "327732814",
+        "reason": "Image shows only the bare steel frame skeleton of a tensile structure under construction with no membrane fabric installed, making the product identity partially visible but key component (membrane) absent."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "No irrelevant photos identified — all verified bad products show tensile membrane structures or related construction contexts that are category-appropriate.",
+    "failure_classes": []
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name the fabric material, construction type, and structural form alongside the product category name.",
+    "strong_positive_signals": [
+      "Fabric material specified (PVC, PVDF, PTFE, HDPE) in the title",
+      "Construction type or structural form named (Modular, Conical, Barrel Vault, Hypar)"
+    ],
+    "structural_patterns": [
+      "[Material] [Construction Type] Tensile Membrane Structure",
+      "[Shape/Form] Tensile [Fabric] Structure",
+      "Tensile [Application] Structure"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "327732814",
+          "title": "Modular PVC Tensile Membrane Structure",
+          "reason": "Specifies PVC material, modular construction type, and tensile membrane structure — three buyer-relevant attributes that differentiate the product within the MCAT."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "71005820",
+          "title": "Fabric Membrane Structure",
+          "reason": "Correctly identifies the product type but lacks material grade, shape, and application — minimal but not misleading."
+        },
+        {
+          "item_id": "135292425",
+          "title": "Modular Tensile Structure",
+          "reason": "Names the construction type (modular) and product category but omits fabric material and shape specifics."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles use only the MCAT category name or contain typos and informal language without any differentiating product attributes.",
+    "thinness_signals": [
+      "Title is identical or near-identical to the MCAT category name with no additional attributes (shape, material, application)",
+      "Title contains typos, concatenated text, or informal language that reduces searchability and buyer confidence"
+    ],
+    "examples": [
+      {
+        "item_id": "175965059",
+        "title": "Tensile Membrane Structure",
+        "reason": "Title is the MCAT category name only with no shape, fabric grade, or application information."
+      },
+      {
+        "item_id": "236312527",
+        "title": "Tensile Membrane Structures",
+        "reason": "Title is the MCAT category name (plural) only with no differentiating attributes."
+      },
+      {
+        "item_id": "137757898",
+        "title": "Membrane Roof Structure",
+        "reason": "Generic descriptor missing shape, fabric material, and application specifics."
+      },
+      {
+        "item_id": "236768747",
+        "title": "Tensaile membrane structureTensaile baik parking in society",
+        "reason": "Contains typos ('Tensaile', 'baik'), concatenated text without spacing, and informal language."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles contain the word 'Service' or explicitly describe a fabrication/installation service rather than a physical product.",
+    "failure_classes": [
+      {
+        "class": "service_listing",
+        "signal": "Title contains 'Service', 'Fabrication Service', or 'Installation Service' — indicating a service offering rather than a physical tensile membrane structure product.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "250149357",
+            "title": "Car Parking Shed Fabrication Service",
+            "reason": "Title explicitly names a fabrication service, not a physical tensile membrane structure product.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "material_contradiction",
+        "signal": "Title specifies one fabric material (e.g., PVC) while specs explicitly state a different material (e.g., HDPE) — creating a misleading material claim.",
+        "failure_mode": "misleading",
+        "examples": [
+          {
+            "item_id": "327732814",
+            "title": "Modular PVC Tensile Membrane Structure",
+            "reason": "Title claims PVC fabric but specs list Fabric Material as HDPE Fabric — active material contradiction.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily service listings that describe fabrication or installation services rather than physical tensile membrane structure products.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "fabrication_or_installation_service",
+        "signal": "Title or description explicitly names a fabrication, installation, or construction service for tensile structures rather than offering a physical product.",
+        "examples": [
+          {
+            "item_id": "250149357",
+            "title": "Car Parking Shed Fabrication Service",
+            "reason": "Title explicitly describes a fabrication service; specs include Service Location and Service Mode fields confirming service nature.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Modular Tensile Structure",
+        "signal": "Title and specs explicitly use the term 'Modular Tensile Structure' matching the exact sibling MCAT name, and the product is specifically a modular conical form rather than a custom-engineered bespoke tensile membrane structure.",
+        "examples": [
+          {
+            "item_id": "135292425",
+            "title": "Modular Tensile Structure",
+            "reason": "Title is an exact match for the sibling MCAT 'Modular Tensile Structure'; specs confirm modular built type with conical PVC structure."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from base64-encoded files."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names drawn only from confirmed taxonomy siblings list — 'Modular Tensile Structure' confirmed present; correct_mcat_suggestion set to null where no sibling match found."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (PVC-coated polyester tensile membrane structure for car parking and commercial shade canopy) and mcat_vagueness_signal (suspected_vague: false) used to ground all category belonging decisions; Path A applied throughout."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
