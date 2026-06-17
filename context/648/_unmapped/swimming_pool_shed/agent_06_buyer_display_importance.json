@@ -1,0 +1,418 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Hotel/resort procurement manager or residential complex facilities manager commissioning a custom pool enclosure.
+
+**Journey:**
+1. **First scan (listing tile):** Image — is this the right structure type and aesthetic? Tensile vs polycarbonate vs glass? Open-sided vs enclosed? Dome vs flat vs arch? Visual sub-type variation is extreme. Wrong structure type = immediate skip.
+2. **Opens listing:** Structure type (cover type) and roofing material — defines what they're actually getting. Then frame material for durability/corrosion resistance (poolside = high humidity).
+3. **Shortlisting confirmation:** Price per sq ft — budget sanity check. This is a custom project; they need a ballpark before calling.
+4. **Unit check:** Per sq ft must be shown — price cannot be compared without it. Per sq ft vs per project creates real confusion.
+5. **Company:** Seller track record, portfolio of completed pool enclosures, installation capability. Not brand-driven but company credibility matters for a site-installed custom structure.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — extreme visual variation across structure types, shapes, materials. Image IS the product preview.
+- **Specification:** High — structure type, roofing material, frame material are non-interchangeable. Buyers cannot substitute one for another.
+- **Price:** Medium — custom project, per sq ft rate is a budget entry point, not a final price. India price sensitivity applies but spec must match first.
+- **Unit:** High — per sq ft is non-obvious for a structure; per sq ft vs per project creates real price comparison confusion.
+- **Company:** Medium — installation track record and portfolio matter; no dominant brand names.
+
+---
+
+## Step 3 — Decision Questions Applied
+
+**Cross-dimension consistency checks:**
+1. Buyers arrive knowing their structure type preference (tensile vs polycarbonate) and compare prices within that tier → `price_display_type = "spec-driven price"` ✓ (spec tier drives price significantly — polycarbonate vs glass vs tensile = very different price bands)
+2. Unit High → price must be at least Medium ✓
+3. Not project-based price (per sq ft is the dominant unit) → unit show: true ✓
+4. Specification show: true → show_on_listing: true ✓
+
+**Brand check:**
+- Taxonomy siblings scan: no branded sub-categories visible (no "Alucobond Pool Shed" equivalent)
+- Indian market: no dominant consumer-recognised brand names for pool sheds; market is fragmented across regional fabricators
+- → `brand_important: no`
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Visual sub-type variation is extreme — tensile fabric dome vs polycarbonate arch vs glass enclosure vs flat roof are visually and functionally distinct products. Buyers use the image to identify structure type and aesthetic fit before reading any text; wrong type is an immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Structure type, roofing material, and frame material are non-interchangeable — a buyer specifying polycarbonate cannot substitute tensile fabric. These specs are the primary shortlisting gate for a custom-fabricated, site-installed structure."
+  },
+  {
+    "rank": 3,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Complex retractable systems for large commercial installations may be quoted per project; per sq ft is dominant for standard tensile and polycarbonate structures.",
+    "reason": "Price cannot be compared without unit — per sq ft vs per project creates real confusion for a custom-dimensioned structure. Unit must be shown alongside price to enable any meaningful comparison."
+  },
+  {
+    "rank": 4,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Per sq ft rate varies substantially across structure types (tensile vs polycarbonate vs glass) — buyers use it as a budget entry point after confirming structure type match. Final price is always project-quoted after site measurement; listed rate is indicative."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "Market is fragmented across regional fabricators with no dominant consumer-recognised brand names; buyers search by structure type and material, not manufacturer name.",
+    "reason": "Installation track record, completed project portfolio, and site-installation capability are evaluated during vendor selection for a custom structure — company credibility matters but ranks last after visual and spec confirmation."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Application** (Public Pool / Club Pool / Residential Pool / Resort Pool / Hotel Pool): use-case tag describing where the product is installed, not what the product IS. Discard.
+- **UV Protection** (UPF 30 / UPF 50 / UPF 50+): consequence field — UV protection level follows from roofing material choice (polycarbonate grade, fabric coating). Deprioritise.
+- **Color**: single aesthetic preference, not a structural configurator. Deprioritise (relevant but not a price-driving configurator at the top level).
+
+**Remaining after elimination:** Cover Type, Frame Material, Roofing Material, Shape, Side Covering, Structure Type
+
+**Redundancy check:**
+- Structure Type and Cover Type are correlated — Structure Type (Polycarbonate Shed / Steel Shed / Space Frame / Tensile Structure) defines the material system; Cover Type (Retractable / Fixed / Partial / Walkway) defines the operational configuration. These are complementary, not redundant — both survive.
+- Shape (Dome / Flat / Barrel Vault / Arch / Conical) is partially correlated with Structure Type but adds independent information (a tensile structure can be dome or barrel vault). Keep.
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Roofing Material** (PPGI Sheet / Polycarbonate Sheet / Galvalume Sheet / Tensile Fabric / Glass Roof): Defines the fundamental product class. Non-interchangeable — a buyer specifying polycarbonate cannot use tensile fabric. Drives the largest price delta across all spec dimensions. **Rank 1.**
+
+**Cover Type** (Retractable Shed / Fixed Shed / Partial Cover / Walkway Cover): Defines operational configuration — retractable vs fixed is non-interchangeable and drives a very large price delta (retractable systems cost 3–5x fixed structures). Buyers cannot substitute one for the other. **Rank 2.**
+
+### Phase 3 — Missing Spec Audit
+
+**specs_in_seller_list (verbatim):** Application, Color, Cover Type, Frame Material, Roofing Material, Shape, Side Covering, Structure Type, UV Protection
+
+**Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+
+- **Span/Pool Size (Width × Length):** Agent 3 confirms custom-fabricated to pool dimensions. Sellers need pool dimensions to determine structural feasibility and quote accurately. Not present in spec list under any name. → **Include.**
+- **Fabric/Panel Grade or Coating Type:** Agent 3 identifies PVC-coated polyester vs PVDF-coated fabric as distinct commercial forms with different durability and price. Not captured by Roofing Material (which only says "Tensile Fabric" without grade). → **Include.**
+- **Wind Load / Structural Load Rating:** LLM world knowledge — Indian pool shed buyers in coastal/high-wind zones (Goa, Kerala, Mumbai) specify wind load compliance. Not present in spec list. → **Include.**
+
+**Cross-reference check against specs_in_seller_list:**
+- Span/Pool Size: not present under any name ✓
+- Fabric/Panel Grade: not present (Roofing Material names the material type, not the grade/coating) ✓
+- Wind Load: not present ✓
+
+All three pass the mutual exclusion check.
+
+**Importance threshold check:** All three would rank in the top 10 buyer-relevant specs for a custom-fabricated structural product. ✓
+
+### Phase 4 — Coverage Verdict
+
+3 missing specs → `significant_gaps`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Structure Type (Fully Enclosed / Roof Only / Retractable Roof / 3-Side Covered), Roofing Material (Polycarbonate Sheet / Glass / Tensile Fabric / Color Coated Sheet), Frame Material (Aluminum / Galvanized Steel / Stainless Steel / Powder Coated Steel)
+
+**Structure Type** (Fully Enclosed / Roof Only / Retractable Roof / 3-Side Covered): Defines the enclosure configuration — non-interchangeable. A seller supplying "Roof Only" structures cannot supply "Fully Enclosed." This is the primary routing spec — it determines which sellers can respond and at what price tier. **Rank 1.**
+
+**Roofing Material** (Polycarbonate Sheet / Glass / Tensile Fabric / Color Coated Sheet): Defines the material system — non-interchangeable and drives the largest price variation. A tensile fabric specialist cannot substitute polycarbonate. Sellers need this to confirm capability and quote accurately. **Rank 2.**
+
+### Phase 2 — Thumbnail Eligibility
+
+**Structure Type:** Each value (Fully Enclosed / Roof Only / Retractable Roof / 3-Side Covered) represents a visually distinct enclosure configuration — these are recognisably different structures. **Thumbnail eligible: true.** Options: ["Fully Enclosed", "Roof Only", "Retractable Roof", "3-Side Covered"]
+
+**Roofing Material:** Each value (Polycarbonate Sheet / Glass / Tensile Fabric / Color Coated Sheet) has a visually distinct appearance — polycarbonate is translucent, glass is clear/reflective, tensile fabric is membrane-like, colour coated sheet is opaque metal. **Thumbnail eligible: true.** Options: ["Polycarbonate Sheet", "Glass", "Tensile Fabric", "Color Coated Sheet"]
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps:**
+
+- **Pool Dimensions / Area (sq ft):** Agent 3 confirms custom-fabricated to pool dimensions; sellers quote per sq ft. Without pool size, sellers cannot provide an accurate quote or confirm structural feasibility. Not present in buyer spec list under any name. → **Include. would_be_rank: 1** — more important than Structure Type because without dimensions, no seller can respond with a price. Not thumbnail eligible (numeric/dimensional).
+
+- **Cover Type / Operational Mode** (Fixed / Retractable / Seasonal): Agent 3 identifies retractable as a distinct premium variant. The buyer spec "Retractable Roof" under Structure Type partially captures this, but the distinction between fixed and retractable is a primary cost driver that deserves its own spec. However — on semantic check, "Retractable Roof" IS present in Structure Type's top_values. This is already captured. → **Discard.**
+
+- **Installation Location / Site Type** (New Pool / Existing Pool / Rooftop Pool): LLM world knowledge — sellers need to know if the pool is at ground level, on a rooftop, or indoors, as this affects structural design and installation complexity. Not present in buyer spec list. → **Include. would_be_rank: 2** — affects seller's ability to confirm feasibility and quote. Not thumbnail eligible (abstract site condition).
+
+**Cross-reference check:**
+- Pool Dimensions: not present ✓
+- Installation Location: not present ✓
+
+**Coverage verdict:** 2 missing specs → `partial`
+
+**Image Upload Assessment:**
+Swimming pool sheds are custom-fabricated to specific pool dimensions and site conditions. Buyers frequently have an existing pool with specific surrounding architecture, access constraints, or aesthetic requirements that cannot be captured in text specs alone. A photo of the pool site (showing pool dimensions, surrounding structure, access points) allows sellers to assess structural feasibility, identify installation challenges, and provide an accurate quote — without it, sellers must ask multiple follow-up questions before quoting. → `image_upload_recommended: true`
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs:**
+- `top_rfq_specs` rank 1: Structure Type → ["Fully Enclosed", "Roof Only", "Retractable Roof", "3-Side Covered"] (4 prompts)
+- `top_rfq_specs` rank 2: Roofing Material → ["Polycarbonate Sheet", "Glass", "Tensile Fabric", "Color Coated Sheet"] (4 prompts)
+- `missing_important_specs`: Pool Dimensions has `would_be_rank: 1` but `thumbnail_eligible: false` → no prompts
+- `missing_important_specs`: Installation Location has `would_be_rank: 2` but `thumbnail_eligible: false` → no prompts
+
+Total: 8 prompts. All must represent primary_segment: tensile fabric or polycarbonate overhead enclosure structure over a swimming pool.
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — tensile fabric dome vs polycarbonate arch vs glass enclosure vs flat roof are visually and functionally distinct products. Buyers use the image to identify structure type and aesthetic fit before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Structure type, roofing material, and frame material are non-interchangeable — a buyer specifying polycarbonate cannot substitute tensile fabric. These specs are the primary shortlisting gate for a custom-fabricated, site-installed structure."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Complex retractable systems for large commercial installations may be quoted per project; per sq ft is dominant for standard tensile and polycarbonate structures.",
+      "reason": "Price cannot be compared without unit — per sq ft vs per project creates real confusion for a custom-dimensioned structure. Unit must be shown alongside price to enable any meaningful comparison."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq ft rate varies substantially across structure types — tensile vs polycarbonate vs glass represent very different price bands. Buyers use the listed rate as a budget entry point after confirming structure type match; final price is always project-quoted after site measurement."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Market is fragmented across regional fabricators with no dominant consumer-recognised brand names; buyers search by structure type and material, not manufacturer name.",
+      "reason": "Installation track record, completed project portfolio, and site-installation capability are evaluated during vendor selection for a custom structure — company credibility matters but ranks last after visual and spec confirmation."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Roofing Material",
+        "reason": "Defines the fundamental product class — polycarbonate vs tensile fabric vs glass vs metal sheet are non-interchangeable material systems with the largest price delta across all spec dimensions."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Cover Type",
+        "reason": "Retractable vs fixed vs partial cover is non-interchangeable and drives a very large price delta — retractable motorised systems cost substantially more than fixed structures of equivalent area."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Color",
+      "Cover Type",
+      "Frame Material",
+      "Roofing Material",
+      "Shape",
+      "Side Covering",
+      "Structure Type",
+      "UV Protection"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Pool Span / Covered Area",
+        "why_important": "Swimming pool sheds are custom-fabricated to pool dimensions — sellers need span width and length to assess structural feasibility, determine frame design, and provide an accurate per-sq-ft quote.",
+        "source": "Agent 3 vision_output",
+        "example_values": ["Up to 20 ft width", "20–40 ft width", "40–60 ft width", "Custom / above 60 ft"]
+      },
+      {
+        "spec_name": "Fabric / Panel Grade",
+        "why_important": "PVC-coated polyester vs PVDF-coated fabric vs twin-wall vs solid polycarbonate represent distinct durability tiers with significant price and lifespan differences — buyers and sellers need this to confirm product quality tier.",
+        "source": "Agent 3 vision_output",
+        "example_values": ["PVC-coated polyester", "PVDF-coated fabric", "Twin-wall polycarbonate", "Solid polycarbonate"]
+      },
+      {
+        "spec_name": "Wind Load / Structural Load Rating",
+        "why_important": "Coastal and high-wind zone buyers (Goa, Kerala, Mumbai) specify wind load compliance — sellers need this to confirm structural design adequacy and material selection for the installation site.",
+        "source": "LLM world knowledge",
+        "example_values": ["Up to 100 km/h", "Up to 150 km/h", "Up to 200 km/h", "As per IS 875 Part 3"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Type",
+        "reason": "Defines the enclosure configuration — fully enclosed vs roof only vs retractable are non-interchangeable and determine which sellers can respond and at what price tier.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Fully Enclosed", "Roof Only", "Retractable Roof", "3-Side Covered"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Roofing Material",
+        "reason": "Defines the material system — polycarbonate vs glass vs tensile fabric vs colour coated sheet are non-interchangeable and drive the largest price variation; sellers need this to confirm capability and quote accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Polycarbonate Sheet", "Glass", "Tensile Fabric", "Color Coated Sheet"]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Pool Dimensions / Covered Area",
+        "why_important": "Sellers cannot provide an accurate quote or confirm structural feasibility without knowing the pool size — this is the primary input for per-sq-ft pricing of a custom-fabricated structure.",
+        "source": "Agent 3 vision_output",
+        "example_values": ["Up to 500 sq ft", "500–1000 sq ft", "1000–2000 sq ft", "Above 2000 sq ft"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Installation Site Type",
+        "why_important": "Ground-level vs rooftop vs indoor pool installations require fundamentally different structural designs and load calculations — sellers need this to confirm feasibility and quote accurately.",
+        "source": "LLM world knowledge",
+        "example_values": ["Ground Level", "Rooftop / Terrace", "Indoor / Basement", "Elevated Deck"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Swimming pool sheds are custom-fabricated to specific pool dimensions and site conditions. Buyers frequently have an existing pool with specific surrounding architecture, access constraints, or aesthetic requirements that cannot be captured in text specs alone — a photo of the pool site allows sellers to assess structural feasibility, identify installation challenges, and provide an accurate quote without multiple follow-up exchanges."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Type",
+      "option_value": "Fully Enclosed",
+      "id": "spec_1",
+      "prompt_for_generation": "A fully enclosed swimming pool shed with polycarbonate or glass walls and roof completely surrounding a rectangular outdoor pool, aluminium frame structure, natural daylight filtering through translucent panels, clean architectural setting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Roof Only",
+      "id": "spec_2",
+      "prompt_for_generation": "A swimming pool overhead canopy structure with roof cover only and fully open sides over a rectangular outdoor pool, tensile fabric or polycarbonate roof on metal frame columns, open-air poolside visible, daytime setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Retractable Roof",
+      "id": "spec_3",
+      "prompt_for_generation": "A retractable roof swimming pool enclosure shown partially open with sliding panels retracted to one side over a rectangular pool, aluminium track system visible, motorised sliding mechanism, daytime outdoor setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "3-Side Covered",
+      "id": "spec_4",
+      "prompt_for_generation": "A swimming pool shed with roof and three enclosed sides, one side fully open, polycarbonate or tensile fabric panels on three sides and roof over a rectangular pool, metal frame structure, daytime outdoor setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roofing Material",
+      "option_value": "Polycarbonate Sheet",
+      "id": "spec_5",
+      "prompt_for_generation": "Close-up view of a swimming pool shed roof made from translucent twin-wall polycarbonate sheets on an aluminium frame, diffused natural light filtering through the panels, pool water visible below, clean architectural detail, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roofing Material",
+      "option_value": "Glass",
+      "id": "spec_6",
+      "prompt_for_generation": "A swimming pool enclosure with clear tempered glass roof panels on a slim aluminium frame, high transparency with pool and sky clearly visible through the glass, premium architectural appearance, daytime setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roofing Material",
+      "option_value": "Tensile Fabric",
+      "id": "spec_7",
+      "prompt_for_generation": "A swimming pool shed with a white PVC tensile fabric membrane roof stretched over a galvanised steel frame above a rectangular pool, smooth curved fabric surface, soft diffused light underneath, outdoor daytime setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roofing Material",
+      "option_value": "Color Coated Sheet",
+      "id": "spec_8",
+      "prompt_for_generation": "A swimming pool shed with an opaque colour-coated metal sheet roof in blue or grey on a steel frame structure over a rectangular pool, solid roof with no light transmission, utilitarian industrial appearance, outdoor daytime setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
