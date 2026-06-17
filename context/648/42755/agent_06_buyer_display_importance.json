@@ -1,0 +1,421 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Who is this buyer?** Facility manager, real estate developer, construction site manager, or government procurement officer buying a prefabricated guard post for a specific gate/entry point.
+
+**Journey:**
+1. **Image first** — Scans listing grid to confirm it's a security cabin (not an office cabin, toilet block, or container). Visual sub-type variation is significant: MS sheet vs PUF panel vs FRP vs police booth style. Size and finish are partially visible. Wrong product type = immediate skip.
+2. **Size + Material** — Opens listing to check dimensions (does it fit the gate footprint?) and construction material (PUF for insulation? MS for durability? FRP for coastal?). These are the primary shortlisting gates.
+3. **Price** — Indian B2B buyers are price-aggressive. After confirming size and material fit, price is compared across sellers. Per-piece pricing is standard; buyers compare directly.
+4. **Company** — Checks if seller is a manufacturer or trader, whether they offer pan-India delivery and installation. No dominant brand recall in this category — fragmented SME market.
+5. **Unit** — Per piece is universally implied for a discrete cabin. No buyer questions this.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is real and significant across material types and configurations.
+- **Specification:** High — size and material are non-negotiable shortlisting gates; wrong spec = product doesn't fit the site.
+- **Price:** Medium — significant for Indian buyers but only after size/material fit confirmed; final price often negotiated; per-piece comparison is straightforward once spec matches.
+- **Company:** Medium — manufacturer vs trader distinction matters for delivery, installation, and AMC; no brand dominance.
+- **Unit:** Low — per piece is universally implied; no buyer confusion possible.
+
+---
+
+## Step 3 — Decision Questions Per Dimension
+
+**Image:** High visual variation across sub-types (MS vs PUF vs FRP vs police booth). Buyers use image to identify product type and finish before reading text. ✓ High.
+
+**Specification:** Size must fit the physical gate footprint — non-negotiable. Material determines durability, insulation, and compliance for the deployment context. Buyers arrive with a known requirement and use specs to confirm fit. ✓ High.
+
+**Price:** Buyers arrive knowing their spec tier (size + material) and compare prices within it. This is commodity-style price comparison within a known tier → `price_display_type: "standard stable price"` (per-piece, within a known size/material tier). India price sensitivity applies. ✓ Medium (spec must match first, but price is a strong secondary signal).
+
+**Cross-dimension consistency check:**
+- Buyers arrive knowing their spec → `price_display_type` should NOT be `"spec-driven price"`. Correct: `"standard stable price"` within a known tier. ✓
+- Unit Low → price Medium: consistent (unit Low doesn't require price to be Low). ✓
+- No project-based price → unit show:false is still valid because per-piece is universally implied. ✓
+- Specification show:true → show_on_listing:true. ✓
+
+**Company:** Manufacturer vs trader matters for pan-India delivery, installation support, and AMC. No dominant brand with buyer recall — market is fragmented. ✓ Medium, brand_important: no.
+
+**Unit:** Per piece is the only conceivable answer for a discrete prefabricated cabin. No buyer ever questions this. ✓ Low / show: false.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "High visual variation across sub-types (MS sheet vs PUF panel vs FRP vs police booth style) and finish colours. Buyers scan images to confirm product type and visual fit before reading any text — wrong type or finish is an immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Size (L×W) must physically fit the gate footprint and material type determines durability, insulation, and suitability for the deployment context — both are non-negotiable shortlisting gates that buyers verify before any other consideration."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "standard stable price",
+    "reason": "Indian B2B buyers compare per-piece prices aggressively across sellers once size and material fit is confirmed; price is a strong secondary signal but final negotiation is common, especially for bulk or custom orders."
+  },
+  {
+    "rank": 4,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "Market is fragmented across hundreds of SME fabricators with no dominant brand that buyers search for by name — buyers evaluate manufacturer status, delivery reach, and installation/AMC capability rather than brand identity.",
+    "reason": "Buyers check whether the seller is a direct manufacturer (for better pricing and accountability) and whether pan-India delivery and installation support are available — relevant for post-sale dependency but not a primary shortlisting signal."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "Low",
+    "show": false,
+    "canonical_unit": "per piece",
+    "unit_note": "Per sq ft quoting exists for custom/large-format configurations but per piece is the dominant transactional unit; even in per-sq-ft scenarios, the total cabin is still a discrete deliverable and no buyer confusion arises from omitting unit display.",
+    "reason": "A prefabricated security cabin is a discrete, self-contained unit — per piece is the only conceivable answer and no buyer ever questions it."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Frame Material:** Single value only ("Mild Steel (MS)"). Hard eliminate — no differentiation possible.
+- **Application:** Use-case tag (Toll Booth, Guard Post, Ticket Counter, Watchman Post) — describes what the product is used FOR, not what it IS. Hard eliminate.
+- **Features:** Checklist of add-ons (LED Light, Fan, Work Desk, etc.) — these are optional accessories, not configurators that drive price independently. Soft eliminate — not a primary price-driving configurator.
+- **No. of Windows:** Consequence field — follows from Size (larger cabin = more windows). Soft eliminate.
+- **Flooring Material:** Consequence/secondary spec — follows from Built Type and budget tier; not an independent price driver at the configurator level. Soft eliminate.
+
+**Remaining after elimination:** Built Type, Insulation Material, Size (L×W)
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Size (L×W):** Defines the physical footprint of the cabin. Non-interchangeable — a 4×4 ft cabin cannot substitute for a 6×6 ft cabin at a gate with a specific space constraint. Largest single price driver (price scales directly with area). **Rank 1.**
+
+**Built Type (GI Sheet / PUF Panel / MS Sheet / ACP Panel / FRP):** Defines the wall panel material — non-interchangeable across durability, insulation, and coastal/industrial suitability requirements. Significant price delta between MS sheet (basic) and PUF panel (insulated) and FRP (premium/coastal). **Rank 2.**
+
+*Note: Insulation Material is correlated with Built Type (PUF panel = PUF insulation; GI/MS sheet = not insulated or glass wool). Built Type is the more fundamental spec — Insulation Material is a derivative.*
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list:**
+Application, Built Type, Features, Flooring Material, Frame Material, Insulation Material, No. of Windows, Size (L x W)
+
+**Step 3b/3c — Candidate gaps cross-referenced:**
+
+- **Height:** Agent 3 market_context references standard footprints but height is a key structural spec for security cabins (standard ~7 ft; taller for police booths). Not present in seller spec list by name or semantic equivalent. Important for buyers with overhead clearance constraints or specific ergonomic requirements. → **Include.**
+- **Roof Type:** Flat vs sloped/pitched roof affects water drainage and is a buyer-visible differentiator in some deployments. However, this is largely a consequence of the Built Type and Size combination — not an independent configurator. → **Exclude** (peripheral, implied by product type).
+- **Colour/Finish:** Buyers in residential/corporate deployments often specify colour to match site aesthetics. Not present in seller spec list. Relevant but typically resolved post-connection or via customisation discussion — not a primary shortlisting spec. → **Borderline; exclude** (preference resolved post-connection).
+- **Door Type (sliding vs hinged):** Mentioned in Agent 3 market_context as a customisation option. Not in seller spec list. Important for space-constrained deployments. → **Include** — sellers need this to confirm standard vs custom configuration.
+
+**Missing important specs:**
+
+1. **Height** — standard cabin height (typically 7–8 ft) determines ergonomic fit and clearance compliance; buyers with specific overhead constraints or government tender specs need this to confirm suitability. Source: LLM world knowledge. Example values: 7 ft, 7.5 ft, 8 ft, 9 ft.
+2. **Door Type** — sliding vs hinged door placement affects space usage at constrained gate entries; sellers need this to confirm whether standard or custom configuration applies. Source: both (Agent 3 vision_output references door/window placement as a customisation dimension; LLM world knowledge confirms it as a buyer decision point). Example values: Sliding Door, Hinged Door, Double Door, No Door (open front).
+
+**Coverage verdict:** 2 missing specs → **partial**
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Width, Length, Material
+
+- **Width** and **Length** together define the cabin footprint — they are the same dimension split into two fields. Functionally, they jointly communicate the size requirement. For ranking purposes, treat them as the size dimension — select the one that carries more routing information independently.
+- **Material** (MS / PUF Panel / GI / FRP / ACP / Steel) — directly routes the RFQ to sellers who fabricate in that material. Non-interchangeable. Sellers who only make MS cabins cannot supply FRP.
+
+**Rank 1: Material** — directly routes to sellers who can supply the specified construction type; a seller who only fabricates MS cabins cannot respond to an FRP requirement, making this the primary routing spec.
+
+**Rank 2: Width** — combined with Length (which buyers also fill), this communicates the footprint requirement; sellers need dimensions to confirm standard vs custom configuration and to price accurately.
+
+*(Length is equally important but Width is ranked 2 as the representative dimension spec — Length is captured in the same RFQ form and provides the complementary dimension.)*
+
+**Thumbnail eligibility:**
+- **Material:** MS, PUF Panel, GI, FRP, ACP, Steel — these are construction materials. Visual difference between an MS cabin and a PUF panel cabin is real (surface texture, panel joints visible) but subtle in a thumbnail. However, FRP has a distinctly different appearance (smooth moulded surface vs flat sheet panels). This is borderline — but the visual differences are meaningful enough for a buyer to distinguish material types from a well-composed image. **thumbnail_eligible: true.**
+- **Width:** Numeric/dimensional spec — no meaningful visual difference between a 4 ft wide and 6 ft wide cabin in a thumbnail. **thumbnail_eligible: false.**
+
+### Phase 2 — Missing Buyer Spec Audit
+
+Cross-referencing Agent 3 vision_output and LLM world knowledge:
+
+**Candidate: Size (combined L×W)** — Width and Length are already in the buyer spec list. Semantic equivalent present. ✗ Exclude.
+
+**Candidate: Application/Deployment Context** — Agent 3 identifies multiple buyer segments (residential gate, industrial gate, toll plaza, police booth). Sellers need to know the deployment context to recommend appropriate material, size, and features (e.g., police booth requires specific dimensions; toll plaza requires counter window). Not in buyer spec list. → **Include.** `would_be_rank: 1` — deployment context is more important than material alone because it determines the entire product configuration (size, material, features, compliance). `thumbnail_eligible: true` — each deployment context maps to a visually distinct cabin type (residential gate cabin vs toll booth vs police booth).
+
+**Candidate: Insulation Requirement** — buyers in hot/cold climates or with AC provision needs specify insulation. Not in buyer spec list. Important but typically derived from material choice (PUF = insulated). Borderline — exclude as it's largely implied by Material selection.
+
+**Candidate: Quantity** — relevant for bulk orders (security agencies, developers). Not a spec per se — handled by MOQ/quantity fields elsewhere. Exclude.
+
+**Missing important specs:**
+
+1. **Application** (Guard Post / Toll Booth / Police Booth / Ticket Counter) — deployment context determines the required size, material, features, and compliance configuration; sellers need this to confirm they supply the right product type and to price accurately. Source: both (Agent 3 vision_output lists primary_applications; LLM world knowledge confirms application drives product configuration). Example values: Guard Post, Toll Booth, Police Booth, Ticket Counter. `would_be_rank: 1`. `thumbnail_eligible: true`. `thumbnail_options: ["Guard Post", "Toll Booth", "Police Booth", "Ticket Counter"]`.
+
+**Coverage verdict:** 1 missing spec → **partial**
+
+### Phase 3 — Image Upload Assessment
+
+Security cabins are standard prefabricated products available in defined size/material combinations. Buyers specify dimensions and material — sellers can respond accurately from these text specs alone. No custom geometry or part-matching scenario applies to the standard product. Custom configurations are discussed post-connection.
+
+**image_upload_recommended: false**
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs` rank 1: Material (`thumbnail_eligible: true`, options: MS, PUF Panel, GI, FRP, ACP, Steel)
+- `missing_important_specs`: Application (`thumbnail_eligible: true`, `would_be_rank: 1`, options: Guard Post, Toll Booth, Police Booth, Ticket Counter)
+
+*Note: "MS" and "Steel" are semantically equivalent — MS (Mild Steel) is the specific grade of steel used. Generate one prompt for MS/Steel combined as "MS Steel" to avoid duplication. Total: 5 Material prompts + 4 Application prompts = 9 prompts.*
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types (MS sheet vs PUF panel vs FRP vs police booth style) and finish colours. Buyers scan images to confirm product type and visual fit before reading any text — wrong type or finish is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Size (L×W) must physically fit the gate footprint and material type determines durability, insulation, and suitability for the deployment context — both are non-negotiable shortlisting gates that buyers verify before any other consideration."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "standard stable price",
+      "reason": "Indian B2B buyers compare per-piece prices aggressively across sellers once size and material fit is confirmed; price is a strong secondary signal but final negotiation is common, especially for bulk or custom orders."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Market is fragmented across hundreds of SME fabricators with no dominant brand that buyers search for by name — buyers evaluate manufacturer status, delivery reach, and installation/AMC capability rather than brand identity.",
+      "reason": "Buyers check whether the seller is a direct manufacturer (for better pricing and accountability) and whether pan-India delivery and installation support are available — relevant for post-sale dependency but not a primary shortlisting signal."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Per sq ft quoting exists for custom or large-format configurations but per piece is the dominant transactional unit; even in per-sq-ft scenarios the total cabin is a discrete deliverable and no buyer confusion arises from omitting unit display.",
+      "reason": "A prefabricated security cabin is a discrete, self-contained unit — per piece is the only conceivable answer and no buyer ever questions it."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Size (L x W)",
+        "reason": "Cabin footprint is non-interchangeable — a 4×4 ft cabin cannot substitute for a 6×6 ft cabin at a constrained gate entry — and price scales directly with floor area, making this the single largest price driver."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Built Type",
+        "reason": "Wall panel material (GI Sheet / PUF Panel / MS Sheet / FRP) is non-interchangeable across durability, insulation, and coastal/industrial suitability requirements, with significant price delta between basic MS sheet and premium PUF or FRP variants."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Built Type",
+      "Features",
+      "Flooring Material",
+      "Frame Material",
+      "Insulation Material",
+      "No. of Windows",
+      "Size (L x W)"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Height",
+        "why_important": "Standard cabin height (7–9 ft) determines ergonomic fit and overhead clearance compliance; buyers with specific site constraints or government tender specs need this to confirm suitability before ordering.",
+        "source": "LLM world knowledge",
+        "example_values": ["7 ft", "7.5 ft", "8 ft", "9 ft"]
+      },
+      {
+        "spec_name": "Door Type",
+        "why_important": "Sliding vs hinged door placement affects usable space at constrained gate entries; sellers need this to confirm whether a standard configuration applies or a custom build is required.",
+        "source": "both",
+        "example_values": ["Sliding Door", "Hinged Door", "Double Door", "Open Front"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Construction material directly routes the RFQ to sellers who fabricate in that type — a seller who only makes MS cabins cannot supply an FRP requirement — making this the primary seller-routing spec.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["MS", "PUF Panel", "GI", "FRP", "ACP"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Width",
+        "reason": "Cabin width (combined with Length in the RFQ form) communicates the footprint requirement sellers need to confirm standard vs custom configuration and to price the unit accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Application",
+        "why_important": "Deployment context (guard post vs toll booth vs police booth vs ticket counter) determines the required size, material, features, and compliance configuration — sellers need this to confirm they supply the right product type and to price accurately.",
+        "source": "both",
+        "example_values": ["Guard Post", "Toll Booth", "Police Booth", "Ticket Counter"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Guard Post", "Toll Booth", "Police Booth", "Ticket Counter"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Material",
+      "option_value": "MS",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated security guard cabin made from mild steel sheet panels, flat corrugated MS surface visible, grey primer finish, single door and sliding window, placed at a gate entry on white background, front-facing view, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "PUF Panel",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated security guard cabin constructed with PUF sandwich panel walls, smooth flat panel surface with visible panel joints, white or cream finish, single door and sliding window, front-facing view on plain white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "GI",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated security guard cabin made from galvanised iron sheet panels, metallic silver-grey GI surface with ribbed texture, single door and sliding window, front-facing view on white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "FRP",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated security guard cabin made from fibre reinforced plastic (FRP), smooth moulded surface with rounded edges, light grey or off-white finish, single door and sliding window, front-facing view on white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "ACP",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated security guard cabin clad with aluminium composite panel (ACP) sheets, smooth flat surface with clean panel edges, silver or dark grey ACP finish, single door and sliding window, front-facing view on white background, studio lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Guard Post",
+      "id": "spec_6",
+      "prompt_for_generation": "Compact prefabricated security guard cabin installed at a residential gated community entrance, PUF panel or MS construction, approximately 6x6 ft footprint, single hinged door and sliding window, green or grey finish, natural daylight, gate and boundary wall visible in background.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Toll Booth",
+      "id": "spec_7",
+      "prompt_for_generation": "Prefabricated toll booth cabin installed on a highway toll plaza, elongated rectangular structure with large counter-height sliding window facing traffic lane, yellow and white finish, overhead canopy visible, daytime setting with road context.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Police Booth",
+      "id": "spec_8",
+      "prompt_for_generation": "Prefabricated police traffic booth cabin placed at a road intersection, blue and white government colour scheme, large windows on multiple sides for 360-degree visibility, official signage area on exterior, daytime urban street setting.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Ticket Counter",
+      "id": "spec_9",
+      "prompt_for_generation": "Prefabricated ticket counter cabin installed at a parking lot or event venue entrance, front-facing counter window with transaction shelf, compact footprint, white or grey finish, signage panel above window, daytime setting with parking area visible in background.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
