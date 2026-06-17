@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'Steel Buildings' is broadly correct but under-signals the dominant product type; Agent 3 market_context confirms PEBs hold 52.6% product share and all primary_keywords and technical_synonyms centre on 'Pre-Engineered Buildings / PEB structure', making 'Steel Buildings' a generic umbrella that dilutes buyer intent matching.",
+    "suggested_name": "Pre-Engineered Steel Buildings"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a multi-storey glass-and-steel curtain-wall commercial high-rise — a product entirely outside the primary_segment (single-storey clear-span industrial PEB warehouse/factory shed), actively misrepresenting the dominant buyer use-case.",
+      "The image depicts a conventional glazed commercial tower with no visible structural steel framing, portal frames, metal cladding, or any PEB-characteristic element, constituting a wrong-product signal that would mislead industrial buyers searching for warehouse or factory shed solutions."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a single-storey pre-engineered steel building (PEB) industrial warehouse: wide clear-span portal frame structure with tapered I-section primary steel columns and rafters, corrugated pre-coated metal roof sheeting in light grey or off-white, vertical metal wall cladding panels in matching colour, large roller-shutter entrance door on the front facade, set on a concrete apron, clean industrial surroundings, bright natural daylight, slight low-angle perspective to show roof profile and structural depth, pure white or light sky-blue background, no people, no text overlays, sharp product-focused composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
