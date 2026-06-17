@@ -1,0 +1,505 @@
+{
+  "mcat_description": {
+    "short": "A prefabricated, ventilated enclosure designed to isolate tobacco smokers in workplaces, airports, hospitality venues, and public spaces, preventing smoke migration to non-smoking areas. Sold as a complete modular unit with integrated exhaust/filtration systems, fire-resistant panels, and optional amenities.",
+    "long": "Smoking cabins are factory-built, self-contained structures engineered to create designated smoking zones that comply with public health and workplace safety regulations. They incorporate high-efficiency mechanical ventilation or air filtration systems that maintain negative pressure relative to adjacent areas, ensuring exhaust air is discharged outside and not recirculated. Construction typically uses fire-resistant wall panels (steel, GI, or composite), integrated smoke detectors, and optional features such as benches, ashtrays, lighting, and climate control. Buyers are primarily facility managers, corporate campuses, airports, hospitality groups, and industrial plant operators procuring a turnkey compliance solution rather than a raw building material.",
+    "product_types": [
+      "Outdoor smoking shelter (open or semi-enclosed, canopy-style)",
+      "Indoor enclosed smoking cabin (fully sealed, negative pressure, HVAC-integrated)",
+      "Portable/relocatable smoking cabin (skid-mounted or liftable)",
+      "Modular smoking room (multi-person, custom-sized, permanent installation)",
+      "Compact single-person smoking booth",
+      "Smoking cabin with air purifier/filtration unit (no external exhaust required)"
+    ],
+    "primary_applications": [
+      "Corporate office campuses — designated employee smoking zones",
+      "Airports and transit hubs — passenger smoking areas",
+      "Hotels, resorts, and hospitality venues — guest smoking enclosures",
+      "Industrial plants and factories — worker smoking break areas",
+      "Shopping malls and commercial complexes — public smoking zones",
+      "Hospitals and healthcare campuses — staff/visitor smoking areas compliant with no-smoking regulations"
+    ],
+    "buyer_segments": [
+      "Facility managers and EHS (Environment, Health & Safety) officers at large corporates",
+      "Airport and transit authority procurement teams",
+      "Hotel and hospitality group procurement",
+      "Industrial plant and manufacturing unit administrators",
+      "Government and municipal bodies managing public spaces",
+      "Real estate developers and commercial property managers"
+    ]
+  },
+  "primary_segment": "Prefabricated ventilated smoking enclosure for workplace and public-space compliance",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Prefabricated ventilated enclosure for designated tobacco smoking areas in workplaces and public spaces",
+    "secondary_families": [
+      "Food smokehouse / meat and fish smoking chamber (food processing equipment — different buyer: food processor/butcher; different working principle: heat + smoke generation for curing)",
+      "Rubber sheet smokehouse (industrial rubber processing equipment — different buyer: rubber plantation/processing unit; different working principle: smoke-curing of RSS rubber sheets)"
+    ],
+    "reason": "The name 'Smoking Cabin' attracts both workplace tobacco enclosures (prefab structure, facility buyer, ventilation compliance) and food/rubber smokehouses (processing equipment, food/rubber industry buyer, heat-smoke curing) — fundamentally incompatible product families with different buyers, working principles, and industry verticals, confirmed by contaminating internal keywords ('sausage smokehouse', 'lohashilpi smokehouse', 'smoke house') and IndiaMART listing tile evidence."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "smoking cabin",
+      "smoking room",
+      "smoking shelter",
+      "designated smoking area cabin",
+      "prefab smoking room",
+      "smoking enclosure",
+      "smoking booth",
+      "ventilated smoking cabin"
+    ],
+    "technical_synonyms": [
+      "designated smoking enclosure (DSE)",
+      "negative pressure smoking room",
+      "tobacco smoke isolation cabin",
+      "air-filtered smoking booth",
+      "smoking zone prefab structure",
+      "ETS (environmental tobacco smoke) enclosure"
+    ],
+    "trade_names": [
+      "Smoke 'n Go (Euromate)",
+      "Texo Prefab Smoking Room"
+    ],
+    "hindi_terms": [
+      "smoking cabin",
+      "dhumrapan kaksh"
+    ],
+    "buyer_intent_queries": [
+      "smoking cabin for office",
+      "prefabricated smoking room for workplace",
+      "ventilated smoking enclosure for airport",
+      "designated smoking area cabin price",
+      "smoking shelter for factory",
+      "indoor smoking cabin with air purifier",
+      "portable smoking cabin for corporate campus",
+      "smoking room for hotel lobby"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Smoking cabins are sold as complete, self-contained modular units — each cabin is a discrete, fully-specified structure quoted per piece; size and capacity variations are handled through model/configuration selection, not unit changes.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Custom modular smoking room (large, multi-person)",
+        "unit": "per project / per installation",
+        "note": "Large custom-built rooms may be quoted per project when dimensions and fitout are bespoke."
+      },
+      {
+        "sub_segment": "Compact smoking booth / single-person unit",
+        "unit": "per piece",
+        "note": "Standard catalogue units always quoted per piece."
+      }
+    ],
+    "sources_checked": [
+      "Texo Prefab World (texoprefab.com)",
+      "PortaFab (portafab.com)",
+      "IndiaMART MCAT page (structural observation)",
+      "World knowledge — Indian B2B prefab cabin market norms"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Smoking cabins in the Indian B2B market are prefabricated, ventilated enclosures procured by facility managers and EHS officers to comply with public health regulations that prohibit smoking in enclosed public spaces (Cigarettes and Other Tobacco Products Act, COTPA 2003, and its amendments). The dominant commercial form is a fully enclosed, mechanically ventilated cabin with negative-pressure exhaust, fire-resistant panel construction, and integrated amenities (benches, ashtrays, lighting). Indian manufacturers such as Texo Prefab World supply these as turnkey units; international brands like Euromate (Smoke 'n Go series) are also present in the Indian market through distributors. Key buyer vocabulary includes 'designated smoking area,' 'smoking zone cabin,' and 'ventilated smoking room.' A significant contamination risk exists in this MCAT: food/rubber smokehouses (used for curing meat, fish, or rubber sheets) share the keyword 'smokehouse' and appear in IndiaMART listings under this category — these are industrial processing equipment with a completely different buyer and working principle and must be routed to food processing or rubber processing equipment MCATs. Standard booth sizes range from compact single-person units to multi-person modular rooms; no dominant Indian BIS standard specific to smoking cabins was identified (single source — low confidence), though fire safety (NBC 2016) and ventilation norms apply.",
+  "buyer_attracting_attributes": [
+    "Ventilation System Type (mechanical exhaust / air purifier / HEPA filtration)",
+    "Cabin Capacity (number of persons)",
+    "Cabin Size / Dimensions (L x W x H)",
+    "Wall Panel Material (GI steel / composite / fire-resistant panel)",
+    "Indoor or Outdoor Installation",
+    "Fire Safety Features (smoke detector, sprinkler, fire-resistant panels)",
+    "Portability (fixed / relocatable / skid-mounted)",
+    "Air Changes Per Hour (ACH) / Ventilation Rate",
+    "Customisation Options (colour, branding, accessories)",
+    "Compliance Certification (fire safety, workplace health norms)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "111378",
+    "mcat_name": "Smoking Cabin",
+    "mcat_level": "4",
+    "listing_count": "192",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Smoking Cabin",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35400.0",
+      "name": "Portable Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35400.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "32980",
+        "mcat_name": "Office Cabin",
+        "listing_count": "6818",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35057",
+        "mcat_name": "Portable Classrooms",
+        "listing_count": "736",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35400",
+        "mcat_name": "Portable Cabin",
+        "listing_count": "13877",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38456",
+        "mcat_name": "Telephone Booths",
+        "listing_count": "419",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42755",
+        "mcat_name": "Security Cabins",
+        "listing_count": "4207",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43789",
+        "mcat_name": "Wooden Cabins",
+        "listing_count": "665",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43790",
+        "mcat_name": "Mobile Cabins",
+        "listing_count": "613",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "56012",
+        "mcat_name": "Glass Cabin",
+        "listing_count": "1247",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96540",
+        "mcat_name": "Office Container",
+        "listing_count": "21197",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96541",
+        "mcat_name": "Mobile Containers",
+        "listing_count": "2044",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119140",
+        "mcat_name": "Container Conversion Service",
+        "listing_count": "68",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121149",
+        "mcat_name": "FRP Cabin",
+        "listing_count": "1604",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135704",
+        "mcat_name": "Portable Kitchen",
+        "listing_count": "457",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135705",
+        "mcat_name": "Portable Security Cabins",
+        "listing_count": "6233",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135712",
+        "mcat_name": "Prefabricated Cabin",
+        "listing_count": "6259",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135797",
+        "mcat_name": "Toll Booth",
+        "listing_count": "853",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135966",
+        "mcat_name": "Eco Portable Cabins",
+        "listing_count": "436",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136204",
+        "mcat_name": "Prefabricated Accommodation",
+        "listing_count": "1321",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145135",
+        "mcat_name": "FRP Portable Security Cabin",
+        "listing_count": "1727",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149768",
+        "mcat_name": "Portable Dressing Room",
+        "listing_count": "358",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150360",
+        "mcat_name": "Portable Log Cabins",
+        "listing_count": "220",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150362",
+        "mcat_name": "Portable Pantry",
+        "listing_count": "142",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150852",
+        "mcat_name": "MS Porta Cabin",
+        "listing_count": "9337",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150853",
+        "mcat_name": "MS Security Cabins",
+        "listing_count": "1334",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154082",
+        "mcat_name": "Wooden Guard Room",
+        "listing_count": "111",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159318",
+        "mcat_name": "GRP Cabin",
+        "listing_count": "55",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "165827",
+        "mcat_name": "Modular Portable Cabin",
+        "listing_count": "3118",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167809",
+        "mcat_name": "PUF Cabin",
+        "listing_count": "1376",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181546",
+        "mcat_name": "PVC Portable Cabin",
+        "listing_count": "407",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181975",
+        "mcat_name": "Prefabricated Security Cabin",
+        "listing_count": "1156",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185338",
+        "mcat_name": "GI Portable Cabin",
+        "listing_count": "2393",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185339",
+        "mcat_name": "Aluminium Office Cabins",
+        "listing_count": "1740",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "188230",
+        "mcat_name": "Portable ATM Cabin",
+        "listing_count": "130",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "207959",
+        "mcat_name": "Frisking Booth",
+        "listing_count": "168",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "do_research": true,
+      "reason": "Smoking cabins are prefabricated structures subject to workplace safety regulations (ventilation standards, fire safety, occupational health codes). No dominant brand landscape; buyers evaluate by spec. Standard B2B industrial equipment with regulatory compliance signals."
+    },
+    "input_sources_used": [
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "mcat_vagueness_signal",
+          "wrong_mcat_routing_signal"
+        ],
+        "citation_note": "Keywords 'sausage smokehouse', 'lohashilpi smokehouse', 'smoke house' identified as contaminating secondary-family terms; 'smoking cabin' confirmed as primary demand term."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings_count"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "Taxonomy path and listing count used as reference signals. Listing count 192 treated as plausible; listing_count_suspect set false."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://texoprefab.com/products/specialized-structures/smoking-room/",
+        "title": "Prefab Smoking Rooms in India | TEXO Prefab World",
+        "source_domain": "texoprefab.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "buyer_attracting_attributes",
+          "market_context",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for Indian manufacturer product type evidence, ventilation/fire-safety feature list, and buyer segment (corporate, public, hospitality)."
+      },
+      {
+        "url": "https://www.portafab.com/smoking-shelters.html",
+        "title": "Smoke Shelter | Indoor & Outdoor Options | PortaFab",
+        "source_domain": "portafab.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context",
+          "market_context"
+        ],
+        "citation_note": "Used for standard booth size ranges, accessory/feature list (benches, ashtrays, exhaust fans, lighting), and per-piece unit quoting confirmation."
+      },
+      {
+        "url": "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "title": "OSHA Technical Manual (OTM) - Section III: Chapter 3",
+        "source_domain": "osha.gov",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for negative-pressure and exhaust-outside-building technical requirements for dedicated smoking areas — supports ventilation spec as key buyer attribute."
+      },
+      {
+        "url": "https://dir.indiamart.com/impcat/smoking-cabin.html",
+        "title": "Smoking Cabin Manufacturers & Suppliers in India — IndiaMART",
+        "source_domain": "indiamart.com",
+        "derived_outputs": [
+          "mcat_vagueness_signal.secondary_families",
+          "alt_names.trade_names",
+          "listing_count_suspect"
+        ],
+        "citation_note": "Used for structural observation only: confirmed presence of rubber/food smokehouse listings (contamination signal) and Euromate Smoke 'n Go trade name. Not used for primary_segment or market claims."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "DGMS",
+        "State Labour Department"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Smoking cabins are prefabricated structures subject to workplace safety regulations (ventilation standards, fire safety, occupational health codes). No dominant brand landscape; buyers evaluate by spec (size, ventilation capacity, material, compliance certification). Standard B2B industrial equipment with regulatory compliance signals."
+    }
+  }
+}
