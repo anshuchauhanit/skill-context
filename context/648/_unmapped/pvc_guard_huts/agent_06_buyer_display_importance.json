@@ -1,0 +1,197 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual variation across size, form factor, surface finish, and door/window configuration is significant. Buyers scan listing images to confirm the product looks like a proper enclosed guard cabin before reading any text — wrong visual type causes an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Size (footprint) is non-negotiable — it must match the gate space available. Wall construction type determines insulation, durability, and maintenance expectations. Buyers shortlist on these specs before comparing prices."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price is a real comparison signal for Indian B2B buyers after size and wall type are confirmed. Size and wall panel type drive substantial price variation, so price is only comparable after spec equivalence is established."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the market is fragmented across small fabricators and mid-size prefab companies; buyers search by size and material, not manufacturer name.",
+      "reason": "Buyers want confirmation of manufacturer status, service location coverage, and installation capability. Company credentials matter for a physical structure but rank below spec and price in the decision sequence."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Always per piece for a complete prefabricated cabin. A minority of sellers quote per sq ft for custom-dimension orders but this is not a buyer-facing ambiguity on standard catalogue listings.",
+      "reason": "Unit is entirely implied — no buyer ever questions whether a complete prefabricated guard cabin is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Size",
+        "reason": "Footprint size (4x4 vs 6x4 vs 6x6 ft) is the primary product class separator — non-interchangeable across buyer requirements and the single largest driver of price variation."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Panel Type",
+        "reason": "Insulated PVC vs Single Skin PVC defines the thermal performance and structural quality tier, with a meaningful price delta between values that buyers cannot substitute across."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Material",
+      "Mobility",
+      "Service Location",
+      "Size",
+      "Surface Finish",
+      "Use",
+      "Wall Panel Type",
+      "Window Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Electrical Fittings",
+        "why_important": "Pre-wired electrical provision (light point + plug point) is a factory-fitted option that creates a distinct product variant with a different price — sellers need this spec to quote correctly and buyers use it to filter listings.",
+        "source": "both",
+        "example_values": [
+          "With Electrical Fittings",
+          "Without Electrical Fittings",
+          "With Light Only",
+          "With Light and Fan Point"
+        ]
+      },
+      {
+        "spec_name": "Frame Material",
+        "why_important": "The structural base frame (MS vs Galvanized Steel vs PVC) determines corrosion resistance and long-term durability, which is a primary concern for buyers in coastal or high-humidity environments and affects price.",
+        "source": "both",
+        "example_values": [
+          "Mild Steel (MS)",
+          "Galvanized Steel",
+          "PVC Frame",
+          "MS with Anti-Rust Coating"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Size (ft)",
+        "reason": "Footprint size is the primary non-negotiable requirement — sellers need this to confirm they manufacture or stock that dimension and to provide an accurate price.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "4 x 4",
+          "6 x 4",
+          "5 x 5",
+          "6 x 6",
+          "8 x 4"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wall Construction",
+        "reason": "Wall construction type defines the insulation tier and material quality, enabling sellers to confirm product match and quote the correct variant.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Electrical Fittings",
+        "why_important": "Electrical provision is a factory-fitted binary option that changes the product variant and price — sellers need to know this upfront to respond with the correct product and quote.",
+        "source": "both",
+        "example_values": [
+          "With Electrical Fittings",
+          "Without Electrical Fittings",
+          "With Light Only",
+          "With Light and Fan Point"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Size (ft)",
+      "option_value": "4 x 4",
+      "id": "spec_1",
+      "prompt_for_generation": "Compact 4x4 ft prefabricated PVC guard hut with single door and single window, white PVC panel exterior, placed at a gated entry point, front-facing view, natural daylight, clean background, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Size (ft)",
+      "option_value": "6 x 4",
+      "id": "spec_2",
+      "prompt_for_generation": "Rectangular 6x4 ft prefabricated PVC guard cabin, wider than tall, single door on short side, two windows on long side, white PVC panel exterior, placed at an industrial gate, front-facing view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Size (ft)",
+      "option_value": "5 x 5",
+      "id": "spec_3",
+      "prompt_for_generation": "Square 5x5 ft prefabricated PVC guard hut with single door and two windows, white PVC panel exterior, slightly larger than a standard 4x4 cabin, placed at a residential society gate, front-facing view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Size (ft)",
+      "option_value": "6 x 6",
+      "id": "spec_4",
+      "prompt_for_generation": "Large square 6x6 ft prefabricated PVC guard cabin, spacious single-room structure with one door and two windows, white PVC panel exterior, placed at a commercial complex entry gate, front-facing view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Size (ft)",
+      "option_value": "8 x 4",
+      "id": "spec_5",
+      "prompt_for_generation": "Long rectangular 8x4 ft prefabricated PVC guard cabin, elongated footprint suitable for toll booth or parking cabin use, single door on short end, multiple windows along long side, white PVC panel exterior, front-facing view, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
