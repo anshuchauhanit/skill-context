@@ -1,0 +1,582 @@
+{
+  "mcat_description": {
+    "short": "A prefabricated warehouse is a factory-fabricated steel structure — typically a Pre-Engineered Building (PEB) — assembled on-site using bolted connections, sold as a complete turnkey project or supply-only structural kit for industrial storage and logistics use.",
+    "long": "Prefabricated warehouses in India are predominantly Pre-Engineered Building (PEB) systems comprising factory-fabricated primary steel frames (tapered built-up sections), secondary members (purlins, girts, bracings), and colour-coated metal sheet or sandwich panel cladding, designed to IS 800, IS 875, and IS 1893 codes. The structures deliver large column-free clear spans — typically 18–36 metres for standard Indian industrial projects, extendable to 100+ metres — enabling high-density racking, forklift operation, and crane integration. A PUF-insulated sandwich panel variant serves cold storage, pharma, and food-grade warehousing requiring temperature control. Sellers offer supply-only kits (structure + cladding), design-supply-erect (DSE) turnkey contracts, or full civil+structural packages including foundation, flooring, and utilities.",
+    "product_types": [
+      "PEB Steel Warehouse (standard, non-insulated)",
+      "PUF Insulated Warehouse / Cold Storage Warehouse",
+      "Rockwool Insulated Warehouse",
+      "Mezzanine Floor Warehouse",
+      "Multi-Bay Godown / Warehouse Complex",
+      "RCC + Steel Hybrid Warehouse",
+      "Crane-Compatible PEB Warehouse",
+      "Agricultural / Grain Storage Warehouse Shed",
+      "Logistics & Distribution Warehouse (large-span)",
+      "Modular / Portable Warehouse Shed"
+    ],
+    "primary_applications": [
+      "Industrial goods storage and bulk warehousing",
+      "E-commerce and FMCG distribution centres",
+      "Logistics and third-party logistics (3PL) hubs",
+      "Cold chain storage for food, pharma, and chemicals",
+      "Agricultural commodity and grain storage",
+      "Manufacturing plant and factory shed",
+      "Auto component and textile storage",
+      "Government and NABARD-linked grain godowns"
+    ],
+    "buyer_segments": [
+      "Industrial manufacturers and factory owners",
+      "Logistics and warehousing companies (3PL, e-commerce)",
+      "Real estate developers building industrial parks",
+      "Agricultural cooperatives and FCI/NABARD-linked entities",
+      "Pharma and food processing companies needing temperature-controlled storage",
+      "SME traders and distributors needing godown space",
+      "Government and PSU infrastructure departments"
+    ]
+  },
+  "primary_segment": "PEB steel warehouse — factory-fabricated portal frame structure with metal sheet cladding for industrial storage and logistics use",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "PEB steel warehouse — factory-fabricated portal frame structure with metal sheet cladding for industrial storage and logistics use",
+    "secondary_families": [],
+    "reason": "All sub-types (PEB steel, PUF-insulated, hybrid, mezzanine) share the same buyer profile (industrial/logistics owner), same working principle (prefabricated steel structure assembled on-site), and same IS-code regulatory context — no sibling MCAT carves out an incompatible buyer or regulatory regime."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated warehouse",
+      "PEB warehouse",
+      "pre engineered warehouse",
+      "prefab warehouse",
+      "industrial warehouse shed",
+      "prefabricated godown",
+      "warehouse shed",
+      "steel warehouse building",
+      "pre fabricated warehouse",
+      "warehouse construction"
+    ],
+    "technical_synonyms": [
+      "Pre-Engineered Building (PEB) warehouse",
+      "portal frame warehouse",
+      "built-up section steel warehouse",
+      "tapered frame warehouse",
+      "metal building warehouse",
+      "structural steel warehouse",
+      "cold-formed steel warehouse shed",
+      "sandwich panel warehouse",
+      "PUF insulated warehouse shed"
+    ],
+    "trade_names": [
+      "PEB warehouse",
+      "PUF warehouse",
+      "Galvalume roofing warehouse",
+      "colour-coated sheet warehouse",
+      "EPACK prefab warehouse",
+      "BNAL prefab warehouse",
+      "Kirby building",
+      "Zamil steel building"
+    ],
+    "hindi_terms": [
+      "godown",
+      "prefabricated godown",
+      "warehouse godown",
+      "material godown",
+      "anaj godown",
+      "steel shed godown"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated warehouse cost in India",
+      "warehouse construction cost per square foot",
+      "PEB warehouse manufacturer in India",
+      "pre engineered warehouse building price",
+      "prefabricated godown construction cost",
+      "industrial warehouse shed manufacturer",
+      "PUF insulated warehouse shed supplier",
+      "warehouse construction cost per sq ft India",
+      "how much does it cost to build a warehouse in India",
+      "prefabricated warehouse for logistics and storage"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft (supply-only) / per project or set (turnkey)",
+    "unit_reasoning": "Indian buyers and sellers quote prefabricated warehouses on a per-sq-ft basis for structural supply (steel + cladding), while turnkey and design-supply-erect contracts are quoted per project or per set; keyword data confirms sq ft as the dominant buyer-facing unit ('warehouse construction cost per square foot' is the top Google KW by impressions).",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Supply-only PEB kit (structure + cladding)",
+        "unit": "per sq ft",
+        "note": "Quoted on built-up area; foundation and civil works extra"
+      },
+      {
+        "sub_segment": "Turnkey / design-supply-erect contract",
+        "unit": "per project / per set",
+        "note": "Lump-sum project quote inclusive of design, fabrication, erection"
+      },
+      {
+        "sub_segment": "PUF insulated panel supply",
+        "unit": "per sq ft or per panel",
+        "note": "Panel thickness (50–150mm) drives unit price"
+      }
+    ],
+    "sources_checked": [
+      "iscodehub.com (PEB Buildings guide)",
+      "ecoplus.co.in (Pre-Engineered Warehouse)",
+      "shivshankartechno.com (PEB Warehouse Construction)",
+      "Google keyword data (warehouse construction cost per sq ft)",
+      "Internal keyword data (prefabricated warehouse 3000 sqft)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In India, 'Prefabricated Warehouse' is commercially synonymous with Pre-Engineered Building (PEB) — a factory-fabricated steel portal frame system designed to IS 800 (structural steel), IS 875 (loads), and IS 1893 (seismic) codes, assembled on-site using bolted connections. PEB has displaced conventional RCC godown construction for single-storey industrial warehouses due to 40–60% faster construction timelines and 20–30% lower costs versus RCC. The dominant commercial form is a single-storey clear-span steel shed with Galvalume or colour-coated metal sheet roofing and wall cladding; PUF sandwich panel cladding (50–150mm) is specified for cold storage, pharma, and food-grade applications requiring temperature control. Buyers evaluate structures on clear span width, eave height, structural steel grade, cladding type, wind and seismic zone compliance, and whether the scope includes civil/foundation work. The market is served by pan-India PEB manufacturers (EPACK, BNAL, Alfa, Moonwalk, Pressmach, Kirby, Zamil) who offer supply-only kits or full turnkey DSE contracts. Key buyer segments include logistics/3PL operators, e-commerce distribution centres, FMCG manufacturers, agricultural commodity storage, and government/NABARD grain godowns. The term 'godown' is widely used interchangeably with 'warehouse' in Indian buyer vocabulary, particularly for smaller or agricultural storage structures.",
+  "buyer_attracting_attributes": [
+    "Clear Span Width",
+    "Eave Height / Building Height",
+    "Structural Steel Grade",
+    "Cladding Type (Galvalume / PUF / Rockwool)",
+    "Wind Zone and Seismic Zone Compliance",
+    "Insulation Thickness (for PUF/cold storage variants)",
+    "Built-up Area (sq ft)",
+    "Scope of Supply (supply-only vs turnkey DSE)",
+    "Crane Compatibility / EOT Crane Capacity",
+    "IS Code Compliance (IS 800 / IS 875 / IS 1893)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "166432",
+    "mcat_name": "Prefabricated Warehouse",
+    "mcat_level": "4",
+    "listing_count": "5064",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Prefabricated Warehouse",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35592.0",
+      "name": "Prefabricated Structures",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35592.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20474",
+        "mcat_name": "Prefabricated Steel Buildings",
+        "listing_count": "8194",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21344",
+        "mcat_name": "Agricultural Greenhouses",
+        "listing_count": "2151",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21649",
+        "mcat_name": "Agricultural Buildings",
+        "listing_count": "128",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "29816",
+        "mcat_name": "Greenhouse",
+        "listing_count": "5282",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33188",
+        "mcat_name": "Modular Buildings",
+        "listing_count": "917",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35398",
+        "mcat_name": "Portable Buildings",
+        "listing_count": "1196",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35589",
+        "mcat_name": "Prefabricated Buildings",
+        "listing_count": "27038",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35592",
+        "mcat_name": "Prefabricated Structures",
+        "listing_count": "14394",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38214",
+        "mcat_name": "Storage Buildings",
+        "listing_count": "939",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "39565",
+        "mcat_name": "Temporary Buildings",
+        "listing_count": "149",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42328",
+        "mcat_name": "Modular Tensile Structure",
+        "listing_count": "2417",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "50762",
+        "mcat_name": "Tensile Structures",
+        "listing_count": "9089",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88197",
+        "mcat_name": "Prefabricated Metal Building",
+        "listing_count": "901",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116157",
+        "mcat_name": "Mini Greenhouse",
+        "listing_count": "1433",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121067",
+        "mcat_name": "Aluminium Structure",
+        "listing_count": "9342",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135787",
+        "mcat_name": "Tensile Membrane Structures",
+        "listing_count": "2683",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135861",
+        "mcat_name": "Auditorium Tensile Structure",
+        "listing_count": "598",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136011",
+        "mcat_name": "Gazebo Tensile Structure",
+        "listing_count": "1508",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "148110",
+        "mcat_name": "Pre Engineered Building Structure",
+        "listing_count": "9886",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149713",
+        "mcat_name": "Polyhouse",
+        "listing_count": "3245",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154059",
+        "mcat_name": "Prefabricated School Building",
+        "listing_count": "828",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158767",
+        "mcat_name": "Greenhouse Structure",
+        "listing_count": "813",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159520",
+        "mcat_name": "Prefabricated Hospitals",
+        "listing_count": "213",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "160350",
+        "mcat_name": "Mist Chamber",
+        "listing_count": "121",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166277",
+        "mcat_name": "Naturally Ventilated Greenhouse",
+        "listing_count": "1661",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168374",
+        "mcat_name": "Heavy Structural Fabrications",
+        "listing_count": "2495",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168445",
+        "mcat_name": "MS Structure Services",
+        "listing_count": "2407",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "178587",
+        "mcat_name": "Prefabricated Industrial Buildings",
+        "listing_count": "5964",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "179245",
+        "mcat_name": "Prefabricated Labor Colony",
+        "listing_count": "1480",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181553",
+        "mcat_name": "Pre Engineered Steel Building",
+        "listing_count": "1594",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "216129",
+        "mcat_name": "RCC Labour Quarter",
+        "listing_count": "549",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315645",
+        "mcat_name": "Prefabricated Walls",
+        "listing_count": "105",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "410918",
+        "mcat_name": "Light Gauge Framing System",
+        "listing_count": "350",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "444552",
+        "mcat_name": "Prefabricated Isolation Ward",
+        "listing_count": "218",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Prefabricated warehouses are engineered structures subject to BIS standards (IS:875, IS:1893) and local building codes; buyers evaluate structural design, material grade, load capacity, and compliance certification."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context.dominant_unit"
+        ],
+        "citation_note": "Top KW by impressions 'warehouse construction cost per square foot' confirmed sq ft as dominant buyer-facing unit; 'prefabricated warehouse cost in India' confirmed buyer intent vocabulary."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.hindi_terms",
+          "unit_quoting_context"
+        ],
+        "citation_note": "'prefabricated warehouse' top by pageviews (130) and calls (5); 'prefabricated godown', 'material godown', 'PUF warehouse' confirmed Hindi/trade terms and sub-segment signals."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "primary_segment"
+        ],
+        "citation_note": "Call rows confirmed PEB and PUF as dominant product vocabulary; 'godown' confirmed as buyer synonym; 'Warehouse Construction (PEB Fabrication)' confirmed turnkey scope as a buyer need."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings_count"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Listing count 5064 is plausible for a high-volume MCAT; no sibling carve-out detected that would trigger vagueness. listing_count_suspect set false."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.iscodehub.com/knowledge/peb-buildings",
+        "title": "PEB Buildings - Complete Guide & Specifications | ISCodeHub",
+        "source_domain": "iscodehub.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for clear span ranges (18–36m typical Indian projects), PEB vs RCC cost/time comparison, foundation and civil scope details, and IS code references."
+      },
+      {
+        "url": "https://saffronconsulting.net/peb-structure-design.html",
+        "title": "PEB Structure Design: Complete Pre-Engineered Building Guide for India | Saffron Consulting Engineers",
+        "source_domain": "saffronconsulting.net",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.long"
+        ],
+        "citation_note": "Confirmed IS 800, IS 875, IS 1893 as the governing Indian codes for PEB design; confirmed PEB as preferred solution for warehouses, industrial plants, and logistics hubs across India."
+      },
+      {
+        "url": "https://ecoplus.co.in/pre-engineered-warehouse/",
+        "title": "Pre-Engineered Warehouse - ECOPLUS India's Premier PEB Solution Provider",
+        "source_domain": "ecoplus.co.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "market_context"
+        ],
+        "citation_note": "Confirmed product type taxonomy (PEB shed, mezzanine, cold storage, multi-bay godown, RCC+steel hybrid); confirmed buyer segments (e-commerce, logistics, pharma, agriculture, food & beverage)."
+      },
+      {
+        "url": "https://shivshankartechno.com/peb-warehouse-construction-companies-in-india",
+        "title": "PEB Warehouse Construction Companies in India | Shiv Shankar Techno",
+        "source_domain": "shivshankartechno.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed configurable parameters (clear span, eave height, cladding type, insulation thickness, crane runway); confirmed PUF 50–150mm thickness range for cold storage; confirmed pan-India supply model."
+      },
+      {
+        "url": "https://www.epack.in/puf-panels",
+        "title": "PUF Panels Manufacturer, PUF/PIR Insulated and Sandwich Panels Supplier in India | EPACK",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed PUF/PIR sandwich panel as the insulation system for cold storage warehouses; confirmed thermal conductivity ~0.023 W/m·K; confirmed IS-compliant fire ratings for panel selection."
+      },
+      {
+        "url": "https://www.metaltree.in/prefabricated-buildings-india-guide-2026/",
+        "title": "Prefabricated Buildings in India: Cost, Companies, Benefits & Complete Guide (2026) - Metal Tree",
+        "source_domain": "metaltree.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "primary_segment"
+        ],
+        "citation_note": "Confirmed three broad prefab approaches in India (modular, panel-built, steel frame PEB); confirmed steel frame PEB as the dominant system for warehouses and factory sheds; corroborated primary_segment."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "NFPA",
+        "Local Building Codes"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Prefabricated warehouses are engineered structures subject to BIS standards (IS:875 for loads, IS:1893 for seismic design) and local building codes. Buyers evaluate structural design, material grade, load capacity, and compliance certification — not brand name. Agent 3 should prioritise BIS standards, structural engineering specs, and material certifications."
+    }
+  }
+}
