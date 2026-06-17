@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'Temporary Buildings' is broadly accurate but underspecifies the dominant commercial product — portable prefab site office cabins and labour accommodation structures — which are the primary B2B search intent per Agent 3 alt_names (e.g., 'prefab site office', 'portable cabin', 'modular temporary building'); a more descriptive name would improve buyer relevance and reduce ambiguity with event tents or inflatable shelters.",
+    "suggested_name": "Temporary Prefab Buildings & Portable Cabins"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The current thumbnail shows an inflatable or fabric-membrane tent/shelter structure — this is a tensile/event shelter sub-type, not the primary segment (prefabricated portable site office cabin and labour accommodation structure), actively misrepresenting the dominant B2B product to buyers.",
+      "The image conflicts with Agent 3's primary_segment and would mislead construction contractors and EPC buyers searching for steel-framed sandwich-panel site office cabins or labour camp buildings."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated portable site office cabin with cold-formed steel frame and insulated sandwich panel walls in light grey and blue, rectangular modular structure with a single door and two windows, placed on a flat construction site ground with a clean white background, front three-quarter view, bright even studio lighting, sharp product photography style, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
