@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'PVC Guard Huts' directly matches the top primary keyword and is the dominant search term used by buyers in this category per Agent 3 alt_names and buyer_intent_queries; market_context confirms 'PVC guard hut' is the standard trade term in the Indian B2B prefab security cabin segment.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a metal/steel-panel security cabin with visible corrugated steel walls, aluminium-framed sliding glass windows, and a metal roof with a ventilator — none of which are characteristic of PVC foam profile construction; this is a steel guard cabin, not a PVC guard hut.",
+      "The primary_segment explicitly requires a prefabricated PVC panel security cabin, but the image represents a competing material category (steel/metal), which actively misleads buyers and misrepresents the MCAT."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A prefabricated PVC guard hut security cabin, approximately 4x4 ft, with smooth off-white or light grey PVC foam profile interlocking panel walls, a flat or slightly sloped PVC roof, a single hinged PVC door on the front face, and one or two fixed PVC-framed windows with clear glass on the side panel. The cabin sits on a flat surface with no permanent foundation, photographed in a clean three-quarter front-side view against a plain white studio background, with soft even lighting that highlights the PVC panel texture and tongue-and-groove joints. The unit looks compact, lightweight, and ready-to-deploy, suitable for a residential society gate or factory entry point.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
