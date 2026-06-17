@@ -1,0 +1,279 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Wooden cabins have extreme visual variation across sub-types — A-frame, log cabin, glamping pod, portable site office — and buyers (resort developers, homeowners, contractors) use the image to immediately identify whether the product matches their project aesthetic and structural intent. Wrong cabin type or finish visible in the image = immediate skip; no amount of text description substitutes for seeing the actual structure."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin size, number of rooms, insulation type, and wood type are primary shortlisting criteria for project buyers — a resort developer specifying a 20x20 ft insulated pine cottage cannot substitute a 10x10 ft uninsulated plywood unit. Listings without these specs cannot be evaluated for project fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies enormously with cabin size, wood species, insulation grade, and finish — a basic portable site cabin vs a fully insulated teak resort cottage can differ by an order of magnitude. Indian B2B buyers (resort developers, contractors) use the listed per-sq-ft rate as a primary budget-qualification signal before engaging; without a visible price anchor, shortlisting is impossible."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Standard portable fixed-size units (site offices, security cabins) are quoted per piece; custom prefab cottages and resort cabins are quoted per sq ft. Both units appear in the market — showing the unit is essential to prevent price misreading when comparing listings.",
+      "reason": "Per sq ft vs per piece is a real market ambiguity for wooden cabins; a buyer comparing a per-sq-ft resort cabin quote against a per-piece portable cabin quote without visible units will misread the price by a large factor. Unit must be shown alongside price."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand exists in the Indian wooden cabin market — the market is fragmented across regional fabricators and no buyer searches by manufacturer brand name.",
+      "reason": "For high-value project purchases (resort cabins, custom cottages), buyers evaluate manufacturer capability, installation track record, and after-sales service during vendor selection — but this is a post-image/spec/price check, not a primary shortlisting signal. No brand commands recall-driven search in this category."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Size",
+        "reason": "Floor area is the primary price driver for wooden cabins — a 10x10 ft portable unit vs a 30x20 ft resort cottage represents a non-interchangeable product class with a large price delta; buyers cannot substitute one size for another in a project context."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation Type",
+        "reason": "PUF vs Rockwool vs No Insulation defines the thermal performance tier and drives significant price and suitability differences — a resort cabin in a hill station requires PUF or Rockwool insulation while a site office may need none, making these non-interchangeable across buyer segments."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cabin Features",
+      "Cabin Size",
+      "Finish Type",
+      "Insulation Type",
+      "No. of Rooms",
+      "Roof Style",
+      "Structure Type",
+      "Treatment",
+      "Usage Type",
+      "Wood Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall Cladding / Panel Type",
+        "why_important": "The exterior cladding material (solid timber planks, WPC boards, plywood, sandwich panel) is a primary durability and cost differentiator that buyers use to shortlist — a WPC-clad cabin and a solid pine-clad cabin have different weathering performance, maintenance requirements, and price points that are not captured by Wood Type or Structure Type alone.",
+        "source": "both",
+        "example_values": [
+          "Solid Timber Planks",
+          "WPC Board",
+          "Plywood",
+          "Sandwich Panel (PUF-core)"
+        ]
+      },
+      {
+        "spec_name": "Floor Area (sq ft)",
+        "why_important": "While Cabin Size captures named dimensions (e.g., 20x20 ft), a standalone floor area spec in sq ft enables direct price-per-sq-ft comparison and project budgeting — buyers quoting per sq ft need this as a numeric field to calculate total project cost.",
+        "source": "both",
+        "example_values": [
+          "100 sq ft",
+          "200 sq ft",
+          "400 sq ft",
+          "600 sq ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Wood Type",
+        "reason": "Wood species determines structural grade, durability, cost, and aesthetic — a seller receiving an RFQ specifying Teak Wood vs Pine Wood immediately knows whether they can supply the product and at what price tier, making this the most routing-critical spec.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Pine Wood",
+          "Teak Wood",
+          "Sal Wood",
+          "Spruce Wood",
+          "Cedar Wood",
+          "Deodar Wood"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Features",
+        "reason": "Protection features (Termite Proof, Fire Retardant, Waterproof) define the treatment and construction standard required — sellers need this to confirm whether their standard product meets the buyer's compliance or environmental requirement before responding.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Size / Floor Area",
+        "why_important": "Sellers cannot determine whether they can supply the product or provide an accurate price without knowing the required floor area — size is the primary cost driver for custom prefab wooden cabins and the first question any seller will ask.",
+        "source": "both",
+        "example_values": [
+          "10x10 ft",
+          "20x10 ft",
+          "20x20 ft",
+          "Custom Size"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Usage / Application",
+        "why_important": "A seller needs to know whether the cabin is for a resort/hospitality project, residential use, or a site office to determine the appropriate structural standard, insulation requirement, and finish — these are fundamentally different products with different supply chains.",
+        "source": "both",
+        "example_values": [
+          "Resort / Hospitality",
+          "Residential / Farmhouse",
+          "Site Office",
+          "Security / Guard Room"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Resort / Hospitality",
+          "Residential / Farmhouse",
+          "Site Office",
+          "Security / Guard Room"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Wooden cabins are custom-fabricated structures where buyers frequently have a specific design reference — a resort developer may have an architect's rendering, a homeowner may have a reference photo of a cabin style they want replicated, or a buyer may have an existing cabin they want to match or extend. An uploaded image allows sellers to immediately assess design feasibility, structural complexity, and material requirements before responding, significantly improving quote accuracy for this high-value custom product."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Wood Type",
+      "option_value": "Pine Wood",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated wooden cabin with light-coloured pine wood exterior cladding, natural pale yellow-cream timber grain visible on wall planks, gable roof, small verandah, set against a green landscape background, daylight, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wood Type",
+      "option_value": "Teak Wood",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated wooden cabin with rich dark golden-brown teak wood exterior cladding, prominent straight grain texture on wall planks, sloped roof, small deck area, set in a resort garden setting, natural daylight, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wood Type",
+      "option_value": "Sal Wood",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated wooden cabin with medium-brown sal wood exterior cladding, dense interlocked grain texture visible on horizontal wall planks, simple gable roof, set in a forested hillside context, daylight, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wood Type",
+      "option_value": "Spruce Wood",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated wooden cabin with pale white-cream spruce wood exterior cladding, fine straight grain on vertical wall planks, A-frame roof style, set in a mountain landscape with snow-capped peaks in background, daylight, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wood Type",
+      "option_value": "Cedar Wood",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated wooden cabin with reddish-brown cedar wood exterior cladding, aromatic fine-grain texture visible on horizontal log-style wall planks, pitched roof with overhang, set in a garden resort environment, warm daylight, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Wood Type",
+      "option_value": "Deodar Wood",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated wooden cabin with warm honey-brown deodar cedar wood exterior cladding, distinctive straight grain on wall planks, sloped gable roof, set in a Himalayan hill-station landscape with pine trees in background, daylight, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage / Application",
+      "option_value": "Resort / Hospitality",
+      "id": "spec_7",
+      "prompt_for_generation": "Prefabricated wooden resort cabin with verandah and deck area, teak or pine cladding, gable roof, set in a lush green eco-resort garden with landscaping visible, warm ambient lighting, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage / Application",
+      "option_value": "Residential / Farmhouse",
+      "id": "spec_8",
+      "prompt_for_generation": "Prefabricated wooden cabin used as a residential farmhouse structure, larger footprint with multiple windows, natural wood finish exterior, set on open agricultural land with a clear blue sky, daylight, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage / Application",
+      "option_value": "Site Office",
+      "id": "spec_9",
+      "prompt_for_generation": "Compact portable wooden cabin used as a construction site office, plywood or WPC exterior cladding, flat or low-slope roof, single door and windows, placed on a construction site with equipment visible in background, daylight, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage / Application",
+      "option_value": "Security / Guard Room",
+      "id": "spec_10",
+      "prompt_for_generation": "Small prefabricated wooden security guard cabin, compact single-room structure with a sliding window panel at front, natural or painted wood exterior, placed at a gate or entrance, daylight, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
