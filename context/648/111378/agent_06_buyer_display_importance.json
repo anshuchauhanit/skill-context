@@ -1,0 +1,402 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Facility manager / EHS officer at a corporate campus, airport, hotel, or industrial plant. Procurement is compliance-driven — they need a designated smoking zone that meets COTPA regulations and doesn't expose non-smokers to smoke.
+
+**Journey sequence:**
+
+1. **Image first** — Scans listing grid to identify cabin type (indoor enclosed vs outdoor shelter vs wall-mounted booth). Visual sub-type variation is significant. Wrong type (e.g., open canopy shelter when they need a fully enclosed indoor cabin) = immediate skip.
+
+2. **Specification next** — Opens listing to check capacity (how many persons), ventilation/filtration type (exhaust ducted vs air purifier — determines whether external exhaust is feasible), and cabin type (indoor/outdoor). These are the primary shortlisting gates. A cabin that can't fit the required number of people or lacks the right ventilation for the installation context is eliminated.
+
+3. **Price** — After spec confirmation, checks price for budget sanity. These are capital purchases (not repeat consumables). Indian facility managers are price-sensitive and will compare across 2–3 shortlisted suppliers. Price is a real decision factor but only after spec fit is confirmed.
+
+4. **Company** — Checks seller credibility: manufacturer vs trader, installation capability, after-sales service. For a compliance-critical installation, buyers want a manufacturer with installation experience. No dominant brand with buyer recall in India.
+
+5. **Unit** — Never questioned. Always per piece for a discrete modular structure.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — significant visual variation between sub-types (enclosed cabin vs open shelter vs wall-mounted booth vs modular room). Image is the fastest sub-type identifier.
+- **Specification:** High — capacity and ventilation type are non-negotiable shortlisting criteria. A cabin that doesn't fit the required persons or lacks ducted exhaust for an indoor airport installation is eliminated before any other consideration.
+- **Price:** Medium — significant capital purchase; Indian buyers compare prices but only after spec fit is confirmed. Not a commodity; price varies substantially with capacity and filtration spec. `spec-driven price` is appropriate.
+- **Company:** Medium — installation capability, after-sales service, and manufacturer status matter for a compliance-critical structure. No dominant brand with buyer recall.
+- **Unit:** Low / show: false — always per piece. No buyer ever questions this for a discrete modular cabin.
+
+---
+
+## Step 3 — Decision Questions Per Dimension
+
+**Image:** Would visual identification be meaningfully reduced without a photo? Yes — indoor enclosed cabin vs outdoor canopy shelter vs wall-mounted booth are visually distinct product types. Buyers use image to confirm sub-type before reading specs. → **High**
+
+**Specification:** Do buyers shortlist based on specs before contacting? Yes — capacity (persons) and ventilation type (ducted vs purifier) are primary gates. Without these, the listing cannot be evaluated. → **High**
+
+**Price:** Does visible price influence contact decision? Yes, but only after spec fit. Capital purchase with significant spec-driven price variation (single-person booth vs 15-person modular room). India price sensitivity applies. → **Medium**, `spec-driven price`
+
+**Cross-dimension consistency check:**
+1. Buyers discover across spec tiers (capacity, ventilation) during search → `spec-driven price` ✓ AND specification = High ✓
+2. Unit Low → price Medium ✓ (unit Low doesn't require price to be Low)
+3. Price is not project-based for standard units → unit show: false still valid for per-piece finished goods ✓
+4. Specification show: true → show_on_listing: true ✓
+
+**Unit:** Would buyer be confused without unit shown? No — a modular cabin is always per piece. No ambiguity possible. → **Low / show: false**
+
+**Company:** Does seller identity materially affect decision? Yes — installation capability, manufacturer vs trader status, and service network matter for a compliance-critical structure. No dominant brand with buyer recall (market is fragmented: Texo Prefab World, regional fabricators, no Kirloskar/Havells equivalent). → **Medium**, `brand_important: no`
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Significant visual variation between sub-types — fully enclosed indoor cabin, open outdoor shelter, wall-mounted booth, and modular room are visually distinct. Buyers use the image to confirm product sub-type before reading any text; wrong type = immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Capacity (persons) and ventilation type (ducted exhaust vs air purifier) are primary shortlisting gates — a cabin that cannot accommodate the required number of users or lacks the correct ventilation for the installation context is eliminated before price or company are considered."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Capital purchase with substantial price variation across capacity and filtration tiers; Indian facility managers compare prices across shortlisted suppliers but only after confirming spec fit. Listed price is a budget entry point — final price is negotiated."
+  },
+  {
+    "rank": 4,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant brand with buyer recall in the Indian smoking cabin market — the market is fragmented across regional prefab fabricators; buyers search by spec and installation capability, not manufacturer name.",
+    "reason": "Manufacturer status, installation capability, and after-sales service network are evaluated during vendor selection for a compliance-critical structure; no branded sub-categories appear among taxonomy siblings and no Indian brand commands buyer-name recall in this category."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "Low",
+    "show": false,
+    "canonical_unit": "per piece",
+    "unit_note": "Large custom modular smoking rooms may be quoted per project, but standard catalogue units are always per piece — no buyer ever questions the unit for a discrete modular cabin structure.",
+    "reason": "Unit is entirely implied by the product — a modular cabin is always sold per piece and no buyer would question this."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+Working through each spec:
+
+- **Ash Disposal** (Ash Bin / Filter Collection / Ash Tray): Amenity/accessory feature — describes what happens to ash, not what the cabin IS. Multiple values but these are add-on features, not product class separators. Soft deprioritise — not a primary configurator.
+- **Body Material** (Aluminium / MS / FRP / GI / Glass and MS): Multiple distinct values, non-interchangeable, affects durability, weight, corrosion resistance, and price. Strong configurator candidate. **Retain.**
+- **Cabin Capacity** (1–15 Person): Non-interchangeable — a 2-person cabin cannot substitute for a 10-person cabin. Largest price delta in the spec list. **Retain — strong configurator.**
+- **Cabin Finish** (Laminated / Paint Finish / Powder Coated / Anodized): Consequence/aesthetic field — finish follows from body material and quality tier. Soft deprioritise.
+- **Cabin Type** (Wall Mounted / Corner Cabin / Indoor Cabin / Outdoor Cabin): Defines the installation context and structural form — non-interchangeable. Indoor vs outdoor is a fundamental product class separator. **Retain — strong configurator.**
+- **Door Type** (No Door / Sliding Door / Glass Door): Accessory/feature level — not a primary price driver. Soft deprioritise.
+- **Features** (Occupancy Sensor / Signage Panel / LED Lights / Music System / Auto Start Fan): Application/use-case tags and add-on features. Discard — these are amenity options, not configurators.
+- **Filtration System** (UV Filter / No Filter / Carbon Filter / HEPA Filter / Electrostatic): Defines the air treatment technology — non-interchangeable (HEPA vs no filter = significant price and compliance difference). Strong configurator candidate. **Retain.**
+- **Installation Area** (Hotel / Airport / Office / Factory / Restaurant / Mall): Application/use-case tag — describes where the product is used, not what it IS. **Discard.**
+- **Ventilation Type** (No Ventilation / Fresh Air Unit / Ducted System / Exhaust Fan): Defines the core mechanical system — non-interchangeable (ducted system vs no ventilation = fundamentally different product). Strong configurator candidate. **Retain.**
+
+**Correlated pair check:**
+- Filtration System and Ventilation Type: these are related but not redundant. Ventilation Type describes the air movement mechanism (how air moves); Filtration System describes the air treatment technology (how air is cleaned). A cabin can have Ducted System ventilation with HEPA filtration, or Exhaust Fan ventilation with Carbon Filter, or No Ventilation with UV Filter (recirculating purifier). They are independent dimensions. **Both retained.**
+- Cabin Type and Installation Area: Cabin Type (Indoor/Outdoor) is the structural form; Installation Area is a use-case tag. Cabin Type is retained; Installation Area is discarded. ✓
+
+**Remaining after Phase 1:** Body Material, Cabin Capacity, Cabin Type, Filtration System, Ventilation Type
+
+### Phase 2 — Top 2 Configurator Selection
+
+Applying the test: *"If only this spec's value changes — does price change significantly AND can the buyer NOT substitute one value for another?"*
+
+**Cabin Capacity (1 Person → 15 Person):** Non-interchangeable — a 2-person booth cannot serve a 10-person requirement. Price delta is the largest of any spec (single-person compact unit vs 15-person modular room represents a very large price multiple). Defines the scale of the entire structure. **Rank 1.**
+
+**Cabin Type (Indoor vs Outdoor):** Non-interchangeable — an outdoor canopy shelter cannot be installed in an airport terminal; an indoor enclosed cabin requires different structural and ventilation engineering. Fundamentally different product class. Significant price delta between wall-mounted booth and fully enclosed indoor cabin. **Rank 2.**
+
+*Why not Ventilation Type or Filtration System at Rank 2?* Ventilation Type and Filtration System are important but they are partially determined by Cabin Type (indoor cabins require mechanical ventilation; outdoor shelters may have no ventilation). Cabin Type is the more fundamental separator — it defines the product class, while ventilation/filtration define the quality tier within that class. Cabin Type at Rank 2 captures the larger price delta and non-interchangeability.
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list (verbatim copy):**
+["Ash Disposal", "Body Material", "Cabin Capacity", "Cabin Finish", "Cabin Type", "Door Type", "Features", "Filtration System", "Installation Area", "Ventilation Type"]
+
+**Step 3b — Candidate gaps from Agent 3 vision_output and LLM world knowledge:**
+
+From Agent 3 market_context and product_types:
+- Negative pressure / air pressure management — mentioned as a key engineering feature
+- Fire resistance rating of panels — mentioned in long description (fire-resistant panels, NBC 2016)
+- Cabin dimensions (floor area / footprint) — buyers need to know if it fits their available space
+- Power consumption / electrical load — relevant for facility planning
+
+From LLM world knowledge (Indian B2B facility manager buying criteria):
+- Fire resistance / fire rating of wall panels — compliance with NBC 2016 fire safety norms; buyers in airports and hospitals specifically require this
+- Cabin dimensions / floor area — facility managers need to confirm the cabin fits the allocated space before procurement
+- Power consumption — electrical load planning for facility managers
+
+**Step 3c — Cross-reference against specs_in_seller_list:**
+
+- Fire resistance / fire rating: Not present in specs_in_seller_list under any name or semantic equivalent. **Confirmed absent.**
+- Cabin dimensions / floor area / footprint: Not present. **Confirmed absent.**
+- Power consumption: Not present. **Confirmed absent.**
+- Negative pressure: This is a ventilation engineering characteristic — semantically related to Ventilation Type but not captured by it (Ventilation Type describes the mechanism, not the pressure differential). However, this is a technical spec that most Indian B2B buyers would not specify by name — they would specify Ventilation Type and trust the manufacturer. **Exclude — below importance threshold for buyer-facing spec.**
+
+**Importance threshold check:**
+- Fire resistance rating: Would a senior CM add this to the configurator? Yes — airport, hospital, and mall buyers specifically require fire-rated panels for compliance. Important enough. **Include.**
+- Cabin dimensions: Would a senior CM add this? Yes — facility managers must confirm the cabin fits their allocated space. This is a fundamental procurement requirement. **Include.**
+- Power consumption: Would a senior CM add this? Borderline — it's relevant for facility planning but is typically resolved post-connection. Most buyers don't filter by power consumption at the listing stage. **Exclude — below threshold.**
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → **partial**
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Ventilation, Capacity, Frame Material
+
+**Ventilation** (Exhaust Fan / Air Purifier / Louvered Walls / Open Mesh Roof): Directly determines whether the cabin can be installed in the buyer's context (indoor airport terminal requires ducted exhaust or HEPA purifier; outdoor factory area may accept louvered walls). Sellers need this to confirm product fit and quote accurately. **Rank 1.**
+
+**Capacity** (2–3 / 4–6 / 8–10 / 10–12 Person): Defines the scale of the structure — non-interchangeable. Sellers need this to identify the correct model and quote the right price. **Rank 2.**
+
+*Why not Frame Material at Rank 2?* Frame Material (Aluminium / MS / Stainless Steel) is a quality/durability preference that is often resolved post-connection through negotiation. Capacity is a hard requirement — a seller cannot respond accurately without knowing how many people the cabin must accommodate. Capacity is more fundamental.
+
+### Phase 2 — Thumbnail Eligibility
+
+**Ventilation:**
+- Exhaust Fan: mechanical fan unit visible on cabin exterior/interior — visually identifiable
+- Air Purifier: standalone purifier unit inside cabin — visually identifiable
+- Louvered Walls: louvered panel construction — visually identifiable
+- Open Mesh Roof: mesh/grill roof structure — visually identifiable
+
+These are visually distinct construction/equipment features. **Thumbnail eligible: true.** `thumbnail_options: ["Exhaust Fan", "Air Purifier", "Louvered Walls", "Open Mesh Roof"]`
+
+**Capacity** (2–3 / 4–6 / 8–10 / 10–12 Person): Numeric/dimensional spec — no meaningful visual difference between a "4–6 person" and "8–10 person" cabin from a thumbnail. **Thumbnail eligible: false.**
+
+### Phase 3 — Missing Buyer Spec Audit
+
+Cross-referencing buyer_spec_list against Agent 3 vision_output and LLM world knowledge:
+
+**Candidate gaps:**
+
+1. **Cabin Type / Installation Context (Indoor vs Outdoor):** Agent 3 identifies this as a primary product class separator. The buyer_spec_list has Ventilation which partially captures this (Open Mesh Roof implies outdoor; Exhaust Fan could be indoor or outdoor). However, Indoor vs Outdoor is a more direct and fundamental requirement — sellers need to know the installation context to confirm structural suitability, not just ventilation preference. Semantic check: "Cabin Type" is not in buyer_spec_list; "Installation Area" is not in buyer_spec_list. **Confirmed absent.**
+
+   Would this be more important than current Rank 1 (Ventilation) or Rank 2 (Capacity)? Indoor/Outdoor is arguably as important as Ventilation — it determines the entire structural specification. However, Ventilation already partially captures this distinction (Open Mesh Roof = outdoor; Exhaust Fan/Air Purifier = indoor). The overlap is significant. Assigning `would_be_rank: 2` — more important than Capacity because it gates structural suitability, but Ventilation already partially covers it. On reflection, since Ventilation options already encode indoor/outdoor context (Open Mesh Roof and Louvered Walls are outdoor; Exhaust Fan and Air Purifier are indoor), adding a separate Cabin Type spec would be partially redundant. **Exclude — semantic overlap with Ventilation is too high; not a clean gap.**
+
+2. **Capacity in persons (exact, not range):** The buyer_spec_list already has Capacity with range values (4–6 Person, etc.). This is present. **Not a gap.**
+
+3. **Installation Location / Venue Type (Airport / Office / Hotel / Factory):** Agent 3 identifies buyer segments as airports, hotels, corporate campuses, industrial plants. Sellers need to know the venue type to recommend appropriate fire rating and compliance features. Semantic check: not present in buyer_spec_list. However, this is an application/use-case tag — sellers can determine appropriate specs from Ventilation + Capacity. Post-connection discussion is sufficient. **Below importance threshold — exclude.**
+
+4. **Body/Frame Material:** Already in buyer_spec_list as "Frame Material." **Not a gap.**
+
+5. **Fire Rating requirement:** From Agent 3 market_context (NBC 2016 compliance, airport/hospital buyers). Sellers need to know if the buyer requires fire-rated panels — this gates product eligibility for regulated venues. Semantic check: not present in buyer_spec_list. **Confirmed absent.** Would this be more important than current Rank 2 (Capacity)? No — Capacity is a harder requirement that more directly determines which product to quote. Fire rating is important but is often resolved through venue type discussion. `would_be_rank` not assigned — less important than both current ranked specs. **Include as missing spec without would_be_rank.**
+
+**Missing specs with would_be_rank ≤ 2:** None identified that clearly displace current Rank 1 or Rank 2.
+
+**Coverage verdict:** 1 missing spec → **partial**
+
+### Phase 4 — Image Upload Assessment
+
+**Image upload recommended?** No.
+
+Standard spec values (Ventilation type, Capacity) adequately capture the buyer's core requirement. Smoking cabins are catalogue products with defined configurations — sellers can respond accurately from spec values alone. There is no part-identification, custom fabrication, or extreme design variability scenario that would require a visual reference. Post-connection discussion handles any remaining configuration details.
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+Thumbnail-eligible specs from buyer_spec_audit:
+- `top_rfq_specs` Rank 1: Ventilation (`thumbnail_eligible: true`, `thumbnail_options: ["Exhaust Fan", "Air Purifier", "Louvered Walls", "Open Mesh Roof"]`)
+- `missing_important_specs`: No entries with `would_be_rank` ≤ 2 and `thumbnail_eligible: true`
+
+4 prompts total (one per Ventilation option value). All represent `primary_segment`: prefabricated ventilated smoking enclosure for workplace and public-space compliance.
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Significant visual variation between sub-types — fully enclosed indoor cabin, open outdoor shelter, wall-mounted booth, and modular room are visually distinct product classes. Buyers use the image to confirm sub-type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Capacity (persons) and ventilation type (ducted exhaust vs air purifier vs open mesh) are primary shortlisting gates — a cabin that cannot accommodate the required number of users or lacks the correct ventilation for the installation context is eliminated before price or company are considered."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Capital purchase with substantial price variation across capacity and ventilation/filtration tiers; Indian facility managers compare prices across shortlisted suppliers but only after confirming spec fit — listed price is a budget entry point and final price is negotiated."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in the Indian smoking cabin market — the market is fragmented across regional prefab fabricators and no taxonomy sibling or market research source identifies a brand buyers search for by name.",
+      "reason": "Manufacturer status, installation capability, and after-sales service network are evaluated during vendor selection for a compliance-critical structure, but no branded sub-categories appear among taxonomy siblings and no Indian brand commands buyer-name recall in this category."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Large custom modular smoking rooms may be quoted per project when dimensions and fitout are fully bespoke, but standard catalogue units are always per piece — no buyer ever questions the unit for a discrete modular cabin structure.",
+      "reason": "Unit is entirely implied by the product — a modular cabin is always sold per piece and no buyer would question this."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Capacity",
+        "reason": "Non-interchangeable across requirements — a 2-person booth cannot serve a 10-person need — and drives the largest price delta of any spec in the list, from compact single-person units to 15-person modular rooms."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Cabin Type",
+        "reason": "Indoor vs outdoor vs wall-mounted defines the fundamental product class and installation engineering — non-interchangeable across installation contexts — with significant price delta between a wall-mounted booth and a fully enclosed indoor cabin."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Ash Disposal",
+      "Body Material",
+      "Cabin Capacity",
+      "Cabin Finish",
+      "Cabin Type",
+      "Door Type",
+      "Features",
+      "Filtration System",
+      "Installation Area",
+      "Ventilation Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Fire Resistance Rating",
+        "why_important": "Airport, hospital, and mall buyers specifically require fire-rated panels for NBC 2016 and venue-specific compliance — sellers need this to confirm product eligibility before quoting.",
+        "source": "both",
+        "example_values": ["Non-rated", "FR Grade", "A2 Non-combustible", "As per NBC 2016"]
+      },
+      {
+        "spec_name": "Cabin Dimensions",
+        "why_important": "Facility managers must confirm the cabin footprint fits their allocated space before procurement — without floor area or external dimensions, sellers cannot confirm installation feasibility.",
+        "source": "LLM world knowledge",
+        "example_values": ["1200 x 1200 mm", "2000 x 2000 mm", "3000 x 2000 mm", "Custom"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Ventilation",
+        "reason": "Ventilation type determines whether the cabin can be installed in the buyer's specific context — indoor venues require mechanical exhaust or air purifier; outdoor areas may accept louvered walls — and sellers need this to confirm product fit before quoting.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Exhaust Fan", "Air Purifier", "Louvered Walls", "Open Mesh Roof"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Capacity",
+        "reason": "Capacity in persons is a hard, non-interchangeable requirement that directly determines which model a seller can offer and at what price — sellers cannot respond accurately without this.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Fire Rating Requirement",
+        "why_important": "Sellers need to know if the buyer's venue (airport, hospital, mall) mandates fire-rated panels to confirm product eligibility and compliance before responding to the RFQ.",
+        "source": "both",
+        "example_values": ["Not required", "FR Grade required", "A2 Non-combustible required", "As per venue norms"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Ventilation",
+      "option_value": "Exhaust Fan",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated indoor smoking cabin with a visible wall-mounted exhaust fan unit on the exterior panel, steel body, clean white background, front-facing view, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Ventilation",
+      "option_value": "Air Purifier",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated indoor smoking cabin interior showing a standalone air purifier unit mounted on the wall or floor, enclosed glass-and-steel cabin, clean white background, front-facing view, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Ventilation",
+      "option_value": "Louvered Walls",
+      "id": "spec_3",
+      "prompt_for_generation": "Outdoor prefabricated smoking shelter with clearly visible louvered aluminium wall panels allowing natural airflow, open-sided structure, neutral outdoor background, front-facing view, daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Ventilation",
+      "option_value": "Open Mesh Roof",
+      "id": "spec_4",
+      "prompt_for_generation": "Outdoor prefabricated smoking shelter with a clearly visible open mesh or grill roof panel allowing smoke to escape naturally, steel frame structure, neutral outdoor background, slight elevated angle to show roof mesh, daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
