@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'PUF Cabin' is material-bounded (polyurethane foam sandwich panels) within the broader Portable Cabin parent; all product_types and buyer_intent_queries cluster around one coherent purchase context — procuring a thermally insulated portable prefabricated structure — with no incompatible intent clusters observed; 0 of 5 vagueness signals fire.",
+    "is_generic: false because the parent MCAT 'Portable Cabin' (13,877 listings) and 'Prefabricated Cabin' (6,259 listings) serve the roll-up function; PUF Cabin at 1,376 listings is a material-specific carve-out with bounded scope, not a catch-all umbrella."
+  ]
+}
