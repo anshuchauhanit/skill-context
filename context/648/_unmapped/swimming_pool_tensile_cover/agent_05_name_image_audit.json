@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Swimming Pool Tensile Cover' directly matches the top primary keyword and trade name conventions confirmed across Agent 3 alt_names and market_context; no dominant alternative naming pattern found in the Indian B2B market that would make this suboptimal.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows a tensile membrane canopy (arch/barrel-vault form, light-coloured fabric) stretched over a steel frame above an outdoor swimming pool — correctly representing the primary segment.",
+      "The outdoor setting, background trees, and wide-angle composition reduce product focus; a cleaner, closer shot with a more prominent PVC fabric texture and MS frame detail on a neutral or poolside background would better serve B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product photograph of a custom PVC-coated white polyester tensile membrane canopy stretched over a rectangular outdoor swimming pool, supported by a galvanised mild steel tubular frame with visible tension cables, conical or arch structural form, bright blue pool water visible below, clean poolside tiles, soft natural daylight, slight low-angle perspective to show fabric tension and frame structure, neutral sky background, sharp focus on fabric texture and steel joints, no people, photorealistic, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
