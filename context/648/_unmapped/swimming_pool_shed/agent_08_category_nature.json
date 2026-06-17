@@ -1,0 +1,45 @@
+{
+  "agent": "Agent 8 — Category Nature",
+  "mcat": "Swimming Pool Shed",
+  "mcat_id": "191761",
+  "is_vague_signal_evaluation": {
+    "agent3_prior": {
+      "suspected_vague": false,
+      "note": "Agent 3 did not flag mcat_vagueness_signal; primary_segment is confident and unhedged"
+    },
+    "signal_1_name_ambiguity": {
+      "fires": false,
+      "evidence": "'Swimming Pool Shed' resolves to one product concept — an overhead enclosure structure built over a swimming pool. No competing industry reads this name differently; the word 'shed' in this context unambiguously means a cover/enclosure structure, not a storage shed or utility room."
+    },
+    "signal_2_primary_segment_difficulty": {
+      "fires": false,
+      "evidence": "Agent 3 produced a confident, unhedged primary_segment: 'Tensile fabric or polycarbonate overhead enclosure structure custom-fabricated and installed over a swimming pool.' No 'or depending on segment' hedging; the two materials named are sub-variants of the same product concept."
+    },
+    "signal_3_buyer_intent_queries_diverge": {
+      "fires": false,
+      "evidence": "All buyer intent queries cluster around one purchase context — someone seeking an overhead enclosure/cover structure for a swimming pool. Variants (tensile, polycarbonate, retractable) are spec refinements within the same intent, not incompatible intents."
+    },
+    "signal_4_product_types_no_shared_buyer": {
+      "fires": false,
+      "evidence": "All product_types (tensile fabric shed, polycarbonate shed, glass enclosure, FRP shed, retractable shed, dome enclosure) share the same buyer archetype — a hotel, resort, residential complex, or sports facility operator wanting to cover a swimming pool. Zero buyer-profile incompatibility."
+    },
+    "signal_5_regulatory_or_sibling_carveout": {
+      "fires": false,
+      "evidence": "Sibling 'Swimming Pool Tensile Cover' (mcat_id 166772) carves out tensile membrane covers, but this is a material/form-factor sub-type of the same product concept with the same buyer — not a different regulatory regime or incompatible buyer profile. The MCAT name 'Swimming Pool Shed' is broader and correctly encompasses multiple enclosure types; the sibling carve-out does not create buyer incompatibility."
+    },
+    "signals_fired": 0,
+    "is_vague_verdict": false
+  },
+  "category_nature": {
+    "is_generic": false,
+    "is_specific": true,
+    "is_vague": false,
+    "is_thin": true,
+    "is_branded": false,
+    "is_service": false,
+    "reason": [
+      "is_specific: the MCAT name tightly bounds the product to overhead enclosure structures for swimming pools; buyer intent is homogeneous (weather/UV protection for a pool) across all material variants (tensile, polycarbonate, glass, FRP), and 0 of 5 vagueness signals fire. is_thin: listing_count of 280 is low for a custom-fabricated structural category; page tile density is consistent with a niche, project-based product with long sales cycles and few active sellers, confirming thin volume.",
+      "is_generic: no — the MCAT does not function as a catch-all roll-up; it is bounded to one specific application (pool enclosure). is_branded: no — product is material/function-based with no brand anchor. is_service: no — the deliverable is a physical installed structure, not a service contract, even though installation is bundled."
+    ]
+  }
+}
