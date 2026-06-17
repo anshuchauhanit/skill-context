@@ -1,0 +1,605 @@
+{
+  "mcat_description": {
+    "short": "Telephone booths are prefabricated, self-contained enclosures designed to provide acoustic privacy for telephony, video calls, or focused work; sold as complete units in FRP, steel, aluminium, or wood-frame construction with integrated soundproofing.",
+    "long": "Telephone booths in the Indian B2B market span two commercially active forms: traditional FRP prefabricated kiosks used in public, industrial, and institutional settings for telephony privacy, and modern acoustic office phone pods/calling booths designed for open-plan corporate offices, co-working spaces, and call centres. Both types are modular, require no civil foundation, and are sold as complete ready-to-install units. Key construction materials include fibreglass-reinforced plastic (FRP), mild steel, aluminium frames, and engineered wood with acoustic foam or rockwool insulation liners. Buyers evaluate on noise attenuation rating (dB), footprint dimensions, material durability, ventilation, and built-in electrical provisions.",
+    "product_types": [
+      "FRP Telephone Booth (traditional prefab kiosk)",
+      "Acoustic Office Phone Booth / Calling Pod (single-person)",
+      "Soundproof Meeting Pod (2–4 person)",
+      "Industrial Acoustic Telephone Booth (for factories, oil rigs, process plants)",
+      "Steel / Metal Frame Acoustic Booth",
+      "Wooden Acoustic Phone Booth",
+      "Aluminium Frame Acoustic Booth",
+      "Outdoor Weatherproof Telephone Kiosk",
+      "PCO / STD Booth (public call office prefab cabin)",
+      "Portable / Dismantlable Phone Pod (on wheels)"
+    ],
+    "primary_applications": [
+      "Open-plan corporate office privacy for phone and video calls",
+      "Co-working space acoustic privacy zones",
+      "Industrial plant and factory floor telephony (process industries, cement, steel, petrochemical)",
+      "Public telephony kiosks (PCO/STD booths) in public spaces",
+      "Call centre agent privacy booths",
+      "Offshore oil rig communication stations",
+      "Educational institution quiet study/counselling pods",
+      "Healthcare facility private consultation spaces",
+      "Recording studio vocal isolation",
+      "Event and wedding photo/video booth (decorative — contamination risk)"
+    ],
+    "buyer_segments": [
+      "Corporate facility managers and PMCs procuring for open-plan offices",
+      "Co-working space operators",
+      "Industrial plant procurement teams (cement, steel, chemical, power, railways)",
+      "Government and public infrastructure departments (PCO/STD booths)",
+      "Architects and interior designers specifying acoustic solutions",
+      "Call centre operators",
+      "Educational institutions and EdTech companies",
+      "Healthcare facility administrators",
+      "Event management companies (decorative booths — contamination risk)"
+    ]
+  },
+  "primary_segment": "FRP and acoustic prefabricated telephone booth for office privacy, industrial telephony, and institutional use",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Functional prefabricated telephone booth / acoustic phone pod for office, industrial, or institutional use",
+    "secondary_families": [
+      "Decorative / prop telephone booth (retro London red box replica, photo booth, video booth for events and weddings — different buyer: event planner; no acoustic function; different price tier)"
+    ],
+    "reason": "Call data explicitly contains 'Retro Video Booth (Telephone)', 'Telephone Photo Booth', and 'Telephone Booth Video' — decorative prop products with a fundamentally different buyer (event/wedding planner vs. facility manager/industrial procurement), no acoustic or telephony function, and incompatible use context with the functional prefab enclosure primary family."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "telephone booth",
+      "phone booth",
+      "acoustic telephone booth",
+      "FRP telephone booth",
+      "calling booth",
+      "office phone booth",
+      "soundproof phone booth",
+      "calling pod",
+      "prefab telephone booth",
+      "telephone kiosk"
+    ],
+    "technical_synonyms": [
+      "acoustic phone pod",
+      "soundproof cabin",
+      "FRP acoustic enclosure",
+      "noise isolation booth",
+      "privacy pod",
+      "silence pod",
+      "vocal booth",
+      "acoustic enclosure",
+      "phone pod",
+      "telephony enclosure"
+    ],
+    "trade_names": [
+      "Framery (brand)",
+      "ThinkPod (Ecotone)",
+      "Niveeta Pods",
+      "Ubalpine booths",
+      "PCO booth",
+      "STD booth",
+      "WFH pod",
+      "office pod",
+      "meeting pod",
+      "focus room"
+    ],
+    "hindi_terms": [
+      "टेलीफोन बूथ",
+      "फोन बूथ",
+      "कॉलिंग बूथ"
+    ],
+    "buyer_intent_queries": [
+      "phone booth for office use",
+      "acoustic telephone booth for open office",
+      "soundproof calling booth for corporate office",
+      "FRP telephone booth manufacturer India",
+      "prefabricated telephone booth price India",
+      "office phone pod for open plan workspace",
+      "single person soundproof booth for calls",
+      "industrial telephone booth for factory",
+      "telephone booth for co-working space",
+      "portable acoustic phone booth dismantlable"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Indian sellers and buyers transact telephone booths as complete self-contained units; MOQ is typically 1 piece/set, and all manufacturer sites (Ubalpine, Niveeta, AM Acoustic, Everest Composites) quote per piece or per unit.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "FRP prefab kiosk (traditional)",
+        "unit": "per piece",
+        "note": "Sold as complete assembled or flat-pack unit"
+      },
+      {
+        "sub_segment": "Acoustic office phone pod",
+        "unit": "per set",
+        "note": "Modular dismantlable units; some suppliers quote per set for multi-unit corporate orders"
+      },
+      {
+        "sub_segment": "Multi-person meeting pod",
+        "unit": "per set",
+        "note": "Larger 2–4 person pods quoted per set"
+      }
+    ],
+    "sources_checked": [
+      "ubalpine.com",
+      "niveeta.com",
+      "amacousticcorporation.co.in",
+      "prefabeverest.com",
+      "accio.com"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, 'Telephone Booths' commercially covers two distinct but co-existing product families: (1) traditional FRP prefabricated kiosks used for public telephony (PCO/STD booths), industrial plant communication stations, and institutional settings; and (2) modern acoustic office phone pods/calling booths for open-plan corporate offices, co-working spaces, and hybrid workplaces. The modern acoustic segment is experiencing rapid growth driven by hybrid work adoption and Grade A commercial real estate expansion in India. Key Indian manufacturers include Everest Composites (Vadodara), AM Acoustic Corporation (Noida), Ubalpine, Niveeta Pods, and Ecotone Acoustic (ThinkPod range). Construction materials span FRP/fibreglass, mild steel, aluminium frames, and engineered wood with rockwool or acoustic foam insulation. Noise attenuation performance is a primary differentiator, with Indian market products typically rated at 22–35 dB reduction; TUV Rheinland certification is cited by at least one Indian supplier (Ubalpine) as a credibility marker. The MCAT also attracts decorative/prop telephone booths (retro London red box replicas, photo booths for events) — a contamination risk that must be filtered. Seller geography is concentrated in NCR/Delhi, Gujarat (Vadodara, Ahmedabad), Maharashtra (Mumbai, Nagpur), Tamil Nadu (Chennai), and Telangana (Hyderabad). The global acoustic pod market is projected for strong CAGR growth (single source — low confidence on specific figures), consistent with observed Indian market activity.",
+  "buyer_attracting_attributes": [
+    "Noise Attenuation (dB rating)",
+    "Material (FRP / Steel / Aluminium / Wood)",
+    "Dimensions / Footprint",
+    "Capacity (1-person / 2-person / 4-person)",
+    "Ventilation System",
+    "Acoustic Insulation Type (Rockwool / Acoustic Foam / Felt)",
+    "Built-in Electrical Provisions (power sockets, USB, LAN)",
+    "Portability / Dismantlability",
+    "Certification (TUV Rheinland / BIS / ISO)",
+    "Color / Finish Customisation"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "38456",
+    "mcat_name": "Telephone Booths",
+    "mcat_level": "4",
+    "listing_count": "419",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Telephone Booths",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35400.0",
+      "name": "Portable Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35400.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "32980",
+        "mcat_name": "Office Cabin",
+        "listing_count": "6818",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35057",
+        "mcat_name": "Portable Classrooms",
+        "listing_count": "736",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35400",
+        "mcat_name": "Portable Cabin",
+        "listing_count": "13877",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42755",
+        "mcat_name": "Security Cabins",
+        "listing_count": "4207",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43789",
+        "mcat_name": "Wooden Cabins",
+        "listing_count": "665",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43790",
+        "mcat_name": "Mobile Cabins",
+        "listing_count": "613",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "56012",
+        "mcat_name": "Glass Cabin",
+        "listing_count": "1247",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96540",
+        "mcat_name": "Office Container",
+        "listing_count": "21197",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96541",
+        "mcat_name": "Mobile Containers",
+        "listing_count": "2044",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "111378",
+        "mcat_name": "Smoking Cabin",
+        "listing_count": "192",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119140",
+        "mcat_name": "Container Conversion Service",
+        "listing_count": "68",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121149",
+        "mcat_name": "FRP Cabin",
+        "listing_count": "1604",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135704",
+        "mcat_name": "Portable Kitchen",
+        "listing_count": "457",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135705",
+        "mcat_name": "Portable Security Cabins",
+        "listing_count": "6233",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135712",
+        "mcat_name": "Prefabricated Cabin",
+        "listing_count": "6259",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135797",
+        "mcat_name": "Toll Booth",
+        "listing_count": "853",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135966",
+        "mcat_name": "Eco Portable Cabins",
+        "listing_count": "436",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136204",
+        "mcat_name": "Prefabricated Accommodation",
+        "listing_count": "1321",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145135",
+        "mcat_name": "FRP Portable Security Cabin",
+        "listing_count": "1727",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149768",
+        "mcat_name": "Portable Dressing Room",
+        "listing_count": "358",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150360",
+        "mcat_name": "Portable Log Cabins",
+        "listing_count": "220",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150362",
+        "mcat_name": "Portable Pantry",
+        "listing_count": "142",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150852",
+        "mcat_name": "MS Porta Cabin",
+        "listing_count": "9337",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150853",
+        "mcat_name": "MS Security Cabins",
+        "listing_count": "1334",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154082",
+        "mcat_name": "Wooden Guard Room",
+        "listing_count": "111",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159318",
+        "mcat_name": "GRP Cabin",
+        "listing_count": "55",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "165827",
+        "mcat_name": "Modular Portable Cabin",
+        "listing_count": "3118",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167809",
+        "mcat_name": "PUF Cabin",
+        "listing_count": "1376",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181546",
+        "mcat_name": "PVC Portable Cabin",
+        "listing_count": "407",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181975",
+        "mcat_name": "Prefabricated Security Cabin",
+        "listing_count": "1156",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185338",
+        "mcat_name": "GI Portable Cabin",
+        "listing_count": "2393",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185339",
+        "mcat_name": "Aluminium Office Cabins",
+        "listing_count": "1740",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "188230",
+        "mcat_name": "Portable ATM Cabin",
+        "listing_count": "130",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "207959",
+        "mcat_name": "Frisking Booth",
+        "listing_count": "168",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "do_research": true,
+      "reason": "Telephone booths are prefabricated structures with standardised dimensions, materials (steel/aluminium/fibreglass), and installation specs. No pharmaceutical, chemical safety, or dominant brand landscape exists — buyers evaluate on durability, weatherproofing, and footprint fit."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top impressions keywords ('telephone booth' 281, 'phone booth' 104, 'phone booth for office' 9, 'silence pods' 4) used to identify buyer search vocabulary and confirm acoustic/office segment intent."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms",
+          "primary_segment"
+        ],
+        "citation_note": "Top pageview keywords ('telephone booths' 68, 'phone booth' 15, 'acoustic telephone booth' 4, 'calling pod' 3, 'framery phone booth' 2) confirmed acoustic office segment as dominant buyer intent; 'framery' and 'calling pod' are trade/technical synonyms."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Call rows revealed FRP Telephone Booth (4x3, 3x3) confirming traditional prefab segment; 'Retro Video Booth (Telephone)', 'Telephone Photo Booth', 'Telephone Booth Video' confirmed decorative/prop contamination risk triggering suspected_vague: true. 'टेलीफोन बूथ' confirmed Hindi term."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect"
+        ],
+        "citation_note": "Taxonomy path confirmed prefabricated structures parent. Listing count 419 treated as plausible; page_fetch_failed true so tile count cross-check not possible — listing_count_suspect set false as default."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.ubalpine.com/booths-kiosks/",
+        "title": "Office Phone Booths & Acoustic Meeting Pods | Ubalpine",
+        "source_domain": "ubalpine.com",
+        "derived_outputs": [
+          "market_context",
+          "unit_quoting_context",
+          "buyer_attracting_attributes",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for: acoustic office phone booth product types, TUV Rheinland certification signal, 30–35 dB noise attenuation spec, Indian corporate/PMC buyer segment confirmation, per-piece unit quoting."
+      },
+      {
+        "url": "https://ecotone.co.in/focus-room-acoustic-pods-types-features-pricing-how-to-buy-in-india/",
+        "title": "Focus Room Acoustic Pods: Types, Features, Pricing & How to Buy",
+        "source_domain": "ecotone.co.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments",
+          "mcat_description.primary_applications",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for: Indian market growth context (hybrid work, Grade A real estate), buyer segments (co-working, education, healthcare), ThinkPod trade name, acoustic pod market size signal (tagged low confidence — single source)."
+      },
+      {
+        "url": "https://www.niveeta.com/office-phone-booth-price-in-india.html",
+        "title": "office phone booth, Calling, Telephone Booth, price in India",
+        "source_domain": "niveeta.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "unit_quoting_context",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for: Indian manufacturer confirmation, acoustic specifications (3-layer triplex, sensor LED, ventilation mufflers), calling booths city-level demand signals, per-piece unit quoting."
+      },
+      {
+        "url": "https://www.amacousticcorporation.co.in/telephone-booth.html",
+        "title": "Telephone Booth - FRP Soundproof Telephone Booth Manufacturer from Noida",
+        "source_domain": "amacousticcorporation.co.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.primary_applications",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for: FRP material confirmation, multipurpose application (factories, construction sites, public areas, noisy offices), Noida/NCR manufacturer geography."
+      },
+      {
+        "url": "http://www.prefabeverest.com/prefabricated-telephone-booth-4611990.html",
+        "title": "Prefabricated Telephone Booth Manufacturer, Prefab Telephone Booth Supplier",
+        "source_domain": "prefabeverest.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.short",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for: construction materials (felt board, glass, steel board, mineral wool insulation), no-foundation installation feature, frameless glass door spec, Gujarat manufacturer geography."
+      },
+      {
+        "url": "https://www.aircoolwaterchiller.in/new-items.html",
+        "title": "Acoustic Phone Booth & Office Meeting Pods Manufacturer from Mumbai",
+        "source_domain": "aircoolwaterchiller.in",
+        "derived_outputs": [
+          "buyer_attracting_attributes",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for: acoustic felt interior spec, -31 dB noise reduction rating, ventilation rate (208 m³/hour), built-in electrical provisions (USB-A, USB-C, wireless charger), Mumbai manufacturer geography."
+      },
+      {
+        "url": "https://www.accio.com/plp/office-pods-india",
+        "title": "Office Pods India: Modern & Customizable Solutions",
+        "source_domain": "accio.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for: Indian office pod market growth context (hybrid work), buyer evaluation criteria (acoustic performance, size/capacity, material/build, portability), MOQ=1 set confirmation, steel/aluminium frame as standard."
+      },
+      {
+        "url": "https://www.elixirpasystem.com/accessories.html",
+        "title": "PA System Accessories - FRP Hood / Telephone Booth OEM Manufacturer from Chennai",
+        "source_domain": "elixirpasystem.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for: industrial acoustic booth specs (FRP, rockwool 50mm, 22 dB attenuation, wall-mount), industrial buyer segment (cement, steel, chemical, petrochemical, railways, space, atomic energy)."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Telephone booths are prefabricated structures with standardised dimensions, materials (steel/aluminium/fibreglass), and installation specs. No pharmaceutical, chemical safety, or dominant brand landscape exists — buyers evaluate on durability, weatherproofing, and footprint fit."
+    }
+  }
+}
