@@ -1,0 +1,432 @@
+{
+  "mcat_description": {
+    "short": "RCC Toilet refers to a prefabricated or precast reinforced cement concrete toilet cabin or bathroom unit, manufactured off-site and installed as a complete sanitation structure. Sold as a single unit or multi-compartment block, it is used for permanent or semi-permanent sanitation in rural, public, and institutional settings across India.",
+    "long": "An RCC Toilet is a factory-manufactured, precast reinforced cement concrete toilet structure — typically a complete cabin comprising walls, roof, floor, and door — delivered to site and installed with minimal civil work. Concrete grades of M30 to M45 with Fe500 steel reinforcement are standard, with wall thicknesses typically ranging from 40–75mm in panel-build configurations. The product is available in Indian (IWC) and Western (EWC) commode styles, single or double compartment, and can be connected to septic tanks, bio-digesters, or municipal sewer lines. Demand in India is strongly driven by government sanitation schemes including Swachh Bharat Mission (Grameen and Urban), PMAY, and state-level rural sanitation programmes, with buyers including gram panchayats, municipal bodies, NGOs, construction contractors, and individual rural households.",
+    "product_types": [
+      "Single-compartment RCC toilet cabin (Indian style / IWC)",
+      "Single-compartment RCC toilet cabin (Western style / EWC)",
+      "Combined RCC toilet and bathroom unit",
+      "Double-compartment RCC toilet block",
+      "Multi-unit RCC toilet block (3+ seats)",
+      "Panel-build RCC toilet (dismantle-type, site-assembled)",
+      "Monolithic precast RCC toilet (single-pour, factory-finished)",
+      "RCC toilet with integrated overhead water tank",
+      "RCC toilet with bio-digester connection",
+      "Accessible / disabled-friendly RCC toilet cabin"
+    ],
+    "primary_applications": [
+      "Rural household sanitation under Swachh Bharat Mission (Grameen)",
+      "Urban slum and low-income housing sanitation",
+      "Public toilet blocks in parks, bus stands, and markets",
+      "Construction site worker sanitation",
+      "School and anganwadi toilet facilities",
+      "Railway station and highway rest stop sanitation",
+      "Gram panchayat and municipal public toilet installations",
+      "NGO and CSR-funded community sanitation projects",
+      "Disaster relief and temporary camp sanitation"
+    ],
+    "buyer_segments": [
+      "Gram panchayats and district rural development agencies (bulk procurement for SBM)",
+      "Municipal corporations and urban local bodies",
+      "Construction contractors and project developers",
+      "NGOs and CSR project implementers",
+      "Individual rural homeowners (self-construction under government subsidy)",
+      "Government departments (PWD, CPWD, railways, defence)",
+      "Real estate developers for labour colony sanitation",
+      "Schools, colleges, and institutional campuses"
+    ]
+  },
+  "primary_segment": "Precast RCC toilet cabin for rural and public sanitation (single-compartment, Indian style, Swachh Bharat Mission-aligned)",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated reinforced cement concrete toilet cabin/unit for permanent or semi-permanent sanitation installation",
+    "secondary_families": [],
+    "reason": "The MCAT name 'RCC Toilet' unambiguously refers to a single product family — precast/prefabricated concrete toilet structures — with no incompatible product families sharing the same name; all variants (IWC/EWC, single/multi-compartment, panel-build/monolithic) share the same material, buyer, regulatory context, and use case."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "RCC toilet",
+      "readymade toilet",
+      "precast toilet",
+      "readymade bathroom",
+      "cement toilet",
+      "concrete toilet",
+      "prefab toilet cabin",
+      "readymade toilet cabin",
+      "RCC toilet cabin",
+      "precast RCC toilet"
+    ],
+    "technical_synonyms": [
+      "precast reinforced concrete toilet unit",
+      "prefabricated RCC sanitation cabin",
+      "panel-build RCC toilet",
+      "monolithic precast toilet block",
+      "RCC toilet superstructure",
+      "precast concrete toilet block",
+      "reinforced cement concrete toilet cabin",
+      "RCC IWC toilet unit",
+      "RCC EWC toilet unit"
+    ],
+    "trade_names": [
+      "readymade RCC toilet",
+      "readymade cement toilet",
+      "RCC readymade bathroom",
+      "precast toilet room",
+      "RCC toilet block",
+      "readymade toilet and bathroom",
+      "RCC toilet tank (combined unit with overhead tank)"
+    ],
+    "hindi_terms": [
+      "readymade shauchalay",
+      "pakkaa shauchalay",
+      "cement ka shauchalay",
+      "taiyaar shauchalay",
+      "RCC shauchalay"
+    ],
+    "buyer_intent_queries": [
+      "readymade RCC toilet price in India",
+      "precast concrete toilet cabin for rural home",
+      "RCC toilet for Swachh Bharat Mission",
+      "readymade toilet and bathroom for home",
+      "prefabricated toilet cabin for construction site",
+      "single compartment RCC toilet near me",
+      "readymade cement toilet price per unit",
+      "RCC toilet block for school",
+      "precast toilet unit for gram panchayat",
+      "readymade bathroom and toilet combo price"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece (per unit / per cabin)",
+    "unit_reasoning": "RCC toilets are complete prefabricated structures sold as discrete units; Indian B2B transactions quote per piece or per unit, with multi-compartment blocks quoted per block or per seat in bulk government tenders.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Single-compartment toilet cabin",
+        "unit": "per piece",
+        "note": "Standard unit for individual household and small institutional buyers"
+      },
+      {
+        "sub_segment": "Multi-compartment toilet block",
+        "unit": "per block / per seat",
+        "note": "Government tenders and bulk municipal orders often quote per seat or per block"
+      },
+      {
+        "sub_segment": "Panel-build / dismantle-type",
+        "unit": "per set (panels)",
+        "note": "Some sellers quote per set of panels for site-assembled configurations"
+      }
+    ],
+    "sources_checked": [
+      "maconprecast.co.in",
+      "trirangainfra.com",
+      "fibrecraftsindia.com (comparative — FRP toilet unit pricing)",
+      "IndiaMART MCAT page (structural signal only)",
+      "World knowledge — Indian B2B sanitation procurement norms"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian market, 'RCC Toilet' is the dominant trade term for prefabricated reinforced cement concrete toilet cabins, used interchangeably with 'readymade toilet', 'precast toilet', and 'cement toilet' by buyers and sellers. The product is distinct from FRP/fibre portable toilets (lighter, relocatable) and MS/steel portable toilets — RCC toilets are heavier, more permanent structures intended for fixed installation. Demand is heavily linked to government sanitation schemes: Swachh Bharat Mission (Grameen and Urban), PMAY, and state rural sanitation programmes are the primary demand drivers, with gram panchayats, municipal bodies, and NGOs as the dominant institutional buyers. Manufacturers are concentrated in Maharashtra (Pune), Karnataka, Tamil Nadu, and Uttar Pradesh. Concrete grade M30–M45 with Fe500 steel is the standard structural specification cited by Indian manufacturers; wall thickness typically 40–75mm in panel-build type. Two construction types dominate: (1) monolithic/single-pour precast units transported whole, and (2) panel-build/dismantle-type units assembled on-site from precast panels — the latter preferred for remote locations due to transport constraints. Both Indian (IWC) and Western (EWC) commode styles are available, with Indian style being the dominant rural demand. The product sits under the 'Prefabricated Structures' taxonomy alongside FRP and MS portable toilets, but is differentiated by material (RCC vs fibre/steel), permanence, and buyer segment (rural/public infrastructure vs event/temporary use). No single BIS standard exclusively governs RCC toilet cabins; manufacturers reference IS 456:2000 (plain and reinforced concrete), CPHEEO sanitation guidelines, and Swachh Bharat Mission technical specifications for design compliance.",
+  "buyer_attracting_attributes": [
+    "Number of Compartments",
+    "Size / Dimensions (L x W x H in feet)",
+    "Toilet Style (Indian IWC / Western EWC)",
+    "Construction Type (Monolithic Precast / Panel-Build / Modular)",
+    "Concrete Grade (M30 / M40 / M45)",
+    "Wall Thickness",
+    "Overhead Water Tank (included / capacity in litres)",
+    "Sanitation Connection Type (Septic Tank / Bio-Digester / Sewer)",
+    "Color / Finish",
+    "Certifications / Scheme Compliance (SBM / PMAY / IS 456)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "214584",
+    "mcat_name": "RCC Toilet",
+    "mcat_level": "4",
+    "listing_count": "729",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > RCC Toilet",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35424.0",
+      "name": "Portable Toilets",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35424.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "35424",
+        "mcat_name": "Portable Toilets",
+        "listing_count": "8053",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42586",
+        "mcat_name": "Toilet Cubicles",
+        "listing_count": "4466",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42587",
+        "mcat_name": "Toilet Partitions",
+        "listing_count": "1861",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "44109",
+        "mcat_name": "Mobile Toilet Van",
+        "listing_count": "2119",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45789",
+        "mcat_name": "Mobile Toilets",
+        "listing_count": "4607",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119106",
+        "mcat_name": "Bio Toilet",
+        "listing_count": "1455",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "126794",
+        "mcat_name": "FRP Modular Toilet",
+        "listing_count": "735",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133092",
+        "mcat_name": "Bunk House Portable Toilets",
+        "listing_count": "210",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145136",
+        "mcat_name": "FRP Portable Toilet",
+        "listing_count": "6032",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "156755",
+        "mcat_name": "Chemical Toilets",
+        "listing_count": "126",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182628",
+        "mcat_name": "Sintex Portable Toilets",
+        "listing_count": "361",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "189105",
+        "mcat_name": "MS Portable Toilets",
+        "listing_count": "2127",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "222823",
+        "mcat_name": "PVC Toilet",
+        "listing_count": "343",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "224049",
+        "mcat_name": "Modular Toilet",
+        "listing_count": "442",
+        "source_pmcat": "35424.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 14,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "RCC toilets are prefabricated civil infrastructure products subject to BIS standards and CPHEEO guidelines; standard B2B research into material grades, design standards, and regulatory compliance is needed."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top impressions terms ('readymade bathroom', 'readymade toilet', 'readymade bathroom price') confirmed buyer vocabulary and demand for complete cabin units; 'readymade toilet tank' signals combined-unit variant."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms"
+        ],
+        "citation_note": "Top internal terms ('rcc toilet', 'precast toilet and bathroom', 'rcc toilet tank') confirmed on-platform buyer search vocabulary and product type variants."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "alt_names.hindi_terms"
+        ],
+        "citation_note": "Call rows confirmed product variants: Indian style, Western style, combined bathroom units; 'RCC Cement Toilet (Bathroom)' and 'Ready Made Washroom (Bathroom)' confirmed combined toilet+bathroom as a distinct product type. Spec fields were empty — no specs extracted."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed RCC Toilet sits under Prefabricated Structures alongside FRP/MS portable toilets; listing count 729 is plausible for this category — not flagged as suspect."
+      },
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "Page URL was not provided — page fetch not attempted. page_fetch_failed set to true. IndiaMART dir page observed in search results used for structural signals only (listing tile product types, geography of sellers)."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.maconprecast.co.in/toilets.php",
+        "title": "RCC Toilets - Macon Precast",
+        "source_domain": "maconprecast.co.in",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for concrete grade specifications (M40–M45, Fe500), construction methodology, and product feature descriptions for RCC precast toilet cabins."
+      },
+      {
+        "url": "https://www.trirangainfra.com/rcc-precast-toilet",
+        "title": "RCC Precast Toilet Manufacturer | Triranga Infra",
+        "source_domain": "trirangainfra.com",
+        "derived_outputs": [
+          "mcat_description.short",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed RCC precast toilet as a distinct prefabricated sanitation product category with durability and low-maintenance as primary buyer-attracting attributes."
+      },
+      {
+        "url": "https://www.nestin.co.in/ezynest",
+        "title": "Best Readymade Modular & Outdoor Portable Toilets India",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "market_context",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Confirmed Swachh Bharat Mission as primary demand driver; confirmed modular/readymade toilet as the dominant trade term in Indian market; confirmed standard 3x4 ft sizing."
+      },
+      {
+        "url": "https://www.fibrecraftsindia.com/portable-toilet-modules.html",
+        "title": "PORTABLE TOILET MODULES - Fibrecrafts India",
+        "source_domain": "fibrecraftsindia.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used to differentiate RCC toilet from FRP/MS portable toilet alternatives; confirmed RCC as one of multiple material types in the prefabricated toilet market."
+      },
+      {
+        "url": "https://www.nestin.co.in/nest-in-blog/mobinest/prefab-toilets-sustainable-solution-hygienic-public-sanitation",
+        "title": "Benefits of Prefab Public Toilets for the Environment and People's Health",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "market_context"
+        ],
+        "citation_note": "Confirmed public sanitation applications (parks, streets, outdoor locations) and Swachh Bharat Abhiyan alignment as primary use context."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "CPHEEO",
+        "NFYSW"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "RCC toilets are prefabricated civil infrastructure products subject to BIS standards (IS:2030 for pit latrines, CPHEEO guidelines for sanitation) and NFYSW regulations. Buyers evaluate structural durability, capacity, installation specs, and compliance certification rather than brand name. Standard B2B research into material grades, design standards, and regulatory compliance is needed."
+    }
+  }
+}
