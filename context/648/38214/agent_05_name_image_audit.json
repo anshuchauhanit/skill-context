@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 alt_names and market_context confirm the dominant Indian B2B product is a 'PEB Warehouse' or 'Prefabricated Godown' — 'Storage Buildings' is a generic consumer/retail term that does not signal the industrial PEB/prefab steel construction context buyers search for.",
+    "suggested_name": "Prefabricated Storage Buildings"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a small residential-style backyard storage shed (gable roof, vinyl/wood-look cladding, single roll-up door) — this is a consumer product segment entirely misaligned with the primary_segment of 'Prefabricated steel warehouse / godown (PEB) for industrial and logistics storage'.",
+      "The image conveys no industrial scale, no PEB steel framing, no colour-coated PPGI roofing, and no warehouse/godown context — a B2B buyer seeking a PEB warehouse or prefab godown would not recognise this thumbnail as relevant to their procurement need."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a large-span pre-engineered steel warehouse building (PEB) in an industrial setting, featuring a wide-span gable roof with colour-coated PPGI corrugated steel roofing sheets in light blue or grey, hot-rolled steel primary frame columns and rafters visible at the facade, sandwich panel or colour-coated steel wall cladding in cream or light grey, a wide industrial sliding or rolling shutter door at the front, concrete apron at the entrance, clear white studio-style or overcast sky background, sharp product-focused lighting, no people, no text overlays, professional B2B catalogue style, isometric front-corner perspective showing both the front facade and one side wall clearly.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
