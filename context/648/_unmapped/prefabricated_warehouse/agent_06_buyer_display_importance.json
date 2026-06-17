@@ -1,0 +1,381 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Industrial manufacturer, logistics operator, or real estate developer commissioning a prefabricated warehouse. This is a capital project purchase — high value, long lead time, site-specific.
+
+**Journey sequence:**
+1. **Image first** — scans listing grid to confirm it's a warehouse (not a factory shed, cabin, or greenhouse). Visual sub-type matters: insulated cold storage vs standard PEB vs agricultural godown are visually distinct. Wrong structure type = immediate skip.
+2. **Specification** — opens listing to check clear span, eave height, material/cladding type, and service mode (supply-only vs turnkey). These are the primary shortlisting gates. A buyer needing a 30m clear span cannot use a 12m truss structure.
+3. **Company** — this is a large capital project. Buyer checks manufacturer credentials, project portfolio, IS code compliance, erection capability, and geographic reach. An unknown fabricator with no track record is a risk on a multi-crore project.
+4. **Price** — per sq ft rate is the budget entry point. Indian buyers are price-aggressive but price is only comparable after span/height/cladding equivalence is confirmed. Final price is always negotiated.
+5. **Unit** — per sq ft is the dominant quoting unit but turnkey contracts are per project. Unit must be shown to prevent price misreading.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — significant visual variation across sub-types; wrong type = skip.
+- **Specification:** High — span, height, cladding, service mode are non-negotiable shortlisting gates.
+- **Company:** Medium — large capital project; manufacturer credentials and track record matter but specs carry equal or greater weight in initial shortlisting.
+- **Price:** Medium — per sq ft rate is a budget sanity check; only comparable after spec equivalence; final price always negotiated.
+- **Unit:** High — per sq ft vs per project creates real price comparison confusion; must be shown.
+
+---
+
+## Step 3 — Cross-Dimension Consistency Check
+
+1. **Price display type vs specification level:** Buyers arrive with a general requirement (size, use case) but discover and compare across spec tiers (cladding type, eave height, service mode) during search → `spec-driven price` is correct. Specification = High (discovery, not just confirmation). ✓
+2. **Unit High → price must be at least Medium.** Unit is High; price is Medium. ✓
+3. **`spec-driven price` → unit is not project-based.** Per sq ft is the dominant unit for supply-only; per project for turnkey. Both must be shown. Unit = High. ✓
+4. **Specification show: true → show_on_listing: true.** ✓
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "High visual variation across sub-types — standard PEB steel shed, PUF insulated cold storage, agricultural godown, and mezzanine warehouse are visually distinct. Buyers use the image to confirm structure type before reading any text; wrong type is an immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Clear span, eave height, cladding type, and service mode are primary shortlisting gates. A buyer needing a 30m clear-span insulated warehouse cannot evaluate a listing that omits these specs."
+  },
+  {
+    "rank": 3,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No single dominant brand with universal buyer recall — market is served by multiple pan-India PEB manufacturers (EPACK, Kirby, Zamil, Alfa) and regional fabricators; buyers search by spec and project capability, not brand name.",
+    "reason": "Large capital project buyers evaluate manufacturer credentials, IS code compliance, erection track record, and geographic service reach during vendor selection — company identity is a qualification signal, not a discovery signal."
+  },
+  {
+    "rank": 4,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Per sq ft rate varies substantially with cladding type, eave height, and service scope — buyers use listed price as a budget entry point after spec shortlisting. Indian buyers are price-aggressive but final price is always project-negotiated."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Turnkey / design-supply-erect contracts are quoted per project or per set — listings must clarify which unit applies to prevent price comparison confusion between supply-only and turnkey offers.",
+    "reason": "Per sq ft (supply-only) vs per project (turnkey) creates real price comparison confusion; buyers cannot compare rates across listings without knowing the unit basis."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Usage Application** — use-case tag (describes what the warehouse is FOR, not what it IS). Hard eliminate.
+- **Warehouse Type** — use-case/application tag (Godown, Distribution Center, Cold Storage describe end use). Hard eliminate.
+- **Built Type** — near-identity field; "Modular", "PEB", "Pre Engineered", "Prefab" are all synonyms for the same construction method in this MCAT. Single effective meaning. Soft eliminate.
+- **Ventilation Type** — consequence/accessory field; ventilation follows from cladding type and usage (cold storage → no ridge vent; standard PEB → turbo ventilator). Deprioritise.
+- **Floor Type** — accessory/civil scope field; floor type is a civil works decision separate from the structural system. Deprioritise.
+- **Roof Type** — partially correlated with Material and Eave Height; Truss vs Monitor vs Slope roof is a structural sub-type signal but secondary to Material and Eave Height.
+
+**Remaining candidates:** Material, Eave Height, Wall Cladding, Service Mode, Roof Type
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Material** (Structural Steel / MS With PUF Panel / MS With EPS Panel / MS With GI Sheet / RCC): Defines the structural and thermal system of the warehouse. Non-interchangeable — a cold storage buyer cannot substitute MS With GI Sheet for MS With PUF Panel. Largest price delta in the spec list (PUF insulated structure is 2–3x the cost of standard GI sheet structure). **Rank 1.**
+
+**Eave Height** (6m / 8m / 10m / 12m / 14m): Defines the operational capability of the warehouse — crane integration, high-bay racking, forklift clearance. Non-interchangeable across project requirements. Significant price delta per metre of additional height (additional steel tonnage, longer columns, bracing). **Rank 2.**
+
+*Wall Cladding* was considered for Rank 2 but is partially correlated with Material (MS With PUF Panel already implies PUF wall cladding). Eave Height is more independently price-driving and non-substitutable.
+
+*Service Mode* was considered but is a commercial scope decision, not a structural configurator — it does not drive material cost in the same way.
+
+### Phase 3 — Missing Spec Audit
+
+**specs_in_seller_list:** Built Type, Eave Height, Floor Type, Material, Roof Type, Service Mode, Usage Application, Ventilation Type, Wall Cladding, Warehouse Type
+
+**Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+
+- **Clear Span Width** — Agent 3 explicitly identifies "clear span width" as a primary buyer evaluation criterion ("18–36 metres for standard Indian industrial projects"). Not present in seller spec list under any name or semantic equivalent. A buyer needing a 30m column-free span cannot evaluate a listing without this spec. Sellers quote different steel tonnages and frame configurations for different spans — large price delta. Source: both.
+- **Structural Steel Grade** — Agent 3 references IS 800 compliance and structural steel grade as a buyer evaluation criterion. Not present in seller spec list. IS 2062 E250 vs E350 vs E450 drives both cost and structural certification eligibility. Source: both.
+- **Wind/Seismic Zone Compliance** — Agent 3 explicitly mentions "wind and seismic zone compliance" as a buyer evaluation criterion. Not present in seller spec list. Government and institutional buyers require zone-specific structural certification. Source: Agent 3 vision_output.
+
+**Cross-reference check:** Clear Span Width, Structural Steel Grade, Wind/Seismic Zone Compliance — none appear in `specs_in_seller_list` by name or semantic equivalent. All confirmed absent.
+
+**Importance threshold check:** All three would rank in the top 10 buyer-relevant specs for this MCAT. A senior category manager would add all three to the configurator list.
+
+### Phase 4 — Coverage Verdict
+
+3 missing important specs → `significant_gaps`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Total Area** (5000 sq ft / 10000 sq ft / 3000 sq ft / 2500 sq ft / 2000 sq ft / 1600 sq ft): Directly determines the project scale, steel tonnage, and total cost. Sellers cannot quote without knowing the footprint. Non-thumbnail-eligible (numeric/dimensional). **Rank 1.**
+
+**Usage** (FMCG Godown / Cold Storage / Warehouse / Storage / Food Storage / Industrial Storage): Determines the structural and cladding specification required — Cold Storage mandates PUF insulation; Food Storage may require hygienic wall panels; standard Industrial Storage uses GI sheet. Sellers need this to confirm they can supply the right system. Thumbnail-eligible — Cold Storage, FMCG Godown, and Industrial Storage are visually distinct warehouse types. **Rank 2.**
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Total Area:** Not thumbnail eligible — numeric values have no visual differentiation.
+- **Usage:** Thumbnail eligible — Cold Storage (insulated panels, refrigeration units visible), FMCG Godown (standard PEB with loading docks), Industrial Storage (large-span clear-span structure) are visually distinct.
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps:**
+
+- **Structure Type** is already in the buyer spec list — confirmed present. Not missing.
+- **Clear Span / Width** — Agent 3 identifies clear span as a primary buyer evaluation criterion. Not present in buyer spec list. Sellers need this to determine frame configuration and confirm they can supply the required column-free span. Source: both. `would_be_rank: 2` — more operationally critical than Usage for sellers to determine structural feasibility; displaces Usage to rank 3. Not thumbnail eligible (numeric/dimensional).
+- **Eave Height** — Agent 3 identifies eave height as a primary buyer evaluation criterion (crane integration, racking height). Not present in buyer spec list. Sellers need this to determine column height and confirm crane compatibility. Source: both. `would_be_rank: 2` — tied with Clear Span for structural feasibility; both are more important than Usage. Not thumbnail eligible (numeric/dimensional).
+
+*Note: Both Clear Span and Eave Height would compete for `would_be_rank: 2`. Clear Span is assigned `would_be_rank: 2` as it is the primary structural determinant; Eave Height is assigned `would_be_rank: 3` (below both ranked specs in terms of RFQ priority — buyers often specify eave height post-connection once span is confirmed). Eave Height does not receive `would_be_rank` ≤ 2, so no thumbnail fields are added.*
+
+**Cross-reference check:** Clear Span and Eave Height are absent from buyer spec list by name and semantic equivalent. Confirmed absent.
+
+**Importance threshold:** Both would rank in top 5 buyer-relevant RFQ specs. A senior category manager would add both.
+
+### Phase 4 — Image Upload Assessment
+
+**Image upload is NOT recommended.** Standard spec values (Total Area, Usage, Structure Type) give sellers sufficient context to respond with a preliminary quote. Prefabricated warehouses are not custom-designed-from-scratch from a visual reference — they are engineered from dimensional and functional inputs. Sellers can respond accurately and negotiate structural details (span, height, cladding) post-connection.
+
+### Coverage Verdict
+
+2 missing important specs → `partial`
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+Thumbnail-eligible specs from `buyer_spec_audit`:
+- `top_rfq_specs` rank 2: Usage (`thumbnail_eligible: true`, `thumbnail_options: ["FMCG Godown", "Cold Storage", "Warehouse", "Storage", "Food Storage", "Industrial Storage"]`)
+- `missing_important_specs`: Clear Span — `thumbnail_eligible: false`. No thumbnail prompts.
+
+6 prompts for Usage options.
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — standard PEB steel shed, PUF insulated cold storage, agricultural godown, and mezzanine warehouse are visually distinct. Buyers use the image to confirm structure type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Clear span, eave height, cladding type, and service mode are primary shortlisting gates. A buyer needing a 30m clear-span insulated warehouse cannot evaluate a listing that omits these specs."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No single dominant brand with universal buyer recall — market is served by multiple pan-India PEB manufacturers (EPACK, Kirby, Zamil, Alfa) and regional fabricators; buyers search by spec and project capability, not brand name.",
+      "reason": "Large capital project buyers evaluate manufacturer credentials, IS code compliance, erection track record, and geographic service reach during vendor selection — company identity is a qualification signal, not a discovery signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq ft rate varies substantially with cladding type, eave height, and service scope — buyers use listed price as a budget entry point after spec shortlisting. Indian buyers are price-aggressive but final price is always project-negotiated."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Turnkey and design-supply-erect contracts are quoted per project or per set — listings must clarify which unit applies to prevent price comparison confusion between supply-only and turnkey offers.",
+      "reason": "Per sq ft (supply-only) vs per project (turnkey) creates real price comparison confusion; buyers cannot compare rates across listings without knowing the unit basis."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Defines the structural and thermal system of the warehouse — MS With PUF Panel (cold storage) vs Structural Steel with GI Sheet (standard PEB) are non-interchangeable and carry a 2–3x price delta, making this the primary cost-driving configurator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Eave Height",
+        "reason": "Determines operational capability (crane integration, high-bay racking) and drives significant steel tonnage cost — non-substitutable across project requirements with a meaningful price delta per additional metre."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Eave Height",
+      "Floor Type",
+      "Material",
+      "Roof Type",
+      "Service Mode",
+      "Usage Application",
+      "Ventilation Type",
+      "Wall Cladding",
+      "Warehouse Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Clear Span Width",
+        "why_important": "Column-free clear span is the primary structural design parameter — buyers specify 18m, 24m, 30m, or wider spans based on racking layout and forklift operation requirements, and sellers must know this to determine frame configuration and confirm supply capability.",
+        "source": "both",
+        "example_values": ["18 m", "24 m", "30 m", "36 m"]
+      },
+      {
+        "spec_name": "Structural Steel Grade",
+        "why_important": "IS 2062 grade (E250 / E350 / E450) determines structural certification eligibility and load-bearing capacity — government, institutional, and crane-compatible warehouse buyers specify grade as a procurement requirement.",
+        "source": "both",
+        "example_values": ["IS 2062 E250", "IS 2062 E350", "IS 2062 E450", "Fe 500"]
+      },
+      {
+        "spec_name": "Wind and Seismic Zone Compliance",
+        "why_important": "Structural design must be certified for the project site's wind zone (IS 875 Part 3) and seismic zone (IS 1893) — government, PSU, and institutional buyers require zone-specific compliance documentation as a procurement condition.",
+        "source": "Agent 3 vision_output",
+        "example_values": ["Wind Zone II", "Wind Zone III", "Seismic Zone III", "Seismic Zone IV"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Total Area",
+        "reason": "Project footprint directly determines steel tonnage, cladding area, and total project cost — sellers cannot generate a meaningful quote without knowing the required built-up area.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Usage",
+        "reason": "End use determines the structural and cladding specification required — Cold Storage mandates PUF insulation, Food Storage requires hygienic panels, and standard Industrial Storage uses GI sheet cladding, making this the primary system-selection signal for sellers.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["FMCG Godown", "Cold Storage", "Warehouse", "Storage", "Food Storage", "Industrial Storage"]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Clear Span Width",
+        "why_important": "Sellers need the required column-free span to determine frame configuration and confirm structural feasibility — a 12m truss structure cannot substitute for a 30m portal frame requirement.",
+        "source": "both",
+        "example_values": ["18 m", "24 m", "30 m", "36 m"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Eave Height",
+        "why_important": "Sellers need the required eave height to confirm crane compatibility and high-bay racking clearance — this determines column height, bracing configuration, and whether the seller's standard system can meet the requirement.",
+        "source": "both",
+        "example_values": ["6 m", "8 m", "10 m", "12 m"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Usage",
+      "option_value": "FMCG Godown",
+      "id": "spec_1",
+      "prompt_for_generation": "Exterior view of a prefabricated steel warehouse used as an FMCG godown — standard PEB portal frame structure with colour-coated metal sheet roofing and walls, loading dock with roller shutter doors, forklift visible at entrance, industrial setting, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage",
+      "option_value": "Cold Storage",
+      "id": "spec_2",
+      "prompt_for_generation": "Exterior view of a prefabricated cold storage warehouse — PEB steel structure with thick PUF insulated sandwich panel walls and roof in white or light grey, insulated sliding door at entrance, refrigeration condensing units mounted on exterior wall, industrial setting, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage",
+      "option_value": "Warehouse",
+      "id": "spec_3",
+      "prompt_for_generation": "Exterior view of a large-span prefabricated steel warehouse — wide-bay PEB portal frame structure with Galvalume metal sheet roofing, ridge ventilators on roof, large roller shutter entry doors, concrete apron in front, logistics park setting, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage",
+      "option_value": "Storage",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior view of a mid-size prefabricated steel storage shed — single-bay PEB structure with colour-coated profile sheet roofing and walls, single roller shutter door, compact footprint, semi-urban industrial plot setting, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage",
+      "option_value": "Food Storage",
+      "id": "spec_5",
+      "prompt_for_generation": "Exterior view of a prefabricated food storage warehouse — PEB steel structure with hygienic white PUF or EPS sandwich panel walls and roof, smooth sealed panel joints, insulated personnel door and loading bay, clean industrial setting, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Usage",
+      "option_value": "Industrial Storage",
+      "id": "spec_6",
+      "prompt_for_generation": "Exterior view of a heavy-duty prefabricated industrial storage warehouse — large clear-span PEB portal frame structure with dark grey or blue colour-coated metal sheet cladding, crane beam visible through open bay, wide entry doors, heavy industrial plant setting, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
