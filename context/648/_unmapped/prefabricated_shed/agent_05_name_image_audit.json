@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Shed' is the dominant buyer-facing search term confirmed across Agent 3 primary_keywords and buyer_intent_queries, and aligns with the market context where 'Prefabricated Shed' and 'PEB Shed' are commercially synonymous in the Indian B2B market.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The thumbnail correctly shows a steel-framed prefabricated shed structure with visible portal frame columns, rafters, and colour-coated metal cladding panels — accurately representing the primary segment (PEB industrial/warehouse shed).",
+      "However, the image is a real-world photograph with a cluttered industrial background, a parked vehicle, and low visual clarity; an AI-generated clean-background image with a fully enclosed large-span PEB shed would significantly improve buyer impact and category representation."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A large-span Pre-Engineered Building (PEB) industrial steel shed, front three-quarter view, fully enclosed with colour-coated blue and grey corrugated metal roofing and wall cladding panels, visible portal frame steel columns and rafters, wide sliding shutter entrance door, clean white background, bright even studio lighting, photorealistic product render, sharp focus, no people, no vehicles, no clutter, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
