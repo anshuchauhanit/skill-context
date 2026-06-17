@@ -1,0 +1,1080 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "130985193",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "PUF Site Office Cabin",
+      "description": "We \"Dynamic Portable Cabins\" is one of the leading Manufacturer, Supplier &amp; Service Provider of Portable Cabins, Portable Office, Portable Toilets, Portable Security Cabins, Industrial Sheds, Banquet Hall Interior Designing Service and many more.",
+      "specs": {
+        "raw": "Brand:DPC, Built Type:Panel Build, Features:Electrical Wiring, Flooring Type:PVC on Marine Ply, Frame Material:Mild Steel (MS), Interior Wall Material:PPGI Sheet, Internal Material:PPGI SHEET, Material:PUF, Panel Insulation Material:PUF (Polyurethane), Shape:Square, Size:10 x 20 x 8.5 ft, Surface Finish:Paint Coated, Thickness:50 mm, Usage/Application:Office, Wall Panel Thickness:50 mm"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/4/302704242/WT/UY/BP/24691488/puf-site-office-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/puf-site office cabin-20187671597.html",
+      "image_file": "130985193.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Complete PUF panel cabin with blue door, window, and corrugated roof shown clearly on white background."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title names product type (Site Office Cabin) and insulation material (PUF) clearly."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs cover brand, build type, PUF insulation, PPGI sheet, MS frame, size (10x20x8.5ft), and 50mm wall panel thickness."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic company introduction listing multiple product categories without describing this specific cabin."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PUF panel cabin for site office use — correct product type and construction method for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Dynamic Portable Cabins' embedded as a business identifier."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Dynamic Portable Cabins' presented as a business identity statement."
+        }
+      ],
+      "verification_note": "Strong specs and photo; description is a generic company intro with business name leakage but product identity is correct.",
+      "source_url": "https://www.indiamart.com/proddetail/puf-site office cabin-20187671597.html"
+    },
+    {
+      "item_id": "142939732",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "PUF Security Cabin",
+      "description": "Jindal make puf security cabin. Can use hospital, industries,construction site and appartmets size available from 3feet x 3feet .",
+      "specs": {
+        "raw": "Brand:Jindal, Built Type:Prefab, Color:White, Is It Customized:Non Customized, Material:PUF, Size:4 x 4 ( L x W ) ft, Usage/Application:Can Be Used In Marketplace"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/6/LN/QS/YU/15369411/security-cabin-puf.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/puf-security cabin-21383125491.html",
+      "image_file": "142939732.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Small PUF security/guard cabin with counter window, door, and overhead light shown in outdoor setting."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names product type (PUF Security Cabin) but omits size, frame material, and panel thickness."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm PUF material, prefab build, and 4x4ft size but omit frame material, panel thickness, and insulation detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms PUF security cabin with multiple use contexts and size availability."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PUF security cabin — correct product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Security Cabins",
+        "reason": "Small 4x4ft PUF security/guard cabin also fits the 'Security Cabins' sibling MCAT."
+      },
+      "detected_problems": [],
+      "verification_note": "Valid PUF security cabin; also a candidate for Security Cabins sibling MCAT due to guard-cabin form factor.",
+      "source_url": "https://www.indiamart.com/proddetail/puf-security cabin-21383125491.html"
+    },
+    {
+      "item_id": "233707040",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "10 Feet PUF Portable Office Cabin",
+      "description": "<p>A <b>10 Feet PUF Portable Office Cabin</b> is a compact, insulated, and mobile structure ideal for use as a <b>security office, site supervisor cabin, ticket counter, or compact admin booth</b>. Built with <b>PUF (Polyurethane Foam) insulated panels</b>, it offers a strong and thermally efficient solution for temporary or permanent use in limited space areas.</p>",
+      "specs": {
+        "raw": "Brand:Vahrk, Built Type:Prefab, Material:PUF, Size:10x10x8Feet, Surface Finished:Paint Coated, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/2/VY/JP/IX/154162111/cold-storage.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/10-feet puf portable office cabin-2849910803973.html",
+      "image_file": "233707040.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Large grey prefabricated panel cabin with multiple windows and doors shown in outdoor yard."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title names size (10 Feet), insulation material (PUF), portability, and application (Office Cabin)."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm PUF material, prefab build, and 10x10x8ft size but omit panel thickness and frame material."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description details PUF insulated panel construction, multiple applications (security office, site supervisor, ticket counter), and thermal efficiency."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PUF portable office cabin — correct product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Strong title and description with clear PUF panel construction detail; specs are acceptable but could include panel thickness.",
+      "source_url": "https://www.indiamart.com/proddetail/10-feet puf portable office cabin-2849910803973.html"
+    },
+    {
+      "item_id": "237813134",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "PUF Office Container",
+      "description": "JMV MERINE SERVICES helps customers to improve their efficiency by controlling noise at work place or by best acoustic design, we provide solutions based on open standards, our customers can decide what works best for them. Our objective is to give people the best product with best design and services.<br />JMV MERINE SERVICES believes in latest technology should be use to design next-generation product which can fulfill client’s requirement as per international standards.",
+      "specs": {
+        "raw": "Built Type:Prefab, Color:White and Black, Material:PUF, Shape:Rectangular, Size:20x17x8.5feet, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/2/VD/SV/NA/32612665/site-office-containe.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/puf-office container-2850321413312.html",
+      "image_file": "237813134.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Long white-and-blue two-tone prefabricated portable cabin with corrugated metal walls and multiple barred windows on a construction site."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names product type (PUF Office Container) correctly but omits size, panel thickness, and frame material."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm PUF material, prefab build, and 20x17x8.5ft size but omit panel thickness and frame material."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic company capability statement about acoustic design and does not describe the office container product."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Container-style portable office cabin — within PUF Cabin MCAT scope as a recognised product type."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'JMV MERINE SERVICES' repeated twice as a business identity statement."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Office Container",
+        "reason": "Title explicitly uses 'Office Container' terminology which matches the 'Office Container' sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'JMV MERINE SERVICES' repeated twice as a business identity statement."
+        }
+      ],
+      "verification_note": "Valid PUF office container; also a strong candidate for Office Container sibling MCAT; description is generic company intro with business name leakage.",
+      "source_url": "https://www.indiamart.com/proddetail/puf-office container-2850321413312.html"
+    },
+    {
+      "item_id": "276743062",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "15x10 Feet PUF Portable Cabin",
+      "description": "<p>Our rich industry experience in this field enabled us to provide a wide range of 15x10 Feet PUF Portable Cabin to our reputed clients.</p>",
+      "specs": {
+        "raw": "Brand:NCR Industries, Built Type:Prefab, Flooring Type:Vinyl Flooring, Frame Material:Mild Steel (MS), Panel Insulation Material:PUF (Polyurethane), Size:15x10x8.5 Feet, Usage:Office, Wall Panel Thickness:40 mm"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/5/513403766/JQ/LO/UQ/10315707/prefabricated-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/15x10-feet puf portable cabin-2854214406233.html",
+      "image_file": "276743062.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "White PUF panel cabin with blue MS frame and multiple barred windows shown in outdoor yard."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title names dimensions (15x10 Feet), insulation material (PUF), and product type (Portable Cabin)."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs cover brand, prefab build, vinyl flooring, MS frame, PUF insulation, 15x10x8.5ft size, office use, and 40mm wall panel thickness."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic boilerplate statement about industry experience without product-specific detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PUF portable cabin with MS frame and PUF insulation — correct product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Strong title and specs; description is thin boilerplate but no active failure observed.",
+      "source_url": "https://www.indiamart.com/proddetail/15x10-feet puf portable cabin-2854214406233.html"
+    },
+    {
+      "item_id": "136629694",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Puff Panel Cabin",
+      "description": "Established in the year of 2018, Gunjan Prefab Solutions  is one of the leading manufacturer and service provider of  Portable Site Offices, Portable Cabin, Prefab Industrial Shed Service etc.  Due to our professional expertise, we have been the industry leaders and thus our role becomes stronger to fulfill the diverse needs of our prominent clients.   Under the respected guidance of Mr. Satish, we are where our clients want us to be.",
+      "specs": {},
+      "image_url": "http://5.imimg.com/data5/ZK/YJ/LJ/ANDROID-73359281/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/puff-panel cabin-20752121630.html",
+      "image_file": "136629694.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Small white prefabricated panel cabin with counter window and door shown in outdoor setting."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (Puff Panel) and product type (Cabin) correctly despite minor spelling variant."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no product attributes provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic company introduction mentioning portable cabins but providing no product-specific detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PUF panel cabin — correct product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains personal name 'Mr. Satish' as an individual identifier."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Gunjan Prefab Solutions' as a business identity statement."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs object is completely empty — no product attributes, dimensions, or material data provided."
+        },
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains personal name 'Mr. Satish' as an individual identifier."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Gunjan Prefab Solutions' as a business identity statement."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo is good_image, title acceptable, category valid, no contradiction; P13/P15/P16 are quality/policy flags not content failures.",
+      "source_url": "https://www.indiamart.com/proddetail/puff-panel cabin-20752121630.html"
+    },
+    {
+      "item_id": "137102551",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Puff Panel Porta Cabin",
+      "description": "<p dir=\"ltr\">Puff sandwich panel shall be made of of ms (75x 38) mm , supported with runner base . . base piller 75x75mm. purlin 50x50mm wall outer wall shall be made of pu puff form and puff insulation 50mm . dansity 40/m3. wall thickness 50 mm. Panel sheet 0. 5mm thickness. roof shall be made of ppgi sheet 0. 5 mm corrguted sheet . with puff insullations roof thickness. 30/60 mm . main door shall be puff sandwich panel 50mm . thickness. . With locking arrange-ment . complete assessories like al-drop hinges handle door closer . aluminum 2 track fix window, size 1200&#8217;mm x 900 mm. with 5mm glass and locking . arrangement , rain shed. ac window cut-out . . . . . . . 1nos 1. 5 tan all electrical fitting are in the portable cabin shall be 220- 240v , ac 50 hz anchor switch and socket fan &amp; tube light and bulkhead above door. only points. main mcb at the input b- junction for safety air conditioners point (mcb) . wire , hevells polycab , anchor , light point &#8230;&#8230;&#8230;&#8230;&#8230;. 4 nos wall fan point &#8230;&#8230;&#8230;1 nos power point &#8230; &#8230;&#8230;&#8230;. . 4 nos 16 amp normal point &#8230;&#8230;&#8230;. . 3 nos 5amp. a. C point &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;. . . . . 1 nos .</p>",
+      "specs": {
+        "raw": "Brand:Sandwich panel, Built Type:Panel Build, Color:White, Design Type:Rectangular, Frame Material:Galvanized Iron (GI), Material:puff panel porta cabin, Panel Insulation Material:PUF (Polyurethane), Place Of Origin:Pan India, Pre- paint  galvanized sheet.:Panel maximum  35kg.  Size 8x4  panel., Shape:Square, Size:40x10 ft, Usage/Application:House, Wall Panel Thickness:50 mm"
+      },
+      "image_url": "http://5.imimg.com/data5/HR/DZ/KZ/ANDROID-2671869/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/puff-panel porta cabin-20799407388.html",
+      "image_file": "137102551.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "PUF panel cabin under installation on site with blue frame, panel walls, and double doors visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (Puff Panel) and product type (Porta Cabin) correctly."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs cover GI frame, PUF insulation, panel build, 40x10ft size, 50mm wall panel, and PPGI sheet detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description provides detailed technical construction specs including MS frame dimensions, PUF density (40/m3), panel thickness, PPGI roof, door/window specs, and electrical fittings."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PUF sandwich panel porta cabin with detailed construction specs — correct product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — photo good_image, specs and description are strong with detailed PUF construction data, no contradiction, category valid.",
+      "source_url": "https://www.indiamart.com/proddetail/puff-panel porta cabin-20799407388.html"
+    },
+    {
+      "item_id": "241133447",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Puff Toilet Cabin",
+      "description": "Being a client-centric organization, we are engaged in offering a wide range of puff toilet cabin   ",
+      "specs": {
+        "raw": "Brand:Esnr, Material:Puff, No. Of Compartments:1, Shape:Rectangular, Size:3.6x4x7 ft, Usage/Application:All"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2023/4/297811841/HV/TC/FE/163338610/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/puff-toilet cabin-2850653444633.html",
+      "image_file": "241133447.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Small PUF portable toilet cabin with door open showing toilet seat, flush, and plumbing fixtures inside."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (Puff) and product type (Toilet Cabin) correctly but omits size and frame material."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm Puff material, 1 compartment, 3.6x4x7ft size, but omit frame material and panel thickness."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a single generic sentence offering 'puff toilet cabin' without any product-specific detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PUF portable toilet cabin is an explicitly listed product_type within the PUF Cabin MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — PUF toilet cabin is an explicitly listed product_type in this MCAT; photo clearly shows toilet interior confirming product identity.",
+      "source_url": "https://www.indiamart.com/proddetail/puff-toilet cabin-2850653444633.html"
+    },
+    {
+      "item_id": "278280772",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Puff 3 Pain Portable Cabin",
+      "description": "The Puff 3 Pain portable cabin offers versatile and durable temporary shelter, suitable for events, construction sites, or emergencies. Designed with insulated panels for thermal comfort, it provides ample space and mobility. Ideal for quick deployment, it ensures weather resistance and convenience in various outdoor settings.",
+      "specs": {
+        "raw": "Built Type:Modular, Color:White, Country of Origin:Made in India, I Deal In:New Only, Material:Mild Steel, Shape:Rectangular, Size:8x8 Feet, Usage/Application:Guard Room"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/7/431358329/WX/VC/BK/223993560/whatsapp-image-2024-07-01-at-13-15-57.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/puff-3 pain portable cabin-2854368177255.html",
+      "image_file": "278280772.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Multi-compartment prefabricated cabin with ALUCOLOR branded panels and multiple doors shown in outdoor setting."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (Puff) and product type (Portable Cabin) but contains apparent typo 'Pain' (likely 'Panel' or 'Pane') reducing clarity."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm modular build, 8x8ft size, and guard room use but list Mild Steel as material (frame) without explicitly confirming PUF insulation."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms insulated panels, thermal comfort, portability, and weather resistance for temporary shelter use."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Portable prefabricated insulated cabin — correct product type for PUF Cabin MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Puff 3 Pain Portable Cabin' where 'Pain' appears to be a typo of 'Panel' or 'Pane', making the title unclear to buyers."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo good_image, description acceptable, category valid; P12 flagged for title typo 'Pain'.",
+      "source_url": "https://www.indiamart.com/proddetail/puff-3 pain portable cabin-2854368177255.html"
+    },
+    {
+      "item_id": "290168859",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Puf Panel Porta Cabin",
+      "description": "<p dir=\"ltr\">Insulated pu puff panel PortaCabin high quality structure.ecofreindly , easy installed .<br>\nTampery structure. Fine Finishing.</p>",
+      "specs": {
+        "raw": "Built Type:Panel Build, Cabin Type:Site Office, Features:Partitions, Flooring Type:PVC on Cement Board, Frame Material:Mild Steel (MS), Height:2438 mm (8 ft), Insulation Material:PUF, Interior Wall Material:PPGI Sheet, Panel Insulation Material:PUF (Polyurethane), Size:customices, Usage/Application:Office, Wall Material:PUF Panel, Wall Panel Thickness:50 mm"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2025/1/477834810/ZB/MU/NL/2671869/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/puf-panel porta cabin-2855556986155.html",
+      "image_file": "290168859.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Two-storey prefabricated panel structure under construction with MS frame and white panel walls visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (PUF Panel) and product type (Porta Cabin) correctly."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs cover panel build, site office use, MS frame, 8ft height, PUF insulation, PPGI interior wall, PVC flooring, 50mm wall panel, and partitions."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms PUF panel construction, eco-friendly, easy installation, and fine finishing."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PUF panel porta cabin for site office — correct product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — strong specs, acceptable description, good photo, no contradiction, category valid.",
+      "source_url": "https://www.indiamart.com/proddetail/puf-panel porta cabin-2855556986155.html"
+    }
+  ],
+  "verified_bad_products": [],
+  "generated_bad_examples": [
+    {
+      "generated": true,
+      "generated_for_problem_codes": [
+        "P15",
+        "P16"
+      ],
+      "item_id": "GENERATED_P15_P16",
+      "pre_label": null,
+      "verified_label": "bad",
+      "override": true,
+      "title": "PUF Portable Site Office Cabin",
+      "description": "Contact Mr. Ramesh Kumar at 9876543210 or ramesh@prefabcabins.com. Sharma Prefab Solutions, Sector 14, Gurgaon offers high quality PUF insulated portable cabins for site offices and security use. Visit our showroom at Plot 22, Industrial Area, Gurgaon.",
+      "specs": {},
+      "image_url": null,
+      "product_page_url": null,
+      "image_file": null,
+      "image_status": "generated",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "No image available."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names PUF Portable Site Office Cabin — correct product type."
+        },
+        "specs": {
+          "category_fit": null,
+          "quality": "thin",
+          "reason": "Specs object is empty — no product attributes provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description contains personal contact details, phone number, email, company name, and physical address instead of product information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PUF portable site office cabin — correct product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains personal name 'Mr. Ramesh Kumar', phone number '9876543210', and email 'ramesh@prefabcabins.com'."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Sharma Prefab Solutions', locality 'Sector 14, Gurgaon', and physical address 'Plot 22, Industrial Area, Gurgaon'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains personal name 'Mr. Ramesh Kumar', phone number '9876543210', and email 'ramesh@prefabcabins.com'."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Sharma Prefab Solutions', locality 'Sector 14, Gurgaon', and physical address 'Plot 22, Industrial Area, Gurgaon'."
+        }
+      ],
+      "verification_note": "Generated illustrative example for P15 and P16 — real verified products (136629694) have P15+P16 but this generated example provides a more complete illustration of both codes including phone, email, and address."
+    }
+  ],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good PUF cabin images consistently show the complete assembled cabin exterior from a 3/4-angle or front-facing perspective, with panel walls, MS frame corners, door, and at least one window clearly visible. Background varies from clean white studio to outdoor yard or construction site settings. Colour schemes are typically white/grey panels with blue, grey, or green MS frame accents.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "PUF cabin images show the physical structure — panel walls, doors, windows, frame — and product appearance IS the primary buyer information.",
+      "No meaningful text is printed on the cabin exterior panels that OCR could extract; brand labels (e.g., ALUCOLOR) are incidental and not spec-bearing.",
+      "Buyers assess cabin quality, size, and construction from visual inspection of the structure, not from text overlaid on the product."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good PUF cabin photos show the complete assembled structure from a 3/4 or front angle with panel walls, door, window, and MS frame clearly visible.",
+    "product_identity": [
+      "PUF sandwich panel walls (smooth PPGI skin, vertical ribbing pattern)",
+      "MS frame corners in contrasting colour (blue, grey, or dark)",
+      "Door and at least one window visible on the cabin face"
+    ],
+    "acceptable_scenes": [
+      "Clean white/neutral studio background with cabin on legs",
+      "Outdoor yard or construction site with cabin fully assembled",
+      "Installation site showing cabin in context"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "130985193",
+        "reason": "Complete PUF panel cabin with blue door, window, and corrugated roof shown clearly on white background.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "233707040",
+        "reason": "Large grey prefabricated panel cabin with multiple windows and doors shown in outdoor yard.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "276743062",
+        "reason": "White PUF panel cabin with blue MS frame and multiple barred windows shown in outdoor yard.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "290168859",
+        "reason": "Two-storey prefabricated panel structure under construction with MS frame and white panel walls visible.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "137102551",
+        "reason": "PUF panel cabin under installation on site with blue frame, panel walls, and double doors visible.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "No thin photos identified — all verified products with images showed the cabin clearly enough to be buyer-useful.",
+    "thinness_signals": [],
+    "examples": []
+  },
+  "irrelevant_photos": {
+    "summary": "No irrelevant photos identified — all verified product images show PUF cabin structures belonging to this MCAT.",
+    "failure_classes": []
+  },
+  "relevant_titles": {
+    "summary": "Strong PUF cabin titles name the insulation material (PUF/Puff), product sub-type (Security/Office/Portable/Site Office), and dimensions or application.",
+    "strong_positive_signals": [
+      "Explicit PUF/Puff material token in title",
+      "Product sub-type named (Security Cabin, Office Cabin, Portable Cabin, Porta Cabin, Site Office Cabin)",
+      "Dimension or size token present (e.g., '10 Feet', '15x10 Feet')"
+    ],
+    "structural_patterns": [
+      "[Size] PUF [Sub-type] Cabin",
+      "PUF [Application] [Sub-type] Cabin",
+      "Puff Panel [Sub-type] Cabin",
+      "PUF [Sub-type] Cabin"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "130985193",
+          "title": "PUF Site Office Cabin",
+          "reason": "Names insulation material (PUF), application (Site Office), and product type (Cabin) — three buyer-relevant attributes in a concise title."
+        },
+        {
+          "item_id": "276743062",
+          "title": "15x10 Feet PUF Portable Cabin",
+          "reason": "Names exact dimensions (15x10 Feet), insulation material (PUF), portability, and product type — four specific buyer-attracting attributes."
+        },
+        {
+          "item_id": "233707040",
+          "title": "10 Feet PUF Portable Office Cabin",
+          "reason": "Names size (10 Feet), insulation material (PUF), portability, and application (Office Cabin) — strong multi-attribute title."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "142939732",
+          "title": "PUF Security Cabin",
+          "reason": "Correctly names material and sub-type but omits size, frame material, and panel thickness."
+        },
+        {
+          "item_id": "136629694",
+          "title": "Puff Panel Cabin",
+          "reason": "Correctly names material and product type but omits application, size, and frame detail."
+        },
+        {
+          "item_id": "137102551",
+          "title": "Puff Panel Porta Cabin",
+          "reason": "Correctly names material and product type but omits size and application."
+        },
+        {
+          "item_id": "290168859",
+          "title": "Puf Panel Porta Cabin",
+          "reason": "Correctly names material and product type but omits size and application."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin PUF cabin titles name the product type but omit key buyer-decision attributes such as size, panel thickness, frame material, or specific application.",
+    "thinness_signals": [
+      "Missing size/dimension token (e.g., '10x20 ft' or '10 Feet')",
+      "Missing application sub-type (e.g., Security, Office, Site Office, Labour Accommodation)",
+      "Missing panel thickness or insulation specification"
+    ],
+    "examples": [
+      {
+        "item_id": "142939732",
+        "title": "PUF Security Cabin",
+        "reason": "Correct product type named but no size, panel thickness, or frame material specified."
+      },
+      {
+        "item_id": "278280772",
+        "title": "Puff 3 Pain Portable Cabin",
+        "reason": "Contains apparent typo 'Pain' (likely 'Panel') and omits size and application, reducing buyer clarity."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "No irrelevant titles identified — all verified product titles name PUF cabin or closely related portable cabin products belonging to this MCAT.",
+    "failure_classes": []
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere.",
+    "input_data_absent": false,
+    "classes": []
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Security Cabins",
+        "signal": "Small-format PUF cabin (4x4ft or similar) explicitly designed as a guard/security cabin with counter window.",
+        "examples": [
+          {
+            "item_id": "142939732",
+            "title": "PUF Security Cabin",
+            "reason": "Small 4x4ft PUF security cabin with counter window and guard-cabin form factor fits Security Cabins sibling MCAT."
+          }
+        ]
+      },
+      {
+        "sibling_mcat": "Office Container",
+        "signal": "Listing uses 'Office Container' terminology and shows a container-style (not panel-build) portable office structure.",
+        "examples": [
+          {
+            "item_id": "237813134",
+            "title": "PUF Office Container",
+            "reason": "Title explicitly uses 'Office Container' and image shows a container-style portable office structure matching the Office Container sibling MCAT."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from provided base64."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names 'Security Cabins' and 'Office Container' drawn from taxonomy_context.siblings — not fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment and mcat_description.product_types used to ground category belonging decisions; suspected_vague: false confirmed PATH A evaluation."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
