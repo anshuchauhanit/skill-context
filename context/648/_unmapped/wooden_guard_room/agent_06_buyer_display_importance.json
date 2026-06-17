@@ -1,0 +1,129 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Buyers scan listing images to confirm wooden construction (vs MS/FRP/PUF alternatives) and assess build quality, size scale, and finish before reading any text. Visual sub-type variation across sizes, wall finishes, and roof types is significant — wrong material or scale triggers an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin size is non-interchangeable and is the primary shortlisting gate — a buyer with a fixed gate footprint cannot substitute one size for another. Wall material and insulation type drive price and durability fit; listings without these specs cannot be evaluated."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian buyers in this segment — construction contractors, society committees, facility managers — are highly price-sensitive and compare prices across sellers once size is confirmed. Price varies substantially with cabin size and material grade, making it a primary shortlisting lever after spec match."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — the market is fragmented across regional fabricators and local manufacturers; buyers search by size and price, not manufacturer name.",
+      "reason": "Buyers prefer a local manufacturer who can deliver and install on-site; seller location, manufacturing capability, and delivery track record matter moderately during vendor selection but do not gate initial engagement."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Some manufacturers quote per sq ft for custom-dimension builds, but per piece is the universal dominant unit for complete cabin transactions. No buyer questions the unit for a finished cabin.",
+      "reason": "A wooden guard room is a complete, self-contained cabin unit — per piece is the only conceivable quoting unit and is never a source of buyer confusion."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Size",
+        "reason": "Cabin size is non-interchangeable across buyer requirements and is the single largest price driver — a 4x4 ft cabin and a 10x8 ft cabin serve entirely different site constraints and cannot be substituted."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wood Type",
+        "reason": "Wood type defines the material quality tier — plywood vs teak wood vs hardwood represents a significant price delta and durability difference that buyers cannot substitute across."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cabin Size",
+      "Features",
+      "Flooring Type",
+      "No. of Windows",
+      "Roof Type",
+      "Structure Type",
+      "Treatment",
+      "Usage Type",
+      "Wall Finish",
+      "Wood Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall Panel Grade",
+        "why_important": "Marine ply (BWP/BWR grade) vs blockboard vs cement fibre board vs MDF is a primary quality and durability differentiator that buyers use to compare cabins — panel grade determines weather resistance and longevity, and is not captured by Wood Type (species) or Wall Finish (surface treatment).",
+        "source": "both",
+        "example_values": [
+          "Marine Ply BWP",
+          "Marine Ply BWR",
+          "Blockboard",
+          "Cement Fibre Board (CFB)"
+        ]
+      },
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Buyers in hot or cold climates specify insulation requirement before purchase — an insulated PUF panel cabin costs significantly more than a basic uninsulated unit, and sellers need this to quote accurately; the current 'Features' spec captures insulation only as a binary flag without specifying type.",
+        "source": "both",
+        "example_values": [
+          "No Insulation",
+          "Thermocol Insulation",
+          "PUF Panel Insulation",
+          "Rockwool Insulation"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Size (L x W)",
+        "reason": "Cabin size is non-interchangeable — a seller stocking only 4x4 ft units cannot supply an 8x6 ft order, making size the primary routing spec that determines which sellers can respond.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Wood Type",
+        "reason": "Wood type places the buyer in a specific price and quality tier — a buyer specifying teak wood vs plywood panel is in a different budget segment, enabling sellers to quote accurately and avoid mismatched responses.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Insulation Requirement",
+        "why_important": "Sellers need to know whether the buyer requires insulation to confirm product fit and quote accurately — an insulated PUF or thermocol cabin is a structurally different and significantly more expensive product than a basic uninsulated wooden cabin.",
+        "source": "both",
+        "example_values": [
+          "No Insulation",
+          "Thermocol Insulation",
+          "PUF Panel Insulation"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": []
+}
