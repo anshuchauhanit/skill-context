@@ -1,0 +1,1110 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "144558100",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": true,
+      "title": "Steel Roofing Structure Service",
+      "description": "<p>With the support of our professionals, we are providing a wide range of <b>Steel Roofing Structure Service</b>. Offered services are rendered using top-grade resources. Keeping in mind the requirements of the patrons, we are offering these services in many options.</p>",
+      "specs": {
+        "raw": "Material:All, Service Duration:10-15 Days, Service Location:All Over India, Service Mode:Offline, Service Type:Steel Roofing Structure Service, Structure Type:Roofing Structure, Type Of Structure:All"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/3/AJ/WD/XL/4727464/steel-roofing-structure-service.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-roofing structure service-21544962248.html",
+      "image_file": "144558100.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large multi-storey steel structural frame with corrugated roof sheeting and columns clearly visible at an active construction site."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the material (steel) and service type (roofing structure service) but lacks structural system, span, or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "All spec values are generic placeholders ('All', 'All Over India') with no structural system, span, or application detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic boilerplate with no structural detail about truss type, material grade, or application."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Steel roofing structure service matches the MCAT's primary product type of structural roof fabrication and erection."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "All spec values are set to generic placeholders ('All', 'All Over India') providing no structural system, material grade, or span information."
+        }
+      ],
+      "verification_note": "Conflict resolved: item appeared in both good and bad lists; photo is good_image, no contradictions, category valid — resolved as good with thinness in specs only.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-roofing structure service-21544962248.html"
+    },
+    {
+      "item_id": "233593879",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Roof Structural Fabrication Services",
+      "description": "<b>Roof Structural Fabrication Services</b> involve the design, engineering, and construction of custom structural frameworks for roofs, using various materials such as steel, aluminum, and other metals, as well as fabric-based systems for tensile structures. These services are typically provided by specialized fabrication companies and cater to both residential and commercial projects, ensuring that the roof structures are durable, functional, and aesthetically pleasing.",
+      "specs": {
+        "raw": "Brand:Royal Tensile Structure, Color:White, Material:Mild Steel, Minimum Quantity:1000 square feet, Service Location:All Over India"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/9/QJ/OG/DE/24266163/ramp-area-tensile-structure.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/roof-structural fabrication services-2849899487897.html",
+      "image_file": "233593879.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a tensile membrane canopy with red steel truss frame installed in a residential complex — a valid roof structural fabrication service output."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title matches the exact MCAT name and correctly identifies the service type but lacks material, span, or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material (Mild Steel), minimum area (1000 sq ft), and service location — reasonable detail for a tensile structure service."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description accurately covers design, engineering, and construction of roof structural frameworks including steel, aluminum, and fabric-based tensile systems for residential and commercial projects."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Tensile membrane roof structure with mild steel frame is a valid product type within the MCAT's scope of roof structural fabrication services."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs field contains brand name 'Royal Tensile Structure' which is a company/trade name embedded in the listing."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Brand:Royal Tensile Structure' — a company/trade name embedded as a spec value."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; P16 (company name in specs) noted but does not disqualify the listing from this MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/roof-structural fabrication services-2849899487897.html"
+    },
+    {
+      "item_id": "300664400",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Metal Roof Structural Fabrication Service",
+      "description": "<b>Metal Roof Structural Fabrication Service</b> involves the design, cutting, welding, and assembly of steel components that form the supporting framework for metal roofing systems",
+      "specs": {
+        "raw": "Brand:M/S Vaishnavi, Is It Rust Proof:Yes, Material:Metal, Structure Type:Roofing Structure, Surface Treatment:Coated, Usage/Application:Commercial"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/5/515215881/XC/CD/QY/54353331/stainless-steel-roof-structural-fabrication-services.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/metal-roof structural fabrication service-2856606540255.html",
+      "image_file": "300664400.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a blue steel portal frame shed under construction with columns, rafters, and purlins clearly visible — directly depicts a roof structural fabrication service in progress."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title names material (metal), service type (fabrication), and structure type (roof structural) — specific and buyer-relevant."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material, rust-proof treatment, structure type, and application (commercial) — adequate detail though brand name is a company name."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description accurately describes the service as design, cutting, welding, and assembly of steel components for metal roofing system frameworks."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Metal roof structural fabrication service with design, cutting, welding, and assembly of steel components is the core service type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs field contains company name 'M/S Vaishnavi' embedded as brand value."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Brand:M/S Vaishnavi' — a company name embedded as a spec value."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; strong photo and description, P16 noted for company name in specs.",
+      "source_url": "https://www.indiamart.com/proddetail/metal-roof structural fabrication service-2856606540255.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "255453488",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Building Roofing Structure Fabrication  Service",
+      "description": "To cater the variegated demands of our precious clients, we are highly engrossed in providing a qualitative&nbsp;Building Roofing Structure Fabrication Service. This service is carried out under the supervision of our experts who maintain all the quality standards prescribed by leading industry. To cater this service, our highly experienced professionals use the best quality tools and high-end technology. Moreover, the offered service is highly reliable and carried out in compliance with the set quality standards.",
+      "specs": {
+        "raw": "Material:Stainless Steel, Payment Mode:Online/Offline, Project Type:Building Roof Fabrication  Structure, Service Duration:14 Days, Service Location:Pan India, Service Mode:Offline"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/8/335577904/UQ/ZR/SD/69081482/building-roofing-structure-fabrication-service.webp",
+      "product_page_url": "https://www.indiamart.com/proddetail/building-roofing structure fabrication  service-2852085448788.html",
+      "image_file": "255453488.webp",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows active steel roof truss erection with crane and workers at an industrial shed construction site, clearly depicting the fabrication/erection service."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the service type (building roofing structure fabrication service) correctly but lacks material, structural system, or span specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material, project type, service duration, and location — structured but 'Stainless Steel' is atypical for structural roof fabrication."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic boilerplate about quality standards and experienced professionals with no structural detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Building roofing structure fabrication service is the core service type for this MCAT regardless of material discrepancy."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows rust-coloured mild steel trusses being erected, while specs state Material: Stainless Steel — stainless steel does not rust and would appear silver/bright, not brown/rust-coloured."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows rust-coloured mild steel trusses being erected, while specs state 'Material:Stainless Steel' — stainless steel does not rust and would appear silver/bright."
+        }
+      ],
+      "verification_note": "Pre-label was good; overridden to bad due to photo_vs_specs contradiction — image shows mild steel (rust visible) but specs claim stainless steel.",
+      "source_url": "https://www.indiamart.com/proddetail/building-roofing structure fabrication  service-2852085448788.html"
+    },
+    {
+      "item_id": "309558014",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Polycarbonate Roofing Structure Fabrication Service",
+      "description": "Polycarbonate Roofing Structure Fabrication Service",
+      "specs": {
+        "raw": "Location Service:Off Site, Material Grade:Structural Steel, Max Span:30 To 40 m, Roof Shape:A Type, Service Type:Erection Only, Structure Type:PEB Roof"
+      },
+      "image_url": "http://5.imimg.com/data5/WA_9696/Default/2026/3/594921697/LK/HA/DW/245225255/image.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/polycarbonate-roofing structure fabrication service-2857495901673.html",
+      "image_file": "309558014.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a worker installing false ceiling tiles in what appears to be a classroom interior — this is a false ceiling/interior fit-out service, not a structural roof fabrication service."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names a valid product type (polycarbonate roofing structure fabrication service) within the MCAT's scope."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide material grade (structural steel), max span (30–40m), roof shape (A Type), service type (erection only), and structure type (PEB Roof) — highly specific and buyer-relevant."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a single-line repeat of the title with no additional detail."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Photo actively shows false ceiling tile installation in a classroom interior — a different service type entirely from structural roof fabrication."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs",
+          "photo_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Image shows false ceiling tile installation in a classroom interior, while title claims 'Polycarbonate Roofing Structure Fabrication Service.'",
+          "Image shows suspended false ceiling grid work, while specs describe PEB Roof erection with 30–40m span and structural steel.",
+          "Image shows an interior false ceiling fit-out service, not a structural roof fabrication service as required by this MCAT."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows false ceiling tile installation in a classroom, while title claims 'Polycarbonate Roofing Structure Fabrication Service.'"
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows suspended false ceiling grid work, while specs describe PEB Roof erection with 30–40m span and structural steel material grade."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows interior false ceiling installation — a different service type from structural roof fabrication required by this MCAT."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a false ceiling installation scene in a classroom — wrong service depicted, making the image actively misleading for this MCAT."
+        }
+      ],
+      "verification_note": "Pre-label was good; overridden to bad — photo shows false ceiling installation in a classroom, contradicting the title, specs, and MCAT category.",
+      "source_url": "https://www.indiamart.com/proddetail/polycarbonate-roofing structure fabrication service-2857495901673.html"
+    },
+    {
+      "item_id": "75518350",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "GS Roof Structural Fabrication Services",
+      "description": "We are providing <b>GS&nbsp;</b><b>Roof Structural Fabrication Services</b> to our clients. Best in service.",
+      "specs": {
+        "raw": "Material:GS, Service Duration:2 Days, Service Location:PAN India, Service Location Type:Pan India, Service Mode:Onsite"
+      },
+      "image_url": "https://4.imimg.com/data4/PT/WJ/MY-25337330/2.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/gs-roof structural fabrication services-11267978233.html",
+      "image_file": "75518350.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large grey steel structural frame with columns, beams, and roof purlins for an industrial warehouse — directly relevant to roof structural fabrication services."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the service type correctly but 'GS' abbreviation is unexplained and ambiguous for buyers."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs use unexplained 'GS' material abbreviation and list a 2-day service duration which is implausibly short for a structural roof fabrication project."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is near-empty boilerplate ('Best in service') with no structural detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "GS Roof Structural Fabrication Services names a valid service type for this MCAT despite the ambiguous material abbreviation."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title uses unexplained abbreviation 'GS' as the primary material descriptor — ambiguous and uninformative to buyers."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs list 'Material:GS' (unexplained abbreviation) and 'Service Duration:2 Days' — implausibly short for a structural roof fabrication project, providing no useful buyer information."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; photo is good_image but title and specs are thin (not strong), insufficient to override to good per override table.",
+      "source_url": "https://www.indiamart.com/proddetail/gs-roof structural fabrication services-11267978233.html"
+    },
+    {
+      "item_id": "89927437",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Mild Steel Restaurent Roofing Shed",
+      "description": "<b>Mild Steel Restaurent Roofing Services </b>offered can be made available in the choice of different pre-fabricated design as well as in solid construction finish which makes them highly demanded in the market. We ensure these come developed using superior grade steel frames and other supporting structures so as to provide for lasting service usage. Some of its features include available in standard and customized fabrication choices; superior steel structure finish; available in different length and width options.",
+      "specs": {
+        "raw": "Coating:Powder Coating, Features:Water Proof, Service Location/City:Chennai, Type Of Metal Used:Mild Steel, Type Of Structure:Beam, Usage/Application:Restaurant, Water Proof:Yes"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/4/500495586/DM/SD/XI/11045970/mild-steel-restaurent-roofing-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/mild-steel restaurent roofing shed-13596329573.html",
+      "image_file": "89927437.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a finished restaurant/showroom interior with recessed LED lighting, dining furniture, and 'RK ENGINEERING' watermark — no structural roof fabrication work is visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (Mild Steel) and structure type (Roofing Shed) correctly, though 'Restaurent' is a typo."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material, coating, waterproofing, and application (restaurant) — adequate detail but include a specific city name (Chennai)."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description covers prefabricated design options, steel frame construction, and customization — relevant to roofing shed fabrication services."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Photo actively shows a finished restaurant interior fit-out with recessed lighting and dining furniture — a different service type entirely from structural roof fabrication."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Image shows a finished restaurant interior with recessed lighting and dining furniture, while title claims 'Mild Steel Restaurent Roofing Shed' fabrication service.",
+          "Image shows an interior fit-out/decoration service, not a structural roof fabrication service as required by this MCAT."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City:Chennai' (specific city name) and image contains watermark 'RK ENGINEERING' (company name)."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a finished restaurant interior with recessed lighting and dining furniture, while title claims 'Mild Steel Restaurent Roofing Shed' fabrication service."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows an interior fit-out/decoration service with no structural roof fabrication work visible — wrong service type for this MCAT."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a finished restaurant interior with dining furniture and recessed lighting — depicts an interior decoration service, not structural roof fabrication."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City:Chennai' (specific city) and image contains watermark text 'RK ENGINEERING' (company name)."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; photo shows restaurant interior fit-out contradicting the title and MCAT category.",
+      "source_url": "https://www.indiamart.com/proddetail/mild-steel restaurent roofing shed-13596329573.html"
+    },
+    {
+      "item_id": "120016907",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Roof Structure Fabrication Service",
+      "description": "We are a unique entity in the industry, actively committed towards offering an optimum quality <b>Roof Structure Fabrication Service</b>. This service is widely acknowledged by our precious clients owing to its promptness and cost-effectiveness features. Our skilled professionals provide this service in the best possible manner. The provided service is executed by our adept professionals using optimum quality tools and latest technology. Moreover, our precious clients can avail this service from us at most reasonable price.",
+      "specs": {},
+      "image_url": "http://5.imimg.com/data5/GQ/NR/MY-49600862/building-metal-structure-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/roof-structure fabrication service-19088476433.html",
+      "image_file": "120016907.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large-span arched white steel truss roof structure under construction with workers visible — directly depicts a roof structural fabrication and erection service."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names the service type (roof structure fabrication service) but lacks material, structural system, or application specifics."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no structural detail provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic boilerplate about quality, promptness, and cost-effectiveness with no structural detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Roof structure fabrication service is the core service type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs object is completely empty — no material, structural system, span, or application information provided."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; photo is good_image but title is only acceptable and specs are empty — insufficient text quality to override to good per override table.",
+      "source_url": "https://www.indiamart.com/proddetail/roof-structure fabrication service-19088476433.html"
+    },
+    {
+      "item_id": "240574178",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Structure Fabrication Service",
+      "description": "Established in 2021,&nbsp;<b>Kapil Mistry &amp; Company</b>&nbsp;is a famous&nbsp;<b>Service Provider</b>&nbsp;of a wide gamut of&nbsp;<b>Shed Fabrication, Structural Fabrication Work</b>&nbsp;and much more",
+      "specs": {
+        "raw": "Material:Steel, Payment Mode:Offline/Online, Roof Type:Sloped Roof, Service Location/City:Gujarat, Service Mode:Offline"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/3/296348014/DS/ZP/YJ/118474327/prefabricated-structure-fabrication-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-structure fabrication service-2850597517755.html",
+      "image_file": "240574178.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image is a 3D computer-generated render of a prefabricated industrial shed — not a real photograph of actual fabrication work, lacking real construction detail."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names prefabricated structure fabrication service — broader than roof structural fabrication specifically but overlaps with the MCAT scope."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material (steel), roof type (sloped), and service mode — adequate but include a regional location name (Gujarat)."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a company introduction for 'Kapil Mistry & Company' mentioning shed fabrication — thin on service detail and contains a company name."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefabricated structure fabrication including shed fabrication is within the MCAT's scope of roof structural fabrication services."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Kapil Mistry & Company' and specs contain 'Service Location/City:Gujarat' (regional location name)."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Industrial Shed Fabrication",
+        "reason": "Description explicitly mentions 'Shed Fabrication' and title says 'Prefabricated Structure Fabrication Service' — this listing fits the Industrial Shed Fabrication sibling MCAT as well as the parent roof structural fabrication MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a 3D computer-generated render of a prefabricated shed — not a real photograph of actual fabrication work or a completed structure."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Kapil Mistry & Company' and specs contain 'Service Location/City:Gujarat' — both are business/location identifiers embedded in the listing."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; thin_image (3D render) and P16 present; sibling routing candidate for Industrial Shed Fabrication.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-structure fabrication service-2850597517755.html"
+    }
+  ],
+  "generated_bad_examples": [
+    {
+      "generated": true,
+      "generated_for_problem_codes": [
+        "P15"
+      ],
+      "item_id": "GENERATED_P15",
+      "pre_label": null,
+      "verified_label": "bad",
+      "override": true,
+      "title": "MS Roof Truss Fabrication and Erection Service",
+      "description": "We provide mild steel roof truss fabrication and erection services for industrial sheds and warehouses across India. For inquiries, contact Ramesh Kumar at 9876543210 or email ramesh.kumar@fabricators.com. Our team handles design, fabrication, and on-site erection.",
+      "specs": {
+        "Material": "Mild Steel",
+        "Service Type": "Fabrication and Erection",
+        "Service Location": "Pan India"
+      },
+      "image_url": null,
+      "product_page_url": null,
+      "image_file": null,
+      "image_status": "generated",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "No image available — generated example."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title names material (MS), structural element (roof truss), and service type (fabrication and erection) — specific and buyer-relevant."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material, service type, and location — adequate but minimal."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description covers the service scope (design, fabrication, erection for industrial sheds) but contains PII (personal name and phone number/email)."
+        },
+        "category": {
+          "valid": true,
+          "reason": "MS roof truss fabrication and erection service is the primary product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains personal name 'Ramesh Kumar', phone number '9876543210', and email 'ramesh.kumar@fabricators.com'."
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains personal name 'Ramesh Kumar', phone number '9876543210', and email address 'ramesh.kumar@fabricators.com'."
+        }
+      ],
+      "verification_note": "Generated illustrative example for P15 (PII Present) — no real verified product in this audit contained PII."
+    }
+  ],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [
+    {
+      "item_id": "144558100",
+      "pre_labels_seen": [
+        "good",
+        "bad"
+      ],
+      "resolved_label": "good",
+      "resolution_note": "Photo is good_image showing a valid steel structural frame construction site, no contradictions observed, category valid — thinness in specs (P13 only) does not disqualify; resolved as good."
+    }
+  ],
+  "image_pattern_summary": "Verified good images consistently show real construction site photography of steel structural frames in progress or recently completed, with wide-angle shots capturing the full span including columns, rafters/purlins, and roofing material. Images are taken outdoors or in semi-outdoor settings with natural light, conveying the scale and structural complexity of the fabrication work. Both conventional portal frame sheds and tensile/membrane roof structures appear as valid visual representations of this service category.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Verified good images show construction site scenes and completed steel structures — no meaningful text labels are printed on the structural steel itself that OCR could extract.",
+      "The service is represented visually through the structural system (columns, trusses, purlins, roofing sheets) and construction context, not through text overlays or product labels."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good photos show real construction site photography of steel roof structural frames — portal frames, truss systems, or tensile structures — at various stages of erection.",
+    "product_identity": [
+      "Steel columns, rafters, purlins, and roof decking/sheeting visible as a structural system",
+      "Construction site context with workers, cranes, or partially completed brick/concrete walls"
+    ],
+    "acceptable_scenes": [
+      "Exterior wide-angle shot of a steel frame industrial shed or warehouse under construction",
+      "Tensile membrane canopy with visible steel truss substructure installed at a site"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "144558100",
+        "reason": "Image shows a large multi-storey steel structural frame with corrugated roof sheeting and columns clearly visible at an active construction site.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "233593879",
+        "reason": "Image shows a tensile membrane canopy with red steel truss frame installed in a residential complex — a valid roof structural fabrication service output.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "300664400",
+        "reason": "Image shows a blue steel portal frame shed under construction with columns, rafters, and purlins clearly visible — directly depicts a roof structural fabrication service in progress.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos use 3D computer-generated renders instead of real construction photography, failing to convey actual fabrication quality or scale.",
+    "thinness_signals": [
+      "3D rendered illustration of a prefabricated shed — lacks real construction detail and authenticity",
+      "No workers, cranes, or construction context visible to demonstrate the service being performed"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "240574178",
+        "reason": "Image is a 3D computer-generated render of a prefabricated industrial shed — not a real photograph of actual fabrication work, lacking real construction detail."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show interior fit-out services (false ceiling installation, restaurant interior decoration) that are entirely unrelated to structural roof fabrication.",
+    "failure_classes": [
+      {
+        "class": "false_ceiling_installation",
+        "description": "Image shows interior suspended false ceiling grid and tile installation — a different trade from structural roof fabrication.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "309558014"
+          }
+        ],
+        "detection_signal": "Interior room setting with suspended ceiling grid, ceiling tiles, and worker on ladder inside a finished building.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "interior_fitout_decoration",
+        "description": "Image shows a finished interior space (restaurant/showroom) with recessed lighting, furniture, and no structural elements — depicts interior decoration, not structural fabrication.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "89927437"
+          }
+        ],
+        "detection_signal": "Finished interior with recessed LED downlights, dining furniture, white painted walls/ceiling, and no visible structural steel or construction activity.",
+        "failure_mode": "wrong_category"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name the material (metal/mild steel), the structural element or system (roof truss, portal frame, roofing structure), and the service type (fabrication, erection, or both).",
+    "strong_positive_signals": [
+      "Material specification: 'Metal', 'Mild Steel', 'Steel', 'MS'",
+      "Service type: 'Fabrication', 'Erection', 'Fabrication and Erection'",
+      "Structure type: 'Roof Structural', 'Roofing Structure', 'Roof Truss', 'Portal Frame'"
+    ],
+    "structural_patterns": [
+      "[Material] + Roof [Structure Type] + Fabrication [+ Erection] + Service",
+      "[Material] + [Structure Type] + Fabrication Service",
+      "Roof Structural Fabrication Services + [optional qualifier]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "300664400",
+          "title": "Metal Roof Structural Fabrication Service",
+          "reason": "Names material (metal), structure type (roof structural), and service type (fabrication) — three buyer-relevant attributes in a concise title."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "233593879",
+          "title": "Roof Structural Fabrication Services",
+          "reason": "Exact MCAT service name — correct and recognisable but lacks material or structural system specifics."
+        },
+        {
+          "item_id": "144558100",
+          "title": "Steel Roofing Structure Service",
+          "reason": "Names material (steel) and structure type (roofing structure) — acceptable but 'service' is vague without fabrication/erection qualifier."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles use unexplained abbreviations or omit material and structural system details, leaving buyers without sufficient information to identify the service.",
+    "thinness_signals": [
+      "Unexplained abbreviation 'GS' as the primary material descriptor — ambiguous to buyers",
+      "Generic 'Roof Structure Fabrication Service' without material, structural system, or application context"
+    ],
+    "examples": [
+      {
+        "item_id": "75518350",
+        "title": "GS Roof Structural Fabrication Services",
+        "reason": "Uses unexplained 'GS' abbreviation as the primary differentiator — buyers cannot determine the material or structural system from the title."
+      },
+      {
+        "item_id": "120016907",
+        "title": "Roof Structure Fabrication Service",
+        "reason": "Correct service type named but no material, structural system, span, or application detail provided."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "No titles in this audit are actively irrelevant or contain contaminating tokens — all titles name a valid roofing or structural fabrication service type.",
+    "failure_classes": []
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere based on photo evidence showing a different service type.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "false_ceiling_installation",
+        "signal": "Photo shows interior suspended false ceiling grid and tile installation — a different trade from structural roof fabrication.",
+        "examples": [
+          {
+            "item_id": "309558014",
+            "title": "Polycarbonate Roofing Structure Fabrication Service",
+            "reason": "Photo shows false ceiling tile installation in a classroom interior, contradicting the title and MCAT category.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      },
+      {
+        "class": "interior_fitout_decoration",
+        "signal": "Photo shows a finished interior space with recessed lighting and furniture — depicts interior decoration/fit-out, not structural roof fabrication.",
+        "examples": [
+          {
+            "item_id": "89927437",
+            "title": "Mild Steel Restaurent Roofing Shed",
+            "reason": "Photo shows a finished restaurant interior with recessed lighting and dining furniture — wrong service type for this MCAT.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Industrial Shed Fabrication",
+        "signal": "Listing explicitly mentions 'Shed Fabrication' in description and 'Prefabricated Structure' in title — signals primary focus on complete shed fabrication rather than roof structural fabrication specifically.",
+        "examples": [
+          {
+            "item_id": "240574178",
+            "title": "Prefabricated Structure Fabrication Service",
+            "reason": "Description mentions 'Shed Fabrication, Structural Fabrication Work' — the listing's primary service identity is shed fabrication, which fits the Industrial Shed Fabrication sibling MCAT."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from base64-encoded attachments."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names drawn only from taxonomy_context.siblings list: ['Roof Works', 'Roofing Sheet Fabrication', 'Industrial Shed Fabrication'] — correct_mcat_suggestion set to null where no sibling matched; Industrial Shed Fabrication used for sibling routing of item 240574178."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (mild steel structural roof fabrication for industrial sheds/warehouses) and product_types list used to ground category belonging decisions; mcat_vagueness_signal not flagged as suspected_vague, so PATH A applied throughout."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
