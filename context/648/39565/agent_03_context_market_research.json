@@ -1,0 +1,603 @@
+{
+  "mcat_description": {
+    "short": "Temporary Buildings are factory-built, demountable prefabricated structures — including portable site offices, labour camps, storage sheds, and modular rooms — assembled on-site from steel-framed, sandwich-panel components and designed to be relocated or dismantled after use.",
+    "long": "Temporary Buildings in the Indian B2B market refer to prefabricated modular structures manufactured off-site using cold-formed or hot-rolled steel frames combined with insulated sandwich panels (PUF, EPS, or rock wool core), then transported and assembled on-site without permanent foundations. They serve as construction site offices, labour colonies, security cabins, storage sheds, canteens, and event or emergency shelters across industrial, infrastructure, and institutional projects. Structural steel components are typically IS 2062-certified, and load design follows IS 875 (wind/live loads) and IS 14687 (temporary works). The key commercial differentiator from permanent prefab buildings is their portability, relocatability, and absence of permanent civil works — enabling reuse across multiple project sites.",
+    "product_types": [
+      "Portable site office cabin",
+      "Labour camp / worker accommodation building",
+      "Prefabricated storage shed",
+      "Security / guard cabin",
+      "Modular canteen building",
+      "Portable toilet block",
+      "Temporary classroom / institutional building",
+      "Event shelter / temporary event structure",
+      "Tensile fabric temporary structure",
+      "Modular terrace room / rooftop room",
+      "Emergency / disaster relief shelter",
+      "Portable medical / healthcare cabin"
+    ],
+    "primary_applications": [
+      "Construction site offices and project management facilities",
+      "Labour accommodation and worker colonies on infrastructure projects",
+      "Industrial storage and equipment shelter",
+      "Security and guard posts at factories, warehouses, and gated communities",
+      "Temporary canteens and welfare facilities on large project sites",
+      "Event infrastructure and exhibition shelters",
+      "Emergency and disaster relief housing",
+      "Rooftop / terrace room additions for residential use",
+      "Temporary classrooms and institutional facilities in Tier 2/3 cities"
+    ],
+    "buyer_segments": [
+      "Construction contractors and EPC companies needing site offices and labour camps",
+      "Infrastructure project developers (roads, railways, power plants)",
+      "Industrial manufacturers requiring portable storage or welfare facilities",
+      "Government and PSU procurement for emergency housing and institutional buildings",
+      "Event management companies needing temporary shelters",
+      "Real estate developers seeking temporary site infrastructure",
+      "Individual homeowners adding rooftop/terrace rooms"
+    ]
+  },
+  "primary_segment": "Prefabricated portable site office cabin and labour accommodation structure for construction and industrial projects",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Factory-built, demountable prefabricated modular structure (site office, labour camp, storage shed) for construction and industrial use",
+    "secondary_families": [],
+    "reason": "All sub-types within this MCAT share the same product concept — factory-built, steel-framed, demountable structures — and the same buyer logic; taxonomy siblings (Portable Toilets, Greenhouses, Sheds, Cabins) carve out more-specific sub-types of the same concept, not incompatible product families with different buyers or regulatory regimes."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "temporary buildings",
+      "temporary house",
+      "temporary shed",
+      "temporary room",
+      "temporary structure",
+      "portable cabin",
+      "prefab site office",
+      "modular temporary building",
+      "temporary shed for construction",
+      "temporary shed for shop"
+    ],
+    "technical_synonyms": [
+      "prefabricated modular structure",
+      "demountable building",
+      "relocatable building",
+      "portable prefab structure",
+      "knock-down structure",
+      "modular cabin",
+      "sandwich panel building",
+      "PUF panel cabin",
+      "cold-formed steel frame building",
+      "cellular modular building"
+    ],
+    "trade_names": [
+      "portable office cabin",
+      "site office container cabin",
+      "labour colony building",
+      "prefab labour camp",
+      "portable guard cabin",
+      "modular site office",
+      "prefab storage shed",
+      "portable welfare unit",
+      "tensile temporary structure",
+      "modular rooftop room"
+    ],
+    "hindi_terms": [
+      "अस्थायी इमारत",
+      "अस्थायी कमरा",
+      "अस्थायी शेड",
+      "पोर्टेबल केबिन",
+      "प्रीफैब्रिकेटेड स्ट्रक्चर"
+    ],
+    "buyer_intent_queries": [
+      "temporary building for construction site",
+      "portable cabin for site office",
+      "temporary room on terrace price",
+      "prefab labour camp for workers",
+      "temporary shed for storage",
+      "modular temporary office building",
+      "temporary building for shop",
+      "portable prefab structure for industrial use",
+      "temporary house for construction workers",
+      "demountable building for project site"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per unit",
+    "unit_reasoning": "Indian B2B sellers quote temporary buildings per complete unit (structure) for standard catalogue configurations, and per sq ft for custom-sized or large multi-bay structures — per unit dominates for portable cabins and site offices, while per sq ft is used for larger sheds and labour camps.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Portable site office cabin / guard cabin",
+        "unit": "per unit",
+        "note": "Standard catalogue sizes (e.g. 10×10 ft, 10×20 ft) quoted as complete units"
+      },
+      {
+        "sub_segment": "Labour camp / large modular building",
+        "unit": "per sq ft",
+        "note": "Custom floor area requirements quoted per sq ft of built-up area"
+      },
+      {
+        "sub_segment": "Tensile / fabric temporary structure",
+        "unit": "per sq ft",
+        "note": "Coverage area is the primary sizing dimension"
+      },
+      {
+        "sub_segment": "Turnkey project supply",
+        "unit": "per project",
+        "note": "Full design-supply-install contracts quoted as lump sum per project"
+      }
+    ],
+    "sources_checked": [
+      "SAMAN Portable (samanportable.com)",
+      "MetalTree Prefab (metaltree.in)",
+      "IndiaMART MCAT page tile observations",
+      "Google keyword data (temporary room on terrace price)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In India, 'Temporary Buildings' commercially refers to factory-built, demountable prefabricated structures — primarily portable site office cabins, labour accommodation buildings, and storage sheds — supplied to construction contractors, infrastructure developers, and industrial buyers. The dominant construction system uses cold-formed steel frames with insulated sandwich panels (PUF, EPS, or rock wool core), enabling rapid on-site assembly without permanent foundations. The modular prefabricated segment (portable cabins, guardrooms, semi-permanent buildings) was valued at approximately Rs 17 billion in FY24 and is projected to grow at 10–12% annually to FY29, driven by infrastructure investment and construction activity. Structural steel components follow IS 2062 certification; load design references IS 875 (wind and live loads) and IS 14687 (temporary works falsework); BIS has published IS 15916 and IS 15917 as codes of practice for prefabricated building design and erection. Key Indian manufacturers include EPACK Prefab, Kirby Building Systems, Tata BlueScope Steel, Everest Industries, and SAMAN Portable. The market remains moderately fragmented with a large unorganised sector competing on price. Buyers in this MCAT are predominantly B2B — construction contractors, EPC companies, and industrial facilities managers — with a smaller but growing segment of individual homeowners seeking rooftop/terrace room additions (evidenced by keyword 'temporary room on terrace price'). Quoting is per unit for standard cabin configurations and per sq ft for custom or large-span structures.",
+  "buyer_attracting_attributes": [
+    "Frame Material (steel grade / IS 2062 certified)",
+    "Panel Type (PUF / EPS / rock wool sandwich panel)",
+    "Insulation Thickness",
+    "Floor Area / Dimensions (length × width × height)",
+    "Wind Load Rating",
+    "Portability / Relocatability",
+    "Number of Rooms / Configuration",
+    "Foundation Requirement (none / minimal)",
+    "Certifications (IS certification, fire rating)",
+    "Installation Time"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "39565",
+    "mcat_name": "Temporary Buildings",
+    "mcat_level": "4",
+    "listing_count": "149",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Temporary Buildings",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35592.0",
+      "name": "Prefabricated Structures",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35592.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20474",
+        "mcat_name": "Prefabricated Steel Buildings",
+        "listing_count": "8194",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21344",
+        "mcat_name": "Agricultural Greenhouses",
+        "listing_count": "2151",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21649",
+        "mcat_name": "Agricultural Buildings",
+        "listing_count": "128",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "29816",
+        "mcat_name": "Greenhouse",
+        "listing_count": "5282",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33188",
+        "mcat_name": "Modular Buildings",
+        "listing_count": "917",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35398",
+        "mcat_name": "Portable Buildings",
+        "listing_count": "1196",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35589",
+        "mcat_name": "Prefabricated Buildings",
+        "listing_count": "27038",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35592",
+        "mcat_name": "Prefabricated Structures",
+        "listing_count": "14394",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38214",
+        "mcat_name": "Storage Buildings",
+        "listing_count": "939",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42328",
+        "mcat_name": "Modular Tensile Structure",
+        "listing_count": "2417",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "50762",
+        "mcat_name": "Tensile Structures",
+        "listing_count": "9089",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88197",
+        "mcat_name": "Prefabricated Metal Building",
+        "listing_count": "901",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116157",
+        "mcat_name": "Mini Greenhouse",
+        "listing_count": "1433",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121067",
+        "mcat_name": "Aluminium Structure",
+        "listing_count": "9342",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135787",
+        "mcat_name": "Tensile Membrane Structures",
+        "listing_count": "2683",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135861",
+        "mcat_name": "Auditorium Tensile Structure",
+        "listing_count": "598",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136011",
+        "mcat_name": "Gazebo Tensile Structure",
+        "listing_count": "1508",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "148110",
+        "mcat_name": "Pre Engineered Building Structure",
+        "listing_count": "9886",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149713",
+        "mcat_name": "Polyhouse",
+        "listing_count": "3245",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154059",
+        "mcat_name": "Prefabricated School Building",
+        "listing_count": "828",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158767",
+        "mcat_name": "Greenhouse Structure",
+        "listing_count": "813",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159520",
+        "mcat_name": "Prefabricated Hospitals",
+        "listing_count": "213",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "160350",
+        "mcat_name": "Mist Chamber",
+        "listing_count": "121",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166277",
+        "mcat_name": "Naturally Ventilated Greenhouse",
+        "listing_count": "1661",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166432",
+        "mcat_name": "Prefabricated Warehouse",
+        "listing_count": "5064",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168374",
+        "mcat_name": "Heavy Structural Fabrications",
+        "listing_count": "2495",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168445",
+        "mcat_name": "MS Structure Services",
+        "listing_count": "2407",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "178587",
+        "mcat_name": "Prefabricated Industrial Buildings",
+        "listing_count": "5964",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "179245",
+        "mcat_name": "Prefabricated Labor Colony",
+        "listing_count": "1480",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181553",
+        "mcat_name": "Pre Engineered Steel Building",
+        "listing_count": "1594",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "216129",
+        "mcat_name": "RCC Labour Quarter",
+        "listing_count": "549",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315645",
+        "mcat_name": "Prefabricated Walls",
+        "listing_count": "105",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "410918",
+        "mcat_name": "Light Gauge Framing System",
+        "listing_count": "350",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "444552",
+        "mcat_name": "Prefabricated Isolation Ward",
+        "listing_count": "218",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Temporary Buildings are modular construction solutions evaluated on structural specs, material durability, and installation logistics — not regulatory compliance or brand dominance. Agent 3 should research market patterns for material types (steel, wood, composite), typical use cases (site offices, storage, event structures), and standard quoting units."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions (temporary house 84, temporary shed for construction 16, temporary shed for shop 15) confirmed construction-site and residential-terrace as dominant buyer intent clusters."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "primary_segment"
+        ],
+        "citation_note": "Top keyword by Pageviews = 'temporary buildings' (27 PV); 'temporary side office said construction' (2 PV, 2 PDP clicks) confirmed construction site office as a high-intent sub-segment."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "No call rows provided for this MCAT — unused."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT sits under Prefabricated Structures with 34 siblings; listing count 149 treated as plausible — not suspect. Siblings (Portable Toilets, Greenhouses, Sheds, Cabins) assessed for vagueness trigger — none fired."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.mordorintelligence.com/industry-reports/india-prefabricated-buildings-industry",
+        "title": "India Prefabricated Buildings Market Size & Share Analysis",
+        "source_domain": "mordorintelligence.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for market segmentation by material type and application, and for confirmation of steel/metal as dominant material in Indian prefab market."
+      },
+      {
+        "url": "https://www.metaltree.in/prefabricated-buildings-india-guide-2026/",
+        "title": "Prefabricated Buildings in India: Cost, Companies, Benefits & Complete Guide (2026)",
+        "source_domain": "metaltree.in",
+        "derived_outputs": [
+          "mcat_description.short",
+          "mcat_description.long",
+          "unit_quoting_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for cold-formed steel + sandwich panel construction system description, relocatability of labour colonies and site offices, and unit quoting patterns."
+      },
+      {
+        "url": "https://www.samanportable.com/temporary-buildings",
+        "title": "Prefabricated Building Manufacturers in India | SAMAN",
+        "source_domain": "samanportable.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "unit_quoting_context",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for IS 2062 steel certification, floor area ranges (300–8,000+ sq ft), per-unit and per-sq-ft quoting confirmation, and product configuration types."
+      },
+      {
+        "url": "https://tejimandi.com/blog/feature-articles/prefab-buildings-in-india-a-quiet-shift-thats-getting-louder",
+        "title": "Prefab Buildings in India: A Quiet Shift That's Getting Louder",
+        "source_domain": "tejimandi.com",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for modular prefab segment market size (Rs 17 billion FY24, 10–12% CAGR to FY29) and PEB market growth figures."
+      },
+      {
+        "url": "https://www.marketresearchfuture.com/reports/india-prefabricated-buildings-market-46069",
+        "title": "India Prefabricated Buildings Market Size & Share Report 2035",
+        "source_domain": "marketresearchfuture.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Used for product type classification (Skeleton, Panel, Cellular, Combined systems) and Cellular system's role in temporary/event structures."
+      },
+      {
+        "url": "https://www.kenresearch.com/industry-reports/india-prefabricated-buildings-market",
+        "title": "India Prefabricated Buildings Market, Business Potential and Key Developments to 2030",
+        "source_domain": "kenresearch.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Used for key Indian market players (Tata BlueScope, Kirby, Everest Industries, Jindal) and NBC adoption for prefab structures in government projects."
+      },
+      {
+        "url": "https://www.bricknbolt.com/blogs-and-articles/construction-guide/temporary-structures-in-construction",
+        "title": "Temporary Structures in Construction: Benefits, Types, & More",
+        "source_domain": "bricknbolt.com",
+        "derived_outputs": [
+          "mcat_description.long",
+          "market_context"
+        ],
+        "citation_note": "Used for IS 875 (wind/live loads) and IS 14687 (temporary works falsework) standards references applicable to temporary buildings in India."
+      },
+      {
+        "url": "https://archive.org/details/gov.in.is.15916.2011",
+        "title": "IS 15916: Building Design and Erection Using Prefabricated Concrete - Code of Practice",
+        "source_domain": "archive.org (BIS source)",
+        "derived_outputs": [
+          "market_context"
+        ],
+        "citation_note": "Used for BIS IS 15916 standard confirmation — Planning, Housing and Pre-fabricated Construction Sectional Committee (CED 51)."
+      },
+      {
+        "url": "https://law.resource.org/pub/in/bis/S03/is.15917.2010.pdf",
+        "title": "IS 15917 (2010): Building Design and Erection Using Mixed/Composite Construction",
+        "source_domain": "law.resource.org (BIS source)",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.long"
+        ],
+        "citation_note": "Used for IS 15917 mixed/composite construction standard and list of approved materials (concrete, ferrocement, steel, treated timber, aluminium, cellular materials)."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Temporary Buildings are modular construction solutions evaluated on structural specs, material durability, and installation logistics — not regulatory compliance or brand dominance. Agent 3 should research market patterns for material types (steel, wood, composite), typical use cases (site offices, storage, event structures), and standard quoting units."
+    }
+  }
+}
