@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Roof Structural Fabrication Services' directly matches the top primary keyword ('roof structural fabrication services') and accurately signals the service nature (fabrication + erection) over a product sale, consistent with Agent 3 market_context describing turnkey structural contracts.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a steel roof truss frame being crane-lifted during erection, which correctly represents structural roof fabrication services and is not a wrong product or brochure.",
+      "However, the background depicts a Western urban/residential setting (Vancouver-style cityscape, residential houses, mountain backdrop) rather than an Indian industrial shed or warehouse context, reducing relevance to the primary segment (MS roof fabrication for Indian industrial sheds and warehouses); a purpose-shot image of a completed MS truss roof on an Indian factory or warehouse would better serve B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a mild steel roof truss structure being erected over a large industrial warehouse shed in India. The foreground shows fabricated MS angle/channel trusses and Z-purlins bolted and welded in place, with workers in yellow helmets and safety vests on scaffolding. The roof frame is partially complete, revealing the triangular truss geometry and purlin spacing. Colour-coated steel roofing sheets (blue or grey) are being fixed on one side. Background shows a flat industrial plot with open sky. Clean, well-lit daytime scene with sharp focus on the steel structure. No text overlays except watermark.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
