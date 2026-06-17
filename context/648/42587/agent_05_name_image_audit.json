@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Toilet Partitions' directly matches the top primary_keyword and is the dominant B2B search term confirmed across market_context sources; technical synonyms like 'toilet cubicle' and 'bathroom partition' are captured in alt_names rather than requiring a name change.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image correctly shows a row of modular toilet cubicle partitions with doors, pilasters, and visible hardware in a commercial washroom setting — accurately representing the primary segment.",
+      "The ambient lighting and dark-toned interior make the product details (panel surface, hardware, door gaps) harder to read at thumbnail scale; a cleaner white-background or neutral studio shot of HPL panels with SS hardware would improve product clarity for B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Product photography of a modular HPL compact board toilet cubicle partition system for a commercial washroom: three full-height cubicle stalls in a row, light grey or beige HPL panel surface with subtle texture, stainless steel pilasters and door hinges/latches clearly visible, white or off-white studio background, straight-on frontal angle, bright even lighting, clean tile floor visible at base, no people, photorealistic, sharp focus on panel surface and hardware details.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
