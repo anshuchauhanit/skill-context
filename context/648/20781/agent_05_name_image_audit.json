@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Shelters' aligns directly with primary_keywords ('prefabricated shelters', 'prefab shelter') and trade_names in Agent 3 alt_names, and is the standard B2B market term used by Indian manufacturers and buyers across telecom, defence, and infrastructure segments.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The image shows an aerial/top-down view of a corrugated green metal rooftop with turbine ventilators — this is a roofing sheet or industrial shed roof, not a prefabricated shelter unit; the product itself (a modular cabin or panel-based structure) is not visible at all.",
+      "A third-party watermark ('VRS Roofing.com') is visible in the bottom-right corner, and the image represents a different product category (roofing sheets/industrial shed), actively misrepresenting the primary segment of modular PUF/FRP/steel prefabricated shelters for telecom, defence, and labour accommodation use."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A standalone modular prefabricated shelter unit with PUF sandwich panel walls in light grey and white, steel frame construction, single entry door with metal steps, small ventilation grille on the side wall, placed on a flat industrial or construction site ground, shot from a 3/4 front-angle perspective, clean white background, bright even studio lighting, sharp product focus, no people, no branding, square 1:1 composition.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
