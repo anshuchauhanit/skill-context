@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Roofing Sheet Fabrication' directly matches the top primary keyword and accurately describes the end-to-end contractor service (supply, cutting, profiling, installation) as validated by Agent 3 alt_names and market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows workers in safety harnesses actively installing white colour-coated profile sheets on an industrial/commercial rooftop, which correctly represents the primary segment of GI and colour-coated profile sheet fabrication and installation for industrial sheds and warehouses.",
+      "However, the image is low-resolution, poorly lit, and cluttered with background urban scenery — a clean, professional AI-generated render showing the finished installed roof with clear sheet profile detail would significantly improve buyer confidence and category clarity."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of workers in yellow hard hats and safety harnesses installing large white colour-coated trapezoidal profile metal roofing sheets on a wide-span industrial shed steel framework, bright daylight, clean blue sky background, crisp sheet profile ribs clearly visible, professional construction site setting, no text overlays, sharp foreground focus, IndiaMART AI watermark bottom-right.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
