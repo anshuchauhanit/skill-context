@@ -1,0 +1,604 @@
+{
+  "mcat_description": {
+    "short": "PUF Cabin is a prefabricated, portable insulated structure built using polyurethane foam (PUF) sandwich panels as walls and roof, sold as a complete assembled or knock-down unit. It is used as a site office, security cabin, labour accommodation, or temporary housing and is available in custom dimensions.",
+    "long": "A PUF Cabin is a modular, relocatable building constructed from PUF (Polyurethane Foam) insulated sandwich panels — a rigid closed-cell foam core bonded between two pre-painted galvanised steel (PPGI) or FRP skins — mounted on a mild steel structural frame. The panels provide superior thermal insulation (thermal conductivity ≤ 0.024 W/mK), weather resistance, and lightweight portability, making these cabins a fast-deploy alternative to conventional brick-and-mortar construction. In the Indian B2B market, PUF cabins are manufactured and supplied as complete turnkey units or in knock-down form for on-site assembly, with standard panel thicknesses ranging from 30 mm to 150 mm and cabin dimensions fully customisable to buyer requirements. Key end-use sectors include construction project sites, oil and gas installations, defence and government facilities, industrial plants, and residential farm-house applications.",
+    "product_types": [
+      "PUF Security Cabin / Guard Cabin",
+      "PUF Portable Office Cabin",
+      "PUF Site Office Cabin",
+      "PUF Labour Accommodation / Bunk House",
+      "PUF Farm House Cabin",
+      "PUF Portable Toilet Cabin",
+      "PUF Modular Prefab House (single/double storey)",
+      "FRP PUF Cabin",
+      "PUF Panel Porta Cabin",
+      "PUF Insulated Cottage / Hutment"
+    ],
+    "primary_applications": [
+      "Construction site offices and project offices",
+      "Security guard cabins and toll booths",
+      "Labour accommodation and bunk houses on project sites",
+      "Temporary residential housing and farm house cabins",
+      "Industrial plant offices and control rooms",
+      "Military and defence field accommodation",
+      "Healthcare field clinics and first-aid posts",
+      "Educational classrooms in remote locations",
+      "Retail kiosks and counter cabins"
+    ],
+    "buyer_segments": [
+      "Construction contractors and infrastructure project developers",
+      "Industrial facility and plant managers",
+      "Government and defence procurement departments",
+      "Real estate developers requiring temporary site infrastructure",
+      "Oil and gas field operators",
+      "Individual buyers seeking portable residential or farm-house structures",
+      "Event management companies needing temporary facilities"
+    ]
+  },
+  "primary_segment": "Portable prefabricated PUF insulated cabin for site office, security, and accommodation use",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Portable prefabricated PUF insulated cabin for site office, security, and accommodation use",
+    "secondary_families": [],
+    "reason": "All sub-types (security cabin, office cabin, accommodation cabin, farm house) share the same buyer profile, PUF sandwich panel construction principle, and B2B procurement context — no incompatible product families or regulatory regimes exist within this MCAT."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "PUF cabin",
+      "PUF panel cabin",
+      "PUF porta cabin",
+      "PUF panel house",
+      "portable PUF cabin",
+      "PUF insulated cabin",
+      "puff cabin",
+      "PUF security cabin",
+      "modular PUF cabin",
+      "prefab PUF cabin"
+    ],
+    "technical_synonyms": [
+      "PUF sandwich panel cabin",
+      "polyurethane foam insulated portable cabin",
+      "PUF panel prefabricated structure",
+      "PUR insulated modular cabin",
+      "PPGI skin PUF cabin",
+      "FRP PUF cabin",
+      "PUF insulated prefab shelter",
+      "closed-cell PUF panel cabin"
+    ],
+    "trade_names": [
+      "porta cabin",
+      "portacabin",
+      "prefab cabin",
+      "modular portable cabin",
+      "prefabricated office cabin",
+      "bunk house",
+      "site office cabin",
+      "insulated portable cabin",
+      "prefab site office"
+    ],
+    "hindi_terms": [
+      "रेडीमेड घर",
+      "पोर्टेबल केबिन",
+      "प्रीफैब केबिन"
+    ],
+    "buyer_intent_queries": [
+      "PUF cabin for construction site office",
+      "portable PUF panel cabin price India",
+      "prefab PUF insulated security guard cabin",
+      "PUF cabin 10x10 ft for site office",
+      "PUF panel portable cabin manufacturer India",
+      "modular PUF cabin for labour accommodation",
+      "PUF cabin for farm house",
+      "insulated portable cabin for industrial plant",
+      "PUF porta cabin customised dimensions",
+      "prefabricated PUF cabin single storey"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Standard and small PUF cabins (security cabins, guard cabins, small office cabins) are quoted per piece in Indian B2B transactions; larger custom-dimensioned cabins and multi-room structures are additionally quoted per sq ft to reflect variable floor area.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Security / guard cabin (small, standard size)",
+        "unit": "per piece",
+        "note": "Fixed small-format cabin sold as a complete unit"
+      },
+      {
+        "sub_segment": "Office cabin / accommodation cabin (custom dimensions)",
+        "unit": "per sq ft",
+        "note": "Larger cabins with variable floor area quoted on sq ft basis"
+      },
+      {
+        "sub_segment": "Multi-room prefab structure / modular house",
+        "unit": "per piece or per project",
+        "note": "Turnkey multi-room structures quoted per unit or per project"
+      }
+    ],
+    "sources_checked": [
+      "EPACK Prefab (epack.in)",
+      "Mitaso (mitaso.net)",
+      "Globetech Fabricators (globetechfabricators.com)",
+      "Perfect Infratech (perfectinfratech.com)",
+      "GRC Everest (grceverest.com)",
+      "IndiaMART Delhi listing page (structural signal only)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "PUF Cabins in India are prefabricated portable structures built from polyurethane foam sandwich panels (PUF/PUR core, PPGI or FRP skins) on mild steel frames, serving as a fast-deploy, thermally insulated alternative to conventional construction. The Indian market is dominated by manufacturers in Delhi-NCR, Haryana, Maharashtra, Gujarat, and Punjab, supplying to construction, infrastructure, oil and gas, defence, and industrial sectors. Panel specifications follow industry norms of 40 kg/m³ core density, thermal conductivity ≤ 0.024 W/mK, and panel thickness ranging from 30 mm to 150 mm; PPGI sheet conforming to IS 12436:1988 is the standard skin material. Leading Indian manufacturers include EPACK Prefab (GRIHA certified, BMTPC PAC No. 1060-S/2022), Kingspan Jindal (PIR/PUR panels), and numerous regional fabricators. Cabins are sold as complete turnkey units or in knock-down panel form, with dimensions fully customisable; common standard sizes include 10×10 ft, 10×20 ft, and 20×20 ft. The market distinguishes between small security/guard cabins (sold per piece), mid-size office cabins (quoted per sq ft), and large multi-room accommodation structures (quoted per project). PIR (Polyisocyanurate) panels are an advanced variant offering better fire resistance and lower K-value, used where fire safety compliance is critical.",
+  "buyer_attracting_attributes": [
+    "Cabin Size / Dimensions (length × width × height)",
+    "Panel Thickness (mm)",
+    "Insulation Material (PUF / PIR / FRP)",
+    "Frame Material (MS / GI)",
+    "Panel Skin Material (PPGI / FRP / ACP)",
+    "Number of Rooms / Floors",
+    "Fire Rating / Fire Retardance",
+    "Weatherproofing / Waterproofing",
+    "Certifications (GRIHA / BMTPC / BIS)",
+    "Customisation Availability"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "167809",
+    "mcat_name": "PUF Cabin",
+    "mcat_level": "4",
+    "listing_count": "1376",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > PUF Cabin",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35400.0",
+      "name": "Portable Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35400.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "32980",
+        "mcat_name": "Office Cabin",
+        "listing_count": "6818",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35057",
+        "mcat_name": "Portable Classrooms",
+        "listing_count": "736",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35400",
+        "mcat_name": "Portable Cabin",
+        "listing_count": "13877",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38456",
+        "mcat_name": "Telephone Booths",
+        "listing_count": "419",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42755",
+        "mcat_name": "Security Cabins",
+        "listing_count": "4207",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43789",
+        "mcat_name": "Wooden Cabins",
+        "listing_count": "665",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43790",
+        "mcat_name": "Mobile Cabins",
+        "listing_count": "613",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "56012",
+        "mcat_name": "Glass Cabin",
+        "listing_count": "1247",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96540",
+        "mcat_name": "Office Container",
+        "listing_count": "21197",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96541",
+        "mcat_name": "Mobile Containers",
+        "listing_count": "2044",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "111378",
+        "mcat_name": "Smoking Cabin",
+        "listing_count": "192",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119140",
+        "mcat_name": "Container Conversion Service",
+        "listing_count": "68",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121149",
+        "mcat_name": "FRP Cabin",
+        "listing_count": "1604",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135704",
+        "mcat_name": "Portable Kitchen",
+        "listing_count": "457",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135705",
+        "mcat_name": "Portable Security Cabins",
+        "listing_count": "6233",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135712",
+        "mcat_name": "Prefabricated Cabin",
+        "listing_count": "6259",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135797",
+        "mcat_name": "Toll Booth",
+        "listing_count": "853",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135966",
+        "mcat_name": "Eco Portable Cabins",
+        "listing_count": "436",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136204",
+        "mcat_name": "Prefabricated Accommodation",
+        "listing_count": "1321",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145135",
+        "mcat_name": "FRP Portable Security Cabin",
+        "listing_count": "1727",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149768",
+        "mcat_name": "Portable Dressing Room",
+        "listing_count": "358",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150360",
+        "mcat_name": "Portable Log Cabins",
+        "listing_count": "220",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150362",
+        "mcat_name": "Portable Pantry",
+        "listing_count": "142",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150852",
+        "mcat_name": "MS Porta Cabin",
+        "listing_count": "9337",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150853",
+        "mcat_name": "MS Security Cabins",
+        "listing_count": "1334",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154082",
+        "mcat_name": "Wooden Guard Room",
+        "listing_count": "111",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159318",
+        "mcat_name": "GRP Cabin",
+        "listing_count": "55",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "165827",
+        "mcat_name": "Modular Portable Cabin",
+        "listing_count": "3118",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181546",
+        "mcat_name": "PVC Portable Cabin",
+        "listing_count": "407",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181975",
+        "mcat_name": "Prefabricated Security Cabin",
+        "listing_count": "1156",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185338",
+        "mcat_name": "GI Portable Cabin",
+        "listing_count": "2393",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185339",
+        "mcat_name": "Aluminium Office Cabins",
+        "listing_count": "1740",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "188230",
+        "mcat_name": "Portable ATM Cabin",
+        "listing_count": "130",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "207959",
+        "mcat_name": "Frisking Booth",
+        "listing_count": "168",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "PUF cabins are prefabricated modular structures with thermal insulation specs and dimensional standards; no single regulatory body mandates compliance, but BIS guidelines for prefab construction and thermal performance exist. Market research will surface standard dimensions, insulation grades, and typical buyer RFQ patterns."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions: 'puf panel house' (215), 'puf cabin' (16) confirmed dominant buyer search vocabulary and residential/office use signal."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "primary_segment"
+        ],
+        "citation_note": "Top keyword by Pageviews: 'puf cabin' (159 PVs, 9 calls) confirmed as dominant on-platform search term; secondary clusters: 'security cabin', 'porta cabin', 'portable cabin'."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "mcat_description.product_types",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "334 call rows confirmed buyer vocabulary: 'PUF cabin', 'porta cabin', 'prefab structure', 'portable house', 'readymade ghar' (रेडीमेड घर). Applications: site office, security, accommodation, farm house. Specs not extracted from call data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT is under Prefabricated Structures. Listing count 1376 is plausible for an active MCAT; not flagged as suspect. 34 siblings noted for vagueness check — no sibling carve-out triggers Trigger A."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.epack.in/puf-panels",
+        "title": "PUF Panels Manufacturer, PUF/PIR Insulated and Sandwich Panels Supplier in India",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.long",
+          "buyer_attracting_attributes",
+          "unit_quoting_context.sources_checked"
+        ],
+        "citation_note": "Used for panel technical specs (PPGI/PPGL skins, GRIHA certification, BMTPC PAC No. 1060-S/2022), panel width range 900–1200mm, PIR vs PUF distinction, and porta cabin application confirmation."
+      },
+      {
+        "url": "https://www.umapufpanel.com/puf-panel-portable-cabin-2783774.html",
+        "title": "PUF Panel Portable Cabin at Best Price, PUF Panel Portable Cabin Manufacturer in Vadodara",
+        "source_domain": "umapufpanel.com",
+        "derived_outputs": [
+          "mcat_description.short",
+          "mcat_description.primary_applications",
+          "market_context"
+        ],
+        "citation_note": "Confirmed PUF Panel Portable Cabins as prefabricated structures with PUF core, used in oil & gas, construction, and mining; confirmed customisable specifications."
+      },
+      {
+        "url": "https://prefabkart.com/product/puf-panel/",
+        "title": "Puf Panel – Prefabkart",
+        "source_domain": "prefabkart.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed 40 kg/m³ core density, Recaz-grade PUF chemicals, fire retardant properties, and standard width ~1200mm with thickness 30–150mm."
+      },
+      {
+        "url": "https://www.perfectinfratech.com/puf-panel-cabin.html",
+        "title": "Puf Panel Cabin - Portable Puf Panel Cabin Wholesaler from Noida",
+        "source_domain": "perfectinfratech.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Confirmed PU panel thickness range 30–200mm, width 1000–1200mm, length 1200–9000mm; applications include homes, farm houses, industrial sheds, warehouses."
+      },
+      {
+        "url": "https://www.pufpanel.co.in/puf-and-insulated-panels.html",
+        "title": "PUF and Insulated Panels - Puf Insulated Panels Manufacturer from Navi Mumbai",
+        "source_domain": "pufpanel.co.in",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed IS 12436:1988 as the standard for pre-coated galvanised sheet; density 38–40 kg/m³; CFC-free N-Pentane blowing agent; double groove panel for cold store applications."
+      },
+      {
+        "url": "https://www.mitaso.net/porta-cabins.html",
+        "title": "Porta Cabins - Puf Panel Portable Hut Cabins Manufacturer from Faridabad",
+        "source_domain": "mitaso.net",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed per-piece and per-sq-ft unit quoting for different cabin types; product range includes security cabins, office cabins, portable hut cabins."
+      },
+      {
+        "url": "https://www.globetechfabricators.com/puf-cabin.html",
+        "title": "Puf Cabin - Prefabricated Puff Insulated Farm House Cabin Manufacturer from Zirakpur",
+        "source_domain": "globetechfabricators.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed product types: puff insulated cabin, security guard cabin, farm house cabin, toilet cabin; buyer segments include hospitals, universities, army, government, private sector."
+      },
+      {
+        "url": "https://www.grceverest.com/puf-insulated-panel.html",
+        "title": "PUF Insulated Panel - Porta Cabin Manufacturer from Vadodara",
+        "source_domain": "grceverest.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.product_types",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed applications: project offices, stores, canteens, toilet blocks, accommodation, security cabins, change rooms; per-piece unit quoting confirmed."
+      },
+      {
+        "url": "https://www.umapufpanel.in/puf-panels.html",
+        "title": "PUF Panels - PUF Panel SIGNATURE Manufacturer from Karjan",
+        "source_domain": "umapufpanel.in",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed technical specs: density 40 kg/m³, thermal conductivity ≤ 0.024 W/mK, thickness 30–150mm, standard width 1000mm; applications include modular buildings and portable cabins."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "PUF cabins are prefabricated modular structures with thermal insulation specs and dimensional standards; no single regulatory body mandates compliance, but BIS guidelines for prefab construction and thermal performance exist. Market research will surface standard dimensions, insulation grades, and typical buyer RFQ patterns."
+    }
+  }
+}
