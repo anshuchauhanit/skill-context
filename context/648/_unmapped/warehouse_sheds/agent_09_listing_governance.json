@@ -1,0 +1,6 @@
+{
+  "location_exception": false,
+  "location_exception_reason": "Warehouse sheds are industrial infrastructure assets quoted per square foot of built-up area and designed to buyer specifications; location of the buyer's site is a logistics detail, not a product attribute. Removing location names (e.g., 'Bangalore', 'Gujarat') leaves the product description complete and accurate.",
+  "biz_exception": false,
+  "biz_exception_reason": "IndiaMART's seller-type filter (Manufacturer, Supplier, Contractor, Dealer) already exposes business relationship independently. Words like 'Manufacturer', 'Contractor', or 'Supplier' in titles are redundant; the product is a warehouse shed regardless of seller type. Removing these words preserves full product meaning."
+}
