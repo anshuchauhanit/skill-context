@@ -1,0 +1,1185 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "268179813",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Warehouse Roofing Sheet Fabrication Service",
+      "description": "Fabrication work is&nbsp;the process of constructing products by combining parts using various processes and materials",
+      "specs": {
+        "raw": "Material:Iron, Payment Mode:Online And Offline, Service Duration:As Per Requirement, Service Location:Andhra Pradesh, Service Mode:Offline"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/2/383020078/AI/OR/QV/183405791/warehouse-roofing-sheet-fabrication-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/warehouse-roofing sheet fabrication service-2853358081362.html",
+      "image_file": "268179813.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Aerial view shows workers actively installing red corrugated metal roofing sheets on an industrial steel framework, clearly depicting the roofing sheet fabrication and installation service."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title names the service type (Fabrication Service), application (Warehouse), and product (Roofing Sheet) — all three buyer-relevant attributes present."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm material (Iron) and service location (Andhra Pradesh) but omit sheet profile, thickness, and service scope."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic statement about fabrication work with no roofing-specific detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Listing is a roofing sheet fabrication and installation service for warehouses — directly within MCAT scope."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs list only material and payment/location fields; sheet profile, thickness, and installation scope are absent."
+        }
+      ],
+      "verification_note": "Strong title and excellent photo confirm valid roofing sheet fabrication service; specs and description are thin but not disqualifying.",
+      "source_url": "https://www.indiamart.com/proddetail/warehouse-roofing sheet fabrication service-2853358081362.html"
+    },
+    {
+      "item_id": "271448002",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Roofing Sheet Fabrication Service",
+      "description": "We are providing the best services of Roofing Sheet Fabrication Service in Himachal Pradesh. Deals in all kinds of metal fabrication.",
+      "specs": {
+        "raw": "Fabrication Location:On Site, Material:Mild Steel, Product Dimensions:Custom, Service Type:Custom Fabrication, Sheet Profile:Deck Sheet, Surface Treatment:Powder Coating, Thickness:8 mm, Usage/Application:Commercial"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/5/605849338/CT/ZO/KZ/3976992/roofing-sheet-fiber-fabrication-service.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/roofing-sheet fabrication service-2853684900291.html",
+      "image_file": "271448002.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Interior view shows curved polycarbonate/FRP roofing sheets installed on a steel arched frame — a valid roofing sheet fabrication output (Polycarbonate/FRP Roofing Sheet Fabrication is an explicit product_type in this MCAT)."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names the service (Roofing Sheet Fabrication Service) but lacks material type or application specificity."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide fabrication location (On Site), material (Mild Steel), sheet profile (Deck Sheet), thickness (8 mm), surface treatment, and application — substantive buyer-relevant detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description confirms Himachal Pradesh location and metal fabrication scope but adds no technical detail about the roofing service."
+        },
+        "category": {
+          "valid": true,
+          "reason": "On-site roofing sheet fabrication service with specified profile and material is squarely within MCAT scope."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description mentions 'Himachal Pradesh' as a service location, and specs contain 'Service Location/City' equivalent data — location leakage in description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description explicitly states 'in Himachal Pradesh' as a geographic qualifier embedded in the listing text."
+        }
+      ],
+      "verification_note": "Strong specs and valid photo confirm MCAT fit; location leakage in description is the only policy issue.",
+      "source_url": "https://www.indiamart.com/proddetail/roofing-sheet fabrication service-2853684900291.html"
+    },
+    {
+      "item_id": "271761634",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Roofing Sheet Work",
+      "description": "<ul>\n<li>PEB Structural Shed</li>\n<li>Pre Engineered Building Shed</li>\n<li>PEB Shed Manufacturer</li>\n<li>Industrial PEB Shed</li>\n<li>Warehouse PEB Shed</li>\n<li>Factory Shed PEB</li>\n<li>Pre Engineered Steel Shed</li>\n<li>PEB Structure Shed Price</li>\n<li>Steel Structure Shed</li>\n<li>PEB Warehouse Shed</li>\n<li>Industrial Steel Shed</li>\n<li>Prefabricated Factory Shed</li>\n<li>Pre Engineered Industrial Shed</li>\n<li>Cold Storage PEB Shed</li>\n<li>Logistic Warehouse Shed</li>\n</ul>\n<ul>\n<li>PEB Shed Manufacturer in Chennai</li>\n<li>Steel Shed Supplier in Coimbatore</li>\n<li>PEB Structure Shed Price in<br />Best PEB Shed Manufacturer</li>\n</ul>\n<ul>\n<li>Low-Cost PEB Shed Supplier in coimbatore</li>\n<li>Buy Pre Engineered Shed</li>\n<li>PEB Shed Installation Service</li>\n<li>Affordable PEB Shed Solutions</li>\n<li>Top PEB Shed Companies</li>\n<li>Leading PEB Shed Manufacturer in India</li>\n<li>Best Pre Engineered Steel Shed Supplier</li>\n</ul>",
+      "specs": {
+        "raw": "Application:Industry, Brand:SSS, Country of Origin:Made in India, Location:All Over India, Material:Steel, Type of Roofing:Metal Roofing"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2024/9/454567052/XF/MK/IX/16110353/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/roofing-sheet work-2853716263497.html",
+      "image_file": "271761634.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Interior upward view shows corrugated GI roofing sheets installed on green steel purlins and trusses — clearly depicts a completed roofing sheet installation in an industrial shed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Roofing Sheet Work' is correct but vague — missing material type, profile, and application context."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm material (Steel), application (Industry), and roofing type (Metal Roofing) — minimal but not misleading."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a keyword-stuffed list of PEB shed types with no roofing sheet fabrication specifics; it is valid for the MCAT context (PEB roofing is a primary application) but adds no buyer-useful detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Metal roofing sheet installation for industrial PEB sheds is a core application within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'PEB Shed Manufacturer in Chennai' and 'Steel Shed Supplier in Coimbatore' — city names embedded in listing text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Industrial Shed Fabrication",
+        "reason": "Description is dominated by PEB shed manufacturer/supplier keywords suggesting the primary offering is full shed fabrication, not just roofing sheet work — routes to Industrial Shed Fabrication sibling."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Roofing Sheet Work' — missing material, profile type, and application specificity."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains city names 'Chennai' and 'Coimbatore' embedded as part of keyword phrases."
+        }
+      ],
+      "verification_note": "Photo confirms roofing sheet installation; sibling routing flagged due to PEB shed manufacturer positioning in description, but roofing sheet work is valid for this MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/roofing-sheet work-2853716263497.html"
+    },
+    {
+      "item_id": "156310864",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Roofing Sheet Work",
+      "description": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.",
+      "specs": {
+        "raw": "Country of Origin:Made in India, Material:Steel, Payment Mode:Online/Offline, Service Mode:Offline, Type of Roofing:Metal Roofing"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/10/457656846/PQ/NH/HB/103065321/roofing-sheet-work.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/roofing-sheet work-22720238633.html",
+      "image_file": "156310864.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed industrial warehouse/shed with colour-coated profile roofing sheets (white with teal trim) on a steel structure — a clear, buyer-useful depiction of roofing sheet fabrication output."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Roofing Sheet Work' is correct but lacks material, profile, and application specificity."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm material (Steel) and roofing type (Metal Roofing) but omit profile, thickness, and service scope."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is effectively empty (only whitespace and a period) — no content to evaluate."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Photo and specs both confirm metal roofing sheet work for an industrial structure — valid MCAT fit."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Roofing Sheet Work' — missing material type, profile, and application context."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — photo clearly shows completed colour-coated profile sheet roofing on industrial shed; all dimensions confirm MCAT validity; thinness alone does not disqualify.",
+      "source_url": "https://www.indiamart.com/proddetail/roofing-sheet work-22720238633.html"
+    },
+    {
+      "item_id": "126572293",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Roofing Shed Fabrication Services",
+      "description": "We are the leading organization in the industry to provide our clients the best quality <b>Roofing Shed Fabrication Services</b>. This service is widely appreciated by our valuable clients owing to its perfect execution and cost-effectiveness features. The offered service is performed by our highly experienced professionals using the best grade tools and advanced technology. Provided service is carried out in an excellent manner. Moreover, this service can be availed by our clients at most reasonable price.",
+      "specs": {
+        "raw": "Color:Silver, Height:10 Feet, Material:Galvanized Iron, Technique:Hot Rolled, Treatment:Painted"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/12/367868435/RG/YV/WA/9222931/roofing-shed-fabrication-services.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/roofing-shed fabrication services-19744014997.html",
+      "image_file": "126572293.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a prefabricated metal shed/carport with white corrugated roofing panels on a green steel frame — a valid depiction of roofing sheet fabrication and installation output."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the service (Roofing Shed Fabrication Services) correctly; 'Shed' is a minor variation but the roofing fabrication service identity is clear."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm GI material, hot-rolled technique, painted treatment, and height — relevant attributes for a roofing sheet fabrication service."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic marketing language with no technical roofing-specific detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "GI roofing sheet fabrication and shed installation is a core product type within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Industrial Shed Fabrication",
+        "reason": "Title says 'Roofing Shed Fabrication Services' and image shows a complete prefabricated shed structure — the offering may be full shed fabrication rather than roofing sheet work alone, warranting routing to Industrial Shed Fabrication sibling."
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — GI roofing sheet fabrication is valid for this MCAT; sibling routing flagged as the listing may also fit Industrial Shed Fabrication.",
+      "source_url": "https://www.indiamart.com/proddetail/roofing-shed fabrication services-19744014997.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "260675018",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Roofing Sheet Fabrication",
+      "description": "Our services are accomplished employing the advanced techniques. These services are extremely praised in industry due to their timely completion",
+      "specs": {
+        "raw": "Manufacturing Technique:Roll Forming, Material:Mild Steel, Service Location/City:Malappuram, Type of Solution:Roof Leakage Solutions for Homes and Terrace"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/10/462436386/BW/HU/LP/12924246/roofing-sheet-fabrication.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/roofing-sheet fabrication-2852607601762.html",
+      "image_file": "260675018.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a large curved arch steel structural framework under construction with no roofing sheets installed — the roofing sheet fabrication service output is not yet visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Roofing Sheet Fabrication' is correct but lacks material, profile, and application specificity."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide manufacturing technique (Roll Forming), material (Mild Steel), and solution type — but 'Roof Leakage Solutions for Homes and Terrace' signals a repair/waterproofing service rather than new sheet fabrication."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic with no roofing-specific technical detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Roll-forming of mild steel roofing sheets is within MCAT scope, though the 'Roof Leakage Solutions' spec introduces ambiguity about whether this is fabrication or repair."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title claims 'Roofing Sheet Fabrication' (new sheet supply/installation) but specs state 'Type of Solution: Roof Leakage Solutions for Homes and Terrace' — a repair/waterproofing service, not fabrication."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City: Malappuram' — a city name embedded in the listing."
+        }
+      },
+      "correct_mcat_suggestion": "Roof Works",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title says 'Roofing Sheet Fabrication' but specs declare 'Type of Solution: Roof Leakage Solutions for Homes and Terrace' — fabrication vs. repair/waterproofing are contradictory service types."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the bare steel arch framework with no roofing sheets installed — the fabrication service output is not visible."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Service Location/City: Malappuram' — a city name embedded in listing data."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — title-specs contradiction (fabrication vs. roof leakage repair) and thin photo are active failures.",
+      "source_url": "https://www.indiamart.com/proddetail/roofing-sheet fabrication-2852607601762.html"
+    },
+    {
+      "item_id": "299998998",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Roofing Sheet Fabrication Service",
+      "description": "<b>Description</b><br /><br />Grill Fabrication Work Service offers strong, stylish, and secure grill solutions for residential, commercial, and industrial properties. Crafted using high-quality materials like iron, mild steel, or stainless steel , our grills are custom-designed to match both safety needs and aesthetic preferences.",
+      "specs": {
+        "raw": "Manufacturing Technique:Shearing"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/5/512033186/SD/HM/MI/61793102/roofing-sheet-fabrication-service.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/roofing-sheet fabrication service-2856540000091.html",
+      "image_file": "299998998.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "thin_image",
+          "reason": "Image shows a black steel frame roof structure without any roofing sheets installed — only the bare framework is visible, and the scale suggests a small residential canopy rather than industrial roofing sheet fabrication."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names 'Roofing Sheet Fabrication Service' — valid for this MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs contain only 'Manufacturing Technique: Shearing' — insufficient detail for a roofing sheet fabrication service."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly describes 'Grill Fabrication Work Service' offering grill solutions — a completely different product from roofing sheet fabrication, actively contradicting the title."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Description reveals the actual service is grill fabrication, not roofing sheet fabrication — product identity mismatch with this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description",
+          "photo_vs_category",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title says 'Roofing Sheet Fabrication Service' but description explicitly describes 'Grill Fabrication Work Service' offering grill solutions.",
+          "Photo shows a bare steel frame structure with no roofing sheets — does not depict roofing sheet fabrication.",
+          "Description describes grill fabrication, not roofing sheet fabrication — directly contradicts MCAT category."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title claims 'Roofing Sheet Fabrication Service' but description explicitly states 'Grill Fabrication Work Service offers strong, stylish, and secure grill solutions.'"
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Photo shows only a bare steel frame canopy structure with no roofing sheets — does not depict roofing sheet fabrication."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes grill fabrication work, not roofing sheet fabrication — wrong product category in the description."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only a bare steel frame with no roofing sheets installed — the service output is not depicted."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — description explicitly describes grill fabrication, not roofing sheet fabrication; multiple active contradictions confirmed.",
+      "source_url": "https://www.indiamart.com/proddetail/roofing-sheet fabrication service-2856540000091.html"
+    },
+    {
+      "item_id": "62513218",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Erection Fabrication of Roof Sheeting",
+      "description": "<p>We are expert in offering <b>Erection Services </b>that include all assembling, installation and maintenance works. Our professionals possess rich experience in their respective domains that assist us in rendering these services as per the set industry standards. We use the best quality raw materials and modern machinery while offering these services. The offered <b>Erection Services </b>are highly admired for their hassle-free management, timely execution and flexibility.</p>",
+      "specs": {},
+      "image_file": "62513218.jpg",
+      "image_url": "http://3.imimg.com/data3/FB/HM/MY-4901939/hh.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/erection-fabrication of roof sheeting-8743645330.html",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Small thumbnail image shows what appears to be a roofing structure under construction but image resolution and size are too small to confirm roofing sheet details clearly."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Erection Fabrication of Roof Sheeting' correctly describes the service — erection and fabrication of roof sheeting is within MCAT scope."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no attributes provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description describes generic erection services with no roofing-specific technical detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Erection and fabrication of roof sheeting is a valid service within this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a very small thumbnail with insufficient resolution to confirm roofing sheet details — product detail not visible."
+        }
+      ],
+      "verification_note": "Category is valid and title is acceptable; retained as bad due to thin photo (thumbnail too small) and empty specs — thinness across all text dimensions with poor photo quality collectively makes this a weak listing, though no single active failure overrides pre-label bad.",
+      "source_url": "https://www.indiamart.com/proddetail/erection-fabrication of roof sheeting-8743645330.html"
+    },
+    {
+      "item_id": "150883627",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Roofing Sheet Fabrication",
+      "description": "<p dir=\"ltr\">Our company is a master in providing <b>Roofing Sheet Fabrication</b>.</p>",
+      "specs": {
+        "raw": "Built Type:All Type, Features:Cost Effective, Location:Our Company Location Is Coimbatore 45, Material:MS SS And PEB Works, Materials Used:MS SS And Aluminium, Output:Quality Materials And Experienced Labours, Service Charges:Per Square Feet, Service City:Total Tamil Nadu, Service Location:On Site, Service Location/City:Tamil Nadu, Service Type:Roofing Sheet Fabrication, Surface Treatment:All Type Of Sheet Applyable, Thickness:All Thickness Available, Type Of Roofing:All Type Of Fabrication Works"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2022/8/FY/PR/XQ/102294728/prod-20220806-1518395297680830399507997-jpg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/roofing-sheet fabrication-22177514933.html",
+      "image_file": "150883627.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a small curved polycarbonate/acrylic canopy awning on a residential building facade — this is a decorative window/door canopy, not industrial roofing sheet fabrication."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Roofing Sheet Fabrication' is correct but lacks material, profile, and application specificity."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm material (MS, SS, Aluminium), service location (On Site), service charges (Per Square Feet), and roofing type — relevant attributes despite verbose formatting."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a single generic sentence with no technical roofing detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "The title and specs describe roofing sheet fabrication services — valid for this MCAT despite the misleading photo."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title claims 'Roofing Sheet Fabrication' (industrial/commercial metal roofing) but photo shows a small decorative polycarbonate canopy awning on a residential building.",
+          "Photo shows a residential decorative canopy awning — not representative of industrial roofing sheet fabrication as defined by this MCAT."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Location: Our Company Location Is Coimbatore 45', 'Service City: Total Tamil Nadu', and 'Service Location/City: Tamil Nadu' — multiple location references embedded in specs."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Title says 'Roofing Sheet Fabrication' but photo shows a small decorative polycarbonate canopy awning on a residential building facade."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Photo shows a residential decorative canopy awning — not industrial roofing sheet fabrication — making the image wrong for this MCAT."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image depicts a decorative residential canopy awning rather than roofing sheet fabrication work — wrong product shown."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Location: Our Company Location Is Coimbatore 45' and 'Service City: Total Tamil Nadu' — city and location names embedded in listing."
+        }
+      ],
+      "verification_note": "Photo actively contradicts the title and MCAT — decorative canopy awning shown instead of roofing sheet fabrication; retained as bad.",
+      "source_url": "https://www.indiamart.com/proddetail/roofing-sheet fabrication-22177514933.html"
+    },
+    {
+      "item_id": "224219413",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Fiber Shed Fabrication Works",
+      "description": "Fiber sheds,fiber window sheds,Fiber roofing sheds,Fiber glass window sheds,Fiber glass Roofing sheds,Metro sheets,Metro sheds,Industrial sheds,Metro tin sheds,Factory sheds,Godown sheds,Terrace sheds,Window sheds,Half round sheds, All kinds of sheds menufecture.",
+      "specs": {
+        "raw": "Material:Fiberglass, Service Location/City:All delhi"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2022/11/MY/NC/AG/31627936/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/fiber-shed fabrication works-2848962041248.html",
+      "image_file": "224219413.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows two workers on a residential rooftop fabricating/bending a small metal sheet cover (likely an AC unit cover or small enclosure) with tools and an AC outdoor unit visible — not roofing sheet fabrication for industrial sheds."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title 'Fiber Shed Fabrication Works' describes fiberglass shed fabrication — while FRP/polycarbonate roofing is a product type in this MCAT, the primary framing as 'Fiber Shed' (complete shed) rather than roofing sheet work is a category boundary issue."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm fiberglass material and Delhi service location — minimal but not contradictory to MCAT."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description lists various shed types including fiber roofing sheds — partially relevant to MCAT but primarily describes complete shed manufacturing."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Photo shows workers fabricating a small metal enclosure (AC cover or similar) on a residential rooftop — not roofing sheet fabrication for industrial/commercial structures; combined with title framing as complete fiber shed manufacturing, this is a category mismatch."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title describes 'Fiber Shed Fabrication Works' but photo shows workers fabricating a small metal sheet enclosure (AC cover) on a residential rooftop — not fiber shed fabrication.",
+          "Photo shows residential rooftop metalwork (small enclosure fabrication) rather than roofing sheet fabrication for industrial structures."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs contain 'Service Location/City: All delhi' — a city name embedded in the listing."
+        }
+      },
+      "correct_mcat_suggestion": "Industrial Shed Fabrication",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Photo shows workers fabricating a small metal enclosure on a residential rooftop — not roofing sheet fabrication for industrial/commercial structures."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Fiber Shed Fabrication Works' frames the offering as complete fiber shed manufacturing, not roofing sheet fabrication service."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a residential rooftop with workers bending a small metal sheet cover — wrong product and context for this MCAT."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs contain 'Service Location/City: All delhi' — city name embedded in listing."
+        }
+      ],
+      "verification_note": "Photo and title both confirm this is not roofing sheet fabrication — photo shows small residential metalwork, title frames as complete shed manufacturing; category invalid.",
+      "source_url": "https://www.indiamart.com/proddetail/fiber-shed fabrication works-2848962041248.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images for this MCAT show either active installation scenes (workers placing corrugated metal sheets on industrial steel frameworks, aerial or ground-level views) or completed roofing outcomes (finished industrial sheds/warehouses with colour-coated profile sheets, interior views of corrugated GI sheets on purlins). Images are taken on-site at real construction or completed projects, with the roofing sheet material clearly visible as the dominant subject. Background context (steel structure, purlins, industrial setting) is present and adds buyer confidence.",
+  "image_type_recommendation": {
+    "type": "object_with_info",
+    "reason": [
+      "Roofing sheet fabrication is a service — the most informative images show active installation or completed project outcomes, both of which carry contextual information (scale, material, profile type) that a buyer evaluates.",
+      "Completed shed/warehouse images allow buyers to assess sheet colour, profile type, and structural scale — visual context IS the product information for a service MCAT.",
+      "OCR is not useful here as no text labels appear on the roofing sheets themselves, but the scene context (industrial vs. residential, sheet type, installation stage) is the buyer-relevant information."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good photos show active roofing sheet installation or completed industrial/commercial roofing outcomes with metal sheets clearly visible.",
+    "product_identity": [
+      "Corrugated or profile metal roofing sheets (GI, colour-coated, or polycarbonate) installed on steel framework",
+      "Industrial or commercial scale — sheds, warehouses, or large-span structures"
+    ],
+    "acceptable_scenes": [
+      "Aerial or ground-level view of workers installing corrugated metal sheets on industrial steel framework",
+      "Interior view of corrugated GI sheets on purlins and trusses in an industrial shed",
+      "Exterior view of completed warehouse/shed with colour-coated profile roofing sheets",
+      "Interior view of polycarbonate/FRP curved roofing sheets on arched steel frame"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "268179813",
+        "reason": "Aerial view shows workers actively installing red corrugated metal roofing sheets on an industrial steel framework, clearly depicting the roofing sheet fabrication and installation service.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "271448002",
+        "reason": "Interior view shows curved polycarbonate/FRP roofing sheets installed on a steel arched frame — a valid roofing sheet fabrication output (Polycarbonate/FRP Roofing Sheet Fabrication is an explicit product_type in this MCAT).",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "271761634",
+        "reason": "Interior upward view shows corrugated GI roofing sheets installed on green steel purlins and trusses — clearly depicts a completed roofing sheet installation in an industrial shed.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "156310864",
+        "reason": "Image shows a completed industrial warehouse/shed with colour-coated profile roofing sheets (white with teal trim) on a steel structure — a clear, buyer-useful depiction of roofing sheet fabrication output.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "126572293",
+        "reason": "Image shows a prefabricated metal shed/carport with white corrugated roofing panels on a green steel frame — a valid depiction of roofing sheet fabrication and installation output.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show roofing-related structures but omit the roofing sheets themselves — only bare steel frameworks are visible.",
+    "thinness_signals": [
+      "Steel framework or truss structure shown without roofing sheets installed — service output not yet visible",
+      "Image resolution too small (thumbnail) to confirm roofing sheet profile or material"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "260675018",
+        "reason": "Image shows a large curved arch steel structural framework under construction with no roofing sheets installed — the roofing sheet fabrication service output is not yet visible."
+      },
+      {
+        "photo_url": null,
+        "item_id": "62513218",
+        "reason": "Small thumbnail image shows what appears to be a roofing structure under construction but image resolution and size are too small to confirm roofing sheet details clearly."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show wrong products — decorative residential canopies, small metal enclosure fabrication on rooftops — not industrial roofing sheet fabrication.",
+    "failure_classes": [
+      {
+        "class": "decorative_residential_canopy",
+        "description": "Photo shows a small curved polycarbonate/acrylic canopy awning on a residential building facade — a decorative architectural element, not industrial roofing sheet fabrication.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "150883627"
+          }
+        ],
+        "detection_signal": "Small curved canopy on residential building wall, polycarbonate or acrylic material, decorative rather than structural roofing.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "residential_rooftop_metalwork",
+        "description": "Photo shows workers on a residential rooftop fabricating a small metal sheet enclosure (AC cover or similar) — not roofing sheet fabrication for industrial structures.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "224219413"
+          }
+        ],
+        "detection_signal": "Residential rooftop setting, small metal enclosure being bent/fabricated, AC outdoor unit visible, domestic context.",
+        "failure_mode": "wrong_category"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name the service type (Fabrication/Installation), the material or sheet type, and the application (Warehouse, Industrial, PEB) — three buyer-relevant attributes.",
+    "strong_positive_signals": [
+      "Application context named (Warehouse, Industrial, Commercial)",
+      "Service type explicit (Fabrication Service, Fabrication and Installation)",
+      "Material or sheet type specified (GI, Colour-Coated, Metal Roofing)"
+    ],
+    "structural_patterns": [
+      "[Application] Roofing Sheet Fabrication Service",
+      "[Material] Roofing Sheet Fabrication and Installation",
+      "Roofing Sheet Fabrication Service for [Application]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "268179813",
+          "title": "Warehouse Roofing Sheet Fabrication Service",
+          "reason": "Names all three buyer-relevant attributes: application (Warehouse), product (Roofing Sheet), and service type (Fabrication Service)."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "126572293",
+          "title": "Roofing Shed Fabrication Services",
+          "reason": "Correctly identifies the service category but 'Shed' is a minor variation and material/profile type is absent."
+        },
+        {
+          "item_id": "271448002",
+          "title": "Roofing Sheet Fabrication Service",
+          "reason": "Correct service name but lacks material type and application specificity."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name the service correctly but omit material, profile type, and application — leaving buyers without differentiating information.",
+    "thinness_signals": [
+      "Missing material type (GI, Colour-Coated, PUF, Polycarbonate)",
+      "Missing application context (Warehouse, Industrial Shed, Commercial)",
+      "Missing profile type (Corrugated, Trapezoidal, Deck Sheet)"
+    ],
+    "examples": [
+      {
+        "item_id": "271761634",
+        "title": "Roofing Sheet Work",
+        "reason": "Correct service implied but 'Work' is vague — missing material, profile, and application."
+      },
+      {
+        "item_id": "156310864",
+        "title": "Roofing Sheet Work",
+        "reason": "Same pattern — correct but vague, missing all differentiating attributes."
+      },
+      {
+        "item_id": "150883627",
+        "title": "Roofing Sheet Fabrication",
+        "reason": "Correct service name but lacks material, profile, and application specificity."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles contain contaminating tokens that signal a different product or service — grill fabrication or fiber shed manufacturing rather than roofing sheet fabrication.",
+    "failure_classes": [
+      {
+        "class": "grill_fabrication_contamination",
+        "signal": "Title names roofing sheet fabrication but description reveals the actual service is grill fabrication — title is a mislabelled listing.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "299998998",
+            "title": "Roofing Sheet Fabrication Service",
+            "reason": "Title appears valid but description explicitly describes 'Grill Fabrication Work Service' — the listing is for a different product entirely.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "fiber_shed_manufacturing",
+        "signal": "Title frames the offering as complete fiber shed manufacturing rather than roofing sheet fabrication service.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "224219413",
+            "title": "Fiber Shed Fabrication Works",
+            "reason": "Title describes complete fiber shed manufacturing, not roofing sheet fabrication — 'Fiber Shed' as a complete structure is a different product from roofing sheet work.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere based on product identity mismatch confirmed in audit.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "roof_leakage_repair_service",
+        "signal": "Specs or description explicitly state 'Roof Leakage Solutions' or waterproofing/repair service rather than new sheet fabrication and installation.",
+        "examples": [
+          {
+            "item_id": "260675018",
+            "title": "Roofing Sheet Fabrication",
+            "reason": "Specs declare 'Type of Solution: Roof Leakage Solutions for Homes and Terrace' — a repair/waterproofing service, not new roofing sheet fabrication.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Roof Works"
+      },
+      {
+        "class": "complete_shed_manufacturing_fiber",
+        "signal": "Title and description describe complete fiber/fiberglass shed manufacturing as the primary offering, not roofing sheet fabrication as a service.",
+        "examples": [
+          {
+            "item_id": "224219413",
+            "title": "Fiber Shed Fabrication Works",
+            "reason": "Title and description frame the offering as complete fiber shed manufacturing — a different product from roofing sheet fabrication service.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Industrial Shed Fabrication"
+      },
+      {
+        "class": "grill_fabrication_mislabelled",
+        "signal": "Description explicitly describes grill fabrication work despite title claiming roofing sheet fabrication — wrong product listed under this MCAT.",
+        "examples": [
+          {
+            "item_id": "299998998",
+            "title": "Roofing Sheet Fabrication Service",
+            "reason": "Description explicitly states 'Grill Fabrication Work Service offers strong, stylish, and secure grill solutions' — completely different product from roofing sheet fabrication.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Industrial Shed Fabrication",
+        "signal": "Listing's primary offering is complete PEB/industrial shed fabrication and supply — roofing sheet work is incidental to the full shed construction service.",
+        "examples": [
+          {
+            "item_id": "271761634",
+            "title": "Roofing Sheet Work",
+            "reason": "Description is dominated by PEB shed manufacturer/supplier keywords (PEB Structural Shed, PEB Shed Manufacturer in Chennai, Steel Shed Supplier in Coimbatore) — primary offering is full shed fabrication."
+          },
+          {
+            "item_id": "126572293",
+            "title": "Roofing Shed Fabrication Services",
+            "reason": "Title says 'Roofing Shed Fabrication Services' and image shows a complete prefabricated shed structure — may be full shed fabrication rather than roofing sheet work alone."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data and direct visual inspection of provided images."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names (Roof Works, Industrial Shed Fabrication, Roof Structural Fabrication Services) drawn from provided taxonomy_context.siblings only — no fabrication."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment and product_types used to ground category belonging decisions; mcat_vagueness_signal.suspected_vague was not explicitly set — treated as false (coherent MCAT) based on Agent 3 description."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
