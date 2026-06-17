@@ -1,0 +1,238 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is extreme — a traditional FRP kiosk, a modern glass-aluminium acoustic pod, and an industrial steel booth are visually unrecognisable as the same product category. Buyers use the image to identify product type and environmental fit before reading any text; wrong visual = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Capacity (single vs. 2-person vs. 4-person) and acoustic rating are non-interchangeable shortlisting gates — a single-person calling pod cannot substitute for a 4-person meeting pod, and acoustic performance determines fitness for open-plan office vs. industrial use. Listings without these specs cannot be evaluated or shortlisted."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially across booth size, material, and acoustic grade — buyers discover across spec tiers rather than comparing within a known tier, making price a budget-entry signal after spec confirmation. Indian B2B buyers are price-sensitive but final price is negotiated; listed price is a shortlisting qualifier, not a closing signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with universal buyer recall in the Indian telephone booth market — buyers search by product type and spec, not manufacturer name, though established suppliers (Ubalpine, Niveeta, AM Acoustic) carry credibility signals through certification and track record.",
+      "reason": "Capital equipment with post-sale dependency — installation capability, warranty, acoustic certification (TUV Rheinland), and service network are evaluated during vendor selection, particularly by institutional and corporate buyers."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Multi-unit corporate orders may be quoted per set, but per piece is the dominant and universally understood unit; no buyer questions whether a self-contained booth is sold per piece.",
+      "reason": "Unit is entirely implied by the product — a self-contained prefabricated booth is always sold per piece. No buyer would ever be confused about the unit for this category."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Booth Size",
+        "reason": "Defines the product class — single-person, 2-person, and 4-person booths are non-interchangeable and carry a large price delta (roughly 3–5x from single to 4-person), making this the primary price-driving configurator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Acoustic Rating",
+        "reason": "Defines the performance tier within each size class — High Acoustic vs. Standard carries a significant price premium and determines fitness for purpose (open-plan office requires high acoustic; industrial kiosk may accept standard), making it non-substitutable for compliance-sensitive buyers."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Acoustic Rating",
+      "Body Material",
+      "Booth Color",
+      "Booth Size",
+      "Booth Type",
+      "Door Type",
+      "Features",
+      "Installation Area",
+      "Mounting Type",
+      "Usage"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Booth Dimensions (L x W x H)",
+        "why_important": "Corporate facility managers and architects need exact floor footprint and height to plan space allocation — Booth Size captures person-capacity but not actual dimensions, which are a primary procurement specification for fit-out projects.",
+        "source": "both",
+        "example_values": [
+          "1200 x 1200 x 2200 mm",
+          "1500 x 1500 x 2300 mm",
+          "2400 x 1200 x 2200 mm",
+          "Custom"
+        ]
+      },
+      {
+        "spec_name": "Acoustic Certification",
+        "why_important": "Institutional and corporate buyers use third-party acoustic certification (e.g., TUV Rheinland, ISO) as a procurement qualifier — Agent 3 identifies TUV Rheinland certification as a credibility marker cited by at least one Indian supplier, and buyers in regulated or premium segments require certified performance claims.",
+        "source": "both",
+        "example_values": [
+          "TUV Rheinland Certified",
+          "ISO Certified",
+          "Self-Certified",
+          "Uncertified"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Capacity",
+        "reason": "Capacity is the primary routing spec — a seller supplying single-person calling pods cannot fulfil a 4-person meeting pod requirement, and price, lead time, and product range all differ fundamentally by capacity.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Material",
+        "reason": "Material determines construction type, acoustic performance proxy, durability, and price tier — FRP signals a traditional/industrial product, Glass & Aluminium signals a modern office pod, and Plywood/MDF signals a budget acoustic booth, allowing sellers to immediately confirm whether they manufacture the right product type.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "FRP",
+          "Glass & Aluminium",
+          "Plywood / MDF",
+          "ACP",
+          "PVC"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Acoustic Performance (Noise Reduction)",
+        "why_important": "Sellers need to know the buyer's required noise reduction level (dB) to confirm their product meets the acoustic specification — a binary 'Soundproof' tag in Features does not capture the performance tier that determines product selection and price.",
+        "source": "both",
+        "example_values": [
+          "Up to 25 dB",
+          "25–30 dB",
+          "30–35 dB",
+          "35+ dB"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Installation Area",
+        "why_important": "Indoor vs. outdoor installation determines weatherproofing requirements, material eligibility, and product family — sellers need this to confirm they supply the right variant and to price correctly for outdoor-rated construction.",
+        "source": "both",
+        "example_values": [
+          "Indoor",
+          "Outdoor",
+          "Semi-Outdoor"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Indoor",
+          "Outdoor"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Material",
+      "option_value": "FRP",
+      "id": "spec_1",
+      "prompt_for_generation": "Traditional FRP telephone booth, single-person prefabricated kiosk in fibreglass-reinforced plastic, opaque moulded body in grey or blue finish, floor-mounted, clean white studio background, front-facing view, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Glass & Aluminium",
+      "id": "spec_2",
+      "prompt_for_generation": "Modern acoustic office phone booth with aluminium frame and tempered glass panels, single-person calling pod, semi-transparent walls, clean contemporary design, white interior, floor-mounted on white studio background, front-facing view, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "Plywood / MDF",
+      "id": "spec_3",
+      "prompt_for_generation": "Acoustic telephone booth with engineered wood plywood or MDF panels, warm wood-finish exterior, single-person calling pod with acoustic foam interior lining visible through open door, floor-mounted, white studio background, front-facing view, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "ACP",
+      "id": "spec_4",
+      "prompt_for_generation": "Telephone booth constructed with aluminium composite panel (ACP) cladding, flat smooth exterior surface in grey or white finish, single-person prefabricated booth, clean geometric form, floor-mounted, white studio background, front-facing view, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Material",
+      "option_value": "PVC",
+      "id": "spec_5",
+      "prompt_for_generation": "Lightweight PVC telephone booth, single-person prefabricated kiosk with smooth plastic panel exterior in white or light grey, compact form factor, floor-mounted, white studio background, front-facing view, studio lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Installation Area",
+      "option_value": "Indoor",
+      "id": "spec_6",
+      "prompt_for_generation": "Modern acoustic office phone booth installed indoors in a contemporary open-plan corporate office environment, glass and aluminium single-person calling pod, polished floor, office furniture visible in background, natural indoor lighting, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Installation Area",
+      "option_value": "Outdoor",
+      "id": "spec_7",
+      "prompt_for_generation": "Outdoor weatherproof telephone booth installed in a public or industrial outdoor setting, FRP or steel construction with weatherproof sealing, mounted on concrete base, natural daylight, industrial or institutional background context, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
