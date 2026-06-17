@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Toll Booth' aligns with the dominant primary keywords ('toll booth cabin', 'toll booth', 'toll plaza cabin') confirmed in Agent 3 alt_names and market_context, and is the widely recognised trade term used by Indian manufacturers and NHAI contractors.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a Western (US-style) highway toll plaza booth with FasTrak branding, dollar fee signage, and yellow/teal colour scheme — this is a foreign operational toll plaza, not an Indian prefabricated MS/ACP toll booth cabin product as defined by the primary segment.",
+      "The image contains prominent third-party branding ('FasTrak', '511.org') and depicts an installed infrastructure context rather than a standalone factory-fabricated cabin product, making it actively misleading for Indian B2B buyers seeking NHAI-compliant prefab toll booth cabins."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A standalone prefabricated toll booth cabin for Indian highway toll plaza use, MS steel frame with silver-grey ACP (Aluminium Composite Panel) cladding, large toughened glass sliding windows on front and sides for operator visibility, compact rectangular single-lane cabin approximately 8x6 feet, clean white interior visible through glass, mounted on a flat concrete base, photographed straight-on against a plain white studio background, bright even lighting, no branding or text, sharp product-catalogue style image, square 1:1 aspect ratio.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
