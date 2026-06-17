@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Structures' directly matches the top primary keyword in Agent 3 alt_names and is the standard B2B umbrella term used by Indian manufacturers (EPACK, Interarch) and buyers across IndiaMART for this category.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a bare steel-frame skeleton structure under construction with no cladding, walls, or roofing panels — it represents an incomplete PEB frame rather than a finished prefabricated structure, which undersells the product's end-state value to buyers.",
+      "The primary segment (finished PEB industrial shed for warehouse/factory use) is not represented; a completed structure with insulated sandwich panel walls, roofing, and cladding would far better communicate the product and attract industrial buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic exterior view of a large completed Pre-Engineered Building (PEB) industrial shed — wide-span steel structure with light grey insulated sandwich panel walls, blue corrugated PPGI metal roofing, and a tall roller shutter entrance door. Clean industrial setting, flat concrete apron in foreground, clear blue sky background, bright natural daylight, slight three-quarter perspective angle to show both facade and side depth. No people, no text overlays, no construction debris. Square 1:1 composition with the full structure centred.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
