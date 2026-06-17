@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "\"Steel House\" is confirmed as the dominant buyer-facing term in Agent 3 primary_keywords and market_context, aligning with how Indian B2B buyers search for prefabricated steel-framed structures.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The image shows an architecturally distinctive multi-storey glass-and-steel residential building that appears to be a high-end Japanese/international architectural project — not a typical Indian prefabricated steel house (LGSF or MS frame with GI sheet/PUF panel cladding) as defined by the primary_segment.",
+      "The thumbnail misrepresents the MCAT's primary_segment: Indian B2B buyers seeking prefab steel labour camps, modular homes, or portable cabins will not recognise this as their product category, creating a segment mismatch and reducing listing relevance."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A completed single-storey prefabricated steel frame modular house in India, with colour-coated corrugated GI sheet cladding in light grey and white, a simple gabled roof, glass sliding door entrance, and a small covered porch. The structure sits on a concrete plinth in a semi-urban or rural Indian setting with clear blue sky background. Clean product-style photography, straight-on front elevation view, bright natural daylight, no people, sharp focus on the steel frame and panel joints visible at corners.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
