@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'Prefabricated Walls' is broad and accurate but undersells the dominant B2B product type; Agent 3 alt_names and market_context confirm that 'Prefabricated Wall Panels' is the more precise and buyer-searched term, aligning with primary keywords like 'prefab wall panels' and 'sandwich wall panels'.",
+    "suggested_name": "Prefabricated Wall Panels"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a precast concrete compound/boundary wall system installed outdoors — this represents a secondary sub-segment (compound walls) and conflicts with the primary_segment of insulated sandwich panel prefabricated walls (PUF/EPS core with metal cladding) for industrial/warehouse/commercial construction.",
+      "The image depicts an outdoor boundary wall application with no visible metal cladding, insulation core, or industrial building context, making it misleading for the dominant B2B buyer searching for PUF/EPS sandwich panels for factory or warehouse walls."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product photograph of insulated PUF sandwich wall panels with white PPGI metal-faced cladding, stacked vertically and installed as an industrial warehouse wall, showing visible panel joints and ribbed metal surface texture, clean white background on one side with a modern steel-frame warehouse structure on the other, bright studio-quality lighting, sharp focus, square 1:1 composition, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
