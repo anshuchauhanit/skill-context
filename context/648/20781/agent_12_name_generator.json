@@ -1,0 +1,67 @@
+{
+  "enhanced_name_4w": "Modular Prefab Industrial Shelters",
+  "enhanced_name_5w": "PUF Panel Modular Prefab Shelters",
+  "enhanced_name_6w": "Insulated Prefab Shelters for Industrial Use",
+  "enhanced_name_long": "Prefabricated Modular Shelters with PUF/FRP Panels for Telecom, Defence, Railway and Labour Camp Use",
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated shelters",
+      "prefab shelter",
+      "modular shelter",
+      "frp shelter",
+      "puf insulated shelter",
+      "steel shelter",
+      "container shelter",
+      "prefab cabin",
+      "portable cabin",
+      "insulated prefab shelter"
+    ],
+    "technical_synonyms": [
+      "PUF panel shelter",
+      "FRP modular shelter",
+      "sandwich panel shelter",
+      "pre-engineered shelter",
+      "modular prefab structure",
+      "portable prefabricated building",
+      "prefab porta cabin",
+      "steel frame prefab shelter"
+    ],
+    "trade_names": [
+      "portacabin",
+      "porta cabin",
+      "prefab hut",
+      "BTS shelter",
+      "railway hut",
+      "labour camp shelter",
+      "defence shelter",
+      "army shelter",
+      "site office cabin"
+    ],
+    "hindi_terms": [
+      "prefabricated shelter",
+      "portable kamra",
+      "prefab makaan"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated shelter manufacturers in India",
+      "puf insulated prefab shelter for telecom",
+      "army prefabricated shelters supplier",
+      "portable labour camp shelter for construction site",
+      "prefab shelter for railway station",
+      "modular shelter for defence use",
+      "prefabricated shelter rooms for workers",
+      "container shelter for industrial use",
+      "insulated prefab shelter for BTS equipment",
+      "modular prefab shelter for site office"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Portable/temporary consumer-grade shelters (sibling: Portable Shelters, ID 20782) — buyers seeking lightweight, non-structural, event or personal-use portable shelters are a distinct segment from industrial/infrastructure prefab shelter buyers; names implying purely temporary or consumer-portable use are blocked",
+    "Military-exclusive shelters (sibling: Military Shelters, ID 33228) — defence/army is a valid sub-segment of this MCAT but the standalone military shelter buyer segment is carved out by the sibling; names that exclusively target military/army procurement without broader industrial context are blocked",
+    "Telecom-exclusive shelters (sibling: Telecom Shelters, ID 42756) — telecom BTS is a valid application within this MCAT but the standalone telecom shelter buyer segment is carved out by the sibling; names that exclusively target telecom/BTS procurement are blocked",
+    "Industrial sheds and factory sheds (siblings: Industrial Sheds ID 30719, Prefabricated Factory Shed ID 136750, Industrial Shelters ID 30721) — large-span open industrial shed/factory shed buyers are a distinct segment; names implying open-span factory shed or warehouse shed construction are blocked",
+    "Bike/vehicle parking shelter consumer sub-segment — the 'bike shelter cover' keyword signal represents a secondary consumer/outdoor sub-segment incompatible with the primary industrial B2B buyer persona; names primarily targeting bike or vehicle parking covers are blocked"
+  ],
+  "segment_contamination_disclaimer": null
+}
