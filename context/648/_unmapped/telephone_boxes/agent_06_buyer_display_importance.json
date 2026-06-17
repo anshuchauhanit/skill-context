@@ -1,0 +1,193 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is high — a 10-pair rosette box, a wall-mounted 100-pair DP box, and a floor-standing 1200-pair MDF cabinet are visually completely different products. Buyers use the image to identify product type and mounting configuration before reading any text; wrong type = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Pair capacity, IP rating, material, and mounting type are non-interchangeable shortlisting criteria — a 100-pair outdoor IP54 MS box cannot substitute for a 10-pair indoor ABS box. Listings without these specs cannot be evaluated by telecom contractors or network operators."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian telecom contractors compare prices across suppliers but only after confirming spec equivalence. Price varies substantially with pair capacity, IP rating, and material — buyers use listed price as a budget entry point after spec shortlisting, with final price negotiated."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Low",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall exists in this category — market is fragmented across regional manufacturers in Delhi, Jalandhar, and Jaipur; buyers search by spec and IP rating, not manufacturer name.",
+      "reason": "Seller identity is a secondary qualifier — buyers check manufacturer vs trader status for quality assurance, but no recognised brand commands buyer preference or search behaviour in this fragmented market."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Always per piece for all sub-types including distribution boxes, junction boxes, and booth kiosks. Pair capacity is a product specification, not a unit of measure. No buyer ever questions the unit.",
+      "reason": "Unit is entirely implied — telephone distribution boxes and booth kiosks are discrete enclosures sold individually. No ambiguity is possible and no buyer would question whether the unit is per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Ingress Protection",
+        "reason": "IP rating is the primary application-suitability separator — IP40 indoor boxes are non-interchangeable with IP54/IP65 outdoor weatherproof boxes, and the price delta between indoor and outdoor-rated enclosures is substantial."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Material",
+        "reason": "Material (MS / ABS / FRP / Aluminium / SS / GI Steel) defines durability, corrosion resistance, and application environment suitability, with a significant price gradient from PVC/ABS at the low end to stainless steel and FRP at the high end."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Color",
+      "Country of Origin",
+      "Door Type",
+      "Ingress Protection",
+      "Material",
+      "Mounting Type",
+      "Suitable Phone Type",
+      "Window Type",
+      "With Canopy"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Pair Capacity",
+        "why_important": "Pair capacity (10 pair / 50 pair / 100 pair / 200 pair / 400 pair / 1200 pair) is the primary sizing specification for MDF and DP distribution boxes — it determines which cable infrastructure the box can serve and is the first spec telecom contractors specify in procurement.",
+        "source": "both",
+        "example_values": [
+          "10 Pair",
+          "50 Pair",
+          "100 Pair",
+          "200 Pair",
+          "400 Pair"
+        ]
+      },
+      {
+        "spec_name": "Termination Standard",
+        "why_important": "Krone LSA vs IDC vs screw terminal compatibility is a hard constraint — a Krone-compatible box cannot accept a different termination module, and the Krone LSA system is the dominant standard in Indian telecom infrastructure, making this a critical compatibility spec for buyers.",
+        "source": "both",
+        "example_values": [
+          "Krone LSA",
+          "IDC",
+          "Screw Terminal",
+          "RJ11/RJ45"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Usage/Application",
+        "reason": "Despite having only a null value in the current definition, this spec nominally captures the deployment context that sellers need to determine which product family (distribution box vs booth kiosk vs junction box) is relevant to the buyer's requirement.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Product Type / Box Type",
+        "why_important": "Sellers cannot determine which product family to respond with — distribution box, MDF box, DP box, junction box, or telephone booth kiosk — without knowing the buyer's required product type, as these are structurally and commercially incompatible products.",
+        "source": "both",
+        "example_values": [
+          "Distribution Box (MDF/DP)",
+          "Telephone Booth/Kiosk",
+          "Junction Box",
+          "Rosette Box"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Distribution Box (MDF/DP)",
+          "Telephone Booth/Kiosk",
+          "Junction Box",
+          "Rosette Box"
+        ]
+      },
+      {
+        "spec_name": "Pair Capacity",
+        "why_important": "For distribution box buyers, pair capacity is the primary sizing requirement — sellers need this to confirm they stock the correct capacity variant and to provide an accurate price.",
+        "source": "both",
+        "example_values": [
+          "10 Pair",
+          "50 Pair",
+          "100 Pair",
+          "200 Pair"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Product Type / Box Type",
+      "option_value": "Distribution Box (MDF/DP)",
+      "id": "spec_1",
+      "prompt_for_generation": "Wall-mounted telephone MDF distribution box, mild steel enclosure with hinged front panel open to reveal Krone LSA termination strips inside, grey powder-coated finish, white background, studio lighting, no branding, square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Product Type / Box Type",
+      "option_value": "Telephone Booth/Kiosk",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated telephone booth kiosk made from FRP, semi-enclosed outdoor structure with canopy on top, green colour, pole-mounted or standalone, white background, studio lighting, no branding, square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Product Type / Box Type",
+      "option_value": "Junction Box",
+      "id": "spec_3",
+      "prompt_for_generation": "Telephone junction box, small ABS plastic enclosure with cable entry knockouts on sides, wall-mounted, white or grey finish, closed lid, white background, studio lighting, no branding, square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Product Type / Box Type",
+      "option_value": "Rosette Box",
+      "id": "spec_4",
+      "prompt_for_generation": "Telephone rosette box, small flat wall-mount enclosure with RJ11 socket visible on front face, white PVC or ABS plastic, flush-mount design, white background, studio lighting, no branding, square crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
