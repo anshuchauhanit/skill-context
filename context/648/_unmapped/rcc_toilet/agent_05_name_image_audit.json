@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "\"RCC Toilet\" is confirmed as the dominant trade term in the Indian market, directly matching primary_keywords and buyer_intent_queries in Agent 3 alt_names; market_context confirms it is used interchangeably with 'readymade toilet' and 'precast toilet' by both buyers and sellers.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail clearly shows a single-compartment precast toilet cabin with sloped roof, open door revealing an Indian-style (IWC) squat pan inside — directly matching the primary_segment of a Swachh Bharat Mission-aligned rural RCC toilet cabin.",
+      "Image quality is adequate but the white-on-white background causes low contrast, the door-open angle partially obscures the interior fixture, and the unit's concrete/RCC material character is not visually obvious — a cleaner, better-lit shot with visible RCC texture and closed-door front view would improve buyer confidence."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Front-facing view of a single-compartment precast RCC (reinforced cement concrete) toilet cabin for rural India, white painted exterior walls with red oxide border trim, sloped corrugated roof, closed grey metal door with latch, Indian squat pan (IWC) visible through a slight door-open angle, rough concrete texture on walls suggesting RCC construction, placed on flat ground with a clean white studio background, bright even lighting, sharp product photography style, square 1:1 crop, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
