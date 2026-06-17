@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Telecom Shelters' directly matches the top primary_keyword and is the dominant buyer-facing search term confirmed across alt_names and market_context; no more specific or technically precise name would improve discoverability without narrowing scope.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows a prefabricated PUF-panel BTS cabin with steel corner posts, double-leaf door with locking hardware, and cable entry points — accurately representing the primary_segment.",
+      "Improvement is possible: the grey-on-white presentation is accurate but lacks visible branding cues (e.g., telecom operator context, antenna/cable tray), and a slightly more dynamic 3/4-angle shot with cleaner lighting would better communicate the product's scale and insulated panel construction to B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 3/4-angle front view of a prefabricated PUF-panel insulated BTS telecom shelter cabin, light grey PPGI steel sheet exterior with visible horizontal panel joints, dark grey structural steel corner posts and base frame with levelling feet, single double-leaf steel door with three-point locking handle on the front face, cable entry gland plate on the side wall, small AC unit or louvre vent on upper side panel, clean white studio background, soft even lighting highlighting panel texture and steel frame depth, square 1:1 crop, professional product photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
