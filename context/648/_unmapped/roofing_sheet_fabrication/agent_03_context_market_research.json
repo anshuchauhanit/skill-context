@@ -1,0 +1,373 @@
+{
+  "mcat_description": {
+    "short": "Roofing Sheet Fabrication is a construction service covering the supply, cutting, profiling, and on-site installation of metal roofing sheets — including GI corrugated, colour-coated profile, PUF sandwich panels, and aluminium sheets — for industrial sheds, warehouses, and commercial or residential roofs. Contractors quote the service per square foot of covered area.",
+    "long": "Roofing Sheet Fabrication encompasses the end-to-end service of procuring, roll-forming or cutting to size, and erecting metal roofing sheets on structural frameworks for industrial, commercial, and residential buildings. The dominant materials are Galvanized Iron (GI) corrugated sheets conforming to IS 277, colour-coated pre-painted galvanized (PPGI) or galvalume (PPGL) profile sheets, and PUF (polyurethane foam) sandwich panels for insulated roofing. Fabricators typically handle the full scope — supply of sheets from major mills (JSW, Tata, Jindal), custom cutting to project dimensions, purlin/fastener supply, and installation — with the service quoted per square foot of roof area. The MCAT sits within the Prefabricated Structures and Industrial Sheds taxonomy, reflecting its primary buyer base of shed builders, industrial contractors, and facility owners commissioning new or replacement roofing.",
+    "product_types": [
+      "GI Corrugated Roofing Sheet Fabrication (IS 277 compliant)",
+      "Colour-Coated Profile Sheet Fabrication (PPGI / PPGL)",
+      "PUF Sandwich Panel Roofing (10mm–100mm thickness)",
+      "Galvalume Roofing Sheet Fabrication",
+      "Aluminium Roofing Sheet Fabrication",
+      "MS Corrugated Roofing Sheet Fabrication",
+      "Polycarbonate / FRP Roofing Sheet Fabrication",
+      "Kerala-Type / Mangalore Tile Profile Sheet Fabrication",
+      "Box Profile / Trapezoidal Profile Sheet Fabrication",
+      "Terrace Pergola Roofing Sheet Fabrication"
+    ],
+    "primary_applications": [
+      "Industrial shed and factory roofing",
+      "Warehouse and cold storage roofing",
+      "Commercial building and showroom roofing",
+      "Residential terrace and sloped roof covering",
+      "Agricultural structure and poultry shed roofing",
+      "Pre-engineered building (PEB) roofing and cladding",
+      "Auditorium and large-span roof fabrication",
+      "Terrace pergola and canopy roofing"
+    ],
+    "buyer_segments": [
+      "Industrial shed contractors and fabricators",
+      "Pre-engineered building (PEB) contractors",
+      "Factory and warehouse owners commissioning new roofing",
+      "Real estate developers and construction companies",
+      "Residential builders and individual homeowners (terrace/sloped roof)",
+      "Agricultural and poultry farm operators",
+      "Government and institutional project contractors"
+    ]
+  },
+  "primary_segment": "GI and colour-coated profile sheet fabrication and installation service for industrial sheds and warehouses",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "On-site roofing sheet fabrication and installation service using metal sheets (GI/PPGI/PUF) for industrial and commercial structures",
+    "secondary_families": [],
+    "reason": "The MCAT is broad but coherent — all product types (GI corrugated, colour-coated profile, PUF panels) share the same fabrication-service buyer journey, the same contractor-type seller, and the same per-sq-ft quoting norm; no sibling carve-out or regulatory incompatibility triggers vagueness."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "roofing sheet fabrication",
+      "profile sheet fabrication",
+      "GI roofing sheet installation",
+      "colour coated roofing sheet work",
+      "metal roofing sheet fabrication",
+      "PUF roofing sheet",
+      "roofing sheet installation service",
+      "shed roofing fabrication",
+      "industrial roofing sheet work",
+      "roof sheet fabricator"
+    ],
+    "technical_synonyms": [
+      "GI corrugated sheet erection",
+      "PPGI profile sheet installation",
+      "galvalume roofing sheet fabrication",
+      "colour coated profile sheet erection",
+      "PUF sandwich panel roofing",
+      "trapezoidal profile sheet fabrication",
+      "box profile roofing sheet installation",
+      "IS 277 GI sheet roofing work",
+      "roll-formed roofing sheet installation",
+      "sheet metal roofing fabrication"
+    ],
+    "trade_names": [
+      "JSW roofing sheet",
+      "Tata Roofseal",
+      "Jindal GI roofing sheet",
+      "PPGI sheet",
+      "PPGL sheet",
+      "Galvalume sheet",
+      "Essar colour coated sheet",
+      "Apollo colour coated sheet",
+      "GC sheet (galvanized corrugated)",
+      "Krima metal roofing sheet"
+    ],
+    "hindi_terms": [
+      "Chadar (छत की चादर)",
+      "Patra (पत्रा)",
+      "Lokhand ki sheet (लोखंड की शीट)",
+      "Patra fitting (पत्रा फिटिंग)",
+      "Chhat ki chadar (छत की चादर)",
+      "Lohey ki chhat (लोहे की छत)"
+    ],
+    "buyer_intent_queries": [
+      "roofing sheet fabrication work near me",
+      "GI roofing sheet installation per square feet",
+      "colour coated profile sheet fabrication for industrial shed",
+      "PUF sandwich panel roofing contractor",
+      "kerala type roofing sheet design and installation",
+      "industrial shed roofing sheet fabrication service",
+      "roofing sheet work square feet price",
+      "terrace roof shed fabrication contractor",
+      "aluminium roofing sheet fabrication services",
+      "soundproof roofing sheet installation India"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Roofing sheet fabrication services in India are universally quoted per square foot of covered roof area, as confirmed by IndiaMART service listings and buyer keyword searches ('roofing sheet work square feet price'); material-only sellers may quote per kg, but the fabrication service context makes sq ft the dominant transactional unit.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Material-only supply (GI/MS/colour-coated sheets)",
+        "unit": "per kg",
+        "note": "When selling sheet material without installation, sellers quote per kg — consistent with IS 277 weight-based grading."
+      },
+      {
+        "sub_segment": "PUF sandwich panel supply",
+        "unit": "per sq ft or per piece",
+        "note": "PUF panels are quoted per sq ft for area-based projects or per piece for standard-size panels."
+      },
+      {
+        "sub_segment": "Full fabrication + installation service",
+        "unit": "per sq ft",
+        "note": "End-to-end roofing service (supply + erection) is quoted per sq ft of roof area covered."
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART Hyderabad roofing sheet fabrication directory",
+      "Google keyword data ('roofing sheet work square feet price')",
+      "Internal keyword data ('roofing sheet fabrication blue sheets square bit')",
+      "Manufacturer sites (vikasprofile.com, alliancesteelindia.com)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Roofing Sheet Fabrication in the Indian B2B market refers primarily to a contractor service — the supply, custom cutting, and on-site installation of metal roofing sheets for industrial sheds, warehouses, and commercial or residential buildings. The dominant materials are GI corrugated sheets (conforming to IS 277 for galvanized steel), colour-coated pre-painted galvanized (PPGI) and galvalume (PPGL) profile sheets, and PUF sandwich panels for insulated roofing. GI sheets are hot-dip zinc-coated (typically Z-90 to Z-275 GSM) and available in thicknesses of 0.20mm–2.5mm, with standard roofing thickness at 0.45mm–0.60mm. Profile types include corrugated (sinusoidal), trapezoidal, box profile, and tile/Mangalore profile. Major Indian steel mill brands — JSW, Tata Roofseal, Jindal — are the dominant raw material sources. PUF sandwich panels (10mm–100mm thickness) are a growing sub-segment driven by insulation and soundproofing demand, as evidenced by call data showing 10 of 17 buyer enquiries mentioning PUF sheets. Kerala-type and Mangalore tile profile sheets represent a regional design preference in South India, surfacing prominently in Google keyword data. The service is quoted per square foot of covered area; material-only supply is quoted per kg. Buyers are primarily industrial shed contractors, PEB contractors, and facility owners; sellers are fabricators who source sheets from major mills and provide end-to-end installation.",
+  "buyer_attracting_attributes": [
+    "Material Type (GI / MS / Aluminium / PUF / Polycarbonate)",
+    "Sheet Thickness / Gauge (mm)",
+    "Profile Type (Corrugated / Trapezoidal / Box / Tile)",
+    "Zinc Coating Weight (GSM)",
+    "Colour / Finish (RAL colour, PPGI/PPGL)",
+    "PUF Panel Thickness (mm) for insulated panels",
+    "Sheet Length and Width (custom cut-to-length)",
+    "IS Standard Compliance (IS 277 / ISI mark)",
+    "Tensile Strength (MPa)",
+    "Warranty / Service Life (years)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "170769",
+    "mcat_name": "Roofing Sheet Fabrication",
+    "mcat_level": "5",
+    "listing_count": "803",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Roofing Sheet Fabrication",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "30719.0",
+      "name": "Industrial Sheds",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "30719.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "101729",
+        "mcat_name": "Roof Works",
+        "listing_count": "2569",
+        "source_pmcat": "30719.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "153401",
+        "mcat_name": "Roof Structural Fabrication Services",
+        "listing_count": "2947",
+        "source_pmcat": "30719.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "171916",
+        "mcat_name": "Industrial Shed Fabrication",
+        "listing_count": "13470",
+        "source_pmcat": "30719.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 3,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Roofing sheets are standardised building materials with BIS mandatory certification (IS 277 for galvanised steel). Buyers evaluate by material type, gauge, profile, and IS compliance — not brand. Agent 3 prioritised BIS standards, material specifications, and coating/durability data."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context",
+          "primary_segment"
+        ],
+        "citation_note": "Kerala type roofing sheet, sheet work near me, roofing sheet work square feet price used to identify regional design preferences, local service intent, and dominant unit (sq ft)."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Profile sheet fabrication, aluminium roofing sheet fabrication services, sheet metal roofing fabrication used to confirm service-type MCAT and material sub-segments."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "market_context"
+        ],
+        "citation_note": "10 of 17 call rows mention PUF sheets (10mm–100mm), confirming PUF as a major sub-segment. Hindi terms Chadar, Patra, Lokhand ki Sheet, Patra fitting extracted from product names."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "primary_segment"
+        ],
+        "citation_note": "Taxonomy placement under Prefabricated Structures / Industrial Sheds anchors MCAT as a fabrication service, not a material-only MCAT. Listing count 803 treated as plausible."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://dir.indiamart.com/hyderabad/roofing-sheet-fabrication.html",
+        "title": "Roofing Sheet Fabrication, Metal Sheet Roofing Fabrication Services in Hyderabad",
+        "source_domain": "dir.indiamart.com",
+        "derived_outputs": [
+          "unit_quoting_context.dominant_unit",
+          "unit_quoting_context.sub_segment_units"
+        ],
+        "citation_note": "Used for unit quoting signal only (per sq ft confirmed from service listing prices). Not used for market claims or primary_segment."
+      },
+      {
+        "url": "https://www.vikasprofile.com/gi-sheet.html",
+        "title": "Gi Sheet - Galvanized Sheet - Heavy-Duty Manufacturer from Pune",
+        "source_domain": "vikasprofile.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for IS 277 standard confirmation, zinc coating GSM ranges, thickness ranges, and profile types for GI roofing sheets."
+      },
+      {
+        "url": "https://law.resource.org/pub/in/bis/S10/is.277.2003.pdf",
+        "title": "IS 277 (2003): Galvanized Steel Sheets (Plain and Corrugated)",
+        "source_domain": "law.resource.org",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "BIS IS 277 standard confirmed as the governing standard for galvanized steel roofing sheets in India."
+      },
+      {
+        "url": "https://www.alliancesteelindia.com/roofing-sheets.html",
+        "title": "Roofing Sheets - MS Corrugated Roofing Sheets Manufacturer from Vadodara",
+        "source_domain": "alliancesteelindia.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for profile types (corrugated, trapezoidal, box profile), coating options (GI/GL/PPGI/PPGL), and tensile strength ranges."
+      },
+      {
+        "url": "https://www.alfapebltd.com/color-coated-galvalume-galvanized-sheet.php",
+        "title": "GI Galvanized Roofing Sheet | Color Coated Galvalume Sheet Manufacturers in India",
+        "source_domain": "alfapebltd.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names",
+          "market_context"
+        ],
+        "citation_note": "Used for PPGI/PPGL/Galvalume product type confirmation, Mangalore tile profile, and PUF sandwich panel context."
+      },
+      {
+        "url": "https://www.sanghviispat.com/corrugated-sheets.html",
+        "title": "Corrugated Sheets - Gi Roofing Sheet Manufacturer from Indore",
+        "source_domain": "sanghviispat.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for thickness range (0.20mm–2.5mm, standard 0.45mm–0.60mm), width standards, and brand names (Jindal) for GI corrugated sheets."
+      },
+      {
+        "url": "https://www.antrixindia.com/gi-roofing-sheets-installation-services.html",
+        "title": "GI Roofing Sheets Installation Services - Antrix India",
+        "source_domain": "antrixindia.com",
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "primary_segment"
+        ],
+        "citation_note": "Confirmed GI roofing sheet installation as a pan-India contractor service covering residential, commercial, and industrial roofing."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "IS:1161",
+        "IS:277"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Roofing sheets are standardised building materials with BIS mandatory certification (IS:1161 for corrugated sheets, IS:277 for galvanised steel). Buyers evaluate by material type (GI/MS/Aluminium), gauge, profile, and IS compliance — not brand. Agent 3 should prioritise BIS standards, material specifications, and coating/durability data."
+    }
+  }
+}
