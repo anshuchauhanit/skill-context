@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Telephone Booths' aligns with primary_keywords ('telephone booth', 'phone booth', 'FRP telephone booth') and is the standard B2B search term used by Indian buyers across industrial, institutional, and corporate segments per Agent 3 market_context.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a decorative red British-style retro telephone box (London red box replica), which is a known contamination risk product explicitly flagged in Agent 3 market_context — it does not represent the primary_segment of FRP/acoustic prefabricated telephone booths for office, industrial, or institutional use.",
+      "The image will attract wrong-segment sellers (decorative/prop/event booths) and mislead B2B buyers seeking functional acoustic or FRP telephony enclosures, directly undermining listing quality for the MCAT's commercially dominant segment."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A modern single-person FRP acoustic telephone booth for office use, light grey or off-white exterior with a glass door panel, compact rectangular form factor, clean white studio background, soft even lighting, slight three-quarter front angle showing the door handle and ventilation grille, professional product photography style, no text overlays, no people inside.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
