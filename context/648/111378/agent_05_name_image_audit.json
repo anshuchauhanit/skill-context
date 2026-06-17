@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "\"Smoking Cabin\" is the highest-frequency primary keyword confirmed across Agent 3 alt_names and buyer_intent_queries, and aligns with dominant Indian B2B market usage for prefabricated ventilated smoking enclosures.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image correctly shows a prefabricated, glass-and-aluminium-framed enclosed smoking cabin with visible ventilation unit and ashtray stand — accurately representing the primary segment of ventilated workplace/public-space smoking enclosures.",
+      "The unit depicted appears to be a branded Euromate 'Smoke n Go' product with a visible brand poster inside, which introduces a seller/brand watermark-adjacent element; a generic, unbranded cabin render would be a stronger neutral category thumbnail."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A photorealistic product-style image of a freestanding prefabricated smoking cabin on a clean white background. The cabin has clear tempered glass panels, a silver/grey aluminium frame, a sliding glass entry door, a ceiling-mounted mechanical exhaust ventilation unit visible on top, a stainless steel ashtray pedestal inside, and interior bench seating. The structure is multi-person sized, fully enclosed, and unbranded. Soft studio lighting, slight three-quarter front angle to show both the door and side panel, sharp focus, professional B2B catalogue aesthetic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
