@@ -1,0 +1,378 @@
+{
+  "mcat_description": {
+    "short": "Roof Works covers roofing construction, installation, and fabrication services for industrial, commercial, and residential structures, encompassing metal sheet roofing, clay tile roofing, polycarbonate sheet roofing, PEB roofing, and associated structural work.",
+    "long": "Roof Works is a construction services and supply category on IndiaMART where sellers offer end-to-end roofing solutions — including material supply, fabrication, and on-site installation — for industrial sheds, warehouses, factories, poultry farms, residential buildings, and commercial structures. The dominant commercial form is metal sheet roofing using GI (galvanised iron), colour-coated PPGI/PPGL sheets, or PEB (Pre-Engineered Building) roofing panels, typically erected over MS structural frames with C/Z purlins. Regional variants include Mangalore clay tile roofing (prominent in Kerala and South India) and polycarbonate/FRP sheet roofing for light-transmission applications such as skylights and canopies. Ancillary works covered include roof waterproofing, flashing, gutters, ridge capping, ventilators, and insulated PUF panel roofing.",
+    "product_types": [
+      "GI / Galvanised Corrugated Sheet Roofing Work",
+      "Colour-Coated Metal Sheet Roofing Work (PPGI/PPGL)",
+      "PEB (Pre-Engineered Building) Roofing Work",
+      "Mangalore Clay Tile Roofing Work",
+      "Polycarbonate Sheet Roofing Work",
+      "FRP / Fibre Sheet Roofing Work",
+      "UPVC Roofing Sheet Work",
+      "PUF / Insulated Sandwich Panel Roofing Work",
+      "RCC / Concrete Terrace Roofing Work",
+      "Aluminium Roofing Sheet Work",
+      "Bitumen / Waterproofing Roofing Work",
+      "Bamboo Roofing Work",
+      "Tensile / Fabric Roofing Structure",
+      "MS Structure Fabrication and Roofing Erection",
+      "Roof Repair and Re-roofing Work"
+    ],
+    "primary_applications": [
+      "Industrial shed and factory roofing",
+      "Warehouse and storage facility roofing",
+      "Poultry farm and dairy shed roofing",
+      "Residential house roofing (Kerala-style tile, terrace)",
+      "Commercial building and office roofing",
+      "Car parking shed and canopy roofing",
+      "Agricultural and farm shed roofing",
+      "PEB building roofing and cladding",
+      "Skylight and light-transmission roofing panels",
+      "Roof waterproofing and terrace treatment"
+    ],
+    "buyer_segments": [
+      "Industrial shed owners and factory operators seeking turnkey roofing contractors",
+      "Real estate developers and builders requiring roofing subcontractors",
+      "Poultry and dairy farm owners needing shed roofing",
+      "Homeowners in Kerala and South India seeking tile or metal roofing contractors",
+      "Warehouse and logistics facility owners",
+      "SME manufacturers setting up new production sheds",
+      "Contractors and civil engineers sourcing roofing material + erection services",
+      "Government and institutional project buyers (PWD, CPWD)"
+    ]
+  },
+  "primary_segment": "Metal sheet roofing work (GI/colour-coated/PEB) for industrial and commercial sheds",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "Metal sheet roofing construction and installation service for industrial/commercial sheds (GI, PPGI, PEB panels with MS frame erection)",
+    "secondary_families": [
+      "Roofing material supply only (sheets, tiles, polycarbonate panels sold without installation — belongs in roofing sheets/materials MCATs)",
+      "MS structural frame fabrication without roofing (iron frame, angle/pipe structure — belongs in structural fabrication MCATs)",
+      "Residential tile roofing work (Mangalore tile, Kerala-style clay tile — distinct buyer, distinct contractor type, distinct geography)"
+    ],
+    "reason": "The name 'Roof Works' attracts incompatible seller types — turnkey roofing service contractors, roofing material-only suppliers, and structural frame fabricators — with different buyer journeys, pricing models (per sq ft service vs per kg/piece material), and routing targets; residential tile roofing also represents a distinct buyer and contractor segment from the industrial shed primary family."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "roof works",
+      "roofing work",
+      "metal sheet roofing work",
+      "GI sheet roofing work",
+      "PEB roofing work",
+      "colour coated roofing work",
+      "industrial shed roofing",
+      "roofing fabrication work",
+      "shed roofing work",
+      "roof installation service"
+    ],
+    "technical_synonyms": [
+      "corrugated GI sheet roofing",
+      "PPGI roofing installation",
+      "pre-engineered building roofing",
+      "colour coated steel sheet roofing",
+      "metal deck roofing",
+      "standing seam metal roofing",
+      "galvalume roofing work",
+      "C purlin and roofing sheet erection",
+      "roof truss and sheeting work"
+    ],
+    "trade_names": [
+      "JSW roofing work",
+      "Tata Durashine roofing",
+      "Essar roofing sheet work",
+      "Tuflite polycarbonate roofing",
+      "PEB shed roofing",
+      "Mangalore tile roofing work",
+      "puff panel roofing work"
+    ],
+    "hindi_terms": [
+      "chhat ka kaam",
+      "loha frame chhat",
+      "tin shed ka kaam",
+      "chhat lagana",
+      "baans ki chhat",
+      "chhat par garage"
+    ],
+    "buyer_intent_queries": [
+      "roof works contractor near me",
+      "metal sheet roofing work for industrial shed",
+      "GI sheet roofing installation service",
+      "PEB roofing sheet work contractor",
+      "colour coated roofing sheet erection",
+      "shed roofing fabrication and installation",
+      "roofing work per square feet rate",
+      "industrial shed roof construction service",
+      "polycarbonate shed roof installation",
+      "Mangalore tile roofing work contractor"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Roofing work in India is predominantly quoted per square foot for service/installation contracts, reflecting the area-based nature of roofing labour and material estimation; material-only supply may be quoted per sq metre or per kg but buyer search queries ('600 sq ft roof cost', '600 square feet roof cost') confirm sq ft as the dominant buyer-facing unit.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Metal sheet roofing installation (service contract)",
+        "unit": "per sq ft",
+        "note": "Standard unit for turnkey roofing service contracts in India"
+      },
+      {
+        "sub_segment": "Roofing sheet material supply",
+        "unit": "per sq metre or per sq ft",
+        "note": "Material-only supply may be quoted per sq metre (manufacturer/distributor) or per sq ft (retail/project)"
+      },
+      {
+        "sub_segment": "MS structural frame fabrication",
+        "unit": "per kg or per tonne",
+        "note": "Structural steel fabrication is quoted by weight in Indian B2B market"
+      },
+      {
+        "sub_segment": "Turnkey shed project",
+        "unit": "per project (lump sum)",
+        "note": "Full shed construction including roofing often quoted as a project lump sum"
+      }
+    ],
+    "sources_checked": [
+      "Google keyword data (600 sq ft roof cost, 600 square feet roof cost)",
+      "Internal keyword data (roof works, terrace roofing cost)",
+      "Star PEB India manufacturer page (per sq metre pricing observed)",
+      "Faisal Roofing Solutions India (roofing solutions context)",
+      "World knowledge — Indian construction industry unit norms"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Roof Works in the Indian B2B market encompasses roofing construction services, material supply, and fabrication-erection contracts, with the dominant commercial form being metal sheet roofing (GI corrugated, colour-coated PPGI/PPGL, and PEB panels) for industrial sheds, warehouses, and factories. BIS standards govern key roofing types: IS 12093 covers laying and fixing of GI corrugated sheet roofing, IS 2858 covers Mangalore clay tile roofing, and IS 1346 covers bitumen felt waterproofing — confirming that roofing type diversity is formally recognised in Indian standards. Regional demand is strong in South India (particularly Kerala) for clay tile roofing, while PEB and colour-coated metal sheet roofing dominate pan-India industrial and commercial segments. Polycarbonate and FRP sheet roofing are growing sub-segments for light-transmission applications (skylights, canopies, poultry farms). Sellers in this MCAT typically offer bundled supply-and-erect contracts covering MS structural frame fabrication, purlin supply, roofing sheet fixing, ridge capping, flashing, and gutters. Major roofing sheet brands active in India include JSW Steel, Tata Durashine, Essar, and Tuflite (polycarbonate); roofing work contractors are geographically distributed with clusters in Tamil Nadu, Karnataka, Kerala, Maharashtra, and Telangana.",
+  "buyer_attracting_attributes": [
+    "Roofing Material Type (GI / Colour-Coated / PEB / Polycarbonate / Mangalore Tile / PUF Panel)",
+    "Sheet Thickness (TCT in mm — e.g. 0.45mm, 0.50mm)",
+    "Roof Area Coverage (sq ft or sq metre)",
+    "Structural Frame Type (MS angle / MS pipe / PEB frame / bamboo)",
+    "Colour / Coating Type (PPGI, PPGL, galvalume, stone-coated)",
+    "Insulation / PUF Core (insulated sandwich panel vs bare sheet)",
+    "Slope / Pitch Design (sloped, flat, curved, butterfly)",
+    "Wind Load and Structural Grade (IS 875 compliance)",
+    "Accessories Included (purlins, ridge cap, flashing, gutters, ventilators)",
+    "Warranty / Lifespan (years of corrosion/UV resistance guarantee)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "101729",
+    "mcat_name": "Roof Works",
+    "mcat_level": "5",
+    "listing_count": "2569",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Roof Works",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "30719.0",
+      "name": "Industrial Sheds",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "30719.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "153401",
+        "mcat_name": "Roof Structural Fabrication Services",
+        "listing_count": "2947",
+        "source_pmcat": "30719.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "170769",
+        "mcat_name": "Roofing Sheet Fabrication",
+        "listing_count": "803",
+        "source_pmcat": "30719.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "171916",
+        "mcat_name": "Industrial Shed Fabrication",
+        "listing_count": "13470",
+        "source_pmcat": "30719.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 3,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Roof Works is a construction material/structural component category where buyers evaluate by material type, structural grade, load capacity, and BIS compliance — standard B2B research into material grades, installation methods, and Indian building code compliance will surface buyer-relevant specs and common product variants."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context.dominant_unit"
+        ],
+        "citation_note": "Top keywords by Impressions ('sheet house', 'roof work', 'kerala style roofing', 'polycarbonate shed roof', '600 sq ft roof cost') used to identify buyer search vocabulary, regional demand signals, and dominant unit (sq ft)."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "mcat_description.product_types",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Pageviews ('roof works', 'mangalore tile roofing work', 'puff roofing work', 'peb roofing sheet work') used to identify product type diversity and primary segment signals."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "mcat_vagueness_signal.secondary_families"
+        ],
+        "citation_note": "Call rows revealed Hindi buyer vocabulary (Loha Frame, Chhat par garage, Baans ki Chhat, Gat, Yacchi lagana) and confirmed vagueness signal — MS frame fabrication and installation-only services appear alongside roofing material enquiries."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "primary_segment"
+        ],
+        "citation_note": "Taxonomy parent 'Industrial Sheds' anchored primary_segment to industrial/commercial metal sheet roofing. Listing count 2,569 treated as plausible for a broad service MCAT."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.cracindia.in/admin/uploads/IS-12093.pdf",
+        "title": "IS 12093 (1987) — Code of Practice for Laying and Fixing of Sloped Roof Covering Using Plain and Corrugated Galvanized Steel Sheets",
+        "source_domain": "cracindia.in (BIS standard document)",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed GI corrugated sheet roofing as a BIS-standardised roofing type in India (IS 12093)."
+      },
+      {
+        "url": "https://law.resource.org/pub/in/bis/S03/is.2858.1984.pdf",
+        "title": "IS 2858 (1984) — Code of Practice for Roofing with Mangalore Tiles",
+        "source_domain": "law.resource.org (BIS standard document)",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Confirmed Mangalore clay tile roofing as a distinct BIS-standardised roofing type (IS 2858)."
+      },
+      {
+        "url": "https://law.resource.org/pub/in/bis/S03/is.1346.1991.pdf",
+        "title": "IS 1346 (1991) — Code of Practice for Waterproofing of Roofs with Bitumen Felts",
+        "source_domain": "law.resource.org (BIS standard document)",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Confirmed bitumen felt waterproofing as a distinct BIS-standardised roofing sub-type (IS 1346)."
+      },
+      {
+        "url": "https://faisalroofing.com/polycarbonate-sheets/details",
+        "title": "Polycarbonate Sheets — Faisal Roofing Solutions India",
+        "source_domain": "faisalroofing.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Confirmed polycarbonate sheet types (solid, twin-wall, multi-wall) and applications (skylights, canopies, industrial roofs, greenhouses) in Indian roofing market."
+      },
+      {
+        "url": "https://www.sriammansteels.in/roofing-sheets.html",
+        "title": "Roofing Sheets — Sri Amman Steels, Chennai",
+        "source_domain": "sriammansteels.in",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.product_types",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Confirmed product range (colour-coated sheets, PUF panels, polycarbonate, C/Z purlins, ventilators, fasteners, decking sheets) and bundled fabrication+erection service model in Indian roofing market."
+      },
+      {
+        "url": "https://starpebindia.com/roof-sheet-other-accessories/",
+        "title": "Roof Sheet and Other Accessories — Star PEB India Pvt Ltd",
+        "source_domain": "starpebindia.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Confirmed PEB roofing sheet specifications (GI/PPGI/BG, 0.45–0.50mm TCT, FRP/PC variants) and per sq metre unit quoting in Indian PEB roofing market."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "IS:800",
+        "IS:1893",
+        "NBC"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Roof Works is a construction material/structural component category where buyers evaluate by material type (metal, concrete, tile, asphalt), structural grade, load capacity, and BIS compliance — not by brand. Standard B2B research into material grades, installation methods, and Indian building code compliance (NBC, IS standards for steel/concrete structures) will surface buyer-relevant specs and common product variants."
+    }
+  }
+}
