@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Tree House' directly matches the top primary keyword and trade usage confirmed across Agent 3 alt_names ('tree house', 'treehouse') and market_context describing the dominant B2B segment as custom/prefab elevated wooden structures for eco-tourism and resort hospitality.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows a tree-supported wooden cabin with gabled roof, windows, door, and a wooden walkway bridge — accurately representing the primary segment of custom-built elevated wooden tree houses for eco-tourism/resort use.",
+      "Improvement is possible: the forest background is dark and cluttered, reducing visual clarity for a B2B listing thumbnail; a cleaner composition with better lighting and a more resort-grade structure would better signal the commercial hospitality application to buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A custom-built elevated wooden tree house for eco-tourism resort use, constructed on sturdy wooden stilts or integrated with large tree trunks, featuring a gabled thatched or timber-shingle roof, natural treated pine or teak plank walls, a wraparound wooden deck with railing, and a wooden staircase or rope bridge access. Set in a lush green tropical or forested landscape with soft natural daylight. Clean, professional product-style composition, slightly elevated angle showing the full structure, warm tones, no people, no text overlays. Square 1:1 format, high detail, photorealistic.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
