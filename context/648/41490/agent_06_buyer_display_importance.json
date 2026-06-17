@@ -1,0 +1,531 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Resort/hospitality developer or individual landowner seeking a prefabricated wooden house/cottage for residential or eco-tourism use.
+
+**Journey:**
+1. **First scan (listing tile):** Image — they need to see the structure type, aesthetic, and construction style immediately. A-frame vs log cabin vs modern timber frame are visually non-interchangeable. Wrong aesthetic = immediate skip.
+2. **Second check (opening listing):** Design style/construction type + floor area/configuration — does this match their project scope? A resort developer needs 2BHK cottages; a glamping operator needs studio pods.
+3. **Third check (shortlisting):** Wood type and treatment specs — durability, climate suitability, and maintenance implications. Pine vs teak vs engineered wood carries significant cost and longevity differences.
+4. **Fourth check (price qualification):** Per-sq-ft rate — budget sanity check. Indian B2B buyers are price-aggressive; this is a high-value custom project so price is a qualifier, not a primary scan signal.
+5. **Fifth check (vendor selection):** Company — manufacturer track record, portfolio of completed projects, service coverage geography. Post-sale dependency is high (installation, warranty, maintenance).
+6. **Unit:** Per sq ft is the universal Indian construction norm — must be shown alongside price to enable comparison. Without it, price is uninterpretable.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is extreme (A-frame vs log cabin vs modern villa). Image IS the product identity signal.
+- **Specification:** High — floor area, configuration, wood type, treatment are primary shortlisting gates. Without specs, buyer cannot evaluate fit.
+- **Price:** Medium — significant for Indian buyers but only comparable after spec + design match. Custom/project-based; final price always negotiated. Per-sq-ft rate is a budget entry point.
+- **Unit:** High — per sq ft vs per unit vs per project creates real price comparison confusion in this category. Must be shown alongside price.
+- **Company:** Medium — manufacturer track record, completed project portfolio, and service geography are evaluated in vendor selection. High post-sale dependency (installation, warranty). No dominant brand with buyer recall.
+
+---
+
+## Step 3 — Cross-Dimension Consistency Check
+
+1. Buyers arrive with a design vision and project scope — they discover and compare across spec tiers. `price_display_type = "spec-driven price"` ✓ and specification = High ✓.
+2. Unit High → price must be at least Medium ✓ (price = Medium).
+3. Not project-based price (per-sq-ft is the dominant unit) → unit show: true ✓.
+4. Specification show: true → show_on_listing: true ✓.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Extreme visual variation across sub-types (A-frame, log cabin, modern timber frame, modular villa) — buyers use the image to identify construction style and aesthetic fit before reading any text. Wrong visual type = immediate skip for both residential and resort buyers."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Floor area, configuration (BHK), wood type, and treatment are primary shortlisting criteria — a resort developer cannot evaluate a listing without knowing if it matches their unit size and durability requirements. Listings without these specs cannot be shortlisted."
+  },
+  {
+    "rank": 3,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Fixed-footprint glamping pods and compact garden cabins may be quoted per unit/per piece; large multi-unit resort projects may be quoted per project (lump sum). Per sq ft is dominant for all custom residential and resort cottage builds.",
+    "reason": "Per sq ft is the universal Indian construction pricing norm but sub-segment units (per unit for pods, per project for large contracts) create real price comparison confusion. Unit must be shown alongside price to make any price figure interpretable."
+  },
+  {
+    "rank": 4,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Indian buyers are price-aggressive but wooden house pricing varies substantially with wood species, floor area, treatment, and construction method — price is only comparable after spec equivalence is confirmed. Listed per-sq-ft rate is a budget entry point; final price is always negotiated for custom builds."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No dominant brand with buyer recall in the Indian prefabricated wooden house market — buyers search by design style, wood type, and geography, not manufacturer name; Loom Crafts, Deodar Log Homes, and Royal Prefab are known to industry insiders but not searched by name by typical buyers.",
+    "reason": "High post-sale dependency (installation, site assembly, warranty, maintenance) means buyers evaluate manufacturer track record, completed project portfolio, and service geography during vendor selection — but company ranks last because image and spec must match first."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Usage:** Application/use-case tag (Resort, Residential, Guest House, Farm House) — describes what the product is used FOR. Discard.
+- **Service Location:** Geographic service coverage — not a product configurator. Discard.
+- **Roof Type:** Consequence/aesthetic field — Hip, Gable, Slope, Pitched are largely determined by House Type and Design Style; not an independent price driver. Deprioritise.
+- **Furnishing:** Post-construction add-on; Fully Furnished vs Unfurnished is a scope-of-supply variable, not a structural configurator. Deprioritise.
+
+**Remaining strong candidates:** Built Type, Floor Area, House Type, Number of Floors, Treatment, Wood Type.
+
+### Phase 2 — Top 2 Configurator Selection
+
+- **Wood Type** (Teak Wood / Pine Wood / Spruce Wood / Engineered Wood / Cedar Wood): Defines the structural and material class of the house. Non-interchangeable — teak vs pine vs engineered wood represents fundamentally different durability, cost, and maintenance profiles. Teak is 3–5x the cost of SPF pine; engineered wood is a different structural system entirely. **Rank 1.**
+- **Floor Area** (Up to 300 sq ft / 300–600 sq ft / 600–1000 sq ft / Above 1000 sq ft): Directly drives total project cost and is the primary scope-of-supply signal. A 300 sq ft glamping pod vs a 1000+ sq ft residential villa are entirely different procurement decisions. **Rank 2.**
+
+(House Type was considered for Rank 2 but Floor Area carries a larger and more direct price delta — House Type is partially correlated with Floor Area and is more of a design/aesthetic signal.)
+
+### Phase 3 — Missing Spec Audit
+
+**specs_in_seller_list (verbatim copy):**
+Built Type, Floor Area, Furnishing, House Type, Number Of Floors, Roof Type, Service Location, Treatment, Usage, Wood Type
+
+**Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+
+1. **Wood Grade / Timber Grade** — Agent 3 explicitly identifies "wood species and grade" as a key differentiator; LLM world knowledge confirms IS:883 structural timber grading is relevant. Cross-reference: "Wood Type" is in the list but captures species only, not grade (e.g., Grade 1 vs Grade 2 structural timber, or FSC/PEFC certified vs uncertified). This is a distinct dimension. → **Include.**
+
+2. **Construction Method** — Agent 3 identifies "log vs timber frame vs engineered wood panel" as a primary typology differentiator. Cross-reference: "Built Type" (Modular/Prefab/On Site Build) captures assembly method but NOT construction system (log construction vs panel frame vs post-and-beam). These are different dimensions. → **Include.**
+
+3. **Number of Bedrooms / Configuration** — Agent 3 buyer segments reference resort developers needing specific unit configurations. Cross-reference: "Number Of Floors" is in the list but configuration (1BHK/2BHK/Studio) is absent. This is a primary buyer shortlisting signal for both residential and resort buyers. → **Include.**
+
+4. **Treatment Type** — Already in list as "Treatment." Semantic equivalent confirmed. → **Exclude.**
+
+5. **Foundation Type** — RCC vs steel plinth is mentioned in Agent 3 but is a site-specific civil work variable, not a wooden house product configurator. Below importance threshold. → **Exclude.**
+
+**Final check — mutual exclusion confirmed:** Wood Grade, Construction Method, and Configuration/Bedrooms are all absent from specs_in_seller_list.
+
+### Phase 4 — Coverage Verdict
+
+3 missing important specs → `significant_gaps`
+
+```json
+"seller_spec_audit": {
+  "top_configurator_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Wood Type",
+      "reason": "Non-interchangeable material class — teak vs pine vs engineered wood represents a 3–5x cost differential and fundamentally different structural, durability, and maintenance profiles that buyers cannot substitute across."
+    },
+    {
+      "rank": 2,
+      "spec_name": "Floor Area",
+      "reason": "Directly drives total project cost and defines procurement scope — a 300 sq ft glamping pod and a 1000+ sq ft residential villa are entirely different purchase decisions with no price comparability."
+    }
+  ],
+  "specs_in_seller_list": [
+    "Built Type",
+    "Floor Area",
+    "Furnishing",
+    "House Type",
+    "Number Of Floors",
+    "Roof Type",
+    "Service Location",
+    "Treatment",
+    "Usage",
+    "Wood Type"
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Construction Method",
+      "why_important": "Log construction, timber frame, and engineered wood panel systems are non-interchangeable structural typologies with different cost, lead time, and seismic performance profiles — buyers shortlist by construction method before evaluating other specs.",
+      "source": "both",
+      "example_values": ["Log Construction", "Timber Frame", "Engineered Wood Panel", "Post and Beam"]
+    },
+    {
+      "spec_name": "Configuration (Bedrooms)",
+      "why_important": "Resort developers and residential buyers specify required bedroom count (1BHK, 2BHK, Studio) as a primary scope-of-supply requirement — listings without this cannot be evaluated for project fit.",
+      "source": "both",
+      "example_values": ["Studio / 1 Room", "1 BHK", "2 BHK", "3 BHK"]
+    },
+    {
+      "spec_name": "Timber Grade / Certification",
+      "why_important": "Structural timber grade (IS:883 Grade 1/2) and certification (FSC/PEFC) are primary quality and compliance differentiators that drive significant price variation and are required for institutional and regulated project procurement.",
+      "source": "both",
+      "example_values": ["Grade 1 (IS:883)", "Grade 2 (IS:883)", "FSC Certified", "PEFC Certified"]
+    }
+  ],
+  "coverage_verdict": "significant_gaps"
+}
+```
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Wood Type, Design Style, Configuration.
+
+- **Design Style** (Log Cabin / A-Frame / Chalet Style / Modern / Timber Frame): Defines the structural typology and aesthetic — sellers need this to determine if they manufacture that construction type. Non-interchangeable; a log cabin manufacturer cannot supply an A-frame. **Rank 1.** Thumbnail eligible — each design style is visually distinct.
+- **Configuration** (1 BHK / 2 BHK / Studio / 3 BHK): Defines project scope and floor area range — sellers need this to determine if the unit size matches their manufacturing capability and to provide an accurate price indication. **Rank 2.** Not thumbnail eligible — numeric/categorical scope spec with no meaningful visual differentiation between BHK counts.
+
+(Wood Type was considered for Rank 1 but Design Style is more fundamental — it determines whether the seller can supply the product at all, whereas wood type is a material preference that can sometimes be substituted or negotiated.)
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Design Style:** Thumbnail eligible — Log Cabin, A-Frame, Chalet Style, Modern, Timber Frame are visually distinct structural forms that buyers can immediately recognise. `thumbnail_eligible: true`.
+- **Configuration:** Not thumbnail eligible — 1BHK vs 2BHK vs Studio is a numeric/scope spec with no meaningful visual differentiation. `thumbnail_eligible: false`.
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps:**
+
+1. **Floor Area / Size** — Agent 3 identifies floor area as a primary shortlisting criterion; LLM world knowledge confirms Indian construction buyers always specify area. Cross-reference: "Configuration" captures BHK count but not sq ft range. A seller needs both to respond accurately (a 2BHK could be 400 sq ft or 900 sq ft — very different quotes). → **Include.** Not thumbnail eligible (numeric). `would_be_rank: 2` — more actionable for sellers than Configuration alone, but Design Style remains rank 1.
+
+2. **Usage / Purpose** — Resort vs Residential vs Farmhouse determines treatment requirements, structural specifications, and applicable standards. Cross-reference: absent from buyer spec list. → **Include.** Thumbnail eligible — Resort cottage, residential home, and farmhouse are visually distinct contexts. `would_be_rank` assessment: this is important but less immediately actionable for sellers than Floor Area (they can ask post-connection). Omit `would_be_rank` — ranks below both current specs in terms of seller response accuracy.
+
+   Actually reconsidering: Usage/Purpose is important for routing to the right seller type (resort specialist vs residential builder) and determines treatment/compliance requirements. It would slot at rank 2 ahead of Configuration. → `would_be_rank: 2`. Thumbnail eligible: true — Resort, Residential, Farmhouse are visually distinct installation contexts.
+
+   But Floor Area also competes for `would_be_rank: 2`. Between the two: Usage/Purpose routes the seller type (more fundamental); Floor Area determines quote accuracy. Both are important. I'll assign Usage/Purpose `would_be_rank: 2` (more fundamental routing signal) and Floor Area without `would_be_rank` (important but ranks below both current specs + Usage in terms of seller routing accuracy).
+
+   Re-evaluating: Floor Area is a more direct seller-response enabler than Usage (sellers need area to quote). Usage is more of a filter/routing signal. I'll assign Floor Area `would_be_rank: 2` and Usage without `would_be_rank`.
+
+3. **Service Location / Project Location** — Sellers have geographic service constraints (Pan India vs regional). Cross-reference: absent from buyer spec list. Important for routing but this is a logistics/service variable, not a product spec. Below importance threshold for RFQ spec. → **Exclude.**
+
+**Final missing specs:**
+- Floor Area: `would_be_rank: 2`, not thumbnail eligible.
+- Usage/Purpose: no `would_be_rank` (ranks below current specs for seller response accuracy).
+
+### Phase 4 — Image Upload Assessment
+
+Wooden houses are custom-fabricated structures where buyers frequently have a specific design reference — a photo of a resort cottage they visited, an architectural rendering, or a reference image from a magazine. Sellers cannot accurately quote or confirm design match without a visual reference, especially for custom A-frame, log cabin, or chalet-style builds where the same "A-Frame" label covers hundreds of visually distinct designs. Image upload is strongly recommended.
+
+```json
+"buyer_spec_audit": {
+  "top_rfq_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Design Style",
+      "reason": "Defines the structural typology and aesthetic — sellers manufacture specific construction types (log cabin specialists cannot supply A-frames) and need this to confirm they can supply the required design.",
+      "thumbnail_eligible": true,
+      "thumbnail_options": ["Log Cabin", "A-Frame", "Chalet Style", "Modern", "Timber Frame"]
+    },
+    {
+      "rank": 2,
+      "spec_name": "Configuration",
+      "reason": "Defines project scope (number of rooms/bedrooms) which determines manufacturing complexity, material volume, and price range — sellers need this to provide an accurate initial quote.",
+      "thumbnail_eligible": false
+    }
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Floor Area",
+      "why_important": "Sellers need the approximate square footage to provide an accurate per-sq-ft quote — a 2BHK at 400 sq ft and a 2BHK at 900 sq ft are entirely different projects with non-comparable pricing.",
+      "source": "both",
+      "example_values": ["Up to 300 sq ft", "300–600 sq ft", "600–1000 sq ft", "Above 1000 sq ft"],
+      "would_be_rank": 2,
+      "thumbnail_eligible": false
+    },
+    {
+      "spec_name": "Usage / Purpose",
+      "why_important": "Resort/hospitality use requires different treatment specifications, structural standards, and compliance documentation than residential or farmhouse use — sellers need this to confirm product eligibility and applicable specifications.",
+      "source": "both",
+      "example_values": ["Residential", "Resort / Hospitality", "Farmhouse", "Eco-Tourism / Glamping"]
+    }
+  ],
+  "coverage_verdict": "partial",
+  "image_upload_recommended": true,
+  "image_upload_reason": "Wooden house buyers frequently have a specific design reference — a resort cottage they visited, an architectural rendering, or a reference image — and the same design style label (e.g., 'A-Frame' or 'Log Cabin') covers hundreds of visually distinct designs in terms of facade treatment, window placement, roof pitch, and interior layout. An uploaded reference image allows sellers to identify the closest match in their portfolio and provide an accurate quote without multiple back-and-forth exchanges."
+}
+```
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs:**
+- `top_rfq_specs` rank 1: Design Style — `thumbnail_eligible: true`, options: [Log Cabin, A-Frame, Chalet Style, Modern, Timber Frame] → 5 prompts
+- `missing_important_specs`: Floor Area — `thumbnail_eligible: false` → no prompts
+- `missing_important_specs`: Usage/Purpose — no `would_be_rank` → no prompts
+
+Total: 5 prompts (spec_1 through spec_5), all representing `primary_segment`: prefabricated wooden house/cottage for residential and resort/hospitality use.
+
+```json
+"buyer_spec_thumbnail_prompts": [
+  {
+    "attribute": "Design Style",
+    "option_value": "Log Cabin",
+    "id": "spec_1",
+    "prompt_for_generation": "Prefabricated log cabin wooden house with horizontal round log walls, covered front porch, pitched shingle roof, set in a green hillside landscape, natural daylight, warm tones, no branding, photorealistic architectural render.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Design Style",
+    "option_value": "A-Frame",
+    "id": "spec_2",
+    "prompt_for_generation": "Prefabricated A-frame wooden cottage with steeply pitched triangular roof extending to ground level, large front glass facade, wooden deck, surrounded by pine trees, natural daylight, photorealistic architectural render, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Design Style",
+    "option_value": "Chalet Style",
+    "id": "spec_3",
+    "prompt_for_generation": "Prefabricated chalet-style wooden house with wide overhanging eaves, balcony with carved wooden railing, gable roof, stone and timber facade combination, mountain backdrop, natural daylight, photorealistic architectural render, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Design Style",
+    "option_value": "Modern",
+    "id": "spec_4",
+    "prompt_for_generation": "Modern prefabricated wooden house with clean flat or low-pitch roof, large floor-to-ceiling windows, smooth engineered wood cladding exterior, minimalist design, landscaped garden setting, natural daylight, photorealistic architectural render, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  },
+  {
+    "attribute": "Design Style",
+    "option_value": "Timber Frame",
+    "id": "spec_5",
+    "prompt_for_generation": "Prefabricated timber frame wooden house with exposed structural wooden beams visible on exterior, infill panel walls, gable roof with metal sheeting, open front veranda, set in a rural landscape, natural daylight, photorealistic architectural render, no branding.",
+    "watermark": {
+      "position": "bottom-right",
+      "text": "IndiaMART AI",
+      "applied": true,
+      "aspect_ratio": "1:1"
+    }
+  }
+]
+```
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Extreme visual variation across sub-types (A-frame, log cabin, modern timber frame, modular villa) — buyers use the image to identify construction style and aesthetic fit before reading any text. Wrong visual type = immediate skip for both residential and resort buyers."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Floor area, configuration (BHK), wood type, and treatment are primary shortlisting criteria — a resort developer cannot evaluate a listing without knowing if it matches their unit size and durability requirements. Listings without these specs cannot be shortlisted."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Fixed-footprint glamping pods and compact garden cabins may be quoted per unit/per piece; large multi-unit resort projects may be quoted per project (lump sum). Per sq ft is dominant for all custom residential and resort cottage builds.",
+      "reason": "Per sq ft is the universal Indian construction pricing norm but sub-segment units (per unit for pods, per project for large contracts) create real price comparison confusion. Unit must be shown alongside price to make any price figure interpretable."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian buyers are price-aggressive but wooden house pricing varies substantially with wood species, floor area, treatment, and construction method — price is only comparable after spec equivalence is confirmed. Listed per-sq-ft rate is a budget entry point; final price is always negotiated for custom builds."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in the Indian prefabricated wooden house market — buyers search by design style, wood type, and geography rather than manufacturer name; known players like Loom Crafts and Deodar Log Homes are recognised by industry insiders but not searched by name by typical buyers.",
+      "reason": "High post-sale dependency (installation, site assembly, warranty, maintenance) means buyers evaluate manufacturer track record, completed project portfolio, and service geography during vendor selection — but company ranks last because image and spec must match first."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Wood Type",
+        "reason": "Non-interchangeable material class — teak vs pine vs engineered wood represents a 3–5x cost differential and fundamentally different structural, durability, and maintenance profiles that buyers cannot substitute across."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Floor Area",
+        "reason": "Directly drives total project cost and defines procurement scope — a 300 sq ft glamping pod and a 1000+ sq ft residential villa are entirely different purchase decisions with no price comparability."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Floor Area",
+      "Furnishing",
+      "House Type",
+      "Number Of Floors",
+      "Roof Type",
+      "Service Location",
+      "Treatment",
+      "Usage",
+      "Wood Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Construction Method",
+        "why_important": "Log construction, timber frame, and engineered wood panel systems are non-interchangeable structural typologies with different cost, lead time, and seismic performance profiles — buyers shortlist by construction method before evaluating other specs.",
+        "source": "both",
+        "example_values": ["Log Construction", "Timber Frame", "Engineered Wood Panel", "Post and Beam"]
+      },
+      {
+        "spec_name": "Configuration (Bedrooms)",
+        "why_important": "Resort developers and residential buyers specify required bedroom count as a primary scope-of-supply requirement — listings without this cannot be evaluated for project fit.",
+        "source": "both",
+        "example_values": ["Studio / 1 Room", "1 BHK", "2 BHK", "3 BHK"]
+      },
+      {
+        "spec_name": "Timber Grade / Certification",
+        "why_important": "Structural timber grade (IS:883 Grade 1/2) and certification (FSC/PEFC) are primary quality and compliance differentiators that drive significant price variation and are required for institutional and regulated project procurement.",
+        "source": "both",
+        "example_values": ["Grade 1 (IS:883)", "Grade 2 (IS:883)", "FSC Certified", "PEFC Certified"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Design Style",
+        "reason": "Defines the structural typology and aesthetic — sellers manufacture specific construction types (log cabin specialists cannot supply A-frames) and need this to confirm they can supply the required design.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Log Cabin", "A-Frame", "Chalet Style", "Modern", "Timber Frame"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Configuration",
+        "reason": "Defines project scope (number of rooms/bedrooms) which determines manufacturing complexity, material volume, and price range — sellers need this to provide an accurate initial quote.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Floor Area",
+        "why_important": "Sellers need the approximate square footage to provide an accurate per-sq-ft quote — a 2BHK at 400 sq ft and a 2BHK at 900 sq ft are entirely different projects with non-comparable pricing.",
+        "source": "both",
+        "example_values": ["Up to 300 sq ft", "300–600 sq ft", "600–1000 sq ft", "Above 1000 sq ft"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Usage / Purpose",
+        "why_important": "Resort/hospitality use requires different treatment specifications, structural standards, and compliance documentation than residential or farmhouse use — sellers need this to confirm product eligibility and applicable specifications.",
+        "source": "both",
+        "example_values": ["Residential", "Resort / Hospitality", "Farmhouse", "Eco-Tourism / Glamping"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Wooden house buyers frequently have a specific design reference — a resort cottage they visited, an architectural rendering, or a reference image — and the same design style label (e.g., 'A-Frame' or 'Log Cabin') covers hundreds of visually distinct designs in terms of facade treatment, window placement, roof pitch, and interior layout. An uploaded reference image allows sellers to identify the closest match in their portfolio and provide an accurate quote without multiple back-and-forth exchanges."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Design Style",
+      "option_value": "Log Cabin",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated log cabin wooden house with horizontal round log walls, covered front porch, pitched shingle roof, set in a green hillside landscape, natural daylight, warm tones, no branding, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "A-Frame",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated A-frame wooden cottage with steeply pitched triangular roof extending to ground level, large front glass facade, wooden deck, surrounded by pine trees, natural daylight, photorealistic architectural render, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Chalet Style",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated chalet-style wooden house with wide overhanging eaves, balcony with carved wooden railing, gable roof, stone and timber facade combination, mountain backdrop, natural daylight, photorealistic architectural render, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Modern",
+      "id": "spec_4",
+      "prompt_for_generation": "Modern prefabricated wooden house with clean low-pitch roof, large floor-to-ceiling windows, smooth engineered wood cladding exterior, minimalist design, landscaped garden setting, natural daylight, photorealistic architectural render, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Design Style",
+      "option_value": "Timber Frame",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated timber frame wooden house with exposed structural wooden beams visible on exterior, infill panel walls, gable roof with metal sheeting, open front veranda, set in a rural landscape, natural daylight, photorealistic architectural render, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
