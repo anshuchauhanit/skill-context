@@ -1,0 +1,12 @@
+{
+  "is_generic": true,
+  "is_specific": false,
+  "is_vague": false,
+  "is_thin": true,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_generic: product_types span 12 distinct sub-types (PUF sandwich panels, precast concrete, AAC, LGSF, GRC, SIP, gypsum board, compound wall systems, etc.) with diffuse buyer intent across industrial, residential, and boundary-wall applications — coherent umbrella concept ('prefabricated wall component') but broad enough to be a catch-all roll-up node; is_thin: listing_count of 105 is very low relative to sibling MCATs (Prefabricated Buildings: 27,038; Prefabricated Steel Buildings: 8,194; Prefabricated Industrial Buildings: 5,964), and Agent 3 confirmed listing_count_suspect: false, making 105 a reliable conservative signal of insufficient standalone volume.",
+    "is_vague: 0 signals fire — 'Prefabricated Walls' resolves to one clear product concept (factory-manufactured wall panels/systems for construction); Agent 3 named a confident, unhedged primary_segment; all buyer_intent_queries cluster around the same construction purchase context; product_types share a common buyer profile (building contractors, developers); no incompatible regulatory regimes or sibling carve-outs with different buyer profiles detected."
+  ]
+}
