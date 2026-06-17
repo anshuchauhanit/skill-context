@@ -1,0 +1,998 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "170469190",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Temporary Toilet cabin",
+      "description": "PVC UV Grade material, Rust and Corrosion Free Material, Non-skid chequered floor prevents slipping , 1 Light Point Holder, 1 Tap Connection, Ventilator Arrange, (internal Plumbing &ndash; Electrical fittings complete)<br />",
+      "specs": {
+        "raw": "Application:Event, Built Type:Modular, Color:Gray, Country of Origin:Made in India, Door Type:Single Door, Material:PVC, Mounting Type:Free Standing, No. Of Compartments:single, No. Of Seats:1 Seater, Sintex Model:Single Seater, Size:940 x 960 x 1850 mm (3.0 x 3.0 x 6.5 ft), Structure Material:LLDPE, Tank Capacity:without tank, Toilet Seat:Indian Seat, Toilet Type:Indian, Usage Site:Farmhouse, Wall Thickness:25 mm, With Wash Basin:No"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/11/XR/SK/OV/120202097/temporary-toilet.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/temporary-toilet cabin-24136070948.html",
+      "image_file": "170469190.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows a gray PVC portable toilet cabin shell with open door and corrugated blue interior panels, but no toilet fixture (squat pan or commode) is visible inside."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads 'Temporary Toilet cabin' only, missing material (PVC), seat type (Indian), brand reference, and dimensions."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material (PVC), seat type (Indian), size (940×960×1850mm), compartments (single), and application (Event), giving adequate product identification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description lists key features including PVC UV Grade material, non-skid floor, light point, tap connection, ventilator, and internal plumbing/electrical fittings."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PVC single-seater portable toilet cabin with Indian seat matches the MCAT definition of Sintex Portable Toilets (prefabricated sanitation cabin)."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Temporary Toilet cabin' only, missing material (PVC), seat type (Indian), brand reference, and dimensions."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows cabin shell interior with corrugated panels but no toilet fixture (squat pan or commode) visible, omitting the key functional component."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; thin title and thin image noted but no active failure — product is a valid PVC single-seater portable toilet cabin.",
+      "source_url": "https://www.indiamart.com/proddetail/temporary-toilet cabin-24136070948.html"
+    },
+    {
+      "item_id": "81829881",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Sintex Portable Toilets",
+      "description": "We are the leading manufacturer and supplier of<b>Portable Puff Toilets.</b>&nbsp;These are made from high grade puff panels and ths aids in insulation of the toilet structure.<br /><br />&bull; Made from steel panels with puf insukation and metal angles for ease of installation<br />&bull; PUF Insulated panels of thickness 25 mm with PPGI sheet on both sides<br />&bull; Made for extreme weather condition<br />&bull; Light Weight, Easy to transport and easy to assemble<br />&bull; Tough and Extremely durable<br />&bull; Easy to clean and maintain<br />&bull; Easy installation and can be disassembled for transportation&nbsp;",
+      "specs": {
+        "raw": "Brand:Austin, Built Type:Modular, Color:Blue, Material:Steel, Shape:Cabinet, Usage/Application:Commercial"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/5/310175998/ZQ/MU/UM/2481498/sintex-portable-toilets.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/sintex-portable toilets-12167233873.html",
+      "image_file": "81829881.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a complete blue FRP portable toilet cabin with overhead water tank, arched white door, external wash basin with plumbing, and 'Sintex Portable Toilets / Modcon India' branding — all key features clearly visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Sintex Portable Toilets' names brand and product type but omits material, seat type, and dimensions."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide brand (Austin), material (Steel), built type (Modular), and application (Commercial), giving basic product identification though seat type and size are absent."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description details PUF insulated panel construction (25mm, PPGI sheet both sides), lightweight portability, weather resistance, and easy assembly — specific to Sintex Sugam-type portable toilet."
+        },
+        "category": {
+          "valid": true,
+          "reason": "PUF-insulated portable toilet cabin matches the 'Sintex Sugam Toilet (PUF Insulated Sandwich Panel)' product type listed in the MCAT description."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label good confirmed; strong image and description of PUF portable toilet cabin; brand 'Austin' in specs vs 'Sintex' in title is acceptable as Sintex name is used generically in this MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/sintex-portable toilets-12167233873.html"
+    },
+    {
+      "item_id": "288669664",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "3 X 3 X 6.5 Feet FRP Sintex Portable Toilets",
+      "description": "<b>3 x 3 x 6.5 feet FRP Sintex portable toilet</b> is a compact and durable sanitation unit made from high-quality Fiber Reinforced Plastic by Sintex. It offers excellent strength, corrosion resistance, and portability, ideal for use at construction sites, events, and outdoor locations.",
+      "specs": {
+        "raw": "Brand:Sintex, Color:Blue, Material:FRP, No. Of Compartments:2, Shape:Square, Size:3 x 3 x 6.5 Feet"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/7/530034226/YY/GP/IU/218441420/3-x-3-x-6-5-feet-pvc-sintex-portable-frp-toilet.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/3-x 3 x 6.5 feet frp sintex portable toilets-2855407066612.html",
+      "image_file": "288669664.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows the interior of a blue FRP portable toilet cabin with wash basin, tap, and drain visible, but the toilet fixture (squat pan or commode) is not in frame."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title includes dimensions (3×3×6.5 ft), material (FRP), brand (Sintex), and product type (Portable Toilets) — all key buyer-relevant attributes present."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide brand (Sintex), material (FRP), size (3×3×6.5 ft), and color (Blue), giving adequate identification though seat type is absent."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description specifies FRP material, Sintex brand, dimensions, corrosion resistance, portability, and key applications (construction sites, events, outdoor locations)."
+        },
+        "category": {
+          "valid": true,
+          "reason": "FRP Sintex portable toilet cabin of standard dimensions is the core product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the wash basin area of the cabin interior; the toilet fixture (squat pan or commode) is not visible in the frame."
+        }
+      ],
+      "verification_note": "Pre-label good confirmed; strong title and description; thin image noted (toilet fixture not in frame) but no active failure.",
+      "source_url": "https://www.indiamart.com/proddetail/3-x 3 x 6.5 feet frp sintex portable toilets-2855407066612.html"
+    },
+    {
+      "item_id": "159027960",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Sintex Sugam Prefabricated PUF Toilet",
+      "description": "&nbsp; Insulated or Non insulated avaible, customized size provide, IWC, Bathroom, EWC &amp; Urinal model avaible",
+      "specs": {
+        "raw": "Application:School, Built Type:Prefab, Color:White, Country of Origin:Made in India, Material:Steel, Mounting Type:Free Standing, No. Of Compartments:1, Shape:Rectangular, Sintex Model:Single Seater, Size:3x4x7 ft, Structure Material:FRP And MS Frame, Tank Capacity:no tank, Toilet Seat:Indian Seat, Wall Thickness:7 mm"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2020/12/CX/VV/TX/120202097/sintex-sugam-prefabricated-puf-toilet.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/sintex-sugam prefabricated puf toilet-22991948291.html",
+      "image_file": "159027960.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows two white steel-panel portable toilet cabins (one open showing corrugated metal interior and floor grating, one closed with door latch), clearly identifiable as prefabricated sanitation cabins."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title names the Sintex sub-model (Sugam), construction type (Prefabricated PUF), and product type (Toilet) — all key identifiers present."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide Sintex Model (Single Seater), size (3×4×7 ft), material (Steel/FRP And MS Frame), seat type (Indian), compartments (1), and application (School) — comprehensive product identification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description mentions insulated/non-insulated options, customized sizes, and multiple toilet types (IWC, EWC, Bathroom, Urinal) — brief but relevant."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Sintex Sugam PUF prefabricated toilet is explicitly listed as a product type in the MCAT description."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label bad overridden to good — strong image, strong title, strong specs, no contradictions, valid category; Sintex Sugam PUF toilet is a confirmed MCAT product type.",
+      "source_url": "https://www.indiamart.com/proddetail/sintex-sugam prefabricated puf toilet-22991948291.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "76831333",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Sintex Urinal",
+      "description": "We are the leading Sintex Urinal manifacturer ans supplier in Delhi. These are either made in FRP as shown or can also be fabricated in Puff material as desired by the client.",
+      "specs": {
+        "raw": "Brand:Modcon, Built Type:Modular, Color:Grey, Dimension:960 mm x 940 mm x 1830 mm, Material:FRP, Type:Portable"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/6/313521791/AJ/OP/KM/4176504/sintex-urinal.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/sintex-urinal-11489800948.html",
+      "image_file": "76831333.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a standalone gray FRP urinal unit (single upright fixture with base plate and male pictogram) — not a portable toilet cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title explicitly names 'Sintex Urinal' — a standalone urinal fixture, not a portable toilet cabin."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs describe a portable FRP modular unit with dimensions — insufficient alone to confirm wrong category, as specs do not explicitly name a urinal."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description explicitly states 'Sintex Urinal manufacturer and supplier' confirming this is a standalone urinal product."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a standalone portable FRP urinal unit — a distinct sanitation fixture from a portable toilet cabin, which is the MCAT's defined product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'in Delhi' (city name) and image overlay contains 'Modcon Industries' (company name)."
+        }
+      },
+      "correct_mcat_suggestion": "Portable Toilets",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a standalone gray FRP urinal unit with male pictogram and base plate — not a portable toilet cabin as required by this MCAT."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly states 'Sintex Urinal' — a standalone urinal fixture, not a portable toilet cabin."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly states 'Sintex Urinal manufacturer and supplier' confirming the product is a urinal, not a portable toilet cabin."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'in Delhi' (city name) and image overlay contains 'Modcon Industries' (company name)."
+        }
+      ],
+      "verification_note": "Conflict resolved: pre_label good overridden to bad — product is a standalone portable urinal, not a portable toilet cabin; category.valid false confirmed by photo, title, and description.",
+      "source_url": "https://www.indiamart.com/proddetail/sintex-urinal-11489800948.html"
+    },
+    {
+      "item_id": "149915188",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Sintex FRP Mobile Toilet Cabin",
+      "description": "The Epsilon Prefabricated Portable Cabin is meticulously engineered and factory constructed using branded IS grade materials, ensuring durability and reliability. Its robust shell, fabricated from tested quality steel, features a base frame, peripheral structure, self-draining roof, entry door, and windows. Reinforced corner columns facilitate easy transportation, lifting, and placement. The cabin boasts premium components including G.I. corrugated sheeting for exterior paneling, pre-laminated board panels or ACP sheeting for interior walls, and 1.2mm thick G.I. corrugated sheeting for the roof. Inside, a 9mm pre-laminated ceiling and 18mm thick cement board or plywood flooring with vinyl carpeting ensure comfort and longevity. Double shutter aluminum powder-coated sliding windows and corrugated MS doors equipped with glass wool insulation provide security and insulation. The cabin is equipped with 50mm glass wool insulation, concealed wiring, standard electrical fittings, plumbing fixtures, and sanitation systems, meeting the highest industry standards. With a focus on quality and functionality, the Epsilon Portable Prefabricated Cabin is the ideal solution for diverse applications. Each cabin can be supplied as plain shell or customised as per Client's interior requirments of partitions, washrooms, pantry and different kind of furnitures fitted at factory\n<p>&nbsp;</p>",
+      "specs": {
+        "raw": "Brand:Epsilon, Built Type:Modular, Color:Blue, Country of Origin:Made in India, I Deal In:New Only, Is It Customized:Customisation, Material:FRP, No. Of Compartments:Single, Shape:Square, Size:3.5 x 3.5 x 7 Feet, Usage/Application:School"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/8/538850977/BC/NG/ED/76461355/sintex-frp-mobile-toilet-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/sintex-frp mobile toilet cabin-22080671048.html",
+      "image_file": "149915188.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a green FRP portable toilet cabin with Indian squat pan clearly visible on the floor and corrugated FRP walls — functional toilet fixture confirmed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Sintex FRP Mobile Toilet Cabin' names brand reference, material (FRP), and product type (Mobile Toilet Cabin)."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material (FRP), size (3.5×3.5×7 ft), compartments (Single), and brand (Epsilon), giving adequate product identification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description describes a generic Epsilon prefabricated cabin (steel shell, GI sheeting, glass wool insulation) without specific toilet-related content, and is a boilerplate text not tailored to this product."
+        },
+        "category": {
+          "valid": true,
+          "reason": "FRP portable toilet cabin of standard dimensions is a valid product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs",
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Image shows a green FRP interior while specs state Color: Blue — active color mismatch between image and specs.",
+          "Description explicitly states 'fabricated from tested quality steel' and 'G.I. corrugated sheeting' while specs list Material as FRP — active material contradiction."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a green FRP interior while specs state Color: Blue — color mismatch between image and specs."
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs state Material: FRP while description explicitly states 'fabricated from tested quality steel' and 'G.I. corrugated sheeting.'"
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad due to photo-specs color contradiction and specs-description material contradiction (FRP vs steel/GI).",
+      "source_url": "https://www.indiamart.com/proddetail/sintex-frp mobile toilet cabin-22080671048.html"
+    },
+    {
+      "item_id": "143193735",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Sintex Portable Toilet",
+      "description": "The Epsilon Prefabricated Portable Cabin is meticulously engineered and factory constructed using branded IS grade materials, ensuring durability and reliability. Its robust shell, fabricated from tested quality steel, features a base frame, peripheral structure, self-draining roof, entry door, and windows. Reinforced corner columns facilitate easy transportation, lifting, and placement. The cabin boasts premium components including G.I. corrugated sheeting for exterior paneling, pre-laminated board panels or ACP sheeting for interior walls, and 1.2mm thick G.I. corrugated sheeting for the roof. Inside, a 9mm pre-laminated ceiling and 18mm thick cement board or plywood flooring with vinyl carpeting ensure comfort and longevity. Double shutter aluminum powder-coated sliding windows and corrugated MS doors equipped with glass wool insulation provide security and insulation. The cabin is equipped with 50mm glass wool insulation, concealed wiring, standard electrical fittings, plumbing fixtures, and sanitation systems, meeting the highest industry standards. With a focus on quality and functionality, the Epsilon Portable Prefabricated Cabin is the ideal solution for diverse applications. Each cabin can be supplied as plain shell or customised as per Client's interior requirments of partitions, washrooms, pantry and different kind of furnitures fitted at factory\n<ul>\n</ul>",
+      "specs": {
+        "raw": "Brand:Epsilon, Built Type:Modular, Color:Blue, Material:PVC, No. Of Compartments:Single, Shape:Cabinet, Size:2600 mm x 3900 mm x 3200 mm, Surface Treatment:Galvanized, Usage/Application:Industrial"
+      },
+      "image_url": "http://5.imimg.com/data5/UZ/HD/IS/SELLER-76461355/pvc-rotomolded-portable-toilet.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/sintex-portable toilet-21408525788.html",
+      "image_file": "143193735.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a dark blue FRP portable toilet cabin exterior with open door revealing lit interior — complete product clearly identifiable."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Sintex Portable Toilet' names brand reference and product type but omits material, seat type, and dimensions."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide material (PVC), size (2600×3900×3200mm), compartments (Single), and brand (Epsilon), though the stated dimensions are unusually large for a single-compartment portable toilet."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a boilerplate Epsilon prefabricated cabin text describing steel/GI construction without toilet-specific content."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Portable toilet cabin is a valid product type for this MCAT, even with inconsistent specs."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs",
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Specs state size 2600×3900×3200mm (approximately 8.5×12.8×10.5 ft — unusually large for a single-compartment portable toilet) while image shows a standard-sized single cabin inconsistent with those dimensions.",
+          "Specs state Material: PVC while description explicitly states 'fabricated from tested quality steel' and 'G.I. corrugated sheeting.'"
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Specs state size 2600×3900×3200mm (unusually large for a single-compartment portable toilet) while image shows a standard-sized single cabin inconsistent with those dimensions."
+        },
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs state Material: PVC while description explicitly states 'fabricated from tested quality steel' and 'G.I. corrugated sheeting.'"
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — photo-specs dimension contradiction and specs-description material contradiction (PVC vs steel/GI); boilerplate Epsilon description reused across multiple listings.",
+      "source_url": "https://www.indiamart.com/proddetail/sintex-portable toilet-21408525788.html"
+    },
+    {
+      "item_id": "160375912",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Sintex Prefab Toilets Bathrooms",
+      "description": "Customised size , insuted panel / pvc materils,&nbsp;Ready Insulated Porable type cabin, Internal fittings completed, At any customized size Avaible, internal Toilet standard fitting, complete electrical standard fittings, or as per customer required.",
+      "specs": {
+        "raw": "Application:Construction Site, Built Type:Prefab, Color:White, Country of Origin:Made in India, I Deal In:New Only, Is It Customized:Non Customisation, Is It Portable:Portable, Material:Steel, Mounting Type:Free Standing, Shape:Rectangular, Sintex Model:Twin Seater, Size:4 x 4 x 8.6 Feet, Structure Material:FRP And MS Frame, Tank Capacity:200 L, Toilet Seat:Western Seat"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/9/FX/ZN/HX/120202097/sintex-prefab-toilets-bathrooms.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/sintex-prefab toilets bathrooms-23126743188.html",
+      "image_file": "160375912.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white FRP twin-door toilet block exterior with two doors, handles, latches, and corrugated roof overhang in a factory setting — twin-seater portable toilet block clearly identifiable."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Sintex Prefab Toilets Bathrooms' names brand reference and product type (prefab toilets/bathrooms) but omits material, seat type, and dimensions."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide Sintex Model (Twin Seater), size (4×4×8.6 ft), material (Steel/FRP And MS Frame), seat type (Western), tank capacity (200L), and application (Construction Site) — comprehensive."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description mentions insulated panel/PVC materials, ready portable cabin, internal toilet and electrical fittings, and customized sizes — relevant but brief."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Twin-seater prefab portable toilet cabin is explicitly listed in the MCAT product types."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Specs state 'Is It Customized: Non Customisation' while description explicitly states 'Customised size' and 'At any customized size Available.'"
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs state 'Is It Customized: Non Customisation' while description explicitly states 'Customised size' and 'At any customized size Available.'"
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — specs-description contradiction on customization; product is a valid twin-seater portable toilet but listing data is internally inconsistent.",
+      "source_url": "https://www.indiamart.com/proddetail/sintex-prefab toilets bathrooms-23126743188.html"
+    },
+    {
+      "item_id": "160376663",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Sintex Sugam Toilet",
+      "description": "sugam Insulted 3x4x7ft,&nbsp;Plug &amp; Play toilet Ready made cabin in ready stock, IWC/EWC/Bathroom/Urinals, Internal Electrical, Plumbing, Sanitation complete fittings, for additional wash basin as per customer requirments provide, over head water tank facility provided.",
+      "specs": {
+        "raw": "Application:School, Built Type:Panel Build, Color:White, Country of Origin:Made in India, I Deal In:New Only, Is It Customized:Customisation, Is It Portable:Portable, Material:Steel, Mounting Type:Free Standing, Shape:Rectangular, Sintex Model:Single Seater, Size:3.5 x 3.5 x 7 Feet, Structure Material:FRP And MS Frame, Tank Capacity:no tank, Toilet Seat:Indian Seat"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/2/NO/RS/BT/120202097/sintex-sugam-toilet.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/sintex-sugam toilet-23126818233.html",
+      "image_file": "160376663.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows two white steel-panel portable toilet cabins (one open showing corrugated metal interior and floor grating, one closed with door latch) — same style as item 159027960, clearly identifiable as prefabricated sanitation cabins."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title 'Sintex Sugam Toilet' names the Sintex sub-model (Sugam) and product type but omits material, seat type, and dimensions."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide Sintex Model (Single Seater), size (3.5×3.5×7 ft), material (Steel/FRP And MS Frame), seat type (Indian), and application (School) — comprehensive product identification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description specifies Sugam insulated 3×4×7ft, Plug & Play ready-made cabin, IWC/EWC/Bathroom/Urinal options, complete internal fittings, and overhead water tank facility."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Sintex Sugam single-seater portable toilet is explicitly listed as a product type in the MCAT description."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "specs_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Specs state 'Tank Capacity: no tank' while description explicitly states 'over head water tank facility provided.'"
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P06",
+          "problem_name": "Specs-Description Contradiction",
+          "evidence": "Specs state 'Tank Capacity: no tank' while description explicitly states 'over head water tank facility provided.'"
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — specs-description contradiction on tank capacity; product is a valid Sintex Sugam toilet but listing data is internally inconsistent.",
+      "source_url": "https://www.indiamart.com/proddetail/sintex-sugam toilet-23126818233.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [
+    {
+      "item_id": "76831333",
+      "pre_labels_seen": [
+        "good",
+        "bad"
+      ],
+      "resolved_label": "bad",
+      "resolution_note": "Audit confirms product is a standalone portable FRP urinal unit (not a portable toilet cabin); photo, title, and description all confirm urinal identity — category.valid: false, resolved to bad."
+    }
+  ],
+  "image_pattern_summary": "Verified good images show complete portable toilet cabin units — either full exterior views with overhead water tank, arched door, and external wash basin (FRP blue cabin style), or dual-view catalog shots showing both open interior and closed exterior of steel-panel cabins. Interior shots showing the Indian squat pan floor fixture with FRP walls are also valid. Products are photographed on white or neutral backgrounds, or in factory/outdoor settings, with the complete cabin structure visible.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Portable toilet cabins are physical enclosures whose value is communicated by their form, material finish, door type, and visible fittings — not by text printed on the product surface.",
+      "Verified good images show product appearance (color, shape, door configuration, tank, wash basin) as the primary information carrier; OCR would extract only brand overlays (Modcon India, Epsilon) which are not product specs.",
+      "No verified good image contains meaningful spec text printed on the product itself that a buyer would need to read."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good images show complete portable toilet cabin units — full exterior with tank and door, dual open/closed catalog views, or interior with visible squat pan — on neutral or factory backgrounds.",
+    "product_identity": [
+      "Complete cabin enclosure with door, roof, and base visible",
+      "Overhead water tank or plumbing connections visible",
+      "Toilet fixture (Indian squat pan or Western commode) visible inside",
+      "FRP or steel-panel construction material evident from surface texture"
+    ],
+    "acceptable_scenes": [
+      "Full exterior view on white background with door closed",
+      "Exterior view with door open showing interior fittings",
+      "Dual-unit catalog shot showing open and closed cabin side by side",
+      "Interior view showing squat pan and FRP walls"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "81829881",
+        "reason": "Image shows a complete blue FRP portable toilet cabin with overhead water tank, arched white door, external wash basin with plumbing, and 'Sintex Portable Toilets / Modcon India' branding — all key features clearly visible.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "159027960",
+        "reason": "Image shows two white steel-panel portable toilet cabins (one open showing corrugated metal interior and floor grating, one closed with door latch), clearly identifiable as prefabricated sanitation cabins.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin images show the correct product type (portable toilet cabin) but omit the toilet fixture or show only a partial view of the cabin interior.",
+    "thinness_signals": [
+      "Cabin interior shown but toilet fixture (squat pan or commode) not in frame",
+      "Cabin shell visible but no internal fittings or functional components shown"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "170469190",
+        "reason": "Image shows a gray PVC portable toilet cabin shell with open door and corrugated blue interior panels, but no toilet fixture (squat pan or commode) is visible inside."
+      },
+      {
+        "photo_url": null,
+        "item_id": "288669664",
+        "reason": "Image shows the interior of a blue FRP portable toilet cabin with wash basin, tap, and drain visible, but the toilet fixture (squat pan or commode) is not in frame."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "One irrelevant photo class identified: standalone urinal unit shown instead of a portable toilet cabin.",
+    "failure_classes": [
+      {
+        "class": "standalone_urinal_unit",
+        "description": "Image shows a standalone portable FRP urinal fixture (single upright unit with base plate) — a distinct sanitation product from a portable toilet cabin.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "76831333"
+          }
+        ],
+        "detection_signal": "Upright single-piece urinal fixture shape with base plate and male pictogram visible — no cabin enclosure, no door, no roof.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles include dimensions, material (FRP/PVC/Steel), brand reference (Sintex), and product type; acceptable titles name brand and product type without full specs.",
+    "strong_positive_signals": [
+      "Dimensions stated (e.g., '3 X 3 X 6.5 Feet')",
+      "Material named (FRP, PVC, Steel, PUF)",
+      "Brand reference 'Sintex' present",
+      "Sintex sub-model named (Sugam, Nirmal)",
+      "Seat type specified (Indian/Western)"
+    ],
+    "structural_patterns": [
+      "[Dimensions] [Material] Sintex Portable Toilet",
+      "Sintex [Sub-model] Prefabricated [Material] Toilet",
+      "Sintex [Material] [Seat Type] Portable Toilet Cabin",
+      "Sintex Portable Toilets [Material]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "288669664",
+          "title": "3 X 3 X 6.5 Feet FRP Sintex Portable Toilets",
+          "reason": "Includes all key buyer attributes: dimensions (3×3×6.5 ft), material (FRP), brand (Sintex), and product type (Portable Toilets)."
+        },
+        {
+          "item_id": "159027960",
+          "title": "Sintex Sugam Prefabricated PUF Toilet",
+          "reason": "Names the Sintex sub-model (Sugam), construction method (Prefabricated), insulation type (PUF), and product type — highly specific and buyer-useful."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "81829881",
+          "title": "Sintex Portable Toilets",
+          "reason": "Names brand and product type correctly but omits material, seat type, and dimensions."
+        },
+        {
+          "item_id": "149915188",
+          "title": "Sintex FRP Mobile Toilet Cabin",
+          "reason": "Names brand reference, material (FRP), and product type (Mobile Toilet Cabin) but omits seat type and dimensions."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name the product type but omit material, seat type, dimensions, and brand reference.",
+    "thinness_signals": [
+      "Material (FRP/PVC/Steel/PUF) absent from title",
+      "Seat type (Indian/Western) absent from title",
+      "Dimensions absent from title",
+      "Brand reference 'Sintex' absent from title"
+    ],
+    "examples": [
+      {
+        "item_id": "170469190",
+        "title": "Temporary Toilet cabin",
+        "reason": "Names product type (toilet cabin) but omits material (PVC), seat type (Indian), brand reference (Sintex), and dimensions — minimal buyer information."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "One irrelevant title class identified: title explicitly names a urinal product instead of a portable toilet cabin.",
+    "failure_classes": [
+      {
+        "class": "urinal_product",
+        "signal": "Title contains 'Urinal' — names a standalone urinal fixture, not a portable toilet cabin.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "76831333",
+            "title": "Sintex Urinal",
+            "reason": "Title explicitly names 'Sintex Urinal' — a standalone urinal fixture that is a distinct product from a portable toilet cabin.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — only one confirmed wrong-MCAT product identified (standalone urinal).",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "standalone_portable_urinal",
+        "signal": "Title, image, and description all explicitly identify the product as a standalone urinal unit — a distinct sanitation fixture from a portable toilet cabin.",
+        "examples": [
+          {
+            "item_id": "76831333",
+            "title": "Sintex Urinal",
+            "reason": "Product is a standalone gray FRP portable urinal unit (not a toilet cabin); title says 'Urinal,' image shows urinal fixture with male pictogram, description confirms 'Sintex Urinal manufacturer.'",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Portable Toilets"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from base64; text audited from title/description/specs fields only."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion 'Portable Toilets' drawn from confirmed taxonomy siblings list; no MCAT names fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment and mcat_description used to ground category belonging decisions; mcat_vagueness_signal.suspected_vague: false confirmed — PATH A applied to all items."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
