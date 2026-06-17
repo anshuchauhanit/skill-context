@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Steel Buildings' directly matches the top primary_keyword and is the dominant buyer search term confirmed across alt_names and market_context; the PEB/pre-engineered framing is the commercial standard this MCAT represents.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a genuine large-span steel portal frame structure under erection — correct product, correct primary_segment (industrial warehouse/factory shed PEB), no wrong product or brochure contamination.",
+      "However, the under-construction bare-frame view with muddy foreground, workers, and no cladding/roofing reduces buyer confidence; a completed, clad industrial PEB with clean background would far better communicate the finished product and attract buyer intent."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic AI-generated image of a completed large-span pre-engineered steel building (PEB) industrial warehouse: wide gable-end elevation view showing tapered portal frame columns and rafters clad with corrugated metal roof and wall panels in light grey and blue, sliding steel entry doors, clean concrete apron in foreground, clear blue sky background, bright even daylight, no workers or construction debris, sharp product-focused composition, square 1:1 crop with slight margin, professional product photography style.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
