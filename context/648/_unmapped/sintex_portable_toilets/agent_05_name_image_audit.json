@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Sintex Portable Toilets' directly matches the dominant trade reference used by buyers and sellers in India for FRP/PVC prefabricated sanitation cabins, as confirmed by Agent 3 alt_names primary_keywords ('sintex portable toilet', 'sintex portable toilet cabin') and market_context establishing Sintex as the brand-dominant category descriptor.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows steel/MS frame portable toilet cabins (blue metal panel construction with hinged doors), which represents a minor sub-segment of this MCAT — the primary segment is Sintex-branded single-seater FRP or PVC prefabricated portable toilet cabin, not a steel/metal frame unit.",
+      "The image appears to show a twin-seater or combo unit (toilet + bathroom) in a steel enclosure that does not visually represent the dominant FRP/PVC single-seater cabin format that buyers associate with 'Sintex Portable Toilet', and the open-door view showing a Western commode interior further shifts focus away from the primary Indian-seat FRP single-seater segment."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A single Sintex-branded FRP portable toilet cabin, compact single-seater unit, light grey or off-white fibre reinforced plastic exterior with a blue or green door, small ventilation window near the top, overhead water tank visible on the roof, standing upright on a flat outdoor surface with a clean white or light grey studio background, front-facing three-quarter view, bright even studio lighting, photorealistic product shot, no people, no text overlays except watermark.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
