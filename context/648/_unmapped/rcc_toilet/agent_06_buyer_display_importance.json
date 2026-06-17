@@ -1,0 +1,200 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is significant — single cabin vs multi-seat block vs panel-build are immediately distinguishable, and material type (RCC vs FRP/MS) is visually identifiable. Buyers use the image to confirm product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Seat count, toilet type (Indian/Western), and structure type are primary shortlisting criteria — buyers arrive with a defined project requirement and use specs to confirm fit before any further engagement. Listings without these specs cannot be evaluated for government scheme procurement."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Government scheme buyers (SBM, PMAY) have fixed per-unit budgets and actively compare prices across sellers; price varies substantially with seat count and structure type, so buyers discover across configurations rather than arriving with a fixed spec tier. India price sensitivity is high in this segment."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Single-cabin buyers quote per piece; government tenders for multi-seat blocks often quote per seat or per block — this ambiguity creates real price comparison confusion and unit must be shown alongside price.",
+      "reason": "Per piece vs per seat vs per block is a genuine market ambiguity in multi-seat procurement; price cannot be meaningfully compared without knowing the unit basis, particularly in bulk government tender contexts."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand names exist with buyer recall in RCC toilet cabins; buyers search by spec, price, and compliance track record, not manufacturer name.",
+      "reason": "Institutional buyers (gram panchayats, NGOs, PWD) evaluate manufacturer credentials, SBM technical compliance, and past supply experience during vendor selection, but no brand names drive initial search or shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "No Of Seats",
+        "reason": "Seat count is the primary product scale separator — a 1-seat cabin and an 8-seat block are non-interchangeable and price scales directly and substantially with seat count, making this the dominant price-driving configurator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Toilet Type",
+        "reason": "Indian vs Western vs Urinal Block defines what the product IS functionally — these are non-interchangeable configurations for rural vs urban/institutional use, and each commands a distinct price point and buyer segment."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "No Of Seats",
+      "Roof Type",
+      "Structure Type",
+      "Tank Capacity",
+      "Toilet Type",
+      "Wall Thickness",
+      "With Bath Area",
+      "With Bio System"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Concrete Grade",
+        "why_important": "Government tender buyers and institutional procurement specify minimum concrete grade (M30/M35/M40/M45) as a structural compliance requirement under SBM technical specifications and IS 456:2000; sellers need this to confirm structural eligibility and price accordingly.",
+        "source": "both",
+        "example_values": [
+          "M30",
+          "M35",
+          "M40",
+          "M45"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Seating Capacity",
+        "reason": "Seat count directly determines project scale and price — a seller cannot quote accurately or confirm supply capability without knowing whether the buyer needs a single cabin or an 8-seat block.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Seat Type",
+        "reason": "Indian vs Western vs combined configuration is non-interchangeable for rural vs urban/institutional use; sellers need this to confirm they supply the correct toilet type for the project.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Indian",
+          "Western",
+          "Indian & Western"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Structure Type",
+        "why_important": "Sellers need to know whether the buyer requires a precast monolithic unit, panel-build site-assembled unit, or cast-in-situ structure to confirm supply capability, determine transport feasibility for remote locations, and price logistics accurately.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "Precast Monolithic",
+          "Panel Build",
+          "Cast In Situ"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Precast Monolithic",
+          "Panel Build",
+          "Cast In Situ"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Seat Type",
+      "option_value": "Indian",
+      "id": "spec_1",
+      "prompt_for_generation": "Interior view of a precast RCC toilet cabin showing an Indian-style squat pan (IWC) set into the concrete floor, grey cement finish walls, natural lighting from a small window, clean and functional rural sanitation context, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Seat Type",
+      "option_value": "Western",
+      "id": "spec_2",
+      "prompt_for_generation": "Interior view of a precast RCC toilet cabin showing a Western-style pedestal commode (EWC) mounted on the concrete floor, grey cement finish walls, clean institutional sanitation context, overhead lighting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Seat Type",
+      "option_value": "Indian & Western",
+      "id": "spec_3",
+      "prompt_for_generation": "Interior view of a precast RCC toilet block showing two adjacent compartments — one with an Indian squat pan and one with a Western pedestal commode — grey cement walls, shared RCC structure, institutional sanitation context, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Precast Monolithic",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior view of a single-piece precast RCC toilet cabin being lifted by crane for installation, monolithic grey concrete structure with door opening and ventilation slot visible, rural outdoor setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Panel Build",
+      "id": "spec_5",
+      "prompt_for_generation": "Exterior view of a panel-build RCC toilet cabin mid-assembly, showing precast concrete wall panels being joined on-site, visible panel joints and bolted connections, rural construction site context, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Cast In Situ",
+      "id": "spec_6",
+      "prompt_for_generation": "Exterior view of a cast-in-situ RCC toilet cabin under construction, showing formwork and freshly poured concrete walls being formed on-site, construction workers visible, rural site context, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
