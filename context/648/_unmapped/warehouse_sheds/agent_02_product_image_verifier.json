@@ -1,0 +1,1111 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "115030597",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Warehouse Shed",
+      "description": "Leveraging the skills of our qualified team of professionals, we are instrumental in offering a wide range of<b> Mild Steel</b><b> Warehouse Shed.</b>",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Length:10 Feet, Material:Steel, Thickness:10 mm, Usage/Application:Warehouse"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/6/MZ/AD/CH/37315965/warehouse-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-warehouse shed-18281182662.html",
+      "image_file": "115030597.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a large under-construction steel-frame warehouse with visible blue steel columns, purlins, metal sheet roofing, and construction activity including a crane and workers — clearly a warehouse shed structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (Prefabricated Warehouse Shed) correctly but lacks material grade, span, or size specification."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab steel warehouse application but 'Length:10 Feet' and 'Thickness:10 mm' are implausibly small for a warehouse shed and appear to be placeholder/default values rather than actual project specs."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a generic boilerplate sentence naming Mild Steel Warehouse Shed without any structural, dimensional, or application detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated mild steel warehouse shed — directly matching the MCAT definition."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs list 'Length:10 Feet' and 'Thickness:10 mm' which are implausibly small/generic placeholder values for a warehouse shed, making the spec data unreliable."
+        }
+      ],
+      "verification_note": "Good image showing real warehouse interior; text is thin but no active contradiction or category failure; P13 raised for implausible spec values.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-warehouse shed-18281182662.html"
+    },
+    {
+      "item_id": "200433723",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Warehouse Roofing Shed",
+      "description": "With the help of our state-of-the-art infrastructure unit, we are able to provide superlative quality of Warehouse Roofing Sheds. This Warehouse Roofing shed is manufactured as per the standard of industry using supreme class material under the supervision of skilled professionals.",
+      "specs": {
+        "raw": "Brand:JSW, Built Type:Panel Build, Features:15 Years of warranty for the shed, Height:23, Material:Steel, Position:A Type, Size/Dimension:55*70, Snow Load:60, Thickness:0.47, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/10/QG/UD/JT/157306591/roofing.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/warehouse-roofing shed-27132524373.html",
+      "image_file": "200433723.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the exterior of a large corrugated metal sheet warehouse/shed building with blue trim and a ladder visible on the side, with 'Elite roofing' text watermark overlaid — the structure itself is clearly a warehouse shed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names 'Warehouse Roofing Shed' which is a valid product type within this MCAT, though 'Roofing Shed' is slightly ambiguous between a shed and a roofing component."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide JSW brand, panel build type, dimensions (55*70), height (23), thickness (0.47), snow load (60), and 15-year warranty — useful structural data, though 'Usage/Application:House' is inconsistent with warehouse context."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic boilerplate about quality and manufacturing standards without specific structural or application details."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a steel panel-build warehouse roofing shed — valid within the Warehouse Sheds MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "specs_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Specs state 'Usage/Application:House' while the title and description explicitly describe a Warehouse Roofing Shed, creating an active contradiction between the stated application in specs and the product's declared use."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "The image contains the watermark text 'Elite roofing' which is a business/brand name embedded in the product photo."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs field states 'Usage/Application:House' while the product is listed and described as a Warehouse Roofing Shed."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Image contains 'Elite roofing' business name as a large watermark overlaid on the product photo."
+        }
+      ],
+      "verification_note": "Valid warehouse shed product; retained as good due to correct product identity and good image; P09 raised for specs application mismatch and P16 for business name watermark in image.",
+      "source_url": "https://www.indiamart.com/proddetail/warehouse-roofing shed-27132524373.html"
+    },
+    {
+      "item_id": "255102490",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Prefabricated Warehouse Shed",
+      "description": "<b>Prefabricated Warehouse Shed</b> by Kishore Infratech: A Robust and Efficient Storage Solution<br />Introduction:In the realm of modern industrial and commercial construction, prefabrication has emerged as a groundbreaking technique that revolutionizes the way structures are designed, fabricated, and erected. Kishore Infratech, a pioneering name in the construction industry, has ingeniously incorporated this technique to create high-quality prefabricated warehouse sheds. These sheds offer unmatched durability, efficiency, and flexibility, catering to the diverse needs of businesses across various sectors.<br />**Prefabricated Warehouse Sheds: The Concept and Benefits:**A prefabricated warehouse shed is a structure that is manufactured off-site, typically in a controlled factory environment, before being transported to the final location for assembly. This innovative approach offers several advantages over traditional construction methods:<br />1. **Speedy Construction:** Prefabrication significantly reduces construction time compared to conventional methods. Since the components are pre-engineered and fabricated, the on-site assembly process is streamlined, leading to quicker project completion.<br />2. **Cost-Efficiency:** By optimizing material usage, reducing waste, and minimizing on-site labor requirements, prefabricated warehouse sheds often prove to be more cost-effective than traditional construction.<br />3. **Quality Control:** The controlled factory environment enables precise manufacturing and stringent quality checks. This results in a higher level of quality and consistency in the final product.<br />4. **Flexibility in Design:** Prefabricated sheds can be tailored to meet specific functional and aesthetic requirements. They can also be easily expanded or modified as the business needs evolve.<br />5. **Durability and Sustainability:** Kishore Infratech utilizes high-quality materials that are chosen for their durability and sustainability. These materials contribute to the longevity of the structure while minimizing environmental impact.<br />**Materials Used in Kishore Infratech's Prefabricated Warehouse Sheds:**Kishore Infratech is renowned for its commitment to using premium materials that ensure the structural integrity and longevity of their prefabricated warehouse sheds. The key materials employed include:<br />1. **Steel:** Steel is the backbone of prefabricated structures. It offers high strength-to-weight ratio, allowing for the creation of robust structures that can withstand various environmental conditions. The use of steel ensures the shed's ability to support heavy loads and resist external forces such as wind and seismic activity.<br />2. **Roofing and Wall Cladding:** High-quality roofing and wall cladding materials are crucial for weatherproofing and insulation. These materials protect the contents of the warehouse from the elements while providing energy efficiency. Options may include metal panels, insulated sandwich panels, and composite materials.<br />3. **Foundation Materials:** The choice of foundation materials depends on the specific site conditions. Common options include reinforced concrete slabs or piers, which provide a stable base for the shed.<br />4. **Insulation:** Insulation plays a vital role in maintaining a controlled interior environment. Proper insulation materials help regulate temperature, minimize energy consumption, and provide soundproofing. Kishore Infratech offers a range of insulation options suitable for different needs.<br />5. **Doors and Windows:** The choice of doors and windows is essential for accessibility, ventilation, and natural lighting. Kishore Infratech integrates high-quality options that align with the overall design and functionality of the prefabricated warehouse shed.Kishore Infratech's",
+      "specs": {
+        "raw": "Brand:TATA, Built Type:Prefab, EXPERIENCE:700 Above Projects Completed, Material:Steel, Service Mode:PAN INDIA, Size/Dimension:Customized, Usage/Application:Warehouse"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/8/334922039/BC/VS/HO/135805/prefabricated-warehouse-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-warehouse shed-2852050348991.html",
+      "image_file": "255102490.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a long exterior view of a large white prefabricated warehouse building with metal sheet roofing, multiple loading bay doors, and a truck visible on the road — clearly a completed warehouse shed structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names 'Prefabricated Warehouse Shed' but lacks material type, span, or size differentiation."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm TATA brand, prefab build, steel material, customized dimensions, and warehouse application — adequate for category identification though lacking structural dimensions."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description provides detailed coverage of prefabricated warehouse shed construction methods, materials (steel, insulated panels, foundation), benefits (speed, cost, quality), and company context — strong informational content."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated steel warehouse shed with detailed description of PEB-type construction — directly matching the MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description mentions 'Kishore Infratech' as the company/brand name multiple times throughout the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description repeatedly mentions 'Kishore Infratech' as the company name embedded within the product description text."
+        }
+      ],
+      "verification_note": "Strong listing with good image and detailed description; P16 raised for company name embedded in description; no category or contradiction issues.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-warehouse shed-2852050348991.html"
+    },
+    {
+      "item_id": "267615372",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Warehouse Prefabricated Shed",
+      "description": "Established as a&nbsp;<b>Proprietor</b>&nbsp;firm in the year&nbsp;<b>2019,</b>&nbsp;we&nbsp;<b>&ldquo;Roobi Engineering&rdquo;</b>&nbsp;are a leading&nbsp;<b>Manufacturer</b>&nbsp;of a wide range of<b>&nbsp;Farm Shed, Warehouse Shed&nbsp;</b>and<b>&nbsp;Prefabricated Shed.</b>&nbsp;Situated in&nbsp;<b>Greater Noida (Uttar Pradesh, India),</b>&nbsp;we have constructed a wide and well functional infrastructural unit that plays an important role in the growth of our company. We offer these products at reasonable rates and deliver these within the promised time-frame.",
+      "specs": {
+        "raw": "Brand:ALL, Built Type:Prefab, Country of Origin:Made in India, Is It Rust Proof:YES, Material:Mild Steel, Size/Dimension:ALL, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/1/380175776/BB/IO/IG/47036058/warehouse-prefabricated-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/warehouse-prefabricated shed-2853301637212.html",
+      "image_file": "267615372.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the exterior of a large blue and white PEB-style warehouse building with corrugated metal cladding, multiple windows, large entry doors, and a concrete apron — clearly a completed warehouse shed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names 'Warehouse Prefabricated Shed' — correct product type, though word order is non-standard and no material or size detail is provided."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab mild steel construction and rust-proof treatment but 'Brand:ALL', 'Size/Dimension:ALL', and 'Usage/Application:House' are placeholder/incorrect values that reduce spec utility."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a company introduction mentioning Farm Shed, Warehouse Shed, and Prefabricated Shed products but provides no structural or technical detail about the specific product."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated mild steel warehouse shed — valid for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "specs_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Specs state 'Usage/Application:House' while the title and description explicitly describe a Warehouse Prefabricated Shed, creating an active contradiction between the stated application and the product's declared use."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Roobi Engineering' (company name) and 'Greater Noida (Uttar Pradesh, India)' (location) embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs field states 'Usage/Application:House' while the product is titled and described as a Warehouse Prefabricated Shed."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain 'Brand:ALL' and 'Size/Dimension:ALL' which are clearly placeholder values providing no useful product information."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Roobi Engineering' and location 'Greater Noida (Uttar Pradesh, India)' embedded in the product description."
+        }
+      ],
+      "verification_note": "Valid warehouse shed with good image; retained as good despite P09/P13/P16 issues because product identity is correct and image confirms the structure; no category identity failure.",
+      "source_url": "https://www.indiamart.com/proddetail/warehouse-prefabricated shed-2853301637212.html"
+    },
+    {
+      "item_id": "271728188",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Peb Warehouse Shed",
+      "description": "We are engaged in offering this product to our clients. Our range of this products is widely appreciated by our clients",
+      "specs": {
+        "raw": "Brand:JSW, Built Type:Prefab, Country of Origin:Made in India, Height:As per customer order, Material:Steel, Service Location/City:India, Size/Dimension:As per customer order, Surface Treatment:Paint Coated, Thickness:0.5MM"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/3/404652521/WT/QB/LV/1800995/screenshot-2024-03-27-173153.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/peb-warehouse shed-2853712918873.html",
+      "image_file": "271728188.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the exterior of a completed white PEB warehouse building with corrugated metal cladding, multiple large entry doors, windows, and a 'New Life Steel Structures' watermark — the structure is clearly a warehouse shed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title explicitly names 'PEB Warehouse Shed' — correctly identifies the product type (Pre-Engineered Building) and application (warehouse), matching the primary segment."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm JSW brand, prefab build, steel material, paint-coated surface treatment, and 0.5mm thickness — useful structural data though height and dimensions are listed as 'As per customer order'."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a two-sentence generic boilerplate with no structural, dimensional, or application-specific information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is explicitly a PEB Warehouse Shed — the primary segment product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Image contains 'New Life Steel Structures' business name as a watermark overlaid on the product photo."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Image contains 'New Life Steel Structures' business name as a large watermark on the product photo."
+        }
+      ],
+      "verification_note": "Best title in the set (PEB Warehouse Shed); good image of completed structure; P16 raised for business name watermark in image; no category or contradiction issues.",
+      "source_url": "https://www.indiamart.com/proddetail/peb-warehouse shed-2853712918873.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "76498391",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Warehouse Sheds",
+      "description": "<p>In order to keep pace with the never ending demands of customers, we are involved into offering wide range of PVC Roofing Sheet.</p><p><b>Features: <br /></b></p><ul><li>Resistant against warp and wilt</li><li>Self extinguishing</li><li>Virtually unbreakable</li></ul><p>&nbsp;</p>",
+      "specs": {},
+      "image_url": "http://4.imimg.com/data4/PT/NL/MY-14387673/pvc-roofing-sheet.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/warehouse-sheds-11432954830.html",
+      "image_file": "76498391.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a blue corrugated polycarbonate/PVC canopy or roofing sheet structure over what appears to be a driveway or entrance — this is a roofing sheet/canopy component, not a warehouse shed structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title says 'Warehouse Sheds' but the description explicitly describes 'PVC Roofing Sheet' — the title actively misrepresents the product being offered."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no information to evaluate, defaulting to thin quality with category_fit benefit of the doubt."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly describes 'PVC Roofing Sheet' with features (warp-resistant, self-extinguishing, unbreakable) — this is a roofing material component, not a warehouse shed structure."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a PVC Roofing Sheet (a roofing material component) — not a warehouse shed structure; the title 'Warehouse Sheds' is a mislabelling of a roofing sheet product."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "title_vs_description",
+          "photo_vs_category",
+          "title_vs_category",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Photo shows a PVC/polycarbonate canopy roofing structure while title claims 'Warehouse Sheds' — the image does not show a warehouse shed.",
+          "Title says 'Warehouse Sheds' but description explicitly describes 'PVC Roofing Sheet' — direct product identity contradiction.",
+          "Photo shows a roofing sheet canopy structure, not a warehouse shed building.",
+          "Title 'Warehouse Sheds' contradicts the actual product (PVC Roofing Sheet) described in the listing.",
+          "Description describes PVC Roofing Sheet features, not a warehouse shed structure."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Shed",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Photo shows a PVC/polycarbonate canopy roofing structure; title claims 'Warehouse Sheds' — fundamentally different products."
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title says 'Warehouse Sheds' but description explicitly states 'PVC Roofing Sheet' as the product being offered."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a PVC/polycarbonate roofing canopy — a roofing material component, not a warehouse shed structure."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Warehouse Sheds' is a mislabel — the actual product described is PVC Roofing Sheet, which belongs in a roofing materials category."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes PVC Roofing Sheet with material properties (self-extinguishing, unbreakable) — not a warehouse shed structure."
+        }
+      ],
+      "verification_note": "Clear wrong-MCAT listing: product is PVC Roofing Sheet mislabelled as Warehouse Sheds; all dimensions confirm category failure.",
+      "source_url": "https://www.indiamart.com/proddetail/warehouse-sheds-11432954830.html"
+    },
+    {
+      "item_id": "188803647",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "40 Feet Steel Prefabricated Warehouse Shed",
+      "description": "<p>A <b>40 Feet Steel Prefabricated Warehouse Shed</b>&nbsp;is a large, open structure designed to store goods, materials, or equipment. Unlike fully enclosed buildings, warehouse sheds often have a simpler design, with large open spaces and roof coverage to provide shelter and protection from the elements. These sheds are commonly used in industries where large storage areas are required but extensive climate control is not necessary. They can be used for various purposes, including warehousing, storage of raw materials, workshops, and distribution centers.</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Heat Resistance:Yes, Height:40 Feet, Material:Steel, Roof Type:Insulated, Sheet Thickness:0.50 mm, Technique:Hot Rolled, Tensile Strength:500 mPA, Usage:Warehouse"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/10/DC/DQ/US/136636414/pir-sandwich-panel.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/40-feet steel prefabricated warehouse shed-25969516755.html",
+      "image_file": "188803647.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Aerial image shows a large completed grey PEB warehouse building with metal sheet roofing, skylights, loading docks, and 'Fateh Stones International Pvt Ltd' signage on the facade — clearly a large warehouse shed structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title specifies '40 Feet Steel Prefabricated Warehouse Shed' — names height, material, construction type, and use case, providing strong buyer-relevant differentiation."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide height (40 Feet), material (Steel), roof type (Insulated), sheet thickness (0.50mm), technique (Hot Rolled), tensile strength (500 mPA), and warehouse usage — comprehensive structural specification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description accurately describes a 40-foot steel prefabricated warehouse shed with use cases (storage, workshops, distribution centers) — correct and informative though somewhat generic."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a 40-foot steel prefabricated warehouse shed with insulated roof — directly matching the MCAT definition."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Image shows 'Fateh Stones International Pvt Ltd' company signage on the warehouse building facade visible in the aerial photo."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Image shows 'Fateh Stones International Pvt Ltd' company name on the building facade visible in the aerial photograph."
+        }
+      ],
+      "verification_note": "Pre-label was bad but all audit dimensions pass — strong title, strong specs, good image, valid category; overridden to good; P16 raised for client company name visible on building.",
+      "source_url": "https://www.indiamart.com/proddetail/40-feet steel prefabricated warehouse shed-25969516755.html"
+    },
+    {
+      "item_id": "189732028",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "0.60mm MS Prefabricated Warehouse Shed",
+      "description": "<p>A <b>0.60mm MS Prefabricated Warehouse Shed</b>&nbsp;is a large, open structure designed to store goods, materials, or equipment. Unlike fully enclosed buildings, warehouse sheds often have a simpler design, with large open spaces and roof coverage to provide shelter and protection from the elements. These sheds are commonly used in industries where large storage areas are required but extensive climate control is not necessary. They can be used for various purposes, including warehousing, storage of raw materials, workshops, and distribution centers.</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Heat Resistance:Yes, Height:30 Feet, Product Material:MS, Roof Type:Insulated, Sheet Thickness:0.60 mm, Technique:Hot Rolled, Tensile Strength:500 mPA, Usage/Application:Warehouse"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/7/RF/TZ/VN/136636414/mild-steel-roofing-structure.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/0-60mm ms prefabricated warehouse shed-26062354862.html",
+      "image_file": "189732028.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Aerial image shows the same large grey PEB warehouse building as 188803647 with metal sheet roofing, skylights, and loading docks — clearly a warehouse shed structure (image appears to be a duplicate of 188803647)."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title specifies '0.60mm MS Prefabricated Warehouse Shed' — names sheet thickness, material (MS/Mild Steel), construction type, and use case, providing strong technical differentiation."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs provide height (30 Feet), material (MS), roof type (Insulated), sheet thickness (0.60mm), technique (Hot Rolled), tensile strength (500 mPA), and warehouse usage — comprehensive structural specification."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description accurately describes a prefabricated warehouse shed with use cases — correct and informative though identical boilerplate to 188803647."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a 0.60mm MS prefabricated warehouse shed with insulated roof — directly matching the MCAT definition."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Image shows 'Fateh Stones International Pvt Ltd' company name on the building facade (same aerial image as 188803647)."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Image shows 'Fateh Stones International Pvt Ltd' company name on the building facade visible in the aerial photograph."
+        }
+      ],
+      "verification_note": "Pre-label was bad but all audit dimensions pass — strong title with sheet thickness spec, strong specs, good image, valid category; overridden to good; image appears to be a duplicate of 188803647.",
+      "source_url": "https://www.indiamart.com/proddetail/0-60mm ms prefabricated warehouse shed-26062354862.html"
+    },
+    {
+      "item_id": "189747731",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "0.40mm SS Prefabricated Warehouse Shed",
+      "description": "<p>A <b>0.40mm SS Prefabricated Warehouse Shed</b>&nbsp;is a large, open structure designed to store goods, materials, or equipment. Unlike fully enclosed buildings, warehouse sheds often have a simpler design, with large open spaces and roof coverage to provide shelter and protection from the elements. These sheds are commonly used in industries where large storage areas are required but extensive climate control is not necessary. They can be used for various purposes, including warehousing, storage of raw materials, workshops, and distribution centers.</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Heat Resistance:Yes, Height:45 Feet, Product Material:SS, Roof Type:Insulated, Sheet Thickness:0.40 mm, Technique:Hot Rolled, Tensile Strength:500 mPA"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/7/CE/WA/JZ/136636414/99.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/0-40mm ss prefabricated warehouse shed-26063925197.html",
+      "image_file": "189747731.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Aerial image shows a large blue and white industrial/warehouse building with solar panels on the metal sheet roof, ventilation units on the walls, and a multi-bay structure — consistent with a large warehouse shed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title specifies '0.40mm SS Prefabricated Warehouse Shed' — names sheet thickness, material (SS/Stainless Steel), construction type, and use case."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide height (45 Feet), material (SS), roof type (Insulated), sheet thickness (0.40mm), technique (Hot Rolled), and tensile strength (500 mPA) — good structural data though usage/application field is absent."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description accurately describes a prefabricated warehouse shed with storage and distribution use cases — correct though boilerplate."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a 0.40mm SS prefabricated warehouse shed with insulated roof — valid within the MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label was bad but all audit dimensions pass — strong title, acceptable specs, good aerial image, valid category; overridden to good with no active problems detected.",
+      "source_url": "https://www.indiamart.com/proddetail/0-40mm ss prefabricated warehouse shed-26063925197.html"
+    },
+    {
+      "item_id": "189881122",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "0.40mm Steel Prefabricated Warehouse Shed",
+      "description": "<p>A <b>0.40mm Steel Prefabricated Warehouse Shed</b>&nbsp;is a large, open structure designed to store goods, materials, or equipment. Unlike fully enclosed buildings, warehouse sheds often have a simpler design, with large open spaces and roof coverage to provide shelter and protection from the elements. These sheds are commonly used in industries where large storage areas are required but extensive climate control is not necessary. They can be used for various purposes, including warehousing, storage of raw materials, workshops, and distribution centers.</p>",
+      "specs": {
+        "raw": "Built Type:Prefab, Height:40 Feet, Material:Steel, Sheet Thickness:0.40 mm, Surface Treatment:Paint Coated, Usage:Warehouse"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/7/MP/AA/QO/136636414/godown-warehouse.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/0-40mm steel prefabricated warehouse shed-26077264255.html",
+      "image_file": "189881122.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Aerial image shows a large blue and white industrial warehouse building with solar panels on the metal sheet roof, ventilation units, and a multi-bay structure — consistent with a large warehouse shed (appears to be a different angle of the same building as 189747731)."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title specifies '0.40mm Steel Prefabricated Warehouse Shed' — names sheet thickness, material (Steel), construction type, and use case."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs provide height (40 Feet), material (Steel), sheet thickness (0.40mm), surface treatment (Paint Coated), and warehouse usage — adequate structural data."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description accurately describes a prefabricated warehouse shed with storage and distribution use cases — correct though boilerplate."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a 0.40mm steel prefabricated warehouse shed — valid within the MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "Pre-label was bad but all audit dimensions pass — strong title with sheet thickness spec, acceptable specs, good aerial image, valid category; overridden to good.",
+      "source_url": "https://www.indiamart.com/proddetail/0-40mm steel prefabricated warehouse shed-26077264255.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images for Warehouse Sheds show either exterior views of completed large-span steel/PEB buildings (corrugated metal cladding in blue, white, or grey, with large entry doors, windows, and concrete aprons) or interior under-construction views showing steel columns, purlins, and metal sheet roofing. Aerial/drone shots of completed warehouse buildings with metal roofing and loading docks are also common. Images are real-world construction or completed project photographs, not renders or brochures.",
+  "image_type_recommendation": {
+    "type": "object_with_info",
+    "reason": [
+      "Warehouse shed listings are construction projects — buyers need to see the scale, structural form, cladding colour, and building configuration to evaluate the product, making real project photographs the primary information carrier.",
+      "Several verified good images contain company name watermarks or client building signage, indicating that sellers commonly use completed project photos which may carry text information extractable by OCR.",
+      "Interior shots showing structural elements (columns, purlins, roofing sheets) provide technical information about construction quality that complements the text specs."
+    ],
+    "ocr_useful": true
+  },
+  "relevant_photos": {
+    "summary": "Good warehouse shed photos show completed or under-construction large-span steel structures from exterior or interior angles, clearly conveying scale, structural form, and cladding type.",
+    "product_identity": [
+      "Large-span steel frame structure with corrugated metal sheet roofing and cladding",
+      "Visible structural elements: columns, purlins, portal frames, large entry doors"
+    ],
+    "acceptable_scenes": [
+      "Exterior view of completed PEB warehouse building showing full facade",
+      "Interior under-construction view showing steel frame, columns, and roofing",
+      "Aerial/drone view of completed warehouse with metal roof"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "115030597",
+        "reason": "Image shows the interior of a large under-construction steel-frame warehouse with visible blue steel columns, purlins, metal sheet roofing, and construction activity including a crane and workers — clearly a warehouse shed structure.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "255102490",
+        "reason": "Image shows a long exterior view of a large white prefabricated warehouse building with metal sheet roofing, multiple loading bay doors, and a truck visible on the road — clearly a completed warehouse shed structure.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "267615372",
+        "reason": "Image shows the exterior of a large blue and white PEB-style warehouse building with corrugated metal cladding, multiple windows, large entry doors, and a concrete apron — clearly a completed warehouse shed.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "271728188",
+        "reason": "Image shows the exterior of a completed white PEB warehouse building with corrugated metal cladding, multiple large entry doors, windows, and a 'New Life Steel Structures' watermark — the structure is clearly a warehouse shed.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "188803647",
+        "reason": "Aerial image shows a large completed grey PEB warehouse building with metal sheet roofing, skylights, loading docks, and 'Fateh Stones International Pvt Ltd' signage on the facade — clearly a large warehouse shed structure.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "189732028",
+        "reason": "Aerial image shows the same large grey PEB warehouse building as 188803647 with metal sheet roofing, skylights, and loading docks — clearly a warehouse shed structure (image appears to be a duplicate of 188803647).",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "189747731",
+        "reason": "Aerial image shows a large blue and white industrial/warehouse building with solar panels on the metal sheet roof, ventilation units on the walls, and a multi-bay structure — consistent with a large warehouse shed.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "189881122",
+        "reason": "Aerial image shows a large blue and white industrial warehouse building with solar panels on the metal sheet roof, ventilation units, and a multi-bay structure — consistent with a large warehouse shed (appears to be a different angle of the same building as 189747731).",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "No verified bad products had thin_image quality — the one bad product (76498391) had a bad_image (wrong product shown), not a thin image.",
+    "thinness_signals": [
+      "Photo shows only a partial structural element (e.g., just a roof panel or column) without conveying the full shed structure",
+      "Photo taken from too far away or at an angle that obscures structural details and scale"
+    ],
+    "examples": []
+  },
+  "irrelevant_photos": {
+    "summary": "One verified bad product showed a PVC/polycarbonate roofing canopy instead of a warehouse shed structure.",
+    "failure_classes": [
+      {
+        "class": "roofing_sheet_canopy",
+        "description": "Image shows a PVC or polycarbonate roofing sheet canopy/awning structure — a roofing material component or small canopy, not a warehouse shed building.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "76498391"
+          }
+        ],
+        "detection_signal": "Image shows a small canopy or awning with translucent/coloured corrugated sheets over a driveway or entrance, without steel frame columns or large-span warehouse structure.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong warehouse shed titles specify construction type (PEB/Prefab), material (Steel/MS/SS), a key dimension (height in feet or sheet thickness in mm), and the use case (Warehouse).",
+    "strong_positive_signals": [
+      "Sheet thickness in mm as a differentiating prefix (e.g., '0.60mm MS', '0.40mm Steel')",
+      "PEB or Prefab construction type explicitly named",
+      "Height in feet as a structural specification",
+      "Material type: Steel, MS (Mild Steel), SS (Stainless Steel)"
+    ],
+    "structural_patterns": [
+      "[Thickness]mm [Material] Prefabricated Warehouse Shed",
+      "PEB Warehouse Shed",
+      "[Height] Feet Steel Prefabricated Warehouse Shed",
+      "Prefabricated Warehouse Shed"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "188803647",
+          "title": "40 Feet Steel Prefabricated Warehouse Shed",
+          "reason": "Specifies height (40 Feet), material (Steel), construction type (Prefabricated), and use case (Warehouse) — four buyer-relevant attributes in one title."
+        },
+        {
+          "item_id": "189732028",
+          "title": "0.60mm MS Prefabricated Warehouse Shed",
+          "reason": "Specifies sheet thickness (0.60mm), material (MS/Mild Steel), construction type (Prefabricated), and use case (Warehouse) — technically precise and buyer-differentiating."
+        },
+        {
+          "item_id": "271728188",
+          "title": "Peb Warehouse Shed",
+          "reason": "Explicitly names PEB (Pre-Engineered Building) construction type — the primary segment identifier — making it immediately recognisable to the target buyer."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "115030597",
+          "title": "Prefabricated Warehouse Shed",
+          "reason": "Correct product type named but lacks material, dimension, or structural differentiation."
+        },
+        {
+          "item_id": "255102490",
+          "title": "Prefabricated Warehouse Shed",
+          "reason": "Correct product type named but identical to 115030597 — no differentiating attribute."
+        },
+        {
+          "item_id": "267615372",
+          "title": "Warehouse Prefabricated Shed",
+          "reason": "Correct product type with non-standard word order; lacks material or dimension detail."
+        },
+        {
+          "item_id": "200433723",
+          "title": "Warehouse Roofing Shed",
+          "reason": "Correct category but 'Roofing Shed' is slightly ambiguous — could be interpreted as a shed for roofing or a shed with roofing; lacks material and dimension."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name the product category correctly but omit all differentiating attributes such as material, construction type, height, or sheet thickness.",
+    "thinness_signals": [
+      "No material type specified (Steel, MS, SS, GI)",
+      "No construction method specified (PEB, Prefab, Conventional)",
+      "No dimensional attribute (height in feet, span, sheet thickness)"
+    ],
+    "examples": [
+      {
+        "item_id": "115030597",
+        "title": "Prefabricated Warehouse Shed",
+        "reason": "Names product type correctly but provides no material, height, span, or structural differentiation."
+      },
+      {
+        "item_id": "255102490",
+        "title": "Prefabricated Warehouse Shed",
+        "reason": "Names product type correctly but provides no material, height, span, or structural differentiation."
+      },
+      {
+        "item_id": "267615372",
+        "title": "Warehouse Prefabricated Shed",
+        "reason": "Correct product type with non-standard word order and no material, height, or structural detail."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "One irrelevant title used the MCAT name 'Warehouse Sheds' as a label for a PVC Roofing Sheet product — the title token is correct for the MCAT but the product is entirely wrong.",
+    "failure_classes": [
+      {
+        "class": "roofing_material_mislabelled_as_shed",
+        "signal": "Title uses 'Warehouse Sheds' or similar shed label but description/specs reveal a roofing sheet or roofing material component product.",
+        "failure_mode": "misleading",
+        "examples": [
+          {
+            "item_id": "76498391",
+            "title": "Warehouse Sheds",
+            "reason": "Title claims 'Warehouse Sheds' but description explicitly describes 'PVC Roofing Sheet' — the title is a mislabel for a roofing material product.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere based on verified bad products where category.valid is false.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "pvc_roofing_sheet_mislabelled",
+        "signal": "Description or specs describe PVC Roofing Sheet, polycarbonate sheet, or roofing material components with properties like 'self-extinguishing', 'warp-resistant', 'unbreakable' — not a shed structure.",
+        "examples": [
+          {
+            "item_id": "76498391",
+            "title": "Warehouse Sheds",
+            "reason": "Description explicitly describes PVC Roofing Sheet with material properties; image shows a PVC canopy structure, not a warehouse shed building.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Shed"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from base64; text audited from provided title/description/specs fields only."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion for item 76498391 set to 'Prefabricated Shed' — confirmed present in taxonomy_context.siblings list."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "mcat_vagueness_signal.suspected_vague evaluated as false (coherent MCAT); primary_segment (PEB steel warehouse shed) used to ground category belonging decisions; application variation (house vs warehouse in specs) treated as spec data quality issue, not category failure."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
