@@ -1,0 +1,817 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "298995130",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "TENSILE SWIMMING POOL SHED",
+      "description": "A swimming pool tensile structure is a type of architectural cover or canopy that uses tensioned fabric to create a functional and aesthetically pleasing shelter over a swimming pool. These structures provide shade, weather protection, and can enhance the overall design of the pool area. They are typically made of lightweight, durable fabric",
+      "specs": {
+        "raw": "Application:Residential Pool, Built Type:Modular, Country of Origin:Made in India, Cover Type:Fixed Shed, Fabric GSM:900 GSM, Frame Material:Galvanized Steel, Is It Waterproof:yes, Material:FRP, Roofing Material:Tensile Fabric, Structure Type:Steel Shed, Tensile Strength:3200 NSm, UV Protection:UPF 30, Width:300 cm"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/1/573928881/WR/JL/TP/36732731/tensile-roof-structure-fabric.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/tensile-swimming pool shed-2856439613233.html",
+      "image_file": "298995130.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows an outdoor swimming pool with blue water and multiple white conical-peak tensile structures installed over the poolside deck area, with a water slide and trees visible in the background."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title clearly names both the construction method (tensile) and the product type (swimming pool shed)."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs include frame material (galvanized steel), roofing material (tensile fabric), fabric GSM (900), UV protection (UPF 30), tensile strength, and application (residential pool), providing comprehensive buyer-useful detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description accurately explains a tensile swimming pool structure as a fabric canopy providing shade and weather protection over a pool."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a tensile fabric overhead enclosure structure for a swimming pool, matching the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "All dimensions strong, no contradictions, category valid; pre_label confirmed good.",
+      "source_url": "https://www.indiamart.com/proddetail/tensile-swimming pool shed-2856439613233.html"
+    },
+    {
+      "item_id": "286423363",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Swimming Pool Shed",
+      "description": "We are engaged in offering Swimming Pool Tensile Cover Structure to our clients. Our range of all products is widely appreciated by our clients.",
+      "specs": {
+        "raw": "Built Type:Modular, Colour:white, Country of Origin:Made in India, Is It Waterproof:yes, Material:FRP"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/10/460611905/EE/JS/NO/123930344/swimming-pool-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/swimming-pool shed-2855182436597.html",
+      "image_file": "286423363.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a white tensile fabric shed installed over a circular/kidney-shaped swimming pool with blue tiled interior, bamboo scaffolding still present during installation, outdoor setting with trees and brick wall visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads 'Swimming Pool Shed' only, missing material type, frame material, and dimensions."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs contain only 5 entries (built type, colour, origin, waterproof, material) with no fabric GSM, frame material, or dimensions."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic boilerplate ('widely appreciated by our clients') with no product-specific detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image clearly shows a tensile fabric overhead enclosure installed over a swimming pool, matching the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Swimming Pool Shed' only, missing material type, frame material, and dimensions."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only 5 entries with no fabric GSM, frame material, height, or dimensions."
+        }
+      ],
+      "verification_note": "Pre_label bad overridden to good — photo clearly shows correct product, no active contradiction or category failure; thinness alone cannot sustain a bad label per Rule 12.",
+      "source_url": "https://www.indiamart.com/proddetail/swimming-pool shed-2855182436597.html"
+    },
+    {
+      "item_id": "289764852",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Swimming Pool Shed",
+      "description": "<p>A <b>Swimming Pool Shed</b> is a structure built to provide <b>shelter</b> and <b>storage</b> for swimming pools and their associated equipment. It is typically designed to enhance the poolside area by offering protection from the elements, maintaining privacy, and creating a functional space for storing pool accessories, chemicals, and even serving as a changing room or lounge area. Swimming pool sheds come in various styles, sizes, and materials to suit the aesthetic of the pool area and the practical needs of the pool owner.</p>",
+      "specs": {
+        "raw": "Brand:Hindavi Enterprises, Built Type:Modular, Country of Origin:Made in India, Surface Treatment:Color Coated, Thickness:5 mm, Usage:Outdoor, Width:6 feet"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/12/475523030/PW/UB/NS/190596683/swimming-pool-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/swimming-pool shed-2855516585412.html",
+      "image_file": "289764852.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large barrel-arch enclosure structure over an Olympic-style swimming pool with visible lane markers (lanes 3–6), white structural ribs spanning the pool, open ends, and outdoor setting with trees."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads 'Swimming Pool Shed' only, missing material, frame type, and construction method."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs contain only 7 entries with no fabric/panel type, frame material, GSM, or height."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description accurately describes a swimming pool shed as a shelter structure providing weather protection, privacy, and storage, covering multiple use cases."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image clearly shows a large overhead enclosure structure over a swimming pool, matching the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Swimming Pool Shed' only, missing material type, frame type, and construction method."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only 7 entries with no fabric/panel type, frame material, or height."
+        }
+      ],
+      "verification_note": "Pre_label bad overridden to good — photo clearly shows correct large-scale pool enclosure, description acceptable, no active contradiction or category failure; thinness alone cannot sustain a bad label per Rule 12.",
+      "source_url": "https://www.indiamart.com/proddetail/swimming-pool shed-2855516585412.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "296048492",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Pvc Swimming Pool Shed",
+      "description": "A <b>Swimming Pool Tensile </b> is a modern, aesthetically pleasing, and functional structure designed to provide <b>vehicle protection</b> from various weather elements. This type of car parking shed features a <b>dome-shaped</b> roof made from a <b>PVC-coated fabric</b> that offers durability, flexibility, and weather resistance. The combination of the <b>dome shape</b> and <b>white PVC coating</b> provides a sleek, <b>contemporary</b> look while effectively protecting vehicles from <b>sun</b>, <b>rain</b>, <b>hail</b>, and other environmental elements.",
+      "specs": {
+        "raw": "Built Type:Panel Build, Country of Origin:Made in India, Fabric GSM:900 GSM, Is It Waterproof:100%, Material:Steel, Surface Finish:Paint Finish, Width:50feet"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/5/513193094/XE/QC/TA/84139848/pvc-swimming-pool-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/pvc-swimming pool shed-2856144949462.html",
+      "image_file": "296048492.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a large white tensile fabric overhead structure being installed at a construction site over what appears to be a pool excavation area, with arched frame on left and flat-roof tensile canopy on white steel columns on right."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names material (PVC) and product type (Swimming Pool Shed), minimal but correct."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs describe a fabric/panel structure with steel frame, 900 GSM fabric, and waterproof finish, consistent with a swimming pool shed."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description explicitly describes a 'car parking shed' for 'vehicle protection' from sun, rain, and hail — not a swimming pool enclosure."
+        },
+        "category": {
+          "valid": true,
+          "reason": "The product shown in the image and named in the title is a tensile fabric overhead structure for a swimming pool; the description is a copy-paste error from a car parking shed listing."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_description",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title says 'Swimming Pool Shed' but description explicitly describes a 'car parking shed' designed for 'vehicle protection'.",
+          "Description describes a car parking shed for vehicle protection, contradicting the swimming pool shed category."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title says 'Pvc Swimming Pool Shed' but description explicitly describes a 'car parking shed' designed for 'vehicle protection' from sun, rain, and hail."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a car parking shed for vehicle protection, not a swimming pool enclosure, contradicting the Swimming Pool Shed MCAT."
+        }
+      ],
+      "verification_note": "Pre_label good overridden to bad — description is a copy-paste from a car parking shed listing, creating an active title-description and description-category contradiction.",
+      "source_url": "https://www.indiamart.com/proddetail/pvc-swimming pool shed-2856144949462.html"
+    },
+    {
+      "item_id": "121123023",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Stylish Swimming Pool Shed",
+      "description": "New arts Swimming Pool Tensile Covering are beautiful curved structures, Swimming Pool Tensile Delhi India, swimming pool tensile shade, Swimming Pool Cover.",
+      "specs": {
+        "raw": "Application:Resort Pool, Brand:New Arts, Built Type:Modular, Color:Red, Cover Type:Walkway Cover, Fabric GSM:900 gsm, Fabric Material:PVC Coated Fabric, Fireproof:Yes, Frame Material:MS STRUCTURES, Free Standing:Yes, Height:10-15 Feet, I Deal In:New Only, Is It Transparent:Non Transparent, Is It Waterproof:Waterproof, Material:Steel, Pole Material:Aluminum, Roofing Material:Tensile Fabric, Shape:Pyramid, Structure Type:Tensile Structure, Thickness:650 GSM, Usage/Application:House, UV Protection:UPF 50"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/4/603794596/SI/DX/KQ/7563747/stylish-swimming-pool-shed.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/stylish-swimming pool shed-19199088048.html",
+      "image_file": "121123023.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a large curved barrel-vault tensile structure under construction, with white PVC fabric membrane on arched white steel frame, scaffolding and workers visible, and teal pool area visible at base."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names the product type (Swimming Pool Shed) with an aesthetic descriptor (Stylish), minimal but correct."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs include frame material (MS structures), roofing material (tensile fabric), fabric GSM (900), UV protection (UPF 50), and application (resort pool), though some values (Color: Red, Shape: Pyramid) appear incorrect for this product."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a brief keyword list referencing swimming pool tensile covering and curved structures, with no substantive product detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a tensile fabric overhead enclosure for a swimming pool, matching the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Image shows a white barrel-arch tensile structure but specs list Color: Red and Shape: Pyramid, contradicting the visible product appearance."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs list both Fabric GSM: 900 gsm and Thickness: 650 GSM, two conflicting fabric weight values for the same product."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Delhi India' as a location reference embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows a white barrel-arch tensile structure but specs state Color: Red and Shape: Pyramid."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs list both Fabric GSM: 900 gsm and Thickness: 650 GSM as conflicting fabric weight values for the same product."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Delhi India' as a location reference embedded in the product description text."
+        }
+      ],
+      "verification_note": "Pre_label bad confirmed — photo-specs contradiction on color and shape, internal specs contradiction on GSM values, and location leakage in description.",
+      "source_url": "https://www.indiamart.com/proddetail/stylish-swimming pool shed-19199088048.html"
+    },
+    {
+      "item_id": "182207139",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Swimming Pool Shed",
+      "description": "swimming pool<br />  Buy Swimming Pool Tensile Structures from Nitnava Engineering Works Find Company contact details &amp; address in Delhi, Delh  <br /><br />Swimming Pool Tensile Structure in Delhi offered by MEGA Tensile Pvt Ltd. Get Best Price, MOQ for Swimming Pool Tensile Structure along with Contact Details, ...",
+      "specs": {
+        "raw": "Brand:Mega Tensile Structure, Built Type:Modular, Height:Sabentin, Material:PVC, Thickness:702 gsm, Usage/Application:Shop"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/3/GR/AL/VM/69963033/whatsapp-image-2022-03-26-at-10-55-59-am.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/swimming-pool shed-25309865862.html",
+      "image_file": "182207139.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows an aerial top-down view of a white rectangular tensile sail/shade structure installed over a small residential swimming pool, with blue pool water visible and apartment buildings surrounding the courtyard."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads 'Swimming Pool Shed' only, missing material, construction method, and dimensions."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs contain only 6 entries including a corrupted value (Height: Sabentin) and an irrelevant application (Usage/Application: Shop), providing minimal useful buyer information."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description is scraped marketplace/directory text referencing competitor company names ('Nitnava Engineering Works', 'MEGA Tensile Pvt Ltd') and location ('Delhi'), not a product description."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image shows a tensile fabric structure over a swimming pool, consistent with the Swimming Pool Shed MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company names 'Nitnava Engineering Works' and 'MEGA Tensile Pvt Ltd' and location 'Delhi, Delh' as scraped directory text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Swimming Pool Shed' only, missing material, construction method, and dimensions."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company names 'Nitnava Engineering Works' and 'MEGA Tensile Pvt Ltd' and location 'Delhi, Delh' as scraped directory text."
+        }
+      ],
+      "verification_note": "Pre_label bad confirmed — description is scraped marketplace text with competitor company names and location, constituting location/business leakage.",
+      "source_url": "https://www.indiamart.com/proddetail/swimming-pool shed-25309865862.html"
+    },
+    {
+      "item_id": "191217382",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Modular Swimming Pool Shed",
+      "description": "Tensile Swimming Pool Covering Structure. 345/ Square Feet Get Latest Price. Use: House. Built Type: Modular, Panel Build, Prefab. Color: White. Modular Swimming Pool Sheds ; Thickness. 0.45 to 0.65 mm ; Position. Exterior;Shed Material. FRP;Mounting Structure Material. SS;Pole Finish. Powder. RS Tensile Private Limited -Offering low price Modular Built Type Swimming Pool Sheds in Delhi, New Delhi with product details &amp; company.",
+      "specs": {
+        "raw": "Brand:RS TENSILE PVT, Built Type:Modular, Color:white, Colour:as per requirement, Design:as per requirement, Fabric:sioen, Fabric GSM:750, Feature:Easily Assembled, Features:Easily Assembled, Finished:yes, Installation:YES, Is It Waterproof:yes, It Is Waterproof:YES, Location:as per requirement, Material:PVC, Pattern:white paint, Payment Mode:all mode accept, Service Location:ALL OVER INDIA, Shape:as per requirement, Sheet Width:3mm, Snow Load:YES, Surface Finish:yes, Surface Finishing:yes, Surface Treatment:yes, Tensile Strength:very strong, Thickness:3mm, Width:as per requirement, Window:yes, Wind pressure:YES, Warranty:10, Weight:750"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/7/AO/GS/GD/38356101/modular-swimming-pool-shed.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/modular-swimming pool shed-26210890273.html",
+      "image_file": "191217382.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image is a 3D CGI render of a barrel-arch tensile structure over a swimming pool with 'www.rstensile.in' watermark overlaid in red text, not a real product photograph."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names build type (Modular) and product type (Swimming Pool Shed), minimal but correct."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs contain excessive filler entries (Surface Finish: yes, Wind pressure: YES, Snow Load: YES, Tensile Strength: very strong) that provide no quantitative buyer-useful information."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description contains scraped marketplace text with company name 'RS Tensile Private Limited' and location 'Delhi, New Delhi' embedded alongside product details."
+        },
+        "category": {
+          "valid": true,
+          "reason": "CGI render depicts a tensile fabric overhead enclosure over a swimming pool, consistent with the Swimming Pool Shed MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'RS Tensile Private Limited' and location 'Delhi, New Delhi' embedded in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a CGI render with 'www.rstensile.in' watermark overlaid in red text, not a real product photograph showing actual material quality or installation."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain excessive filler entries (Surface Finish: yes, Wind pressure: YES, Tensile Strength: very strong) that provide no quantitative buyer-useful information."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'RS Tensile Private Limited' and location 'Delhi, New Delhi' embedded in the product description text."
+        }
+      ],
+      "verification_note": "Pre_label bad confirmed — CGI render with watermark (P14), filler specs (P13), and location/business leakage in description (P16).",
+      "source_url": "https://www.indiamart.com/proddetail/modular-swimming pool shed-26210890273.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images consistently show real-site installation photographs of tensile fabric overhead structures over swimming pools, with the pool water (blue/teal) visible below the white fabric membrane and steel frame. Images are taken from ground level or elevated angles that capture both the structural frame and the pool context simultaneously. The white PVC-coated fabric membrane stretched over steel or GI frames is the dominant visual element, with the pool serving as the contextual anchor confirming the product's application.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Verified good images show installed tensile structures over pools — the product appearance (fabric colour, frame shape, pool context) is the primary buyer-useful information, not printed text on the product.",
+      "No readable product specifications or labels are printed on the fabric membrane or frame in any verified good image; OCR would extract nothing useful.",
+      "The product is a custom-fabricated site-installed structure; its visual form (arch shape, fabric colour, scale relative to pool) communicates product quality more effectively than any text overlay."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good images show real installation photographs of white tensile fabric overhead structures over swimming pools, with pool water visible and structural frame clearly identifiable.",
+    "product_identity": [
+      "White PVC-coated tensile fabric membrane stretched over steel or GI arched/conical frame",
+      "Swimming pool (blue/teal water) visible below the structure as contextual anchor",
+      "Steel columns or anchor points supporting the overhead canopy structure"
+    ],
+    "acceptable_scenes": [
+      "Ground-level view showing pool and overhead tensile structure together",
+      "Elevated/aerial view showing tensile sail or canopy over pool from above",
+      "Installation-in-progress photograph showing frame and fabric being erected over pool"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "298995130",
+        "reason": "Image shows an outdoor swimming pool with blue water and multiple white conical-peak tensile structures installed over the poolside deck area, with a water slide and trees visible in the background.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "286423363",
+        "reason": "Image shows a white tensile fabric shed installed over a circular/kidney-shaped swimming pool with blue tiled interior, bamboo scaffolding still present during installation, outdoor setting with trees and brick wall visible.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "289764852",
+        "reason": "Image shows a large barrel-arch enclosure structure over an Olympic-style swimming pool with visible lane markers (lanes 3–6), white structural ribs spanning the pool, open ends, and outdoor setting with trees.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show CGI renders or computer-generated illustrations of swimming pool shed structures rather than real installation photographs.",
+    "thinness_signals": [
+      "CGI/3D render instead of real product photograph — does not show actual material quality, fabric texture, or real installation context",
+      "Watermark text overlaid on the render image obscures product detail and signals non-original content"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "191217382",
+        "reason": "Image is a 3D CGI render of a barrel-arch tensile structure over a swimming pool with 'www.rstensile.in' watermark overlaid in red text, not a real product photograph."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "No verified bad products in this dataset show images of a completely wrong product category; all bad products show tensile structures that are at minimum related to the MCAT.",
+    "failure_classes": []
+  },
+  "relevant_titles": {
+    "summary": "Strong titles name both the construction method (tensile/PVC/modular) and the product type (swimming pool shed) explicitly.",
+    "strong_positive_signals": [
+      "Construction method named: 'Tensile', 'PVC', 'Polycarbonate', 'FRP'",
+      "Product type explicitly stated: 'Swimming Pool Shed' or 'Swimming Pool Tensile Structure'",
+      "Build type qualifier: 'Modular', 'Retractable', 'Fixed'"
+    ],
+    "structural_patterns": [
+      "[Material/Method] Swimming Pool Shed",
+      "[Build Type] Swimming Pool [Shed/Structure/Cover]",
+      "Tensile Swimming Pool [Shed/Structure/Covering]"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "298995130",
+          "title": "TENSILE SWIMMING POOL SHED",
+          "reason": "Names construction method (tensile) and product type (swimming pool shed) clearly; all-caps increases visibility; no ambiguity about product identity."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "286423363",
+          "title": "Swimming Pool Shed",
+          "reason": "Correct product name but missing material, construction method, and any differentiating attribute."
+        },
+        {
+          "item_id": "289764852",
+          "title": "Swimming Pool Shed",
+          "reason": "Correct product name but missing material, frame type, and construction method."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles use only the generic product name 'Swimming Pool Shed' without any material, construction method, or differentiating attribute.",
+    "thinness_signals": [
+      "Title contains only 'Swimming Pool Shed' with no material type (tensile/PVC/polycarbonate/FRP)",
+      "No construction method, frame material, or build type qualifier present",
+      "No application context (resort/residential/commercial) or size indicator"
+    ],
+    "examples": [
+      {
+        "item_id": "286423363",
+        "title": "Swimming Pool Shed",
+        "reason": "Title is the bare product name only, missing all differentiating attributes."
+      },
+      {
+        "item_id": "182207139",
+        "title": "Swimming Pool Shed",
+        "reason": "Title is the bare product name only, missing material, construction method, and dimensions."
+      },
+      {
+        "item_id": "289764852",
+        "title": "Swimming Pool Shed",
+        "reason": "Title is the bare product name only, missing material type, frame type, and construction method."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "One irrelevant title contains a copy-pasted car parking shed description that actively contradicts the swimming pool shed product category.",
+    "failure_classes": [
+      {
+        "class": "wrong_application_copy_paste",
+        "signal": "Title names 'Swimming Pool Shed' but description text contains 'car parking shed' and 'vehicle protection' tokens indicating a copy-paste error from a different product listing.",
+        "failure_mode": "misleading",
+        "examples": [
+          {
+            "item_id": "296048492",
+            "title": "Pvc Swimming Pool Shed",
+            "reason": "Title is correct but description explicitly describes a car parking shed for vehicle protection, creating an active title-description contradiction that misleads buyers.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere.",
+    "input_data_absent": false,
+    "classes": []
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator. Images were visually analysed from attached image files matched to item_ids."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "No product required correct_mcat_suggestion as all category.valid verdicts were true; sibling names drawn only from provided taxonomy_context.siblings list."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (tensile fabric or polycarbonate overhead enclosure over swimming pool) and mcat_description used to ground all category belonging decisions; mcat_vagueness_signal not explicitly provided but MCAT assessed as coherent (PATH A applied)."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 7,
+    "images_attached": 7,
+    "web_fetch_used": false
+  }
+}
