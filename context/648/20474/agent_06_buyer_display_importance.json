@@ -1,0 +1,250 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — warehouse PEB, aircraft hangar, cold storage, multi-storey, and open shed are visually distinct structures. Buyers scan images first to confirm the building type matches their project requirement before reading any specs."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Building type, clear span, eave height, and frame type are primary shortlisting criteria for project-specific procurement. Without matching specs, buyers cannot evaluate whether the seller can execute their specific project."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Recognised brands — Tata BlueScope, Pennar Industries, Kirby India, Zamil Steel, Everest Industries — carry significant buyer trust signals; architects, EPC contractors, and institutional buyers actively specify or prefer named manufacturers.",
+      "reason": "Turnkey PEB procurement involves design liability, IS code compliance, erection capability, and post-erection warranty — buyers evaluate manufacturer credentials, track record, and certification before shortlisting. Seller identity is a primary trust gate for capital construction projects."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every PEB project is custom-scoped — span, height, cladding, crane load, and site conditions all affect the final price. Listed per-sq-ft rates are indicative budget entry points; final price is always project-quoted after design. Indian buyers use visible rates for initial budget sanity checks but do not shortlist on price alone."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Component/fabrication-only suppliers quote per MT; portable cabin suppliers quote per piece. Per sq ft is dominant for turnkey PEB projects and must be shown to prevent misreading against per-MT or per-piece listings.",
+      "reason": "Per sq ft vs per MT vs per piece creates genuine price comparison confusion across listing types in this MCAT. Unit must be shown alongside any indicative price so buyers can compare like-for-like."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Building Type",
+        "reason": "Building type (warehouse vs hangar vs cold storage vs factory) is non-interchangeable — each demands a distinct structural system, load design, and cladding specification, driving the largest price delta across all spec dimensions."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Frame Type",
+        "reason": "Frame type (clear span vs multi-span vs lean-to vs mono slope) directly determines the structural steel tonnage and primary frame cost — a clear-span 60 m frame commands a significant premium over a multi-span equivalent covering the same area."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Building Type",
+      "Built Type",
+      "Cladding Material",
+      "Country Of Origin",
+      "Eave Height",
+      "Frame Type",
+      "Material",
+      "Roof Sheet Thickness",
+      "Surface Treatment",
+      "Usage Application"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Clear Span / Bay Width",
+        "why_important": "Clear span (column-free width) is the single most critical structural parameter buyers specify — it determines whether the building can accommodate their equipment, vehicles, or operational layout, and drives primary steel tonnage and cost.",
+        "source": "both",
+        "example_values": [
+          "18 m",
+          "24 m",
+          "36 m",
+          "60 m"
+        ]
+      },
+      {
+        "spec_name": "Crane Compatibility",
+        "why_important": "Crane-compatible PEB frames (EOT crane provision) require reinforced columns, runway beams, and higher eave heights — a fundamentally different and more expensive structural system that buyers in manufacturing and logistics must confirm upfront.",
+        "source": "both",
+        "example_values": [
+          "No Crane",
+          "5 Tonne EOT",
+          "10 Tonne EOT",
+          "20 Tonne EOT"
+        ]
+      },
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Insulation specification (none, glasswool, PUF sandwich panel) is a primary cost and thermal performance differentiator — cold storage and temperature-controlled facilities require specific insulation that doubles or triples cladding cost.",
+        "source": "both",
+        "example_values": [
+          "No Insulation",
+          "Glasswool Insulation",
+          "PUF Sandwich Panel",
+          "EPS Sandwich Panel"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Structure Type",
+        "reason": "Structure type (PEB vs open shed vs closed vs G+1) defines the fundamental building system a seller must design and supply — sellers cannot determine structural scope, material tonnage, or price without this.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "PEB",
+          "Open Shed",
+          "Closed",
+          "G+1"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Area",
+        "reason": "Built-up area is the primary project scale signal — it directly determines steel tonnage, cladding quantity, and total project cost, enabling sellers to assess feasibility and provide an indicative rate.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Building Use / Type",
+        "why_important": "Sellers need to know whether the building is a warehouse, factory, cold storage, or hangar to determine the correct structural loads, cladding system, and compliance requirements before responding with a price.",
+        "source": "both",
+        "example_values": [
+          "Warehouse / Godown",
+          "Factory / Manufacturing",
+          "Cold Storage",
+          "Commercial / Showroom"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Warehouse / Godown",
+          "Factory / Manufacturing",
+          "Cold Storage",
+          "Commercial / Showroom"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Type",
+      "option_value": "PEB",
+      "id": "spec_1",
+      "prompt_for_generation": "Pre-engineered steel building with tapered portal frame, colour-coated profile sheet roof and walls, large industrial warehouse, exterior view, clear sky background, daytime, photorealistic architectural render, no text or branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Open Shed",
+      "id": "spec_2",
+      "prompt_for_generation": "Open-sided steel shed structure with exposed portal frame columns and roof purlins, no wall cladding, used as industrial storage or loading area, exterior view, daytime, photorealistic render, no text or branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Closed",
+      "id": "spec_3",
+      "prompt_for_generation": "Fully enclosed prefabricated steel building with complete roof and wall cladding panels, insulated sandwich panel walls, industrial warehouse use, exterior view, daytime, photorealistic architectural render, no text or branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "G+1",
+      "id": "spec_4",
+      "prompt_for_generation": "Two-storey prefabricated steel building (ground plus one floor), steel frame with mezzanine level, colour-coated cladding, commercial or industrial use, exterior view showing both floors clearly, daytime, photorealistic render, no text or branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Use / Type",
+      "option_value": "Warehouse / Godown",
+      "id": "spec_5",
+      "prompt_for_generation": "Large prefabricated steel warehouse building with wide clear span, colour-coated profile sheet roof, roller shutter doors, exterior view showing loading bay, daytime, photorealistic architectural render, no text or branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Use / Type",
+      "option_value": "Factory / Manufacturing",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated steel factory building with overhead crane rail provision visible inside, industrial portal frame structure, colour-coated cladding, exterior view with large entry doors, daytime, photorealistic render, no text or branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Use / Type",
+      "option_value": "Cold Storage",
+      "id": "spec_7",
+      "prompt_for_generation": "Prefabricated steel cold storage building with thick insulated PUF sandwich panel walls and roof, insulated dock doors, exterior view, daytime, photorealistic architectural render, no text or branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Building Use / Type",
+      "option_value": "Commercial / Showroom",
+      "id": "spec_8",
+      "prompt_for_generation": "Prefabricated steel commercial showroom building with glazed facade panels, modern architectural finish, colour-coated cladding, exterior view on a commercial street, daytime, photorealistic render, no text or branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
