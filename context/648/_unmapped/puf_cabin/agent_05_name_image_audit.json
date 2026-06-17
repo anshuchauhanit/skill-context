@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "\"PUF Cabin\" is the dominant primary keyword confirmed across Agent 3 alt_names (primary_keywords, trade_names, buyer_intent_queries) and aligns with market_context naming norms for this product category in India.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail clearly shows a compact prefabricated PUF insulated cabin with a steel door, louvred window, and PPGI panel walls on a structural frame — accurately representing the primary segment of portable site office/security cabin use.",
+      "Improvement is possible: the plain white background and slightly dated image quality reduce visual impact; a cleaner, higher-resolution render with better lighting and a subtle context cue (e.g., construction site ground) would better attract B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A compact portable prefabricated PUF insulated cabin, approximately 10x10 ft, with light grey PPGI sandwich panel walls, a dark grey sloped metal roof, a single steel door on the left face, and a louvred aluminium window on the front face, mounted on a galvanised mild steel structural base frame with corner legs. Clean white studio background, soft even lighting, slight three-quarter perspective view showing front and right side, photorealistic product render, sharp edges, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
