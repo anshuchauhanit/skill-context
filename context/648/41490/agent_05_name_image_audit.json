@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Wooden House' directly matches the top primary keyword and is the broadest, most buyer-recognisable term for this MCAT; Agent 3 market_context confirms this is the standard trade and search term used across Indian B2B dealings.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail shows a large, multi-storey log cabin/wooden house with visible horizontal log construction, tiled roof, wooden balcony, and windows — correctly representing the primary segment of prefabricated wooden houses for residential and resort use.",
+      "The image appears to be a real-world photograph of a European-style log home rather than an Indian-market-specific A-frame or resort cottage, and lacks a clean white/neutral background; an AI-generated image showing an A-frame or log cabin in a hill-station or resort context would better represent the dominant Indian buyer use case."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic AI-generated image of a prefabricated A-frame wooden cottage with horizontal log construction, warm honey-pine timber walls, dark grey tiled pitched roof, wooden front porch with railing, large glass windows, set against a lush green hill-station landscape with soft natural daylight, clean white gravel foreground, square 1:1 composition, product-catalogue style, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
