@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: the MCAT name 'Prefabricated Wooden House' is tightly bounded by two clear qualifiers — construction method (prefabricated) and primary material (wood/timber) — producing homogeneous buyer intent across all product_types (eco-resort cabins, log homes, A-frames, glamping pods); all 1,417 listings share the same buyer archetype (someone procuring a factory-built timber structure), and Agent 3 named a confident, unhedged primary_segment without qualification.",
+    "is_vague: 0 signals fire — S1 fails (the name resolves to one product concept: a factory-built wooden dwelling structure, with no competing industry reading); S2 fails (Agent 3 primary_segment is confident and specific); S3 fails (all buyer_intent_queries cluster around the same purchase context — acquiring a prefab timber structure for hospitality, residential, or resort use); S4 fails (all product_types share the same buyer archetype regardless of construction system variant); siblings 'Log Homes' (32367), 'Log Cabin' (108654), and 'Wooden House' (41490) carve out sub-types but do not introduce incompatible buyer profiles or regulatory regimes — all remain within the same timber-structure procurement context."
+  ]
+}
