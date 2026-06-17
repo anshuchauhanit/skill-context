@@ -1,0 +1,214 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Buyers shortlist fabricators based on span capability, structure type, service mode (labour+material vs labour only), and material grade before any other signal — without matching specs, the fabricator cannot be evaluated for project fit. Roof structural fabrication is a custom-engineered service where spec mismatch means the seller cannot execute the project."
+    },
+    {
+      "rank": 2,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No nationally recognised brands exist in this fragmented regional fabricator market — buyers search by capability, location, and track record, not by brand name.",
+      "reason": "Buyers evaluate fabricator credentials heavily — IS 800 compliance documentation, past project portfolio, erection track record, and regional presence are primary trust signals. For a capital-expenditure service contract, an unknown fabricator with matching specs is still a risk."
+    },
+    {
+      "rank": 3,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Completed project photos serve as the portfolio — buyers visually assess structural quality, finish, span scale, and shed type from images before contacting. High visual variation across structure types (portal frame vs truss vs PEB vs terrace shed) means image is a rapid sub-type identifier."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every project is custom-scoped and quoted per sq ft or lump sum after site assessment — listed price is an indicative budget entry point, not a comparable commodity rate. Indian buyers are price-sensitive but cannot compare prices meaningfully without knowing span, material grade, and service scope."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Dominant unit for turnkey installed contracts; structural steel supply-only sub-contracts may be quoted per kg or per MT; large PEB projects quoted per project lump sum. Unit must be shown alongside any indicative price to prevent misreading.",
+      "reason": "Per sq ft vs per kg vs per project creates real price comparison confusion — a buyer comparing a per-sq-ft turnkey quote against a per-kg supply-only quote will misread value entirely if unit is not shown."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Roof Shape",
+        "reason": "Defines the structural system type (portal frame, truss, space frame, single slope, pipe truss) — non-interchangeable across project requirements and the primary driver of fabrication complexity, material tonnage, and therefore price."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Max Span",
+        "reason": "Span directly determines steel tonnage, section sizes, and engineering complexity — a fabricator capable of up to 30m cannot execute a 50m warehouse roof, making this a hard capability gate with large price delta across bands."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Connection Type",
+      "Design Standard",
+      "Location Service",
+      "Material Grade",
+      "Max Span",
+      "Roof Shape",
+      "Service Mode",
+      "Service Type",
+      "Structure Type",
+      "Surface Finish"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roofing Sheet Type",
+        "why_important": "The roofing sheet material (GI, galvalume, colour-coated, PUF sandwich panel, polycarbonate) is a primary cost and performance differentiator in turnkey contracts — buyers specify sheet type upfront and it drives a significant portion of the per-sq-ft price.",
+        "source": "both",
+        "example_values": [
+          "GI Sheet",
+          "Galvalume Sheet",
+          "Colour-Coated Sheet",
+          "PUF Sandwich Panel",
+          "Polycarbonate Sheet"
+        ]
+      },
+      {
+        "spec_name": "Project Scale / Area",
+        "why_important": "Fabricators have minimum viable project sizes and mobilisation cost thresholds — a fabricator set up for large industrial sheds (5,000+ sq ft) cannot economically serve a 200 sq ft terrace shed, making area range a critical routing and pricing signal.",
+        "source": "both",
+        "example_values": [
+          "Up to 500 sq ft",
+          "500 to 2000 sq ft",
+          "2000 to 10000 sq ft",
+          "Above 10000 sq ft"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Material choice (mild steel, aluminium, galvanized steel) determines structural system compatibility, corrosion resistance, and cost — sellers need this to confirm they work with the specified material and to provide an accurate quote.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Installation Method",
+        "reason": "Whether the buyer needs on-site welding and assembly, pre-fabricated components, or bolted connections determines the fabricator's execution capability and mobilisation requirements — a fabricator without on-site welding capacity cannot fulfil that requirement.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Structure Type",
+        "why_important": "The intended application (industrial shed, warehouse, terrace shed, parking canopy, poultry farm shed) defines the structural system, load requirements, and span — sellers need this to determine whether they serve this project type and to estimate scope.",
+        "source": "both",
+        "example_values": [
+          "Industrial / Factory Shed",
+          "Warehouse",
+          "Terrace Shed / Parking Shade",
+          "Poultry / Farm Shed",
+          "Commercial Building"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Industrial / Factory Shed",
+          "Warehouse",
+          "Terrace Shed / Parking Shade",
+          "Poultry / Farm Shed",
+          "Commercial Building"
+        ]
+      },
+      {
+        "spec_name": "Approximate Area (sq ft)",
+        "why_important": "Project scale determines fabricator mobilisation cost, minimum order viability, and per-sq-ft pricing — sellers cannot provide a meaningful indicative quote without knowing the approximate area.",
+        "source": "both",
+        "example_values": [
+          "Up to 500 sq ft",
+          "500–2000 sq ft",
+          "2000–10000 sq ft",
+          "Above 10000 sq ft"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Buyers frequently have an existing shed layout, architectural drawing, or site sketch that defines the roof geometry, span, and slope — uploading this reference allows fabricators to assess structural feasibility and provide a more accurate indicative quote without a site visit, significantly improving RFQ response quality."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Structure Type",
+      "option_value": "Industrial / Factory Shed",
+      "id": "spec_1",
+      "prompt_for_generation": "Completed mild steel roof truss structure installed over a large industrial factory shed, wide-span portal frame with colour-coated roofing sheets, interior view showing steel trusses and purlins, natural daylight through translucent sheets, no people, clean professional photo.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Warehouse",
+      "id": "spec_2",
+      "prompt_for_generation": "Large-span pre-engineered building (PEB) roof structure for a warehouse, exterior view showing galvalume roofing sheets on a wide-span steel frame, clear-span column-free interior visible through open shutter, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Terrace Shed / Parking Shade",
+      "id": "spec_3",
+      "prompt_for_generation": "Mild steel tubular frame terrace shed with polycarbonate roofing sheets installed on a residential rooftop, compact single-slope structure, clean welded joints, daytime exterior view, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Poultry / Farm Shed",
+      "id": "spec_4",
+      "prompt_for_generation": "MS truss roof structure for a poultry farm shed, long rectangular shed with GI sheet roofing, open sides with wire mesh, rural setting, exterior view showing full shed length, natural daylight, no people.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Type",
+      "option_value": "Commercial Building",
+      "id": "spec_5",
+      "prompt_for_generation": "Steel roof structural framework installed on a commercial showroom or office building, A-type truss with colour-coated roofing sheets, exterior view showing clean architectural finish, urban setting, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
