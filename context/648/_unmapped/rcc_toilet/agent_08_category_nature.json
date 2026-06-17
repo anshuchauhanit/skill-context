@@ -1,0 +1,47 @@
+{
+  "agent": "Agent 8 — Category Nature",
+  "mcat": "RCC Toilet",
+  "mcat_id": "214584",
+  "is_vague_detection": {
+    "agent3_prior": {
+      "suspected_vague": false,
+      "note": "Agent 3 did not flag mcat_vagueness_signal; primary_segment is confident and unhedged."
+    },
+    "signal_scoring": {
+      "S1_name_ambiguity": {
+        "fires": false,
+        "evidence": "'RCC Toilet' resolves unambiguously to one product concept — a reinforced cement concrete toilet structure. No competing industry reads this name differently; 'RCC' is a well-understood construction abbreviation in India."
+      },
+      "S2_primary_segment_difficulty": {
+        "fires": false,
+        "evidence": "Agent 3 produced a confident, unhedged primary_segment: 'Precast RCC toilet cabin for rural and public sanitation (single-compartment, Indian style, Swachh Bharat Mission-aligned)' — no compound hedge or 'depends on' qualifier."
+      },
+      "S3_buyer_intent_queries_diverge": {
+        "fires": false,
+        "evidence": "All buyer_intent_queries cluster around one purchase context — procuring a precast concrete toilet structure for sanitation installation; sub-variants (IWC/EWC, single/double, SBM-aligned) are spec refinements within the same intent, not incompatible intents."
+      },
+      "S4_product_types_no_shared_buyer": {
+        "fires": false,
+        "evidence": "All product_types (single-compartment cabin, double-compartment block, panel-build, monolithic, bio-digester variant) share the same buyer archetype — an entity procuring a fixed concrete sanitation structure for rural, public, or institutional use."
+      },
+      "S5_regulatory_or_sibling_carveout": {
+        "fires": false,
+        "evidence": "Siblings (FRP Portable Toilet, MS Portable Toilets, Bio Toilet, Mobile Toilets) carve out different materials and mobility profiles, but none carve out a sub-type of RCC Toilet with an incompatible buyer or regulatory regime; all product_types in this MCAT remain within the RCC precast sanitation structure concept."
+      }
+    },
+    "signals_fired": 0,
+    "is_vague_conclusion": false
+  },
+  "category_nature": {
+    "is_generic": false,
+    "is_specific": true,
+    "is_vague": false,
+    "is_thin": false,
+    "is_branded": false,
+    "is_service": false,
+    "reason": [
+      "is_specific: the MCAT name tightly bounds the product to one material (RCC/precast concrete) and one function (toilet/sanitation structure); buyer intent is homogeneous across all sub-variants (IWC/EWC, single/multi-compartment, panel-build/monolithic) with 729 listings confirming sufficient commercial depth.",
+      "is_vague: 0 of 5 signals fire — 'RCC Toilet' maps to exactly one product concept with a confident primary_segment, coherent buyer_intent_queries, shared buyer profile across all product_types, and no sibling carve-out that introduces an incompatible buyer or regulatory regime."
+    ]
+  }
+}
