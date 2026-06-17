@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Steel House' is material-bounded (steel frame only) and product-type-bounded (prefabricated habitable structure); all 0 vagueness signals fire, Agent 3 produced a confident unhedged primary_segment, and all buyer_intent_queries cluster around one coherent purchase context — procuring a steel-framed prefab structure.",
+    "is_generic: no — the MCAT is constrained to steel-frame prefab structures only; siblings already carve out wood, bamboo, concrete, and container variants, making this a bounded material-specific node rather than a catch-all roll-up; is_thin: no — 385 listings with confirmed active manufacturers and government demand drivers (PMAY, Smart City Mission) indicate sufficient standalone volume."
+  ]
+}
