@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'PVC Portable Cabin' directly matches the top primary keyword and is the dominant search term used by buyers across buyer_intent_queries and market_context; it accurately covers the full product range from guard cabins to site offices without over-specifying.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a large multi-windowed modular container-style cabin (likely 20–30 ft long) that represents a site office or portable office complex — not the primary segment, which is a compact PVC security guard cabin (4x4 ft to 6x6 ft) for entry checkpoints.",
+      "The structure appears to be a metal/steel panel modular cabin rather than a PVC panel cabin, and the outdoor European setting with grass lawn is inconsistent with Indian B2B market context, making it misleading for the target buyer."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A compact prefabricated PVC security guard cabin, approximately 5x5 feet, with white PVC panel walls and a grey or green flat roof, a single hinged door and one small sliding window, placed at a gated entry checkpoint on a plain white or light grey studio background. Clean product shot, front-facing three-quarter angle, sharp detail showing PVC panel texture and MS tubular frame base, bright even studio lighting, no people, no clutter, square 1:1 crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
