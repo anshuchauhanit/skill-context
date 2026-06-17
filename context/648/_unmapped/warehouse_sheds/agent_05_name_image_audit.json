@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Warehouse Sheds' directly matches the top primary_keywords ('warehouse shed', 'warehouse sheds') and aligns with the dominant Indian trade vocabulary confirmed in market_context; no more precise single-term name exists that covers both PEB and conventional MS truss variants without excluding a major product_type.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image shows a large-span steel-framed interior under construction with visible portal-frame columns, metal sheet roofing, and sandwich panel stacks — correctly representing the PEB warehouse shed primary segment.",
+      "The interior/under-construction perspective obscures the full structural form and exterior profile that buyers typically use to evaluate a warehouse shed; an exterior shot of a completed PEB structure would communicate the product more immediately and attractively."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic exterior view of a large completed Pre-Engineered Building (PEB) steel warehouse shed, wide clear-span portal frame structure, colour-coated metal sheet roofing in light blue or grey, smooth metal wall cladding panels, large roller shutter entrance door, clean concrete apron in foreground, bright daylight, white or light sky background, sharp product-focused composition, square 1:1 format, no people, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
