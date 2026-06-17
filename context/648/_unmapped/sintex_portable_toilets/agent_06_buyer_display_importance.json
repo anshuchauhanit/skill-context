@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual sub-type variation — single-seater cabin vs twin-seater vs 6-seater block, Indian vs Western seat, FRP vs steel are all visually distinct. Buyers use the image to identify product type before reading any text; wrong type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Sintex Model (seater count), Toilet Seat type (Indian/Western), Structure Material (FRP/PVC/MS), and Bio System inclusion are non-interchangeable shortlisting criteria. A 6-seater block cannot substitute for a single-seater cabin; buyers cannot proceed without these specs."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with Sintex Model (single vs multi-seater), material (FRP vs MS), and bio system inclusion. Indian B2B buyers — especially construction contractors and government procurement officers — compare per-piece rates aggressively across sellers after confirming product type."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Sintex is the dominant brand in India's prefabricated portable toilet market — buyers use 'Sintex' as a generic category descriptor and actively distinguish authorised Sintex dealers from independent FRP manufacturers using the name generically.",
+      "reason": "Buyers care whether the seller is an authorised Sintex dealer or an independent FRP cabin manufacturer, as this affects product quality, warranty, and compliance with government scheme specifications. Brand affinity is strong enough that this MCAT is named after the brand."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Multi-seater blocks (twin, 4-seater, 6-seater) are quoted per block/per unit; some government orders quote per seat. However, unit is always implied by the Sintex Model spec — no buyer confusion arises from omitting unit display.",
+      "reason": "Unit is entirely implied by the product type — single cabins are always per piece, multi-seater blocks are always per block. No buyer questions this; displaying unit adds no decision-relevant information."
+    }
+  ]
+}
