@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Wooden Guard Room' directly matches the dominant buyer-facing search term confirmed across primary_keywords and buyer_intent_queries in Agent 3 alt_names, and aligns with Indian B2B market naming norms for this prefabricated wooden security cabin category.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a decorative European-style solid-log garden cabin with a pitched gabled roof, ornate door, and garden/outdoor leisure setting — this is not a prefabricated Indian B2B security guard cabin and actively misrepresents the primary segment.",
+      "The product depicted lacks the defining features of the primary segment (MS pipe or wooden frame, plywood/marine ply flat or slightly sloped GI sheet roof, sliding aluminium windows, utilitarian construction-site or gate-post context), creating a wrong-product signal for Indian B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A compact prefabricated wooden security guard cabin, approximately 4x6 feet, with a flat or slightly sloped corrugated GI sheet roof, smooth plywood or marine ply exterior walls in natural wood or light cream paint finish, a single hinged door with a small glass panel, one sliding aluminium window on the side, placed at a factory or residential society gate entrance on a concrete surface, clean white studio-style background with soft even lighting, front-three-quarter view, sharp product photography style, no people, no clutter, professional B2B catalogue look.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
