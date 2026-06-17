@@ -1,0 +1,548 @@
+{
+  "mcat_description": {
+    "short": "A prefabricated structure with a steel frame (light gauge steel or mild steel sections) and sheet/panel cladding, factory-manufactured and site-assembled for residential, commercial, or temporary accommodation use.",
+    "long": "Steel House refers to a factory-built, site-assembled prefabricated structure whose primary load-bearing skeleton is a steel frame — either Light Gauge Steel Frame (LGSF) or conventional mild steel sections — clad with colour-coated GI sheets, PUF sandwich panels, or cement-fibre boards. Components are manufactured off-site under controlled conditions and transported for rapid on-site assembly, delivering a complete habitable structure in 30–90 days. The structural steel used conforms to IS:800 (general steel construction code) and IS:2062 (hot-rolled structural steel), while the overall building design follows the National Building Code of India. Buyers range from individual homeowners and real estate developers to government agencies procuring labour camps, disaster-relief shelters, and institutional accommodation.",
+    "product_types": [
+      "Portable Steel Cabin / Site Office",
+      "Modular Steel House (permanent residential)",
+      "Prefabricated Steel Labour Camp / Worker Quarters",
+      "Steel Frame Farmhouse / Villa",
+      "Steel Container-Style House",
+      "Steel Structure Toilet / Sanitation Unit",
+      "Multi-Storey Prefab Steel Building (2–3 floors)",
+      "Steel Disaster Relief / Emergency Shelter",
+      "Steel Classroom / School Building",
+      "Steel Guard Room / Security Cabin"
+    ],
+    "primary_applications": [
+      "Residential housing (permanent and semi-permanent)",
+      "Labour camps and worker accommodation at construction sites",
+      "Site offices and project management cabins",
+      "Disaster relief and emergency shelter deployment",
+      "Farmhouse and eco-resort / glamping cabin construction",
+      "Government housing schemes (PMAY, Smart City Mission)",
+      "Staff quarters and hostel accommodation",
+      "Portable security guard rooms and kiosks",
+      "Rural school and healthcare facility construction"
+    ],
+    "buyer_segments": [
+      "Individual homeowners seeking faster/affordable construction",
+      "Real estate developers and township builders",
+      "Construction contractors needing site offices and labour camps",
+      "Government and PSU procurement (PMAY, army, disaster relief)",
+      "Hospitality and eco-resort developers",
+      "Industrial companies requiring worker accommodation",
+      "NGOs and relief organisations"
+    ]
+  },
+  "primary_segment": "Prefabricated steel-framed modular house for residential or accommodation use (LGSF or MS frame with sheet/panel cladding)",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Prefabricated steel-framed modular house (LGSF/MS frame, sheet or panel cladding, factory-built and site-assembled)",
+    "secondary_families": [],
+    "reason": "All sub-types — portable cabin, modular home, labour camp, villa, emergency shelter — share the same steel-frame prefab working principle, the same factory-to-site assembly model, and the same buyer profile; no sibling MCAT carves out a sub-type with an incompatible regulatory regime or fundamentally different buyer."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "steel house",
+      "steel home",
+      "prefabricated steel house",
+      "steel structure house",
+      "readymade steel house",
+      "modular steel house",
+      "steel frame house",
+      "portable steel house",
+      "prefab steel home",
+      "steel wala makan"
+    ],
+    "technical_synonyms": [
+      "LGSF house",
+      "light gauge steel frame house",
+      "pre-engineered steel house",
+      "modular prefab structure",
+      "steel panel house",
+      "PUF panel steel house",
+      "sandwich panel steel house",
+      "MS frame prefab house",
+      "steel structure building"
+    ],
+    "trade_names": [
+      "Tata Nest-In",
+      "EPACK Prefab",
+      "Loom Crafts Prefab",
+      "Wedge India Prefab",
+      "Bajaj Prefab House",
+      "Darq India Prefab"
+    ],
+    "hindi_terms": [
+      "स्टील का मकान",
+      "स्टील वाला मकान",
+      "प्रीफैब्रिकेटेड स्टील घर",
+      "स्टील स्ट्रक्चर हाउस",
+      "रेडीमेड स्टील मकान"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated steel house price in India",
+      "steel structure house for labour camp",
+      "readymade steel house manufacturer India",
+      "portable steel cabin for site office",
+      "modular steel house for farmhouse",
+      "steel frame prefab home for residential use",
+      "steel house for PMAY government project",
+      "iron structure house in India",
+      "steel room prefab house manufacturer"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Indian prefab steel house sellers and buyers universally quote on a per-square-foot basis for built-up area, consistent with the broader Indian construction market norm; this unit allows direct comparison across custom-sized structures.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Portable cabin / guard room (small fixed sizes)",
+        "unit": "per piece",
+        "note": "Small standardised cabins (e.g. 6×8 ft, 8×10 ft) are sometimes quoted per unit/piece."
+      },
+      {
+        "sub_segment": "Large modular residential / commercial project",
+        "unit": "per project (lump sum)",
+        "note": "Turnkey project contracts for multi-unit housing or labour camps may be quoted as a lump-sum project price."
+      }
+    ],
+    "sources_checked": [
+      "Loom Crafts Prefab (loomcraftsprefab.com)",
+      "Darq India (darqindia.com)",
+      "Wedge India (wedge-india.com)",
+      "EPACK Prefab (epack.in)",
+      "IndiaMART Prefabricated Steel Buildings page (structural signal only)"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, 'Steel House' is the dominant buyer-facing term for any prefabricated structure whose primary load-bearing frame is steel — encompassing Light Gauge Steel Frame (LGSF) systems and conventional mild steel (MS) section frames. The structural steel used conforms to IS:800 (general steel construction) and IS:2062 (hot-rolled structural steel), and the overall building must comply with the National Building Code of India (NBC). Two cladding technologies dominate: colour-coated corrugated GI/GP sheet (cost-efficient, widely used for labour camps and portable cabins) and PUF/PIR sandwich panels (thermally insulated, used for residential and premium applications). Leading Indian manufacturers include Tata Steel's Nest-In (pan-India, 26+ states), EPACK Prefab, Loom Crafts, Wedge India, Bajaj Steel Industries, and Darq India. Key buyer segments are individual homeowners, real estate developers, construction contractors (site offices and labour camps), and government agencies under PMAY and Smart City Mission. The market is growing due to government housing targets, faster construction timelines (30–90 days vs. months for conventional construction), and cost predictability. Buyers in this MCAT compare on built-up area (sq ft), frame type (LGSF vs. MS), cladding/insulation type, floor count, and certifications (IS:800, NBC, seismic zone compliance).",
+  "buyer_attracting_attributes": [
+    "Frame Type (LGSF vs MS structural steel)",
+    "Built-up Area (sq ft)",
+    "Cladding / Wall Panel Type (GI sheet, PUF sandwich panel, cement-fibre board)",
+    "Insulation Type and Thermal Rating",
+    "Number of Floors / Storeys",
+    "Portability (portable/relocatable vs permanent)",
+    "Structural Standard Compliance (IS:800, NBC, seismic zone)",
+    "Delivery and Assembly Time",
+    "Customisation (layout, door/window placement)",
+    "Warranty (structural and rain leakage)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "85303",
+    "mcat_name": "Steel House",
+    "mcat_level": "4",
+    "listing_count": "385",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Steel House",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35591.0",
+      "name": "Prefabricated Houses",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35591.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "23898",
+        "mcat_name": "Bunkhouses",
+        "listing_count": "2983",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "32367",
+        "mcat_name": "Log Homes",
+        "listing_count": "475",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35591",
+        "mcat_name": "Prefabricated Houses",
+        "listing_count": "6571",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "41490",
+        "mcat_name": "Wooden House",
+        "listing_count": "5639",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42751",
+        "mcat_name": "Guard Huts",
+        "listing_count": "554",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "45872",
+        "mcat_name": "House Construction Services",
+        "listing_count": "63276",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88195",
+        "mcat_name": "Portable House",
+        "listing_count": "4461",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88198",
+        "mcat_name": "Prefabricated Wooden House",
+        "listing_count": "1417",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96542",
+        "mcat_name": "Container Homes",
+        "listing_count": "4457",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "108654",
+        "mcat_name": "Log Cabin",
+        "listing_count": "678",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116158",
+        "mcat_name": "Prefabricated Beach House",
+        "listing_count": "149",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116159",
+        "mcat_name": "Prefabricated Concrete House",
+        "listing_count": "473",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116160",
+        "mcat_name": "Prefabricated Guest House",
+        "listing_count": "735",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116162",
+        "mcat_name": "Prefabricated Metal House",
+        "listing_count": "324",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "132218",
+        "mcat_name": "PVC Guard Huts",
+        "listing_count": "81",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133091",
+        "mcat_name": "Bunk House Office",
+        "listing_count": "240",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "133097",
+        "mcat_name": "Prefab Steel Bunk House",
+        "listing_count": "688",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "141758",
+        "mcat_name": "Bamboo Huts",
+        "listing_count": "5401",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "147433",
+        "mcat_name": "Modular Cottages",
+        "listing_count": "1411",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150851",
+        "mcat_name": "MS Bunkhouse",
+        "listing_count": "539",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158049",
+        "mcat_name": "House Extensions",
+        "listing_count": "1059",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164685",
+        "mcat_name": "Portable Huts",
+        "listing_count": "254",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167394",
+        "mcat_name": "Prefabricated Hut",
+        "listing_count": "313",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "177471",
+        "mcat_name": "Net House",
+        "listing_count": "1911",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182878",
+        "mcat_name": "Tree House",
+        "listing_count": "613",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "183544",
+        "mcat_name": "Portable Resort",
+        "listing_count": "290",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315617",
+        "mcat_name": "Mild Steel Portable House",
+        "listing_count": "1111",
+        "source_pmcat": "35591.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 27,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Steel House is a prefabricated structural product subject to BIS standards (IS:800, IS:2062) and NBC building codes; standard B2B research into material specs, design standards, and construction certifications required."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Top terms 'steel house', 'steel home', 'iron structure house in India' used to anchor primary keywords and buyer intent queries."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "primary_segment"
+        ],
+        "citation_note": "'steel house' (62 PVs) and 'steel structure house' (5 PVs) confirmed dominant buyer search terms on-platform; 'readymade steel house' and 'prefabricated 2000 steel house' added to alt_names."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "alt_names.hindi_terms",
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Call rows confirmed buyer vocabulary: 'स्टील का मकान', 'Steel wala makan', 'Modular House (Steel House)', 'Steel Structure Portable House', 'Prefabricated Steel House (Steel Room)' — used to populate hindi_terms and validate product_types."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings_count"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path confirmed MCAT sits under Prefabricated Structures; 27 siblings reviewed for vagueness trigger — no incompatible regulatory carve-out found."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://ferrite.in/bis-standards-for-steel-in-india/",
+        "title": "BIS Standards for Steel: Testing & Certification in India",
+        "source_domain": "ferrite.in",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed IS:2062 (hot-rolled structural steel) and IS:800 (general steel construction) as the primary BIS standards applicable to steel house frames."
+      },
+      {
+        "url": "https://bisregistrationcertificate.com/services/bis-certification-for-steel/",
+        "title": "Apply For BIS Certification For Steel In India 2025",
+        "source_domain": "bisregistrationcertificate.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Corroborated IS:800 as the code for general steel construction; confirmed ISI mark and Quality Control Orders for steel products."
+      },
+      {
+        "url": "https://www.loomcraftsprefab.com/",
+        "title": "Prefab Modular Homes India | Modular Villas & Cottages Manufacturer – Loom Crafts",
+        "source_domain": "loomcraftsprefab.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "unit_quoting_context",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed LGSF + MS hybrid frame as dominant technology; 30–60 day production timeline; per sq ft unit quoting; applications including residential, farmhouse, resort."
+      },
+      {
+        "url": "https://www.epack.in/prefab-homes",
+        "title": "Prefab Modular Homes & Luxury Villas Manufacturer | EPACK Prefab",
+        "source_domain": "epack.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Confirmed LGSF construction as globally trusted technology for Indian prefab homes; applications include hostels, staff quarters, sample flats."
+      },
+      {
+        "url": "https://www.darqindia.com/prefab-homes-india",
+        "title": "Prefab Homes India | Buy Affordable & Luxury Prefab Houses - Darq India",
+        "source_domain": "darqindia.com",
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "mcat_description.primary_applications",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed buyer segments (PMAY, developers, HNIs, government); applications including disaster relief, labour camps, IGBC compliance; steel frame specs."
+      },
+      {
+        "url": "https://www.nestin.co.in/",
+        "title": "Prefabricated Housing & Prefab Construction Solutions - Tata Steel Nest-In",
+        "source_domain": "nestin.co.in",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "market_context"
+        ],
+        "citation_note": "Confirmed Tata Steel Nest-In as a major Indian market player serving 26+ states; steel-based prefab construction solutions for housing, sanitation, portable cabins."
+      },
+      {
+        "url": "https://www.solvabuild.com/products/steel-prefabs/",
+        "title": "Top Prefabricated Steel Structure Manufacturers in India - Solvabuild",
+        "source_domain": "solvabuild.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed corrugated GI sheet and sandwich panels as the two dominant cladding types; factory-to-site assembly model; corrosion-resistant pre-coated materials."
+      },
+      {
+        "url": "https://www.fluidconstructions.com/building/building-code-regulations-india/",
+        "title": "Current Building Code and Regulations in India",
+        "source_domain": "fluidconstructions.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed NBC (BIS) as the governing building code for prefabricated structures in India; NBC promotes advanced prefabricated building parts."
+      },
+      {
+        "url": "https://bajajngp.com/products-services/bajaj-pre-fabricated-house/",
+        "title": "Bajaj Pre-Fabricated House – Bajaj Steel Industries LTD",
+        "source_domain": "bajajngp.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Confirmed modular component system (K-modulus, P-modulus), twin-skinned GI/powder-coated panels, PUF insulated roof panels as product specifications."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "NFHS"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Steel House is a prefabricated structural product subject to BIS standards (IS:800 for steel design, IS:1893 for seismic design) and NFHS building codes. Buyers evaluate structural compliance and material grade, not brand name. Standard B2B research into material specs, design standards, and construction certifications is required."
+    }
+  }
+}
