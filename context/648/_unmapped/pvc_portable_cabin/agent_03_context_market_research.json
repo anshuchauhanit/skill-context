@@ -1,0 +1,572 @@
+{
+  "mcat_description": {
+    "short": "PVC Portable Cabin is a prefabricated, relocatable small structure built with PVC or UPVC wall panels on a mild steel or GI frame, sold as a complete ready-to-install unit. It is primarily used as a security guard cabin or portable site office in India.",
+    "long": "PVC Portable Cabins are factory-built, modular structures using PVC or UPVC panels for walls and roofing, supported by a mild steel (MS) or GI tubular frame, and are designed for rapid on-site installation without a permanent foundation. In the Indian B2B market, the dominant application is as a security guard cabin or guard room at gated communities, construction sites, industrial premises, and commercial complexes. Larger variants serve as portable site offices, labour colony units, or portable toilet enclosures. Key material differentiators include wall panel thickness (typically 6mm PVC), frame gauge, insulation type (plain PVC, PUF-insulated, or EPS panel), and cabin dimensions, which are typically customised to buyer requirements.",
+    "product_types": [
+      "PVC Security Guard Cabin (compact, 4x4 ft to 6x6 ft)",
+      "PVC Portable Site Office Cabin (larger, 10x10 ft to 20x10 ft)",
+      "PVC Portable Toilet / Bathroom Cabin",
+      "PVC Labour Colony Cabin / Bunkhouse",
+      "PVC Police Booth / Kiosk Cabin",
+      "UPVC Portable Cabin",
+      "PVC + PUF Insulated Portable Cabin",
+      "PVC + EPS Panel Portable Cabin",
+      "Double-Storey PVC Portable Cabin"
+    ],
+    "primary_applications": [
+      "Security guard post at gated residential communities and housing societies",
+      "Entry checkpoint cabin at construction sites and industrial premises",
+      "Portable site office for construction project managers",
+      "Temporary office at infrastructure and road project sites",
+      "Police booth and government security post",
+      "Labour colony accommodation unit",
+      "Portable toilet enclosure for construction sites and events",
+      "Retail kiosk or temporary shop cabin"
+    ],
+    "buyer_segments": [
+      "Construction companies and real estate developers (site office and guard cabin)",
+      "Housing societies and gated community RWAs (security guard cabin)",
+      "Industrial plants and factories (entry checkpoint cabin)",
+      "Government and municipal bodies (police booth, public facility cabin)",
+      "Event management companies (temporary cabin structures)",
+      "Infrastructure project contractors (labour colony, site office)",
+      "Security service agencies procuring cabins for client sites"
+    ]
+  },
+  "primary_segment": "PVC security guard cabin — compact prefabricated PVC panel structure for security personnel at entry checkpoints",
+  "mcat_vagueness_signal": {
+    "suspected_vague": true,
+    "primary_family": "PVC security guard cabin / guard room (compact, 4x4 ft to 8x8 ft, for security personnel at entry points)",
+    "secondary_families": [
+      "PVC portable toilet / bathroom cabin (sanitation structure — different buyer need, different plumbing/sanitation fitout, different regulatory context under Swachh Bharat/FSSAI sanitation norms)",
+      "PVC portable site office cabin (larger structure, 10x30 ft range, for white-collar site workers — different size tier and buyer)"
+    ],
+    "reason": "The MCAT name 'PVC Portable Cabin' attracts fundamentally different product families — security guard cabins, portable toilets, and large site offices — with different buyer needs, fitout requirements, and size tiers; keyword data confirms toilet-related queries contaminating this MCAT from a sibling segment, and call data shows 9/10 enquiries are security cabin specific."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "PVC portable cabin",
+      "PVC security cabin",
+      "PVC guard cabin",
+      "PVC cabin",
+      "portable PVC cabin",
+      "PVC prefab cabin",
+      "UPVC cabin",
+      "PVC guard room",
+      "PVC security guard cabin",
+      "readymade PVC cabin"
+    ],
+    "technical_synonyms": [
+      "PVC prefabricated security cabin",
+      "UPVC portable cabin",
+      "PVC panel modular cabin",
+      "PVC porta cabin",
+      "PVC modular security cabin",
+      "PVC prefab guard room",
+      "PVC panel security booth",
+      "flame-retardant PVC cabin"
+    ],
+    "trade_names": [
+      "Sintex PVC panel cabin",
+      "Plasto panel security cabin",
+      "PVC II size cabin",
+      "eco portable PVC cabin"
+    ],
+    "hindi_terms": [
+      "PVC suraksha cabin",
+      "portable cabin PVC wala",
+      "PVC chowkidar cabin"
+    ],
+    "buyer_intent_queries": [
+      "PVC portable cabin for security guard",
+      "PVC cabin for construction site office",
+      "readymade PVC security cabin price",
+      "portable PVC guard room for housing society",
+      "PVC prefab cabin for entry checkpoint",
+      "UPVC portable cabin manufacturer India",
+      "PVC cabin 6x6 feet for security",
+      "portable cabin PVC near Chennai",
+      "PVC security cabin for industrial premises"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per piece",
+    "unit_reasoning": "Small security guard cabins (4x4 ft to 8x8 ft) are sold as complete ready-to-install units quoted per piece; larger site office cabins are sometimes quoted per sq ft when dimensions are custom, but per piece dominates for the primary security cabin segment.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "PVC security guard cabin (compact, fixed sizes)",
+        "unit": "per piece",
+        "note": "Standard sizes (4x4, 6x6, 6x4 ft) sold as complete units"
+      },
+      {
+        "sub_segment": "PVC portable site office cabin (large, custom dimensions)",
+        "unit": "per sq ft",
+        "note": "Custom-dimension cabins quoted per sq ft by multiple manufacturers"
+      },
+      {
+        "sub_segment": "PVC portable toilet cabin",
+        "unit": "per piece",
+        "note": "Sold as complete sanitation unit"
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART MCAT listing tiles (structural observation)",
+      "srfabricators.com",
+      "metastarindia.com",
+      "srikamakshitraders.net",
+      "vkportablecabins.in"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "In the Indian B2B market, PVC Portable Cabins are prefabricated modular structures primarily sold as security guard cabins for gated communities, construction sites, and industrial premises, with PVC panel walls (typically 6mm thickness) on an MS tubular frame. The market uses 'PVC cabin,' 'PVC security cabin,' 'porta cabin,' and 'guard room' interchangeably for the same product. Material variants include plain PVC panel, PUF-insulated PVC panel, EPS panel, and UPVC — with PUF-insulated variants commanding a premium for all-weather use. Manufacturers are concentrated in Chennai, Delhi NCR, Ahmedabad, Mumbai/Thane, and Bengaluru. The category overlaps with FRP portable cabins and MS security cabins, which are direct material substitutes competing in the same buyer segment; buyers often compare PVC vs FRP vs MS options before purchase. No dedicated BIS/IS standard governs PVC portable cabins specifically; structural integrity claims (wind resistance up to 120 km/h, seismic zone III-IV compliance) are manufacturer-stated, not third-party certified in most cases (single source — low confidence for specific structural ratings). Sizes range from compact 4x4 ft guard booths to 20x10 ft site offices, with custom dimensions widely available.",
+  "buyer_attracting_attributes": [
+    "Cabin Size / Dimensions (ft)",
+    "Wall Panel Material (PVC / UPVC / PUF / EPS)",
+    "Wall Panel Thickness",
+    "Frame / Structure Material (MS / GI / Aluminium)",
+    "Insulation Type",
+    "Built Type (Prefab / Modular / Panel Build)",
+    "Color Options",
+    "Roof Type (Flat / Sloped / One-piece moulded)",
+    "Electrical Fittings Included (lights, fan, plug points)",
+    "Weather Resistance / Wind Speed Rating"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "181546",
+    "mcat_name": "PVC Portable Cabin",
+    "mcat_level": "4",
+    "listing_count": "407",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > PVC Portable Cabin",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35400.0",
+      "name": "Portable Cabin",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35400.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "32980",
+        "mcat_name": "Office Cabin",
+        "listing_count": "6818",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35057",
+        "mcat_name": "Portable Classrooms",
+        "listing_count": "736",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35400",
+        "mcat_name": "Portable Cabin",
+        "listing_count": "13877",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38456",
+        "mcat_name": "Telephone Booths",
+        "listing_count": "419",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42755",
+        "mcat_name": "Security Cabins",
+        "listing_count": "4207",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43789",
+        "mcat_name": "Wooden Cabins",
+        "listing_count": "665",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "43790",
+        "mcat_name": "Mobile Cabins",
+        "listing_count": "613",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "56012",
+        "mcat_name": "Glass Cabin",
+        "listing_count": "1247",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96540",
+        "mcat_name": "Office Container",
+        "listing_count": "21197",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "96541",
+        "mcat_name": "Mobile Containers",
+        "listing_count": "2044",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "111378",
+        "mcat_name": "Smoking Cabin",
+        "listing_count": "192",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "119140",
+        "mcat_name": "Container Conversion Service",
+        "listing_count": "68",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121149",
+        "mcat_name": "FRP Cabin",
+        "listing_count": "1604",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135704",
+        "mcat_name": "Portable Kitchen",
+        "listing_count": "457",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135705",
+        "mcat_name": "Portable Security Cabins",
+        "listing_count": "6233",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135712",
+        "mcat_name": "Prefabricated Cabin",
+        "listing_count": "6259",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135797",
+        "mcat_name": "Toll Booth",
+        "listing_count": "853",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135966",
+        "mcat_name": "Eco Portable Cabins",
+        "listing_count": "436",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136204",
+        "mcat_name": "Prefabricated Accommodation",
+        "listing_count": "1321",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145135",
+        "mcat_name": "FRP Portable Security Cabin",
+        "listing_count": "1727",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149768",
+        "mcat_name": "Portable Dressing Room",
+        "listing_count": "358",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150360",
+        "mcat_name": "Portable Log Cabins",
+        "listing_count": "220",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150362",
+        "mcat_name": "Portable Pantry",
+        "listing_count": "142",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150852",
+        "mcat_name": "MS Porta Cabin",
+        "listing_count": "9337",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "150853",
+        "mcat_name": "MS Security Cabins",
+        "listing_count": "1334",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154082",
+        "mcat_name": "Wooden Guard Room",
+        "listing_count": "111",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159318",
+        "mcat_name": "GRP Cabin",
+        "listing_count": "55",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "165827",
+        "mcat_name": "Modular Portable Cabin",
+        "listing_count": "3118",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "167809",
+        "mcat_name": "PUF Cabin",
+        "listing_count": "1376",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181975",
+        "mcat_name": "Prefabricated Security Cabin",
+        "listing_count": "1156",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185338",
+        "mcat_name": "GI Portable Cabin",
+        "listing_count": "2393",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "185339",
+        "mcat_name": "Aluminium Office Cabins",
+        "listing_count": "1740",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "188230",
+        "mcat_name": "Portable ATM Cabin",
+        "listing_count": "130",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "207959",
+        "mcat_name": "Frisking Booth",
+        "listing_count": "168",
+        "source_pmcat": "35400.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "PVC portable cabins are prefabricated structures with material and dimensional specs. No single regulatory body mandates compliance; no dominant brand anchors buyer search. Standard B2B research into material grades, construction standards, and market configurations will inform spec hierarchy and segment clarity."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Top keywords by Impressions used to identify buyer search vocabulary; 'readymade toilet for home' (148 impressions) flagged as sibling-MCAT contamination signal supporting vagueness assessment."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Pageviews confirmed 'pvc portable cabin' and 'pvc cabin' as dominant search terms; location queries (Chennai, Mumbai) noted as geographic demand signals."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "primary_segment",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms"
+        ],
+        "citation_note": "9 of 10 call rows referenced 'PVC Security Cabin' or 'Security Cabin' variants — strongly corroborated security guard cabin as primary segment. Hindi term 'suraksha cabin' inferred from call vocabulary pattern."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "34 siblings at same level under Prefabricated Structures parent; listing count 407 treated as plausible. Sibling count signals a broad parent with many material/type variants — informed vagueness assessment."
+      },
+      {
+        "source": "IndiaMART MCAT page (product_page_url)",
+        "fields_used": [],
+        "derived_outputs": [],
+        "citation_note": "Page URL was not provided — page fetch not attempted. Structural signals sourced from web_search results referencing IndiaMART listing tiles instead."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.srfabricators.com/security-cabin.html",
+        "title": "Security Cabin - Portable Security Cabin Trader from Chennai",
+        "source_domain": "srfabricators.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for PVC security cabin definition, material options (PVC, FRP, PUF, ACP, MS, SS), size range (4x4 ft to 10x12 ft), and application contexts (gated communities, construction sites, commercial complexes)."
+      },
+      {
+        "url": "https://www.metastarindia.com/pvc-prefabricated-security-cabin-5786737.html",
+        "title": "PVC Security Cabin - Durable, Affordable & Portable",
+        "source_domain": "metastarindia.com",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.long"
+        ],
+        "citation_note": "Used for structural specs (flame-retardant PVC, wind resistance up to 120 km/h, seismic zones III-IV), installation time (~3 hours, no permanent foundation), and component details (PVC pillars, waterproof plywood flooring, insulated PVC wall panels)."
+      },
+      {
+        "url": "https://www.srikamakshitraders.net/pvc-security-cabins.html",
+        "title": "PVC Security Cabins - Portable Mobile Toilet Trader from Chennai",
+        "source_domain": "srikamakshitraders.net",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for wall panel spec (6mm PVC), window spec (sliding glass 4x2 ft), door spec (PVC 6x2.5 ft), floor spec (vinyl mat on aspects sheet), MS tube frame (20mm), and color options (grey, white)."
+      },
+      {
+        "url": "https://www.vkportablecabins.in/portable-security-cabins.html",
+        "title": "Portable Security Cabins - Portable Guard Room Manufacturer from Bengaluru",
+        "source_domain": "vkportablecabins.in",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "market_context"
+        ],
+        "citation_note": "Used for application contexts (monitoring entrances, construction sites, industrial areas, event venues) and feature list (weather/corrosion resistant, ready for instant use, easy installation)."
+      },
+      {
+        "url": "https://ggr.co.in/security-guard-cabins.php",
+        "title": "Prefab security guard cabin manufacturers in Chennai - GGR",
+        "source_domain": "ggr.co.in",
+        "derived_outputs": [
+          "market_context",
+          "alt_names.primary_keywords"
+        ],
+        "citation_note": "Used for market context on PVC security cabin applications (Government, Corporate, Flats), trade name variants (PUF security cabin, kiosk cabin), and corroboration of Chennai as a manufacturing hub."
+      },
+      {
+        "url": "https://www.abuildtech.com/pvc-portable-cabin-site-office-manufacturers.aspx",
+        "title": "PVC Portable Cabin Site Office Manufacturer in Delhi NCR",
+        "source_domain": "abuildtech.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications"
+        ],
+        "citation_note": "Used for site office cabin variant (EPS panel, labour colony) and Delhi NCR as manufacturing hub corroboration."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "PVC portable cabins are prefabricated structures with material and dimensional specs (PVC gauge, frame type, dimensions, insulation). No single regulatory body mandates compliance; no dominant brand anchors buyer search. Standard B2B research into material grades, construction standards (BIS for structural components), and market configurations will inform spec hierarchy and segment clarity."
+    }
+  }
+}
