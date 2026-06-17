@@ -1,0 +1,293 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Structural form variation is extreme — conical, hypar, barrel vault, shade sail, and modular umbrella are visually non-interchangeable. Buyers scan listing images to identify the structural form and aesthetic before reading any text; wrong form is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Fabric material (PVC vs PVDF vs PTFE) drives 3–5x price variation and non-interchangeable durability tiers; structure type and shape are primary shortlisting gates. Buyers discover and compare across fabric grades during search — specs are a discovery signal, not merely a confirmation signal."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant fabricator brand with buyer recall — market is fragmented across regional fabricators; European fabric brands (Ferrari, Mehler, Sattler) are material brands, not structure brands that buyers search by name.",
+      "reason": "Custom-engineered, site-installed, multi-month project with long structural lifecycle. Fabricator track record, past project portfolio, installation team capability, and geographic service reach are primary vendor selection criteria equal in weight to specifications."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq ft rate is a budget entry point and India price sensitivity is real, but final price is always custom-quoted per site dimensions and spec tier. Price comparison is only meaningful after fabric material and structural form equivalence is confirmed."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Modular tensile umbrella units are quoted per piece; large stadium or airport projects are quoted as lump-sum turnkey contracts. Per sq ft is dominant for car parking and commercial shade canopy — the primary segment — but unit must be shown to prevent price misreading across sub-segments.",
+      "reason": "Per sq ft vs per piece vs lump sum creates real price comparison confusion across sub-segments. A buyer comparing per sq ft listings against a per piece modular umbrella listing will fundamentally misread the price without unit clarity."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Fabric Material",
+        "reason": "PVC Coated vs PVDF Coated vs PTFE Fabric represents a 3–5x price delta and non-interchangeable durability tiers (10-year vs 20-year vs 30+ year design life) — the single most price-determinative configurator in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Shape",
+        "reason": "Conical, hypar, barrel vault, and dome forms require fundamentally different engineering, cable layouts, and fabrication methods — non-interchangeable across site geometry and aesthetic brief, with significant cost variation between forms."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Country Of Origin",
+      "Coverage Area",
+      "Fabric Material",
+      "Fabric Thickness",
+      "Frame Material",
+      "Installation Service",
+      "Shape",
+      "Structure Type",
+      "UV Protection",
+      "Waterproof"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Fire Rating",
+        "why_important": "Institutional, stadium, airport, and government buyers specify fire-rated fabric compliance (DIN 4102 B1, BS 476, ASTM E-126) as a mandatory procurement requirement — absent from the spec list despite being cited in market context as a standard fabric compliance dimension.",
+        "source": "both",
+        "example_values": [
+          "Standard (Non-FR)",
+          "FR Rated (B1/M2)",
+          "Class A (A2 Non-Combustible)",
+          "BS 476 Compliant"
+        ]
+      },
+      {
+        "spec_name": "Design Life / Warranty",
+        "why_important": "Institutional and government project buyers specify minimum design life (10/15/20/30 years) as a procurement criterion — directly tied to fabric material grade and a primary differentiator between PVC standard, PVDF, and PTFE tiers.",
+        "source": "both",
+        "example_values": [
+          "10 Years",
+          "15 Years",
+          "20 Years",
+          "30+ Years"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Application",
+        "reason": "Application context (car parking, swimming pool, sports court, restaurant) routes the RFQ to sellers with relevant project experience and allows them to confirm structural feasibility and compliance requirements for that use case.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Car Parking",
+          "Swimming Pool",
+          "Building",
+          "Parking Shed",
+          "Sports Court",
+          "Restaurant"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Shape",
+        "reason": "Structural form (conical, arch, cantilever, pyramidical) is non-interchangeable — sellers need this to assess fabrication feasibility, engineering requirements, and provide an accurate quote for the buyer's specific aesthetic and site geometry.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Conical",
+          "Gazebo",
+          "Arch",
+          "Cantilever",
+          "Pyramidical",
+          "Triangular"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Fabric Material",
+        "why_important": "Fabric material (PVC vs PVDF vs PTFE) is the single most price-determinative input — sellers cannot provide an accurate quote or confirm product tier fit without knowing the buyer's fabric preference or budget tier.",
+        "source": "both",
+        "example_values": [
+          "PVC Coated",
+          "PVDF Coated",
+          "PTFE / Fiberglass",
+          "HDPE Shade Net"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": true,
+    "image_upload_reason": "Tensile membrane structure buyers frequently have a site photo, architectural sketch, or reference image of a structure they want to replicate — the structural form, site geometry, column placement, and aesthetic brief are extremely difficult to communicate through text spec values alone. An uploaded reference image allows sellers to assess structural feasibility, propose the correct form, and provide an accurate per-sq-ft quote without multiple back-and-forth exchanges."
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Car Parking",
+      "id": "spec_1",
+      "prompt_for_generation": "PVC-coated tensile membrane canopy structure over a commercial car parking area, conical or hypar form, white or light grey fabric, steel columns visible, daytime outdoor setting, wide-angle architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Swimming Pool",
+      "id": "spec_2",
+      "prompt_for_generation": "PVC-coated tensile membrane canopy covering an outdoor swimming pool, barrel vault or hypar form, translucent white fabric allowing diffused light, steel frame structure, poolside setting with blue water visible below, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Building",
+      "id": "spec_3",
+      "prompt_for_generation": "Tensile membrane canopy installed as entrance or facade shade cover on a commercial building, white PVC fabric, steel cable and column support, architectural context with building facade visible, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Parking Shed",
+      "id": "spec_4",
+      "prompt_for_generation": "PVC-coated tensile membrane parking shed structure over a row of parked cars, flat or slightly curved fabric roof, galvanised steel columns, outdoor commercial parking lot setting, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Sports Court",
+      "id": "spec_5",
+      "prompt_for_generation": "Tensile membrane shade canopy covering an outdoor sports court, large-span barrel vault or hypar fabric roof, white or light-coloured PVC membrane, steel mast and cable structure, badminton or basketball court visible below, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Restaurant",
+      "id": "spec_6",
+      "prompt_for_generation": "Tensile membrane canopy over an outdoor restaurant or food court seating area, conical or wave-form white PVC fabric, decorative steel columns, dining tables and chairs visible below, warm ambient lighting, evening setting, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Shape",
+      "option_value": "Conical",
+      "id": "spec_7",
+      "prompt_for_generation": "Single conical tensile membrane structure with a pointed apex, white PVC-coated fabric, central steel mast and perimeter cables, standalone installation on a commercial plaza, daytime, clean architectural photography, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Shape",
+      "option_value": "Gazebo",
+      "id": "spec_8",
+      "prompt_for_generation": "Tensile membrane gazebo structure with a circular or hexagonal plan, white PVC fabric roof with scalloped edges, decorative steel frame, garden or resort setting, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Shape",
+      "option_value": "Arch",
+      "id": "spec_9",
+      "prompt_for_generation": "Arch-form tensile membrane canopy with a curved barrel vault profile, white PVC-coated fabric stretched over arched steel ribs, walkway or entrance setting, daytime, architectural photography style, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Shape",
+      "option_value": "Cantilever",
+      "id": "spec_10",
+      "prompt_for_generation": "Cantilever tensile membrane canopy projecting from a single row of steel columns with no front supports, white PVC fabric, car parking or entrance application, asymmetric overhang clearly visible, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Shape",
+      "option_value": "Pyramidical",
+      "id": "spec_11",
+      "prompt_for_generation": "Pyramidal tensile membrane structure with four triangular fabric panels meeting at a central apex, white PVC-coated fabric, steel frame with four corner columns, commercial plaza or entrance setting, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Structure Shape",
+      "option_value": "Triangular",
+      "id": "spec_12",
+      "prompt_for_generation": "Triangular tensile membrane shade structure with three anchor points, white PVC-coated fabric forming a flat triangular plane with slight curvature, minimal steel or cable supports, outdoor commercial setting, daytime, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
