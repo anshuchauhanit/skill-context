@@ -1,0 +1,1407 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "308608896",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Wooden Guard Room",
+      "description": "Wooden Guard Room",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Material:GI, Shape:Rectangular, Usage/Application:Guard Room"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/10/549713494/VR/LT/FY/1133617/wooden-guard-room.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/wooden-guard room-2857400989862.html",
+      "image_file": "308608896.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a small prefabricated guard cabin with white painted exterior, brown trim, slanted roof, sliding aluminium window, and single door with latch — consistent with a wooden guard room product."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads only 'Wooden Guard Room' with no size, material detail, or distinguishing feature."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm prefab build type and guard room usage; GI material likely refers to roofing, which is standard in wooden guard rooms."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is identical to the title — 'Wooden Guard Room' — providing no additional product information."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image and title confirm a small prefabricated guard cabin consistent with the Wooden Guard Room MCAT; GI material in specs is consistent with standard GI sheet roofing used in wooden guard rooms."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Wooden Guard Room' with no size, material specification, or feature detail."
+        }
+      ],
+      "verification_note": "Pre-label confirmed good; image shows a small guard cabin consistent with MCAT; thin title and description are quality gaps only, not disqualifiers.",
+      "source_url": "https://www.indiamart.com/proddetail/wooden-guard room-2857400989862.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "287553841",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "4x4 Feet Mild Steel Guard Room",
+      "description": "<p dir=\"ltr\">key Features;---<br>\n</p>\n<p dir=\"ltr\"><b>Size:</b> 20 x 20 Feet<br>\n</p>\n<p dir=\"ltr\"><b>Type:</b> Prefabricated Mild Steel Guard Room<br>\n</p>\n<p dir=\"ltr\"><b>Material:</b> <b>Mild Steel (MS)</b> &#8211; Strong, durable, and weather-resistant, providing a secure and long-lasting structure<br>\n</p>\n<p dir=\"ltr\"><b>Application:</b> Ideal for <b>Security Posts</b>, <b>Guard Booths</b>, <b>Watch Rooms</b>, <b>Surveillance Stations</b>, or <b>Gatehouses</b><br>\n</p>\n<p dir=\"ltr\"><b>Shape:</b> Square &#8211; Provides ample space for security staff, equipment, and operational function</p>",
+      "specs": {
+        "raw": "Brand:Alfa Porta Cabin, Built Type:Panel Build, Material:Mild Steel, Shape:Rectangular, Size:20x20 Feet, Usage/Application:Guard Room"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/4/506068792/MZ/YB/JT/75234249/20x20-feet-mild-steel-guard-room.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/4x4-feet mild steel guard room-2855295484397.html",
+      "image_file": "287553841.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image is AI-generated (Meta AI watermark visible) showing a steel security cabin — not a real product photograph, limiting buyer utility."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title explicitly states 'Mild Steel Guard Room' — material is steel, not wood, contradicting the Wooden Guard Room MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs confirm Material: Mild Steel and Size: 20x20 Feet, both inconsistent with the Wooden Guard Room MCAT (wrong material; 20x20 ft is not a guard room size)."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description explicitly describes a 'Prefabricated Mild Steel Guard Room' of size 20x20 Feet — wrong material for this MCAT."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is explicitly a Mild Steel guard room; the Wooden Guard Room MCAT requires wooden construction as the defining material characteristic."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs",
+          "title_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Title states '4x4 Feet' but specs state 'Size: 20x20 Feet' — conflicting size values.",
+          "Title states '4x4 Feet' but description states 'Size: 20 x 20 Feet' — conflicting size values."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs field contains 'Brand:Alfa Porta Cabin' — a company/brand name embedded in the specs."
+        }
+      },
+      "correct_mcat_suggestion": "Security Cabins",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title states '4x4 Feet' but specs state 'Size: 20x20 Feet'."
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title states '4x4 Feet' but description states 'Size: 20 x 20 Feet'."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title explicitly states 'Mild Steel Guard Room' — steel material is not wooden construction required by this MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm 'Material: Mild Steel' — wrong material for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes a 'Prefabricated Mild Steel Guard Room' — wrong material for this MCAT."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is AI-generated (Meta AI watermark visible in bottom-right corner) — not a real product photograph."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Brand:Alfa Porta Cabin' — company brand name embedded in listing specs."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad; product is a Mild Steel guard room with size contradiction between title and specs/description; should route to Security Cabins sibling.",
+      "source_url": "https://www.indiamart.com/proddetail/4x4-feet mild steel guard room-2855295484397.html"
+    },
+    {
+      "item_id": "175938766",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Wooden Guard Room",
+      "description": "Wooden Guard Room",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, I Deal In:New Only, Material:Mild Steel, Shape:Rectangular, Usage/Application:Guard Room"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/12/WE/SQ/AS/58988118/wooden-guard-room.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/wooden-guard room-24683028573.html",
+      "image_file": "175938766.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows the interior of a large prefab cabin with white laminate panels, plywood flooring, and ceiling fans — the space appears much larger than a typical guard room and the exterior/material cannot be confirmed."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads only 'Wooden Guard Room' with no size, material detail, or distinguishing feature."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs state 'Material: Mild Steel' — explicitly steel construction, contradicting the wooden material required by this MCAT."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is identical to the title — 'Wooden Guard Room' — providing no additional product information."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Specs explicitly state Material: Mild Steel, contradicting the wooden construction that defines the Wooden Guard Room MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title states 'Wooden Guard Room' but specs state 'Material: Mild Steel' — direct material contradiction."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Security Cabins",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title states 'Wooden Guard Room' but specs state 'Material: Mild Steel'."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm 'Material: Mild Steel' — wrong material for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Wooden Guard Room' with no size, material specification, or feature detail."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the interior of a large cabin space; exterior material and guard room scale cannot be confirmed from this angle."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad; specs explicitly state Mild Steel material contradicting the wooden construction required by this MCAT; should route to Security Cabins.",
+      "source_url": "https://www.indiamart.com/proddetail/wooden-guard room-24683028573.html"
+    },
+    {
+      "item_id": "249442220",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Wooden Guard Room",
+      "description": "Hiresh Isearch is a distinguished&nbsp;<b>Manufacturer</b>,&nbsp;<b>Retailer</b>&nbsp;and&nbsp;<b>Trader</b>&nbsp;offering an enormous consignment of&nbsp;<b>FRP Portable Office Cabin,&nbsp;</b><b>Mild Steel Portable Cabin and Mild Steel Portable House&nbsp;</b>etc.",
+      "specs": {},
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/7/433302455/PT/YO/EB/88209025/wooden-guard-room.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/wooden-guard room-2851484321962.html",
+      "image_file": "249442220.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a small wooden log-cabin style security guard booth with natural pine/cedar exterior, hip tiled roof, sliding aluminium door and window, and guard accessories visible — clearly a wooden guard room."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads only 'Wooden Guard Room' with no size, material detail, or distinguishing feature."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs object is empty — no spec information provided."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description is a company boilerplate describing FRP Portable Office Cabin and Mild Steel Portable Cabin — products entirely different from the wooden guard room shown in the image and named in the title."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Image and title confirm a wooden guard room; the misleading description is boilerplate and does not change the product identity established by the image."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_description",
+          "title_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Image shows a wooden guard cabin but description describes FRP Portable Office Cabin and Mild Steel Portable Cabin.",
+          "Title states 'Wooden Guard Room' but description describes FRP and Mild Steel portable cabins — different products."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Hiresh Isearch' — a business/company name embedded in the listing description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Image shows a wooden guard cabin but description describes FRP Portable Office Cabin and Mild Steel Portable Cabin."
+        },
+        {
+          "problem_code": "P05",
+          "problem_name": "Title-Description Contradiction",
+          "evidence": "Title states 'Wooden Guard Room' but description describes FRP and Mild Steel portable cabins."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description names FRP Portable Office Cabin and Mild Steel Portable Cabin — neither belongs in the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads only 'Wooden Guard Room' with no size, material specification, or feature detail."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Hiresh Isearch' — a company/business name embedded in the listing description."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad due to active contradiction between description (FRP/MS products) and title/image (wooden guard room); image is the best signal but contradiction_observed triggers bad label per override rules.",
+      "source_url": "https://www.indiamart.com/proddetail/wooden-guard room-2851484321962.html"
+    },
+    {
+      "item_id": "316785526",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "10x20 Feet Wooden Guard Room",
+      "description": "<b>Description</b><br /><br />\n<ul>\n<li>A wooden guard room is&nbsp;a prefabricated, portable, secure booth for security personnel, offering weather protection, basic amenities (light, fan), and security features like strong locks, often built with wood profiles, GI sheets, or fiberboard for quick setup at site entrances for monitoring and controlling access</li>\n</ul>",
+      "specs": {
+        "raw": "Cabin Size:10x20 ft, Flooring Type:Wooden Flooring, No. of Windows:2 Windows, Roof Type:Wooden Roof, Structure Type:Wooden Frame, Usage Type:Security Cabin, Wall Finish:Paint Finish, Wood Type:Plywood"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/1/574580234/DD/BC/ML/249548312/wooden-guard-room.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/10x20-feet wooden guard room-2858218652888.html",
+      "image_file": "316785526.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large steel portable office cabin with blue MS frame and white sandwich panels — not a wooden guard room; the structure is clearly steel construction and far larger than any guard room."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title claims '10x20 Feet Wooden Guard Room' — correct product name but 10x20 ft is unusually large for a guard room."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs detail wooden frame, plywood, wooden flooring, wooden roof, and security cabin usage — all consistent with a wooden guard room."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description accurately describes a prefabricated wooden guard room for security personnel with wood profiles and GI sheets."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Image shows a large steel office cabin with blue MS frame and sandwich panels — the product photographed is not a wooden guard room, contradicting the title and specs."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title",
+          "photo_vs_specs",
+          "photo_vs_description"
+        ],
+        "contradiction_reasons": [
+          "Image shows a large steel office cabin with blue MS frame; title claims 'Wooden Guard Room'.",
+          "Image shows steel frame and sandwich panel construction; specs claim 'Structure Type: Wooden Frame' and 'Wood Type: Plywood'.",
+          "Image shows a large steel cabin; description describes a wooden guard room for security personnel."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Office Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a large steel office cabin with blue MS frame; title claims '10x20 Feet Wooden Guard Room'."
+        },
+        {
+          "problem_code": "P02",
+          "problem_name": "Photo-Specs Contradiction",
+          "evidence": "Image shows steel frame and sandwich panel construction; specs claim 'Structure Type: Wooden Frame' and 'Wood Type: Plywood'."
+        },
+        {
+          "problem_code": "P03",
+          "problem_name": "Photo-Description Contradiction",
+          "evidence": "Image shows a large steel cabin; description describes a wooden guard room for security personnel."
+        },
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large steel portable office cabin — not a wooden guard room as required by this MCAT."
+        }
+      ],
+      "verification_note": "Pre-label overridden from good to bad; image shows a steel office cabin contradicting all text claims of wooden guard room construction; product photographed belongs in Office Cabin MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/10x20-feet wooden guard room-2858218652888.html"
+    },
+    {
+      "item_id": "160671694",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Office Cabin",
+      "description": "We Omega Cabins are mfg and supplier of portable office cabin,site office cabin,security guard cabin, toilet cabin, bunk house cabin, and we are supplier of used cargo container throughout india.",
+      "specs": {
+        "raw": "Built Type:Prefab, Material:Steel, Shape:Rectangular, Size:Size 20'Lx10'Wx8.6'H, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/3/494930325/PD/MQ/UW/18198436/portable-office-container.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-23156321330.html",
+      "image_file": "160671694.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large white/blue two-tone corrugated steel portable cabin in a warehouse setting — clearly a steel office cabin, not a wooden guard room."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title explicitly states 'Portable Office Cabin' — wrong product type for the Wooden Guard Room MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm Material: Steel, Usage: Office, Size: 20'Lx10'Wx8.6'H — all inconsistent with a wooden guard room."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description describes a company supplying portable office cabins, site office cabins, and cargo containers — not wooden guard rooms."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a steel portable office cabin; wrong product type and material for the Wooden Guard Room MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Office Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large steel portable cabin — not a wooden guard room."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title states 'Portable Office Cabin' — wrong product type for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Material: Steel and Usage: Office — wrong material and usage for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes portable office cabins and cargo containers — not wooden guard rooms."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; product is a steel portable office cabin with no wooden guard room characteristics.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-23156321330.html"
+    },
+    {
+      "item_id": "166404120",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Steel Office Cabin",
+      "description": "The Epsilon Prefabricated Portable Cabin is meticulously engineered and factory constructed using branded IS grade materials, ensuring durability and reliability. Its robust shell, fabricated from tested quality steel, features a base frame, peripheral structure, self-draining roof, entry door, and windows. Reinforced corner columns facilitate easy transportation, lifting, and placement. The cabin boasts premium components including G.I. corrugated sheeting for exterior paneling, pre-laminated board panels or ACP sheeting for interior walls, and 1.2mm thick G.I. corrugated sheeting for the roof. Inside, a 9mm pre-laminated ceiling and 18mm thick cement board or plywood flooring with vinyl carpeting ensure comfort and longevity. Double shutter aluminum powder-coated sliding windows and corrugated MS doors equipped with glass wool insulation provide security and insulation. The cabin is equipped with 50mm glass wool insulation, concealed wiring, standard electrical fittings, plumbing fixtures, and sanitation systems, meeting the highest industry standards. With a focus on quality and functionality, the Epsilon Portable Prefabricated Cabin is the ideal solution for diverse applications. Each cabin can be supplied as plain shell or customised as per Client's interior requirments of partitions, washrooms, pantry and different kind of furnitures fitted at factory",
+      "specs": {
+        "raw": "Built Type:Prefab, Cabin Color:White, Cabin Size:Custom Size, Country of Origin:Made in India, Facilities:Electrical Fittings, Flooring:customised, Flooring Type:Laminate Floor, House Style:customised, Material:Steel, No. of Workstations:as per specs, Place Of Origin:Pan India, Roof Type:slanting, Size:customised, Structure Material:MS Frame, Thickness:customised, Usage/Application:for office and shelter, Usage Type:Conference Cabin, Wall Panel:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/5/305596389/WT/GY/JH/76461355/steel-office-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-office cabin-23729563933.html",
+      "image_file": "166404120.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large multi-room prefabricated building with EPSILON branding, steel/PUF panel construction at a construction site — clearly a large office/accommodation building, not a wooden guard room."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title explicitly states 'Steel Office Cabin' — wrong material and product type for the Wooden Guard Room MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm Material: Steel, Structure: MS Frame, Wall Panel: PUF Panel, Usage: office and shelter — all inconsistent with a wooden guard room."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly describes the 'Epsilon Prefabricated Portable Cabin' with steel construction, GI corrugated sheeting, MS frame — wrong product for this MCAT."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a large steel office cabin with PUF panels and MS frame; wrong product type and material for the Wooden Guard Room MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains 'Epsilon Prefabricated Portable Cabin' and 'Epsilon Portable Prefabricated Cabin' — company brand name embedded in the listing description."
+        }
+      },
+      "correct_mcat_suggestion": "Office Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large multi-room steel/PUF panel prefab building — not a wooden guard room."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title states 'Steel Office Cabin' — wrong material and product type for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Material: Steel, MS Frame, PUF Panel — wrong construction for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes the Epsilon steel prefab cabin with GI corrugated sheeting and MS frame — wrong product for this MCAT."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Epsilon Prefabricated Portable Cabin' — company brand name embedded in the listing description."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; product is a large steel office cabin with no wooden guard room characteristics; company branding present in description.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-office cabin-23729563933.html"
+    },
+    {
+      "item_id": "253743584",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "15Feet Steel Portable Office Cabin",
+      "description": "<b>15-Feet Steel Portable Office Cabin</b> is a highly durable and versatile solution for creating mobile office spaces. Built with <b>high-quality steel</b> construction, this cabin offers exceptional <b>strength and longevity</b>. It is ideal for <b>construction sites</b>, <b>remote project locations</b>, or as a <b>temporary office</b> solution for businesses. The compact <b>15-foot</b> size ensures it can be used in tight spaces while still offering the essential features for day-to-day operations.",
+      "specs": {
+        "raw": "Brand:HPC, Built Type:Modular, Features:Portable, Material:Steel, Shape:Rectangular, Size:12x15x8 Feet (LXWXH), Surface Treatment:Paint Coated, Usage/Application:Construction Site"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2025/5/508597307/RU/GM/LL/90422608/modular-steel-portable-office-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/15feet-steel portable office cabin-2851914458333.html",
+      "image_file": "253743584.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large white/blue corrugated steel portable cabin with 'SIRI CEMENT & FLYA' and phone numbers painted on the exterior — clearly a steel office cabin, not a wooden guard room."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title explicitly states '15Feet Steel Portable Office Cabin' — wrong material and product type for the Wooden Guard Room MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm Material: Steel, Brand: HPC, Size: 12x15x8 Feet — wrong material and scale for a wooden guard room."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description explicitly describes a '15-Feet Steel Portable Office Cabin' for mobile office spaces — wrong product for this MCAT."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a steel portable office cabin; wrong product type and material for the Wooden Guard Room MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs field contains 'Brand:HPC' — a company brand name embedded in the listing specs."
+        }
+      },
+      "correct_mcat_suggestion": "Office Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large corrugated steel portable cabin — not a wooden guard room."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title states '15Feet Steel Portable Office Cabin' — wrong material and product type for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Material: Steel — wrong material for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a steel portable office cabin for mobile office spaces — wrong product for this MCAT."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Brand:HPC' — company brand name embedded in listing specs."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; product is a steel portable office cabin with no wooden guard room characteristics.",
+      "source_url": "https://www.indiamart.com/proddetail/15feet-steel portable office cabin-2851914458333.html"
+    },
+    {
+      "item_id": "270297620",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Office Cabin",
+      "description": "<table border=\"0\" width=\"256\">\n<tr height=\"45\">\n<td width=\"256\" height=\"45\">Walls &ndash; M.S corrugated sheet of 1.2mm thick<br />Roof - M.S sheet of 1.2mm thick<br />Floor - M.S framing with cross support block area&nbsp;</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Doors &amp; Vents</td>\n</tr>\n<tr height=\"30\">\n<td width=\"256\" height=\"30\">1 MS double door with canopy &amp; handles,<br /></td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Windows</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Windows size(3'X2')</td>\n</tr>\n<tr height=\"30\">\n<td width=\"256\" height=\"30\">Bulkheads above and safety grill outside 10mmX10mm</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Wiring &amp; Switches</td>\n</tr>\n<tr height=\"90\">\n<td width=\"256\" height=\"90\">LED lights -&nbsp;<br />External door light fitting -&nbsp;<br />Cabin Fan - 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />15 Amp. Point Modular Switch Socket &ndash;&nbsp;<br />Modular Switch Board as per drawing<br />6 Amp. Double Point Modular Switch Socket &ndash;&nbsp;</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Insulation &amp; Interiors</td>\n</tr>\n<tr height=\"30\">\n<td width=\"256\" height=\"30\">Wooden framing in the whole container<br />Glass wool insulation of 50mm</td>\n</tr>\n<tr height=\"60\">\n<td width=\"256\" height=\"60\">Walls- 8mm laminated ply board ,</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Wooden batern and beading to cover the joints</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Floor&nbsp;- 18mm wooden floor and 1.2mm vinyl carpet</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Exteriors</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">4 Hooks for lifting and shifting</td>\n</tr>\n<tr height=\"21\">\n<td width=\"256\" height=\"21\">Paint 1 coat primer and 2 coat enamel paint</td>\n</tr>\n</table>",
+      "specs": {
+        "raw": "Built Type:Prefab, Cabin Size:12x10 ft, Design Type:Customized, Furnishing:Semi Furnished, Material:Steel, No. of Workstations:5 to 10, Size:20'x10', Structure Material:MS Frame, Usage/Application:Office, Usage Type:Project Office, Wall Panel:PVC Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/4/409867802/OV/OB/NP/11001000/1.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-2853569862097.html",
+      "image_file": "270297620.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a long white/green corrugated steel portable cabin installed at a construction site — clearly a large steel office cabin, not a wooden guard room."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Title explicitly states 'Portable Office Cabin' — wrong product type for the Wooden Guard Room MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs confirm Material: Steel, MS Frame, Usage: Office, Project Office — wrong material and usage for a wooden guard room."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Description details MS corrugated sheet walls, MS frame, glass wool insulation — a steel portable office cabin, not a wooden guard room."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a steel portable office cabin with MS frame and corrugated steel walls; wrong product type and material for the Wooden Guard Room MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": true,
+          "reason": "Specs contain two conflicting size values: 'Cabin Size: 12x10 ft' and 'Size: 20'x10'' — different dimensions for the same product."
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Office Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large corrugated steel portable cabin — not a wooden guard room."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title states 'Portable Office Cabin' — wrong product type for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Material: Steel, MS Frame, Usage: Office — wrong material and usage for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description details MS corrugated sheet walls and MS frame — a steel portable office cabin, not a wooden guard room."
+        },
+        {
+          "problem_code": "P11",
+          "problem_name": "Internal Specs Contradiction",
+          "evidence": "Specs contain conflicting size values: 'Cabin Size: 12x10 ft' and 'Size: 20'x10''."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; product is a steel portable office cabin with internal specs size contradiction; no wooden guard room characteristics.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-2853569862097.html"
+    },
+    {
+      "item_id": "324713713",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable office Cabin",
+      "description": "Portable office Cabin",
+      "specs": {
+        "raw": "Built Type:Prefabricated, Cabin Size:12x10 ft, Flooring:Cement Board, Height:8.5 ft, Insulation Material:Glass Wool, Material:MS (Mild Steel), Product Type:Site Office, Size (L x W):20 ft x 10 ft, Structure Material:MS Frame, Usage Type:Site Office, Wall Panel:MS Sheet"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2026/3/594694501/AM/LO/NW/265534617/portable-cabin.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-office cabin-2859011471562.html",
+      "image_file": "324713713.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows the interior of a fully furnished office cabin with U-shaped workstations, overhead cabinets, wood-panel walls, and vinyl flooring — clearly an office cabin interior, not a wooden guard room."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title states 'Portable office Cabin' — wrong product type for the Wooden Guard Room MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "strong",
+          "reason": "Specs confirm Material: MS (Mild Steel), Product Type: Site Office, MS Frame, MS Sheet walls — wrong material and product type for a wooden guard room."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description is identical to the title — 'Portable office Cabin' — confirming wrong product type for this MCAT."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a steel portable office cabin with MS frame and MS sheet walls; wrong product type and material for the Wooden Guard Room MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Office Cabin",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a fully furnished office cabin interior with workstations and cabinets — not a wooden guard room."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title states 'Portable office Cabin' — wrong product type for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs confirm Material: MS (Mild Steel), Product Type: Site Office — wrong material and product type for the Wooden Guard Room MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description states 'Portable office Cabin' — wrong product type for this MCAT."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed; product is a steel portable office cabin with no wooden guard room characteristics.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-office cabin-2859011471562.html"
+    }
+  ],
+  "generated_bad_examples": [
+    {
+      "generated": true,
+      "generated_for_problem_codes": [
+        "P15",
+        "P16"
+      ],
+      "item_id": "GENERATED_P15_P16",
+      "pre_label": null,
+      "verified_label": "bad",
+      "override": true,
+      "title": "Wooden Guard Room",
+      "description": "Contact Ramesh Kumar at 9876543210 or visit us at Sector 63, Noida. We supply prefabricated wooden guard rooms in 4x4, 4x6, and 6x8 feet sizes with plywood walls and GI sheet roofing. Call now for best price.",
+      "specs": {},
+      "image_url": null,
+      "product_page_url": null,
+      "image_file": null,
+      "image_status": "generated",
+      "dimensions": {
+        "photo": {
+          "category_fit": null,
+          "quality": null,
+          "reason": "No image available."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title reads only 'Wooden Guard Room' with no size, material, or feature detail."
+        },
+        "specs": {
+          "category_fit": null,
+          "quality": "thin",
+          "reason": "Specs object is empty — no spec information provided."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "misleading",
+          "reason": "Description contains personal name 'Ramesh Kumar', phone number '9876543210', and location 'Sector 63, Noida' — policy violations embedded in product description."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Title and description reference wooden guard rooms in standard sizes — correct product type for this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": true,
+          "reason": "Description contains personal name 'Ramesh Kumar' and phone number '9876543210'."
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains location 'Sector 63, Noida' — a specific locality name embedded in the listing description."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P15",
+          "problem_name": "PII Present",
+          "evidence": "Description contains personal name 'Ramesh Kumar' and phone number '9876543210'."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Sector 63, Noida' — a specific locality name embedded in the listing description."
+        }
+      ],
+      "verification_note": "Generated illustrative example for P15 and P16 — no real verified product in this batch demonstrated PII or location/business leakage in text fields."
+    }
+  ],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "The single verified good product (308608896) shows a small prefabricated guard cabin photographed from the exterior at a slight angle, revealing the full structure including slanted roof, sliding aluminium window, single door with latch, and painted plywood/panel walls with contrasting trim. The cabin is compact (guard-room scale, approximately 4x6 ft), placed in a real-world setting. The exterior construction and guard-post scale are the key visual identifiers for this MCAT.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Guard room cabins are physical structures whose quality and suitability are communicated through exterior appearance — material, size, door/window configuration, and roof type — not through printed text on the product.",
+      "OCR cannot extract meaningful product specifications from images of painted wooden cabin exteriors; all spec information must come from title and spec fields.",
+      "The verified good image (308608896) shows a painted exterior with no readable text labels — confirming that product appearance IS the information for this category."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Verified good images show a small prefabricated guard cabin photographed from the exterior, with the full structure visible including roof, door, windows, and wall panels.",
+    "product_identity": [
+      "Small compact cabin structure (guard-room scale, 4x4 to 6x8 ft range)",
+      "Slanted or flat roof with GI sheet or similar roofing material",
+      "Single door with latch/handle and at least one sliding window visible",
+      "Painted exterior walls (plywood, blockboard, or cement board panels)"
+    ],
+    "acceptable_scenes": [
+      "Exterior shot showing full cabin structure in a real-world setting (residential, construction site, or factory gate)",
+      "Slight angle view showing two faces of the cabin to convey depth and scale"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "308608896",
+        "reason": "Image shows a small prefabricated guard cabin with white painted exterior, brown trim, slanted roof, sliding aluminium window, and single door with latch — consistent with a wooden guard room product.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show cabin interiors only or AI-generated images that do not allow buyers to assess exterior construction, material, or guard-room scale.",
+    "thinness_signals": [
+      "Interior-only shot — exterior material, roof type, and overall cabin scale cannot be assessed",
+      "AI-generated image — not a real product photograph, reducing buyer trust and product authenticity"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "287553841",
+        "reason": "Image is AI-generated (Meta AI watermark visible in bottom-right corner) showing a steel security cabin — not a real product photograph, limiting buyer utility."
+      },
+      {
+        "photo_url": null,
+        "item_id": "175938766",
+        "reason": "Image shows only the interior of a large prefab cabin with white laminate panels, plywood flooring, and ceiling fans — the space appears much larger than a typical guard room and the exterior/material cannot be confirmed."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show large steel portable office cabins or furnished office interiors — wrong product type for the Wooden Guard Room MCAT.",
+    "failure_classes": [
+      {
+        "class": "large_steel_office_cabin_exterior",
+        "description": "Image shows a large steel portable office cabin (20x10 ft or larger) with corrugated steel or sandwich panel walls and MS frame — wrong product type and material for the Wooden Guard Room MCAT.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "316785526"
+          },
+          {
+            "photo_url": null,
+            "item_id": "160671694"
+          },
+          {
+            "photo_url": null,
+            "item_id": "253743584"
+          },
+          {
+            "photo_url": null,
+            "item_id": "270297620"
+          }
+        ],
+        "detection_signal": "Large rectangular steel structure with corrugated or sandwich panel walls, blue/green/white two-tone paint, MS frame visible at corners — clearly not a small wooden guard cabin.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "large_prefab_building_with_branding",
+        "description": "Image shows a large multi-room prefabricated building with company branding (EPSILON) — wrong product type, wrong scale, and wrong material for the Wooden Guard Room MCAT.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "166404120"
+          }
+        ],
+        "detection_signal": "Multi-room structure with company logo/branding visible, steel/PUF panel construction, installed at a construction site — not a small wooden guard cabin.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "furnished_office_cabin_interior",
+        "description": "Image shows the interior of a fully furnished office cabin with workstations, cabinets, and office equipment — wrong product type for the Wooden Guard Room MCAT.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "324713713"
+          }
+        ],
+        "detection_signal": "U-shaped or linear workstation arrangement, overhead storage cabinets, multiple power sockets, vinyl flooring — clearly an office cabin interior, not a guard room.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "wooden_guard_room_with_misleading_description",
+        "description": "Image shows a correct wooden guard cabin but the listing description is a company boilerplate for FRP and MS products — the photo is relevant but the listing has active contradictions.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "249442220"
+          }
+        ],
+        "detection_signal": "Correct wooden cabin in image but description text names FRP Portable Office Cabin and Mild Steel Portable Cabin — description-photo mismatch.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles for Wooden Guard Room name the product type, size dimensions, and construction material; the single verified good title is thin but correctly named.",
+    "strong_positive_signals": [
+      "Explicit size dimensions (e.g., '4x4 Feet', '6x8 Feet') — the primary buyer decision factor",
+      "Material specification (e.g., 'Plywood', 'Marine Ply', 'Blockboard') — distinguishes wooden from steel variants",
+      "Usage context (e.g., 'Security Cabin', 'Guard Post', 'Watchman Cabin') — confirms application"
+    ],
+    "structural_patterns": [
+      "[Size] Wooden Guard Room",
+      "[Size] [Material] Wooden Guard Room",
+      "Wooden Guard Room [Size] [Feature]",
+      "Prefabricated Wooden Guard Room [Size]"
+    ],
+    "examples": {
+      "extreme_good": [],
+      "acceptable": [
+        {
+          "item_id": "308608896",
+          "title": "Wooden Guard Room",
+          "reason": "Correctly names the product for this MCAT but lacks size, material, and feature detail — acceptable as a category match but thin for buyer decision-making."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name the product correctly but omit size, material, and feature information that buyers need to evaluate the listing.",
+    "thinness_signals": [
+      "Title contains only the product name 'Wooden Guard Room' with no size dimensions",
+      "Title contains only the product name with no material specification (plywood grade, wall panel type)",
+      "Title contains only the product name with no usage or feature qualifier"
+    ],
+    "examples": [
+      {
+        "item_id": "308608896",
+        "title": "Wooden Guard Room",
+        "reason": "Title is only the product name — missing size (e.g., 4x4 ft), material (e.g., plywood/marine ply), and any distinguishing feature."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles name steel or office cabin products — wrong product type and/or wrong material for the Wooden Guard Room MCAT.",
+    "failure_classes": [
+      {
+        "class": "steel_office_cabin_title",
+        "signal": "Title contains 'Steel', 'MS', or 'Office Cabin' tokens — explicitly wrong material or product type for this MCAT.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "160671694",
+            "title": "Portable Office Cabin",
+            "reason": "Title names a portable office cabin — wrong product type for the Wooden Guard Room MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "166404120",
+            "title": "Steel Office Cabin",
+            "reason": "Title explicitly states 'Steel Office Cabin' — wrong material and product type for the Wooden Guard Room MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "253743584",
+            "title": "15Feet Steel Portable Office Cabin",
+            "reason": "Title explicitly states 'Steel Portable Office Cabin' — wrong material and product type for the Wooden Guard Room MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "270297620",
+            "title": "Portable Office Cabin",
+            "reason": "Title names a portable office cabin — wrong product type for the Wooden Guard Room MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "324713713",
+            "title": "Portable office Cabin",
+            "reason": "Title names a portable office cabin — wrong product type for the Wooden Guard Room MCAT.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "mild_steel_guard_room_title",
+        "signal": "Title contains 'Mild Steel' modifier for a guard room — correct application but wrong material for the Wooden Guard Room MCAT.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "287553841",
+            "title": "4x4 Feet Mild Steel Guard Room",
+            "reason": "Title explicitly states 'Mild Steel Guard Room' — steel material disqualifies this from the Wooden Guard Room MCAT.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily steel portable office cabins and steel guard rooms misplaced in the Wooden Guard Room MCAT.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "steel_portable_office_cabin",
+        "signal": "Title, specs, or description explicitly states 'Steel', 'MS', 'Mild Steel' as primary material AND 'Office Cabin', 'Site Office', or 'Project Office' as usage type.",
+        "examples": [
+          {
+            "item_id": "160671694",
+            "title": "Portable Office Cabin",
+            "reason": "Steel material, office usage, 20x10 ft size — belongs in Office Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "166404120",
+            "title": "Steel Office Cabin",
+            "reason": "Explicitly steel construction with PUF panels and MS frame for office use — belongs in Office Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "253743584",
+            "title": "15Feet Steel Portable Office Cabin",
+            "reason": "Explicitly steel portable office cabin — belongs in Office Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "270297620",
+            "title": "Portable Office Cabin",
+            "reason": "Steel MS frame, office usage, 20x10 ft — belongs in Office Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "324713713",
+            "title": "Portable office Cabin",
+            "reason": "MS Mild Steel, Site Office product type — belongs in Office Cabin MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "316785526",
+            "title": "10x20 Feet Wooden Guard Room",
+            "reason": "Image shows a large steel office cabin despite wooden claims in text — product photographed belongs in Office Cabin MCAT.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Office Cabin"
+      },
+      {
+        "class": "mild_steel_guard_room",
+        "signal": "Title or specs explicitly state 'Mild Steel' or 'MS' as primary material for a guard room — correct application but wrong material for Wooden Guard Room MCAT.",
+        "examples": [
+          {
+            "item_id": "287553841",
+            "title": "4x4 Feet Mild Steel Guard Room",
+            "reason": "Explicitly Mild Steel guard room — belongs in Security Cabins MCAT.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "175938766",
+            "title": "Wooden Guard Room",
+            "reason": "Title says wooden but specs confirm Material: Mild Steel — belongs in Security Cabins MCAT.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Security Cabins"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": false,
+    "routes": []
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator. Images were visually analysed from provided base64 data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion values 'Office Cabin' and 'Security Cabins' are drawn from the confirmed siblings list provided in taxonomy_context — not fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment (prefabricated wooden security guard cabin) and mcat_description used to ground all category belonging decisions; mcat_vagueness_signal.suspected_vague: false confirmed PATH A evaluation for all items."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
