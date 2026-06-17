@@ -1,0 +1,185 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Visual sub-type variation is significant — single-room units, multi-room blocks, double-storey structures, and configurations with attached toilets are visually distinct. Buyers use the image to confirm they are looking at an RCC concrete structure rather than a steel cabin or PUF panel prefab; wrong structure type is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Room configuration, number of floors, toilet facility, and wall material are non-interchangeable requirements — a dormitory layout cannot substitute for individual rooms, and a single-storey unit cannot substitute for a G+2 block. Specs drive the shortlist before any price comparison occurs."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft rate is the primary comparison metric for Indian contractors who compare aggressively across sellers once spec fit is confirmed. Price varies substantially with configuration — single-room vs double-storey, with or without toilet, flooring type — making it a hard shortlisting gate after spec confirmation."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Some sellers quote per piece (single precast room unit) or lump sum (full labour colony project); per sq ft is dominant but the mix creates genuine price comparison confusion if unit is not shown alongside price.",
+      "reason": "Price cannot be compared without knowing the unit — a per-sq-ft listing and a per-piece listing for the same room size are not directly comparable. Unit ambiguity is a real market problem in this category."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No recognised brand names exist with buyer recall in this category; market is fragmented across regional precast manufacturers in Agra, Faridabad, and Surat belts — buyers search by spec and price, not manufacturer name.",
+      "reason": "Seller track record, installation capability, and geographic reach matter because the product includes transportation and on-site assembly — an unknown seller with no installation history is a risk. However, specs and price carry greater weight than company identity in the initial shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Number Of Floors",
+        "reason": "Single-floor vs G+1/G+2/G+3 are non-interchangeable structural configurations with very large price deltas — multi-storey structures require different foundations, structural loads, and construction costs that cannot be substituted."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Occupancy Type",
+        "reason": "Single, double, and dormitory layouts are non-interchangeable room configurations that determine internal partition design, door/window count, and per-sq-ft cost — a dormitory hall cannot substitute for individual rooms on a site requiring privacy."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Construction Service",
+      "Flooring Type",
+      "Furnishing",
+      "Number Of Floors",
+      "Occupancy Type",
+      "Roof Type",
+      "Toilet Facility",
+      "Usage Application",
+      "Wall Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Room Size",
+        "why_important": "Standard room dimensions (11ft×11ft, 11ft×15ft, 11ft×22ft) are the primary sizing input for per-sq-ft quotations — buyers specify required room dimensions and sellers cannot generate an accurate price without this information.",
+        "source": "both",
+        "example_values": [
+          "11ft x 11ft",
+          "11ft x 15ft",
+          "11ft x 22ft",
+          "Custom size"
+        ]
+      },
+      {
+        "spec_name": "Wall Panel Thickness",
+        "why_important": "RCC panel thickness (3-inch vs 4-inch) determines structural strength, thermal performance, and per-sq-ft material cost — a meaningful differentiator between economy and standard-grade RCC labour quarters.",
+        "source": "both",
+        "example_values": [
+          "3 inch",
+          "4 inch",
+          "5 inch",
+          "6 inch"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Room Configuration",
+        "reason": "Directly defines the layout and amenity level of the unit — a seller needs this to determine internal partition design, plumbing requirements, and per-sq-ft cost; a dormitory and a room with attached toilet are fundamentally different products requiring different manufacturing inputs.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Room with Toilet",
+          "Single Room",
+          "1 RK (Room Kitchen)",
+          "Dormitory style"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "No. of Floors",
+        "reason": "Determines structural complexity, foundation requirements, and total project cost — a seller cannot quote accurately without knowing whether the buyer needs a single-storey or multi-storey structure.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Total Floor Area / Room Size",
+        "why_important": "The per-sq-ft quotation model requires sellers to know the required room dimensions or total built-up area — without this, a seller cannot generate any price at all, making it the most critical missing input in the RFQ form.",
+        "source": "both",
+        "example_values": [
+          "11ft x 11ft (121 sq ft)",
+          "11ft x 15ft (165 sq ft)",
+          "11ft x 22ft (242 sq ft)",
+          "Custom dimensions"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Room Configuration",
+      "option_value": "Room with Toilet",
+      "id": "spec_1",
+      "prompt_for_generation": "Exterior view of a precast RCC concrete modular labour quarter room unit with an attached toilet block visible on the side, single-storey, grey concrete walls, metal door and window, construction site background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Room Configuration",
+      "option_value": "Single Room",
+      "id": "spec_2",
+      "prompt_for_generation": "Exterior view of a standalone precast RCC concrete modular single room labour quarter unit, single-storey, grey concrete walls, one metal door and one window, no attached toilet block, construction site background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Room Configuration",
+      "option_value": "1 RK (Room Kitchen)",
+      "id": "spec_3",
+      "prompt_for_generation": "Exterior view of a precast RCC concrete modular labour quarter unit configured as a room with a small attached kitchen area, single-storey, grey concrete walls, separate door openings for room and kitchen, construction site background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Room Configuration",
+      "option_value": "Dormitory style",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior view of a long precast RCC concrete modular dormitory block for construction site workers, single-storey, multiple windows along the length, grey concrete walls, wide entrance door, construction site background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
