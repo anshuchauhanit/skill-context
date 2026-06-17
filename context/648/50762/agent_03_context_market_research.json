@@ -1,0 +1,609 @@
+{
+  "mcat_description": {
+    "short": "Tensile structures are engineered architectural systems comprising a pre-tensioned membrane fabric (PVC-coated polyester, PTFE-coated fibreglass, or ETFE film) stretched over a mild steel or stainless steel framework to form weather-protective roofing, canopies, and shade structures. They are sold as fabricated-and-installed turnkey projects, quoted per square foot of covered area.",
+    "long": "Tensile structures are lightweight, free-span architectural systems where structural integrity is achieved through membrane tension rather than compression — the fabric membrane (PVC/PTFE/ETFE) is pre-stressed over a steel substructure of masts, cables, and anchor points to create a self-supporting, weather-resistant enclosure. In the Indian market, PVC-coated polyester fabric is the dominant membrane material due to its cost-effectiveness and 10–15 year service life, while PTFE-coated fibreglass is used for premium, long-life (30+ year) architectural applications. Buyers procure tensile structures as complete design-fabricate-install packages from specialist contractors, with fabric brand (Serge Ferrari, SRF, Mehler, Heytex) and membrane weight/grade being key differentiators. Applications span car parking sheds, entrance canopies, sports court covers, food court roofing, banquet hall covers, and large-span stadium or airport terminal roofing.",
+    "product_types": [
+      "PVC Tensile Structure (PVC-coated polyester membrane)",
+      "PTFE Tensile Structure (PTFE-coated fibreglass membrane)",
+      "ETFE Tensile Structure (transparent fluoropolymer film)",
+      "PVDF Tensile Structure (PVDF-coated polyester membrane)",
+      "Tensile Canopy / Entrance Canopy",
+      "Tensile Car Parking Shed",
+      "Tensile Roofing (flat/curved/conical)",
+      "Tensile Pergola",
+      "Tensile Gazebo / Umbrella",
+      "Pyramid / Conical Tensile Structure",
+      "Retractable Tensile Roofing",
+      "Air-Supported / Pneumatic Tensile Structure",
+      "Modular Tensile Structure",
+      "Tensile Fabric Facade / Cladding"
+    ],
+    "primary_applications": [
+      "Car parking shade structures (residential and commercial)",
+      "Entrance canopies and porch covers",
+      "Sports court covers (tennis, badminton, cricket practice nets)",
+      "Food court and restaurant outdoor roofing",
+      "Banquet hall and marriage lawn covers",
+      "Stadium and arena roofing",
+      "Airport terminal and transit hub canopies",
+      "Shopping mall atrium and facade shading",
+      "Garden and terrace shade structures",
+      "Industrial shed and warehouse roofing",
+      "Petrol station canopies",
+      "Swimming pool enclosures"
+    ],
+    "buyer_segments": [
+      "Real estate developers and builders (residential and commercial projects)",
+      "Institutional buyers — schools, colleges, hospitals, government bodies",
+      "Hospitality sector — hotels, resorts, banquet halls, restaurants",
+      "Sports facility owners and clubs",
+      "Industrial and manufacturing facility owners",
+      "Retail mall and commercial complex owners",
+      "Architects and interior designers specifying tensile systems",
+      "Individual homeowners (car parking, terrace, garden shade)"
+    ]
+  },
+  "primary_segment": "PVC-coated polyester tensile structure — fabricated and installed canopy or roofing system for car parking, entrance, and commercial shade applications",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Engineered tensile membrane structure (PVC/PTFE/ETFE fabric over steel framework) — fabricated and installed architectural roofing and shade system",
+    "secondary_families": [],
+    "reason": "All product sub-types (PVC, PTFE, ETFE, conical, retractable, air-supported) share the same working principle (membrane under tension over steel), the same buyer profile (construction/facility owner), and the same procurement model (design-fabricate-install); no sibling MCAT carves out an incompatible buyer or regulatory regime."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "tensile structure",
+      "tensile roofing",
+      "tensile roof",
+      "tensile fabric structure",
+      "PVC tensile structure",
+      "tensile canopy",
+      "tensile shed",
+      "membrane structure",
+      "tensile fabric roof",
+      "tensile roof structure"
+    ],
+    "technical_synonyms": [
+      "tensile membrane structure",
+      "fabric membrane structure",
+      "tension fabric structure",
+      "architectural membrane structure",
+      "PVC membrane roofing",
+      "PTFE membrane structure",
+      "ETFE membrane structure",
+      "PVDF tensile membrane",
+      "cable-tensioned fabric structure",
+      "thin-shell membrane structure"
+    ],
+    "trade_names": [
+      "Serge Ferrari tensile structure",
+      "SRF tensile fabric structure",
+      "Mehler tensile membrane",
+      "Heytex tensile fabric",
+      "Duraskin membrane structure",
+      "SATTLER tensile fabric",
+      "Sioen membrane structure",
+      "Ferrari fabric canopy"
+    ],
+    "hindi_terms": [
+      "tensile wala structure",
+      "tensile chhajja",
+      "tensile shed",
+      "tensile parking shade"
+    ],
+    "buyer_intent_queries": [
+      "tensile structure manufacturer in India",
+      "PVC tensile roofing for car parking",
+      "tensile fabric roof for sports court",
+      "tensile canopy for entrance gate",
+      "tensile structure price per sq ft",
+      "tensile roofing for banquet hall",
+      "tensile structure fabrication and installation",
+      "Ferrari tensile fabric structure India",
+      "tensile membrane roof for food court",
+      "tensile structure for terrace garden"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Tensile structures in India are universally quoted per square foot of covered/membrane area — this is the standard unit for both fabric supply and complete fabrication-plus-installation contracts, consistent with Indian construction industry norms for roofing and cladding.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Raw tensile fabric (material-only supply)",
+        "unit": "per sq ft or per sq metre",
+        "note": "Fabric-only supply may be quoted per sq metre by international brands (Serge Ferrari), but Indian sellers typically convert to per sq ft for local buyers."
+      },
+      {
+        "sub_segment": "Large-span / stadium / airport projects",
+        "unit": "per project (lump sum)",
+        "note": "Complex engineered projects are quoted as lump-sum turnkey contracts after site survey and structural design."
+      }
+    ],
+    "sources_checked": [
+      "Serge Ferrari India (sergeferrari.co.in)",
+      "New Arts Structures (newartsstructures.in) — Rs/sq ft pricing observed",
+      "Aakruti Tenso (aakrutitenso.com)",
+      "Google keyword data — 'tensile fabric roof price per sq ft' confirms buyer unit expectation",
+      "Internal keyword data — 'tensile sheet price', 'tensile roofing price' confirm sq ft quoting norm"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Tensile structures in India are a well-established segment within the prefabricated and architectural construction market, dominated by fabricator-installers who source membrane fabric from international brands (Serge Ferrari, Mehler, Heytex, Duraskin, SATTLER, Sioen) and fabricate over mild steel substructures. PVC-coated polyester is the dominant membrane material for the mass market due to its cost-performance balance, while PTFE-coated fibreglass is used for premium long-life applications (airports, stadiums). ETFE and PVDF membranes represent a growing premium segment for transparent or high-durability architectural applications. Serge Ferrari India was established in 2016 with Delhi HQ and Mumbai warehouse, confirming active brand presence in the Indian market. SRF (Shri Ram Fibres) is a prominent Indian fabric brand cited by buyers. The market is geographically distributed across Delhi NCR, Mumbai, Ahmedabad, Jaipur, Bengaluru, and Hyderabad — confirmed by keyword geography signals and manufacturer footprints. Buyers procure tensile structures as complete design-fabricate-install packages; raw fabric supply is a secondary sub-segment. The category sits within the broader prefabricated structures taxonomy but is architecturally distinct from modular cabins, portable toilets, or greenhouses — it is a permanent or semi-permanent outdoor roofing/shade system. No BIS/IS standard specific to tensile membrane structures was confirmed from available sources (single source — low confidence); structural design typically follows IS 875 (wind load) and IS 800 (steel structures) as applicable codes.",
+  "buyer_attracting_attributes": [
+    "Fabric Material / Membrane Type (PVC / PTFE / ETFE / PVDF)",
+    "Fabric Brand (Serge Ferrari / SRF / Mehler / Heytex)",
+    "Membrane Weight / GSM (fabric grade)",
+    "Structure Shape (conical / pyramid / hypar / flat / barrel vault)",
+    "Covered Area (sq ft)",
+    "Steel Framework Type (MS / SS / galvanised)",
+    "UV Resistance / Colour Fastness",
+    "Fire Rating (B1 / M2 / DIN 4102)",
+    "Waterproofing / Water Resistance",
+    "Warranty / Service Life (years)"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "50762",
+    "mcat_name": "Tensile Structures",
+    "mcat_level": "4",
+    "listing_count": "9089",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Tensile Structures",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "35592.0",
+      "name": "Prefabricated Structures",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "35592.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20474",
+        "mcat_name": "Prefabricated Steel Buildings",
+        "listing_count": "8194",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21344",
+        "mcat_name": "Agricultural Greenhouses",
+        "listing_count": "2151",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21649",
+        "mcat_name": "Agricultural Buildings",
+        "listing_count": "128",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "29816",
+        "mcat_name": "Greenhouse",
+        "listing_count": "5282",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33188",
+        "mcat_name": "Modular Buildings",
+        "listing_count": "917",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35398",
+        "mcat_name": "Portable Buildings",
+        "listing_count": "1196",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35589",
+        "mcat_name": "Prefabricated Buildings",
+        "listing_count": "27038",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35592",
+        "mcat_name": "Prefabricated Structures",
+        "listing_count": "14394",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "38214",
+        "mcat_name": "Storage Buildings",
+        "listing_count": "939",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "39565",
+        "mcat_name": "Temporary Buildings",
+        "listing_count": "149",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42328",
+        "mcat_name": "Modular Tensile Structure",
+        "listing_count": "2417",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "88197",
+        "mcat_name": "Prefabricated Metal Building",
+        "listing_count": "901",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "116157",
+        "mcat_name": "Mini Greenhouse",
+        "listing_count": "1433",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "121067",
+        "mcat_name": "Aluminium Structure",
+        "listing_count": "9342",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135787",
+        "mcat_name": "Tensile Membrane Structures",
+        "listing_count": "2683",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "135861",
+        "mcat_name": "Auditorium Tensile Structure",
+        "listing_count": "598",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136011",
+        "mcat_name": "Gazebo Tensile Structure",
+        "listing_count": "1508",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "148110",
+        "mcat_name": "Pre Engineered Building Structure",
+        "listing_count": "9886",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "149713",
+        "mcat_name": "Polyhouse",
+        "listing_count": "3245",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "154059",
+        "mcat_name": "Prefabricated School Building",
+        "listing_count": "828",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158767",
+        "mcat_name": "Greenhouse Structure",
+        "listing_count": "813",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "159520",
+        "mcat_name": "Prefabricated Hospitals",
+        "listing_count": "213",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "160350",
+        "mcat_name": "Mist Chamber",
+        "listing_count": "121",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166277",
+        "mcat_name": "Naturally Ventilated Greenhouse",
+        "listing_count": "1661",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166432",
+        "mcat_name": "Prefabricated Warehouse",
+        "listing_count": "5064",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168374",
+        "mcat_name": "Heavy Structural Fabrications",
+        "listing_count": "2495",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "168445",
+        "mcat_name": "MS Structure Services",
+        "listing_count": "2407",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "178587",
+        "mcat_name": "Prefabricated Industrial Buildings",
+        "listing_count": "5964",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "179245",
+        "mcat_name": "Prefabricated Labor Colony",
+        "listing_count": "1480",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "181553",
+        "mcat_name": "Pre Engineered Steel Building",
+        "listing_count": "1594",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "216129",
+        "mcat_name": "RCC Labour Quarter",
+        "listing_count": "549",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "315645",
+        "mcat_name": "Prefabricated Walls",
+        "listing_count": "105",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "410918",
+        "mcat_name": "Light Gauge Framing System",
+        "listing_count": "350",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "444552",
+        "mcat_name": "Prefabricated Isolation Ward",
+        "listing_count": "218",
+        "source_pmcat": "35592.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 34,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "brand_dominant",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials",
+        "branded_specific"
+      ],
+      "do_research": true,
+      "reason": "Tensile structures are engineered architectural systems where OEM technical datasheets, fabric specifications, design catalogues, and established manufacturers (Serge Ferrari, Mehler, Heytex) are the primary authoritative sources. Indian buyers search by brand/manufacturer and technical fabric grade, not commodity specs."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "unit_quoting_context.sources_checked",
+          "primary_segment"
+        ],
+        "citation_note": "Top keywords by Impressions confirmed 'tensile structure', 'tensile roofing', 'tensile fabric roof' as dominant buyer search terms; 'tensile fabric roof price per sq ft' confirmed per-sq-ft as buyer unit expectation."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.trade_names",
+          "primary_segment"
+        ],
+        "citation_note": "Internal KWs confirmed PVC tensile structure, Serge Ferrari brand mentions, and location-based queries (Gurgaon, Ahmedabad, Jaipur) as active demand signals. 'pvc modular serge ferrari tensile structures' confirmed brand salience."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.hindi_terms",
+          "alt_names.buyer_intent_queries"
+        ],
+        "citation_note": "Call data confirmed car shed, sports court cover, entrance canopy, banquet hall, and fixed roof cover as dominant buyer applications. Ferrari and SRF brand mentions confirmed trade_names. Hindi term 'tensile वाला' observed."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings_count"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Taxonomy path and listing count (9,089) used as reference. 34 siblings checked for vagueness triggers — no incompatible sibling carve-out found."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.alcox-steel.com/membrane-structures.html",
+        "title": "Tensile Membrane Structures, Roofing Membrane, ETFE manufacturer in India",
+        "source_domain": "alcox-steel.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context"
+        ],
+        "citation_note": "Confirmed PTFE-coated fibreglass and PVC-coated polyester as dominant membrane materials for Indian roofing membrane structures."
+      },
+      {
+        "url": "https://www.archwaytensile.com/",
+        "title": "Archway Tensile: PVC PVDF, PTFE, ETFE Structures",
+        "source_domain": "archwaytensile.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "market_context"
+        ],
+        "citation_note": "Confirmed full-service tensile fabric manufacturer/designer/MS fabricator model as dominant commercial form in India; confirmed stadium, airport, mall as premium applications."
+      },
+      {
+        "url": "https://www.bdir.com/resources/fabric-specifications",
+        "title": "Tensile Structure Fabric Specifications - BDiR Inc.",
+        "source_domain": "bdir.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Confirmed PVC and PTFE as the two primary fabric types with distinct life expectancy and cost profiles; confirmed PVDF, ETFE as additional membrane options."
+      },
+      {
+        "url": "https://www.sergeferrari.co.in/",
+        "title": "Flexible Composite Material Manufacturers in India | Serge Ferrari | Tensile",
+        "source_domain": "sergeferrari.co.in",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Confirmed Serge Ferrari India established 2016, Delhi HQ, Mumbai warehouse — active brand presence in Indian market."
+      },
+      {
+        "url": "https://www.architractile.com/serge-ferrari-fabric",
+        "title": "Serge Ferrari Tensile Fabric | Serge Ferrari India",
+        "source_domain": "architractile.com",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "mcat_description.product_types",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed Serge Ferrari product range (mesh, awning, pergola, acoustic, marine, Batyline) and applications (canopies, pergolas, tents, facades) in Indian market."
+      },
+      {
+        "url": "https://www.aakrutitenso.com/technicalinformation.htm",
+        "title": "Technical Tensile Fabric Structure - Coated PVC/PTFE Fabric",
+        "source_domain": "aakrutitenso.com",
+        "derived_outputs": [
+          "market_context",
+          "mcat_description.buyer_segments"
+        ],
+        "citation_note": "Confirmed pan-India geographic distribution of tensile structure projects and PTFE repair/maintenance characteristics."
+      },
+      {
+        "url": "http://www.ekradecor.com/etfe-fabric.html",
+        "title": "ETFE Fabric - Tensile Structure in Delhi",
+        "source_domain": "ekradecor.com",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "market_context"
+        ],
+        "citation_note": "Confirmed list of PVC fabric membrane manufacturers active in India: Ferrari, Heytex, Duraskin, SATTLER, Mehler, Sioen."
+      },
+      {
+        "url": "https://www.sergeferrari.com/",
+        "title": "Serge Ferrari (global)",
+        "source_domain": "sergeferrari.com",
+        "derived_outputs": [
+          "alt_names.trade_names",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Confirmed Serge Ferrari's four strategic markets (solar protection, tensile architecture, modular structure, furniture/yachting) and product line names (Edition T-series, Advanced series, Stamisol, Tenseo)."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 5,
+    "research_strategy": {
+      "research_type": "brand_dominant",
+      "enrichment_categories": [
+        "industrial_equipment",
+        "construction_materials",
+        "branded_specific"
+      ],
+      "is_regulated": false,
+      "regulatory_bodies": [],
+      "is_branded": true,
+      "brand_names": [
+        "Tensile Fabric Systems",
+        "Serge Ferrari",
+        "Mehler",
+        "Heytex",
+        "Verseidag",
+        "Naue",
+        "Sefar"
+      ],
+      "do_research": true,
+      "reason": "Tensile structures are engineered architectural systems where OEM technical datasheets, fabric specifications, design catalogues, and established manufacturers (Serge Ferrari, Mehler, Heytex) are the primary authoritative sources. Indian buyers search by brand/manufacturer and technical fabric grade, not commodity specs."
+    }
+  }
+}
