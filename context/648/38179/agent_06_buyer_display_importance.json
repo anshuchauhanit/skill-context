@@ -1,0 +1,427 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Industrial manufacturer, logistics/warehouse developer, or EPC contractor procuring a complete PEB system for a factory or warehouse.
+
+**Journey:**
+1. **First scan** — What does this building look like? Is it a warehouse shed, cold storage, hangar, or commercial structure? Image tells them the structural form and scale immediately. Wrong building type = skip.
+2. **Shortlisting** — What are the key project parameters? Building use, floor area, eave height, and clear span define whether this supplier can handle their project scope.
+3. **Qualification** — Who is this supplier? PEB is a high-value, long-lifecycle capital project. Manufacturer vs trader, track record, certifications (IS 800, IS 875), and project portfolio matter enormously.
+4. **Price check** — Budget sanity. Per-sq-ft rate is the standard comparison metric in India. Price is always negotiated; listed price is an entry point.
+5. **Unit** — Per sq ft vs per MT creates real confusion. Must be shown alongside price.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is enormous (warehouse vs hangar vs cold storage vs commercial). Buyers use image to identify structural form before reading anything.
+- **Specification:** High — building use, eave height, floor area, clear span, material grade are primary shortlisting gates. Without matching specs, buyer cannot evaluate fit.
+- **Price:** Medium — significant for Indian buyers but only comparable after spec equivalence confirmed. Always project-negotiated; listed price is a budget entry point.
+- **Unit:** High — per sq ft vs per MT is a real market ambiguity. Price cannot be compared without unit clarity.
+- **Company:** High — PEB is a capital project with 25–40 year lifespan. Manufacturer status, IS certifications, project portfolio, and erection capability are primary trust signals.
+
+---
+
+## Step 3 — Decision Questions Per Dimension
+
+**Image:** High visual variation across sub-types. A warehouse shed, aircraft hangar, cold storage, and commercial building look completely different. Image is the fastest sub-type identifier. → **High**
+
+**Specification:** Buyers arrive with a project brief (floor area, eave height, building use, wind zone). Specs are the primary shortlisting gate — without matching specs, no engagement. → **High, show_on_listing: true**
+
+**Price:** Indian buyers are price-aggressive but PEB pricing is always project-specific and negotiated. Listed price is a budget entry point, not a final price. Buyers compare per-sq-ft rates after spec equivalence is confirmed. → **Medium, spec-driven price** (price changes substantially with building size, height, use, and material grade)
+
+**Unit:** Per sq ft (turnkey) vs per MT (supply-only) is a genuine market ambiguity. Price cannot be compared without knowing the unit. → **High, canonical_unit: per sq ft**
+
+**Company:** PEB is a 25–40 year capital asset. Manufacturer vs trader distinction is critical. IS 800/875/1893 certification, project portfolio, and erection track record are primary vendor qualification signals. Brand names (Kirby, Everest, Interarch, Zamil) are actively searched by institutional buyers. → **High, brand_important: yes**
+
+**Cross-dimension consistency checks:**
+1. Buyers arrive with a project brief and discover/compare across spec tiers → `spec-driven price` ✓ AND specification = High ✓
+2. Unit High → price must be at least Medium ✓ (price = Medium)
+3. Not project-based price (per-sq-ft rates are listed) → unit show: true ✓
+4. Specification show: true → show_on_listing: true ✓
+
+**Ranking from journey:** Image (1) → Specification (2) → Company (3) → Price (4) → Unit (5)
+
+*Note: Company ranks 3rd because in capital project procurement, supplier qualification happens before price comparison. Price and unit are both checked after shortlisting.*
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Enormous visual variation across sub-types — warehouse shed, aircraft hangar, cold storage, and commercial building are structurally distinct. Buyers use image to identify the structural form and scale before reading any text; wrong type = immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Building use, eave height, floor area, clear span, and material grade are primary shortlisting gates. Buyers arrive with a project brief and cannot evaluate fit without matching specs."
+  },
+  {
+    "rank": 3,
+    "dimension": "company",
+    "level": "High",
+    "show": true,
+    "brand_important": "yes",
+    "brand_important_reason": "Recognised PEB brands — Kirby, Everest Industries, Interarch, Zamil Steel, EPACK — are actively searched by institutional and EPC buyers; brand signals manufacturing capability, IS certification, and project track record.",
+    "reason": "PEB is a 25–40 year capital asset. Manufacturer status, IS 800/875/1893 certification, project portfolio, and erection capability are primary vendor qualification signals evaluated before price comparison."
+  },
+  {
+    "rank": 4,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Indian buyers compare per-sq-ft rates but only after spec equivalence is confirmed. PEB pricing varies substantially with building size, eave height, use type, and material grade; final price is always project-negotiated."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per sq ft",
+    "unit_note": "Turnkey PEB projects are quoted per sq ft (built-up area); structural steel supply-only contracts are quoted per MT. Both units appear in the market — per sq ft is dominant for complete building systems. Unit must be shown alongside price to prevent miscomparison.",
+    "reason": "Per sq ft vs per MT is a genuine market ambiguity in this category. A buyer comparing a turnkey per-sq-ft quote against a supply-only per-MT quote without unit clarity will misread the price entirely."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+Working through each spec:
+
+- **Building Type** (Conventional Steel / Light Gauge / PEB Structure / Pre Fabricated): 4 values, non-interchangeable structural systems. **Keep.**
+- **Building Use** (Retail Outlet / Godown / Warehouse / Industrial Shed / Institutional / Commercial Building / Parking Shed / Cold Storage / Factory Shed / Aircraft Hangar): 10 values — application/use-case tag describing what the building is FOR. **Soft eliminate** — this is a use-case tag, not a structural configurator. However, it does drive structural design requirements (cold storage requires insulation, hangar requires clear span). Deprioritise but do not discard entirely.
+- **Eave Height** (Up To 6m / 6–9m / 9–12m / Above 12m): 4 values, directly drives primary frame steel tonnage and cost. **Keep.**
+- **Floor Area** (Up To 5000 ft² / 5001–20000 ft² / 20001–50000 ft² / Above 50000 ft²): 4 values, directly drives total project cost and fabrication scope. **Keep.**
+- **Material Grade** (IS 2062 E250 / ASTM A36 / IS 2062 E350 / ASTM A572): 4 values, structural steel grade. E350 vs E250 affects section sizes and cost. **Keep.**
+- **Roof Sheet Material** (Bare Galvalume / Aluminium / FRP Sheet / PPGL / PPGI): 5 values, affects cost and performance. **Keep.**
+- **Roof Slope** (1:4 / 1:5 / 1:8 / 1:10): 4 values — largely determined by building use and drainage requirements; consequence field. **Soft eliminate.**
+- **Steel Coating** (Hot Dip Galvanized / Primer Painted / Powder Coated / Red Oxide Painted): 4 values, affects durability and cost. **Keep.**
+- **Wall Cladding Type** (Brick Wall Sheet / Sandwich Panel / Insulated Panel / Single Skin Sheet): 4 values, directly affects thermal performance and cost. **Keep.**
+- **Wind Speed Design** (33 m/s / 39 m/s / 44 m/s / 47 m/s / 50 m/s): 5 values — IS 875 wind zone compliance. Determined by project location (consequence of geography), not independently configured by buyer preference. **Soft eliminate.**
+
+**Remaining after elimination:** Building Type, Eave Height, Floor Area, Material Grade, Roof Sheet Material, Steel Coating, Wall Cladding Type.
+
+### Phase 2 — Top 2 Configurator Selection
+
+Applying the test: *"If only this spec's value changes and everything else stays the same — does the price change significantly, AND can the buyer NOT substitute one value for another?"*
+
+- **Floor Area:** Directly drives total project cost — a 5,000 ft² shed vs a 50,000 ft² warehouse is a completely different project scope and price order of magnitude. Non-interchangeable. Largest single price delta of any spec. **Rank 1.**
+- **Eave Height:** Drives primary frame steel tonnage and column sizing. A 6m eave height vs 12m+ eave height requires fundamentally different structural design and significantly more steel. Non-interchangeable for the buyer's operational requirement (crane clearance, storage height). **Rank 2.**
+
+*Building Type was considered for Rank 2 — PEB vs Conventional Steel is non-interchangeable and price-differentiating. However, Eave Height has a more direct and quantifiable price delta (steel tonnage scales with height) and is a more universal configurator across all building types.*
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list (verbatim copy):**
+Building Type, Building Use, Eave Height, Floor Area, Material Grade, Roof Sheet Material, Roof Slope, Steel Coating, Wall Cladding Type, Wind Speed Design
+
+**Step 3b — Candidate gaps from Agent 3 vision_output and LLM world knowledge:**
+
+From Agent 3 market_context and mcat_description:
+- Clear Span Width — mentioned explicitly in Agent 3 long description ("clear-span widths commonly ranging up to 90 metres"). Critical structural parameter.
+- Supply Scope (Turnkey EPC vs Supply-Only) — Agent 3 explicitly identifies this as a primary procurement distinction.
+- Crane Capacity / Crane Provision — standard industrial shed requirement; drives structural design.
+- Insulation Type — relevant for cold storage and climate-controlled buildings.
+- Foundation Type — not a PEB spec per se; excluded.
+
+From LLM world knowledge (Indian PEB market):
+- Clear Span Width — primary structural parameter; determines column-free floor area. Non-interchangeable.
+- Supply Scope — turnkey vs supply-only is a fundamental procurement distinction affecting price basis.
+- Crane Capacity — industrial buyers specify crane tonnage as a primary structural requirement.
+
+**Step 3b cross-reference against specs_in_seller_list:**
+
+- **Clear Span Width:** Not present in seller spec list by name or semantic equivalent. Floor Area captures total area but not the column-free span dimension — these are different parameters. A 20,000 ft² building can have 30m or 60m clear span; the span drives structural design independently of area. **Confirmed missing.**
+- **Supply Scope (Turnkey vs Supply-Only):** Not present. Building Type captures structural system type but not the procurement/contract scope. **Confirmed missing.**
+- **Crane Capacity:** Not present. No semantic equivalent in the list. **Confirmed missing.**
+
+**Importance threshold check:**
+- Clear Span Width: Yes — senior CM would add this. It is the defining structural parameter for industrial buyers (crane clearance, forklift operation, racking systems all depend on column-free span).
+- Supply Scope: Yes — determines price basis (per sq ft turnkey vs per MT supply-only) and seller capability requirement. A supply-only seller cannot respond to a turnkey EPC requirement.
+- Crane Capacity: Yes — industrial buyers with overhead cranes specify this as a primary structural requirement; it drives column design, roof truss depth, and overall steel tonnage.
+
+All three pass the importance threshold.
+
+**Step 3c — Final mutual exclusion check:**
+- Clear Span Width: not in specs_in_seller_list ✓
+- Supply Scope: not in specs_in_seller_list ✓
+- Crane Capacity: not in specs_in_seller_list ✓
+
+### Phase 4 — Coverage Verdict
+
+3 missing important specs → **significant_gaps**
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Construction Type (Prefabricated / New Construction), Roof Type (Gable / Hip / Mansard / Gambrel / Flat)
+
+**Construction Type:** 2 values — Prefabricated vs New Construction. This is a broad intent filter. Within this MCAT (Steel Buildings), all products are prefabricated/steel-framed by definition. "New Construction" is a generic intent tag, not a steel building configurator. Marginally useful for routing but low differentiation within this MCAT. **Rank 1** (by default — it is the more useful of the two for seller routing).
+
+**Roof Type:** 5 values — Gable / Hip / Mansard / Gambrel / Flat. Roof form is a real structural differentiator in PEB. Gable is the dominant industrial form; flat roofs are used in commercial/multi-storey; hip roofs are used in residential/institutional. This helps sellers identify the structural system required. **Rank 2.**
+
+**Thumbnail eligibility:**
+- Construction Type (Prefabricated / New Construction): These are intent/method tags, not visually distinct product forms. A prefabricated steel building and a new construction steel building look identical in a thumbnail. **Not thumbnail eligible.**
+- Roof Type (Gable / Hip / Mansard / Gambrel / Flat): Each roof form has a distinct visual silhouette. Gable = triangular ridge; Hip = sloped on all four sides; Flat = horizontal roofline; Mansard = double-pitched; Gambrel = barn-style. **Thumbnail eligible.** Options: ["Gable", "Hip", "Mansard", "Gambrel", "Flat"]
+
+### Phase 2 — Missing Buyer Spec Audit
+
+**Source 1 — Agent 3 vision_output:**
+- Building Use is identified as a primary market dimension (warehouse, factory, cold storage, hangar). Not in buyer spec list.
+- Floor Area / project scale is a primary buyer requirement dimension. Not in buyer spec list.
+- Clear Span Width is identified as a key structural parameter. Not in buyer spec list.
+
+**Source 2 — LLM world knowledge:**
+- Building Use: Sellers need to know if the buyer wants a warehouse, factory shed, cold storage, or hangar — each requires different structural design, insulation, and compliance. Critical routing spec.
+- Floor Area: Sellers cannot quote without knowing project scale. A 5,000 ft² shed and a 50,000 ft² warehouse are completely different projects.
+- Clear Span Width: Determines structural system and steel tonnage. Sellers need this to assess feasibility and price.
+
+**Cross-reference against buyer_spec_list:**
+- Building Use: Not present (Construction Type and Roof Type do not capture building use). **Confirmed missing.**
+- Floor Area: Not present. **Confirmed missing.**
+- Clear Span Width: Not present. **Confirmed missing.**
+
+**Importance threshold and would_be_rank:**
+- **Building Use** — sellers cannot determine structural requirements, insulation needs, or compliance requirements without knowing the building's purpose. More important than both current specs. `would_be_rank: 1`. Not thumbnail eligible (use-case tags don't have distinct visual forms within the same structural category).
+- **Floor Area** — sellers cannot quote or assess project feasibility without project scale. More important than both current specs. `would_be_rank: 2`. Not thumbnail eligible (numeric ranges have no visual distinction).
+- **Clear Span Width** — important but less universally required than building use and floor area; sellers can initiate a conversation without it. No `would_be_rank` (ranks below both current specs in terms of initial RFQ routing value — it is a follow-up spec).
+
+**Coverage verdict:** 3 missing important specs → **significant_gaps**
+
+**Image Upload Assessment:**
+Steel Buildings are custom-engineered projects. Buyers typically have site plans, architectural drawings, or reference building photos. However, sellers can respond accurately based on text specs (building use, floor area, eave height) — they do not need a visual reference to quote. The RFQ form's text specs are sufficient for initial seller engagement; detailed drawings are exchanged post-connection. **Image upload not recommended.**
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs` rank 2: Roof Type (`thumbnail_eligible: true`, `thumbnail_options: ["Gable", "Hip", "Mansard", "Gambrel", "Flat"]`)
+- `missing_important_specs`: Building Use (`would_be_rank: 1`, `thumbnail_eligible: false`) — no prompts
+- `missing_important_specs`: Floor Area (`would_be_rank: 2`, `thumbnail_eligible: false`) — no prompts
+
+**5 prompts for Roof Type, all representing primary_segment (single-storey industrial PEB warehouse/factory):**
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Enormous visual variation across sub-types — warehouse shed, aircraft hangar, cold storage, and commercial steel building are structurally distinct forms. Buyers use image to identify structural type and scale before reading any text; wrong type = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Building use, eave height, floor area, clear span, and material grade are primary shortlisting gates. Buyers arrive with a project brief and cannot evaluate supplier fit without matching specs."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Recognised PEB brands — Kirby Building Systems, Everest Industries, Interarch, Zamil Steel, EPACK Prefab — are actively searched by institutional and EPC buyers; brand signals manufacturing capability, IS 800/875/1893 certification, and project delivery track record.",
+      "reason": "PEB is a 25–40 year capital asset. Manufacturer status, IS certifications, project portfolio, and erection capability are primary vendor qualification signals evaluated before price comparison in institutional and EPC procurement."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian buyers compare per-sq-ft rates but only after spec equivalence is confirmed. PEB pricing varies substantially with floor area, eave height, building use, and material grade; final price is always project-negotiated."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Turnkey PEB projects are quoted per sq ft (built-up area); structural steel supply-only contracts are quoted per MT. Both units appear in the market — per sq ft is dominant for complete building systems. Unit must be shown alongside price to prevent miscomparison between turnkey and supply-only listings.",
+      "reason": "Per sq ft vs per MT is a genuine market ambiguity in this category. A buyer comparing a turnkey per-sq-ft quote against a supply-only per-MT quote without unit clarity will fundamentally misread the price."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Floor Area",
+        "reason": "Directly drives total project cost across an order-of-magnitude price range — a sub-5,000 ft² shed and a 50,000+ ft² warehouse are non-interchangeable project scopes with fundamentally different steel tonnage, fabrication, and erection costs."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Eave Height",
+        "reason": "Drives primary frame steel tonnage and column sizing — a 6m eave height vs 12m+ eave height requires fundamentally different structural design and significantly more steel, making values non-interchangeable for buyers with crane clearance or storage height requirements."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Building Type",
+      "Building Use",
+      "Eave Height",
+      "Floor Area",
+      "Material Grade",
+      "Roof Sheet Material",
+      "Roof Slope",
+      "Steel Coating",
+      "Wall Cladding Type",
+      "Wind Speed Design"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Clear Span Width",
+        "why_important": "The column-free span is the defining structural parameter for industrial buyers — it determines crane operation, racking layout, and forklift clearance, and drives structural design independently of floor area.",
+        "source": "both",
+        "example_values": ["Up to 20m", "20–40m", "40–60m", "Above 60m"]
+      },
+      {
+        "spec_name": "Supply Scope",
+        "why_important": "Turnkey EPC (design + fabricate + erect) vs supply-only (structural kit) is a fundamental procurement distinction that determines price basis, seller capability requirement, and whether the buyer needs a separate erection contractor.",
+        "source": "both",
+        "example_values": ["Turnkey EPC", "Supply Only", "Design + Supply", "Erection Only"]
+      },
+      {
+        "spec_name": "Crane Capacity",
+        "why_important": "Industrial buyers with overhead cranes specify crane tonnage as a primary structural requirement — it drives column design, roof truss depth, and overall steel tonnage, making it a non-negotiable shortlisting criterion for factory and manufacturing shed buyers.",
+        "source": "both",
+        "example_values": ["No Crane", "Up to 5 MT", "5–10 MT", "Above 10 MT"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Construction Type",
+        "reason": "Distinguishes prefabricated steel building buyers from conventional construction buyers, routing the RFQ to PEB manufacturers and fabricators who can supply the relevant structural system.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Roof Type",
+        "reason": "Roof form is a real structural differentiator — gable is the dominant industrial form, flat roofs indicate commercial or multi-storey applications, and hip roofs indicate institutional use — helping sellers identify the structural system and design approach required.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Gable", "Hip", "Mansard", "Gambrel", "Flat"]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Building Use",
+        "why_important": "Sellers cannot determine structural requirements, insulation needs, fire compliance, or crane provisions without knowing the building's purpose — a cold storage requires insulated panels, a hangar requires clear span, a factory may require crane rails.",
+        "source": "both",
+        "example_values": ["Warehouse / Godown", "Factory / Industrial Shed", "Cold Storage", "Aircraft Hangar", "Commercial Building"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Floor Area",
+        "why_important": "Sellers cannot assess project feasibility or provide a meaningful quote without knowing the project scale — a 5,000 ft² shed and a 50,000 ft² warehouse require completely different fabrication capacity, erection teams, and pricing.",
+        "source": "both",
+        "example_values": ["Up to 5,000 sq ft", "5,001–20,000 sq ft", "20,001–50,000 sq ft", "Above 50,000 sq ft"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      },
+      {
+        "spec_name": "Clear Span Width",
+        "why_important": "Industrial buyers with specific crane or racking requirements need sellers to confirm they can engineer the required column-free span — this is a structural feasibility gate that sellers must assess before committing to respond.",
+        "source": "both",
+        "example_values": ["Up to 20m", "20–40m", "40–60m", "Above 60m"]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Roof Type",
+      "option_value": "Gable",
+      "id": "spec_1",
+      "prompt_for_generation": "Single-storey pre-engineered steel warehouse building with a classic gable roof — symmetrical triangular ridge running the full length of the structure, PPGI metal roofing sheets in light grey, industrial setting, clear blue sky background, front three-quarter view, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Type",
+      "option_value": "Hip",
+      "id": "spec_2",
+      "prompt_for_generation": "Single-storey pre-engineered steel building with a hip roof — all four sides slope downward to the eaves with no vertical gable ends, metal roofing sheets in light grey, institutional or commercial setting, clear blue sky background, front three-quarter view, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Type",
+      "option_value": "Mansard",
+      "id": "spec_3",
+      "prompt_for_generation": "Steel-framed commercial building with a mansard roof — double-pitched roof with a nearly vertical lower slope and a shallower upper slope, metal cladding panels, commercial or office park setting, clear blue sky background, front three-quarter view, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Type",
+      "option_value": "Gambrel",
+      "id": "spec_4",
+      "prompt_for_generation": "Pre-engineered steel building with a gambrel roof — barn-style double-pitched roof with a steep lower slope and shallower upper slope on each side, metal roofing sheets, industrial or agricultural setting, clear blue sky background, front three-quarter view, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Roof Type",
+      "option_value": "Flat",
+      "id": "spec_5",
+      "prompt_for_generation": "Pre-engineered steel building with a flat roof — completely horizontal roofline with minimal visible pitch, metal deck roofing, commercial or multi-storey industrial setting, clear blue sky background, front three-quarter view, photorealistic architectural render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
