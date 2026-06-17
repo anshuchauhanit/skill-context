@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "Agent 3 alt_names and market_context confirm that buyers search for 'roofing work', 'metal sheet roofing work', or 'industrial shed roofing' — 'Roof Works' is grammatically non-standard and less discoverable than the dominant buyer query form 'Roofing Work'.",
+    "suggested_name": "Roofing Work"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The image shows two workers installing red residential-style profile metal tiles on a small brick house under construction — this represents residential tile roofing, not the primary segment of GI/colour-coated/PEB metal sheet roofing for industrial and commercial sheds.",
+      "The image carries a visible 'dreamstime' stock-photo watermark in the bottom-right corner, which is a seller/third-party watermark obstruction that disqualifies it as a valid MCAT thumbnail."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Wide-angle photorealistic image of a large industrial shed under active roofing installation: two workers in safety helmets and harnesses fixing blue colour-coated corrugated GI metal roofing sheets over MS C-purlin structural frame, bright daylight, clear sky background, clean white studio-style composite, sharp foreground detail showing sheet overlaps and ridge capping, no text or watermarks except IndiaMART AI badge, square 1:1 crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
