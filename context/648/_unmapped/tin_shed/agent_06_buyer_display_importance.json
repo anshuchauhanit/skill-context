@@ -1,0 +1,210 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Tin sheds vary significantly in visual form — roof shape (sloping vs flat vs pyramid), colour, frame type, and scale (residential terrace cover vs large industrial shed) are all immediately readable from a photo. Buyers scan images first to confirm the structure type matches their requirement before reading any text."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Sheet thickness, coating type, and span/height are primary shortlisting criteria — a buyer needing a 0.50 mm colour-coated industrial shed cannot substitute a 0.35 mm bare GI residential shed. Listings without these specs cannot be evaluated for project fit."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-sq-ft pricing varies substantially with sheet thickness, coating type, and insulation — buyers compare rates across sellers only after confirming spec equivalence. Indian B2B buyers in construction and fabrication are highly price-aggressive and use listed per-sq-ft rates as the primary comparison lever."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Some sellers quote per kg (sheet-only supply) or lump-sum per project (large PEB sheds) — unit must be shown alongside price to prevent miscomparison. Per sq ft is the dominant and expected unit for complete supply-and-install transactions.",
+      "reason": "Price cannot be compared across listings without knowing whether the quote is per sq ft of covered area, per kg of sheet material, or a lump-sum project price. Unit ambiguity is a real and common market problem in this category."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant fabricator brand with buyer recall exists — buyers search by spec, span, and price; the raw material brands (Jindal, JSW, TATA, APL Apollo) are steel suppliers, not shed fabricators that buyers search for by name.",
+      "reason": "Buyers evaluate fabricator credibility (past project photos, service area, installation capability) after spec and price shortlisting — especially for large industrial or warehouse sheds where post-sale erection quality matters."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Coating",
+        "reason": "Coating type (Bare GI vs Colour Coated vs Aluminium Zinc) defines the product tier and drives the largest per-sq-ft price delta — Galvalume/AZ-coated sheds command a significant premium over bare GI, and colour-coated PPGI sits between them; values are non-interchangeable across buyer requirements."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Sheet Thickness",
+        "reason": "Thickness (0.30 mm to 0.50 mm) is the primary structural and durability differentiator within each coating tier — thicker sheets command higher per-sq-ft rates and are non-substitutable for industrial vs residential applications."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Coating",
+      "Frame Material",
+      "Roof Shape",
+      "Service Location",
+      "Sheet Profile",
+      "Sheet Thickness",
+      "Usage",
+      "Usage Area"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Span / Width",
+        "why_important": "Buyers universally search and quote by span (12 ft, 20 ft, 30 ft, 50 ft+) — span determines the structural frame design, purlin spacing, and total material cost, making it the primary project-sizing spec that sellers need to price accurately.",
+        "source": "both",
+        "example_values": [
+          "Up to 15 ft",
+          "15–30 ft",
+          "30–50 ft",
+          "50 ft+"
+        ]
+      },
+      {
+        "spec_name": "Insulation Type",
+        "why_important": "Insulated variants (PUF sandwich panel, EPS core) command a substantially higher per-sq-ft rate than uninsulated GI sheds and serve a distinct buyer segment (heat-sensitive industrial applications) — sellers need this to confirm product fit and price correctly.",
+        "source": "both",
+        "example_values": [
+          "None (uninsulated)",
+          "PUF Sandwich Panel",
+          "EPS Core Panel",
+          "Rockwool Insulation"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Color",
+        "reason": "Colour is the primary visual differentiator that sellers need to confirm material availability and quote accurately — each colour corresponds to a specific PPGI/PPGL coil stock that may or may not be in the fabricator's inventory.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Blue",
+          "Off-White",
+          "Green",
+          "Grey",
+          "Maroon",
+          "Bare Galvalume"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Height",
+        "reason": "Height (eave height or ridge height) determines the structural frame design and total material quantity — sellers need this to assess fabrication complexity and provide an accurate per-sq-ft quote.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Span / Width",
+        "why_important": "Sellers cannot determine frame design, purlin count, or material cost without knowing the required span — it is the single most important project-sizing dimension buyers specify when requesting a tin shed quote.",
+        "source": "both",
+        "example_values": [
+          "Up to 15 ft",
+          "15–30 ft",
+          "30–50 ft",
+          "50 ft+"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Color",
+      "option_value": "Blue",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated GI steel sheet tin shed with blue colour-coated corrugated roofing panels on mild steel frame, industrial setting, exterior view, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Color",
+      "option_value": "Off-White",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated GI steel sheet tin shed with off-white colour-coated corrugated roofing panels on mild steel frame, commercial or industrial setting, exterior view, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Color",
+      "option_value": "Green",
+      "id": "spec_3",
+      "prompt_for_generation": "Prefabricated GI steel sheet tin shed with green colour-coated corrugated roofing panels on mild steel angle frame, industrial or agricultural setting, exterior view, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Color",
+      "option_value": "Grey",
+      "id": "spec_4",
+      "prompt_for_generation": "Prefabricated GI steel sheet tin shed with grey colour-coated corrugated roofing panels on mild steel pipe frame, industrial warehouse setting, exterior view, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Color",
+      "option_value": "Maroon",
+      "id": "spec_5",
+      "prompt_for_generation": "Prefabricated GI steel sheet tin shed with maroon colour-coated corrugated roofing panels on mild steel frame, commercial or industrial setting, exterior view, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Color",
+      "option_value": "Bare Galvalume",
+      "id": "spec_6",
+      "prompt_for_generation": "Prefabricated steel sheet tin shed with bare Galvalume (aluminium-zinc coated) unpainted corrugated roofing panels showing natural metallic silver finish on mild steel frame, industrial setting, exterior view, natural daylight, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
