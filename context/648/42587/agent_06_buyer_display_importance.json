@@ -1,0 +1,374 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Interior contractor or fit-out company procuring for a commercial washroom project (mall, office, airport, school). They have a project spec sheet and need to match material, finish, and configuration.
+
+**Journey:**
+1. **Image first** — scans listing grid to identify material type and finish. HPL vs SS vs PVC are visually distinct. Colour/texture must match the project's interior scheme. Wrong finish = immediate skip.
+2. **Partition Material + Board Thickness** — opens listing to confirm material grade and thickness. These are the primary shortlisting gates. A 12mm HPL and a 25mm HPL are different products for different project tiers.
+3. **Hardware Material + Mounting Type** — confirms SS vs nylon hardware and floor-mounted vs ceiling-hung. These are project-spec requirements, not preferences.
+4. **Price** — checks per-cubicle rate for budget alignment. India price sensitivity is high for contractors. Price is compared after material/spec confirmation.
+5. **Company** — checks manufacturer credentials, project portfolio, installation capability. Not a primary scan signal but matters for large institutional projects.
+6. **Unit** — per cubicle is the dominant unit but sub-segment ambiguity exists (per sq ft for raw board, per project for turnkey). Must be shown.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual variation across material types and finishes is significant; colour/texture match is a project requirement.
+- **Specification:** High — material, thickness, hardware, and mounting type are non-negotiable shortlisting criteria.
+- **Price:** Medium — significant for Indian contractors but only comparable after spec equivalence is confirmed; project-quoted for large orders.
+- **Unit:** High — per cubicle vs per sq ft vs per project creates real confusion; must be shown alongside price.
+- **Company:** Medium — manufacturer vs trader distinction matters; installation capability and project portfolio are evaluated for institutional buyers.
+
+---
+
+## Step 3 — Apply Decision Questions
+
+**Cross-dimension consistency checks:**
+1. Buyers arrive knowing their material tier (HPL for commercial, SS for premium) and compare prices within that tier → `price_display_type = "spec-driven price"` ✓ (spec tier drives price substantially — 12mm HPL vs 25mm HPL vs SS are different price bands entirely).
+2. Unit is High → price must be at least Medium ✓.
+3. Not project-based price exclusively → unit show: true ✓.
+4. Specification show: true → show_on_listing: true ✓.
+
+**Brand check:**
+- Taxonomy siblings: no branded toilet partition sibling MCATs (siblings are portable toilets, mobile toilets — different product).
+- Indian market: Stylam and Greenlam are recognised HPL board brands mentioned in buyer search queries (Agent 3 market_context). However, these are board material brands, not partition system brands. Buyers search by material spec, not partition manufacturer name. No dominant partition brand with buyer recall confirmed.
+- → `brand_important: no`
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Partition material and surface finish are visually distinct — HPL wood-finish, solid-colour SS, and PVC panels look fundamentally different. Contractors have a colour and finish brief from the project architect; wrong finish = immediate skip regardless of spec or price."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Partition material, board thickness, hardware material, and mounting type are non-interchangeable project requirements. A listing without these specs cannot be evaluated for shortlisting — buyers cannot determine fit without them."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Per-cubicle price varies substantially across material tiers (PVC vs HPL vs SS) and thickness grades. Indian contractors are price-aggressive but can only compare prices after confirming spec equivalence; large multi-stall projects are negotiated, making listed price a budget entry point."
+  },
+  {
+    "rank": 4,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per piece (per cubicle)",
+    "unit_note": "Sub-segment ambiguity exists: raw HPL board suppliers quote per sq ft or per sheet; turnkey installation contractors quote per project lump sum. Per cubicle is dominant for assembled partition systems and must be shown to prevent price misreading.",
+    "reason": "Per cubicle vs per sq ft vs per project creates genuine price comparison confusion in this category. A buyer comparing a per-sq-ft quote against a per-cubicle quote without unit clarity will misread the price by an order of magnitude."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "Stylam and Greenlam are recognised HPL board material brands but not partition system brands; buyers search by material spec and hardware grade, not by partition manufacturer name.",
+    "reason": "For large institutional projects (airports, hospitals, malls), buyers evaluate manufacturer vs trader status, installation capability, and project portfolio during vendor selection — company matters but ranks after spec and price confirmation."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Application Area** — use-case tag (Airport, Hotel, Mall). Describes where the product is installed, not what it is. Discard.
+- **No Of Compartments** — project quantity field, not a product configurator. A 3-compartment system is three 1-compartment units; the product itself doesn't change. Discard.
+- **Color** — aesthetic preference resolved post-shortlisting; does not drive price independently of material and finish. Soft-eliminate (deprioritise).
+- **Surface Finish** — correlated with Color and Partition Material (HPL inherently offers wood/textured finishes; SS is always metallic). Soft-eliminate.
+- **Door Type** — Swing Door is near-universal default; Sliding Door is a minor variant. Limited price delta. Deprioritise.
+
+**Remaining after elimination:** Board Thickness, Hardware Material, Mounting Type, Partition Material, (Color, Surface Finish, Door Type — deprioritised)
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Partition Material** (PVC Board / MDF With Laminate / Stainless Steel / HPL Compact Board / Glass / Aluminium Composite):
+- Defines WHAT the product IS. Non-interchangeable — a buyer specifying HPL cannot substitute PVC. Entire price tier is determined by material. Rank 1.
+
+**Board Thickness** (25mm / 12mm / 18mm / 13mm / 10mm):
+- Within the same material, thickness is the primary quality/grade separator. 12mm is standard commercial; 25mm is heavy-duty/premium. Significant price delta within the same material type. Rank 2.
+
+*(Hardware Material is a strong candidate but is more of a project-spec qualifier than a price-driving configurator at the same magnitude as material and thickness.)*
+
+### Phase 3 — Missing Spec Audit
+
+**specs_in_seller_list (verbatim copy):**
+Application Area, Board Thickness, Color, Door Type, Hardware Material, Mounting Type, No Of Compartments, Partition Material, Surface Finish
+
+**Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+
+- **Panel Height** — Agent 3 market_context notes full-height vs standard-height as a product type distinction. Standard commercial partitions are typically 1800–2100mm; full-height (floor-to-ceiling) is a distinct product tier with different pricing. Not present in seller spec list by name or semantic equivalent. Important buyer differentiator.
+- **Hardware Series (SS Series vs Nylon Series)** — Agent 3 market_context explicitly states "SS Series and Nylon Series as distinct product lines" from call data. Hardware Material covers this partially (Stainless Steel vs Nylon values present). Semantic equivalent exists → **do not flag as missing**.
+- **Installation Type / Mounting** — covered by Mounting Type → **do not flag**.
+- **Fire Rating / Compliance** — relevant for airports and hospitals but not a standard spec for toilet partitions in India; no evidence from Agent 3 or market sources that this is a primary buyer spec. Omit.
+- **Warranty** — consequence field (follows from material + brand). Omit.
+
+**Final missing spec:**
+
+- **Panel Height** — absent from seller spec list. Standard (1800–2100mm) vs full-height (floor-to-ceiling) is a non-interchangeable product distinction that drives both price and installation method; buyers specify this in project briefs and sellers need it to quote correctly.
+
+### Phase 4 — Coverage Verdict
+
+1 missing spec → `partial`
+
+```json
+"seller_spec_audit": {
+  "top_configurator_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Partition Material",
+      "reason": "Defines the product class entirely — HPL, SS, PVC, and HDPE are non-interchangeable material tiers with fundamentally different price points, durability profiles, and project suitability."
+    },
+    {
+      "rank": 2,
+      "spec_name": "Board Thickness",
+      "reason": "Within the same material, thickness is the primary quality-grade separator — 12mm standard commercial vs 25mm heavy-duty carry a significant price delta and are non-interchangeable for a given project specification."
+    }
+  ],
+  "specs_in_seller_list": [
+    "Application Area",
+    "Board Thickness",
+    "Color",
+    "Door Type",
+    "Hardware Material",
+    "Mounting Type",
+    "No Of Compartments",
+    "Partition Material",
+    "Surface Finish"
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Panel Height",
+      "why_important": "Standard-height (1800–2100mm) vs full-height (floor-to-ceiling) partitions are non-interchangeable product tiers with different pricing, structural requirements, and installation methods — buyers specify this in project briefs and sellers need it to quote accurately.",
+      "source": "both",
+      "example_values": ["1800 mm", "2100 mm", "Full Height (Floor to Ceiling)", "Custom Height"]
+    }
+  ],
+  "coverage_verdict": "partial"
+}
+```
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Panel Material** (HPL / Boilo / HDF / Chemical Board / Wood / Stainless Steel):
+- Defines the product class the buyer needs. A seller supplying only HPL cannot fulfil an SS requirement. This is the primary routing spec — it determines which sellers can respond at all. Rank 1.
+
+**Hardware Material** (Nylon / Stainless Steel / Aluminum / SS 304 / SS 316):
+- Agent 3 market_context confirms SS Series vs Nylon Series are distinct product lines explicitly specified by buyers. Hardware grade materially affects price and durability; sellers need this to confirm they supply the right configuration. Rank 2.
+
+*(Thickness is important but is a confirming spec — buyers often negotiate thickness after material and hardware are confirmed. Hardware Material is more routing-critical.)*
+
+### Phase 2 — Thumbnail Eligibility
+
+**Panel Material:** HPL, Boilo, HDF, Chemical Board, Wood, Stainless Steel — these are material types. HPL (textured/wood-finish panel) vs Stainless Steel (metallic panel) vs Wood are visually distinct. However, "Boilo", "Chemical Board", and "HDF" are not visually distinguishable from each other or from HPL in a thumbnail context — they all look like flat laminate panels. The visual distinction is not reliable across all values. → `thumbnail_eligible: false`
+
+**Hardware Material:** Nylon vs Stainless Steel vs Aluminum hardware fittings — these are small components (hinges, handles, latches). The visual difference between nylon and SS hardware in a thumbnail is too subtle to be meaningful for a buyer scanning an RFQ form. → `thumbnail_eligible: false`
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps:**
+
+- **Mounting Type** — Agent 3 market_context explicitly identifies floor-mounted vs ceiling-hung (top-hung) vs free-floor as a key installation distinction that buyers specify. Sellers need this to confirm they can supply and install the required configuration. Not present in buyer spec list by name or semantic equivalent. Important routing spec.
+  - More important than Thickness (rank 3 current) → `would_be_rank: 2` (displacing Hardware Material to rank 3, as Mounting Type is a structural/installation requirement that gates seller capability more fundamentally than hardware grade).
+  - Thumbnail eligibility: Floor Mounted, Wall Hung, Overhead Braced, Floor to Ceiling — these are installation configurations, not visually distinct product appearances in a thumbnail. → `thumbnail_eligible: false`
+
+- **Number of Compartments / Project Scale** — present in seller spec list but not buyer spec list. Sellers need this to scope the project and quote accurately. However, this is a quantity field resolved through negotiation post-connection rather than a spec that routes to different seller types. Omit.
+
+- **Panel Height** — identified as missing from seller spec list. For buyers, this is also a relevant spec (full-height vs standard). However, it is less commonly specified upfront by buyers (they specify material and mounting first; height is often project-custom). LLM world knowledge supports it as a useful buyer spec but it is less critical than Mounting Type for routing. Omit from missing buyer specs (below importance threshold for top-10 buyer-facing specs given the other gaps).
+
+**Final missing buyer spec:**
+
+- **Mounting Type** — absent from buyer spec list. Sellers need to know whether the project requires floor-mounted, wall-hung, or floor-to-ceiling installation to confirm they can supply and install the correct system; this is a structural requirement that cannot be resolved post-connection.
+
+### Coverage Verdict
+
+1 missing spec → `partial`
+
+### Phase 4 — Image Upload Assessment
+
+Toilet partitions are project-specified products with defined material, hardware, and mounting type options. Buyers can communicate their requirement through spec values. Sellers do not need a visual reference to determine fit — they need material, hardware, and mounting type, all of which are captured through text specs. Custom colour/finish matching could benefit from a reference image in some cases, but this is resolved through sample requests post-connection, not at RFQ stage.
+
+→ `image_upload_recommended: false`
+
+```json
+"buyer_spec_audit": {
+  "top_rfq_specs": [
+    {
+      "rank": 1,
+      "spec_name": "Panel Material",
+      "reason": "Defines the product class — sellers supplying HPL cannot fulfil an SS requirement; this spec routes the RFQ to sellers who can actually supply the required material tier.",
+      "thumbnail_eligible": false
+    },
+    {
+      "rank": 2,
+      "spec_name": "Hardware Material",
+      "reason": "SS Series vs Nylon Series are distinct product lines explicitly specified by buyers; sellers need this to confirm they supply the correct hardware configuration and to price accurately.",
+      "thumbnail_eligible": false
+    }
+  ],
+  "missing_important_specs": [
+    {
+      "spec_name": "Mounting Type",
+      "why_important": "Floor-mounted, wall-hung, and floor-to-ceiling systems require different structural support and installation capability — sellers need this to confirm they can supply and install the correct system for the project.",
+      "source": "both",
+      "example_values": ["Floor Mounted", "Wall Hung (Ceiling Hung)", "Floor to Ceiling", "Overhead Braced"],
+      "would_be_rank": 2,
+      "thumbnail_eligible": false
+    }
+  ],
+  "coverage_verdict": "partial",
+  "image_upload_recommended": false
+}
+```
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+No thumbnail-eligible specs exist in `buyer_spec_audit` (neither `top_rfq_specs` nor `missing_important_specs` with `would_be_rank` ≤ 2 have `thumbnail_eligible: true`).
+
+```json
+"buyer_spec_thumbnail_prompts": []
+```
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Partition material and surface finish are visually distinct — HPL wood-finish, solid-colour SS, and PVC panels look fundamentally different. Contractors have a colour and finish brief from the project architect; wrong finish = immediate skip regardless of spec or price."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Partition material, board thickness, hardware material, and mounting type are non-interchangeable project requirements. A listing without these specs cannot be evaluated for shortlisting — buyers cannot determine fit without them."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per-cubicle price varies substantially across material tiers (PVC vs HPL vs SS) and thickness grades. Indian contractors are price-aggressive but can only compare prices after confirming spec equivalence; large multi-stall projects are negotiated, making listed price a budget entry point."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece (per cubicle)",
+      "unit_note": "Sub-segment ambiguity exists: raw HPL board suppliers quote per sq ft or per sheet; turnkey installation contractors quote per project lump sum. Per cubicle is dominant for assembled partition systems and must be shown to prevent price misreading.",
+      "reason": "Per cubicle vs per sq ft vs per project creates genuine price comparison confusion in this category. A buyer comparing a per-sq-ft quote against a per-cubicle quote without unit clarity will misread the price significantly."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Stylam and Greenlam are recognised HPL board material brands but not partition system brands; buyers search by material spec and hardware grade, not by partition manufacturer name.",
+      "reason": "For large institutional projects (airports, hospitals, malls), buyers evaluate manufacturer vs trader status, installation capability, and project portfolio during vendor selection — company matters but ranks after spec and price confirmation."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Partition Material",
+        "reason": "Defines the product class entirely — HPL, SS, PVC, and HDPE are non-interchangeable material tiers with fundamentally different price points, durability profiles, and project suitability."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Board Thickness",
+        "reason": "Within the same material, thickness is the primary quality-grade separator — 12mm standard commercial vs 25mm heavy-duty carry a significant price delta and are non-interchangeable for a given project specification."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application Area",
+      "Board Thickness",
+      "Color",
+      "Door Type",
+      "Hardware Material",
+      "Mounting Type",
+      "No Of Compartments",
+      "Partition Material",
+      "Surface Finish"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Panel Height",
+        "why_important": "Standard-height (1800–2100mm) vs full-height (floor-to-ceiling) partitions are non-interchangeable product tiers with different pricing, structural requirements, and installation methods — buyers specify this in project briefs and sellers need it to quote accurately.",
+        "source": "both",
+        "example_values": ["1800 mm", "2100 mm", "Full Height (Floor to Ceiling)", "Custom Height"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Panel Material",
+        "reason": "Defines the product class — sellers supplying HPL cannot fulfil an SS requirement; this spec routes the RFQ to sellers who can actually supply the required material tier.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Hardware Material",
+        "reason": "SS Series vs Nylon Series are distinct product lines explicitly specified by buyers; sellers need this to confirm they supply the correct hardware configuration and to price accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Mounting Type",
+        "why_important": "Floor-mounted, wall-hung, and floor-to-ceiling systems require different structural support and installation capability — sellers need this to confirm they can supply and install the correct system for the project.",
+        "source": "both",
+        "example_values": ["Floor Mounted", "Wall Hung (Ceiling Hung)", "Floor to Ceiling", "Overhead Braced"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": []
+}
+```
