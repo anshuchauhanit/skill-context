@@ -1,0 +1,6 @@
+{
+  "location_exception": false,
+  "location_exception_reason": "Prefabricated steel buildings are engineered structures with standardised design and fabrication; location names in titles (e.g., 'Delhi PEB', 'Mumbai Warehouse Structure') do not change the product category or buyer decision logic. Buyers filter by span, load capacity, and application — not origin state. Location is a logistics/delivery attribute, not a product attribute.",
+  "biz_exception": false,
+  "biz_exception_reason": "Business-type words ('PEB Manufacturer', 'Steel Building Supplier', 'Structure Fabricator') are redundant in titles because IndiaMART's seller-type filter (Manufacturer, Supplier, Dealer, Exporter, etc.) already exposes this information independently. Removing the business-type word leaves the product meaning intact: the product is a prefabricated steel building regardless of whether the seller manufactures or supplies it."
+}
