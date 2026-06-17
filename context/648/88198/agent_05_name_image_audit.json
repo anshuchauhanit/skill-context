@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Wooden House' directly matches the top primary keyword and is the dominant buyer search term confirmed across alt_names and market_context; no more precise or widely-used trade term exists that would better serve the full product range in this MCAT.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The thumbnail shows a rendered 3D image of a timber-clad prefabricated wooden cottage with a covered porch and gabled roof set on a green lawn — correctly representing the primary segment (eco-resort/glamping cabin) and the MCAT product class.",
+      "Improvement is possible because the image is a CGI render rather than a real-world photograph, the colour palette is uniformly pale/unfinished timber which reduces visual richness, and the composition includes a partial second structure at the edge that dilutes focus on the primary unit."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Professional product photograph of a single prefabricated wooden eco-resort cottage or glamping cabin, compact gabled roof, natural brown stained timber log-wall exterior, small covered front porch with wooden railing, set on lush green grass with soft natural daylight, clear blue sky background, slight three-quarter front angle, sharp focus on the cabin, clean isolated composition with no people, no text overlays, photorealistic quality, square 1:1 crop.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
