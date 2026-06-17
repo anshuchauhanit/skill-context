@@ -1,0 +1,415 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Interior contractor or architect specifying washroom partitions for a commercial project (office, mall, hospital, school). Project-driven purchase with site-specific dimensions and compliance requirements.
+
+**Journey sequence:**
+1. **Image first** — scans listing grid to identify material type and finish (HPL vs SS vs FRP are visually distinct; colour/finish must match washroom design brief). Wrong material or finish = immediate skip.
+2. **Partition Material + Board Thickness** — opens listing to confirm material grade and thickness. These are the primary spec gates: 12mm vs 18mm vs 25mm changes structural suitability and price tier significantly.
+3. **Mounting Type** — confirms installation configuration (floor-mounted vs ceiling-hung vs full-height). Non-interchangeable — site conditions dictate this.
+4. **Price** — project budget check. Indian contractors are price-aggressive; they compare per-cubicle rates across sellers after spec confirmation. Price is a shortlisting signal but only after material + mounting are confirmed.
+5. **Company** — brand/manufacturer credibility matters for institutional buyers (hospitals, airports) who need warranty and post-installation support. Less critical for price-driven contractors.
+6. **Unit** — per piece is the dominant unit but per set and per project also exist; unit must be shown to prevent price comparison confusion.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — material type, colour, and finish are visually distinct and must match design brief. High visual variation across sub-types.
+- **Specification:** High — material, thickness, and mounting type are non-interchangeable shortlisting gates.
+- **Price:** Medium — significant for Indian contractors but only comparable after spec equivalence confirmed; custom sizing means final price is often negotiated.
+- **Unit:** High — per piece vs per set vs per project creates real price comparison confusion; must be shown.
+- **Company:** Medium — brand matters for institutional/premium segment; less so for price-driven contractors.
+
+---
+
+## Step 3 — Cross-Dimension Consistency Check
+
+1. Buyers discover across spec tiers (material, thickness) → `price_display_type = "spec-driven price"` ✓ and specification = High ✓
+2. Unit High → price must be at least Medium ✓ (price = Medium)
+3. Not project-based price exclusively → unit show: true ✓
+4. Specification show: true → show_on_listing: true ✓
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "Material type (HPL vs SS vs FRP), colour, and surface finish are visually distinct and must match the washroom design brief. Buyers scan images first to eliminate wrong material or finish before reading any text — wrong appearance = immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Partition material, board thickness, and mounting type are non-interchangeable shortlisting gates — a 12mm floor-mounted HPL cubicle cannot substitute for an 18mm ceiling-hung SS system. Buyers cannot shortlist without these specs."
+  },
+  {
+    "rank": 3,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per piece",
+    "unit_note": "Per piece dominates for standard orders; per set used for multi-stall project supply; per project for turnkey installation. Unit must be shown — price cannot be compared across listings without knowing whether the quote is per cubicle, per set, or per project.",
+    "reason": "Per piece vs per set vs per project creates genuine price comparison confusion for contractors comparing multiple sellers. Unit is a necessary price qualifier for this category."
+  },
+  {
+    "rank": 4,
+    "dimension": "price",
+    "level": "Medium",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Indian contractors compare per-cubicle rates aggressively, but price is only comparable after material, thickness, and mounting type are confirmed equivalent. Custom dimensions mean final price is frequently negotiated; listed price is a budget entry point."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "yes",
+    "brand_important_reason": "Recognised Indian brands exist with buyer recall — Greenlam Sturdo, Merino, Stylam, Action Tesa — and architects/institutional buyers actively specify by brand name for quality assurance and warranty.",
+    "reason": "Institutional buyers (hospitals, airports, government) evaluate manufacturer credentials, warranty, and installation track record during vendor selection; brand acts as a quality proxy in the premium segment."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Application Area** — use-case tag (describes where the product is used, not what it is). Discard.
+- **Color** — preference resolved post-shortlisting; not a price-driving configurator (same material/thickness in different colours = same price). Deprioritise.
+- **Surface Finish** — aesthetic preference; follows from material choice; not a primary price driver. Deprioritise.
+- **No Of Cubicles** — order quantity field, not a product configurator. Discard.
+- **Door Type** — Sliding vs Swing: only 2 values, minor price delta, often determined by site space. Deprioritise.
+- **Hardware Material** — Aluminium vs SS vs Zinc Alloy vs Nylon: meaningful quality/durability difference but price delta is secondary to panel material. Deprioritise (not top 2).
+
+**Remaining candidates:** Board Thickness, Mounting Type, Partition Material
+
+### Phase 2 — Top 2 Configurator Selection
+
+- **Partition Material** (HPL Compact Board / Stainless Steel / Aluminium Composite / Glass / MDF / PVC): defines WHAT the product IS. Non-interchangeable — an SS cubicle cannot substitute for HPL. Massive price delta between material tiers (HPL 12mm vs SS 304 = 3–5x price difference). **Rank 1.**
+- **Board Thickness** (10mm / 12mm / 18mm / 25mm): within HPL (dominant material), thickness defines the structural grade and price tier. 12mm standard vs 18–25mm heavy-duty = significant price delta; non-interchangeable for high-traffic vs standard applications. **Rank 2.**
+
+*(Mounting Type is a strong candidate but is more of a site-condition constraint than a price-driving configurator — price delta between mounting types is smaller than between material grades or thickness tiers.)*
+
+### Phase 3 — Missing Spec Audit
+
+**specs_in_seller_list (verbatim):** Application Area, Board Thickness, Color, Door Type, Hardware Material, Mounting Type, No Of Cubicles, Partition Material, Surface Finish
+
+**Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+
+- **Panel Height / Cubicle Height** — Agent 3 notes standard Indian dimensions (3.5×3.5×7 ft to 4×4×8.6 ft); height is a key project spec (standard vs full-height floor-to-ceiling). Not present in seller spec list by name or semantic equivalent. Buyers and architects specify height for compliance and privacy requirements. Qualifies.
+- **Mounting Type** — already in seller spec list. ✓ Excluded.
+- **Hardware Material** — already in seller spec list. ✓ Excluded.
+- **Fire Retardancy / Fire Rating** — Agent 3 notes fire retardancy is referenced against EN standards by Indian manufacturers; institutional buyers (hospitals, airports) require FR-rated panels. Not present in seller spec list. Qualifies.
+- **Warranty** — consequence field (follows from brand + material quality). Exclude.
+- **Finish/Texture** — Surface Finish already in seller spec list. ✓ Excluded.
+
+**Missing important specs confirmed:**
+
+1. **Panel Height** — absent from spec list; architects and institutional buyers specify cubicle height (standard ~7 ft vs full-height 8–9 ft) as a privacy and compliance requirement that directly affects material quantity and price.
+2. **Fire Retardancy Rating** — absent from spec list; hospital, airport, and government buyers require FR-rated (fire retardant) or A2-class panels per building safety codes; this is a compliance gate that eliminates non-compliant products.
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → `partial`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Board Material, Hardware Material, Cubicle Width
+
+- **Board Material** (HPL Board / Stainless Steel / Wood / Compact Laminate / PVC): defines the product class; sellers need this to confirm they supply the right material type and to price accurately. Non-interchangeable. **Rank 1.**
+- **Cubicle Width** (2 ft / 2.5 ft / 3 ft / 3.5 ft / 4 ft / 5 ft): dimensional requirement that determines whether the seller can supply to the buyer's site layout; sellers need this to confirm fit and quote accurately. **Rank 2.**
+
+*(Hardware Material is a secondary preference — sellers can discuss this post-connection; it doesn't gate the initial response as strongly as material type or dimensions.)*
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Board Material** — HPL Board, Stainless Steel, Wood, Compact Laminate, PVC are visually distinct materials with recognisably different appearances. `thumbnail_eligible: true`. `thumbnail_options: ["HPL Board", "Stainless Steel", "Wood", "Compact Laminate", "PVC"]`
+- **Cubicle Width** — numeric/dimensional spec; no meaningful visual difference between a 3 ft and 4 ft cubicle in a thumbnail. `thumbnail_eligible: false`.
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Provided buyer specs:** Board Material, Hardware Material, Cubicle Width
+
+**Candidate gaps:**
+
+- **Mounting Type** — Agent 3 vision_output identifies floor-mounted, ceiling-hung, wall-hung, and full-height as non-interchangeable configurations. Sellers need to know mounting type to confirm they supply that configuration and to price correctly (full-height requires more material). Not present in buyer spec list by name or semantic equivalent. Qualifies. More important than Cubicle Width (mounting type gates product type; width is a dimension within a confirmed type). `would_be_rank: 2`.
+  - Thumbnail eligibility: Mounting Type values (Floor Mounted, Wall Hung, Overhead Braced, Floor to Ceiling) are visually distinct installation configurations — a floor-mounted cubicle with shoe skirting looks recognisably different from a ceiling-hung or full-height system. `thumbnail_eligible: true`. `thumbnail_options: ["Floor Mounted", "Wall Hung", "Overhead Braced", "Floor to Ceiling"]`
+
+- **Number of Cubicles / Project Quantity** — sellers need to know order scale (single cubicle vs multi-stall project) to determine whether they can supply and at what price tier. Not present in buyer spec list. However, this is more of a quantity/MOQ field than a spec — sellers can resolve this post-connection. Borderline; exclude (does not meet the "seller cannot respond accurately without this" threshold as strongly as mounting type).
+
+- **Cubicle Height** — Agent 3 notes standard vs full-height configurations. However, Mounting Type (if added) partially captures this (Floor to Ceiling = full-height). Exclude to avoid redundancy with the Mounting Type gap.
+
+**Missing important specs confirmed:**
+
+1. **Mounting Type** — sellers need to know whether the buyer requires floor-mounted, wall-hung, overhead-braced, or floor-to-ceiling configuration to confirm product fit and price accurately; these are non-interchangeable systems. Source: both. `would_be_rank: 2`. `thumbnail_eligible: true`. `thumbnail_options: ["Floor Mounted", "Wall Hung", "Overhead Braced", "Floor to Ceiling"]`
+
+**Coverage verdict:** 1 missing spec → `partial`
+
+### Phase 4 — Image Upload Assessment
+
+Standard spec values (Board Material, Cubicle Width, Mounting Type) adequately capture the buyer's core requirement. Toilet cubicles are catalogue-based products with defined material and configuration options — sellers can respond accurately from text specs and negotiate custom dimensions post-connection. Image upload is not needed.
+
+`image_upload_recommended: false`
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs:**
+- `top_rfq_specs` rank 1: Board Material (`thumbnail_eligible: true`, options: HPL Board, Stainless Steel, Wood, Compact Laminate, PVC) → 5 prompts
+- `missing_important_specs`: Mounting Type (`thumbnail_eligible: true`, `would_be_rank: 2`, options: Floor Mounted, Wall Hung, Overhead Braced, Floor to Ceiling) → 4 prompts
+
+Total: 9 prompts (spec_1 through spec_9)
+
+All prompts represent `primary_segment`: HPL compact laminate toilet cubicle partition system for commercial washrooms.
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Material type (HPL vs SS vs FRP), colour, and surface finish are visually distinct and must match the washroom design brief. Buyers scan images first to eliminate wrong material or finish before reading any text — wrong appearance is an immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Partition material, board thickness, and mounting type are non-interchangeable shortlisting gates — a 12mm floor-mounted HPL cubicle cannot substitute for an 18mm ceiling-hung SS system. Buyers cannot shortlist without these specs confirmed."
+    },
+    {
+      "rank": 3,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Per piece dominates for standard single-stall orders; per set used for multi-stall project supply; per project for turnkey installation. Unit must be shown — price cannot be compared across listings without knowing whether the quote covers one cubicle, a set, or a full project.",
+      "reason": "Per piece vs per set vs per project creates genuine price comparison confusion for contractors comparing multiple sellers; unit is a necessary qualifier for any price shown on the listing."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian contractors compare per-cubicle rates aggressively, but price is only comparable after material, thickness, and mounting type are confirmed equivalent. Custom dimensions mean final price is frequently negotiated; listed price serves as a budget entry point."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "yes",
+      "brand_important_reason": "Recognised Indian brands with buyer recall exist — Greenlam Sturdo, Merino, Stylam, Action Tesa — and architects and institutional buyers actively specify by brand name for quality assurance and warranty coverage.",
+      "reason": "Institutional buyers (hospitals, airports, government) evaluate manufacturer credentials, warranty, and installation track record during vendor selection; brand acts as a quality proxy in the premium segment."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Partition Material",
+        "reason": "Defines what the product fundamentally IS — HPL, SS, glass, and PVC are non-interchangeable material classes with a 3–5x price delta between tiers, making this the primary price-driving configurator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Board Thickness",
+        "reason": "Within the dominant HPL material class, thickness (12mm standard vs 18–25mm heavy-duty) defines the structural grade and price tier — non-interchangeable for high-traffic vs standard commercial applications."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application Area",
+      "Board Thickness",
+      "Color",
+      "Door Type",
+      "Hardware Material",
+      "Mounting Type",
+      "No Of Cubicles",
+      "Partition Material",
+      "Surface Finish"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Panel Height",
+        "why_important": "Architects and institutional buyers specify cubicle height (standard ~7 ft vs full-height 8–9 ft) as a privacy and compliance requirement that directly affects material quantity and price; absent from the current spec list.",
+        "source": "both",
+        "example_values": ["7 ft", "8 ft", "9 ft", "Full Height (Floor to Ceiling)"]
+      },
+      {
+        "spec_name": "Fire Retardancy Rating",
+        "why_important": "Hospital, airport, and government buyers require FR-rated or A2-class panels per building safety codes — this is a compliance gate that eliminates non-compliant products before any other evaluation.",
+        "source": "both",
+        "example_values": ["Standard", "Fire Retardant (FR)", "A2 Class", "B1 Class"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Board Material",
+        "reason": "Defines the product class — HPL, SS, and PVC are non-interchangeable material types; sellers need this to confirm they supply the right material and to price the order accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["HPL Board", "Stainless Steel", "Wood", "Compact Laminate", "PVC"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Cubicle Width",
+        "reason": "Site-specific dimensional requirement that determines whether the seller can supply to the buyer's layout and quote accurately for custom fabrication.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Mounting Type",
+        "why_important": "Sellers need to know whether the buyer requires floor-mounted, wall-hung, overhead-braced, or floor-to-ceiling configuration to confirm product fit and price accurately — these are non-interchangeable systems with different hardware and installation requirements.",
+        "source": "both",
+        "example_values": ["Floor Mounted", "Wall Hung", "Overhead Braced", "Floor to Ceiling"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Floor Mounted", "Wall Hung", "Overhead Braced", "Floor to Ceiling"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Board Material",
+      "option_value": "HPL Board",
+      "id": "spec_1",
+      "prompt_for_generation": "HPL compact laminate toilet cubicle partition system in a commercial washroom, beige-toned HPL board panels with aluminium hardware, floor-mounted configuration, clean studio-style lighting, white tile background, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Board Material",
+      "option_value": "Stainless Steel",
+      "id": "spec_2",
+      "prompt_for_generation": "Stainless steel toilet cubicle partition system in a commercial washroom, brushed SS 304 panels with SS hardware, floor-mounted configuration, metallic sheen clearly visible, white tile background, clean studio lighting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Board Material",
+      "option_value": "Wood",
+      "id": "spec_3",
+      "prompt_for_generation": "Wooden finish toilet cubicle partition system in a commercial washroom, warm wood-grain laminate panels with aluminium hardware, floor-mounted configuration, natural wood texture clearly visible, white tile background, studio lighting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Board Material",
+      "option_value": "Compact Laminate",
+      "id": "spec_4",
+      "prompt_for_generation": "Compact laminate toilet cubicle partition system in a commercial washroom, solid grey phenolic core compact board panels with stainless steel hardware, floor-mounted configuration, smooth matte surface clearly visible, white tile background, studio lighting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Board Material",
+      "option_value": "PVC",
+      "id": "spec_5",
+      "prompt_for_generation": "PVC toilet cubicle partition system in a commercial washroom, white PVC board panels with nylon or aluminium hardware, floor-mounted configuration, smooth plastic surface clearly visible, white tile background, studio lighting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Mounting Type",
+      "option_value": "Floor Mounted",
+      "id": "spec_6",
+      "prompt_for_generation": "HPL compact laminate toilet cubicle partition system with floor-mounted configuration, aluminium shoe skirting visible at base anchoring panels to tiled floor, standard commercial washroom setting, clean studio lighting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Mounting Type",
+      "option_value": "Wall Hung",
+      "id": "spec_7",
+      "prompt_for_generation": "HPL compact laminate toilet cubicle partition system with wall-hung configuration, panels suspended from wall brackets with visible gap between panel bottom and tiled floor, commercial washroom setting, clean studio lighting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Mounting Type",
+      "option_value": "Overhead Braced",
+      "id": "spec_8",
+      "prompt_for_generation": "HPL compact laminate toilet cubicle partition system with overhead-braced configuration, horizontal aluminium overhead rail connecting pilasters at top with panels suspended below, commercial washroom setting, clean studio lighting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Mounting Type",
+      "option_value": "Floor to Ceiling",
+      "id": "spec_9",
+      "prompt_for_generation": "HPL compact laminate toilet cubicle partition system with full-height floor-to-ceiling configuration, panels extending from tiled floor to ceiling with no overhead gap, maximum privacy design, commercial washroom setting, clean studio lighting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
