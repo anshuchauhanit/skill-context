@@ -1,0 +1,205 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Telecom shelter procurement is spec-driven: buyers arrive with defined requirements for shelter type (BTS/Power/Switch Room), size, wall panel type, and IP rating — without matching specs, the listing cannot be evaluated for tender or site deployment. TEC compliance, cooling system, and shelter size are non-interchangeable across project requirements."
+    },
+    {
+      "rank": 2,
+      "dimension": "company",
+      "level": "High",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant consumer-facing brand with buyer recall exists in Indian telecom shelters — buyers search by TEC approval status, manufacturing capability, and track record with tower companies, not by brand name.",
+      "reason": "Institutional buyers (Indus Towers, ATC India, Airtel, Indian Railways) require TEC-approved manufacturers with proven supply track records; an unknown supplier with matching specs is still disqualified without verifiable credentials and certifications."
+    },
+    {
+      "rank": 3,
+      "dimension": "image",
+      "level": "Medium",
+      "show": true,
+      "reason": "Visual sub-type variation is meaningful — BTS cabin vs rooftop shelter vs outdoor cabinet vs multi-compartment enclosure are visually distinct, and buyers use images to confirm product type before reading specs. However, image alone cannot close or kill engagement; spec confirmation is the primary gate."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with shelter size, wall panel type, cooling system, and TEC compliance tier — buyers compare prices only after spec equivalence is confirmed. Final price is always negotiated for institutional orders; listed price serves as a budget entry point and supplier shortlisting signal."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Large custom multi-compartment enclosures (e.g. railway shelters) may be quoted per sq ft, but this is a secondary sub-segment; for the primary BTS shelter segment, per piece is universally implied and never a buyer question.",
+      "reason": "Unit is entirely implied for a complete factory-assembled enclosure — no buyer questions whether a telecom shelter is sold per piece."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Shelter Type",
+        "reason": "Defines what the shelter IS and what equipment it houses (BTS vs Power vs Switch Room vs Repeater) — values are non-interchangeable across site deployment requirements and drive the largest price delta in the category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Shelter Size",
+        "reason": "Footprint (3x3m vs 4x3m vs 6x3m vs custom) directly determines material cost, transport logistics, and site fit — a buyer cannot substitute one size for another, and price scales significantly with floor area."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Cooling System",
+      "Door Type",
+      "EMI Shielding",
+      "Floor Type",
+      "Ingress Protection",
+      "Power Backup",
+      "Shelter Size",
+      "Shelter Type",
+      "Wall Panel Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "TEC Approval / Certification",
+        "why_important": "TEC Generic Requirements (TEC-GR-RS-BSH) compliance is a mandatory procurement signal for licensed telecom operator buyers — absence of this spec prevents institutional buyers from confirming regulatory eligibility.",
+        "source": "Agent 3 vision_output",
+        "example_values": [
+          "TEC Approved",
+          "TEC Pending",
+          "Not Applicable"
+        ]
+      },
+      {
+        "spec_name": "PUF Density",
+        "why_important": "Foam core density (typically 40 kg/m³) is a primary thermal performance and structural quality differentiator cited by multiple Indian manufacturers and used by buyers to compare insulation quality across suppliers.",
+        "source": "both",
+        "example_values": [
+          "38 kg/m³",
+          "40 kg/m³",
+          "42 kg/m³",
+          "45 kg/m³"
+        ]
+      },
+      {
+        "spec_name": "Panel Thickness",
+        "why_important": "PUF panel thickness (50mm, 60mm, 80mm) directly determines thermal insulation performance and compliance with ambient temperature range requirements — a key shortlisting criterion for extreme climate deployments.",
+        "source": "both",
+        "example_values": [
+          "50 mm",
+          "60 mm",
+          "75 mm",
+          "80 mm"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Size (LxW)",
+        "reason": "Footprint is the primary requirement a seller needs to confirm site fit, material cost, and transport feasibility — without size, no accurate quote is possible.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation Panel",
+        "reason": "Panel type (PUF vs EPS vs Rockwool) determines thermal performance tier and compliance with temperature range requirements — sellers need this to confirm product eligibility and price the correct specification.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Shelter Type",
+        "why_important": "Sellers need to know whether the buyer requires a BTS cabin, power shelter, switch room, or repeater shelter to confirm they manufacture the correct product type and to price accordingly.",
+        "source": "both",
+        "example_values": [
+          "Outdoor BTS",
+          "Power Shelter",
+          "Switch Room",
+          "Repeater Shelter"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Outdoor BTS",
+          "Power Shelter",
+          "Switch Room",
+          "Repeater Shelter"
+        ]
+      },
+      {
+        "spec_name": "Cooling System",
+        "why_important": "Cooling configuration (DC Aircon, Heat Exchanger, Hybrid, Passive) is a major cost and energy driver — sellers need this to determine equipment fit-out scope and quote accurately.",
+        "source": "both",
+        "example_values": [
+          "DC Aircon",
+          "Heat Exchanger",
+          "Hybrid Cooling",
+          "No AC (Passive)"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Shelter Type",
+      "option_value": "Outdoor BTS",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated PUF-panel BTS telecom shelter cabin installed outdoors at a mobile tower site, white or light grey exterior with ventilation grilles and single metal door, telecom tower visible in background, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shelter Type",
+      "option_value": "Power Shelter",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated power equipment shelter with battery bank and DG set visible through open double doors, steel frame construction, outdoor installation on concrete plinth, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shelter Type",
+      "option_value": "Switch Room",
+      "id": "spec_3",
+      "prompt_for_generation": "Larger prefabricated telecom switch room enclosure with multiple equipment racks visible inside, wider footprint than standard BTS cabin, double metal doors, installed at a telecom exchange site, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Shelter Type",
+      "option_value": "Repeater Shelter",
+      "id": "spec_4",
+      "prompt_for_generation": "Compact prefabricated repeater shelter cabin, smaller footprint than standard BTS shelter, mounted on a rooftop or hillside site with antenna mast nearby, white PUF panel exterior, natural daylight, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
