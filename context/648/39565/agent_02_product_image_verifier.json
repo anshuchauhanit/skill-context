@@ -1,0 +1,1196 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "170941950",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "900Sq Feet Temporary Project Site Office",
+      "description": "900 sq. ft. temporary project site office designed for quick setup, offering functional workspaces for project management, team coordination, and meetings.",
+      "specs": {
+        "raw": "Built Type:Prefab, Color:White, Coverage Area:900 Sq Feet, Insulation Type:PUF, Material:Steel, Shape:Rectangular, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/11/CN/VP/RH/37731/project-site-office.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/900sq-feet temporary project site office-24183346988.html",
+      "image_file": "170941950.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed two-storey prefabricated sandwich-panel building with windows and AC units, consistent with a large temporary project site office."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Title specifies area (900 sq ft), product type (temporary), and application (project site office), providing clear buyer-relevant information."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs include coverage area, insulation type (PUF), material (steel), and application (office), covering the key differentiating attributes for a temporary site office."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description confirms product type, area, and use cases (project management, team coordination, meetings), fully consistent with this MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated temporary project site office, the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [],
+      "verification_note": "All dimensions pass; strong title, specs, and description with good image — exemplary listing for this MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/900sq-feet temporary project site office-24183346988.html"
+    },
+    {
+      "item_id": "290398717",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Terrace Temporary Room",
+      "description": "<p>Terrace Room, for Drivers, labours, Servants<br /><br />Established in 2022,&nbsp;<b>Satguru Kripa Traders</b>&nbsp;has made a well-recognized name as a&nbsp;<b>Manufacturer, Wholesaler, Trader and Service Provider of Portable Building, Security Cabin and More</b>.</p>",
+      "specs": {
+        "raw": "Country of Origin:Made in India, service location:Delhi NCR, service mode:offline /online, service type:manufacturer of prefab buildings"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2025/1/478646356/EE/MN/HT/118844411/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/terrace-temporary room-2855579971930.html",
+      "image_file": "290398717.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows only a bare steel frame skeleton under construction on a rooftop, with no panels or finished surfaces visible, making the final product unidentifiable to a buyer."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names a terrace temporary room, a valid product type in this MCAT, but lacks material, size, or spec detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs contain only service location and service mode fields, providing no product-level attributes such as material, panel type, or dimensions."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a company introduction mentioning portable buildings and security cabins, not a product-specific description."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Terrace/rooftop temporary rooms are listed in the MCAT product_types as 'Modular terrace room / rooftop room'."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Satguru Kripa Traders' and specs contain 'service location:Delhi NCR'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only a bare steel frame skeleton mid-construction with no panels or finished surfaces, insufficient to convey the final product."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only service location and service mode fields with no product-level attributes such as material, panel type, or dimensions."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Satguru Kripa Traders' and specs contain 'service location:Delhi NCR'."
+        }
+      ],
+      "verification_note": "Valid product type for this MCAT; passes category and contradiction checks but has thin image, thin specs, and location/business leakage.",
+      "source_url": "https://www.indiamart.com/proddetail/terrace-temporary room-2855579971930.html"
+    },
+    {
+      "item_id": "295812185",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Temporary Buildings Structure",
+      "description": "<b>Temporary Buildings</b> are structures designed for short- to medium-term use, offering flexible, cost-effective space solutions across a wide range of industries. These buildings are often prefabricated and can be quickly installed, dismantled, relocated, or repurposed as needed.",
+      "specs": {
+        "raw": "Building Type:Site Office, Built Type:Modular, Country of Origin:Made in India, Flooring Type:Tile Flooring, Material:PVC, Number Of Floors:Single Floor, Portable:Yes, Roof Type:Slope Roof, Service Location/City:Delhi NCR, Structure Material:GI, Usage Application:Construction Site, Wall Panel Type:PUF Panel"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/12/470934204/EL/YS/DR/216466242/container-homes.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/temporary-buildings structure-2856121318791.html",
+      "image_file": "295812185.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed small single-storey prefabricated building with gable roof, pink-painted walls, windows, and doors in a rural setting."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Temporary Buildings Structure' is generic and lacks product type, material, size, or application specificity."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs include building type (site office), wall panel type (PUF), structure material (GI), portable flag, and roof type, providing comprehensive product-level detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description accurately describes temporary buildings as prefabricated, relocatable structures, consistent with this MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a modular prefabricated site office with PUF panels, directly matching the primary segment of this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs field contains 'Service Location/City:Delhi NCR', embedding a specific city/region name."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title 'Temporary Buildings Structure' is generic and lacks product type, material, size, or application specificity."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Service Location/City:Delhi NCR', embedding a specific city/region name."
+        }
+      ],
+      "verification_note": "Strong specs and good image pass quality thresholds; thin title and location leakage in specs are noted problems.",
+      "source_url": "https://www.indiamart.com/proddetail/temporary-buildings structure-2856121318791.html"
+    },
+    {
+      "item_id": "281662896",
+      "pre_label": "bad",
+      "verified_label": "good",
+      "override": true,
+      "title": "Prefabricated Steel Structure",
+      "description": "<b>Omkar Prefab System&nbsp;</b>is involved as a&nbsp;<b>manufacturer, wholesaler&nbsp;</b>and&nbsp;<b>retailer</b>&nbsp;a broad plethora of&nbsp;<b>Portable Cabins, Portable Resort,&nbsp;</b>etc. In their development process, we assure that only top notch basic material is used by our professionals along with ultra-modern tools and machinery. Besides this, we check these on a variety of grounds before finally shipping them at the destination of our customers.",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Material:GI, Service Location/City:Delhi, Surface Treatment:Galvanized"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2024/8/444689969/XB/ZU/YU/51018771/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-steel structure-2854706389830.html",
+      "image_file": "281662896.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a completed rooftop terrace room with steel frame, glass facade, and flat roof on a residential building, consistent with the MCAT's modular terrace room product type."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Prefabricated Steel Structure' is generic and lacks product type, application, or size detail, though it does not contradict the MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm prefab built type and GI material but lack product type, dimensions, or application detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is a company introduction mentioning portable cabins, which are valid for this MCAT, but provides no product-specific detail."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Rooftop/terrace room additions are listed in the MCAT product_types; the product shown is within scope."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Omkar Prefab System' and specs contain 'Service Location/City:Delhi'."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Modular Buildings",
+        "reason": "Rooftop terrace room with glass facade and steel frame could also be classified under Modular Buildings sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title 'Prefabricated Steel Structure' is generic and lacks product type, application, or size detail."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only built type, material, and surface treatment with no product type, dimensions, or application detail."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Omkar Prefab System' and specs contain 'Service Location/City:Delhi'."
+        }
+      ],
+      "verification_note": "Pre-label bad overridden to good — good image of a valid terrace room product, no active contradiction or category failure; thinness alone does not disqualify.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-steel structure-2854706389830.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "147634208",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Temporary Warehouse Structure",
+      "description": "<b>Nakron Infra Private Limited is one of the Leading Manufacturer and Supplier of Temporary Structure and All kind of Prefabricated Structure,Cabin,WarehouseShed ,Wall Cladding and Portable houses Accross PanIndia.</b><b>We designed these structures under the supervision of experts .</b>&nbsp;The origin of the product is based in India . We also provide best suggestion in enhancing the design of your Choice . We value the money that you will Pay .<br />",
+      "specs": {
+        "raw": "Built Type:Modular, Country of Origin:Made in India, Design:Customized, Service Location/City:india, Size:Customized, Surface Treatment:Galvanized"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/5/311499904/MP/XN/UW/19170282/temporary-structure.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/temporary-warehouse structure-21852573062.html",
+      "image_file": "147634208.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "bad_image",
+          "reason": "Image shows a tensile fabric canopy over a car parking area with brand logo and phone numbers, not a warehouse structure."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title names a temporary warehouse structure, a valid product type for this MCAT, but lacks material, size, or spec detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs confirm modular built type and galvanized surface treatment but lack panel type, dimensions, or structural material detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description lists prefabricated structures, cabins, and warehouse sheds as product range, consistent with this MCAT."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Tensile fabric temporary structures are listed in the MCAT product_types; the product shown is within scope despite the title-photo mismatch."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_title"
+        ],
+        "contradiction_reasons": [
+          "Image shows a tensile fabric canopy over a car park while the title claims 'Temporary Warehouse Structure', which are different product types."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Tensile Structures",
+        "reason": "The tensile fabric canopy shown in the image is more precisely classified under the Tensile Structures sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P01",
+          "problem_name": "Photo-Title Contradiction",
+          "evidence": "Image shows a tensile fabric canopy over a car park while the title claims 'Temporary Warehouse Structure'."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows a tensile canopy over a parking area rather than the claimed warehouse structure, making the listing photo actively misleading."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs list only modular built type and galvanized surface treatment with no panel type, dimensions, or structural material detail."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — bad_image (wrong product shown) and photo-title contradiction are active failures.",
+      "source_url": "https://www.indiamart.com/proddetail/temporary-warehouse structure-21852573062.html"
+    },
+    {
+      "item_id": "275688417",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Temporary structures",
+      "description": "No bricks no plaster<br />Temporary structures are&nbsp;buildings or structures designed for short-term use, often easy to assemble and disassemble, and used for events, emergencies, or short-term needs in various settings",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Material:FRP, Service Location/City:Pune, Surface Treatment:Color Coated"
+      },
+      "image_url": "http://5.imimg.com/data5/ANDROID/Default/2024/5/420106122/ML/WW/WK/7159877/product-jpeg.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/temporary-structures-2854108941748.html",
+      "image_file": "275688417.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "bad_image",
+          "reason": "Image is a promotional brochure advertisement showing multiple product types with company contact details, address, and phone numbers — not a product photograph."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title 'Temporary structures' is too generic, lacking product type, material, size, or application detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs list FRP material and Pune service location but lack structural type, dimensions, or application detail."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description provides a generic definition of temporary structures without specifying product type, material, or buyer-relevant attributes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Prefab temporary structures are the core product of this MCAT; the listing is valid despite thin content."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Specs field contains 'Service Location/City:Pune', embedding a specific city name."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image is a promotional brochure/advertisement with company contact details and multiple product thumbnails, not a product photograph."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title 'Temporary structures' is too generic, lacking product type, material, size, or application detail."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Specs field contains 'Service Location/City:Pune', embedding a specific city name."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — bad_image (promotional brochure, not a product photo) is an active failure.",
+      "source_url": "https://www.indiamart.com/proddetail/temporary-structures-2854108941748.html"
+    },
+    {
+      "item_id": "48253540",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Steel Buildings",
+      "description": "We are one of the major enterprise manufacturing and supplying the quality range of <b>Prefabricated Steel Building</b>. Our offered products are known in the market for their quick installation and high durability traits. These products are designed by our team of professionals in various specifications as per clients&rsquo; needs. Well furnished with excellent interiors and high weather resistant, we supply these products to our customers at equitable price range.<br /><br /><b>Features:</b><br /> \n<ul>\n<li>Attractive interiors</li>\n<li>Quick and easy setup</li>\n<li>High stability</li>\n</ul>",
+      "specs": {
+        "raw": "Building Type:Customized, Built Type:Prefab, Country of Origin:Made in India, Feature:Corrosion Resistant, Finishing:Paint Coated, Height:Customized, Material:Steel, Service Location/City:Pan India, Usage/Application:Factory"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/5/311287239/BW/WD/PL/135805/prefabricated-steel-building.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-steel buildings-6472202533.html",
+      "image_file": "48253540.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large-span steel PEB frame being erected with a crane, consistent with a permanent industrial building rather than a temporary portable structure."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title 'Prefabricated Steel Buildings' names a permanent prefab building type that matches the sibling MCAT 'Prefabricated Steel Buildings', not a temporary/demountable structure."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs indicate factory application with no portability, relocatability, or temporary-use attributes, inconsistent with temporary buildings."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description emphasises durability and permanent installation features without any reference to temporary use, portability, or demountability."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a permanent prefabricated steel building for factory use, lacking portability and demountability that define temporary buildings in this MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Steel Buildings",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large-span PEB steel frame being erected with a crane, indicating a permanent industrial building not consistent with temporary buildings."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Prefabricated Steel Buildings' names a permanent prefab building type matching the sibling MCAT, with no temporary or portable qualifier."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs indicate factory application with no portability, relocatability, or temporary-use attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description emphasises durability and permanent installation features with no reference to temporary use, portability, or demountability."
+        }
+      ],
+      "verification_note": "Confirmed bad — permanent PEB factory building, not a temporary/demountable structure; routes to Prefabricated Steel Buildings sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-steel buildings-6472202533.html"
+    },
+    {
+      "item_id": "71228770",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Steel Building",
+      "description": "Being a quality centric organization, we are actively committed towards offering <b>Prefabricated Building.</b> This building is manufactured using quality assured raw material and ultra-modern technology under the supervision of our adroit professionals. Provided building is widely admired by our clients for its optimum finish. Offered building is checked by our quality experts to approve its grade. Furthermore, our respectable clients can avail this building at reasonable prices.<br /><br /><b>Features:</b><br /><br /> \n<ul><li>Easy to install </li><li>Rugged structure </li><li>High strength </li></ul>",
+      "specs": {
+        "raw": "Built Type:Prefab, Height:Customised, Material:Steel, Technique:Cold Rolled, Usage/Application:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/10/356932080/ZU/DT/KO/19242443/prefabricated-steel-building.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-steel building-10530302448.html",
+      "image_file": "71228770.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large permanent-type steel building frame with concrete foundations and scaffolding, inconsistent with temporary demountable structures."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names a permanent prefabricated steel building without any temporary, portable, or demountable qualifier."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs indicate a cold-rolled steel prefab house with no portability, relocatability, or temporary-use attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description describes a permanent prefabricated building with no reference to temporary use, portability, or demountability."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a permanent prefabricated steel building (cold-rolled, house application) without portability or demountability, not a temporary building."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Steel Buildings",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large permanent steel building frame with concrete foundations and scaffolding, not a temporary demountable structure."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Prefabricated Steel Building' names a permanent prefab building with no temporary, portable, or demountable qualifier."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs indicate cold-rolled steel house construction with no portability, relocatability, or temporary-use attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description describes a permanent prefabricated building emphasising rugged structure and high strength with no reference to temporary use or portability."
+        }
+      ],
+      "verification_note": "Confirmed bad — permanent cold-rolled steel prefab house, not a temporary/demountable structure; routes to Prefabricated Steel Buildings sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-steel building-10530302448.html"
+    },
+    {
+      "item_id": "154931260",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Prefabricated Steel Buildings",
+      "description": "<b>Metal-ify PEB Solution</b>&nbsp;is one of the fastest growing manufacturer of PEB Sheds like Industrial Factory Sheds, Warehouses, Power plants, rice mill plants and many more.",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Electronic System:any, Features:any, Height:any, Material:Steel, Roof Type:Slope, Size:any, Technique:Hot Rolled, Usage/Application:industrial"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/6/VE/YI/XT/37315965/prefabricated-steel-buildings.jpeg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-steel buildings-22582278230.html",
+      "image_file": "154931260.jpeg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large permanent industrial warehouse with metal cladding elevated on steel columns, inconsistent with temporary demountable buildings."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names permanent prefabricated steel buildings without any temporary, portable, or demountable qualifier."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs indicate hot-rolled steel industrial building with no portability, relocatability, or temporary-use attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description explicitly describes PEB industrial sheds, warehouses, and factory buildings — permanent structures not consistent with temporary buildings."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a permanent hot-rolled PEB industrial warehouse/shed, not a temporary demountable building."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description contains company name 'Metal-ify PEB Solution' embedded in the product description."
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Steel Buildings",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large permanent industrial warehouse elevated on steel columns, not a temporary demountable building."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Prefabricated Steel Buildings' names permanent prefab buildings with no temporary or portable qualifier."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs indicate hot-rolled steel industrial application with no portability, relocatability, or temporary-use attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly describes PEB industrial sheds, warehouses, and factory buildings — permanent structures."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains company name 'Metal-ify PEB Solution' embedded in the product description."
+        }
+      ],
+      "verification_note": "Confirmed bad — permanent hot-rolled PEB industrial warehouse, not a temporary/demountable structure; routes to Prefabricated Steel Buildings sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-steel buildings-22582278230.html"
+    },
+    {
+      "item_id": "183431252",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Steel Prefabricated Buildings",
+      "description": "We have set up an outstanding example for others showing that rapid growth is possible by strictly maintaining quality of products and serving the clients with complete dedication. We are engaged in the industry as a distinguished manufacturer, trader and distributor dealing in a number of products like Pre Engineered Building Systems(PEB),Pre fabricated steel structures,mezzanine floors,industrial sheds,warehouses and Insulating Roofing and Panels.Our company is professionally managed by a group of technocrats having versatile knowledge and experience in the discipline. High quality and timely delivery are the two parameters, which have kept us ahead in the industry. The company is a perfect blend of man and machine to deliver its clients with the best possible engineering construction services and allied products at the most competitive prices. We are committed to deliver the best, thus leaving no space for quality degradation.",
+      "specs": {
+        "raw": "Built Type:Prefab, Country of Origin:Made in India, Feature:Durable, Material:Steel, Roof Type:A Type, Service Location/City:Pan India, Surface Treatment:Color Coated"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/4/QF/SW/QC/938734/steel-prefabricated-buildings.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/steel-prefabricated buildings-25432277133.html",
+      "image_file": "183431252.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "good_image",
+          "reason": "Image shows a large multi-storey permanent steel building frame under construction with brick boundary wall, inconsistent with temporary demountable structures."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title names permanent steel prefabricated buildings without any temporary, portable, or demountable qualifier."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Specs emphasise durability with no portability, relocatability, or temporary-use attributes."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description explicitly mentions PEB systems, industrial sheds, warehouses, and mezzanine floors — permanent structures not consistent with temporary buildings."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a permanent PEB/steel prefabricated building (industrial sheds, warehouses, mezzanine floors) without portability or demountability."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Prefabricated Steel Buildings",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a large multi-storey permanent steel building frame under construction, not a temporary demountable structure."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title 'Steel Prefabricated Buildings' names permanent steel prefab buildings with no temporary or portable qualifier."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs emphasise durability with no portability, relocatability, or temporary-use attributes."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description explicitly mentions PEB systems, industrial sheds, warehouses, and mezzanine floors — permanent structures."
+        }
+      ],
+      "verification_note": "Confirmed bad — permanent multi-storey PEB building, not a temporary/demountable structure; routes to Prefabricated Steel Buildings sibling MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/steel-prefabricated buildings-25432277133.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show completed prefabricated structures photographed from the exterior at ground level, with the full building visible including roof, walls, windows, and doors. Structures are shown in real-world installation contexts (construction sites, rural/semi-rural settings, residential rooftops). Sandwich panel cladding, steel frame elements, and functional features such as AC units or glass facades are visible, giving buyers a clear sense of the finished product.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Temporary buildings are physical structures whose appearance (size, cladding type, roof form, windows, doors) conveys the product identity — no meaningful text is printed on the product surface.",
+      "Verified good images show exterior building photographs where visual attributes (panel colour, roof type, storey count, glazing) are the primary buyer-relevant information.",
+      "OCR cannot extract useful product specifications from exterior building photographs; spec information must come from text fields, not image text."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good photos show completed prefabricated temporary buildings photographed from the exterior, with full structure visible including roof, walls, windows, and real-world installation context.",
+    "product_identity": [
+      "Completed prefabricated structure with sandwich panel or painted wall cladding",
+      "Visible roof form (gable, flat, or slope), windows, and doors indicating a habitable/usable space",
+      "Real-world installation context (construction site, rooftop, rural setting)"
+    ],
+    "acceptable_scenes": [
+      "Exterior full-building shot from ground level showing all facades",
+      "Rooftop/terrace installation showing the structure in situ on a residential building"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "170941950",
+        "reason": "Image shows a completed two-storey prefabricated sandwich-panel building with windows and AC units, consistent with a large temporary project site office.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "295812185",
+        "reason": "Image shows a completed small single-storey prefabricated building with gable roof, pink-painted walls, windows, and doors in a rural setting.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "281662896",
+        "reason": "Image shows a completed rooftop terrace room with steel frame, glass facade, and flat roof on a residential building, consistent with the MCAT's modular terrace room product type.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show the product under construction (bare steel frame only) without finished surfaces, making the final product unidentifiable to a buyer.",
+    "thinness_signals": [
+      "Only the steel frame skeleton is visible with no panels, cladding, or finished surfaces",
+      "Mid-construction state prevents buyers from assessing the final product appearance, size, or quality"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "290398717",
+        "reason": "Image shows only a bare steel frame skeleton under construction on a rooftop, with no panels or finished surfaces visible, making the final product unidentifiable to a buyer."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show either a promotional brochure/advertisement instead of a product photograph, or a tensile canopy structure that contradicts the claimed product type.",
+    "failure_classes": [
+      {
+        "class": "promotional_brochure",
+        "description": "Image is a marketing advertisement or brochure with multiple product thumbnails, company contact details, phone numbers, and address — not a product photograph.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "275688417"
+          }
+        ],
+        "detection_signal": "Image contains text blocks with phone numbers, email addresses, company address, and multiple small product sub-images arranged in a grid layout.",
+        "failure_mode": "wrong_category"
+      },
+      {
+        "class": "wrong_product_type_shown",
+        "description": "Image shows a tensile fabric canopy over a car parking area while the title claims a warehouse structure — different product type within the MCAT.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "147634208"
+          }
+        ],
+        "detection_signal": "Image shows a tensile membrane/fabric roof structure over vehicles or open space rather than an enclosed prefabricated building.",
+        "failure_mode": "wrong_product"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Strong titles for this MCAT specify the product sub-type (site office, terrace room), key dimensions or area, material/insulation type, and application context.",
+    "strong_positive_signals": [
+      "Specific product sub-type named (e.g., 'Project Site Office', 'Terrace Temporary Room')",
+      "Coverage area or dimensions included (e.g., '900 Sq Feet')",
+      "Temporary/portable/prefab qualifier present to distinguish from permanent buildings"
+    ],
+    "structural_patterns": [
+      "[Area] [Temporary/Prefab] [Product Sub-type] — e.g., '900Sq Feet Temporary Project Site Office'",
+      "[Application] [Temporary/Portable] [Building Type] — e.g., 'Terrace Temporary Room'"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "170941950",
+          "title": "900Sq Feet Temporary Project Site Office",
+          "reason": "Specifies area (900 sq ft), temporary qualifier, and specific application (project site office) — all three buyer-critical attributes present."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "290398717",
+          "title": "Terrace Temporary Room",
+          "reason": "Names a specific product sub-type (terrace temporary room) with a temporary qualifier, but lacks material, size, or spec detail."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles use only the MCAT category name or a generic structural term without specifying product sub-type, material, size, or application.",
+    "thinness_signals": [
+      "Title is identical or near-identical to the MCAT name (e.g., 'Temporary Buildings Structure', 'Temporary structures')",
+      "Generic structural term used without product sub-type or application qualifier (e.g., 'Prefabricated Steel Structure')"
+    ],
+    "examples": [
+      {
+        "item_id": "295812185",
+        "title": "Temporary Buildings Structure",
+        "reason": "Generic MCAT-level name with no product sub-type, material, size, or application specificity."
+      },
+      {
+        "item_id": "275688417",
+        "title": "Temporary structures",
+        "reason": "Bare category-level term with no product type, material, size, or application detail."
+      },
+      {
+        "item_id": "281662896",
+        "title": "Prefabricated Steel Structure",
+        "reason": "Generic structural term lacking product type, application, or size detail."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles use 'Prefabricated Steel Buildings' or 'Steel Prefabricated Buildings' — terms that name permanent PEB structures and match the sibling MCAT, not temporary/demountable buildings.",
+    "failure_classes": [
+      {
+        "class": "permanent_peb_building_title",
+        "signal": "Title contains 'Prefabricated Steel Building(s)' or 'Steel Prefabricated Buildings' without any temporary, portable, or demountable qualifier.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "48253540",
+            "title": "Prefabricated Steel Buildings",
+            "reason": "Names a permanent prefab steel building type matching the sibling MCAT 'Prefabricated Steel Buildings', not a temporary/demountable structure.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "71228770",
+            "title": "Prefabricated Steel Building",
+            "reason": "Names a permanent prefabricated steel building with no temporary, portable, or demountable qualifier.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "154931260",
+            "title": "Prefabricated Steel Buildings",
+            "reason": "Names permanent PEB industrial buildings (factory sheds, warehouses) with no temporary-use qualifier.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "183431252",
+            "title": "Steel Prefabricated Buildings",
+            "reason": "Names permanent steel prefabricated buildings (PEB, industrial sheds, warehouses) with no temporary or portable qualifier.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere — primarily permanent PEB/industrial steel buildings that lack portability and demountability.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "permanent_prefabricated_steel_building",
+        "signal": "Listing describes a permanent prefabricated steel building (PEB, industrial shed, warehouse, factory) with no portability, relocatability, or temporary-use attributes; specs may indicate hot-rolled or cold-rolled technique and factory/industrial/house application.",
+        "examples": [
+          {
+            "item_id": "48253540",
+            "title": "Prefabricated Steel Buildings",
+            "reason": "Permanent PEB factory building with no portability or demountability; specs indicate factory application.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "71228770",
+            "title": "Prefabricated Steel Building",
+            "reason": "Permanent cold-rolled steel prefab house with no temporary-use attributes.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "154931260",
+            "title": "Prefabricated Steel Buildings",
+            "reason": "Hot-rolled PEB industrial warehouse/shed explicitly described as permanent factory infrastructure.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "183431252",
+            "title": "Steel Prefabricated Buildings",
+            "reason": "PEB system with industrial sheds, warehouses, and mezzanine floors — permanent structures with no temporary-use qualifier.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Prefabricated Steel Buildings"
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Tensile Structures",
+        "signal": "Listing image or description shows a tensile membrane/fabric canopy or shade structure rather than an enclosed prefabricated building.",
+        "examples": [
+          {
+            "item_id": "147634208",
+            "title": "Temporary Warehouse Structure",
+            "reason": "Image shows a tensile fabric canopy over a car parking area — more precisely classified under Tensile Structures sibling MCAT."
+          }
+        ]
+      },
+      {
+        "sibling_mcat": "Modular Buildings",
+        "signal": "Listing shows a modular rooftop/terrace room or glass-facade prefab addition that could be classified as a modular building rather than a temporary structure.",
+        "examples": [
+          {
+            "item_id": "281662896",
+            "title": "Prefabricated Steel Structure",
+            "reason": "Rooftop terrace room with glass facade and steel frame could also be classified under Modular Buildings sibling MCAT."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts derived from enriched_products data provided by the pipeline operator; images audited visually from base64 attachments."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "correct_mcat_suggestion 'Prefabricated Steel Buildings' and sibling names 'Tensile Structures' and 'Modular Buildings' confirmed from provided taxonomy siblings list."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context",
+          "mcat_vagueness_signal"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment and product_types used to ground category belonging decisions; mcat_vagueness_signal.suspected_vague not flagged, PATH A applied throughout."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
