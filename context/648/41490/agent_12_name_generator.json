@@ -1,0 +1,71 @@
+{
+  "enhanced_name_4w": "Prefab Timber Residential Cottages",
+  "enhanced_name_5w": "Prefab Wooden House for Resorts",
+  "enhanced_name_6w": "Timber Frame Prefab House Resort Cottage",
+  "enhanced_name_long": "Prefabricated Wooden Houses and Cottages for Residential, Farmhouse, and Eco-Resort Use — A-Frame, Log Cabin, and Timber Frame Structures",
+  "alt_names": {
+    "primary_keywords": [
+      "wooden house",
+      "wooden cottage",
+      "prefab wooden house",
+      "A-frame house",
+      "wood house",
+      "wooden home",
+      "wooden resort cottage",
+      "wooden bungalow",
+      "wooden farmhouse",
+      "prefabricated wooden cottage"
+    ],
+    "technical_synonyms": [
+      "timber frame house",
+      "prefabricated timber structure",
+      "post and beam home",
+      "engineered wood house",
+      "glulam timber house",
+      "modular wooden structure",
+      "panelised timber home",
+      "SPF wood house",
+      "structural timber building",
+      "prefabricated timber frame home"
+    ],
+    "trade_names": [
+      "A-frame cottage",
+      "resort cabin",
+      "eco-resort cabin",
+      "glamping pod",
+      "wooden chalet",
+      "wooden villa",
+      "prefab cottage",
+      "ready-made wooden house",
+      "turnkey wooden home",
+      "wooden farmhouse"
+    ],
+    "hindi_terms": [
+      "lakdi ka ghar",
+      "katt ka ghar",
+      "lakadi ka ghar",
+      "wooden ghar"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated wooden house manufacturer in India",
+      "A-frame wooden cottage for resort",
+      "wooden house cost in India per square foot",
+      "wooden cottage for farmhouse",
+      "ready-made wooden house India",
+      "eco-friendly wooden house India",
+      "wooden resort cottage manufacturer",
+      "pine wood prefab house India",
+      "wooden house for hill station",
+      "timber frame prefab house India"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Log Homes (sibling MCAT 32367) and Log Cabin (sibling MCAT 108654) carve out the log-construction sub-segment; enhanced names and alt names must not position this MCAT as exclusively a log home or log cabin product — terms like 'log home' and 'log cabin' are retained only as secondary alt-name entries, not as primary enhanced name tokens.",
+    "Prefabricated Wooden House (sibling MCAT 88198) is a near-identical sibling; enhanced names must not replicate its exact name — 'Prefabricated Wooden House' as a standalone four-word phrase is blocked from enhanced_name_4w to avoid direct collision.",
+    "Portable House (sibling MCAT 88195), Portable Resort (sibling MCAT 183544), and Portable Huts (sibling MCAT 164685) carve out the relocatable/portable buyer segment; enhanced names must not use 'portable' as a descriptor, as that buyer segment (temporary, relocatable structures) is incompatible with the permanent residential and resort-installation buyer persona of this MCAT.",
+    "Bamboo Huts (sibling MCAT 141758) carves out the bamboo-material sub-segment; no bamboo-specific terms are introduced into enhanced names or alt names.",
+    "Bunkhouses, MS Bunkhouse, Prefab Steel Bunk House, and Bunk House Office siblings carve out the labour/worker accommodation buyer segment (industrial site operators, contractors housing workers); enhanced names must not use 'bunkhouse' or signal worker-camp accommodation, as that buyer persona is incompatible with the residential/resort buyer of this MCAT."
+  ],
+  "segment_contamination_disclaimer": null
+}
