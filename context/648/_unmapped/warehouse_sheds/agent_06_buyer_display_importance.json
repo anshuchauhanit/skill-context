@@ -1,0 +1,45 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation between PEB portal frame, conventional MS truss, insulated sandwich panel, and tin shed sub-types — buyers use the listing image to identify structure type before reading any text. Wrong structure type shown = immediate skip regardless of specs or price."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Span width, structure type, and cladding material are primary shortlisting gates — a seller who cannot deliver the required clear span or structure type is eliminated before any other consideration. Listings without these specs cannot be evaluated for a capital construction project."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant consumer-facing brand with buyer recall in this category — market is fragmented across regional PEB fabricators and contractors; buyers search by spec, project portfolio, and IS compliance, not manufacturer brand name.",
+      "reason": "Warehouse shed procurement is a high-value construction project — buyers evaluate fabricator credentials, IS 800:2007 compliance, past project portfolio, turnkey capability, and erection track record during vendor selection. Company identity is a significant trust signal but evaluated after spec shortlisting."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Per sq ft rate varies substantially with span width, structure type, and cladding specification — price is only comparable after spec equivalence is confirmed. Indian buyers are price-aggressive and use listed rates as a budget entry point, but final price is always negotiated for large projects."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Some sellers quote per project (lump sum) for large turnkey contracts — per sq ft vs per project creates real price comparison confusion. Per sq ft is the dominant and preferred unit and must be shown alongside price.",
+      "reason": "Price cannot be compared across listings without knowing whether the rate is per sq ft or per project (lump sum). This ambiguity is a documented market reality in Indian warehouse shed procurement and materially affects buyer price interpretation."
+    }
+  ]
+}
