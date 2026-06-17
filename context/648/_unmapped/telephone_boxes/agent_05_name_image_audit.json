@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "suboptimal",
+    "reason": "The name 'Telephone Boxes' is an ambiguous umbrella term that attracts both telecom distribution enclosures (primary segment: MDF/DP/Krone boxes) and telephone booth kiosks; Agent 3 alt_names and market_context confirm 'Telephone Distribution Box' is the dominant B2B trade term for the primary segment.",
+    "suggested_name": "Telephone Distribution Box"
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": false,
+    "improvement_potential": "poor",
+    "reason": [
+      "The thumbnail shows a decorative miniature replica of a British red telephone booth — a collectible/novelty item that is entirely unrelated to the primary segment (MDF/DP/Krone telecom cable distribution enclosures).",
+      "This image actively misleads B2B buyers and sellers: it represents neither the primary segment (telecom distribution boxes) nor even a functional telephone booth kiosk, making it a critical misrepresentation for this MCAT."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A wall-mounted mild steel telephone distribution box (MDF/DP box) with hinged front door open, showing internal Krone LSA disconnection modules and terminated telephone cable pairs, grey powder-coated finish, clean white studio background, front-facing three-quarter view, bright even lighting, sharp product photography style, no text overlays, no people.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
