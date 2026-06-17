@@ -1,0 +1,183 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual sub-type variation between security cabins, site offices, accommodation blocks, and toilet cabins — buyers use the image to identify cabin type and assess build quality before reading any text. Wrong type or poor finish = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Size (dimensions), built type, and panel thickness are non-interchangeable shortlisting criteria — a 6x4 ft security cabin cannot substitute for a 20x10 ft site office. Listings without these specs cannot be evaluated or priced."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Indian B2B buyers compare per-sq-ft and per-piece rates aggressively across regional fabricators. Price changes substantially with size, built type, and panel thickness — buyers discover and compare across spec tiers during search, making price a primary decision lever after visual and spec confirmation."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Small standard security and guard cabins are quoted per piece; mid-size and larger office and accommodation cabins are quoted per sq ft. Unit must be shown alongside price to prevent comparison confusion across these two quoting conventions.",
+      "reason": "Per piece vs per sq ft is a real market ambiguity — price cannot be compared across listings without knowing the unit. Buyers comparing a per-piece security cabin quote against a per-sq-ft office cabin quote will misread value without unit clarity."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant brand with buyer recall in this category — siblings are material/type-based (FRP Cabin, MS Porta Cabin) and the market is fragmented across regional fabricators; buyers search by spec, size, and price, not manufacturer name.",
+      "reason": "Manufacturer track record, installation capability, and project references matter for larger orders and government/defence procurement, but company is not a first-look signal — specs and price drive initial shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Built Type",
+        "reason": "Defines what the cabin IS (security vs office vs accommodation vs toilet) — non-interchangeable across buyer requirements and drives the entire configuration, fittings, and price tier."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Size",
+        "reason": "Floor area (from 4x4 ft to 40x10 ft) directly multiplies material, labour, and transport cost — the largest single price driver after built type, and non-interchangeable across site space constraints."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Features",
+      "Flooring Type",
+      "Frame Material",
+      "Interior Wall Material",
+      "Panel Insulation Material",
+      "Size",
+      "Wall Panel Thickness"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roof Panel Thickness",
+        "why_important": "Roof and wall panel thicknesses are specified separately in Indian prefab practice — roof thickness affects thermal performance, structural load rating, and compliance with project specifications, and buyers in oil and gas or defence applications specify it independently.",
+        "source": "both",
+        "example_values": [
+          "40 mm",
+          "60 mm",
+          "80 mm",
+          "100 mm"
+        ]
+      },
+      {
+        "spec_name": "Exterior Skin / Cladding Material",
+        "why_important": "PPGI vs FRP exterior skin is a primary material differentiator in the Indian PUF cabin market — FRP commands a significant price premium and is preferred in coastal, chemical, and high-humidity environments where steel corrosion is a concern.",
+        "source": "both",
+        "example_values": [
+          "PPGI Sheet",
+          "FRP",
+          "GI Sheet",
+          "Colour Coated Steel"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Width",
+        "reason": "Combined with Length, Width defines the cabin footprint — sellers cannot determine material quantity, structural configuration, or price without both dimensions.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Completes the cabin footprint definition alongside Width — sellers need both dimensions to quote accurately on material, fabrication, and transport.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Built Type / Cabin Use",
+        "why_important": "Sellers need to know the intended use (security, site office, accommodation, toilet) to configure fittings, internal layout, compliance requirements, and price — a toilet cabin and a site office of identical dimensions are entirely different products.",
+        "source": "both",
+        "example_values": [
+          "Security Cabin",
+          "Site Office",
+          "Accommodation Cabin",
+          "Toilet Cabin"
+        ],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Security Cabin",
+          "Site Office",
+          "Accommodation Cabin",
+          "Toilet Cabin"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Built Type / Cabin Use",
+      "option_value": "Security Cabin",
+      "id": "spec_1",
+      "prompt_for_generation": "Exterior view of a small PUF insulated security guard cabin, approximately 6x4 ft, PPGI colour-coated steel panels in light grey or cream, single door with sliding window, placed on a flat surface, clean white background, natural daylight, no branding, sharp edges visible.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type / Cabin Use",
+      "option_value": "Site Office",
+      "id": "spec_2",
+      "prompt_for_generation": "Exterior view of a PUF insulated portable site office cabin, approximately 20x10 ft, PPGI colour-coated steel sandwich panels in white or light blue, two windows and a door with steps, placed on a construction site ground, natural daylight, no branding, professional finish clearly visible.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type / Cabin Use",
+      "option_value": "Accommodation Cabin",
+      "id": "spec_3",
+      "prompt_for_generation": "Exterior view of a PUF insulated labour accommodation cabin or bunk house, approximately 20x8 ft or larger, PPGI steel sandwich panels, multiple windows along the side wall, single entry door, placed on open ground, natural daylight, no branding, showing residential-scale structure clearly.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Built Type / Cabin Use",
+      "option_value": "Toilet Cabin",
+      "id": "spec_4",
+      "prompt_for_generation": "Exterior view of a compact PUF insulated portable toilet cabin, approximately 4x4 ft or 6x4 ft, PPGI or FRP panels in white or light grey, single door with ventilation louvre, placed on flat ground, clean white background, natural daylight, no branding, hygienic finish clearly visible.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
