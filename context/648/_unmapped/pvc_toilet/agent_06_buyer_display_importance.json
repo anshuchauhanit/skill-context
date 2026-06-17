@@ -1,0 +1,354 @@
+I'll work through this systematically following the agent's steps.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Construction contractor or government/municipal procurement officer buying portable sanitation units for a site or programme.
+
+**Journey:**
+1. **Image first** — scans listing grid to confirm it's a PVC cabin (not FRP, MS, or mobile van). Visual sub-type variation is high: single cabin vs multi-block, Indian vs Western style, colour, size. Image immediately communicates product class and quality impression.
+2. **Specification next** — checks Toilet Type (Indian/Western/Multi-seater), No. of Seats, and Tank Capacity to match procurement requirement. These are non-negotiable gates.
+3. **Price** — Indian B2B buyers are price-aggressive. After spec confirmation, price comparison across sellers is active. Bulk government tenders are price-driven.
+4. **Company** — for large government/institutional orders, manufacturer credibility, GST registration, and supply track record matter. For smaller contractor purchases, less critical.
+5. **Unit** — always per piece. No buyer ever questions this for a complete cabin unit.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — visual sub-type variation is significant; cabin style, size, and build quality are all communicated visually.
+- **Specification:** High — Toilet Type and No. of Seats are non-interchangeable procurement requirements.
+- **Price:** High — commoditised mid-market with price-aggressive Indian buyers; government tenders are explicitly price-comparative.
+- **Company:** Medium — manufacturer credibility matters for institutional/government buyers; less so for small contractor purchases.
+- **Unit:** Low — always per piece; no buyer confusion possible.
+
+---
+
+## Step 3 — Apply Decision Questions
+
+**Image:** High. Single cabin vs multi-block, Indian vs Western pan, colour, and structural quality are all visually communicated. Wrong type = immediate skip.
+
+**Specification:** High. Toilet Seat Type (Indian/Western) and No. of Seats are the primary shortlisting gates — a buyer needing 8-seat Indian-style cannot substitute a 4-seat Western unit.
+
+**Price:** High. Buyers arrive knowing their spec tier (Indian squat, X seats) and compare prices within that tier across sellers. `price_display_type = "commodity price"` — buyers compare within known spec tier, not across tiers. India price sensitivity is high; government tenders are explicitly price-comparative.
+
+**Cross-dimension consistency check:**
+- Buyers arrive knowing their spec → `commodity price` ✓ (not spec-driven price)
+- Unit Low → price can be High independently ✓ (no contradiction — unit is implied, price is still compared)
+- Unit show: false → no per-unit confusion risk ✓
+- Specification High → show_on_listing: true ✓
+
+**Unit:** Low / show: false. Always per piece for a complete cabin unit. No buyer ever questions this.
+
+**Company:** Medium. Government and institutional buyers evaluate manufacturer track record, GST compliance, and supply capacity. For smaller contractor purchases, specs and price dominate. No dominant brand with buyer recall — market is fragmented (Modcon, JRMS, various regional fabricators). Sintex is a recognised name but primarily for PUF-based units.
+
+`brand_important`: No — buyers search by spec (Indian/Western, seat count, size), not by manufacturer name. Sintex is a trade name but not a brand buyers actively search for in PVC toilet specifically.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "High visual variation across sub-types — single cabin vs multi-block, Indian vs Western pan, colour, and structural build quality are all communicated by the image. Wrong product type = immediate skip without reading any text."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Toilet Seat Type (Indian/Western) and No. of Seats are non-interchangeable procurement requirements — a buyer needing 8-seat Indian-style cannot evaluate a 4-seat Western listing. Specs are the primary shortlisting gate after image."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "commodity price",
+    "reason": "Buyers arrive knowing their spec tier and actively compare prices across sellers within that tier. Government tenders are explicitly price-comparative; Indian contractor buyers are price-aggressive. Price is a primary decision lever once spec matches."
+  },
+  {
+    "rank": 4,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "Market is fragmented across regional fabricators with no dominant brand buyers actively search by name; Sintex is a trade name for PUF-based units, not PVC-specific.",
+    "reason": "Government and institutional buyers evaluate manufacturer credibility, GST compliance, and supply track record during vendor selection; for smaller contractor purchases, specs and price dominate."
+  },
+  {
+    "rank": 5,
+    "dimension": "unit",
+    "level": "Low",
+    "show": false,
+    "canonical_unit": "per piece",
+    "unit_note": "Multi-compartment blocks are also quoted per piece (the entire block as one unit). No sub-segment uses a different unit — per piece is universal and entirely implied.",
+    "reason": "A complete prefabricated cabin unit is always sold per piece. No buyer ever questions the unit for this product."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Usage**: application/use-case tag (Construction Site, Event, School, etc.) — describes what it's used FOR. **Discard.**
+- **Features**: multi-value accessory checklist (Exhaust Fan, Mirror, Wash Basin, LED Light) — describes included accessories, not a configurator that drives price independently. **Discard** (accessory bundles are negotiated, not a primary price driver).
+- **Wall Material**: all values are PVC variants (PVC Foam Board, PVC Board, PVC Panel, PVC And MS Frame) — within a PVC Toilet MCAT, this is a minor material sub-variant, not a primary configurator. **Deprioritise.**
+
+**Remaining after elimination:** Flooring, Mounting Type, No. of Seats, Tank Capacity, Toilet Seat, Toilet Type.
+
+**Redundancy check:**
+- **Toilet Type** (Multi Seater, Indian, Western, Single Seater, Urinal Block) and **Toilet Seat** (Indian Seat, Western Seat, Indian And Western, Urinal Only) — these are correlated. Toilet Type is more fundamental (captures both style AND seating configuration). Toilet Seat is derivative. **Keep Toilet Type; deprioritise Toilet Seat.**
+- **No. of Seats** and **Toilet Type** (Multi Seater / Single Seater) — correlated but complementary. No. of Seats gives the precise count; Toilet Type gives the style. Both are independently important. **Keep both.**
+
+**Remaining candidates:** Flooring, Mounting Type, No. of Seats, Tank Capacity, Toilet Type.
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Toilet Type** (Indian / Western / Multi Seater / Single Seater / Urinal Block):
+- Defines WHAT the product IS. Indian vs Western pan = non-interchangeable; a buyer cannot use one in place of the other. Single vs Multi Seater = entirely different product scale and price. This is the primary product class separator.
+- Price delta: Single-seat Indian cabin vs 8-seat multi-block = massive price difference. Even within single-seat, Indian vs Western carries a price difference.
+- **Rank 1.**
+
+**No. of Seats** (1 / 2 / 3 / 4 / 6 / 8 Seats):
+- Within a given Toilet Type, seat count is the primary scale/price driver. A 4-seat block vs 8-seat block = approximately 2x price. Non-interchangeable for procurement requirements (government tenders specify seat count).
+- **Rank 2.**
+
+*(Tank Capacity is important but largely follows from seat count — larger blocks have larger tanks. Mounting Type affects deployment but is a secondary configurator. No. of Seats has a larger independent price delta.)*
+
+### Phase 3 — Missing Spec Audit
+
+**specs_in_seller_list (verbatim):** Features, Flooring, Mounting Type, No Of Seats, Tank Capacity, Toilet Seat, Toilet Type, Usage, Wall Material
+
+**Candidate gaps from Agent 3 vision_output + LLM world knowledge:**
+
+1. **Cabin Size / Dimensions** (e.g., 3×3×7 ft, 4×4×8 ft): Agent 3 market_context explicitly mentions standard sizes ranging from 3×3×7 ft to 4×4×8.6 ft as a key differentiator. Not present in spec list by name or semantic equivalent. Buyers and procurement officers specify cabin footprint for site planning. **Confirmed missing.**
+
+2. **Toilet Style** — already covered by Toilet Type. ✓ Not missing.
+
+3. **Material/Construction type** — Wall Material is in the list. ✓ Not missing.
+
+4. **Bio-toilet / Biodigester** — Agent 3 lists PVC Bio-Toilet Cabin as a product type. However, Bio Toilet is a sibling MCAT (mcat_id: 119106) — this is a contamination risk, not a missing spec for PVC Toilet. **Exclude.**
+
+5. **Colour** — Agent 3 mentions customisation options for colour. Not in spec list. However, colour for a portable toilet cabin is a secondary preference (buyers don't shortlist by colour; it's a post-selection customisation). Does not meet the top-10 importance threshold. **Exclude.**
+
+6. **Water Tank Capacity** — already present as "Tank Capacity." ✓ Not missing.
+
+**Confirmed missing specs:**
+
+- **Cabin Size / Dimensions**: Agent 3 market_context identifies standard size ranges as a key differentiator; buyers need footprint dimensions for site planning and installation space allocation. Source: both.
+
+### Phase 4 — Coverage Verdict
+
+1 missing spec → **partial**
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+Provided buyer specs: Toilet Seat Type (Indian / Western), Length (3–6 ft), Width (3–6 ft).
+
+**Toilet Seat Type** (Indian / Western):
+- Non-interchangeable requirement. A seller supplying only Indian-style pans cannot fulfil a Western-style requirement. This is the single most important routing signal — it immediately eliminates half the seller pool.
+- **Rank 1.**
+
+**Length** (3 / 3.5 / 4 / 5 / 6 ft):
+- Cabin footprint determines whether the unit fits the available site space. Sellers need this to confirm they can supply the required size. Also drives price (larger cabin = higher price).
+- **Rank 2.**
+
+*(Width carries similar information to Length — together they define footprint. But Length is the primary dimension buyers specify first. Width is redundant once Length is known for standard cabin proportions. Length is the better single representative.)*
+
+### Phase 2 — Thumbnail Eligibility
+
+**Toilet Seat Type** (Indian / Western):
+- Indian squat pan vs Western commode are visually distinct product types. A buyer scanning thumbnails can immediately identify which style is shown.
+- **Thumbnail eligible: true.** Options: ["Indian", "Western"]
+
+**Length** (3 ft / 3.5 ft / 4 ft / 5 ft / 6 ft):
+- Dimensional spec — no meaningful visual difference between a 3 ft and 4 ft cabin in a thumbnail image.
+- **Thumbnail eligible: false.**
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Provided buyer specs:** Toilet Seat Type, Length, Width.
+
+**Candidate gaps:**
+
+1. **No. of Seats / Compartments**: Agent 3 market_context and seller spec list both identify seat count as a primary procurement requirement (government tenders specify seat count; multi-compartment blocks are a distinct product type). Not present in buyer spec list. Sellers need this to determine whether to respond with a single cabin or a multi-block unit — fundamentally different products at different price points. Source: both. **Confirmed missing.**
+   - More important than Length (seat count defines the product scale; length is secondary). `would_be_rank: 2` — should slot at rank 2, pushing Length to rank 3.
+   - Thumbnail eligibility: seat count is a numeric spec — no meaningful visual difference between "1 seat" and "4 seats" as a thumbnail. `thumbnail_eligible: false`.
+
+2. **Usage / Application**: Agent 3 identifies distinct buyer segments (construction site, public event, rural sanitation). However, usage is a post-connection discussion point — sellers can supply to any application. Does not meet the "seller needs this to respond accurately" threshold. **Exclude.**
+
+3. **Mounting Type** (Skid / Free Standing / Trolley): Relevant for deployment but typically resolved post-connection. Sellers can supply any mounting type; this doesn't gate their ability to respond. **Exclude.**
+
+**Coverage verdict:** 1 missing spec → **partial**
+
+### Phase 4 — Image Upload Assessment
+
+Standard spec values (Toilet Seat Type, Length, seat count) adequately capture the buyer's requirement. PVC toilet cabins are catalogue products with defined configurations. Sellers can respond accurately from text specs alone.
+
+**Image upload recommended: false.**
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+Thumbnail-eligible specs from buyer_spec_audit:
+- `top_rfq_specs` rank 1: Toilet Seat Type (`thumbnail_eligible: true`, options: ["Indian", "Western"])
+- `missing_important_specs`: No. of Seats (`thumbnail_eligible: false`) — no prompts needed.
+
+Generate 2 prompts (one per Toilet Seat Type option):
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation across sub-types — single cabin vs multi-block, Indian squat vs Western commode, colour, and structural build quality are all communicated by the image. Wrong product type = immediate skip without reading any text."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Toilet Seat Type (Indian/Western) and No. of Seats are non-interchangeable procurement requirements — a buyer needing an 8-seat Indian-style block cannot evaluate a 4-seat Western listing. Specs are the primary shortlisting gate after image confirmation."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "commodity price",
+      "reason": "Buyers arrive knowing their spec tier (toilet style, seat count) and actively compare prices across sellers within that tier. Government tenders are explicitly price-comparative; Indian contractor buyers are price-aggressive, making price a primary decision lever once spec matches."
+    },
+    {
+      "rank": 4,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "Market is fragmented across regional fabricators with no dominant brand buyers actively search by name in PVC toilet specifically; Sintex is associated with PUF-based units, not PVC cabins.",
+      "reason": "Government and institutional buyers evaluate manufacturer credibility, GST compliance, and supply track record during vendor selection; for smaller contractor purchases, specs and price dominate over seller identity."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "Low",
+      "show": false,
+      "canonical_unit": "per piece",
+      "unit_note": "Multi-compartment blocks are also quoted per piece (the entire block assembly as one unit). Per piece is universal across all sub-types and entirely implied — no buyer ever questions it.",
+      "reason": "A complete prefabricated cabin unit is always sold per piece regardless of configuration. No buyer confusion is possible."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Toilet Type",
+        "reason": "Defines the primary product class — Indian vs Western style and single vs multi-seater are non-interchangeable configurations with large price deltas between them."
+      },
+      {
+        "rank": 2,
+        "spec_name": "No Of Seats",
+        "reason": "Within a given toilet type, seat count is the primary scale and price driver — a 4-seat block vs 8-seat block carries approximately double the price and is a non-substitutable procurement specification."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Features",
+      "Flooring",
+      "Mounting Type",
+      "No Of Seats",
+      "Tank Capacity",
+      "Toilet Seat",
+      "Toilet Type",
+      "Usage",
+      "Wall Material"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Cabin Size / Dimensions",
+        "why_important": "Buyers and procurement officers specify cabin footprint (e.g., 3×3×7 ft, 4×4×8.6 ft) for site space planning and installation clearance; sellers need this to confirm they supply the required size.",
+        "source": "both",
+        "example_values": ["3x3x7 ft", "3.5x3.5x7.5 ft", "4x4x8 ft", "4x4x8.6 ft"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Toilet Seat Type",
+        "reason": "Indian squat vs Western commode are non-interchangeable — this single spec immediately routes the RFQ to sellers who can supply the required style and eliminates those who cannot.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Indian", "Western"]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Length",
+        "reason": "Cabin footprint length determines site fit and drives price; sellers need this to confirm they supply the required cabin size.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "No. of Seats",
+        "why_important": "Seat count defines whether the buyer needs a single cabin or a multi-compartment block — fundamentally different products at different price points that sellers must distinguish to respond accurately.",
+        "source": "both",
+        "example_values": ["1 Seat", "2 Seats", "4 Seats", "8 Seats"],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Indian",
+      "id": "spec_1",
+      "prompt_for_generation": "Prefabricated PVC portable toilet cabin interior showing Indian squat-style pan (squatting plate) at floor level, white PVC walls, overhead water tank visible, clean and well-lit interior, straight-on view, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Toilet Seat Type",
+      "option_value": "Western",
+      "id": "spec_2",
+      "prompt_for_generation": "Prefabricated PVC portable toilet cabin interior showing Western-style commode (WC seat with lid) mounted on floor, white PVC walls, overhead water tank visible, clean and well-lit interior, straight-on view, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
