@@ -1,0 +1,64 @@
+{
+  "enhanced_name_4w": "PEB Steel Structure Shed",
+  "enhanced_name_5w": "Prefab PEB Industrial Steel Shed",
+  "enhanced_name_6w": "Pre-Engineered Steel Shed for Industry",
+  "enhanced_name_long": "Pre-Engineered Building (PEB) Steel Structure Sheds for Industrial, Warehouse, Factory and Agricultural Use",
+  "alt_names": {
+    "primary_keywords": [
+      "PEB shed",
+      "prefabricated shed",
+      "PEB structural shed",
+      "pre-engineered building shed",
+      "steel structure shed",
+      "prefab shed",
+      "structural shed",
+      "factory shed",
+      "warehouse shed",
+      "industrial shed"
+    ],
+    "technical_synonyms": [
+      "Pre-Engineered Metal Building (PEMB)",
+      "pre-engineered steel building",
+      "metal building system",
+      "steel frame shed",
+      "built-up section shed",
+      "clear-span steel structure",
+      "portal frame shed",
+      "IS 2062 E250 steel shed"
+    ],
+    "trade_names": [
+      "EPACK Prefab shed",
+      "Kirby Building Systems",
+      "Zamil Steel shed",
+      "Interarch Building Products",
+      "Tata BlueScope Steel shed",
+      "JSW PEB shed"
+    ],
+    "hindi_terms": [
+      "lohe ka shed",
+      "prefab shed",
+      "chaddar de shed"
+    ],
+    "buyer_intent_queries": [
+      "PEB shed manufacturer in India",
+      "PEB structure for warehouse construction",
+      "steel structure shed for factory",
+      "insulated PEB shed with rock wool panels",
+      "prefabricated shed for goat farm",
+      "prefabricated marriage hall shed construction",
+      "small PEB shed for workshop",
+      "pre-engineered building shed supply and erect",
+      "multi-bay PEB shed for manufacturing unit",
+      "clear-span prefabricated shed for storage"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Portable/temporary shelter buyers (camping, disaster relief, military field use) — sibling MCATs 'Portable Shelters', 'Military Shelters', 'Dome Shelters' serve this segment; names implying portability, temporary deployment, or non-structural use are blocked.",
+    "Livestock-specific shed buyers (poultry, cattle) — sibling MCATs 'Poultry Sheds' and 'Cattle Sheds' carve out these sub-segments; names exclusively targeting poultry or cattle housing are blocked.",
+    "Specialised application shed buyers (aircraft hangars, telecom shelters, swimming pool covers, auditorium roofing, badminton court roofing) — each has a dedicated sibling MCAT; names exclusively targeting these applications are blocked.",
+    "Tin/light-gauge corrugated sheet shed buyers — sibling MCAT 'Tin Shed' carves out this lower-spec segment; the Hindi term 'tin shed' is retained only as a buyer search term but blocked from enhanced name candidates.",
+    "Pure fabrication-service buyers (no supply of structure) — sibling MCAT 'PEB Structures Fabrication' covers fabrication-only contracts; names implying fabrication service only are blocked."
+  ],
+  "segment_contamination_disclaimer": null
+}
