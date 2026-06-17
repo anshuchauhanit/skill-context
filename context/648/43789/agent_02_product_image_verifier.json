@@ -1,0 +1,1211 @@
+{
+  "input_data_absent": false,
+  "verified_good_products": [
+    {
+      "item_id": "133498226",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Wooden Porta Cabin",
+      "description": "Nature Homes was created in 2013, with a vision to create turnkey wooden structures that are capable of meeting the modern dwelling requirements. We are the Wooden Houses Manufacturer and Supplier in Delhi, India primarily engaged in building residential houses, resorts, and farmhouses. To have clarity in the big picture, we put effort right from the sketch board, prototype design to realizing the turnkey structure of the buildings. ",
+      "specs": {
+        "raw": "Built Type:Prefab, Design:Modern, Material:Wood, Model No.:NH 06, Surface Finish:Paint Coted, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2021/11/NW/PI/PP/7708592/wooden-porta-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/wooden-porta cabin-20438974862.html",
+      "image_file": "133498226.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a fully assembled prefabricated wooden cottage with horizontal timber cladding, covered veranda, and landscaped resort setting — clearly a wooden cabin product."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names a wooden portable cabin, matching the MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm prefab wood construction; 'Office' application is a variation, not an identity mismatch."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Description explicitly mentions wooden houses, resorts, and farmhouses as applications, directly matching MCAT scope."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Product is a prefabricated wooden cabin used for residential/resort applications, fully matching MCAT scope."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description mentions 'Wooden Houses Manufacturer and Supplier in Delhi, India' — contains city name 'Delhi' and business descriptor."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'Wooden Houses Manufacturer and Supplier in Delhi, India' — city name 'Delhi' and business role descriptor present in product description."
+        }
+      ],
+      "verification_note": "Strong wooden cabin product with resort/residential application; P16 flagged for location/business text in description but does not affect category validity.",
+      "source_url": "https://www.indiamart.com/proddetail/wooden-porta cabin-20438974862.html"
+    },
+    {
+      "item_id": "54346599",
+      "pre_label": "good",
+      "verified_label": "good",
+      "override": false,
+      "title": "Portable Guard Cabin",
+      "description": "Portbale Guard cabin are available in <br />standard sizes of <br />3x3<br />4x4<br />6x4<br />6x6 <br />or can be cusotomised <br />these cabins are made of :<br />a: cement fibre baord<br />b: PVC profile <br />C: GI EPS insualted panels<br />D: Puf insualted panels <br /><br />and necessary acceroies like settee , counter , light , wheels etc can fiited with extra price. <br />The price in depending on all of the above factors .",
+      "specs": {
+        "raw": "Application:Construction Sites, Built Type:Modular, Material:Steel, Shape:Square, Size:As per requirement, Surface Treatment:Coated, Usage/Application:Guard Room"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/11/KG/OF/JP/1521004/portable-guard-cabin.JPG",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-guard cabin-7328353573.html",
+      "image_file": "54346599.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a compact green portable guard cabin with peaked roof, interior shelf, and wooden floor — a valid portable wooden cabin product."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names a portable guard cabin, a recognised product type within Wooden Cabins MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm modular guard room construction; material listed as steel, consistent with a portable cabin frame."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description details construction materials and size options for a portable guard cabin, consistent with MCAT scope even without explicit wood mention."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Portable guard cabin is a recognised product type within Wooden Cabins MCAT; steel/composite construction is common for this sub-type."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Security Cabins",
+        "reason": "Steel/composite guard cabin with no wood content is a closer fit for the 'Security Cabins' sibling MCAT."
+      },
+      "detected_problems": [],
+      "verification_note": "Valid portable guard cabin within MCAT scope; sibling routing candidate toward Security Cabins due to steel/composite construction with no wood content.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-guard cabin-7328353573.html"
+    }
+  ],
+  "verified_bad_products": [
+    {
+      "item_id": "155761317",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Container Homes",
+      "description": "8*40 Feet Hight with 1 BHK Set.Established in the year <b>2019,</b> we <b>\"Varnit Portable Cabin And Containors\"</b> are the leading <b>manufacturer</b> and <b>exporter</b> of a wide range of <b>Portable Office Cabin, Portable Security Cabin, Portable Shipping Container, Portable Labour Cottage, </b>etc. We are dedicated to constant improvement and upgradation which helps us to evolve in totally and assist to take our company on new heights.<br />",
+      "specs": {
+        "raw": "Built Type:Modular, Country of Origin:Made in India, Flooring:Wooden / Artificial, Is It Portable:Yes, Material:Wood, Place Of Origin:Pan India, Roof Type:metal, Usage/Application:Hotel / farm house"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2020/10/HB/YY/UL/11349347/container-homes.png",
+      "product_page_url": "https://www.indiamart.com/proddetail/container-homes-22665283933.html",
+      "image_file": "155761317.png",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a two-storey shipping container conversion with wood-clad exterior and spiral staircase — a container home, not a timber-frame wooden cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Title explicitly states 'Container Homes', a shipping-container-based product, not a wooden cabin."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Specs list 'Material:Wood' but description explicitly lists 'Portable Shipping Container' as a core product, and image confirms container construction."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "misleading",
+          "reason": "Description names 'Portable Shipping Container' as a core product offering, confirming this is a container-based structure, not a wooden cabin."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a shipping container conversion home, not a timber-frame or wood-clad prefabricated wooden cabin."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_category",
+          "title_vs_category",
+          "specs_vs_category",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Image shows a two-storey shipping container conversion, not a timber-frame wooden cabin.",
+          "Title explicitly names 'Container Homes', a container-based product outside this MCAT.",
+          "Specs reference metal roof and description lists 'Portable Shipping Container' as a product.",
+          "Description confirms company manufactures shipping containers, not wooden cabins."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description embeds company name 'Varnit Portable Cabin And Containors' in the product description text."
+        }
+      },
+      "correct_mcat_suggestion": "Office Container",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a two-storey shipping container conversion home, not a wooden cabin."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title reads 'Container Homes' — a container-based product explicitly outside Wooden Cabins MCAT."
+        },
+        {
+          "problem_code": "P09",
+          "problem_name": "Specs-Category Contradiction",
+          "evidence": "Specs list 'Roof Type:metal' and description references 'Portable Shipping Container', confirming non-wooden-cabin identity."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description lists 'Portable Shipping Container' as a primary product, confirming container-based identity outside this MCAT."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description embeds company name 'Varnit Portable Cabin And Containors' in product description text."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — product is a shipping container conversion home, not a wooden cabin; all dimensions confirm wrong MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/container-homes-22665283933.html"
+    },
+    {
+      "item_id": "258620299",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Wooden Cabins For SPA  Area",
+      "description": "These are the prefabricated wooden cabins for spa purpose.<b>Sri Ram Engineering </b>is the leading name of this domain and was successfully commenced in the year <b>1976.</b> Our company is a <b>Sole Proprietorship </b>based firm and engaged in <b>manufacturing</b> and <b>supplying </b>high quality range of <b>Roofing Structure</b> and<b> Commercial Shed.</b>",
+      "specs": {
+        "raw": "Base Structure:Steel, Bottom Frame:Steel, Built Type:Prefab, Color:Wooden Finish, Country of Origin:Made in India, Door Size:7' X 2.5' Feet, Durability:25 Years, Floor Type:Ceramic Tiles, I Deal In:New Only, Insulation Type:Glass Wool, Is It Folded:Non Folded, Material:Steel, Material Grade:IS, Model Name/Number:SPA, Shape:Rectangular, Surface Treatment:Poly Care, Usage/Application:SPA, Window Type:Aluminum Sliding window"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/9/343124352/ZZ/AZ/RC/4148700/wooden-cabins-for-spa-area.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/wooden-cabins for spa  area-2852402129833.html",
+      "image_file": "258620299.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a compact prefabricated wooden cabin with horizontal wood-panel cladding in a natural forest resort setting, clearly a wooden cabin product."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names wooden cabins with a spa application, which is a valid use case within MCAT scope."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "strong",
+          "reason": "Specs detail a steel-frame prefab cabin with wooden finish cladding, insulation, and SPA application — a recognised product type within MCAT scope."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description opens with 'prefabricated wooden cabins for spa purpose', confirming product identity, though company description mentions other products."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Steel-frame cabin with wooden finish cladding is a recognised product type within Wooden Cabins MCAT per market research."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs"
+        ],
+        "contradiction_reasons": [
+          "Title states 'Wooden Cabins' but specs explicitly list 'Material:Steel' and 'Base Structure:Steel', creating a material identity conflict even though 'Color:Wooden Finish' is noted."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Prefabricated Cabin",
+        "reason": "Steel-frame construction with wooden finish cladding overlaps with Prefabricated Cabin sibling MCAT which covers non-wood-primary prefab structures."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title reads 'Wooden Cabins' but specs explicitly state 'Material:Steel' and 'Base Structure:Steel', conflicting on primary material identity."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad due to title_vs_specs contradiction (title claims wooden, specs confirm steel frame); product is within MCAT scope but contradiction triggers bad label per override table.",
+      "source_url": "https://www.indiamart.com/proddetail/wooden-cabins for spa  area-2852402129833.html"
+    },
+    {
+      "item_id": "73469317",
+      "pre_label": "good",
+      "verified_label": "bad",
+      "override": true,
+      "title": "Prefabricated Toilets Cabin",
+      "description": "Owing to our expertise in this field, our firm is engaged in supplying an extensive array of <b>Prefabricated Toilets Cabin.</b><br />",
+      "specs": {
+        "raw": "Built Type:Prefab, Color:White, Material:Wood, No. Of Compartments:2, Shape:Cabinet, Type:Non AC"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2023/7/326606668/OJ/YT/EV/10036061/prefabricated-toilets-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/prefabricated-toilets cabin-10916442255.html",
+      "image_file": "73469317.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": false,
+          "quality": "bad_image",
+          "reason": "Image shows a white prefabricated two-compartment portable toilet unit with visible WC fixtures — not a wooden cabin."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Title explicitly names a toilet cabin, a sanitation product outside the Wooden Cabins MCAT."
+        },
+        "specs": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Specs confirm a 2-compartment prefab unit; the product is a toilet cabin, not a wooden habitable cabin."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "thin",
+          "reason": "Description confirms the product is a prefabricated toilet cabin, outside Wooden Cabins MCAT scope."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a prefabricated portable toilet unit, not a wooden habitable cabin — fundamentally different product type."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "photo_vs_category",
+          "title_vs_category",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Image shows a white two-compartment portable toilet unit, not a wooden habitable cabin.",
+          "Title explicitly names 'Prefabricated Toilets Cabin', a sanitation product outside this MCAT.",
+          "Description confirms the product is a prefabricated toilet cabin, not a wooden cabin."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P07",
+          "problem_name": "Photo-Category Contradiction",
+          "evidence": "Image shows a white two-compartment portable toilet unit with WC fixtures, not a wooden habitable cabin."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title reads 'Prefabricated Toilets Cabin' — a sanitation/toilet product explicitly outside Wooden Cabins MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description confirms 'Prefabricated Toilets Cabin' as the product, a sanitation unit outside this MCAT."
+        },
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Prefabricated Toilets Cabin' only — thin, with no material, size, or specification detail beyond product type name."
+        }
+      ],
+      "verification_note": "Pre-label good overridden to bad — product is a prefabricated toilet unit, not a wooden cabin; all dimensions confirm wrong MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/prefabricated-toilets cabin-10916442255.html"
+    },
+    {
+      "item_id": "30850144",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Portable Cabins",
+      "description": "<p>We are a trusted name of the industry, which is engaged in offering a comprehensive range of superior-grade <b>Portable Cabins</b>. These portable cabins are manufactured by our professionals using premium quality raw material and advance technology. Easy to move, these portable cabins are highly acclaimed among the clients for their rugged construction. We are offering these portable cabins in various sizes and other specifications.</p>",
+      "specs": {
+        "raw": "Material:Wood"
+      },
+      "image_url": "http://3.imimg.com/data3/CB/RF/MY-2038384/portable-cabins.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/portable-cabins-4102912773.html",
+      "image_file": "30850144.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a small prefabricated portable cabin with panel walls and corrugated metal roof in an outdoor setting — a portable cabin product within MCAT scope."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names 'Portable Cabins' correctly but provides no material, size, or application detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs contain only 'Material:Wood' — correct but extremely sparse."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic marketing text for portable cabins with no specific dimensions, materials, or applications."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Portable cabin is a recognised product type within Wooden Cabins MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Portable Cabin",
+        "reason": "Generic portable cabin with no wood-specific attributes is a closer fit for the 'Portable Cabin' sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Portable Cabins' only — missing material type, size, and application; no differentiating attributes present."
+        },
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only 'Material:Wood' — a single entry with no dimensions, build type, or application specifications."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — all text dimensions are thin; override to good not triggered as text quality does not reach 'strong' threshold.",
+      "source_url": "https://www.indiamart.com/proddetail/portable-cabins-4102912773.html"
+    },
+    {
+      "item_id": "56981927",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Modular Multi Storey Container Office",
+      "description": "We are a renowned Manufacturer and Supplier of wide array of Portable Cabin, Eco House, Guard Room, Prefab Lodge, Storage Container, Designer Container, Army Bunk House, Office Workstation, Containerized Office, Container Site Office, etc. These products are designed and constructed using quality approved raw material and advanced technology. Owing to features such as robust construction, high strength, portability, resistant to harsh weather conditions, excellent ventilation and easy installation, these products are highly acknowledged and demanded in market.",
+      "specs": {
+        "raw": "Brand:Asap, Built Type:Modular, Country of Origin:Made in India, I Deal In:New Only, Material:Wood, Use:Shop"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/6/431124960/NK/WD/WT/5765494/modular-multi-storey-container-office.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/modular-multi storey container office-7737562212.html",
+      "image_file": "56981927.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows the interior of a modular prefab office with wood-finish panels and workstations — interior-only shot makes product type ambiguous."
+        },
+        "title": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Title explicitly names a 'Container Office', a container-based product outside the Wooden Cabins MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs list Material:Wood and modular construction, which could fit wooden cabin scope, but title contradicts this."
+        },
+        "description": {
+          "category_fit": false,
+          "quality": "acceptable",
+          "reason": "Description explicitly lists 'Storage Container', 'Designer Container', 'Containerized Office', and 'Container Site Office' as primary products, confirming container-based identity."
+        },
+        "category": {
+          "valid": false,
+          "reason": "Product is a modular container office, not a timber-frame or wood-clad wooden cabin — container construction is a fundamentally different product identity."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": true,
+        "contradiction_pairs": [
+          "title_vs_specs",
+          "title_vs_category",
+          "description_vs_category"
+        ],
+        "contradiction_reasons": [
+          "Title states 'Container Office' but specs list 'Material:Wood', creating a product identity conflict.",
+          "Title names a container office product outside the Wooden Cabins MCAT.",
+          "Description explicitly lists container-based products (Containerized Office, Container Site Office) confirming non-wooden identity."
+        ]
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": "Office Container",
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P04",
+          "problem_name": "Title-Specs Contradiction",
+          "evidence": "Title states 'Modular Multi Storey Container Office' but specs list 'Material:Wood', creating an explicit product identity conflict."
+        },
+        {
+          "problem_code": "P08",
+          "problem_name": "Title-Category Contradiction",
+          "evidence": "Title reads 'Modular Multi Storey Container Office' — a container-based product explicitly outside Wooden Cabins MCAT."
+        },
+        {
+          "problem_code": "P10",
+          "problem_name": "Description-Category Contradiction",
+          "evidence": "Description lists 'Storage Container', 'Containerized Office', and 'Container Site Office' as primary products, confirming container identity outside this MCAT."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the interior of the cabin — exterior structure not visible, making product type ambiguous from image alone."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — product is a container office; title and description confirm container identity outside Wooden Cabins MCAT.",
+      "source_url": "https://www.indiamart.com/proddetail/modular-multi storey container office-7737562212.html"
+    },
+    {
+      "item_id": "77244676",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Accommodation Portable Cabins",
+      "description": "<p dir=\"ltr\"> We are one of the well-distinguished companies in the market that is into offering <b>Portable Cabin </b><br>\n<b>Features:</b><br>\nHigh strength<br>\nAbrasion resistance<br>\nAttractive design</p>",
+      "specs": {
+        "raw": "Built Type:Panel Build, Color:Brown, Material:Wood, Shape:Rectangle, Size:20/10, Surface Treatment:Paint Coated, Usage/Application:Office"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2022/2/DA/IS/ZC/3449089/custom-built-portable-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/accommodation-portable cabins-11567367148.html",
+      "image_file": "77244676.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows the interior of an accommodation portable cabin with beds and wood-finish panels — interior-only shot limits full product assessment."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names accommodation portable cabins correctly but provides no material, size, or specification detail."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm wood material, panel build construction, and size — consistent with a wooden portable cabin."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic marketing text for a portable cabin with no specific wooden cabin attributes."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Accommodation portable cabin with wood material and panel build is a recognised product type within Wooden Cabins MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Prefabricated Accommodation",
+        "reason": "Accommodation-use portable cabin with bunk/bed interior is a close fit for the 'Prefabricated Accommodation' sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Accommodation Portable Cabins' only — missing material type, dimensions, and construction method."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the interior bedroom of the cabin — exterior structure, dimensions, and construction method not visible."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — thin title and interior-only image prevent override; product is valid for MCAT but listing quality is insufficient.",
+      "source_url": "https://www.indiamart.com/proddetail/accommodation-portable cabins-11567367148.html"
+    },
+    {
+      "item_id": "78689098",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Bunkhouse Dining Room",
+      "description": "We are the renowned entity involved in offering quality approved range of <b>Bunkhouse Dining Room.</b>Constructed in different configurations to suit the requirements of our clients, this product is in high demand for its strong and durable nature. This product is manufactured as per the set industry standards using the best quality steel in sync with the international standards and is known for compact design, perfect finish and corrosion resistance. <br /><br /><b>Features:</b><br /><br /><ul><li>Low noise level</li><li>Smooth functioning</li><li>Easy maintenance</li></ul><p>&nbsp;</p><p>We welcome queries from <b>South India region including Visakhapatnam, Andhra Pradesh, Karnataka, Kerala and Tamil Nadu &amp; cities like Bangalore, Chennai and Hyderabad.</b></p>",
+      "specs": {
+        "raw": "Built Type:Modular, Feature:Easily Assembled, Material:Film, Use:House"
+      },
+      "image_url": "http://5.imimg.com/data5/SELLER/Default/2024/10/457801723/TB/XT/GO/11638895/bunkhouse-dining-room.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/bunkhouse-dining room-11775098748.html",
+      "image_file": "78689098.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "thin_image",
+          "reason": "Image shows the furnished interior of a modular bunkhouse dining room with kitchen counter and dining table — interior-only shot, exterior structure not visible."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Title names a bunkhouse dining room — a component/room of a bunkhouse, not a complete wooden cabin unit."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Specs list 'Material:Film' which is unclear, but modular construction and house use are consistent with MCAT scope."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Description confirms a modular bunkhouse dining room product, consistent with MCAT scope."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Bunkhouse dining room is a component of a wooden bunkhouse/staff dormitory, a recognised product type within Wooden Cabins MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": true,
+          "reason": "Description explicitly lists 'South India region including Visakhapatnam, Andhra Pradesh, Karnataka, Kerala and Tamil Nadu & cities like Bangalore, Chennai and Hyderabad' — multiple location names present."
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": false,
+        "sibling_mcat_name": null,
+        "reason": null
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P12",
+          "problem_name": "Title Quality Problem",
+          "evidence": "Title reads 'Bunkhouse Dining Room' — names a room component rather than a complete cabin unit, missing product type, material, and size."
+        },
+        {
+          "problem_code": "P14",
+          "problem_name": "Photo Quality Problem",
+          "evidence": "Image shows only the interior dining area of the bunkhouse — exterior structure, dimensions, and construction method not visible."
+        },
+        {
+          "problem_code": "P16",
+          "problem_name": "Location/Business Leakage",
+          "evidence": "Description contains 'South India region including Visakhapatnam, Andhra Pradesh, Karnataka, Kerala and Tamil Nadu & cities like Bangalore, Chennai and Hyderabad' — multiple city and state names present."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — thin title naming a room component, interior-only image, and location leakage; override not triggered.",
+      "source_url": "https://www.indiamart.com/proddetail/bunkhouse-dining room-11775098748.html"
+    },
+    {
+      "item_id": "87221442",
+      "pre_label": "bad",
+      "verified_label": "bad",
+      "override": false,
+      "title": "Industrial Portable Cabin",
+      "description": "<p>With the help of our highly knowledgeable professionals, we are engaged in providing an extensive series of <b>Industrial Portable Cabin.<br /><br /></b><b>Features:</b></p><ul><li><p>Dimensional accuracy</p></li><li><p>Sturdy nature</p></li><li><p>Low maintenance</p></li><li><p>Fine finish</p></li><li><p>Flawless designs</p></li></ul>",
+      "specs": {
+        "raw": "Available Material:Bison Board, Brand:Bison Board, Built Type:Panel Build, Shape:Rectangle, Use:House"
+      },
+      "image_url": "https://4.imimg.com/data4/VX/FA/MY-31191691/portable-cabin.jpg",
+      "product_page_url": "https://www.indiamart.com/proddetail/industrial-portable cabin-13119568573.html",
+      "image_file": "87221442.jpg",
+      "image_status": "ok",
+      "dimensions": {
+        "photo": {
+          "category_fit": true,
+          "quality": "good_image",
+          "reason": "Image shows a grey prefabricated portable cabin with flat roof, blue trim, and multiple windows on a clean white background — a portable cabin product within MCAT scope."
+        },
+        "title": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Title correctly names an industrial portable cabin, a recognised product type within Wooden Cabins MCAT."
+        },
+        "specs": {
+          "category_fit": true,
+          "quality": "acceptable",
+          "reason": "Specs confirm panel build construction with Bison Board material, consistent with a portable cabin product."
+        },
+        "description": {
+          "category_fit": true,
+          "quality": "thin",
+          "reason": "Description is generic feature-list marketing text with no specific dimensions, materials, or applications for the portable cabin."
+        },
+        "category": {
+          "valid": true,
+          "reason": "Industrial portable cabin with panel build construction is a recognised product type within Wooden Cabins MCAT."
+        }
+      },
+      "consistency_audit": {
+        "contradiction_observed": false,
+        "contradiction_pairs": [],
+        "contradiction_reasons": []
+      },
+      "intrinsic_checks": {
+        "specs_internal_contradiction": {
+          "observed": false,
+          "reason": null
+        },
+        "pii_present": {
+          "observed": false,
+          "reason": null
+        },
+        "location_business_present": {
+          "observed": false,
+          "reason": null
+        }
+      },
+      "correct_mcat_suggestion": null,
+      "sibling_routing": {
+        "candidate": true,
+        "sibling_mcat_name": "Portable Cabin",
+        "reason": "Industrial portable cabin with fibre cement board (Bison Board) construction and no wood content is a closer fit for the 'Portable Cabin' sibling MCAT."
+      },
+      "detected_problems": [
+        {
+          "problem_code": "P13",
+          "problem_name": "Specs Quality Problem",
+          "evidence": "Specs contain only material brand (Bison Board), build type, shape, and use — missing dimensions, capacity, insulation, and application specifics."
+        }
+      ],
+      "verification_note": "Pre-label bad confirmed — description is thin and does not reach 'strong' threshold required for override despite good image and acceptable title/specs.",
+      "source_url": "https://www.indiamart.com/proddetail/industrial-portable cabin-13119568573.html"
+    }
+  ],
+  "generated_bad_examples": [],
+  "problem_products": {
+    "cross_dimension_contradictions": {
+      "P01": "Photo-Title Contradiction",
+      "P02": "Photo-Specs Contradiction",
+      "P03": "Photo-Description Contradiction",
+      "P04": "Title-Specs Contradiction",
+      "P05": "Title-Description Contradiction",
+      "P06": "Specs-Description Contradiction"
+    },
+    "dimension_vs_category_contradictions": {
+      "P07": "Photo-Category Contradiction",
+      "P08": "Title-Category Contradiction",
+      "P09": "Specs-Category Contradiction",
+      "P10": "Description-Category Contradiction"
+    },
+    "intrinsic_quality_or_policy_problems": {
+      "P11": "Internal Specs Contradiction",
+      "P12": "Title Quality Problem",
+      "P13": "Specs Quality Problem",
+      "P14": "Photo Quality Problem",
+      "P15": "PII Present",
+      "P16": "Location/Business Leakage"
+    }
+  },
+  "conflicts_resolved": [],
+  "image_pattern_summary": "Verified good images show complete prefabricated wooden cabin structures photographed from the exterior at a 3/4 angle, with horizontal timber or wood-panel cladding clearly visible, set in natural or landscaped outdoor environments (resort gardens, construction yards). Good images show the full structure including roof, walls, door, and windows in a single frame, with sufficient ambient light to reveal material texture and construction quality. Interior shots and container-based structures are not representative of the primary wooden cabin product.",
+  "image_type_recommendation": {
+    "type": "object_only",
+    "reason": [
+      "Verified good images show the exterior structure of the wooden cabin as the primary information carrier — material, construction method, and scale are all communicated visually without readable text.",
+      "No product labels, spec plates, or printed text are visible on the cabin exteriors in good images; OCR would extract no useful product data from these images."
+    ],
+    "ocr_useful": false
+  },
+  "relevant_photos": {
+    "summary": "Good photos show complete prefabricated wooden cabin exteriors with timber cladding in natural outdoor settings.",
+    "product_identity": [
+      "Horizontal timber or wood-panel cladding on exterior walls",
+      "Complete structure visible including roof, walls, door, and windows in a single frame"
+    ],
+    "acceptable_scenes": [
+      "Resort or farmhouse garden setting with landscaping",
+      "Natural forest or outdoor environment showing the cabin in context"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "133498226",
+        "reason": "Image shows a fully assembled prefabricated wooden cottage with horizontal timber cladding, covered veranda, and landscaped resort setting — clearly a wooden cabin product.",
+        "source": "verified_good_products"
+      },
+      {
+        "photo_url": null,
+        "item_id": "54346599",
+        "reason": "Image shows a compact green portable guard cabin with peaked roof, interior shelf, and wooden floor — a valid portable wooden cabin product.",
+        "source": "verified_good_products"
+      }
+    ]
+  },
+  "thin_photos": {
+    "summary": "Thin photos show only the interior of portable cabins, making product type, exterior construction, and dimensions impossible to assess.",
+    "thinness_signals": [
+      "Interior-only shots that do not show the exterior structure, roof, or cladding material",
+      "Angle or distance that obscures key construction details such as wall panel joints and frame material"
+    ],
+    "examples": [
+      {
+        "photo_url": null,
+        "item_id": "56981927",
+        "reason": "Image shows the interior of a modular prefab office with wood-finish panels and workstations — interior-only shot makes product type ambiguous."
+      },
+      {
+        "photo_url": null,
+        "item_id": "77244676",
+        "reason": "Image shows the interior of an accommodation portable cabin with beds and wood-finish panels — interior-only shot limits full product assessment."
+      },
+      {
+        "photo_url": null,
+        "item_id": "78689098",
+        "reason": "Image shows the furnished interior of a modular bunkhouse dining room with kitchen counter and dining table — interior-only shot, exterior structure not visible."
+      }
+    ]
+  },
+  "irrelevant_photos": {
+    "summary": "Irrelevant photos show shipping container conversions or portable toilet units — products from entirely different categories.",
+    "failure_classes": [
+      {
+        "class": "container_home",
+        "description": "Image shows a shipping container conversion structure with visible corrugated steel container sections, not a timber-frame wooden cabin.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "155761317"
+          }
+        ],
+        "detection_signal": "Visible corrugated steel container walls, container corner castings, or stacked container modules in the image.",
+        "failure_mode": "wrong_product"
+      },
+      {
+        "class": "portable_toilet_unit",
+        "description": "Image shows a white prefabricated portable toilet/sanitation unit with WC fixtures — a sanitation product, not a habitable wooden cabin.",
+        "examples": [
+          {
+            "photo_url": null,
+            "item_id": "73469317"
+          }
+        ],
+        "detection_signal": "White moulded plastic/FRP toilet enclosure with visible WC pans and ventilation louvres on doors.",
+        "failure_mode": "wrong_category"
+      }
+    ]
+  },
+  "relevant_titles": {
+    "summary": "Good titles name the specific wooden cabin product type and may include application context; they avoid container or non-cabin product names.",
+    "strong_positive_signals": [
+      "Explicit mention of 'Wooden' as a material qualifier",
+      "Product type specificity: 'Porta Cabin', 'Guard Cabin', 'Cottage', 'Resort Cabin'"
+    ],
+    "structural_patterns": [
+      "[Material] + [Product Type]: 'Wooden Porta Cabin'",
+      "[Product Type] + [Application]: 'Portable Guard Cabin', 'Wooden Cabins For SPA Area'"
+    ],
+    "examples": {
+      "extreme_good": [
+        {
+          "item_id": "133498226",
+          "title": "Wooden Porta Cabin",
+          "reason": "Explicitly names material (Wooden) and product type (Porta Cabin), directly matching MCAT with no ambiguity."
+        }
+      ],
+      "acceptable": [
+        {
+          "item_id": "54346599",
+          "title": "Portable Guard Cabin",
+          "reason": "Correctly names product type and application (guard/security) but omits material qualifier 'wooden'."
+        }
+      ]
+    }
+  },
+  "thin_titles": {
+    "summary": "Thin titles name a cabin product type but omit material, size, construction method, or application — providing insufficient buyer-useful information.",
+    "thinness_signals": [
+      "Title names only the generic product type without material qualifier (e.g., 'Portable Cabins' with no 'wooden' or material detail)",
+      "Title names a room component rather than a complete cabin unit (e.g., 'Bunkhouse Dining Room')"
+    ],
+    "examples": [
+      {
+        "item_id": "30850144",
+        "title": "Portable Cabins",
+        "reason": "Names the product type correctly but provides no material, size, or application detail — extremely generic."
+      },
+      {
+        "item_id": "77244676",
+        "title": "Accommodation Portable Cabins",
+        "reason": "Adds application context (accommodation) but omits material type, dimensions, and construction method."
+      },
+      {
+        "item_id": "78689098",
+        "title": "Bunkhouse Dining Room",
+        "reason": "Names a room component of a bunkhouse rather than a complete cabin unit — incomplete product identity."
+      }
+    ]
+  },
+  "irrelevant_titles": {
+    "summary": "Irrelevant titles contain container or toilet product names that actively signal a different product category.",
+    "failure_classes": [
+      {
+        "class": "container_product_title",
+        "signal": "Title contains 'Container' as a primary product identifier (e.g., 'Container Homes', 'Container Office').",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "155761317",
+            "title": "Container Homes",
+            "reason": "Title explicitly names a shipping container conversion product, not a wooden cabin.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "56981927",
+            "title": "Modular Multi Storey Container Office",
+            "reason": "Title explicitly names a container office product, not a wooden cabin.",
+            "product_page_url": null
+          }
+        ]
+      },
+      {
+        "class": "toilet_cabin_title",
+        "signal": "Title contains 'Toilet' or 'Toilets' as a primary product qualifier.",
+        "failure_mode": "wrong_product",
+        "examples": [
+          {
+            "item_id": "73469317",
+            "title": "Prefabricated Toilets Cabin",
+            "reason": "Title explicitly names a toilet/sanitation cabin, not a habitable wooden cabin.",
+            "product_page_url": null
+          }
+        ]
+      }
+    ]
+  },
+  "wrong_mcat_classifier": {
+    "description": "Classifier to route listings that belong elsewhere based on product identity mismatch.",
+    "input_data_absent": false,
+    "classes": [
+      {
+        "class": "container_conversion_product",
+        "signal": "Title or description explicitly names 'Container Home', 'Container Office', 'Containerized Office', or 'Shipping Container' as the primary product; image shows corrugated steel container sections.",
+        "examples": [
+          {
+            "item_id": "155761317",
+            "title": "Container Homes",
+            "reason": "Product is a shipping container conversion home — container construction is a fundamentally different product identity from timber-frame wooden cabins.",
+            "product_page_url": null
+          },
+          {
+            "item_id": "56981927",
+            "title": "Modular Multi Storey Container Office",
+            "reason": "Product is a modular container office — description confirms container-based products (Containerized Office, Container Site Office).",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": "Office Container"
+      },
+      {
+        "class": "portable_toilet_sanitation_unit",
+        "signal": "Title contains 'Toilet' or 'Toilets'; image shows WC fixtures and sanitation compartments.",
+        "examples": [
+          {
+            "item_id": "73469317",
+            "title": "Prefabricated Toilets Cabin",
+            "reason": "Product is a prefabricated portable toilet unit — fundamentally different product type from a habitable wooden cabin.",
+            "product_page_url": null
+          }
+        ],
+        "correct_mcat": null
+      }
+    ]
+  },
+  "sibling_mcat_routing": {
+    "applicable": true,
+    "routes": [
+      {
+        "sibling_mcat": "Security Cabins",
+        "signal": "Portable guard/security cabin with steel or composite construction and no wood content — product identity is closer to security cabin than wooden cabin.",
+        "examples": [
+          {
+            "item_id": "54346599",
+            "title": "Portable Guard Cabin",
+            "reason": "Steel/composite guard cabin with no wood content; 'Security Cabins' sibling is a more precise MCAT fit."
+          }
+        ]
+      },
+      {
+        "sibling_mcat": "Prefabricated Cabin",
+        "signal": "Steel-frame cabin with wooden finish cladding where primary structural material is steel, not timber — overlaps with Prefabricated Cabin sibling.",
+        "examples": [
+          {
+            "item_id": "258620299",
+            "title": "Wooden Cabins For SPA  Area",
+            "reason": "Steel-frame prefab cabin with wooden finish cladding; Prefabricated Cabin sibling covers non-wood-primary prefab structures."
+          }
+        ]
+      },
+      {
+        "sibling_mcat": "Portable Cabin",
+        "signal": "Generic portable cabin with no wood-specific attributes or fibre cement board construction — closer fit for the generic Portable Cabin sibling.",
+        "examples": [
+          {
+            "item_id": "30850144",
+            "title": "Portable Cabins",
+            "reason": "Generic portable cabin with no wood-specific attributes; 'Portable Cabin' sibling is a more precise fit."
+          },
+          {
+            "item_id": "87221442",
+            "title": "Industrial Portable Cabin",
+            "reason": "Industrial portable cabin with Bison Board (fibre cement) construction and no wood content; 'Portable Cabin' sibling is a more precise fit."
+          }
+        ]
+      },
+      {
+        "sibling_mcat": "Prefabricated Accommodation",
+        "signal": "Accommodation-use portable cabin with bunk/bed interior configuration — closer fit for Prefabricated Accommodation sibling.",
+        "examples": [
+          {
+            "item_id": "77244676",
+            "title": "Accommodation Portable Cabins",
+            "reason": "Accommodation portable cabin with bunk bed interior; 'Prefabricated Accommodation' sibling covers this use case more precisely."
+          }
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "agent": "Agent_02",
+    "input_sources_used": [
+      {
+        "source": "enriched_products (good_products CSV + bad_products CSV only)",
+        "fields_used": [
+          "item_id",
+          "title",
+          "description",
+          "specs",
+          "image_base64",
+          "image_file",
+          "pre_label"
+        ],
+        "derived_outputs": [
+          "verified_good_products",
+          "verified_bad_products",
+          "generated_bad_examples",
+          "conflicts_resolved",
+          "image_pattern_summary",
+          "image_type_recommendation",
+          "relevant_photos",
+          "thin_photos",
+          "irrelevant_photos",
+          "relevant_titles",
+          "thin_titles",
+          "irrelevant_titles",
+          "wrong_mcat_classifier",
+          "sibling_mcat_routing",
+          "problem_products"
+        ],
+        "citation_note": "All verdicts are derived from the enriched_products data provided by the pipeline operator. Images were analysed visually from provided base64 data."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "siblings",
+          "full_path"
+        ],
+        "derived_outputs": [
+          "correct_mcat_suggestion",
+          "sibling_mcat_name"
+        ],
+        "citation_note": "Sibling MCAT names (Office Container, Prefabricated Cabin, Security Cabins, Portable Cabin, Prefabricated Accommodation) drawn from provided taxonomy siblings list — never fabricated."
+      },
+      {
+        "source": "Agent 3 context",
+        "fields_used": [
+          "primary_segment",
+          "mcat_description",
+          "market_context"
+        ],
+        "derived_outputs": [
+          "dimensions.category",
+          "sibling_routing",
+          "image_type_recommendation"
+        ],
+        "citation_note": "Agent 3 primary_segment and mcat_description.product_types used to ground category belonging decisions, particularly for steel-frame wooden-finish cabins and portable guard cabins."
+      }
+    ],
+    "external_sources_used": []
+  },
+  "_input_audit": {
+    "products_received": 10,
+    "images_attached": 10,
+    "web_fetch_used": false
+  }
+}
