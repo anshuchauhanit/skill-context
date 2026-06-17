@@ -1,0 +1,504 @@
+{
+  "mcat_description": {
+    "short": "Prefabricated shelters are factory-manufactured, modular structures assembled on-site from pre-engineered panels or frames — supplied as portable cabins, insulated rooms, or semi-permanent buildings for industrial, defence, telecom, railway, and labour accommodation use.",
+    "long": "Prefabricated shelters are complete, ready-to-install building units manufactured off-site using structural steel frames, PUF (polyurethane foam) sandwich panels, FRP (fibre-reinforced plastic) panels, or mild steel sheet cladding, then transported and erected at the deployment site. They are designed to meet IS:875 load standards and IS:1893 seismic zone requirements, with options for thermal insulation, fire resistance (IS:8183), and IP54-rated weatherproofing for sensitive equipment enclosures. In the Indian B2B market, they serve a wide range of applications — from telecom BTS shelters and railway signalling huts to defence barracks, disaster relief units, labour camps, and portable site offices — with sizes ranging from small security cabins to multi-storey modular structures. Buyers specify shelters by wall panel material, insulation type, floor area, structural load rating, and application-specific features such as HVAC provisions, smoke detectors, and electrical fitouts.",
+    "product_types": [
+      "PUF Panel Prefabricated Shelter",
+      "FRP Prefabricated Shelter",
+      "Steel/MS Prefabricated Shelter",
+      "Telecom / BTS Shelter",
+      "Railway Shelter / Signalling Hut",
+      "Military / Defence Shelter",
+      "Labour Camp / Workforce Accommodation Shelter",
+      "Portable Site Office Shelter",
+      "Security Guard Cabin / Guard Room",
+      "Disaster Relief / Emergency Shelter",
+      "Bike / Vehicle Parking Shelter",
+      "Rooftop / Terrace Shelter",
+      "Double-Storey / Multi-Storey Prefab Shelter",
+      "Container-Based Shelter",
+      "Solar Project Shelter"
+    ],
+    "primary_applications": [
+      "Telecom BTS and equipment enclosures",
+      "Railway signalling huts and passenger waiting shelters",
+      "Defence barracks, officer accommodation, and jawans' living quarters",
+      "Labour camps and workforce accommodation on construction/mining sites",
+      "Portable site offices for infrastructure projects",
+      "Security guard cabins at industrial and commercial premises",
+      "Disaster relief and transit camp shelters",
+      "Government health centres, anganwadis, and school classrooms (Sarva Shiksha Abhiyan)",
+      "Bike and vehicle parking shelters",
+      "Rooftop rooms and terrace shelters"
+    ],
+    "buyer_segments": [
+      "Telecom operators and tower companies (BTS shelter procurement)",
+      "Indian Railways and metro rail authorities",
+      "Defence establishments (Army, Air Force, paramilitary)",
+      "Infrastructure and construction contractors (site offices, labour camps)",
+      "Industrial plant operators (guard rooms, equipment shelters)",
+      "Government bodies and PSUs (health centres, schools, disaster relief)",
+      "NGOs and CSR programme implementers",
+      "Real estate developers (portable site offices)",
+      "Solar project developers (equipment enclosures)"
+    ]
+  },
+  "primary_segment": "Industrial and infrastructure modular prefabricated shelter (PUF panel / FRP / steel) for telecom, defence, railway, and labour accommodation use",
+  "mcat_vagueness_signal": {
+    "suspected_vague": false,
+    "primary_family": "Factory-manufactured modular shelter structure for industrial, infrastructure, and institutional B2B use",
+    "secondary_families": [],
+    "reason": "All sub-types — telecom shelters, defence barracks, railway huts, labour camps, bike shelters — share the same working principle (prefabricated modular construction), the same B2B buyer profile, and the same structural standards (IS:875, IS:1893); no sibling MCAT carves out an incompatible regulatory regime or fundamentally different buyer."
+  },
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated shelters",
+      "prefab shelter",
+      "portable shelter",
+      "modular shelter",
+      "frp shelter",
+      "puf insulated shelter",
+      "steel shelter",
+      "container shelter",
+      "prefab cabin",
+      "portable cabin"
+    ],
+    "technical_synonyms": [
+      "PUF panel shelter",
+      "FRP modular shelter",
+      "sandwich panel shelter",
+      "pre-engineered shelter",
+      "modular prefab structure",
+      "portable prefabricated building",
+      "prefab porta cabin",
+      "insulated prefab shelter",
+      "steel frame prefab shelter"
+    ],
+    "trade_names": [
+      "portacabin",
+      "porta cabin",
+      "prefab hut",
+      "telecom shelter",
+      "BTS shelter",
+      "railway hut",
+      "labour camp shelter",
+      "defence shelter",
+      "army shelter",
+      "site office cabin"
+    ],
+    "hindi_terms": [
+      "prefabricated shelter",
+      "portable kamra",
+      "prefab makaan",
+      "army shelter"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated shelter manufacturers in India",
+      "puf insulated prefab shelter for telecom",
+      "army prefabricated shelters supplier",
+      "frp prefabricated shelter price per sq ft",
+      "portable labour camp shelter for construction site",
+      "prefab shelter for railway station",
+      "modular shelter for defence use",
+      "bike shelter cover prefabricated",
+      "prefabricated shelter rooms for workers",
+      "container shelter for industrial use"
+    ]
+  },
+  "unit_quoting_context": {
+    "dominant_unit": "per sq ft",
+    "unit_reasoning": "Custom-built prefabricated shelters are predominantly quoted per square foot of floor area in Indian B2B transactions, reflecting the variable dimensions and site-specific sizing; standard portable cabin units may also be quoted per unit or per piece.",
+    "sub_segment_units": [
+      {
+        "sub_segment": "Custom industrial / telecom / defence shelter",
+        "unit": "per sq ft",
+        "note": "Floor area is the primary pricing and specification dimension for custom-built shelters"
+      },
+      {
+        "sub_segment": "Standard portable cabin / guard room",
+        "unit": "per unit / per piece",
+        "note": "Fixed-size standard cabins are quoted as a complete unit"
+      },
+      {
+        "sub_segment": "PUF / sandwich panel supply only",
+        "unit": "per kg or per sq ft",
+        "note": "Panel-only supply may be quoted per kg or per sq ft of panel area"
+      }
+    ],
+    "sources_checked": [
+      "IndiaMART MCAT listing tiles (structural observation only)",
+      "Cactus Profiles manufacturer site",
+      "Pressmach manufacturer site",
+      "Plus Incorporation manufacturer site",
+      "MHA Government technical specification document"
+    ],
+    "confidence": "high"
+  },
+  "market_context": "Prefabricated shelters in India span a wide commercial spectrum — from small FRP/PUF security cabins and telecom BTS enclosures to large multi-storey defence barracks and labour camp complexes. The dominant construction materials in the Indian market are PUF (polyurethane foam) sandwich panels, FRP (fibre-reinforced plastic) panels, and mild steel/galvanised steel frames, with PUF panels being the most widely specified for insulated applications such as telecom and defence shelters. Structural design must comply with IS:875 (load design) and IS:1893 (seismic zone requirements), and insulation panels are governed by IS:8183:1993 for fire and density standards. Key buyer segments include telecom operators (BTS shelters), Indian Railways (signalling huts, passenger shelters), defence establishments (barracks, equipment rooms), and infrastructure contractors (site offices, labour camps). The market is highly customisation-driven — buyers specify dimensions, panel thickness, insulation grade, floor type, electrical fitout, and environmental protection rating (IP54 is a common benchmark for equipment shelters). Manufacturers are concentrated in NCR (Delhi/Noida/Gurugram), Kolkata, Mumbai, Ahmedabad, and Chennai. The keyword signal for 'bike shelter cover' (highest Google impression volume) indicates a secondary consumer/outdoor sub-segment, but this is not the dominant commercial form. Government procurement (defence, railways, PSUs) is a significant demand driver, with MHA and defence tenders specifying detailed technical standards including seismic zone V compliance and mineral/rock wool insulation density of 80 kg/cum.",
+  "buyer_attracting_attributes": [
+    "Wall Panel Material (PUF / FRP / Steel / Rockwool)",
+    "Panel Thickness / Insulation Grade",
+    "Floor Area / Dimensions (L x W x H)",
+    "Structural Load Rating (IS:875 compliance)",
+    "Seismic Zone Compliance (IS:1893)",
+    "Fire Rating / Fire Resistance (IS:8183)",
+    "Weatherproofing / IP Protection Level",
+    "Portability / Relocatability",
+    "Number of Storeys",
+    "Electrical Fitout / HVAC Provision"
+  ],
+  "taxonomy_context": {
+    "mcat_id": "20781",
+    "mcat_name": "Prefabricated Shelters",
+    "mcat_level": "4",
+    "listing_count": "4676",
+    "full_path": "Building Construction Material, Equipment, Civil Engineering and Real Estate > Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses > Prefabricated Shelters",
+    "is_orphan": false,
+    "group": {
+      "id": "7.0",
+      "name": "Building Construction Material, Equipment, Civil Engineering and Real Estate"
+    },
+    "subcat": {
+      "id": "648.0",
+      "name": "Prefabricated Structures-Houses, Sheds, Cabins, Portable Toilets & Greenhouses"
+    },
+    "parent": {
+      "id": "158662.0",
+      "name": "Prefabricated Shed",
+      "level": "0"
+    },
+    "all_pmcat_ids": [
+      "158662.0"
+    ],
+    "siblings": [
+      {
+        "mcat_id": "20782",
+        "mcat_name": "Portable Shelters",
+        "listing_count": "930",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "21106",
+        "mcat_name": "Aircraft Hangars",
+        "listing_count": "407",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "26766",
+        "mcat_name": "Dome Shelters",
+        "listing_count": "395",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30719",
+        "mcat_name": "Industrial Sheds",
+        "listing_count": "36863",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "30721",
+        "mcat_name": "Industrial Shelters",
+        "listing_count": "531",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33228",
+        "mcat_name": "Military Shelters",
+        "listing_count": "154",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "33397",
+        "mcat_name": "Metal Shelters",
+        "listing_count": "228",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "35070",
+        "mcat_name": "Portable Garage",
+        "listing_count": "1406",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "42756",
+        "mcat_name": "Telecom Shelters",
+        "listing_count": "611",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "107235",
+        "mcat_name": "Folding Garage",
+        "listing_count": "20",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "136750",
+        "mcat_name": "Prefabricated Factory Shed",
+        "listing_count": "15425",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "145222",
+        "mcat_name": "Poultry Sheds",
+        "listing_count": "1889",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "146519",
+        "mcat_name": "Cattle Sheds",
+        "listing_count": "1830",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "158662",
+        "mcat_name": "Prefabricated Shed",
+        "listing_count": "4727",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164591",
+        "mcat_name": "Metal Sheds",
+        "listing_count": "1477",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "164769",
+        "mcat_name": "Warehouse Sheds",
+        "listing_count": "6293",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "166772",
+        "mcat_name": "Swimming Pool Tensile Cover",
+        "listing_count": "670",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "172388",
+        "mcat_name": "PEB Structures Fabrication",
+        "listing_count": "3547",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "182931",
+        "mcat_name": "Auditorium Roofing Shed",
+        "listing_count": "504",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "187089",
+        "mcat_name": "Badminton Court Roofing Shed",
+        "listing_count": "1474",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "191761",
+        "mcat_name": "Swimming Pool Shed",
+        "listing_count": "280",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      },
+      {
+        "mcat_id": "220929",
+        "mcat_name": "Tin Shed",
+        "listing_count": "2737",
+        "source_pmcat": "158662.0",
+        "sibling_type": "direct"
+      }
+    ],
+    "direct_sibling_count": 22,
+    "indirect_sibling_count": 0
+  },
+  "listing_count_suspect": false,
+  "page_fetch_failed": true,
+  "category_enrichment": null,
+  "_provenance": {
+    "agent": "Agent_03",
+    "research_strategy_consumed": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "do_research": true,
+      "reason": "Prefabricated shelters are manufactured building structures evaluated by buyers on material specs, assembly method, durability, and local building code compliance rather than brand name. BIS standards (IS:1893 for seismic design, IS:875 for loads) and NFHS guidelines apply to structural safety."
+    },
+    "input_sources_used": [
+      {
+        "source": "google_keywords CSV",
+        "fields_used": [
+          "Query",
+          "Clicks",
+          "Impressions",
+          "Avg of Avg Position"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.buyer_intent_queries",
+          "primary_segment"
+        ],
+        "citation_note": "Top Google KW by impressions: 'bike shelter cover' (227) — noted as consumer outlier; 'pp shelter in railway' and 'prefab labor camps' confirmed industrial/infrastructure demand signals."
+      },
+      {
+        "source": "internal_keywords CSV",
+        "fields_used": [
+          "keyword",
+          "Pageviews",
+          "PDP Clicks",
+          "Calls"
+        ],
+        "derived_outputs": [
+          "alt_names.primary_keywords",
+          "alt_names.technical_synonyms",
+          "primary_segment"
+        ],
+        "citation_note": "Top internal KW: 'prefabricated shelters' (40 PVs). Secondary signals: 'frp shelters', 'puf insulated shelter', 'army prefabricated shelters', 'container shelter' — confirmed material and application sub-types."
+      },
+      {
+        "source": "seller_buyer_call_data",
+        "fields_used": [
+          "product_name"
+        ],
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.buyer_segments",
+          "primary_segment"
+        ],
+        "citation_note": "Call rows confirmed: Defence Shelter (PUF Panel), Pre-fabricated House (PUF Panels Roof), Two-Story Rooms, Prefabricated Bathroom, Shelter Home — corroborating PUF panel dominance and multi-use scope."
+      },
+      {
+        "source": "taxonomy_context (agent4_input.json)",
+        "fields_used": [
+          "full_path",
+          "mcat_level",
+          "listing_count",
+          "parent",
+          "siblings"
+        ],
+        "derived_outputs": [
+          "taxonomy_context",
+          "listing_count_suspect",
+          "mcat_vagueness_signal"
+        ],
+        "citation_note": "Listing count 4676 treated as plausible for a broad MCAT with 22 siblings. Taxonomy path confirmed MCAT sits under Prefabricated Structures parent. 22 siblings assessed for vagueness trigger — no incompatible regulatory carve-out found."
+      }
+    ],
+    "external_sources_used": [
+      {
+        "url": "https://www.mha.gov.in/sites/default/files/2024-06/QRsTDsofMultiStorey_06062024.pdf",
+        "title": "TECHNICAL SPECIFICATIONS FOR SHELTER — Ministry of Home Affairs, Government of India",
+        "source_domain": "mha.gov.in",
+        "derived_outputs": [
+          "market_context",
+          "buyer_attracting_attributes",
+          "mcat_description.product_types"
+        ],
+        "citation_note": "Used for IS:875 load design, IS:1893 seismic zone V compliance, IS:8183:1993 insulation standard, mineral/rock wool density spec (80 kg/cum), and MHA defence shelter technical specification details."
+      },
+      {
+        "url": "https://www.pressmach.com/solution/prefabricated-railway-shelters",
+        "title": "Prefabricated Railway Shelters — Pressmach",
+        "source_domain": "pressmach.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "mcat_description.primary_applications",
+          "market_context",
+          "unit_quoting_context"
+        ],
+        "citation_note": "Used for railway shelter sub-type confirmation, IP54 weatherproofing standard, steel/aluminium/polycarbonate material confirmation, and earthquake-resistant design feature."
+      },
+      {
+        "url": "https://www.plusincorporation.com/pre-fabricated-shelters.html",
+        "title": "Prefabricated Shelters — Plus Incorporation, New Delhi",
+        "source_domain": "plusincorporation.com",
+        "derived_outputs": [
+          "mcat_description.primary_applications",
+          "mcat_description.buyer_segments",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for application list confirmation (army/police, schools, health centres, site offices, telecom, disaster relief) and buyer segment identification."
+      },
+      {
+        "url": "https://www.technopuffsolutions.in/pre-fabricated-shelters/",
+        "title": "PUF Panel Solutions for Pre-fabricated Shelters — Technopuff",
+        "source_domain": "technopuffsolutions.in",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "market_context",
+          "buyer_attracting_attributes"
+        ],
+        "citation_note": "Used for PUF panel material dominance confirmation, product type range (office cabins, industrial sheds, garden sheds, storage sheds), and insulation performance attributes."
+      },
+      {
+        "url": "https://www.cactuspufpanels.com/industrial-shelters.html",
+        "title": "Industrial Shelters — Cactus Profiles Private Limited, Noida",
+        "source_domain": "cactuspufpanels.com",
+        "derived_outputs": [
+          "mcat_description.product_types",
+          "alt_names.trade_names"
+        ],
+        "citation_note": "Used for product type confirmation: PUF prefabricated shelters, railway shelters, military shelters, telecom shelters — corroborating primary segment and sub-type list."
+      },
+      {
+        "url": "https://www.wedge-india.com/product-page/labour-shelter",
+        "title": "High-Quality Insulated Prefabricated Labour Shelter — Wedge India",
+        "source_domain": "wedge-india.com",
+        "derived_outputs": [
+          "mcat_description.buyer_segments",
+          "buyer_attracting_attributes",
+          "market_context"
+        ],
+        "citation_note": "Used for labour shelter buyer segment confirmation, material types (steel, aluminium, composite panels), and key buyer attributes (insulation, weather resistance, fire safety, energy efficiency)."
+      }
+    ]
+  },
+  "_web_fetch_audit": {
+    "mcat_page_url": "",
+    "mcat_page_status": null,
+    "mcat_page_fetch_ok": false,
+    "mcat_page_error": "skipped — source registry provided authoritative sources",
+    "mcat_page_links_found": 0,
+    "mcat_page_images_found": 0,
+    "step1_skipped": true,
+    "web_search_tool_enabled": true,
+    "web_search_max_uses": 2,
+    "suggested_sources_count": 4,
+    "research_strategy": {
+      "research_type": "standard_b2b",
+      "enrichment_categories": [
+        "construction_materials",
+        "industrial_equipment"
+      ],
+      "is_regulated": true,
+      "regulatory_bodies": [
+        "BIS",
+        "NFHS",
+        "Local Building Codes"
+      ],
+      "is_branded": false,
+      "brand_names": [],
+      "do_research": true,
+      "reason": "Prefabricated shelters are manufactured building structures evaluated by buyers on material specs, assembly method, durability, and local building code compliance rather than brand name. BIS standards (IS:1893 for seismic design, IS:875 for loads) and NFHS guidelines apply to structural safety."
+    }
+  }
+}
