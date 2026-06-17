@@ -1,0 +1,369 @@
+I'll work through this systematically following the 7-step process.
+
+---
+
+## Step 1 — Walk the Buyer Journey
+
+**Primary buyer:** Procurement manager at a construction company, housing society RWA secretary, or industrial plant facilities manager buying a PVC security guard cabin.
+
+**Journey:**
+1. **Scans listing grid** — image tells them immediately: is this a compact guard cabin or a large site office? Is it a proper enclosed structure or a flimsy-looking booth? Visual quality and size impression drive the first click decision.
+2. **Opens listing — checks cabin size/dimensions** — the buyer has a specific footprint in mind (4x4 ft guard post vs 10x8 ft site office). Size is non-negotiable; wrong size = skip.
+3. **Checks insulation type** — PUF-insulated vs plain PVC panel is a significant price and comfort differentiator; buyers in hot/cold climates specifically need insulated variants.
+4. **Checks price** — Indian B2B buyers are price-aggressive; after confirming size and insulation, they compare prices across sellers. Custom dimensions mean price varies substantially.
+5. **Checks company** — no dominant brand; buyers look for manufacturer vs trader, installation capability, and delivery reach.
+6. **Unit** — per piece for standard sizes; per sq ft for custom. Unit must be shown because ambiguity exists between these two quoting conventions.
+
+---
+
+## Step 2 — Score Each Dimension
+
+- **Image:** High — compact guard cabin vs large site office vs toilet cabin are visually distinct; build quality and finish are assessed visually.
+- **Specification:** High — cabin size and insulation type are primary shortlisting gates; wrong size = unusable.
+- **Price:** High — Indian B2B, custom-dimension products with significant price variation by size and insulation tier; buyers compare actively.
+- **Unit:** High — per piece vs per sq ft ambiguity is real in this market; price cannot be compared without knowing the unit.
+- **Company:** Medium — no dominant brand; manufacturer vs trader distinction matters for installation and delivery, but specs carry more weight.
+
+---
+
+## Step 3 — Apply Decision Questions
+
+**Image:** High — sub-type visual variation is significant (compact booth vs large cabin vs toilet enclosure). Build quality and finish are assessed from photos. Absence = high skip rate.
+
+**Specification:** High — cabin size is non-interchangeable (a 4x4 ft cabin cannot substitute for a 10x8 ft site office). Insulation type drives price tier and climate suitability.
+
+**Price:** High — custom-dimension products with size- and insulation-driven price variation. Indian buyers compare prices across sellers after confirming size match. `price_display_type`: "spec-driven price" — price changes substantially with cabin size and insulation type; buyers discover and compare across spec tiers.
+
+**Cross-dimension consistency check:**
+- Buyers arrive on IndiaMART to discover and compare across size/insulation tiers → `spec-driven price` ✓
+- Unit High → price must be at least Medium ✓ (price is High)
+- Not project-based price → unit show: true ✓
+- Specification show: true → show_on_listing: true ✓
+
+**Unit:** High — per piece (standard sizes) vs per sq ft (custom dimensions) is a documented market ambiguity. Price cannot be compared without unit clarity. Canonical unit: per piece (dominant for primary segment), with per sq ft as sub-segment exception.
+
+**Company:** Medium — no dominant brand with buyer recall. Manufacturer vs trader distinction matters for installation capability and service reach. `brand_important: no` — taxonomy siblings show no branded sub-categories (no "Brand X PVC Cabin" sibling); Indian market is fragmented across regional fabricators with no nationally recognised brand.
+
+---
+
+## Step 4 — Importance Ranking
+
+```json
+"importance_ranking": [
+  {
+    "rank": 1,
+    "dimension": "image",
+    "level": "High",
+    "show": true,
+    "reason": "High visual variation between sub-types (compact guard booth vs large site office vs toilet cabin). Buyers use the image to identify product type and assess build quality before reading any text — wrong type or poor build impression = immediate skip."
+  },
+  {
+    "rank": 2,
+    "dimension": "specification",
+    "level": "High",
+    "show": true,
+    "show_on_listing": true,
+    "reason": "Cabin size is non-interchangeable — a buyer with a specific footprint requirement cannot substitute another size. Insulation type (PUF vs plain PVC) is the primary price-tier and climate-suitability gate."
+  },
+  {
+    "rank": 3,
+    "dimension": "price",
+    "level": "High",
+    "show": true,
+    "price_display_type": "spec-driven price",
+    "reason": "Price varies substantially with cabin size and insulation type; Indian buyers actively compare prices across sellers once size and insulation tier are confirmed. Custom dimensions make price a critical shortlisting signal."
+  },
+  {
+    "rank": 4,
+    "dimension": "unit",
+    "level": "High",
+    "show": true,
+    "canonical_unit": "per piece",
+    "unit_note": "Standard fixed-size guard cabins (4x4, 6x6, 6x4 ft) are quoted per piece; custom-dimension site office cabins are quoted per sq ft by many manufacturers — this ambiguity is documented in the market and must be resolved on the listing for price comparison to be meaningful.",
+    "reason": "Per piece vs per sq ft is a real market ambiguity in this category. A buyer comparing prices across listings cannot make a valid comparison without knowing the unit basis."
+  },
+  {
+    "rank": 5,
+    "dimension": "company",
+    "level": "Medium",
+    "show": true,
+    "brand_important": "no",
+    "brand_important_reason": "No nationally recognised brand with buyer recall exists in this category; taxonomy siblings show no branded sub-categories and the Indian market is fragmented across regional fabricators.",
+    "reason": "Manufacturer vs trader distinction matters for installation capability, delivery reach, and after-sales support, but company ranks last because spec and price carry more weight in initial shortlisting."
+  }
+]
+```
+
+---
+
+## Step 5 — Seller Spec Audit
+
+### Phase 1 — Elimination
+
+- **Application:** Use-case tag — describes what the product is used FOR, not what it IS. Discard.
+- **Features:** Accessory bundle tag (exhaust fan, LED lights, modular switches) — describes add-ons, not the core product configuration. Discard.
+- **Installation Area:** Single-dimension tag (Outdoor/Indoor/Semi-Outdoor) — not a price-driving configurator; all variants can be used outdoors. Discard.
+
+**Remaining after elimination:** Cabin Size, Door Type, Flooring Type, Insulation Type, Structure Material, Wall Panel, Window Type.
+
+**Soft eliminations / correlated pairs:**
+- **Door Type, Window Type, Flooring Type:** These are finish/accessory specs that follow from the overall cabin quality tier — they are consequences of the buyer's budget and insulation choice, not independent configurators. Deprioritise.
+- **Structure Material (GI/MS/Aluminium/PVC Frame):** Correlated with overall cabin quality tier; MS vs GI frame is a consequence of the price tier, not an independent buyer decision gate. Deprioritise.
+- **Wall Panel (PVC Panel / PVC Foam Board / PVC Cladding / uPVC Panel):** Defines the primary material identity of the cabin — this IS what makes it a "PVC Portable Cabin." However, it is partially correlated with Insulation Type (PUF-insulated cabins use composite panels, not plain PVC panels).
+
+**Remaining strong candidates:** Cabin Size, Insulation Type, Wall Panel.
+
+### Phase 2 — Top 2 Configurator Selection
+
+**Cabin Size:** Defines the product class — a 6x4 ft guard cabin and a 20x8 ft site office are non-interchangeable. Size is the single largest price driver (larger = proportionally more material and labour). Rank 1.
+
+**Insulation Type (PUF / EPS / No Insulation / Glass Wool):** Defines the quality/comfort tier within any given size. PUF-insulated vs plain PVC = significant price premium; buyers in hot/cold climates specifically require insulated variants. Non-interchangeable for climate-sensitive applications. Rank 2.
+
+### Phase 3 — Missing Spec Audit
+
+**Step 3a — specs_in_seller_list:**
+Application, Cabin Size, Door Type, Features, Flooring Type, Installation Area, Insulation Type, Structure Material, Wall Panel, Window Type
+
+**Step 3b/3c — Candidate gaps:**
+
+From Agent 3 vision_output and LLM world knowledge:
+
+1. **Wall Thickness / Panel Thickness** — Agent 3 explicitly identifies "wall panel thickness (typically 6mm PVC)" as a key material differentiator. Checking `specs_in_seller_list`: "Wall Panel" captures panel type but NOT thickness. These are semantically distinct — Wall Panel = material type; Wall Thickness = dimensional spec. Not present. → **Flag as missing.**
+
+2. **Cabin Height / Internal Height** — buyers need to know if a guard can stand upright; standard is 7–8 ft internal height. Not captured by Cabin Size (which gives floor footprint only). Not present in list. → **Flag as missing.**
+
+3. **Number of Windows / Doors** — already partially captured by Door Type and Window Type (which describe material, not count). However, count is a separate dimension. This is peripheral — buyers negotiate count post-connection. → **Omit** (below importance threshold).
+
+4. **Colour / Finish** — some buyers specify colour for branding (police booths, corporate sites). However, PVC cabins are typically available in standard colours and this is resolved post-connection. → **Omit** (below importance threshold for B2B procurement).
+
+**Confirmed missing specs:** Wall Panel Thickness, Cabin Height.
+
+### Phase 4 — Coverage Verdict
+
+2 missing specs → `partial`
+
+---
+
+## Step 6 — Buyer Spec Audit
+
+### Phase 1 — Top 2 RFQ Specs
+
+**Provided buyer specs:** Area (100/200/80/150/120/60 sq ft), Material (PVC PUF Panel / Hollow PVC Panel / PVC Cement Panel), Built Type (Prefabricated / Modular / Containerized).
+
+**Assessment:**
+
+- **Area:** Directly communicates the buyer's size requirement to sellers. Sellers use this to determine which cabin size(s) they can supply and to provide an accurate price. This is the most critical routing spec — a seller who only makes compact guard cabins cannot supply a 200 sq ft site office. Rank 1.
+
+- **Material:** Communicates the insulation/panel type preference. PVC PUF Panel vs Hollow PVC Panel is a significant price and quality differentiator — sellers need this to confirm they stock/manufacture the required variant and to quote accurately. Rank 2.
+
+- **Built Type (Prefabricated / Modular / Containerized):** "Prefabricated" and "Modular" are near-synonymous in this market context and describe the same product type (factory-built PVC cabin). "Containerized" is a different product entirely (shipping container conversion — sibling MCAT: Office Container). This spec has low differentiation value for PVC Portable Cabin specifically and risks routing confusion. Does not rank above Area or Material.
+
+### Phase 2 — Thumbnail Eligibility
+
+- **Area (100/200/80/150/120/60 sq ft):** Numeric/dimensional spec — no meaningful visual difference between a "100 sq ft" and "200 sq ft" label. `thumbnail_eligible: false`.
+
+- **Material (PVC PUF Panel / Hollow PVC Panel / PVC Cement Panel):** These are material composition labels — visually, all three produce similar-looking PVC panel cabins. The difference is internal (insulation layer) and not visually distinguishable from an exterior photo. `thumbnail_eligible: false`.
+
+### Phase 3 — Missing Buyer Spec Audit
+
+**Candidate gaps from Agent 3 vision_output and LLM world knowledge:**
+
+1. **Application / Cabin Type** — Agent 3 identifies multiple distinct product types (security guard cabin, site office, toilet cabin, police booth). A seller needs to know the intended application to confirm they supply the right product type — a toilet cabin manufacturer cannot supply a site office. This is a critical routing spec absent from the buyer spec list. Source: both. `would_be_rank: 1` — more important than Area because it gates the entire product type match before size becomes relevant.
+
+   Thumbnail eligibility for `would_be_rank: 1`: Application values (Security Guard Cabin, Site Office, Toilet Cabin, Police Booth) are visually distinct product types — a compact guard booth, a large office cabin, and a toilet enclosure are recognisably different structures. `thumbnail_eligible: true`. `thumbnail_options: ["Security Guard Cabin", "Site Office Cabin", "Portable Toilet Cabin", "Police Booth"]`.
+
+2. **Insulation Type** — Agent 3 explicitly identifies insulation type (PUF / EPS / No Insulation) as a key differentiator. The buyer spec "Material" partially captures this (PVC PUF Panel implies PUF insulation) but does not cover EPS or No Insulation variants. However, "Material" in the buyer spec list semantically overlaps with insulation type — PVC PUF Panel = PUF insulated; Hollow PVC Panel = no insulation. Applying semantic harmonisation: Material already captures the insulation dimension. → **Do not flag** (semantic equivalent present).
+
+3. **Cabin Size / Dimensions** — "Area" in the buyer spec list captures floor area in sq ft. This is semantically equivalent to cabin size/dimensions. → **Do not flag** (semantic equivalent present).
+
+**Confirmed missing buyer specs:** Application / Cabin Type only.
+
+### Phase 4 — Image Upload Assessment
+
+**Assessment:** PVC Portable Cabins are catalogue products with defined size options and standard configurations. Sellers can respond accurately based on Area, Material, and Application type — no visual reference is needed. Custom dimensions are handled through text description (length x width x height). This is not a part-identification, custom-fabrication-from-drawing, or high-design-variability scenario.
+
+`image_upload_recommended: false`
+
+**Coverage verdict:** 1 missing spec → `partial`
+
+---
+
+## Step 7 — ISQ Thumbnail Prompts
+
+**Thumbnail-eligible specs from buyer_spec_audit:**
+- `top_rfq_specs`: Area → `thumbnail_eligible: false`; Material → `thumbnail_eligible: false`
+- `missing_important_specs`: Application (`would_be_rank: 1`, `thumbnail_eligible: true`, options: ["Security Guard Cabin", "Site Office Cabin", "Portable Toilet Cabin", "Police Booth"])
+
+4 prompts generated (one per Application option value):
+
+---
+
+## Final Output
+
+```json
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "High visual variation between sub-types (compact guard booth vs large site office vs toilet cabin). Buyers use the image to identify product type and assess build quality before reading any text — wrong type or poor build impression = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Cabin size is non-interchangeable — a buyer with a specific footprint requirement cannot substitute another size. Insulation type (PUF vs plain PVC) is the primary price-tier and climate-suitability gate."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "spec-driven price",
+      "reason": "Price varies substantially with cabin size and insulation type; Indian buyers actively compare prices across sellers once size and insulation tier are confirmed. Custom dimensions make price a critical shortlisting signal."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per piece",
+      "unit_note": "Standard fixed-size guard cabins (4x4, 6x6, 6x4 ft) are quoted per piece; custom-dimension site office cabins are quoted per sq ft by many manufacturers — this ambiguity is documented in the market and must be resolved on the listing for price comparison to be meaningful.",
+      "reason": "Per piece vs per sq ft is a real market ambiguity in this category. A buyer comparing prices across listings cannot make a valid comparison without knowing the unit basis."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No nationally recognised brand with buyer recall exists in this category; taxonomy siblings show no branded sub-categories and the Indian market is fragmented across regional fabricators.",
+      "reason": "Manufacturer vs trader distinction matters for installation capability, delivery reach, and after-sales support, but company ranks last because spec and price carry more weight in initial shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Cabin Size",
+        "reason": "Cabin size is the single largest price driver and is non-interchangeable — a 6x4 ft guard cabin and a 20x8 ft site office serve entirely different buyer requirements and cannot substitute for each other."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation Type",
+        "reason": "PUF-insulated vs plain PVC (no insulation) represents a significant price premium and is non-interchangeable for climate-sensitive applications — buyers in hot or cold climates specifically require insulated variants."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application",
+      "Cabin Size",
+      "Door Type",
+      "Features",
+      "Flooring Type",
+      "Installation Area",
+      "Insulation Type",
+      "Structure Material",
+      "Wall Panel",
+      "Window Type"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Wall Panel Thickness",
+        "why_important": "Panel thickness (e.g., 6mm vs 10mm PVC) is explicitly identified by Agent 3 as a key material differentiator affecting structural rigidity and price; buyers and sellers both reference it during specification, but the current Wall Panel spec captures only material type, not thickness.",
+        "source": "Agent 3 vision_output",
+        "example_values": ["6mm", "8mm", "10mm", "12mm"]
+      },
+      {
+        "spec_name": "Cabin Height",
+        "why_important": "Internal height determines whether a guard or worker can stand upright inside the cabin — a critical functional requirement not captured by the floor-area Cabin Size spec, and sellers need this to confirm structural feasibility for custom orders.",
+        "source": "LLM world knowledge",
+        "example_values": ["7 ft", "7.5 ft", "8 ft", "Custom"]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Area",
+        "reason": "Floor area directly communicates the buyer's size requirement, enabling sellers to confirm which cabin sizes they manufacture and to provide an accurate price — a seller who only makes compact guard cabins cannot supply a 200 sq ft site office.",
+        "thumbnail_eligible": false
+      },
+      {
+        "rank": 2,
+        "spec_name": "Material",
+        "reason": "PVC PUF Panel vs Hollow PVC Panel is a significant price and quality differentiator; sellers need this to confirm they stock or manufacture the required insulation variant and to quote accurately.",
+        "thumbnail_eligible": false
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Application",
+        "why_important": "Sellers need to know the intended application (security guard cabin, site office, toilet cabin, police booth) to confirm they supply the correct product type — a toilet cabin manufacturer cannot supply a site office, and this gates the entire product match before size becomes relevant.",
+        "source": "both",
+        "example_values": ["Security Guard Cabin", "Site Office Cabin", "Portable Toilet Cabin", "Police Booth"],
+        "would_be_rank": 1,
+        "thumbnail_eligible": true,
+        "thumbnail_options": ["Security Guard Cabin", "Site Office Cabin", "Portable Toilet Cabin", "Police Booth"]
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Application",
+      "option_value": "Security Guard Cabin",
+      "id": "spec_1",
+      "prompt_for_generation": "Compact PVC portable security guard cabin, approximately 6x4 ft, white PVC panel walls on MS tubular frame, single door with small window, placed at a gated entry checkpoint, daytime outdoor setting, clean neutral background, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Site Office Cabin",
+      "id": "spec_2",
+      "prompt_for_generation": "Large PVC portable site office cabin, approximately 20x8 ft, white PVC panel walls on MS frame, multiple windows and a door, placed at a construction site, daytime outdoor setting, clean neutral background, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Portable Toilet Cabin",
+      "id": "spec_3",
+      "prompt_for_generation": "Standalone PVC portable toilet cabin, compact single-unit enclosure with ventilation louvre and door handle, white and grey PVC panels, placed on flat ground at a construction site, daytime outdoor setting, clean neutral background, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Police Booth",
+      "id": "spec_4",
+      "prompt_for_generation": "PVC portable police booth cabin, compact structure approximately 6x6 ft, white and blue PVC panel walls on MS frame, single door and windows on multiple sides, placed at a road intersection or public area, daytime outdoor setting, clean neutral background, no branding or text.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
+```
