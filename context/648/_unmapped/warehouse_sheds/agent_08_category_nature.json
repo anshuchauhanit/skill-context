@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'Warehouse Sheds' maps to a well-bounded product concept — large prefabricated steel structures for industrial storage/logistics; all buyer_intent_queries and product_types share a coherent buyer profile (logistics companies, SME manufacturers, agro-processors needing covered storage), and Agent 3 named a confident, unhedged primary_segment ('PEB steel warehouse shed for industrial storage and logistics') with no hedging.",
+    "is_vague: 0 signals fire — the name resolves to one product purpose (covered storage shed for warehousing); siblings like 'Industrial Sheds', 'Prefabricated Factory Shed', and 'Tin Shed' carve out adjacent but compatible sub-types with no incompatible regulatory regime or buyer profile conflict (all are steel shed buyers in the same construction procurement context); listing_count of 6,293 confirms sufficient volume so is_thin is false."
+  ]
+}
