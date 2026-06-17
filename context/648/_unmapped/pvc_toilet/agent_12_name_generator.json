@@ -1,0 +1,66 @@
+{
+  "enhanced_name_4w": "PVC Prefab Toilet Cabin",
+  "enhanced_name_5w": "Readymade PVC Portable Toilet Cabin",
+  "enhanced_name_6w": "PVC Panel Readymade Portable Sanitation Cabin",
+  "enhanced_name_long": "Prefabricated PVC Toilet Cabin for Construction Sites, Events, and Rural Sanitation — Indian and Western Style",
+  "alt_names": {
+    "primary_keywords": [
+      "PVC toilet",
+      "plastic toilet",
+      "PVC toilet cabin",
+      "portable PVC toilet",
+      "readymade toilet",
+      "PVC bathroom cabin",
+      "plastic toilet cabin",
+      "prefabricated PVC toilet",
+      "PVC portable toilet cabin",
+      "modular PVC toilet cabin"
+    ],
+    "technical_synonyms": [
+      "prefabricated sanitation unit",
+      "PVC panel toilet structure",
+      "portable sanitation cabin",
+      "knock-down PVC toilet",
+      "plug-and-use toilet cabin",
+      "PVC toilet module",
+      "readymade sanitation cabin",
+      "PVC panel sanitation structure"
+    ],
+    "trade_names": [
+      "Sintex Sugam Toilet",
+      "Modcon PVC Toilet",
+      "JRMS Prefab Toilet",
+      "Pressmach Prefab Toilet"
+    ],
+    "hindi_terms": [
+      "PVC ka dabba",
+      "plastic shauchalay",
+      "readymade shauchalay",
+      "portable shauchalay",
+      "plastic toilet ghar"
+    ],
+    "buyer_intent_queries": [
+      "PVC toilet cabin for construction site",
+      "readymade portable toilet Indian style",
+      "plastic toilet cabin with water tank",
+      "prefabricated toilet for labour camp",
+      "portable PVC toilet for events",
+      "readymade toilet cabin western style",
+      "portable toilet for Swachh Bharat",
+      "PVC modular toilet block for school",
+      "ready to use toilet cabin with fittings",
+      "PVC toilet cabin for rural sanitation"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Bio-toilet segment (sibling: Bio Toilet, ID 119106) — buyers seeking biodigester-based waste treatment systems are a distinct buyer persona requiring biological treatment infrastructure; names implying bio-digester or biodigester functionality are excluded",
+    "FRP material segment (siblings: FRP Modular Toilet ID 126794, FRP Portable Toilet ID 145136) — buyers specifying FRP/fibre-reinforced plastic construction are a distinct material-preference segment; names leading with FRP or fiberglass as the primary material descriptor are excluded",
+    "MS/steel material segment (sibling: MS Portable Toilets ID 189105) — buyers specifying mild steel construction are a distinct segment; names leading with MS or steel as primary material are excluded",
+    "Mobile vehicle-mounted segment (siblings: Mobile Toilet Van ID 44109, Mobile Toilets ID 45789) — buyers seeking vehicle-mounted or truck-based mobile toilet units are a distinct use-context segment; names implying vehicle-mounted or on-wheels deployment are excluded",
+    "Sintex brand segment (sibling: Sintex Portable Toilets ID 182628) — Sintex Portolet is a PUF-panel branded product with its own MCAT; 'Sintex Portolet' trade name removed to avoid brand-segment collision",
+    "RCC/permanent construction segment (sibling: RCC Toilet ID 214584) — buyers seeking reinforced cement concrete permanent toilet structures are incompatible with PVC portable cabin buyers; RCC or concrete-construction names are excluded",
+    "Generic modular toilet segment (sibling: Modular Toilet ID 224049) — 'modular toilet' as a standalone name matches the sibling MCAT name exactly and is excluded from enhanced name candidates; retained only in alt_names with PVC qualifier"
+  ],
+  "segment_contamination_disclaimer": null
+}
