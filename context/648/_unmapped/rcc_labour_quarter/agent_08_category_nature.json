@@ -1,0 +1,12 @@
+{
+  "is_generic": false,
+  "is_specific": true,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": false,
+  "reason": [
+    "is_specific: 'RCC Labour Quarter' is tightly scoped to one product concept — precast reinforced concrete modular room units for site worker accommodation; buyer intent is homogeneous (construction/industrial contractors procuring labour housing) with no incompatible intent clusters observed across product_types or buyer_intent_queries.",
+    "is_vague: 0 signals fire — the name unambiguously resolves to one product category (precast RCC worker accommodation), Agent 3 named a confident unhedged primary_segment, all product_types share the same buyer profile (site labour housing procurer), and no sibling MCAT carves out an incompatible regulatory or buyer context from this MCAT."
+  ]
+}
