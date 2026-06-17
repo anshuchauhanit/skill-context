@@ -1,0 +1,12 @@
+{
+  "is_generic": true,
+  "is_specific": false,
+  "is_vague": false,
+  "is_thin": false,
+  "is_branded": false,
+  "is_service": true,
+  "reason": [
+    "is_generic: page covers 15 distinct product_types spanning metal sheet, clay tile, polycarbonate, PEB, RCC, bamboo, tensile, and waterproofing roofing — coherent buyer intent (someone commissioning or contracting roofing work) but a broad catch-all roll-up node with diffuse sub-type spread; is_service: listings are supply-and-erect contracts and on-site construction services, not physical goods sold standalone.",
+    "is_vague: 0 signals fire — 'Roof Works' resolves unambiguously to roofing construction/installation services; all buyer_intent_queries and product_types share the same purchase context (commissioning a roof); Agent 3 named a confident primary_segment without hedging; sibling MCATs (Roof Structural Fabrication Services, Roofing Sheet Fabrication, Industrial Shed Fabrication) carve out sub-tasks but do not introduce incompatible buyer profiles or regulatory regimes."
+  ]
+}
