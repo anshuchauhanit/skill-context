@@ -1,0 +1,264 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Roofing work has high visual sub-type variation — metal sheet vs tile vs polycarbonate vs PEB vs tensile fabric are visually distinct and non-interchangeable. Buyers scan images first to confirm the contractor works in their required roofing type; wrong type = immediate skip."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Roof material, service type (new/repair/waterproofing), service mode (labour+material vs labour only), and insulation type are primary shortlisting criteria — buyers eliminate listings that don't match their project requirement before contacting anyone."
+    },
+    {
+      "rank": 3,
+      "dimension": "price",
+      "level": "High",
+      "show": true,
+      "price_display_type": "project-based price with per sq ft indicative rate",
+      "reason": "Indian construction buyers are highly price-aggressive and compare per-sq-ft rates across contractors before shortlisting; even though final price is project-negotiated, a visible indicative rate is a primary engagement signal and absence causes buyers to skip to the next listing."
+    },
+    {
+      "rank": 4,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Sub-segments vary: MS structural fabrication is quoted per kg/tonne; full shed turnkey projects are quoted per project lump sum; material-only supply may be per sq metre. Per sq ft is the dominant buyer-facing unit for service/installation contracts and must be shown to enable price comparison.",
+      "reason": "Price cannot be compared across listings without knowing the unit — per sq ft vs per sq metre vs per project creates real confusion. Unit must be shown alongside price to prevent misreading."
+    },
+    {
+      "rank": 5,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant contractor brand with buyer recall exists in this category — market is fragmented across regional roofing contractors; buyers search by spec, location, and price, not by contractor name.",
+      "reason": "For larger industrial and institutional projects, buyers evaluate contractor track record, past project portfolio, and geographic service area during vendor selection — company matters but only after spec and price shortlisting."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Roof Material",
+        "reason": "Defines what the roofing system IS — metal sheet vs polycarbonate vs concrete vs UPVC are non-interchangeable and drive the largest price delta across all spec dimensions in this category."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Insulation",
+        "reason": "Insulated PUF/sandwich panel roofing commands a significant price premium over bare sheet roofing; buyers cannot substitute insulated for non-insulated and this spec drives the second-largest price delta within a given roof material type."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Application Area",
+      "Coating Type",
+      "Insulation",
+      "Location Service",
+      "Payment Terms",
+      "Roof Material",
+      "Roof Shape",
+      "Service Mode",
+      "Service Type",
+      "Sheet Thickness"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Roofing Area (sq ft)",
+        "why_important": "Project scale drives material quantity, labour cost, and per-sq-ft rate — sellers need the area to determine whether the project is within their operational capacity and to provide an accurate quote.",
+        "source": "both",
+        "example_values": [
+          "Up to 500 sq ft",
+          "500–2000 sq ft",
+          "2000–10000 sq ft",
+          "Above 10000 sq ft"
+        ]
+      },
+      {
+        "spec_name": "Structure Inclusion",
+        "why_important": "Whether the MS structural frame and purlins are included in scope (supply+erect vs roofing sheet fixing only) is a primary price and scope differentiator that sellers need to quote accurately.",
+        "source": "both",
+        "example_values": [
+          "Structure + Roofing",
+          "Roofing Only (on existing structure)",
+          "Roofing + Gutters + Accessories"
+        ]
+      }
+    ],
+    "coverage_verdict": "partial"
+  },
+  "buyer_spec_audit": {
+    "top_rfq_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Type of Roofing",
+        "reason": "Defines the roofing system the buyer needs — metal vs tile vs polycarbonate vs fiberglass are non-interchangeable and immediately route the RFQ to contractors with the relevant capability.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Metal Roofing",
+          "Tiles Roofing",
+          "Polycarbonate",
+          "Fiberglass Roofing",
+          "Slate Roofing"
+        ]
+      },
+      {
+        "rank": 2,
+        "spec_name": "Application",
+        "reason": "Building type determines structural load requirements, fire rating compliance, and project scale — sellers need this to confirm their capability and price the job accurately.",
+        "thumbnail_eligible": true,
+        "thumbnail_options": [
+          "Residential Buildings",
+          "Commercial Buildings",
+          "Industrial Buildings",
+          "Warehouse Buildings",
+          "Institutional Buildings"
+        ]
+      }
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Service Mode",
+        "why_important": "Sellers need to know whether the buyer wants labour+material supply or labour-only erection on buyer-supplied sheets — this fundamentally changes the scope, pricing, and which sellers can respond.",
+        "source": "both",
+        "example_values": [
+          "Labour + Material",
+          "Labour Only",
+          "Material Only",
+          "Turnkey (Structure + Roofing)"
+        ],
+        "would_be_rank": 2,
+        "thumbnail_eligible": false
+      }
+    ],
+    "coverage_verdict": "partial",
+    "image_upload_recommended": false
+  },
+  "buyer_spec_thumbnail_prompts": [
+    {
+      "attribute": "Type of Roofing",
+      "option_value": "Metal Roofing",
+      "id": "spec_1",
+      "prompt_for_generation": "Industrial shed with colour-coated metal sheet roofing (PPGI), pitched roof profile, corrugated panels in blue or grey, natural daylight, wide-angle exterior view showing full roof span, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Type of Roofing",
+      "option_value": "Tiles Roofing",
+      "id": "spec_2",
+      "prompt_for_generation": "Residential house with Mangalore clay tile roofing, terracotta red interlocking tiles, pitched roof, South Indian architectural style, natural daylight, exterior view showing full tiled roof surface, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Type of Roofing",
+      "option_value": "Polycarbonate",
+      "id": "spec_3",
+      "prompt_for_generation": "Car parking canopy or industrial skylight with translucent polycarbonate sheet roofing panels, natural light transmission visible through panels, MS structural frame support, exterior view, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Type of Roofing",
+      "option_value": "Fiberglass Roofing",
+      "id": "spec_4",
+      "prompt_for_generation": "Industrial shed or poultry farm with FRP fiberglass corrugated sheet roofing, semi-translucent greenish or white panels, pitched roof on MS frame, exterior view in natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Type of Roofing",
+      "option_value": "Slate Roofing",
+      "id": "spec_5",
+      "prompt_for_generation": "Residential or heritage building with natural slate tile roofing, dark grey overlapping slate panels, pitched roof, exterior view in natural daylight showing texture and layering of slate tiles, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Residential Buildings",
+      "id": "spec_6",
+      "prompt_for_generation": "Metal sheet roofing installation on a residential house, colour-coated PPGI panels on a sloped roof, suburban Indian home setting, exterior view in natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Commercial Buildings",
+      "id": "spec_7",
+      "prompt_for_generation": "Metal sheet roofing on a commercial building such as a showroom or office complex, colour-coated panels, modern architectural setting, exterior view in natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Industrial Buildings",
+      "id": "spec_8",
+      "prompt_for_generation": "Large industrial factory or manufacturing plant with metal sheet roofing, wide-span corrugated PPGI roof panels on PEB steel structure, exterior view showing full industrial scale, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Warehouse Buildings",
+      "id": "spec_9",
+      "prompt_for_generation": "Warehouse or logistics facility with colour-coated metal sheet roofing, large-span pitched roof, corrugated panels in grey or blue, exterior view showing full warehouse footprint, natural daylight, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "attribute": "Application",
+      "option_value": "Institutional Buildings",
+      "id": "spec_10",
+      "prompt_for_generation": "School, hospital, or government building with metal sheet roofing, colour-coated panels on a pitched institutional roof, exterior view in natural daylight, clean architectural setting, no people, no branding.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
