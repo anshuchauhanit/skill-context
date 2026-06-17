@@ -1,0 +1,65 @@
+{
+  "enhanced_name_4w": "Sintex Prefab Toilet Cabin",
+  "enhanced_name_5w": "Sintex FRP Prefab Toilet Cabin",
+  "enhanced_name_6w": "Sintex FRP Portable Toilet Cabin Unit",
+  "enhanced_name_long": "Sintex Branded FRP and PVC Prefabricated Portable Toilet Cabins for Construction Sites, Events and Government Sanitation Schemes",
+  "alt_names": {
+    "primary_keywords": [
+      "sintex portable toilet",
+      "sintex portable toilet cabin",
+      "sintex toilet cabin",
+      "readymade toilet cabin",
+      "portable toilet cabin",
+      "sintex readymade toilet",
+      "FRP portable toilet cabin",
+      "prefab toilet cabin",
+      "sintex toilet",
+      "portable bathroom cabin"
+    ],
+    "technical_synonyms": [
+      "FRP sanitation cabin",
+      "prefabricated toilet unit",
+      "modular portable toilet cabin",
+      "PVC portable toilet enclosure",
+      "prefab sanitation module",
+      "rotomoulded toilet block",
+      "knocked-down toilet cabin",
+      "portable toilet block"
+    ],
+    "trade_names": [
+      "Sintex Nirmal Toilet Block",
+      "Sintex Sugam Toilet",
+      "Sintex Portolet",
+      "Sintex Single Seater",
+      "Sintex Twin Seater",
+      "Saran Portable Toilet"
+    ],
+    "hindi_terms": [
+      "readymade shauchalay",
+      "portable shauchalay",
+      "sintex shauchalay"
+    ],
+    "buyer_intent_queries": [
+      "sintex portable toilet price list India",
+      "readymade toilet cabin for construction site",
+      "FRP portable toilet Indian type price",
+      "sintex portable toilet with bathroom",
+      "portable toilet cabin for events",
+      "sintex toilet cabin western type",
+      "portable toilet block for government project",
+      "sintex portable toilet single seater FRP",
+      "mobile toilet cabin for labour camp",
+      "sintex prefab toilet cabin for Swachh Bharat"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Vehicle-mounted mobile toilet van buyers (sibling: Mobile Toilet Van, ID 44109) — buyers seeking truck/vehicle-chassis-mounted toilet units are a distinct segment from buyers of static prefabricated cabin units; any name implying vehicle-mounted or towed mobility is blocked.",
+    "Bio-toilet with biodigester system buyers (sibling: Bio Toilet, ID 119106) — buyers specifically seeking DRDO-based biodigester-integrated toilet systems are a distinct procurement segment; names foregrounding 'bio toilet' as the primary descriptor are blocked to avoid routing to that sibling.",
+    "Toilet cubicle and partition buyers (siblings: Toilet Cubicles ID 42587, Toilet Partitions ID 42587) — buyers seeking internal washroom partition fittings or cubicle hardware are incompatible with buyers of complete self-contained portable cabin units; names implying internal partition or cubicle fitout are blocked.",
+    "MS/steel portable toilet buyers (sibling: MS Portable Toilets, ID 189105) — while steel-frame variants exist within this MCAT, names that foreground MS or steel as the primary material descriptor risk collision with the dedicated MS Portable Toilets sibling; steel-primary names are blocked.",
+    "RCC and PVC toilet buyers (siblings: RCC Toilet ID 214584, PVC Toilet ID 222823) — names foregrounding RCC or PVC as the sole primary descriptor are blocked to prevent collision with dedicated material-specific sibling MCATs.",
+    "FRP Modular Toilet and generic Modular Toilet buyers (siblings: FRP Modular Toilet ID 126794, Modular Toilet ID 224049) — names using 'FRP Modular Toilet' or 'Modular Toilet' as the complete name are blocked due to exact or near-exact sibling name collision; 'modular' may appear as a secondary qualifier only."
+  ],
+  "segment_contamination_disclaimer": null
+}
