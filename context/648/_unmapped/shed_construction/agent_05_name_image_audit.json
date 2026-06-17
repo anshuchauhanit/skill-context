@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Shed Construction' directly matches the primary keyword in Agent 3's alt_names and accurately describes the end-to-end construction service; market context confirms this is the dominant buyer search term in the Indian B2B segment.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "improvable",
+    "reason": [
+      "The image shows a steel-framed industrial shed under construction with visible columns, roof trusses, and corrugated cladding — correctly representing the primary segment (PEB/industrial factory shed construction).",
+      "However, the image is a low-resolution, cluttered construction-site photograph with debris, overcast lighting, and no clear finished structure, making it a weak commercial thumbnail; an AI-generated clean render of a completed PEB industrial shed would significantly improve buyer confidence and visual appeal."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "Photorealistic 1:1 square image of a completed large-span Pre-Engineered Building (PEB) industrial factory shed, exterior view, featuring grey and blue colour-coated corrugated steel roof and wall cladding panels, visible primary steel portal frame columns and rafters, wide clear-span open bay, clean concrete apron in foreground, bright natural daylight, plain white or light sky-blue background, sharp professional product photography style, no people, no debris, no text overlays.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
