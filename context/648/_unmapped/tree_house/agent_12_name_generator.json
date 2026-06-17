@@ -1,0 +1,61 @@
+{
+  "enhanced_name_4w": "Elevated Wooden Tree House",
+  "enhanced_name_5w": "Eco Resort Wooden Tree House",
+  "enhanced_name_6w": "Prefab Wooden Tree House for Resorts",
+  "enhanced_name_long": "Custom-Built and Prefabricated Elevated Wooden Tree Houses for Eco-Tourism Resorts, Farmhouses, and Hospitality Properties",
+  "alt_names": {
+    "primary_keywords": [
+      "tree house",
+      "treehouse",
+      "tree house construction",
+      "prefabricated tree house",
+      "wooden tree house",
+      "tree house for resort",
+      "tree house for kids",
+      "bamboo tree house",
+      "modular tree house",
+      "tree house cabin"
+    ],
+    "technical_synonyms": [
+      "arboreal structure",
+      "elevated wooden structure",
+      "stilt-supported tree house",
+      "tree-supported elevated cabin",
+      "prefab tree house unit",
+      "modular elevated cabin",
+      "canopy house"
+    ],
+    "trade_names": [
+      "tree house cottage",
+      "eco tree house",
+      "nature house",
+      "forest cabin",
+      "jungle cabin",
+      "tree top cabin",
+      "tree top room",
+      "machaan house"
+    ],
+    "hindi_terms": [
+      "ped par ghar",
+      "ped ghar",
+      "jungle ghar"
+    ],
+    "buyer_intent_queries": [
+      "tree house construction for resort in India",
+      "prefabricated tree house for farmhouse",
+      "wooden tree house builders near me",
+      "tree house for kids play area",
+      "eco friendly tree house for eco tourism",
+      "modular tree house price per sq ft",
+      "bamboo tree house construction India",
+      "tree house cottage for resort project",
+      "turnkey tree house construction service"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Pet furniture buyers searching 'cat tree house' or 'cat condo' — these are pet product buyers, not construction/hospitality buyers; any name or alt-name term that primarily attracts pet-product intent (cat tree, cat condo, pet tower) is discarded",
+    "Generic residential house construction buyers attracted by plain terms like 'wooden house', 'prefabricated wooden house', or 'log home' — these map to sibling MCATs (Wooden House ID 41490, Prefabricated Wooden House ID 88198, Log Homes ID 32367) and represent a different buyer persona (permanent residential construction vs elevated leisure/hospitality structure); names that could be mistaken for those sibling categories are discarded or qualified with elevation/eco-tourism context"
+  ],
+  "segment_contamination_disclaimer": null
+}
