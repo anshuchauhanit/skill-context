@@ -1,0 +1,108 @@
+{
+  "importance_ranking": [
+    {
+      "rank": 1,
+      "dimension": "image",
+      "level": "High",
+      "show": true,
+      "reason": "Tensile structure design is a visually-driven purchase — buyers scan images to confirm the structure type (hypar, conical, barrel vault, canopy), aesthetic quality, and finish before reading any text. High visual variation across sub-types means wrong image = immediate skip; a car parking canopy buyer will not engage with a stadium roof listing."
+    },
+    {
+      "rank": 2,
+      "dimension": "specification",
+      "level": "High",
+      "show": true,
+      "show_on_listing": true,
+      "reason": "Buyers shortlist providers based on membrane material (PVC vs PTFE vs PVDF), structure type, and service scope (design-only vs turnkey) before contacting — these specs determine technical fit and budget tier. Without visible specs, buyers cannot determine whether the provider can deliver their specific project requirement."
+    },
+    {
+      "rank": 3,
+      "dimension": "company",
+      "level": "Medium",
+      "show": true,
+      "brand_important": "no",
+      "brand_important_reason": "No dominant nationally recognised brand with buyer recall exists in this fragmented market — buyers search by capability, portfolio, and geography rather than by company name.",
+      "reason": "For a high-value, project-based service, buyers evaluate provider track record, portfolio of completed projects, certifications (IS code compliance, structural engineering credentials), and geographic service reach during vendor shortlisting — company signals matter but rank below visual and spec fit."
+    },
+    {
+      "rank": 4,
+      "dimension": "price",
+      "level": "Medium",
+      "show": true,
+      "price_display_type": "project-based price",
+      "reason": "Every tensile structure project is custom-quoted per sq ft based on membrane material, structure complexity, area, and site conditions — no fixed list price exists and final pricing is always negotiated. Indian buyers are price-sensitive but cannot compare prices meaningfully across listings without spec equivalence; price is a budget-entry sanity check, not a primary shortlisting signal."
+    },
+    {
+      "rank": 5,
+      "dimension": "unit",
+      "level": "High",
+      "show": true,
+      "canonical_unit": "per sq ft",
+      "unit_note": "Large institutional/stadium projects may quote per sq mt or lump-sum; small bespoke entry canopies may quote per project — but per sq ft is the dominant unit across the Indian market and must be shown to enable any price comparison.",
+      "reason": "Per sq ft vs per sq mt vs per project creates real price comparison confusion in this category — buyers cannot interpret or compare any quoted price without knowing the unit basis, making unit display essential alongside any price indication."
+    }
+  ],
+  "seller_spec_audit": {
+    "top_configurator_specs": [
+      {
+        "rank": 1,
+        "spec_name": "Material",
+        "reason": "Membrane material (PVC vs PTFE vs PVDF vs HDPE) is the single largest price driver in tensile structure projects — PTFE commands a 3–5x premium over PVC and is non-interchangeable for fire-rated or long-lifespan applications, making it the primary product-class separator."
+      },
+      {
+        "rank": 2,
+        "spec_name": "Structure Type",
+        "reason": "Structure geometry (hypar, conical, barrel vault, canopy, skylight) determines fabrication complexity, steel framework design, and engineering effort — a hypar or conical form requires significantly more design and fabrication cost than a flat canopy, and buyers cannot substitute one form for another."
+      }
+    ],
+    "specs_in_seller_list": [
+      "Built Type",
+      "Design Standard",
+      "Material",
+      "Minimum Area",
+      "Service For",
+      "Service Location",
+      "Service Mode",
+      "Site Visit",
+      "Structure Type",
+      "Usage"
+    ],
+    "missing_important_specs": [
+      {
+        "spec_name": "Membrane Lifespan / Warranty",
+        "why_important": "Buyers evaluating PVC vs PTFE vs PVDF membranes make purchase decisions heavily on expected service life (10–15 years vs 30–35 years) and warranty terms — this is a primary differentiator between material tiers that is absent from the current spec list.",
+        "source": "both",
+        "example_values": [
+          "10 Years",
+          "15 Years",
+          "25 Years",
+          "30+ Years"
+        ]
+      },
+      {
+        "spec_name": "Fire Rating / Flame Retardancy",
+        "why_important": "Government, institutional, and hospitality buyers (PWD, CPWD, hotels, malls) require fire-rated membranes (Class B1 or Class A / non-combustible PTFE) as a compliance prerequisite — absence of this spec forces buyers to contact every provider individually to confirm eligibility.",
+        "source": "both",
+        "example_values": [
+          "Class B1 Flame Retardant",
+          "Class A Non-Combustible",
+          "Standard (No Rating)",
+          "ASTM E84 Class A"
+        ]
+      },
+      {
+        "spec_name": "Project Completion Timeline",
+        "why_important": "Buyers with fixed inauguration dates, event deadlines, or construction schedules use delivery timeline as a hard shortlisting criterion — providers who cannot commit to a timeline are eliminated before contact.",
+        "source": "LLM world knowledge",
+        "example_values": [
+          "Up to 15 Days",
+          "15–30 Days",
+          "30–60 Days",
+          "60+ Days"
+        ]
+      }
+    ],
+    "coverage_verdict": "significant_gaps"
+  },
+  "buyer_spec_audit": null
+}
