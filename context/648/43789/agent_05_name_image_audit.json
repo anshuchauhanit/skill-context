@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "\"Wooden Cabins\" directly matches the top primary_keyword and is the dominant trade search term confirmed across alt_names and market_context; no more precise single-term name better covers the full product_types range (portable site cabin through resort cottage) without over-narrowing.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image shows a real horizontal-timber-clad prefabricated wooden cabin with large glazed sliding doors and a wooden deck — correctly representing the primary segment (prefabricated wooden cabin for resort/hospitality and residential use).",
+      "Improvement is possible: the background shows an industrial corrugated-metal wall which reduces aspirational appeal for the hospitality/resort buyer segment; a natural or neutral backdrop would better communicate the product's end-use context."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A standalone prefabricated wooden resort cabin with horizontal pine timber cladding, large UPVC sliding glass doors, a small wooden deck with railing, set against a lush green hillside or forest backdrop under soft natural daylight. Warm honey-brown wood tones, clean modern lines, slight elevation on timber stilts, no people, no text, square 1:1 composition, photorealistic product-catalogue style, white or very light neutral ground plane in foreground.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
