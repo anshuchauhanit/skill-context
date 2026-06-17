@@ -1,0 +1,69 @@
+{
+  "enhanced_name_4w": "Prefab Timber Cottage House",
+  "enhanced_name_5w": "Prefab Wooden Cottage for Eco Resorts",
+  "enhanced_name_6w": "Readymade Timber Frame Cabin for Resorts",
+  "enhanced_name_long": "Prefabricated Wooden Houses and Timber Frame Cabins for Eco-Resorts, Glamping, Farmhouses and Hill-Station Cottages",
+  "alt_names": {
+    "primary_keywords": [
+      "prefabricated wooden house",
+      "prefab wooden house",
+      "wooden cottage",
+      "wooden cabin",
+      "wooden farmhouse",
+      "readymade wooden house",
+      "modular wooden home",
+      "prefab log home",
+      "wooden resort cottage",
+      "timber prefab house"
+    ],
+    "technical_synonyms": [
+      "timber frame prefab structure",
+      "panelised timber house",
+      "structural insulated panel wooden house",
+      "post and beam wooden home",
+      "engineered wood prefab house",
+      "offsite timber construction",
+      "kit wooden house",
+      "log home construction"
+    ],
+    "trade_names": [
+      "SPF wood house",
+      "Canadian pine prefab home",
+      "Arctic Pine log home",
+      "PEFC certified timber house",
+      "FSC wood cabin",
+      "A-frame cabin",
+      "glamping pod",
+      "eco-resort cabin"
+    ],
+    "hindi_terms": [
+      "lakdi ka ghar",
+      "dastari ghar",
+      "plywood ka ghar",
+      "prefabricated lakdi ghar",
+      "taiyar lakdi makaan"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated wooden house for resort",
+      "readymade wooden house for resort",
+      "wooden cottage manufacturer India",
+      "log cabin for hill station India",
+      "prefab wooden house for farmhouse",
+      "glamping pod wooden cabin India",
+      "wooden house kit for self assembly",
+      "eco resort wooden cottage supplier",
+      "modular wooden villa for hospitality",
+      "prefab timber cabin for rooftop"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "Guard/security hut buyers (small utilitarian sentry structures for industrial/residential security use) — incompatible with residential/hospitality wooden house buyers; discard: guard hut, sentry cabin, security post",
+    "Bunkhouse/labour camp buyers (low-cost dormitory accommodation for construction workers or industrial labour) — incompatible with eco-resort and residential wooden house buyers; discard: bunkhouse, labour camp cabin, worker dormitory",
+    "Steel/metal/concrete prefab house buyers (non-wood material preference) — incompatible with timber-specific buyers; discard: steel cabin, metal prefab, concrete prefab",
+    "Bamboo hut buyers (natural bamboo construction, distinct material and buyer segment from engineered timber) — discard: bamboo hut, bamboo cabin",
+    "Portable/relocatable non-wood structure buyers (MS portable house, container home) — incompatible with permanent or semi-permanent timber construction buyers; discard: MS portable, container home, mild steel cabin",
+    "Tree house buyers (elevated arboreal structure, distinct niche carved out by sibling 'Tree House' MCAT) — discard: treehouse, tree house, tree cabin"
+  ],
+  "segment_contamination_disclaimer": null
+}
