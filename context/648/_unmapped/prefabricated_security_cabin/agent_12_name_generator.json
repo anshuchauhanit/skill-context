@@ -1,0 +1,65 @@
+{
+  "enhanced_name_4w": "Prefab Guard Security Cabin",
+  "enhanced_name_5w": "Prefab PUF Panel Guard Cabin",
+  "enhanced_name_6w": "Prefab Insulated Security Guard Post Cabin",
+  "enhanced_name_long": "Prefabricated PUF Sandwich Panel Security Cabin for Factory Gates, Warehouses, Housing Societies and Industrial Sites",
+  "alt_names": {
+    "primary_keywords": [
+      "security cabin",
+      "guard cabin",
+      "prefab security cabin",
+      "portable security cabin",
+      "security guard cabin",
+      "prefabricated guard room",
+      "portable guard room",
+      "watchman cabin",
+      "guard room cabin",
+      "security post cabin"
+    ],
+    "technical_synonyms": [
+      "PUF panel security cabin",
+      "sandwich panel guard cabin",
+      "modular security cabin",
+      "GI sheet security cabin",
+      "MS frame security cabin",
+      "insulated security cabin",
+      "porta cabin security booth",
+      "SKD security cabin",
+      "cement fibre board guard cabin"
+    ],
+    "trade_names": [
+      "EPACK security cabin",
+      "Pressmach security cabin",
+      "UNO Structures security cabin",
+      "Niko Prefab guard cabin",
+      "Zigma Cabin security booth",
+      "Everest Composites security cabin"
+    ],
+    "hindi_terms": [
+      "gadroom",
+      "security chowki",
+      "chaukidar cabin",
+      "guard chowki"
+    ],
+    "buyer_intent_queries": [
+      "prefabricated security cabin for factory gate",
+      "portable guard room for construction site",
+      "PUF panel security cabin custom size",
+      "readymade security cabin for housing society",
+      "prefab guard room post single guard",
+      "GI portable cabin for security guard",
+      "prefabricated watchman cabin custom size",
+      "security cabin manufacturer India",
+      "modular guard room for warehouse",
+      "cement panel guard cabin for office"
+    ]
+  },
+  "segment_contamination_active": true,
+  "segment_contamination_dimensions": [
+    "FRP-only security cabin buyers are carved out by sibling MCAT 'FRP Portable Security Cabin' (ID: 145135) — names that exclusively signal FRP material construction are discarded to avoid attracting that sibling's buyer segment; the term 'FRP guard cabin' has been removed from technical_synonyms accordingly",
+    "MS-frame-only security cabin buyers are carved out by sibling MCAT 'MS Security Cabins' (ID: 150853) — names exclusively signalling MS/mild steel construction as the defining attribute are discarded; 'MS frame security cabin' is retained only as a technical synonym describing construction detail, not as a primary name candidate",
+    "General non-security prefabricated cabin buyers are carved out by siblings 'Prefabricated Cabin' (ID: 135712) and 'Portable Cabin' (ID: 35400) — enhanced name candidates without a security/guard qualifier were discarded to avoid attracting buyers seeking office, accommodation, or general-purpose prefab cabins",
+    "Portable-security-cabin buyers without the prefabricated qualifier are carved out by sibling 'Portable Security Cabins' (ID: 135705) — all enhanced name candidates retain the 'prefab' or 'prefabricated' qualifier to maintain differentiation from that sibling's buyer segment"
+  ],
+  "segment_contamination_disclaimer": null
+}
