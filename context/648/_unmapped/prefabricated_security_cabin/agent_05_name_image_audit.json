@@ -1,0 +1,27 @@
+{
+  "mcat_name_audit": {
+    "verdict": "correct",
+    "reason": "The name 'Prefabricated Security Cabin' directly matches the top primary keyword ('prefab security cabin', 'security cabin') and technical synonyms in Agent 3 alt_names, and aligns with market naming norms used by EPACK, Niko Prefab, and Pressmach.",
+    "suggested_name": null
+  },
+  "thumbnail_audit": {
+    "current_thumbnail_correct": true,
+    "improvement_potential": "good",
+    "reason": [
+      "The image clearly shows a compact, single-guard prefabricated security cabin with horizontal panel cladding, a swing door, sliding window, and sloped roof — accurately representing the primary segment (PUF sandwich panel guard post for single/double guard deployment).",
+      "Improvement is possible: the outdoor background includes utility poles and a construction-site setting that adds visual clutter; a cleaner white-background studio-style shot or a neat factory-gate deployment context would better highlight product quality and panel construction details for B2B buyers."
+    ]
+  },
+  "mcat_image_suggestions": [
+    {
+      "id": 1,
+      "prompt_for_generation": "A compact prefabricated security guard cabin for single guard deployment, PUF sandwich panel wall construction with cream/off-white horizontal panel cladding, dark brown swing door with small window pane, white UPVC sliding window on the side, red or grey sloped metal roof with overhang, mild steel base frame with two entry steps, placed on a clean concrete surface against a plain white studio background, front three-quarter view, sharp product photography lighting, no people, no clutter, photorealistic render.",
+      "watermark": {
+        "position": "bottom-right",
+        "text": "IndiaMART AI",
+        "applied": true,
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}
